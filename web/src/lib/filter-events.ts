@@ -28,19 +28,86 @@ export const DATE_PRESETS = [
   { label: "Next year", days: 365 },
 ] as const;
 
+/**
+ * Every list facet is tri-state per value: off, included, or excluded.
+ *
+ * "Anything that isn't cinema" is a question people genuinely ask, and
+ * checkboxes cannot express it — ticking the other fifteen categories is not
+ * the same answer, because it also drops everything uncategorised and has to be
+ * redone whenever a category appears.
+ */
+export type TriState = "off" | "include" | "exclude";
+
+export interface Facet {
+  include: string[];
+  exclude: string[];
+}
+
+export const EMPTY_FACET: Facet = { include: [], exclude: [] };
+
+export function stateOfValue(facet: Facet, value: string): TriState {
+  if (facet.include.includes(value)) return "include";
+  if (facet.exclude.includes(value)) return "exclude";
+  return "off";
+}
+
+/**
+ * Put a value into a given state, removing it from the other list.
+ *
+ * A value can never be in both lists — the UI offers a + and a − and either
+ * replaces the other, so the impossible combination is not representable.
+ */
+export function withState(facet: Facet, value: string, next: TriState): Facet {
+  const include = facet.include.filter((v) => v !== value);
+  const exclude = facet.exclude.filter((v) => v !== value);
+  if (next === "include") return { include: [...include, value], exclude };
+  if (next === "exclude") return { include, exclude: [...exclude, value] };
+  return { include, exclude };
+}
+
+/** Pressing the button a value is already in clears it. */
+export function toggleState(facet: Facet, value: string, pressed: TriState): Facet {
+  return withState(facet, value, stateOfValue(facet, value) === pressed ? "off" : pressed);
+}
+
+export function facetCount(facet: Facet): number {
+  return facet.include.length + facet.exclude.length;
+}
+
+/**
+ * Does an event's values satisfy a facet?
+ *
+ * Exclusion wins over inclusion: an event matching both an included and an
+ * excluded value is dropped. That is the intuitive reading — "comedy, but not
+ * late-night" should not return the late-night comedy.
+ */
+export function facetPasses(values: (string | undefined)[], facet: Facet): boolean {
+  const present = values.filter((v): v is string => Boolean(v));
+  if (facet.exclude.some((v) => present.includes(v))) return false;
+  if (facet.include.length > 0 && !facet.include.some((v) => present.includes(v))) return false;
+  return true;
+}
+
+export const PRICE_OPTIONS = [
+  { value: "any", label: "Any price" },
+  { value: "free", label: "Free only" },
+  { value: "paid", label: "Ticketed only" },
+] as const;
+
+export type PriceFilter = (typeof PRICE_OPTIONS)[number]["value"];
+
 export interface Filters {
   q: string;
-  categories: string[];
-  areas: string[];
-  /** Event-level tags. Matches any selected tag, like the other facets. */
-  tags: string[];
+  categories: Facet;
+  areas: Facet;
+  tags: Facet;
   /** Inclusive ISO date bounds. Absent means unbounded on that side. */
   from?: string;
   to?: string;
   /** Only things happening on the snapshot's as-of date. */
   onNow: boolean;
   sort: Sort;
-  freeOnly: boolean;
+  price: PriceFilter;
   /** Events the source has stopped listing but which have not happened yet. */
   includeCarried: boolean;
   includeFinished: boolean;
@@ -48,12 +115,12 @@ export interface Filters {
 
 export const DEFAULT_FILTERS: Filters = {
   q: "",
-  categories: [],
-  areas: [],
-  tags: [],
+  categories: EMPTY_FACET,
+  areas: EMPTY_FACET,
+  tags: EMPTY_FACET,
   onNow: false,
   sort: "date",
-  freeOnly: false,
+  price: "any",
   includeCarried: true,
   includeFinished: false,
 };
@@ -61,12 +128,12 @@ export const DEFAULT_FILTERS: Filters = {
 export function activeFilterCount(filters: Filters): number {
   let n = 0;
   if (filters.q) n += 1;
-  n += filters.categories.length;
-  n += filters.areas.length;
-  n += filters.tags.length;
+  n += facetCount(filters.categories);
+  n += facetCount(filters.areas);
+  n += facetCount(filters.tags);
   if (filters.onNow) n += 1;
   if (filters.from || filters.to) n += 1;
-  if (filters.freeOnly) n += 1;
+  if (filters.price !== "any") n += 1;
   if (!filters.includeCarried) n += 1;
   if (filters.includeFinished) n += 1;
   return n;
@@ -110,10 +177,15 @@ export function applyFilters(events: SnapshotEvent[], filters: Filters, asOf: st
   const filtered = events.filter((event) => {
     if (event.state === "finished" && !filters.includeFinished) return false;
     if (event.state === "carried" && !filters.includeCarried) return false;
-    if (filters.categories.length > 0 && !filters.categories.includes(event.category)) return false;
-    if (filters.areas.length > 0 && !(event.area && filters.areas.includes(event.area))) return false;
-    if (filters.tags.length > 0 && !event.tags.some((tag) => filters.tags.includes(tag))) return false;
-    if (filters.freeOnly && !event.price?.free) return false;
+
+    if (!facetPasses([event.category], filters.categories)) return false;
+    if (!facetPasses([event.area], filters.areas)) return false;
+    if (!facetPasses(event.tags, filters.tags)) return false;
+
+    if (filters.price === "free" && !event.price?.free) return false;
+    // "Ticketed" means known to cost money, not merely "not marked free" — an
+    // event with no price information should not be asserted to be either.
+    if (filters.price === "paid" && event.price?.free !== false) return false;
     if (filters.onNow && !isOnNow(event, asOf)) return false;
 
     if (filters.from || filters.to) {

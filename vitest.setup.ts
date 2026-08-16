@@ -29,3 +29,29 @@ if (typeof window !== "undefined" && !globalThis.localStorage) {
     Object.defineProperty(target, "localStorage", { value: storage, configurable: true, writable: true });
   }
 }
+
+/**
+ * jsdom implements no layout, so it ships neither `ResizeObserver` nor
+ * `DOMRect.fromRect` — both of which Radix's popper uses to place floating
+ * content. Without them, opening a tooltip or popover throws and takes the
+ * component tree down with it, which looks exactly like a broken component.
+ *
+ * A no-op observer is the right shim: these tests assert behaviour and
+ * accessibility, not pixel positions.
+ */
+if (typeof window !== "undefined" && !("ResizeObserver" in globalThis)) {
+  class ResizeObserverStub {
+    observe() {}
+    unobserve() {}
+    disconnect() {}
+  }
+  Object.defineProperty(globalThis, "ResizeObserver", {
+    value: ResizeObserverStub,
+    configurable: true,
+    writable: true,
+  });
+}
+
+if (typeof window !== "undefined" && !Element.prototype.scrollIntoView) {
+  Element.prototype.scrollIntoView = () => {};
+}

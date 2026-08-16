@@ -1,6 +1,5 @@
 import { Search, SlidersHorizontal } from "lucide-react";
 import { Link } from "react-router-dom";
-import { ThemeToggle } from "@/components/theme-toggle";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { InputGroup, InputGroupAddon, InputGroupInput } from "@/components/ui/input-group";
@@ -78,8 +77,6 @@ export function SiteHeader({
             {filterSlot}
           </SheetContent>
         </Sheet>
-
-        <ThemeToggle />
       </div>
     </header>
   );

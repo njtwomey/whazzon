@@ -106,9 +106,11 @@ export function DateRangeFilter({
               numberOfMonths={1}
               onSelect={(next) => {
                 update({ from: toIso(next?.from), to: toIso(next?.to) });
-                // Kept open until both ends are chosen — closing on the first
-                // click would make picking a range impossible.
-                if (next?.from && next?.to) setOpen(false);
+                // Never close on a day click. react-day-picker reports a range
+                // as complete from the very first click — `to` is set equal to
+                // `from` — so closing on "both ends chosen" shut the popover
+                // immediately and made picking a range impossible. The popover
+                // closes on click-away, which is what people expect anyway.
               }}
             />
           </div>

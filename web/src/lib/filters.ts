@@ -1,6 +1,6 @@
 import * as React from "react";
 import { useSearchParams } from "react-router-dom";
-import type { Filters, Sort } from "./filter-events";
+import type { Facet, Filters, PriceFilter, Sort } from "./filter-events";
 
 /**
  * Filter state lives in the URL, not in component state, so any view a person
@@ -12,20 +12,38 @@ import type { Filters, Sort } from "./filter-events";
  */
 export * from "./filter-events";
 
+/**
+ * A facet reads as `?category=theatre&category=-cinema` — a leading minus means
+ * exclude. Two parallel parameters would work too, but this keeps a shared link
+ * legible, and it reads the way people already write search queries.
+ */
+function readFacet(params: URLSearchParams, key: string): Facet {
+  const values = params.getAll(key);
+  return {
+    include: values.filter((v) => !v.startsWith("-")),
+    exclude: values.filter((v) => v.startsWith("-")).map((v) => v.slice(1)),
+  };
+}
+
+function writeFacet(search: URLSearchParams, key: string, facet: Facet): void {
+  for (const value of facet.include) search.append(key, value);
+  for (const value of facet.exclude) search.append(key, `-${value}`);
+}
+
 export function useFilters(): [Filters, (patch: Partial<Filters>) => void, () => void] {
   const [params, setParams] = useSearchParams();
 
   const filters = React.useMemo<Filters>(
     () => ({
       q: params.get("q") ?? "",
-      categories: params.getAll("category"),
-      areas: params.getAll("area"),
-      tags: params.getAll("tag"),
-      onNow: params.get("now") === "1",
+      categories: readFacet(params, "category"),
+      areas: readFacet(params, "area"),
+      tags: readFacet(params, "tag"),
       from: params.get("from") ?? undefined,
       to: params.get("to") ?? undefined,
+      onNow: params.get("now") === "1",
       sort: (params.get("sort") as Sort) ?? "date",
-      freeOnly: params.get("free") === "1",
+      price: (params.get("price") as PriceFilter) ?? "any",
       includeCarried: params.get("carried") !== "0",
       includeFinished: params.get("finished") === "1",
     }),
@@ -37,14 +55,14 @@ export function useFilters(): [Filters, (patch: Partial<Filters>) => void, () =>
       const next = { ...filters, ...patch };
       const search = new URLSearchParams();
       if (next.q) search.set("q", next.q);
-      for (const category of next.categories) search.append("category", category);
-      for (const area of next.areas) search.append("area", area);
-      for (const tag of next.tags) search.append("tag", tag);
+      writeFacet(search, "category", next.categories);
+      writeFacet(search, "area", next.areas);
+      writeFacet(search, "tag", next.tags);
       if (next.onNow) search.set("now", "1");
       if (next.from) search.set("from", next.from);
       if (next.to) search.set("to", next.to);
       if (next.sort !== "date") search.set("sort", next.sort);
-      if (next.freeOnly) search.set("free", "1");
+      if (next.price !== "any") search.set("price", next.price);
       if (!next.includeCarried) search.set("carried", "0");
       if (next.includeFinished) search.set("finished", "1");
       setParams(search, { replace: true });

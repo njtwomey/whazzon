@@ -1,5 +1,14 @@
 import { describe, expect, it } from "vitest";
-import { applyFilters, DEFAULT_FILTERS, isOnNow, matchedPreset, type Filters } from "./filter-events";
+import {
+  applyFilters,
+  withState,
+  DEFAULT_FILTERS,
+  EMPTY_FACET,
+  isOnNow,
+  matchedPreset,
+  stateOfValue,
+  type Filters,
+} from "./filter-events";
 import type { SnapshotEvent } from "./types";
 
 /**
@@ -109,16 +118,71 @@ describe("on now", () => {
   });
 });
 
+describe("tri-state facets", () => {
+  const comedy = event({ id: "comedy", category: "comedy", tags: ["stand-up", "late-night"] });
+  const cinema = event({ id: "cinema", category: "cinema", tags: ["arthouse"] });
+  const theatre = event({ id: "theatre", category: "theatre", tags: ["drama"] });
+  const all = [comedy, cinema, theatre];
+
+  it("excludes a value, keeping everything else", () => {
+    // The case this exists for: "anything that isn't cinema".
+    const f = filters({ categories: { include: [], exclude: ["cinema"] } });
+    expect(ids(applyFilters(all, f, ASOF))).toEqual(["comedy", "theatre"]);
+  });
+
+  it("lets exclusion win over inclusion", () => {
+    // "comedy, but not late-night" must not return the late-night comedy.
+    const f = filters({
+      categories: { include: ["comedy"], exclude: [] },
+      tags: { include: [], exclude: ["late-night"] },
+    });
+    expect(applyFilters(all, f, ASOF)).toHaveLength(0);
+  });
+
+  it("combines include on one facet with exclude on another", () => {
+    const f = filters({
+      categories: { include: ["comedy", "cinema"], exclude: [] },
+      tags: { include: [], exclude: ["arthouse"] },
+    });
+    expect(ids(applyFilters(all, f, ASOF))).toEqual(["comedy"]);
+  });
+
+  it("reaches every state directly, in any order", () => {
+    let facet = EMPTY_FACET;
+    expect(stateOfValue(facet, "cinema")).toBe("off");
+    facet = withState(facet, "cinema", "include");
+    expect(stateOfValue(facet, "cinema")).toBe("include");
+    // Straight from include to exclude, without passing through off.
+    facet = withState(facet, "cinema", "exclude");
+    expect(stateOfValue(facet, "cinema")).toBe("exclude");
+    facet = withState(facet, "cinema", "off");
+    expect(stateOfValue(facet, "cinema")).toBe("off");
+  });
+
+  it("never has a value in both lists at once", () => {
+    const facet = withState(withState(EMPTY_FACET, "cinema", "include"), "cinema", "exclude");
+    expect(facet.include).not.toContain("cinema");
+    expect(facet.exclude).toEqual(["cinema"]);
+  });
+});
+
 describe("facets", () => {
   const free = event({ id: "free", tags: ["free-entry", "family"], price: { free: true } });
   const paid = event({ id: "paid", tags: ["jazz"], price: { free: false, min: 12 } });
 
-  it("matches any selected tag, not all of them", () => {
-    expect(ids(applyFilters([free, paid], filters({ tags: ["jazz", "family"] }), ASOF))).toEqual(["free", "paid"]);
+  it("matches any included tag, not all of them", () => {
+    const f = filters({ tags: { include: ["jazz", "family"], exclude: [] } });
+    expect(ids(applyFilters([free, paid], f, ASOF))).toEqual(["free", "paid"]);
   });
 
   it("filters to free events only when asked", () => {
-    expect(ids(applyFilters([free, paid], filters({ freeOnly: true }), ASOF))).toEqual(["free"]);
+    expect(ids(applyFilters([free, paid], filters({ price: "free" }), ASOF))).toEqual(["free"]);
+  });
+
+  it("filters to ticketed events, and does not assume unpriced events cost money", () => {
+    const unknown = event({ id: "unknown" });
+    const result = ids(applyFilters([free, paid, unknown], filters({ price: "paid" }), ASOF));
+    expect(result).toEqual(["paid"]);
   });
 
   it("hides carried events when they are switched off", () => {

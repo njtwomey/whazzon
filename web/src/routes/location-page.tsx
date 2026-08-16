@@ -11,7 +11,7 @@ import { Empty, EmptyDescription, EmptyHeader, EmptyMedia, EmptyTitle } from "@/
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Skeleton } from "@/components/ui/skeleton";
 import { useDensity } from "@/lib/density";
-import { activeFilterCount, applyFilters, useFilters } from "@/lib/filters";
+import { activeFilterCount, applyFilters, EMPTY_FACET, useFilters } from "@/lib/filters";
 import { useSnapshot } from "@/lib/snapshot";
 import type { SnapshotEvent } from "@/lib/types";
 
@@ -38,7 +38,7 @@ export function LocationPage() {
   // A category in the path behaves exactly like a category filter, so /theatre
   // and ?category=theatre produce the same view.
   const effectiveFilters = React.useMemo(
-    () => (params.category ? { ...filters, categories: [params.category] } : filters),
+    () => (params.category ? { ...filters, categories: { include: [params.category], exclude: [] } } : filters),
     [filters, params.category],
   );
 
@@ -58,13 +58,17 @@ export function LocationPage() {
     const tags = new Map<string, number>();
     if (!snapshot) return { categories, areas, tags };
 
-    for (const event of applyFilters(snapshot.events, { ...effectiveFilters, categories: [] }, snapshot.asOf)) {
+    for (const event of applyFilters(
+      snapshot.events,
+      { ...effectiveFilters, categories: EMPTY_FACET },
+      snapshot.asOf,
+    )) {
       categories.set(event.category, (categories.get(event.category) ?? 0) + 1);
     }
-    for (const event of applyFilters(snapshot.events, { ...effectiveFilters, areas: [] }, snapshot.asOf)) {
+    for (const event of applyFilters(snapshot.events, { ...effectiveFilters, areas: EMPTY_FACET }, snapshot.asOf)) {
       if (event.area) areas.set(event.area, (areas.get(event.area) ?? 0) + 1);
     }
-    for (const event of applyFilters(snapshot.events, { ...effectiveFilters, tags: [] }, snapshot.asOf)) {
+    for (const event of applyFilters(snapshot.events, { ...effectiveFilters, tags: EMPTY_FACET }, snapshot.asOf)) {
       for (const tag of event.tags) tags.set(tag, (tags.get(tag) ?? 0) + 1);
     }
     return { categories, areas, tags };

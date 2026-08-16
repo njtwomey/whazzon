@@ -1,7 +1,6 @@
 import { ArrowRight, MapPinned, Search } from "lucide-react";
 import * as React from "react";
 import { Link } from "react-router-dom";
-import { ThemeToggle } from "@/components/theme-toggle";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { Empty, EmptyDescription, EmptyHeader, EmptyMedia, EmptyTitle } from "@/components/ui/empty";
@@ -37,9 +36,6 @@ export function LandingPage() {
     <div className="min-h-dvh">
       <header className="flex h-14 w-full items-center gap-3 px-4 sm:px-6 lg:px-8">
         <span className="text-lg font-semibold tracking-tight">whazzon</span>
-        <div className="ml-auto">
-          <ThemeToggle />
-        </div>
       </header>
 
       <main className="mx-auto w-full max-w-5xl px-4 py-12 sm:px-6 lg:px-8">

@@ -3,85 +3,210 @@
 What's on, in a place.
 
 whazzon builds a periodically-refreshed catalogue of what is happening in a city
-and renders it as a static, filterable website. Bristol, UK is the first
-location; adding another is a new config file, not a fork.
+and renders it as a static site. Bristol is the first location; adding another is
+a config file, not a fork.
+
+**Live:** [nialltwomey.com/whazzon](https://nialltwomey.com/whazzon/)
+
+---
 
 ## How it works
 
-Three stages that never call into each other. They communicate only through
-committed files, so each one can be run, re-run and reviewed on its own.
+Three stages that never call into each other. They hand over through committed
+files, so each can be run, re-run and reviewed on its own.
 
-**1. Catalogue** — _who exists here?_
-From nothing but a location config, generate the set of sources worth watching:
-venues, festivals, promoters, listings sites. Slow-moving and human-curated.
-Runs every few months.
-
-**2. Harvest** — _what's on?_
-Visit each source and record what it is showing. One append-only file per
-harvest run, never edited afterwards. Each source declares a cadence, and only
-sources that are due get visited.
-
-**3. Render** — _show me._
-A static site built from the compiled snapshot. No network calls, no LLM calls:
-if the page needs something, it must already be in the data.
-
-Between 2 and 3 sits **compile**, which folds the run log into the current
-picture — carrying forward events a venue has stopped listing but which have not
-happened yet, and marking them as unconfirmed rather than silently dropping
-them.
-
-## Layout
+| stage             | question                   | who does it              | how often        |
+| ----------------- | -------------------------- | ------------------------ | ---------------- |
+| **1 · catalogue** | who publishes events here? | LLM, then human curation | every few months |
+| **2 · harvest**   | what's on?                 | LLM + web fetching       | daily–weekly     |
+| **3 · render**    | show me                    | deterministic build      | every deploy     |
 
 ```
-configs/<location-id>.yaml               the place
-data/<location-id>/catalogue/*.yaml      stage 1
-data/<location-id>/harvest/<date>.yaml   stage 2 — one file per run, append-only
-data/<location-id>/snapshot.json         compiled for stage 3
-prompts/                                 versioned prompt templates
-packages/pipeline/                       schemas and CLIs
-web/                                     React + Vite + shadcn/ui
+configs/<location>.yaml                       the place
+data/<location>/catalogue/<category>.yaml     stage 1 — sources worth watching
+data/<location>/harvest/<date>/<cat>.yaml     stage 2 — append-only observations
+data/<location>/harvest/<date>/REPORT.md      what that run found
+data/<location>/snapshot.json                 compiled for stage 3
 ```
+
+Stages 1 and 2 are driven by **skills** — ask for them in plain words and Claude
+Code fans out one subagent per category.
+
+---
+
+## The three jobs
+
+### 1. Harvest — the weekly job
+
+The routine one. Visits every source whose cadence has elapsed and records what
+its page says today.
+
+> "harvest bristol"
+> "fan out subagents to crawl for events in bristol"
+> "harvest bristol music" — one category only
+
+What happens: each category agent reads `prompts/stage2-harvest.md`, crawls its
+sources, and writes `data/bristol-uk/harvest/<today>/<category>.yaml`. Then:
+
+```bash
+npm run assign-ids -- bristol-uk --date <YYYY-MM-DD>   # ids are content hashes
+npm run validate   -- bristol-uk                        # must pass
+npm run tags       -- bristol-uk                        # vocabulary drift?
+npm run drift      -- bristol-uk                        # catalogue corrections
+npm run compile    -- bristol-uk                        # -> snapshot.json
+```
+
+Or just `make refresh-bristol` for the last three once the harvest has landed.
+
+Check what is actually due first:
+
+```bash
+make stale                    # grouped by category
+npm run stale -- bristol-uk --ids
+```
+
+**After every harvest, read the run's `REPORT.md`.** It lists what needs a human:
+stale URLs, unreachable sources, venues that look dead.
+
+### 2. Catalogue — the occasional job
+
+Deciding who is worth watching. Slow-moving, human-curated, and the thing that
+determines whether stage 2 finds anything.
+
+> "catalogue bristol" — build from nothing
+> "add a nightlife category to bristol"
+> "find more music venues in bristol"
+
+Everything a run proposes lands as `status: provisional`. Nothing is trusted
+until a human promotes it.
+
+```bash
+npm run check-urls -- bristol-uk    # are the catalogued URLs real?
+```
+
+Take that seriously — on the first Bristol run, **80 of 155 catalogued URLs were
+wrong**, because stage 1 generates plausible URLs from model knowledge. It also
+cannot tell a live venue from a lapsed domain that now points at somebody else's
+business, so a "200 OK" is not proof the source is still real.
+
+**Applying corrections after a harvest** is the main catalogue chore:
+
+```bash
+npm run drift -- bristol-uk              # every URL that harvested from elsewhere
+npm run drift -- bristol-uk --markdown   # as a table, for a report
+```
+
+Each suggestion was actually fetched during the harvest, so you are verifying,
+not searching.
+
+### 3. Add a location
+
+```bash
+# 1. describe the place — the filename must equal the id inside
+$EDITOR configs/manchester-uk.yaml
+```
+
+`character:` is the important field. It is the whole input to stage 1, and a
+catalogue built without it returns the same forty obvious venues you would get
+for any city. Say what the place is known for and which neighbourhoods have
+their own scenes.
+
+Optionally drop a landscape image at `data/manchester-uk/assets/` and name it in
+`image:`.
+
+```bash
+# 2. build the catalogue
+#    ask: "catalogue manchester"
+
+# 3. check what it proposed
+npm run validate   -- manchester-uk
+npm run check-urls -- manchester-uk
+
+# 4. harvest, then compile
+#    ask: "harvest manchester"
+make refresh LOCATION=manchester-uk
+```
+
+It appears at `/manchester-uk/` with no further wiring — the app discovers
+locations from the synced snapshot index.
+
+---
+
+## Adding one source by hand
+
+Faster than a catalogue run when you just want one venue:
+
+```yaml
+# data/bristol-uk/catalogue/music.yaml
+- id: music/the-new-place # <category>/<slug> — permanent, joins everything
+  name: The New Place
+  category: music
+  kind: venue # venue | festival | aggregator | organiser | listing
+  status: provisional
+  url: https://example.com/whats-on # the listings page, not the homepage
+  area: Stokes Croft
+  tags: [independent, grassroots]
+  cadence: weekly # daily | weekly | monthly | quarterly
+  hints: |
+    Books three months ahead. Listings are a Headfirst widget — use
+    headfirstbristol.co.uk/whats-on/the-new-place instead.
+  addedAt: "2026-08-16"
+```
+
+Then `npm run validate -- bristol-uk`.
+
+**`hints` is the important field.** It carries everything specific to that source
+— how far ahead it books, where the listings really are, what to ignore — which
+is what keeps the shared stage 2 prompt general. Prefer a hint over editing the
+prompt.
+
+**`cadence` is a cost decision.** It is what stage 2 spends. `daily` only for
+sources that genuinely change daily.
+
+---
 
 ## Commands
 
-`make help` lists everything. The location id may be omitted while only one
-location is configured.
+`make help` lists everything. The location may be omitted while only one exists.
 
 ```bash
-make check              # validate + typecheck + format + test
-make dev                # run the web app against the current snapshots
+make check              # validate + typecheck + format + test — what CI runs
+make dev                # run the site against current snapshots
 make build              # static site into web/dist
-make refresh-bristol    # validate, recompile and sync Bristol
+make build-pages        # same, for GitHub Pages under /whazzon/
+make refresh-bristol    # validate, recompile, sync
 make stale              # what is due a harvest
 make check-urls         # are the catalogued URLs real?
-make mock               # regenerate mock data for interface work
+make drift              # catalogue corrections learned while harvesting
+make tags               # tag vocabulary and near-duplicates
 ```
 
-## Deploying
+---
 
-`make build` produces `web/dist` — a static site, no server. It includes a
-`404.html` copy of `index.html`, which is what makes deep links like
-`/bristol-uk/theatre` work: static hosts serve a file per path, so client-side
-routes only resolve if the host falls back to it.
+## Rules worth knowing before you edit anything
 
-For a GitHub Pages **project** site, assets live under `/<repo>/`:
-
-```bash
-make build-pages            # BASE=/whazzon/ by default
-make build-pages BASE=/     # root domain or a user/org site
-```
+- **The harvest log is append-only.** Never edit a past run; fix the code and
+  re-fold. That is what makes the derived state rebuildable.
+- **Stage 2 never writes to the catalogue.** A stale URL comes back as a `notes`
+  entry for stage 1 to curate. `npm run drift` collects them.
+- **Never invent a date.** `occurrence` is a union — `single`, `run`,
+  `recurring`, `ongoing`, `undated` — so an extractor never has to guess one to
+  satisfy the schema.
+- **Nothing location-specific in code.** It belongs in `configs/` or `data/`.
+- **The web app uses shadcn/ui exclusively**, added via
+  `cd web && npx shadcn@latest add <component>` — never hand-written.
 
 ## Data format
 
 Every file carries a `schema: <kind>/<version>` header and is read through a
-migration chain, so data written today stays readable after the schema moves
-on. Adding an optional field is an in-place edit; anything else is a new
-version plus a migration. See `packages/pipeline/src/schema/versioning.ts`.
+migration chain, so data written today stays readable after the schema moves on.
+Adding an optional field is an in-place edit; anything else is a new version plus
+a migration. See `packages/pipeline/src/schema/versioning.ts`.
 
-## Status
+## Deploying
 
-Stage 1 is catalogued, stage 3 runs, and stage 2 has not yet fetched anything
-for real — the harvest directory holds mock data so the interface could be built
-against realistic shapes.
+Pushing to `main` builds and publishes via GitHub Actions — the workflow
+validates the committed data first, so a broken harvest fails rather than
+shipping. Nothing built is ever committed.
 
-See [STATUS.md](STATUS.md) for detail and what is next.
+See [STATUS.md](STATUS.md) for where the project currently stands.

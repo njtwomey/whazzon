@@ -1,0 +1,217 @@
+schema: whazzon.catalogue/1
+category: theatre
+label: Theatre
+description: >-
+  Playhouses, studio theatres, circus and physical theatre, and the companies
+  that programme into other people's spaces.
+sources:
+  - id: theatre/bristol-old-vic
+    name: Bristol Old Vic
+    category: theatre
+    kind: venue
+    status: provisional
+    url: https://bristololdvic.org.uk/whats-on
+    homepage: https://bristololdvic.org.uk/
+    area: Old City
+    address:
+      street: King Street
+      city: Bristol
+      postcode: BS1 4ED
+    tags: [producing-house, historic, major]
+    cadence: weekly
+    hints: |
+      The oldest continuously working theatre in the English-speaking world.
+      Programmes a long way ahead and major shows sell out months in advance —
+      capture the full forward horizon, not just the current month. Runs a
+      studio strand (Weston Studio) and the Ferment new-work programme; both
+      belong in the same harvest.
+    addedAt: "2026-08-16"
+
+  - id: theatre/tobacco-factory
+    name: Tobacco Factory Theatres
+    category: theatre
+    kind: venue
+    status: provisional
+    url: https://tobaccofactorytheatres.com/whats-on/
+    area: Southville
+    address:
+      street: Raleigh Road
+      locality: Southville
+      city: Bristol
+      postcode: BS3 1TF
+    tags: [independent, studio, in-the-round]
+    cadence: weekly
+    hints: |
+      Two spaces with quite different programmes — a main in-the-round theatre
+      and a smaller studio. Books several months ahead.
+    addedAt: "2026-08-16"
+
+  - id: theatre/bristol-hippodrome
+    name: Bristol Hippodrome
+    category: theatre
+    kind: venue
+    status: provisional
+    url: https://www.atgtickets.com/venues/bristol-hippodrome/
+    area: City Centre
+    address:
+      street: St Augustine's Parade
+      city: Bristol
+      postcode: BS1 4UZ
+    tags: [touring, west-end, major, commercial]
+    cadence: weekly
+    hints: |
+      Large receiving house for West End tours, musicals and panto, operated by
+      ATG. Books up to a year ahead — use a long forward horizon. Listings live
+      on the ATG platform rather than a venue-owned site.
+    addedAt: "2026-08-16"
+
+  - id: theatre/wardrobe-theatre
+    name: The Wardrobe Theatre
+    category: theatre
+    kind: venue
+    status: provisional
+    url: https://thewardrobetheatre.com/whats-on/
+    area: Old Market
+    tags: [independent, fringe, comedy, new-work]
+    cadence: weekly
+    hints: |
+      Small independent venue above a pub. Heavy crossover with comedy and
+      cabaret — tag accordingly rather than assuming everything is theatre.
+      Famous for irreverent alternative Christmas shows.
+    addedAt: "2026-08-16"
+
+  - id: theatre/circomedia
+    name: Circomedia
+    category: theatre
+    kind: venue
+    status: provisional
+    url: https://circomedia.com/whats-on/
+    area: St Pauls
+    tags: [circus, physical-theatre, independent]
+    cadence: weekly
+    hints: |
+      Circus and physical theatre in a converted church. Part training school,
+      part venue — distinguish public performances from courses and classes,
+      and only record the former.
+    addedAt: "2026-08-16"
+
+  - id: theatre/bristol-improv-theatre
+    name: Bristol Improv Theatre
+    category: theatre
+    kind: venue
+    status: provisional
+    url: https://www.improvtheatre.co.uk/whats-on
+    area: Clifton
+    tags: [improv, comedy, independent]
+    cadence: weekly
+    hints: |
+      Almost all output is improvised comedy — cross-listed under comedy.
+      Programmes in short cycles, so a weekly visit is genuinely needed.
+    addedAt: "2026-08-16"
+
+  - id: theatre/redgrave-theatre
+    name: Redgrave Theatre
+    category: theatre
+    kind: venue
+    status: provisional
+    url: https://www.redgravetheatre.com/whats-on/
+    area: Clifton
+    tags: [receiving-house, amateur, community]
+    cadence: weekly
+    addedAt: "2026-08-16"
+
+  - id: theatre/alma-tavern-theatre
+    name: Alma Tavern Theatre
+    category: theatre
+    kind: venue
+    status: provisional
+    url: https://www.almataverntheatre.co.uk/
+    area: Clifton
+    tags: [pub-theatre, fringe, independent]
+    cadence: weekly
+    hints: Small pub theatre; listings may be on the pub site rather than a dedicated page.
+    addedAt: "2026-08-16"
+
+  - id: theatre/the-loco-klub
+    name: The Loco Klub
+    category: theatre
+    kind: venue
+    status: provisional
+    url: https://www.thelocoklub.co.uk/
+    area: Temple Meads
+    tags: [immersive, independent, arches]
+    cadence: weekly
+    hints: |
+      Railway arches used for immersive theatre, art and club events. Output
+      spans theatre, music and nightlife — classify per event, not per venue.
+    addedAt: "2026-08-16"
+
+  - id: theatre/trinity-centre
+    name: Trinity Centre
+    category: theatre
+    kind: venue
+    status: provisional
+    url: https://3ca.org.uk/whats-on/
+    area: Old Market
+    address:
+      street: Trinity Road
+      city: Bristol
+      postcode: BS2 0NW
+    tags: [community, arts-centre, music, independent]
+    cadence: weekly
+    hints: |
+      Community arts centre in a converted church. Programme is mixed —
+      theatre, gigs, club nights, community events — so classify per event.
+    addedAt: "2026-08-16"
+
+  - id: theatre/acta-community-theatre
+    name: Acta Community Theatre
+    category: theatre
+    kind: organiser
+    status: provisional
+    url: https://acta-bristol.com/whats-on/
+    area: Bedminster
+    tags: [community, participatory]
+    cadence: monthly
+    hints: Community theatre company; output is sporadic, so a monthly check is enough.
+    addedAt: "2026-08-16"
+
+  - id: theatre/travelling-light
+    name: Travelling Light Theatre Company
+    category: theatre
+    kind: organiser
+    status: provisional
+    url: https://travellinglighttheatre.org.uk/
+    area: Barton Hill
+    tags: [family, young-people, touring]
+    cadence: monthly
+    hints: |
+      Produces for children and young people, touring into other venues rather
+      than programming a building — set `venue.sourceId` where the host venue
+      is in our catalogue.
+    addedAt: "2026-08-16"
+
+  - id: theatre/show-of-strength
+    name: Show of Strength Theatre Company
+    category: theatre
+    kind: organiser
+    status: provisional
+    url: https://www.showofstrength.org.uk/
+    tags: [independent, site-specific]
+    cadence: quarterly
+    notes: Small company producing intermittently in found spaces; URL unverified.
+    addedAt: "2026-08-16"
+
+  - id: theatre/wickham-theatre
+    name: Wickham Theatre (University of Bristol)
+    category: theatre
+    kind: venue
+    status: provisional
+    url: https://www.bristol.ac.uk/theatre-film-television/
+    area: Clifton
+    tags: [university, student, studio]
+    cadence: monthly
+    notes: >-
+      University department theatre with public performances. Listings are
+      buried in the department site; URL is a best guess and needs checking.
+    addedAt: "2026-08-16"

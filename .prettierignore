@@ -1,0 +1,9 @@
+node_modules/
+web/dist/
+web/public/snapshots/
+package-lock.json
+
+# Curated and generated data. The catalogue is hand-written YAML whose block
+# scalars and comment placement are deliberate, and the harvest log is an
+# append-only record — neither should be reflowed by a formatter.
+data/

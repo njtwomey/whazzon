@@ -1,0 +1,87 @@
+schema: whazzon.catalogue/1
+category: food-drink
+label: Food & Drink
+description: >-
+  Food halls, breweries and taprooms with public event programmes. Only sources
+  that actually programme events belong here — a restaurant with no events is
+  not a source, however good it is.
+sources:
+  - id: food-drink/wapping-wharf
+    name: Wapping Wharf & Cargo
+    category: food-drink
+    kind: venue
+    status: provisional
+    url: https://wappingwharf.com/whats-on/
+    area: Wapping Wharf
+    tags: [food-hall, independent, harbourside, markets]
+    cadence: weekly
+    hints: |
+      Container-based independent food and retail quarter. Events are markets,
+      tastings and seasonal happenings rather than a listed programme.
+    addedAt: "2026-08-16"
+
+  - id: food-drink/left-handed-giant
+    name: Left Handed Giant Brewpub
+    category: food-drink
+    kind: venue
+    status: provisional
+    url: https://lefthandedgiant.com/
+    area: Finzels Reach
+    tags: [brewery, taproom, independent, beer]
+    cadence: monthly
+    addedAt: "2026-08-16"
+
+  - id: food-drink/wiper-and-true
+    name: Wiper and True Barrel Store
+    category: food-drink
+    kind: venue
+    status: provisional
+    url: https://www.wiperandtrue.com/pages/events
+    area: Old Market
+    tags: [brewery, taproom, independent, beer]
+    cadence: monthly
+    addedAt: "2026-08-16"
+
+  - id: food-drink/bristol-beer-factory
+    name: Bristol Beer Factory
+    category: food-drink
+    kind: venue
+    status: provisional
+    url: https://bristolbeerfactory.co.uk/
+    area: Bedminster
+    tags: [brewery, taproom, independent, beer]
+    cadence: monthly
+    addedAt: "2026-08-16"
+
+  - id: food-drink/bristol-whisky-festival
+    name: Bristol Whisky Festival
+    category: food-drink
+    kind: festival
+    status: provisional
+    url: https://www.bristolwhisky.co.uk/
+    tags: [festival, whisky, tastings, ticketed]
+    cadence: quarterly
+    hints: |
+      Annual whisky festival with a programme of tastings and masterclasses.
+      Tickets go on sale months ahead and masterclasses sell out early, so use
+      a long forward horizon and capture individual sessions, not just the
+      festival dates.
+    notes: >-
+      Name and URL both need checking. The organiser also runs tastings through
+      the year under a similar name, so confirm whether the festival has its
+      own site or sits inside the organiser's — and if the latter, this may be
+      better modelled as kind: organiser.
+    addedAt: "2026-08-16"
+
+  - id: food-drink/bristol-food-connections
+    name: Bristol Food Connections
+    category: food-drink
+    kind: festival
+    status: provisional
+    url: https://bristolfoodconnections.com/
+    tags: [festival, food, community]
+    cadence: quarterly
+    notes: >-
+      Check whether this festival is still running before promoting to active;
+      set status dormant if the site has nothing recent.
+    addedAt: "2026-08-16"

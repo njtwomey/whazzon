@@ -1,0 +1,68 @@
+schema: whazzon.catalogue/1
+category: markets
+label: Markets
+description: >-
+  Street and indoor markets. Almost all are `occurrence.kind: recurring` — a
+  weekly or monthly pattern rather than dated events — which makes them a good
+  test of that part of the schema.
+sources:
+  - id: markets/st-nicholas-market
+    name: St Nicholas Market
+    category: markets
+    kind: venue
+    status: provisional
+    url: https://www.bristol.gov.uk/residents/business-and-work/st-nicholas-markets
+    area: Old City
+    tags: [indoor, daily, street-food, independent, historic]
+    cadence: monthly
+    hints: |
+      Bristol's main covered market, open most days, with themed street markets
+      on set weekdays. Record as recurring with the pattern in words rather
+      than inventing individual dates.
+    addedAt: "2026-08-16"
+
+  - id: markets/tobacco-factory-market
+    name: Tobacco Factory Sunday Market
+    category: markets
+    kind: venue
+    status: provisional
+    url: https://tobaccofactory.com/whats-on/sunday-market/
+    area: North Street, Bedminster
+    tags: [weekly, sunday, farmers, independent, food]
+    cadence: monthly
+    hints: Every Sunday morning — recurring, not a series of dated events.
+    addedAt: "2026-08-16"
+
+  - id: markets/bristol-farmers-market
+    name: Bristol Farmers' & Producers Market
+    category: markets
+    kind: venue
+    status: provisional
+    url: https://www.bristol.gov.uk/residents/business-and-work/markets
+    area: Corn Street
+    tags: [weekly, farmers, food, outdoor]
+    cadence: monthly
+    addedAt: "2026-08-16"
+
+  - id: markets/harbourside-market
+    name: Bristol Harbourside Market
+    category: markets
+    kind: venue
+    status: provisional
+    url: https://visitbristol.co.uk/things-to-do/bristol-harbourside-market-p2436113
+    area: Harbourside
+    tags: [weekend, crafts, food, outdoor]
+    cadence: monthly
+    notes: No dedicated site; listed via the tourist board. URL needs checking.
+    addedAt: "2026-08-16"
+
+  - id: markets/finzels-reach-market
+    name: Finzels Reach Market
+    category: markets
+    kind: venue
+    status: provisional
+    url: https://www.finzelsreach.co.uk/
+    area: Finzels Reach
+    tags: [weekly, street-food, lunch]
+    cadence: monthly
+    addedAt: "2026-08-16"

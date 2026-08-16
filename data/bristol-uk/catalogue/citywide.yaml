@@ -1,0 +1,166 @@
+schema: whazzon.catalogue/1
+category: citywide
+label: City-wide
+description: >-
+  Cross-category listings sites, the council and the tourist board. These are the
+  safety net: anything the category catalogues miss — pop-ups, one-off community
+  events, venue-less happenings — tends to surface here first.
+sources:
+  - id: citywide/visit-bristol
+    name: Visit Bristol
+    category: citywide
+    kind: aggregator
+    status: provisional
+    url: https://visitbristol.co.uk/whats-on
+    homepage: https://visitbristol.co.uk/
+    tags: [tourist-board, official]
+    cadence: daily
+    hints: |
+      The official tourist board listing. Broad but shallow — good for
+      discovering events, weak on detail. Prefer the venue's own page for
+      anything it lists that we already catalogue.
+    notes: Best single safety net for events with no venue of their own.
+    addedAt: "2026-08-16"
+
+  - id: citywide/bristol-247
+    name: Bristol 24/7
+    category: citywide
+    kind: aggregator
+    status: provisional
+    url: https://www.bristol247.com/whats-on/
+    homepage: https://www.bristol247.com/
+    tags: [independent, editorial, news]
+    cadence: daily
+    hints: |
+      Independent local media with an editorial "things to do this week" slant.
+      Strong on grassroots and community events the tourist board ignores.
+    addedAt: "2026-08-16"
+
+  - id: citywide/headfirst
+    name: Headfirst Bristol
+    category: citywide
+    kind: aggregator
+    status: provisional
+    url: https://www.headfirstbristol.co.uk/
+    tags: [independent, tickets, grassroots]
+    cadence: daily
+    hints: |
+      The main independent ticketing and listings platform for Bristol's
+      grassroots scene — club nights, small gigs, DIY events. Highest-value
+      aggregator for things no venue site will carry. Lists events at many
+      venues: set `venue.sourceId` when the venue is in our catalogue.
+    addedAt: "2026-08-16"
+
+  - id: citywide/365-bristol
+    name: 365 Bristol
+    category: citywide
+    kind: aggregator
+    status: provisional
+    url: https://www.365bristol.com/whats-on
+    tags: [independent, editorial]
+    cadence: weekly
+    addedAt: "2026-08-16"
+
+  - id: citywide/bristol-live
+    name: Bristol Live (Bristol Post)
+    category: citywide
+    kind: aggregator
+    status: provisional
+    url: https://www.bristolpost.co.uk/whats-on/
+    tags: [news, editorial]
+    cadence: daily
+    hints: |
+      Regional newspaper. High volume, low signal — much of it is not an event
+      at all. Be selective and prefer items with a date and a venue.
+    addedAt: "2026-08-16"
+
+  - id: citywide/skiddle
+    name: Skiddle — Bristol
+    category: citywide
+    kind: aggregator
+    status: provisional
+    url: https://www.skiddle.com/whats-on/Bristol/
+    tags: [tickets, national]
+    cadence: daily
+    hints: |
+      National ticketing platform filtered to Bristol. Good coverage of club
+      nights and touring shows; heavy overlap with venue pages, so dedup
+      carefully on title plus date.
+    addedAt: "2026-08-16"
+
+  - id: citywide/resident-advisor
+    name: Resident Advisor — Bristol
+    category: citywide
+    kind: aggregator
+    status: provisional
+    url: https://ra.co/events/uk/bristol
+    tags: [electronic, club, tickets]
+    cadence: daily
+    hints: |
+      Definitive for electronic music and club nights, which is a large part of
+      Bristol's cultural output and poorly covered by mainstream listings.
+    addedAt: "2026-08-16"
+
+  - id: citywide/eventbrite
+    name: Eventbrite — Bristol
+    category: citywide
+    kind: aggregator
+    status: provisional
+    url: https://www.eventbrite.co.uk/d/united-kingdom--bristol/events/
+    tags: [tickets, national, community]
+    cadence: daily
+    hints: |
+      Very high volume and very noisy — full of webinars, courses and
+      commercial workshops. Filter hard for genuinely public cultural events.
+      Kept because community and one-off events often appear nowhere else.
+    addedAt: "2026-08-16"
+
+  - id: citywide/bristol-city-council
+    name: Bristol City Council — events
+    category: citywide
+    kind: listing
+    status: provisional
+    url: https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture
+    homepage: https://www.bristol.gov.uk/
+    tags: [official, civic, free]
+    cadence: monthly
+    hints: |
+      Civic and free events, park events, and licensing notices for large
+      outdoor events — often the earliest signal that a big event is happening.
+    addedAt: "2026-08-16"
+
+  - id: citywide/bristol-libraries
+    name: Bristol Libraries
+    category: citywide
+    kind: listing
+    status: provisional
+    url: https://www.bristol.gov.uk/residents/libraries-and-archives
+    tags: [official, civic, free, family]
+    cadence: monthly
+    hints: |
+      Free community events across every branch — talks, children's sessions,
+      reading groups. Under-represented everywhere else.
+    addedAt: "2026-08-16"
+
+  - id: citywide/university-of-bristol
+    name: University of Bristol — public events
+    category: citywide
+    kind: listing
+    status: provisional
+    url: https://www.bristol.ac.uk/events/
+    tags: [university, talks, free]
+    cadence: weekly
+    hints: |
+      Public lectures and open research events. Free and open to the public
+      despite looking institutional — worth including.
+    addedAt: "2026-08-16"
+
+  - id: citywide/uwe-bristol
+    name: UWE Bristol — public events
+    category: citywide
+    kind: listing
+    status: provisional
+    url: https://www.uwe.ac.uk/events
+    tags: [university, talks, free]
+    cadence: monthly
+    addedAt: "2026-08-16"

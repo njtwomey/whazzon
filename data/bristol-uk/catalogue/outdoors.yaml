@@ -1,0 +1,67 @@
+schema: whazzon.catalogue/1
+category: outdoors
+label: Parks & Outdoors
+description: >-
+  Estates, woods and green space that host public events. These are places
+  before they are venues — most of the year they have no programme at all, and
+  then a single weekend brings fifty thousand people.
+sources:
+  - id: outdoors/ashton-court
+    name: Ashton Court Estate
+    category: outdoors
+    kind: venue
+    status: provisional
+    url: https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/parks-and-estates/ashton-court-estate
+    area: Ashton
+    tags: [park, free, outdoor, major-events, mountain-biking]
+    cadence: monthly
+    hints: |
+      Hosts the Balloon Fiesta and other large outdoor events. The council page
+      rarely lists a programme — the events themselves are catalogued under
+      festivals, so treat this mainly as a location record.
+    addedAt: "2026-08-16"
+
+  - id: outdoors/the-downs
+    name: The Downs
+    category: outdoors
+    kind: venue
+    status: provisional
+    url: https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/parks-and-estates/clifton-and-durdham-downs
+    area: Clifton
+    tags: [park, free, outdoor, major-events]
+    cadence: monthly
+    addedAt: "2026-08-16"
+
+  - id: outdoors/leigh-woods
+    name: Leigh Woods
+    category: outdoors
+    kind: venue
+    status: provisional
+    url: https://www.nationaltrust.org.uk/visit/bristol-bath/leigh-woods
+    area: Leigh Woods
+    tags: [woodland, free, national-trust, walks, outdoor]
+    cadence: monthly
+    addedAt: "2026-08-16"
+
+  - id: outdoors/blaise-castle-estate
+    name: Blaise Castle Estate
+    category: outdoors
+    kind: venue
+    status: provisional
+    url: https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/parks-and-estates/blaise-castle-estate
+    area: Henbury
+    tags: [park, free, outdoor, family, heritage]
+    cadence: quarterly
+    addedAt: "2026-08-16"
+
+  - id: outdoors/avon-gorge-nature-reserve
+    name: Avon Gorge & Downs Wildlife Project
+    category: outdoors
+    kind: organiser
+    status: provisional
+    url: https://avongorge.org.uk/events/
+    area: Clifton
+    tags: [nature, walks, free, guided, wildlife]
+    cadence: monthly
+    hints: Runs guided walks and wildlife events, mostly free; programme is seasonal.
+    addedAt: "2026-08-16"

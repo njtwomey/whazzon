@@ -1,0 +1,74 @@
+name: Deploy
+
+# Publishes web/dist to GitHub Pages.
+#
+# This repo is a *project* site, so it is served from /<repo>/ — and because the
+# account's user site (njtwomey.github.io) carries a CNAME, that resolves to
+# nialltwomey.com/whazzon/. The asset base must match that prefix or the page
+# loads and then fails to find its own JavaScript.
+#
+# Deploying from an artifact rather than a branch means GitHub never runs Jekyll
+# over the output, so no .nojekyll is needed and nothing gets rewritten.
+
+on:
+  push:
+    branches: [main]
+    # A harvest changes data/, which changes the site. Ignore anything that
+    # cannot affect the built output, so a README edit does not redeploy.
+    paths-ignore:
+      - "**/*.md"
+      - ".claude/**"
+      - "prompts/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Let a running deploy finish rather than cancelling it — a half-published site
+# is worse than a slightly stale one.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # The data is the site. If the committed harvest does not validate, the
+      # build should fail here rather than publishing something broken.
+      - name: Validate data
+        run: npm run validate -- --all
+
+      - name: Typecheck and test
+        run: npm run typecheck && npm run test
+
+      - name: Build
+        run: npm run build:web
+        env:
+          VITE_BASE: /whazzon/
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

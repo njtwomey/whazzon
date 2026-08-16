@@ -1,0 +1,65 @@
+schema: whazzon.catalogue/1
+category: family
+label: Family & Kids
+description: >-
+  City farms, play spaces and companies producing for children. Programmes spike
+  hard in school holidays, which is the main thing to get right here.
+sources:
+  - id: family/bristol-zoo-project
+    name: Bristol Zoo Project
+    category: family
+    kind: venue
+    status: provisional
+    url: https://bristolzoo.org.uk/whats-on
+    area: Cribbs Causeway
+    tags: [zoo, outdoor, ticketed, animals]
+    cadence: monthly
+    notes: >-
+      The Clifton zoo site closed in 2022; this is the successor site at the
+      former Wild Place Project. Confirm the URL resolves to the current site.
+    addedAt: "2026-08-16"
+
+  - id: family/windmill-hill-city-farm
+    name: Windmill Hill City Farm
+    category: family
+    kind: venue
+    status: provisional
+    url: https://www.windmillhillcityfarm.org.uk/whats-on/
+    area: Bedminster
+    tags: [city-farm, free, community, outdoor]
+    cadence: monthly
+    hints: Free to visit; events cluster in school holidays.
+    addedAt: "2026-08-16"
+
+  - id: family/st-werburghs-city-farm
+    name: St Werburghs City Farm
+    category: family
+    kind: venue
+    status: provisional
+    url: https://swcityfarm.org.uk/
+    area: St Werburghs
+    tags: [city-farm, free, community, outdoor]
+    cadence: monthly
+    addedAt: "2026-08-16"
+
+  - id: family/puppet-place
+    name: Puppet Place
+    category: family
+    kind: organiser
+    status: provisional
+    url: https://puppetplace.org/
+    area: Bedminster
+    tags: [puppetry, workshops, community]
+    cadence: monthly
+    addedAt: "2026-08-16"
+
+  - id: family/childrens-scrapstore
+    name: Bristol Children's Scrapstore
+    category: family
+    kind: venue
+    status: provisional
+    url: https://childrensscrapstore.co.uk/
+    area: St Werburghs
+    tags: [play, community, workshops, creative]
+    cadence: monthly
+    addedAt: "2026-08-16"

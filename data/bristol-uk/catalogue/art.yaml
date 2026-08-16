@@ -1,0 +1,121 @@
+schema: whazzon.catalogue/1
+category: art
+label: Art & Galleries
+description: >-
+  Contemporary art galleries, studios and street art. Programmes move in months
+  rather than weeks, so most of this category is harvested monthly.
+sources:
+  - id: art/arnolfini
+    name: Arnolfini
+    category: art
+    kind: venue
+    status: provisional
+    url: https://arnolfini.org.uk/whatson/
+    area: Harbourside
+    address:
+      street: 16 Narrow Quay
+      city: Bristol
+      postcode: BS1 4QA
+    tags: [contemporary, major, free, talks]
+    cadence: weekly
+    hints: |
+      Contemporary arts centre — exhibitions plus a busy programme of talks,
+      screenings and performance. Exhibitions are `occurrence.kind: run`
+      spanning months; the events around them are single dates. Both matter.
+    addedAt: "2026-08-16"
+
+  - id: art/spike-island
+    name: Spike Island
+    category: art
+    kind: venue
+    status: provisional
+    url: https://www.spikeisland.org.uk/programme/
+    area: Spike Island
+    address:
+      street: 133 Cumberland Road
+      city: Bristol
+      postcode: BS1 6UX
+    tags: [contemporary, studios, free]
+    cadence: monthly
+    hints: Artist studios and a public gallery; exhibitions run for months.
+    addedAt: "2026-08-16"
+
+  - id: art/rwa
+    name: Royal West of England Academy (RWA)
+    category: art
+    kind: venue
+    status: provisional
+    url: https://www.rwa.org.uk/pages/whats-on
+    area: Clifton
+    address:
+      street: Queens Road
+      locality: Clifton
+      city: Bristol
+      postcode: BS8 1PX
+    tags: [gallery, historic, exhibitions]
+    cadence: monthly
+    addedAt: "2026-08-16"
+
+  - id: art/martin-parr-foundation
+    name: Martin Parr Foundation
+    category: art
+    kind: venue
+    status: provisional
+    url: https://www.martinparrfoundation.org/exhibitions/
+    area: Paintworks
+    tags: [photography, free, exhibitions]
+    cadence: monthly
+    addedAt: "2026-08-16"
+
+  - id: art/centrespace
+    name: Centrespace Gallery
+    category: art
+    kind: venue
+    status: provisional
+    url: https://www.centrespacegallery.com/
+    area: Old City
+    tags: [independent, artist-led, short-run]
+    cadence: weekly
+    hints: |
+      Artist-led space hired out week by week, so shows are short and change
+      often — weekly rather than monthly for this one.
+    addedAt: "2026-08-16"
+
+  - id: art/upfest-gallery
+    name: Upfest Gallery
+    category: art
+    kind: venue
+    status: provisional
+    url: https://www.upfest.co.uk/
+    area: Bedminster
+    tags: [street-art, independent, gallery]
+    cadence: monthly
+    hints: Gallery arm of the street art festival; the festival itself is catalogued separately.
+    notes: >-
+      Deliberately shares a domain with festivals/upfest — the gallery trades
+      year-round while the festival is occasional, so they are worth harvesting
+      separately. Find the gallery-specific path and set it here to silence the
+      duplicate-URL warning.
+    addedAt: "2026-08-16"
+
+  - id: art/prsc
+    name: People's Republic of Stokes Croft (PRSC)
+    category: art
+    kind: venue
+    status: provisional
+    url: https://www.prsc.org.uk/
+    area: Stokes Croft
+    tags: [street-art, community, artist-led, free]
+    cadence: monthly
+    addedAt: "2026-08-16"
+
+  - id: art/grant-bradley-gallery
+    name: Grant Bradley Gallery
+    category: art
+    kind: venue
+    status: provisional
+    url: https://www.grantbradleygallery.co.uk/
+    area: Bedminster
+    tags: [independent, community, gallery]
+    cadence: monthly
+    addedAt: "2026-08-16"

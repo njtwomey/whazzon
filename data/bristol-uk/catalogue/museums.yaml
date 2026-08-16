@@ -1,0 +1,139 @@
+schema: whazzon.catalogue/1
+category: museums
+label: Museums & Heritage
+description: >-
+  Museums, heritage sites and science centres. Mostly permanent collections
+  (`occurrence.kind: ongoing`) punctuated by temporary exhibitions and events.
+sources:
+  - id: museums/bristol-museum-art-gallery
+    name: Bristol Museum & Art Gallery
+    category: museums
+    kind: venue
+    status: provisional
+    url: https://www.bristolmuseums.org.uk/bristol-museum-and-art-gallery/whats-on/
+    area: Clifton
+    address:
+      street: Queens Road
+      locality: Clifton
+      city: Bristol
+      postcode: BS8 1RL
+    tags: [free, civic, exhibitions, family]
+    cadence: monthly
+    hints: |
+      Free entry. Part of the Bristol Museums group, which shares one events
+      platform across several sites — filter to this venue, or the same events
+      will be captured by every Bristol Museums entry in this file.
+    addedAt: "2026-08-16"
+
+  - id: museums/m-shed
+    name: M Shed
+    category: museums
+    kind: venue
+    status: provisional
+    url: https://www.bristolmuseums.org.uk/m-shed/whats-on/
+    area: Harbourside
+    address:
+      street: Princes Wharf, Wapping Road
+      city: Bristol
+      postcode: BS1 4RN
+    tags: [free, civic, local-history, family]
+    cadence: monthly
+    addedAt: "2026-08-16"
+
+  - id: museums/we-the-curious
+    name: We The Curious
+    category: museums
+    kind: venue
+    status: provisional
+    url: https://www.wethecurious.org/whats-on
+    area: Harbourside
+    address:
+      street: One Millennium Square, Anchor Road
+      city: Bristol
+      postcode: BS1 5DB
+    tags: [science, family, interactive, ticketed]
+    cadence: monthly
+    hints: Science centre and planetarium; strong family and school-holiday programme.
+    addedAt: "2026-08-16"
+
+  - id: museums/ss-great-britain
+    name: Brunel's SS Great Britain
+    category: museums
+    kind: venue
+    status: provisional
+    url: https://www.ssgreatbritain.org/whats-on/
+    area: Harbourside
+    address:
+      street: Great Western Dockyard, Gas Ferry Road
+      city: Bristol
+      postcode: BS1 6TY
+    tags: [heritage, ticketed, family, major]
+    cadence: monthly
+    addedAt: "2026-08-16"
+
+  - id: museums/aerospace-bristol
+    name: Aerospace Bristol
+    category: museums
+    kind: venue
+    status: provisional
+    url: https://aerospacebristol.org/whats-on
+    area: Filton
+    tags: [heritage, aviation, family, ticketed]
+    cadence: monthly
+    addedAt: "2026-08-16"
+
+  - id: museums/georgian-house
+    name: Georgian House Museum
+    category: museums
+    kind: venue
+    status: provisional
+    url: https://www.bristolmuseums.org.uk/georgian-house-museum/
+    area: City Centre
+    tags: [free, heritage, historic-house]
+    cadence: quarterly
+    hints: Small historic house with a sparse events programme; quarterly is enough.
+    addedAt: "2026-08-16"
+
+  - id: museums/red-lodge
+    name: Red Lodge Museum
+    category: museums
+    kind: venue
+    status: provisional
+    url: https://www.bristolmuseums.org.uk/red-lodge-museum/
+    area: City Centre
+    tags: [free, heritage, historic-house]
+    cadence: quarterly
+    addedAt: "2026-08-16"
+
+  - id: museums/blaise-museum
+    name: Blaise Museum
+    category: museums
+    kind: venue
+    status: provisional
+    url: https://www.bristolmuseums.org.uk/blaise-museum/
+    area: Henbury
+    tags: [free, heritage, parkland, family]
+    cadence: quarterly
+    addedAt: "2026-08-16"
+
+  - id: museums/clifton-observatory
+    name: Clifton Observatory
+    category: museums
+    kind: venue
+    status: provisional
+    url: https://cliftonobservatory.com/
+    area: Clifton
+    tags: [heritage, camera-obscura, ticketed, views]
+    cadence: quarterly
+    addedAt: "2026-08-16"
+
+  - id: museums/bristol-aquarium
+    name: Bristol Aquarium
+    category: museums
+    kind: venue
+    status: provisional
+    url: https://www.bristolaquarium.co.uk/
+    area: Harbourside
+    tags: [family, ticketed, attraction]
+    cadence: quarterly
+    addedAt: "2026-08-16"

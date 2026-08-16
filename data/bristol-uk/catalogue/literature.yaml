@@ -1,0 +1,105 @@
+schema: whazzon.catalogue/1
+category: literature
+label: Literature & Talks
+description: >-
+  Bookshops with event programmes, literary festivals, spoken word and poetry
+  nights, and public talks.
+sources:
+  - id: literature/waterstones-bristol
+    name: Waterstones Bristol
+    category: literature
+    kind: venue
+    status: provisional
+    url: https://www.waterstones.com/events
+    area: Broadmead
+    tags: [bookshop, author-events, chain]
+    cadence: weekly
+    hints: |
+      The national events page covers every branch — filter to the Bristol
+      shops only. Author talks and signings, usually ticketed.
+    addedAt: "2026-08-16"
+
+  - id: literature/storysmith
+    name: Storysmith Books
+    category: literature
+    kind: venue
+    status: provisional
+    url: https://storysmithbooks.com/pages/events
+    area: North Street, Bedminster
+    tags: [bookshop, independent, author-events]
+    cadence: weekly
+    hints: |
+      Independent bookshop on North Street with a regular author-event
+      programme, often in partnership with other North Street venues.
+    addedAt: "2026-08-16"
+
+  - id: literature/gloucester-road-books
+    name: Gloucester Road Books
+    category: literature
+    kind: venue
+    status: provisional
+    url: https://www.gloucesterroadbooks.co.uk/
+    area: Gloucester Road
+    tags: [bookshop, independent, author-events]
+    cadence: weekly
+    addedAt: "2026-08-16"
+
+  - id: literature/bookhaus
+    name: Bookhaus
+    category: literature
+    kind: venue
+    status: provisional
+    url: https://www.bookhaus.co.uk/
+    area: Wapping Wharf
+    tags: [bookshop, independent, author-events]
+    cadence: weekly
+    addedAt: "2026-08-16"
+
+  - id: literature/max-minervas
+    name: Max Minerva's Marvellous Books
+    category: literature
+    kind: venue
+    status: provisional
+    url: https://www.maxminervas.co.uk/
+    area: Westbury Park
+    tags: [bookshop, independent, family, author-events]
+    cadence: monthly
+    addedAt: "2026-08-16"
+
+  - id: literature/lyra-poetry-festival
+    name: Lyra — Bristol Poetry Festival
+    category: literature
+    kind: festival
+    status: provisional
+    url: https://www.lyrabristol.com/
+    tags: [festival, poetry, spoken-word, annual]
+    cadence: quarterly
+    hints: |
+      Annual poetry festival, usually in spring, programming across many venues
+      rather than one. Quiet for most of the year.
+    addedAt: "2026-08-16"
+
+  - id: literature/bristol-ideas
+    name: Bristol Ideas
+    category: literature
+    kind: organiser
+    status: provisional
+    url: https://www.bristolideas.co.uk/
+    tags: [talks, ideas, festival]
+    cadence: monthly
+    notes: >-
+      Long-running public ideas programme. Check whether it is still actively
+      programming before promoting to active — set status dormant if the site
+      has not listed anything recent.
+    addedAt: "2026-08-16"
+
+  - id: literature/novel-nights
+    name: Novel Nights
+    category: literature
+    kind: organiser
+    status: provisional
+    url: https://www.novelnights.co.uk/
+    tags: [spoken-word, writers, independent]
+    cadence: monthly
+    notes: Small writers' night programming into other venues; URL unverified.
+    addedAt: "2026-08-16"

@@ -1,0 +1,325 @@
+schema: whazzon.catalogue/1
+category: music
+label: Music
+description: >-
+  Concert halls, grassroots venues, club spaces and the promoters who programme
+  them. Bristol's densest category by volume.
+sources:
+  - id: music/bristol-beacon
+    name: Bristol Beacon
+    category: music
+    kind: venue
+    status: provisional
+    url: https://bristolbeacon.org/whats-on/
+    area: City Centre
+    address:
+      street: Trenchard Street
+      city: Bristol
+      postcode: BS1 5AR
+    tags: [concert-hall, classical, major]
+    cadence: weekly
+    hints: |
+      The city's main concert hall (formerly Colston Hall), reopened after a
+      long refurbishment. Several rooms of very different sizes — a folk gig in
+      the small hall and an orchestral concert in the main hall both appear
+      here. Books a year or more ahead for classical: use a long horizon.
+    addedAt: "2026-08-16"
+
+  - id: music/o2-academy
+    name: O2 Academy Bristol
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.academymusicgroup.com/o2academybristol/events
+    area: City Centre
+    address:
+      street: Frogmore Street
+      city: Bristol
+      postcode: BS1 5NA
+    tags: [touring, mid-size, commercial]
+    cadence: weekly
+    hints: Main mid-size touring venue. Books several months ahead.
+    addedAt: "2026-08-16"
+
+  - id: music/thekla
+    name: Thekla
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.theklabristol.co.uk/whats-on/
+    area: Harbourside
+    address:
+      street: The Grove, East Mud Dock
+      city: Bristol
+      postcode: BS1 4RB
+    tags: [independent, boat, club, indie]
+    cadence: weekly
+    hints: |
+      A converted cargo ship in the floating harbour — one of the city's
+      signature venues. Mixed gigs and club nights.
+    addedAt: "2026-08-16"
+
+  - id: music/the-fleece
+    name: The Fleece
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.thefleece.co.uk/events/
+    area: Old City
+    address:
+      street: 12 St Thomas Street
+      city: Bristol
+      postcode: BS1 6JJ
+    tags: [independent, rock, grassroots]
+    cadence: weekly
+    addedAt: "2026-08-16"
+
+  - id: music/exchange
+    name: Exchange
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.exchangebristol.com/
+    area: Old Market
+    address:
+      street: 72-73 Old Market Street
+      city: Bristol
+      postcode: BS2 0EJ
+    tags: [independent, community-owned, diy, grassroots]
+    cadence: weekly
+    hints: Community-owned DIY venue; strong punk, hardcore and alternative programme.
+    addedAt: "2026-08-16"
+
+  - id: music/the-louisiana
+    name: The Louisiana
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.thelouisiana.net/
+    area: Harbourside
+    tags: [independent, grassroots, new-bands]
+    cadence: weekly
+    hints: Small upstairs room with a long history of booking bands before they break.
+    addedAt: "2026-08-16"
+
+  - id: music/strange-brew
+    name: Strange Brew
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.strangebrewbristol.com/
+    area: Old City
+    tags: [independent, club, jazz, electronic]
+    cadence: weekly
+    addedAt: "2026-08-16"
+
+  - id: music/st-georges-bristol
+    name: St George's Bristol
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.stgeorgesbristol.co.uk/whats-on/
+    area: Brandon Hill
+    address:
+      street: Great George Street
+      city: Bristol
+      postcode: BS1 5RR
+    tags: [classical, jazz, folk, acoustic]
+    cadence: weekly
+    hints: |
+      Georgian church turned concert hall, prized for acoustics. Classical,
+      jazz and folk. Books a long way ahead — use a long forward horizon.
+    addedAt: "2026-08-16"
+
+  - id: music/motion
+    name: Motion / The Marble Factory
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.motionbristol.com/
+    area: St Philips
+    address:
+      street: 74-78 Avon Street
+      locality: St Philips
+      city: Bristol
+      postcode: BS2 0PX
+    tags: [club, electronic, warehouse, major]
+    cadence: weekly
+    hints: |
+      Large warehouse complex with several rooms, central to Bristol's
+      electronic scene. Cross-check against Resident Advisor — RA often has
+      lineups the venue site does not.
+    addedAt: "2026-08-16"
+
+  - id: music/lakota
+    name: Lakota
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.lakota.co.uk/
+    area: Stokes Croft
+    address:
+      street: 6 Upper York Street
+      city: Bristol
+      postcode: BS2 8QN
+    tags: [club, electronic, nightlife, historic]
+    cadence: weekly
+    addedAt: "2026-08-16"
+
+  - id: music/swx
+    name: SWX
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.swxbristol.com/
+    area: Broadmead
+    tags: [mid-size, club, commercial]
+    cadence: weekly
+    addedAt: "2026-08-16"
+
+  - id: music/rough-trade
+    name: Rough Trade Bristol
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.roughtrade.com/en-gb/events
+    area: Broadmead
+    tags: [record-shop, in-store, free]
+    cadence: weekly
+    hints: |
+      Record shop with in-store performances and signings, many free. The
+      events page covers all Rough Trade stores — filter to Bristol only.
+    addedAt: "2026-08-16"
+
+  - id: music/crofters-rights
+    name: Crofters Rights
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.croftersrights.co.uk/
+    area: Stokes Croft
+    tags: [independent, grassroots, free, pub]
+    cadence: weekly
+    addedAt: "2026-08-16"
+
+  - id: music/the-lanes
+    name: The Lanes
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.thelanesbristol.com/
+    area: Old City
+    tags: [independent, club, bowling, diy]
+    cadence: weekly
+    addedAt: "2026-08-16"
+
+  - id: music/dareshack
+    name: Dareshack
+    category: music
+    kind: venue
+    status: provisional
+    url: https://dareshack.com/
+    area: Old City
+    tags: [independent, listening-bar, electronic]
+    cadence: weekly
+    addedAt: "2026-08-16"
+
+  - id: music/the-canteen
+    name: The Canteen
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.canteenbristol.co.uk/live-music
+    area: Stokes Croft
+    tags: [free, grassroots, pub, nightly]
+    cadence: weekly
+    hints: |
+      Free live music essentially every night. High volume of small listings —
+      expect many events per week, mostly untitled beyond the artist name.
+    addedAt: "2026-08-16"
+
+  - id: music/the-gallimaufry
+    name: The Gallimaufry
+    category: music
+    kind: venue
+    status: provisional
+    url: https://thegallimaufry.co.uk/
+    area: Gloucester Road
+    tags: [free, jazz, pub, nightly]
+    cadence: weekly
+    hints: Free nightly music, heavy on jazz and funk.
+    addedAt: "2026-08-16"
+
+  - id: music/the-old-duke
+    name: The Old Duke
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.theoldduke.co.uk/
+    area: Old City
+    tags: [jazz, free, pub, historic]
+    cadence: weekly
+    hints: Long-running jazz pub on King Street; free nightly music.
+    addedAt: "2026-08-16"
+
+  - id: music/the-black-swan
+    name: The Black Swan
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.theblackswanbristol.com/
+    area: Easton
+    tags: [club, dub, drum-and-bass, independent]
+    cadence: weekly
+    addedAt: "2026-08-16"
+
+  - id: music/propyard
+    name: Propyard
+    category: music
+    kind: venue
+    status: provisional
+    url: https://propyard.co.uk/
+    area: St Philips
+    tags: [warehouse, club, events-space]
+    cadence: weekly
+    addedAt: "2026-08-16"
+
+  - id: music/the-bristol-fringe
+    name: The Bristol Fringe
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.thebristolfringe.co.uk/
+    area: Clifton
+    tags: [pub, jazz, folk, free, spoken-word]
+    cadence: weekly
+    addedAt: "2026-08-16"
+
+  - id: music/ashton-gate-stadium
+    name: Ashton Gate Stadium — concerts
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.ashtongatestadium.co.uk/events/
+    area: Ashton Gate
+    tags: [stadium, major, summer]
+    cadence: monthly
+    hints: |
+      Stadium concerts, a handful each summer, announced up to a year ahead.
+      Monthly is enough — the programme barely moves week to week. Sport at the
+      same venue is catalogued separately under sport.
+    addedAt: "2026-08-16"
+
+  - id: music/bristol-beacon-presents
+    name: Bristol Sounds
+    category: music
+    kind: festival
+    status: provisional
+    url: https://www.bristolsounds.co.uk/
+    area: Harbourside
+    tags: [summer, outdoor, concert-series]
+    cadence: monthly
+    hints: |
+      Outdoor summer concert series at the Amphitheatre. Dormant most of the
+      year, with the whole lineup announced in one go over winter and spring.
+    addedAt: "2026-08-16"

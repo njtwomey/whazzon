@@ -1,0 +1,185 @@
+schema: whazzon.catalogue/1
+category: making
+label: Making & Craft
+description: >-
+  Makerspaces, workshops, printmaking, woodwork and craft courses.
+
+  The distinctive problem in this category is that most listings are *courses*,
+  not events — a ten-week evening class is not the same thing as a one-off
+  workshop, and a "what's on" page is much less useful if it fills up with
+  enrolment listings. Prefer one-off and short workshops, open days and public
+  makes; record a recurring course as `occurrence.kind: recurring` with the
+  pattern stated, rather than as a stream of dated events.
+sources:
+  - id: making/bristol-folk-house
+    name: Bristol Folk House
+    category: making
+    kind: venue
+    status: provisional
+    url: https://www.bristolfolkhouse.co.uk/courses/
+    homepage: https://www.bristolfolkhouse.co.uk/
+    area: Park Street
+    address:
+      street: 40A Park Street
+      city: Bristol
+      postcode: BS1 5JG
+    tags: [courses, craft, adult-education, music, independent, historic]
+    cadence: monthly
+    hints: |
+      Long-running adult education centre: craft, art, woodwork and language
+      courses plus a folk music programme and a café. Output is mostly termly
+      courses — capture one-off workshops and the music programme as dated
+      events, and courses as recurring with the term stated. Enrolment opens
+      well before a term starts, so use a long forward horizon.
+    addedAt: "2026-08-16"
+
+  - id: making/bristol-hackspace
+    name: Bristol Hackspace
+    category: making
+    kind: venue
+    status: provisional
+    url: https://www.bristolhackspace.org/
+    area: St Philips
+    tags: [makerspace, electronics, open-evening, community, diy, free]
+    cadence: monthly
+    hints: |
+      Volunteer-run makerspace with regular open evenings anyone can attend —
+      typically weekly and recurring rather than individually listed, so record
+      the pattern rather than inventing dates.
+    addedAt: "2026-08-16"
+
+  - id: making/spike-print-studio
+    name: Spike Print Studio
+    category: making
+    kind: venue
+    status: provisional
+    url: https://www.spikeprintstudio.org/courses/
+    area: Spike Island
+    tags: [printmaking, courses, workshops, open-access, studio]
+    cadence: monthly
+    hints: |
+      Open-access printmaking studio — screenprint, etching, letterpress. Runs
+      short weekend workshops as well as longer courses; the weekend workshops
+      are the ones worth surfacing.
+    addedAt: "2026-08-16"
+
+  - id: making/bristol-wood-recycling
+    name: Bristol Wood Recycling Project
+    category: making
+    kind: venue
+    status: provisional
+    url: https://www.bristolwoodrecycling.org.uk/
+    area: St Philips
+    tags: [woodwork, workshops, social-enterprise, volunteering, reuse]
+    cadence: monthly
+    hints: |
+      Social enterprise reclaiming timber, running woodworking workshops and
+      volunteer sessions. Distinguish public workshops from volunteer shifts.
+    addedAt: "2026-08-16"
+
+  - id: making/bristol-bike-project
+    name: The Bristol Bike Project
+    category: making
+    kind: venue
+    status: provisional
+    url: https://www.thebristolbikeproject.org/
+    area: Stokes Croft
+    tags: [bikes, diy, workshops, community, repair, volunteering]
+    cadence: monthly
+    hints: |
+      DIY bike maintenance sessions and earn-a-bike programmes. Mostly
+      recurring weekly sessions rather than one-off events.
+    addedAt: "2026-08-16"
+
+  - id: making/knowle-west-media-centre
+    name: Knowle West Media Centre
+    category: making
+    kind: venue
+    status: provisional
+    url: https://kwmc.org.uk/whats-on/
+    area: Knowle West
+    tags: [makerspace, digital, community, workshops, free, youth]
+    cadence: monthly
+    hints: |
+      Community arts and digital media centre running The Factory, a digital
+      fabrication workshop. Strong free and youth programme.
+    addedAt: "2026-08-16"
+
+  - id: making/bricks-bristol
+    name: BRICKS
+    category: making
+    kind: organiser
+    status: provisional
+    url: https://bricksbristol.org/
+    tags: [artist-led, studios, workshops, community]
+    cadence: monthly
+    hints: Artist-led organisation running studios and a public workshop programme.
+    addedAt: "2026-08-16"
+
+  - id: making/bristol-textile-quarter
+    name: Bristol Textile Quarter
+    category: making
+    kind: venue
+    status: provisional
+    url: https://bristoltextilequarter.co.uk/
+    tags: [textiles, weaving, courses, workshops, sustainable]
+    cadence: monthly
+    notes: Textile studio and workshop programme; confirm it is still trading.
+    addedAt: "2026-08-16"
+
+  - id: making/bristol-guild
+    name: Bristol Guild of Applied Art
+    category: making
+    kind: venue
+    status: provisional
+    url: https://www.bristolguild.co.uk/
+    area: Park Street
+    tags: [craft, gallery, shop, exhibitions, applied-art]
+    cadence: monthly
+    notes: Craft shop and gallery on Park Street with periodic exhibitions.
+    addedAt: "2026-08-16"
+
+  - id: making/the-island
+    name: The Island (Artspace Lifespace)
+    category: making
+    kind: venue
+    status: provisional
+    url: https://artspacelifespace.com/
+    area: Old City
+    tags: [artist-led, studios, workshops, events-space, diy]
+    cadence: monthly
+    notes: >-
+      Artist-run studios and event spaces in the former central police station.
+      Programme is irregular and spans making, performance and club events.
+    addedAt: "2026-08-16"
+
+  - id: making/maker-shed
+    name: Maker Shed
+    category: making
+    kind: venue
+    status: provisional
+    url: https://www.bristolhackspace.org/
+    tags: [makerspace, workshops, diy, unverified]
+    cadence: monthly
+    notes: >-
+      Placeholder. Requested specifically, but we could not confirm an
+      independent Bristol makerspace of this name — it may be a nickname for
+      Bristol Hackspace, a Men's Shed group, or a space we have not identified.
+      The URL currently points at Bristol Hackspace as a stand-in. Confirm the
+      real identity and URL, then either correct this entry or set it to
+      status: closed and rely on the hackspace entry.
+    addedAt: "2026-08-16"
+
+  - id: making/mens-sheds-bristol
+    name: Men's Sheds — Bristol area
+    category: making
+    kind: aggregator
+    status: provisional
+    url: https://menssheds.org.uk/find-a-shed/
+    tags: [woodwork, community, wellbeing, diy, free]
+    cadence: quarterly
+    hints: |
+      National directory of community workshops — filter to the Bristol area.
+      Individual sheds rarely have their own listings, so this directory is the
+      only practical route to them.
+    addedAt: "2026-08-16"

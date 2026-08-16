@@ -1,0 +1,192 @@
+schema: whazzon.catalogue/1
+category: festivals
+label: Festivals
+description: >-
+  Annual, mostly venue-less events. The largest things that happen in the city
+  live here, and almost none of them appear on any venue's website.
+  Announcements cluster in winter and spring for a summer that sells out early.
+sources:
+  - id: festivals/bristol-harbour-festival
+    name: Bristol Harbour Festival
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://bristolharbourfestival.co.uk/
+    area: Harbourside
+    tags: [free, summer, outdoor, major, citywide]
+    cadence: quarterly
+    hints: |
+      Huge free three-day festival across the harbour each July. The programme
+      lands late — often only weeks ahead — so increase cadence to weekly from
+      May onwards.
+    addedAt: "2026-08-16"
+
+  - id: festivals/balloon-fiesta
+    name: Bristol International Balloon Fiesta
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://bristolballoonfiesta.co.uk/
+    area: Ashton Court
+    tags: [free, summer, outdoor, major, family]
+    cadence: quarterly
+    hints: Four days each August at Ashton Court. Free to attend.
+    addedAt: "2026-08-16"
+
+  - id: festivals/upfest
+    name: Upfest
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://www.upfest.co.uk/
+    area: Bedminster
+    tags: [street-art, free, summer, outdoor, major]
+    cadence: quarterly
+    hints: |
+      Europe's largest street art festival, across Bedminster and Southville.
+      Does not run every year — check whether an edition is scheduled before
+      assuming a summer date.
+    addedAt: "2026-08-16"
+
+  - id: festivals/st-pauls-carnival
+    name: St Pauls Carnival
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://www.stpaulscarnival.net/
+    area: St Pauls
+    tags: [free, summer, outdoor, caribbean, community, major]
+    cadence: quarterly
+    hints: |
+      African-Caribbean carnival, usually early July. Has skipped years for
+      funding reasons — confirm the edition is happening rather than assuming.
+    addedAt: "2026-08-16"
+
+  - id: festivals/bristol-pride
+    name: Bristol Pride
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://www.bristolpride.co.uk/
+    tags: [summer, lgbtq, community, major, citywide]
+    cadence: quarterly
+    hints: |
+      A month-long programme of events across the city culminating in the July
+      Pride Day, not a single day — expect many satellite events at other
+      venues, and set `venue.sourceId` where they match our catalogue.
+    addedAt: "2026-08-16"
+
+  - id: festivals/love-saves-the-day
+    name: Love Saves the Day
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://www.lovesavestheday.org/
+    tags: [music, summer, outdoor, ticketed, major, electronic]
+    cadence: quarterly
+    hints: Bristol's largest music festival; lineup announced in stages over winter and spring.
+    addedAt: "2026-08-16"
+
+  - id: festivals/forwards
+    name: Forwards Festival
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://www.forwardsbristol.co.uk/
+    area: The Downs
+    tags: [music, summer, outdoor, ticketed, major]
+    cadence: quarterly
+    addedAt: "2026-08-16"
+
+  - id: festivals/simple-things
+    name: Simple Things Festival
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://www.simplethingsfestival.co.uk/
+    tags: [music, autumn, multi-venue, electronic, independent]
+    cadence: quarterly
+    hints: |
+      Multi-venue day festival across the city centre in autumn — a good source
+      of events at venues we already catalogue, so expect duplicates.
+    addedAt: "2026-08-16"
+
+  - id: festivals/bristol-light-festival
+    name: Bristol Light Festival
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://bristollightfestival.org/
+    area: City Centre
+    tags: [free, winter, outdoor, art, family]
+    cadence: quarterly
+    hints: Free light art trail across the city centre each February.
+    addedAt: "2026-08-16"
+
+  - id: festivals/encounters
+    name: Encounters Film Festival
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://encounters.film/
+    tags: [film, autumn, short-film, industry]
+    cadence: quarterly
+    hints: International short film festival, largely hosted at Watershed.
+    addedAt: "2026-08-16"
+
+  - id: festivals/slapstick
+    name: Slapstick Festival
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://slapstick.org.uk/
+    tags: [film, comedy, winter, silent-film]
+    cadence: quarterly
+    hints: Silent and classic comedy film festival each January, across several venues.
+    addedAt: "2026-08-16"
+
+  - id: festivals/bristol-open-doors
+    name: Bristol Open Doors
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://bristolopendoors.org.uk/
+    tags: [free, heritage, autumn, architecture, citywide]
+    cadence: quarterly
+    hints: |
+      Free access to buildings normally closed to the public, one weekend each
+      September. Listings appear late and slots book out immediately.
+    addedAt: "2026-08-16"
+
+  - id: festivals/winter-lanterns
+    name: Bedminster Winter Lanterns
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://www.winterlanterns.co.uk/
+    area: Bedminster
+    tags: [winter, family, outdoor, ticketed, light]
+    cadence: quarterly
+    addedAt: "2026-08-16"
+
+  - id: festivals/downs-festival
+    name: The Downs Bristol
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://www.thedownsbristol.com/
+    area: The Downs
+    tags: [music, summer, outdoor, ticketed]
+    cadence: quarterly
+    notes: Check whether an edition is scheduled — has not run every year.
+    addedAt: "2026-08-16"
+
+  - id: festivals/craft-beer-festival
+    name: Bristol Craft Beer Festival
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://bristolcraftbeerfestival.co.uk/
+    tags: [food-drink, summer, ticketed, beer]
+    cadence: quarterly
+    addedAt: "2026-08-16"

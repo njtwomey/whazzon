@@ -1,0 +1,63 @@
+schema: whazzon.catalogue/1
+category: comedy
+label: Comedy
+description: >-
+  Comedy clubs, improv, and the venues whose comedy programme is substantial
+  enough to be worth watching on its own.
+sources:
+  - id: comedy/the-comedy-box
+    name: The Comedy Box
+    category: comedy
+    kind: organiser
+    status: provisional
+    url: https://www.comedybox.co.uk/
+    area: Bedminster
+    tags: [club, stand-up, weekly]
+    cadence: weekly
+    hints: |
+      Bristol's main stand-up club, based at the Hen & Chicken but also
+      promoting into other venues — set `venue.sourceId` where the host is in
+      our catalogue.
+    addedAt: "2026-08-16"
+
+  - id: comedy/bristol-improv-theatre
+    name: Bristol Improv Theatre — comedy programme
+    category: comedy
+    kind: venue
+    status: provisional
+    url: https://www.improvtheatre.co.uk/whats-on
+    area: Clifton
+    tags: [improv, stand-up, independent]
+    cadence: weekly
+    notes: >-
+      Deliberately catalogued under both theatre and comedy — the venue's output
+      genuinely sits in both. Dedup at compile time on event id, which will
+      match because both entries harvest the same page.
+    addedAt: "2026-08-16"
+
+  - id: comedy/bristol-comedy-garden
+    name: Bristol Comedy Garden
+    category: comedy
+    kind: festival
+    status: provisional
+    url: https://www.bristolcomedygarden.co.uk/
+    area: Queen Square
+    tags: [festival, summer, outdoor, major]
+    cadence: quarterly
+    hints: |
+      Annual summer festival in Queen Square with big touring names. Lineup is
+      announced in one go in spring and then barely changes — quarterly is
+      enough outside the announcement window.
+    addedAt: "2026-08-16"
+
+  - id: comedy/hen-and-chicken
+    name: The Hen & Chicken
+    category: comedy
+    kind: venue
+    status: provisional
+    url: https://www.henandchicken.com/
+    area: Bedminster
+    tags: [pub, club, stand-up]
+    cadence: weekly
+    notes: Host venue for The Comedy Box; listings may substantially overlap.
+    addedAt: "2026-08-16"

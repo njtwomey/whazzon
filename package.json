@@ -1,0 +1,43 @@
+{
+  "name": "whazzon",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "What's on in a place — catalogue, harvest, render.",
+  "workspaces": [
+    "web"
+  ],
+  "scripts": {
+    "validate": "tsx packages/pipeline/src/cli/validate.ts",
+    "migrate": "tsx packages/pipeline/src/cli/migrate.ts",
+    "check-urls": "tsx packages/pipeline/src/cli/check-urls.ts",
+    "stale": "tsx packages/pipeline/src/cli/stale.ts",
+    "mock": "tsx packages/pipeline/src/cli/mock-harvest.ts",
+    "compile": "tsx packages/pipeline/src/cli/compile.ts",
+    "sync-web": "tsx packages/pipeline/src/cli/sync-web.ts",
+    "dev": "npm run sync-web -- --all && npm run dev -w @whazzon/web",
+    "build:web": "npm run sync-web -- --all && npm run build -w @whazzon/web",
+    "typecheck": "tsc --noEmit && npm run typecheck -w @whazzon/web",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "assign-ids": "tsx packages/pipeline/src/cli/assign-ids.ts",
+    "tags": "tsx packages/pipeline/src/cli/tags.ts",
+    "drift": "tsx packages/pipeline/src/cli/drift.ts"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.4",
+    "@types/node": "^22.10.0",
+    "jsdom": "^30.0.1",
+    "prettier": "^3.4.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.2.0"
+  },
+  "dependencies": {
+    "yaml": "^2.6.0",
+    "zod": "^3.24.0"
+  }
+}

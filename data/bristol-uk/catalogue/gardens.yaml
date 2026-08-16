@@ -1,0 +1,123 @@
+schema: whazzon.catalogue/1
+category: gardens
+label: Gardens & Horticulture
+description: >-
+  Botanic gardens, nurseries, growing projects and open-garden schemes. Sharply
+  seasonal: plant fairs and open days cluster in spring and early summer, and
+  most of this category has nothing on at all in January.
+sources:
+  - id: gardens/university-botanic-garden
+    name: University of Bristol Botanic Garden
+    category: gardens
+    kind: venue
+    status: provisional
+    url: https://botanic-garden.bristol.ac.uk/whats-on/
+    homepage: https://botanic-garden.bristol.ac.uk/
+    area: Stoke Bishop
+    tags: [botanic, university, ticketed, plants, tours]
+    cadence: monthly
+    hints: |
+      The city's main botanic garden. Runs guided tours, plant sales and
+      seasonal open days alongside a permanent collection — the collection is
+      `occurrence.kind: ongoing`, the events are dated.
+    addedAt: "2026-08-16"
+
+  - id: gardens/national-garden-scheme
+    name: National Garden Scheme — Bristol area
+    category: gardens
+    kind: aggregator
+    status: provisional
+    url: https://ngs.org.uk/gardens/in/bristol/
+    homepage: https://ngs.org.uk/
+    tags: [open-gardens, charity, seasonal, private-gardens]
+    cadence: monthly
+    hints: |
+      Private gardens opening to the public for charity, usually for a single
+      afternoon. High-value and genuinely hard to find elsewhere, and already
+      scoped to Bristol by this URL, so no radius filtering is needed.
+
+      Openings are published for the whole year in spring, so capture a long
+      forward horizon — a garden may open on only two days in the entire year,
+      and missing the announcement means missing it altogether. Each opening is
+      its own `single` event; set `venue.name` from the garden's name, since
+      these are private addresses and not catalogued sources.
+    addedAt: "2026-08-16"
+
+  - id: gardens/grow-wilder
+    name: Grow Wilder
+    category: gardens
+    kind: venue
+    status: provisional
+    url: https://www.avonwildlifetrust.org.uk/grow-wilder
+    area: Frenchay
+    tags: [growing, wildlife, volunteering, workshops, community]
+    cadence: monthly
+    hints: |
+      Avon Wildlife Trust growing site running workshops, volunteer days and
+      seasonal plant sales.
+    addedAt: "2026-08-16"
+
+  - id: gardens/avon-wildlife-trust
+    name: Avon Wildlife Trust
+    category: gardens
+    kind: organiser
+    status: provisional
+    url: https://www.avonwildlifetrust.org.uk/events
+    tags: [wildlife, nature, walks, volunteering, workshops]
+    cadence: weekly
+    hints: |
+      Runs events across many reserves and sites rather than one venue — set
+      `venue.name` per event, since these are frequently outdoors with no
+      catalogued venue.
+    addedAt: "2026-08-16"
+
+  - id: gardens/bristol-allotments
+    name: Bristol City Council — allotments & community growing
+    category: gardens
+    kind: listing
+    status: provisional
+    url: https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/allotments
+    tags: [allotments, community, civic, growing]
+    cadence: quarterly
+    notes: >-
+      Mostly administrative rather than an events page, but the route to
+      community growing days and allotment association open days.
+    addedAt: "2026-08-16"
+
+  - id: gardens/bristol-botanical-society
+    name: Bristol Naturalists' Society — botany section
+    category: gardens
+    kind: organiser
+    status: provisional
+    url: https://www.bristolnats.org.uk/
+    tags: [botany, walks, talks, society, free]
+    cadence: monthly
+    notes: Long-running local natural history society; check the events page path.
+    addedAt: "2026-08-16"
+
+  - id: gardens/the-community-farm
+    name: The Community Farm
+    category: gardens
+    kind: venue
+    status: provisional
+    url: https://www.thecommunityfarm.co.uk/events/
+    area: Chew Magna
+    tags: [organic, growing, volunteering, farm, community]
+    cadence: monthly
+    notes: >-
+      Just outside the configured radius, south of the city, but a genuine
+      destination for Bristol growers — keep unless the radius is enforced
+      strictly.
+    addedAt: "2026-08-16"
+
+  - id: gardens/blaise-plant-nursery
+    name: Blaise Plant Nursery
+    category: gardens
+    kind: venue
+    status: provisional
+    url: https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/parks-and-estates/blaise-plant-nursery
+    area: Henbury
+    tags: [nursery, plants, council, plant-sales]
+    cadence: quarterly
+    notes: Council-run nursery with periodic plant sales; URL needs checking.
+    addedAt: "2026-08-16"

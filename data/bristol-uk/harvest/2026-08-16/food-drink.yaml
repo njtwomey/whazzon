@@ -1,0 +1,426 @@
+schema: "whazzon.harvest/1"
+locationId: "bristol-uk"
+date: "2026-08-16"
+category: "food-drink"
+harvestedAt: "2026-08-16T17:20:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "2"
+model: "claude-opus-5"
+observations:
+  - sourceId: "food-drink/wapping-wharf"
+    fetch:
+      ok: true
+      url: "https://www.wappingwharf.co.uk/latest-news"
+      status: 200
+    events: []
+    notes: "Catalogue URL is wrong: wappingwharf.com is a parked domain and 302s to hugedomains.com (for sale). The live site is https://www.wappingwharf.co.uk and it has no What's On or events page at all — navigation is EAT DRINK SHOP / PLAN YOUR VISIT / LATEST NEWS / COMMUNITY / CONTACT / LIVE / WORK. Events only surface as news posts. The two event posts on the feed are both in the past: \"10 year anniversary celebration\", Friday 3rd July (post dated Jun 17, and 3 July 2026 was a Friday), and \"End of Summer Party\", Friday 6th September (post dated Jul 29 2024 — 6 September 2026 is a Sunday, so this is a stale 2024 post, not an upcoming date). Nothing upcoming is listed, so no events recorded rather than guessing a year."
+  - sourceId: "food-drink/left-handed-giant"
+    fetch:
+      ok: true
+      url: "https://lefthandedgiant.com/collections/brewery-tours-and-events"
+      status: 200
+    events:
+      - id: "food-drink/left-handed-giant#a4a4113c72"
+        sourceId: "food-drink/left-handed-giant"
+        title: "August 2026: LHG Brewpub Brewery Tour"
+        occurrence:
+          kind: "undated"
+          note: "Listed only as \"August 2026\" in the product title; the collection page shows no specific date or start time."
+        status: "scheduled"
+        url: "https://lefthandedgiant.com/products/august-2026-lhg-brewpub-brewery-tour"
+        image: "https://lefthandedgiant.com/cdn/shop/files/119057903_3364576000270805_2912355569396650642_n_a0ea6cb3-e46a-40f5-a9c3-0469168c8215.jpg?v=1730308769&width=533"
+        price:
+          free: false
+          text: "£17.50"
+          min: 17.5
+          currency: "GBP"
+        tags:
+          - "brewery"
+          - "guided-tour"
+          - "tasting"
+          - "booking-required"
+        raw: "**August 2026 : LHG Brewpub Brewery Tour** — £17.50 GBP.
+
+          A brewery tour at the LHG Brewpub.\n"
+        summary: "A ticketed tour of Left Handed Giant's Finzels Reach brewpub brewery, sold by the month. The listing names August 2026 but does not publish the tour date or time on the collection page."
+        confidence: "medium"
+    notes: "Catalogued URL is the homepage; it carries no listings. The programme lives at /collections/brewery-tours-and-events, which is a Shopify collection holding exactly two items — one dated tour product and a gift voucher (not an event, omitted). The collection page prints no specific tour date or time, only the month in the product title, and per instruction I did not open the product page, so the occurrence is undated."
+  - sourceId: "food-drink/wiper-and-true"
+    fetch:
+      ok: true
+      url: "https://www.wiperandtrue.com/pages/events"
+      status: 200
+    events:
+      - id: "food-drink/wiper-and-true#ef35cb257f"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Brewery Tours"
+        occurrence:
+          kind: "recurring"
+          pattern: "Fridays & Saturdays"
+        status: "scheduled"
+        url: "https://wiperandtrue.com/products/brewery-tours"
+        image: "https://wiperandtrue.com/cdn/shop/files/BreweryTour.jpg?v=1699525114&width=660"
+        tags:
+          - "brewery"
+          - "guided-tour"
+          - "tasting"
+          - "booking-required"
+        raw: "**Brewery Tours** — Fridays & Saturdays.
+
+          \"A beer lover's perfect day out.\"\n"
+        summary: "A guided tour of the Old Market brewery running on Fridays and Saturdays, ending in tastings. Booked as a ticket through the shop; no time or price shown on the listings page."
+        confidence: "high"
+      - id: "food-drink/wiper-and-true#c2f22db766"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Questionable Quizzes Pub Quiz"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Tuesday"
+        status: "scheduled"
+        url: "https://wiperandtrue.com/products/questionable-quizzes"
+        image: "https://wiperandtrue.com/cdn/shop/files/QuizIcon_2524544b-5d95-4705-92e2-32d3cfe80128.jpg?v=1710500226&width=660"
+        tags:
+          - "quiz"
+          - "one-night"
+          - "community"
+        raw: "**Questionable Quizzes Pub Quiz** — Every Tuesday.
+
+          \"Join Questionable Quizzes for a night of high-stakes trivia and
+
+          low-brow banter!\"\n"
+        summary: "The taproom's weekly Tuesday pub quiz, hosted by Questionable Quizzes. A standing fixture rather than a one-off; no time or entry price given."
+        confidence: "high"
+      - id: "food-drink/wiper-and-true#827ce356ff"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Board Games Night"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Friday"
+        status: "scheduled"
+        url: "https://wiperandtrue.com/products/board-games-night-1"
+        image: "https://wiperandtrue.com/cdn/shop/files/SwimDeepCharityT-Shirt-10.jpg?v=1706028778&width=660"
+        tags:
+          - "games"
+          - "drop-in"
+          - "community"
+        raw: "**Board Games Night** — Every Friday.
+
+          \"Settle in for a cosy night of board games, hosted in collaboration
+
+          with North Street Games.\"\n"
+        summary: "A weekly Friday board games night in the Barrel Store, run with North Street Games, with the shop's library open to play from."
+        confidence: "high"
+      - id: "food-drink/wiper-and-true#4cd2d437fc"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Hiccup Polymer Clay Workshop"
+        occurrence:
+          kind: "single"
+          date: "2026-08-13"
+        status: "scheduled"
+        url: "https://wiperandtrue.com/products/hiccup-pollmer-clay-workshop"
+        image: "https://wiperandtrue.com/cdn/shop/files/worshop5.jpg?v=1721911056&width=660"
+        tags:
+          - "workshop"
+          - "hands-on"
+          - "booking-required"
+        raw: "**Hiccup polymer clay workshop** — 13 Aug.
+
+          \"Create your own polymer clay earrings in a relaxed pub setting!\"\n"
+        summary: "An earring-making session in polymer clay, held in the taproom with a drink in hand. Year not printed; inferred as 2026."
+        confidence: "medium"
+      - id: "food-drink/wiper-and-true#86d925e3ab"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Summer Sessions with Tina Edwards, Bigger Boat, Jake Worm"
+        occurrence:
+          kind: "single"
+          date: "2026-08-14"
+        status: "scheduled"
+        url: "https://wiperandtrue.com/products/summer-sessions-with-tina-edwards-bigger-boat-jake-worm"
+        image: "https://wiperandtrue.com/cdn/shop/files/JoeMagowan-TinaEdwards-DSC04214.jpg?v=1778856831&width=660"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "dj"
+          - "party"
+          - "free-entry"
+          - "one-night"
+        raw: "**Summer Sessions with Tina Edwards, Bigger Boat, Jake Worm** — 14 Aug.
+
+          \"Wiper and True present Summer Sessions - free Friday parties all
+
+          summer long with top DJs.\"\n"
+        summary: "One night of the brewery's free Friday DJ series, with broadcaster and selector Tina Edwards heading the bill. Year not printed; inferred as 2026."
+        confidence: "medium"
+      - id: "food-drink/wiper-and-true#8fff00e33d"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Pottery & Pints: Make a Ceramic Cocktail Cup at Wiper & True"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+        status: "scheduled"
+        url: "https://wiperandtrue.com/products/pottery-pints-make-a-ceramic-cocktail-cup-at-wiper-true-copy"
+        image: "https://wiperandtrue.com/cdn/shop/files/Make_a_Ceramic_Cocktail_Cup.png?v=1779807206&width=660"
+        tags:
+          - "workshop"
+          - "hands-on"
+          - "beginners"
+          - "booking-required"
+        raw: "**Pottery & Pints: Make a Ceramic Cocktail Cup at Wiper & True** — 19 Aug.
+
+          \"Beginner-friendly ceramic Cocktail Cup workshop.\"\n"
+        summary: "Build and decorate your own ceramic cocktail cup over a pint, aimed at complete beginners. Year not printed; inferred as 2026."
+        confidence: "medium"
+      - id: "food-drink/wiper-and-true#f0ea076346"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Summer Sessions with Dashy, JPEG, Nathan & Jackson Worm"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+        status: "scheduled"
+        url: "https://wiperandtrue.com/products/summer-sessions-with-dashy-jpeg-nathan-jackson-worm"
+        image: "https://wiperandtrue.com/cdn/shop/files/IMG_1584.jpg?v=1778857230&width=660"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "dj"
+          - "party"
+          - "free-entry"
+          - "one-night"
+        raw: "**Summer Sessions with Dashy, JPEG, Nathan & Jackson Worm** — 21 Aug.
+
+          \"Wiper and True present Summer Sessions - free Friday parties all
+
+          summer long with top DJs.\"\n"
+        summary: "Another Friday instalment of the free Summer Sessions DJ series in the taproom. Year not printed; inferred as 2026."
+        confidence: "medium"
+      - id: "food-drink/wiper-and-true#ff8294204f"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Pixels Day Party"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+        status: "scheduled"
+        url: "https://wiperandtrue.com/products/pixels-day-party"
+        image: "https://wiperandtrue.com/cdn/shop/files/22-08Insta_1.jpg?v=1785853929&width=660"
+        tags:
+          - "dj"
+          - "party"
+          - "one-night"
+        raw: "**Pixels Day Party** — 22 Aug.
+
+          \"Celebrating 10 years of Pixels Productions with special guests Dani
+
+          Whylie, Babylong Uprising, and more.\"\n"
+        summary: "Bristol promoter Pixels Productions marks ten years with a daytime party at the brewery. Year not printed; inferred as 2026."
+        confidence: "medium"
+      - id: "food-drink/wiper-and-true#6aad61a360"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Cyanotype Workshop"
+        occurrence:
+          kind: "single"
+          date: "2026-08-23"
+        status: "scheduled"
+        url: "https://wiperandtrue.com/products/cyanotype-workshop-copy-1"
+        image: "https://wiperandtrue.com/cdn/shop/files/download.jpg?v=1783425835&width=660"
+        tags:
+          - "workshop"
+          - "hands-on"
+          - "booking-required"
+        raw: "**Cyanotype Workshop** — 23 Aug.
+
+          \"Discover the magic of cyanotype printing, a beautiful and historic
+
+          photographic process!\"\n"
+        summary: "Make sun-exposed blue prints using the Victorian cyanotype process, in the taproom. Year not printed; inferred as 2026."
+        confidence: "medium"
+      - id: "food-drink/wiper-and-true#b8c87a8ffb"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Wonky Line DnD Night"
+        occurrence:
+          kind: "single"
+          date: "2026-08-23"
+        status: "scheduled"
+        url: "https://wiperandtrue.com/products/wonky-line-dnd-night-copy-1"
+        image: "https://wiperandtrue.com/cdn/shop/files/e151590_i324953_s4.jpg?v=1780071121&width=660"
+        tags:
+          - "games"
+          - "beginners"
+          - "booking-required"
+        raw: "**Wonky Line DnD night** — 23 Aug.
+
+          \"Your official invitation into the wonderful world of Dungeons &
+
+          Dragons!\"\n"
+        summary: "A one-shot Dungeons & Dragons evening run by Wonky Line, pitched at people who have never played. Year not printed; inferred as 2026."
+        confidence: "medium"
+      - id: "food-drink/wiper-and-true#1d7734320e"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Teddy Bear Making Workshop"
+        occurrence:
+          kind: "single"
+          date: "2026-08-25"
+        status: "scheduled"
+        url: "https://wiperandtrue.com/products/portrait-ya-bestie-copy"
+        image: "https://wiperandtrue.com/cdn/shop/files/e146170_i308372_s4.jpg?v=1783426578&width=660"
+        tags:
+          - "workshop"
+          - "hands-on"
+          - "booking-required"
+        raw: "**Teddy Bear Making Workshop** — 25 Aug.
+
+          \"A whimsical evening where you'll hand-stitch, stuff, and fluff your
+
+          very own plush companion!\"\n"
+        summary: "Hand-stitch and stuff your own teddy bear over a pint in the Barrel Store. Year not printed; inferred as 2026."
+        confidence: "medium"
+      - id: "food-drink/wiper-and-true#382ef0c7a5"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Collage Club"
+        occurrence:
+          kind: "single"
+          date: "2026-08-27"
+        status: "scheduled"
+        url: "https://wiperandtrue.com/products/collage-club-bs-copy-1"
+        image: "https://wiperandtrue.com/cdn/shop/files/CollageClubIcon_1bff24a1-af61-4a7f-9daa-d71f61980571.jpg?v=1712674575&width=660"
+        tags:
+          - "workshop"
+          - "hands-on"
+          - "community"
+        raw: "**Collage Club** — 27 Aug.
+
+          \"Come along and get creative with us.\"\n"
+        summary: "A sociable cut-and-paste collage session in the taproom, materials provided. Year not printed; inferred as 2026."
+        confidence: "medium"
+      - id: "food-drink/wiper-and-true#2d76353ef4"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Summer Sessions with Felix Joy, Kasia, Nathan Worm"
+        occurrence:
+          kind: "single"
+          date: "2026-08-28"
+        status: "scheduled"
+        url: "https://wiperandtrue.com/products/summer-sessions-with-felix-joy-kasia-nathan-worm"
+        image: "https://wiperandtrue.com/cdn/shop/files/PXL_20240716_164929891_2_1_1.jpg?v=1778857837&width=660"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "dj"
+          - "party"
+          - "free-entry"
+          - "one-night"
+        raw: "**Summer Sessions with Felix Joy, Kasia, Nathan Worm** — 28 Aug.
+
+          \"Wiper and True present Summer Sessions - free Friday parties all
+
+          summer long with top DJs.\"\n"
+        summary: "The last advertised Friday of the free Summer Sessions DJ run, with Felix Joy and Kasia. Year not printed; inferred as 2026."
+        confidence: "medium"
+      - id: "food-drink/wiper-and-true#aa00ecd695"
+        sourceId: "food-drink/wiper-and-true"
+        title: "East Bristol Brewery Trail"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+        status: "scheduled"
+        url: "https://wiperandtrue.com/products/east-bristol-brewery-trail"
+        image: "https://wiperandtrue.com/cdn/shop/files/EBBTSOCIALSQAURE.jpg?v=1784822694&width=660"
+        tags:
+          - "beer"
+          - "brewery"
+          - "festival"
+          - "tasting"
+        raw: "**East Bristol Brewery Trail** — 29 Aug.
+
+          \"THE EAST BRISTOL BREWERY TRAIL IS BACK!\"\n"
+        summary: "The one-day crawl between east Bristol's breweries and taprooms, with Wiper and True as one of the stops. Year not printed; inferred as 2026, and the listing gives no times or price."
+        confidence: "medium"
+      - id: "food-drink/wiper-and-true#0a9c2de08d"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Downbeat Melody Soundsystem"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+        status: "scheduled"
+        url: "https://wiperandtrue.com/products/downbeat-melody-soundsystem"
+        image: "https://wiperandtrue.com/cdn/shop/files/Downbeat_Melody_Soundsystem.jpg?v=1753879994&width=660"
+        tags:
+          - "dj"
+          - "party"
+          - "one-night"
+        raw: "**Downbeat Melody Soundsystem** — 29 Aug.
+
+          \"Celebrate the Bank Holiday with global grooves, vintage vinyl, great
+
+          beer and good vibes.\"\n"
+        summary: "A bank holiday weekend session of vintage vinyl and global grooves from Downbeat Melody Soundsystem. Year not printed; inferred as 2026."
+        confidence: "medium"
+      - id: "food-drink/wiper-and-true#643a5160e3"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Live Music: City of Bristol Brass Band"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+        status: "scheduled"
+        url: "https://wiperandtrue.com/products/live-music-morna"
+        image: "https://wiperandtrue.com/cdn/shop/files/cobbb-90_orig.jpg?v=1786022887&width=660"
+        tags:
+          - "live-music"
+          - "one-night"
+        raw: "**Live Music: City of Bristol Brass Band** — 29 Aug.
+
+          \"Experience the raw power and rich tradition of the City of Bristol
+
+          Brass Band live.\"\n"
+        summary: "The City of Bristol Brass Band play the taproom over the bank holiday weekend. Year not printed; inferred as 2026."
+        confidence: "medium"
+    notes: "Catalogued URL is correct and lists the whole programme; /collections/events returns the identical set, so no extra horizon there. The page gives no start times and no prices for any event, and prints dates as \"13 Aug\" with no year — 2026 inferred from the page's ascending order and from the weekdays matching (14, 21, 28 Aug 2026 are Fridays; 29 Aug is the Saturday of the August bank holiday weekend), so those rows are confidence medium. Nothing beyond 29 August is listed — no September or later dates at all. The feed still shows two dates that have already passed (13 and 14 Aug); recorded as listed rather than dropped. Three standing weeklies recorded as recurring, not expanded. Programme is a taproom programme, so it mixes beer events with craft workshops, DJ nights and games nights; tagged per event."
+  - sourceId: "food-drink/bristol-beer-factory"
+    fetch:
+      ok: true
+      url: "https://bristolbeerfactory.co.uk/collections/tours-tastings"
+      status: 200
+    events:
+      - id: "food-drink/bristol-beer-factory#5d03a25ff8"
+        sourceId: "food-drink/bristol-beer-factory"
+        title: "BBF Brewery Tour"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Saturday at 2pm"
+          startTime: "14:00"
+        status: "scheduled"
+        url: "https://www.bristolbeerfactory.co.uk/collections/tours-tastings/products/brewery-tour"
+        image: "https://www.bristolbeerfactory.co.uk/cdn/shop/products/BBF_Brewery_Tours.jpg?crop=center&height=300&v=1677068891&width=300"
+        price:
+          free: false
+          text: "£25.00"
+          min: 25
+          currency: "GBP"
+        tags:
+          - "brewery"
+          - "guided-tour"
+          - "tasting"
+          - "booking-required"
+        raw: "**BBF Brewery Tour** — £25.00.
+
+          \"Public brewery tours are held every Saturday at 2pm.\"\n"
+        summary: "A weekly guided tour of the Bedminster brewery with tastings, running every Saturday afternoon and booked in advance through the shop."
+        confidence: "high"
+    notes: "Catalogued URL is the homepage and lists nothing; the events live at /collections/tours-tastings, which stage 1 may want to adopt. That collection holds three items, only one of which is an event — the other two are a gift voucher and a beer club membership, both omitted. There is no dated programme of tastings or launches, just the standing Saturday tour."
+  - sourceId: "food-drink/bristol-whisky-festival"
+    fetch:
+      ok: false
+      url: "https://www.bristolwhisky.co.uk/"
+      error: "DNS lookup failed — getaddrinfo ENOTFOUND www.bristolwhisky.co.uk; the catalogued domain does not resolve"
+    events: []
+    notes: "The catalogued name and URL are both wrong, as the entry suspected. bristolwhisky.co.uk does not resolve at all. The nearest domain, https://www.bristolwhisky.com, is the Bristol Whisky Appreciation Society, which says \"Sadly we've been unable to revive the group owing to a number of factors\" and lists no events — it only points readers to other Bristol tasting hosts (Spirited, Corks of Bristol, The Whisky Lounge, The Dusties, Independent Spirit of Bath). Searching turned up two separate real things, neither with a confirmed forward date: a \"Bristol Whisky Festival\" run by The Whisky Lounge at Bristol Beacon (last edition found is 2025, on Eventbrite; thewhiskylounge.com currently redirect-loops and could not be read), and \"Exploring Whisky Bristol\", a craft and independent whisky festival at Paintworks run by Exploring English Whisky (https://www.exploringenglishwhisky.co.uk/events/), whose 2026 edition was 7 February 2026 and so is already past. Stage 1 should decide which of the two this source is meant to be and re-point it — probably kind organiser rather than festival — since no event could be recorded from a page I actually read."
+  - sourceId: "food-drink/bristol-food-connections"
+    fetch:
+      ok: false
+      url: "https://bristolfoodconnections.com/"
+      status: 301
+      error: "domain has lapsed — 301 redirects to kavarnadecatur.com, an unrelated US site"
+    events: []
+    notes: "The catalogued domain is gone: it permanently redirects off-site to kavarnadecatur.com. Bristol Food Network's own page for the festival (https://www.bristolfoodnetwork.org/past-projects/bristol-food-connections-festival/) files it under past projects and says \"Bristol Food Network ran the Bristol Food Connections festival in 2014, 15 & 16. In 2017 a new independent organisation was set up to run the festival, Food Connections CIC,\" giving no current website. No evidence of a 2026 edition was found. This looks like status dormant for stage 1. Note that a differently-named event, Bristol Food Fest, ran 6-7 June 2026 at Canons Marsh Amphitheatre; it is a separate free street food festival, not this source, so nothing was recorded here."

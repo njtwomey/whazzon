@@ -1,0 +1,1473 @@
+schema: "whazzon.harvest/1"
+locationId: "bristol-uk"
+date: "2026-08-16"
+category: "cinema"
+harvestedAt: "2026-08-16T17:20:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "2"
+model: "claude-opus-5"
+observations:
+  - sourceId: "cinema/watershed"
+    fetch:
+      ok: true
+      url: "https://www.watershed.co.uk/whatson/"
+      status: 200
+    events:
+      - id: "cinema/watershed#94d705add2"
+        sourceId: "cinema/watershed"
+        title: "Lady"
+        occurrence:
+          kind: "run"
+          end: "2026-08-20"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14225/lady"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/1356094-lady-2025-0-2000-0-3000-crop.jpg"
+        ageRestriction: "15"
+        tags:
+          - "new-release"
+          - "arthouse"
+          - "screening"
+        raw: "**Lady** (15) — Until Thu 20 Aug.
+
+          Sian Clifford (Fleabag) gives a larger than life performance as a
+
+          narcissistic aristocrat.\n"
+        summary: "A blackly comic new drama with Sian Clifford as an outsized, self-absorbed aristocrat. In its final week at Watershed."
+        confidence: "high"
+      - id: "cinema/watershed#147ddd69e2"
+        sourceId: "cinema/watershed"
+        title: "The Summer Book"
+        occurrence:
+          kind: "run"
+          end: "2026-08-20"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14211/the-summer-book"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/thesummerbook-onesheet-emailable.jpg"
+        ageRestriction: "PG"
+        tags:
+          - "new-release"
+          - "arthouse"
+          - "screening"
+        raw: "**The Summer Book** (PG) — Until Thu 20 Aug.
+
+          Follows an intergenerational family (starring Glenn Close) spending a
+
+          summer at their rustic vacation home.\n"
+        summary: "Adaptation of Tove Jansson's novel, with Glenn Close as a grandmother sharing an island summer with her granddaughter."
+        confidence: "high"
+      - id: "cinema/watershed#a774570723"
+        sourceId: "cinema/watershed"
+        title: "SENTIENTS: An Immersive VR & Video Game Exhibition"
+        occurrence:
+          kind: "run"
+          end: "2026-09-13"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14147/sentients"
+        image: "https://apps.watershed.co.uk/shared/imagecache/appimages/9857/default/2-3/744/26/07/su-29.jpg"
+        ageRestriction: "12"
+        tags:
+          - "exhibition"
+          - "interactive"
+        raw: "**SENTIENTS: An Immersive VR & Video Game Exhibition** (12) —
+
+          Until Sun 13 Sept.
+
+          An immersive exhibition of groundbreaking video games & virtual
+
+          reality.\n"
+        summary: "A month-long exhibition of virtual reality work and video games you can play, rather than a screening — Watershed's summer gallery strand."
+        confidence: "high"
+      - id: "cinema/watershed#6726de26d1"
+        sourceId: "cinema/watershed"
+        title: "Love Me Tender"
+        occurrence:
+          kind: "run"
+          end: "2026-08-20"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14214/love-me-tender"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/lmt_portrait.jpg"
+        ageRestriction: "15"
+        tags:
+          - "new-release"
+          - "arthouse"
+          - "screening"
+          - "subtitled"
+        raw: "**Love Me Tender** (15) — Until Thu 20 Aug. *Subtitled screening.*
+
+          Clémence has built a careful life. But when she falls in love with
+
+          Sarah and finally lives as her authentic self...\n"
+        summary: "French drama about a woman whose life comes apart when she leaves her marriage for another woman. Listed with a subtitled screening."
+        confidence: "high"
+      - id: "cinema/watershed#8ecc956e31"
+        sourceId: "cinema/watershed"
+        title: "Tony"
+        occurrence:
+          kind: "run"
+          end: "2026-08-20"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14213/tony"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/ton_97_digital_final_uk_2025x3000_v9.0_copy-1.jpeg"
+        ageRestriction: "15"
+        tags:
+          - "new-release"
+          - "arthouse"
+          - "screening"
+        raw: "**Tony** (15) — Until Thu 20 Aug.
+
+          A 19-year-old Anthony Bourdain travels to Provincetown and stumbles
+
+          into the chaotic world of a restaurant kitchen.\n"
+        summary: "Origin-story portrait of a teenage Anthony Bourdain finding his feet in a Provincetown restaurant kitchen."
+        confidence: "high"
+      - id: "cinema/watershed#33b9921dfc"
+        sourceId: "cinema/watershed"
+        title: "The Odyssey"
+        occurrence:
+          kind: "run"
+          end: "2026-08-19"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14119/the-odyssey"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/06/digital_ody_crt.1sheet_crn.silversoldiers_siz.947x1500_cta.release-date_cou.uk_eng.des.jpg"
+        ageRestriction: "15"
+        tags:
+          - "new-release"
+          - "screening"
+        raw: "**The Odyssey** (15) — Until Wed 19 Aug.
+
+          Christopher Nolan's The Odyssey features Matt Damon, Tom Holland,
+
+          Anne Hathaway, Robert Pattinson, and others.\n"
+        summary: "Christopher Nolan's Homer adaptation, in its last few days at Watershed."
+        confidence: "high"
+      - id: "cinema/watershed#4e5281ac21"
+        sourceId: "cinema/watershed"
+        title: "Wallace and Gromit: A Close Shave & A Matter of Loaf and Death"
+        subcategory: "Cracking Films, Gromit!: 50 Years of Aardman"
+        occurrence:
+          kind: "run"
+          end: "2026-09-02"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14178/a-close-shave-a-matter-of-loaf-and"
+        image: "https://apps.watershed.co.uk/shared/imagecache/appimages/9828/default/2-3/744/26/07/sg_cs5_0_copy.jpg"
+        ageRestriction: "PG"
+        tags:
+          - "animation"
+          - "family"
+          - "classic"
+          - "screening"
+        raw: "**Wallace and Gromit: A Close Shave & A Matter of Loaf and Death**
+
+          (PG) — Until Wed 2 Sept. Part of *Cracking Films, Gromit!: 50 Years
+
+          of Aardman*.
+
+          A double bill of the third and fourth short outings of Bristol's
+
+          favourite animated duo.\n"
+        summary: "Double bill of two Wallace & Gromit shorts, part of Watershed's summer season marking fifty years of Bristol's Aardman studio."
+        confidence: "high"
+      - id: "cinema/watershed#af7b39ad21"
+        sourceId: "cinema/watershed"
+        title: "Ex Libris: The New York Public Library"
+        subcategory: "Wiseman of the Month"
+        occurrence:
+          kind: "run"
+          end: "2026-08-17"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/13774/ex-libris-the-new-york-public-library"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/25/12/ex-libris.jpg"
+        ageRestriction: "12"
+        tags:
+          - "documentary"
+          - "arthouse"
+          - "classic"
+          - "screening"
+        raw: "**Ex Libris: The New York Public Library** (12) — Until Mon 17 Aug.
+
+          Part of *Wiseman of the Month*.
+
+          Frederick Wiseman's film goes behind the scenes of one of the
+
+          greatest knowledge institutions in the world.\n"
+        summary: "Frederick Wiseman's observational documentary on the New York Public Library, the current instalment of Watershed's monthly Wiseman strand."
+        confidence: "high"
+      - id: "cinema/watershed#4892a2d904"
+        sourceId: "cinema/watershed"
+        title: "The Invite"
+        occurrence:
+          kind: "run"
+          end: "2026-08-18"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14137/the-invite"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/06/0940_the_invite_1_sheet_aw_lr.jpg"
+        ageRestriction: "15"
+        tags:
+          - "new-release"
+          - "arthouse"
+          - "screening"
+        raw: "**The Invite** (15) — Until Tue 18 Aug.
+
+          Joe and Angela's marriage is on thin ice. When they invite their
+
+          enigmatic upstairs neighbours for a dinner party...\n"
+        summary: "A dinner-party thriller in which a couple's shaky marriage meets a pair of unnervingly charming neighbours."
+        confidence: "high"
+      - id: "cinema/watershed#ef46267fb8"
+        sourceId: "cinema/watershed"
+        title: "A Shaun The Sheep Movie: Farmageddon"
+        subcategory: "Cracking Films, Gromit!: 50 Years of Aardman"
+        occurrence:
+          kind: "run"
+          end: "2026-08-18"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14174/a-shaun-the-sheep-movie-farmageddon"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/356434-a-shaun-the-sheep-movie-farmageddon-0-1000-0-1500-crop.jpg"
+        ageRestriction: "U"
+        tags:
+          - "animation"
+          - "family"
+          - "screening"
+        raw: "**A Shaun The Sheep Movie: Farmageddon** (U) — Until Tue 18 Aug.
+
+          Part of *Cracking Films, Gromit!: 50 Years of Aardman*.
+
+          Shaun becomes guardian to a lost little alien called Lu-La after a
+
+          UFO crashes near Mossy Bottom Farm.\n"
+        summary: "Aardman's Shaun the Sheep sequel, screening in the studio's 50th anniversary season — a school-holiday option for younger children."
+        confidence: "high"
+      - id: "cinema/watershed#96b94c20fd"
+        sourceId: "cinema/watershed"
+        title: "The Republic + Q&A"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14202/the-republic-qa"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/the_republic_-_new7.jpg"
+        tags:
+          - "documentary"
+          - "q-and-a"
+          - "one-night"
+          - "community"
+        raw: "**The Republic + Q&A** — Tue 18 Aug, 18:00.
+
+          Documents the story of Stokes Croft, portraying a diverse community
+
+          that dares to defy corporate power.\n"
+        summary: "One-off screening of a documentary about Stokes Croft's resistance to corporate development, followed by a Q&A."
+        confidence: "high"
+      - id: "cinema/watershed#903cab2518"
+        sourceId: "cinema/watershed"
+        title: "On the Sea"
+        occurrence:
+          kind: "run"
+          end: "2026-08-19"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14198/on-the-sea"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/on-the-sea-one-sheet-1075x1536.jpg"
+        ageRestriction: "15"
+        tags:
+          - "new-release"
+          - "arthouse"
+          - "screening"
+        raw: "**On the Sea** (15) — Until Wed 19 Aug.
+
+          Set in a Welsh fishing community, a low-budget queer romance traces a
+
+          tender, risky affair.\n"
+        summary: "Low-budget Welsh queer romance set among a fishing community, in its last days at Watershed."
+        confidence: "high"
+      - id: "cinema/watershed#637ba4c80f"
+        sourceId: "cinema/watershed"
+        title: "Mirror"
+        subcategory: "The Films of Andrei Tarkovsky"
+        occurrence:
+          kind: "run"
+          end: "2026-08-19"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14204/mirror"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/51064-mirror-0-1000-0-1500-crop.jpg"
+        ageRestriction: "U"
+        tags:
+          - "classic"
+          - "arthouse"
+          - "subtitled"
+          - "screening"
+        raw: "**Mirror** (U) — Until Wed 19 Aug. *Subtitled screening.* Part of
+
+          *The Films of Andrei Tarkovsky*.
+
+          Mirror is the celebrated Russian director Andrei Tarkovsky's most
+
+          autobiographical work, reflecting on his own childhood.\n"
+        summary: "Tarkovsky's dreamlike autobiographical feature, screening in Watershed's retrospective of the director."
+        confidence: "high"
+      - id: "cinema/watershed#e59f9d585e"
+        sourceId: "cinema/watershed"
+        title: "Early Man"
+        subcategory: "Cracking Films, Gromit!: 50 Years of Aardman"
+        occurrence:
+          kind: "run"
+          end: "2026-08-31"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14179/early-man"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/322341-early-man-0-1000-0-1500-crop.jpg"
+        ageRestriction: "PG"
+        tags:
+          - "animation"
+          - "family"
+          - "classic"
+          - "screening"
+        raw: "**Early Man** (PG) — Until Mon 31 Aug. Part of *Cracking Films,
+
+          Gromit!: 50 Years of Aardman*.
+
+          Takes us on an extraordinary journey into an exciting new world,
+
+          unleashing an unforgettable tribe.\n"
+        summary: "Aardman's stone-age football comedy, running through the summer holidays as part of the studio's 50th anniversary season."
+        confidence: "high"
+      - id: "cinema/watershed#bc7bc8f224"
+        sourceId: "cinema/watershed"
+        title: "Toys from Trash: Sock Puppet Making Workshop"
+        subcategory: "Community Climate Days"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+        status: "scheduled"
+        timesText: "11:30, 14:00"
+        url: "https://www.watershed.co.uk/whatson/14201/toys-from-trash-sock-puppet-making-workshop"
+        image: "https://apps.watershed.co.uk/shared/imagecache/appimages/9842/default/2-3/744/26/07/untitled_design_45.png"
+        tags:
+          - "workshop"
+          - "family"
+          - "community"
+          - "one-night"
+        raw: "**Toys from Trash: Sock Puppet Making Workshop** — Wed 19 Aug,
+
+          11:30 and 14:00. Part of *Community Climate Days*.
+
+          Come make some sock puppet cave people with Watershed's Environment
+
+          Group, inspired by Aardman's Early Man.\n"
+        summary: "Two sittings of a make-and-take puppet workshop for families, tied to the Early Man screenings and Watershed's climate programme."
+        confidence: "high"
+      - id: "cinema/watershed#08a9f48e65"
+        sourceId: "cinema/watershed"
+        title: "Energy Help Desk"
+        subcategory: "Community Climate Days"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "16:00"
+          endTime: "18:00"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14223/energy-help-desk"
+        image: "https://apps.watershed.co.uk/shared/imagecache/appimages/9851/default/2-3/744/26/07/theresa_ehd_copy.jpg"
+        tags:
+          - "community"
+          - "drop-in"
+          - "talk"
+        raw: "**Energy Help Desk** — Wed 19 Aug, 16:00–18:00. Part of *Community
+
+          Climate Days*.
+
+          Free and impartial energy advice service.\n"
+        summary: "A drop-in advice desk offering free, impartial help with household energy bills, part of Watershed's Community Climate Days."
+        confidence: "medium"
+      - id: "cinema/watershed#1279855f4a"
+        sourceId: "cinema/watershed"
+        title: "Paper Cities: Making your home and neighbourhood more climate resilient"
+        subcategory: "Community Climate Days"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "16:30"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14219/making-your-home-and-neighbourhood-more-climate-resilient"
+        image: "https://apps.watershed.co.uk/shared/imagecache/appimages/9850/default/2-3/744/26/07/paper_daydreams_credit_-_jon_aitken-06921.jpg"
+        tags:
+          - "workshop"
+          - "community"
+          - "one-night"
+        raw: "**Paper Cities: Making your home and neighbourhood more climate
+
+          resilient** — Wed 19 Aug, 16:30. Part of *Community Climate Days*.
+
+          Design a home fit for the future with Watershed's Wild and Generous
+
+          team, for ages 11–16.\n"
+        summary: "A model-making workshop for 11–16 year olds imagining climate-proof homes and streets, run by Watershed's Wild and Generous team."
+        confidence: "high"
+      - id: "cinema/watershed#674563648e"
+        sourceId: "cinema/watershed"
+        title: "Wallace and Gromit: The Curse of the Were-Rabbit"
+        subcategory: "Cracking Films, Gromit!: 50 Years of Aardman"
+        occurrence:
+          kind: "run"
+          end: "2026-08-20"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14171/wallace-and-gromit-the-curse-of-the-wererabbit"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/51584-wallace-gromit-the-curse-of-the-were-rabbit-0-1000-0-1500-crop.jpg"
+        ageRestriction: "U"
+        tags:
+          - "animation"
+          - "family"
+          - "classic"
+          - "screening"
+        raw: "**Wallace and Gromit: The Curse of the Were-Rabbit** (U) — Until
+
+          Thu 20 Aug. Part of *Cracking Films, Gromit!: 50 Years of Aardman*.
+
+          Wallace and Gromit's first ever feature film, which led to the pair
+
+          winning an Academy Award® for Best Animated Feature.\n"
+        summary: "The Oscar-winning first Wallace & Gromit feature, back on the big screen for Aardman's 50th."
+        confidence: "high"
+      - id: "cinema/watershed#640d0f1980"
+        sourceId: "cinema/watershed"
+        title: "Ish"
+        occurrence:
+          kind: "run"
+          end: "2026-08-20"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14181/ish"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/1374127-ish-2025-0-1000-0-1500-crop.jpg"
+        ageRestriction: "15"
+        tags:
+          - "new-release"
+          - "arthouse"
+          - "screening"
+        raw: "**Ish** (15) — Until Thu 20 Aug.
+
+          Follows 12-year-old best friends Ish and Maram, who wrestle to hold
+
+          onto their friendship in the wake of a police stop.\n"
+        summary: "Coming-of-age drama about two twelve-year-old friends whose bond is strained after an encounter with the police."
+        confidence: "high"
+      - id: "cinema/watershed#1f8548d051"
+        sourceId: "cinema/watershed"
+        title: "Preview: Teenage Sex and Death at Camp Miasma"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+        status: "scheduled"
+        timesText: "19:50, 20:00"
+        url: "https://www.watershed.co.uk/whatson/14230/preview-teenage-sex-and-death-at-camp-miasma"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/cm_key-art_en-uk_digi_os_incinemasaugust21.jpg"
+        ageRestriction: "15"
+        tags:
+          - "preview"
+          - "horror"
+          - "one-night"
+          - "screening"
+        raw: "**Preview: Teenage Sex and Death at Camp Miasma** (15) — Thu 20 Aug,
+
+          19:50 and 20:00.
+
+          A new kind of horror remake from one of the most exciting new voices
+
+          in cinema.\n"
+        summary: "Preview screenings, a day ahead of release, of Jane Schoenbrun's slasher reworking starring Hannah Einbinder and Gillian Anderson."
+        confidence: "high"
+      - id: "cinema/watershed#9c5d5f994a"
+        sourceId: "cinema/watershed"
+        title: "Party at Camp Miasma"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "22:00"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14234/party-at-camp-miasma"
+        image: "https://apps.watershed.co.uk/shared/imagecache/appimages/9875/default/2-3/744/26/07/party_at_camp_miasma_website_1.png"
+        tags:
+          - "one-night"
+          - "horror"
+          - "18-plus"
+        raw: "**Party at Camp Miasma** — Thu 20 Aug, 22:00.
+
+          Join us in the Café & Bar after the preview screening of Teenage Sex
+
+          and Death at Camp Miasma.\n"
+        summary: "A late-night themed party in Watershed's café bar following the Camp Miasma preview."
+        confidence: "medium"
+      - id: "cinema/watershed#d59c482956"
+        sourceId: "cinema/watershed"
+        title: "Coyote vs. ACME"
+        occurrence:
+          kind: "run"
+          start: "2026-08-21"
+          end: "2026-08-27"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14229/coyote-vs-acme"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/08/cva_1sheet_uk_lr.jpg"
+        ageRestriction: "PG"
+        tags:
+          - "new-release"
+          - "family"
+          - "animation"
+          - "screening"
+        raw: "**Coyote vs. ACME** (PG) — Fri 21 – Thu 27 Aug.
+
+          Wile E. Coyote teams up with lawyer Kevin Avery (Will Forte) to fight
+
+          back against ACME products.\n"
+        summary: "The long-shelved Looney Tunes courtroom comedy finally reaching cinemas, opening at Watershed on 21 August."
+        confidence: "high"
+      - id: "cinema/watershed#863c72553d"
+        sourceId: "cinema/watershed"
+        title: "Chicken Run: Dawn of the Nugget"
+        subcategory: "Cracking Films, Gromit!: 50 Years of Aardman"
+        occurrence:
+          kind: "run"
+          end: "2026-08-29"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14197/chicken-run-dawn-of-the-nugget"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/450334-chicken-run-dawn-of-the-nugget-0-1000-0-1500-crop.jpg"
+        ageRestriction: "PG"
+        tags:
+          - "animation"
+          - "family"
+          - "screening"
+        raw: "**Chicken Run: Dawn of the Nugget** (PG) — Until Sat 29 Aug. Part of
+
+          *Cracking Films, Gromit!: 50 Years of Aardman*.
+
+          From our local animation studio comes the sequel to the
+
+          highest-grossing stop-motion animated film of all time.\n"
+        summary: "Aardman's Chicken Run sequel, showing through the school holidays in the studio's anniversary season."
+        confidence: "high"
+      - id: "cinema/watershed#14a0de5272"
+        sourceId: "cinema/watershed"
+        title: "Teenage Sex and Death at Camp Miasma"
+        occurrence:
+          kind: "run"
+          start: "2026-08-21"
+          end: "2026-08-27"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14228/teenage-sex-and-death-at-camp-miasma"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/08/cm_key-art_en-uk_digi_os_incinemasaugust21.jpg"
+        ageRestriction: "15"
+        tags:
+          - "new-release"
+          - "horror"
+          - "arthouse"
+          - "screening"
+        raw: "**Teenage Sex and Death at Camp Miasma** (15) — Fri 21 – Thu 27 Aug.
+
+          A new kind of horror remake from one of the most exciting new voices
+
+          in cinema.\n"
+        summary: "Jane Schoenbrun's psychosexual slasher remake, on general release at Watershed for a week from 21 August."
+        confidence: "high"
+      - id: "cinema/watershed#e46b43ba31"
+        sourceId: "cinema/watershed"
+        title: "Wallace and Gromit: A Grand Day Out & The Wrong Trousers"
+        subcategory: "Cracking Films, Gromit!: 50 Years of Aardman"
+        occurrence:
+          kind: "run"
+          end: "2026-09-01"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14173/a-grand-day-out-the-wrong-trousers"
+        image: "https://apps.watershed.co.uk/shared/imagecache/appimages/9821/default/2-3/744/26/07/twt_nsg_7_t_0_copy.jpg"
+        ageRestriction: "U"
+        tags:
+          - "animation"
+          - "family"
+          - "classic"
+          - "screening"
+        raw: "**Wallace and Gromit: A Grand Day Out & The Wrong Trousers** (U) —
+
+          Until Tue 1 Sept. Part of *Cracking Films, Gromit!: 50 Years of
+
+          Aardman*.
+
+          A double bill of the first outings of Bristol's favourite animated
+
+          duo Wallace & Gromit.\n"
+        summary: "The two earliest Wallace & Gromit shorts paired as a double bill in Aardman's 50th anniversary season."
+        confidence: "high"
+      - id: "cinema/watershed#f08e6c2f80"
+        sourceId: "cinema/watershed"
+        title: "The Pirates! In an Adventure with Scientists!"
+        subcategory: "Cracking Films, Gromit!: 50 Years of Aardman"
+        occurrence:
+          kind: "run"
+          end: "2026-08-23"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14170/the-pirates-in-an-adventure-with-scientists"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/z3abtsvuypfshfkfvtojzatkeg9-0-1000-0-1500-crop.jpg"
+        ageRestriction: "U"
+        tags:
+          - "animation"
+          - "family"
+          - "screening"
+        raw: "**The Pirates! In an Adventure with Scientists!** (U) — Until Sun 23
+
+          Aug. Part of *Cracking Films, Gromit!: 50 Years of Aardman*.
+
+          Pirate Captain sets out on a mission to defeat his rivals Black
+
+          Bellamy and Cutlass Liz for the Pirate of the Year Award.\n"
+        summary: "Aardman's swashbuckling stop-motion comedy, part of the summer anniversary season."
+        confidence: "high"
+      - id: "cinema/watershed#33664b8e94"
+        sourceId: "cinema/watershed"
+        title: "Ivan's Childhood"
+        subcategory: "The Films of Andrei Tarkovsky"
+        occurrence:
+          kind: "recurring"
+          pattern: "Sun 23 & Wed 26 Aug"
+          start: "2026-08-23"
+          end: "2026-08-26"
+        status: "scheduled"
+        timesText: "Sun 23 & Wed 26 Aug"
+        url: "https://www.watershed.co.uk/whatson/14205/ivans-childhood"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/ivans-0-1000-0-1500-crop.jpg"
+        ageRestriction: "12A"
+        tags:
+          - "classic"
+          - "arthouse"
+          - "subtitled"
+          - "screening"
+        raw: "**Ivan's Childhood** (12A) — Sun 23 & Wed 26 Aug. *Subtitled
+
+          screening.* Part of *The Films of Andrei Tarkovsky*.
+
+          Andrei Tarkovsky's extraordinarily accomplished debut feature is a
+
+          powerful and moving tale of a 12-year-old boy.\n"
+        summary: "Tarkovsky's debut, about a boy scouting for the Soviet army, showing twice in Watershed's retrospective."
+        confidence: "high"
+      - id: "cinema/watershed#e318f0e413"
+        sourceId: "cinema/watershed"
+        title: "Chicken Run"
+        subcategory: "Cracking Films, Gromit!: 50 Years of Aardman"
+        occurrence:
+          kind: "run"
+          end: "2026-08-24"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14175/chicken-run"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/48033-chicken-run-0-1000-0-1500-crop.jpg"
+        ageRestriction: "U"
+        tags:
+          - "animation"
+          - "family"
+          - "classic"
+          - "screening"
+        raw: "**Chicken Run** (U) — Until Mon 24 Aug. Part of *Cracking Films,
+
+          Gromit!: 50 Years of Aardman*.
+
+          Fall back in love with those crafty hens (and one smooth-talking
+
+          rooster) with Aardman's classic Chicken Run!\n"
+        summary: "Aardman's original poultry prison-break comedy, revived for the studio's 50th anniversary season."
+        confidence: "high"
+      - id: "cinema/watershed#458a9e7dc5"
+        sourceId: "cinema/watershed"
+        title: "Wallace and Gromit: Vengeance Most Fowl"
+        subcategory: "Cracking Films, Gromit!: 50 Years of Aardman"
+        occurrence:
+          kind: "run"
+          end: "2026-08-30"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14200/wallace-and-gromit-vengeance-most-fowl"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/834561-wallace-gromit-vengeance-most-fowl-0-1000-0-1500-crop-1.jpg"
+        ageRestriction: "U"
+        tags:
+          - "animation"
+          - "family"
+          - "screening"
+        raw: "**Wallace and Gromit: Vengeance Most Fowl** (U) — Until Sun 30 Aug.
+
+          Part of *Cracking Films, Gromit!: 50 Years of Aardman*.
+
+          Feathers McGraw returns with a vengeance in the second feature-length
+
+          Wallace and Gromit film.\n"
+        summary: "The most recent Wallace & Gromit feature, with Feathers McGraw back for revenge, in the Aardman anniversary season."
+        confidence: "high"
+      - id: "cinema/watershed#bc16454434"
+        sourceId: "cinema/watershed"
+        title: "Shaun The Sheep Movie"
+        subcategory: "Cracking Films, Gromit!: 50 Years of Aardman"
+        occurrence:
+          kind: "run"
+          end: "2026-08-26"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14172/shaun-the-sheep-movie"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/186518-shaun-the-sheep-movie-0-1000-0-1500-crop.jpg"
+        ageRestriction: "U"
+        tags:
+          - "animation"
+          - "family"
+          - "screening"
+        raw: "**Shaun The Sheep Movie** (U) — Until Wed 26 Aug. Part of *Cracking
+
+          Films, Gromit!: 50 Years of Aardman*.
+
+          When Shaun decides to take the day off and have some fun, he gets
+
+          more fun than he bargained for!\n"
+        summary: "The first Shaun the Sheep feature, a near-wordless comedy that plays well for the youngest audiences."
+        confidence: "high"
+      - id: "cinema/watershed#2aeb92f21f"
+        sourceId: "cinema/watershed"
+        title: "Stop-Motion Animation Family Workshop"
+        occurrence:
+          kind: "single"
+          date: "2026-08-26"
+          startTime: "14:30"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14244/stopmotion-animation-family-workshop"
+        image: "https://apps.watershed.co.uk/shared/imagecache/appimages/9883/default/2-3/744/26/08/workshop_feb_2024_credit_-_jon_aitken-06243.jpg"
+        tags:
+          - "workshop"
+          - "family"
+          - "animation"
+          - "booking-required"
+        raw: "**Stop-Motion Animation Family Workshop** — Wed 26 Aug, 14:30.
+
+          A fun and exciting summer holiday stop-motion animation workshop with
+
+          artist William Thompson, inspired by Shaun The Sheep.\n"
+        summary: "A hands-on school-holiday workshop where families make their own stop-motion animation, led by artist William Thompson."
+        confidence: "high"
+      - id: "cinema/watershed#02594981c0"
+        sourceId: "cinema/watershed"
+        title: "Preview: Super Nature + director Q&A"
+        occurrence:
+          kind: "single"
+          date: "2026-08-27"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14215/preview-super-nature-director-qa"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/08/supernature_master_1944x2880px.jpg"
+        ageRestriction: "PG"
+        tags:
+          - "preview"
+          - "q-and-a"
+          - "documentary"
+          - "one-night"
+        raw: "**Preview: Super Nature + director Q&A** (PG) — Thu 27 Aug, 18:00.
+
+          A love letter to nature filmed exclusively on Super 8, a global
+
+          co-creation project journeying across 25 countries.\n"
+        summary: "Advance screening of a Super 8 nature documentary shot across 25 countries, with the director present for questions afterwards."
+        confidence: "high"
+      - id: "cinema/watershed#0bb49d762b"
+        sourceId: "cinema/watershed"
+        title: "Watershed Independent Festive Fair"
+        occurrence:
+          kind: "single"
+          date: "2026-12-05"
+        status: "scheduled"
+        image: "https://apps.watershed.co.uk/shared/imagecache/appimages/9862/default/16-9/480/26/07/copy_of_dcp_template_1998_x_1080_px.png"
+        tags:
+          - "community"
+          - "seasonal"
+          - "drop-in"
+          - "family"
+        raw: "**Watershed Independent Festive Fair** — Sat 5 Dec.
+
+          Come and stop by for gifts galore at our festive market with a
+
+          difference in our Waterside Event Spaces.\n"
+        summary: "Watershed's Christmas market of independent makers and traders in the Waterside event spaces. Listed under Coming Soon with no time yet."
+        confidence: "medium"
+      - id: "cinema/watershed#adcfd35e89"
+        sourceId: "cinema/watershed"
+        title: "London Film Festival On Tour 2026"
+        occurrence:
+          kind: "undated"
+          note: "listed under Coming Soon as \"October 2026\", no dates given"
+        status: "scheduled"
+        image: "https://apps.watershed.co.uk/shared/imagecache/appimages/9876/default/16-9/480/26/08/image_17.jpeg"
+        tags:
+          - "festival"
+          - "preview"
+          - "arthouse"
+          - "screening"
+        raw: "**London Film Festival On Tour 2026** — October 2026.
+
+          Discover the world's best new films with preview screenings courtesy
+
+          of the BFI London Film Festival.\n"
+        summary: "Watershed's annual strand of BFI London Film Festival previews, flagged for October 2026 but with no programme published yet."
+        confidence: "medium"
+    notes: "Catalogue URL is correct and lists the whole current programme. Also read /whatson/coming-soon for the forward horizon (two entries, added below). Watershed prints no prices on the listings page, so `price` is omitted throughout rather than guessed. Most film titles are given only as \"Until <date>\", which is recorded as a run with an end and no start. Three repertory strands are running: \"Cracking Films, Gromit!: 50 Years of Aardman\", \"The Films of Andrei Tarkovsky\" and \"Wiseman of the Month\"."
+  - sourceId: "cinema/the-cube"
+    fetch:
+      ok: true
+      url: "https://www.cubecinema.com/programme/"
+      status: 200
+    events:
+      - id: "cinema/the-cube#9648b2ba65"
+        sourceId: "cinema/the-cube"
+        title: "Reggie Watts x CAPYAC playthecube"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+        status: "cancelled"
+        timesText: "15:00 and 20:00 (both cancelled)"
+        url: "https://cubecinema.com/programme/event/reggie-watts-x-capyac-playthecube/15761/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/rw_poster_1_2026-08-21_02.30pm.jpg.600x0_q45.jpg"
+        tags:
+          - "performance"
+          - "live-music"
+          - "experimental"
+        raw: "**Reggie Watts x CAPYAC playthecube** — Fri 21 Aug, 15:00 and 20:00.
+
+          Both showings marked **CANCELLED**.
+
+          \"From the moment I first experienced the Cube Microplex, I couldn't
+
+          stop…\"\n"
+        summary: "Comedian-musician Reggie Watts with CAPYAC in a Cube-specific piece. Both Friday showings are marked cancelled on the programme."
+        confidence: "high"
+      - id: "cinema/the-cube#a9b229a444"
+        sourceId: "cinema/the-cube"
+        title: "Reggie Watts x CAPYAC playthecube"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+        status: "cancelled"
+        timesText: "15:00 and 20:00 (both cancelled)"
+        url: "https://cubecinema.com/programme/event/reggie-watts-x-capyac-playthecube/15761/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/rw_poster_1_2026-08-21_02.30pm.jpg.600x0_q45.jpg"
+        tags:
+          - "performance"
+          - "live-music"
+          - "experimental"
+        raw: "**Reggie Watts x CAPYAC playthecube** — Sat 22 Aug, 15:00 and 20:00.
+
+          Both showings marked **CANCELLED**.
+
+          \"From the moment I first experienced the Cube Microplex, I couldn't
+
+          stop…\"\n"
+        summary: "Second day of the Reggie Watts and CAPYAC residency at the Cube. Both Saturday showings are marked cancelled."
+        confidence: "high"
+      - id: "cinema/the-cube#aa17887afe"
+        sourceId: "cinema/the-cube"
+        title: "Annie Gardiner — 'Sleeping Dogs' Album Launch"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://cubecinema.com/programme/event/annie-gardiner-sleeping-dogs-album-launch/15751/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/e157352_i343050_s5.jpg.600x0_q45.jpg"
+        tags:
+          - "live-music"
+          - "one-night"
+        raw: "**Annie Gardiner - 'Sleeping Dogs' Album Launch** — Sat 29 Aug, 19:30.
+
+          Celebrate the album launch party for Annie Gardiner's second solo
+
+          album 'Sleeping Dogs'.\n"
+        summary: "Launch gig for Annie Gardiner's second solo record — a music night rather than a screening."
+        confidence: "high"
+      - id: "cinema/the-cube#3dcf9cd89d"
+        sourceId: "cinema/the-cube"
+        title: "Skydaddy + Mia Wilson + Nile Robinson"
+        occurrence:
+          kind: "single"
+          date: "2026-08-31"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://cubecinema.com/programme/event/skydaddy-mia-wilson-nile-robinson/15780/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/Untitled-1_WoH0UCZ.jpg.600x0_q45.jpg"
+        tags:
+          - "live-music"
+          - "one-night"
+        raw: "**Skydaddy + Mia Wilson + Nile Robinson** — Mon 31 Aug, 19:00.
+
+          Virtuoso songwriting from far and near. FFO: Cameron Winter, Weyes
+
+          Blood, BCNR, Rundgren, Nilsson.\n"
+        summary: "A three-act songwriter bill at the Cube, pitched at fans of Cameron Winter and Weyes Blood."
+        confidence: "high"
+      - id: "cinema/the-cube#de81907ef0"
+        sourceId: "cinema/the-cube"
+        title: "The Traveler"
+        occurrence:
+          kind: "single"
+          date: "2026-09-01"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://cubecinema.com/programme/event/the-traveler/15605/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/29514id_010_w1600.jpg.600x0_q45.jpg"
+        tags:
+          - "classic"
+          - "arthouse"
+          - "screening"
+          - "one-night"
+        raw: "**The Traveler** — Tue 1 Sep, 20:00.
+
+          The debut feature by all-time great Abbas Kiarostami is a wondrous
+
+          ode…\n"
+        summary: "One-off screening of Abbas Kiarostami's 1974 debut feature about a boy scheming his way to a football match in Tehran."
+        confidence: "high"
+      - id: "cinema/the-cube#bd032383fa"
+        sourceId: "cinema/the-cube"
+        title: "Bristol Documentary Film Festival — Day 1"
+        occurrence:
+          kind: "single"
+          date: "2026-09-04"
+          startTime: "17:45"
+        status: "scheduled"
+        url: "https://cubecinema.com/programme/event/bristol-documentary-film-festival-day-1/15400/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/1000073097.png.600x0_q45.jpg"
+        tags:
+          - "festival"
+          - "documentary"
+          - "screening"
+        raw: "**Bristol Documentary Film Festival - Day 1** — Fri 4 Sep, 17:45.
+
+          South West's new home for bold, creative documentaries lands at The
+
+          Cube for its debut outing.\n"
+        summary: "Opening day of a new documentary festival making its debut at the Cube."
+        confidence: "high"
+      - id: "cinema/the-cube#cd68c8f0a9"
+        sourceId: "cinema/the-cube"
+        title: "Bristol Documentary Film Festival — Day 2"
+        occurrence:
+          kind: "single"
+          date: "2026-09-05"
+          startTime: "13:30"
+        status: "scheduled"
+        url: "https://cubecinema.com/programme/event/bristol-documentary-film-festival-day-2/15401/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/1000073097_gFPwq1K.png.600x0_q45.jpg"
+        tags:
+          - "festival"
+          - "documentary"
+          - "screening"
+        raw: "**Bristol Documentary Film Festival - Day 2** — Sat 5 Sep, 13:30.
+
+          South West's new home for bold, creative documentaries lands at The
+
+          Cube for its debut outing.\n"
+        summary: "Second and final day of the new Bristol Documentary Film Festival, a full afternoon and evening of documentary programming."
+        confidence: "high"
+      - id: "cinema/the-cube#3ead549698"
+        sourceId: "cinema/the-cube"
+        title: "The Finder and The Moon: Real UFOs captured on film — Mark Pilkington"
+        occurrence:
+          kind: "single"
+          date: "2026-09-08"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://cubecinema.com/programme/event/the-finder-and-the-moon-real-ufos-captured-on-film-mark-pilkington/15729/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/ufo_talk.jpg.600x0_q45.jpg"
+        tags:
+          - "talk"
+          - "screening"
+          - "documentary"
+          - "one-night"
+        raw: "**The Finder and The Moon: Real UFOs captured on film — Mark
+
+          Pilkington** — Tue 8 Sep, 20:00.
+
+          Mark Pilkington, author of the UFO meta-conspiracy classic Mirage Men,
+
+          presents a curated selection…\n"
+        summary: "Author Mark Pilkington introduces and talks through a curated reel of claimed UFO footage."
+        confidence: "high"
+      - id: "cinema/the-cube#5db2ed2ff5"
+        sourceId: "cinema/the-cube"
+        title: "Minimum Wage Immanence Unit x Luigi Marino, Shuiqingqing He, Laura Phillips x Oliver Brouwer"
+        occurrence:
+          kind: "single"
+          date: "2026-09-11"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://cubecinema.com/programme/event/minimum-wage-immanence-unit-x-luigi-marino-shuiqingqing-he-laura-phillips-x-oliver-brouwer/15511/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/000036.jpg.600x0_q45.jpg"
+        tags:
+          - "live-music"
+          - "experimental"
+          - "one-night"
+        raw: "**Minimum Wage Immanence Unit x Luigi Marino, Shuiqingqing He, Laura
+
+          Phillips x Oliver Brouwer** — Fri 11 Sep, 19:00.
+
+          Evening of improvisation where free music, Chinese opera, and
+
+          electronics coexist.\n"
+        summary: "An improvisation night pulling together free music, Chinese opera and live electronics."
+        confidence: "high"
+      - id: "cinema/the-cube#ef41f70e07"
+        sourceId: "cinema/the-cube"
+        title: "Everyone to Kenmure Street — Film and fundraiser for refugees"
+        occurrence:
+          kind: "single"
+          date: "2026-09-15"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://cubecinema.com/programme/event/everyone-to-kenmure-street-film-and-fundraiser-for-refugees/15168/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/everyone_to_kenmure_street_poster.jpg.600x0_q45.jpg"
+        tags:
+          - "documentary"
+          - "fundraiser"
+          - "screening"
+          - "community"
+        raw: "**Everyone to Kenmure Street - Film and fundraiser for refugees** —
+
+          Tue 15 Sep, 19:30.
+
+          In May 2021, a UK Home Office dawn raid triggers one of the most
+
+          spontaneous…\n"
+        summary: "Documentary on the Glasgow street protest that halted a Home Office immigration raid, screened as a fundraiser for refugee causes."
+        confidence: "high"
+      - id: "cinema/the-cube#ed09f2fdc8"
+        sourceId: "cinema/the-cube"
+        title: "Lucy Lill: Doom Scrolls — The Never-Ending Prophecies of the Sibyls"
+        occurrence:
+          kind: "single"
+          date: "2026-09-17"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://cubecinema.com/programme/event/lucy-lill-doom-scrolls-the-never-ending-prophecies-of-the-sibyls/15773/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/Lucy_Lill.15651.jpg.600x0_q45.jpg"
+        tags:
+          - "storytelling"
+          - "performance"
+          - "one-night"
+        raw: "**LUCY LILL: DOOM SCROLLS: THE NEVER-ENDING PROPHECIES OF THE
+
+          SIBYLS** — Thu 17 Sep, 20:00.
+
+          The 'delightful and charismatic' (Time Out) performance storyteller
+
+          Lucy Lill tells tales of the Sibyls, prophetesses…\n"
+        summary: "Spoken-word performance retelling the myths of the ancient Sibyls — a storytelling night, not a film."
+        confidence: "high"
+      - id: "cinema/the-cube#62e58a0fdd"
+        sourceId: "cinema/the-cube"
+        title: "Toilet Fest 5"
+        occurrence:
+          kind: "single"
+          date: "2026-09-19"
+          startTime: "14:00"
+        status: "scheduled"
+        url: "https://cubecinema.com/programme/event/toilet-fest-5/15526/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/image_gyFhhLv.jpeg.600x0_q45.jpg"
+        tags:
+          - "live-music"
+          - "festival"
+          - "fundraiser"
+        raw: "**Toilet Fest 5** — Sat 19 Sep, 14:00.
+
+          TF returns raising funds for SLEEC.\n"
+        summary: "All-day DIY music mini-festival at the Cube, raising money for SLEEC."
+        confidence: "high"
+      - id: "cinema/the-cube#c11d8db78a"
+        sourceId: "cinema/the-cube"
+        title: "Kelly Moran (Warp Records)"
+        occurrence:
+          kind: "single"
+          date: "2026-09-22"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://cubecinema.com/programme/event/kelly-moran-warp-records/15512/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/KM_Pianos.png.600x0_q45.png"
+        tags:
+          - "live-music"
+          - "experimental"
+          - "one-night"
+        raw: "**Kelly Moran (Warp Records)** — Tue 22 Sep, 20:00.
+
+          With support from Minor Conflict & Maes Y Circles.\n"
+        summary: "Warp Records pianist and composer Kelly Moran plays the Cube, with two support acts."
+        confidence: "high"
+      - id: "cinema/the-cube#a4fc6344aa"
+        sourceId: "cinema/the-cube"
+        title: "Suzan Peeters + Augustė Vickunaitė + Jon Collin + Gris Marguerite"
+        subcategory: "QWAK club"
+        occurrence:
+          kind: "single"
+          date: "2026-09-25"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://cubecinema.com/programme/event/suzan-peeters-auguste-vickunaite-jon-collin-gris-marguerite/15500/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/Suzan_Peeters_3_Femke_Appeltans.jpg.600x0_q45.jpg"
+        tags:
+          - "live-music"
+          - "experimental"
+          - "one-night"
+        raw: "**Suzan Peeters + Augustė Vickunaitė + Jon Collin + Gris Marguerite**
+
+          (QWAK club #25) — Fri 25 Sep, 19:00.
+
+          Three international artists and a fourth act from the North.\n"
+        summary: "The 25th edition of the QWAK club night, with four experimental acts from across Europe and the north of England."
+        confidence: "high"
+      - id: "cinema/the-cube#025cd06822"
+        sourceId: "cinema/the-cube"
+        title: "Teenage Sex And Death At Camp Miasma"
+        occurrence:
+          kind: "recurring"
+          pattern: "Sun 27 Sep, 17:00; Mon 28 Sep, 20:00"
+          start: "2026-09-27"
+          end: "2026-09-28"
+        status: "scheduled"
+        timesText: "Sun 27 Sep, 17:00; Mon 28 Sep, 20:00"
+        url: "https://cubecinema.com/programme/event/teenage-sex-and-death-at-camp-miasma/15631/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/10693.jpg.600x0_q45.jpg"
+        tags:
+          - "horror"
+          - "arthouse"
+          - "screening"
+        raw: "**Teenage Sex And Death At Camp Miasma** — Sun 27 Sep, 17:00;
+
+          Mon 28 Sep, 20:00.
+
+          Hannah Einbinder and Gillian Anderson star in a psychosexual horror
+
+          two-hander directed by Jane Schoenbrun.\n"
+        summary: "Two showings of Jane Schoenbrun's slasher reworking, arriving at the Cube a month after its general release."
+        confidence: "high"
+      - id: "cinema/the-cube#2d5d1c9405"
+        sourceId: "cinema/the-cube"
+        title: "BLUESCREEN"
+        occurrence:
+          kind: "single"
+          date: "2026-09-30"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://cubecinema.com/programme/event/bluescreen/15044/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/Bluescreen_default_pic_XjKVj1D.jpg.600x0_q45.jpg"
+        tags:
+          - "short-film"
+          - "screening"
+          - "community"
+        raw: "**BLUESCREEN** — Wed 30 Sep, 19:30.
+
+          Welcome to Bluescreen: Screening YOUR Short Films! Come along and
+
+          enjoy the best in local short…\n"
+        summary: "Long-running open-submission night for Bristol short filmmakers, with local work shown to an audience of its makers."
+        confidence: "high"
+      - id: "cinema/the-cube#88eb6f7f54"
+        sourceId: "cinema/the-cube"
+        title: "Emily Hennessey / Sheema Mukherjee: The Girl Who Didn't Die"
+        occurrence:
+          kind: "single"
+          date: "2026-10-15"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://cubecinema.com/programme/event/emily-hennesseysheema-mukherjee-the-girl-who-didnt-die/15775/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/The_Girl_Who_Didnt_Die.HDFST.IMG.jpg.600x0_q45.jpg"
+        tags:
+          - "storytelling"
+          - "performance"
+          - "live-music"
+          - "one-night"
+        raw: "**EMILY HENNESSEY/SHEEMA MUKHERJEE: THE GIRL WHO DIDN'T DIE** —
+
+          Thu 15 Oct, 20:00.
+
+          Dynamic storyteller Emily Hennessey and the altogether singular sitar
+
+          player and composer Sheema Mukherjee perform a…\n"
+        summary: "Storytelling and live sitar in a two-hander drawing on Indian myth."
+        confidence: "high"
+      - id: "cinema/the-cube#f8e3c446b6"
+        sourceId: "cinema/the-cube"
+        title: "Colin Wilson: His Life and Work — 6 Part Film"
+        occurrence:
+          kind: "single"
+          date: "2026-10-18"
+          startTime: "12:30"
+        status: "scheduled"
+        url: "https://cubecinema.com/programme/event/colin-wilson-his-life-and-work-6-part-film/15632/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/Colin_wilson_poster.jpg.600x0_q45.jpg"
+        tags:
+          - "documentary"
+          - "screening"
+          - "one-night"
+        raw: "**Colin Wilson: His Life and Work - 6 Part Film** — Sun 18 Oct, 12:30.
+
+          A rare chance to see in full Colin Wilson: His Life and Work, a new
+
+          six-part…\n"
+        summary: "A marathon Sunday screening of a new six-part documentary on the writer Colin Wilson."
+        confidence: "high"
+      - id: "cinema/the-cube#70090bae6b"
+        sourceId: "cinema/the-cube"
+        title: "Kavus Torabi"
+        occurrence:
+          kind: "single"
+          date: "2026-10-21"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://cubecinema.com/programme/event/kavus-torabi/15683/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/IMG_2292.jpeg.600x0_q45.jpg"
+        tags:
+          - "live-music"
+          - "one-night"
+        raw: "**Kavus Torabi** — Wed 21 Oct, 20:00.
+
+          Support from Arch Garrison.\n"
+        summary: "Solo show from the Gong and Knifeworld guitarist and songwriter, with Arch Garrison supporting."
+        confidence: "high"
+      - id: "cinema/the-cube#b7545e5156"
+        sourceId: "cinema/the-cube"
+        title: "Robin & Bina Williamson + Rosie Brownhill + Fohn"
+        occurrence:
+          kind: "single"
+          date: "2026-10-23"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://cubecinema.com/programme/event/robin-bina-williamson-rosie-brownhill-fohn/15311/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/robin-and-bina-poster-fin-a3.jpg.600x0_q45.jpg"
+        tags:
+          - "live-music"
+          - "one-night"
+        raw: "**Robin & Bina Williamson + Rosie Brownhill + Fohn** — Fri 23 Oct,
+
+          19:00.
+
+          Visionary folk duo alongside innovative traditional instrumentalists.\n"
+        summary: "Incredible String Band founder Robin Williamson and Bina Williamson headline a night of visionary and traditional folk."
+        confidence: "high"
+      - id: "cinema/the-cube#1386493a49"
+        sourceId: "cinema/the-cube"
+        title: "Sarah Liisa Wilkinson: How (Not) To Die Long Ago In Finland"
+        occurrence:
+          kind: "single"
+          date: "2026-11-12"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://cubecinema.com/programme/event/sarah-liisa-wilkinson-how-not-to-die-long-ago-in-finland/15777/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/Sarah_Liisa_Wilkinson.HDFST.IMG.jpg.600x0_q45.jpg"
+        tags:
+          - "storytelling"
+          - "performance"
+          - "one-night"
+        raw: "**SARAH LIISA WILKINSON: HOW (NOT) TO DIE LONG AGO IN FINLAND** —
+
+          Thu 12 Nov, 20:00.
+
+          Half-English and half-Finnish, storyteller Sarah Liisa Wilkinson is
+
+          one of the brightest new talents to emerge…\n"
+        summary: "A storytelling show drawing on Finnish folklore from one of the form's newer voices."
+        confidence: "high"
+      - id: "cinema/the-cube#a0ec3a4a20"
+        sourceId: "cinema/the-cube"
+        title: "The Knights Of Magic"
+        occurrence:
+          kind: "recurring"
+          pattern: "Thu 19 & Fri 20 Nov, 19:30"
+          start: "2026-11-19"
+          end: "2026-11-20"
+          startTime: "19:30"
+        status: "scheduled"
+        timesText: "Thu 19 Nov 19:30; Fri 20 Nov 19:30"
+        url: "https://cubecinema.com/programme/event/the-knights-of-magic/14892/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/2026.11.19-20_BSoM_Knights_Of_Magic.HDFST.IMG.01.jpg.600x0_q45.jpg"
+        tags:
+          - "performance"
+          - "one-night"
+        raw: "**The Knights Of Magic** — Thu 19 Nov, 19:30 and Fri 20 Nov, 19:30.
+
+          With increasing levels of flabbergast, the Bristol Society Of Magic's
+
+          most seasoned stage magic supremos blitz…\n"
+        summary: "Two nights of stage magic from the Bristol Society of Magic's most experienced performers."
+        confidence: "medium"
+      - id: "cinema/the-cube#9fb755c6a5"
+        sourceId: "cinema/the-cube"
+        title: "BLUESCREEN"
+        occurrence:
+          kind: "single"
+          date: "2026-11-25"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://cubecinema.com/programme/event/bluescreen/15045/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/Bluescreen_default_pic_aU7I9rs.jpg.600x0_q45.jpg"
+        tags:
+          - "short-film"
+          - "screening"
+          - "community"
+        raw: "**BLUESCREEN** — Wed 25 Nov, 19:30.
+
+          Welcome to Bluescreen: Screening YOUR Short Films! Come along and
+
+          enjoy the best in local short…\n"
+        summary: "The November edition of the Cube's open-submission short film night for Bristol filmmakers."
+        confidence: "high"
+    notes: "Catalogue URL correct; the single programme page carries August through November 2026, so no pagination was needed. As the hints warn, well under half the programme is film — music gigs, storytelling and performance are recorded here too, tagged accordingly. The Cube prints no prices on the programme page, so `price` is omitted rather than guessed. Poster images are relative on the page and have been prefixed with https://www.cubecinema.com. Full listing captured, nothing truncated."
+  - sourceId: "cinema/bristol-film-festival"
+    fetch:
+      ok: true
+      url: "https://bristolfilmfestival.com/"
+      status: 200
+    events:
+      - id: "cinema/bristol-film-festival#d79c2ba5c0"
+        sourceId: "cinema/bristol-film-festival"
+        title: "The Princess Bride — Outdoors at Arnos Vale"
+        subcategory: "Outdoors at Arnos Vale"
+        occurrence:
+          kind: "single"
+          date: "2026-08-26"
+        status: "scheduled"
+        venue:
+          name: "Arnos Vale Cemetery"
+          area: "Arnos Vale"
+        url: "https://bristolfilmfestival.com/arnos-vale-outdoor"
+        image: "https://images.squarespace-cdn.com/content/v1/5f1811b47a7edc2eea4892b4/0be06867-1138-49be-825f-47daf9cc265d/THE+PRINCESS+BRIDE+POSTER.jpg"
+        tags:
+          - "outdoor"
+          - "classic"
+          - "screening"
+          - "family"
+        raw: "**THE PRINCESS BRIDE** — Wednesday 26th August 2026.
+
+          Evergreen fairy tale epic, screening as part of *Outdoors at Arnos
+
+          Vale* — \"our first open-air screenings in the beautiful Arnos Vale
+
+          Cemetery\".\n"
+        summary: "Open-air screening of the 1987 fairy-tale comedy in Arnos Vale Cemetery — the festival's first outdoor programme. No start time published yet."
+        confidence: "high"
+      - id: "cinema/bristol-film-festival#86739b1c89"
+        sourceId: "cinema/bristol-film-festival"
+        title: "Batman — Outdoors at Arnos Vale"
+        subcategory: "Outdoors at Arnos Vale"
+        occurrence:
+          kind: "single"
+          date: "2026-08-26"
+        status: "scheduled"
+        venue:
+          name: "Arnos Vale Cemetery"
+          area: "Arnos Vale"
+        url: "https://bristolfilmfestival.com/arnos-vale-outdoor"
+        image: "https://images.squarespace-cdn.com/content/v1/5f1811b47a7edc2eea4892b4/1628529407144-9CAJOCH0T1Z62Z9021MX/BATMAN+POSTER.jpg"
+        tags:
+          - "outdoor"
+          - "classic"
+          - "screening"
+        raw: "**BATMAN** — Wednesday 26th August 2026.
+
+          Tim Burton's film, featuring Jack Nicholson's Joker, presented as a
+
+          nostalgic 80s classic in *Outdoors at Arnos Vale*.\n"
+        summary: "Tim Burton's 1989 Batman shown outdoors among the Victorian graves at Arnos Vale. No start time published yet."
+        confidence: "high"
+      - id: "cinema/bristol-film-festival#d0108274c0"
+        sourceId: "cinema/bristol-film-festival"
+        title: "Horror In The Caves"
+        occurrence:
+          kind: "run"
+          start: "2026-10-22"
+          end: "2026-10-25"
+        status: "scheduled"
+        venue:
+          name: "Redcliffe Caves"
+          area: "Redcliffe"
+        url: "https://bristolfilmfestival.com/horror-in-the-caves"
+        tags:
+          - "horror"
+          - "screening"
+          - "seasonal"
+          - "festival"
+        raw: "**Horror In The Caves** — 22–25 October.
+
+          \"Our famous screenings in Redcliffe Caves return in October 2026.\"\n"
+        summary: "The festival's best-known strand: horror films screened underground in Redcliffe Caves over four nights before Halloween. Individual titles were not yet listed."
+        confidence: "medium"
+      - id: "cinema/bristol-film-festival#5359149bc4"
+        sourceId: "cinema/bristol-film-festival"
+        title: "Planetarium Screenings"
+        occurrence:
+          kind: "undated"
+          note: "listed as an ongoing strand with no dates given on the site"
+        status: "scheduled"
+        venue:
+          name: "We The Curious Planetarium"
+          area: "Harbourside"
+        url: "https://bristolfilmfestival.com/planetarium"
+        tags:
+          - "screening"
+          - "family"
+          - "sci-fi"
+        raw: "**Planetarium Screenings**
+
+          Sci-fi and space adventures in the Planetarium at We The Curious,
+
+          with Solar System star shows before each film.\n"
+        summary: "Science-fiction films projected in the We The Curious planetarium dome, each preceded by a star show. Dates for the next run were not published."
+        confidence: "low"
+      - id: "cinema/bristol-film-festival#2cb6e390b3"
+        sourceId: "cinema/bristol-film-festival"
+        title: "Vintage Screenings"
+        occurrence:
+          kind: "undated"
+          note: "listed as an ongoing strand with no dates given on the site"
+        status: "scheduled"
+        venue:
+          name: "Averys Wine Cellars, Park Street"
+        url: "https://bristolfilmfestival.com/vintage-screening-events"
+        tags:
+          - "classic"
+          - "screening"
+          - "18-plus"
+        raw: "**Vintage Screenings**
+
+          Themed wine tastings paired with classic films, screened in Averys'
+
+          historic wine cellars beneath Park Street.\n"
+        summary: "Classic films paired with a themed wine tasting in the cellars under Park Street. Dates for the next run were not published."
+        confidence: "low"
+    notes: "The catalogued homepage works but is a set of promotional tiles, not a listing. /events (\"Full Programme\") is linked from it and returned no events at all — only a mailing-list sign-up — so the real programme has to be read from the individual strand pages. I read /arnos-vale-outdoor for the imminent one and took the other strands from the homepage tiles at the confidence they warrant. No prices, times or per-film booking links are published on the strand pages, so all are omitted. Catalogue URL is not wrong, but /events being empty is worth knowing; the strand pages are where the programme lives."
+  - sourceId: "cinema/everyman-bristol"
+    fetch:
+      ok: true
+      url: "https://www.everymancinema.com/bristol/"
+      status: 200
+    events: []
+    notes: "Catalogue URL https://www.everymancinema.com/venues-list/bristol/ returns 404. The working venue page is https://www.everymancinema.com/bristol/ — catalogue needs updating. That page carries only venue information; the programme is loaded client-side and nothing was extractable. I also tried /venues-list/x0x3q-everyman-bristol/ (venue info only, no listings) and /events/ (chain-wide promotional tiles for Disney Princess Season, Family Summer of Film and Relaxed Screenings, but no dated events). Everyman's per-venue seasons and event cinema (National Theatre Live, Silver Screen, Baby Club) exist as landing pages — /films-silver-screen/, /films-baby-club/, /events/19626-national-theatre-live/ — but none of them published dates for Bristol. Recorded as a successful fetch with nothing harvestable rather than as a failure."
+  - sourceId: "cinema/vue-cribbs-causeway"
+    fetch:
+      ok: true
+      url: "https://www.myvue.com/cinema/bristol-cribbs-causeway/whats-on"
+      status: 200
+    events: []
+    notes: "Catalogue URL is correct and loads, but the listing itself is rendered client-side; only three mainstream titles surfaced in the markup (The Odyssey, The End of Oak Street, Spider-Man: Brand New Day) and those are exactly the routine multiplex screenings this harvest is meant to leave out. I also read https://www.myvue.com/big-screen-events, the chain's event-cinema hub, which describes the categories (theatre, music, musicals, opera, dance, sport) but lists no dated events at all. So: no special events recorded, and no routine screenings recorded by design."
+  - sourceId: "cinema/showcase-cabot-circus"
+    fetch:
+      ok: false
+      url: "https://www.showcasecinemas.co.uk/cinema-listing/BCC/bristol-cabot-circus"
+      status: 404
+      error: "404 Not Found; the venue appears to have closed and no replacement page exists on the Showcase site"
+    events: []
+    notes: "Catalogue URL 404s, and so does https://www.showcasecinemas.co.uk/cinema/bristol-cabot-circus. The Showcase site root lists no Bristol Cabot Circus venue, and /event-cinema/ is a category hub with no dated events. Corroborating search indicates Showcase Cinema de Lux Bristol Cabot Circus closed on 30 November 2023 and part of the site reopened as ODEON Luxe Bristol in February 2026 — i.e. this source duplicates cinema/odeon-bristol and should probably be retired. Showcase does still operate a Bristol venue at Avonmeads: https://www.showcasecinemas.co.uk/cinemas/x06jh-showcase-bristol-avonmeads/ — that is the correct URL if stage 1 wants to keep a Showcase source."
+  - sourceId: "cinema/odeon-bristol"
+    fetch:
+      ok: false
+      url: "https://www.odeon.co.uk/cinemas/bristol/"
+      status: 403
+      error: "403 Forbidden — odeon.co.uk blocks automated fetches; no page content returned"
+    events: []
+    notes: "Catalogue URL is correct — search confirms https://www.odeon.co.uk/cinemas/bristol/ is the live ODEON Luxe Bristol page — but the host returns 403 to every fetch, so nothing could be read. Worth noting for stage 1: ODEON Bristol moved from Union Street to Cabot Circus, opening there on 12 February 2026, so the catalogue's area \"City Centre\" would be better as \"Broadmead / Cabot Circus\"; the old /cinemas/bristol-union-street/ page now redirects to a moved notice. The venue is trading. This source will need a non-WebFetch route (or an aggregator) to harvest."
+  - sourceId: "cinema/20th-century-flicks"
+    fetch:
+      ok: false
+      url: "https://www.20thcenturyflicks.co.uk/"
+      status: 403
+      error: "403 Forbidden on both / and /whats-on; the host blocks automated fetches"
+    events: []
+    notes: "Both the catalogued homepage and a guessed /whats-on path returned 403, so no listings could be read. The site is live — search results confirm https://20thcenturyflicks.co.uk/ is serving and the shop is trading at 19 Christmas Steps — so this is bot-blocking rather than a dead venue or a stale catalogue URL. Search also indicates 20th Century Flicks was one of the venues for Cinema Rediscovered (Wed 22 – Sun 26 July 2026), which has already passed. Nothing recorded, since I could not read a listings page and will not transcribe events from search snippets."

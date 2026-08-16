@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Stylised Bristol skyline: the Avon Gorge, the suspension bridge and hot air balloons">
+  <title>Bristol</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b2a4a"/>
+      <stop offset="45%" stop-color="#3d4f7c"/>
+      <stop offset="78%" stop-color="#c86f57"/>
+      <stop offset="100%" stop-color="#e8a06a"/>
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a3557"/>
+      <stop offset="100%" stop-color="#141d33"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.72" cy="0.74" r="0.42">
+      <stop offset="0%" stop-color="#ffcf9b" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#ffcf9b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#sky)"/>
+  <circle cx="864" cy="500" r="300" fill="url(#glow)"/>
+  <circle cx="864" cy="502" r="46" fill="#ffe0b2" opacity="0.9"/>
+
+  <!-- Hot air balloons: the city's own emblem, and the reason half of Bristol
+       looks up in August. -->
+  <g opacity="0.92">
+    <g transform="translate(210 150) scale(1.05)">
+      <path d="M0 0a46 50 0 0 1 92 0c0 30-25 52-46 74C25 52 0 30 0 0Z" fill="#e2574c"/>
+      <path d="M46-50c-12 26-12 76 0 124 12-48 12-98 0-124Z" fill="#f4d35e" opacity="0.85"/>
+      <rect x="38" y="78" width="16" height="12" rx="2" fill="#2c2216"/>
+      <path d="M32 74 38 78M60 74 54 78" stroke="#2c2216" stroke-width="1.6"/>
+    </g>
+    <g transform="translate(392 96) scale(0.68)">
+      <path d="M0 0a46 50 0 0 1 92 0c0 30-25 52-46 74C25 52 0 30 0 0Z" fill="#4c9f9b"/>
+      <path d="M46-50c-12 26-12 76 0 124 12-48 12-98 0-124Z" fill="#f2f0e6" opacity="0.75"/>
+      <rect x="38" y="78" width="16" height="12" rx="2" fill="#2c2216"/>
+    </g>
+    <g transform="translate(946 128) scale(0.5)" opacity="0.8">
+      <path d="M0 0a46 50 0 0 1 92 0c0 30-25 52-46 74C25 52 0 30 0 0Z" fill="#f4a259"/>
+      <rect x="38" y="78" width="16" height="12" rx="2" fill="#2c2216"/>
+    </g>
+  </g>
+
+  <!-- The gorge walls, with the suspension bridge spanning them. -->
+  <path d="M0 675V392l52-24 46 30 44-14 40 26 38-10v275Z" fill="#101a2e" opacity="0.55"/>
+  <path d="M1200 675V368l-58-26-52 32-46-16-44 28-40-12v301Z" fill="#101a2e" opacity="0.55"/>
+
+  <g stroke="#f6efe4" fill="none" opacity="0.95">
+    <!-- Towers -->
+    <path d="M258 400v-92M282 400v-92M918 384v-92M942 384v-92" stroke-width="7"/>
+    <path d="M252 308h36M912 292h36" stroke-width="7"/>
+    <!-- Deck -->
+    <path d="M180 400h840" stroke-width="5"/>
+    <!-- Main catenary -->
+    <path d="M180 336c180 104 660 96 840-14" stroke-width="4.5"/>
+    <!-- Hangers -->
+    <g stroke-width="2" opacity="0.85">
+      <path d="M330 358v42M390 372v28M450 381v19M510 386v14M570 388v12M630 388v12M690 386v14M750 380v20M810 371v29M870 358v42"/>
+    </g>
+  </g>
+
+  <!-- Harbour: masts and warehouse rooflines. -->
+  <g fill="#0c1526" opacity="0.85">
+    <path d="M0 675v-96h84l18-26 20 26h92v-58h72v58h96l16-30 18 30h84v-72h66v72h110l20-34 22 34h96v-52h70v52h116l18-24 20 24h72v96Z"/>
+  </g>
+  <g stroke="#f6efe4" stroke-width="2" opacity="0.35">
+    <path d="M156 579v-74M420 579v-96M712 579v-64M998 579v-88"/>
+  </g>
+
+  <rect y="600" width="1200" height="75" fill="url(#waterGrad)"/>
+  <g stroke="#8ea2c8" stroke-width="2" opacity="0.4">
+    <path d="M90 622h150M300 640h210M600 620h180M840 644h190M180 658h260M700 660h300"/>
+  </g>
+</svg>

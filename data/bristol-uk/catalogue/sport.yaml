@@ -1,0 +1,174 @@
+schema: whazzon.catalogue/1
+category: sport
+label: Sport
+description: >-
+  Professional clubs and their grounds. Fixtures are published a season at a
+  time and then move for TV, so the value here is in re-checking dates rather
+  than discovering new events.
+sources:
+  - id: sport/bristol-city
+    name: Bristol City FC
+    category: sport
+    kind: organiser
+    status: provisional
+    url: https://www.bcfc.co.uk/fixtures/
+    area: Ashton Gate
+    tags: [football, fixtures, ticketed]
+    cadence: weekly
+    hints: |
+      Full season fixture list published in summer, but individual kick-off
+      times move for television at short notice — re-harvest weekly to catch
+      the changes rather than to find new fixtures.
+    addedAt: "2026-08-16"
+
+  - id: sport/bristol-bears
+    name: Bristol Bears Rugby
+    category: sport
+    kind: organiser
+    status: provisional
+    url: https://www.bristolbearsrugby.com/matches/
+    area: Ashton Gate
+    tags: [rugby, fixtures, ticketed]
+    cadence: weekly
+    addedAt: "2026-08-16"
+
+  - id: sport/bristol-rovers
+    name: Bristol Rovers FC
+    category: sport
+    kind: organiser
+    status: provisional
+    url: https://www.bristolrovers.co.uk/fixtures/
+    area: Horfield
+    tags: [football, fixtures, ticketed]
+    cadence: weekly
+    addedAt: "2026-08-16"
+
+  - id: sport/bristol-flyers
+    name: Bristol Flyers Basketball
+    category: sport
+    kind: organiser
+    status: provisional
+    url: https://www.bristolflyers.co.uk/fixtures/
+    area: Stoke Gifford
+    tags: [basketball, fixtures, ticketed]
+    cadence: weekly
+    addedAt: "2026-08-16"
+
+  - id: sport/gloucestershire-cricket
+    name: Gloucestershire Cricket
+    category: sport
+    kind: organiser
+    status: provisional
+    url: https://www.gloscricket.co.uk/fixtures
+    area: Bishopston
+    tags: [cricket, fixtures, ticketed, summer]
+    cadence: monthly
+    hints: |
+      Plays at the county ground in Bishopston. Season runs April to September;
+      dormant over winter.
+    addedAt: "2026-08-16"
+
+  - id: sport/great-bristol-run
+    name: Great Bristol Run (half marathon & 10K)
+    category: sport
+    kind: festival
+    status: provisional
+    url: https://www.greatrun.org/events/great-bristol-run/
+    tags: [running, mass-participation, annual, road-closures, half-marathon, 10k]
+    cadence: quarterly
+    hints: |
+      The city's main mass-participation road race, successor to the Bristol
+      Half Marathon. Runs several distances on the same day — a half marathon
+      and a 10K, sometimes a shorter family distance. Record each distance as
+      its own event: they have separate start times, entry fees and sell-out
+      dates, and a runner cares which one they are entering. Entries open the
+      previous autumn, so use a long forward horizon.
+    addedAt: "2026-08-16"
+
+  - id: sport/bristol-marathon
+    name: Bristol Marathon
+    category: sport
+    kind: festival
+    status: provisional
+    url: https://www.bristolmarathon.co.uk/
+    tags: [running, mass-participation, annual, marathon, road-closures]
+    cadence: quarterly
+    notes: >-
+      A full-marathon event in the city has come and gone under several names
+      and organisers over the years. Confirm an edition is actually scheduled
+      and that this URL is the current organiser before promoting to active —
+      set status: closed rather than deleting if it is defunct.
+    addedAt: "2026-08-16"
+
+  - id: sport/parkrun-bristol
+    name: parkrun — Bristol area
+    category: sport
+    kind: aggregator
+    status: provisional
+    url: https://www.parkrun.org.uk/events/events/
+    tags: [running, free, weekly, 5k, community, all-abilities]
+    cadence: monthly
+    hints: |
+      Free timed 5K runs every Saturday morning at many sites around the city —
+      Ashton Court, Eastville, Little Stoke, Pomphrey Hill and others, plus
+      junior 2K runs on Sundays.
+
+      Model each location as a single `occurrence.kind: recurring` event with
+      the pattern stated ("every Saturday, 9:00"), not as a new event every
+      week — otherwise this one source floods the entire site. The national
+      events list needs filtering to the configured radius. Cadence is monthly
+      because what changes is the set of locations, not the schedule.
+    addedAt: "2026-08-16"
+
+  - id: sport/bristol-bikefest
+    name: Bristol Bikefest
+    category: sport
+    kind: festival
+    status: provisional
+    url: https://www.bikefest.co.uk/
+    area: Ashton Court
+    tags: [cycling, mountain-biking, annual, mass-participation, outdoor]
+    cadence: quarterly
+    hints: Mountain bike endurance event at Ashton Court, usually midsummer.
+    notes: Confirm the event is still running and that this is the current URL.
+    addedAt: "2026-08-16"
+
+  - id: sport/bristol-grand-prix
+    name: Bristol Grand Prix
+    category: sport
+    kind: festival
+    status: provisional
+    url: https://www.bristolgrandprix.co.uk/
+    area: City Centre
+    tags: [cycling, racing, free, spectator, road-closures, annual]
+    cadence: quarterly
+    notes: >-
+      City-centre criterium racing, free to spectate. Has not run every year —
+      verify before promoting to active.
+    addedAt: "2026-08-16"
+
+  - id: sport/bristol-cycling-campaign
+    name: Bristol Cycling Campaign
+    category: sport
+    kind: organiser
+    status: provisional
+    url: https://bristolcycling.org.uk/
+    tags: [cycling, community, rides, free, campaigning]
+    cadence: monthly
+    hints: |
+      Community rides and campaign events. Good route into smaller organised
+      rides that no listings site carries.
+    addedAt: "2026-08-16"
+
+  - id: sport/severn-bridge-half
+    name: Severn Bridge Half Marathon
+    category: sport
+    kind: festival
+    status: provisional
+    url: https://www.severnbridgehalf.com/
+    tags: [running, half-marathon, annual, mass-participation]
+    cadence: quarterly
+    notes: >-
+      North of the city and outside the configured radius, but a fixture in the
+      local running calendar. Drop it if the radius is enforced strictly.
+    addedAt: "2026-08-16"

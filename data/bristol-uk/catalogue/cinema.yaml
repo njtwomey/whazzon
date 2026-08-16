@@ -1,0 +1,127 @@
+schema: whazzon.catalogue/1
+category: cinema
+label: Cinema
+description: Independent and commercial cinemas, plus film festivals and pop-up screenings.
+sources:
+  - id: cinema/watershed
+    name: Watershed
+    category: cinema
+    kind: venue
+    status: provisional
+    url: https://www.watershed.co.uk/whatson/
+    area: Harbourside
+    address:
+      street: 1 Canon's Road
+      locality: Harbourside
+      city: Bristol
+      postcode: BS1 5TX
+    tags: [independent, arthouse, major, cultural-cinema]
+    cadence: daily
+    hints: |
+      The city's main independent cinema and a cultural centre in its own
+      right — also runs talks, festivals and industry events. Listings change
+      daily and screenings are often one-offs with a single showing, so a
+      weekly harvest will miss things. Capture the individual screening date,
+      not just the film's run.
+    addedAt: "2026-08-16"
+
+  - id: cinema/the-cube
+    name: The Cube Microplex
+    category: cinema
+    kind: venue
+    status: provisional
+    url: https://www.cubecinema.com/programme/
+    area: Stokes Croft
+    address:
+      street: 4 Princess Row
+      city: Bristol
+      postcode: BS2 8NQ
+    tags: [independent, volunteer-run, experimental, diy]
+    cadence: weekly
+    hints: |
+      Volunteer-run microplex with a deliberately eclectic programme — film,
+      music, performance and talks all in one listing. Do not assume every
+      entry is a film.
+    addedAt: "2026-08-16"
+
+  - id: cinema/20th-century-flicks
+    name: 20th Century Flicks
+    category: cinema
+    kind: venue
+    status: provisional
+    url: https://www.20thcenturyflicks.co.uk/
+    area: Christmas Steps
+    address:
+      street: 19 Christmas Steps
+      city: Bristol
+      postcode: BS1 5BS
+    tags: [independent, video-shop, micro-cinema, private-hire]
+    cadence: monthly
+    hints: |
+      A video rental shop with two tiny private screening rooms, mostly booked
+      rather than programmed. Public events are occasional — monthly is enough.
+    addedAt: "2026-08-16"
+
+  - id: cinema/everyman-bristol
+    name: Everyman Bristol
+    category: cinema
+    kind: venue
+    status: provisional
+    url: https://www.everymancinema.com/venues-list/bristol/
+    area: Whiteladies Road
+    tags: [commercial, boutique, mainstream]
+    cadence: daily
+    addedAt: "2026-08-16"
+
+  - id: cinema/showcase-cabot-circus
+    name: Showcase Cinema de Lux — Cabot Circus
+    category: cinema
+    kind: venue
+    status: provisional
+    url: https://www.showcasecinemas.co.uk/cinema-listing/BCC/bristol-cabot-circus
+    area: Broadmead
+    tags: [multiplex, commercial, mainstream]
+    cadence: daily
+    hints: |
+      Multiplex. Listings are huge and almost entirely mainstream releases —
+      consider capturing only special events, premieres and event cinema rather
+      than every showing of every blockbuster.
+    addedAt: "2026-08-16"
+
+  - id: cinema/vue-cribbs-causeway
+    name: Vue Bristol — Cribbs Causeway
+    category: cinema
+    kind: venue
+    status: provisional
+    url: https://www.myvue.com/cinema/bristol-cribbs-causeway/whats-on
+    area: Cribbs Causeway
+    tags: [multiplex, commercial, mainstream, out-of-town]
+    cadence: daily
+    notes: On the northern edge of the city, at the limit of the configured radius.
+    addedAt: "2026-08-16"
+
+  - id: cinema/odeon-bristol
+    name: ODEON Bristol
+    category: cinema
+    kind: venue
+    status: provisional
+    url: https://www.odeon.co.uk/cinemas/bristol/
+    area: City Centre
+    tags: [multiplex, commercial, mainstream]
+    cadence: daily
+    notes: Verify this site is still trading before promoting to active.
+    addedAt: "2026-08-16"
+
+  - id: cinema/bristol-film-festival
+    name: Bristol Film Festival
+    category: cinema
+    kind: festival
+    status: provisional
+    url: https://bristolfilmfestival.com/
+    tags: [festival, site-specific, seasonal]
+    cadence: monthly
+    hints: |
+      Programmes screenings in unusual locations — caves, ships, chapels —
+      rather than a fixed venue. Runs in bursts through the year, so the site
+      is quiet for long stretches and then lists a great deal at once.
+    addedAt: "2026-08-16"

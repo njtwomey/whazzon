@@ -160,21 +160,20 @@ export function LandingPage() {
       </header>
 
       <main className="mx-auto w-full max-w-5xl px-4 pb-12 sm:px-6 lg:px-8">
-        {/* A title page rather than a bare grid: the mark large, the name, and one
-            paragraph saying what this is. The mark is out of the navbar because it
-            was doing nothing there but shrink — at 32px it is a smudge, and at this
-            size it is legible as what it actually is, a city with things on in it.
+        {/* Mark beside the name, one line under it. The mark is out of the navbar
+            because it was doing nothing there but shrink — at 32px the map is a
+            smudge, and at this size it reads as what it depicts.
 
             The attribution rides on the mark's tooltip. OpenStreetMap's licence
             asks for a notice; a visible footer line was more prominent than a
             timestamped listing page warrants, and this is the common reading. */}
-        <div className="flex flex-col items-start gap-6 py-14">
+        <div className="flex flex-col items-start gap-6 py-14 sm:flex-row sm:items-center sm:gap-8">
           <Tooltip>
             <TooltipTrigger asChild>
               <img
                 src={`${import.meta.env.BASE_URL}logo.svg`}
                 alt="whazzon"
-                className="size-24 rounded-2xl ring-1 ring-border sm:size-28"
+                className="size-24 shrink-0 rounded-2xl ring-1 ring-border sm:size-32"
               />
             </TooltipTrigger>
             <TooltipContent side="right" className="max-w-xs text-pretty">
@@ -184,10 +183,8 @@ export function LandingPage() {
 
           <div>
             <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl">whazzon</h1>
-            <p className="mt-3 max-w-xl text-lg text-muted-foreground">
-              What is actually on in a city, gathered from the venues, festivals and listings sites that publish it —
-              theatre, gigs, markets, trad sessions, talks, workshops. Refreshed regularly, filterable, and honest about
-              where every listing came from.
+            <p className="mt-2 text-lg text-muted-foreground">
+              What&rsquo;s on in a city, from the places putting it on.
             </p>
           </div>
         </div>

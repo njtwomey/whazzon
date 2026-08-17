@@ -1,0 +1,453 @@
+schema: "whazzon.harvest/1"
+locationId: "bristol-uk"
+date: "2026-08-17"
+category: "markets"
+harvestedAt: "2026-08-17T07:15:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "3"
+model: "claude-opus-5"
+observations:
+  - sourceId: "markets/bristol-farmers-market"
+    fetch:
+      ok: true
+      url: "https://bristololdcity.co.uk/where-to-go/bristol-farmers%E2%80%99-and-producers%E2%80%99-market"
+      status: 200
+    events:
+      - id: "markets/bristol-farmers-market#aea0a1f5cf"
+        sourceId: "markets/bristol-farmers-market"
+        title: "Bristol Farmers' and Producers' Market"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Wednesday, from 8:00am to 2:30pm"
+          startTime: "08:00"
+        status: "scheduled"
+        url: "https://bristololdcity.co.uk/where-to-go/bristol-farmers%E2%80%99-and-producers%E2%80%99-market"
+        image: "https://bristololdcity.co.uk/sites/default/files/styles/large/public/locations/media/0c161e297b5ebe73e4920b725dbbb3f2.jpg"
+        price:
+          free: true
+        tags:
+          - "market"
+          - "farmers"
+          - "outdoor"
+          - "free-entry"
+          - "weekly"
+        raw: "**Bristol Farmers' and Producers' Market** — every Wednesday, (from 7th June
+
+          2017) from 8:00am to 2:30pm. Corn St / Wine St, Bristol BS1, United Kingdom.
+
+
+          \"The award winning weekly market offers customers the opportunity to buy fresh
+
+          produce directly from local farmers, ensuring quality and provenance of the
+
+          food.\"\n"
+        summary: "A weekly Wednesday producers' market on Corn Street and Wine Street, selling
+
+          meat, fish, cheese, bread, fruit and vegetables direct from farms and makers
+
+          in the countryside around Bristol.\n"
+        confidence: "medium"
+    notes: "Catalogued URL fetched first time, 200. There is no event list on this page at all — it states the day and hours only, so this is recorded as one recurring event and has not been expanded into dates. The \"(from 7th June 2017)\" on the page is when the listing began, not an event date, so no occurrence.start is set. Hours are contested and I have not tried to settle it: this page says \"from 8:00am to 2:30pm\", while Visit Bristol's markets round-up — which I also fetched today for markets/harbourside-market — says \"(Every week on Wednesday, 9:30am - 2:30pm)\" for the same market. Both pages were read a few minutes apart. The pattern above is this page's own words and confidence is medium for that reason. Note also that this is a third-party BID listing (bristololdcity.co.uk, run by Destination Bristol) rather than the market's own site, and the council's St Nicholas Markets subsite does not list a farmers' market anywhere — so no official page exists to prefer. Nothing was opened beyond the catalogued URL: the listing is a single sentence, so no description was written."
+  - sourceId: "markets/finzels-reach-market"
+    fetch:
+      ok: true
+      url: "https://finzelsreachmarket.co.uk/"
+      status: 200
+    events:
+      - id: "markets/finzels-reach-market#056a59d837"
+        sourceId: "markets/finzels-reach-market"
+        title: "Finzels Reach Market"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Wednesday and Friday, 11am - 2pm"
+          startTime: "11:00"
+        status: "scheduled"
+        url: "https://finzelsreachmarket.co.uk/"
+        image: "https://impro.usercontent.one/appid/oneComWsb/domain/finzelsreachmarket.co.uk/media/finzelsreachmarket.co.uk/onewebmedia/Fun%20sunny%20market%20June%2023.jpeg?etag=W%2F%22effb1-654d15aa%22&sourceContentType=image%2Fjpeg&quality=85"
+        price:
+          free: true
+        tags:
+          - "market"
+          - "street-food"
+          - "outdoor"
+          - "free-entry"
+          - "weekly"
+        raw: "**Finzels Reach Market** — every Wednesday: 11am - 2pm; every Friday: 11am -
+
+          2pm. Finzels Reach Market, Old Temple Street, Bristol BS1 6BX.
+
+
+          \"Step into a world of incredible street food at Finzels Reach Market.\" \"Open
+
+          every Wednesday and Friday lunchtime, discover street food from around the
+
+          world.\"
+
+
+          \"We are closed at Christmas, New Year and on Good Friday.\"\n"
+        summary: "A twice-weekly lunchtime street food market on Old Temple Street opposite
+
+          Castle Park, with a deliberately rotating cast of traders — over forty a
+
+          month — feeding the surrounding offices in a three-hour window.\n"
+        description: "## Discover Bristol's Vibrant Finzels Reach Market
+
+
+          Step into a world of incredible street food at Finzels Reach Market.
+
+
+          Open every Wednesday and Friday lunchtime, discover street food from around
+
+          the world.
+
+
+          ## Our traders
+
+
+          Where would we be without our wonderful traders? Whilst some loyal traders
+
+          have been with us since the start; we're committed to keeping things exciting
+
+          by rotating traders each week and inviting guest traders to join us to bring
+
+          variety.
+
+
+          We rigorously vet our traders to not only ensure they're turning out the
+
+          tastiest street food but to check they are minimalizing food waste and using
+
+          eco-friendly packaging.
+
+
+          Want to know who's trading each week? Sign up to our weekly newsletter and
+
+          get details of who's trading each week into your in-box every Monday.
+
+
+          ## History of Finzels Reach Market
+
+
+          Founded 9 years ago by Sophie Bowden and David Pyne, Finzels Reach Market
+
+          opened whilst Finzels Reach was still in development and has become part of
+
+          the make-up of this exciting and vibrant quarter. Located on a site which was
+
+          once the home to Courage Brewery and previously George's Brewery; the market
+
+          has gone through quite the journey. Having launched whilst the area was still
+
+          a building site; the market reopened during lockdown covid secure and has
+
+          since grown from a weekly market to a successful twice weekly market
+
+          showcasing over 40 different traders every month.
+
+
+          The market is carefully curated meaning traders change twice weekly resulting
+
+          in an ever-changing selection of street food on offer. Look out for guest
+
+          traders, seasonal food and themed markets.
+
+
+          ## Visit us
+
+
+          A short walk from the city centre, Finzels Reach Market is located opposite
+
+          Castle Park surrounded by independent restaurants, cafes and bars and even
+
+          its own brewpub. Find the market located in Old Temple Street just off
+
+          Counterslip.
+
+
+          There are 3 routes into the market on foot, via Bath Street, Hawkins Lane
+
+          (over Castle Bridge) and Counterslip. Parking is available nearby at The
+
+          Galleries and Gardiner Haskins. There is free bike parking in and around
+
+          Finzels Reach, with major bike lanes along Counterslip. Many bus services
+
+          pass near the market, including the MetroBus. The market is only a 10 minute
+
+          walk from Bristol Temple Meads Station. Bristol Ferry runs a waterbus service
+
+          which stops at Castle Park jetty, just a minute's walk to the market.
+
+
+          ## Frequently asked questions
+
+
+          **What sort of food can you expect at the market?** \"With plently of options
+
+          for vegan, veggie and meat eaters; the market line-up changes twice weekly to
+
+          provide an ever-changing selection\" — sushi, fried chicken wings, Thai curry,
+
+          Filipino spring rolls, Greek gyros. \"For those with a sweet tooth, we always
+
+          have a cake stall!\"
+
+
+          **How sustainable is the market?** \"All of our traders use biodegradable
+
+          packaging and we don't allow any single use plastic.\" Customers are welcome to
+
+          bring their own containers.
+
+
+          **When is the market open?** \"The market is open all year round on Wednesday
+
+          and Friday from 11am - 2pm.\" It closes at Christmas, New Year and Good Friday.
+
+
+          **Are there toilet facilities?** \"As an outdoor pop-up market, unfortunately
+
+          we're unable to provide toilets.\" Public toilets are available at the nearby
+
+          Galleries Shopping Centre.
+
+
+          **Do you cater for customers with food allergies?** \"All traders have an
+
+          ingredient and allergen list available on their stall.\"
+
+
+          **Is the market family friendly?** \"We welcome all customers to the market
+
+          whether you bring the kids or a furry friend.\"\n"
+        confidence: "high"
+    notes: "Catalogued URL fetched first time, 200 — the re-pointed URL is correct. No event list and no dated events at all: the site carries the standing twice-weekly pattern plus its Christmas, New Year and Good Friday closures, so this is one recurring event and the closures are recorded as words rather than dates. The site is the market's own page and is also the event's page, so its body is recorded in description (one source, one page read in full); the trader-application details and contact addresses were left out and nothing else was trimmed. Image: the path the page's own markup resolves to (/media/finzelsreachmarket.co.uk/onewebmedia/FRM%2030%20April%2025%202.jpg) returns 404 on the site's own host, so the og:image on the one.com image CDN was used instead after checking it returns 200. Visit Bristol's markets round-up, fetched today for markets/harbourside-market, agrees on the pattern: \"(Every Wednesday and Friday, 11am - 2pm)\"."
+  - sourceId: "markets/harbourside-market"
+    fetch:
+      ok: true
+      url: "https://visitbristol.co.uk/things-to-do/shopping/markets/"
+      status: 200
+    events:
+      - id: "markets/harbourside-market#e82b68f969"
+        sourceId: "markets/harbourside-market"
+        title: "The Harbourside Street Food Market"
+        occurrence:
+          kind: "recurring"
+          pattern: "Wednesday, Thursday & Friday 12pm - 2:30pm, plus Saturday & Sunday 11:30 - 4pm"
+        status: "scheduled"
+        timesText: "Wednesday, Thursday & Friday 12pm - 2:30pm, plus Saturday & Sunday 11:30 - 4pm"
+        price:
+          free: true
+        tags:
+          - "market"
+          - "street-food"
+          - "outdoor"
+          - "free-entry"
+        raw: "**The Harbourside Street Food Market** — (Wednesday, Thursday & Friday 12pm -
+
+          2:30pm, plus Saturday & Sunday 11:30 - 4pm)
+
+
+          \"Amazing street-food traders descend on Broad Quay in Bristol city centre
+
+          throughout the week. Expect food from around the world, as well as local
+
+          baked goods, vegan options, a bar and DJs.\"\n"
+        summary: "A waterside street food market on Broad Quay, trading short lunchtime hours
+
+          midweek and longer at weekends, when a bar and DJs join the traders.\n"
+        confidence: "medium"
+    notes: "Catalogued URL fetched first time, 200, and only the Harbourside entry was taken from it as the hint says. No event list: the entry is a days-and-hours line plus one paragraph, recorded as one recurring event and not expanded into dates. url and image are deliberately omitted — the Harbourside entry on this round-up carries no link and no image of its own (confirmed by reading the page HTML directly), and the dedicated Visit Bristol page named in the catalogue notes was not fetched today, so linking to it would be recording something I did not see. No single start time applies across the two clauses of the pattern, so startTime is omitted and the hours are kept verbatim in timesText; confidence is medium for that reason. For stage 1: the page calls this The Harbourside Street Food Market on Broad Quay, which still does not match the catalogue's name, area (Harbourside) or crafts tag. This page is also the source of the St Nicholas Market and farmers' market hours that disagree with the council subsite — see the notes on markets/st-nicholas-market and markets/bristol-farmers-market."
+  - sourceId: "markets/st-nicholas-market"
+    fetch:
+      ok: true
+      url: "https://www.bristol.gov.uk/st-nicholas-markets"
+      status: 200
+    events:
+      - id: "markets/st-nicholas-market#5de64842fd"
+        sourceId: "markets/st-nicholas-market"
+        title: "St Nicholas Indoor Market"
+        subcategory: "Our markets"
+        occurrence:
+          kind: "recurring"
+          pattern: "Monday to Saturday: 9.30am to 5pm"
+          startTime: "09:30"
+        status: "scheduled"
+        url: "https://www.bristol.gov.uk/st-nicholas-markets/about/our-markets/st-nicholas-indoor-market"
+        image: "https://www.bristol.gov.uk/images/Subsites/St%20Nicks%20Market/Our%20markets/St%20Nicholas%20Indoor%20market/St_Nicholas_Indoor_Market_2.jpg"
+        price:
+          free: true
+        tags:
+          - "market"
+          - "crafts"
+          - "street-food"
+          - "free-entry"
+        raw: "**St Nicholas Indoor Market** — Monday to Saturday: 9.30am to 5pm. Corn
+
+          Street, Bristol BS1 1JQ.
+
+
+          \"Bristol's largest collection of independent retailers\", home to over 60
+
+          traders across three areas — the Covered Market, the Exchange Hall and the
+
+          Glass Arcade.\n"
+        summary: "The Georgian covered market at the centre of the Old City, trading six days a
+
+          week: sixty-odd independent stalls of books, records, jewellery and vintage
+
+          across three halls, with the Glass Arcade given over to food counters.\n"
+        description: "Located within Bristol's old city, St Nicholas Indoor Market is home to over
+
+          60 independent retailers that sell a mixture of gifts, original fashion and
+
+          hand-crafted accessories.
+
+
+          With three very unique areas of the market, why not make a day of it?
+
+
+          The Covered Market is home to a variety of self-contained businesses
+
+          including books, records and gifts whilst The Exchange Hall houses an
+
+          eclectic array of stalls from jewellery to hot sauce.
+
+
+          You're sure to find the perfect gifts for your loved ones at St Nicks.
+
+
+          Plus no visit to Bristol's most historic market would be complete without
+
+          visiting the Glass Arcade eateries for delicious food and drink.
+
+
+          The market is divided into three sections: Exchange Hall, Glass Arcade and
+
+          Covered Market. You can wander through the Covered Market's individual shops
+
+          via quirky alleyways, explore The Exchange Hall's broad collection of items
+
+          in an open plan area, or visit The Glass Arcade for world foods.
+
+
+          **Location:** Corn Street, Bristol BS1 1JQ
+
+
+          **Hours:** Monday to Saturday, 9.30am to 5pm\n"
+        confidence: "high"
+      - id: "markets/st-nicholas-market#5dd9f4be05"
+        sourceId: "markets/st-nicholas-market"
+        title: "Street Food Market"
+        subcategory: "Our markets"
+        occurrence:
+          kind: "recurring"
+          pattern: "First Friday of the month: 11am to 2.30pm"
+          startTime: "11:00"
+        status: "scheduled"
+        url: "https://www.bristol.gov.uk/st-nicholas-markets/about/our-markets/street-food-market"
+        image: "https://www.bristol.gov.uk/images/Subsites/St%20Nicks%20Market/Our%20markets/Street%20food%20market/The_Momo_Bar_large.jpg"
+        price:
+          free: true
+        tags:
+          - "market"
+          - "street-food"
+          - "outdoor"
+          - "free-entry"
+        raw: "**Street Food Market** — first Friday of the month, 11am to 2.30pm, on Wine
+
+          Street.
+
+
+          \"Grab a delicious lunch on-the-go from some of Bristol's finest street food
+
+          traders.\" The number of vendors may fluctuate, with each market's lineup
+
+          shared beforehand on social media. \"Trading days and times for outdoor
+
+          markets are subject to change.\"\n"
+        summary: "A monthly lunchtime street food market on Wine Street beside St Nicholas
+
+          Market, running three and a half hours on the first Friday of the month with
+
+          a line-up that changes each time.\n"
+        description: "\"Grab a delicious lunch on-the-go from some of Bristol's finest street food
+
+          traders.\"
+
+
+          The street food market is on first Friday of the month, 11am to 2.30pm on
+
+          Wine Street.
+
+
+          The number of vendors may fluctuate, with each market's lineup shared
+
+          beforehand on their social media channels. These times are subject to change
+
+          — check Facebook or Instagram for current details.\n"
+        confidence: "medium"
+      - id: "markets/st-nicholas-market#5afe97920c"
+        sourceId: "markets/st-nicholas-market"
+        title: "Bristol Indies' Market"
+        subcategory: "Our markets"
+        occurrence:
+          kind: "recurring"
+          pattern: "Monday to Saturday: 10am to 5pm"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristol.gov.uk/st-nicholas-markets/about/our-markets/bristol-indies-market"
+        image: "https://www.bristol.gov.uk/images/Subsites/St%20Nicks%20Market/Our%20markets/Bristol%20Indies%20market/Bristol_Indies_Market_2.jpg"
+        price:
+          free: true
+        tags:
+          - "market"
+          - "crafts"
+          - "free-entry"
+          - "community"
+        raw: "**Bristol Indies' Market** — \"Open Monday to Saturday from 10am to 5pm.\"
+
+          Corn Street, Bristol BS1 1JQ.
+
+
+          Formerly known as the Nails Market. Approximately 30 local independent
+
+          traders selling artwork, photography, handcrafted jewellery and vintage
+
+          clothing; the number of traders may vary from week to week. \"These times are
+
+          subject to change.\"\n"
+        summary: "The old Nails Market, renamed: about thirty independent makers trading in the
+
+          open air on Corn Street six days a week, selling artwork, photography,
+
+          pottery, jewellery and vintage clothing alongside the indoor market.\n"
+        description: "The Bristol Indies' Market was formerly known as the Nails Market. There are
+
+          approximately 30 local independent traders selling a fantastic array of
+
+          gifts, from original artwork and photography, to handcrafted jewellery and
+
+          vintage clothing. The number of traders may vary from week to week.
+
+
+          **What's available:** hand bound leather books, Bristol photography,
+
+          handcrafted soap items, pottery, wood, jewellery and more. Featured traders
+
+          include Liz Isaacs Pottery, Mivart Colour (fused glass and dichroic
+
+          jewellery) and Simon Ellis (art and collectables). Guest stalls operate
+
+          Monday to Saturday with unique and creative items.
+
+
+          **Location:** Corn Street, Bristol BS1 1JQ
+
+
+          **Hours:** Open Monday to Saturday from 10am to 5pm. These times are subject
+
+          to change; check social media for updates.\n"
+        confidence: "medium"
+    notes: "Catalogued URL fetched first time, 200 — the re-pointed council subsite is correct. There is no event list on it at all: it names three standing markets with days and hours, which are recorded as three recurring events and have not been expanded into dates. Three event pages were opened, one per market (/about/our-markets/st-nicholas-indoor-market, /street-food-market, /bristol-indies-market), which is the whole programme; that is where description and the image URLs come from, and each image URL was checked to return 200. The subsite states verbatim: \"Trading days and times for outdoor markets are subject to change. See our Instagram or Facebook pages for the latest information.\" The two outdoor markets are also contested, and I have not tried to settle it: this council page says Street Food Market \"First Friday of the month: 11am to 2.30pm\" and Bristol Indies' Market \"Monday to Saturday: 10am to 5pm\", while Visit Bristol's markets round-up, fetched today for markets/harbourside-market, says \"(Tuesday and Friday, 11am-2:30pm)\" and \"(Friday and Saturday, 10am-5pm)\" respectively. Recorded above are the council page's own words, since that is the URL this source points at, and both outdoor markets are held at medium confidence. The indoor market's hours agree on both pages (Monday-Saturday, 9.30am-5pm), so that one is high. No farmers' market is mentioned anywhere on the subsite, and no seasonal or Christmas markets were advertised. price.free is a deliberate judgement — the markets are walk-in and no entry charge is quoted on any of the four pages read — with no price text to quote."

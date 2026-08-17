@@ -1,0 +1,250 @@
+schema: "whazzon.harvest/1"
+locationId: "bristol-uk"
+date: "2026-08-17"
+category: "food-drink"
+harvestedAt: "2026-08-17T07:20:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "3"
+model: "claude-opus-5"
+observations:
+  - sourceId: "food-drink/bristol-beer-factory"
+    fetch:
+      ok: true
+      url: "https://bristolbeerfactory.co.uk/collections/tours-tastings"
+      status: 200
+    events:
+      - id: "food-drink/bristol-beer-factory#c77ef15242"
+        sourceId: "food-drink/bristol-beer-factory"
+        title: "BBF Brewery Tour"
+        occurrence:
+          kind: "recurring"
+          pattern: "every Saturday at 2pm"
+          startTime: "14:00"
+        status: "scheduled"
+        url: "https://www.bristolbeerfactory.co.uk/collections/tours-tastings/products/brewery-tour"
+        image: "https://www.bristolbeerfactory.co.uk/cdn/shop/products/BBF_Brewery_Tours.jpg?crop=center&height=300&v=1677068891&width=300"
+        price:
+          free: false
+          text: "£25.00"
+          min: 25
+          currency: "GBP"
+        tags:
+          - "brewery"
+          - "guided-tour"
+          - "tasting"
+          - "booking-required"
+        raw: "**BBF Brewery Tour** — £25.00
+
+
+          \"Public brewery tours are held every Saturday at 2pm. Book below or
+
+          purchase a voucher to buy now, book later! We also offer private tours
+
+          to large groups (10+) throughout the week.\"\n"
+        summary: "Bristol Beer Factory's public brewery tour, run every Saturday at 2pm. Two hours on the brew floor with three pints poured from freshly racked kegs, plus a free pint and a discount at the North Street tap room afterwards."
+        description: "A 2 hour visit including a tour of the brewery.
+
+
+          Included:
+
+
+          - \"2 hour visit including tour of the Brewery\"
+
+          - \"3 gluten free pints from freshly racked kegs\"
+
+          - \"1x free pint and 10% off BBF products thereafter at the North Street Tap Room\"
+
+
+          The tour starts at the brewery, 50-52 Ashton Vale Road, BS3 2HQ.
+
+
+          Private tours are available for groups of 10 or more, with flexible
+
+          weeknight or Saturday noon sessions, from £300. Enquiries to
+
+          tours@bristolbeerfactory.co.uk.
+
+
+          Tickets are non-refundable unless exceptional circumstances apply.
+
+          Rescheduling needs at least 24 hours' notice; late cancellations and
+
+          no-shows cannot be rebooked.
+
+
+          Gift vouchers have no expiry date, and existing vouchers can be
+
+          upgraded by contacting the brewery.\n"
+        confidence: "high"
+    notes: "Catalogued URL is correct and served the collection first time (200). The collection is a Shopify shop, not a diary: it held three products, and only one is an event. \"Gift A Brewery Tour\" (£25.00) is a voucher and \"Bristol Beer Club Membership\" (£65.00) is a subscription, so neither is recorded. Private group tours are described on the page but are arranged by email with no published dates, so they are not recorded either. Per the hint the Saturday tour is one recurring event rather than a row per Saturday. I opened the one product page (1 fetch) for `description`. Two things for stage 1 to curate, both from that page: the tour address is printed as \"50-52 Ashton Vale Road, BS3 2HQ\", which is Ashton Vale rather than the catalogued area \"Bedminster\" — the North Street tap room the tour ends at is the Bedminster site, so the catalogue may be describing the wrong one of the two premises; and the product page's date selector offers Saturday sessions running from 15 August to 28 November 2026 (both are Saturdays, so the stated pattern checks out) while the collection page says tours run \"throughout the year\", so no start or end is recorded on the occurrence rather than implying the tour stops in November. Note also that the catalogued host bristolbeerfactory.co.uk serves the page but canonicalises to www.bristolbeerfactory.co.uk, which is the host in the product URLs above."
+  - sourceId: "food-drink/left-handed-giant"
+    fetch:
+      ok: true
+      url: "https://lefthandedgiant.com/collections/brewery-tours-and-events"
+      status: 200
+    events:
+      - id: "food-drink/left-handed-giant#1cf28cafb5"
+        sourceId: "food-drink/left-handed-giant"
+        title: "August 2026: LHG Brewpub Brewery Tour"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "19:00"
+        status: "sold-out"
+        url: "https://lefthandedgiant.com/products/august-2026-lhg-brewpub-brewery-tour"
+        image: "https://lefthandedgiant.com/cdn/shop/files/119057903_3364576000270805_2912355569396650642_n_a0ea6cb3-e46a-40f5-a9c3-0469168c8215.jpg?v=1730308769&width=533"
+        price:
+          free: false
+          text: "£17.50 GBP"
+          min: 17.5
+          currency: "GBP"
+        ageRestriction: "No children"
+        tags:
+          - "brewery"
+          - "guided-tour"
+          - "tasting"
+          - "booking-required"
+        raw: "**August 2026 : LHG Brewpub Brewery Tour** — £17.50 GBP.
+
+
+          Wednesday, 19 August 2026, 19:00 — Sold out.
+
+
+          \"The latest tours and events from Left Handed Giant, LHG Brewpub and
+
+          LHG Run Club.\"\n"
+        summary: "A guided tour of Left Handed Giant's brewpub brewery followed by a tasting flight of four beers, on Wednesday evening. This session is sold out."
+        description: "A guided brewery tour led by knowledgeable staff, taking in the
+
+          brewing process and the history of the building, followed by a
+
+          tasting of four beers.
+
+
+          The tour runs around 75 minutes in total: 45 minutes on the tour and
+
+          30 minutes tasting. Maximum 12 attendees per tour.
+
+
+          \"No Children, Glass or Dogs on the brew floor.\" Management reserves
+
+          the right to refuse entry to intoxicated guests.
+
+
+          The tour is at the LHG Brewpub in the city centre, not the
+
+          St Philips taproom. Enquiries to brewpub@lefthandedgiant.com.\n"
+        confidence: "high"
+      - id: "food-drink/left-handed-giant#8fa596c3d4"
+        sourceId: "food-drink/left-handed-giant"
+        title: "August 2026: LHG Brewpub Brewery Tour"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "12:30"
+        status: "sold-out"
+        url: "https://lefthandedgiant.com/products/august-2026-lhg-brewpub-brewery-tour"
+        image: "https://lefthandedgiant.com/cdn/shop/files/119057903_3364576000270805_2912355569396650642_n_a0ea6cb3-e46a-40f5-a9c3-0469168c8215.jpg?v=1730308769&width=533"
+        price:
+          free: false
+          text: "£17.50 GBP"
+          min: 17.5
+          currency: "GBP"
+        ageRestriction: "No children"
+        tags:
+          - "brewery"
+          - "guided-tour"
+          - "tasting"
+          - "booking-required"
+        raw: "**August 2026 : LHG Brewpub Brewery Tour** — £17.50 GBP.
+
+
+          Saturday, 22 August 2026, 12:30 — Sold out.
+
+
+          \"The latest tours and events from Left Handed Giant, LHG Brewpub and
+
+          LHG Run Club.\"\n"
+        summary: "A guided tour of Left Handed Giant's brewpub brewery followed by a tasting flight of four beers, at lunchtime on Saturday. This session is sold out."
+        description: "A guided brewery tour led by knowledgeable staff, taking in the
+
+          brewing process and the history of the building, followed by a
+
+          tasting of four beers.
+
+
+          The tour runs around 75 minutes in total: 45 minutes on the tour and
+
+          30 minutes tasting. Maximum 12 attendees per tour.
+
+
+          \"No Children, Glass or Dogs on the brew floor.\" Management reserves
+
+          the right to refuse entry to intoxicated guests.
+
+
+          The tour is at the LHG Brewpub in the city centre, not the
+
+          St Philips taproom. Enquiries to brewpub@lefthandedgiant.com.\n"
+        confidence: "high"
+      - id: "food-drink/left-handed-giant#9f169ea375"
+        sourceId: "food-drink/left-handed-giant"
+        title: "August 2026: LHG Brewpub Brewery Tour"
+        occurrence:
+          kind: "single"
+          date: "2026-08-26"
+          startTime: "19:00"
+        status: "sold-out"
+        url: "https://lefthandedgiant.com/products/august-2026-lhg-brewpub-brewery-tour"
+        image: "https://lefthandedgiant.com/cdn/shop/files/119057903_3364576000270805_2912355569396650642_n_a0ea6cb3-e46a-40f5-a9c3-0469168c8215.jpg?v=1730308769&width=533"
+        price:
+          free: false
+          text: "£17.50 GBP"
+          min: 17.5
+          currency: "GBP"
+        ageRestriction: "No children"
+        tags:
+          - "brewery"
+          - "guided-tour"
+          - "tasting"
+          - "booking-required"
+        raw: "**August 2026 : LHG Brewpub Brewery Tour** — £17.50 GBP.
+
+
+          Wednesday, 26 August 2026, 19:00 — Sold out.
+
+
+          \"The latest tours and events from Left Handed Giant, LHG Brewpub and
+
+          LHG Run Club.\"\n"
+        summary: "A guided tour of Left Handed Giant's brewpub brewery followed by a tasting flight of four beers, on Wednesday evening. This session is sold out."
+        description: "A guided brewery tour led by knowledgeable staff, taking in the
+
+          brewing process and the history of the building, followed by a
+
+          tasting of four beers.
+
+
+          The tour runs around 75 minutes in total: 45 minutes on the tour and
+
+          30 minutes tasting. Maximum 12 attendees per tour.
+
+
+          \"No Children, Glass or Dogs on the brew floor.\" Management reserves
+
+          the right to refuse entry to intoxicated guests.
+
+
+          The tour is at the LHG Brewpub in the city centre, not the
+
+          St Philips taproom. Enquiries to brewpub@lefthandedgiant.com.\n"
+        confidence: "high"
+    notes: "Catalogued URL is correct and served the collection first time (200). The collection held the same two items as yesterday: the tour product and a \"Brewery Tour Gift Card\" (£17.50, sold out), which is a voucher and is not recorded. Following the hint I opened the tour product page (1 fetch), which is where the dates live: it lists three separate bookable sessions rather than the single date the hint anticipated — Wednesday 19 August at 19:00, Saturday 22 August at 12:30 and Wednesday 26 August at 19:00, all 2026 and all sold out. Every printed weekday matches the 2026 calendar, so the year is confirmed. These are three sittings on three different days at two different times, not a pattern the page states in words, so they are recorded as three `single` events rather than one `recurring`; yesterday's `undated` row for this product is superseded by these. For stage 1: the product page states the tour is at \"LHG Brewpub, City Centre Bristol (not the St Phillips Taproom location)\", which agrees with the catalogued area \"Finzels Reach\" but not with the St Philips brewery address recorded in the catalogue note — the note is describing the wrong one of the company's two sites. Also worth a hint: the product page is the only place the dates and times appear, and the sessions are month-scoped, so a September product will replace this one rather than dates being added to it."
+  - sourceId: "food-drink/wapping-wharf"
+    fetch:
+      ok: true
+      url: "https://www.wappingwharf.co.uk/latest-news"
+      status: 200
+    events: []
+    notes: "Catalogued URL is correct and served the news feed first time (200). The hint is confirmed in full: there is no What's On, Events, Markets or Diary page anywhere on the site — navigation and footer are EAT DRINK SHOP / PLAN YOUR VISIT / LATEST NEWS / COMMUNITY / CONTACT / LIVE / WORK — and I checked the homepage as well as the news feed (3 fetches for this source). Nothing upcoming is listed. Of the 20 posts on the feed, all but two are trader-opening announcements rather than events, and both event posts have passed. The newest post on the whole feed is dated Jun 17, and it is the event one: \"Wapping Wharf to host 10 year anniversary celebration this July\", a free, family-friendly one-day party on \"Friday 3rd July\" from \"5pm into the evening\" with Batala Bristol and The Ambling Band, a silent disco, face painting and walkabout entertainers. I opened that post to check it, and it is firmly in the past: the feed prints a year only on posts older than the current year, so Jun 17 is 2026, \"this July\" is July 2026, 3 July 2026 really is a Friday, and Wapping Wharf opened in 2016, so three independent checks agree. The other event post, \"You're invited to Wapping Wharf's End of Summer Party!\" (\"Friday 6th September\"), is dated Jul 29 2024 and 6 September 2026 is a Sunday while 6 September 2024 was a Friday, so it is a stale 2024 post as yesterday's run also found. Posts are never retired once they have happened. This departs from the brief's expectation of `undated` rows here: the one real event on the site carries a weekday-confirmed date, so `undated` would be a worse record, not a safer one — an undated event has no date to pass, so the fold could never mark it finished and a party from last month would sit on the site as an apparently-current listing. Recorded as a successful fetch with nothing on instead. For stage 1: this source only ever yields events in the weeks after a party is announced, so a weekly cadence is spending fetches on an unchanged news feed; monthly would fit what the site actually does."

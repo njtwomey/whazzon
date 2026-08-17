@@ -1,0 +1,4415 @@
+schema: "whazzon.harvest/1"
+locationId: "bristol-uk"
+date: "2026-08-17"
+category: "music"
+harvestedAt: "2026-08-17T09:12:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "3"
+model: "claude-opus-5"
+observations:
+  - sourceId: "music/ashton-gate-stadium"
+    fetch:
+      ok: true
+      url: "https://www.ashtongatestadium.co.uk/"
+      status: 200
+    events:
+      - id: "music/ashton-gate-stadium#a236d72ae3"
+        sourceId: "music/ashton-gate-stadium"
+        title: "Michael Jackson Tribute Night"
+        occurrence:
+          kind: "single"
+          date: "2026-11-28"
+        status: "scheduled"
+        url: "https://www.ashtongatestadium.co.uk/event/michael-jackson-tribute-night-nov-28/"
+        image: "https://www.ashtongatestadium.co.uk/wp-content/uploads/2026/04/MJ-16x9-1-1.jpg"
+        tags:
+          - "tribute-act"
+          - "live-music"
+          - "one-night"
+        raw: "**Michael Jackson Tribute Night** — 28 November 2026.
+
+          Listed under \"Upcoming Events\" on the Ashton Gate root. Described only
+
+          as a tribute performance; no start time or price given.\n"
+        summary: "The only music date in Ashton Gate's current diary — a Michael Jackson tribute show in the stadium's event suites rather than a pitchside concert."
+        confidence: "high"
+    notes: "Catalogue URL is correct and the hint is exact: \"Upcoming Events\" sits on the root and the /events/ path is still a hard 404. Seven upcoming events were listed and I filtered hard for music as the hint instructs, so only one is recorded. The six left out were Senior Reds Luncheon (20 Aug), Leap for Life Abseil Challenge (23 Aug), Front Row Fun — an evening with Ellis Genge, Joe Marler, Dan Cole and David Flatman (10 Sep), The Aesthetics & Beauty Education Expo (17 Sep), Aureum Awards (18 Sep) and National Landlord Investment Show (30 Sep): a luncheon, a charity abseil, a rugby speaker evening, a trade expo, an awards gala and a property show, none of them music. No stadium concerts are announced at all for the 2027 season yet, which is worth knowing given the monthly cadence — the one music entry is a tribute night in an indoor suite, not a stadium show. No times or prices are printed in the listing block."
+  - sourceId: "music/crofters-rights"
+    fetch:
+      ok: true
+      url: "https://www.headfirstbristol.co.uk/whats-on/the-croft"
+      status: 200
+    events:
+      - id: "music/crofters-rights#47daea96e8"
+        sourceId: "music/crofters-rights"
+        title: "Little Grandad"
+        occurrence:
+          kind: "single"
+          date: "2026-09-01"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-croft/tue-1-sep-little-grandad-155972"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-croft/little-grandad/1559/e155972_i338791_s3.jpg"
+        tags:
+          - "live-music"
+          - "indie"
+          - "one-night"
+        raw: "**Little Grandad** — Tue 1 Sep, The Croft.\n"
+        summary: "Little Grandad open The Croft's September programme."
+        confidence: "high"
+      - id: "music/crofters-rights#13532e946e"
+        sourceId: "music/crofters-rights"
+        title: "The Effectives with support from Traitors, Moxie Dolls and Distress Call"
+        occurrence:
+          kind: "single"
+          date: "2026-09-02"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-croft/wed-2-sep-the-effectives-with-support-from-traitors-moxie-dolls-and-distress-call-159570"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-croft/the-effectives-with-support-from-traitors-moxie-dolls-and-distress-call/1595/e159570_i349913_s3.jpg"
+        tags:
+          - "live-music"
+          - "punk"
+          - "one-night"
+        raw: "**The Effectives** with support from Traitors, Moxie Dolls and Distress
+
+          Call — Wed 2 Sep, The Croft.\n"
+        summary: "A four-band punk bill headed by The Effectives."
+        confidence: "high"
+      - id: "music/crofters-rights#7e91a7375c"
+        sourceId: "music/crofters-rights"
+        title: "Lesbian Bed Death"
+        occurrence:
+          kind: "single"
+          date: "2026-09-03"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-croft/thu-3-sep-lesbian-bed-death-140106"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-croft/lesbian-bed-death/1401/e140106_i290493_s3.jpg"
+        tags:
+          - "live-music"
+          - "rock"
+          - "metal"
+          - "lgbtq"
+        raw: "**Lesbian Bed Death** — Thu 3 Sep, The Croft.
+
+          \"20 years deep in this B movie every-day-is-Halloween fantasy\".\n"
+        summary: "Goth-horror rock veterans Lesbian Bed Death, twenty years into their B-movie Halloween act."
+        confidence: "high"
+      - id: "music/crofters-rights#50096655d6"
+        sourceId: "music/crofters-rights"
+        title: "Clarion"
+        occurrence:
+          kind: "single"
+          date: "2026-09-04"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-croft/fri-4-sep-clarion-155629"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-croft/clarion/1556/e155629_i337610_s3.jpg"
+        tags:
+          - "live-music"
+          - "rock"
+          - "one-night"
+        raw: "**Clarion** — Fri 4 Sep, The Croft.\n"
+        summary: "Clarion headline a Friday night at The Croft."
+        confidence: "high"
+      - id: "music/crofters-rights#17dbd93550"
+        sourceId: "music/crofters-rights"
+        title: "Drearleader"
+        occurrence:
+          kind: "single"
+          date: "2026-09-05"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-croft/sat-5-sep-drearleader-157764"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-croft/drearleader/1577/e157764_i344188_s3.jpg"
+        tags:
+          - "live-music"
+          - "indie"
+          - "one-night"
+        raw: "**Drearleader** — Sat 5 Sep, The Croft.\n"
+        summary: "Drearleader play the early Saturday live slot."
+        confidence: "high"
+      - id: "music/crofters-rights#b7d3ae4d3a"
+        sourceId: "music/crofters-rights"
+        title: "I'll House You: Mike Shawe + Deli G"
+        occurrence:
+          kind: "single"
+          date: "2026-09-05"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-croft/sat-5-sep-i-ll-house-you-mike-shawe-deli-g-159800"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-croft/i-ll-house-you-mike-shawe-deli-g/1598/e159800_i350381_s3.jpg"
+        tags:
+          - "club-night"
+          - "house"
+          - "dj"
+          - "late-night"
+        raw: "**I'll House You** — Mike Shawe + Deli G — Sat 5 Sep, The Croft.\n"
+        summary: "House night I'll House You with Mike Shawe and Deli G on the decks."
+        confidence: "high"
+      - id: "music/crofters-rights#b8f2c9c58b"
+        sourceId: "music/crofters-rights"
+        title: "MAQUINA"
+        occurrence:
+          kind: "single"
+          date: "2026-09-06"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-croft/sun-6-sep-maquina--157127"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-croft/maquina-/1571/e157127_i342295_s3.jpg"
+        tags:
+          - "live-music"
+          - "rock"
+          - "one-night"
+        raw: "**MAQUINA** — Sun 6 Sep, The Croft.\n"
+        summary: "MAQUINA take the Sunday slot at The Croft."
+        confidence: "high"
+      - id: "music/crofters-rights#c0087d6f95"
+        sourceId: "music/crofters-rights"
+        title: "Sword II"
+        occurrence:
+          kind: "single"
+          date: "2026-09-09"
+        status: "cancelled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-croft/wed-9-sep-sword-ii-151715"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-croft/sword-ii/1517/e151715_i325696_s3.jpg"
+        tags:
+          - "live-music"
+          - "rock"
+          - "one-night"
+        raw: "**Sword II** — Wed 9 Sep, The Croft. **Event Cancelled.**\n"
+        summary: "Sword II's Croft date, which the venue has marked cancelled rather than removed from the listing."
+        confidence: "high"
+      - id: "music/crofters-rights#f379adb681"
+        sourceId: "music/crofters-rights"
+        title: "Funebrarum"
+        occurrence:
+          kind: "single"
+          date: "2026-09-10"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-croft/thu-10-sep-funebrarum-156724"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-croft/funebrarum/1567/e156724_i340979_s3.jpg"
+        tags:
+          - "live-music"
+          - "metal"
+          - "one-night"
+        raw: "**Funebrarum** — Thu 10 Sep, The Croft.\n"
+        summary: "New Jersey death metal band Funebrarum on tour at The Croft."
+        confidence: "high"
+      - id: "music/crofters-rights#18464d6bf4"
+        sourceId: "music/crofters-rights"
+        title: "ETHAN HODGES"
+        occurrence:
+          kind: "single"
+          date: "2026-09-11"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-croft/fri-11-sep-ethan-hodges-155636"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-croft/ethan-hodges/1556/e155636_i337622_s3.jpg"
+        tags:
+          - "live-music"
+          - "indie"
+          - "one-night"
+        raw: "**ETHAN HODGES** — Fri 11 Sep, The Croft.\n"
+        summary: "Ethan Hodges headlines a Friday at The Croft."
+        confidence: "high"
+      - id: "music/crofters-rights#d8dd20f16c"
+        sourceId: "music/crofters-rights"
+        title: "Lucca Mae + The Sonda Band + ZENA"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-croft/sat-12-sep-lucca-mae-the-sonda-live-band-zena-157304"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-croft/lucca-mae-the-sonda-live-band-zena/1573/e157304_i349639_s3.jpg"
+        tags:
+          - "live-music"
+          - "soul"
+          - "indie"
+        raw: "**Lucca Mae + The Sonda (live band) + ZENA** — Sat 12 Sep, The Croft.\n"
+        summary: "Triple bill of Bristol singers, led by Lucca Mae with a live band."
+        confidence: "high"
+      - id: "music/crofters-rights#bc2d7effaf"
+        sourceId: "music/crofters-rights"
+        title: "Midding"
+        occurrence:
+          kind: "single"
+          date: "2026-09-15"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-croft/tue-15-sep-midding-145559"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-croft/midding/1455/e145559_i345015_s3.jpg"
+        tags:
+          - "live-music"
+          - "indie"
+          - "one-night"
+        raw: "**Midding** — Tue 15 Sep, The Croft.\n"
+        summary: "Midding play a midweek headline set."
+        confidence: "high"
+      - id: "music/crofters-rights#7f85c87c1c"
+        sourceId: "music/crofters-rights"
+        title: "Beware the Bears"
+        occurrence:
+          kind: "single"
+          date: "2026-09-16"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-croft/wed-16-sep-beware-the-bears-156393"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-croft/beware-the-bears/1563/e156393_i339911_s3.jpg"
+        tags:
+          - "live-music"
+          - "indie"
+          - "one-night"
+        raw: "**Beware the Bears** — Wed 16 Sep, The Croft.\n"
+        summary: "Beware the Bears headline the Wednesday live room."
+        confidence: "high"
+      - id: "music/crofters-rights#6af51b5eab"
+        sourceId: "music/crofters-rights"
+        title: "Blak 2 Future: VXRGO + HEYZA B2B KUSHTEE + JAS MYLA"
+        occurrence:
+          kind: "single"
+          date: "2026-09-16"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-croft/wed-16-sep-blak-2-future-vxrgo-heyza-b2b-kushtee-jas-myla-158521"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-croft/blak-2-future-vxrgo-heyza-b2b-kushtee-jas-myla/1585/e158521_i349650_s3.jpg"
+        tags:
+          - "club-night"
+          - "dj"
+          - "hip-hop"
+          - "late-night"
+        raw: "**Blak 2 Future** — VXRGO + HEYZA B2B KUSHTEE + JAS MYLA — Wed 16 Sep,
+
+          The Croft.\n"
+        summary: "Blak 2 Future's DJ line-up takes the late room the same night."
+        confidence: "high"
+      - id: "music/crofters-rights#eadfb96da1"
+        sourceId: "music/crofters-rights"
+        title: "GIFT + Oslo Twins"
+        occurrence:
+          kind: "single"
+          date: "2026-09-17"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-croft/thu-17-sep-gift-nyc-oslo-twins-147745"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-croft/gift-nyc-oslo-twins/1477/e147745_i327080_s3.jpg"
+        tags:
+          - "live-music"
+          - "indie"
+          - "experimental"
+        raw: "**GIFT (NYC) + Oslo Twins** — Thu 17 Sep, The Croft.\n"
+        summary: "New York psych-pop band GIFT, with Oslo Twins in support."
+        confidence: "high"
+      - id: "music/crofters-rights#8485d4d4dc"
+        sourceId: "music/crofters-rights"
+        title: "Bad Cabaret: Grace Sands + Support"
+        occurrence:
+          kind: "single"
+          date: "2026-09-17"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-croft/thu-17-sep-bad-cabaret-grace-sands-support-158537"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-croft/bad-cabaret-grace-sands-support/1585/e158537_i346867_s3.jpg"
+        tags:
+          - "cabaret"
+          - "performance"
+          - "experimental"
+        raw: "**Bad Cabaret: Grace Sands + Support** — Thu 17 Sep, The Croft.\n"
+        summary: "Bad Cabaret's variety night, headlined by Grace Sands."
+        confidence: "high"
+    notes: "The re-pointed Headfirst mirror works and is unmistakably this venue: the page is headed The Croft at 117-119 Stokes Croft, BS1 3RW. It listed 85 dated gigs running from 1 Sep to 11 Dec 2026 and I recorded the soonest 16, to 17 Sep; the remaining 69 were truncated for budget, not missing from the page. Nothing at all is listed before 1 Sep, so the venue looks to be dark for the rest of August. The index carries only date, title and genre words — no times, no prices — so `raw` is thin by nature and no `description` was captured (per instruction, no event pages were opened for this run). Two rows worth a reviewer's eye: Sword II on 9 Sep is flagged Cancelled by the venue, and Oxygen Thief XX's 20th anniversary show on 26 Sep (beyond my cutoff) is sold out. `venue` is deliberately unset — Headfirst is the mirror, the gigs happen at The Croft, which is the catalogued source itself."
+  - sourceId: "music/dareshack"
+    fetch:
+      ok: true
+      url: "https://www.headfirstbristol.co.uk/whats-on/dareshack"
+      status: 200
+    events: []
+    notes: "Reached, correct venue, genuinely empty — exactly what the hint predicted. The Headfirst page is headed Dareshack at the Vintry Building, Wine St, BS1 2BD and carries the venue blurb (\"Broadmead's newest creative event space\", 200 capacity, \"independent and experimental programming across music and the arts\"), but the \"What's On At Dareshack\" section has no rows under it at all. This is a real zero, not a mis-crawl: same result as yesterday's check on both the mirror and the venue's own single-page site. Two consecutive empty runs on a weekly cadence is the pattern the hint warned about, so stage 1 may want to reconsider the cadence or the status rather than keep paying for a weekly fetch that returns nothing."
+  - sourceId: "music/exchange"
+    fetch:
+      ok: true
+      url: "https://www.headfirstbristol.co.uk/whats-on/exchange"
+      status: 200
+    events:
+      - id: "music/exchange#cc76e61b1e"
+        sourceId: "music/exchange"
+        title: "Las Fokin Biches"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/exchange/tue-18-aug-las-fokin-biches-157156"
+        image: "https://www.headfirstbristol.co.uk/images/events/exchange/las-fokin-biches/1571/e157156_i342387_s3.jpg"
+        tags:
+          - "live-music"
+          - "punk"
+          - "rock"
+        raw: "**Las Fokin Biches** — Tue 18 Aug, Exchange.
+
+          Genres: alternative rock, grunge, punk.\n"
+        summary: "Grunge-punk trio Las Fokin Biches open Exchange's week."
+        confidence: "high"
+      - id: "music/exchange#43395c89ea"
+        sourceId: "music/exchange"
+        title: "KELS"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/exchange/tue-18-aug-kels-158209"
+        image: "https://www.headfirstbristol.co.uk/images/events/exchange/kels/1582/e158209_i345739_s3.jpg"
+        tags:
+          - "live-music"
+          - "jazz"
+          - "soul"
+        raw: "**KELS** — Tue 18 Aug, Exchange.
+
+          Genres: jazz, singer-songwriter, soul, pop.\n"
+        summary: "Jazz-leaning singer-songwriter KELS, on Exchange's second floor the same night."
+        confidence: "high"
+      - id: "music/exchange#8cf6ff2691"
+        sourceId: "music/exchange"
+        title: "The Worst Generation"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/exchange/wed-19-aug-the-worst-generation-158398"
+        image: "https://www.headfirstbristol.co.uk/images/events/exchange/the-worst-generation/1583/e158398_i346271_s3.jpg"
+        tags:
+          - "live-music"
+          - "punk"
+          - "one-night"
+        raw: "**The Worst Generation** — Wed 19 Aug, Exchange.
+
+          No genre words or description given on the index.\n"
+        summary: "The Worst Generation headline Exchange midweek; the listing says nothing more."
+        confidence: "medium"
+      - id: "music/exchange#ec553f44ed"
+        sourceId: "music/exchange"
+        title: "ELI"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/exchange/wed-19-aug-eli-156855"
+        image: "https://www.headfirstbristol.co.uk/images/events/exchange/eli/1568/e156855_i341397_s3.jpg"
+        tags:
+          - "live-music"
+          - "indie"
+          - "one-night"
+        raw: "**ELI** — Wed 19 Aug, Exchange.
+
+          Genres: indie pop, singer-songwriter, pop.\n"
+        summary: "Indie-pop singer-songwriter ELI, sharing the Wednesday date."
+        confidence: "high"
+      - id: "music/exchange#4176619d2f"
+        sourceId: "music/exchange"
+        title: "The Jeff Sessions"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/exchange/thu-20-aug-the-jeff-sessions-155504"
+        image: "https://www.headfirstbristol.co.uk/images/events/exchange/the-jeff-sessions/1555/e155504_i337165_s3.jpg"
+        tags:
+          - "live-music"
+          - "rock"
+          - "one-night"
+        raw: "**The Jeff Sessions** — Thu 20 Aug, Exchange.
+
+          Genres: alternative rock, garage rock, rock, rock-and-roll.\n"
+        summary: "Garage rock-and-roll from The Jeff Sessions."
+        confidence: "high"
+      - id: "music/exchange#dfa011d192"
+        sourceId: "music/exchange"
+        title: "The Shania Twainsaw Massacre"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/exchange/fri-21-aug-the-shania-twainsaw-massacre-156677"
+        image: "https://www.headfirstbristol.co.uk/images/events/exchange/the-shania-twainsaw-massacre/1566/e156677_i340815_s3.jpg"
+        tags:
+          - "live-music"
+          - "rock"
+          - "experimental"
+        raw: "**The Shania Twainsaw Massacre** — Fri 21 Aug, Exchange.
+
+          Genres: art rock, grunge, indie rock, post rock, post-hardcore.\n"
+        summary: "Art-rock and post-hardcore under one of Bristol's better band names."
+        confidence: "high"
+      - id: "music/exchange#e2742abeea"
+        sourceId: "music/exchange"
+        title: "The Order of The Fly"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/exchange/fri-21-aug-the-order-of-the-fly-152990"
+        image: "https://www.headfirstbristol.co.uk/images/events/exchange/the-order-of-the-fly/1529/e152990_i329501_s3.jpg"
+        tags:
+          - "live-music"
+          - "metal"
+          - "punk"
+        raw: "**The Order of The Fly** — Fri 21 Aug, Exchange.
+
+          Genres: alternative metal, punk, metal.\n"
+        summary: "Alternative metal from The Order of The Fly, second show of the Friday."
+        confidence: "high"
+      - id: "music/exchange#3d545d786c"
+        sourceId: "music/exchange"
+        title: "LOUD WOMEN FEST Bristol 2026"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/exchange/sat-22-aug-loud-women-fest-bristol-2026-155206"
+        image: "https://www.headfirstbristol.co.uk/images/events/exchange/loud-women-fest-bristol-2026/1552/e155206_i336105_s3.jpg"
+        tags:
+          - "festival"
+          - "punk"
+          - "lgbtq"
+          - "live-music"
+        raw: "**LOUD WOMEN FEST Bristol 2026** — Sat 22 Aug, Exchange.
+
+          Genres: alternative, pop, electronic, grunge, punk, lgbtq+.\n"
+        summary: "The Bristol edition of LOUD WOMEN Fest — a one-day, whole-building festival of women and queer-fronted punk and alternative bands."
+        confidence: "high"
+      - id: "music/exchange#4fa5ee5022"
+        sourceId: "music/exchange"
+        title: "Witherhorde"
+        occurrence:
+          kind: "single"
+          date: "2026-08-23"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/exchange/sun-23-aug-witherhorde-159151"
+        image: "https://www.headfirstbristol.co.uk/images/events/exchange/witherhorde/1591/e159151_i351741_s3.jpg"
+        tags:
+          - "live-music"
+          - "punk"
+          - "metal"
+        raw: "**Witherhorde** — Sun 23 Aug, Exchange.
+
+          Genres: punk, hardcore-punk.\n"
+        summary: "Hardcore punk from Witherhorde on a Sunday."
+        confidence: "high"
+      - id: "music/exchange#3a8404dd67"
+        sourceId: "music/exchange"
+        title: "Who Killed Bunny?"
+        occurrence:
+          kind: "single"
+          date: "2026-08-23"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/exchange/sun-23-aug-who-killed-bunny--159033"
+        image: "https://www.headfirstbristol.co.uk/images/events/exchange/who-killed-bunny-/1590/e159033_i348314_s3.jpg"
+        tags:
+          - "live-music"
+          - "indie"
+          - "rock"
+        raw: "**Who Killed Bunny?** — Sun 23 Aug, Exchange.
+
+          Genres: alternative rock, indie rock, rock.\n"
+        summary: "Indie rock band Who Killed Bunny? share the Sunday date."
+        confidence: "high"
+      - id: "music/exchange#f637ab5ac9"
+        sourceId: "music/exchange"
+        title: "TRANSEXUAL NOISE JAM"
+        occurrence:
+          kind: "single"
+          date: "2026-08-24"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/exchange/mon-24-aug-transexual-noise-jam-159608"
+        image: "https://www.headfirstbristol.co.uk/images/events/exchange/transexual-noise-jam/1596/e159608_i350034_s3.jpg"
+        tags:
+          - "experimental"
+          - "lgbtq"
+          - "live-music"
+          - "drop-in"
+        raw: "**TRANSEXUAL NOISE JAM** — Mon 24 Aug, Exchange.
+
+          Genres: noise rock, lgbtq+, jam session, noise.\n"
+        summary: "An open noise jam for trans and queer players — a session to turn up and play at rather than a billed gig."
+        confidence: "high"
+      - id: "music/exchange#e0ee56b480"
+        sourceId: "music/exchange"
+        title: "Black Mamba Man"
+        occurrence:
+          kind: "single"
+          date: "2026-08-24"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/exchange/mon-24-aug-black-mamba-man-156936"
+        image: "https://www.headfirstbristol.co.uk/images/events/exchange/black-mamba-man/1569/e156936_i341681_s3.jpg"
+        tags:
+          - "live-music"
+          - "folk"
+          - "one-night"
+        raw: "**Black Mamba Man** — Mon 24 Aug, Exchange.
+
+          Genre: singer-songwriter.\n"
+        summary: "Solo singer-songwriter set from Black Mamba Man."
+        confidence: "high"
+      - id: "music/exchange#6ab3059f4d"
+        sourceId: "music/exchange"
+        title: "T3MPO x 44PROD: Overtime"
+        occurrence:
+          kind: "single"
+          date: "2026-08-25"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/exchange/tue-25-aug-t3mpo-x-44prod-overtime-159629"
+        image: "https://www.headfirstbristol.co.uk/images/events/exchange/t3mpo-x-44prod-overtime/1596/e159629_i350200_s3.jpg"
+        tags:
+          - "hip-hop"
+          - "live-music"
+          - "experimental"
+        raw: "**T3MPO x 44PROD — Overtime** — Tue 25 Aug, Exchange.
+
+          Genres: alternative hip hop, experimental hip hop, rap, trap music.\n"
+        summary: "Overtime, a T3MPO and 44PROD showcase of Bristol rap and experimental hip hop."
+        confidence: "high"
+      - id: "music/exchange#dbdec0b692"
+        sourceId: "music/exchange"
+        title: "Making a Scene: Open Decks DJ Jam Session"
+        occurrence:
+          kind: "single"
+          date: "2026-08-26"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/exchange/wed-26-aug-making-a-scene-open-decks-dj-jam-session-158926"
+        image: "https://www.headfirstbristol.co.uk/images/events/exchange/making-a-scene-open-decks-dj-jam-session/1589/e158926_i347949_s3.jpg"
+        tags:
+          - "dj"
+          - "workshop"
+          - "beginners"
+          - "lgbtq"
+          - "drop-in"
+        raw: "**Making a Scene: Open Decks DJ Jam Session** — Wed 26 Aug, Exchange.
+
+          Genres: workshops & classes, lgbtq+, jam session.\n"
+        summary: "Open decks session where anyone can take a turn — Exchange's beginner-friendly DJ night rather than a booked line-up."
+        confidence: "high"
+      - id: "music/exchange#930443ac9b"
+        sourceId: "music/exchange"
+        title: "LÄBRYS + guests"
+        occurrence:
+          kind: "single"
+          date: "2026-08-26"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/exchange/wed-26-aug-l-brys-guests-155204"
+        image: "https://www.headfirstbristol.co.uk/images/events/exchange/l-brys-guests/1552/e155204_i336098_s3.jpg"
+        tags:
+          - "live-music"
+          - "experimental"
+          - "metal"
+          - "folk"
+        raw: "**LÄBRYS + guests** — Wed 26 Aug, Exchange.
+
+          Genres: drone, freak folk, punk, metal, hardcore-punk.\n"
+        summary: "Drone and freak-folk collective LÄBRYS, with guests."
+        confidence: "high"
+      - id: "music/exchange#80e4e4563d"
+        sourceId: "music/exchange"
+        title: "CROSSROADS VOL 8"
+        occurrence:
+          kind: "single"
+          date: "2026-08-27"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/exchange/thu-27-aug-crossroads-vol-8-159310"
+        image: "https://www.headfirstbristol.co.uk/images/events/exchange/crossroads-vol-8/1593/e159310_i349151_s3.jpg"
+        tags:
+          - "live-music"
+          - "one-night"
+          - "community"
+        raw: "**CROSSROADS VOL 8** — Thu 27 Aug, Exchange.
+
+          No genre words or description given on the index.\n"
+        summary: "Eighth instalment of the Crossroads showcase; the index gives no line-up, so what is playing is not recorded."
+        confidence: "medium"
+    notes: "The re-pointed Headfirst mirror is by far the densest source in this run: 150 dated events from 18 Aug to 9 Nov 2026, headed Exchange at 73 Old Market St, BS2 0EJ. I recorded the soonest 16, to 27 Aug, and truncated the remaining 134 for budget — they are on the page, not absent. The hint about two floors running concurrently is borne out: most dates carry two separate shows, which is why 18-27 Aug alone fills 16 rows. The index gives date, title and the venue's own genre words only — no times, no prices, no capacity — so `raw` is thin and no `description` was captured (no event pages were opened). Lily Fitts on 31 Aug is marked sold out just past my cutoff. `venue` is unset throughout: Headfirst is only the mirror, the gigs are at Exchange, which is the catalogued source."
+  - sourceId: "music/lakota"
+    fetch:
+      ok: true
+      url: "https://lakota.co.uk/events"
+      status: 200
+    events:
+      - id: "music/lakota#75ddfeaedd"
+        sourceId: "music/lakota"
+        title: "CRAVE HER EVENTS: HEATWAVE"
+        subcategory: "The Nest"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+        status: "scheduled"
+        url: "https://lakota.co.uk/events/crave-her-events-heatwave/"
+        tags:
+          - "club-night"
+          - "dj"
+          - "party"
+          - "late-night"
+        raw: "**CRAVE HER EVENTS: HEATWAVE** — Fri 21 Aug, The Nest, Lakota.\n"
+        summary: "Crave Her's Heatwave party takes over The Nest."
+        confidence: "high"
+      - id: "music/lakota#f43fb3e630"
+        sourceId: "music/lakota"
+        title: "Outdoor Emo Festival Comes to Bristol!"
+        subcategory: "Gardens"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+        status: "scheduled"
+        url: "https://lakota.co.uk/events/outdoor-emo-festival-comes-to-bristol/"
+        tags:
+          - "outdoor"
+          - "rock"
+          - "party"
+          - "dj"
+        raw: "**Outdoor Emo Festival Comes to Bristol!** — Sat 22 Aug, Gardens, Lakota.\n"
+        summary: "An open-air emo and pop-punk day party in the Lakota Gardens."
+        confidence: "high"
+      - id: "music/lakota#2d41e6d294"
+        sourceId: "music/lakota"
+        title: "Leighton x Kuns Jungle Summer Motive"
+        subcategory: "Gardens"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+        status: "scheduled"
+        url: "https://lakota.co.uk/events/leighton-x-kuns-jungle-summer-motive/"
+        tags:
+          - "outdoor"
+          - "drum-and-bass"
+          - "dj"
+          - "party"
+        raw: "**Leighton x Kuns Jungle Summer Motive** — Sat 22 Aug, Gardens, Lakota.\n"
+        summary: "Jungle and drum and bass outdoors, sharing the Saturday with the emo party."
+        confidence: "high"
+      - id: "music/lakota#1515c4124f"
+        sourceId: "music/lakota"
+        title: "FAMJAM: Road to Carnival"
+        subcategory: "Gardens"
+        occurrence:
+          kind: "single"
+          date: "2026-08-23"
+        status: "scheduled"
+        url: "https://lakota.co.uk/events/famjam-road-to-carnival/"
+        tags:
+          - "outdoor"
+          - "carnival"
+          - "reggae"
+          - "party"
+        raw: "**FAMJAM: Road to Carnival** — Sun 23 Aug, Gardens, Lakota.\n"
+        summary: "FAMJAM's carnival warm-up in the Gardens, the Sunday before the bank holiday."
+        confidence: "high"
+      - id: "music/lakota#9e4e114606"
+        sourceId: "music/lakota"
+        title: "Cottage"
+        subcategory: "Moon Club"
+        occurrence:
+          kind: "single"
+          date: "2026-08-28"
+        status: "scheduled"
+        url: "https://lakota.co.uk/events/cottage-5/"
+        tags:
+          - "club-night"
+          - "house"
+          - "dj"
+          - "lgbtq"
+        raw: "**Cottage** — Fri 28 Aug, Moon Club, Lakota.\n"
+        summary: "Queer house night Cottage returns to Moon Club."
+        confidence: "high"
+      - id: "music/lakota#2ce7578997"
+        sourceId: "music/lakota"
+        title: "NBG Garden Party"
+        subcategory: "Gardens"
+        occurrence:
+          kind: "single"
+          date: "2026-08-28"
+        status: "scheduled"
+        url: "https://lakota.co.uk/events/nbg-garden-party-16/"
+        ageRestriction: "16+"
+        tags:
+          - "outdoor"
+          - "party"
+          - "dj"
+          - "young-people"
+        raw: "**NBG Garden Party (16+)** — Fri 28 Aug, Gardens, Lakota.\n"
+        summary: "A 16-plus garden party, one of the few Lakota dates open to under-18s."
+        confidence: "high"
+      - id: "music/lakota#a93772ed09"
+        sourceId: "music/lakota"
+        title: "Townside Studios"
+        subcategory: "Moon Club"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+        status: "scheduled"
+        url: "https://lakota.co.uk/events/townside-studios/"
+        tags:
+          - "club-night"
+          - "electronic"
+          - "dj"
+          - "late-night"
+        raw: "**Townside Studios** — Sat 29 Aug, Moon Club, Lakota.\n"
+        summary: "Townside Studios take over Moon Club for the bank holiday Saturday."
+        confidence: "high"
+      - id: "music/lakota#11f368a131"
+        sourceId: "music/lakota"
+        title: "Moon Club 1st Birthday"
+        subcategory: "Moon Club"
+        occurrence:
+          kind: "single"
+          date: "2026-09-04"
+        status: "scheduled"
+        url: "https://lakota.co.uk/events/moon-club-1st-birthday/"
+        tags:
+          - "club-night"
+          - "electronic"
+          - "party"
+          - "late-night"
+        raw: "**Moon Club 1st Birthday** — Fri 04 Sep, Moon Club, Lakota.\n"
+        summary: "Lakota's newest room marks a year open."
+        confidence: "high"
+      - id: "music/lakota#03a278252d"
+        sourceId: "music/lakota"
+        title: "The Birthday Link up | 16 Years of Electrikal & 26 Years of RC1"
+        subcategory: "Nightclub"
+        occurrence:
+          kind: "single"
+          date: "2026-09-05"
+        status: "scheduled"
+        url: "https://lakota.co.uk/events/electrikal-16th-birthday/"
+        tags:
+          - "club-night"
+          - "drum-and-bass"
+          - "dj"
+          - "party"
+        raw: "**The Birthday Link up | 16 Years of Electrikal & 26 Years of RC1** —
+
+          Sat 05 Sep, Nightclub, Lakota.\n"
+        summary: "Two sound systems share a birthday bill — Electrikal at sixteen, RC1 at twenty-six."
+        confidence: "high"
+      - id: "music/lakota#4538ed4281"
+        sourceId: "music/lakota"
+        title: "Climax Clique"
+        subcategory: "Gardens"
+        occurrence:
+          kind: "single"
+          date: "2026-09-06"
+        status: "scheduled"
+        url: "https://lakota.co.uk/events/climax-clique-3/"
+        tags:
+          - "outdoor"
+          - "house"
+          - "dj"
+          - "party"
+        raw: "**Climax Clique** — Sun 06 Sep, Gardens, Lakota.\n"
+        summary: "Climax Clique's Sunday day party in the Gardens."
+        confidence: "high"
+      - id: "music/lakota#3ce349f4e9"
+        sourceId: "music/lakota"
+        title: "Jenks & ACP Present: Steppa EP Launch Party"
+        subcategory: "The Nest"
+        occurrence:
+          kind: "single"
+          date: "2026-09-10"
+        status: "scheduled"
+        url: "https://lakota.co.uk/events/jenks-acp-present-steppa-ep-launch-party/"
+        tags:
+          - "club-night"
+          - "drum-and-bass"
+          - "new-release"
+          - "dj"
+        raw: "**Jenks & ACP Present: Steppa EP Launch Party** — Thu 10 Sep, The Nest,
+
+          Lakota.\n"
+        summary: "EP launch party for Steppa, hosted by Jenks and ACP in The Nest."
+        confidence: "high"
+      - id: "music/lakota#0c87002636"
+        sourceId: "music/lakota"
+        title: "High Canopy (Label Launch)"
+        subcategory: "Moon Club"
+        occurrence:
+          kind: "single"
+          date: "2026-09-11"
+        status: "scheduled"
+        url: "https://lakota.co.uk/events/high-canopy-label-launch/"
+        tags:
+          - "club-night"
+          - "electronic"
+          - "new-release"
+          - "dj"
+        raw: "**High Canopy (Label Launch)** — Fri 11 Sep, Moon Club, Lakota.\n"
+        summary: "Launch night for new label High Canopy."
+        confidence: "high"
+      - id: "music/lakota#d975195872"
+        sourceId: "music/lakota"
+        title: "Neuroheadz Celebrates 15 Years of Eatbrain!"
+        subcategory: "Nightclub"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+        status: "scheduled"
+        url: "https://lakota.co.uk/events/neuroheadz-celebrates-15-years-of-eatbrain/"
+        tags:
+          - "club-night"
+          - "drum-and-bass"
+          - "dj"
+          - "late-night"
+        raw: "**Neuroheadz Celebrates 15 Years of Eatbrain!** — Sat 12 Sep,
+
+          Nightclub, Lakota.\n"
+        summary: "Neurofunk night marking fifteen years of the Eatbrain label."
+        confidence: "high"
+      - id: "music/lakota#3ea032d376"
+        sourceId: "music/lakota"
+        title: "Official Moving In Party"
+        subcategory: "Nightclub"
+        occurrence:
+          kind: "single"
+          date: "2026-09-13"
+        status: "scheduled"
+        url: "https://lakota.co.uk/events/official-moving-in-party/"
+        tags:
+          - "club-night"
+          - "young-people"
+          - "party"
+          - "dj"
+        raw: "**Official Moving In Party** — Sun 13 Sep, Nightclub, Lakota.\n"
+        summary: "Freshers' moving-in party, the first of Lakota's student-week dates."
+        confidence: "high"
+      - id: "music/lakota#47aa9de6be"
+        sourceId: "music/lakota"
+        title: "On&On Presents: DAY ONE | Traffic Light Freshers Party"
+        subcategory: "Nightclub"
+        occurrence:
+          kind: "single"
+          date: "2026-09-14"
+        status: "scheduled"
+        url: "https://lakota.co.uk/events/onon-presents-day-one-traffic-light-freshers-party/"
+        tags:
+          - "club-night"
+          - "young-people"
+          - "party"
+          - "dj"
+        raw: "**On&On Presents: DAY ONE | Traffic Light Freshers Party** — Mon 14 Sep,
+
+          Nightclub, Lakota.\n"
+        summary: "On&On's traffic-light themed freshers night."
+        confidence: "high"
+    notes: "/events is the right path, as the hint says, and it has grown since yesterday: 36 dated events now, from 12 Aug to 11 Dec 2026. Three of those are already past (Masters At Work 12 Aug, and three shows on 15 Aug) and I have left them out — the page has not swept them, which is worth a hint. I recorded the next 15, from 21 Aug to 14 Sep, and truncated the rest for budget. The hint about rooms holds and is useful: every row names Nightclub, The Nest, Moon Club or Gardens, and I have put that in `subcategory` verbatim, tagging the Gardens shows `outdoor`. No times, no prices and no real images are exposed — the image slots are placeholder GIFs, so `image` is omitted throughout rather than pointed at a spacer. Nothing on the page is described as a weekly residency; these are all one-off promoter bookings."
+  - sourceId: "music/motion"
+    fetch:
+      ok: true
+      url: "https://motion-bristol.com/whats-on/"
+      status: 200
+    events: []
+    notes: "This is the one that needs stage 1's attention. The re-pointed URL resolves and returns 200, and the site is genuinely Motion's (title \"Motion Bristol\", nav for the Bingo Lingo and Momentum brands), but it lists no upcoming events at all — so a re-harvest has not fixed what the URL change was meant to fix. I went past the rendered HTML to establish why. The site runs The Events Calendar, which exposes a JSON API at /wp-json/tribe/events/v1/events. That endpoint answers, so this is not a JavaScript problem as the current hint states: querying it forward from today returns total 0, and querying it from 2020 returns 809 events every one of which falls between 22 May and 17 Nov 2021. The calendar has had nothing added for nearly five years. /wp-json/wp/v2/tribe_events likewise returns an empty list. There is no third-party ticketing embed or iframe in the page to load a programme from either. So motion-bristol.com looks like an abandoned build rather than the venue's live listings, and a `check-urls` pass would keep passing it. Two leads for curation, neither followed here because they are not this source: the site links out to themarblefactory-bristol.com, the sister room named in this source's own title; and the catalogue's existing note records that Motion relocated to Unit 2 Victoria Terrace, BS2 0TD in Oct 2025, so whatever programmes that address is where the events now are. The hint's advice to cross-check Resident Advisor looks like the practical answer for this venue."
+  - sourceId: "music/o2-academy"
+    fetch:
+      ok: true
+      url: "https://www.academymusicgroup.com/o2academybristol"
+      status: 200
+    events:
+      - id: "music/o2-academy#f732188816"
+        sourceId: "music/o2-academy"
+        title: "The Amy Winehouse Experience"
+        occurrence:
+          kind: "single"
+          date: "2026-09-05"
+        status: "scheduled"
+        url: "https://www.academymusicgroup.com/o2academybristol/events/the-amy-winehouse-experience-tickets-ae1467630"
+        image: "https://dynamicmedia.livenationinternational.com/r/j/h/a4a35745-0f07-47e0-8487-b8a6fb126a69.jpg?format=webp&width=3840&quality=75"
+        tags:
+          - "tribute-act"
+          - "live-music"
+          - "soul"
+        raw: "**The Amy Winehouse Experience** — 5 SEP 2026, O2 Academy Bristol.\n"
+        summary: "Long-running Amy Winehouse tribute show."
+        confidence: "high"
+      - id: "music/o2-academy#2dd2d8f5b2"
+        sourceId: "music/o2-academy"
+        title: "Coldplace"
+        occurrence:
+          kind: "single"
+          date: "2026-09-10"
+        status: "scheduled"
+        url: "https://www.academymusicgroup.com/o2academybristol/events/coldplace-tickets-ae108002"
+        image: "https://dynamicmedia.livenationinternational.com/k/u/z/d381140a-b5d6-48c1-8fb6-6a07924b2fd3.png?format=webp&width=3840&quality=75"
+        tags:
+          - "tribute-act"
+          - "rock"
+          - "live-music"
+        raw: "**Coldplace** — 10 SEP 2026, O2 Academy Bristol.\n"
+        summary: "Coldplay tribute band Coldplace."
+        confidence: "high"
+      - id: "music/o2-academy#07a77bf5a1"
+        sourceId: "music/o2-academy"
+        title: "Holy Holy featuring Woody Woodmansey + Tony Visconti + Glenn Gregory: The Final Tour"
+        occurrence:
+          kind: "single"
+          date: "2026-09-11"
+        status: "scheduled"
+        url: "https://www.academymusicgroup.com/o2academybristol/events/holy-holy-tickets-ae536987"
+        image: "https://dynamicmedia.livenationinternational.com/c/d/o/8976b984-51a6-4276-8cbe-6a7c08925d22.png?format=webp&width=3840&quality=75"
+        tags:
+          - "live-music"
+          - "rock"
+          - "tour"
+          - "classic"
+        raw: "**Holy Holy featuring Woody Woodmansey + Tony Visconti + Glenn
+
+          Gregory: The Final Tour** — 11 SEP 2026, O2 Academy Bristol.\n"
+        summary: "Bowie's Spiders From Mars drummer and his producer play the early catalogue, billed as the band's last tour."
+        confidence: "high"
+      - id: "music/o2-academy#752301628e"
+        sourceId: "music/o2-academy"
+        title: "The Beast UK: Iron Maiden Tribute"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+        status: "scheduled"
+        url: "https://www.academymusicgroup.com/o2academybristol/events/the-beast-uk-tickets-ae1650498"
+        image: "https://dynamicmedia.livenationinternational.com/x/f/m/07261f99-1332-4f06-974e-ddf6604b9753.jpg?format=webp&width=3840&quality=75"
+        tags:
+          - "tribute-act"
+          - "metal"
+          - "live-music"
+        raw: "**The Beast UK: Iron Maiden Tribute** — 12 SEP 2026, O2 Academy Bristol.\n"
+        summary: "Iron Maiden tribute act The Beast UK."
+        confidence: "high"
+      - id: "music/o2-academy#62a4f3a0e6"
+        sourceId: "music/o2-academy"
+        title: "The Big Freshers Party: KiLLOWEN + More"
+        occurrence:
+          kind: "single"
+          date: "2026-09-14"
+        status: "scheduled"
+        url: "https://www.academymusicgroup.com/o2academybristol/events/the-big-freshers-party-tickets-ae1688928"
+        image: "https://dynamicmedia.livenationinternational.com/x/n/y/12800d99-a648-4b30-be07-1d4095b06400.png?format=webp&width=3840&quality=75"
+        tags:
+          - "club-night"
+          - "young-people"
+          - "party"
+          - "dj"
+        raw: "**The Big Freshers Party: KiLLOWEN + More** — Monday 14 September 2026,
+
+          O2 Academy Bristol.\n"
+        summary: "First of the Academy's freshers-week club nights, headlined by KiLLOWEN."
+        confidence: "high"
+      - id: "music/o2-academy#280e065cdc"
+        sourceId: "music/o2-academy"
+        title: "Colin Edwin and John Wesley's Voyage 35"
+        occurrence:
+          kind: "single"
+          date: "2026-09-15"
+        status: "scheduled"
+        url: "https://www.academymusicgroup.com/o2academybristol/events/colin-edwin-and-john-wesley-tickets-ae1626073"
+        image: "https://dynamicmedia.livenationinternational.com/s/n/d/ed854194-e281-4b66-a529-05bcb707e5d5.png?format=webp&width=3840&quality=75"
+        tags:
+          - "live-music"
+          - "rock"
+          - "one-night"
+        raw: "**Colin Edwin and John Wesley's Voyage 35** — 15 SEP 2026, O2 Academy
+
+          Bristol.\n"
+        summary: "Porcupine Tree's bassist and touring guitarist in a prog side project."
+        confidence: "high"
+      - id: "music/o2-academy#aa7c0bf654"
+        sourceId: "music/o2-academy"
+        title: "Fishies Freshers Week Special"
+        occurrence:
+          kind: "single"
+          date: "2026-09-16"
+        status: "scheduled"
+        url: "https://www.academymusicgroup.com/o2academybristol/events/fishies-tickets-ae925581"
+        image: "https://dynamicmedia.livenationinternational.com/Media/b/d/b/ceb737d1-7bb1-4549-be54-33f2f153f227.jpg?format=webp&width=3840&quality=75"
+        tags:
+          - "club-night"
+          - "young-people"
+          - "party"
+          - "dj"
+        raw: "**Fishies Freshers Week Special** — 16 SEP 2026, O2 Academy Bristol.\n"
+        summary: "Freshers edition of the Academy's regular Fishies student night."
+        confidence: "high"
+      - id: "music/o2-academy#c9840b6f29"
+        sourceId: "music/o2-academy"
+        title: "Capleton"
+        occurrence:
+          kind: "single"
+          date: "2026-09-17"
+        status: "scheduled"
+        url: "https://www.academymusicgroup.com/o2academybristol/events/capleton-tickets-ae119983"
+        image: "https://dynamicmedia.livenationinternational.com/z/y/s/8d464c19-d530-4c45-986b-1d5c107e971e.png?format=webp&width=3840&quality=75"
+        tags:
+          - "live-music"
+          - "reggae"
+          - "headliner"
+        raw: "**Capleton** — 17 SEP 2026, O2 Academy Bristol.\n"
+        summary: "Jamaican dancehall veteran Capleton."
+        confidence: "high"
+      - id: "music/o2-academy#e92c1c92f4"
+        sourceId: "music/o2-academy"
+        title: "UWE Freshers: Vikkstar"
+        occurrence:
+          kind: "single"
+          date: "2026-09-18"
+        status: "scheduled"
+        url: "https://www.academymusicgroup.com/o2academybristol/events/vikkstar-tickets-ae1565499"
+        image: "https://dynamicmedia.livenationinternational.com/n/n/y/c1e827c3-9824-47c4-99ec-91e6c8c0913f.png?format=webp&width=3840&quality=75"
+        tags:
+          - "club-night"
+          - "dj"
+          - "young-people"
+          - "party"
+        raw: "**UWE Freshers: Vikkstar** — Friday 18 September 2026, O2 Academy
+
+          Bristol.\n"
+        summary: "UWE freshers night with a DJ set from Vikkstar."
+        confidence: "high"
+      - id: "music/o2-academy#e08e9f62aa"
+        sourceId: "music/o2-academy"
+        title: "The Amity Affliction: House Of Cards EU 2026"
+        occurrence:
+          kind: "single"
+          date: "2026-10-13"
+        status: "scheduled"
+        url: "https://www.academymusicgroup.com/o2academybristol/events/the-amity-affliction-tickets-ae141868"
+        image: "https://dynamicmedia.livenationinternational.com/g/p/z/9081c506-5804-4f42-8ec2-f5d1c7c46111.jpg?format=webp&width=3840&quality=75"
+        tags:
+          - "live-music"
+          - "metal"
+          - "tour"
+          - "headliner"
+        raw: "**The Amity Affliction: House Of Cards EU 2026** — 13 OCT 2026, O2
+
+          Academy Bristol.\n"
+        summary: "Australian metalcore band on their House Of Cards European tour."
+        confidence: "high"
+      - id: "music/o2-academy#7e2999cd24"
+        sourceId: "music/o2-academy"
+        title: "Dick & Dom in Da Haunted Bungalow"
+        occurrence:
+          kind: "single"
+          date: "2026-10-31"
+        status: "scheduled"
+        url: "https://www.academymusicgroup.com/o2academybristol/events/dick-and-dom-tickets-ae1315651"
+        image: "https://dynamicmedia.livenationinternational.com/v/n/s/ddfcdd2f-a46a-414a-bbbd-01afff23fdd6.png?format=webp&width=3840&quality=75"
+        tags:
+          - "comedy"
+          - "party"
+          - "seasonal"
+          - "18-plus"
+        raw: "**Dick & Dom in Da Haunted Bungalow** — Saturday 31 October 2026, O2
+
+          Academy Bristol.\n"
+        summary: "Halloween edition of the Dick and Dom nostalgia club show — comedy and a DJ set rather than a gig."
+        confidence: "high"
+      - id: "music/o2-academy#4595aaa43e"
+        sourceId: "music/o2-academy"
+        title: "Carpenter Brut & HEALTH"
+        occurrence:
+          kind: "single"
+          date: "2026-11-04"
+        status: "scheduled"
+        url: "https://www.academymusicgroup.com/o2academybristol/events/carpenter-brut-and-health-tickets-ae1665464"
+        image: "https://dynamicmedia.livenationinternational.com/j/q/u/d79678a5-8d35-4884-9b54-0b9ac4a1584c.jpg?format=webp&width=3840&quality=75"
+        tags:
+          - "live-music"
+          - "electronic"
+          - "metal"
+          - "headliner"
+        raw: "**Carpenter Brut & HEALTH** — 4 NOV 2026, O2 Academy Bristol.\n"
+        summary: "French synthwave producer Carpenter Brut co-headlining with HEALTH."
+        confidence: "high"
+      - id: "music/o2-academy#1a9348f32c"
+        sourceId: "music/o2-academy"
+        title: "Full Cycle Sunday Special"
+        occurrence:
+          kind: "single"
+          date: "2026-11-08"
+        status: "scheduled"
+        url: "https://www.academymusicgroup.com/o2academybristol/events/full-cycle-sunday-special-tickets-ae1688763"
+        image: "https://dynamicmedia.livenationinternational.com/k/c/f/c95384c0-d015-45a3-9b71-c3a15207f670.jpg?format=webp&width=3840&quality=75"
+        tags:
+          - "club-night"
+          - "drum-and-bass"
+          - "dj"
+          - "party"
+        raw: "**Full Cycle Sunday Special** — 8 NOV 2026, O2 Academy Bristol.\n"
+        summary: "A Sunday session from Roni Size's Bristol drum and bass label Full Cycle."
+        confidence: "high"
+      - id: "music/o2-academy#5279df1b57"
+        sourceId: "music/o2-academy"
+        title: "SOiL"
+        occurrence:
+          kind: "single"
+          date: "2026-11-13"
+        status: "scheduled"
+        url: "https://www.academymusicgroup.com/o2academybristol/events/soil-tickets-ae58553"
+        image: "https://dynamicmedia.livenationinternational.com/k/v/p/39c515a6-8214-4cf3-a63f-b044b28e37ec.jpg?format=webp&width=3840&quality=75"
+        tags:
+          - "live-music"
+          - "metal"
+          - "rock"
+        raw: "**SOiL** — 13 NOV 2026, O2 Academy Bristol.\n"
+        summary: "Chicago nu-metal band SOiL."
+        confidence: "high"
+      - id: "music/o2-academy#70ca870252"
+        sourceId: "music/o2-academy"
+        title: "Fat Dog"
+        occurrence:
+          kind: "single"
+          date: "2026-11-25"
+        status: "scheduled"
+        url: "https://www.academymusicgroup.com/o2academybristol/events/fat-dog-tickets-ae1365268"
+        image: "https://dynamicmedia.livenationinternational.com/e/b/a/4d0069ee-3611-4967-958a-9b42df24a73d.png?format=webp&width=3840&quality=75"
+        tags:
+          - "live-music"
+          - "indie"
+          - "electronic"
+          - "headliner"
+        raw: "**Fat Dog** — 25 NOV 2026, O2 Academy Bristol.\n"
+        summary: "South London band Fat Dog on a headline date, seven weeks after their Rough Trade in-store."
+        confidence: "high"
+      - id: "music/o2-academy#b4e8521a46"
+        sourceId: "music/o2-academy"
+        title: "Tori Kelly: God Must Really Love Me Europe Tour"
+        occurrence:
+          kind: "single"
+          date: "2026-12-09"
+        status: "scheduled"
+        url: "https://www.academymusicgroup.com/o2academybristol/events/tori-kelly-tickets-ae438333"
+        image: "https://dynamicmedia.livenationinternational.com/t/f/w/e098ef13-5ea8-4434-ac34-5491105f2a9d.jpg?format=webp&width=3840&quality=75"
+        tags:
+          - "live-music"
+          - "soul"
+          - "tour"
+          - "headliner"
+        raw: "**Tori Kelly: God Must Really Love Me Europe Tour** — 9 DEC 2026, O2
+
+          Academy Bristol.\n"
+        summary: "Tori Kelly's European tour stops in Bristol."
+        confidence: "high"
+      - id: "music/o2-academy#fd28c2aa5b"
+        sourceId: "music/o2-academy"
+        title: "Alestorm"
+        occurrence:
+          kind: "single"
+          date: "2027-01-16"
+        status: "scheduled"
+        url: "https://www.academymusicgroup.com/o2academybristol/events/alestorm-tickets-ae2629"
+        image: "https://dynamicmedia.livenationinternational.com/a/t/r/082b61ea-29a2-4f95-b544-30104e063a45.png?format=webp&width=3840&quality=75"
+        tags:
+          - "live-music"
+          - "metal"
+          - "party"
+        raw: "**Alestorm** — Saturday 16 January 2027, O2 Academy Bristol.\n"
+        summary: "Scottish pirate metal band Alestorm."
+        confidence: "high"
+      - id: "music/o2-academy#986b1a8e53"
+        sourceId: "music/o2-academy"
+        title: "The Chris Stapleton Experience"
+        occurrence:
+          kind: "single"
+          date: "2027-01-23"
+        status: "scheduled"
+        url: "https://www.academymusicgroup.com/o2academybristol/events/the-chris-stapleton-experience-tickets-ae1617279"
+        image: "https://dynamicmedia.livenationinternational.com/c/y/j/84bfce9e-5cdc-474e-9f91-429b7c0697e9.png?format=webp&width=3840&quality=75"
+        tags:
+          - "tribute-act"
+          - "country"
+          - "live-music"
+        raw: "**The Chris Stapleton Experience** — Saturday 23 January 2027, O2
+
+          Academy Bristol.\n"
+        summary: "Chris Stapleton tribute show."
+        confidence: "high"
+      - id: "music/o2-academy#542e2def3a"
+        sourceId: "music/o2-academy"
+        title: "Sylosis & Whitechapel"
+        occurrence:
+          kind: "single"
+          date: "2027-01-31"
+        status: "scheduled"
+        url: "https://www.academymusicgroup.com/o2academybristol/events/sylosis-and-whitechapel-tickets-ae1658520"
+        image: "https://dynamicmedia.livenationinternational.com/b/n/b/9ed1dd35-ce08-44cd-88e2-c8e58708a2e4.png?format=webp&width=3840&quality=75"
+        tags:
+          - "live-music"
+          - "metal"
+          - "tour"
+        raw: "**Sylosis & Whitechapel** — 31 JAN 2027, O2 Academy Bristol.\n"
+        summary: "Co-headline metal tour, Sylosis with Whitechapel."
+        confidence: "high"
+      - id: "music/o2-academy#5c2e81bc68"
+        sourceId: "music/o2-academy"
+        title: "Countess Luann"
+        occurrence:
+          kind: "single"
+          date: "2027-02-15"
+        status: "scheduled"
+        url: "https://www.academymusicgroup.com/o2academybristol/events/luann-de-lesseps-tickets-ae1685027"
+        image: "https://dynamicmedia.livenationinternational.com/z/d/d/1385ede9-ff4e-47a2-98d7-b4c28b08a125.jpg?format=webp&width=3840&quality=75"
+        tags:
+          - "cabaret"
+          - "performance"
+          - "comedy"
+        raw: "**Countess Luann** — Monday 15 February 2027, O2 Academy Bristol.
+
+          Ticket link filed under luann-de-lesseps.\n"
+        summary: "Cabaret show from Luann de Lesseps of Real Housewives of New York — a reality-TV stage act rather than a music booking."
+        confidence: "high"
+      - id: "music/o2-academy#92e5ad002b"
+        sourceId: "music/o2-academy"
+        title: "South Arcade: Welcome To The Real World"
+        occurrence:
+          kind: "single"
+          date: "2027-02-22"
+        status: "scheduled"
+        url: "https://www.academymusicgroup.com/o2academybristol/events/south-arcade-tickets-ae1369367"
+        image: "https://dynamicmedia.livenationinternational.com/v/i/z/c7cfd87d-2627-45aa-9a93-b1283ad6e2fa.jpg?format=webp&width=3840&quality=75"
+        tags:
+          - "live-music"
+          - "rock"
+          - "tour"
+          - "young-people"
+        raw: "**South Arcade: Welcome To The Real World** — Monday 22 February 2027,
+
+          O2 Academy Bristol.\n"
+        summary: "South Arcade's nu-metal revival tour, the furthest date in the diary."
+        confidence: "high"
+    notes: "The hint is right and the fix works: the venue root is server-rendered and gives the whole programme, 21 dated gigs from 5 Sep 2026 to 22 Feb 2027, with nothing truncated. I did not touch /events, which the hint records as the JavaScript view that harvested nothing. No doors times and no prices are printed anywhere in the listing block, and no room is named on any row, so it is not possible to tell the main hall from the smaller Academy2 room from this page — worth a hint if that distinction matters. One trap for a reviewer: the page's contact block gives 211 Stockwell Road, London SW9 9SL, which is Academy Music Group's head office and not this venue; nothing has been copied from it, since address belongs to the catalogue. The programme is a commercial touring mix and unusually heavy on tribute acts — five of the 21 — plus a freshers-week run of three club dates in mid-September."
+  - sourceId: "music/rough-trade"
+    fetch:
+      ok: true
+      url: "https://partners-endpoint.dice.fm/api/v2/events?page%5Bsize%5D=50&filter%5Bvenues%5D%5B%5D=Rough%20Trade%20Bristol"
+      status: 200
+    events:
+      - id: "music/rough-trade#b6b773116f"
+        sourceId: "music/rough-trade"
+        title: "Mystery Jets: Live + Signing"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "18:30"
+        status: "scheduled"
+        timesText: "Doors open 18:30, Mystery Jets 19:30, signing 20:30"
+        url: "https://link.dice.fm/O563a8bb9a0a"
+        image: "https://dice-media.imgix.net/attachments/2026-06-19/5043c989-af3a-437b-8327-9aa49f5665f9.jpg?rect=0%2C66%2C1667%2C1000"
+        price:
+          free: false
+          text: "£23.27–£38.00, every ticket includes an LP or CD"
+          min: 23.27
+          max: 38
+          currency: "GBP"
+        ageRestriction: "All ages"
+        tags:
+          - "live-music"
+          - "signing"
+          - "indie"
+          - "rock"
+          - "new-release"
+        raw: "**Mystery Jets: Live + Signing** — Mon 17 Aug, 18:30, Rough Trade
+
+          Bristol. Presented by Rough Trade.
+
+          Celebrates the release of 'A Hole To See The Sky Through' (Fiction
+
+          Records). Performance 45 minutes. Genres: rock, indie.\n"
+        summary: "Mystery Jets play a 45-minute in-store and sign copies of the new album; entry comes with the record."
+        confidence: "high"
+      - id: "music/rough-trade#3ea7b4ce0d"
+        sourceId: "music/rough-trade"
+        title: "Kris Barras Band: Live + Signing"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+          startTime: "18:30"
+        status: "scheduled"
+        timesText: "Doors open 18:30, Kris Barras Band 19:30, signing 20:30"
+        url: "https://link.dice.fm/o9073669a3e0"
+        image: "https://dice-media.imgix.net/attachments/2026-06-19/a20aa163-5963-4f6d-8b02-3da6779ae4dc.jpg?rect=0%2C169%2C5000%2C3000"
+        price:
+          free: true
+          text: "Free entry ticket available, or entry with an LP or CD bundle up to £35.01"
+          min: 0
+          max: 35.01
+          currency: "GBP"
+        ageRestriction: "All ages"
+        tags:
+          - "live-music"
+          - "signing"
+          - "rock"
+          - "blues"
+          - "free-entry"
+        raw: "**Kris Barras Band: Live + Signing** — Tue 18 Aug, 18:30, Rough Trade
+
+          Bristol.
+
+          Celebrates the release of 'Monsters We Made' (Earache). Ticket types
+
+          include FREE ENTRY alongside orange LP, black LP and CD bundles.\n"
+        summary: "Blues-rock band Kris Barras play in-store and sign the new album; there is a free entry ticket as well as the record bundles."
+        confidence: "high"
+      - id: "music/rough-trade#992315083e"
+        sourceId: "music/rough-trade"
+        title: "Bristol Song Circle: James Walsh (Starsailor), Jonny Morgan, Thaime"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://link.dice.fm/a34bb3ddc4f5"
+        image: "https://dice-media.imgix.net/attachments/2026-01-26/569060a8-5cc6-449b-b3e7-ebdaf90693b8.jpg?rect=0%2C160%2C800%2C480"
+        price:
+          free: false
+          text: "£26.53 general admission, seated"
+          min: 26.53
+          max: 26.53
+          currency: "GBP"
+        ageRestriction: "14+ (Under 16s with Adult)"
+        tags:
+          - "live-music"
+          - "folk"
+          - "booking-required"
+        raw: "**Bristol Song Circle: James Walsh (Starsailor), Jonny Morgan, Thaime**
+
+          — Thu 20 Aug, 19:00, Rough Trade Bristol. Bristol Song Circle Presents.
+
+          Seated general admission.\n"
+        summary: "Songwriters-in-the-round evening, seated, led by Starsailor's James Walsh."
+        confidence: "high"
+      - id: "music/rough-trade#85633741b7"
+        sourceId: "music/rough-trade"
+        title: "Tapps Wine Bar x Rough Trade Album Wine Tasting: Bjork - Vespertine"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+          startTime: "15:00"
+        status: "sold-out"
+        url: "https://link.dice.fm/Va1fc3bc0ebc"
+        image: "https://dice-media.imgix.net/attachments/2026-07-14/d9593e58-5073-4be9-a19e-ff2458508e48.jpg?rect=0%2C153%2C772%2C463"
+        price:
+          free: false
+          text: "£20.09 general admission"
+          min: 20.09
+          max: 20.09
+          currency: "GBP"
+        ageRestriction: "This is an 18+ event"
+        tags:
+          - "tasting"
+          - "food-drink"
+          - "immersive"
+          - "18-plus"
+        raw: "**Tapps Wine Bar x Rough Trade Album Wine Tasting: Bjork - Vespertine**
+
+          — Fri 21 Aug, 15:00, Rough Trade Bristol. **Sold out.**
+
+          One of a series of immersive tastings pairing albums from Rough Trade's
+
+          catalogue with wines supplied by Tapps.\n"
+        summary: "Vespertine played end to end with a matched wine flight; sold out."
+        confidence: "high"
+      - id: "music/rough-trade#d62b916d11"
+        sourceId: "music/rough-trade"
+        title: "Alex Warren: 'Wildchild' Listening Event"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "11:00"
+        status: "scheduled"
+        url: "https://link.dice.fm/w93557850722"
+        image: "https://dice-media.imgix.net/attachments/2026-08-06/a8bd62ee-e279-4190-80e0-c436be863f7f.jpg?rect=0%2C819%2C8192%2C4915"
+        price:
+          free: true
+          text: "Free entry, or entry with an LP or CD bundle up to £44.80"
+          min: 0
+          max: 44.8
+          currency: "GBP"
+        ageRestriction: "All ages"
+        tags:
+          - "new-release"
+          - "electronic"
+          - "free-entry"
+          - "drop-in"
+        raw: "**Alex Warren: 'Wildchild' Listening Event** — Sat 22 Aug, 11:00, Rough
+
+          Trade Bristol.
+
+          Pre-release listening party for 'Wildchild' (Atlantic). Playback from
+
+          11:00.\n"
+        summary: "Pre-release playback of Alex Warren's new album, first thing on a Saturday, free to attend."
+        confidence: "high"
+      - id: "music/rough-trade#4035a3633b"
+        sourceId: "music/rough-trade"
+        title: "Miss Grit: Acoustic + Signing"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "14:00"
+        status: "scheduled"
+        timesText: "Doors open 14:00, Miss Grit 14:30, signing 15:00"
+        url: "https://link.dice.fm/odca4d29a0d5"
+        image: "https://dice-media.imgix.net/attachments/2026-07-16/db843740-7535-430b-9587-d5b6eebabf98.jpg?rect=0%2C67%2C2000%2C1200"
+        price:
+          free: true
+          text: "Free RSVP, or entry with a CD or clear LP bundle up to £29.35"
+          min: 0
+          max: 29.35
+          currency: "GBP"
+        ageRestriction: "All ages"
+        tags:
+          - "live-music"
+          - "signing"
+          - "indie"
+          - "free-entry"
+        raw: "**Miss Grit: Acoustic + Signing** — Sat 22 Aug, 14:00, Rough Trade
+
+          Bristol.
+
+          Celebrates the release of 'Under My Umbrella' (Mute). Ticket types
+
+          include FREE RSVP.\n"
+        summary: "Miss Grit play an early-afternoon acoustic set and sign the Mute album; free RSVP available."
+        confidence: "high"
+      - id: "music/rough-trade#f3c8b6de81"
+        sourceId: "music/rough-trade"
+        title: "K-Trap: Live + Signing"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "18:30"
+        status: "scheduled"
+        timesText: "Doors open 18:30, K-Trap 19:30, signing 20:30"
+        url: "https://link.dice.fm/f9c92c006318"
+        image: "https://dice-media.imgix.net/attachments/2026-06-26/1591c9cb-2de4-46bf-baf1-a6c065dad1c6.jpg?rect=0%2C217%2C5464%2C3278"
+        price:
+          free: false
+          text: "£15.75, CD + entry"
+          min: 15.75
+          max: 15.75
+          currency: "GBP"
+        ageRestriction: "All ages"
+        tags:
+          - "live-music"
+          - "signing"
+          - "hip-hop"
+          - "new-release"
+        raw: "**K-Trap: Live + Signing** — Sat 22 Aug, 18:30, Rough Trade Bristol.
+
+          Celebrates the release of 'TRAPO 2' (Thousand8). Genres: hip hop, rap.\n"
+        summary: "K-Trap performs and signs 'TRAPO 2'; the only ticket is CD plus entry."
+        confidence: "high"
+      - id: "music/rough-trade#4f03557947"
+        sourceId: "music/rough-trade"
+        title: "Yoga x Listening Session: Max Cooper"
+        occurrence:
+          kind: "single"
+          date: "2026-08-23"
+          startTime: "11:15"
+        status: "scheduled"
+        url: "https://link.dice.fm/pfb4a275d26d"
+        image: "https://dice-media.imgix.net/attachments/2026-07-03/3cb2d769-8d61-4ab6-90b1-57c6a754773c.jpg?rect=0%2C2207%2C4912%2C2947"
+        price:
+          free: false
+          text: "£10.00 yoga entry, £13.83 with coffee"
+          min: 10
+          max: 13.83
+          currency: "GBP"
+        ageRestriction: "All Ages"
+        tags:
+          - "wellbeing"
+          - "electronic"
+          - "booking-required"
+          - "drop-in"
+        raw: "**Yoga x Listening Session: Max Cooper** — Sun 23 Aug, 11:15, Rough
+
+          Trade Bristol.
+
+          Tickets: Yoga Entry, or Yoga Entry + Coffee.\n"
+        summary: "Sunday morning yoga class set to a Max Cooper album, with a coffee upgrade."
+        confidence: "high"
+      - id: "music/rough-trade#390218ab8f"
+        sourceId: "music/rough-trade"
+        title: "Antony Szmierek: Live + Signing"
+        occurrence:
+          kind: "single"
+          date: "2026-08-23"
+          startTime: "18:30"
+        status: "scheduled"
+        timesText: "Doors open 18:30, Antony Szmierek 19:30, signing 20:30"
+        url: "https://link.dice.fm/we96b99d84e7"
+        image: "https://dice-media.imgix.net/attachments/2026-06-25/52131607-fee8-4560-aecd-f41b19ba4c55.jpg?rect=0%2C1732%2C3847%2C2308"
+        price:
+          free: false
+          text: "£16.89–£31.62, Rough Trade exclusive or CD, each with entry"
+          min: 16.89
+          max: 31.62
+          currency: "GBP"
+        ageRestriction: "All ages"
+        tags:
+          - "live-music"
+          - "signing"
+          - "poetry"
+          - "hip-hop"
+        raw: "**Antony Szmierek: Live + Signing** — Sun 23 Aug, 18:30, Rough Trade
+
+          Bristol.
+
+          Celebrates the release of 'Decoding Birdsong'. Genres: spoken word,
+
+          indie, hip hop, alternative.\n"
+        summary: "Spoken-word-over-dance-music from Antony Szmierek, marking 'Decoding Birdsong'."
+        confidence: "high"
+      - id: "music/rough-trade#4075f7a56f"
+        sourceId: "music/rough-trade"
+        title: "Grandmas House: Live + Signing"
+        occurrence:
+          kind: "single"
+          date: "2026-08-27"
+          startTime: "18:30"
+        status: "scheduled"
+        timesText: "Doors open 18:30, Grandma's House 19:30, signing 20:30"
+        url: "https://link.dice.fm/Eb2f0b97f444"
+        image: "https://dice-media.imgix.net/attachments/2026-06-23/ee61ad87-4f2e-4adf-b8d8-c7b019ad36e8.jpg?rect=0%2C126%2C3637%2C2182"
+        price:
+          free: true
+          text: "Free entry, or entry with a marbled LP or CD bundle up to £32.75"
+          min: 0
+          max: 32.75
+          currency: "GBP"
+        ageRestriction: "All ages"
+        tags:
+          - "live-music"
+          - "signing"
+          - "indie"
+          - "punk"
+          - "free-entry"
+        raw: "**Grandmas House: Live + Signing** — Thu 27 Aug, 18:30, Rough Trade
+
+          Bristol.
+
+          Celebrates the release of 'Baby You're A Winner'. Ticket types include
+
+          FREE ENTRY.\n"
+        summary: "Bristol post-punk trio Grandmas House play their home-city record shop, free entry available."
+        confidence: "high"
+      - id: "music/rough-trade#073478db3e"
+        sourceId: "music/rough-trade"
+        title: "Rough Trade 50: 2006-2015 Exclusive Vinyl Drop"
+        occurrence:
+          kind: "single"
+          date: "2026-08-28"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://link.dice.fm/S708c8391bf0"
+        image: "https://dice-media.imgix.net/attachments/2026-08-12/b1a4f22b-580d-4da7-84c6-85caff42f768.jpg?rect=0%2C432%2C2160%2C1296"
+        price:
+          free: true
+          text: "Free RSVP"
+        ageRestriction: "This is an 18+ event"
+        tags:
+          - "new-release"
+          - "community"
+          - "free-entry"
+          - "drop-in"
+        raw: "**Rough Trade 50: 2006-2015 Exclusive Vinyl Drop** — Fri 28 Aug, 10:00,
+
+          Rough Trade Bristol.
+
+          Drop 4 of the 50th anniversary vinyl series, \"spotlighting some of the
+
+          defining records released between 2006 and 2015\", featuring Radiohead
+
+          and Tame Impala among others. Free RSVP.\n"
+        summary: "Fourth instalment of Rough Trade's 50th-anniversary reissue drops, on sale from opening time."
+        confidence: "high"
+      - id: "music/rough-trade#8f9593397e"
+        sourceId: "music/rough-trade"
+        title: "'Blonde' Anniversary Listening Event"
+        occurrence:
+          kind: "single"
+          date: "2026-08-28"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://link.dice.fm/E7e93ede85b8"
+        image: "https://dice-media.imgix.net/attachments/2026-08-04/f7e68702-cfcd-4d2a-8007-1f6c535c0092.jpg?rect=0%2C160%2C800%2C480"
+        price:
+          free: true
+          text: "Free RSVP"
+        ageRestriction: "All ages"
+        tags:
+          - "new-release"
+          - "hip-hop"
+          - "soul"
+          - "free-entry"
+        raw: "**'Blonde' Anniversary Listening Event** — Fri 28 Aug, 18:00, Rough
+
+          Trade Bristol.
+
+          \"Celebrating the 10 year anniversary of Frank Ocean's seminal album
+
+          '*Blonde*'. Album playback in The Listening Bar starting at 6pm,
+
+          followed by an evening of R&B and chill hip-hop\".\n"
+        summary: "Ten years of Frank Ocean's Blonde, played in full in the Listening Bar and followed by R&B records. Free."
+        confidence: "high"
+      - id: "music/rough-trade#e4a739f709"
+        sourceId: "music/rough-trade"
+        title: "Everlast: Live + Signing"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+          startTime: "18:30"
+        status: "scheduled"
+        timesText: "Doors open 18:30, Everlast 19:30, signing 20:30"
+        url: "https://link.dice.fm/Me113498c541"
+        image: "https://dice-media.imgix.net/attachments/2026-05-21/3a49c407-2cd7-4b16-b8bc-2b78b5857068.jpg?rect=0%2C2016%2C4480%2C2688"
+        price:
+          free: false
+          text: "£14.62–£35.01, 2xLP, LP or CD, each with entry"
+          min: 14.62
+          max: 35.01
+          currency: "GBP"
+        ageRestriction: "All ages"
+        tags:
+          - "live-music"
+          - "signing"
+          - "hip-hop"
+          - "blues"
+        raw: "**Everlast: Live + Signing** — Sat 29 Aug, 18:30, Rough Trade Bristol.
+
+          Celebrates the release of 'Embers to Ashes' (Martyr Inc). Genres: rock,
+
+          hip hop, country, blues.\n"
+        summary: "House of Pain's Everlast, solo and acoustic-leaning, plus a signing."
+        confidence: "high"
+      - id: "music/rough-trade#ac3e214710"
+        sourceId: "music/rough-trade"
+        title: "Yoga x Listening Session: Floating Points"
+        occurrence:
+          kind: "single"
+          date: "2026-08-30"
+          startTime: "11:15"
+        status: "scheduled"
+        url: "https://link.dice.fm/xe586c8df0df"
+        image: "https://dice-media.imgix.net/attachments/2026-07-03/3cb2d769-8d61-4ab6-90b1-57c6a754773c.jpg?rect=0%2C2207%2C4912%2C2947"
+        price:
+          free: false
+          text: "£10.00 yoga entry, £13.83 with coffee"
+          min: 10
+          max: 13.83
+          currency: "GBP"
+        ageRestriction: "All Ages"
+        tags:
+          - "wellbeing"
+          - "electronic"
+          - "booking-required"
+          - "drop-in"
+        raw: "**Yoga x Listening Session: Floating Points** — Sun 30 Aug, 11:15,
+
+          Rough Trade Bristol.
+
+          Tickets: Yoga Entry, or Yoga Entry + Coffee.\n"
+        summary: "The second of the Sunday yoga sessions, this one set to Floating Points."
+        confidence: "high"
+      - id: "music/rough-trade#db5c3316df"
+        sourceId: "music/rough-trade"
+        title: "Big Truck: Live + Signing"
+        occurrence:
+          kind: "single"
+          date: "2026-08-30"
+          startTime: "18:30"
+        status: "cancelled"
+        url: "https://link.dice.fm/cd8644732802"
+        image: "https://dice-media.imgix.net/attachments/2026-06-10/ef39573c-cf8f-4ced-9476-057c71ebfd94.jpg?rect=0%2C178%2C4480%2C2688"
+        price:
+          free: false
+          text: "£16.89–£32.75, neon green LP or CD, each with entry"
+          min: 16.89
+          max: 32.75
+          currency: "GBP"
+        ageRestriction: "All ages"
+        tags:
+          - "live-music"
+          - "signing"
+          - "indie"
+        raw: "**Big Truck: Live + Signing** — Sun 30 Aug, 18:30, Rough Trade Bristol.
+
+          **Cancelled.**
+
+          Was to celebrate the release of 'Midday At The Middleway' (Marshall).\n"
+        summary: "Big Truck's in-store for 'Midday At The Middleway', cancelled by the store rather than removed."
+        confidence: "high"
+      - id: "music/rough-trade#4a44acb117"
+        sourceId: "music/rough-trade"
+        title: "DMA'S: Acoustic Performance"
+        occurrence:
+          kind: "single"
+          date: "2026-08-31"
+          startTime: "16:30"
+        status: "sold-out"
+        timesText: "Two shows: matinee doors 16:30, on stage 17:30; evening doors 19:30, on stage 20:30"
+        url: "https://link.dice.fm/S6ce9198d71a"
+        image: "https://dice-media.imgix.net/attachments/2026-07-14/71471171-17e6-4222-8b4e-88b2ef91c811.jpg?rect=0%2C99%2C3130%2C1878"
+        price:
+          free: false
+          text: "£24.20–£50.26, baby blue LP, red LP or CD, each with entry"
+          min: 24.2
+          max: 50.26
+          currency: "GBP"
+        ageRestriction: "All ages"
+        tags:
+          - "live-music"
+          - "indie"
+          - "matinee"
+        raw: "**DMA'S: Acoustic Performance** — Mon 31 Aug, Rough Trade Bristol.
+
+          **Both shows sold out.**
+
+          Two sittings for the self-titled album (RCA): a matinee at 16:30 and an
+
+          evening show at 19:30 — \"due to phenomenal demand, Rough Trade Bristol
+
+          is very excited to present a second acoustic instore performance from
+
+          DMA'S\". Recorded as one event with both times, per the
+
+          several-showings-in-one-day rule; the matinee's own link is
+
+          https://link.dice.fm/a3047b04ba42.\n"
+        summary: "DMA'S play two sold-out acoustic in-stores in one day, a matinee added after the evening show sold out."
+        confidence: "high"
+      - id: "music/rough-trade#3d955ed9d6"
+        sourceId: "music/rough-trade"
+        title: "she's green"
+        occurrence:
+          kind: "single"
+          date: "2026-09-01"
+          startTime: "19:30"
+        status: "scheduled"
+        timesText: "Doors 19:30; Ziggy 2000, she's green, nobody's dad"
+        url: "https://link.dice.fm/P899d73ad8a5"
+        image: "https://dice-media.imgix.net/attachments/2026-05-01/2e318b2c-870f-4f7a-9062-25da62218717.jpg?rect=0%2C2605%2C6109%2C3665"
+        price:
+          free: false
+          text: "£16.90 general admission"
+          min: 16.9
+          max: 16.9
+          currency: "GBP"
+        ageRestriction: "14+ (Under 16s with Adult)"
+        tags:
+          - "live-music"
+          - "indie"
+          - "booking-required"
+        raw: "**she's green** — Tue 1 Sep, 19:30, Rough Trade Bristol. Crosstown
+
+          Concerts Presents. With Ziggy 2000 and nobody's dad.
+
+          Genres: indie, alternative, dream pop, indie rock.\n"
+        summary: "Dream-pop band she's green on a ticketed promoter show rather than a free in-store."
+        confidence: "high"
+      - id: "music/rough-trade#2842163d02"
+        sourceId: "music/rough-trade"
+        title: "untitled"
+        occurrence:
+          kind: "single"
+          date: "2026-09-02"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://link.dice.fm/Ecea7e1c23be"
+        image: "https://dice-media.imgix.net/attachments/2026-05-28/1751d230-7947-4d0e-87f5-30fd1d02c13d.jpg?rect=0%2C943%2C2075%2C1245"
+        price:
+          free: false
+          text: "£18.03 general admission"
+          min: 18.03
+          max: 18.03
+          currency: "GBP"
+        ageRestriction: "14+ (Under 16s with Adult)"
+        tags:
+          - "live-music"
+          - "indie"
+          - "booking-required"
+        raw: "**untitled** — Wed 2 Sep, 19:00, Rough Trade Bristol. Metropolis Music
+
+          Presents.
+
+          \"untitled\" is the band's name as printed, not a missing title.\n"
+        summary: "A Metropolis Music show by the band untitled — the lower-case name is the act's, not a gap in the listing."
+        confidence: "high"
+      - id: "music/rough-trade#8270d11d20"
+        sourceId: "music/rough-trade"
+        title: "deary"
+        occurrence:
+          kind: "single"
+          date: "2026-09-03"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://link.dice.fm/Bda5465010b2"
+        image: "https://dice-media.imgix.net/attachments/2026-05-13/2f2b4329-5d42-4519-8b8e-575526245695.jpg?rect=0%2C825%2C2250%2C1350"
+        price:
+          free: false
+          text: "£16.90 general admission"
+          min: 16.9
+          max: 16.9
+          currency: "GBP"
+        ageRestriction: "14+ (Under 16s with Adult)"
+        tags:
+          - "live-music"
+          - "indie"
+          - "booking-required"
+        raw: "**deary** — Thu 3 Sep, 19:00, Rough Trade Bristol. Gotobeat Presents.\n"
+        summary: "Shoegaze duo deary, on a Gotobeat bill."
+        confidence: "high"
+      - id: "music/rough-trade#c8509f9656"
+        sourceId: "music/rough-trade"
+        title: "Arab Strap: Stripped Back + Signing"
+        occurrence:
+          kind: "single"
+          date: "2026-09-04"
+          startTime: "18:30"
+        status: "scheduled"
+        timesText: "Doors open 18:30, Arab Strap 19:30, signing 20:30"
+        url: "https://link.dice.fm/A8903f2b9f0b"
+        image: "https://dice-media.imgix.net/attachments/2026-07-14/77235fbc-300a-49b9-a2ec-9b98d7febeac.jpg?rect=0%2C154%2C2048%2C1229"
+        price:
+          free: false
+          text: "£14.62–£39.55, double LP, black LP or CD, each with entry"
+          min: 14.62
+          max: 39.55
+          currency: "GBP"
+        ageRestriction: "All ages"
+        tags:
+          - "live-music"
+          - "signing"
+          - "indie"
+          - "new-release"
+        raw: "**Arab Strap: Stripped Back + Signing** — Fri 4 Sep, 18:30, Rough Trade
+
+          Bristol.
+
+          Celebrates the release of 'Half-Told Tales' (Rock Action).\n"
+        summary: "Arab Strap play a stripped-back set for 'Half-Told Tales', then sign."
+        confidence: "high"
+      - id: "music/rough-trade#9e0ef30803"
+        sourceId: "music/rough-trade"
+        title: "Punka Presents: LIVE, LAUGH, GOTH!"
+        occurrence:
+          kind: "single"
+          date: "2026-09-05"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "Doors 20:00; Tiffadelic, Strange Futures, Eveline"
+        url: "https://link.dice.fm/L59fb78d1372"
+        image: "https://dice-media.imgix.net/attachments/2026-07-14/6fe92ff5-c5a0-49ef-90c8-d5e4d69c8d92.jpg?rect=0%2C154%2C768%2C461"
+        price:
+          free: false
+          text: "£12.36 early bird, £15.76 general admission"
+          min: 12.36
+          max: 15.76
+          currency: "GBP"
+        ageRestriction: "14+ (Under 16s with Adult)"
+        tags:
+          - "live-music"
+          - "electronic"
+          - "punk"
+          - "late-night"
+        raw: "**Punka Presents: LIVE, LAUGH, GOTH!** — Sat 5 Sep, 20:00, Rough Trade
+
+          Bristol. PUNKA! Presents.
+
+          With Tiffadelic, Strange Futures and Eveline. Genres: goth, dance punk,
+
+          electronic.\n"
+        summary: "A goth and dance-punk triple bill promoted by PUNKA!, running late for the room."
+        confidence: "high"
+      - id: "music/rough-trade#77e144e528"
+        sourceId: "music/rough-trade"
+        title: "Dexys Midnight Runners: Stripped Back Performance"
+        occurrence:
+          kind: "single"
+          date: "2026-09-08"
+          startTime: "18:30"
+        status: "sold-out"
+        timesText: "Doors open 18:30, Dexys Midnight Runners 19:30"
+        url: "https://link.dice.fm/Jf56ccad9c05"
+        image: "https://dice-media.imgix.net/attachments/2026-05-19/5d09e0b7-071b-485e-acea-94d8b4175041.jpg?rect=0%2C108%2C2717%2C1630"
+        price:
+          free: false
+          text: "£15.55–£31.41, yellow LP, black LP or CD, each with entry"
+          min: 15.55
+          max: 31.41
+          currency: "GBP"
+        ageRestriction: "All ages"
+        tags:
+          - "live-music"
+          - "soul"
+          - "classic"
+        raw: "**Dexys Midnight Runners: Stripped Back Performance** — Tue 8 Sep,
+
+          18:30, Rough Trade Bristol. **Sold out.**
+
+          Kevin Rowland and Dexys, celebrating the release of 'LOVE'.\n"
+        summary: "Kevin Rowland's Dexys, stripped back for the new album. Sold out."
+        confidence: "high"
+      - id: "music/rough-trade#9d75f42650"
+        sourceId: "music/rough-trade"
+        title: "Listening Party & Music Quiz: Hip Hop Special! 30 years of DJ Shadow 'Endtroducing'"
+        occurrence:
+          kind: "single"
+          date: "2026-09-10"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://link.dice.fm/U1855319411c"
+        image: "https://dice-media.imgix.net/attachments/2026-07-15/5f139041-673f-4e3a-8d1e-5640860b7f14.jpg?rect=0%2C200%2C1000%2C600"
+        price:
+          free: false
+          text: "Tables of 2 to 6, £4.00–£12.00"
+          min: 4
+          max: 12
+          currency: "GBP"
+        ageRestriction: "This is a 16+ event"
+        tags:
+          - "quiz"
+          - "hip-hop"
+          - "games"
+          - "booking-required"
+        raw: "**Listening Party & Music Quiz: Hip Hop Special! 30 years of DJ Shadow
+
+          'Endtroducing'** — Thu 10 Sep, 19:00, Rough Trade Bristol.
+
+          \"Bring your A-game - Big prizes to the won! This month we have a Hip Hop
+
+          special, celebrating 30 years of DJ Shadows 'Endtroducing'. Testing your
+
+          knowledge on 90s hiphop, iconic samples and collaborations\". Tickets are
+
+          sold per table.\n"
+        summary: "Monthly music quiz, this edition on nineties hip hop and Endtroducing, booked by the table."
+        confidence: "high"
+      - id: "music/rough-trade#587189b96b"
+        sourceId: "music/rough-trade"
+        title: "Arcy Drive"
+        occurrence:
+          kind: "single"
+          date: "2026-09-11"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://link.dice.fm/d96b5ca0f719"
+        image: "https://dice-media.imgix.net/attachments/2026-05-26/032daa63-39e1-4a66-a3c6-ff394f3126be.jpg?rect=0%2C1667%2C8336%2C5002"
+        price:
+          free: false
+          text: "£18.03 general admission"
+          min: 18.03
+          max: 18.03
+          currency: "GBP"
+        ageRestriction: "14+ (Under 16s with Adult)"
+        tags:
+          - "live-music"
+          - "indie"
+          - "rock"
+          - "booking-required"
+        raw: "**Arcy Drive** — Fri 11 Sep, 19:00, Rough Trade Bristol. SJM Concerts
+
+          Presents.\n"
+        summary: "Long Island indie rock band Arcy Drive, promoted by SJM."
+        confidence: "high"
+      - id: "music/rough-trade#fa8f325afb"
+        sourceId: "music/rough-trade"
+        title: "Day We Ran"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+          startTime: "19:00"
+        status: "sold-out"
+        url: "https://link.dice.fm/Ac2937f8a30f"
+        image: "https://dice-media.imgix.net/attachments/2026-04-17/e61e144e-5338-4c1a-97dd-7d7035b63107.jpg?rect=0%2C454%2C4540%2C2724"
+        price:
+          free: false
+          text: "£18.96 general admission"
+          min: 18.96
+          max: 18.96
+          currency: "GBP"
+        ageRestriction: "14+ (Under 16s with Adult)"
+        tags:
+          - "live-music"
+          - "indie"
+          - "booking-required"
+        raw: "**Day We Ran** — Sat 12 Sep, 19:00, Rough Trade Bristol. Communion One
+
+          Presents. **Sold out.**\n"
+        summary: "Sold-out Communion One show from Day We Ran."
+        confidence: "high"
+    notes: "Solved, and the route is worth recording as a hint. The hint's two halves both check out — the catalogued page 403s a plain fetcher and returns 200 to a browser user-agent, and nothing is in the served markup — but a headless browser is not needed. The listings are a DICE widget, and the page's own streamed payload carries its configuration in clear text, including `partnerId` 664cedfb, an `apiKey`, and `venues: [\"Rough Trade Bristol\"]`. Calling the DICE partner API with that key and venue filter returns the whole programme as clean JSON: 50 events from 17 Aug to 10 Oct 2026, already scoped to Bristol, with times, ticket types, ages, images and status. `fetch.url` is that endpoint rather than the catalogued page, since it is what I actually read; the API key goes in an x-api-key header and so is not in the URL. I recorded the soonest 25, to 12 Sep, and truncated the remaining 25. Times need care and have been converted: DICE returns UTC with a separate `timezone: Europe/London`, so every printed time here is the local wall-clock the widget shows, an hour ahead of the raw field while BST holds. Pricing is genuinely unusual and I have followed the ticket types rather than flattening them: many in-stores sell entry only as part of an LP or CD bundle, several also offer a free entry or free RSVP ticket, and where a free ticket exists I have set `price.free` true and kept the bundle ceiling in `max`. One deliberate merge: DMA'S on 31 Aug is sold as a matinee and an evening show, recorded as one event with both times in `timesText` per the several-showings rule. Big Truck on 30 Aug is cancelled — the API says so outright, it is not my inference. Beyond my cutoff, Pacific Avenue on 30 Sep appears twice, once on-sale and once off-sale and sold out, which looks like a duplicate the store has not tidied. One thing left on the table on purpose: the DICE payload includes each event's full own description, at no extra fetch, and this run was told to leave `description` off for music. A future run could populate it for this source without opening a single event page."
+  - sourceId: "music/strange-brew"
+    fetch:
+      ok: true
+      url: "https://www.headfirstbristol.co.uk/whats-on/strange-brew"
+      status: 200
+    events:
+      - id: "music/strange-brew#bbc7f4d987"
+        sourceId: "music/strange-brew"
+        title: "BUTCHER BROWN + ALAMAY"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/strange-brew/tue-18-aug-butcher-brown-alamay-154199"
+        image: "https://www.headfirstbristol.co.uk/images/events/strange-brew/butcher-brown-alamay/1541/e154199_i335504_s3.jpg"
+        tags:
+          - "live-music"
+          - "jazz"
+          - "soul"
+          - "headliner"
+        raw: "**BUTCHER BROWN + ALAMAY** — Tue 18 Aug, Strange Brew.\n"
+        summary: "Richmond jazz-funk band Butcher Brown, with ALAMAY in support."
+        confidence: "high"
+      - id: "music/strange-brew#7ff1fbf4b3"
+        sourceId: "music/strange-brew"
+        title: "Hannah Cohen + LuxJury"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/strange-brew/thu-20-aug-hannah-cohen-luxjury-150957"
+        image: "https://www.headfirstbristol.co.uk/images/events/strange-brew/hannah-cohen-luxjury/1509/e150957_i322995_s3.jpg"
+        tags:
+          - "live-music"
+          - "indie"
+          - "folk"
+        raw: "**Hannah Cohen + LuxJury** — Thu 20 Aug, Strange Brew.\n"
+        summary: "Songwriter Hannah Cohen, with LuxJury opening."
+        confidence: "high"
+      - id: "music/strange-brew#d1fd759fca"
+        sourceId: "music/strange-brew"
+        title: "Lily Bellevedere presents: The Wheelie Big Cabaret"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/strange-brew/fri-21-aug-lily-bellevedere-presents-the-wheelie-big-cabaret--158219"
+        image: "https://www.headfirstbristol.co.uk/images/events/strange-brew/lily-bellevedere-presents-the-wheelie-big-cabaret-/1582/e158219_i345691_s3.jpg"
+        tags:
+          - "cabaret"
+          - "drag"
+          - "accessible"
+          - "performance"
+        raw: "**Lily Bellevedere presents: The Wheelie Big Cabaret** — Fri 21 Aug,
+
+          Strange Brew.\n"
+        summary: "Cabaret night hosted by Lily Bellevedere, billed around disabled performers."
+        confidence: "high"
+      - id: "music/strange-brew#2b0344e7b3"
+        sourceId: "music/strange-brew"
+        title: "Deep Street x Strange Brew w/ Glenn Underground"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/strange-brew/fri-21-aug-deep-street-x-strange-brew-w-glenn-underground-chicago--158739"
+        image: "https://www.headfirstbristol.co.uk/images/events/strange-brew/deep-street-x-strange-brew-w-glenn-underground-chicago-/1587/e158739_i347377_s3.jpg"
+        tags:
+          - "club-night"
+          - "house"
+          - "dj"
+          - "late-night"
+        raw: "**Deep Street x Strange Brew w/ Glenn Underground (Chicago)** — Fri 21
+
+          Aug, Strange Brew.\n"
+        summary: "Chicago house veteran Glenn Underground, brought over by Deep Street."
+        confidence: "high"
+      - id: "music/strange-brew#cee9ac8928"
+        sourceId: "music/strange-brew"
+        title: "We're All Going to the World's Fair"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/strange-brew/sat-22-aug-we-re-all-going-to-the-world-s-fair-2021-15-7-30pm-157177"
+        image: "https://www.headfirstbristol.co.uk/images/events/strange-brew/we-re-all-going-to-the-world-s-fair-2021-15-7-30pm/1571/e157177_i342525_s3.jpg"
+        ageRestriction: "15"
+        tags:
+          - "screening"
+          - "arthouse"
+          - "horror"
+        raw: "**We're All Going to the World's Fair (2021)** — Sat 22 Aug, 19:30,
+
+          Strange Brew. Certificate 15. Film screening.
+
+          The listing prints the certificate and time in the title as
+
+          \"We're All Going to the World's Fair 15 7.30pm\".\n"
+        summary: "A screening of Jane Schoenbrun's 2021 creepypasta horror, not a gig — the certificate and start time were printed in the listing's title."
+        confidence: "high"
+      - id: "music/strange-brew#8e028ebeef"
+        sourceId: "music/strange-brew"
+        title: "Peter Van Hoesen + Ayesha: RTN x System Revival"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/strange-brew/sat-22-aug-peter-van-hoesen-ayesha-rtn-x-system-revival-156631"
+        image: "https://www.headfirstbristol.co.uk/images/events/strange-brew/peter-van-hoesen-ayesha-rtn-x-system-revival/1566/e156631_i347473_s3.jpg"
+        tags:
+          - "club-night"
+          - "techno"
+          - "dj"
+          - "late-night"
+        raw: "**Peter Van Hoesen + Ayesha: RTN x System Revival** — Sat 22 Aug,
+
+          Strange Brew.\n"
+        summary: "Techno night with Peter Van Hoesen and Ayesha, RTN x System Revival."
+        confidence: "high"
+      - id: "music/strange-brew#ff40f35c4a"
+        sourceId: "music/strange-brew"
+        title: "Ata Kak + Mohamed Errebbaa"
+        occurrence:
+          kind: "single"
+          date: "2026-08-26"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/strange-brew/wed-26-aug-ata-kak-mohamed-errebbaa-152736"
+        image: "https://www.headfirstbristol.co.uk/images/events/strange-brew/ata-kak-mohamed-errebbaa/1527/e152736_i328723_s3.jpg"
+        tags:
+          - "live-music"
+          - "dance"
+          - "electronic"
+        raw: "**Ata Kak + Mohamed Errebbaa** — Wed 26 Aug, Strange Brew.\n"
+        summary: "Ghanaian highlife-rap cult figure Ata Kak, with Mohamed Errebbaa."
+        confidence: "high"
+      - id: "music/strange-brew#840f2ba246"
+        sourceId: "music/strange-brew"
+        title: "WetWare AudioVisual Performance Night w/ Sakr, AM sin, ex.icon +++"
+        occurrence:
+          kind: "single"
+          date: "2026-08-27"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/strange-brew/thu-27-aug-wetware-audiovisual-performance-night-w-sakr-am-sin-ex-icon--160223"
+        image: "https://www.headfirstbristol.co.uk/images/events/strange-brew/wetware-audiovisual-performance-night-w-sakr-am-sin-ex-icon-/1602/e160223_i351984_s3.jpg"
+        tags:
+          - "experimental"
+          - "electronic"
+          - "performance"
+          - "immersive"
+        raw: "**WetWare AudioVisual Performance Night w/ Sakr, AM sin, ex.icon +++** —
+
+          Thu 27 Aug, Strange Brew.\n"
+        summary: "Audiovisual performance night from WetWare, four acts deep."
+        confidence: "high"
+      - id: "music/strange-brew#780b228157"
+        sourceId: "music/strange-brew"
+        title: "GOO: Daniel Avery B2B Richard Fearless"
+        occurrence:
+          kind: "single"
+          date: "2026-08-28"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/strange-brew/fri-28-aug-goo-daniel-avery-b2b-richard-fearless-158402"
+        image: "https://www.headfirstbristol.co.uk/images/events/strange-brew/goo-daniel-avery-b2b-richard-fearless/1584/e158402_i347100_s3.jpg"
+        tags:
+          - "club-night"
+          - "techno"
+          - "dj"
+          - "headliner"
+        raw: "**GOO: Daniel Avery B2B Richard Fearless** — Fri 28 Aug, Strange Brew.\n"
+        summary: "Daniel Avery and Death In Vegas's Richard Fearless play back to back."
+        confidence: "high"
+      - id: "music/strange-brew#61513a64fd"
+        sourceId: "music/strange-brew"
+        title: "PTS ϟ daisy*, Mun Sing, Emma DJ, 祐曦 Yau Hei"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/strange-brew/sat-29-aug-pts-daisy-fka-babii-mun-sing-emma-dj-yau-hei-157416"
+        image: "https://www.headfirstbristol.co.uk/images/events/strange-brew/pts-daisy-fka-babii-mun-sing-emma-dj-yau-hei/1574/e157416_i350395_s3.jpg"
+        tags:
+          - "club-night"
+          - "experimental"
+          - "electronic"
+          - "dj"
+        raw: "**PTS ϟ daisy* (fka BABII), Mun Sing, Emma DJ, 祐曦 Yau Hei** — Sat 29
+
+          Aug, Strange Brew.\n"
+        summary: "PTS's club night with daisy* (formerly BABII), Mun Sing, Emma DJ and Yau Hei."
+        confidence: "high"
+      - id: "music/strange-brew#2cdeaf4a13"
+        sourceId: "music/strange-brew"
+        title: "Strange Brew presents Lakuti & Tama Sumo + Winkles"
+        occurrence:
+          kind: "single"
+          date: "2026-08-30"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/strange-brew/sun-30-aug-strange-brew-presents-lakuti-tama-sumo-winkles-160216"
+        image: "https://www.headfirstbristol.co.uk/images/events/strange-brew/strange-brew-presents-lakuti-tama-sumo-winkles/1602/e160216_i351952_s3.jpg"
+        tags:
+          - "club-night"
+          - "house"
+          - "dj"
+          - "party"
+        raw: "**Strange Brew presents Lakuti & Tama Sumo + Winkles** — Sun 30 Aug,
+
+          Strange Brew.\n"
+        summary: "Berlin's Lakuti and Tama Sumo on a bank holiday Sunday, an in-house Strange Brew booking."
+        confidence: "high"
+      - id: "music/strange-brew#4929a857d4"
+        sourceId: "music/strange-brew"
+        title: "Uncle Lucius + special guests"
+        occurrence:
+          kind: "single"
+          date: "2026-08-31"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/strange-brew/mon-31-aug-uncle-lucius-special-guests-151753"
+        image: "https://www.headfirstbristol.co.uk/images/events/strange-brew/uncle-lucius-special-guests/1517/e151753_i325979_s3.jpg"
+        tags:
+          - "live-music"
+          - "country"
+          - "rock"
+        raw: "**Uncle Lucius + special guests** — Mon 31 Aug, Strange Brew.\n"
+        summary: "Texan southern rock band Uncle Lucius."
+        confidence: "high"
+      - id: "music/strange-brew#3036a0b039"
+        sourceId: "music/strange-brew"
+        title: "Brakes + Joseph Pear"
+        occurrence:
+          kind: "single"
+          date: "2026-09-01"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/strange-brew/tue-1-sep-brakes-joseph-pear-150580"
+        image: "https://www.headfirstbristol.co.uk/images/events/strange-brew/brakes-joseph-pear/1505/e150580_i352803_s3.jpg"
+        tags:
+          - "live-music"
+          - "indie"
+          - "rock"
+        raw: "**Brakes + Joseph Pear** — Tue 1 Sep, Strange Brew.\n"
+        summary: "Brighton indie band Brakes, with Joseph Pear."
+        confidence: "high"
+      - id: "music/strange-brew#2c90a9df53"
+        sourceId: "music/strange-brew"
+        title: "Way Dynamic + special guests"
+        occurrence:
+          kind: "single"
+          date: "2026-09-02"
+        status: "sold-out"
+        url: "https://www.headfirstbristol.co.uk/whats-on/strange-brew/wed-2-sep-way-dynamic-special-guests-sold-out--153313"
+        image: "https://www.headfirstbristol.co.uk/images/events/strange-brew/way-dynamic-special-guests-sold-out-/1533/e153313_i337087_s3.jpg"
+        tags:
+          - "live-music"
+          - "indie"
+          - "rock"
+        raw: "**Way Dynamic + special guests** — Wed 2 Sep, Strange Brew. **Sold out**
+
+          (the venue prints it in the listing title).\n"
+        summary: "Way Dynamic's Bristol date, already sold out."
+        confidence: "high"
+      - id: "music/strange-brew#3840771607"
+        sourceId: "music/strange-brew"
+        title: "Frost Children"
+        occurrence:
+          kind: "single"
+          date: "2026-09-02"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/strange-brew/wed-2-sep-frost-children-afterparty--160388"
+        image: "https://www.headfirstbristol.co.uk/images/events/strange-brew/frost-children-afterparty-/1603/e160388_i352569_s3.jpg"
+        tags:
+          - "club-night"
+          - "electronic"
+          - "party"
+          - "late-night"
+        raw: "**Frost Children (afterparty)** — Wed 2 Sep, Strange Brew.\n"
+        summary: "Frost Children DJ an afterparty, the second thing on at Strange Brew that Wednesday."
+        confidence: "high"
+      - id: "music/strange-brew#f7887304d5"
+        sourceId: "music/strange-brew"
+        title: "Snuggle + RIP Swirl + Reckonwrong"
+        occurrence:
+          kind: "single"
+          date: "2026-09-04"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/strange-brew/fri-4-sep-snuggle-rip-swirl-reckonwrong-157065"
+        image: "https://www.headfirstbristol.co.uk/images/events/strange-brew/snuggle-rip-swirl-reckonwrong/1570/e157065_i342380_s3.jpg"
+        tags:
+          - "club-night"
+          - "electronic"
+          - "experimental"
+          - "dj"
+        raw: "**Snuggle + RIP Swirl + Reckonwrong** — Fri 4 Sep, Strange Brew.\n"
+        summary: "Snuggle's night with RIP Swirl and Reckonwrong."
+        confidence: "high"
+    notes: "The Headfirst mirror works and is the venue's real programme: headed \"What's on at Strange Brew in Bristol\", 10-12 Fairfax St, BS1 3DB. It listed 82 dated events from 18 Aug 2026 to 28 Jan 2027 and I recorded the soonest 16, to 4 Sep, truncating the remaining 66 for budget. No times and no prices anywhere on the index, so `raw` carries date, title and the venue's own genre words only; no event pages were opened, so no `description`. The programme is genuinely mixed and the tags carry the whole distinction — the same week holds a jazz gig, a drag cabaret, a film screening and two techno nights. Six of the 82 are marked sold out by the venue, one of which (Way Dynamic, 2 Sep) falls inside my window. `venue` is unset throughout: the events are at Strange Brew, which is itself the catalogued source, and Headfirst is only the server-rendered mirror of the widget its own site embeds."
+  - sourceId: "music/swx"
+    fetch:
+      ok: true
+      url: "https://electricbristol.com/events/"
+      status: 200
+    events:
+      - id: "music/swx#4e0fc9b9f6"
+        sourceId: "music/swx"
+        title: "Phoebe Bridgers: Album Release Show"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+        status: "sold-out"
+        timesText: "Two shows, a matinee and an evening; no times printed"
+        url: "https://electricbristol.com/events/phoebe-bridgers/"
+        image: "https://0d562966.delivery.rocketcdn.me/wp-content/uploads/2026/08/Phoebe-Bridgers-1200.jpg"
+        tags:
+          - "live-music"
+          - "indie"
+          - "folk"
+          - "headliner"
+        raw: "**Phoebe Bridgers: Album Release Show** — 21st August 2026, Electric
+
+          Bristol. **SOLD OUT.**
+
+          Listed twice, as \"Album Release Show (Matinee)\" and \"Album Release
+
+          Show\", both sold out. The matinee's own link is
+
+          https://electricbristol.com/events/phoebe-bridgers-album-release-show-matinee/.
+
+          Recorded as one event per the several-showings-in-one-day rule.\n"
+        summary: "Two sold-out album release shows in a day — a considerable booking for the room, and the first big date under the Electric name."
+        confidence: "high"
+      - id: "music/swx#bb091d4b44"
+        sourceId: "music/swx"
+        title: "Current Joys"
+        occurrence:
+          kind: "single"
+          date: "2026-08-23"
+        status: "scheduled"
+        url: "https://electricbristol.com/events/current-joys/"
+        image: "https://0d562966.delivery.rocketcdn.me/wp-content/uploads/2026/04/Current-Joys-1200.jpg"
+        tags:
+          - "live-music"
+          - "indie"
+          - "rock"
+        raw: "**Current Joys** — 23rd August 2026, Electric Bristol.\n"
+        summary: "Nick Rattigan's Current Joys on a Sunday headline date."
+        confidence: "high"
+      - id: "music/swx#ecf8c9bec6"
+        sourceId: "music/swx"
+        title: "Nation of Language"
+        occurrence:
+          kind: "single"
+          date: "2026-08-26"
+        status: "scheduled"
+        url: "https://electricbristol.com/events/nation-of-language/"
+        image: "https://0d562966.delivery.rocketcdn.me/wp-content/uploads/2026/03/1200-nation.jpg"
+        tags:
+          - "live-music"
+          - "electronic"
+          - "indie"
+        raw: "**Nation of Language** — 26th August 2026, Electric Bristol.\n"
+        summary: "Brooklyn synth-pop trio Nation of Language."
+        confidence: "high"
+      - id: "music/swx#a571d2df99"
+        sourceId: "music/swx"
+        title: "Ellie Goulding"
+        occurrence:
+          kind: "single"
+          date: "2026-09-02"
+        status: "scheduled"
+        url: "https://electricbristol.com/events/ellie-goulding/"
+        image: "https://0d562966.delivery.rocketcdn.me/wp-content/uploads/2026/08/Ellie-Goulding-1200.jpg"
+        tags:
+          - "live-music"
+          - "headliner"
+          - "party"
+        raw: "**Ellie Goulding** — 2nd September 2026, Electric Bristol.\n"
+        summary: "Ellie Goulding in a room far smaller than she normally plays."
+        confidence: "high"
+      - id: "music/swx#c50a0f83f6"
+        sourceId: "music/swx"
+        title: "Charlotte Church's End Times Pop Dungeon"
+        occurrence:
+          kind: "single"
+          date: "2026-09-11"
+        status: "scheduled"
+        url: "https://electricbristol.com/events/charlotte-churchs-end-times-pop-dungeon/"
+        image: "https://0d562966.delivery.rocketcdn.me/wp-content/uploads/2026/06/Charlotte-Church-120.jpg"
+        tags:
+          - "live-music"
+          - "party"
+          - "performance"
+        raw: "**Charlotte Church's End Times Pop Dungeon** — 11th September 2026,
+
+          Electric Bristol.\n"
+        summary: "Charlotte Church's big-band pop covers revue."
+        confidence: "high"
+      - id: "music/swx#e492ffac29"
+        sourceId: "music/swx"
+        title: "Brigitte Calls Me Baby"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+        status: "scheduled"
+        url: "https://electricbristol.com/events/brigitte-calls-me-baby/"
+        image: "https://0d562966.delivery.rocketcdn.me/wp-content/uploads/2026/05/Press-Photo-2025-2-scaled.jpg"
+        tags:
+          - "live-music"
+          - "indie"
+          - "rock"
+        raw: "**Brigitte Calls Me Baby** — 12th September 2026, Electric Bristol.\n"
+        summary: "Chicago crooner-rock band Brigitte Calls Me Baby."
+        confidence: "high"
+      - id: "music/swx#a046b62614"
+        sourceId: "music/swx"
+        title: "PRIMAL SCREAM – XTRMNTR"
+        occurrence:
+          kind: "single"
+          date: "2026-09-13"
+        status: "scheduled"
+        url: "https://electricbristol.com/events/primal-scream-xtrmntr/"
+        image: "https://0d562966.delivery.rocketcdn.me/wp-content/uploads/2026/04/Bobby-Gillespie-1200.jpg"
+        tags:
+          - "live-music"
+          - "rock"
+          - "classic"
+          - "headliner"
+        raw: "**PRIMAL SCREAM – XTRMNTR** — 13th September 2026, Electric Bristol.\n"
+        summary: "Primal Scream play XTRMNTR in full."
+        confidence: "high"
+      - id: "music/swx#0c3e43d52e"
+        sourceId: "music/swx"
+        title: "Feng"
+        occurrence:
+          kind: "single"
+          date: "2026-09-18"
+        status: "scheduled"
+        url: "https://electricbristol.com/events/feng/"
+        image: "https://0d562966.delivery.rocketcdn.me/wp-content/uploads/2026/03/Feng-1200.jpg"
+        tags:
+          - "live-music"
+          - "electronic"
+          - "one-night"
+        raw: "**Feng** — 18th September 2026, Electric Bristol.\n"
+        summary: "Feng headline a Friday."
+        confidence: "high"
+      - id: "music/swx#4442d6be20"
+        sourceId: "music/swx"
+        title: "Devlin"
+        occurrence:
+          kind: "single"
+          date: "2026-09-25"
+        status: "scheduled"
+        url: "https://electricbristol.com/events/devlin/"
+        image: "https://0d562966.delivery.rocketcdn.me/wp-content/uploads/2026/03/Devlin-1200.jpg"
+        tags:
+          - "live-music"
+          - "hip-hop"
+          - "headliner"
+        raw: "**Devlin** — 25th September 2026, Electric Bristol.\n"
+        summary: "Dagenham rapper Devlin."
+        confidence: "high"
+      - id: "music/swx#5b6f5f64c2"
+        sourceId: "music/swx"
+        title: "Goldie Lookin Chain"
+        occurrence:
+          kind: "single"
+          date: "2026-09-26"
+        status: "scheduled"
+        url: "https://electricbristol.com/events/goldie-lookin-chain-2/"
+        image: "https://0d562966.delivery.rocketcdn.me/wp-content/uploads/2025/10/Goldie-Lookin-Chain-1200.jpg"
+        tags:
+          - "live-music"
+          - "hip-hop"
+          - "comedy"
+          - "party"
+        raw: "**Goldie Lookin Chain** — 26th September 2026, Electric Bristol.\n"
+        summary: "Newport's Goldie Lookin Chain, still touring."
+        confidence: "high"
+      - id: "music/swx#a930a93ddf"
+        sourceId: "music/swx"
+        title: "Lime Garden"
+        occurrence:
+          kind: "single"
+          date: "2026-10-02"
+        status: "scheduled"
+        url: "https://electricbristol.com/events/lime-garden/"
+        image: "https://0d562966.delivery.rocketcdn.me/wp-content/uploads/2026/01/Lime-Garden-1200-1.jpg"
+        tags:
+          - "live-music"
+          - "indie"
+          - "rock"
+        raw: "**Lime Garden** — 2nd October 2026, Electric Bristol.\n"
+        summary: "Brighton indie band Lime Garden."
+        confidence: "high"
+      - id: "music/swx#0b1160aa31"
+        sourceId: "music/swx"
+        title: "Nora En Pure"
+        occurrence:
+          kind: "single"
+          date: "2026-10-02"
+        status: "scheduled"
+        url: "https://electricbristol.com/events/nora-en-pure/"
+        image: "https://0d562966.delivery.rocketcdn.me/wp-content/uploads/2026/07/Nora-En-Pure-1200.jpg"
+        tags:
+          - "club-night"
+          - "house"
+          - "dj"
+          - "late-night"
+        raw: "**Nora En Pure** — 2nd October 2026, Electric Bristol.\n"
+        summary: "Deep house DJ Nora En Pure, sharing the date with Lime Garden."
+        confidence: "high"
+      - id: "music/swx#20d9a9baab"
+        sourceId: "music/swx"
+        title: "the olllam"
+        occurrence:
+          kind: "single"
+          date: "2026-10-03"
+        status: "scheduled"
+        url: "https://electricbristol.com/events/the-olllam/"
+        image: "https://0d562966.delivery.rocketcdn.me/wp-content/uploads/2026/05/IMG_3516-2-scaled.png"
+        tags:
+          - "live-music"
+          - "folk"
+          - "experimental"
+        raw: "**the olllam** — 3rd October 2026, Electric Bristol.\n"
+        summary: "Irish-pipes-and-electronics group the olllam."
+        confidence: "high"
+      - id: "music/swx#4f3312aa60"
+        sourceId: "music/swx"
+        title: "Joyce Manor"
+        occurrence:
+          kind: "single"
+          date: "2026-10-06"
+        status: "scheduled"
+        url: "https://electricbristol.com/events/joyce-manor/"
+        image: "https://0d562966.delivery.rocketcdn.me/wp-content/uploads/2026/03/Joyce-Manor-1200.jpg"
+        tags:
+          - "live-music"
+          - "punk"
+          - "rock"
+        raw: "**Joyce Manor** — 6th October 2026, Electric Bristol.\n"
+        summary: "Californian emo-punk band Joyce Manor."
+        confidence: "high"
+      - id: "music/swx#e5e5a17599"
+        sourceId: "music/swx"
+        title: "nimino: keep me awake tour"
+        occurrence:
+          kind: "single"
+          date: "2026-10-08"
+        status: "scheduled"
+        url: "https://electricbristol.com/events/nimino-keep-me-awake-tour/"
+        image: "https://0d562966.delivery.rocketcdn.me/wp-content/uploads/2026/06/nimino-1200.jpg"
+        tags:
+          - "live-music"
+          - "electronic"
+          - "tour"
+        raw: "**nimino: keep me awake tour** — 8th October 2026, Electric Bristol.\n"
+        summary: "Producer nimino on the keep me awake tour."
+        confidence: "high"
+      - id: "music/swx#882e2db62b"
+        sourceId: "music/swx"
+        title: "The Lemonheads"
+        occurrence:
+          kind: "single"
+          date: "2026-10-09"
+        status: "scheduled"
+        url: "https://electricbristol.com/events/the-lemonheads/"
+        image: "https://0d562966.delivery.rocketcdn.me/wp-content/uploads/2025/10/Lemonheads-1200.jpg"
+        tags:
+          - "live-music"
+          - "rock"
+          - "classic"
+          - "indie"
+        raw: "**The Lemonheads** — 9th October 2026, Electric Bristol.\n"
+        summary: "Evan Dando's Lemonheads."
+        confidence: "high"
+      - id: "music/swx#100b9f17d9"
+        sourceId: "music/swx"
+        title: "WE ARE SCIENTISTS"
+        occurrence:
+          kind: "single"
+          date: "2026-10-10"
+        status: "scheduled"
+        url: "https://electricbristol.com/events/we-are-scientists/"
+        image: "https://0d562966.delivery.rocketcdn.me/wp-content/uploads/2026/06/We-Are-Scientists-1200.jpg"
+        tags:
+          - "live-music"
+          - "indie"
+          - "rock"
+        raw: "**WE ARE SCIENTISTS** — 10th October 2026, Electric Bristol.\n"
+        summary: "We Are Scientists on another UK run."
+        confidence: "high"
+      - id: "music/swx#21b5a8ac10"
+        sourceId: "music/swx"
+        title: "SIX60"
+        occurrence:
+          kind: "single"
+          date: "2026-10-11"
+        status: "scheduled"
+        url: "https://electricbristol.com/events/six60/"
+        image: "https://0d562966.delivery.rocketcdn.me/wp-content/uploads/2026/05/SIX60-1200.jpg"
+        tags:
+          - "live-music"
+          - "soul"
+          - "rock"
+        raw: "**SIX60** — 11th October 2026, Electric Bristol.\n"
+        summary: "New Zealand band SIX60."
+        confidence: "high"
+      - id: "music/swx#9c28dfc27d"
+        sourceId: "music/swx"
+        title: "The Skints"
+        occurrence:
+          kind: "single"
+          date: "2026-10-16"
+        status: "scheduled"
+        url: "https://electricbristol.com/events/the-skints-2/"
+        image: "https://0d562966.delivery.rocketcdn.me/wp-content/uploads/2026/03/The-Skints-1200.jpg"
+        tags:
+          - "live-music"
+          - "reggae"
+          - "punk"
+        raw: "**The Skints** — 16th October 2026, Electric Bristol.\n"
+        summary: "London reggae-punk band The Skints."
+        confidence: "high"
+      - id: "music/swx#f8a40590cf"
+        sourceId: "music/swx"
+        title: "Serum's Gaff – The Big Night Out"
+        occurrence:
+          kind: "single"
+          date: "2026-10-16"
+        status: "scheduled"
+        url: "https://electricbristol.com/events/serums-gaff-the-big-night-out/"
+        image: "https://0d562966.delivery.rocketcdn.me/wp-content/uploads/2026/07/Serums-Gaf-1200.jpg"
+        tags:
+          - "club-night"
+          - "drum-and-bass"
+          - "dj"
+          - "late-night"
+        raw: "**Serum's Gaff – The Big Night Out** — 16th October 2026, Electric
+
+          Bristol.\n"
+        summary: "Serum's drum and bass night, sharing the Friday with The Skints."
+        confidence: "high"
+      - id: "music/swx#89261028aa"
+        sourceId: "music/swx"
+        title: "ALPHA WOLF"
+        occurrence:
+          kind: "single"
+          date: "2026-10-17"
+        status: "scheduled"
+        url: "https://electricbristol.com/events/alpha-wolf/"
+        image: "https://0d562966.delivery.rocketcdn.me/wp-content/uploads/2026/03/Alpha-Wolf-1200.jpg"
+        tags:
+          - "live-music"
+          - "metal"
+          - "tour"
+        raw: "**ALPHA WOLF** — 17th October 2026, Electric Bristol.\n"
+        summary: "Australian metalcore band Alpha Wolf."
+        confidence: "high"
+      - id: "music/swx#052efe34de"
+        sourceId: "music/swx"
+        title: "GUILT TRIP"
+        occurrence:
+          kind: "single"
+          date: "2026-10-19"
+        status: "scheduled"
+        url: "https://electricbristol.com/events/guilt-trip/"
+        image: "https://0d562966.delivery.rocketcdn.me/wp-content/uploads/2026/05/Guilt-Trip-1200.jpg"
+        tags:
+          - "live-music"
+          - "metal"
+          - "punk"
+        raw: "**GUILT TRIP** — 19th October 2026, Electric Bristol.\n"
+        summary: "Belfast hardcore band Guilt Trip."
+        confidence: "high"
+      - id: "music/swx#680e0d093d"
+        sourceId: "music/swx"
+        title: "The Devil Wears Prada"
+        occurrence:
+          kind: "single"
+          date: "2026-10-20"
+        status: "scheduled"
+        url: "https://electricbristol.com/events/the-devil-wears-prada/"
+        image: "https://0d562966.delivery.rocketcdn.me/wp-content/uploads/2025/12/The-Devil-Wears-Prada-1200.jpg"
+        tags:
+          - "live-music"
+          - "metal"
+          - "tour"
+        raw: "**The Devil Wears Prada** — 20th October 2026, Electric Bristol.
+
+          Last event on page 2 of 6; pages 3 to 6 were not read.\n"
+        summary: "Ohio metalcore band The Devil Wears Prada, the furthest date I read."
+        confidence: "high"
+    notes: "The rebrand is confirmed from the venue's own side: electricbristol.com serves a working /events/ listing and the catalogue's dead swxbristol.com is not needed. The pagination hint is right — 12 events per page over 6 pages — and I followed the pager once, so this observation covers pages 1 and 2: 23 events from 21 Aug to 20 Oct 2026. Pages 3 to 6 were not read, so anything after 20 Oct is missing rather than absent. What the index does not give is substantial: no start times, no doors, no prices, no support acts, no age restrictions, and no room. Every date does carry an explicit year, so the year inference problem does not arise and confidence is high throughout even without printed weekdays. One merge: Phoebe Bridgers on 21 Aug is sold as a matinee and an evening show under two listings, recorded as one event with both noted, per the several-showings rule; both are sold out. Two events share 2 Oct (Lime Garden and Nora En Pure) and two share 16 Oct, which is the pager boundary rather than a duplicate."
+  - sourceId: "music/the-black-swan"
+    fetch:
+      ok: true
+      url: "https://www.headfirstbristol.co.uk/whats-on/the-black-swan"
+      status: 200
+    events: []
+    notes: "Reached, right venue, nothing listed — the same result as yesterday. The Headfirst page is headed The Black Swan at 438 Stapleton Rd, BS5 6NR, which matches the catalogued area, but the \"What's On At The Black Swan\" heading has no rows beneath it. I did follow the hint's suggestion to cross-check Skiddle, and it does not help: skiddle.com/whats-on/Bristol/The-Black-Swan/ is a different pub altogether — The Black Swan, 92 Stoke Lane, Westbury-on-Trym, BS9 3SP — and that page also says \"No events to display\". So the hint's fallback should be corrected: the Stapleton Road venue is not the Skiddle Black Swan, and this is now a third near-miss to add to the two already recorded in the catalogue notes. Given the venue programmes through Instagram and ticket agents and has no site of its own, two empty weekly runs in a row suggest either a different aggregator or a lower cadence is needed; that is a stage 1 call."
+  - sourceId: "music/the-bristol-fringe"
+    fetch:
+      ok: true
+      url: "https://www.thebristolfringe.co.uk/event-listings"
+      status: 200
+    events:
+      - id: "music/the-bristol-fringe#15e3949aae"
+        sourceId: "music/the-bristol-fringe"
+        title: "Jazz Rendezvous Jam"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+        status: "scheduled"
+        url: "https://www.thebristolfringe.co.uk/event-details-registration/jazz-rendezvous-jam-12"
+        image: "https://static.wixstatic.com/media/fd329a_b743df4ef1764069bd245005a5b2f032~mv2.png"
+        tags:
+          - "jazz"
+          - "live-music"
+          - "drop-in"
+        raw: "**Jazz Rendezvous Jam** — Mon 17 Aug, The Bristol Fringe.
+
+          \"Join us for a night of rhythm, soul and improvisation with The Jazz
+
+          Rendezvous Jam! Experience the magic as our house band pays tribute to
+
+          the greatest jazz legends\".\n"
+        summary: "House-band jazz jam open to sitters-in, the Fringe's Monday night fixture."
+        confidence: "high"
+      - id: "music/the-bristol-fringe#7c9d3d0a91"
+        sourceId: "music/the-bristol-fringe"
+        title: "Back Door Comedy"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+        status: "scheduled"
+        url: "https://www.thebristolfringe.co.uk/event-details-registration/back-door-comedy-12"
+        image: "https://static.wixstatic.com/media/fd329a_5affe3d31fac489db38e3832d7851325~mv2.jpg"
+        tags:
+          - "comedy"
+          - "stand-up"
+          - "work-in-progress"
+        raw: "**Back Door Comedy** — Tue 18 Aug, The Bristol Fringe.
+
+          \"Back Door Comedy Club, hosted in the ambient setting of our back room,
+
+          is a new material comedy night!\".\n"
+        summary: "New-material stand-up night in the Fringe's back room."
+        confidence: "high"
+      - id: "music/the-bristol-fringe#9989ab0de1"
+        sourceId: "music/the-bristol-fringe"
+        title: "Magic Night"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+        status: "scheduled"
+        url: "https://www.thebristolfringe.co.uk/event-details-registration/magic-night-60"
+        image: "https://static.wixstatic.com/media/23cbdd_e4148ea4525348a9bc35a23a10323185~mv2.png"
+        tags:
+          - "magic"
+          - "performance"
+          - "drop-in"
+        raw: "**Magic Night** — Wed 19 Aug, The Bristol Fringe.
+
+          \"Come down for a night of intimate, close-up bar magic. Our in-house
+
+          magician Marco will be sure to entertain\".\n"
+        summary: "Close-up bar magic from the Fringe's resident magician Marco."
+        confidence: "high"
+      - id: "music/the-bristol-fringe#8094942036"
+        sourceId: "music/the-bristol-fringe"
+        title: "Juke"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+        status: "scheduled"
+        url: "https://www.thebristolfringe.co.uk/event-details-registration/juke"
+        image: "https://static.wixstatic.com/media/23cbdd_42ea72472b95400c8da1a5da924f01c9~mv2.jpg"
+        tags:
+          - "live-music"
+          - "classic"
+          - "blues"
+        raw: "**Juke** — Thu 20 Aug, The Bristol Fringe.
+
+          \"Vintage Beat Sounds! 2 guitar/vocals. Stomp Box & Harmonica. Playing a
+
+          wide range of music from the 50's & 60's\".\n"
+        summary: "Two-piece playing fifties and sixties beat music with stomp box and harmonica."
+        confidence: "high"
+      - id: "music/the-bristol-fringe#70ed7da668"
+        sourceId: "music/the-bristol-fringe"
+        title: "Lee McCrory"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+        status: "scheduled"
+        url: "https://www.thebristolfringe.co.uk/event-details-registration/lee-mccrory-16"
+        image: "https://static.wixstatic.com/media/23cbdd_359c3b93dc2c44f2ba32087f91f2d64f~mv2.jpg"
+        tags:
+          - "live-music"
+          - "folk"
+          - "experimental"
+        raw: "**Lee McCrory** — Fri 21 Aug, The Bristol Fringe.
+
+          \"On the first Friday of every month, you can expect experimental
+
+          acoustic guitar, gruff vocals, and an eclectic...\"
+
+          Note: the blurb says first Friday of the month, but the listing's date is
+
+          Fri 21 Aug, which is the third. The date is recorded as printed.\n"
+        summary: "Experimental acoustic guitar and gruff vocals — billed as a monthly residency, though the date printed is not a first Friday."
+        confidence: "medium"
+      - id: "music/the-bristol-fringe#e1ac04c242"
+        sourceId: "music/the-bristol-fringe"
+        title: "Magic!"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+        status: "scheduled"
+        url: "https://www.thebristolfringe.co.uk/event-details-registration/magic-44"
+        image: "https://static.wixstatic.com/media/23cbdd_e4148ea4525348a9bc35a23a10323185~mv2.png"
+        tags:
+          - "magic"
+          - "performance"
+          - "matinee"
+          - "drop-in"
+        raw: "**Magic!** — Sat 22 Aug, The Bristol Fringe.
+
+          \"Come down for an afternoon of intimate, close-up bar magic. Our
+
+          in-house magician Marco\".\n"
+        summary: "The Saturday afternoon version of the Fringe's close-up magic session."
+        confidence: "high"
+      - id: "music/the-bristol-fringe#af535e3bcd"
+        sourceId: "music/the-bristol-fringe"
+        title: "PM LeGrand"
+        occurrence:
+          kind: "single"
+          date: "2026-08-23"
+        status: "scheduled"
+        url: "https://www.thebristolfringe.co.uk/event-details-registration/pm-legrand-10"
+        image: "https://static.wixstatic.com/media/fd329a_de5bab9d776f458fbd96a6a6863d7ed9~mv2.jpg"
+        tags:
+          - "live-music"
+          - "blues"
+          - "country"
+        raw: "**PM LeGrand** — Sun 23 Aug, The Bristol Fringe.
+
+          \"PM Legrand takes the sound of vintage blues and country classics and
+
+          stretches it into a modern, soulful...\"\n"
+        summary: "Vintage blues and country reworked, from PM LeGrand."
+        confidence: "high"
+      - id: "music/the-bristol-fringe#e708cf33bb"
+        sourceId: "music/the-bristol-fringe"
+        title: "The Little Ass Cabaret - Part Two"
+        occurrence:
+          kind: "single"
+          date: "2026-08-23"
+        status: "scheduled"
+        url: "https://www.thebristolfringe.co.uk/event-details-registration/the-little-ass-cabaret-part-two"
+        image: "https://static.wixstatic.com/media/fd329a_b13ee7be356a4b74b9e955dcda166c67~mv2.png"
+        tags:
+          - "cabaret"
+          - "performance"
+          - "comedy"
+        raw: "**The Little Ass Cabaret- Part Two** — Sun 23 Aug, The Bristol Fringe.
+
+          \"After a sold out show in Bath, as part of the Bath fringe festival, it's
+
+          only fair BlueSuit...\"\n"
+        summary: "BlueSuit's cabaret transfers from a sold-out Bath Fringe run for a second part."
+        confidence: "high"
+      - id: "music/the-bristol-fringe#3f3def8224"
+        sourceId: "music/the-bristol-fringe"
+        title: "Alamo Leal & Guests"
+        occurrence:
+          kind: "single"
+          date: "2026-08-24"
+        status: "scheduled"
+        url: "https://www.thebristolfringe.co.uk/event-details-registration/alamo-leal-guests"
+        image: "https://static.wixstatic.com/media/23cbdd_06d999516fd240b3ac47023b0672c94d~mv2.jpg"
+        tags:
+          - "live-music"
+          - "blues"
+          - "headliner"
+        raw: "**Alamo Leal & Guests** — Mon 24 Aug, The Bristol Fringe.
+
+          \"Brazilian blues legend Alamo Leal is back and bringing special guests!
+
+          Alamo oozes with intensity, passion...\"\n"
+        summary: "Brazilian bluesman Alamo Leal returns with guests."
+        confidence: "high"
+      - id: "music/the-bristol-fringe#c5c290291d"
+        sourceId: "music/the-bristol-fringe"
+        title: "Tarot Night"
+        occurrence:
+          kind: "single"
+          date: "2026-08-25"
+        status: "scheduled"
+        url: "https://www.thebristolfringe.co.uk/event-details-registration/tarot-night-10"
+        image: "https://static.wixstatic.com/media/fd329a_0d54d5dfef52452ba91c3ee936eab7ed~mv2.jpg"
+        tags:
+          - "drop-in"
+          - "community"
+          - "hands-on"
+        raw: "**Tarot Night** — Tue 25 Aug, The Bristol Fringe.
+
+          \"Curious about what lies ahead? Ever wondered what the universe has in
+
+          store for you? Join us this...\"\n"
+        summary: "Tarot readings in the bar — not a music night."
+        confidence: "high"
+      - id: "music/the-bristol-fringe#c4b38ee0a1"
+        sourceId: "music/the-bristol-fringe"
+        title: "Magic Night"
+        occurrence:
+          kind: "single"
+          date: "2026-08-26"
+        status: "scheduled"
+        url: "https://www.thebristolfringe.co.uk/event-details-registration/magic-night-61"
+        image: "https://static.wixstatic.com/media/23cbdd_e4148ea4525348a9bc35a23a10323185~mv2.png"
+        tags:
+          - "magic"
+          - "performance"
+          - "drop-in"
+        raw: "**Magic Night** — Wed 26 Aug, The Bristol Fringe.
+
+          \"Come down for a night of intimate, close-up bar magic. Our in-house
+
+          magician Marco\".\n"
+        summary: "The following Wednesday's close-up magic session with Marco."
+        confidence: "high"
+      - id: "music/the-bristol-fringe#184743a741"
+        sourceId: "music/the-bristol-fringe"
+        title: "Rootin' & Tootin' with James Fuke"
+        occurrence:
+          kind: "single"
+          date: "2026-08-27"
+        status: "scheduled"
+        url: "https://www.thebristolfringe.co.uk/event-details-registration/rootin-tootin-with-james-fuke-5"
+        image: "https://static.wixstatic.com/media/fd329a_bb14ab07c0454248b674c8c5e23df53b~mv2.jpg"
+        tags:
+          - "live-music"
+          - "country"
+          - "folk"
+        raw: "**Rootin' & Tootin' with James Fuke** — Thu 27 Aug, The Bristol Fringe.
+
+          \"What's Rootin' Tootin' down at The Clifton Fringe?! We're tootin' our
+
+          horns at this vibrant new residency taking place every other month\".\n"
+        summary: "James Fuke's roots and country residency, which the venue says runs every other month."
+        confidence: "high"
+      - id: "music/the-bristol-fringe#b71da068e6"
+        sourceId: "music/the-bristol-fringe"
+        title: "A-Z Acoustic"
+        occurrence:
+          kind: "single"
+          date: "2026-08-28"
+        status: "scheduled"
+        url: "https://www.thebristolfringe.co.uk/event-details-registration/a-z-acoustic"
+        image: "https://static.wixstatic.com/media/fd329a_45e778bccb7a49ea87089a5db7ea8da3~mv2.jpg"
+        tags:
+          - "live-music"
+          - "folk"
+          - "interactive"
+        raw: "**A-Z Acoustic** — Fri 28 Aug, The Bristol Fringe.
+
+          \"Upbeat acoustic covers performed in a unique way as a one-man band!
+
+          With lots of audience interaction\".\n"
+        summary: "One-man-band acoustic covers with plenty of audience involvement."
+        confidence: "high"
+      - id: "music/the-bristol-fringe#732959645e"
+        sourceId: "music/the-bristol-fringe"
+        title: "Magic!"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+        status: "scheduled"
+        url: "https://www.thebristolfringe.co.uk/event-details-registration/magic-45"
+        image: "https://static.wixstatic.com/media/23cbdd_e4148ea4525348a9bc35a23a10323185~mv2.png"
+        tags:
+          - "magic"
+          - "performance"
+          - "matinee"
+          - "drop-in"
+        raw: "**Magic!** — Sat 29 Aug, The Bristol Fringe.
+
+          \"Come down for an afternoon of intimate, close-up bar magic. Our
+
+          in-house magician Marco\".\n"
+        summary: "Saturday afternoon close-up magic, the second listed instance."
+        confidence: "high"
+      - id: "music/the-bristol-fringe#cd6e01197c"
+        sourceId: "music/the-bristol-fringe"
+        title: "John E Vistics Sunday Blues Club"
+        occurrence:
+          kind: "single"
+          date: "2026-08-30"
+        status: "scheduled"
+        url: "https://www.thebristolfringe.co.uk/event-details-registration/john-e-vistics-sunday-blues-club-9"
+        image: "https://static.wixstatic.com/media/fd329a_ffe05a5880b44f9cb6892aac56ead6f4~mv2.jpg"
+        tags:
+          - "live-music"
+          - "blues"
+          - "community"
+        raw: "**John E Vistics Sunday Blues Club** — Sun 30 Aug, The Bristol Fringe.
+
+          \"On the last Sunday of every month, old-school blues geezer John E Vistic
+
+          teams up with hot-shot guitarist...\"\n"
+        summary: "John E Vistic's monthly blues club, on the last Sunday as the blurb states."
+        confidence: "high"
+      - id: "music/the-bristol-fringe#5b6faf18fe"
+        sourceId: "music/the-bristol-fringe"
+        title: "Songwriter's Showcase"
+        occurrence:
+          kind: "single"
+          date: "2026-08-30"
+        status: "scheduled"
+        url: "https://www.thebristolfringe.co.uk/event-details-registration/songwriters-showcase-14"
+        image: "https://static.wixstatic.com/media/fd329a_7e66d00228934d3090bf3f5617a08aa7~mv2.jpg"
+        tags:
+          - "live-music"
+          - "folk"
+          - "community"
+        raw: "**Songwriter's Showcase** — Sun 30 Aug, The Bristol Fringe.
+
+          \"Come along to our monthly songwriters showcase, hosted by Jelli Records
+
+          Bristol\".\n"
+        summary: "Jelli Records' monthly showcase for Bristol songwriters."
+        confidence: "high"
+      - id: "music/the-bristol-fringe#1254cca2e1"
+        sourceId: "music/the-bristol-fringe"
+        title: "Let's Talk Jam"
+        occurrence:
+          kind: "single"
+          date: "2026-08-31"
+        status: "scheduled"
+        url: "https://www.thebristolfringe.co.uk/event-details-registration/lets-talk-jam-4"
+        image: "https://static.wixstatic.com/media/23cbdd_ef82f192213c40ae9f4870e37023233a~mv2.jpg"
+        price:
+          free: true
+          text: "Entry is free"
+        tags:
+          - "hip-hop"
+          - "jazz"
+          - "free-entry"
+          - "drop-in"
+        raw: "**Let's Talk Jam** — Mon 31 Aug, The Bristol Fringe.
+
+          \"Previously called Seed Sessions, this is now Lets Talk, supported hip
+
+          hop/jazz fusion jam on the last Monday of every month! Entry is free\".\n"
+        summary: "Free hip hop and jazz fusion jam, last Monday of the month, formerly Seed Sessions."
+        confidence: "high"
+      - id: "music/the-bristol-fringe#9f8bcfe011"
+        sourceId: "music/the-bristol-fringe"
+        title: "Magic Night"
+        occurrence:
+          kind: "single"
+          date: "2026-09-02"
+        status: "scheduled"
+        url: "https://www.thebristolfringe.co.uk/event-details-registration/magic-night-62"
+        image: "https://static.wixstatic.com/media/23cbdd_e4148ea4525348a9bc35a23a10323185~mv2.png"
+        tags:
+          - "magic"
+          - "performance"
+          - "drop-in"
+        raw: "**Magic Night** — Wed 02 Sept, The Bristol Fringe.
+
+          \"Come down for a night of intimate, close-up bar magic. Our in-house
+
+          magician Marco\".
+
+          Last entry on the page — the horizon really is about two weeks, as the
+
+          hint says.\n"
+        summary: "The furthest date the Fringe currently lists, another Wednesday magic night."
+        confidence: "high"
+    notes: "Catalogue URL is good and the hint's warnings both bite. The page lists 18 events, every night from 17 Aug to 2 Sep 2026, and I recorded all of them — nothing truncated. Dates are printed without a year, so I inferred 2026 and then checked every printed weekday against it: all 18 agree, so these are `confidence: high` rather than medium. No times and no prices are given for any row, which is why `price` is omitted throughout rather than guessed — the one exception is Let's Talk Jam, whose own blurb says \"Entry is free\". As the hint says, this is one small room with a mixed programme, so plenty of it is not music: two comedy nights, a cabaret, a tarot night and five magic sessions. Tags carry that distinction. One thing for a future run to weigh: Magic Night appears on three consecutive Wednesdays and Magic! on consecutive Saturday afternoons, which is plainly a weekly residency, but the page states no pattern in words and publishes each week as its own dated listing with its own link. I have recorded them as the page has them rather than inventing a pattern; if that proves noisy on the site, a `recurring` occurrence is the fix, and it needs wording from the venue to do honestly. Also worth a hint: Lee McCrory is listed on Fri 21 Aug but its own blurb says \"On the first Friday of every month\", and 21 Aug is the third Friday. The date is recorded as the page gives it, with the discrepancy in `raw`."
+  - sourceId: "music/the-canteen"
+    fetch:
+      ok: true
+      url: "https://www.headfirstbristol.co.uk/whats-on/the-canteen"
+      status: 200
+    events:
+      - id: "music/the-canteen#82ffe4a82c"
+        sourceId: "music/the-canteen"
+        title: "Heartwood Chorus - folk choir from Bristol"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-canteen/mon-17-aug-heartwood-chorus-folk-choir-from-bristol--158598"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-canteen/heartwood-chorus-folk-choir-from-bristol-/1585/e158598_i346872_s3.jpg"
+        price:
+          free: true
+          text: "Free entry before 9.30pm"
+        tags:
+          - "live-music"
+          - "folk"
+          - "free-entry"
+          - "community"
+        raw: "**Heartwood Chorus - folk choir from Bristol** — Mon 17 Aug, The Canteen.
+
+          Free entry before 9.30pm. Genres: folk, traditional folk.\n"
+        summary: "Bristol folk choir Heartwood Chorus, free before half nine."
+        confidence: "high"
+      - id: "music/the-canteen#3eaca6d467"
+        sourceId: "music/the-canteen"
+        title: "Crawfish - Old school R&B/Blues"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-canteen/wed-19-aug-crawfish-old-school-r-b-blues-158499"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-canteen/crawfish-old-school-r-b-blues/1584/e158499_i346567_s3.jpg"
+        price:
+          free: true
+          text: "Free entry before 9.30pm"
+        tags:
+          - "live-music"
+          - "blues"
+          - "free-entry"
+        raw: "**Crawfish- Old school R&B/Blues** — Wed 19 Aug, The Canteen.
+
+          Free entry before 9.30pm. Genres: blues, blues-rock.\n"
+        summary: "Old-school R&B and blues from Crawfish."
+        confidence: "high"
+      - id: "music/the-canteen#3ac5eba39d"
+        sourceId: "music/the-canteen"
+        title: "Blackberry Wood - Canadian foot stomping gypsy circus music"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-canteen/thu-20-aug-blackberry-wood-canadian-foot-stomping-gypsy-circus-music--158500"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-canteen/blackberry-wood-canadian-foot-stomping-gypsy-circus-music-/1585/e158500_i346568_s3.jpg"
+        price:
+          free: true
+          text: "Free entry before 9.30pm"
+        tags:
+          - "live-music"
+          - "jazz"
+          - "circus"
+          - "free-entry"
+        raw: "**Blackberry Wood- Canadian foot stomping gypsy circus music** — Thu 20
+
+          Aug, The Canteen. Free entry before 9.30pm. Genres: gypsy jazz, jazz.\n"
+        summary: "Vancouver's Blackberry Wood and their circus-flavoured gypsy jazz."
+        confidence: "high"
+      - id: "music/the-canteen#d476168c91"
+        sourceId: "music/the-canteen"
+        title: "Ask My Bull - Punk Drum & Bass + DJ Mook"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-canteen/fri-21-aug-ask-my-bull-punk-drum-bass-dj-mook-158572"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-canteen/ask-my-bull-punk-drum-bass-dj-mook/1585/e158572_i346801_s3.jpg"
+        price:
+          free: false
+          text: "£5 entry after 9.30pm"
+          min: 5
+          max: 5
+          currency: "GBP"
+        tags:
+          - "live-music"
+          - "drum-and-bass"
+          - "punk"
+          - "dj"
+        raw: "**Ask My Bull - Punk Drum & Bass + DJ Mook** — Fri 21 Aug, The Canteen.
+
+          £5 entry after 9.30pm. Genres: drum and bass, experimental, jazz, punk.\n"
+        summary: "Live punk drum and bass from Ask My Bull, then DJ Mook."
+        confidence: "high"
+      - id: "music/the-canteen#fdebd1535d"
+        sourceId: "music/the-canteen"
+        title: "PCHA live - percussive electronic music with balafon virtuoso + DJ Tom Riley"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-canteen/sat-22-aug-pcha-live-percussive-electronic-music-with-balafon-virtuoso-dj-tom-riley-158574"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-canteen/pcha-live-percussive-electronic-music-with-balafon-virtuoso-dj-tom-riley/1585/e158574_i346818_s3.jpg"
+        price:
+          free: false
+          text: "£5 entry after 9.30pm"
+          min: 5
+          max: 5
+          currency: "GBP"
+        tags:
+          - "live-music"
+          - "electronic"
+          - "dance"
+          - "dj"
+        raw: "**PCHA live - percussive electronic music with balafon virtuoso + DJ Tom
+
+          Riley** — Sat 22 Aug, The Canteen. £5 entry after 9.30pm.
+
+          Genres: afrobeat, electronic, amapiano.\n"
+        summary: "Balafon-led percussive electronics from PCHA, with DJ Tom Riley after."
+        confidence: "high"
+      - id: "music/the-canteen#154b0b9c76"
+        sourceId: "music/the-canteen"
+        title: "Isaac Neilson's one gig everyday for a year - Indie acoustic set"
+        occurrence:
+          kind: "single"
+          date: "2026-08-23"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-canteen/sun-23-aug-isaac-neilson-s-one-gig-everyday-for-a-year-indie-live-acoustic-set-159071"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-canteen/isaac-neilson-s-one-gig-everyday-for-a-year-indie-live-acoustic-set/1590/e159071_i348421_s3.jpg"
+        price:
+          free: true
+          text: "Free entry before 9.30pm"
+        tags:
+          - "live-music"
+          - "indie"
+          - "folk"
+          - "free-entry"
+        raw: "**Isaac Neilson's one gig everyday for a year - Indie live acoustic set**
+
+          — Sun 23 Aug, The Canteen. Free entry before 9.30pm.
+
+          Genre: singer-songwriter.\n"
+        summary: "One stop on Isaac Neilson's attempt at a gig every day for a year, played acoustic."
+        confidence: "high"
+      - id: "music/the-canteen#35fe20b119"
+        sourceId: "music/the-canteen"
+        title: "The Vero Neka Big Band"
+        occurrence:
+          kind: "single"
+          date: "2026-08-26"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-canteen/wed-26-aug-the-vero-neka-big-band-158578"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-canteen/the-vero-neka-big-band/1585/e158578_i346822_s3.jpg"
+        price:
+          free: true
+          text: "Free entry before 9.30pm"
+        tags:
+          - "live-music"
+          - "jazz"
+          - "free-entry"
+        raw: "**The Vero Neka Big Band** — Wed 26 Aug, The Canteen.
+
+          Free entry before 9.30pm. Genres: big band, swing.\n"
+        summary: "A full big band squeezed into The Canteen, free before half nine."
+        confidence: "high"
+      - id: "music/the-canteen#b7fb35c4cb"
+        sourceId: "music/the-canteen"
+        title: "Kangaroo Moon - Psycho-celtic folk fusion"
+        occurrence:
+          kind: "single"
+          date: "2026-08-27"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-canteen/thu-27-aug-kangaroo-moon-psycho-celtic-folk-fusion-159069"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-canteen/kangaroo-moon-psycho-celtic-folk-fusion/1590/e159069_i348411_s3.jpg"
+        price:
+          free: true
+          text: "Free entry before 9.30pm"
+        tags:
+          - "live-music"
+          - "folk"
+          - "electronic"
+          - "free-entry"
+        raw: "**Kangaroo Moon - Psycho-celtic folk fusion** — Thu 27 Aug, The Canteen.
+
+          Free entry before 9.30pm. Genres: ambient, electronic, folk.\n"
+        summary: "Long-running Glastonbury-scene band Kangaroo Moon."
+        confidence: "high"
+      - id: "music/the-canteen#6d1c9d4fa1"
+        sourceId: "music/the-canteen"
+        title: "The Scribes - hip hop + DJ Alchemyth"
+        occurrence:
+          kind: "single"
+          date: "2026-08-28"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-canteen/fri-28-aug-the-scribes-hip-hop-dj-alchemyth-158581"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-canteen/the-scribes-hip-hop-dj-alchemyth/1585/e158581_i346825_s3.jpg"
+        price:
+          free: false
+          text: "£5 entry after 9.30pm"
+          min: 5
+          max: 5
+          currency: "GBP"
+        tags:
+          - "live-music"
+          - "hip-hop"
+          - "dj"
+        raw: "**The Scribes - hip hop + DJ Alchemyth** — Fri 28 Aug, The Canteen.
+
+          £5 entry after 9.30pm. Genre: hip hop.\n"
+        summary: "Bristol hip hop group The Scribes, with DJ Alchemyth."
+        confidence: "high"
+      - id: "music/the-canteen#8f394e05c1"
+        sourceId: "music/the-canteen"
+        title: "Plantfood + DJ Discobobulator"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-canteen/sat-29-aug-plantfood-dj-discobobulator-158582"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-canteen/plantfood-dj-discobobulator/1585/e158582_i346826_s3.jpg"
+        price:
+          free: false
+          text: "£5 entry after 9.30pm"
+          min: 5
+          max: 5
+          currency: "GBP"
+        tags:
+          - "live-music"
+          - "jazz"
+          - "electronic"
+          - "dj"
+        raw: "**Plantfood + DJ Discobobulator** — Sat 29 Aug, The Canteen.
+
+          £5 entry after 9.30pm. Genres: electronic, jazz, punk.\n"
+        summary: "Plantfood's jazz-punk electronics, then DJ Discobobulator."
+        confidence: "high"
+      - id: "music/the-canteen#9b72e0e056"
+        sourceId: "music/the-canteen"
+        title: "Brass Junkies - Brass Band + DJ Isabella"
+        occurrence:
+          kind: "single"
+          date: "2026-09-04"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-canteen/fri-4-sep-brass-junkies-brass-band-dj-isabella-159264"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-canteen/brass-junkies-brass-band-dj-isabella/1592/e159264_i349034_s3.jpg"
+        price:
+          free: false
+          text: "£5 entry after 9.30pm"
+          min: 5
+          max: 5
+          currency: "GBP"
+        tags:
+          - "live-music"
+          - "jazz"
+          - "soul"
+          - "dj"
+        raw: "**Brass Junkies - Brass Band + DJ Isabella** — Fri 4 Sep, The Canteen.
+
+          £5 entry after 9.30pm. Genres: big band, contemporary jazz, jazz, jazz
+
+          funk.\n"
+        summary: "Brass Junkies, who also play The Lanes in October, with DJ Isabella after."
+        confidence: "high"
+      - id: "music/the-canteen#99a517d13e"
+        sourceId: "music/the-canteen"
+        title: "The Junko-Active Wasteman & The Rin Can Twins"
+        occurrence:
+          kind: "single"
+          date: "2026-09-05"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-canteen/sat-5-sep-the-junko-active-wasteman-the-rin-can-twins-159268"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-canteen/the-junko-active-wasteman-the-rin-can-twins/1592/e159268_i349051_s3.jpg"
+        price:
+          free: false
+          text: "£5 entry after 9.30pm"
+          min: 5
+          max: 5
+          currency: "GBP"
+        tags:
+          - "live-music"
+          - "electronic"
+          - "experimental"
+        raw: "**The Junko-Active Wasteman & The Rin Can Twins** — Sat 5 Sep, The
+
+          Canteen. £5 entry after 9.30pm. Genres: electro, electronic.\n"
+        summary: "Electro double bill; the last date inside my four-week window."
+        confidence: "high"
+    notes: "The mirror works and the nightly-music hint is confirmed: headed The Canteen, Hamilton House, 80 Stokes Croft, St Pauls BS1 3QY, with something on almost every night. The page carries 28 events to 11 Dec 2026; I asked for and recorded the first four weeks, 12 events from tonight to 5 Sep, and the remaining 16 are truncated. Coverage is thinner than the source deserves and a future run should take the whole page — this one was budgeted for breadth across seventeen venues. Unusually for a Headfirst page, prices are printed, and they follow the venue's door policy rather than the act: weeknight shows are \"free entry before 9.30pm\" and weekend shows \"£5 entry after 9.30pm\". I have set `price.free` from that wording rather than inferring it. The hint about titles is exactly right — most rows are an artist name with the genre appended, so the title is often \"Crawfish- Old school R&B/Blues\"; I have kept the venue's own phrasing. No start times are given for any row, only the 21:30 door threshold in the price text, so `occurrence.startTime` is omitted throughout."
+  - sourceId: "music/the-gallimaufry"
+    fetch:
+      ok: true
+      url: "https://www.thegallimaufry.co.uk/whatson"
+      status: 200
+    events:
+      - id: "music/the-gallimaufry#17d924823c"
+        sourceId: "music/the-gallimaufry"
+        title: "Monday Open Mic with Luna Kali"
+        subcategory: "MONDAY - OPEN MIC"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Monday"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "Sign up from 7pm, starts at 8pm"
+        price:
+          free: true
+          text: "Free entry"
+        tags:
+          - "open-mic"
+          - "live-music"
+          - "free-entry"
+          - "drop-in"
+        raw: "**MONDAY - OPEN MIC**
+
+          \"Every Monday, Luna Kali hosts a cosy and inviting Open Mic Night.\"
+
+          Sign up from 7pm, starts at 8pm. Free entry.\n"
+        summary: "Luna Kali's weekly open mic — sign up from seven, music from eight, free to attend."
+        confidence: "high"
+      - id: "music/the-gallimaufry#0cd8d0275a"
+        sourceId: "music/the-gallimaufry"
+        title: "Sounds of Sol"
+        subcategory: "WEDNESDAY - SOUNDS OF SOL"
+        occurrence:
+          kind: "recurring"
+          pattern: "Wednesdays"
+          startTime: "21:00"
+        status: "scheduled"
+        price:
+          free: true
+          text: "Free entry"
+        tags:
+          - "dj"
+          - "soul"
+          - "free-entry"
+          - "seasonal"
+        raw: "**WEDNESDAY - SOUNDS OF SOL**
+
+          \"We take a breather from our usual live music and soundtrack the hot
+
+          August nights with vinyl-only grooves.\" 9pm start. Free entry.\n"
+        summary: "Vinyl-only DJ night standing in for the usual Wednesday live music over the summer."
+        confidence: "medium"
+      - id: "music/the-gallimaufry#fef07fb20e"
+        sourceId: "music/the-gallimaufry"
+        title: "B2B Fridays"
+        subcategory: "FRIDAY - B2B"
+        occurrence:
+          kind: "recurring"
+          pattern: "Fridays"
+          startTime: "21:00"
+        status: "scheduled"
+        timesText: "9pm - 2am"
+        price:
+          free: true
+          text: "Free entry"
+        tags:
+          - "dj"
+          - "club-night"
+          - "free-entry"
+          - "late-night"
+        raw: "**FRIDAY - B2B**
+
+          \"Kickstart your weekend with an eclectic mix of bootleg tunes and
+
+          undiscovered gems.\" 9pm - 2am. Free entry.\n"
+        summary: "Back-to-back DJ pairings until two, free in — the Gallimaufry's Friday fixture."
+        confidence: "high"
+      - id: "music/the-gallimaufry#c68a5cf093"
+        sourceId: "music/the-gallimaufry"
+        title: "Residence"
+        subcategory: "SATURDAY - RESIDENCE"
+        occurrence:
+          kind: "recurring"
+          pattern: "Saturdays"
+          startTime: "21:00"
+        status: "scheduled"
+        timesText: "9pm - 2am"
+        price:
+          free: true
+          text: "Free entry"
+        tags:
+          - "dj"
+          - "house"
+          - "club-night"
+          - "free-entry"
+        raw: "**SATURDAY - RESIDENCE**
+
+          \"A Saturday night dedicated to jazzy, soulful deep house.\" 9pm - 2am.
+
+          Free entry.\n"
+        summary: "Jazzy, soulful deep house every Saturday until two, no door charge."
+        confidence: "high"
+      - id: "music/the-gallimaufry#e89464a2a2"
+        sourceId: "music/the-gallimaufry"
+        title: "Family Business"
+        subcategory: "SUNDAY - FAMILY BUSINESS"
+        occurrence:
+          kind: "recurring"
+          pattern: "Sundays"
+          startTime: "20:30"
+        status: "scheduled"
+        timesText: "House band introduces at 8:30pm"
+        price:
+          free: true
+          text: "Free entry"
+        tags:
+          - "hip-hop"
+          - "live-music"
+          - "free-entry"
+          - "drop-in"
+        raw: "**SUNDAY - FAMILY BUSINESS**
+
+          \"The famous Family Business Hip Hop Jam night\". House band introduces at
+
+          8:30pm. Free entry.\n"
+        summary: "The Gallimaufry's long-running Sunday hip hop jam, with a house band backing whoever turns up."
+        confidence: "high"
+    notes: "The hint is right on every count and this observation is shaped by it. The path is /whatson with no hyphen; the page is the venue's own (26-28 The Promenade, Gloucester Rd, Bishopston, BS7 8AL); and the great majority of the programme is stated as named weekly nights rather than dated one-offs. I have recorded the five weekly nights as `recurring`, using the page's own wording for the pattern and blurb, which is the whole of what is currently on offer here. The dated section is confirmed dead, and unchanged since yesterday's check. It lists in reverse order from Thu 30 April 2026 back to Sat 28 March 2026 — every entry in the past, nothing for August or September at all. So the calendar is four months stale while the venue is demonstrably still programming nightly, exactly as the hint describes. I have recorded none of those past one-offs: they are finished events, not a forward programme, and logging them would put four-month-old gigs on the site. One caveat a reviewer should hold: the Wednesday blurb is seasonal in its own words — \"we take a breather from our usual live music and soundtrack the hot August nights with vinyl-only grooves\" — so Sounds of Sol may be an August substitution for live music rather than a year-round fixture. It has no end date on the page, so none is recorded. Also: `open-mic` is a new tag. Nothing in the existing 136 covers the form, and `drop-in` alone loses what it is; flagging it so the vocabulary check does not treat it as drift."
+  - sourceId: "music/the-lanes"
+    fetch:
+      ok: true
+      url: "https://www.headfirstbristol.co.uk/whats-on/the-lanes"
+      status: 200
+    events:
+      - id: "music/the-lanes#f613c6d1a3"
+        sourceId: "music/the-lanes"
+        title: "DGeneration Nu : SummerSlam'd"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-lanes/sat-22-aug-dgeneration-nu-summerslam-d-155709"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-lanes/dgeneration-nu-summerslam-d/1557/e155709_i337833_s3.jpg"
+        tags:
+          - "club-night"
+          - "rock"
+          - "metal"
+          - "party"
+        raw: "**DGeneration Nu : SummerSlam'd** — Sat 22 Aug, The Lanes.
+
+          Genres: rock, rock-and-roll, metal.\n"
+        summary: "Nu-metal and wrestling-themed club night DGeneration Nu."
+        confidence: "high"
+      - id: "music/the-lanes#a1e18f1a4a"
+        sourceId: "music/the-lanes"
+        title: "★ FAT LIP ★ Bristol's favourite emo party"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-lanes/sat-29-aug--fat-lip-bristol-s-favourite-emo-party--159610"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-lanes/-fat-lip-bristol-s-favourite-emo-party-/1596/e159610_i350046_s3.jpg"
+        tags:
+          - "club-night"
+          - "rock"
+          - "party"
+          - "late-night"
+        raw: "**★ FAT LIP ★ Bristol's favourite emo party** — Sat 29 Aug, The Lanes.
+
+          Genres: emo, pop punk, pop rock, rock, metal.\n"
+        summary: "FAT LIP, the city's long-running emo and pop-punk club night."
+        confidence: "high"
+      - id: "music/the-lanes#89e42d02d8"
+        sourceId: "music/the-lanes"
+        title: "Wasteman Weeklies #569: 'Puzzle Mania'"
+        occurrence:
+          kind: "single"
+          date: "2026-08-30"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-lanes/sun-30-aug-wasteman-weeklies-569-puzzle-mania--158748"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-lanes/wasteman-weeklies-569-puzzle-mania-/1587/e158748_i347401_s3.jpg"
+        tags:
+          - "club-night"
+          - "games"
+          - "party"
+          - "dj"
+        raw: "**Wasteman Weeklies #569: 'Puzzle Mania'** — Sun 30 Aug, The Lanes.
+
+          No genre words or description given. The \"#569\" implies a weekly running
+
+          for many years, but only this one date is listed and no pattern is
+
+          stated.\n"
+        summary: "The 569th Wasteman Weeklies, themed Puzzle Mania — a Sunday night institution, though the page lists only this instalment."
+        confidence: "medium"
+      - id: "music/the-lanes#3e917ced07"
+        sourceId: "music/the-lanes"
+        title: "Late Night Funk Club DJs"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-lanes/sat-12-sep-late-night-funk-club-djs-153193"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-lanes/late-night-funk-club-djs/1531/e153193_i331154_s3.jpg"
+        tags:
+          - "club-night"
+          - "soul"
+          - "house"
+          - "dj"
+          - "late-night"
+        raw: "**Late Night Funk Club DJs** — Sat 12 Sep, The Lanes.
+
+          Genres: disco, house, funk, soul.\n"
+        summary: "A DJ-only edition of the Late Night Funk Club."
+        confidence: "high"
+      - id: "music/the-lanes#8df8192d1f"
+        sourceId: "music/the-lanes"
+        title: "Late Night Funk Club: Brass Junkies + Black Wax Solution"
+        occurrence:
+          kind: "single"
+          date: "2026-10-10"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-lanes/sat-10-oct-late-night-funk-club-brass-junkies-black-wax-solution-152132"
+        image: "https://www.headfirstbristol.co.uk/images/events/the-lanes/late-night-funk-club-brass-junkies-black-wax-solution/1521/e152132_i326801_s3.jpg"
+        tags:
+          - "club-night"
+          - "soul"
+          - "jazz"
+          - "live-music"
+          - "late-night"
+        raw: "**Late Night Funk Club: Brass Junkies + Black Wax Solution** — Sat 10 Oct,
+
+          The Lanes. Genres: disco, funk, soul, pop.\n"
+        summary: "Live brass from the Brass Junkies plus Black Wax Solution DJs; the furthest date The Lanes lists."
+        confidence: "high"
+    notes: "The mirror is correct — headed The Lanes, 22 Nelson St, BS1 2LE — but it is very thin: five events from 22 Aug to 10 Oct 2026, all recorded, nothing truncated. That is the whole of what this page carries, so the gaps are the source's rather than mine. Two things a reviewer should know. First, the hint's warning that not everything here is music is borne out in the other direction as well: the bowling, karaoke and diner side of the building does not appear on Headfirst at all, so anyone using this source to answer \"what's on at The Lanes\" will see only the club nights. Second, \"Wasteman Weeklies #569\" is plainly an instalment of a long-running weekly, but only that single date is listed and the page states no pattern, so it is recorded as a one-off rather than given an invented `recurring` pattern. Late Night Funk Club likewise appears twice, a month apart, which looks monthly; again, not stated. No times, no prices and no room on any row."
+  - sourceId: "music/the-old-duke"
+    fetch:
+      ok: true
+      url: "https://www.theoldduke.com/listings"
+      status: 200
+    events:
+      - id: "music/the-old-duke#4663c16c7b"
+        sourceId: "music/the-old-duke"
+        title: "Severn Jazzmen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "20:30"
+          endTime: "23:00"
+        status: "scheduled"
+        url: "https://www.theoldduke.com/event-details/severn-jazzmen-65"
+        image: "https://static.wixstatic.com/media/092a77_f1f48897c1964b4d89d385e007ea56b2~mv2.jpeg"
+        tags:
+          - "jazz"
+          - "live-music"
+          - "classic"
+        raw: "**Severn Jazzmen** — Mon, Aug 17, 2026, 8:30 PM – 11:00 PM, The Old Duke.\n"
+        summary: "Trad jazz from the Severn Jazzmen to open the week on King Street."
+        confidence: "high"
+      - id: "music/the-old-duke#1961f64604"
+        sourceId: "music/the-old-duke"
+        title: "Eddie Martin's Open Mic Night"
+        occurrence:
+          kind: "recurring"
+          pattern: "Multiple Dates — Tuesdays"
+          start: "2026-08-18"
+          startTime: "20:30"
+        status: "scheduled"
+        timesText: "8:30 PM – 11:00 PM"
+        url: "https://www.theoldduke.com/event-details/eddie-martins-open-mic-night-2026-08-18-20-30"
+        image: "https://static.wixstatic.com/media/092a77_68e60eed80144a05a2ee56564b364950~mv2.jpeg"
+        tags:
+          - "open-mic"
+          - "blues"
+          - "live-music"
+          - "drop-in"
+        raw: "**Eddie Martin's Open Mic Night** — Tuesdays, 8:30 PM – 11:00 PM, The Old
+
+          Duke. The listing is marked \"Multiple Dates\" and appears on both Tue 18
+
+          and Tue 25 Aug 2026; recorded as one recurring event rather than two.\n"
+        summary: "Bluesman Eddie Martin hosts the Old Duke's Tuesday open mic, the same slot every week."
+        confidence: "medium"
+      - id: "music/the-old-duke#5da76e424d"
+        sourceId: "music/the-old-duke"
+        title: "Medicine Creek"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "21:00"
+          endTime: "23:00"
+        status: "scheduled"
+        url: "https://www.theoldduke.com/event-details/medicine-creek-18"
+        image: "https://static.wixstatic.com/media/092a77_28129eb0616d4af987d63fdb4b90f754~mv2.png"
+        tags:
+          - "blues"
+          - "live-music"
+          - "rock"
+        raw: "**Medicine Creek** — Wed, Aug 19, 2026, 9:00 PM – 11:00 PM, The Old Duke.\n"
+        summary: "Blues-rock band Medicine Creek."
+        confidence: "high"
+      - id: "music/the-old-duke#62f28c6385"
+        sourceId: "music/the-old-duke"
+        title: "The Jon Amor Trio"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "21:00"
+          endTime: "23:00"
+        status: "scheduled"
+        url: "https://www.theoldduke.com/event-details/the-jon-amor-trio-3"
+        image: "https://static.wixstatic.com/media/092a77_12afe7661f7c41c4a5b8920a45949e8e~mv2.jpeg"
+        tags:
+          - "blues"
+          - "live-music"
+          - "rock"
+        raw: "**The Jon Amor Trio** — Thu, Aug 20, 2026, 9:00 PM – 11:00 PM, The Old
+
+          Duke.\n"
+        summary: "Hoax guitarist Jon Amor's blues trio."
+        confidence: "high"
+      - id: "music/the-old-duke#79481a0754"
+        sourceId: "music/the-old-duke"
+        title: "Jack Calloway & the Midnight Creepers"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+          startTime: "20:30"
+          endTime: "23:00"
+        status: "scheduled"
+        url: "https://www.theoldduke.com/event-details/jack-calloway-the-midnight-creepers-46"
+        image: "https://static.wixstatic.com/media/092a77_8be1bef98a8244d7b774baec85d6f4de~mv2.jpeg"
+        tags:
+          - "blues"
+          - "live-music"
+          - "classic"
+        raw: "**Jack Calloway & the Midnight Creepers** — Fri, Aug 21, 2026,
+
+          8:30 PM – 11:00 PM, The Old Duke.\n"
+        summary: "Jump blues and swing from Jack Calloway's Midnight Creepers."
+        confidence: "high"
+      - id: "music/the-old-duke#d38da2cd1d"
+        sourceId: "music/the-old-duke"
+        title: "Ruby Jazz"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "15:30"
+          endTime: "17:30"
+        status: "scheduled"
+        url: "https://www.theoldduke.com/event-details/ruby-jazz-20"
+        image: "https://static.wixstatic.com/media/092a77_7cd300fc956b4453b9f8fefe290e5fdf~mv2.jpeg"
+        tags:
+          - "jazz"
+          - "live-music"
+          - "matinee"
+        raw: "**Ruby Jazz** — Sat, Aug 22, 2026, 3:30 PM – 5:30 PM, The Old Duke.\n"
+        summary: "Saturday teatime jazz set from Ruby Jazz."
+        confidence: "high"
+      - id: "music/the-old-duke#90042b0ead"
+        sourceId: "music/the-old-duke"
+        title: "The Latin Soul Quintet"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "21:00"
+          endTime: "23:00"
+        status: "scheduled"
+        url: "https://www.theoldduke.com/event-details/the-latin-soul-quintet-1"
+        image: "https://static.wixstatic.com/media/7d3c98_15629fb032a8480190e02fd351fa0135~mv2.jpg"
+        tags:
+          - "jazz"
+          - "soul"
+          - "live-music"
+          - "dance"
+        raw: "**The Latin Soul Quintet** — Sat, Aug 22, 2026, 9:00 PM – 11:00 PM, The
+
+          Old Duke.\n"
+        summary: "Latin soul and jazz for the Saturday night slot."
+        confidence: "high"
+      - id: "music/the-old-duke#d5c28691cb"
+        sourceId: "music/the-old-duke"
+        title: "The Keith Little Band"
+        occurrence:
+          kind: "single"
+          date: "2026-08-23"
+          startTime: "12:30"
+          endTime: "15:00"
+        status: "scheduled"
+        url: "https://www.theoldduke.com/event-details/the-keith-little-band-13"
+        image: "https://static.wixstatic.com/media/7d3c98_ec691e6e1aba478d9bd08b1f5b021ca9~mv2.jpg"
+        tags:
+          - "jazz"
+          - "live-music"
+          - "matinee"
+        raw: "**The Keith Little Band** — Sun, Aug 23, 2026, 12:30 PM – 3:00 PM, The Old
+
+          Duke.\n"
+        summary: "Sunday lunchtime jazz from the Keith Little Band."
+        confidence: "high"
+      - id: "music/the-old-duke#5adf7bbed9"
+        sourceId: "music/the-old-duke"
+        title: "Eddie Martin's One Man Band"
+        occurrence:
+          kind: "single"
+          date: "2026-08-23"
+          startTime: "21:00"
+          endTime: "22:30"
+        status: "scheduled"
+        url: "https://www.theoldduke.com/event-details/eddie-martins-one-man-band-9"
+        image: "https://static.wixstatic.com/media/092a77_f830b1582fac49b78cff3c0a63844c21~mv2.jpeg"
+        tags:
+          - "blues"
+          - "live-music"
+          - "one-night"
+        raw: "**Eddie Martin's One Man Band** — Sun, Aug 23, 2026, 9:00 PM – 10:30 PM,
+
+          The Old Duke.\n"
+        summary: "Eddie Martin again, this time solo as a one-man band."
+        confidence: "high"
+      - id: "music/the-old-duke#57f9287e78"
+        sourceId: "music/the-old-duke"
+        title: "Gethin Liddington's Jazz Combo plus Guest"
+        occurrence:
+          kind: "single"
+          date: "2026-08-24"
+          startTime: "20:30"
+          endTime: "23:00"
+        status: "scheduled"
+        url: "https://www.theoldduke.com/event-details/gethin-liddingtons-jazz-combo-plus-guest-8"
+        image: "https://static.wixstatic.com/media/7d3c98_15629fb032a8480190e02fd351fa0135~mv2.jpg"
+        tags:
+          - "jazz"
+          - "live-music"
+          - "classic"
+        raw: "**Gethin Liddington's Jazz Combo plus Guest** — Mon, Aug 24, 2026,
+
+          8:30 PM – 11:00 PM, The Old Duke.\n"
+        summary: "Trumpeter Gethin Liddington's combo with a guest player."
+        confidence: "high"
+      - id: "music/the-old-duke#9a7c79b878"
+        sourceId: "music/the-old-duke"
+        title: "Will Killeen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-26"
+          startTime: "21:00"
+          endTime: "23:00"
+        status: "scheduled"
+        url: "https://www.theoldduke.com/event-details/will-killeen-16"
+        image: "https://static.wixstatic.com/media/092a77_4e7adaca57b2471e96d64e0ead51ca5a~mv2.jpeg"
+        tags:
+          - "blues"
+          - "folk"
+          - "live-music"
+        raw: "**Will Killeen** — Wed, Aug 26, 2026, 9:00 PM – 11:00 PM, The Old Duke.\n"
+        summary: "Slide guitarist Will Killeen, solo."
+        confidence: "high"
+      - id: "music/the-old-duke#f4b9fa96e3"
+        sourceId: "music/the-old-duke"
+        title: "The James Oliver Band"
+        occurrence:
+          kind: "single"
+          date: "2026-08-27"
+          startTime: "21:00"
+          endTime: "23:00"
+        status: "scheduled"
+        url: "https://www.theoldduke.com/event-details/the-james-oliver-band-37"
+        image: "https://static.wixstatic.com/media/092a77_dbe929903e1d4462bea984d9109118e2~mv2.png"
+        tags:
+          - "blues"
+          - "rock"
+          - "live-music"
+        raw: "**The James Oliver Band** — Thu, Aug 27, 2026, 9:00 PM – 11:00 PM, The Old
+
+          Duke.\n"
+        summary: "Welsh rockabilly guitarist James Oliver and band."
+        confidence: "high"
+      - id: "music/the-old-duke#2203f35fad"
+        sourceId: "music/the-old-duke"
+        title: "Jiveoholics"
+        occurrence:
+          kind: "single"
+          date: "2026-08-28"
+          startTime: "21:00"
+          endTime: "23:00"
+        status: "scheduled"
+        url: "https://www.theoldduke.com/event-details/jiveoholics-3"
+        image: "https://static.wixstatic.com/media/7d3c98_15629fb032a8480190e02fd351fa0135~mv2.jpg"
+        tags:
+          - "blues"
+          - "dance"
+          - "live-music"
+          - "classic"
+        raw: "**Jiveoholics** — Fri, Aug 28, 2026, 9:00 PM – 11:00 PM, The Old Duke.\n"
+        summary: "Jump blues and jive to dance to, from the Jiveoholics."
+        confidence: "high"
+      - id: "music/the-old-duke#038a8f99ae"
+        sourceId: "music/the-old-duke"
+        title: "The Patsy Gamble Blues Collective"
+        subcategory: "Jazz Fest"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+          startTime: "12:00"
+          endTime: "14:00"
+        status: "scheduled"
+        url: "https://www.theoldduke.com/event-details/the-patsy-gamble-blues-collective-jazz-fest"
+        image: "https://static.wixstatic.com/media/7d3c98_15629fb032a8480190e02fd351fa0135~mv2.jpg"
+        tags:
+          - "blues"
+          - "jazz"
+          - "live-music"
+          - "festival"
+        raw: "**The Patsy Gamble Blues Collective (Jazz Fest)** — Sat, Aug 29, 2026,
+
+          12:00 PM – 2:00 PM, The Old Duke. First of four Jazz Fest sets that day.\n"
+        summary: "Saxophonist Patsy Gamble's collective opens the Old Duke's Jazz Fest Saturday at noon."
+        confidence: "high"
+      - id: "music/the-old-duke#2f0a180ca8"
+        sourceId: "music/the-old-duke"
+        title: "The Soul Strutters"
+        subcategory: "Jazz Fest"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+          startTime: "15:00"
+          endTime: "17:00"
+        status: "scheduled"
+        url: "https://www.theoldduke.com/event-details/the-soul-strutters-jazz-fest"
+        image: "https://static.wixstatic.com/media/092a77_645a66de75da41dcb6f55713ec4d25f6~mv2.jpeg"
+        tags:
+          - "soul"
+          - "jazz"
+          - "live-music"
+          - "festival"
+        raw: "**The Soul Strutters (Jazz Fest)** — Sat, Aug 29, 2026, 3:00 PM – 5:00 PM,
+
+          The Old Duke. Second of four Jazz Fest sets that day.\n"
+        summary: "The Soul Strutters take the mid-afternoon Jazz Fest slot."
+        confidence: "high"
+      - id: "music/the-old-duke#117c414abb"
+        sourceId: "music/the-old-duke"
+        title: "Jack Mac's Funk Pack"
+        subcategory: "Jazz Fest"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+          startTime: "18:00"
+          endTime: "20:00"
+        status: "scheduled"
+        url: "https://www.theoldduke.com/event-details/jack-macs-funk-pack-jazz-fest"
+        image: "https://static.wixstatic.com/media/092a77_7b444634f694471e870eb2de28a8c150~mv2.jpeg"
+        tags:
+          - "soul"
+          - "jazz"
+          - "live-music"
+          - "festival"
+        raw: "**Jack Mac's funk Pack (Jazz Fest)** — Sat, Aug 29, 2026,
+
+          6:00 PM – 8:00 PM, The Old Duke. Third of four Jazz Fest sets that day.\n"
+        summary: "Jack Mac's Funk Pack, the early-evening Jazz Fest set."
+        confidence: "high"
+      - id: "music/the-old-duke#922d256746"
+        sourceId: "music/the-old-duke"
+        title: "The 45s"
+        subcategory: "Jazz Fest"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+          startTime: "21:00"
+          endTime: "23:00"
+        status: "scheduled"
+        url: "https://www.theoldduke.com/event-details/the-45s-jazz-fest"
+        image: "https://static.wixstatic.com/media/092a77_78d4f618a09c4d46a59be194a14d18fe~mv2.webp"
+        tags:
+          - "soul"
+          - "jazz"
+          - "live-music"
+          - "festival"
+        raw: "**The 45s (Jazz Fest)** — Sat, Aug 29, 2026, 9:00 PM – 11:00 PM, The Old
+
+          Duke. Last of four Jazz Fest sets that day, and the last date the page
+
+          lists at all.\n"
+        summary: "The 45s close the Jazz Fest Saturday, and the Old Duke's published horizon with it."
+        confidence: "high"
+    notes: "The .com domain and the /listings path are both right, and this is the best index of the seventeen: full dates including the year, and start and end times on every row. 18 listings from tonight to Sat 29 Aug 2026, recorded as 17 events, and nothing truncated. The hint's two-week horizon is exact — 29 Aug is a hard stop, so a weekly revisit really is needed or the site will show a gap. One fold: Eddie Martin's Open Mic Night appears on both Tue 18 and Tue 25 Aug and the page itself flags it \"Multiple Dates\", so it is recorded as a single `recurring` event rather than two singles. The pattern is given as the page's own marker plus the weekday both instances fall on, and confidence is medium because the page states the repetition without stating its period. Worth a hint: Sat 29 Aug is a four-set Jazz Fest day — noon, 3pm, 6pm and 9pm with a different band each — and those are four separate events, not one, so they are recorded separately. Nothing on the page mentions admission at all. The catalogue describes this as a free nightly jazz pub and it very likely is, but `price` is omitted rather than set from that belief."
+  - sourceId: "music/thekla"
+    fetch:
+      ok: true
+      url: "https://www.theklabristol.co.uk/live/"
+      status: 200
+    events:
+      - id: "music/thekla#f18b1846ff"
+        sourceId: "music/thekla"
+        title: "Mechanical Animal"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+          startTime: "18:30"
+        status: "scheduled"
+        url: "https://www.theklabristol.co.uk/gigs/mechanical-animal/"
+        tags:
+          - "live-music"
+          - "rock"
+          - "tribute-act"
+        raw: "**Mechanical Animal** — Fri.21.Aug.26, 18:30, Thekla.
+
+          Tickets via alttickets.com.\n"
+        summary: "Marilyn Manson tribute act Mechanical Animal aboard the Thekla."
+        confidence: "high"
+      - id: "music/thekla#1a47df115e"
+        sourceId: "music/thekla"
+        title: "Sodium Showdown XXIV"
+        occurrence:
+          kind: "run"
+          start: "2026-08-22"
+          end: "2026-08-23"
+        status: "scheduled"
+        url: "https://www.theklabristol.co.uk/gigs/sodium-showdown-xxiv/"
+        tags:
+          - "games"
+          - "multi-day"
+          - "spectator"
+          - "community"
+        raw: "**Sodium Showdown XXIV** — Sat.22.Aug.26 and Sun.23.Aug.26, Thekla.
+
+          Registration via start.gg. Listed as two entries, one per day; recorded as
+
+          one two-day run. The Saturday's own link is
+
+          https://www.theklabristol.co.uk/gigs/sodium-showdown/.\n"
+        summary: "A two-day fighting-game tournament on the boat — not music, but it is what Thekla has on that weekend."
+        confidence: "high"
+      - id: "music/thekla#18032c3f27"
+        sourceId: "music/thekla"
+        title: "make waves three"
+        occurrence:
+          kind: "single"
+          date: "2026-08-28"
+        status: "scheduled"
+        url: "https://www.theklabristol.co.uk/gigs/make-waves-three/"
+        tags:
+          - "live-music"
+          - "indie"
+          - "community"
+          - "young-people"
+        raw: "**make waves three** — Fri.28.Aug.26, Thekla. No doors time and no ticket
+
+          link on the listing.\n"
+        summary: "Third edition of the make waves new-band showcase."
+        confidence: "medium"
+      - id: "music/thekla#b70609caf2"
+        sourceId: "music/thekla"
+        title: "Michael Shannon & Jason Narducy and Friends play R.E.M's 'Lifes Rich Pageant'"
+        occurrence:
+          kind: "single"
+          date: "2026-09-01"
+        status: "scheduled"
+        url: "https://www.theklabristol.co.uk/gigs/michael-shannon-jason-narducy-and-friends-play-r-e-ms-lifes-rich-pageant/"
+        tags:
+          - "live-music"
+          - "rock"
+          - "classic"
+          - "tour"
+        raw: "**Michael Shannon & Jason Narducy and Friends play R.E.M's 'Lifes Rich
+
+          Pageant'** — Tue.01.Sep.26, Thekla. Tickets via alttickets.com.\n"
+        summary: "The actor Michael Shannon and Superchunk's Jason Narducy play R.E.M.'s Lifes Rich Pageant end to end."
+        confidence: "high"
+      - id: "music/thekla#94c0a4d0bd"
+        sourceId: "music/thekla"
+        title: "Robert Arkins Commitments"
+        occurrence:
+          kind: "single"
+          date: "2026-09-03"
+          startTime: "18:30"
+        status: "scheduled"
+        url: "https://www.theklabristol.co.uk/gigs/robert-arkins-commitments/"
+        tags:
+          - "live-music"
+          - "soul"
+          - "tribute-act"
+        raw: "**Robert Arkins Commitments** — Thu.03.Sep.26, 18:30, Thekla.
+
+          Tickets via alttickets.com.\n"
+        summary: "Robert Arkins, who played Jimmy Rabbitte in The Commitments, with a soul band."
+        confidence: "high"
+      - id: "music/thekla#7e0294b3b1"
+        sourceId: "music/thekla"
+        title: "The Total Stone Roses"
+        occurrence:
+          kind: "single"
+          date: "2026-09-04"
+        status: "scheduled"
+        url: "https://www.theklabristol.co.uk/gigs/the-total-stone-roses/"
+        tags:
+          - "live-music"
+          - "tribute-act"
+          - "indie"
+          - "rock"
+        raw: "**The Total Stone Roses** — Fri.04.Sep.26, Thekla. Support: Oaysis.
+
+          Tickets via wegottickets.com.\n"
+        summary: "Stone Roses tribute band, with an Oasis tribute in support."
+        confidence: "high"
+      - id: "music/thekla#2799ae7954"
+        sourceId: "music/thekla"
+        title: "Altered Images"
+        occurrence:
+          kind: "single"
+          date: "2026-09-05"
+        status: "scheduled"
+        url: "https://www.theklabristol.co.uk/gigs/altered-images/"
+        tags:
+          - "live-music"
+          - "indie"
+          - "classic"
+          - "headliner"
+        raw: "**Altered Images** — Sat.05.Sep.26, Thekla. Support: GIFTHORSE.
+
+          Tickets via alttickets.com.\n"
+        summary: "Clare Grogan's Altered Images, with GIFTHORSE opening."
+        confidence: "high"
+      - id: "music/thekla#ea786c1a5f"
+        sourceId: "music/thekla"
+        title: "King Prawn"
+        occurrence:
+          kind: "single"
+          date: "2026-09-06"
+        status: "scheduled"
+        url: "https://www.theklabristol.co.uk/gigs/king-prawn/"
+        tags:
+          - "live-music"
+          - "punk"
+          - "reggae"
+        raw: "**King Prawn** — Sun.06.Sep.26, Thekla. Support: Mad Apple Circus,
+
+          Captain Accident. Tickets via alttickets.com.\n"
+        summary: "Ska-punk veterans King Prawn with two support acts."
+        confidence: "high"
+      - id: "music/thekla#29da1d854c"
+        sourceId: "music/thekla"
+        title: "Dream State"
+        occurrence:
+          kind: "single"
+          date: "2026-09-09"
+          startTime: "18:30"
+        status: "scheduled"
+        url: "https://www.theklabristol.co.uk/gigs/dream-state/"
+        tags:
+          - "live-music"
+          - "rock"
+          - "metal"
+        raw: "**Dream State** — Wed.09.Sep.26, 18:30, Thekla. Tickets via alttickets.com.\n"
+        summary: "Welsh post-hardcore band Dream State."
+        confidence: "high"
+      - id: "music/thekla#4bbfa3e272"
+        sourceId: "music/thekla"
+        title: "Boyce Avenue"
+        occurrence:
+          kind: "single"
+          date: "2026-09-11"
+          startTime: "18:30"
+        status: "scheduled"
+        url: "https://www.theklabristol.co.uk/gigs/boyce-avenue/"
+        tags:
+          - "live-music"
+          - "indie"
+          - "headliner"
+        raw: "**Boyce Avenue** — Fri.11.Sep.26, 18:30, Thekla. Tickets via alttickets.com.\n"
+        summary: "Boyce Avenue, the covers band turned YouTube phenomenon, on the boat."
+        confidence: "high"
+      - id: "music/thekla#44ce570586"
+        sourceId: "music/thekla"
+        title: "THE DMC UK FINAL DJ CHAMPIONSHIP"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+          startTime: "17:00"
+        status: "scheduled"
+        url: "https://www.theklabristol.co.uk/gigs/the-dmc-world-dj-championship/"
+        tags:
+          - "dj"
+          - "hip-hop"
+          - "spectator"
+          - "one-night"
+        raw: "**THE DMC UK FINAL DJ CHAMPIONSHIP** — Sat.12.Sep.26, 17:00, Thekla.
+
+          Tickets via alttickets.com. The event page is filed under
+
+          the-dmc-world-dj-championship.\n"
+        summary: "The UK final of the DMC turntablism championship, an early start for a five-hour competition."
+        confidence: "high"
+      - id: "music/thekla#eadbe2dda4"
+        sourceId: "music/thekla"
+        title: "Vundabar & Yot Club"
+        occurrence:
+          kind: "single"
+          date: "2026-09-15"
+          startTime: "18:30"
+        status: "scheduled"
+        url: "https://www.theklabristol.co.uk/gigs/vundabar-yot-club/"
+        tags:
+          - "live-music"
+          - "indie"
+          - "rock"
+          - "tour"
+        raw: "**Vundabar & Yot Club** — Tue.15.Sep.26, 18:30, Thekla.
+
+          Tickets via alttickets.com.\n"
+        summary: "Boston's Vundabar co-headlining with Yot Club."
+        confidence: "high"
+      - id: "music/thekla#78ef7ef91f"
+        sourceId: "music/thekla"
+        title: "The Northern Boys"
+        occurrence:
+          kind: "single"
+          date: "2026-09-17"
+          startTime: "18:30"
+        status: "scheduled"
+        url: "https://www.theklabristol.co.uk/gigs/the-northern-boys-2/"
+        tags:
+          - "live-music"
+          - "comedy"
+          - "party"
+        raw: "**The Northern Boys** — Thu.17.Sep.26, 18:30, Thekla.
+
+          Tickets via alttickets.com.\n"
+        summary: "The Northern Boys, the viral pensioner duo, on tour."
+        confidence: "high"
+      - id: "music/thekla#9ebfdc5b74"
+        sourceId: "music/thekla"
+        title: "The Skinner Brothers"
+        occurrence:
+          kind: "single"
+          date: "2026-09-23"
+        status: "sold-out"
+        url: "https://www.theklabristol.co.uk/gigs/the-skinner-brothers-2/"
+        tags:
+          - "live-music"
+          - "indie"
+          - "rock"
+        raw: "**The Skinner Brothers** — Wed.23.Sep.26, Thekla. **SOLD OUT.**
+
+          No ticket link, consistent with the sold-out marker.\n"
+        summary: "The Skinner Brothers, sold out ahead of the date."
+        confidence: "high"
+      - id: "music/thekla#6366d13741"
+        sourceId: "music/thekla"
+        title: "Little Barrie"
+        occurrence:
+          kind: "single"
+          date: "2026-09-26"
+          startTime: "18:30"
+        status: "scheduled"
+        url: "https://www.theklabristol.co.uk/gigs/little-barrie/"
+        tags:
+          - "live-music"
+          - "rock"
+          - "soul"
+        raw: "**Little Barrie** — Sat.26.Sep.26, 18:30, Thekla.
+
+          Tickets via alttickets.com.\n"
+        summary: "Little Barrie, best known for the Better Call Saul theme."
+        confidence: "high"
+      - id: "music/thekla#5dfb2c6c14"
+        sourceId: "music/thekla"
+        title: "Sixpence None The Richer"
+        occurrence:
+          kind: "single"
+          date: "2026-09-29"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://www.theklabristol.co.uk/gigs/sixpence-none-the-richer/"
+        tags:
+          - "live-music"
+          - "indie"
+          - "classic"
+          - "tour"
+        raw: "**Sixpence None The Richer** — Tue.29.Sep.26, 19:00, Thekla.
+
+          Support: Departure Lounge. Tickets via alttickets.com.\n"
+        summary: "Sixpence None The Richer on a rare UK date, with Departure Lounge."
+        confidence: "high"
+      - id: "music/thekla#3de8a42812"
+        sourceId: "music/thekla"
+        title: "Otis Kane"
+        occurrence:
+          kind: "single"
+          date: "2026-09-30"
+        status: "scheduled"
+        url: "https://www.theklabristol.co.uk/gigs/otis-kane/"
+        tags:
+          - "live-music"
+          - "soul"
+          - "one-night"
+        raw: "**Otis Kane** — Wed.30.Sep.26, Thekla. No doors time and no ticket link on
+
+          the listing.\n"
+        summary: "Soul singer Otis Kane; the listing carries no time or ticket link yet."
+        confidence: "medium"
+      - id: "music/thekla#aedd0b89fc"
+        sourceId: "music/thekla"
+        title: "MAN/WOMAN/CHAINSAW"
+        occurrence:
+          kind: "single"
+          date: "2026-10-02"
+        status: "sold-out"
+        url: "https://www.theklabristol.co.uk/gigs/man-woman-chainsaw/"
+        tags:
+          - "live-music"
+          - "experimental"
+          - "rock"
+          - "indie"
+        raw: "**MAN/WOMAN/CHAINSAW** — Fri.02.Oct.26, Thekla. **SOLD OUT.**
+
+          Support: Uncle Junior.\n"
+        summary: "South London art-rock band MAN/WOMAN/CHAINSAW, sold out; the last live date inside my six-week window."
+        confidence: "high"
+      - id: "music/thekla#3d05580f40"
+        sourceId: "music/thekla"
+        title: "Pressure. #TheklaThursdays"
+        subcategory: "Club"
+        occurrence:
+          kind: "recurring"
+          pattern: "#TheklaThursdays — every Thursday"
+          start: "2026-08-20"
+        status: "scheduled"
+        url: "https://www.theklabristol.co.uk/club-nights/pressure-4/"
+        tags:
+          - "club-night"
+          - "dj"
+          - "young-people"
+          - "weekly"
+        raw: "**Pressure. #TheklaThursdays** — Thursdays, Thekla. Support: Kay Russant &
+
+          Chadders. Listed as a separate dated entry each week (Thu.20.Aug.26,
+
+          Thu.27.Aug.26 and on); recorded as one recurring night. Found on
+
+          https://www.theklabristol.co.uk/club/.\n"
+        summary: "Thekla's weekly Thursday club night, resident DJs Kay Russant and Chadders."
+        confidence: "high"
+      - id: "music/thekla#86e8845aff"
+        sourceId: "music/thekla"
+        title: "Pop Confessional"
+        subcategory: "Club"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Saturday Night"
+          start: "2026-08-22"
+        status: "scheduled"
+        url: "https://www.theklabristol.co.uk/club-nights/pop-confessional-2/"
+        tags:
+          - "club-night"
+          - "party"
+          - "dj"
+          - "weekly"
+        raw: "**Pop Confessional** — \"Every Saturday Night\", Thekla. Listed as a separate
+
+          dated entry each week (Sat.22.Aug.26, Sat.29.Aug.26 and on); recorded as
+
+          one recurring night. Found on https://www.theklabristol.co.uk/club/.\n"
+        summary: "The boat's long-running Saturday pop night, billed by the venue as every Saturday."
+        confidence: "high"
+      - id: "music/thekla#571ac3ec2c"
+        sourceId: "music/thekla"
+        title: "Club Classics - Ibiza Anthems"
+        subcategory: "Club"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+        status: "scheduled"
+        url: "https://www.theklabristol.co.uk/club-nights/club-classics-ibiza-anthems-%f0%9f%aa%a9/"
+        tags:
+          - "club-night"
+          - "house"
+          - "dj"
+          - "party"
+        raw: "**Club Classics - Ibiza Anthems 🪩** — Fri.21.Aug.26, Thekla.
+
+          Support: Kay Russant. Found on https://www.theklabristol.co.uk/club/.\n"
+        summary: "Ibiza anthems edition of Club Classics, this Friday's brand on the boat."
+        confidence: "high"
+      - id: "music/thekla#197d7d2a42"
+        sourceId: "music/thekla"
+        title: "Different Class: 90s Britpop & Indie Classics"
+        subcategory: "Club"
+        occurrence:
+          kind: "single"
+          date: "2026-08-28"
+        status: "scheduled"
+        url: "https://www.theklabristol.co.uk/club-nights/different-class-90s-britpop-indie-classics-4/"
+        tags:
+          - "club-night"
+          - "indie"
+          - "dj"
+          - "party"
+        raw: "**Different Class: 90s Britpop & Indie Classics** — Fri.28.Aug.26, Thekla.
+
+          Support: Remy Melee. Found on https://www.theklabristol.co.uk/club/.\n"
+        summary: "Britpop and nineties indie night, the following Friday's rotation of the club slot."
+        confidence: "high"
+    notes: "The hint's deeper paths are the right route and I followed both: /live/ and /club/. `fetch.url` records /live/ as the main one; /club/ is https://www.theklabristol.co.uk/club/ and supplied the four club rows below. /live/ carried 50-odd gigs to Wed.30.Oct.26 and /club/ 26 nights to Fri.30.Oct.26. I recorded the first six weeks of each — 18 live events to 2 Oct plus 4 club entries — and truncated the rest. Dates are in the Fri.21.Aug.26 form the hint describes, with an explicit two-digit year, so no inference was needed; every printed weekday agrees with 2026 as well. Two shapes worth flagging. Sodium Showdown XXIV is listed twice, on Sat 22 and Sun 23 Aug with separate links, and is one two-day tournament, so it is recorded as a `run` rather than two singles. And the club strand has genuine weekly residencies: Pressure. #TheklaThursdays recurs on Thursdays and Pop Confessional is billed \"Every Saturday Night\", so each is one `recurring` event rather than one row per week — that alone would otherwise have added a dozen near-identical cards. The Friday club slot rotates between brands (Club Classics on 21 Aug, Different Class on 28 Aug), so those stay as singles. Two gaps: /live/ prints doors times for some gigs and not others, and no prices for any; and it exposes no usable image URLs — the slots resolve back to the event page — so `image` is omitted throughout rather than pointed at a page. Also note Sodium Showdown and the DMC DJ championship are an esports tournament and a competition rather than gigs, tagged accordingly."

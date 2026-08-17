@@ -1,171 +1,118 @@
 # Roadmap
 
-Deliberately short. A holding place for ideas that are worth doing but are not due yet, each
-with enough of the reasoning that picking it up later does not mean re-deriving why.
+Ideas worth doing, not due yet. Short on purpose — enough to remember why, not a design.
 
-`STATUS.md` says where things stand today. `CLAUDE.md` holds the rules that stay true. This
-file is neither — it is the queue.
+`STATUS.md` is where things stand. `CLAUDE.md` is the rules. This is the queue.
 
 ---
 
-## 1. A source should be able to have more than one URL
+## 1. A source should have more than one URL
 
-**Today** a catalogue source has one `url`, meant to be the page that lists events, plus an
-optional `homepage`. Everything else we have learned about how to read that source lives in
-prose inside `hints`.
+One `url` plus everything-else-in-prose inside `hints` is straining. Often the best route in is
+not an HTML page at all: `wp-json/tribe/events/v1/events`, BookThatApp `schedule.json`, Shopify
+`products.json`, parkrun's GeoJSON, an ICS feed, RA's GraphQL. Four agents found this
+independently.
 
-That is now straining. The harvest of 2026-08-17 found that the best route into a source is
-very often not an HTML listings page at all:
-
-| source                           | the route that actually works                                  |
-| -------------------------------- | -------------------------------------------------------------- |
-| `making/bricks-bristol`          | `wp-json/tribe/events/v1/events` — whole diary, with body text |
-| `family/windmill-hill-city-farm` | per-shop BookThatApp `schedule.json` — 966 occurrences         |
-| `literature/max-minervas`        | Shopify `collections/events/products.json`                     |
-| `comedy/hen-and-chicken`         | The Events Calendar REST API with `&categories=comedy`         |
-| `sport/parkrun-bristol`          | `images.parkrun.com/events.json` (GeoJSON)                     |
-| `sport/gloucestershire-cricket`  | a JSON match API                                               |
-| `sport/bristol-cycling-campaign` | a Google Calendar ICS feed                                     |
-| `citywide/resident-advisor`      | an unauthenticated GraphQL POST                                |
-
-Four separate agents independently discovered that one JSON call beats reading a dozen pages.
-That is a strong signal it belongs in the data model rather than in prose that each agent has
-to re-read and re-interpret.
-
-**Shape to consider.** Keep `url` as the canonical human-facing page — it is what the UI links
-to and what identity checks should verify — and add an optional list beside it:
+Give each route a role:
 
 ```yaml
-url: https://www.stanneshouse.org/whats-on/ # what a person should be sent to
+url: https://www.stanneshouse.org/whats-on/ # where a person is sent
 urls:
   - role: api
     url: https://www.stanneshouse.org/wp-json/tribe/events/v1/events
     note: whole diary with body text; needs a browser user-agent
-  - role: rss
-    url: https://example.org/events/feed
+  - role: ics
+    url: https://example.org/events.ics
 ```
 
-Roles worth having: `listings`, `api`, `feed` (RSS/Atom), `ics`, `booking`. RSS and ICS are the
-interesting ones we are not using at all yet — both are structured, cheap, stable, and common
-on exactly the small venues whose HTML is worst.
+Roles: `listings`, `api`, `feed` (RSS/Atom), `ics`, `booking`. RSS and ICS we do not use at all
+yet, and they are commonest on the venues whose HTML is worst.
 
-**What it buys.**
+Buys: `check-urls` verifies every route, prompts stop carrying operational detail, and an `ics`
+role could give the site "subscribe to this venue".
 
-- `check-urls` can verify every route rather than one.
-- `stale`/`repointed` can reason about which route changed.
-- Prompts stop carrying operational detail that belongs in data.
-- The web app could eventually offer "subscribe to this venue" from an `ics` role.
-
-**Schema note.** Adding `urls` as optional is additive, so it edits `whazzon.catalogue/1` in
-place. Making it required, or folding `url` into the list, is a rename — that needs version 2
-plus a migration, per the rules in `CLAUDE.md`.
+Optional `urls` is additive — edits `whazzon.catalogue/1` in place. Folding `url` into the list
+would need v2 and a migration.
 
 ---
 
-## 2. `check-urls` should check identity, not reachability
+## 2. De-duplicate across sources
 
-The 2026-08-17 curation found **five lapsed domains serving a healthy 200** to an unrelated
-business — `bookhaus.co.uk` (a hog-roast company), `wappingwharf.com` (parked),
-`croftersrights.co.uk` and `propyard.co.uk` (the same casino-affiliate network),
-`comedybox.co.uk` (a domain marketplace). It also found three sources returning 200 with an
-**empty shell**: no listings, no dates, nothing.
+We de-dupe by identity within a source and across runs — the fold merges on event id. We do not
+de-dupe **between** sources, and cannot: `eventId` returns `` `<sourceId>#<hash>` ``, so the same
+gig listed twice is two events by construction.
 
-`check-urls` passed all eight. It verifies that something answered, which is the least
-interesting property a URL has.
+Real overlaps today: Hen & Chicken / Comedy Box share 43 shows; six music venues are Headfirst
+mirrors; Resident Advisor and Skiddle overlap on club nights; 365 Bristol advertises gigs at
+catalogued venues.
 
-**Three cheap checks that would have caught all of it:**
+Do it in `compile`, never in the log — the log records what each page said, which is the point.
+Match on normalised title plus anchor date plus resolved venue, prefer the venue's own listing
+over an aggregator's, and keep the loser's `sourceId` on the survivor so provenance survives.
 
-1. Does the source's own `name` (or a distinctive token from it) appear in the body?
-2. Does the page contain anything date-shaped at all?
-3. Does it match a parking-lander signature — a sub-200-byte redirect to `/lander`,
-   `ap:"parking"`, `saw.com`, `hugedomains`?
-
-Worth reporting as three severities rather than pass/fail: gone, wrong, and thin.
+Warning from the ghost work: matching on title alone would have merged **81 legitimately
+distinct** same-title events on different dates. The date has to be in the key.
 
 ---
 
-## 3. Undated events never expire
+## 3. `check-urls` should check identity, not reachability
 
-`stateOf` derives `finished` by comparing an end date against today, so an event with no date
-can never reach it. An `undated` row that a source stops listing becomes `carried` and stays
-`carried` for ever.
+Five lapsed domains serve a healthy 200 to an unrelated business (hog roast, casino affiliate,
+two parked, one marketplace). Three more return 200 with an empty shell. `check-urls` passes all
+eight.
 
-This is not hypothetical: on 2026-08-17 the Harbour Festival was recorded `undated` on the 16th
-and dated on the 17th. Because event ids hash the anchor date, the dated row is a _new_ id and
-the undated one persists beside it.
-
-**Options, in order of how much they disturb the model:**
-
-1. **Expire by absence** — drop an `undated` event a source has not listed in its last N runs.
-   Absence is the only signal an undated listing ever gives, and it needs no id change.
-2. **Dedupe at compile on `(sourceId, normalised title)`**, newest wins. Collapses the twins
-   exactly, but softens what an event id means.
-3. Accept occasional twins.
-
-Leaning to 1. Measure the twin count after a couple more runs before deciding.
+Add three checks: does the source's name appear in the body, is there anything date-shaped, does
+it match a parking-lander signature (`/lander`, `ap:"parking"`, `saw.com`, `hugedomains`).
+Report as gone / wrong / thin rather than pass/fail.
 
 ---
 
 ## 4. Run stage 2 from a scheduled workflow, into a pull request
 
-The harvest is already the shape Actions wants: a matrix job per category, each writing its own
-file, then one job to `assign-ids`, `validate`, `compile`, `sync-web`.
+Weekly cron, matrix job per category, then one job to `assign-ids`, `validate`, `compile`,
+`sync-web`. **Open a PR, do not push** — the machine appends to the log, a human curates stage 1.
 
-The part worth being deliberate about is **what it does with the result**. Not a push to `main`
-— a pull request. The machine appends to the log; a human reads the diff and curates stage 1.
-That is the existing stage separation expressed as a workflow, and it makes a bad harvest a
-closed PR rather than a bad deploy.
+Needs an `ANTHROPIC_API_KEY` secret and the Claude Code action. Concurrency group so two runs
+cannot share a run directory; `REPORT.md` into `$GITHUB_STEP_SUMMARY`.
 
-Needs an `ANTHROPIC_API_KEY` secret and the Claude Code GitHub Action, since Actions has no
-model access of its own. `.scratch/github-actions.md` has the longer write-up.
-
-Two things to get right: a concurrency group so two harvests cannot write the same run
-directory, and the run's `REPORT.md` into `$GITHUB_STEP_SUMMARY` so it is readable without
-checking out the branch.
+Expect fewer sources to be reachable than from a laptop: runner IPs are shared and often
+pre-blocked. `.scratch/github-actions.md` has the detail.
 
 ---
 
 ## 5. Some sources need a browser, not a better URL
 
-Three distinct walls turned up on 2026-08-17, and they want different answers:
+Three walls, three mechanisms: a Radware interstitial served as **HTTP 200**
+(`nationaltrust.org.uk`), a Cloudflare challenge whose token is minted in JS
+(`bristol.events.mylibrary.digital`), and a flat site-wide 403 that looks IP-based
+(`martinparrfoundation.org`).
 
-- **Radware interstitial** (`nationaltrust.org.uk`) — returns **HTTP 200 whose body is a
-  "verifying your browser" page**. A 200 here is not a page, which is its own argument for
-  item 2.
-- **Cloudflare managed challenge** (`bristol.events.mylibrary.digital`) — mints its token in
-  JavaScript, so no header combination clears it.
-- **Flat site-wide 403** (`martinparrfoundation.org`) — verified fine with a browser user-agent
-  in the morning and refused everything by the afternoon, which looks like an IP-level block
-  earned by our own fetch volume.
+Counter-lesson: RA walls its HTML and leaves its API open. **A 403 on the page is not evidence
+the data is unreachable.**
 
-The counter-lesson, worth remembering before writing anything off: Resident Advisor walls its
-HTML and leaves its GraphQL API wide open. **A 403 on the page is not evidence the data is
-unreachable.**
-
-If a JS-capable fetch is ever added it belongs in stage 2 and nowhere else — and it should be
-opt-in per source, via a hint or a URL role, not the default path for 155 sources.
+If a JS-capable fetch is added it belongs in stage 2 only, opt-in per source.
 
 ---
 
-## 6. Curate the findings from 2026-08-17
+## 6. Cheaper greps over scraped HTML
 
-The URL pass produced a pile of catalogue decisions that are deliberately not code's business.
-Recorded here so they do not evaporate:
+Agents grepping saved pages with unanchored `.{0,400}` patterns left seven orphaned processes
+holding ~1.9 GB. Bound the input and the pattern; say so in the prompt.
 
-- **Renames**: `museums/ss-great-britain` → Bristol Dockyards; `music/swx` → Electric Bristol;
-  `making/maker-shed` → The Makershed; `sport/great-bristol-run` → AJ Bell Great Bristol Run.
-- **Miscategorised**: `making/the-island` programmes dance, circus and wrestling, no making.
-- **Duplicated**: `bristol-improv-theatre` exists in both `comedy` and `theatre`;
-  `hen-and-chicken` and `the-comedy-box` are the same building; `resident-advisor` and
-  `skiddle` overlap heavily on club nights; `gardens/grow-wilder` is a filtered view of
-  `gardens/avon-wildlife-trust`.
-- **Wrong `area`**: Puppet Place (Spike Island, not Bedminster), Motion (moved to Victoria
-  Terrace), Bristol Bike Project (Stapleton Road), Max Minerva's (Henleaze), Blaise Plant
-  Nursery (Lawrence Weston), ODEON (Cabot Circus).
-- **Wrong `cadence`**: Everyman and Wapping Wharf are fetched far more often than they change;
-  the National Garden Scheme publishes a year at once in February.
-- **Radius**: Chipping Sodbury parkrun is 16.6 km out, against `radiusKm: 12`. Either widen the
-  radius or drop the source.
-- **New sources worth adding**: Showcase Bristol Avonmeads, The Prospect Building, Ashton Court
-  Mansion, Heritage Open Days, Bristol Shredfest, Exploring Whisky Bristol, and three
-  uncatalogued markets (Temple Quay, Whiteladies Road, Windmill Hill).
+---
+
+## 7. Curate the 2026-08-17 findings
+
+- **Renames**: SS Great Britain → Bristol Dockyards; SWX → Electric Bristol; maker-shed → The
+  Makershed; Great Bristol Run → AJ Bell Great Bristol Run.
+- **Miscategorised**: `making/the-island` is dance, circus and wrestling.
+- **Duplicated entries**: `bristol-improv-theatre` in both comedy and theatre; Hen & Chicken vs
+  Comedy Box; `grow-wilder` is a filtered view of `avon-wildlife-trust`.
+- **Wrong `area`**: Puppet Place, Motion, Bristol Bike Project, Max Minerva's, Blaise Plant
+  Nursery, ODEON.
+- **Wrong `cadence`**: Everyman, Wapping Wharf, National Garden Scheme.
+- **Radius**: Chipping Sodbury parkrun is 16.6 km out against `radiusKm: 12`.
+- **`music/motion`** points at an abandoned 2021 build; needs a URL found by hand.
+- **Twelve hints are now wrong** — listed in `data/bristol-uk/harvest/2026-08-17/REPORT.md`.
+- **New sources worth adding**: Showcase Avonmeads, The Prospect Building, Ashton Court Mansion,
+  Heritage Open Days, Bristol Shredfest, Exploring Whisky Bristol, three uncatalogued markets.

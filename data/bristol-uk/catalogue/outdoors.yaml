@@ -11,14 +11,29 @@ sources:
     category: outdoors
     kind: venue
     status: provisional
-    url: https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/parks-and-estates/ashton-court-estate
+    url: https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/parks-and-open-spaces/parks-and-estates/ashton-court-estate
     area: Ashton
     tags: [park, free, outdoor, major-events, mountain-biking]
     cadence: monthly
     hints: |
-      Hosts the Balloon Fiesta and other large outdoor events. The council page
-      rarely lists a programme — the events themselves are catalogued under
-      festivals, so treat this mainly as a location record.
+      Hosts the Balloon Fiesta and other large outdoor events. The events
+      themselves are catalogued under festivals, so treat this as a location
+      record.
+      Stronger than "rarely lists a programme": this page has no events diary at
+      all — admission, opening and closing times, car park charges, conservation
+      zones and a site map PDF. Expect zero events and do not read that as a
+      failed crawl.
+      The council page does link out to https://ashtoncourtmansion.org/whats-on
+      (Bristol Historic Buildings Trust), which is the only real Ashton Court
+      diary. It is not catalogued as a source yet — see notes.
+    notes: >-
+      Verified 2026-08-17: the catalogued path 404s; bristol.gov.uk inserted a /parks-and-open-spaces/ segment and
+      the new path serves the Ashton Court Estate page (breadcrumb "Parks and green spaces > Parks and estates >
+      Ashton Court Estate", location Long Ashton BS41 9JN). URL corrected on that basis. It is not an events page
+      though, which is the real reason it listed nothing — the only dated content is seasonal closing times. The one
+      genuine diary it links to is ashtoncourtmansion.org/whats-on, run by a different organisation (Bristol Historic
+      Buildings Trust) and listing a Wedding Open Day 14 September and Christmas Parties November—December 2026;
+      whether that becomes its own source is a catalogue decision, so it is reported and not acted on.
     addedAt: "2026-08-16"
 
   - id: outdoors/the-downs
@@ -26,10 +41,23 @@ sources:
     category: outdoors
     kind: venue
     status: provisional
-    url: https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/parks-and-estates/clifton-and-durdham-downs
+    url: https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/parks-and-open-spaces/parks-and-estates/the-downs
     area: Clifton
     tags: [park, free, outdoor, major-events]
     cadence: monthly
+    hints: |
+      No events diary on this page — admission, parking, toilets, facilities and
+      grassland conservation only. Expect zero events; it is a location record,
+      not a programme. The Downs Festival and the Avon Gorge & Downs Wildlife
+      Project walks are catalogued separately and are what actually programmes
+      this space.
+    notes: >-
+      Verified 2026-08-17: two changes in one, both confirmed — the slug moved from clifton-and-durdham-downs to
+      the-downs and the path gained a /parks-and-open-spaces/ segment. The old URL 404s, the new one serves "The
+      Downs" with the breadcrumb "Parks and green spaces > Parks and estates > The Downs" and names Clifton Down and
+      Durdham Down, agreeing with the catalogued Clifton area. It carries no dated events whatsoever — searching the
+      rendered text for event, diary or programme returns nothing — so it listed nothing because there is nothing to
+      list, not because the crawl failed.
     addedAt: "2026-08-16"
 
   - id: outdoors/leigh-woods
@@ -37,10 +65,26 @@ sources:
     category: outdoors
     kind: venue
     status: provisional
-    url: https://www.nationaltrust.org.uk/visit/bristol-bath/leigh-woods
+    url: https://www.nationaltrust.org.uk/visit/bath-bristol/leigh-woods/whats-on
+    homepage: https://www.nationaltrust.org.uk/visit/bath-bristol/leigh-woods
     area: Leigh Woods
     tags: [woodland, free, national-trust, walks, outdoor]
     cadence: monthly
+    hints: |
+      nationaltrust.org.uk sits behind a Radware JavaScript challenge. Unlike
+      bristolmuseums.org.uk, a browser user-agent does NOT defeat it — curl with
+      a Chrome UA still returns the "Verifying your browser" interstitial with a
+      200 status, so a 200 here is not evidence of a real page. Needs a
+      JS-capable fetch; skip it rather than record an empty observation.
+    notes: >-
+      Partly fixed 2026-08-17. The catalogued region slug was reversed: /visit/bristol-bath/ 404s, /visit/bath-bristol/
+      is the live one, so the URL is now at least correct — the previous harvest note blamed bot protection when the
+      path was also wrong. Content is still unverified: /leigh-woods, /leigh-woods/whats-on and /leigh-woods/events
+      all return HTTP 200 carrying the Radware interstitial (title "Radware Page", body "Verifying your browser
+      before proceeding"), via WebFetch and via curl with a browser UA alike. The /whats-on path is taken from the
+      National Trust's site-wide convention and the search index, not from a page I could read. Checked
+      leighwoods.org as an alternative and rejected it — it is the Leigh Woods Residents Group, a 320-household
+      neighbourhood association, not the woodland venue. Left as provisional: the site exists, we cannot fetch it.
     addedAt: "2026-08-16"
 
   - id: outdoors/blaise-castle-estate
@@ -48,10 +92,24 @@ sources:
     category: outdoors
     kind: venue
     status: provisional
-    url: https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/parks-and-estates/blaise-castle-estate
+    url: https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/parks-and-open-spaces/parks-and-estates/blaise-castle-estate
     area: Henbury
     tags: [park, free, outdoor, family, heritage]
     cadence: quarterly
+    hints: |
+      No events diary on this page — opening hours, travel, car park charges and
+      waiting restrictions only. Expect zero events; it is a location record.
+      The estate's actual outdoor programme (Blaise 100 estate walks, castle open
+      afternoons, Kings Weston Roman Villa openings) is published by Bristol
+      Museums and is already harvested under museums/blaise-museum. Do not crawl
+      it from here as well or the same events arrive under two source ids.
+    notes: >-
+      Verified 2026-08-17: catalogued path 404s, the new /parks-and-open-spaces/ path serves the Blaise Castle Estate
+      page (breadcrumb "Parks and green spaces > Parks and estates > Blaise Castle Estate", location Kings Weston
+      Road BS10 7QS, which agrees with the catalogued Henbury area). URL corrected. It is not an events page — the
+      only reference to events is the sentence "Access may be restricted on major event days", and it tells readers
+      to check noticeboards at the estate for castle and dairy garden opening. So this source has no programme to
+      harvest, while the estate itself is busy this year; the events are on the museums/blaise-museum page.
     addedAt: "2026-08-16"
 
   - id: outdoors/avon-gorge-nature-reserve
@@ -59,9 +117,22 @@ sources:
     category: outdoors
     kind: organiser
     status: provisional
-    url: https://avongorge.org.uk/events/
+    url: https://avongorge.org.uk/whats-on/
+    homepage: https://avongorge.org.uk/
     area: Clifton
     tags: [nature, walks, free, guided, wildlife]
     cadence: monthly
-    hints: Runs guided walks and wildlife events, mostly free; programme is seasonal.
+    hints: |
+      Runs guided walks and wildlife events; programme is seasonal and thin —
+      two entries at the time of checking, so an empty result here is plausible
+      rather than suspicious.
+      The listings do not state prices. The catalogued `free` tag is an
+      assumption the page does not support — do not infer a price from it.
+      This is the organiser that actually programmes The Downs, whose own council
+      page has no diary.
+    notes: >-
+      Verified 2026-08-17: /events/ 404s and /whats-on/ is the live listings page. It names the Avon Gorge & Downs
+      Wildlife Project and describes walks and talks at "the Avon Gorge, Clifton and Durdham Downs in Bristol",
+      agreeing with the catalogued Clifton area, with two dated entries — "A world of bats" 10 September 2026 7pm
+      and "Owl Prowl" 2 October 2026 6pm. No pricing shown either way.
     addedAt: "2026-08-16"

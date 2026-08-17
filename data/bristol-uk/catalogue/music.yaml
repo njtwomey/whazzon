@@ -30,7 +30,7 @@ sources:
     category: music
     kind: venue
     status: provisional
-    url: https://www.academymusicgroup.com/o2academybristol/events
+    url: https://www.academymusicgroup.com/o2academybristol
     area: City Centre
     address:
       street: Frogmore Street
@@ -38,7 +38,15 @@ sources:
       postcode: BS1 5NA
     tags: [touring, mid-size, commercial]
     cadence: weekly
-    hints: Main mid-size touring venue. Books several months ahead.
+    hints: |
+      Main mid-size touring venue. Books several months ahead. Gigs are
+      server-rendered on the venue root; the /events path is a JavaScript
+      search-and-filter view that returns an empty result list to a fetcher, so
+      use the root and not /events.
+    notes: |
+      Verified 2026-08-17: root page is headed "O2 Academy Bristol" and lists dated gigs (Amy Winehouse Experience
+      5 Sep 2026, Coldplace 10 Sep, Holy Holy 11 Sep). The catalogued /events path returns 200 but renders zero
+      listings without JavaScript, which is why it harvested nothing.
     addedAt: "2026-08-16"
 
   - id: music/thekla
@@ -46,7 +54,7 @@ sources:
     category: music
     kind: venue
     status: provisional
-    url: https://www.theklabristol.co.uk/whats-on/
+    url: https://www.theklabristol.co.uk/
     area: Harbourside
     address:
       street: The Grove, East Mud Dock
@@ -56,7 +64,14 @@ sources:
     cadence: weekly
     hints: |
       A converted cargo ship in the floating harbour — one of the city's
-      signature venues. Mixed gigs and club nights.
+      signature venues. Mixed gigs and club nights. The root carries both
+      strands; /live/ and /club/ are the fuller single-strand lists, and /live/
+      alone ran to about 70 dated gigs when checked. Dates are written in
+      Fri.21.Aug.26 form.
+    notes: |
+      Verified 2026-08-17: page header reads "Thekla Bristol", footer address "The Grove, East Mud Dock, Bristol,
+      BS1 4RB" matches the catalogue, and dated gigs run from 21 Aug 2026 onward. The catalogued /whats-on/ path is a
+      genuine 404.
     addedAt: "2026-08-16"
 
   - id: music/the-fleece
@@ -79,7 +94,8 @@ sources:
     category: music
     kind: venue
     status: provisional
-    url: https://www.exchangebristol.com/
+    url: https://www.headfirstbristol.co.uk/whats-on/exchange
+    homepage: https://www.exchangebristol.com/
     area: Old Market
     address:
       street: 72-73 Old Market Street
@@ -87,7 +103,17 @@ sources:
       postcode: BS2 0EJ
     tags: [independent, community-owned, diy, grassroots]
     cadence: weekly
-    hints: Community-owned DIY venue; strong punk, hardcore and alternative programme.
+    hints: |
+      Community-owned DIY venue; strong punk, hardcore and alternative
+      programme. The URL points at Headfirst rather than the venue's own site
+      because exchangebristol.com embeds a JavaScript-only Headfirst booking
+      widget that renders as "loading events..." to a fetcher, whereas the
+      Headfirst mirror is server-rendered. Two floors run concurrent shows, so
+      expect several events on one date.
+    notes: |
+      Verified 2026-08-17: Headfirst mirror is headed "Exchange", gives "73 Old Market St, BS2 0EJ" matching the
+      catalogue, and lists dated gigs from 18 Aug 2026 (Las Fokin Biches, KELS, The Worst Generation). The venue's own
+      site confirms the same address but exposes no listings without JavaScript.
     addedAt: "2026-08-16"
 
   - id: music/the-louisiana
@@ -107,10 +133,21 @@ sources:
     category: music
     kind: venue
     status: provisional
-    url: https://www.strangebrewbristol.com/
+    url: https://www.headfirstbristol.co.uk/whats-on/strange-brew
+    homepage: https://www.strangebrewbristol.com/
     area: Old City
     tags: [independent, club, jazz, electronic]
     cadence: weekly
+    hints: |
+      Multi-room DIY art space, music venue and late bar. The URL points at
+      Headfirst rather than the venue's own site because strangebrewbristol.com
+      embeds a JavaScript-only Headfirst widget that renders as "loading
+      events..." to a fetcher, whereas the Headfirst mirror is server-rendered.
+    notes: |
+      Verified 2026-08-17: Headfirst mirror is headed "What's on at Strange Brew in Bristol", gives "10-12 Fairfax St,
+      BS1 3DB" — consistent with area Old City — and lists dated events from 18 Aug 2026 (Butcher Brown, Hannah
+      Cohen).
+      The venue's own site confirms the same address but exposes no listings without JavaScript.
     addedAt: "2026-08-16"
 
   - id: music/st-georges-bristol
@@ -136,7 +173,8 @@ sources:
     category: music
     kind: venue
     status: provisional
-    url: https://www.motionbristol.com/
+    url: https://motion-bristol.com/whats-on/
+    homepage: https://motion-bristol.com/
     area: St Philips
     address:
       street: 74-78 Avon Street
@@ -148,7 +186,16 @@ sources:
     hints: |
       Large warehouse complex with several rooms, central to Bristol's
       electronic scene. Cross-check against Resident Advisor — RA often has
-      lineups the venue site does not.
+      lineups the venue site does not. The programme is JavaScript-rendered:
+      /whats-on/ returns no dates and no address in its HTML, so nothing is
+      extractable without a headless browser. The old motionbristol.com domain
+      has lapsed and is now a parking lander — do not follow it.
+    notes: |
+      Verified 2026-08-17: motionbristol.com is a parked domain, serving a 114-byte JavaScript redirect to /lander with
+      the marker ap:"parking" — it is not merely JS-rendered as the harvest reported. Current site is
+      motion-bristol.com (title "Motion Bristol", nav for Bingo Lingo and Momentum, both Motion event brands). The
+      venue also relocated: it lost the Avon Street lease, closed 20 Jul 2025 and reopened Oct 2025 at Unit 2 Victoria
+      Terrace, BS2 0TD — so the address below is stale, but changing it is a curation decision, not a URL fix.
     addedAt: "2026-08-16"
 
   - id: music/lakota
@@ -156,7 +203,8 @@ sources:
     category: music
     kind: venue
     status: provisional
-    url: https://www.lakota.co.uk/
+    url: https://lakota.co.uk/events
+    homepage: https://lakota.co.uk/
     area: Stokes Croft
     address:
       street: 6 Upper York Street
@@ -164,6 +212,14 @@ sources:
       postcode: BS2 8QN
     tags: [club, electronic, nightlife, historic]
     cadence: weekly
+    hints: |
+      Several rooms — Nightclub, The Nest, Moon Club and Gardens — and each
+      listing names the room it is in. Use /events rather than the root: the
+      root teases only the next two shows.
+    notes: |
+      Verified 2026-08-17: site is headed Lakota, "the spirit of Bristol's underground", on Upper York Street matching
+      the catalogue. /events lists 26 dated events from 12 Aug to 11 Dec 2026; the root showed only 2, which is why the
+      proposed root URL was not taken.
     addedAt: "2026-08-16"
 
   - id: music/swx
@@ -171,10 +227,21 @@ sources:
     category: music
     kind: venue
     status: provisional
-    url: https://www.swxbristol.com/
+    url: https://electricbristol.com/events/
+    homepage: https://electricbristol.com/
     area: Broadmead
     tags: [mid-size, club, commercial]
     cadence: weekly
+    hints: |
+      Rebranded from SWX to Electric Bristol in 2025 under the Electric Group,
+      in the same Nelson Street building — the swxbristol.com domain is dead and
+      some ticket agents still index it under the SWX slug. Listings are
+      paginated: /events/ showed 12 per page with more behind the pager.
+    notes: |
+      Verified 2026-08-17: swxbristol.com is an NXDOMAIN. The venue now trades as Electric Bristol at
+      electricbristol.com, whose /contact/ page gives Nelson Street, BS1 2JY — the same building — and every page
+      still carries the string "SWX". /events/ lists dated gigs from 21 Aug 2026 (Phoebe Bridgers, Current Joys, Ellie
+      Goulding). The `name` field still reads SWX and needs an owner's decision, so it has been left alone.
     addedAt: "2026-08-16"
 
   - id: music/rough-trade
@@ -182,13 +249,22 @@ sources:
     category: music
     kind: venue
     status: provisional
-    url: https://www.roughtrade.com/en-gb/events
+    url: https://www.roughtrade.com/en-gb/events/bristol
+    homepage: https://www.roughtrade.com/en-gb
     area: Broadmead
     tags: [record-shop, in-store, free]
     cadence: weekly
     hints: |
-      Record shop with in-store performances and signings, many free. The
-      events page covers all Rough Trade stores — filter to Bristol only.
+      Record shop with in-store performances and signings, many free. This path
+      is already scoped to the Bristol store, so no cross-store filtering is
+      needed. A browser user-agent is required — the host 403s the default
+      fetcher. Content is a Next.js app: nothing is in the served HTML as
+      markup, and the listings arrive in the streamed self.__next_f payload, so
+      a headless browser is the reliable route.
+    notes: |
+      Verified 2026-08-17: /en-gb/events 403s to a plain fetch but returns 200 to a browser user-agent. The
+      Bristol-scoped path is real — the served payload carries the route parameter ["uid","bristol"] and the nav
+      labels it "Rough Trade Bristol". No dates were extractable from the HTML because the page renders client-side.
     addedAt: "2026-08-16"
 
   - id: music/crofters-rights
@@ -196,10 +272,23 @@ sources:
     category: music
     kind: venue
     status: provisional
-    url: https://www.croftersrights.co.uk/
+    url: https://www.headfirstbristol.co.uk/whats-on/the-croft
     area: Stokes Croft
     tags: [independent, grassroots, free, pub]
     cadence: weekly
+    hints: |
+      Same venue as The Croft, which is the name it currently trades under —
+      Headfirst files it under the-croft, not crofters-rights. The URL points at
+      Headfirst rather than the venue's own site because croftersrights.co.uk
+      has lapsed and no replacement venue domain was found; no `homepage` is set
+      for that reason.
+    notes: |
+      Verified 2026-08-17: croftersrights.co.uk is now a casino affiliate headed "Top Non GamStop Casinos for UK Players
+      in 2026" — a 200, but not the venue. The Headfirst page confirms the identity in its own words: "A Stokes Croft
+      icon (formerly The Croft, then Crofters Rights) returns thanks to Music Venue Properties' Save Our Venues
+      Campaign", at 117-119 Stokes Croft, BS1 3RW, which matches area Stokes Croft. Dated gigs from 1 Sep 2026. So The
+      Croft and Crofters Rights are the same venue and the proposed fix stands; `name` may want to become The Croft, but
+      that is an owner's call.
     addedAt: "2026-08-16"
 
   - id: music/the-lanes
@@ -207,10 +296,21 @@ sources:
     category: music
     kind: venue
     status: provisional
-    url: https://www.thelanesbristol.com/
+    url: https://www.headfirstbristol.co.uk/whats-on/the-lanes
+    homepage: https://www.thelanesbristol.com/
     area: Old City
     tags: [independent, club, bowling, diy]
     cadence: weekly
+    hints: |
+      Bowling, karaoke, club nights, live bands and a late diner in one
+      building, so not every listing is music. The URL points at Headfirst rather
+      than the venue's own site because thelanesbristol.com/events is a
+      JavaScript-only Headfirst widget that renders as "loading events..." to a
+      fetcher, whereas the Headfirst mirror is server-rendered.
+    notes: |
+      Verified 2026-08-17: Headfirst mirror is headed "The Lanes", describes the Nelson Street multi-function venue and
+      gives 22 Nelson Street, BS1 2LE — consistent with area Old City. Dated events from 22 Aug to 10 Oct 2026. The
+      venue's own /events page was checked and carries no readable dates.
     addedAt: "2026-08-16"
 
   - id: music/dareshack
@@ -218,10 +318,22 @@ sources:
     category: music
     kind: venue
     status: provisional
-    url: https://dareshack.com/
+    url: https://www.headfirstbristol.co.uk/whats-on/dareshack
+    homepage: https://dareshack.com/
     area: Old City
     tags: [independent, listening-bar, electronic]
     cadence: weekly
+    hints: |
+      200-capacity creative space with independent and experimental music
+      programming, plus a daytime coffee bar. The URL points at Headfirst because
+      dareshack.com is a single-page WordPress site with no listings section at
+      all — /events, /whats-on and /programme all 404, and the only outbound link
+      is Instagram. Expect quiet stretches: nothing was listed anywhere when
+      checked.
+    notes: |
+      Verified 2026-08-17: Headfirst page confirms identity — "Dareshack", "Vintry Building, Wine St, BS1 2BD", which
+      matches area Old City — but carried no dated events on the day, and neither did the venue's own site. Reachable
+      and correct, genuinely empty rather than mis-crawled.
     addedAt: "2026-08-16"
 
   - id: music/the-canteen
@@ -229,13 +341,22 @@ sources:
     category: music
     kind: venue
     status: provisional
-    url: https://www.canteenbristol.co.uk/live-music
+    url: https://www.headfirstbristol.co.uk/whats-on/the-canteen
+    homepage: https://www.canteenbristol.co.uk/
     area: Stokes Croft
     tags: [free, grassroots, pub, nightly]
     cadence: weekly
     hints: |
       Free live music essentially every night. High volume of small listings —
-      expect many events per week, mostly untitled beyond the artist name.
+      expect many events per week, mostly untitled beyond the artist name, often
+      with the genre in brackets after it. The URL points at Headfirst rather than
+      the venue's own site because canteenbristol.co.uk/live-music is a
+      JavaScript-only Headfirst widget that renders as "loading events..." to a
+      fetcher, whereas the Headfirst mirror is server-rendered.
+    notes: |
+      Verified 2026-08-17: Headfirst mirror is headed "The Canteen" and gives "Hamilton House, 80 Stokes Croft, St Pauls
+      BS1 3QY", matching area Stokes Croft. Dated events on consecutive nights from 17 Aug 2026 (Heartwood Chorus,
+      Crawfish, Blackberry Wood), confirming the nightly cadence.
     addedAt: "2026-08-16"
 
   - id: music/the-gallimaufry
@@ -243,11 +364,23 @@ sources:
     category: music
     kind: venue
     status: provisional
-    url: https://thegallimaufry.co.uk/
+    url: https://www.thegallimaufry.co.uk/whatson
+    homepage: https://www.thegallimaufry.co.uk/
     area: Gloucester Road
     tags: [free, jazz, pub, nightly]
     cadence: weekly
-    hints: Free nightly music, heavy on jazz and funk.
+    hints: |
+      Free nightly music, heavy on jazz and funk. The path is /whatson with no
+      hyphen — /whats-on 404s. Most of the programme is stated as weekly
+      recurring nights (Monday open mic, Friday DJs, Saturday residencies) rather
+      than as dated one-offs, so prefer a recurring occurrence over inventing
+      dates. The dated one-offs on the page are not kept current: when checked
+      they stopped at April 2026 while the venue was still gigging nightly.
+    notes: |
+      Verified 2026-08-17: page is The Gallimaufry, 26-28 Gloucester Road, Bishopston, BS7 8AL, matching area Gloucester
+      Road, and is a genuine live-music listings page. Its latest dated entry was 30 Apr 2026 with nothing for Aug or
+      Sep, but external listings show the venue open and programming nightly, so this is an unmaintained calendar rather
+      than a dormant venue — left as provisional, not marked dormant.
     addedAt: "2026-08-16"
 
   - id: music/the-old-duke
@@ -255,11 +388,20 @@ sources:
     category: music
     kind: venue
     status: provisional
-    url: https://www.theoldduke.co.uk/
+    url: https://www.theoldduke.com/listings
+    homepage: https://www.theoldduke.com/
     area: Old City
     tags: [jazz, free, pub, historic]
     cadence: weekly
-    hints: Long-running jazz pub on King Street; free nightly music.
+    hints: |
+      Long-running jazz pub on King Street; free nightly music. The live domain is
+      theoldduke.com, not the catalogued .co.uk. Listings carry start and end
+      times and run only two weeks or so ahead, so a short horizon is enough and
+      a weekly revisit is needed to avoid gaps.
+    notes: |
+      Verified 2026-08-17: /listings gives "45 King St, Bristol BS1 4ER", matching area Old City, and lists a gig every
+      night from 17 to 29 Aug 2026 (Severn Jazzmen, Eddie Martin's Open Mic, Medicine Creek), which fits the free
+      nightly jazz description.
     addedAt: "2026-08-16"
 
   - id: music/the-black-swan
@@ -267,21 +409,44 @@ sources:
     category: music
     kind: venue
     status: provisional
-    url: https://www.theblackswanbristol.com/
+    url: https://www.headfirstbristol.co.uk/whats-on/the-black-swan
     area: Easton
     tags: [club, dub, drum-and-bass, independent]
     cadence: weekly
+    hints: |
+      Underground dance music — dub, drum and bass — in a large pub with two club
+      rooms. The URL points at Headfirst because the venue has no website of its
+      own: theblackswanbristol.com does not resolve and it programmes via
+      Instagram, Facebook and ticket agents. No `homepage` is set for that reason.
+      Headfirst files this one under club listings rather than gigs, and it was
+      empty when checked, so cross-check Skiddle if a run finds nothing.
+    notes: |
+      Verified 2026-08-17: theblackswanbristol.com is an NXDOMAIN, and the near-miss domains are other businesses —
+      theblackswan.co.uk is a pub in Rixton near Warrington, blackswan.club is a parking lander. The Headfirst page is
+      the right venue: "The Black Swan", 438 Stapleton Rd, BS5 6NR, which matches area Easton. It listed no dates on the
+      day, so identity is confirmed but the programme was not observable.
     addedAt: "2026-08-16"
 
   - id: music/propyard
     name: Propyard
     category: music
     kind: venue
-    status: provisional
-    url: https://propyard.co.uk/
+    status: closed
+    url: https://www.headfirstbristol.co.uk/whats-on/propyard
     area: St Philips
     tags: [warehouse, club, events-space]
     cadence: weekly
+    hints: |
+      Closed — do not harvest. The URL is moved off the lapsed propyard.co.uk
+      domain only so that nothing in the catalogue points at the squatter; the
+      Headfirst page is a correct but inert record of the venue.
+    notes: |
+      Marked closed 2026-08-17. propyard.co.uk has lapsed and now 301s to mdcdatum.org.uk, headed "Non GamStop Casinos
+      2026" — the same casino-affiliate network that took croftersrights.co.uk, and another 200 that check-urls would
+      pass. Propyard itself shut in 2024 after allegations it had not paid staff, suppliers and artists. The building
+      was taken over by promoter AMAAD and reopened as The Prospect Building, theprospectbuilding.com, at 45 Feeder Rd,
+      BS2 0SE — the same site as the Headfirst address 39-46 Feeder Rd — with a live programme (AFI 27 Aug, Jack
+      White 28 Aug 2026). That successor is a different organisation, so it wants a new source, not a rename here.
     addedAt: "2026-08-16"
 
   - id: music/the-bristol-fringe
@@ -289,10 +454,19 @@ sources:
     category: music
     kind: venue
     status: provisional
-    url: https://www.thebristolfringe.co.uk/
+    url: https://www.thebristolfringe.co.uk/event-listings
+    homepage: https://www.thebristolfringe.co.uk/
     area: Clifton
     tags: [pub, jazz, folk, free, spoken-word]
     cadence: weekly
+    hints: |
+      A mixed programme in one small room — jazz jams, comedy, magic and
+      spoken word alongside music, so not everything listed belongs to this
+      category. Dates are given without a year and only about two weeks ahead;
+      cross-check the inferred year against the printed weekday.
+    notes: |
+      Verified 2026-08-17: /event-listings gives "32 Princess Victoria Street, Bristol, BS8 4BZ", matching area Clifton,
+      and lists an event every night from 17 Aug to 2 Sep 2026 (Jazz Rendezvous Jam, Back Door Comedy, Magic Night).
     addedAt: "2026-08-16"
 
   - id: music/ashton-gate-stadium
@@ -300,14 +474,22 @@ sources:
     category: music
     kind: venue
     status: provisional
-    url: https://www.ashtongatestadium.co.uk/events/
+    url: https://www.ashtongatestadium.co.uk/
     area: Ashton Gate
     tags: [stadium, major, summer]
     cadence: monthly
     hints: |
       Stadium concerts, a handful each summer, announced up to a year ahead.
       Monthly is enough — the programme barely moves week to week. Sport at the
-      same venue is catalogued separately under sport.
+      same venue is catalogued separately under sport. Listings live on the root,
+      under an "Upcoming Events" heading; the /events/ path 404s despite being
+      linked from that heading. Most of what appears there is conferences,
+      luncheons, charity challenges and trade shows, so filter hard for music.
+    notes: |
+      Verified 2026-08-17: root is headed "Ashton Gate - Largest Events Venue In Bristol & South West" and gives Ashton
+      Road, BS3 2EJ, matching area Ashton Gate. Dated events are genuinely on the root, including a music one (Michael
+      Jackson Tribute Night, 28 Nov 2026), so the root is acceptable here; the catalogued /events/ path was retested and
+      is a hard 404.
     addedAt: "2026-08-16"
 
   - id: music/bristol-beacon-presents
@@ -322,4 +504,14 @@ sources:
     hints: |
       Outdoor summer concert series at the Amphitheatre. Dormant most of the
       year, with the whole lineup announced in one go over winter and spring.
+      Expect to find nothing between the end of the season and the next
+      announcement — that is the normal state, not a broken URL. The page is
+      mostly an image carousel with artist names in the filenames and no dates in
+      the text, so a run that finds no dated events here is correct.
+    notes: |
+      Verified 2026-08-17: URL is unchanged and correct. Page names "Canons Marsh Amphitheatre, Canons Way, BS1 5LL",
+      which matches area Harbourside. It listed no dates when checked, consistent with the between-seasons behaviour in
+      the hints, so this is not a URL fault. Two mismatches for an owner: the page is presented by Crosstown Concerts,
+      not Bristol Beacon, so the id music/bristol-beacon-presents is misleading against the name Bristol Sounds; and the
+      footer still reads "copyright 2025".
     addedAt: "2026-08-16"

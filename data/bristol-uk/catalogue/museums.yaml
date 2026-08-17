@@ -23,6 +23,13 @@ sources:
       Free entry. Part of the Bristol Museums group, which shares one events
       platform across several sites — filter to this venue, or the same events
       will be captured by every Bristol Museums entry in this file.
+      bristolmuseums.org.uk returns 403 to WebFetch and 200 to a browser
+      user-agent — fetch it with curl and a Chrome UA string.
+      Long-running tours are dated as open ranges ending 31 December 2027.
+    notes: >-
+      Verified 2026-08-17 via curl with a browser UA: page title reads "What's On - Bristol Museum & Art Gallery",
+      the lead line names the venue, and the list holds current dated entries (Tai Shani "The Neon Hieroglyph"
+      10 February—13 September 2026, plus five highlight tours).
     addedAt: "2026-08-16"
 
   - id: museums/m-shed
@@ -38,6 +45,15 @@ sources:
       postcode: BS1 4RN
     tags: [free, civic, local-history, family]
     cadence: monthly
+    hints: |
+      Part of the Bristol Museums group and shares its events platform — filter
+      to this venue or the same events appear under every Bristol Museums entry.
+      bristolmuseums.org.uk returns 403 to WebFetch and 200 to a browser
+      user-agent — fetch it with curl and a Chrome UA string.
+    notes: >-
+      Verified 2026-08-17 via curl with a browser UA: page title reads "What's On - M Shed", lead line names the
+      venue, and the list holds current dated entries ("Cracking Exhibition, Gromit!" 20 June—13 September 2026,
+      Aardman late opening and workshops, dockside steam train rides).
     addedAt: "2026-08-16"
 
   - id: museums/we-the-curious
@@ -45,7 +61,8 @@ sources:
     category: museums
     kind: venue
     status: provisional
-    url: https://www.wethecurious.org/whats-on
+    url: https://www.wethecurious.org/whats-on/events
+    homepage: https://www.wethecurious.org/
     area: Harbourside
     address:
       street: One Millennium Square, Anchor Road
@@ -53,7 +70,15 @@ sources:
       postcode: BS1 5DB
     tags: [science, family, interactive, ticketed]
     cadence: monthly
-    hints: Science centre and planetarium; strong family and school-holiday programme.
+    hints: |
+      Science centre and planetarium; strong family and school-holiday programme.
+      /whats-on is only a hub and links two events; /whats-on/events is the real
+      index and links twelve. Sibling sections /whats-on/special-events and
+      /whats-on/daytime-planetarium-shows hold more and are worth crawling too.
+    notes: >-
+      Verified 2026-08-17: title reads "Events | We The Curious", footer address matches One Millennium Square,
+      Anchor Road, BS1 5DB. Moved off /whats-on, which is a hub carrying only two event links, to /whats-on/events,
+      which links twelve dated entries (Summer of Imagination 23 July—1 September, Pink Floyd planetarium show).
     addedAt: "2026-08-16"
 
   - id: museums/ss-great-britain
@@ -61,7 +86,8 @@ sources:
     category: museums
     kind: venue
     status: provisional
-    url: https://www.ssgreatbritain.org/whats-on/
+    url: https://www.bristoldockyards.org/whats-on
+    homepage: https://www.bristoldockyards.org/
     area: Harbourside
     address:
       street: Great Western Dockyard, Gas Ferry Road
@@ -69,6 +95,17 @@ sources:
       postcode: BS1 6TY
     tags: [heritage, ticketed, family, major]
     cadence: monthly
+    hints: |
+      Rebranded to "Bristol Dockyards"; the ship and the Being Brunel museum are
+      the attractions within it. Still run by the SS Great Britain Trust
+      (charity 262158), so the old name persists in the copy.
+    notes: >-
+      Verified 2026-08-17: the catalogued https://www.ssgreatbritain.org/whats-on/ now 301s to
+      https://www.bristoldockyards.org/whats-on, which is how the rebrand was confirmed rather than inferred. Page
+      names the SS Great Britain and Being Brunel, address matches Great Western Dockyard, Gas Ferry Road BS1 6TY,
+      and eleven dated entries are listed (Summer Lates 20 August, Christmas Murder Mystery 19 December 2026).
+      Site still operated by the SS Great Britain Trust, so this is a rename, not a new organisation. `name` is now
+      out of step with the brand — left for the catalogue owner to decide.
     addedAt: "2026-08-16"
 
   - id: museums/aerospace-bristol
@@ -87,11 +124,20 @@ sources:
     category: museums
     kind: venue
     status: provisional
-    url: https://www.bristolmuseums.org.uk/georgian-house-museum/
+    url: https://www.bristolmuseums.org.uk/georgian-house-museum/whats-on/
     area: City Centre
     tags: [free, heritage, historic-house]
     cadence: quarterly
-    hints: Small historic house with a sparse events programme; quarterly is enough.
+    hints: |
+      Small historic house with a sparse events programme; quarterly is enough.
+      Shares the Bristol Museums events platform — filter to this venue.
+      bristolmuseums.org.uk returns 403 to WebFetch and 200 to a browser
+      user-agent — fetch it with curl and a Chrome UA string.
+    notes: >-
+      Verified 2026-08-17 via curl with a browser UA: the catalogued URL was the venue landing page, /whats-on/ is
+      the listings page. Title reads "What's On - The Georgian House Museum", and two dated entries are listed
+      (Highlight Tours 1 April—31 December 2026, Summer Family Fun 21—22 August 2026). Page footer gives
+      7 Great George St, BS1 5RR, which agrees with the catalogued City Centre area.
     addedAt: "2026-08-16"
 
   - id: museums/red-lodge
@@ -99,10 +145,19 @@ sources:
     category: museums
     kind: venue
     status: provisional
-    url: https://www.bristolmuseums.org.uk/red-lodge-museum/
+    url: https://www.bristolmuseums.org.uk/red-lodge-museum/whats-on/
     area: City Centre
     tags: [free, heritage, historic-house]
     cadence: quarterly
+    hints: |
+      Shares the Bristol Museums events platform — filter to this venue.
+      bristolmuseums.org.uk returns 403 to WebFetch and 200 to a browser
+      user-agent — fetch it with curl and a Chrome UA string.
+    notes: >-
+      Verified 2026-08-17 via curl with a browser UA: the catalogued URL was the venue landing page, /whats-on/ is
+      the listings page. Title reads "What's On - The Red Lodge Museum", three dated entries listed (Highlight Tours
+      1 April—31 December 2026, Summer Family Fun 29—30 August, Spooky Week 24 October—1 November 2026). Footer
+      gives Park Row, BS1 5LJ, which agrees with the catalogued City Centre area.
     addedAt: "2026-08-16"
 
   - id: museums/blaise-museum
@@ -110,10 +165,22 @@ sources:
     category: museums
     kind: venue
     status: provisional
-    url: https://www.bristolmuseums.org.uk/blaise-museum/
+    url: https://www.bristolmuseums.org.uk/blaise-museum/whats-on/
     area: Henbury
     tags: [free, heritage, parkland, family]
     cadence: quarterly
+    hints: |
+      Shares the Bristol Museums events platform — filter to this venue.
+      bristolmuseums.org.uk returns 403 to WebFetch and 200 to a browser
+      user-agent — fetch it with curl and a Chrome UA string.
+      This page also carries the outdoor Blaise estate programme (walks, castle
+      open afternoons), which the council's Blaise Castle Estate page does not.
+    notes: >-
+      Verified 2026-08-17 via curl with a browser UA: the catalogued URL was the venue landing page, /whats-on/ is
+      the listings page. Its <title> is generic ("What's On | Bristol Museums") but the lead line reads "what's on at
+      Blaise Museum", the body names Blaise Museum fourteen times and Henbury once, and six dated entries are listed
+      (Blaise 100 tours, 1000 Years of Fashion History 18 July—1 November, Castle Open Afternoons 30 August—4 October
+      2026). Cadence of quarterly now looks low — the Blaise 100 anniversary year is programming monthly.
     addedAt: "2026-08-16"
 
   - id: museums/clifton-observatory
@@ -121,10 +188,17 @@ sources:
     category: museums
     kind: venue
     status: provisional
-    url: https://cliftonobservatory.com/
+    url: https://cliftonobservatory.com/events/
+    homepage: https://cliftonobservatory.com/
     area: Clifton
     tags: [heritage, camera-obscura, ticketed, views]
     cadence: quarterly
+    notes: >-
+      Verified 2026-08-17: /events/ is a real diary running August to December 2026 — Golden Hour Thursdays 20 and
+      27 August, Maker Market 31 August, Rooftop Jazz Night 13 September, Sound Bath and Meditation on four dates,
+      Bonfire Night 5—7 November. Page gives Litfield Place, Clifton, BS8 3LT and references the suspension bridge
+      and Avon Gorge, so the Clifton area agrees. No closure notice. Cadence of quarterly is too slow for this rate
+      of listing — monthly would suit it better.
     addedAt: "2026-08-16"
 
   - id: museums/bristol-aquarium
@@ -132,8 +206,20 @@ sources:
     category: museums
     kind: venue
     status: provisional
-    url: https://www.bristolaquarium.co.uk/
+    url: https://www.bristolaquarium.co.uk/whats-on-event/whats-on/
+    homepage: https://www.bristolaquarium.co.uk/
     area: Harbourside
     tags: [family, ticketed, attraction]
     cadence: quarterly
+    hints: |
+      Returns 403 to WebFetch and 200 to a browser user-agent — fetch it with
+      curl and a Chrome UA string.
+      Dates on this page are printed without a year ("18 July – 31 August"), so
+      cross-check the inferred year against a printed weekday before recording.
+      Much of the programme is daily activity included with admission rather
+      than separately ticketed events — recurring rather than single.
+    notes: >-
+      Verified 2026-08-17 via curl with a browser UA: title reads "What's on - Bristol Aquarium", and the page
+      carries dated entries (Conservation Carnival 18 July—31 August, Bank Holiday Bonanza 29—31 August) plus daily
+      recurring slots (Save Our Seas guided tours 11am, Sandpit Search 4pm).
     addedAt: "2026-08-16"

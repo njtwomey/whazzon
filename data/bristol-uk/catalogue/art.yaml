@@ -45,7 +45,8 @@ sources:
     category: art
     kind: venue
     status: provisional
-    url: https://www.rwa.org.uk/pages/whats-on
+    url: https://www.rwa.org.uk/collections/events
+    homepage: https://www.rwa.org.uk/
     area: Clifton
     address:
       street: Queens Road
@@ -54,6 +55,17 @@ sources:
       postcode: BS8 1PX
     tags: [gallery, historic, exhibitions]
     cadence: monthly
+    hints: |
+      Shopify site. `/collections/events` carries the dated events *and* the
+      exhibition runs, so it is the one page to crawl.
+      `/collections/whats-on` is the site's own umbrella but only surfaces two
+      featured shows — prefer the events collection.
+    notes: >-
+      Verified 2026-08-17: page names "Royal West of England Academy" and
+      "RWA" throughout, footer address "Queen's Road, Clifton Bristol BS8 1PX"
+      matches. Listed Folly (23 Jun – 30 Aug 2026), 173 Annual Open Exhibition
+      (12 Sep 2026 – 3 Jan 2027) and monthly Scribble and Sketch. The
+      catalogued /pages/whats-on returns 404.
     addedAt: "2026-08-16"
 
   - id: art/martin-parr-foundation
@@ -61,10 +73,21 @@ sources:
     category: art
     kind: venue
     status: provisional
-    url: https://www.martinparrfoundation.org/exhibitions/
+    url: https://www.martinparrfoundation.org/events/
+    homepage: https://www.martinparrfoundation.org/
     area: Paintworks
     tags: [photography, free, exhibitions]
     cadence: monthly
+    hints: |
+      403s to a plain fetcher — a browser user-agent is required and returns
+      200. `/events/` is the dated listing; `/exhibitions/` 302s to whichever
+      show is currently up, so treat that one as a single `run` rather than a
+      list. There is no `/programme/` (404) despite the nav wording.
+    notes: >-
+      Verified 2026-08-17 with a browser user-agent: /events/ lists 13+ dated
+      items (Dark Tales exhibition party 17.09.2026, BOP 26 Photobook Festival
+      and artist talks 17–18.10.2026). /visit/ confirms Paintworks, Bristol
+      BS4 3AR and "Free entry", matching area and tags.
     addedAt: "2026-08-16"
 
   - id: art/centrespace
@@ -72,13 +95,21 @@ sources:
     category: art
     kind: venue
     status: provisional
-    url: https://www.centrespacegallery.com/
+    url: https://www.centrespace.org.uk/whats-on
+    homepage: https://www.centrespace.org.uk/
     area: Old City
     tags: [independent, artist-led, short-run]
     cadence: weekly
     hints: |
       Artist-led space hired out week by week, so shows are short and change
-      often — weekly rather than monthly for this one.
+      often — weekly rather than monthly for this one. Each listing carries its
+      own opening hours and preview time; the run is usually under a week.
+    notes: >-
+      Verified 2026-08-17: the gallery moved domain to centrespace.org.uk and
+      the old centrespacegallery.com now 301s there. Page is titled "What's On"
+      and lists a dozen week-long shows (JOURNEY 3.0 14–19 Aug 2026, Yokai
+      21–26 Aug 2026, Searching for the Future 1–8 Sep 2026); footer address
+      "6 Leonard Lane, Bristol BS1 1EA" agrees with area Old City.
     addedAt: "2026-08-16"
 
   - id: art/upfest-gallery
@@ -86,16 +117,25 @@ sources:
     category: art
     kind: venue
     status: provisional
-    url: https://www.upfest.co.uk/
+    url: https://www.upfest.co.uk/upfest-north-st/
+    homepage: https://www.upfest.co.uk/
     area: Bedminster
     tags: [street-art, independent, gallery]
     cadence: monthly
-    hints: Gallery arm of the street art festival; the festival itself is catalogued separately.
+    hints: |
+      Gallery arm of the street art festival; the festival itself is catalogued
+      separately. The gallery publishes **no dated programme** — /upfest-north-st/
+      gives the venue, address and opening hours, and shows rotate without being
+      announced on the site, so an empty harvest here is the honest answer rather
+      than a crawl failure. Do not fall back to /gallery/: that is the online
+      shop and lists no dates either.
     notes: >-
-      Deliberately shares a domain with festivals/upfest — the gallery trades
-      year-round while the festival is occasional, so they are worth harvesting
-      separately. Find the gallery-specific path and set it here to silence the
-      duplicate-URL warning.
+      Verified 2026-08-17. Deliberately shares a domain with festivals/upfest —
+      the gallery trades year-round while the festival is occasional, so they are
+      worth harvesting separately. Set to the gallery-specific path: page reads
+      "Upfest North St.", "198 North Street, Bristol, BS3 1JF", Tue–Sat 10–5.30,
+      Sun 10–3, which matches area Bedminster. The harvest's proposed
+      /gallery/ is the e-commerce catalogue, not the venue.
     addedAt: "2026-08-16"
 
   - id: art/prsc
@@ -103,19 +143,45 @@ sources:
     category: art
     kind: venue
     status: provisional
-    url: https://www.prsc.org.uk/
+    url: https://prsc.org.uk/events/
+    homepage: https://prsc.org.uk/
     area: Stokes Croft
     tags: [street-art, community, artist-led, free]
     cadence: monthly
+    hints: |
+      Busier than a monthly cadence suggests — the page states "All our future
+      events are listed below" and carries several a week, so it is worth
+      harvesting weekly. Much of the programme is workshops, comedy and dance
+      rather than exhibitions; do not assume every entry is visual art.
+    notes: >-
+      Verified 2026-08-17: page titled "Events at PRSC", identifies the People's
+      Republic of Stokes Croft and its Hillgrove Street Studios, and listed nine
+      dated events (18 Aug – 19 Sep 2026). www.prsc.org.uk 301s to the apex
+      domain, so the URL is recorded without the www.
     addedAt: "2026-08-16"
 
   - id: art/grant-bradley-gallery
     name: Grant Bradley Gallery
     category: art
     kind: venue
-    status: provisional
-    url: https://www.grantbradleygallery.co.uk/
+    status: dormant
+    url: https://www.grantbradleygallery.co.uk/current.html
+    homepage: https://www.grantbradleygallery.co.uk/
     area: Bedminster
     tags: [independent, community, gallery]
     cadence: monthly
+    hints: |
+      **Do not harvest events from this site.** It has not been updated since
+      January 2017 and the pages are now injected with gambling spam links
+      ("Non Gamstop Casinos" blocks under a "Must-read blogs" heading), so any
+      copy scraped from it is unsafe to render. Recorded as dormant until the
+      gallery publishes somewhere current.
+    notes: >-
+      Verified 2026-08-17: current.html and forthcoming.html both still show
+      "9th December 2016 - 7th January 2017", so the site has published nothing
+      for nine years, and both carry injected casino spam. The business itself
+      looks to still trade — the site gives "Number 1 St Peter's Court,
+      Bedminster Parade, Bristol, BS3 4AQ", Mon–Sat 10am–5pm, and third-party
+      directories were updated in 2025 — so dormant rather than closed. Its
+      Skiddle venue page also reports "No events to display".
     addedAt: "2026-08-16"

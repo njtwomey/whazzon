@@ -24,11 +24,22 @@ sources:
     category: family
     kind: venue
     status: provisional
-    url: https://www.windmillhillcityfarm.org.uk/whats-on/
+    url: https://windmillhillcityfarm.org.uk/apps/bookthatapp/calendar
+    homepage: https://windmillhillcityfarm.org.uk/
     area: Bedminster
     tags: [city-farm, free, community, outdoor]
     cadence: monthly
-    hints: Free to visit; events cluster in school holidays.
+    hints: |
+      Free to visit; events cluster in school holidays. The calendar is a
+      BookThatApp/FullCalendar widget: course titles are in the HTML but the dates
+      load client-side from bookthatapp.com/calendar/events.json, which is why the
+      harvest read the page as empty. Several titles carry a weekday and day with
+      no year.
+    notes: >-
+      Verified 2026-08-17: the catalogued /whats-on/ path redirects to this
+      apps/bookthatapp/calendar URL. Page heads "Courses & Events Calendar", names
+      Windmill Hill City Farm and gives Philip Street, Bedminster, Bristol BS3 4EA;
+      over 100 courses and sessions listed.
     addedAt: "2026-08-16"
 
   - id: family/st-werburghs-city-farm
@@ -36,10 +47,20 @@ sources:
     category: family
     kind: venue
     status: provisional
-    url: https://swcityfarm.org.uk/
+    url: https://swcityfarm.co.uk/events/
+    homepage: https://swcityfarm.co.uk/
     area: St Werburghs
     tags: [city-farm, free, community, outdoor]
     cadence: monthly
+    hints: |
+      A calendar of the year's events rather than a rolling diary, so some entries
+      are recurring rather than single — a Women's Hearth & Drum Circle on the first
+      Tuesday of each month, for instance.
+    notes: >-
+      Verified 2026-08-17: the catalogued swcityfarm.org.uk no longer resolves (DNS
+      ENOTFOUND); the farm now uses swcityfarm.co.uk. Events page heads "2026
+      Calendar of Events", gives Watercress Rd, St Werburghs, Bristol BS2 9YJ, and
+      lists the Autumn Fair on 17 Oct 2026 and Winter Fair on 5 Dec 2026.
     addedAt: "2026-08-16"
 
   - id: family/puppet-place
@@ -47,10 +68,22 @@ sources:
     category: family
     kind: organiser
     status: provisional
-    url: https://puppetplace.org/
+    url: https://puppetplace.org/whats-on/
+    homepage: https://puppetplace.org/
     area: Bedminster
     tags: [puppetry, workshops, community]
     cadence: monthly
+    hints: |
+      The listing mixes passed events in with upcoming ones (2025 entries sit beside
+      2026), so read the year on every item rather than assuming the page is
+      forward-only.
+    notes: >-
+      Verified 2026-08-17: /whats-on/ is Puppet Place's own page (puppetry charity
+      for the South West) and lists dated items — Open Doors for Bristol Harbour
+      Festival on Sat 18 July 2026, stop-motion puppet making Sat 1-Sun 2 Aug. The
+      footer address is Unit 18 Albion Dockside Estate, Hanover Place, Bristol BS1
+      6UT; "Bedminster" appears nowhere on the page, so the catalogued area looks
+      wrong.
     addedAt: "2026-08-16"
 
   - id: family/childrens-scrapstore
@@ -58,8 +91,20 @@ sources:
     category: family
     kind: venue
     status: provisional
-    url: https://childrensscrapstore.co.uk/
+    url: https://www.childrensscrapstore.co.uk/free-events
+    homepage: https://www.childrensscrapstore.co.uk/
     area: St Werburghs
     tags: [play, community, workshops, creative]
     cadence: monthly
+    hints: |
+      /free-events is the dated calendar. /events is a separate page holding the paid
+      weekly sessions — Messy Play on Tuesdays and Wednesdays, Friday Craft — which
+      are recurring, not single. Each event has its own page with an ?format=ical
+      link if a date needs confirming.
+    notes: >-
+      Verified 2026-08-17: Squarespace event collection headed "Free Events" for
+      Children's Scrapstore (registered charity 1008788), 21 Sevier Street, Bristol
+      BS2 9LB; Super Saturday on 5 Sept 2026 and Super Sustainable Arts Weekend on
+      3-4 Oct 2026 listed. The bare domain redirects to www, so the www host is
+      catalogued.
     addedAt: "2026-08-16"

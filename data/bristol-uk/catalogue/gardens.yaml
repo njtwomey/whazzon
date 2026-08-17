@@ -11,7 +11,7 @@ sources:
     category: gardens
     kind: venue
     status: provisional
-    url: https://botanic-garden.bristol.ac.uk/whats-on/
+    url: https://botanic-garden.bristol.ac.uk/events/
     homepage: https://botanic-garden.bristol.ac.uk/
     area: Stoke Bishop
     tags: [botanic, university, ticketed, plants, tours]
@@ -20,6 +20,18 @@ sources:
       The city's main botanic garden. Runs guided tours, plant sales and
       seasonal open days alongside a permanent collection — the collection is
       `occurrence.kind: ongoing`, the events are dated.
+
+      The /events/ index carries the whole forward horizon, including the winter
+      lecture series into the following spring, so it does not need walking month
+      by month (/events/month/YYYY-MM/ exists if you want to confirm). Lectures
+      are announced as placeholders with a date and "to be announced" as the
+      title — keep the date, do not invent a subject. No admission price is
+      printed on either page.
+    notes: >-
+      Verified 2026-08-17: the catalogued /whats-on/ 404s and the listings moved to /events/. Page header reads
+      "University of Bristol Botanic Garden", address "The Holmes, Stoke Park Road, Stoke Bishop, Bristol" matches the
+      catalogued area, and nine dated items were listed running from Wednesday Wanders tours to a lecture on
+      18 March 2027.
     addedAt: "2026-08-16"
 
   - id: gardens/national-garden-scheme
@@ -30,17 +42,32 @@ sources:
     url: https://ngs.org.uk/gardens/in/bristol/
     homepage: https://ngs.org.uk/
     tags: [open-gardens, charity, seasonal, private-gardens]
-    cadence: monthly
+    cadence: quarterly
     hints: |
       Private gardens opening to the public for charity, usually for a single
       afternoon. High-value and genuinely hard to find elsewhere, and already
       scoped to Bristol by this URL, so no radius filtering is needed.
 
-      Openings are published for the whole year in spring, so capture a long
-      forward horizon — a garden may open on only two days in the entire year,
-      and missing the announcement means missing it altogether. Each opening is
-      its own `single` event; set `venue.name` from the garden's name, since
-      these are private addresses and not catalogued sources.
+      Openings are published for the whole year at once, in February, so capture
+      a long forward horizon — a garden may open on only two days in the entire
+      year, and missing the announcement means missing it altogether. Each
+      opening is its own `single` event; set `venue.name` from the garden's name,
+      since these are private addresses and not catalogued sources.
+
+      This listing page prints no dates at all, only garden names: the dates live
+      on each garden's own page, one fetch each, so budget for roughly a dozen
+      fetches when the season is live. /gardens/near/bristol/ is the
+      currently-open subset rather than the year, and findagarden.ngs.org.uk is a
+      JavaScript shell that renders nothing.
+    notes: >-
+      Cadence corrected 2026-08-17, from monthly to quarterly. Confirmed the publishing pattern rather than the
+      report's wording: the Bristol page lists 13 gardens with no opening dates, times or admission on it, and warns
+      that "some may have completed their openings for the year"; /gardens/near/bristol/ is down to one garden for
+      2026, whose own page says its openings for the year are finished. The whole year publishes in one go with the
+      annual Garden Visitor's Handbook — the 2025 edition was published on 1 February for a season running February to
+      October, and ngs.org.uk was still advertising the 2026 handbook in August 2026. So the real cadence is annual and
+      the useful window opens in February 2027; monthly re-harvesting between seasons fetches an unchanged page twelve
+      times. Quarterly is the coarsest value the Cadence enum offers, so it is the closest honest fit.
     addedAt: "2026-08-16"
 
   - id: gardens/grow-wilder
@@ -48,13 +75,26 @@ sources:
     category: gardens
     kind: venue
     status: provisional
-    url: https://www.avonwildlifetrust.org.uk/grow-wilder
+    url: https://www.avonwildlifetrust.org.uk/events?tags=661
+    homepage: https://www.avonwildlifetrust.org.uk/grow-wilder
     area: Frenchay
     tags: [growing, wildlife, volunteering, workshops, community]
     cadence: monthly
     hints: |
       Avon Wildlife Trust growing site running workshops, volunteer days and
       seasonal plant sales.
+
+      `?tags=661` is Grow Wilder's tag id on the Trust's shared events feed; the
+      site's own /grow-wilder page is a description with no listings and links
+      through to it. The tag is not labelled "Grow Wilder" in the filter UI, so
+      check the location on each row before trusting the feed after a site
+      change. These same rows also appear in the unfiltered feed harvested as
+      gardens/avon-wildlife-trust — record them here and leave them out there.
+      No prices are printed on the listing page.
+    notes: >-
+      Verified 2026-08-17: the tag feed returned nine events, every one of them located at "Grow Wilder, Bristol", from
+      a BioBlitz on 19 August 2026 to hedgelaying running into January 2027. Site is Avon Wildlife Trust, registered
+      charity 280422. The catalogued /grow-wilder URL is a real page but carries no programme, so it moves to homepage.
     addedAt: "2026-08-16"
 
   - id: gardens/avon-wildlife-trust
@@ -76,12 +116,17 @@ sources:
     category: gardens
     kind: listing
     status: provisional
-    url: https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/allotments
+    url: https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/allotments-and-gardens
     tags: [allotments, community, civic, growing]
     cadence: quarterly
     notes: >-
-      Mostly administrative rather than an events page, but the route to
-      community growing days and allotment association open days.
+      Verified 2026-08-17: the catalogued /allotments path 404s; the section is now /allotments-and-gardens on
+      bristol.gov.uk. Identity is right but the premise of the entry is not — the page is "Allotments and gardens" and
+      is entirely administrative: apply for a plot, pay your rent, guide to using your allotment, Bristol Allotments
+      Forum, a bee disease advisory and a link to Blaise plant nursery. There is no events subsection to follow and
+      nothing dated anywhere in it, so the hoped-for route to community growing days and association open days does not
+      exist. The Forum subpage meets quarterly at City Hall but invites members by email rather than publishing dates.
+      Whether this stays a source at all is a catalogue decision, not a URL fix.
     addedAt: "2026-08-16"
 
   - id: gardens/bristol-botanical-society
@@ -89,10 +134,22 @@ sources:
     category: gardens
     kind: organiser
     status: provisional
-    url: https://www.bristolnats.org.uk/
+    url: https://bristolnats.org.uk/events/
+    homepage: https://bristolnats.org.uk/
     tags: [botany, walks, talks, society, free]
     cadence: monthly
-    notes: Long-running local natural history society; check the events page path.
+    hints: |
+      Field meetings at sites around the city rather than at a society venue, so
+      set `venue.name` per event. Listings give a date and a teaser sentence
+      only — no start times and no prices — and do not say which section (botany,
+      ornithology, geology, invertebrates) a meeting belongs to, so leave
+      `subcategory` off rather than guessing from the subject.
+    notes: >-
+      Verified 2026-08-17: /events/ is the programme; the catalogued homepage carries no listings. Page footer reads
+      "©2026 Bristol Naturalists' Society Registered Charity No. 235494" and a botany area of interest is listed, so
+      the society is right. Three dated field meetings were showing, 4 September to 11 October 2026. Note the feed is
+      society-wide, not the botany section alone — moth trapping and a saltmarsh survey were two of the three — so
+      the entry's name and its placement in gardens are both worth a human look.
     addedAt: "2026-08-16"
 
   - id: gardens/the-community-farm
@@ -115,9 +172,19 @@ sources:
     category: gardens
     kind: venue
     status: provisional
-    url: https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/parks-and-estates/blaise-plant-nursery
+    url: https://www.bristol.gov.uk/blaise-plant-nursery
     area: Henbury
     tags: [nursery, plants, council, plant-sales]
     cadence: quarterly
-    notes: Council-run nursery with periodic plant sales; URL needs checking.
+    hints: |
+      No dated plant sales or open days are advertised — the only thing to record
+      is the nursery being open, as an `ongoing` event carrying its two seasonal
+      opening patterns (1 March to 30 September, then 1 October to 22 December,
+      with different Saturday and Sunday hours and closed Easter Sunday).
+    notes: >-
+      Verified 2026-08-17: the catalogued /parks-and-estates/ path 404s and the nursery now has its own council subsite
+      at bristol.gov.uk/blaise-plant-nursery, headed "Blaise Plant Nursery — where quality is grown in", with Visit,
+      About and Products sections. The address printed there is Kings Weston Road, Lawrence Weston, Bristol BS11 0XF,
+      which does not agree with the catalogued area of Henbury; left alone rather than changed on one page's evidence,
+      but worth settling.
     addedAt: "2026-08-16"

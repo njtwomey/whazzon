@@ -27,13 +27,23 @@ sources:
     category: citywide
     kind: aggregator
     status: provisional
-    url: https://www.bristol247.com/whats-on/
+    url: https://www.bristol247.com/guides/
     homepage: https://www.bristol247.com/
     tags: [independent, editorial, news]
     cadence: daily
     hints: |
       Independent local media with an editorial "things to do this week" slant.
       Strong on grassroots and community events the tourist board ignores.
+      A browser user-agent is required — WebFetch gets 403, Chrome UA gets 200.
+      Listings are editorial roundups, not a feed: read the weekly "N things to
+      do in Bristol this week, <dates>" and monthly "N things to do in Bristol
+      in <month>" articles, one paragraph per item. The structured event search
+      at /whats-on/events/ still renders but its database is empty — ignore it.
+    notes: >-
+      Verified 2026-08-17: /whats-on/ 301s to /guides/, headed "Things to Do in
+      Bristol | Guides | Highlights at Bristol24/7", carrying "15 things to do
+      in Bristol this week, August 17-23 2026" and "45 things to do in Bristol
+      in August 2026". The harvest's 403 was the bot wall, not a dead page.
     addedAt: "2026-08-16"
 
   - id: citywide/headfirst
@@ -56,9 +66,15 @@ sources:
     category: citywide
     kind: aggregator
     status: provisional
-    url: https://www.365bristol.com/whats-on
+    url: https://365bristol.com/events
+    homepage: https://365bristol.com/
     tags: [independent, editorial]
     cadence: weekly
+    notes: >-
+      Verified 2026-08-17: page titled "Things to do in Bristol - Theatre Events
+      and Live Music | 365 Bristol", footer "© 2026 365 The World Ltd", with
+      dated listings from Aug to Nov 2026 (Annie at the Hippodrome 18-23 Aug,
+      Lorde on the Downs 28 Aug). The catalogued /whats-on path is gone.
     addedAt: "2026-08-16"
 
   - id: citywide/bristol-live
@@ -72,6 +88,14 @@ sources:
     hints: |
       Regional newspaper. High volume, low signal — much of it is not an event
       at all. Be selective and prefer items with a date and a venue.
+      Unreachable as of 2026-08-17 and no URL will fix it: the host answers 202
+      with an empty body to WebFetch and to a full Chrome header set alike. Do
+      not spend a slot on it until there is a JS-capable fetcher.
+    notes: >-
+      Checked 2026-08-17: bristolpost.co.uk is a Reach plc bot challenge (202,
+      empty body) on / and on every /whats-on path. bristollive.co.uk is not an
+      alternate route — it redirects to a hey.co.uk domain-broker page, so the
+      Post's own domain remains the only one. No successor URL exists.
     addedAt: "2026-08-16"
 
   - id: citywide/skiddle
@@ -86,6 +110,20 @@ sources:
       National ticketing platform filtered to Bristol. Good coverage of club
       nights and touring shows; heavy overlap with venue pages, so dedup
       carefully on title plus date.
+      This page renders no visible list — the cards are lazy-loaded — but it
+      still carries one `application/ld+json` Event block per listing, with
+      name, startDate, endDate, image, description and the venue's postal
+      address. Read those, not the HTML.
+      The genre paths do render a full server-side list and are richer:
+      /clubs/Bristol/ (179 events), /gigs/Bristol/ (63),
+      /things-to-do/Bristol/ (19), /comedy/Bristol/ (3). Expect heavy overlap
+      with citywide/resident-advisor on club nights — dedup against it first.
+      Skiddle's "Bristol" region bleeds into Bath and Newport — filter on
+      addressLocality, do not assume every listing is in Bristol.
+    notes: >-
+      Verified 2026-08-17: the catalogued page is the right one and is Skiddle's
+      Bristol index, but the harvest read the rendered HTML and found nothing.
+      It holds 104 JSON-LD Event blocks — 92 Bristol, 10 Bath, 2 Newport.
     addedAt: "2026-08-16"
 
   - id: citywide/resident-advisor
@@ -99,6 +137,39 @@ sources:
     hints: |
       Definitive for electronic music and club nights, which is a large part of
       Bristol's cultural output and poorly covered by mainstream listings.
+      Do not fetch this URL — every HTML page on ra.co is behind DataDome and
+      403s a plain fetch, a Chrome user-agent and a full browser header set
+      alike. The wall does not cover the API. POST to https://ra.co/graphql
+      with `Content-Type: application/json` and no auth of any kind:
+
+        query GET_EVENT_LISTINGS($filters: FilterInputDtoInput, $page: Int,
+                                 $pageSize: Int) {
+          eventListings(filters: $filters, page: $page, pageSize: $pageSize) {
+            totalResults
+            data {
+              id listingDate
+              event {
+                id title date startTime endTime contentUrl
+                venue { id name contentUrl }
+                artists { name }
+              }
+            }
+          }
+        }
+
+      Bristol is area 446 — resolve it again if it ever moves with
+      `{ area(areaUrlName:"bristol", countryUrlCode:"uk"){ id } }`. Variables:
+      `{"filters":{"areas":{"eq":446},"listingDate":{"gte":"<from>T00:00:00.000Z",
+      "lte":"<to>T00:00:00.000Z"}},"page":1,"pageSize":50}`. Page until you have
+      `totalResults`. `contentUrl` is site-relative — prefix https://ra.co.
+      Venue names come back plain, so match them to the catalogue by name.
+    notes: >-
+      Verified 2026-08-17: recovered. The harvest wrote this source off on the
+      403, but only ra.co's HTML is walled — the GraphQL endpoint is open and
+      unauthenticated. Bristol area 446 returned totalResults 160 for
+      2026-08-17 to 2026-12-31, at Bristol rooms the catalogue already knows
+      (The Love Inn, Strange Brew, The Gallimaufry, The Jam Jar, Sawmills).
+      The url above stays the human-facing page; the API recipe is in hints.
     addedAt: "2026-08-16"
 
   - id: citywide/eventbrite
@@ -119,14 +190,26 @@ sources:
     name: Bristol City Council — events
     category: citywide
     kind: listing
-    status: provisional
+    status: dormant
     url: https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture
     homepage: https://www.bristol.gov.uk/
     tags: [official, civic, free]
     cadence: monthly
     hints: |
-      Civic and free events, park events, and licensing notices for large
-      outdoor events — often the earliest signal that a big event is happening.
+      Do not harvest. The premise of this source was wrong: the council runs no
+      events diary of any kind, so there is nothing here to extract and no path
+      that would change that. Left in the catalogue, marked dormant, only so it
+      is not proposed again. Its programme reaches us elsewhere — the museums it
+      runs are catalogued under museums/, and its own pages send the public to
+      Visit Bristol, which is citywide/visit-bristol.
+    notes: >-
+      Checked 2026-08-17, confirming the harvest's diagnosis on four counts:
+      /whats-on 404s; the /events vanity path redirects to arts-and-culture
+      funding; the proposed arts-culture-and-events page is policy, filming
+      permits, busking guidance and grant applications with no dated content;
+      and hold-an-event-in-a-park is an application form, not the register of
+      granted permissions the old hints assumed. No diary exists to point at,
+      so the URL is left as the culture hub rather than aimed at a policy page.
     addedAt: "2026-08-16"
 
   - id: citywide/bristol-libraries
@@ -134,12 +217,24 @@ sources:
     category: citywide
     kind: listing
     status: provisional
-    url: https://www.bristol.gov.uk/residents/libraries-and-archives
+    url: https://bristol.events.mylibrary.digital/
+    homepage: https://www.bristol.gov.uk/residents/libraries-and-archives
     tags: [official, civic, free, family]
     cadence: monthly
     hints: |
       Free community events across every branch — talks, children's sessions,
       reading groups. Under-represented everywhere else.
+      Unreachable as of 2026-08-17: the platform answers every route with a
+      Cloudflare "Just a moment..." interstitial, and a Chrome user-agent plus a
+      full browser header set does not get past it. Needs a JS-capable fetcher;
+      the URL is correct, so it should start working without a catalogue change.
+    notes: >-
+      Verified 2026-08-17 as the right target, not as reachable. The catalogued
+      gov.uk page is the library service's landing page and carries no events;
+      its "What's on in our Libraries" link points here, which is the platform
+      the harvest was actually being blocked by. URL moved to the platform and
+      the gov.uk page kept as homepage, so the identity is recorded even though
+      the fetch still fails.
     addedAt: "2026-08-16"
 
   - id: citywide/university-of-bristol
@@ -153,6 +248,22 @@ sources:
     hints: |
       Public lectures and open research events. Free and open to the public
       despite looking institutional — worth including.
+      Nothing is server-rendered here. The "Forthcoming events" block is a
+      Timely embed and the page itself says events only appear once cookie
+      preferences are set. The calendar is
+      https://calendar.time.ly/s4f7hatq/list (numeric id 15953078), which is
+      client-rendered — its HTML holds no event data and its sitemap lists only
+      the posterboard view. The underlying API,
+      calendar.time.ly/api/calendars/15953078/events, exists but 403s "not
+      authorized" without the token the embed script mints, so there is no
+      unauthenticated route. Needs a JS-capable fetcher.
+    notes: >-
+      Checked 2026-08-17: the URL is right and the harvest's "listed nothing" is
+      accurate rather than a miss — the page is a shell around a cookie-gated
+      Timely widget. /university/for-bristol/events/ and /public-engagement/
+      were checked as alternatives and are prose hubs with no dated listings;
+      the only dated pages are per-department (for example /maths/events/public/
+      ), too fragmented to catalogue as one source.
     addedAt: "2026-08-16"
 
   - id: citywide/uwe-bristol
@@ -160,7 +271,19 @@ sources:
     category: citywide
     kind: listing
     status: provisional
-    url: https://www.uwe.ac.uk/events
+    url: https://www.uwe.ac.uk/events/search-results
+    homepage: https://www.uwe.ac.uk/events
     tags: [university, talks, free]
     cadence: monthly
+    hints: |
+      Server-rendered and paginated: 206 results at 12 per page, so page through
+      rather than taking the first screen. Most of it is recruitment — campus
+      tours, open days, applicant webinars — which is not what we want. Keep the
+      genuinely public items (exhibitions, lectures, performances) and drop the
+      rest.
+    notes: >-
+      Verified 2026-08-17: UWE's own events search, 206 dated results, listing
+      real public events alongside recruitment ones (SENTIENTS exhibition at
+      Undershed, 18 Jul; Frenchay campus tours, 17 Aug). The catalogued /events
+      path is the landing page and is kept as homepage.
     addedAt: "2026-08-16"

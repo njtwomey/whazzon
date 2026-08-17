@@ -10,14 +10,25 @@ sources:
     category: comedy
     kind: organiser
     status: provisional
-    url: https://www.comedybox.co.uk/
+    url: https://www.thecomedybox.co.uk/
     area: Bedminster
     tags: [club, stand-up, weekly]
     cadence: weekly
     hints: |
       Bristol's main stand-up club, based at the Hen & Chicken but also
       promoting into other venues — set `venue.sourceId` where the host is in
-      our catalogue.
+      our catalogue. Its own venue pages name the Hen & Chicken, Lakota
+      Courtyard, Bristol Old Vic, the Redgrave, Tobacco Factory and the 1532
+      Performing Arts Centre, so expect listings away from Bedminster.
+      An old-fashioned ASP site: the root 302s to /site/index.asp, which is the
+      listing, and section links are query strings on 301.asp — follow them
+      rather than guessing tidy paths.
+    notes: >-
+      Verified 2026-08-17: page titled "Comedy Listings - The Comedy Box
+      Bristol", with dated September 2026 shows and prices (Boothby Graffoe &
+      Antonio Forcione, 4 Sep, £25; Andrew Bird, 5 Sep). The catalogued
+      comedybox.co.uk is not the club — it now serves an Aftermarket.com "domain
+      is for sale" page, one of the lapsed domains that pass check-urls at 200.
     addedAt: "2026-08-16"
 
   - id: comedy/bristol-improv-theatre
@@ -25,14 +36,24 @@ sources:
     category: comedy
     kind: venue
     status: provisional
-    url: https://www.improvtheatre.co.uk/whats-on
+    url: https://www.improvtheatre.co.uk/?filter=Events
+    homepage: https://www.improvtheatre.co.uk/
     area: Clifton
     tags: [improv, stand-up, independent]
     cadence: weekly
+    hints: |
+      There is no /whats-on page — the root is the listing, and `?filter=Events`
+      is a real filter on it, not decoration: it drops the theatre-school course
+      listings and leaves the performances. Use the filtered view here and leave
+      the unfiltered root to theatre/bristol-improv-theatre.
     notes: >-
-      Deliberately catalogued under both theatre and comedy — the venue's output
-      genuinely sits in both. Dedup at compile time on event id, which will
-      match because both entries harvest the same page.
+      Verified 2026-08-17: page names the venue at 50 St Paul's Rd, Clifton, BS8
+      1LP, with dated shows from Aug to Dec 2026 (Unscripted Players' Big Summer
+      Show, 20-22 Aug; The Noise Next Door, 23-24 Oct). The catalogued /whats-on
+      path does not exist. Deliberately catalogued under both theatre and comedy
+      — the venue's output genuinely sits in both. Dedup at compile time on
+      event id: the two entries read the same site, this one through the Events
+      filter, so the performances they share generate identical ids.
     addedAt: "2026-08-16"
 
   - id: comedy/bristol-comedy-garden
@@ -40,7 +61,8 @@ sources:
     category: comedy
     kind: festival
     status: provisional
-    url: https://www.bristolcomedygarden.co.uk/
+    url: https://www.bristolcomedygarden.co.uk/shows
+    homepage: https://www.bristolcomedygarden.co.uk/
     area: Queen Square
     tags: [festival, summer, outdoor, major]
     cadence: quarterly
@@ -48,6 +70,22 @@ sources:
       Annual summer festival in Queen Square with big touring names. Lineup is
       announced in one go in spring and then barely changes — quarterly is
       enough outside the announcement window.
+      A browser user-agent is required: WebFetch gets 403 on every path, a
+      Chrome UA gets 200. /shows is the listing — one block per sitting with
+      gates-open and start times, price and a sold-out flag; /line-up is only
+      the roll of acts, with no dates. Take the dates from the banner, which
+      states the edition ("17-21 June 2026"), because the day headings give
+      weekday and day but no year.
+      The site keeps the finished edition up until the next is announced, so
+      out-of-season the whole programme is in the past. Record it as it stands
+      rather than rolling it into next year.
+    notes: >-
+      Verified 2026-08-17: header reads "Bristol Comedy Garden | 17-21 June
+      2026, Queen Square" with the address Queen Square BS1 4JP, eight dated
+      sittings at £29 and named headliners (Sara Pascoe, Jack Dee, Chris
+      McCausland). Reachable only with a browser user-agent, which is why the
+      harvest saw a hard 403. The 2026 edition has passed and 2027 is not yet
+      announced; the festival is between editions, not dormant.
     addedAt: "2026-08-16"
 
   - id: comedy/hen-and-chicken
@@ -55,9 +93,28 @@ sources:
     category: comedy
     kind: venue
     status: provisional
-    url: https://www.henandchicken.com/
+    url: https://www.henandchicken.com/events/category/comedy/
+    homepage: https://www.henandchicken.com/
     area: Bedminster
     tags: [pub, club, stand-up]
     cadence: weekly
-    notes: Host venue for The Comedy Box; listings may substantially overlap.
+    hints: |
+      A browser user-agent is required: WebFetch gets 403, a Chrome UA gets 200.
+      WordPress with The Events Calendar. The comedy category above is the right
+      page for this entry; /events/ is the whole diary, which also carries music,
+      jazz, theatre, talks and a weekly modern jive class. Event titles are
+      prefixed with their genre ("Comedy:", "Music:", "Talk:") — strip that
+      prefix rather than keeping it in the title.
+      Ignore the <title> tag. It is a stale plugin artefact reading "Events from
+      January 4, 2025 – January 21, 2025"; the body is current. Take dates from
+      the listing rows, which give day and month but no year.
+      There is a REST API if the HTML is awkward:
+      /wp-json/tribe/events/v1/events?per_page=50&page=N returns JSON with
+      start_date, and reported 206 events across the whole diary.
+    notes: >-
+      Verified 2026-08-17: header reads "Live Comedy in Bristol | The Hen &
+      Chicken", the comedy category page lists 12 dated September 2026 shows with
+      prices, and the site states the Comedy Box has operated out of the venue
+      since 1998. Host venue for The Comedy Box; listings substantially overlap
+      with comedy/the-comedy-box, so dedup on event id.
     addedAt: "2026-08-16"

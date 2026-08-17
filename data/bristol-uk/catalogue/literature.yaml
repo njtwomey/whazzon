@@ -10,13 +10,25 @@ sources:
     category: literature
     kind: venue
     status: provisional
-    url: https://www.waterstones.com/events
+    url: https://www.waterstones.com/events/search/shop/bristol-galleries
+    homepage: https://www.waterstones.com/events
     area: Broadmead
     tags: [bookshop, author-events, chain]
     cadence: weekly
     hints: |
-      The national events page covers every branch — filter to the Bristol
-      shops only. Author talks and signings, usually ticketed.
+      Bristol has three branches, each with its own shop filter on the national
+      events search: /events/search/shop/bristol-galleries (Broadmead, the
+      busiest), /events/search/shop/waterstones-clifton and
+      /events/search/shop/cribbs-causeway. Author talks and signings, usually
+      ticketed. waterstones.com returns 403 to plain fetches — a browser
+      user-agent is required. Month filters exist at
+      /events/search/shop/bristol-galleries/date/month-2026-09 if the default
+      page truncates.
+    notes: >-
+      Verified 2026-08-17: waterstones.com 403s to WebFetch but 200s to a browser user-agent. The Galleries shop
+      filter lists nine dated events (Thu 27 Aug, Fri 11 Sep, Mon 28 Sep, Thu 8 Oct, Mon 26 Oct 2026 among them)
+      and its applied-filter label reads "Bristol - Galleries". Clifton had two events, Cribbs Causeway none, at
+      the time of checking. URL changed from the unfiltered national page, which is every branch in the country.
     addedAt: "2026-08-16"
 
   - id: literature/storysmith
@@ -24,13 +36,21 @@ sources:
     category: literature
     kind: venue
     status: provisional
-    url: https://storysmithbooks.com/pages/events
+    url: https://storysmithbooks.com/product-category/upcoming-events/
+    homepage: https://storysmithbooks.com/
     area: North Street, Bedminster
     tags: [bookshop, independent, author-events]
     cadence: weekly
     hints: |
       Independent bookshop on North Street with a regular author-event
-      programme, often in partnership with other North Street venues.
+      programme, often in partnership with other North Street venues. Events
+      are WooCommerce products under the "upcoming events" category, so each
+      listing is a product page with the date in its title.
+    notes: >-
+      Verified 2026-08-17: the catalogued /pages/events returns 404 — the shop has moved off that path onto a
+      WooCommerce category. Page heading reads "Upcoming Events" with five dated events (Tice Cin 14 Sep, Patricia
+      Lockwood 23 Sep, Meg Mason 8 Oct, Oliver Jeffers twice on 26 Oct, all 2026) and the footer address 236 North
+      Street, Bristol BS3 1JD agrees with the catalogued area.
     addedAt: "2026-08-16"
 
   - id: literature/gloucester-road-books
@@ -38,10 +58,22 @@ sources:
     category: literature
     kind: venue
     status: provisional
-    url: https://www.gloucesterroadbooks.co.uk/
+    url: https://gloucesterroadbooks.com/events/
+    homepage: https://gloucesterroadbooks.com/
     area: Gloucester Road
     tags: [bookshop, independent, author-events]
     cadence: weekly
+    hints: |
+      Small independent shop — a handful of author events a year, ticketed
+      through Headfirst Bristol, though Headfirst has no venue index page for
+      it. The events page is not pruned, so past events stay on it: check the
+      dates rather than assuming everything listed is still to come.
+    notes: >-
+      Verified 2026-08-17: the catalogued gloucesterroadbooks.co.uk does not resolve at all (no DNS, with or
+      without www). The live domain is .com, and the shop is trading — 184 Gloucester Road, Bishopston BS7 8NU,
+      open Mon-Sat, established April 2021. /events/ carries the shop's own name but only the past season (six
+      events, Feb to May 2026), which is why the harvest read nothing from it; the homepage teases a "2026 Events
+      Programme" with no dates attached. No Headfirst mirror exists — four plausible venue slugs all 404.
     addedAt: "2026-08-16"
 
   - id: literature/bookhaus
@@ -49,10 +81,22 @@ sources:
     category: literature
     kind: venue
     status: provisional
-    url: https://www.bookhaus.co.uk/
+    url: https://www.headfirstbristol.co.uk/whats-on/bookhaus
+    homepage: https://bookhausbristol.com/
     area: Wapping Wharf
     tags: [bookshop, independent, author-events]
     cadence: weekly
+    hints: |
+      The shop's own events page is a JavaScript Headfirst embed and serves
+      only "loading events…" to a fetcher, so harvest the Headfirst venue page
+      instead — it is the same data, server-rendered. Busy programme: book
+      launches several nights a week, plus reading and writing groups.
+    notes: >-
+      Verified 2026-08-17: the catalogued bookhaus.co.uk has lapsed and 301s to shropshire-hogroasts.co.uk, so it
+      is not the shop. The shop itself still trades — Unit 4 Rope Walk, BS1 6ZJ, on Wapping Wharf — and its
+      current site is bookhausbristol.com, but that site's /events/ page renders "loading events…" and loads
+      headfirstbristol.co.uk/apps/embed2/embed_remote_src.js, so the Headfirst venue page is the same programme
+      served as HTML: 20 dated events from 21 Aug to 11 Nov 2026, address line "Unit 4, Rope Walk / BS1 6ZJ".
     addedAt: "2026-08-16"
 
   - id: literature/max-minervas
@@ -60,10 +104,21 @@ sources:
     category: literature
     kind: venue
     status: provisional
-    url: https://www.maxminervas.co.uk/
+    url: https://www.maxminervas.co.uk/collections/events
+    homepage: https://www.maxminervas.co.uk/
     area: Westbury Park
     tags: [bookshop, independent, family, author-events]
     cadence: monthly
+    hints: |
+      Shopify "events" collection — each event is a product with the date as
+      dd/mm at the start of its title, so the year has to be inferred. Mostly
+      recurring book clubs (translated fiction, romance, crime, contemporary)
+      plus a few author evenings.
+    notes: >-
+      Verified 2026-08-17: page heading reads "Events" with 16 dated listings from 24/08 to 30/11 2026, including
+      Liane Moriarty on 25/09. One caveat for a human: the site gives a single address, 47 Henleaze Road, Henleaze
+      BS9 4JU, and mentions neither Westbury Park nor North View anywhere, so the catalogued area looks out of
+      date. Left unchanged — that is a curation call, not a URL fix.
     addedAt: "2026-08-16"
 
   - id: literature/lyra-poetry-festival
@@ -71,26 +126,39 @@ sources:
     category: literature
     kind: festival
     status: provisional
-    url: https://www.lyrabristol.com/
+    url: https://www.lyrafest.com/
     tags: [festival, poetry, spoken-word, annual]
     cadence: quarterly
     hints: |
       Annual poetry festival, usually in spring, programming across many venues
-      rather than one. Quiet for most of the year.
+      rather than one. Quiet for most of the year. The homepage is the listings
+      page ("2026 Programme & Tickets"), but its grid is JavaScript-rendered and
+      serves "loading events…" to a fetcher; a full-listings PDF is linked
+      beside it. /programme 404s. Individual events also surface through the
+      host venues — St George's, Arnolfini, Watershed, Bristol Old Vic.
+    notes: >-
+      Verified 2026-08-17: the catalogued lyrabristol.com does not resolve (no DNS, with or without www). The live
+      site is lyrafest.com and is the right organisation — "Lyra is a Bristol-based organisation running the annual
+      Lyra - Bristol Poetry Festival". The edition it advertises ran 17-26 April 2026 and nothing is announced for
+      2027 yet, which is why the harvest read no events. Not dormant: it ran four months ago. Worth re-crawling in
+      the new year.
     addedAt: "2026-08-16"
 
   - id: literature/bristol-ideas
     name: Bristol Ideas
     category: literature
     kind: organiser
-    status: provisional
+    status: closed
     url: https://www.bristolideas.co.uk/
     tags: [talks, ideas, festival]
     cadence: monthly
     notes: >-
-      Long-running public ideas programme. Check whether it is still actively
-      programming before promoting to active — set status dormant if the site
-      has not listed anything recent.
+      Closed. Verified 2026-08-17: the site's own homepage text reads "Bristol Ideas closed 30 April 2024. We are
+      proud of the work we have done in Bristol." The host sits behind Cloudflare and 403s to both WebFetch and a
+      browser user-agent, so that sentence was read from the indexed page title rather than fetched, and Secret
+      Bristol reports the closure independently. Kept in the catalogue as closed so it is not re-proposed. The
+      Festival of Economics strand continues under the University of Bristol's Economics Observatory, which is a
+      separate source if anyone wants it.
     addedAt: "2026-08-16"
 
   - id: literature/novel-nights

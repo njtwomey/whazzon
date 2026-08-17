@@ -49,7 +49,7 @@ sources:
     category: cinema
     kind: venue
     status: provisional
-    url: https://www.20thcenturyflicks.co.uk/
+    url: https://20thcenturyflicks.co.uk/
     area: Christmas Steps
     address:
       street: 19 Christmas Steps
@@ -60,6 +60,16 @@ sources:
     hints: |
       A video rental shop with two tiny private screening rooms, mostly booked
       rather than programmed. Public events are occasional — monthly is enough.
+      403s to a plain fetcher; a browser user-agent returns 200. There is no
+      listings path at all (/whats-on, /events and /news all 404) — what public
+      events there are appear as a "News" block on the homepage, so crawl the
+      root. Most of the page is the rental catalogue and the two bookable
+      screening rooms, neither of which is an event.
+    notes: >-
+      Verified 2026-08-17 with a browser user-agent: page reads "20th Century
+      Flicks", "the longest running video shop in this world", footer address
+      "19 Christmas Steps, Bristol, BS1 5BS" matches exactly. Only dated item
+      was a Cinema Rediscovered '26 note in News. www. 301s to the apex domain.
     addedAt: "2026-08-16"
 
   - id: cinema/everyman-bristol
@@ -67,25 +77,48 @@ sources:
     category: cinema
     kind: venue
     status: provisional
-    url: https://www.everymancinema.com/venues-list/bristol/
+    url: https://www.everymancinema.com/bristol/
+    homepage: https://www.everymancinema.com/
     area: Whiteladies Road
     tags: [commercial, boutique, mainstream]
     cadence: daily
+    hints: |
+      Showtimes are loaded client-side and are not in the HTML, so expect no
+      dated events from a plain fetch. The chain-wide /film-listing/ page is no
+      use either — it says "Please select your venue first in order to see
+      showtimes" and the selection is client-side. What the venue page does give
+      is a JSON-LD `MovieTheater` block with the address and the facilities
+      (35mm, Live Q&A, Silver Screen, Baby Club), and new films and events are
+      published every Tuesday morning.
+    notes: >-
+      Verified 2026-08-17: /bristol/ 302s to /venues-list/x0x3q-everyman-bristol/
+      and the page reads "Everyman Bristol", "the Whiteladies Picture House and
+      first opened in 1921", "Whiteladies Road, Bristol, BS8 2NH", agreeing with
+      area Whiteladies Road. The catalogued /venues-list/bristol/ is a 404. The
+      short /bristol/ vanity path is recorded in preference to the opaque
+      x0x3q slug, which is likely to churn.
     addedAt: "2026-08-16"
 
   - id: cinema/showcase-cabot-circus
     name: Showcase Cinema de Lux — Cabot Circus
     category: cinema
     kind: venue
-    status: provisional
+    status: closed
     url: https://www.showcasecinemas.co.uk/cinema-listing/BCC/bristol-cabot-circus
     area: Broadmead
     tags: [multiplex, commercial, mainstream]
     cadence: daily
     hints: |
-      Multiplex. Listings are huge and almost entirely mainstream releases —
-      consider capturing only special events, premieres and event cinema rather
-      than every showing of every blockbuster.
+      Closed — kept so it is not re-proposed. The building is now
+      cinema/odeon-bristol; that is the entry to harvest.
+    notes: >-
+      Verified closed 2026-08-17: the catalogued page is a 404, and Showcase's
+      own /cinemas/ index lists only one Bristol site — Bristol Avonmeads,
+      "Avonmeads, St Philips Causeway, BS2 0SP" — with no Cabot Circus entry
+      anywhere on the domain. Reporting confirms the last film screened
+      30 November 2023 after lease terms could not be agreed; the auditoriums
+      reopened as ODEON Luxe Bristol on 12 February 2026. Retiring this entry
+      against cinema/odeon-bristol is a curation call, not a URL fix.
     addedAt: "2026-08-16"
 
   - id: cinema/vue-cribbs-causeway
@@ -94,10 +127,23 @@ sources:
     kind: venue
     status: provisional
     url: https://www.myvue.com/cinema/bristol-cribbs-causeway/whats-on
+    homepage: https://www.myvue.com/cinema/bristol-cribbs-causeway
     area: Cribbs Causeway
     tags: [multiplex, commercial, mainstream, out-of-town]
     cadence: daily
-    notes: On the northern edge of the city, at the limit of the configured radius.
+    hints: |
+      The URL is right but the showings are loaded client-side: a plain fetch
+      returns the venue description plus "there's currently no showings that
+      match your request", which is the empty state and not the truth. Expect no
+      dated events without a browser. The schedule is refreshed every Tuesday
+      and runs Friday to the following Thursday, so harvest after a Tuesday.
+      Big Screen Events (concerts, sport, opera, theatre) are the part worth
+      capturing rather than every showing of every blockbuster.
+    notes: >-
+      On the northern edge of the city, at the limit of the configured radius.
+      Verified 2026-08-17: page reads "Vue Bristol Cribbs Causeway", "12 screens
+      - including an EPIC screen", "opposite Cribbs Causeway", reachable from
+      junction 17 of the M5 — identity and area confirmed, URL unchanged.
     addedAt: "2026-08-16"
 
   - id: cinema/odeon-bristol
@@ -106,10 +152,30 @@ sources:
     kind: venue
     status: provisional
     url: https://www.odeon.co.uk/cinemas/bristol/
+    homepage: https://www.odeon.co.uk/
     area: City Centre
     tags: [multiplex, commercial, mainstream]
     cadence: daily
-    notes: Verify this site is still trading before promoting to active.
+    hints: |
+      Two walls, both passable. The host sits behind a Queue-It "safetynet" that
+      302s to a `?queueittoken=…` URL, so a fetch without cookies loops and
+      returns an empty body; `curl -sL -c jar -b jar` with a browser user-agent
+      gets through on the second hop. Behind that the body is JavaScript-only
+      ("You need to use JavaScript to access this web page"), but the venue
+      record is in an embedded JSON payload — that is where the address and the
+      IMAX flag came from. Showtimes are fetched from an API and are *not* in the
+      HTML at all, so do not expect dated screenings from this route. Do not
+      confuse it with /cinemas/bristol-union-street/, the closed predecessor,
+      which still resolves.
+    notes: >-
+      Verified 2026-08-17: this URL is live and is ODEON Luxe Bristol — embedded
+      payload gives "Cabot Circus, Broadmead, Bristol, BS1 3BX", isImax true, and
+      the copy reads "ODEON Luxe Bristol is conveniently located in the Cabot
+      Circus Shopping Centre". It opened 12 February 2026 in the former Showcase
+      Cinema de Lux auditoriums; the old Union Street ODEON closed 11 February
+      2026 after 88 years and survives only as an announcement page. So `area:
+      City Centre` and probably `name` are stale — left for a curator, as is
+      whether cinema/showcase-cabot-circus is retired against this entry.
     addedAt: "2026-08-16"
 
   - id: cinema/bristol-film-festival

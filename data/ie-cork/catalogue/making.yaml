@@ -2,26 +2,13 @@ schema: whazzon.catalogue/1
 category: making
 label: Making & Craft
 description: >-
-  Makerspaces, print and craft studios, pottery, textiles, woodwork, boat
-  building, repair projects and the public course programmes of Cork's art
-  college.
+  Makerspaces, print and craft studios, pottery, textiles, woodwork, boat building, repair projects and the public course programmes of Cork's art college.
 
-  Two things shape this category in Cork. First, most of what these sources
-  publish is a *course* rather than an event — a ten-week evening class is not a
-  one-off workshop, and a "what's on" page fills up with enrolment listings if
-  they are treated the same. Prefer one-off and short workshops, open days and
-  public makes; record a recurring course as `occurrence.kind: recurring` with
-  its pattern stated.
+  Two things shape this category in Cork. First, most of what these sources publish is a *course* rather than an event — a ten-week evening class is not a one-off workshop, and a "what's on" page fills up with enrolment listings if they are treated the same. Prefer one-off and short workshops, open days and public makes; record a recurring course as `occurrence.kind: recurring` with its pattern stated.
 
-  Second, the dates are usually on a booking platform rather than a listings
-  page. Cork Craft & Design sells its whole programme as Shopify products with
-  the date in the product title; Cork Printmakers publishes course subjects and
-  no dates at all. Where a booking route is the only place real dates exist, it
-  is recorded as a route here rather than left for stage 2 to discover.
+  Second, the dates are usually on a booking platform rather than a listings page. Cork Craft & Design sells its whole programme as Shopify products with the date in the product title; Cork Printmakers publishes course subjects and no dates at all. Where a booking route is the only place real dates exist, it is recorded as a route here rather than left for stage 2 to discover.
 
-  The August peak is Cork Craft Month, and the April one is the Lifelong
-  Learning Festival — between them they carry more hands-on making than the
-  year-round programme does.
+  The August peak is Cork Craft Month, and the April one is the Lifelong Learning Festival — between them they carry more hands-on making than the year-round programme does.
 sources:
   - id: making/benchspace-cork
     name: Benchspace Cork
@@ -31,7 +18,7 @@ sources:
     url: https://benchspacecork.ie/events/
     homepage: https://benchspacecork.ie/
     area: Docklands
-    tags: [makerspace, woodwork, courses, workshops, studio, independent]
+    tags: [ makerspace, woodwork, courses, workshops, studio, independent ]
     cadence: monthly
     hints: |
       Shared-access woodworking and design workshop — benches and industrial
@@ -47,20 +34,9 @@ sources:
       user-agent (browser, curl, mobile, none) and cookie jars do not clear it.
       A real browser session is needed. Do not read the 202 as a dead site.
     notes: >-
-      Confirmed real and active 2026-08-17, but the URL could not be fetched —
-      see hints for the captcha wall. Existence and paths verified from the
-      search index: /events/ is titled "Events Archive - Benchspace Cork",
-      /calendar/ is "Calendar | Benchspace", and individual course pages sit at
-      /events/<slug>/ with 2026 dates (Mar, Apr and Sep 2026 intakes). /events/
-      is used here as the listings page and /calendar/ is the alternative if it
-      turns out to be the populated one.
+      Confirmed real and active 2026-08-17, but the URL could not be fetched — see hints for the captcha wall. Existence and paths verified from the search index: /events/ is titled "Events Archive - Benchspace Cork", /calendar/ is "Calendar | Benchspace", and individual course pages sit at /events/<slug>/ with 2026 dates (Mar, Apr and Sep 2026 intakes). /events/ is used here as the listings page and /calendar/ is the alternative if it turns out to be the populated one.
 
-      The lead that produced this entry placed Benchspace at Wandesford Quay.
-      That is wrong — Wandesford Quay is Cork Printmakers and Backwater. Their
-      own contact page gives Unit O15 (wood workshop) and Unit B1b at Marina
-      Commercial Park, Centre Park Road, in the docklands. `address` is omitted
-      rather than guessed: two units with two Eircodes, and the page could not
-      be read directly to settle which is the public one.
+      The lead that produced this entry placed Benchspace at Wandesford Quay. That is wrong — Wandesford Quay is Cork Printmakers and Backwater. Their own contact page gives Unit O15 (wood workshop) and Unit B1b at Marina Commercial Park, Centre Park Road, in the docklands. `address` is omitted rather than guessed: two units with two Eircodes, and the page could not be read directly to settle which is the public one.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -86,7 +62,7 @@ sources:
       city: Cork
       postcode: T12 E26D
       country: Ireland
-    tags: [printmaking, courses, workshops, studio, open-access]
+    tags: [ printmaking, courses, workshops, studio, open-access ]
     cadence: monthly
     hints: |
       Open-access fine-art printmaking studio — etching, screenprint,
@@ -104,11 +80,7 @@ sources:
       There is also a year-long course at /education/year-long-course/ — one
       recurring entry, not a stream of sessions.
     notes: >-
-      Verified 2026-08-17: site is the right organisation — "Cork Printmakers
-      CLG", charity 20028923, Wandesford Quay, Clarke's Bridge, Cork T12 E26D
-      read off its own footer. Two current exhibitions dated to July 2026 on the
-      exhibitions page. /wp-json/tribe/events/v1/events and /events/ both 404,
-      so there is no Events Calendar plugin here.
+      Verified 2026-08-17: site is the right organisation — "Cork Printmakers CLG", charity 20028923, Wandesford Quay, Clarke's Bridge, Cork T12 E26D read off its own footer. Two current exhibitions dated to July 2026 on the exhibitions page. /wp-json/tribe/events/v1/events and /events/ both 404, so there is no Events Calendar plugin here.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -125,7 +97,9 @@ sources:
       city: Cork
       postcode: T12 E26D
       country: Ireland
-    tags: [artist-led, studio, workshops, community]
+      lat: 51.896509
+      lon: -8.481324
+    tags: [ artist-led, studio, workshops, community ]
     cadence: monthly
     hints: |
       Studio group in the Wandesford Quay building it shares with Cork
@@ -138,18 +112,9 @@ sources:
       with no year given, so read the year from the page order rather than
       assuming. /whats-on/ does not exist and silently 301s to the homepage.
     notes: >-
-      Verified 2026-08-17: page titled "Events – Backwater Artists", address
-      read off its own contact page as Backwater Artists Group, Wandesford Quay,
-      Cork T12 E26D. Well populated — eight or more dated entries from 12 August
-      to late September 2026.
+      Verified 2026-08-17: page titled "Events – Backwater Artists", address read off its own contact page as Backwater Artists Group, Wandesford Quay, Cork T12 E26D. Well populated — eight or more dated entries from 12 August to late September 2026.
 
-      Worth a curator's eye: the public programme is artist talks, curator
-      visits, peer critiques and studio tours rather than hands-on making, so
-      this may belong in `art` instead. It is kept here because its own site
-      says the public programme "includes artist talks, workshops, and guided
-      tours", and because Heritage Day and Culture Night open studios are things
-      you can turn up to. If `art` also catalogues it, drop this entry rather
-      than carrying both.
+      Worth a curator's eye: the public programme is artist talks, curator visits, peer critiques and studio tours rather than hands-on making, so this may belong in `art` instead. It is kept here because its own site says the public programme "includes artist talks, workshops, and guided tours", and because Heritage Day and Culture Night open studios are things you can turn up to. If `art` also catalogues it, drop this entry rather than carrying both.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -172,7 +137,7 @@ sources:
       city: Cork
       postcode: T12 H932
       country: Ireland
-    tags: [craft, workshops, community, independent]
+    tags: [ craft, workshops, community, independent ]
     cadence: monthly
     hints: |
       Membership body for Cork makers, with a gallery-shop at St Patrick's
@@ -195,10 +160,7 @@ sources:
       The collection is an August programme in practice — expect it near-empty
       outside Cork Craft Month.
     notes: >-
-      Verified 2026-08-17: corkcraftanddesign.com 301s to corkcraftanddesign.ie,
-      same organisation. Address read off its own /pages/our-locations. The
-      workshops collection held 11 dated workshops from 14 to 29 August 2026 and
-      the products.json endpoint returned all of them.
+      Verified 2026-08-17: corkcraftanddesign.com 301s to corkcraftanddesign.ie, same organisation. Address read off its own /pages/our-locations. The workshops collection held 11 dated workshops from 14 to 29 August 2026 and the products.json endpoint returned all of them.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -215,7 +177,9 @@ sources:
       city: Cork
       postcode: T12 XK25
       country: Ireland
-    tags: [university, courses, ceramics, textiles, adult-education]
+      lat: 51.895121
+      lon: -8.48183
+    tags: [ university, courses, ceramics, textiles, adult-education ]
     cadence: quarterly
     hints: |
       The public-facing part of the art college is the evening and short course
@@ -241,12 +205,7 @@ sources:
       still point at the retired crawford.cit.ie domain; do not harvest dates
       from it.
     notes: >-
-      Verified 2026-08-17: crawford.cit.ie no longer resolves and the college is
-      at crawford.mtu.ie. /courses/ 301s to /areas-of-study/, which is where the
-      evening and short course index lives. Eircodes for all four campuses are
-      printed on its own /connect/ page; Sharman Crawford Street T12 XK25 is
-      recorded because that is where the evening courses have been held —
-      re-check if a semester moves.
+      Verified 2026-08-17: crawford.cit.ie no longer resolves and the college is at crawford.mtu.ie. /courses/ 301s to /areas-of-study/, which is where the evening and short course index lives. Eircodes for all four campuses are printed on its own /connect/ page; Sharman Crawford Street T12 XK25 is recorded because that is where the evening courses have been held — re-check if a semester moves.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -257,7 +216,7 @@ sources:
     status: provisional
     url: https://corktextilesnetwork.com/events/
     homepage: https://corktextilesnetwork.com/
-    tags: [textiles, community, workshops]
+    tags: [ textiles, community, workshops ]
     cadence: monthly
     hints: |
       Membership network for textile and fibre artists, founded 1998. Programme
@@ -271,10 +230,7 @@ sources:
       check the date before treating anything as upcoming. No address: the
       network meets in borrowed rooms and has exhibited at Bishopstown Library.
     notes: >-
-      Verified 2026-08-17: corktextilesnetwork.com is the live site and carries
-      the network's own history and member list. The older corktextiles.com also
-      answers 200 but renders nothing except a cookie notice — a dead shell, not
-      used here.
+      Verified 2026-08-17: corktextilesnetwork.com is the live site and carries the network's own history and member list. The older corktextiles.com also answers 200 but renders nothing except a cookie notice — a dead shell, not used here.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -292,7 +248,9 @@ sources:
       city: Cork
       postcode: T23 FDT4
       country: Ireland
-    tags: [bikes, repair, diy, community, workshops]
+      lat: 51.910744
+      lon: -8.471887
+    tags: [ bikes, repair, diy, community, workshops ]
     cadence: monthly
     hints: |
       Volunteer-run DIY bike workshop, running since 2007. The one thing with a
@@ -305,12 +263,7 @@ sources:
       this Autumn") and the site's news archive. Closures are announced the same
       way, so a "Workshop closed" post is worth reading as a cancellation.
     notes: >-
-      Verified 2026-08-17: /workshop/ describes the Saturday session and the
-      Blackpool location in the organisation's own words; the address is off its
-      own /contact/ page — the workshop leads off the car park shared with Cork
-      Foyer and Graffiti Theatre, Assumption Road, Blackpool T23 FDT4. Its
-      sessions also appear in the CRNI reuse calendar catalogued below, which is
-      a useful cross-check that they are still running.
+      Verified 2026-08-17: /workshop/ describes the Saturday session and the Blackpool location in the organisation's own words; the address is off its own /contact/ page — the workshop leads off the car park shared with Cork Foyer and Graffiti Theatre, Assumption Road, Blackpool T23 FDT4. Its sessions also appear in the CRNI reuse calendar catalogued below, which is a useful cross-check that they are still running.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -328,7 +281,9 @@ sources:
       city: Cork
       postcode: T23 DV24
       country: Ireland
-    tags: [community, workshops, free, artist-led]
+      lat: 51.910327
+      lon: -8.473803
+    tags: [ community, workshops, free, artist-led ]
     cadence: monthly
     hints: |
       The organisation behind the Dragon of Shandon Halloween parade, the city's
@@ -346,12 +301,7 @@ sources:
       and "What's On" are dropdown labels with href="#", not pages, and
       /events/ and /whats-on/ both 404.
     notes: >-
-      Verified 2026-08-17: site is Cork Community Art Link CLG, charity
-      CHY20769, address off its own footer as The Lido, 71 Watercourse Road,
-      Blackpool, Cork T23 DV24. Current projects for 2026 are listed. Separately
-      confirmed active this month — its "Make your own puppet" and "Puppet Café"
-      August Craft Month sessions at the Civic Trust House in Blackpool are on
-      sale via Eventbrite.
+      Verified 2026-08-17: site is Cork Community Art Link CLG, charity CHY20769, address off its own footer as The Lido, 71 Watercourse Road, Blackpool, Cork T23 DV24. Current projects for 2026 are listed. Separately confirmed active this month — its "Make your own puppet" and "Puppet Café" August Craft Month sessions at the Civic Trust House in Blackpool are on sale via Eventbrite.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -367,7 +317,7 @@ sources:
         url: https://corkpotters.com/feed/
         note: the same posts with full body text; latest 18 Jul 2026
     homepage: https://corkpotters.com/
-    tags: [ceramics, community, workshops]
+    tags: [ ceramics, community, workshops ]
     cadence: monthly
     hints: |
       Non-profit society of ceramic artists working in Cork city and county,
@@ -384,10 +334,7 @@ sources:
 
       No Events Calendar plugin — /wp-json/tribe/events/v1/events 404s.
     notes: >-
-      Verified 2026-08-17: corkpotters.com is the Society of Cork Potters, and
-      its own description matches the Cork Craft & Design page for the society.
-      Active — an August Craft Month 2026 post dated 18 July. corkpotters.ie,
-      societyofcorkpotters.ie and societyofcorkpotters.com do not resolve.
+      Verified 2026-08-17: corkpotters.com is the Society of Cork Potters, and its own description matches the Cork Craft & Design page for the society. Active — an August Craft Month 2026 post dated 18 July. corkpotters.ie, societyofcorkpotters.ie and societyofcorkpotters.com do not resolve.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -402,7 +349,7 @@ sources:
       - role: api
         url: https://opensheet.elk.sh/1wGUIb31cV57ntwrcLr9EL0OUSUQJy3wqv4yOMtD0GMQ/CLLF-DataClean-V1
         note: the Google Sheet the page renders from — 414 rows with title, address, day, time, organisation and category
-    tags: [free, community, civic, workshops, courses]
+    tags: [ free, community, civic, workshops, courses ]
     cadence: quarterly
     hints: |
       A week in late April, everything free, several hundred events from
@@ -423,19 +370,9 @@ sources:
       Carrigtwohill, Togher, Hollyhill), so set `venue` from `event_address`
       rather than letting anything inherit a festival address.
     notes: >-
-      Verified 2026-08-17: corklearningfestival.ie is the programme site and its
-      banner announces 22–29 April 2026. The JSON endpoint is the one the live
-      page actually reads (four earlier sheet URLs are commented out in the
-      page source; this is the uncommented one) and returned 414 rows.
+      Verified 2026-08-17: corklearningfestival.ie is the programme site and its banner announces 22–29 April 2026. The JSON endpoint is the one the live page actually reads (four earlier sheet URLs are commented out in the page source; this is the uncommented one) and returned 414 rows.
 
-      Caveat for a curator: those rows are the **April 2024** programme — the
-      sheet had not been republished when checked, four months after the 2026
-      festival. Expect it to be stale outside the spring, and re-check in April.
-      corklearningfestival.ie is the right site;
-      corklearningcity.ie/lifelong-learning-festival/ is the parent Cork
-      Learning City page, and the plausible-looking
-      corklifelonglearningfestival.com is a parked domain serving nothing but
-      its own name.
+      Caveat for a curator: those rows are the **April 2024** programme — the sheet had not been republished when checked, four months after the 2026 festival. Expect it to be stale outside the spring, and re-check in April. corklearningfestival.ie is the right site; corklearningcity.ie/lifelong-learning-festival/ is the parent Cork Learning City page, and the plausible-looking corklifelonglearningfestival.com is a parked domain serving nothing but its own name.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -453,7 +390,7 @@ sources:
       - role: ics
         url: https://crni.ie/events/?ical=1
     homepage: https://crni.ie/
-    tags: [repair, reuse, community, diy]
+    tags: [ repair, reuse, community, diy ]
     cadence: weekly
     hints: |
       National network for reuse, repair and circular-economy organisations, and
@@ -472,16 +409,9 @@ sources:
       event per week, so fold it back into a recurring pattern rather than
       recording fifty rows.
     notes: >-
-      Verified 2026-08-17: The Events Calendar site, API and iCal routes both
-      answer, and the first page of events contained two Cork Community Bikes
-      sessions dated 22 and 29 August 2026.
+      Verified 2026-08-17: The Events Calendar site, API and iCal routes both answer, and the first page of events contained two Cork Community Bikes sessions dated 22 and 29 August 2026.
 
-      Checked and rejected as alternatives: repairmystuff.ie is a directory of
-      repair *businesses* with no events at all, and menssheds.ie — which was
-      the productive route in Bristol — renders its shed finder entirely
-      client-side with no Cork string in the HTML, has no wpgmza JSON endpoint,
-      and its /events/ page says "No Events" with no Cork location in the
-      filter list.
+      Checked and rejected as alternatives: repairmystuff.ie is a directory of repair *businesses* with no events at all, and menssheds.ie — which was the productive route in Bristol — renders its shed finder entirely client-side with no Cork string in the HTML, has no wpgmza JSON endpoint, and its /events/ page says "No Events" with no Cork location in the filter list.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -492,7 +422,7 @@ sources:
     status: provisional
     url: https://www.eventbrite.ie/d/ireland--cork/crafts/
     homepage: https://www.eventbrite.ie/
-    tags: [craft, workshops]
+    tags: [ craft, workshops ]
     cadence: weekly
     hints: |
       The safety net for this category. Small Cork makers who sell a one-off
@@ -509,11 +439,6 @@ sources:
       /d/ireland--cork/craft-workshop/ is a second, differently-populated slice
       of the same index and worth a look when /crafts/ is thin.
     notes: >-
-      Verified 2026-08-17: the Cork crafts index returned real dated Cork events
-      — "Make your own puppet (August Craft Month) @ the Civic Trust House" and
-      "Puppet Café" on 29 August 2026, both in Blackpool. Kept in `making`
-      because it is the craft slice specifically; if a citywide category
-      catalogues Eventbrite as a whole, this stays as the narrower query rather
-      than being merged.
+      Verified 2026-08-17: the Cork crafts index returned real dated Cork events — "Make your own puppet (August Craft Month) @ the Civic Trust House" and "Puppet Café" on 29 August 2026, both in Blackpool. Kept in `making` because it is the craft slice specifically; if a citywide category catalogues Eventbrite as a whole, this stays as the narrower query rather than being merged.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"

@@ -2,10 +2,7 @@ schema: whazzon.catalogue/1
 category: markets
 label: Markets
 description: >-
-  Cork's covered market and food halls, the weekly farmers' markets ringing the
-  city, flea and craft markets, and the seasonal Christmas trading. Almost every
-  entry is one `occurrence.kind: recurring` event with the day and time stated in
-  prose — very few of these sources keep a diary at all.
+  Cork's covered market and food halls, the weekly farmers' markets ringing the city, flea and craft markets, and the seasonal Christmas trading. Almost every entry is one `occurrence.kind: recurring` event with the day and time stated in prose — very few of these sources keep a diary at all.
 sources:
   - id: markets/english-market
     name: The English Market
@@ -20,7 +17,7 @@ sources:
       locality: City Centre
       city: Cork
       country: Ireland
-    tags: [indoor, food, historic, major, civic]
+    tags: [ indoor, food, historic, major, civic ]
     cadence: monthly
     hints: |
       Trading since 1788 and the single thing Cork points at when asked what the
@@ -81,7 +78,9 @@ sources:
       city: Cork
       postcode: T12 YX76
       country: Ireland
-    tags: [indoor, food, street-food, independent, family]
+      lat: 51.90118
+      lon: -8.438424
+    tags: [ indoor, food, street-food, independent, family ]
     cadence: weekly
     hints: |
       The rare market in this category that genuinely has a diary: /events
@@ -116,7 +115,7 @@ sources:
       city: Cork
       postcode: T12 NXN1
       country: Ireland
-    tags: [indoor, food, street-food, independent]
+    tags: [ indoor, food, street-food, independent ]
     cadence: monthly
     hints: |
       A nine-vendor food hall in the docklands, the smaller counterpart to
@@ -147,7 +146,7 @@ sources:
     status: provisional
     url: https://www.corkcity.ie/en/things-to-do/attractions/cornmarket-street-coal-quay-market/
     area: City Centre
-    tags: [outdoor, food, farmers, street-food, historic, community]
+    tags: [ outdoor, food, farmers, street-food, historic, community ]
     cadence: monthly
     hints: |
       Cork's old open-air market, on the Coal Quay under Shandon. One recurring
@@ -189,7 +188,7 @@ sources:
       city: Cork
       postcode: T12 X7HK
       country: Ireland
-    tags: [outdoor, food, farmers, major, weekly]
+    tags: [ outdoor, food, farmers, major, weekly ]
     cadence: monthly
     hints: |
       The biggest weekday farmers' market in the city, 50-plus stalls in the
@@ -227,7 +226,7 @@ sources:
     status: provisional
     url: https://www.douglasvillage.ie/farmers-market-at-douglas-village/
     area: Douglas
-    tags: [outdoor, food, farmers, weekly]
+    tags: [ outdoor, food, farmers, weekly ]
     cadence: monthly
     hints: |
       One recurring Saturday-morning event. The host page describes the market
@@ -267,7 +266,7 @@ sources:
     status: provisional
     url: https://iomst.ie/markets/blackrock-village-sunday-market/
     area: Blackrock
-    tags: [outdoor, food, farmers, crafts, community]
+    tags: [ outdoor, food, farmers, crafts, community ]
     cadence: monthly
     hints: |
       A volunteer-run Sunday market on Blackrock Village plaza, by the pier. One
@@ -299,7 +298,7 @@ sources:
     status: provisional
     url: https://castlewestcork.ie/farmers-market-whats-on/
     area: Ballincollig
-    tags: [outdoor, food, farmers, weekly]
+    tags: [ outdoor, food, farmers, weekly ]
     cadence: monthly
     hints: |
       One recurring Wednesday event in the grounds of the CastleWest shopping
@@ -332,7 +331,7 @@ sources:
     status: provisional
     url: https://www.tastecork.ie/food-producers/wilton-farmers-market
     area: Bishopstown
-    tags: [outdoor, food, farmers, weekly]
+    tags: [ outdoor, food, farmers, weekly ]
     cadence: monthly
     hints: |
       One recurring midweek event in the grounds of Wilton Shopping Centre, out
@@ -366,7 +365,7 @@ sources:
     status: provisional
     url: https://www.harleysstreat.com/
     area: Victorian Quarter
-    tags: [outdoor, food, street-food, independent]
+    tags: [ outdoor, food, street-food, independent ]
     cadence: monthly
     hints: |
       A street-food yard on Harley Street in the Victorian Quarter, and the
@@ -408,7 +407,7 @@ sources:
     status: provisional
     url: https://www.facebook.com/motherjonesfleamarket/
     area: Victorian Quarter
-    tags: [indoor, vintage, crafts, independent]
+    tags: [ indoor, vintage, crafts, independent ]
     cadence: monthly
     hints: |
       Cork's long-running vintage and antiques market, in Thompson House on the
@@ -448,7 +447,7 @@ sources:
     url: https://nanonagleplace.ie/tag/craft-markets-cork/
     homepage: https://nanonagleplace.ie/nanoevents/
     area: Douglas Street
-    tags: [indoor, crafts, seasonal, family, community]
+    tags: [ indoor, crafts, seasonal, family, community ]
     cadence: monthly
     hints: |
       The heritage site on Douglas Street runs craft markets in clusters rather
@@ -478,7 +477,7 @@ sources:
     url: https://www.corkcity.ie/en/a-cork-christmas-celebration/christmas-market/
     homepage: https://www.corkcity.ie/en/a-cork-christmas-celebration/
     area: City Centre
-    tags: [outdoor, seasonal, crafts, food, family, free, civic]
+    tags: [ outdoor, seasonal, crafts, food, family, free, civic ]
     cadence: quarterly
     hints: |
       The council's chalet market, part of the Corkmas programme that runs from
@@ -520,7 +519,7 @@ sources:
     status: provisional
     url: https://corkkerryfoodfestival.com/
     area: City Centre
-    tags: [indoor, food, major]
+    tags: [ indoor, food, major ]
     cadence: quarterly
     hints: |
       A two-day indoor artisan food market in City Hall over the Halloween bank
@@ -548,7 +547,7 @@ sources:
     kind: listing
     status: provisional
     url: https://www.corkcity.ie/en/council-services/public-info/events-hosting-and-licences/casual-trading-licences/
-    tags: [civic, free, outdoor]
+    tags: [ civic, free, outdoor ]
     cadence: quarterly
     hints: |
       A licensing page rather than a listings page, and the most authoritative
@@ -583,7 +582,7 @@ sources:
     status: provisional
     url: https://www.tastecork.ie/explore-cork/food-markets/farmers-markets/cork-city
     homepage: https://www.tastecork.ie/
-    tags: [food, farmers]
+    tags: [ food, farmers ]
     cadence: monthly
     hints: |
       The county food body's markets directory, filtered to the city. Four
@@ -624,7 +623,7 @@ sources:
     status: provisional
     url: https://www.purecork.ie/whats-on/categories/food-drink-events
     homepage: https://www.purecork.ie/
-    tags: [food]
+    tags: [ food ]
     cadence: weekly
     hints: |
       The tourist board's dated diary, food and drink category — the safety net
@@ -662,7 +661,7 @@ sources:
     status: provisional
     url: https://iomst.ie/markets-cork/
     homepage: https://iomst.ie/
-    tags: [food, farmers, crafts, community]
+    tags: [ food, farmers, crafts, community ]
     cadence: monthly
     hints: |
       The Irish Organisation for Market and Street Traders — the traders' own

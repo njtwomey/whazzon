@@ -2,10 +2,7 @@ schema: whazzon.catalogue/1
 category: museums
 label: Museums & Heritage
 description: >-
-  Civic and independent museums, forts, historic buildings, cathedrals and an
-  observatory — plus the heritage societies and heritage-week platforms that
-  programme into them. Mostly permanent collections (`occurrence.kind: ongoing`)
-  with temporary exhibitions as `run` and tours or talks as `single`.
+  Civic and independent museums, forts, historic buildings, cathedrals and an observatory — plus the heritage societies and heritage-week platforms that programme into them. Mostly permanent collections (`occurrence.kind: ongoing`) with temporary exhibitions as `run` and tours or talks as `single`.
 sources:
   - id: museums/cork-public-museum
     name: Cork Public Museum
@@ -19,7 +16,9 @@ sources:
       street: Fitzgerald's Park
       city: Cork
       country: Ireland
-    tags: [civic, free, local-history, exhibitions]
+      lat: 51.895998
+      lon: -8.49585
+    tags: [ civic, free, local-history, exhibitions ]
     cadence: monthly
     hints: |
       Free entry, council-run, lives inside the Cork City Council site rather
@@ -60,8 +59,7 @@ sources:
       - role: booking
         url: https://bookings.corkcitygaol.com/book
         note: >-
-          the only place tour times are printed — self-guided admission any
-          time, guided tour 2pm daily and hourly through July and August
+          the only place tour times are printed — self-guided admission any time, guided tour 2pm daily and hourly through July and August
     homepage: https://corkcitygaol.com/
     area: Sunday's Well
     address:
@@ -70,7 +68,9 @@ sources:
       city: Cork
       postcode: T23 VX25
       country: Ireland
-    tags: [heritage, ticketed, family, local-history]
+      lat: 51.89948
+      lon: -8.498993
+    tags: [ heritage, ticketed, family, local-history ]
     cadence: monthly
     hints: |
       There is no what's-on page. /news-updates/ is a blog that mixes seasonal
@@ -107,7 +107,9 @@ sources:
       city: Cork
       postcode: T23 H004
       country: Ireland
-    tags: [heritage, ticketed, independent, local-history]
+      lat: 51.902747
+      lon: -8.477033
+    tags: [ heritage, ticketed, independent, local-history ]
     cadence: quarterly
     hints: |
       Homepage is the listings page — there is nothing else. /category/upcoming-
@@ -146,7 +148,9 @@ sources:
       city: Cork
       postcode: T23 YN88
       country: Ireland
-    tags: [heritage, ticketed, community, local-history]
+      lat: 51.904338
+      lon: -8.474754
+    tags: [ heritage, ticketed, community, local-history ]
     cadence: monthly
     hints: |
       shandonbells.ie is the name people use but its certificate has expired —
@@ -184,7 +188,7 @@ sources:
       city: Cork
       postcode: T12 X70A
       country: Ireland
-    tags: [heritage, ticketed, community, exhibitions]
+    tags: [ heritage, ticketed, community, exhibitions ]
     cadence: monthly
     hints: |
       /whats-on/ 301s to /nanoevents/ — use /nanoevents/ directly.
@@ -220,7 +224,9 @@ sources:
       city: Cork
       postcode: T12 C8A0
       country: Ireland
-    tags: [civic, free, heritage, family]
+      lat: 51.895016
+      lon: -8.476317
+    tags: [ civic, free, heritage, family ]
     cadence: monthly
     hints: |
       elizabethfort.ie redirects here; the fort has no site of its own.
@@ -256,7 +262,9 @@ sources:
       city: Cork
       postcode: T12 YW52
       country: Ireland
-    tags: [science, family, ticketed, university]
+      lat: 51.900336
+      lon: -8.402404
+    tags: [ science, family, ticketed, university ]
     cadence: monthly
     hints: |
       Branded "MTU Blackrock Castle" now that Munster Technological University
@@ -291,7 +299,9 @@ sources:
       city: Cork
       postcode: T12 K710
       country: Ireland
-    tags: [heritage, ticketed, exhibitions, community]
+      lat: 51.894356
+      lon: -8.4805
+    tags: [ heritage, ticketed, exhibitions, community ]
     cadence: monthly
     hints: |
       Two separate WordPress sites. www.stfinbarres.ie is the visitor site and
@@ -334,7 +344,7 @@ sources:
       city: Cork
       postcode: T12 RF8D
       country: Ireland
-    tags: [heritage, free, exhibitions, community]
+    tags: [ heritage, free, exhibitions, community ]
     cadence: monthly
     hints: |
       A deconsecrated medieval church on the city's medieval spine, now an
@@ -370,7 +380,7 @@ sources:
     status: provisional
     url: https://blarneycastle.ie/
     area: Blarney
-    tags: [heritage, ticketed, major, outdoor]
+    tags: [ heritage, ticketed, major, outdoor ]
     cadence: quarterly
     hints: |
       There is no what's-on page and the homepage is the best available listing.
@@ -407,15 +417,13 @@ sources:
       - role: api
         url: https://fotahouse.com/wp-json/tribe/events/v1/events
         note: >-
-          whole forward diary as JSON with full body text, 9 events in one
-          fetch — cheaper and richer than the page, which renders its cards
-          client-side
+          whole forward diary as JSON with full body text, 9 events in one fetch — cheaper and richer than the page, which renders its cards client-side
       - role: ics
         url: https://fotahouse.com/events/?ical=1
         note: text/calendar, Europe/Dublin, dates without any parsing
     homepage: https://fotahouse.com/
     area: Fota Island
-    tags: [historic-house, heritage, ticketed, exhibitions]
+    tags: [ historic-house, heritage, ticketed, exhibitions ]
     cadence: monthly
     hints: |
       Prefer the API route: /events/ is an Events Calendar view whose cards are
@@ -452,11 +460,10 @@ sources:
       - role: booking
         url: https://spikeislandcork.digitickets.ie/tickets
         note: >-
-          ferry-and-tour departures sold as timed products; special events
-          appear here as separate products
+          ferry-and-tour departures sold as timed products; special events appear here as separate products
     homepage: https://www.spikeislandcork.ie/
     area: Cork Harbour
-    tags: [heritage, ticketed, major, family]
+    tags: [ heritage, ticketed, major, family ]
     cadence: monthly
     hints: |
       /news-events mixes dated events with press notices ("Named One of the
@@ -497,7 +504,9 @@ sources:
       city: Cork
       postcode: T23 WP82
       country: Ireland
-    tags: [civic, free, local-history, exhibitions]
+      lat: 51.910134
+      lon: -8.474667
+    tags: [ civic, free, local-history, exhibitions ]
     cadence: quarterly
     hints: |
       The listing is titles only — no dates, no times, and past and present in
@@ -527,7 +536,7 @@ sources:
     kind: listing
     status: provisional
     url: https://www.corkcity.ie/en/council-services/services/arts-culture-heritage/archaeology/events-projects/
-    tags: [civic, free, local-history, community]
+    tags: [ civic, free, local-history, community ]
     cadence: quarterly
     hints: |
       The City Archaeologist's own public programme, and one of the few places
@@ -557,7 +566,7 @@ sources:
     status: provisional
     url: https://corkhist.ie/calendar/
     homepage: https://corkhist.ie/
-    tags: [community, local-history]
+    tags: [ community, local-history ]
     cadence: monthly
     hints: |
       /events/ returns 403 to everything while the rest of the site serves 200 —
@@ -589,7 +598,7 @@ sources:
     status: provisional
     url: https://corkastronomyclub.com/events/
     homepage: https://corkastronomyclub.com/
-    tags: [community, science, university, free]
+    tags: [ community, science, university, free ]
     cadence: monthly
     hints: |
       Monthly public lectures from September to May, 8.00pm, almost always in
@@ -623,7 +632,7 @@ sources:
     kind: organiser
     status: provisional
     url: https://corkfolklore.org/
-    tags: [community, local-history]
+    tags: [ community, local-history ]
     cadence: quarterly
     hints: |
       The homepage is the listing, deliberately: /events/ exists but its newest
@@ -651,7 +660,7 @@ sources:
     kind: festival
     status: provisional
     url: https://www.corkcity.ie/en/cork-heritage-open-day/
-    tags: [civic, free, heritage, family]
+    tags: [ civic, free, heritage, family ]
     cadence: quarterly
     hints: |
       One Saturday a year — 15 August in 2026, its 21st — when 42 buildings that
@@ -682,7 +691,7 @@ sources:
     status: provisional
     url: https://www.heritageweek.ie/event-listings?where%5B%5D=cork
     homepage: https://www.heritageweek.ie/
-    tags: [free, heritage, family, community]
+    tags: [ free, heritage, family, community ]
     cadence: monthly
     hints: |
       The catalogued URL is already filtered to Cork City. The county filter is
@@ -719,7 +728,7 @@ sources:
     status: provisional
     url: https://irishmuseums.org/events/
     homepage: https://irishmuseums.org/
-    tags: [heritage, exhibitions, community]
+    tags: [ heritage, exhibitions, community ]
     cadence: monthly
     hints: |
       The only year-round listing that covers Irish museums as a sector, and the

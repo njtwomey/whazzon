@@ -75,9 +75,9 @@ export function SiteHeader({
             />
           )}
           <span className="flex min-w-0 items-baseline gap-2">
-            <span className="text-lg font-semibold tracking-tight">
-              whazzon <span className="text-primary">{locationName.toLowerCase()}</span>
-            </span>
+            {/* Just the city. The mark beside it already says whose site this is,
+                and "whazzon bristol" spent two words to name one place. */}
+            <span className="text-lg font-semibold lowercase tracking-tight">{locationName}</span>
             <span className="hidden truncate text-xs text-muted-foreground sm:inline">
               last updated {formatDate(asOf, true)}
             </span>

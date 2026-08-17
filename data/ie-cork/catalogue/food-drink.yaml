@@ -2,12 +2,7 @@ schema: whazzon.catalogue/1
 category: food-drink
 label: Food & Drink
 description: >-
-  Food and drink events in Cork — festivals, tastings, supper clubs, cookery
-  courses, brewery and distillery tours, food-tour operators. Only sources that
-  actually programme events belong here; a restaurant with no public programme is
-  not a source, however good it is. The English Market, Marina Market and the
-  farmers' markets are deliberately left to the markets category rather than
-  catalogued twice.
+  Food and drink events in Cork — festivals, tastings, supper clubs, cookery courses, brewery and distillery tours, food-tour operators. Only sources that actually programme events belong here; a restaurant with no public programme is not a source, however good it is. The English Market, Marina Market and the farmers' markets are deliberately left to the markets category rather than catalogued twice.
 sources:
   - id: food-drink/cork-on-a-fork-fest
     name: Cork on a Fork Fest
@@ -16,7 +11,7 @@ sources:
     status: provisional
     url: https://www.corkcity.ie/en/cork-on-a-fork-fest/what-s-on/
     homepage: https://www.corkcity.ie/en/cork-on-a-fork-fest/
-    tags: [festival, food, civic, tastings]
+    tags: [ festival, food, civic, tastings ]
     cadence: quarterly
     hints: |
       Cork City Council's own five-day food festival, mid-August, and by a
@@ -50,13 +45,7 @@ sources:
       Booking is never on corkcity.ie: each entry ends in an external link, an
       email address or a phone number.
     notes: >-
-      Verified 2026-08-17. Catalogued here rather than under festivals: it is a
-      food festival whose value is the individual tastings, demos and supper
-      clubs, which is exactly what this category filters on. If the festivals
-      agent has also proposed it, this entry is the duplicate to drop, because
-      the day/theme sub-page structure above is recorded here.
-      /what-s-on/trails-tours-tastings/ 302s to /what-s-on/trails-tours/ — use
-      the latter.
+      Verified 2026-08-17. Catalogued here rather than under festivals: it is a food festival whose value is the individual tastings, demos and supper clubs, which is exactly what this category filters on. If the festivals agent has also proposed it, this entry is the duplicate to drop, because the day/theme sub-page structure above is recorded here. /what-s-on/trails-tours-tastings/ 302s to /what-s-on/trails-tours/ — use the latter.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -79,7 +68,9 @@ sources:
       city: Cork
       postcode: T23 RHW2
       country: Ireland
-    tags: [brewery, taproom, independent, beer]
+      lat: 51.901217
+      lon: -8.482019
+    tags: [ brewery, taproom, independent, beer ]
     cadence: monthly
     hints: |
       Brewpub in a 13th-century Franciscan monastery site, brewing on the
@@ -103,15 +94,7 @@ sources:
       The trad session, storytelling night and Brewhouse Jazz belong to the music
       programme, not the food one.
     notes: >-
-      Verified 2026-08-17. franwellbar.com is the brewpub's own site (footer
-      address matches, /beer-festivals/ and /experiences/ both real). The site is
-      a year stale: the three events presented as upcoming on /whats-on/ are
-      dated July 2025 (Tuesday Trad Session 8 July, Teddy Black Story Telling 7
-      July, Brewhouse Jazz 6 July) and the newest item in the RSS feed is
-      30 June 2025. Worth a human deciding whether this is `dormant` on the
-      events side; the brewery itself is trading and appears in the 2026 Cork on
-      a Fork programme. /?rest_route=/tribe/events/v1/events 404s — no events
-      calendar plugin, so there is no API route.
+      Verified 2026-08-17. franwellbar.com is the brewpub's own site (footer address matches, /beer-festivals/ and /experiences/ both real). The site is a year stale: the three events presented as upcoming on /whats-on/ are dated July 2025 (Tuesday Trad Session 8 July, Teddy Black Story Telling 7 July, Brewhouse Jazz 6 July) and the newest item in the RSS feed is 30 June 2025. Worth a human deciding whether this is `dormant` on the events side; the brewery itself is trading and appears in the 2026 Cork on a Fork programme. /?rest_route=/tribe/events/v1/events 404s — no events calendar plugin, so there is no API route.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -127,7 +110,9 @@ sources:
       street: Cornmarket Street
       city: Cork
       country: Ireland
-    tags: [brewery, taproom, independent, beer]
+      lat: 51.899582
+      lon: -8.476465
+    tags: [ brewery, taproom, independent, beer ]
     cadence: monthly
     hints: |
       Brewpub on Cornmarket Street brewing beer and gin on site.
@@ -145,13 +130,7 @@ sources:
       /whats-on/ is a blog-style archive, not a diary, and is not retired once
       events have passed.
     notes: >-
-      Verified 2026-08-17. risingsonsbrewery.com is the brewery's own site
-      (footer "Rising Sons, Cornmarket Street, Cork", phone 021 2414764).
-      /whats-on/ is catalogued as the listings page because it is the only page
-      that lists things, but everything on it is stale: the newest post is Cork
-      Jazz Weekend 2022, and there are items from 2020. /brewery-tour/ is
-      current. If a human wants to mark the listings page dormant, the tour page
-      is the entry worth keeping.
+      Verified 2026-08-17. risingsonsbrewery.com is the brewery's own site (footer "Rising Sons, Cornmarket Street, Cork", phone 021 2414764). /whats-on/ is catalogued as the listings page because it is the only page that lists things, but everything on it is stale: the newest post is Cork Jazz Weekend 2022, and there are items from 2020. /brewery-tour/ is current. If a human wants to mark the listings page dormant, the tour page is the entry worth keeping.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -168,7 +147,7 @@ sources:
       city: Cork
       postcode: T12 XHP7
       country: Ireland
-    tags: [distillery, gin, independent, tastings, tours]
+    tags: [ distillery, gin, independent, tastings, tours ]
     cadence: monthly
     hints: |
       Cork city's first distillery in almost fifty years, in a 1920s Ford
@@ -192,13 +171,7 @@ sources:
       ticketing.tripadmit.com/tour-aggregate returns a 3 KB JavaScript shell
       with no event data in the HTML.
     notes: >-
-      Verified 2026-08-17. The site is the distillery's own; the address above is
-      read off /plan-your-visit/. Two pages of the same site contradict each
-      other on walk-ins — /distillery-tour/ says "we don't accept walk-ins, so be
-      sure to book in advance" while /plan-your-visit/ says "Walk-ins welcome,
-      however ... calling ahead is advised". Both are recorded as printed rather
-      than reconciled. No price is printed on either page; the Cork on a Fork
-      programme priced their Gin & Cheese Tasting at €35.
+      Verified 2026-08-17. The site is the distillery's own; the address above is read off /plan-your-visit/. Two pages of the same site contradict each other on walk-ins — /distillery-tour/ says "we don't accept walk-ins, so be sure to book in advance" while /plan-your-visit/ says "Walk-ins welcome, however ... calling ahead is advised". Both are recorded as printed rather than reconciled. No price is printed on either page; the Cork on a Fork programme priced their Gin & Cheese Tasting at €35.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -219,7 +192,9 @@ sources:
       street: 1 Union Quay
       city: Cork
       country: Ireland
-    tags: [wine, independent, tastings, cookery]
+      lat: 51.897067
+      lon: -8.46662
+    tags: [ wine, independent, tastings, cookery ]
     cadence: monthly
     hints: |
       Natural wine bar and shop on Union Quay with a real events programme:
@@ -238,12 +213,7 @@ sources:
       They also run events off-site at other venues, so check whether an entry
       is actually at Union Quay before assuming it.
     notes: >-
-      Verified 2026-08-17. Site is the venue's own; address read off the page.
-      The listings page carried one dated future event ("Meet The Makers: Un
-      Saumon dans La Loire", 16 April 2026, 7pm) plus the recurring Wednesday
-      tastings, so the diary is thin rather than absent — the RSS feed is the
-      better forward view. /wp-json/tribe/events/v1/events 404s; no events
-      calendar plugin.
+      Verified 2026-08-17. Site is the venue's own; address read off the page. The listings page carried one dated future event ("Meet The Makers: Un Saumon dans La Loire", 16 April 2026, 7pm) plus the recurring Wednesday tastings, so the diary is thin rather than absent — the RSS feed is the better forward view. /wp-json/tribe/events/v1/events 404s; no events calendar plugin.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -259,7 +229,9 @@ sources:
       locality: Mayfield
       city: Cork
       country: Ireland
-    tags: [brewery, taproom, independent, beer]
+      lat: 51.913369
+      lon: -8.433111
+    tags: [ brewery, taproom, independent, beer ]
     cadence: monthly
     hints: |
       Family pub in Mayfield with a five-barrel microbrewery underneath the
@@ -273,13 +245,7 @@ sources:
       than concluding there are no events, and do not go looking for a listings
       path — none could be discovered from outside.
     notes: >-
-      Unverified content as of 2026-08-17: the URL answers, but only with a 403,
-      so nothing on the site could be read and no listings path could be
-      confirmed. The homepage is catalogued for that reason. The pub, the
-      microbrewery and the tours are real and independently attested by Pure
-      Cork's listing, which is also where the street address above comes from —
-      it is not read off the venue's own page and has no Eircode, so treat it as
-      needing confirmation. Fixing this needs a browser user-agent or a human.
+      Unverified content as of 2026-08-17: the URL answers, but only with a 403, so nothing on the site could be read and no listings path could be confirmed. The homepage is catalogued for that reason. The pub, the microbrewery and the tours are real and independently attested by Pure Cork's listing, which is also where the street address above comes from — it is not read off the venue's own page and has no Eircode, so treat it as needing confirmation. Fixing this needs a browser user-agent or a human.
     addedAt: "2026-08-17"
 
   - id: food-drink/cookery-cottage
@@ -295,7 +261,9 @@ sources:
       locality: Douglas
       city: Cork
       country: Ireland
-    tags: [cookery, independent, family]
+      lat: 51.884448
+      lon: -8.459012
+    tags: [ cookery, independent, family ]
     cadence: monthly
     hints: |
       Cookery school in Douglas, and the one source in this category that
@@ -321,10 +289,7 @@ sources:
 
       Booking is by phone (021 4365083) or /book-online/.
     notes: >-
-      Verified 2026-08-17. Address read off cookerycottage.ie/contact/ — "Park
-      Ave, South Douglas Road, Douglas, Cork", no Eircode printed. Listed by
-      Taste Cork as "Douglas Cookery Cottage". /contact-us/ 404s; /contact/ is
-      the real path.
+      Verified 2026-08-17. Address read off cookerycottage.ie/contact/ — "Park Ave, South Douglas Road, Douglas, Cork", no Eircode printed. Listed by Taste Cork as "Douglas Cookery Cottage". /contact-us/ 404s; /contact/ is the real path.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -347,7 +312,9 @@ sources:
       city: Cork
       postcode: T23 H004
       country: Ireland
-    tags: [tastings, community, free]
+      lat: 51.90275
+      lon: -8.476596
+    tags: [ tastings, community, free ]
     cadence: monthly
     hints: |
       Catalogued here for the food programme, not the exhibitions: butter making
@@ -367,15 +334,7 @@ sources:
       One-off events go into a The Events Calendar install — use the api route,
       which is cheaper than the page.
     notes: >-
-      Verified 2026-08-17. www.corkbutter.museum 302s to thebuttermuseum.com,
-      which is the live site; address and demonstration times are read off its
-      own footer. /events/ answered with "0 events found" and the api route
-      returned {"events":[],"total":0}, so the calendar is genuinely empty rather
-      than unreachable. /whats-on/ 404s and ?ical=1 returns an empty body, so
-      there is no ics route worth carrying. The museum itself will also fit the
-      museums category — this entry exists for the demonstrations, and whichever
-      is the duplicate should be dropped by a human rather than both being
-      harvested.
+      Verified 2026-08-17. www.corkbutter.museum 302s to thebuttermuseum.com, which is the live site; address and demonstration times are read off its own footer. /events/ answered with "0 events found" and the api route returned {"events":[],"total":0}, so the calendar is genuinely empty rather than unreachable. /whats-on/ 404s and ?ical=1 returns an empty body, so there is no ics route worth carrying. The museum itself will also fit the museums category — this entry exists for the demonstrations, and whichever is the duplicate should be dropped by a human rather than both being harvested.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -390,7 +349,9 @@ sources:
       street: 7 Oliver Plunkett Street
       city: Cork
       country: Ireland
-    tags: [cookery, independent]
+      lat: 51.898323
+      lon: -8.468297
+    tags: [ cookery, independent ]
     cadence: quarterly
     hints: |
       A family bakery on Oliver Plunkett Street since 1872 that runs a cookery
@@ -401,16 +362,7 @@ sources:
       so expect to record no events from it. The useful outcome of a harvest here
       is finding the school's current URL, not finding a diary.
     notes: >-
-      URL unverified as a listings page on 2026-08-17, deliberately: the school's
-      own domain is gone. Taste Cork gives their website as
-      http://cookshop.ie/shop/153-cookery-school, and cookshop.ie has no DNS
-      record at all (apex and www both empty from dig), so no page there can be
-      reached. brennanandco.ie is a Dublin solicitors' firm — not them, and not a
-      fix. Included rather than omitted because the school is real and in the
-      city centre and nothing catches an omission; the address above comes from
-      Taste Cork, not from the business, so it needs confirming. A human should
-      find the live URL (or a social account) before this is promoted, and the
-      quarterly cadence reflects that there is nothing to poll yet.
+      URL unverified as a listings page on 2026-08-17, deliberately: the school's own domain is gone. Taste Cork gives their website as http://cookshop.ie/shop/153-cookery-school, and cookshop.ie has no DNS record at all (apex and www both empty from dig), so no page there can be reached. brennanandco.ie is a Dublin solicitors' firm — not them, and not a fix. Included rather than omitted because the school is real and in the city centre and nothing catches an omission; the address above comes from Taste Cork, not from the business, so it needs confirming. A human should find the live URL (or a social account) before this is promoted, and the quarterly cadence reflects that there is nothing to poll yet.
     addedAt: "2026-08-17"
 
   - id: food-drink/fab-food-trails
@@ -420,7 +372,7 @@ sources:
     status: provisional
     url: https://www.fabfoodtrails.ie/tours/cork-tasting-trails/
     homepage: https://www.fabfoodtrails.ie/
-    tags: [tours, tastings, independent, ticketed]
+    tags: [ tours, tastings, independent, ticketed ]
     cadence: monthly
     hints: |
       Walking food tour operator. The Cork tour is 2.5–3 hours, starts at
@@ -438,11 +390,7 @@ sources:
       /tours/corporate-cork-walks/, which are private bookings rather than public
       events.
     notes: >-
-      Verified 2026-08-17. No address: a walking-tour operator with no premises,
-      and the page does not print a meeting point. Ran the "Cork on a Fork Fab
-      Food Trail" at €85 across four days of the 2026 festival, so cross-check
-      against food-drink/cork-on-a-fork-fest in August to avoid recording it
-      twice.
+      Verified 2026-08-17. No address: a walking-tour operator with no premises, and the page does not print a meeting point. Ran the "Cork on a Fork Fab Food Trail" at €85 across four days of the 2026 festival, so cross-check against food-drink/cork-on-a-fork-fest in August to avoid recording it twice.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -453,7 +401,7 @@ sources:
     status: provisional
     url: https://activitydays.ie/product-category/food-drink-tours/
     homepage: https://activitydays.ie/
-    tags: [tours, tastings, independent, ticketed]
+    tags: [ tours, tastings, independent, ticketed ]
     cadence: monthly
     hints: |
       Blarney-based tour operator whose Cork food tours all walk the city centre.
@@ -474,17 +422,7 @@ sources:
       tours with kayaking and boat trips, so filter. Booking is FareHarbor plus a
       WooCommerce cart.
     notes: >-
-      Verified 2026-08-17. Company address is "10 Bracken Wood, Blarney, Cork" —
-      inside the 12 km radius, and the tours themselves run in the city centre —
-      but no `address` is set because the tours have no fixed premises.
-      Two pages of this same site print two different prices for the same tour
-      and both are kept as printed rather than averaged: the Cork Food History
-      Tour is "€ 70" on /product-category/food-drink-tours/ and on
-      /product-category/category-cork/, but "Prices from €85PP" on
-      /tour/cork-food-history-tour/. A third figure exists off-site — the Cork on
-      a Fork programme priced the same tour "Adults €73.50 | Youth (10-17) €63.17
-      | Children u10 Free". A human needs to decide which is authoritative;
-      nothing here should be reconciled by the harvester.
+      Verified 2026-08-17. Company address is "10 Bracken Wood, Blarney, Cork" — inside the 12 km radius, and the tours themselves run in the city centre — but no `address` is set because the tours have no fixed premises. Two pages of this same site print two different prices for the same tour and both are kept as printed rather than averaged: the Cork Food History Tour is "€ 70" on /product-category/food-drink-tours/ and on /product-category/category-cork/, but "Prices from €85PP" on /tour/cork-food-history-tour/. A third figure exists off-site — the Cork on a Fork programme priced the same tour "Adults €73.50 | Youth (10-17) €63.17 | Children u10 Free". A human needs to decide which is authoritative; nothing here should be reconciled by the harvester.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -495,7 +433,7 @@ sources:
     status: provisional
     url: https://www.tastecork.ie/whats-on
     homepage: https://www.tastecork.ie/
-    tags: [aggregator, food, civic]
+    tags: [ aggregator, food, civic ]
     cadence: weekly
     hints: |
       The city and county's own food-sector platform, backed by Local Enterprise
@@ -517,11 +455,7 @@ sources:
       Covers Cork county as well as the city — West Cork and East Cork entries
       are outside the radius.
     notes: >-
-      Verified 2026-08-17: real site, correct listings path, but it listed
-      nothing. The most recent example event visible anywhere on the page
-      template was "Cork and Kerry Food Market 2024" and the footer still reads
-      "© 2017 Taste Cork", so a human should judge whether the What's On is
-      abandoned or merely quiet before promoting this past provisional.
+      Verified 2026-08-17: real site, correct listings path, but it listed nothing. The most recent example event visible anywhere on the page template was "Cork and Kerry Food Market 2024" and the footer still reads "© 2017 Taste Cork", so a human should judge whether the What's On is abandoned or merely quiet before promoting this past provisional.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -531,7 +465,7 @@ sources:
     kind: aggregator
     status: provisional
     url: https://www.eventbrite.ie/d/ireland--cork/food-and-drink/
-    tags: [aggregator, ticketed, food]
+    tags: [ aggregator, ticketed, food ]
     cadence: weekly
     hints: |
       The ticketing platform is the only place a lot of Cork's food programme
@@ -550,9 +484,6 @@ sources:
       Most entries print "Check ticket price on event" instead of a price, so
       leave price absent rather than guessing.
     notes: >-
-      Verified 2026-08-17: returned real dated Cork listings, e.g. "Camp Classics
-      Drag Brunch with Mockie Ah!, Sat, Sep 19, 1:00 PM, Clancy's Cork". The
-      variant path /d/ireland--cork/food-and-drink--events/ also answers 200 but
-      returns half the page; the catalogued path is the fuller one.
+      Verified 2026-08-17: returned real dated Cork listings, e.g. "Camp Classics Drag Brunch with Mockie Ah!, Sat, Sep 19, 1:00 PM, Clancy's Cork". The variant path /d/ireland--cork/food-and-drink--events/ also answers 200 but returns half the page; the catalogued path is the fuller one.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"

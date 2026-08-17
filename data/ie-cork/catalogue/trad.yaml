@@ -2,8 +2,7 @@ schema: whazzon.catalogue/1
 category: trad
 label: Trad & Folk
 description: >-
-  Pub sessions, singers' clubs, Comhaltas branches, pipers and folk festivals —
-  the weekly, unticketed, largely unadvertised music that Cork is best at.
+  Pub sessions, singers' clubs, Comhaltas branches, pipers and folk festivals — the weekly, unticketed, largely unadvertised music that Cork is best at.
 sources:
   - id: trad/lee-sessions
     name: The Lee Sessions
@@ -12,7 +11,7 @@ sources:
     status: provisional
     url: https://www.theleesessions.com/gigs_full_page.php
     homepage: https://www.theleesessions.com/
-    tags: [trad, session, free, civic]
+    tags: [ trad, session, free, civic ]
     cadence: weekly
     hints: |
       The single most valuable source in this category. Cork City Council's own
@@ -55,7 +54,7 @@ sources:
     status: provisional
     url: https://thesession.org/sessions/nearby?latlon=51.8985,-8.4756&radius=15
     homepage: https://thesession.org/
-    tags: [trad, session, community]
+    tags: [ trad, session, community ]
     cadence: monthly
     hints: |
       The crowd-maintained database of Irish trad sessions, queried at Cork's
@@ -91,7 +90,7 @@ sources:
     status: provisional
     url: https://corkheritagepubs.com/traditional-irish-music-in-cork/
     homepage: https://corkheritagepubs.com/
-    tags: [trad, pub, historic, free]
+    tags: [ trad, pub, historic, free ]
     cadence: monthly
     hints: |
       The Cork Heritage Pub Trail's own trad page, and the closest thing several
@@ -124,7 +123,9 @@ sources:
     address:
       street: 8 Coburg Street
       city: Cork
-    tags: [trad, pub, free, session, historic]
+      lat: 51.90172
+      lon: -8.471089
+    tags: [ trad, pub, free, session, historic ]
     cadence: monthly
     hints: |
       Cork's best-known session pub and the one the rest of this category is
@@ -158,7 +159,9 @@ sources:
     address:
       street: 28 South Main Street
       city: Cork
-    tags: [trad, pub, free, session, singing]
+      lat: 51.744783
+      lon: -8.738388
+    tags: [ trad, pub, free, session, singing ]
     cadence: monthly
     hints: |
       Founded 1779, across from the old Beamish & Crawford brewery, and one of
@@ -197,7 +200,9 @@ sources:
     address:
       street: 7 Coburg Street
       city: Cork
-    tags: [trad, pub, free, session, folk]
+      lat: 51.901662
+      lon: -8.470913
+    tags: [ trad, pub, free, session, folk ]
     cadence: monthly
     hints: |
       Coburg Street's other session house, forty metres from Sin É. The Session
@@ -227,7 +232,9 @@ sources:
     address:
       street: 31 Douglas Street
       city: Cork
-    tags: [trad, pub, free, session]
+      lat: 51.892617
+      lon: -8.467914
+    tags: [ trad, pub, free, session ]
     cadence: weekly
     hints: |
       The only session pub in this category with a working dated gig guide of its
@@ -261,7 +268,9 @@ sources:
     address:
       street: 2 Union Quay
       city: Cork
-    tags: [trad, pub, free, session]
+      lat: 51.897036
+      lon: -8.466691
+    tags: [ trad, pub, free, session ]
     cadence: monthly
     hints: |
       Union Quay, across the south channel. The distinctive one is the Sunday
@@ -292,7 +301,9 @@ sources:
       street: 21 Washington Street
       city: Cork
       postcode: T12 HF95
-    tags: [trad, pub, free, session]
+      lat: 51.897542
+      lon: -8.477705
+    tags: [ trad, pub, free, session ]
     cadence: monthly
     hints: |
       A recent, deliberately traditional refit on student-facing Washington
@@ -326,7 +337,9 @@ sources:
     address:
       street: 113 Oliver Plunkett Street
       city: Cork
-    tags: [trad, pub, free, session]
+      lat: 51.898324
+      lon: -8.470141
+    tags: [ trad, pub, free, session ]
     cadence: monthly
     hints: |
       A large Oliver Plunkett Street pub, and in the Lee Sessions guide four or
@@ -355,7 +368,9 @@ sources:
     address:
       street: 64 Oliver Plunkett Street
       city: Cork
-    tags: [trad, pub, free, session]
+      lat: 51.897145
+      lon: -8.47394
+    tags: [ trad, pub, free, session ]
     cadence: monthly
     hints: |
       Reopened Oliver Plunkett Street venue with several rooms, a cocktail lounge
@@ -383,7 +398,9 @@ sources:
       street: 116 Oliver Plunkett Street
       city: Cork
       postcode: T12 P957
-    tags: [trad, pub, free, session]
+      lat: 51.89824
+      lon: -8.469606
+    tags: [ trad, pub, free, session ]
     cadence: monthly
     hints: |
       Big, busy, tourist-facing, and named by the Lee Sessions as one of its core
@@ -415,7 +432,9 @@ sources:
       street: 15-16 Princes Street
       city: Cork
       postcode: T12 V6FH
-    tags: [trad, pub, free, session]
+      lat: 51.897178
+      lon: -8.472766
+    tags: [ trad, pub, free, session ]
     cadence: monthly
     hints: |
       In the Lee Sessions guide three nights a week — Monday, Tuesday and
@@ -446,7 +465,9 @@ sources:
     address:
       street: 7 Winthrop Street
       city: Cork
-    tags: [trad, pub, free, historic]
+      lat: 51.898415
+      lon: -8.47059
+    tags: [ trad, pub, free, historic ]
     cadence: monthly
     hints: |
       The weakest trad entry in this file, and included because the Lee Sessions
@@ -481,7 +502,9 @@ sources:
       locality: Blarney
       city: Cork
       postcode: T23 TCF6
-    tags: [trad, session, free]
+      lat: 51.93241
+      lon: -8.567149
+    tags: [ trad, session, free ]
     cadence: monthly
     hints: |
       The one session outside the city in this file — Blarney is inside the 12 km
@@ -508,7 +531,7 @@ sources:
     status: provisional
     url: https://www.corkpipersclub.com/news/
     homepage: https://www.corkpipersclub.com/
-    tags: [trad, classes, community, historic]
+    tags: [ trad, classes, community, historic ]
     cadence: monthly
     hints: |
       Cumann na bPíobairí Corcaigh, founded 1898 and one of the oldest pipers'
@@ -539,7 +562,7 @@ sources:
     status: provisional
     url: https://www.douglascomhaltas.com/
     area: Douglas
-    tags: [trad, classes, community, family]
+    tags: [ trad, classes, community, family ]
     cadence: monthly
     hints: |
       Craobh na Dúglaise, the largest Comhaltas branch in the city — over three
@@ -569,7 +592,7 @@ sources:
     status: provisional
     url: https://motherjonescork.com/tag/cork-singers-club/
     area: City Centre
-    tags: [trad, singing, free, community]
+    tags: [ trad, singing, free, community ]
     cadence: quarterly
     hints: |
       Founded 1993. Unaccompanied traditional singing — no instruments allowed —

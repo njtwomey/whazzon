@@ -1,0 +1,518 @@
+{
+  "Crawford Art Gallery, Emmet Place, Cork, Ireland": {
+    "lat": 51.8998551,
+    "lon": -8.4732899,
+    "display": "Crawford Art Gallery, Emmett Place, Centre B ED, Cork, County Cork, Munster, T12 AH2F, Éire / Ireland"
+  },
+  "The Glucksman, University College Cork, Western Road, Cork, Ireland": null,
+  "Cork Printmakers, Wandesford Quay, Clarke's Bridge, Cork, Ireland": null,
+  "Backwater Artists Group, 1st Floor, Wandesford Quay, Cork, Ireland": null,
+  "Sample-Studios, Exchange Business Park, Churchfield, Cork, Ireland": null,
+  "National Sculpture Factory, Albert Road, Cork, Ireland": null,
+  "MTU Crawford College of Art & Design, 46 Grand Parade, Cork, Ireland": null,
+  "The Guesthouse Project, 10 Chapel Street, Shandon, Cork, Ireland": null,
+  "Cork Community Art Link, The Lido, 71 Watercourse Road, Blackpool, Cork, Ireland": null,
+  "Mayfield Arts, Newbury House, Mayfield, Cork, Ireland": null,
+  "Cork Vision Centre @ St Peter's, St Peter's, North Main Street, Cork, Ireland": null,
+  "Omniplex Cork — Mahon Point, 1 Mahon Point Shopping Centre, Mahon, Cork, Ireland": null,
+  "The Arc Cinema Cork, North Main Street, Cork, Ireland": {
+    "lat": 51.9007491,
+    "lon": -8.4797364,
+    "display": "The Arc Cinema, North Main Street, The Marsh, Centre B ED, Cork, County Cork, Munster, T12 KN88, Éire / Ireland"
+  },
+  "Triskel Christchurch, Tobin Street, Cork, Ireland": null,
+  "The Reel Picture Blackpool, Blackpool Retail Park, Blackpool, Cork, Ireland": null,
+  "The Reel Picture Ballincollig, Time Square, Ballincollig, Cork, Ireland": null,
+  "Cork Cine Club, Cork College of FET, Douglas Street Campus, Cork, Ireland": null,
+  "Cork Film Centre, Civic Trust House, 50 Pope's Quay, Cork, Ireland": null,
+  "UCC Department of Film and Screen Media, Kane Building, University College Cork, Cork, Ireland": null,
+  "The Kino, Washington Street, Cork, Ireland": null,
+  "CoCo Comedy Club (The Roundy), 1 Castle Street, Cork, Ireland": null,
+  "City Limits (Cork Comedy Club), 16 Coburg Street, Cork, Ireland": null,
+  "Crüe Comedy (Fred Zeppelins), Parliament Street, Cork, Ireland": null,
+  "Rebel Comedy Club (Franciscan Well), 14B North Mall, Cork, Ireland": null,
+  "Cork Opera House — comedy programme, Emmet Place, Cork, Ireland": null,
+  "Old Cork Waterworks Experience (Lifetime Lab), Lee Road, Cork, Ireland": null,
+  "Piccolo Play Village, Unit 32B, CastleWest Shopping Centre, Ballincollig, Cork, Ireland": null,
+  "Little Rebels Softplay, Model Arena, Model Farm Road, Cork, Ireland": null,
+  "Monkey Maze Activity Centre, Glanmire Business Park, Glanmire, Cork, Ireland": null,
+  "The Planet Entertainment Centre Cork, Old Mallow Road, Blackpool, Cork, Ireland": null,
+  "Airtastic Entertainment Centre Cork, Unit 5, Eastgate Retail Park, Little Island, Cork, Ireland": null,
+  "Cork Summer Show, Curraheen Showgrounds, Curraheen, Cork, Ireland": null,
+  "Franciscan Well Brewery & Brewpub, 14b North Mall, Sunday's Well, Cork, Ireland": null,
+  "Rising Sons Brewery, Cornmarket Street, Cork, Ireland": {
+    "lat": 51.8995818,
+    "lon": -8.4764655,
+    "display": "Rising Sons Brewery, Unit 3a, Corn Market Street, The Marsh, Centre B ED, Cork, County Cork, Munster, T12 Y8K8, Éire / Ireland"
+  },
+  "Rebel City Distillery, Unit P6, Marina Commercial Park, Centre Park Road, Cork, Ireland": null,
+  "L'Atitude 51 Wine Bar, 1 Union Quay, Cork, Ireland": null,
+  "The Cotton Ball Bar & Brewery, 18 Old Youghal Road, Mayfield, Cork, Ireland": null,
+  "Cookery Cottage, Park Avenue, South Douglas Road, Douglas, Cork, Ireland": null,
+  "Cork Butter Museum — butter making demonstrations, O'Connell Square, Shandon, Cork, Ireland": null,
+  "Brennan & Co. Cook Shop Cookery School, 7 Oliver Plunkett Street, Cork, Ireland": null,
+  "Munster Literature Centre, Frank O'Connor House, 84 Douglas Street, Cork, Ireland": null,
+  "Waterstones Cork, 69 Saint Patrick's Street, Cork, Ireland": null,
+  "Rebel Reads, Unit O2, Marina Commercial Park, Ballintemple, Cork, Ireland": null,
+  "Vibes & Scribes, 3 Bridge Street, Cork, Ireland": {
+    "lat": 51.9014085,
+    "lon": -8.4700392,
+    "display": "Vibes & Scribes Craft Shop, 3, Bridge Street, St. Patrick's A, Cork, County Cork, Munster, T23 DP94, Éire / Ireland"
+  },
+  "Backwater Artists Group, Wandesford Quay, Cork, Ireland": null,
+  "Cork Craft & Design, 27A St. Patrick's Woollen Mills, Douglas, Cork, Ireland": null,
+  "MTU Crawford College of Art & Design, Sharman Crawford Street, Cork, Ireland": {
+    "lat": 51.895121,
+    "lon": -8.4818303,
+    "display": "MTU Crawford College of Art & Design, Sharman Crawford Street, Gillabbey A, Cork, County Cork, Munster, T12 XK25, Éire / Ireland"
+  },
+  "Cork Community Bikes, Cork Foyer, Assumption Road, Blackpool, Cork, Ireland": null,
+  "The English Market, Grand Parade and Princes Street, City Centre, Cork, Ireland": null,
+  "Marina Market, Centre Park Road, The Marina, Cork, Ireland": null,
+  "The Black Market, Dornan's Yard, Monahan Road, Ballintemple, Cork, Ireland": null,
+  "Mahon Point Farmers' Market, Mahon Point Shopping Centre, Mahon Link Road, Mahon, Cork, Ireland": null,
+  "Cork Public Museum, Fitzgerald's Park, Cork, Ireland": null,
+  "Cork City Gaol, Convent Avenue, Sunday's Well, Cork, Ireland": {
+    "lat": 51.89948,
+    "lon": -8.4989935,
+    "display": "Cork City Gaol, Convent Avenue, Sunday's Well, Sunday's Well A, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "The Butter Museum, O'Connell Square, Shandon, Cork, Ireland": {
+    "lat": 51.9027472,
+    "lon": -8.4770333,
+    "display": "The Butter Museum, O'Connell's Square, Shandon B, Cork, County Cork, Munster, T23 H004, Éire / Ireland"
+  },
+  "Shandon Bells & Tower, St Anne's Church, Eason's Hill, Shandon, Cork, Ireland": null,
+  "Nano Nagle Place, South Presentation Centre, Douglas Street, Cork, Ireland": null,
+  "Elizabeth Fort, Barrack Street, Cork, Ireland": null,
+  "MTU Blackrock Castle Observatory, Castle Road, Blackrock, Cork, Ireland": {
+    "lat": 51.9003362,
+    "lon": -8.4024037,
+    "display": "MTU Blackrock Castle Observatory, Castle Road, Dundanion, Blackrock, Mahon A, Cork, County Cork, Munster, T12 KP11, Éire / Ireland"
+  },
+  "St Fin Barre's Cathedral, Bishop Street, Cork, Ireland": {
+    "lat": 51.8943556,
+    "lon": -8.4804996,
+    "display": "Saint Fin Barre's Cathedral, Bishop Street, Gillabbey A, Cork, County Cork, Munster, T12 DW99, Éire / Ireland"
+  },
+  "St Peter's Cork, 87a North Main Street, City Centre, Cork, Ireland": null,
+  "Cork City and County Archives, 32 Great William O'Brien Street, Cork, Ireland": null,
+  "Cyprus Avenue, Caroline Street, Cork, Ireland": null,
+  "Coughlan's, 7 Douglas Street, Cork, Ireland": {
+    "lat": 51.8925172,
+    "lon": -8.4684014,
+    "display": "Coughlan’s, 7, Douglas Street, South Parish, Evergreen, Cork, County Cork, Munster, T12 DX39, Éire / Ireland"
+  },
+  "Live at St Luke's, Summerhill North, Cork, Ireland": null,
+  "Crane Lane Theatre, Phoenix Street / Pembroke Street, Cork, Ireland": null,
+  "The Roundy, 1 Castle Street, Cork, Ireland": {
+    "lat": 51.8987809,
+    "lon": -8.476201,
+    "display": "The Roundy, 1, Castle Street, The Marsh, Centre B ED, Cork, County Cork, Munster, T12 RX09, Éire / Ireland"
+  },
+  "Fred Zeppelins, Parliament Street, Cork, Ireland": null,
+  "Dali, 8 Lavitts Quay, Cork, Ireland": null,
+  "The Pavilion, Carey's Lane, Cork, Ireland": {
+    "lat": 51.8985396,
+    "lon": -8.4736114,
+    "display": "The Pavilion, Carey's Lane, Centre B ED, Cork, County Cork, Munster, T12 FH27, Éire / Ireland"
+  },
+  "Savoy Theatre, 7 Drawbridge Street, Cork, Ireland": null,
+  "Maureen's, 14 John Redmond Street, Shandon, Cork, Ireland": {
+    "lat": 51.9019511,
+    "lon": -8.4741782,
+    "display": "Maureen’s, 14, John Redmond Street, Shandon B, Cork, County Cork, Munster, T23 FT65, Éire / Ireland"
+  },
+  "An Bróg, 74 Oliver Plunkett Street, Cork, Ireland": {
+    "lat": 51.8973915,
+    "lon": -8.4741106,
+    "display": "An Bróg, 74, Oliver Plunkett Street, Centre A ED, Cork, County Cork, Munster, T12 FP28, Éire / Ireland"
+  },
+  "The Oliver Plunkett, 116 Oliver Plunkett Street, Cork, Ireland": {
+    "lat": 51.8982397,
+    "lon": -8.4696061,
+    "display": "The Oliver Plunkett, 116, Oliver Plunkett Street, Centre A ED, Cork, County Cork, Munster, T12 P957, Éire / Ireland"
+  },
+  "Bodega, 46-47 Cornmarket Street, Cork, Ireland": null,
+  "The Woodford, Daunt's Square, Cork, Ireland": null,
+  "Kino Events House, 22 Washington Street, Cork, Ireland": null,
+  "Mr Bradley's, Barrack Street, Cork, Ireland": {
+    "lat": 51.8931541,
+    "lon": -8.4789886,
+    "display": "Mr Bradley's, 56, Barrack Street, Spital-lands, Greenmount, Cork, County Cork, Munster, T12 H285, Éire / Ireland"
+  },
+  "Charlie's Bar, 2 Union Quay, Cork, Ireland": null,
+  "Unitarian Church Cork, Prince's Street, Cork, Ireland": null,
+  "Old Oak, 113 Oliver Plunkett Street, Cork, Ireland": {
+    "lat": 51.8983238,
+    "lon": -8.4701411,
+    "display": "The Old Oak, 113, Oliver Plunkett Street, Centre A ED, Cork, County Cork, Munster, T12 PY8A, Éire / Ireland"
+  },
+  "The White Horse, West Village, Ballincollig, Cork, Ireland": {
+    "lat": 51.8861039,
+    "lon": -8.6076183,
+    "display": "The White Horse, R608, Great Island, West Village, Ballincollig ED, Cork, County Cork, Munster, P31 YA40, Éire / Ireland"
+  },
+  "Fota Arboretum and Gardens, Fota Estate, Carrigtwohill, Cork, Ireland": null,
+  "UCC Arboretum, College Road, Cork, Ireland": null,
+  "SuperValu Páirc Uí Chaoimh, The Marina, Ballintemple, Cork, Ireland": null,
+  "Curraheen Park Greyhound Stadium, Bishopstown Road, Curraheen, Cork, Ireland": null,
+  "Ocean to City – An Rás Mór, Crosses Green House, Crosses Green, Cork, Ireland": null,
+  "Meitheal Mara, Crosses Green House, Crosses Green, Cork, Ireland": null,
+  "Shandon Boat Club, The Marina, Cork, Ireland": {
+    "lat": 51.9013329,
+    "lon": -8.4450682,
+    "display": "Shandon Boat Club, The Marina, Docklands, Knockrea B, Cork, County Cork, Munster, T23 E244, Éire / Ireland"
+  },
+  "Neptune Basketball Club, North Monastery Road, Cork, Ireland": null,
+  "Cork County Cricket Club (The Mardyke), Richard Beamish Cricket Grounds, Mardyke, Cork, Ireland": null,
+  "Cork Sports Partnership, Cork College of FET, Bishopstown Campus, Rossa Avenue, Bishopstown, Cork, Ireland": null,
+  "Cork Opera House, Emmet Place, Cork, Ireland": {
+    "lat": 51.900294,
+    "lon": -8.4730758,
+    "display": "Cork Opera House, Emmett Place, Centre B ED, Cork, County Cork, Munster, T12 AH2F, Éire / Ireland"
+  },
+  "The Everyman, 15 MacCurtain Street, Cork, Ireland": null,
+  "Cork Arts Theatre, Carroll's Quay, Cork, Ireland": null,
+  "The Granary Theatre, Dyke Parade, Cork, Ireland": null,
+  "Firkin Crane, John Redmond Street, Shandon, Cork, Ireland": {
+    "lat": 51.9025802,
+    "lon": -8.4764016,
+    "display": "The Firkin Crane, John Redmond Street, Shandon B, Cork, County Cork, Munster, T23 Y584, Éire / Ireland"
+  },
+  "Circus Factory, Centre Park Road, Ballintemple, Cork, Ireland": null,
+  "Half Moon Theatre, Half Moon Street, Cork, Ireland": null,
+  "Graffiti Theatre Company, Assumption Road, Blackpool, Cork, Ireland": null,
+  "Sin É, 8 Coburg Street, Cork, Ireland": {
+    "lat": 51.9017201,
+    "lon": -8.4710895,
+    "display": "Sin É, 8, Coburg Street, Shandon A, Cork, County Cork, Munster, T23 KF5N, Éire / Ireland"
+  },
+  "An Spailpín Fánach, 28 South Main Street, Cork, Ireland": null,
+  "The Corner House, 7 Coburg Street, Cork, Ireland": null,
+  "The Gables Bar, 31 Douglas Street, Cork, Ireland": null,
+  "Ó Súilleabháin's, 21 Washington Street, Cork, Ireland": null,
+  "JJ Walsh's, 64 Oliver Plunkett Street, Cork, Ireland": null,
+  "Clancy's, 15-16 Princes Street, Cork, Ireland": {
+    "lat": 51.8971784,
+    "lon": -8.4727662,
+    "display": "Clancy’s Bar & Restaurant, 15-16, Princes Street, Centre A ED, Cork, County Cork, Munster, T12 V6FH, Éire / Ireland"
+  },
+  "The Long Valley Bar, 7 Winthrop Street, Cork, Ireland": null,
+  "Blarney Castle Hotel, The Square, Blarney, Cork, Ireland": {
+    "lat": 51.9324097,
+    "lon": -8.5671485,
+    "display": "Blarney Castle Hotel, The Square, Monacnapa, Blarney ED, Blarney, County Cork, Munster, T23 YA34, Éire / Ireland"
+  },
+  "University College Cork, Western Road, Cork, Ireland": {
+    "lat": 51.8947012,
+    "lon": -8.4903105,
+    "display": "Glucksman Gallery, Western Road, Gurteenaspig, Gillabbey B, Cork, County Cork, Munster, T12 V1WH, Éire / Ireland"
+  },
+  "Wandesford Quay, Clarke's Bridge, Cork, Ireland": null,
+  "1st Floor, Wandesford Quay, Cork, Ireland": {
+    "lat": 51.8965092,
+    "lon": -8.4813238,
+    "display": "Wandesford Quay, Gillabbey A, Cork, County Cork, Munster, T12 N5TF, Éire / Ireland"
+  },
+  "Exchange Business Park, Churchfield, Cork, Ireland": null,
+  "Albert Road, Cork, Ireland": {
+    "lat": 51.8971387,
+    "lon": -8.460913,
+    "display": "Albert Road, City Hall B ED, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "46 Grand Parade, Cork, Ireland": {
+    "lat": 51.8959661,
+    "lon": -8.4750365,
+    "display": "46, Grand Parade, Centre A ED, Cork, County Cork, Munster, T12 VN56, Éire / Ireland"
+  },
+  "10 Chapel Street, Shandon, Cork, Ireland": {
+    "lat": 51.9040298,
+    "lon": -8.4761292,
+    "display": "Chapel Street, Shandon B, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "The Lido, 71 Watercourse Road, Blackpool, Cork, Ireland": {
+    "lat": 51.9103273,
+    "lon": -8.4738034,
+    "display": "Cork Community Art Link, 71, Watercourse Road, Blackpool, Farranferris A, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "Newbury House, Mayfield, Cork, Ireland": null,
+  "St Peter's, North Main Street, Cork, Ireland": {
+    "lat": 51.8995487,
+    "lon": -8.4788617,
+    "display": "Saint Peter's, North Main Street, The Marsh, Centre B ED, Cork, County Cork, Munster, T12 AKA6, Éire / Ireland"
+  },
+  "1 Mahon Point Shopping Centre, Mahon, Cork, Ireland": null,
+  "Tobin Street, Cork, Ireland": {
+    "lat": 51.8977416,
+    "lon": -8.4756675,
+    "display": "Tobin Street, Centre A ED, Cork, County Cork, Munster, T12 C677, Éire / Ireland"
+  },
+  "Blackpool Retail Park, Blackpool, Cork, Ireland": {
+    "lat": 51.9155351,
+    "lon": -8.4714097,
+    "display": "Blackpool Shopping Centre and Retail Park, Blackpool, Farranferris A, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "Time Square, Ballincollig, Cork, Ireland": {
+    "lat": 51.8872447,
+    "lon": -8.5883484,
+    "display": "Time Square, Ballincollig, Ballincollig ED, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "Cork College of FET, Douglas Street Campus, Cork, Ireland": null,
+  "Civic Trust House, 50 Pope's Quay, Cork, Ireland": {
+    "lat": 51.9013636,
+    "lon": -8.4742713,
+    "display": "Civic Trust House, 50, Pope's Quay, Shandon B, Cork, County Cork, Munster, T23 X30E, Éire / Ireland"
+  },
+  "Kane Building, University College Cork, Cork, Ireland": null,
+  "Washington Street, Cork, Ireland": {
+    "lat": 51.8975607,
+    "lon": -8.4790887,
+    "display": "Washington Street, Gillabbey A, Cork, County Cork, Munster, T12 XV61, Éire / Ireland"
+  },
+  "1 Castle Street, Cork, Ireland": {
+    "lat": 51.8987351,
+    "lon": -8.4761758,
+    "display": "1, Castle Street, The Marsh, Centre B ED, Cork, County Cork, Munster, T12 AD9E, Éire / Ireland"
+  },
+  "16 Coburg Street, Cork, Ireland": {
+    "lat": 51.9019101,
+    "lon": -8.4709941,
+    "display": "City Limits Comedy Club, 16, Coburg Street, Blackpool ED B, Cork, County Cork, Munster, T23 HEF9, Éire / Ireland"
+  },
+  "Parliament Street, Cork, Ireland": {
+    "lat": 51.8963981,
+    "lon": -8.4726276,
+    "display": "Parliament Street, Centre A ED, Cork, County Cork, Munster, T12 E299, Éire / Ireland"
+  },
+  "14B North Mall, Cork, Ireland": {
+    "lat": 51.9011872,
+    "lon": -8.4820907,
+    "display": "Franciscan Well Brew Pub, 14b, North Mall, Sunday's Well B, Cork, County Cork, Munster, T23 RHW2, Éire / Ireland"
+  },
+  "Emmet Place, Cork, Ireland": {
+    "lat": 51.6220774,
+    "lon": -8.8918225,
+    "display": "Emmet Place, Clonakilty Urban ED, Clonakilty, County Cork, Munster, Éire / Ireland"
+  },
+  "Lee Road, Cork, Ireland": {
+    "lat": 51.8951669,
+    "lon": -8.5104689,
+    "display": "Lee Road, Shanakiel, Hollyhill, Shanakiel, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "Unit 32B, CastleWest Shopping Centre, Ballincollig, Cork, Ireland": {
+    "lat": 51.8890959,
+    "lon": -8.5914386,
+    "display": "Piccolo Play Village, Unit 32B, Main Street, Ballincollig, Ballincollig ED, Cork, County Cork, Munster, P31 PD95, Éire / Ireland"
+  },
+  "Model Arena, Model Farm Road, Cork, Ireland": null,
+  "Glanmire Business Park, Glanmire, Cork, Ireland": null,
+  "Old Mallow Road, Blackpool, Cork, Ireland": {
+    "lat": 51.9917551,
+    "lon": -8.5805379,
+    "display": "Old Mallow Road, Blackpool ED, The Municipal District of Kanturk-Mallow, County Cork, Munster, Éire / Ireland"
+  },
+  "Unit 5, Eastgate Retail Park, Little Island, Cork, Ireland": {
+    "lat": 51.9037025,
+    "lon": -8.3551644,
+    "display": "Eastgate Retail Park, Caherlag ED, Municipal District of Cobh, County Cork, Munster, Éire / Ireland"
+  },
+  "Curraheen Showgrounds, Curraheen, Cork, Ireland": null,
+  "14b North Mall, Sunday's Well, Cork, Ireland": {
+    "lat": 51.9012167,
+    "lon": -8.4820193,
+    "display": "Original 7, 14b, North Mall, Sunday's Well B, Cork, County Cork, Munster, T23 RHW2, Éire / Ireland"
+  },
+  "Unit P6, Marina Commercial Park, Centre Park Road, Cork, Ireland": null,
+  "1 Union Quay, Cork, Ireland": {
+    "lat": 51.8970668,
+    "lon": -8.4666204,
+    "display": "L'atitude, 1, Union Quay, South Parish, South Gate A, Cork, County Cork, Munster, T12 E9HY, Éire / Ireland"
+  },
+  "18 Old Youghal Road, Mayfield, Cork, Ireland": {
+    "lat": 51.913369,
+    "lon": -8.4331108,
+    "display": "The Cotton Ball, 18, Old Youghal Road, Ballinamought, Mayfield, Cork, County Cork, Munster, T23 AE78, Éire / Ireland"
+  },
+  "Park Avenue, South Douglas Road, Douglas, Cork, Ireland": {
+    "lat": 51.8844479,
+    "lon": -8.4590118,
+    "display": "Park Avenue, South Douglas Road, Skahabeg, Tramore A, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "O'Connell Square, Shandon, Cork, Ireland": {
+    "lat": 51.9027502,
+    "lon": -8.4765956,
+    "display": "O'Connell's Square, Shandon B, Cork, County Cork, Munster, T23 Y584, Éire / Ireland"
+  },
+  "7 Oliver Plunkett Street, Cork, Ireland": {
+    "lat": 51.8983229,
+    "lon": -8.4682974,
+    "display": "7, Oliver Plunkett Street, Centre A ED, Cork, County Cork, Munster, T12 YT78, Éire / Ireland"
+  },
+  "Frank O'Connor House, 84 Douglas Street, Cork, Ireland": null,
+  "69 Saint Patrick's Street, Cork, Ireland": {
+    "lat": 51.9000407,
+    "lon": -8.4706309,
+    "display": "Saint Patrick's Street, Centre A ED, Cork, County Cork, Munster, T12 E180, Éire / Ireland"
+  },
+  "Unit O2, Marina Commercial Park, Ballintemple, Cork, Ireland": null,
+  "Wandesford Quay, Cork, Ireland": {
+    "lat": 51.8965092,
+    "lon": -8.4813238,
+    "display": "Wandesford Quay, Gillabbey A, Cork, County Cork, Munster, T12 N5TF, Éire / Ireland"
+  },
+  "27A St. Patrick's Woollen Mills, Douglas, Cork, Ireland": null,
+  "Cork Foyer, Assumption Road, Blackpool, Cork, Ireland": {
+    "lat": 51.9107439,
+    "lon": -8.4718875,
+    "display": "Cork Foyer, Assumption Road, Mount Farran, Farrancleary, Blackpool, Blackpool ED A, Cork, County Cork, Munster, T23 FDT4, Éire / Ireland"
+  },
+  "Grand Parade and Princes Street, City Centre, Cork, Ireland": null,
+  "Centre Park Road, The Marina, Cork, Ireland": {
+    "lat": 51.9011802,
+    "lon": -8.4384238,
+    "display": "Centre Park Road, The Marina, Knockrea B, Cork, County Cork, Munster, T12 TX2F, Éire / Ireland"
+  },
+  "Dornan's Yard, Monahan Road, Ballintemple, Cork, Ireland": null,
+  "Mahon Point Shopping Centre, Mahon Link Road, Mahon, Cork, Ireland": null,
+  "Fitzgerald's Park, Cork, Ireland": {
+    "lat": 51.8959979,
+    "lon": -8.4958497,
+    "display": "Fitzgerald's Park, The Mardyke, Mardyke, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "Eason's Hill, Shandon, Cork, Ireland": {
+    "lat": 51.9043382,
+    "lon": -8.4747536,
+    "display": "Eason's Hill, Shandon A, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "South Presentation Centre, Douglas Street, Cork, Ireland": null,
+  "Barrack Street, Cork, Ireland": {
+    "lat": 51.8950158,
+    "lon": -8.4763173,
+    "display": "Barrack Street, South Gate B, Cork, County Cork, Munster, T12 Y720, Éire / Ireland"
+  },
+  "87a North Main Street, City Centre, Cork, Ireland": null,
+  "32 Great William O'Brien Street, Cork, Ireland": {
+    "lat": 51.9101344,
+    "lon": -8.4746671,
+    "display": "Great William O'Brien Street, Blackpool, Farranferris A, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "Caroline Street, Cork, Ireland": {
+    "lat": 51.8985863,
+    "lon": -8.4698697,
+    "display": "Caroline Street, Centre A ED, Cork, County Cork, Munster, T12 K06P, Éire / Ireland"
+  },
+  "Summerhill North, Cork, Ireland": {
+    "lat": 51.9027341,
+    "lon": -8.4611354,
+    "display": "Summerhill North, Victorian Quarter, St. Patrick's A, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "Phoenix Street / Pembroke Street, Cork, Ireland": null,
+  "8 Lavitts Quay, Cork, Ireland": null,
+  "7 Drawbridge Street, Cork, Ireland": {
+    "lat": 51.8998002,
+    "lon": -8.471556,
+    "display": "6/7, Drawbridge Street, Centre B ED, Cork, County Cork, Munster, T12 HT78, Éire / Ireland"
+  },
+  "46-47 Cornmarket Street, Cork, Ireland": {
+    "lat": 51.899482,
+    "lon": -8.4765062,
+    "display": "Corn Market Street, The Marsh, Centre B ED, Cork, County Cork, Munster, T12 Y8K8, Éire / Ireland"
+  },
+  "Daunt's Square, Cork, Ireland": {
+    "lat": 51.8983455,
+    "lon": -8.4756178,
+    "display": "Daunt's Square, The Marsh, Centre B ED, Cork, County Cork, Munster, T12 DP78, Éire / Ireland"
+  },
+  "22 Washington Street, Cork, Ireland": {
+    "lat": 51.8974576,
+    "lon": -8.4812582,
+    "display": "22, Washington Street, Centre B ED, Cork, County Cork, Munster, T12 N768, Éire / Ireland"
+  },
+  "2 Union Quay, Cork, Ireland": {
+    "lat": 51.8970363,
+    "lon": -8.4666913,
+    "display": "Charlies, 2, Union Quay, South Parish, South Gate A, Cork, County Cork, Munster, T12 A376, Éire / Ireland"
+  },
+  "Prince's Street, Cork, Ireland": null,
+  "Fota Estate, Carrigtwohill, Cork, Ireland": null,
+  "College Road, Cork, Ireland": {
+    "lat": 51.8917145,
+    "lon": -8.4948254,
+    "display": "College Road, Bishop's-mill-lands, Gillabbey C, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "The Marina, Ballintemple, Cork, Ireland": null,
+  "Bishopstown Road, Curraheen, Cork, Ireland": {
+    "lat": 51.8797758,
+    "lon": -8.5208988,
+    "display": "Dunnes Stores, Curraheen Road, Ballinaspig More, Bishopstown ED C, Cork, County Cork, Munster, T12 X0TN, Éire / Ireland"
+  },
+  "Crosses Green House, Crosses Green, Cork, Ireland": {
+    "lat": 51.8956693,
+    "lon": -8.4782654,
+    "display": "Crosses Green House, Crosses Green Quay, Gillabbey A, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "North Monastery Road, Cork, Ireland": {
+    "lat": 51.9068989,
+    "lon": -8.4788379,
+    "display": "North Monastery Road, Knockpoge, Farranferris C, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "Richard Beamish Cricket Grounds, Mardyke, Cork, Ireland": null,
+  "Cork College of FET, Bishopstown Campus, Rossa Avenue, Bishopstown, Cork, Ireland": null,
+  "15 MacCurtain Street, Cork, Ireland": {
+    "lat": 51.9014229,
+    "lon": -8.468497,
+    "display": "Everyman Palace Theatre, 15, MacCurtain Street, Victorian Quarter, St. Patrick's A, Cork, County Cork, Munster, T23 VN24, Éire / Ireland"
+  },
+  "Carroll's Quay, Cork, Ireland": {
+    "lat": 51.9013194,
+    "lon": -8.4726131,
+    "display": "Carroll's Quay, Shandon A, Cork, County Cork, Munster, T23 X72D, Éire / Ireland"
+  },
+  "Dyke Parade, Cork, Ireland": {
+    "lat": 51.8975642,
+    "lon": -8.4836364,
+    "display": "Dyke Parade, Gillabbey, The Mardyke, Mardyke, Cork, County Cork, Munster, T12 EY91, Éire / Ireland"
+  },
+  "Centre Park Road, Ballintemple, Cork, Ireland": null,
+  "Half Moon Street, Cork, Ireland": {
+    "lat": 51.9000381,
+    "lon": -8.4736189,
+    "display": "Half Moon Street, Centre B ED, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "Assumption Road, Blackpool, Cork, Ireland": {
+    "lat": 51.908685,
+    "lon": -8.4724103,
+    "display": "Assumption Road, Blackpool ED B, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "28 South Main Street, Cork, Ireland": {
+    "lat": 51.7447827,
+    "lon": -8.7383881,
+    "display": "Murray's Menswear, 28, South Main Street, Bandon, The Municipal District of Bandon-Kinsale, County Cork, Munster, P72 WA25, Éire / Ireland"
+  },
+  "7 Coburg Street, Cork, Ireland": {
+    "lat": 51.9016621,
+    "lon": -8.4709133,
+    "display": "Corner House, 7, Coburg Street, Shandon A, Cork, County Cork, Munster, T23 FW10, Éire / Ireland"
+  },
+  "31 Douglas Street, Cork, Ireland": {
+    "lat": 51.8926167,
+    "lon": -8.4679139,
+    "display": "Douglas Street, South Parish, South Gate A, Cork, County Cork, Munster, T12 DX39, Éire / Ireland"
+  },
+  "21 Washington Street, Cork, Ireland": {
+    "lat": 51.8975418,
+    "lon": -8.4777054,
+    "display": "Ó Súilleabháin, 21, Washington Street, The Marsh, Gillabbey A, Cork, County Cork, Munster, T12 HF95, Éire / Ireland"
+  },
+  "64 Oliver Plunkett Street, Cork, Ireland": {
+    "lat": 51.8971452,
+    "lon": -8.4739395,
+    "display": "64, Oliver Plunkett Street, Centre A ED, Cork, County Cork, Munster, T12 FT2R, Éire / Ireland"
+  },
+  "7 Winthrop Street, Cork, Ireland": {
+    "lat": 51.8984152,
+    "lon": -8.4705902,
+    "display": "7, Winthrop Street, Centre A ED, Cork, County Cork, Munster, T12 TD26, Éire / Ireland"
+  }
+}

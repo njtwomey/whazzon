@@ -2,9 +2,7 @@ schema: whazzon.catalogue/1
 category: art
 label: Art & Galleries
 description: >-
-  Public and university galleries, artist-run studio groups, commercial galleries
-  and print organisations. Exhibitions run for months rather than weeks, so most
-  of this category is harvested monthly.
+  Public and university galleries, artist-run studio groups, commercial galleries and print organisations. Exhibitions run for months rather than weeks, so most of this category is harvested monthly.
 sources:
   - id: art/crawford-art-gallery
     name: Crawford Art Gallery
@@ -17,7 +15,9 @@ sources:
     address:
       street: Emmet Place
       city: Cork
-    tags: [major, free, civic, gallery]
+      lat: 51.899855
+      lon: -8.47329
+    tags: [ major, free, civic, gallery ]
     cadence: monthly
     hints: |
       **The building is shut.** "Crawford Art Gallery is now closed for
@@ -30,14 +30,7 @@ sources:
       /exhibitions-archive-2024/ and the homepage link points at
       /exhibitions-archive-2025/. /whats-on/ is the only forward-looking page.
     notes: >-
-      Verified 2026-08-17: /whats-on/ names Crawford Art Gallery throughout,
-      carries the closure notice, and listed seven dated items from 11 August to
-      17 October 2026 (Artists Film International 2026 at Triskel 11–27 Aug;
-      Conservation in Action at Cork City Library 18 Aug; Culture Night
-      Projection Playspace 18 Sep). The gallery's postal address during
-      redevelopment is 2nd Floor, 80a Hibernian House, South Mall, Cork T12
-      ACR7 — that is an office, not a venue, so `address` records Emmet Place
-      instead and the Eircode is left out rather than guessed.
+      Verified 2026-08-17: /whats-on/ names Crawford Art Gallery throughout, carries the closure notice, and listed seven dated items from 11 August to 17 October 2026 (Artists Film International 2026 at Triskel 11–27 Aug; Conservation in Action at Cork City Library 18 Aug; Culture Night Projection Playspace 18 Sep). The gallery's postal address during redevelopment is 2nd Floor, 80a Hibernian House, South Mall, Cork T12 ACR7 — that is an office, not a venue, so `address` records Emmet Place instead and the Eircode is left out rather than guessed.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -59,7 +52,9 @@ sources:
       locality: Western Road
       city: Cork
       postcode: T12 V1WH
-    tags: [university, gallery, free, contemporary]
+      lat: 51.894701
+      lon: -8.49031
+    tags: [ university, gallery, free, contemporary ]
     cadence: monthly
     hints: |
       Two pages that do different jobs and both matter: /exhibitions carries the
@@ -70,11 +65,7 @@ sources:
       Free entry with a suggested €5 donation; 11am–5pm Tuesday–Sunday, closed
       Mondays.
     notes: >-
-      Verified 2026-08-17: both pages name The Glucksman and University College
-      Cork, and gave "The Glucksman, University College Cork, Ireland T12 V1WH".
-      Listed Panorama Europa (15 May – 1 Nov 2026), Selected Works from the UCC
-      Art Collection (23 May – 1 Nov 2026), Culture Night 18 Sep 2026.
-      /whats-on 404s.
+      Verified 2026-08-17: both pages name The Glucksman and University College Cork, and gave "The Glucksman, University College Cork, Ireland T12 V1WH". Listed Panorama Europa (15 May – 1 Nov 2026), Selected Works from the UCC Art Collection (23 May – 1 Nov 2026), Culture Night 18 Sep 2026. /whats-on 404s.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -86,7 +77,7 @@ sources:
     url: https://lavitgallery.com/upcoming-exhibitions/
     homepage: https://lavitgallery.com/
     area: City Centre
-    tags: [gallery, independent, exhibitions]
+    tags: [ gallery, independent, exhibitions ]
     cadence: monthly
     hints: |
       **Bot-walled, not gone.** The host runs SiteGround's challenge: the
@@ -100,16 +91,7 @@ sources:
       Programmes about ten exhibitions a year, including a show by Cork
       Printmakers or Backwater Artists Group in alternate years.
     notes: >-
-      Trading name of Cork Arts Society, founded 1963 — the two names are one
-      organisation, so there is deliberately no separate Cork Arts Society
-      entry. Checked 2026-08-17: not verified by reading the page, because the
-      captcha wall blocks it; the path is taken from the site's own indexed
-      "Upcoming Exhibitions" page title and its programme is independently
-      confirmed by the Visual Artists Ireland Cork listing. `verifiedAt` is
-      deliberately unset. `address` omitted: third-party sources place the
-      gallery at Wandesford Quay, Clarke's Bridge (it moved from Father Mathew
-      Street) but that could not be read off the gallery's own page, and a
-      guessed Eircode would put the map pin in the wrong place.
+      Trading name of Cork Arts Society, founded 1963 — the two names are one organisation, so there is deliberately no separate Cork Arts Society entry. Checked 2026-08-17: not verified by reading the page, because the captcha wall blocks it; the path is taken from the site's own indexed "Upcoming Exhibitions" page title and its programme is independently confirmed by the Visual Artists Ireland Cork listing. `verifiedAt` is deliberately unset. `address` omitted: third-party sources place the gallery at Wandesford Quay, Clarke's Bridge (it moved from Father Mathew Street) but that could not be read off the gallery's own page, and a guessed Eircode would put the map pin in the wrong place.
     addedAt: "2026-08-17"
 
   - id: art/cork-printmakers
@@ -124,7 +106,7 @@ sources:
       street: Wandesford Quay, Clarke's Bridge
       city: Cork
       postcode: T12 E26D
-    tags: [print, studios, artist-led]
+    tags: [ print, studios, artist-led ]
     cadence: monthly
     hints: |
       Fine-art printmaking studio with its own Studio Gallery. Programmes
@@ -135,12 +117,7 @@ sources:
       404s, and /feed/ carries only news posts. Scrape the HTML.
       /whats-on and /gallery both 404.
     notes: >-
-      Verified 2026-08-17: page titled "Exhibitions | Cork Printmakers Fine Art
-      Printmaking Studio", footer "Wandesford Quay, Clarke's Bridge, Cork T12
-      E26D", Reg. Charity No. 20028923. Listed BIND (Eimearjean McCormack,
-      June–July) and In the Fold of the Earth (14 May – 30 July 2026). Shares
-      the Wandesford Quay building with Backwater Artists Group and Lavit
-      Gallery.
+      Verified 2026-08-17: page titled "Exhibitions | Cork Printmakers Fine Art Printmaking Studio", footer "Wandesford Quay, Clarke's Bridge, Cork T12 E26D", Reg. Charity No. 20028923. Listed BIND (Eimearjean McCormack, June–July) and In the Fold of the Earth (14 May – 30 July 2026). Shares the Wandesford Quay building with Backwater Artists Group and Lavit Gallery.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -156,7 +133,9 @@ sources:
       street: 1st Floor, Wandesford Quay
       city: Cork
       postcode: T12 E26D
-    tags: [studios, artist-led, exhibitions]
+      lat: 51.896509
+      lon: -8.481324
+    tags: [ studios, artist-led, exhibitions ]
     cadence: monthly
     hints: |
       Studio group whose public face is Studio 12, an experimental exhibition
@@ -166,12 +145,7 @@ sources:
       returns zero items, and `?rest_route=/tribe/events/v1/events` 404s — the
       HTML is the only source.
     notes: >-
-      Verified 2026-08-17: page names Backwater Artists Group and gives
-      "Wandesford Quay, Cork, Ireland, T12 E26D"; Studio 12 page gives "1st
-      Floor, Wandesford Quay". Listed Room Innate (Danny Foley), SOFTctrl
-      (12 Jun – 17 Jul), Paperwork (1 May – 5 Jun). Independently confirmed by
-      the Visual Artists Ireland Cork listing, which dates Room Innate at
-      Studio 12 to 21 Aug – 25 Sep 2026.
+      Verified 2026-08-17: page names Backwater Artists Group and gives "Wandesford Quay, Cork, Ireland, T12 E26D"; Studio 12 page gives "1st Floor, Wandesford Quay". Listed Room Innate (Danny Foley), SOFTctrl (12 Jun – 17 Jul), Paperwork (1 May – 5 Jun). Independently confirmed by the Visual Artists Ireland Cork listing, which dates Room Innate at Studio 12 to 21 Aug – 25 Sep 2026.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -193,7 +167,7 @@ sources:
       locality: Churchfield
       city: Cork
       postcode: T23 XV50
-    tags: [studios, artist-led, free, contemporary]
+    tags: [ studios, artist-led, free, contemporary ]
     cadence: monthly
     hints: |
       **The exhibitions are not at the studios.** The studios are in Churchfield;
@@ -207,13 +181,7 @@ sources:
       filterable by year back to 2011; only take what is dated forward.
       The domain is sample-studios.com — samplestudios.ie does not resolve.
     notes: >-
-      Verified 2026-08-17: /exhibitions/ named the Lord Mayor's Pavilion and
-      TRISKEL SAMPLE Project Space, "Admission is free and all are welcome",
-      and listed six upcoming shows to January 2027 (The Rocket's Red Glare
-      27 Aug – 3 Oct 2026; Cork Zine Fest residency 29 Oct – 29 Nov 2026).
-      /events/ listed eleven dated upcoming items. /contact/ gives "Exchange
-      Business Park Churchfield, Cork, Ireland T23 XV50". Busiest source in this
-      category by event count. /whats-on/ 404s; /feed/ is news only.
+      Verified 2026-08-17: /exhibitions/ named the Lord Mayor's Pavilion and TRISKEL SAMPLE Project Space, "Admission is free and all are welcome", and listed six upcoming shows to January 2027 (The Rocket's Red Glare 27 Aug – 3 Oct 2026; Cork Zine Fest residency 29 Oct – 29 Nov 2026). /events/ listed eleven dated upcoming items. /contact/ gives "Exchange Business Park Churchfield, Cork, Ireland T23 XV50". Busiest source in this category by event count. /whats-on/ 404s; /feed/ is news only.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -229,7 +197,9 @@ sources:
       street: Albert Road
       city: Cork
       postcode: T12 KX00
-    tags: [studios, artist-led, contemporary]
+      lat: 51.897139
+      lon: -8.460913
+    tags: [ studios, artist-led, contemporary ]
     cadence: monthly
     hints: |
       /programme/ interleaves upcoming and long-finished items under category
@@ -242,13 +212,7 @@ sources:
       from it is dummy content. /events/, /whats-on/ and /whats-happening/ all
       404.
     notes: >-
-      Verified 2026-08-17: homepage and /programme/ name the National Sculpture
-      Factory, established 1989, and /about/map-directions/ gives "Albert Road,
-      Cork City, Ireland, T12 KX00" with the main entrance opposite the Elysian
-      tower. Newest dated items were June–August 2026 (Raku with Karina Killeen
-      19 Jun – 31 Jul 2026), so the site is maintained even though the news feed
-      is not. A national body that happens to be in Cork, so much of the
-      programme is professional development rather than public exhibitions.
+      Verified 2026-08-17: homepage and /programme/ name the National Sculpture Factory, established 1989, and /about/map-directions/ gives "Albert Road, Cork City, Ireland, T12 KX00" with the main entrance opposite the Elysian tower. Newest dated items were June–August 2026 (Raku with Karina Killeen 19 Jun – 31 Jul 2026), so the site is maintained even though the news feed is not. A national body that happens to be in Cork, so much of the programme is professional development rather than public exhibitions.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -269,7 +233,9 @@ sources:
       street: 46 Grand Parade
       city: Cork
       postcode: T12 VN56
-    tags: [university, student, gallery, free]
+      lat: 51.895966
+      lon: -8.475036
+    tags: [ university, student, gallery, free ]
     cadence: monthly
     hints: |
       **Dates carry no year on either page** — entries read "Starts 12 Oct /
@@ -282,12 +248,7 @@ sources:
       announced on mtu.ie/news rather than here, so an absence on this site is
       not evidence there is no degree show. /feed/ 404s.
     notes: >-
-      Verified 2026-08-17: both pages name MTU Crawford College of Art & Design
-      and repeat "46 Grand Parade, Cork City T12 VN56". /galleryatno46/ listed
-      six gallery shows and an Art Therapy Summer School dated June 2026; the
-      gallery is demonstrably current because the Visual Artists Ireland Cork
-      listing dates EMERGE 2026 at No.46 Gallery to 30 Jul – 17 Aug 2026 —
-      the college's own events page had not picked that up.
+      Verified 2026-08-17: both pages name MTU Crawford College of Art & Design and repeat "46 Grand Parade, Cork City T12 VN56". /galleryatno46/ listed six gallery shows and an Art Therapy Summer School dated June 2026; the gallery is demonstrably current because the Visual Artists Ireland Cork listing dates EMERGE 2026 at No.46 Gallery to 30 Jul – 17 Aug 2026 — the college's own events page had not picked that up.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -299,7 +260,7 @@ sources:
     url: https://triskelartscentre.ie/visual-art/
     homepage: https://triskelartscentre.ie/
     area: City Centre
-    tags: [gallery, contemporary, free]
+    tags: [ gallery, contemporary, free ]
     cadence: monthly
     hints: |
       Catalogued for the gallery strand only — this URL is the visual-art slice
@@ -314,12 +275,7 @@ sources:
       The listing mixes exhibition runs with the weekly Art History Reframed
       lecture series, which is a series of single dates, not a run.
     notes: >-
-      Verified 2026-08-17: page titled "Visual Art – Triskel Arts Centre",
-      WordPress, and listed Billy Lingwood residency and exhibition (2 Jul –
-      30 Aug), Sarah Long (3 Sep – 25 Oct), Artists Film International 2026
-      (11–27 Aug) and Cork Zine Fest. `address` omitted deliberately — Tobin
-      Street is well attested in directories but was not read off Triskel's own
-      page, and stage 2 can take it from the source.
+      Verified 2026-08-17: page titled "Visual Art – Triskel Arts Centre", WordPress, and listed Billy Lingwood residency and exhibition (2 Jul – 30 Aug), Sarah Long (3 Sep – 25 Oct), Artists Film International 2026 (11–27 Aug) and Cork Zine Fest. `address` omitted deliberately — Tobin Street is well attested in directories but was not read off Triskel's own page, and stage 2 can take it from the source.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -334,7 +290,9 @@ sources:
       street: 10 Chapel Street
       locality: Shandon
       city: Cork
-    tags: [artist-led, studios, independent]
+      lat: 51.90403
+      lon: -8.476129
+    tags: [ artist-led, studios, independent ]
     cadence: quarterly
     hints: |
       **http only** — https://theguesthouse.ie does not answer at all, on either
@@ -346,13 +304,7 @@ sources:
       has a first-floor performance and exhibition space, so shows do happen;
       they are just not published here.
     notes: >-
-      Verified 2026-08-17: page footer gives "The Guesthouse Project, 10 Chapel
-      Street, Shandon, Cork, Ireland", describes the residency programme and the
-      Guesthouse Collective, and is free of injected spam. An artist-led
-      initiative founded in 2004 by the Cork Artists Collective with Cork City
-      Council. **theguesthouseproject.com is a different organisation
-      entirely** — a US nonprofit in Alpharetta, Georgia, whose newest event is
-      dated November 2024. It serves a healthy 200 and must not be used.
+      Verified 2026-08-17: page footer gives "The Guesthouse Project, 10 Chapel Street, Shandon, Cork, Ireland", describes the residency programme and the Guesthouse Collective, and is free of injected spam. An artist-led initiative founded in 2004 by the Cork Artists Collective with Cork City Council. **theguesthouseproject.com is a different organisation entirely** — a US nonprofit in Alpharetta, Georgia, whose newest event is dated November 2024. It serves a healthy 200 and must not be used.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -369,7 +321,9 @@ sources:
       locality: Blackpool
       city: Cork
       postcode: T23 DV24
-    tags: [community, artist-led, free, outdoor]
+      lat: 51.910327
+      lon: -8.473803
+    tags: [ community, artist-led, free, outdoor ]
     cadence: monthly
     hints: |
       Makes work for the street rather than the wall: the Dragon of Shandon
@@ -381,11 +335,7 @@ sources:
       /whats-on/ 404s; /programme/ is the page, and the homepage's "Latest News"
       block often has the nearest dates on it.
     notes: >-
-      Verified 2026-08-17: site titled "Cork Community Art Link | empowering
-      people through art", 20th anniversary, and listed the Blackpool Block
-      Party on Sunday 23 August and a film screening on Saturday 29 August —
-      both weekdays that match 2026, so the site is current. Address read off
-      /programme/.
+      Verified 2026-08-17: site titled "Cork Community Art Link | empowering people through art", 20th anniversary, and listed the Blackpool Block Party on Sunday 23 August and a film screening on Saturday 29 August — both weekdays that match 2026, so the site is current. Address read off /programme/.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -401,7 +351,7 @@ sources:
         url: https://visualartists.ie/event-category/munster-cork/feed/
         note: only the three most recently added items, not the whole list
     homepage: https://visualartists.ie/events/
-    tags: [exhibitions, contemporary]
+    tags: [ exhibitions, contemporary ]
     cadence: weekly
     hints: |
       The safety net for this category, and the way round two problems: it
@@ -416,14 +366,7 @@ sources:
       mostly Dublin, and the `?category=36` query parameter looks like a filter
       but does not filter — it returns the national list.
     notes: >-
-      Verified 2026-08-17: /event-category/munster-cork/ is titled "Munster –
-      Cork – Visual Artists Ireland" and listed eleven dated Cork items with
-      times, spanning Cork Public Museum, Triskel Sample Project Space,
-      Sample-Studios, Lavit Gallery, No.46 Gallery, Studio 12 and Crawford Art
-      Gallery. The feed at the same path returned three items against the
-      page's eleven, which is why it is a supplement rather than the primary
-      route. Visual Artists Ireland is the national representative body
-      (head office Dublin); no address applies to this source.
+      Verified 2026-08-17: /event-category/munster-cork/ is titled "Munster – Cork – Visual Artists Ireland" and listed eleven dated Cork items with times, spanning Cork Public Museum, Triskel Sample Project Space, Sample-Studios, Lavit Gallery, No.46 Gallery, Studio 12 and Crawford Art Gallery. The feed at the same path returned three items against the page's eleven, which is why it is a supplement rather than the primary route. Visual Artists Ireland is the national representative body (head office Dublin); no address applies to this source.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -435,7 +378,7 @@ sources:
     url: https://www.corkzinefest.ie/events
     homepage: https://www.corkzinefest.ie/
     area: City Centre
-    tags: [print, independent, community]
+    tags: [ print, independent, community ]
     cadence: quarterly
     hints: |
       Squarespace site, and **its own events page lags a year behind** — on
@@ -447,11 +390,7 @@ sources:
       Runs a monthly "Zine Club" at the Lord Mayor's Pavilion, Fitzgerald's
       Park, alongside the festival month itself.
     notes: >-
-      Verified 2026-08-17: corkzinefest.ie is live and is the Cork, Ireland zine
-      festival; corkzinefest.com does not resolve. Venue-less by design — it
-      takes over other people's rooms — so no address. Included in this category
-      rather than a festivals one because it is a print/DIY-publishing programme
-      that runs inside the Sample-Studios and Triskel gallery spaces.
+      Verified 2026-08-17: corkzinefest.ie is live and is the Cork, Ireland zine festival; corkzinefest.com does not resolve. Venue-less by design — it takes over other people's rooms — so no address. Included in this category rather than a festivals one because it is a print/DIY-publishing programme that runs inside the Sample-Studios and Triskel gallery spaces.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -463,7 +402,7 @@ sources:
     url: https://www.siriusartscentre.ie/exhibitions
     homepage: https://www.siriusartscentre.ie/
     area: Cobh
-    tags: [gallery, contemporary, free]
+    tags: [ gallery, contemporary, free ]
     cadence: monthly
     hints: |
       Open Wednesday–Saturday 11:00–17:00. Exhibition dates carry no year
@@ -474,21 +413,7 @@ sources:
       Refuses some fetchers with a 403 while answering a browser user-agent
       with a 200, so send a browser user-agent.
     notes: >-
-      **Outside the configured radius — a human needs to decide on this one.**
-      Measured 13.6 km from the centre in configs/ie-cork.yaml (51.8985,
-      -8.4756) to Cobh, against `radiusKm: 12`. Included because Cork city
-      organisations programme into it rather than because Cobh is in the city:
-      both of Cork Printmakers' currently listed exhibitions ("Oceanic
-      Imaginaries" and "In the Space Between") are at Sirius rather than at
-      Wandesford Quay, and it recurs throughout the Munster–Cork visual arts
-      listings. Drop it if the radius is to be read strictly.
-      Uillinn (West Cork Arts Centre, Skibbereen) was checked against the same
-      rule and excluded — 66.8 km, and its site is behind the same host-level
-      403 as Lavit's.
-      Verified 2026-08-17: page names Sirius Arts Centre Cobh, gives 021
-      4813790, and listed Leanne McDonagh: Community & Connection (4 Jul –
-      12 Sep) and the Irish Georgian Society restoration project (1 Apr 2024 –
-      31 Dec 2030).
+      **Outside the configured radius — a human needs to decide on this one.** Measured 13.6 km from the centre in configs/ie-cork.yaml (51.8985, -8.4756) to Cobh, against `radiusKm: 12`. Included because Cork city organisations programme into it rather than because Cobh is in the city: both of Cork Printmakers' currently listed exhibitions ("Oceanic Imaginaries" and "In the Space Between") are at Sirius rather than at Wandesford Quay, and it recurs throughout the Munster–Cork visual arts listings. Drop it if the radius is to be read strictly. Uillinn (West Cork Arts Centre, Skibbereen) was checked against the same rule and excluded — 66.8 km, and its site is behind the same host-level 403 as Lavit's. Verified 2026-08-17: page names Sirius Arts Centre Cobh, gives 021 4813790, and listed Leanne McDonagh: Community & Connection (4 Jul – 12 Sep) and the Irish Georgian Society restoration project (1 Apr 2024 – 31 Dec 2030).
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -503,7 +428,7 @@ sources:
       street: Newbury House
       locality: Mayfield
       city: Cork
-    tags: [community, studios, free]
+    tags: [ community, studios, free ]
     cadence: quarterly
     hints: |
       **Do not expect listings.** There is no events page anywhere on the site
@@ -514,12 +439,7 @@ sources:
       Home of the CÚIG studio group — artists with intellectual disabilities,
       who do exhibit, but whose shows are announced elsewhere.
     notes: >-
-      Verified 2026-08-17: mayfieldarts.ie loads as "mayfieldarts | Creativity
-      At Work", identifies Mayfield Arts Centre at Newbury House Family Centre
-      in Mayfield, and — unlike the Bristol case this pattern resembles — is
-      **not** serving injected spam. The centre itself appears to still operate
-      (phone 021-4530434). Dormant rather than closed. Worth a human deciding
-      whether CÚIG's exhibitions should be catalogued under a different URL.
+      Verified 2026-08-17: mayfieldarts.ie loads as "mayfieldarts | Creativity At Work", identifies Mayfield Arts Centre at Newbury House Family Centre in Mayfield, and — unlike the Bristol case this pattern resembles — is **not** serving injected spam. The centre itself appears to still operate (phone 021-4530434). Dormant rather than closed. Worth a human deciding whether CÚIG's exhibitions should be catalogued under a different URL.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -533,7 +453,9 @@ sources:
     address:
       street: St Peter's, North Main Street
       city: Cork
-    tags: [gallery, free, civic]
+      lat: 51.899549
+      lon: -8.478862
+    tags: [ gallery, free, civic ]
     cadence: quarterly
     hints: |
       **Do not harvest this.** corkvisioncentre.com is a parked domain, not a
@@ -541,15 +463,6 @@ sources:
       URL checker cannot see. Kept in the catalogue with `status: closed` so a
       later stage 1 run does not helpfully re-propose it.
     notes: >-
-      Verified 2026-08-17: every path on corkvisioncentre.com — / and
-      /exhibitions alike — returns a 200 whose entire visible body is the string
-      "corkvisioncentre.com", with scripts from mydomaincontact.com and two
-      unrelated hosts. A domain-parking page. The building, St Peter's on North
-      Main Street, now trades as a commercial events and wedding venue at
-      stpeterscork.ie — same phone number, 021 427 8187 — advertising venue
-      hire, weddings and a café rather than an exhibition programme, so the
-      gallery operation looks to have ended rather than moved. Third-party
-      directories (Golden Pages, Fodor's, Discover Ireland) still list it with
-      opening hours, which is why it needed checking rather than trusting.
+      Verified 2026-08-17: every path on corkvisioncentre.com — / and /exhibitions alike — returns a 200 whose entire visible body is the string "corkvisioncentre.com", with scripts from mydomaincontact.com and two unrelated hosts. A domain-parking page. The building, St Peter's on North Main Street, now trades as a commercial events and wedding venue at stpeterscork.ie — same phone number, 021 427 8187 — advertising venue hire, weddings and a café rather than an exhibition programme, so the gallery operation looks to have ended rather than moved. Third-party directories (Golden Pages, Fodor's, Discover Ireland) still list it with opening hours, which is why it needed checking rather than trusting.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"

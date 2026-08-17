@@ -2,12 +2,7 @@ schema: whazzon.catalogue/1
 category: outdoors
 label: Parks, Gardens & Outdoors
 description: >-
-  Parks and green space, gardens and arboretums, guided walking tours and the
-  nature and outdoor-activity organisations that programme into all of them.
-  Cork merges what Bristol splits between outdoors and gardens, because inside a
-  12km radius the city has almost no horticultural sites of its own — three
-  gardens, one accredited arboretum, and a council estate of parks with no
-  events diary anywhere in it.
+  Parks and green space, gardens and arboretums, guided walking tours and the nature and outdoor-activity organisations that programme into all of them. Cork merges what Bristol splits between outdoors and gardens, because inside a 12km radius the city has almost no horticultural sites of its own — three gardens, one accredited arboretum, and a council estate of parks with no events diary anywhere in it.
 sources:
   - id: outdoors/cork-city-parks
     name: Cork City Council — Cork City Parks
@@ -16,7 +11,7 @@ sources:
     status: provisional
     url: https://www.corkcity.ie/en/things-to-do/parks-outdoors/cork-city-parks/cork-city-parks/
     homepage: https://www.corkcity.ie/en/things-to-do/parks-outdoors/
-    tags: [park, civic, free, outdoor]
+    tags: [ park, civic, free, outdoor ]
     cadence: quarterly
     hints: |
       Serves park information rather than an events diary. One long descriptive
@@ -38,15 +33,7 @@ sources:
       https://www.corkcity.ie/en/things-to-do/parks-outdoors/cork-city-parks/parks-opening-hours/,
       which is the only thing on this section worth recording as `ongoing`.
     notes: >-
-      Verified 2026-08-17 by fetching corkcity.ie's full sitemap (2,596 URLs) as well as the page. The whole
-      /things-to-do/parks-outdoors/ section is seven pages: Cork City Parks, Cork City Walks, Tree Services,
-      Tree Planting, Playgrounds, Allotments, Orienteering. Individual parks do not have pages — this resolves
-      most of the brief's unverified leads at once. Fitzgerald Park, Tramore Valley Park, Ballincollig Regional
-      Park, The Glen River Park and Beaumont Quarry have no council page and no site of their own (tramorevalleypark.ie
-      does not resolve), so they are not catalogued as separate sources; they would all point at this page or at
-      nothing. Marina Park is the one exception and has its own entry. Fitzgerald's Park is where the city's big
-      outdoor programme actually lands — Cork Carnival of Science and Cork Rocks for Rory both have corkcity.ie
-      microsites of their own — but those are festivals, not park listings, and belong to another category.
+      Verified 2026-08-17 by fetching corkcity.ie's full sitemap (2,596 URLs) as well as the page. The whole /things-to-do/parks-outdoors/ section is seven pages: Cork City Parks, Cork City Walks, Tree Services, Tree Planting, Playgrounds, Allotments, Orienteering. Individual parks do not have pages — this resolves most of the brief's unverified leads at once. Fitzgerald Park, Tramore Valley Park, Ballincollig Regional Park, The Glen River Park and Beaumont Quarry have no council page and no site of their own (tramorevalleypark.ie does not resolve), so they are not catalogued as separate sources; they would all point at this page or at nothing. Marina Park is the one exception and has its own entry. Fitzgerald's Park is where the city's big outdoor programme actually lands — Cork Carnival of Science and Cork Rocks for Rory both have corkcity.ie microsites of their own — but those are festivals, not park listings, and belong to another category.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -57,7 +44,7 @@ sources:
     status: provisional
     url: https://www.corkcity.ie/en/council-services/services/sports-recreation-parks/marina-park/
     area: The Marina
-    tags: [park, civic, free, outdoor]
+    tags: [ park, civic, free, outdoor ]
     cadence: quarterly
     hints: |
       Serves park information rather than an events diary — three paragraphs of
@@ -70,11 +57,7 @@ sources:
       `venue.name` to Marina Park from the promoter's listing rather than
       expecting to find them here.
     notes: >-
-      Verified 2026-08-17: the page is live and is the council's own Marina Park page, 32 hectares from Shandon
-      Boat Club to Blackrock Harbour, which agrees with the catalogued Marina area. It is the only individual
-      Cork park with its own council page. A second page,
-      /en/things-to-do/parks-outdoors/cork-city-parks/marina-park-development/, also exists and covers the same
-      ground; this one is the tidier of the two. Not the same thing as the Marina Market, which is a food hall.
+      Verified 2026-08-17: the page is live and is the council's own Marina Park page, 32 hectares from Shandon Boat Club to Blackrock Harbour, which agrees with the catalogued Marina area. It is the only individual Cork park with its own council page. A second page, /en/things-to-do/parks-outdoors/cork-city-parks/marina-park-development/, also exists and covers the same ground; this one is the tidier of the two. Not the same thing as the Marina Market, which is a food hall.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -85,7 +68,7 @@ sources:
     status: provisional
     url: https://www.corkcity.ie/en/things-to-do/parks-outdoors/cork-city-walks/
     area: City Centre
-    tags: [walks, free, outdoor, heritage, civic]
+    tags: [ walks, free, outdoor, heritage, civic ]
     cadence: quarterly
     hints: |
       Permanent self-guided routes, not events. Nothing here will ever have a
@@ -98,9 +81,7 @@ sources:
       (South Parish, University, Shandon, Island), which are page-turner PDFs
       rather than HTML and are not worth opening.
     notes: >-
-      Verified 2026-08-17: live, and is what it claims to be. Named as a lead in the brief under "Cork Heritage
-      walking tours"; it turns out to be self-guided maps rather than guided tours, so the guided ones are
-      catalogued separately under Cork Heritage Open Day and Kieran McCarthy.
+      Verified 2026-08-17: live, and is what it claims to be. Named as a lead in the brief under "Cork Heritage walking tours"; it turns out to be self-guided maps rather than guided tours, so the guided ones are catalogued separately under Cork Heritage Open Day and Kieran McCarthy.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -111,7 +92,7 @@ sources:
     status: provisional
     url: https://www.corkcity.ie/en/things-to-do/parks-outdoors/orienteering/
     area: City Centre
-    tags: [outdoor, free, family, heritage, civic]
+    tags: [ outdoor, free, family, heritage, civic ]
     cadence: quarterly
     hints: |
       Two permanent street orienteering routes with printed markers, one through
@@ -125,9 +106,7 @@ sources:
       to eight numbered checkpoint pages beneath it. Do not walk the checkpoint
       pages; there is nothing dated on them.
     notes: >-
-      Verified 2026-08-17: live, delivered by Abarta Heritage and artist Sheelagh Broderick for Cork City
-      Council's conservation office. A genuinely unusual thing to have in a "what's on" list and the sort of
-      permanent free outdoor activity a visitor would never otherwise find.
+      Verified 2026-08-17: live, delivered by Abarta Heritage and artist Sheelagh Broderick for Cork City Council's conservation office. A genuinely unusual thing to have in a "what's on" list and the sort of permanent free outdoor activity a visitor would never otherwise find.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -137,7 +116,7 @@ sources:
     kind: listing
     status: provisional
     url: https://www.corkcity.ie/en/things-to-do/parks-outdoors/allotments/
-    tags: [allotments, growing, community, civic]
+    tags: [ allotments, growing, community, civic ]
     cadence: quarterly
     hints: |
       Purely administrative, and known to be so — how to apply, €1 per square
@@ -145,10 +124,7 @@ sources:
       growing programme, no open days and nothing dated. Expect zero events
       permanently.
     notes: >-
-      Verified 2026-08-17. Kept only so the check is on the record: this is the whole of Cork's council-run
-      community-growing provision and it is two sites, Churchfield Garden Allotments (53 plots) and Ballincollig
-      Regional Park (84 plots), both fully assigned. Bristol's equivalent entry turned out the same way. Whether
-      it stays a source at all is a catalogue decision rather than a URL fix — it will never produce an event.
+      Verified 2026-08-17. Kept only so the check is on the record: this is the whole of Cork's council-run community-growing provision and it is two sites, Churchfield Garden Allotments (53 plots) and Ballincollig Regional Park (84 plots), both fully assigned. Bristol's equivalent entry turned out the same way. Whether it stays a source at all is a catalogue decision rather than a URL fix — it will never produce an event.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -158,7 +134,7 @@ sources:
     kind: listing
     status: provisional
     url: https://www.corkcity.ie/en/council-services/services/arts-culture-heritage/natural-heritage-biodiversity/
-    tags: [nature, wildlife, free, civic, walks]
+    tags: [ nature, wildlife, free, civic, walks ]
     cadence: quarterly
     hints: |
       Unlike the council's park pages, this one does carry a programme — but only
@@ -178,8 +154,7 @@ sources:
 
       Crawl in April and May. Between June and March there is nothing new here.
     notes: >-
-      Verified 2026-08-17: live, and names Cork City Council's Heritage Officer and biodiversity officers. It
-      also points at biodiversityweek.ie for the full national list, which is catalogued separately.
+      Verified 2026-08-17: live, and names Cork City Council's Heritage Officer and biodiversity officers. It also points at biodiversityweek.ie for the full national list, which is catalogued separately.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -195,7 +170,7 @@ sources:
       locality: Blarney
       city: Cork
       country: Ireland
-    tags: [gardens, plants, heritage, tours, major]
+    tags: [ gardens, plants, heritage, tours, major ]
     cadence: quarterly
     hints: |
       Needs a browser user-agent. A plain fetch gets HTTP 403; curl with a Chrome
@@ -215,13 +190,7 @@ sources:
       diary is a separate custom post type not carried in that feed. The
       WordPress REST API returns 401.
     notes: >-
-      Verified 2026-08-17, and the brief's radius question resolves in favour of including it: Blarney is roughly
-      7km from the configured centre in a straight line, comfortably inside the 12km radius. Confirmed the
-      identity from the page itself; the address printed on /contacts/ is only "Blarney, Cork, Ireland", with no
-      street and no Eircode, so that is all that is recorded here rather than a guessed Eircode. One thing for a
-      human: the head gardener's diary has not been updated since 5 January 2026, seven months before this check,
-      having previously run monthly for years. That may be a genuine stop or a move to social media. It does not
-      affect the garden being open, which is why the entry is not marked dormant.
+      Verified 2026-08-17, and the brief's radius question resolves in favour of including it: Blarney is roughly 7km from the configured centre in a straight line, comfortably inside the 12km radius. Confirmed the identity from the page itself; the address printed on /contacts/ is only "Blarney, Cork, Ireland", with no street and no Eircode, so that is all that is recorded here rather than a guessed Eircode. One thing for a human: the head gardener's diary has not been updated since 5 January 2026, seven months before this check, having previously run monthly for years. That may be a genuine stop or a move to social media. It does not affect the garden being open, which is why the entry is not marked dormant.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -237,7 +206,7 @@ sources:
       locality: Carrigtwohill
       postcode: T45 K656
       country: Ireland
-    tags: [gardens, plants, free, outdoor, tours]
+    tags: [ gardens, plants, free, outdoor, tours ]
     cadence: quarterly
     hints: |
       Serves visitor information rather than an events diary: admission, seasonal
@@ -254,12 +223,7 @@ sources:
       "0 events" as of 2026-08-17, so an empty result there is normal rather than
       suspicious.
     notes: >-
-      Verified 2026-08-17: the guessable /fota-arboretum-gardens/ slug 404s and the live path is
-      /fota-arboretum-and-gardens/. Address and admission are read off that page and are therefore authoritative.
-      Same distance caveat as Fota House — about 11.4km straight line, inside the configured radius, but OPW's own
-      copy says 16km by road. Distinct from outdoors/fota-house-gardens: this is the OPW's 11-hectare arboretum
-      and pleasure gardens, that is the Irish Heritage Trust's house and walled gardens. Two operators, one
-      island, and the OPW Heritage Card does not cover the house.
+      Verified 2026-08-17: the guessable /fota-arboretum-gardens/ slug 404s and the live path is /fota-arboretum-and-gardens/. Address and admission are read off that page and are therefore authoritative. Same distance caveat as Fota House — about 11.4km straight line, inside the configured radius, but OPW's own copy says 16km by road. Distinct from outdoors/fota-house-gardens: this is the OPW's 11-hectare arboretum and pleasure gardens, that is the Irish Heritage Trust's house and walled gardens. Two operators, one island, and the OPW Heritage Card does not cover the house.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -276,7 +240,9 @@ sources:
       city: Cork
       postcode: T12 K8AF
       country: Ireland
-    tags: [gardens, plants, university, tours, free]
+      lat: 51.891714
+      lon: -8.494825
+    tags: [ gardens, plants, university, tours, free ]
     cadence: quarterly
     hints: |
       Cork's answer to a botanic garden, and the only accredited one: the site
@@ -292,13 +258,7 @@ sources:
       Announcements cluster around National Tree Week (March) and Science Week
       (November). Between those two the index does not move.
     notes: >-
-      Verified 2026-08-17: live, and the events on it are real and dated — Treenote Sessions 5 March 2026, a
-      lunchtime tree tour 11 March 2026, a Science Week talk 13 November 2025. Newest item is five months old at
-      the time of checking, which fits the March/November pattern rather than indicating a dead page. Two things
-      for a human. The area is set to Bishopstown to match the way configs/ie-cork.yaml files the universities
-      to the west, but the arboretum is on the main campus at College Road and a local would say UCC or Western
-      Road, not Bishopstown. And the address is UCC's own postal address as printed on the page, which is the
-      campus rather than a gate.
+      Verified 2026-08-17: live, and the events on it are real and dated — Treenote Sessions 5 March 2026, a lunchtime tree tour 11 March 2026, a Science Week talk 13 November 2025. Newest item is five months old at the time of checking, which fits the March/November pattern rather than indicating a dead page. Two things for a human. The area is set to Bishopstown to match the way configs/ie-cork.yaml files the universities to the west, but the arboretum is on the main campus at College Road and a local would say UCC or Western Road, not Bishopstown. And the address is UCC's own postal address as printed on the page, which is the campus rather than a gate.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -309,7 +269,7 @@ sources:
     status: provisional
     url: https://www.corkcity.ie/en/cork-heritage-open-day/events/historical-walking-tours/
     homepage: https://www.corkcity.ie/en/cork-heritage-open-day/
-    tags: [walks, guided, free, heritage, civic]
+    tags: [ walks, guided, free, heritage, civic ]
     cadence: quarterly
     hints: |
       One day a year, on the Saturday that opens National Heritage Week in
@@ -325,12 +285,7 @@ sources:
       Crawl in July and August. Outside that window the index either shows last
       year's programme or nothing.
     notes: >-
-      Verified 2026-08-17: live, and showing the 2026 programme. The brief's "Cork Heritage walking tours" lead
-      resolves to this. Deliberately scoped to the walking-tour subpage: the umbrella Cork Heritage Open Day
-      almost certainly belongs to the festivals catalogue as well, and its sibling /events/building-tours/ index
-      is thirty indoor tours that are somebody else's category. If a festivals entry appears for the open day,
-      a human should decide whether this narrower entry still earns its place — the case for it is that the
-      walks are the outdoor half and would otherwise be buried.
+      Verified 2026-08-17: live, and showing the 2026 programme. The brief's "Cork Heritage walking tours" lead resolves to this. Deliberately scoped to the walking-tour subpage: the umbrella Cork Heritage Open Day almost certainly belongs to the festivals catalogue as well, and its sibling /events/building-tours/ index is thirty indoor tours that are somebody else's category. If a festivals entry appears for the open day, a human should decide whether this narrower entry still earns its place — the case for it is that the walks are the outdoor half and would otherwise be buried.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -341,7 +296,7 @@ sources:
     status: provisional
     url: http://corkheritage.ie/?page_id=348
     homepage: http://corkheritage.ie/
-    tags: [walks, guided, free, heritage, community]
+    tags: [ walks, guided, free, heritage, community ]
     cadence: quarterly
     hints: |
       Free public walking tours by Cllr Kieran McCarthy, two hours, no booking
@@ -364,12 +319,7 @@ sources:
       spring and autumn dates. The page is rewritten in place each season rather
       than archived, so what has passed disappears — `firstSeen` matters here.
     notes: >-
-      Verified 2026-08-17: fetched, and the eight August 2026 tours listed above are on it with times and meeting
-      points. Found the page by extracting the anchor text "Kieran's Heritage Tours/ Events 2026" from
-      ?page_id=5, which is the tours-and-talks overview and lists the repertoire but no dates. Worth knowing
-      that repertoire covers the parks this catalogue could not otherwise reach: Fitzgerald's Park, The Lough,
-      the Lee Fields and Tramore Valley Park all have their own walk. The Saturday City Hall tour on his August
-      list is also on the Cork Heritage Open Day programme, so those two sources overlap by one event a year.
+      Verified 2026-08-17: fetched, and the eight August 2026 tours listed above are on it with times and meeting points. Found the page by extracting the anchor text "Kieran's Heritage Tours/ Events 2026" from ?page_id=5, which is the tours-and-talks overview and lists the repertoire but no dates. Worth knowing that repertoire covers the parks this catalogue could not otherwise reach: Fitzgerald's Park, The Lough, the Lee Fields and Tramore Valley Park all have their own walk. The Saturday City Hall tour on his August list is also on the Cork Heritage Open Day programme, so those two sources overlap by one event a year.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -379,7 +329,7 @@ sources:
     kind: organiser
     status: provisional
     url: https://www.freewalkingtourscork.com/
-    tags: [walks, guided, free, tours]
+    tags: [ walks, guided, free, tours ]
     cadence: monthly
     area: City Centre
     hints: |
@@ -395,10 +345,7 @@ sources:
 
       Private tours from €100 are offered year round.
     notes: >-
-      Verified 2026-08-17: live and real, a single-guide operation, member of the Association of Tour Guides of
-      Ireland. One finding worth recording: toursofcork.com is the same person — same +353 83 037 1559 number,
-      same 90-minute city walk described in the same terms — so it is deliberately not catalogued as a second
-      source. It is private tours only and would have produced duplicate events under a second id.
+      Verified 2026-08-17: live and real, a single-guide operation, member of the Association of Tour Guides of Ireland. One finding worth recording: toursofcork.com is the same person — same +353 83 037 1559 number, same 90-minute city walk described in the same terms — so it is deliberately not catalogued as a second source. It is private tours only and would have produced duplicate events under a second id.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -409,7 +356,7 @@ sources:
     status: provisional
     url: http://corkcitywalks.eu/
     area: City Centre
-    tags: [walks, guided, tours]
+    tags: [ walks, guided, tours ]
     cadence: quarterly
     hints: |
       HTTP only, no TLS — the https:// form of this domain does not answer at
@@ -426,11 +373,7 @@ sources:
       the only statement of a season anywhere. It is second-hand — attribute it
       rather than presenting it as the operator's.
     notes: >-
-      Verified 2026-08-17: the site is live, is Cork City Walks, and describes a guided city walk. Its own
-      timestamp is 2022 and the front page is mostly testimonials, so it may be a dormant operation rather than
-      a trading one — flagged rather than marked dormant, because a guide with no website changes is not
-      evidence of a guide who has stopped. Included on the principle that a missing operator is worse than a
-      thin one.
+      Verified 2026-08-17: the site is live, is Cork City Walks, and describes a guided city walk. Its own timestamp is 2022 and the front page is mostly testimonials, so it may be a dormant operation rather than a trading one — flagged rather than marked dormant, because a guide with no website changes is not evidence of a guide who has stopped. Included on the principle that a missing operator is worse than a thin one.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -441,7 +384,7 @@ sources:
     status: provisional
     url: https://naturenetworkireland.ie/Events/
     homepage: https://naturenetworkireland.ie/
-    tags: [nature, wildlife, walks, volunteering, community]
+    tags: [ nature, wildlife, walks, volunteering, community ]
     cadence: quarterly
     hints: |
       The capital E in /Events/ is load-bearing. Lowercase /events/ and /events
@@ -461,14 +404,7 @@ sources:
       future, so read the date on every row rather than assuming the top of the
       page is upcoming.
     notes: >-
-      Verified 2026-08-17. Cork Nature Network rebranded to Nature Network Ireland and the old domain is now a
-      trap: corknaturenetwork.ie answers 403 at the root and returns 202 with a 218-byte challenge stub on inner
-      pages, so it looks alive and serves no content. Use naturenetworkireland.ie only. Two honest caveats. The
-      newest event in the archive is 5 June 2025, fourteen months before this check, so either the organisation
-      has stopped publishing dated events or it has moved them to social media — an empty harvest here is
-      expected, not a failure. And the /what-we-do/restoring-nature/ section, which holds the Beaumont Quarry and
-      Tramore Valley Park project pages, currently returns HTTP 500 on most of its paths; that is a broken site,
-      not a wrong URL, and it is why Beaumont Quarry has no entry of its own.
+      Verified 2026-08-17. Cork Nature Network rebranded to Nature Network Ireland and the old domain is now a trap: corknaturenetwork.ie answers 403 at the root and returns 202 with a 218-byte challenge stub on inner pages, so it looks alive and serves no content. Use naturenetworkireland.ie only. Two honest caveats. The newest event in the archive is 5 June 2025, fourteen months before this check, so either the organisation has stopped publishing dated events or it has moved them to social media — an empty harvest here is expected, not a failure. And the /what-we-do/restoring-nature/ section, which holds the Beaumont Quarry and Tramore Valley Park project pages, currently returns HTTP 500 on most of its paths; that is a broken site, not a wrong URL, and it is why Beaumont Quarry has no entry of its own.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -479,7 +415,7 @@ sources:
     status: provisional
     url: https://birdwatchcork.com/upcoming-events/
     homepage: https://birdwatchcork.com/
-    tags: [nature, wildlife, walks, free, society]
+    tags: [ nature, wildlife, walks, free, society ]
     cadence: quarterly
     hints: |
       Needs a browser user-agent — a plain fetch gets HTTP 403, curl with a
@@ -504,10 +440,7 @@ sources:
       open days, has a page here but it is an empty shell around an X/Twitter
       embed — nothing to harvest from it.
     notes: >-
-      Verified 2026-08-17: the site is BirdWatch Ireland Cork Branch, info@birdwatchcork.com, and
-      /upcoming-events/ is the real path (/events/ 404s). Confirmed the two posts described above by stripping the
-      page. A boat trip exception applies to some outings — members only, for insurance — so not every event on
-      this source is open to the public.
+      Verified 2026-08-17: the site is BirdWatch Ireland Cork Branch, info@birdwatchcork.com, and /upcoming-events/ is the real path (/events/ 404s). Confirmed the two posts described above by stripping the page. A boat trip exception applies to some outings — members only, for insurance — so not every event on this source is open to the public.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -518,7 +451,7 @@ sources:
     status: provisional
     url: https://corkcyclingfestival.com/events-2/
     homepage: https://corkcyclingfestival.com/
-    tags: [outdoor, free, family, community]
+    tags: [ outdoor, free, family, community ]
     cadence: quarterly
     hints: |
       Volunteer-run, entirely free, and explicitly leisure rather than racing —
@@ -541,9 +474,7 @@ sources:
 
       Crawl May to July. Nothing changes for the rest of the year.
     notes: >-
-      Verified 2026-08-17: live, /events/ redirects here (the real slug is /events-2/), and the 2026 programme
-      with times and meeting points is on it. Deliberately kept out of sport: the config's sport interest is
-      hurling, football, rugby and League of Ireland, and this is a family bike ride to a picnic.
+      Verified 2026-08-17: live, /events/ redirects here (the real slug is /events-2/), and the 2026 programme with times and meeting points is on it. Deliberately kept out of sport: the config's sport interest is hurling, football, rugby and League of Ireland, and this is a family bike ride to a picnic.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -554,7 +485,7 @@ sources:
     status: provisional
     url: https://environmentalforum.ie/current-events/
     homepage: https://environmentalforum.ie/
-    tags: [nature, community, walks, talks]
+    tags: [ nature, community, walks, talks ]
     cadence: quarterly
     hints: |
       The listings page is broken, precisely and reportably: /current-events/
@@ -569,10 +500,7 @@ sources:
       /open-streets/ are the programmes most likely to produce dated outdoor
       events.
     notes: >-
-      Verified 2026-08-17: cef.ie redirects to environmentalforum.ie, which is live and is Cork Environmental
-      Forum. It is a named partner on Cork City Council's biodiversity work alongside Cork Nature Network, which
-      is why it is catalogued despite the broken listings page. This is a catalogue-level breakage rather than a
-      wrong URL — a human may want to write to them, or to switch the entry to /annual-events/.
+      Verified 2026-08-17: cef.ie redirects to environmentalforum.ie, which is live and is Cork Environmental Forum. It is a named partner on Cork City Council's biodiversity work alongside Cork Nature Network, which is why it is catalogued despite the broken listings page. This is a catalogue-level breakage rather than a wrong URL — a human may want to write to them, or to switch the entry to /annual-events/.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -587,7 +515,7 @@ sources:
       - role: api
         url: https://www.biodiversityweek.ie/wp-json/tribe/events/v1/events
         note: The Events Calendar REST endpoint; returned a well-formed empty result out of season
-    tags: [nature, wildlife, free, walks, family]
+    tags: [ nature, wildlife, free, walks, family ]
     cadence: quarterly
     hints: |
       National, not Cork-scoped, and there is no county filter — every row has to
@@ -602,10 +530,7 @@ sources:
       Most listings are West Cork and elsewhere in Ireland — expect to discard
       the large majority as outside the radius.
     notes: >-
-      Verified 2026-08-17: both routes fetched. The listings page carried a May 2026 row (a graphic recording
-      session at Ballydehob, part of BioFest in West Cork, well outside the radius) and the api route returned
-      valid JSON with an empty events array and total 0 for the forward window. Catalogued as the national
-      counterpart to outdoors/cork-city-biodiversity, whose own programme is only published as a flipbook.
+      Verified 2026-08-17: both routes fetched. The listings page carried a May 2026 row (a graphic recording session at Ballydehob, part of BioFest in West Cork, well outside the radius) and the api route returned valid JSON with an empty events array and total 0 for the forward window. Catalogued as the national counterpart to outdoors/cork-city-biodiversity, whose own programme is only published as a flipbook.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -615,7 +540,7 @@ sources:
     kind: aggregator
     status: provisional
     url: https://heritageireland.ie/whats-on/
-    tags: [heritage, gardens, guided, free, tours]
+    tags: [ heritage, gardens, guided, free, tours ]
     cadence: monthly
     hints: |
       The state's own diary for its heritage sites and historic gardens, 176
@@ -637,10 +562,7 @@ sources:
       Many rows state a pattern rather than a date — "Every Thursday at 12:00 and
       3:00 p.m." — which is `recurring`, not fifty-two events.
     notes: >-
-      Verified 2026-08-17: the page is live and carries 176 dated events with site names; the ?q= filter was
-      fetched and confirmed. Included as an aggregator despite thin Cork coverage because it is the only source
-      that would catch an OPW event at Fota, and because Fota Arboretum's own page has no diary at all. A human
-      may reasonably decide the yield does not justify the entry.
+      Verified 2026-08-17: the page is live and carries 176 dated events with site names; the ?q= filter was fetched and confirmed. Included as an aggregator despite thin Cork coverage because it is the only source that would catch an OPW event at Fota, and because Fota Arboretum's own page has no diary at all. A human may reasonably decide the yield does not justify the entry.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -651,7 +573,7 @@ sources:
     status: provisional
     url: https://www.purecork.ie/things-to-do/categories/nature-gardens
     homepage: https://www.purecork.ie/
-    tags: [gardens, nature, outdoor, tours]
+    tags: [ gardens, nature, outdoor, tours ]
     cadence: quarterly
     hints: |
       The tourist board's gardens directory, and it is attractions rather than
@@ -670,10 +592,6 @@ sources:
       Sports & Outdoors section is greyhound racing and sailing rather than
       anything this category wants.
     notes: >-
-      Verified 2026-08-17: live, and enumerated by pulling the item links out of the page — twenty gardens, the
-      distribution described above. That distribution is itself the finding, and it is why this file merges
-      gardens into outdoors: Cork city has no botanic garden, and within 12km there are three gardens and one
-      arboretum in total. Two oddities on the page worth a human glance: it renders stray "test" and
-      "Development site" markers in its markup, which suggests the site is served from a staging configuration.
+      Verified 2026-08-17: live, and enumerated by pulling the item links out of the page — twenty gardens, the distribution described above. That distribution is itself the finding, and it is why this file merges gardens into outdoors: Cork city has no botanic garden, and within 12km there are three gardens and one arboretum in total. Two oddities on the page worth a human glance: it renders stray "test" and "Development site" markers in its markup, which suggests the site is served from a staging configuration.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"

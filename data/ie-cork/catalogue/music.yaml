@@ -2,9 +2,7 @@ schema: whazzon.catalogue/1
 category: music
 label: Music
 description: >-
-  Concert halls, songwriter rooms, converted churches, club and warehouse
-  spaces, the docklands marquee season, the conservatoire, and the promoters and
-  gig guides that carry what no single venue publishes. Cork's largest category.
+  Concert halls, songwriter rooms, converted churches, club and warehouse spaces, the docklands marquee season, the conservatoire, and the promoters and gig guides that carry what no single venue publishes. Cork's largest category.
 sources:
   - id: music/cyprus-avenue
     name: Cyprus Avenue
@@ -18,7 +16,9 @@ sources:
       street: Caroline Street
       city: Cork
       postcode: T12 PY8A
-    tags: [independent, mid-size, indie, touring]
+      lat: 51.898586
+      lon: -8.46987
+    tags: [ independent, mid-size, indie, touring ]
     cadence: weekly
     hints: |
       Cork's main independent mid-size room, and the one most touring indie acts
@@ -49,7 +49,9 @@ sources:
     address:
       street: 7 Douglas Street
       city: Cork
-    tags: [independent, grassroots, folk, acoustic, pub]
+      lat: 51.892517
+      lon: -8.468401
+    tags: [ independent, grassroots, folk, acoustic, pub ]
     cadence: weekly
     hints: |
       The city's best-loved songwriter room, on the Douglas Street side. Very
@@ -93,7 +95,9 @@ sources:
       street: Summerhill North
       city: Cork
       postcode: T23 XE29
-    tags: [independent, historic, acoustic, classical, folk]
+      lat: 51.902734
+      lon: -8.461135
+    tags: [ independent, historic, acoustic, classical, folk ]
     cadence: weekly
     hints: |
       A deconsecrated church up the hill on the north side, prized for its
@@ -129,7 +133,9 @@ sources:
     address:
       street: Tobin Street
       city: Cork
-    tags: [independent, classical, jazz, historic, concert-hall]
+      lat: 51.897742
+      lon: -8.475668
+    tags: [ independent, classical, jazz, historic, concert-hall ]
     cadence: weekly
     hints: |
       A former church inside the Triskel Arts Centre complex on Tobin Street,
@@ -169,7 +175,7 @@ sources:
     address:
       street: Phoenix Street / Pembroke Street
       city: Cork
-    tags: [independent, club, historic, free, nightly]
+    tags: [ independent, club, historic, free, nightly ]
     cadence: weekly
     hints: |
       A 1920s former gentlemen's club off Oliver Plunkett Street, now part
@@ -207,7 +213,9 @@ sources:
       street: 1 Castle Street
       city: Cork
       postcode: T12 RX09
-    tags: [independent, grassroots, free, pub, nightly]
+      lat: 51.898781
+      lon: -8.476201
+    tags: [ independent, grassroots, free, pub, nightly ]
     cadence: weekly
     hints: |
       Small curved-corner bar on Castle Street with a nightly programme —
@@ -232,7 +240,9 @@ sources:
     address:
       street: Parliament Street
       city: Cork
-    tags: [independent, rock, grassroots, free, pub]
+      lat: 51.896398
+      lon: -8.472628
+    tags: [ independent, rock, grassroots, free, pub ]
     cadence: weekly
     hints: |
       Cork's rock and metal bar since 1997, on Parliament Street. Expect a run
@@ -265,7 +275,7 @@ sources:
       street: 8 Lavitts Quay
       city: Cork
       postcode: T12 K20P
-    tags: [independent, club, electronic, nightlife]
+    tags: [ independent, club, electronic, nightlife ]
     cadence: weekly
     hints: |
       Cork's venue for electronic and alternative music, upstairs over Nudes on
@@ -298,7 +308,9 @@ sources:
     address:
       street: Carey's Lane
       city: Cork
-    tags: [independent, club, mid-size, nightlife]
+      lat: 51.89854
+      lon: -8.473611
+    tags: [ independent, club, mid-size, nightlife ]
     cadence: weekly
     hints: |
       Carey's Lane venue in the Huguenot Quarter, running club nights, tribute
@@ -329,7 +341,9 @@ sources:
       street: 7 Drawbridge Street
       city: Cork
       postcode: T12 YW13
-    tags: [mid-size, club, touring, nightlife]
+      lat: 51.8998
+      lon: -8.471556
+    tags: [ mid-size, club, touring, nightlife ]
     cadence: weekly
     hints: |
       Former cinema off Patrick Street, now a mid-size standing room for touring
@@ -355,7 +369,7 @@ sources:
     url: https://www.corkgigs.com/venue/city-hall-cork
     homepage: https://www.corkcity.ie/en/council-services/public-info/events-hosting-and-licences/use-of-council-facilities/concert-hall-and-millennium-hall/
     area: City Centre
-    tags: [major, civic, concert-hall, classical]
+    tags: [ major, civic, concert-hall, classical ]
     cadence: monthly
     hints: |
       The council's own 1,189-seat concert hall on the south channel, used for
@@ -387,7 +401,9 @@ sources:
       street: 14 John Redmond Street
       locality: Shandon
       city: Cork
-    tags: [independent, grassroots, free, listening-bar]
+      lat: 51.901951
+      lon: -8.474178
+    tags: [ independent, grassroots, free, listening-bar ]
     cadence: weekly
     hints: |
       Small bar up the hill in Shandon, by the bell tower — one of very few
@@ -414,7 +430,9 @@ sources:
     address:
       street: 74 Oliver Plunkett Street
       city: Cork
-    tags: [independent, rock, free, pub, student, nightly]
+      lat: 51.897391
+      lon: -8.474111
+    tags: [ independent, rock, free, pub, student, nightly ]
     cadence: weekly
     hints: |
       Late-opening rock and indie bar on the corner of Oliver Plunkett Street
@@ -444,7 +462,9 @@ sources:
       street: 116 Oliver Plunkett Street
       city: Cork
       postcode: T12 P957
-    tags: [free, pub, nightly, trad, historic]
+      lat: 51.89824
+      lon: -8.469606
+    tags: [ free, pub, nightly, trad, historic ]
     cadence: weekly
     hints: |
       Big multi-room pub with live music every night across several stages, plus
@@ -475,7 +495,9 @@ sources:
     address:
       street: 46-47 Cornmarket Street
       city: Cork
-    tags: [independent, club, nightlife, free]
+      lat: 51.899482
+      lon: -8.476506
+    tags: [ independent, club, nightlife, free ]
     cadence: weekly
     hints: |
       Large room on Cornmarket Street, off the Coal Quay — club nights, DJs and
@@ -507,7 +529,9 @@ sources:
       street: Daunt's Square
       city: Cork
       postcode: T12 EK53
-    tags: [free, pub, nightly, historic]
+      lat: 51.898345
+      lon: -8.475618
+    tags: [ free, pub, nightly, historic ]
     cadence: weekly
     hints: |
       Landmark bar at the junction of St Patrick's Street and Daunt's Square,
@@ -536,7 +560,9 @@ sources:
       street: 22 Washington Street
       city: Cork
       postcode: T12 NY66
-    tags: [independent, events-space, diy, student]
+      lat: 51.897458
+      lon: -8.481258
+    tags: [ independent, events-space, diy, student ]
     cadence: weekly
     hints: |
       The former Kino arthouse cinema on Washington Street, reopened as an
@@ -563,7 +589,9 @@ sources:
     address:
       street: Barrack Street
       city: Cork
-    tags: [independent, grassroots, free, pub, folk]
+      lat: 51.893154
+      lon: -8.478989
+    tags: [ independent, grassroots, free, pub, folk ]
     cadence: weekly
     hints: |
       Small room on Barrack Street, on the south side climbing away from the
@@ -588,7 +616,9 @@ sources:
     address:
       street: 2 Union Quay
       city: Cork
-    tags: [independent, grassroots, free, pub, nightly, trad]
+      lat: 51.897036
+      lon: -8.466691
+    tags: [ independent, grassroots, free, pub, nightly, trad ]
     cadence: weekly
     hints: |
       Riverside bar on Union Quay with live music five nights a week — rock,
@@ -619,7 +649,7 @@ sources:
     address:
       street: Prince's Street
       city: Cork
-    tags: [classical, community, historic, free]
+    tags: [ classical, community, historic, free ]
     cadence: monthly
     hints: |
       A small church on Prince's Street used as a recital and choral venue — it
@@ -649,7 +679,9 @@ sources:
     address:
       street: 113 Oliver Plunkett Street
       city: Cork
-    tags: [free, pub, nightlife, student]
+      lat: 51.898324
+      lon: -8.470141
+    tags: [ free, pub, nightlife, student ]
     cadence: weekly
     hints: |
       Long-running late bar on Oliver Plunkett Street with DJs and live music,
@@ -679,7 +711,9 @@ sources:
       locality: Ballincollig
       city: Cork
       postcode: P31 YA40
-    tags: [independent, grassroots, folk, pub, trad]
+      lat: 51.886104
+      lon: -8.607618
+    tags: [ independent, grassroots, folk, pub, trad ]
     cadence: weekly
     hints: |
       Ballincollig gastropub with a long-standing live programme and its own
@@ -707,7 +741,7 @@ sources:
     status: provisional
     url: https://www.mtu.ie/events/
     area: City Centre
-    tags: [university, classical, student, free, concert-hall]
+    tags: [ university, classical, student, free, concert-hall ]
     cadence: monthly
     hints: |
       The conservatoire in the middle of the city, on Union Quay, and its Curtis
@@ -745,7 +779,7 @@ sources:
     status: provisional
     url: https://www.ucc.ie/en/fmt/music/events/
     area: Bishopstown
-    tags: [university, classical, student, free, community]
+    tags: [ university, classical, student, free, community ]
     cadence: monthly
     hints: |
       The university's own music department events — lunchtime recitals,
@@ -771,7 +805,7 @@ sources:
     url: https://aikenpromotions.com/shows/?filter_venue=live-at-the-marquee-cork&date_range=
     homepage: https://aikenpromotions.com/festivals/
     area: The Docklands
-    tags: [major, summer, concert-series, touring]
+    tags: [ major, summer, concert-series, touring ]
     cadence: quarterly
     hints: |
       The 4,000-capacity big top on the former Tedcastle's yard on Centre Park
@@ -807,7 +841,7 @@ sources:
     url: https://singularartists.ie/all-shows/
     homepage: https://singularartists.ie/
     area: City Centre
-    tags: [touring, indie, commercial]
+    tags: [ touring, indie, commercial ]
     cadence: weekly
     hints: |
       National promoter that books heavily into Cyprus Avenue, Live at St
@@ -840,7 +874,7 @@ sources:
     status: provisional
     url: https://aikenpromotions.com/shows/
     area: City Centre
-    tags: [touring, commercial, major]
+    tags: [ touring, commercial, major ]
     cadence: weekly
     hints: |
       One of the two big Irish promoters, and the operator of Live at the
@@ -865,7 +899,7 @@ sources:
     status: provisional
     url: https://www.mcd.ie/events/
     area: City Centre
-    tags: [touring, commercial, major]
+    tags: [ touring, commercial, major ]
     cadence: weekly
     hints: |
       Ireland's largest promoter. Its Cork output is a handful of shows a year
@@ -889,7 +923,7 @@ sources:
     status: provisional
     url: https://fredzeppelins.com/tom-keating-presents/
     area: City Centre
-    tags: [independent, rock, grassroots]
+    tags: [ independent, rock, grassroots ]
     cadence: weekly
     hints: |
       The promoter strand behind most of Cork's rock, metal and punk bills,
@@ -914,7 +948,7 @@ sources:
     kind: aggregator
     status: provisional
     url: https://www.corkgigs.com/
-    tags: [independent, community]
+    tags: [ independent, community ]
     cadence: daily
     hints: |
       The best single source for Cork music, running since 2004 and maintained
@@ -951,7 +985,7 @@ sources:
     kind: aggregator
     status: provisional
     url: https://www.corkheritagepubs.com/whats-on/
-    tags: [free, pub, community, trad]
+    tags: [ free, pub, community, trad ]
     cadence: daily
     hints: |
       A pub group's own listings page, and unexpectedly one of the highest-value
@@ -985,7 +1019,7 @@ sources:
     kind: aggregator
     status: provisional
     url: https://www.gigs.ie/
-    tags: [independent, commercial]
+    tags: [ independent, commercial ]
     cadence: weekly
     hints: |
       An Irish ticketing platform whose listings are strongly weighted to Cork
@@ -1011,7 +1045,7 @@ sources:
     kind: aggregator
     status: provisional
     url: https://thegmanworld.com/cork-gig-guide/
-    tags: [independent, community]
+    tags: [ independent, community ]
     cadence: weekly
     hints: |
       A hand-written, editorially selected Cork gig guide on a local music blog
@@ -1038,7 +1072,7 @@ sources:
     kind: listing
     status: provisional
     url: https://www.purecork.ie/whats-on/
-    tags: [civic, community, family]
+    tags: [ civic, community, family ]
     cadence: weekly
     hints: |
       The tourist board's what's-on, with a "Live Music" category among its

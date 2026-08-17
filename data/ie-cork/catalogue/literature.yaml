@@ -2,9 +2,7 @@ schema: whazzon.catalogue/1
 category: literature
 label: Literature & Talks
 description: >-
-  Cork's literature organisations and festivals, the city library service,
-  bookshops that run launches and readings, university literary programmes,
-  poetry and short-story nights, and public lecture societies.
+  Cork's literature organisations and festivals, the city library service, bookshops that run launches and readings, university literary programmes, poetry and short-story nights, and public lecture societies.
 sources:
   - id: literature/munster-literature-centre
     name: Munster Literature Centre
@@ -24,7 +22,7 @@ sources:
       city: Cork
       postcode: T12X802
       country: Ireland
-    tags: [independent, poetry, writers, festival, major]
+    tags: [ independent, poetry, writers, festival, major ]
     cadence: monthly
     hints: |
       The engine of literary Cork: founded 1993, based in Frank O'Connor's
@@ -41,12 +39,7 @@ sources:
       words with no dates — `occurrence: recurring`. Competition deadlines are
       not events.
     notes: >-
-      Verified 2026-08-17: munsterlit.ie serves 200 (www redirects to the bare domain), the footer address reads
-      "84 Douglas Street, Cork, T12X802", and /events/ carries the noticeboard described above. No Tribe/The Events
-      Calendar API — /wp-json/tribe/events/v1/events and ?rest_route=/tribe/events/v1/events both 404 — so the RSS
-      feed is the only structured route. Two entries on its noticeboard are deliberately not catalogued: De Barra's
-      Spoken Word is in Clonakilty and Lime Square Poets is an online Zoom series hosted out of Limerick, so
-      neither is inside the 12km radius or is a Cork place-based event.
+      Verified 2026-08-17: munsterlit.ie serves 200 (www redirects to the bare domain), the footer address reads "84 Douglas Street, Cork, T12X802", and /events/ carries the noticeboard described above. No Tribe/The Events Calendar API — /wp-json/tribe/events/v1/events and ?rest_route=/tribe/events/v1/events both 404 — so the RSS feed is the only structured route. Two entries on its noticeboard are deliberately not catalogued: De Barra's Spoken Word is in Clonakilty and Lime Square Poets is an online Zoom series hosted out of Limerick, so neither is inside the 12km radius or is a Cork place-based event.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -57,7 +50,7 @@ sources:
     status: provisional
     url: https://www.corkpoetryfest.net/programme.html
     homepage: https://www.corkpoetryfest.net/
-    tags: [festival, poetry, annual, major]
+    tags: [ festival, poetry, annual, major ]
     cadence: quarterly
     hints: |
       Run by the Munster Literature Centre and directed by Patrick Cotter. Mid
@@ -71,11 +64,7 @@ sources:
       previous edition up until the next is announced. Sister pages worth a look
       when the programme page is stale: /venues.html, /workshops.html.
     notes: >-
-      Verified 2026-08-17: /programme.html is the 2026 edition, "12–16 May, 2026", with dated sessions including
-      the Farmgate Café National Poetry Award (Tue 12 May, 6.30pm), readings at Cork City Library (Wed 13 May,
-      2.30pm) and the Fool for Poetry & Gregory O'Donoghue Prize readings at Cork Arts Theatre (Sat 16 May, 3pm).
-      The edition it advertises has already run, four months before this check, so expect no events until the 2027
-      programme is posted — not dormant.
+      Verified 2026-08-17: /programme.html is the 2026 edition, "12–16 May, 2026", with dated sessions including the Farmgate Café National Poetry Award (Tue 12 May, 6.30pm), readings at Cork City Library (Wed 13 May, 2.30pm) and the Fool for Poetry & Gregory O'Donoghue Prize readings at Cork Arts Theatre (Sat 16 May, 3pm). The edition it advertises has already run, four months before this check, so expect no events until the 2027 programme is posted — not dormant.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -86,7 +75,7 @@ sources:
     status: provisional
     url: https://corkshortstory.net/programme.html
     homepage: https://corkshortstory.net/
-    tags: [festival, annual, major]
+    tags: [ festival, annual, major ]
     cadence: quarterly
     hints: |
       The Munster Literature Centre's other festival, descended from the Frank
@@ -96,11 +85,7 @@ sources:
       as the poetry festival: one /programme.html with day headings and times,
       the year only in the top heading.
     notes: >-
-      Verified 2026-08-17: site live and unmistakably the right festival, but /programme.html is still the 2025
-      edition, "15–18 october 2025" (Southword Showcase at Cork City Library Wed 15 Oct 2.30pm, Rosemary Jenkinson
-      & Kirsty Logan Thu 16 Oct 4pm, Ó Faoláin Prize Reading at Cork Arts Theatre Sat 18 Oct 3pm). So on
-      2026-08-17 the 2026 edition is unannounced with roughly two months' notice left — worth a human asking the
-      centre, and worth re-crawling weekly through September rather than quarterly.
+      Verified 2026-08-17: site live and unmistakably the right festival, but /programme.html is still the 2025 edition, "15–18 october 2025" (Southword Showcase at Cork City Library Wed 15 Oct 2.30pm, Rosemary Jenkinson & Kirsty Logan Thu 16 Oct 4pm, Ó Faoláin Prize Reading at Cork Arts Theatre Sat 18 Oct 3pm). So on 2026-08-17 the 2026 edition is unannounced with roughly two months' notice left — worth a human asking the centre, and worth re-crawling weekly through September rather than quarterly.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -111,7 +96,7 @@ sources:
     status: provisional
     url: https://corkworldbookfest.com/events/
     homepage: https://corkworldbookfest.com/
-    tags: [festival, annual, free, civic, family]
+    tags: [ festival, annual, free, civic, family ]
     cadence: quarterly
     hints: |
       Cork City Libraries' own festival, so a Cork City Council service rather
@@ -123,11 +108,7 @@ sources:
       Several of its events will also appear on the Cork City Libraries calendar
       — the same event from two sources, so expect to reconcile.
     notes: >-
-      Verified 2026-08-17: www redirects to the bare domain; the page states the fest "returns from Tuesday 21 –
-      Sunday 26 April 2026" and lists roughly 50 dated events across those days, with the site itself crediting
-      "Cork City Libraries is a service of Cork City Council". The 2026 edition has already run. No event API:
-      /wp-json/tribe/events/v1/events redirects back to the HTML /events/ page, and /programme/ 404s. /feed/ is
-      valid RSS but essentially empty, so it is not catalogued as a route.
+      Verified 2026-08-17: www redirects to the bare domain; the page states the fest "returns from Tuesday 21 – Sunday 26 April 2026" and lists roughly 50 dated events across those days, with the site itself crediting "Cork City Libraries is a service of Cork City Council". The 2026 edition has already run. No event API: /wp-json/tribe/events/v1/events redirects back to the HTML /events/ page, and /programme/ 404s. /feed/ is valid RSS but essentially empty, so it is not catalogued as a route.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -144,7 +125,9 @@ sources:
       city: Cork
       postcode: T12C921
       country: Ireland
-    tags: [bookshop, author-events, chain]
+      lat: 51.900041
+      lon: -8.470631
+    tags: [ bookshop, author-events, chain ]
     cadence: weekly
     hints: |
       The only Waterstones in the Republic outside Dublin, and the default room
@@ -157,12 +140,7 @@ sources:
       /events/<slug>/cork. Mostly free, unticketed launches and signings, plus
       a monthly fiction book club.
     notes: >-
-      Verified 2026-08-17: fetched with a browser user-agent, the applied-filter label reads "Cork" and the page
-      returns 6 dated events — a Gareth Hanrahan signing Sat 22 Aug 14:00, Fiction Book Club Thu 27 Aug 18:00, and
-      Paul Howard in conversation with Mick Clifford Tue 1 Sep 18:30, among them. The shop page gives the address
-      "Waterstones Cork, 69 Saint Patrick's Street, Cork, T12C921" and also teases a Culture Night event with Conal
-      Creedon and Mona Lynch on Fri 18 Sep. The Munster Literature Centre independently points at this same shop
-      filter from its own noticeboard.
+      Verified 2026-08-17: fetched with a browser user-agent, the applied-filter label reads "Cork" and the page returns 6 dated events — a Gareth Hanrahan signing Sat 22 Aug 14:00, Fiction Book Club Thu 27 Aug 18:00, and Paul Howard in conversation with Mick Clifford Tue 1 Sep 18:30, among them. The shop page gives the address "Waterstones Cork, 69 Saint Patrick's Street, Cork, T12C921" and also teases a Culture Night event with Conal Creedon and Mona Lynch on Fri 18 Sep. The Munster Literature Centre independently points at this same shop filter from its own noticeboard.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -179,7 +157,7 @@ sources:
       city: Cork
       postcode: T12VW53
       country: Ireland
-    tags: [bookshop, independent, community, free]
+    tags: [ bookshop, independent, community, free ]
     cadence: weekly
     hints: |
       Volunteer-run secondhand and radical bookshop out in the Marina
@@ -191,11 +169,7 @@ sources:
       for the standing groups (Cork Anarchist Library, 2nd Tuesday; Rang
       Gaeilge, Mondays) over one event per instance.
     notes: >-
-      Verified 2026-08-17: /events/ lists dated events through August and September 2026 (Leeside Rebel Kitchen 20
-      Aug, Bookshop Work Night 25 Aug, queer migrant zine collective 26 Aug, book sale 30 Aug, Clothes Swap 2 Sep,
-      Rang Gaeilge 7 and 14 Sep, Cork Anarchist Library 8 Sep) and gives the address above. No Tribe API
-      (/wp-json/tribe/events/v1/events 404s) and ?ical=1 just returns the HTML page again, so neither is
-      catalogued. It is roughly 2km east of the centre, comfortably inside the radius.
+      Verified 2026-08-17: /events/ lists dated events through August and September 2026 (Leeside Rebel Kitchen 20 Aug, Bookshop Work Night 25 Aug, queer migrant zine collective 26 Aug, book sale 30 Aug, Clothes Swap 2 Sep, Rang Gaeilge 7 and 14 Sep, Cork Anarchist Library 8 Sep) and gives the address above. No Tribe API (/wp-json/tribe/events/v1/events 404s) and ?ical=1 just returns the HTML page again, so neither is catalogued. It is roughly 2km east of the centre, comfortably inside the radius.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -211,7 +185,9 @@ sources:
       street: 3 Bridge Street
       city: Cork
       country: Ireland
-    tags: [bookshop, independent, workshop]
+      lat: 51.901409
+      lon: -8.470039
+    tags: [ bookshop, independent, workshop ]
     cadence: monthly
     hints: |
       Cork's best-known surviving independent bookseller — two shops, books on
@@ -224,13 +200,7 @@ sources:
       The 404 page returns 200-sized HTML, so a wrong path looks like a page —
       confirm the heading, not the status code.
     notes: >-
-      Verified 2026-08-17: the shop trades and the site is live, but the guessable literary paths are all wrong —
-      /pages/events, /blogs/events, /blogs/news and even /sitemap.xml all 404 (into a large custom 404 page). The
-      only events path linked from the site's own navigation is /events/tickets/, and everything on it is a craft
-      workshop at "VIBES & SCRIBES, 3 BRIDGE ST" — embroidery on Saturday 28th March, two-week crochet and
-      knitting courses — with no year given and several marked SOLD OUT, so the grid looks stale. A human decision:
-      no readings or launches were found here, and if the craft classes are wanted at all they may belong in
-      another category. Kept rather than dropped so the next stage 1 run does not re-propose it blind.
+      Verified 2026-08-17: the shop trades and the site is live, but the guessable literary paths are all wrong — /pages/events, /blogs/events, /blogs/news and even /sitemap.xml all 404 (into a large custom 404 page). The only events path linked from the site's own navigation is /events/tickets/, and everything on it is a craft workshop at "VIBES & SCRIBES, 3 BRIDGE ST" — embroidery on Saturday 28th March, two-week crochet and knitting courses — with no year given and several marked SOLD OUT, so the grid looks stale. A human decision: no readings or launches were found here, and if the craft classes are wanted at all they may belong in another category. Kept rather than dropped so the next stage 1 run does not re-propose it blind.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -241,7 +211,7 @@ sources:
     status: provisional
     url: https://www.obheal.ie/blog/
     area: City Centre
-    tags: [poetry, spoken-word, independent]
+    tags: [ poetry, spoken-word, independent ]
     cadence: monthly
     hints: |
       Cork's poetry institution since 2007, and the parent of the Winter Warmer
@@ -253,12 +223,7 @@ sources:
       deadlines, not events. WordPress under /blog/ with a working /feed/, but
       no events plugin.
     notes: >-
-      Verified 2026-08-17: obheal.ie/blog/ is live and current — it announces that the original Ó Bhéal events have
-      concluded and that programming continues as Ó Bhéal go Béal, 2nd Monday monthly 8.30pm (poetry films 7.30pm)
-      at the Hayloft Bar upstairs at the Long Valley, Winthrop Street. It also carries the 14th Poetry Film
-      Competition (submissions from 1 May 2026) and notes the Five Words competition has run its final year.
-      /blog/events/ and /blog/wp-json/tribe/events/v1/events both 404 — there is no separate listings page, so the
-      blog front page is the listing.
+      Verified 2026-08-17: obheal.ie/blog/ is live and current — it announces that the original Ó Bhéal events have concluded and that programming continues as Ó Bhéal go Béal, 2nd Monday monthly 8.30pm (poetry films 7.30pm) at the Hayloft Bar upstairs at the Long Valley, Winthrop Street. It also carries the 14th Poetry Film Competition (submissions from 1 May 2026) and notes the Five Words competition has run its final year. /blog/events/ and /blog/wp-json/tribe/events/v1/events both 404 — there is no separate listings page, so the blog front page is the listing.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -270,7 +235,7 @@ sources:
     url: https://www.instagram.com/obhealgobeal/
     homepage: https://linktr.ee/obhealgobeal
     area: City Centre
-    tags: [poetry, spoken-word, independent, free]
+    tags: [ poetry, spoken-word, independent, free ]
     cadence: monthly
     hints: |
       The successor to Ó Bhéal's reading night and now the city's standing
@@ -284,13 +249,7 @@ sources:
       take the guest poet from the Munster Literature Centre noticeboard or the
       poetry festival programme when Instagram is unreadable.
     notes: >-
-      Verified 2026-08-17 as an organisation but not as a fetchable listing. The venue, day and running order above
-      are read off the Munster Literature Centre's noticeboard and off obheal.ie, both of which name it as Ó Bhéal's
-      continuation; it also appears in the Cork International Poetry Festival 2026 programme as a Mon 11 May fringe
-      event at the Hayloft Bar. instagram.com/obhealgobeal/ and linktr.ee/obhealgobeal both return 200 but neither
-      yields readable listings to a fetcher — the linktree holds only Instagram, Facebook, a newsletter signup and a
-      "Festival Programme - The Winter Warmer 2025" link. No verifiedAt, because a 200 on Instagram is not
-      confirmation of a programme. A human may prefer to fold this into literature/o-bheal.
+      Verified 2026-08-17 as an organisation but not as a fetchable listing. The venue, day and running order above are read off the Munster Literature Centre's noticeboard and off obheal.ie, both of which name it as Ó Bhéal's continuation; it also appears in the Cork International Poetry Festival 2026 programme as a Mon 11 May fringe event at the Hayloft Bar. instagram.com/obhealgobeal/ and linktr.ee/obhealgobeal both return 200 but neither yields readable listings to a fetcher — the linktree holds only Instagram, Facebook, a newsletter signup and a "Festival Programme - The Winter Warmer 2025" link. No verifiedAt, because a 200 on Instagram is not confirmation of a programme. A human may prefer to fold this into literature/o-bheal.
     addedAt: "2026-08-17"
 
   - id: literature/winter-warmer-poetry-festival
@@ -299,7 +258,7 @@ sources:
     kind: festival
     status: provisional
     url: https://www.obheal.ie/blog/winter-warmer-poetry-festival/
-    tags: [festival, poetry, annual, spoken-word]
+    tags: [ festival, poetry, annual, spoken-word ]
     cadence: quarterly
     hints: |
       Ó Bhéal's November weekend, running since 2013: 23-plus poets and
@@ -310,11 +269,7 @@ sources:
       literature/o-bheal-go-beal in September and October, when the edition is
       announced.
     notes: >-
-      Verified 2026-08-17: the page is live and is the right festival, but it has not been updated past the 12th
-      edition in 2024 — /blog/winter-warmer/ redirects into the 2013 archive, and /blog/festival/ redirects to a
-      videos-and-reviews page. The festival itself is not dormant: the Ó Bhéal go Béal linktree carries a "Festival
-      Programme - The Winter Warmer 2025" link, so the live programme has moved to that organisation's social
-      channels while this page lags. Worth a human confirming which URL the 2026 edition will be published on.
+      Verified 2026-08-17: the page is live and is the right festival, but it has not been updated past the 12th edition in 2024 — /blog/winter-warmer/ redirects into the 2013 archive, and /blog/festival/ redirects to a videos-and-reviews page. The festival itself is not dormant: the Ó Bhéal go Béal linktree carries a "Festival Programme - The Winter Warmer 2025" link, so the live programme has moved to that organisation's social channels while this page lags. Worth a human confirming which URL the 2026 edition will be published on.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -334,7 +289,7 @@ sources:
         note: JSON behind that Eventbrite page; type=past returns the back catalogue, has_next_page pages it
     homepage: https://www.ucc.ie/en/english/
     area: Western Road
-    tags: [university, student, free, talks, poetry]
+    tags: [ university, student, free, talks, poetry ]
     cadence: weekly
     hints: |
       UCC's literary programme is the busiest university strand in the city:
@@ -349,14 +304,7 @@ sources:
       dense October to April, nearly silent in summer. Filter out anything
       addressed to enrolled students (induction lectures, module briefings).
     notes: >-
-      Verified 2026-08-17: /en/english/news/ is the school's own news index with dated items to 26 Jun 2026,
-      including a "Death Rituals and Death Technologies" symposium at UCC on 28-29 May 2026 and the Double Space
-      vol. 5 launch. /en/english/events/ and /en/englishlit/news/ both 404, which is why the news index is the
-      listings route. The Eventbrite organiser page is real and correctly identified ("School of English & Digital
-      Humanities", linked from the Munster Literature Centre's own noticeboard) but is entirely
-      JavaScript-rendered — zero JSON-LD, zero startDate in the served HTML. The showmore endpoint is the same data
-      as JSON: type=future returned an empty list on this date, and type=past returned five real readings with
-      has_next_page true, which is how the organiser identity was confirmed rather than guessed.
+      Verified 2026-08-17: /en/english/news/ is the school's own news index with dated items to 26 Jun 2026, including a "Death Rituals and Death Technologies" symposium at UCC on 28-29 May 2026 and the Double Space vol. 5 launch. /en/english/events/ and /en/englishlit/news/ both 404, which is why the news index is the listings route. The Eventbrite organiser page is real and correctly identified ("School of English & Digital Humanities", linked from the Munster Literature Centre's own noticeboard) but is entirely JavaScript-rendered — zero JSON-LD, zero startDate in the served HTML. The showmore endpoint is the same data as JSON: type=future returned an empty list on this date, and type=past returned five real readings with has_next_page true, which is how the organiser identity was confirmed rather than guessed.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -372,7 +320,7 @@ sources:
         url: https://corkhist.ie/feed/
         note: WordPress RSS; the programme posts arrive here first, ten items deep
     area: Western Road
-    tags: [talks, community, university, annual]
+    tags: [ talks, community, university, annual ]
     cadence: monthly
     hints: |
       Founded 1891 and one of the oldest local-interest societies in Ireland.
@@ -385,11 +333,7 @@ sources:
       dates in one post rather than one event per page. Outings are day trips
       well outside the city; keep the lectures.
     notes: >-
-      Verified 2026-08-17: corkhist.ie is live and current — the homepage's own Recent News block lists Summer
-      Programme 2026, Winter Lecture Series Update and Winter Lecture Series 2025-26, and the RSS feed dates the
-      most recent post 28 Apr 2026. /events/ is linked from the society's own navigation but returns a genuine
-      server 403 error document, not a bot wall, so the homepage is used as the listings page instead. Individual
-      outings sit under /mc-events/<slug>/, and the 2025-26 lecture list is a wp-content JPG.
+      Verified 2026-08-17: corkhist.ie is live and current — the homepage's own Recent News block lists Summer Programme 2026, Winter Lecture Series Update and Winter Lecture Series 2025-26, and the RSS feed dates the most recent post 28 Apr 2026. /events/ is linked from the society's own navigation but returns a genuine server 403 error document, not a bot wall, so the homepage is used as the listings page instead. Individual outings sit under /mc-events/<slug>/, and the 2025-26 lecture list is a wp-content JPG.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -399,7 +343,7 @@ sources:
     kind: festival
     status: provisional
     url: https://corkradicalbookfair.ie/
-    tags: [festival, annual, free, community, independent]
+    tags: [ festival, annual, free, community, independent ]
     cadence: quarterly
     hints: |
       One-day April bookfair — radical booksellers, small presses and
@@ -409,10 +353,7 @@ sources:
       A single-page site with no separate programme path, so the homepage is the
       listing; between editions it reads entirely in the past tense.
     notes: >-
-      Verified 2026-08-17: the homepage confirms "Cork's first Radical Bookfair" ran Saturday 18 April 2026,
-      11am-5pm at Blackpool Community Centre, describes itself as annual, and points at
-      radicalbookfaircork@gmail.com for the next one. /programme/ 404s. Nothing is announced for 2027 yet, which
-      four months after a first edition is expected rather than a sign of trouble.
+      Verified 2026-08-17: the homepage confirms "Cork's first Radical Bookfair" ran Saturday 18 April 2026, 11am-5pm at Blackpool Community Centre, describes itself as annual, and points at radicalbookfaircork@gmail.com for the next one. /programme/ 404s. Nothing is announced for 2027 yet, which four months after a first edition is expected rather than a sign of trouble.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -422,7 +363,7 @@ sources:
     kind: organiser
     status: provisional
     url: https://www.easons.com/eason-events
-    tags: [chain, author-events, bookshop]
+    tags: [ chain, author-events, bookshop ]
     cadence: monthly
     hints: |
       "Eason Presents" is a national programme that hires big rooms rather than
@@ -434,11 +375,7 @@ sources:
       Ticketed and often expensive, unlike most of this category. Mostly
       celebrity memoir and sports autobiography.
     notes: >-
-      Verified 2026-08-17: /events redirects to /eason-events, which lists dated national events including "Eason
-      Presents: An Evening with Peter O'Mahony" at Cork Opera House on Monday 28 September 2026 at 8pm (tickets
-      from €48), and a Kyla Cobbler evening offered in Dublin or Cork. eason.com does not resolve at all — the
-      live domain is easons.com. Page is heavy with retail navigation; the event blocks are near the foot of the
-      main content.
+      Verified 2026-08-17: /events redirects to /eason-events, which lists dated national events including "Eason Presents: An Evening with Peter O'Mahony" at Cork Opera House on Monday 28 September 2026 at 8pm (tickets from €48), and a Kyla Cobbler evening offered in Dublin or Cork. eason.com does not resolve at all — the live domain is easons.com. Page is heavy with retail navigation; the event blocks are near the foot of the main content.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -448,7 +385,7 @@ sources:
     kind: aggregator
     status: provisional
     url: https://www.eventbrite.ie/d/ireland--cork/literary-art/
-    tags: [ticketing, bookshop, author-events]
+    tags: [ ticketing, bookshop, author-events ]
     cadence: weekly
     hints: |
       The safety net for this category. Unlike Eventbrite's organiser pages,
@@ -461,10 +398,7 @@ sources:
       launches and readings. Cork bookshops with no site of their own surface
       here and nowhere else.
     notes: >-
-      Verified 2026-08-17: served 200 to a browser user-agent with two ld+json blocks and dated events spanning
-      2026-08-17 to 2026-10-22, naming Cork venues including Cork City Library and The Everyman alongside
-      out-of-radius ones (Prim's Bookshop in Kinsale, a Midleton community centre). WebFetch reads it as mostly
-      chrome, so parse the JSON-LD rather than the rendered text.
+      Verified 2026-08-17: served 200 to a browser user-agent with two ld+json blocks and dated events spanning 2026-08-17 to 2026-10-22, naming Cork venues including Cork City Library and The Everyman alongside out-of-radius ones (Prim's Bookshop in Kinsale, a Midleton community centre). WebFetch reads it as mostly chrome, so parse the JSON-LD rather than the rendered text.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
 
@@ -474,7 +408,7 @@ sources:
     kind: aggregator
     status: provisional
     url: https://www.poetryireland.ie/whats-on/
-    tags: [poetry, national]
+    tags: [ poetry, national ]
     cadence: weekly
     hints: |
       The national poetry body's calendar of readings across the island,
@@ -487,11 +421,5 @@ sources:
       URL. Listings paginate as /whats-on/P12, /whats-on/P24 and so on, and the
       calendar is national, so filter to Cork venues.
     notes: >-
-      Unverified content, 2026-08-17. The host resolves and answers, but every path tried — /whats-on/, /events,
-      /events/, /poetry-events, and the root — returns 202 plus
-      `<meta http-equiv="refresh" content="0;/.well-known/sgcaptcha/?r=...">`, and WebFetch receives an empty body.
-      /whats-on/ is nonetheless the right path: indexed page titles for it read "News & Events | Poetry Ireland"
-      and "What's On | Events, Readings, and Activities | Poetry Ireland", with a paginated variant at
-      /whats-on/P12. Recorded as a bot wall rather than closed, per the Bristol lesson. No verifiedAt until
-      something actually reads the page.
+      Unverified content, 2026-08-17. The host resolves and answers, but every path tried — /whats-on/, /events, /events/, /poetry-events, and the root — returns 202 plus `<meta http-equiv="refresh" content="0;/.well-known/sgcaptcha/?r=...">`, and WebFetch receives an empty body. /whats-on/ is nonetheless the right path: indexed page titles for it read "News & Events | Poetry Ireland" and "What's On | Events, Readings, and Activities | Poetry Ireland", with a paginated variant at /whats-on/P12. Recorded as a bot wall rather than closed, per the Bristol lesson. No verifiedAt until something actually reads the page.
     addedAt: "2026-08-17"

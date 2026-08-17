@@ -165,6 +165,9 @@ export function LandingPage() {
             square crop of a river city cut off both ends of the river, which is
             the one thing that makes it read as Cork.
 
+            Sharp corners and no ring: it is a map, not an app icon, and a rounded
+            plate with a border around it read as a widget rather than a place.
+
             The attribution rides on the mark's tooltip. OpenStreetMap's licence
             asks for a notice; a visible footer line was more prominent than a
             timestamped listing page warrants, and this is the common reading. */}
@@ -174,7 +177,7 @@ export function LandingPage() {
               <img
                 src={`${import.meta.env.BASE_URL}logo.svg`}
                 alt="whazzon"
-                className="h-32 w-auto shrink-0 rounded-2xl ring-1 ring-border sm:h-40 lg:h-48"
+                className="h-32 w-auto shrink-0 sm:h-40 lg:h-48"
               />
             </TooltipTrigger>
             <TooltipContent side="right" className="max-w-xs text-pretty">

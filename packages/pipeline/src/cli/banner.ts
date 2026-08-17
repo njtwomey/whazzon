@@ -95,7 +95,19 @@ const ROAD_M: Record<string, number> = {
   pedestrian: 7,
 };
 
-const MIRRORS = ["https://overpass.kumi.systems/api/interpreter", "https://overpass-api.de/api/interpreter"];
+const MIRRORS = [
+  "https://overpass-api.de/api/interpreter",
+  "https://overpass.kumi.systems/api/interpreter",
+  "https://overpass.private.coffee/api/interpreter",
+];
+
+/**
+ * Overpass wants to know who is calling. Without a user-agent, overpass-api.de
+ * answers 406 Not Acceptable — which reads exactly like a rejected content type
+ * and cost an hour of chasing the wrong thing. It is also simply the polite way to
+ * use a free service.
+ */
+const HEADERS = { "user-agent": "whazzon/0.1 (city listings; https://github.com/njtwomey/whazzon)" };
 
 interface Way {
   geometry?: { lat: number; lon: number }[];
@@ -118,7 +130,11 @@ async function overpass(queries: string[]): Promise<{ elements: Way[] }> {
           // `data=` form-encoded, which is what Overpass documents. A plain
           // string body sends no usable content type and earns a 406 from some
           // mirrors — which looks like rate limiting and is not.
-          const response = await fetch(mirror, { method: "POST", body: new URLSearchParams({ data: query }) });
+          const response = await fetch(mirror, {
+            method: "POST",
+            headers: HEADERS,
+            body: new URLSearchParams({ data: query }),
+          });
           if (response.ok) {
             const text = await response.text();
             if (text.startsWith("{")) {
@@ -130,7 +146,7 @@ async function overpass(queries: string[]): Promise<{ elements: Way[] }> {
         } catch (error) {
           console.log(`  ${new URL(mirror).host} -> ${error instanceof Error ? error.message : error}`);
         }
-        await new Promise((r) => setTimeout(r, 6000));
+        await new Promise((r) => setTimeout(r, 6000 * (attempt + 1)));
       }
     }
   }
@@ -153,17 +169,24 @@ for (const locationId of locations) {
     console.log(`${locationId}: reusing ${rel(cachePath)} (--refresh to re-fetch)`);
   } else {
     const bbox = `${south},${west},${north},${east}`;
-    const build = (classes: string[]) => `[out:json][timeout:180];
+    const build = (classes: string[], withBuildings: boolean) => `[out:json][timeout:180];
 (
   way["highway"~"^(${classes.join("|")})$"](${bbox});
-  way["waterway"~"^(river|riverbank)$"](${bbox});
+${withBuildings ? `  way["building"](${bbox});\n` : ""}  way["waterway"~"^(river|riverbank)$"](${bbox});
   way["natural"="water"](${bbox});
   way["leisure"~"^(park|golf_course)$"](${bbox});
 );
 out geom;`;
     const ARTERIAL = ["motorway", "trunk", "primary", "secondary", "tertiary"];
+    const ALL = Object.keys(ROAD_M);
+    /**
+     * Three tiers, richest first. Footprints are what give the map its grain, but
+     * they are also most of the payload and the first thing to make a wide bounding
+     * box time out — so they are asked for and then given up on, rather than never
+     * asked for. A plainer map beats no banner.
+     */
     console.log(`${locationId}: fetching ${SPAN_M}m of OSM...`);
-    osm = await overpass([build(Object.keys(ROAD_M)), build(ARTERIAL)]);
+    osm = await overpass([build(ALL, true), build(ALL, false), build(ARTERIAL, false)]);
     mkdirSync(join(paths.locationDir(locationId), "assets"), { recursive: true });
     writeFileSync(cachePath, JSON.stringify(osm), "utf8");
   }
@@ -264,7 +287,13 @@ out geom;`;
   }
   svg += `</svg>\n`;
 
-  const out = join(paths.root(), "web", "public", "banner.svg");
+  /**
+   * Written beside the location's other assets, not into the web app. A banner is
+   * location data — derived from that city's own catalogue — so it lives where the
+   * hero image does and `sync-web` publishes it. The site-wide banner on the
+   * landing page is a separate, committed file.
+   */
+  const out = join(paths.locationDir(locationId), "assets", "banner.svg");
   writeFileSync(out, svg, "utf8");
   const byCategory = [...new Set(pins.map((p) => p.category))].sort();
   console.log(

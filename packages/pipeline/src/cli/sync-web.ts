@@ -64,12 +64,27 @@ for (const locationId of locations) {
   const distinct = (values: (string | undefined)[]) =>
     new Set(values.filter((v): v is string => Boolean(v && v.trim()))).size;
 
+  /**
+   * The city's banner, published the same way as its hero image. It is location
+   * data — generated from that city's own catalogue by `npm run banner` — so it
+   * travels with the location rather than living in the web app.
+   */
+  let bannerUrl: string | undefined;
+  const banner = join(paths.locationDir(locationId), "assets", "banner.svg");
+  if (existsSync(banner)) {
+    const assetDir = join(paths.root(), "web", "public", "assets", locationId);
+    mkdirSync(assetDir, { recursive: true });
+    copyFileSync(banner, join(assetDir, "banner.svg"));
+    bannerUrl = `assets/${locationId}/banner.svg`;
+  }
+
   index.push({
     id: location.id,
     name: location.name,
     region: location.region,
     country: location.country,
     imageUrl,
+    bannerUrl,
     imageCredit: location.imageCredit,
     asOf: snapshot.asOf,
     eventCount: snapshot.events.length,

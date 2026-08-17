@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import { EventDialog } from "@/components/event-dialog";
 import { EventGroups, groupEvents } from "@/components/event-groups";
 import { FilterPanel } from "@/components/filter-panel";
+import { MapBanner } from "@/components/map-banner";
 import { ResultsToolbar } from "@/components/results-toolbar";
 import { SiteHeader } from "@/components/site-header";
 import { Button } from "@/components/ui/button";
@@ -38,8 +39,9 @@ export function LocationPage() {
    * header degrades gracefully without.
    */
   const locations = useLocations();
-  const locationImageUrl =
-    locations.status === "ready" ? locations.data.find((l) => l.id === params.locationId)?.imageUrl : undefined;
+  const summary = locations.status === "ready" ? locations.data.find((l) => l.id === params.locationId) : undefined;
+  const locationImageUrl = summary?.imageUrl;
+  const locationBannerUrl = summary?.bannerUrl;
 
   React.useEffect(() => {
     document.title = snapshot ? `whazzon ${snapshot.location.name.toLowerCase()}` : "whazzon";
@@ -144,6 +146,22 @@ export function LocationPage() {
 
   return (
     <div className="min-h-dvh">
+      {/* The city's own map, so a page is recognisably this place rather than the
+          same chrome with a different name in it. Above the sticky header and
+          scrolls away; `main` is sticky below, which is what keeps the
+          viewport-height panes honest once the banner has gone. */}
+      {locationBannerUrl && (
+        <MapBanner
+          src={`${import.meta.env.BASE_URL}${locationBannerUrl}`}
+          title={snapshot.location.name.toLowerCase()}
+          className="h-32 sm:h-40 lg:h-44"
+          titleClassName="text-4xl sm:text-5xl"
+          subtitle={
+            <p className="mt-0.5 font-light tracking-wide text-muted-foreground/80">{snapshot.location.region}</p>
+          }
+        />
+      )}
+
       <SiteHeader
         locationName={snapshot.location.name}
         locationImageUrl={locationImageUrl}
@@ -159,7 +177,7 @@ export function LocationPage() {
           put while results scroll past them, which is the whole point of a
           filter panel — and on small screens this collapses back to one
           ordinary scrolling page, with filters in the sheet instead. */}
-      <main className="w-full gap-8 px-4 py-6 sm:px-6 lg:flex lg:h-[calc(100dvh-3.5rem)] lg:overflow-hidden lg:px-8 lg:py-0">
+      <main className="w-full gap-8 px-4 py-6 sm:px-6 lg:sticky lg:top-14 lg:flex lg:h-[calc(100dvh-3.5rem)] lg:overflow-hidden lg:px-8 lg:py-0">
         <aside className="hidden w-64 shrink-0 lg:block lg:h-full">
           <ScrollArea className="h-full lg:py-6 lg:pr-3">{filterPanel}</ScrollArea>
         </aside>

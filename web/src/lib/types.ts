@@ -15,6 +15,11 @@ export interface LocationSummary {
   country: string;
   /** Published path of the location's hero image, relative to the app base. */
   imageUrl?: string;
+  /**
+   * The city's own map banner, generated from its catalogue by `npm run banner`.
+   * Optional: a location has one only once it has geocoded venues to plot.
+   */
+  bannerUrl?: string;
   imageCredit?: string;
   asOf: string;
   eventCount: number;

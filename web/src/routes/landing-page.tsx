@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Empty, EmptyDescription, EmptyHeader, EmptyMedia, EmptyTitle } from "@/components/ui/empty";
 import { InputGroup, InputGroupAddon, InputGroupInput } from "@/components/ui/input-group";
+import { MapBanner } from "@/components/map-banner";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { formatDate } from "@/lib/format";
@@ -155,49 +156,17 @@ export function LandingPage() {
 
   return (
     <div className="min-h-dvh">
-      {/* A full-bleed banner with the title as real HTML over it, rather than a
-          logo with the name baked in. Two reasons that is better: the type stays
-          selectable, translatable and theme-aware, and the map can be swapped or
-          re-extended without regenerating a wordmark.
-
-          The extent is the whole island — both channels of the Lee splitting to
-          the west and rejoining to the east — because that shape is the one thing
-          that makes it read as Cork rather than as any street grid.
-
-          The scrim is strongest on the left, where the title sits, and thins out
-          to the right so the map is still a map. It is built from `background`, so
-          it inverts correctly in dark mode instead of assuming a light page. */}
-      <section className="relative isolate w-full overflow-hidden border-b">
-        <img
-          src={`${import.meta.env.BASE_URL}banner.svg`}
-          alt=""
-          aria-hidden
-          className="h-52 w-full object-cover object-center sm:h-64 lg:h-72"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-background via-background/85 to-background/20" />
-
-        <div className="absolute inset-0">
-          {/* Hard left rather than inside the page's centred column: a banner reads
-              as a banner when the type starts near the edge, and the map is the
-              thing that wants centring. */}
-          <div className="flex h-full flex-col justify-center pl-5 pr-4 sm:pl-8 lg:pl-12">
-            <h1 className="text-6xl font-semibold tracking-tighter sm:text-7xl lg:text-8xl">whazzon</h1>
-            {/* Says what a sentence of prose would in two words, and tells you how
-                the name is meant to sound while it does it. Light and quiet, so it
-                reads as an aside rather than a second headline. */}
-            <p className="mt-1 font-light tracking-wide text-muted-foreground/80 sm:text-lg">
-              werzziton and whenzziton
-            </p>
-          </div>
-        </div>
-
-        {/* Bottom-right on a chip, which is where every map puts its attribution —
-            and the chip is what keeps it legible, since the map is light in both
-            themes while `text-muted-foreground` is not. */}
-        <p className="absolute bottom-0 right-0 rounded-tl bg-background/80 px-1.5 py-0.5 text-[0.6rem] text-muted-foreground">
-          Map data &copy; OpenStreetMap contributors
-        </p>
-      </section>
+      {/* The site-wide banner. Cork's map, because it is the city the mark was
+          drawn from; every city page shows its own instead. */}
+      <MapBanner
+        src={`${import.meta.env.BASE_URL}banner.svg`}
+        title="whazzon"
+        className="h-52 sm:h-64 lg:h-72"
+        titleClassName="text-6xl sm:text-7xl lg:text-8xl"
+        subtitle={
+          <p className="mt-1 font-light tracking-wide text-muted-foreground/80 sm:text-lg">werzziton and whenzziton</p>
+        }
+      />
 
       <main className="mx-auto w-full max-w-5xl px-4 pb-12 pt-10 sm:px-6 lg:px-8">
         <h2 className="text-xl font-semibold tracking-tight">City listing</h2>

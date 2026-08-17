@@ -173,7 +173,7 @@ export function LandingPage() {
               <img
                 src={`${import.meta.env.BASE_URL}logo.svg`}
                 alt="whazzon"
-                className="size-24 shrink-0 rounded-2xl ring-1 ring-border sm:size-32"
+                className="size-32 shrink-0 rounded-3xl ring-1 ring-border sm:size-48 lg:size-56"
               />
             </TooltipTrigger>
             <TooltipContent side="right" className="max-w-xs text-pretty">

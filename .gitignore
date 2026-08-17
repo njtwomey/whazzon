@@ -48,3 +48,10 @@ npm-debug.log*
 # `npm run banner --refresh` fetches it again; the geocode cache is small and worth
 # keeping, since it saves hammering Nominatim.
 data/*/assets/banner-osm.json
+
+# A raw Overpass response landed in the repo root once, from iterating on the Cork
+# banner by hand. Nothing reads it — `npm run banner` does its own fetching — so
+# the root is the wrong place for one by definition.
+/*-osm.json
+/cork-city*.json
+/overpass*.json

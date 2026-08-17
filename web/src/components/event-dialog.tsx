@@ -68,20 +68,26 @@ export function EventDialog({
   return (
     <Dialog open={Boolean(event)} onOpenChange={(open) => !open && onClose()}>
       <DialogContent
-        className="flex max-h-[92vh] w-[calc(100%-2rem)] !max-w-5xl flex-col gap-0 overflow-hidden p-0"
+        className="grid max-h-[92vh] w-[calc(100%-2rem)] !max-w-5xl grid-rows-[auto_minmax(0,1fr)_auto] gap-0 overflow-hidden p-0"
         showCloseButton={false}
       >
-        {/* The header is fixed and the whole body scrolls beneath it, rather
-            than an inner pane scrolling inside a column that also holds an
-            image and a map. That arrangement only bounded the copy when
-            everything above it happened to fit; this one is bounded by the
-            dialog itself.
+        {/* Title fixed, body scrolling, provenance fixed — three grid rows, and
+            the middle one is `minmax(0, 1fr)`.
+
+            That zero is the whole fix. This was a flex column with `flex-1
+            min-h-0` on the scroll pane, which is meant to say the same thing, and
+            the pane kept taking its content's height instead: the dialog clamped
+            at 92vh, `overflow-hidden` cropped what stuck out, and there was
+            nothing to scroll because the scroller was bigger than the box it was
+            in. An explicit `minmax(0, …)` track cannot outgrow its share, so the
+            `ScrollArea` inside it gets a real height to be 100% of — which is
+            what Radix needs before its viewport will scroll anything.
 
             One line carries the title, the pills and the close button. The
             dialog's own close button is turned off because it is positioned
             absolutely, which would have it float over that row rather than sit
             in it. */}
-        <DialogHeader className="shrink-0 gap-0 border-b p-6 py-4">
+        <DialogHeader className="gap-0 border-b p-6 py-4">
           <div className="flex items-center gap-3">
             {/* The title is the link. A separate button said the same thing
                 twice, and the title is what people aim at anyway.
@@ -140,7 +146,7 @@ export function EventDialog({
           </div>
         </DialogHeader>
 
-        <ScrollArea className="min-h-0 flex-1">
+        <ScrollArea className="h-full">
           <div className="grid gap-4 p-6">
             {showImage && (
               <div className="overflow-hidden rounded-lg bg-muted">
@@ -227,17 +233,17 @@ export function EventDialog({
                 <Markdown className="text-sm">{listing}</Markdown>
               </div>
             )}
-
-            <Separator />
-
-            <p className="text-xs text-muted-foreground">
-              {/* Provenance matters here: everything on this page was scraped, and
-                  the venue's own site is always the authority. */}
-              From {event.sourceName} · first seen {formatDate(event.firstSeen, true)} · last confirmed{" "}
-              {formatDate(event.lastSeen, true)}
-            </p>
           </div>
         </ScrollArea>
+
+        {/* Provenance stays in view rather than scrolling away at the end of a
+            long description: everything here was scraped, the venue's own site is
+            the authority, and "last confirmed" is how you judge the rest of the
+            card. */}
+        <p className="border-t px-6 py-3 text-xs text-muted-foreground">
+          From {event.sourceName} · first seen {formatDate(event.firstSeen, true)} · last confirmed{" "}
+          {formatDate(event.lastSeen, true)}
+        </p>
       </DialogContent>
     </Dialog>
   );

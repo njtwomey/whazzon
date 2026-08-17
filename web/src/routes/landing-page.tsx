@@ -160,9 +160,10 @@ export function LandingPage() {
       </header>
 
       <main className="mx-auto w-full max-w-5xl px-4 pb-12 sm:px-6 lg:px-8">
-        {/* Mark beside the name, one line under it. The mark is out of the navbar
-            because it was doing nothing there but shrink — at 32px the map is a
-            smudge, and at this size it reads as what it depicts.
+        {/* Mark beside the name, one line under it. Sized by height with the width
+            left to follow, because the mark is 16:9 now rather than square — a
+            square crop of a river city cut off both ends of the river, which is
+            the one thing that makes it read as Cork.
 
             The attribution rides on the mark's tooltip. OpenStreetMap's licence
             asks for a notice; a visible footer line was more prominent than a
@@ -173,7 +174,7 @@ export function LandingPage() {
               <img
                 src={`${import.meta.env.BASE_URL}logo.svg`}
                 alt="whazzon"
-                className="size-32 shrink-0 rounded-3xl ring-1 ring-border sm:size-48 lg:size-56"
+                className="h-32 w-auto shrink-0 rounded-2xl ring-1 ring-border sm:h-40 lg:h-48"
               />
             </TooltipTrigger>
             <TooltipContent side="right" className="max-w-xs text-pretty">

@@ -119,6 +119,29 @@ export type ConfidenceFilter = (typeof CONFIDENCE_OPTIONS)[number]["value"];
 const CONFIDENCE_RANK: Record<SnapshotEvent["confidence"], number> = { low: 0, medium: 1, high: 2 };
 const CONFIDENCE_FLOOR: Record<ConfidenceFilter, number> = { any: 0, medium: 1, high: 2 };
 
+/**
+ * How eagerly to hide a listing another source already carried.
+ *
+ * `compile` scores duplicates rather than deleting them, so this is where the
+ * line actually gets drawn — and it can move without recompiling. The middle
+ * setting is the default because duplication genuinely dilutes the thing: seeing
+ * one evening three times makes a listing feel like noise. But the aggregators
+ * that produce most of the duplication are also the safety net for events no
+ * venue site carries, so "all" has to stay reachable.
+ */
+export const DUPLICATE_OPTIONS = [
+  { value: "all", label: "All", threshold: 2, hint: "show every listing, duplicates included" },
+  { value: "exact", label: "Exact", threshold: 1, hint: "hide only an identical title at the same venue" },
+  { value: "balanced", label: "Balanced", threshold: 0.65, hint: "also hide one title contained in another" },
+  { value: "eager", label: "Eager", threshold: 0.3, hint: "hide anything that looks like a duplicate at all" },
+] as const;
+
+export type DuplicateFilter = (typeof DUPLICATE_OPTIONS)[number]["value"];
+
+const DUPLICATE_THRESHOLD: Record<DuplicateFilter, number> = Object.fromEntries(
+  DUPLICATE_OPTIONS.map((o) => [o.value, o.threshold]),
+) as Record<DuplicateFilter, number>;
+
 export interface Filters {
   q: string;
   categories: Facet;
@@ -144,6 +167,8 @@ export interface Filters {
   hasLink: boolean;
   /** Lowest extractor confidence worth showing. */
   confidence: ConfidenceFilter;
+  /** How eagerly to hide a listing another source already carried. */
+  duplicates: DuplicateFilter;
 }
 
 export const DEFAULT_FILTERS: Filters = {
@@ -159,6 +184,7 @@ export const DEFAULT_FILTERS: Filters = {
   includeFinished: false,
   hasLink: false,
   confidence: "any",
+  duplicates: "balanced",
 };
 
 export function activeFilterCount(filters: Filters): number {
@@ -175,6 +201,7 @@ export function activeFilterCount(filters: Filters): number {
   if (filters.includeFinished) n += 1;
   if (filters.hasLink) n += 1;
   if (filters.confidence !== "any") n += 1;
+  if (filters.duplicates !== "balanced") n += 1;
   return n;
 }
 
@@ -227,6 +254,13 @@ export function applyFilters(events: SnapshotEvent[], filters: Filters, asOf: st
     // event with no price information should not be asserted to be either.
     if (filters.price === "paid" && event.price?.free !== false) return false;
     if (filters.onNow && !isOnNow(event, asOf)) return false;
+
+    // A scored duplicate, hidden at or above the chosen threshold. The canonical
+    // row has already absorbed anything only the duplicate carried, so nothing
+    // is lost by hiding it.
+    if (event.duplicateScore !== undefined && event.duplicateScore >= DUPLICATE_THRESHOLD[filters.duplicates]) {
+      return false;
+    }
 
     if (filters.hasLink && !event.url) return false;
     if (CONFIDENCE_RANK[event.confidence] < CONFIDENCE_FLOOR[filters.confidence]) return false;

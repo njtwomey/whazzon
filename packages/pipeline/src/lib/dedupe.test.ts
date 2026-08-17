@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import type { SnapshotEvent } from "../schema/snapshot.js";
-import { dedupeEvents, normaliseTitle, sameVenue } from "./dedupe.js";
+import { annotateDuplicates, DUP_SCORE, duplicateScore, editDistance, normaliseTitle } from "./dedupe.js";
 
 /**
  * The cases here are the ones that were measured on real data, not invented.
@@ -34,22 +34,59 @@ const kinds =
   (id: string) =>
     map[id] ?? "venue";
 
-describe("what counts as the same venue", () => {
-  it("matches a name that contains the other", () => {
-    // Measured in Cork: one library arrived under three names in one day.
-    expect(sameVenue("Cork City Library", "City Library, Grand Parade")).toBe(true);
-    expect(sameVenue("Cork Public Museum", "Cork Public Museum, Fitzgerald Park, Mardyke")).toBe(true);
+describe("scoring a pair", () => {
+  const at = (venueName: string | undefined, title = "A Gig", id = "x#1", sourceId = "s/x") =>
+    event({ id, sourceId, title, venueName });
+
+  it("is certain when title and venue both match exactly", () => {
+    expect(duplicateScore(at("Cyprus Avenue"), at("Cyprus Avenue", "A Gig", "y#1", "s/y"))).toBe(DUP_SCORE.certain);
   });
 
-  it("keeps genuinely different venues apart", () => {
-    expect(sameVenue("Omniplex Cork — Mahon Point", "The Reel Picture Blackpool")).toBe(false);
-    expect(sameVenue("City Library, Grand Parade", "Douglas Library")).toBe(false);
+  it("is likely when one venue name contains the other", () => {
+    // Measured in Cork: one library arrived under three names in a single day.
+    expect(duplicateScore(at("Cork City Library"), at("City Library, Grand Parade", "A Gig", "y#1", "s/y"))).toBe(
+      DUP_SCORE.likely,
+    );
   });
 
-  it("will not match on a scrap", () => {
-    // Without a floor on the shorter string, short names swallow unrelated ones —
-    // and a wrong merge loses an event, where a missed merge only shows it twice.
-    expect(sameVenue("The Pav", "The Pavilion Theatre and Gardens")).toBe(false);
+  it("scores zero when the venues are different places", () => {
+    // The Toy Story rule. On one day all four Cork cinemas showed it; those are
+    // four real screenings and no title similarity may override that.
+    expect(
+      duplicateScore(
+        at("Omniplex Cork — Mahon Point", "Toy Story 5"),
+        at("The Reel Picture Blackpool", "Toy Story 5", "y#1", "s/y"),
+      ),
+    ).toBe(0);
+  });
+
+  it("scores zero across different dates", () => {
+    const a = event({ id: "a#1", sourceId: "s/x", title: "Storytime", sortDate: "2026-09-01" });
+    const b = event({ id: "b#1", sourceId: "s/y", title: "Storytime", sortDate: "2026-09-08" });
+    expect(duplicateScore(a, b)).toBe(0);
+  });
+
+  it("drops to weak when one row will not say where it is", () => {
+    expect(duplicateScore(at("Cyprus Avenue"), at(undefined, "A Gig", "y#1", "s/y"))).toBe(DUP_SCORE.possible);
+  });
+
+  it("will not match a short title on a scrap of similarity", () => {
+    expect(duplicateScore(at("Somewhere", "Quiz"), at("Somewhere", "Quiz Night", "y#1", "s/y"))).toBe(0);
+  });
+
+  it("matches a long title contained in a longer one", () => {
+    const long = "Judy — The Songbook of Judy Garland";
+    expect(duplicateScore(at("The Everyman", "Judy the songbook"), at("The Everyman", long, "y#1", "s/y"))).toBe(
+      DUP_SCORE.probable,
+    );
+  });
+});
+
+describe("edit distance", () => {
+  it("abandons early rather than computing a distance it cannot use", () => {
+    // The bail-out is what makes scoring 1,600 rows affordable.
+    expect(editDistance("abcdefghij", "zzzzzzzzzz", 3)).toBeGreaterThan(3);
+    expect(editDistance("Witch Hunts", "Witch hunts", 2)).toBe(1);
   });
 });
 
@@ -60,57 +97,36 @@ describe("normalising a title", () => {
   });
 });
 
-describe("collapsing duplicates", () => {
-  it("merges the same event listed by two sources", () => {
-    const result = dedupeEvents(
+describe("annotating, not deleting", () => {
+  const kinds =
+    (map: Record<string, string> = {}) =>
+    (id: string) =>
+      map[id] ?? "venue";
+
+  it("keeps every row and marks the copy", () => {
+    const result = annotateDuplicates(
       [
-        event({ id: "a#1", sourceId: "music/cyprus-avenue", title: "Seed Talks", venueName: "Cyprus Avenue" }),
-        event({ id: "b#1", sourceId: "citywide/proc", title: "Seed Talks", venueName: "Cyprus Avenue" }),
+        event({ id: "own#1", sourceId: "music/cyprus-avenue", title: "Seed Talks", venueName: "Cyprus Avenue" }),
+        event({ id: "agg#1", sourceId: "citywide/proc", title: "Seed Talks", venueName: "Cyprus Avenue" }),
       ],
       kinds({ "citywide/proc": "aggregator" }),
     );
 
-    expect(result.events).toHaveLength(1);
-    expect(result.merged).toBe(1);
-    expect(result.events[0]!.sourceId).toBe("music/cyprus-avenue");
-    expect(result.events[0]!.alsoListedBy).toEqual(["citywide/proc"]);
-  });
-
-  it("keeps one film showing at four cinemas as four events", () => {
-    // The counter-example that forced venue into the key: on 2026-08-17 all four
-    // of Cork's cinemas showed Toy Story 5. Merging on title and date would have
-    // deleted three cinemas' listings.
-    const cinemas = [
-      "The Arc Cinema Cork",
-      "Omniplex Cork — Mahon Point",
-      "Reel Picture Ballincollig",
-      "Reel Picture Blackpool",
-    ];
-    const result = dedupeEvents(
-      cinemas.map((venueName, i) =>
-        event({ id: `c${i}#1`, sourceId: `cinema/v${i}`, title: "Toy Story 5", venueName }),
-      ),
-      kinds(),
-    );
-
-    expect(result.events).toHaveLength(4);
-    expect(result.merged).toBe(0);
-  });
-
-  it("keeps the same title on different dates apart", () => {
-    const result = dedupeEvents(
-      [
-        event({ id: "a#1", sourceId: "s/x", title: "Storytime", sortDate: "2026-09-01" }),
-        event({ id: "a#2", sourceId: "s/x", title: "Storytime", sortDate: "2026-09-08" }),
-      ],
-      kinds(),
-    );
-
+    // Nothing is removed — that is the whole design. A wrong guess costs a hidden
+    // row the reader can get back, not a deleted one nobody knows was there.
     expect(result.events).toHaveLength(2);
+    expect(result.marked).toBe(1);
+
+    const own = result.events.find((e) => e.id === "own#1")!;
+    const agg = result.events.find((e) => e.id === "agg#1")!;
+    expect(own.duplicateOf).toBeUndefined();
+    expect(own.alsoListedBy).toEqual(["citywide/proc"]);
+    expect(agg.duplicateOf).toBe("own#1");
+    expect(agg.duplicateScore).toBe(DUP_SCORE.certain);
   });
 
-  it("prefers the venue's own listing over an aggregator's", () => {
-    const result = dedupeEvents(
+  it("makes the venue's own listing canonical, not the aggregator's", () => {
+    const result = annotateDuplicates(
       [
         event({
           id: "agg#1",
@@ -124,14 +140,15 @@ describe("collapsing duplicates", () => {
       kinds({ "citywide/agg": "aggregator" }),
     );
 
-    // Kept for authority, not for richness — the aggregator had the image.
-    expect(result.events[0]!.sourceId).toBe("music/coughlans");
-    // ...and the image comes across anyway, so the merged row beats both inputs.
-    expect(result.events[0]!.image).toBe("https://e/i.jpg");
+    const own = result.events.find((e) => e.id === "own#1")!;
+    // Canonical for authority, not richness — the aggregator had the image...
+    expect(own.duplicateOf).toBeUndefined();
+    // ...and it comes across anyway, so hiding the duplicate loses nothing.
+    expect(own.image).toBe("https://e/i.jpg");
   });
 
-  it("unions tags and takes the earliest firstSeen", () => {
-    const result = dedupeEvents(
+  it("unions tags and takes the earliest firstSeen onto the canonical row", () => {
+    const result = annotateDuplicates(
       [
         event({
           id: "a#1",
@@ -153,30 +170,16 @@ describe("collapsing duplicates", () => {
       kinds({ "citywide/agg": "aggregator" }),
     );
 
-    expect(result.events[0]!.tags).toEqual(["indie", "rock"]);
-    // firstSeen is what "what's new this week" is answered from, so the earliest
-    // sighting across the group is the honest one.
-    expect(result.events[0]!.firstSeen).toBe("2026-08-16");
-    expect(result.events[0]!.lastSeen).toBe("2026-08-17");
+    const canonical = result.events.find((e) => e.id === "a#1")!;
+    expect(canonical.tags).toEqual(["indie", "rock"]);
+    expect(canonical.firstSeen).toBe("2026-08-16");
+    expect(canonical.lastSeen).toBe("2026-08-17");
   });
 
-  it("is deterministic when nothing else separates two rows", () => {
-    const rows = [
-      event({ id: "z#1", sourceId: "a/one", title: "A Gig" }),
-      event({ id: "a#1", sourceId: "a/two", title: "A Gig" }),
-    ];
-    const forwards = dedupeEvents(rows, kinds());
-    const backwards = dedupeEvents([...rows].reverse(), kinds());
-
-    expect(forwards.events[0]!.id).toBe(backwards.events[0]!.id);
-  });
-
-  it("leaves a single listing completely alone", () => {
+  it("leaves a lone listing untouched", () => {
     const only = event({ id: "a#1", sourceId: "music/v" });
-    const result = dedupeEvents([only], kinds());
-
+    const result = annotateDuplicates([only], kinds());
     expect(result.events).toEqual([only]);
-    expect(result.events[0]!.alsoListedBy).toBeUndefined();
-    expect(result.merged).toBe(0);
+    expect(result.marked).toBe(0);
   });
 });

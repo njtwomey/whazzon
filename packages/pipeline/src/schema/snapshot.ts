@@ -81,13 +81,24 @@ const SnapshotEventV1 = z.strictObject({
   confidence: z.enum(["high", "medium", "low"]),
 
   /**
-   * Other sources that listed this same event, when `compile` collapsed them.
-   *
-   * De-duplication is a presentation decision, so it happens on the way out and
-   * never in the log — but the provenance has to survive it, or the snapshot
-   * quietly claims one source knew something two did.
+   * Other sources that listed this same event. Set on the canonical row of a
+   * duplicate group, which also absorbs any image, description, price or tags
+   * only the duplicates had — so hiding them loses nothing.
    */
   alsoListedBy: z.array(SourceId).optional(),
+
+  /**
+   * Set on a row that looks like somebody else's listing of the same event: the
+   * id of the row considered canonical, and how sure the match was.
+   *
+   * `compile` scores rather than deletes, and the browser thresholds. Every rule
+   * behind the score is a guess about whether two strings mean the same evening,
+   * so a wrong guess should cost a hidden row that a reader can get back — not a
+   * deleted one that nobody knows was there. It also means the threshold can move
+   * without recompiling.
+   */
+  duplicateOf: z.string().min(1).optional(),
+  duplicateScore: z.number().min(0).max(1).optional(),
 
   /** Harvest date this event was first observed — the basis of "what's new". */
   firstSeen: IsoDate,

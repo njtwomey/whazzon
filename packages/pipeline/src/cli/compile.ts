@@ -1,7 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 import { loadCatalogues } from "../lib/catalogue.js";
-import { dedupeEvents } from "../lib/dedupe.js";
+import { annotateDuplicates } from "../lib/dedupe.js";
 import { endDateOf, foldHarvests, sortDateOf, stateOf } from "../lib/fold.js";
 import { loadLocation, resolveLocations } from "../lib/locations.js";
 import { paths, rel } from "../lib/paths.js";
@@ -211,16 +211,19 @@ for (const locationId of locations) {
   }
 
   /**
-   * Collapse the same event listed by several sources. Cork's first harvest put
-   * 1,641 rows in front of a reader, 144 of which were another source's copy of a
-   * row already there — the PROC guide and Pure Cork alone shared 131 ids.
+   * Score the same event listed by several sources — and keep every row.
    *
-   * After the fold and before the sort: it needs `state` and `sortDate` resolved
-   * to match on, and the sort has to run over what actually ships.
+   * Cork's first harvest put 1,641 rows in front of a reader, ~170 of which were
+   * another source's copy of one already there; the PROC guide and Pure Cork
+   * alone shared 131 ids. Deleting them here would bake one guess into the
+   * artefact. Scoring them lets the browser draw the line, and lets it move.
+   *
+   * After the fold and before the sort: matching needs `sortDate` resolved, and
+   * the sort has to run over what ships.
    */
-  const deduped = dedupeEvents(events, (sourceId) => catalogueById.get(sourceId)?.source.kind);
+  const dupes = annotateDuplicates(events, (sourceId) => catalogueById.get(sourceId)?.source.kind);
   events.length = 0;
-  events.push(...deduped.events);
+  events.push(...dupes.events);
 
   // Stable ordering, so a snapshot diff reflects data changes and nothing else.
   // Undated events sort last rather than being dropped.
@@ -273,8 +276,8 @@ for (const locationId of locations) {
         ? `\n  ${droppedFinished} finished before ${finishedCutoff} left out (--keep-finished ${keepFinishedDays})`
         : "") +
       (droppedUndated ? `\n  ${droppedUndated} undated event(s) no longer listed left out` : "") +
-      (deduped.merged
-        ? `\n  ${deduped.merged} duplicate row(s) merged across ${deduped.groups} event(s) listed by more than one source`
+      (dupes.marked
+        ? `\n  ${dupes.marked} row(s) scored as duplicates of ${dupes.groups.length} event(s) — kept, for the site to threshold`
         : ""),
   );
 }

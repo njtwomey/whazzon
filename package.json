@@ -25,7 +25,8 @@
     "format:check": "prettier --check .",
     "assign-ids": "tsx packages/pipeline/src/cli/assign-ids.ts",
     "tags": "tsx packages/pipeline/src/cli/tags.ts",
-    "drift": "tsx packages/pipeline/src/cli/drift.ts"
+    "drift": "tsx packages/pipeline/src/cli/drift.ts",
+    "dupes": "tsx packages/pipeline/src/cli/dupes.ts"
   },
   "devDependencies": {
     "@testing-library/react": "^16.3.2",

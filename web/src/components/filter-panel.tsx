@@ -11,8 +11,10 @@ import { Separator } from "@/components/ui/separator";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import {
   CONFIDENCE_OPTIONS,
+  DUPLICATE_OPTIONS,
   PRICE_OPTIONS,
   type ConfidenceFilter,
+  type DuplicateFilter,
   type Filters,
   type PriceFilter,
 } from "@/lib/filters";
@@ -116,7 +118,8 @@ export function FilterPanel({
     (filters.includeCarried ? 0 : 1) +
     (filters.includeFinished ? 1 : 0) +
     (filters.hasLink ? 1 : 0) +
-    (filters.confidence !== "any" ? 1 : 0);
+    (filters.confidence !== "any" ? 1 : 0) +
+    (filters.duplicates !== "balanced" ? 1 : 0);
 
   return (
     <div className="grid gap-3">
@@ -243,6 +246,25 @@ export function FilterPanel({
                 className="h-6 min-w-0 flex-1 text-[0.72rem] font-normal"
                 aria-pressed={filters.confidence === option.value}
                 onClick={() => update({ confidence: option.value as ConfidenceFilter })}
+              >
+                {option.label}
+              </Button>
+            ))}
+          </ButtonGroup>
+
+          <SubLabel hint="The same event often appears under several sources — a venue's own page and two or three listings sites. Balanced hides the ones we are reasonably sure are repeats, keeping the venue's own listing. Nothing is lost: the kept row absorbs any picture or description only a duplicate had.">
+            Duplicates
+          </SubLabel>
+          <ButtonGroup aria-label="Hide duplicates" className="mb-2.5 w-full min-w-0">
+            {DUPLICATE_OPTIONS.map((option) => (
+              <Button
+                key={option.value}
+                variant={filters.duplicates === option.value ? "default" : "outline"}
+                size="sm"
+                className="h-6 min-w-0 flex-1 text-[0.72rem] font-normal"
+                aria-pressed={filters.duplicates === option.value}
+                title={option.hint}
+                onClick={() => update({ duplicates: option.value as DuplicateFilter })}
               >
                 {option.label}
               </Button>

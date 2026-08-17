@@ -155,16 +155,17 @@ export function LandingPage() {
 
   return (
     <div className="min-h-dvh">
-      <header className="flex h-14 w-full items-center gap-3 px-4 sm:px-6 lg:px-8">
+      <header className="flex h-14 w-full items-center gap-2.5 px-4 sm:px-6 lg:px-8">
+        <img
+          src={`${import.meta.env.BASE_URL}logo.svg`}
+          alt=""
+          className="size-8 shrink-0 rounded-md ring-1 ring-border"
+        />
         <span className="text-lg font-semibold tracking-tight">whazzon</span>
       </header>
 
       <main className="mx-auto w-full max-w-5xl px-4 py-12 sm:px-6 lg:px-8">
-        <h1 className="text-balance text-4xl font-semibold tracking-tight sm:text-5xl">What&rsquo;s on, where?</h1>
-        <p className="mt-3 max-w-2xl text-lg text-muted-foreground">
-          Pick a city to see what is happening — theatre, music, markets, workshops and everything else worth leaving
-          the house for.
-        </p>
+        <h1 className="text-2xl font-semibold tracking-tight">City listing</h1>
 
         {locations.status === "ready" && locations.data.length > 3 && (
           <InputGroup className="mt-8 max-w-sm">
@@ -236,6 +237,22 @@ export function LandingPage() {
         {locations.status === "ready" && visible.length === 0 && (
           <p className="mt-8 text-muted-foreground">No cities match &ldquo;{query}&rdquo;.</p>
         )}
+        {/* Required, not decorative. The mark is a rendered map derived from
+            OpenStreetMap, which under ODbL makes it a Produced Work and obliges
+            us to say so wherever it appears. Cities credit their own hero images
+            through `imageCredit`, on the card. */}
+        <footer className="mt-12 border-t pt-6 text-xs text-muted-foreground">
+          Map data{" "}
+          <a
+            href="https://www.openstreetmap.org/copyright"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="underline underline-offset-2"
+          >
+            &copy; OpenStreetMap contributors
+          </a>
+          , used under the Open Database Licence.
+        </footer>
       </main>
     </div>
   );

@@ -1,6 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 import { loadCatalogues } from "../lib/catalogue.js";
+import { dedupeEvents } from "../lib/dedupe.js";
 import { endDateOf, foldHarvests, sortDateOf, stateOf } from "../lib/fold.js";
 import { loadLocation, resolveLocations } from "../lib/locations.js";
 import { paths, rel } from "../lib/paths.js";
@@ -209,6 +210,18 @@ for (const locationId of locations) {
     });
   }
 
+  /**
+   * Collapse the same event listed by several sources. Cork's first harvest put
+   * 1,641 rows in front of a reader, 144 of which were another source's copy of a
+   * row already there — the PROC guide and Pure Cork alone shared 131 ids.
+   *
+   * After the fold and before the sort: it needs `state` and `sortDate` resolved
+   * to match on, and the sort has to run over what actually ships.
+   */
+  const deduped = dedupeEvents(events, (sourceId) => catalogueById.get(sourceId)?.source.kind);
+  events.length = 0;
+  events.push(...deduped.events);
+
   // Stable ordering, so a snapshot diff reflects data changes and nothing else.
   // Undated events sort last rather than being dropped.
   events.sort((a, b) => {
@@ -259,6 +272,9 @@ for (const locationId of locations) {
       (droppedFinished
         ? `\n  ${droppedFinished} finished before ${finishedCutoff} left out (--keep-finished ${keepFinishedDays})`
         : "") +
-      (droppedUndated ? `\n  ${droppedUndated} undated event(s) no longer listed left out` : ""),
+      (droppedUndated ? `\n  ${droppedUndated} undated event(s) no longer listed left out` : "") +
+      (deduped.merged
+        ? `\n  ${deduped.merged} duplicate row(s) merged across ${deduped.groups} event(s) listed by more than one source`
+        : ""),
   );
 }

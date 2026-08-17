@@ -80,6 +80,15 @@ const SnapshotEventV1 = z.strictObject({
   description: Markdown.optional(),
   confidence: z.enum(["high", "medium", "low"]),
 
+  /**
+   * Other sources that listed this same event, when `compile` collapsed them.
+   *
+   * De-duplication is a presentation decision, so it happens on the way out and
+   * never in the log — but the provenance has to survive it, or the snapshot
+   * quietly claims one source knew something two did.
+   */
+  alsoListedBy: z.array(SourceId).optional(),
+
   /** Harvest date this event was first observed — the basis of "what's new". */
   firstSeen: IsoDate,
   /** Harvest date it was most recently observed. */

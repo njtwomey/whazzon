@@ -15,24 +15,18 @@ sitting in `hints` as prose rather than being curated into routes.
 
 ---
 
-## 2. De-duplicate across sources
+## 2. Use the de-duplication now that it exists
 
-We de-dupe by identity within a source and across runs — the fold merges on event id. We do not
-de-dupe **between** sources, and cannot: `eventId` returns `` `<sourceId>#<hash>` ``, so the same
-gig listed twice is two events by construction.
+Done in `compile` on 2026-08-17: match on normalised title + anchor date + venue,
+keep the venue's own listing over an aggregator's, fill its gaps from the losers,
+union the tags, and record who else carried it in `alsoListedBy`. Cork went 1,641
+to 1,472 events, Bristol 1,739 to 1,638.
 
-Real overlaps today: Hen & Chicken / Comedy Box share 43 shows; six music venues are Headfirst
-mirrors; Resident Advisor and Skiddle overlap on club nights; 365 Bristol advertises gigs at
-catalogued venues.
-
-Do it in `compile`, never in the log — the log records what each page said, which is the point.
-Match on normalised title plus anchor date plus resolved venue, prefer the venue's own listing
-over an aggregator's, and keep the loser's `sourceId` on the survivor so provenance survives.
-
-Warning from the ghost work: matching on title alone would have merged **81 legitimately
-distinct** same-title events on different dates. The date has to be in the key.
-
----
+Left to do: **nothing surfaces `alsoListedBy` in the UI.** "Also listed by Skiddle
+and the PROC guide" is a small credibility signal worth showing on the detail
+card. And venues are matched by containment, which misses the same place under
+genuinely different names — "Frank O'Connor Library, Mayfield" and "Cork City
+Libraries" are one event and stay two rows.
 
 ## 3. `check-urls` should check identity, not reachability
 

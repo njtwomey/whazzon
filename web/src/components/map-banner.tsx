@@ -19,6 +19,7 @@ export function MapBanner({
   subtitle,
   className,
   titleClassName,
+  heightPx,
 }: {
   src: string;
   title: string;
@@ -26,6 +27,13 @@ export function MapBanner({
   /** Height comes from the caller: a landing hero wants more than a page header. */
   className?: string;
   titleClassName?: string;
+  /**
+   * A driven height, in pixels, for a banner that collapses as the page scrolls.
+   * Set on the section rather than the image so the map is cropped from the middle
+   * out — it keeps the city centre in view as the strip narrows, where scaling the
+   * image would squash it.
+   */
+  heightPx?: number;
 }) {
   // One failed asset should leave the page intact rather than a torn box.
   const [failed, setFailed] = React.useState(false);
@@ -33,14 +41,19 @@ export function MapBanner({
 
   if (failed) return null;
 
+  const collapsing = heightPx !== undefined;
+
   return (
-    <section className="relative isolate w-full overflow-hidden border-b">
+    <section
+      className="relative isolate w-full overflow-hidden border-b"
+      style={collapsing ? { height: heightPx } : undefined}
+    >
       <img
         src={src}
         alt=""
         aria-hidden
         onError={() => setFailed(true)}
-        className={cn("w-full object-cover object-center", className)}
+        className={cn("w-full object-cover object-center", collapsing ? "h-full" : className)}
       />
 
       {/* Strongest on the left, where the type sits, thinning out so the map is
@@ -51,7 +64,8 @@ export function MapBanner({
       <div className="absolute inset-0">
         <div className="flex h-full flex-col justify-center pl-5 pr-4 sm:pl-8 lg:pl-12">
           <h1 className={cn("font-semibold tracking-tighter", titleClassName)}>{title}</h1>
-          {subtitle}
+          {/* Hidden once the strip is too short to hold it, rather than clipped. */}
+          {(!collapsing || heightPx! > 90) && subtitle}
         </div>
       </div>
 

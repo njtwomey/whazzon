@@ -30,6 +30,44 @@ export function LocationPage() {
   const [selected, setSelected] = React.useState<SnapshotEvent | null>(null);
   const [density, setDensity] = useDensity();
 
+  /**
+   * The banner collapses to a strip as you scroll, so the city is a hint rather
+   * than a cost. Two things make this fiddly enough to be worth explaining.
+   *
+   * On large screens the results scroll inside their own pane, not the window — so
+   * the window's scrollY barely moves and listening to it alone would leave the
+   * banner at full height for ever. It watches both and takes whichever has moved.
+   *
+   * And the panes keep their `calc(100dvh-3.5rem)` height throughout: the banner
+   * shrinking must not resize the content area, or the scroll position would fight
+   * the layout. The collapsed strip is what the page settles at, so the events get
+   * the same room they had before the banner existed.
+   */
+  const BANNER_MAX = 176;
+  const BANNER_HINT = 44;
+  const resultsRef = React.useRef<HTMLDivElement>(null);
+  const [bannerHeight, setBannerHeight] = React.useState(BANNER_MAX);
+
+  React.useEffect(() => {
+    let frame = 0;
+    const onScroll = () => {
+      if (frame) return;
+      frame = requestAnimationFrame(() => {
+        frame = 0;
+        const scrolled = Math.max(window.scrollY, resultsRef.current?.scrollTop ?? 0);
+        setBannerHeight(Math.max(BANNER_HINT, BANNER_MAX - scrolled));
+      });
+    };
+    const pane = resultsRef.current;
+    window.addEventListener("scroll", onScroll, { passive: true });
+    pane?.addEventListener("scroll", onScroll, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      pane?.removeEventListener("scroll", onScroll);
+      if (frame) cancelAnimationFrame(frame);
+    };
+  }, []);
+
   const snapshot = snapshotState.status === "ready" ? snapshotState.data : undefined;
 
   /**
@@ -149,13 +187,17 @@ export function LocationPage() {
       {/* The city's own map, so a page is recognisably this place rather than the
           same chrome with a different name in it. Above the sticky header and
           scrolls away; `main` is sticky below, which is what keeps the
-          viewport-height panes honest once the banner has gone. */}
+          viewport-height panes honest once the banner has gone.
+
+          The title steps down with the strip rather than scaling continuously: a
+          44px band cannot hold a 48px word, and interpolating a font size every
+          frame reflows text constantly for a change nobody sees mid-scroll. */}
       {locationBannerUrl && (
         <MapBanner
           src={`${import.meta.env.BASE_URL}${locationBannerUrl}`}
           title={snapshot.location.name.toLowerCase()}
-          className="h-32 sm:h-40 lg:h-44"
-          titleClassName="text-4xl sm:text-5xl"
+          heightPx={bannerHeight}
+          titleClassName={bannerHeight > 90 ? "text-4xl sm:text-5xl" : "text-xl"}
           subtitle={
             <p className="mt-0.5 font-light tracking-wide text-muted-foreground/80">{snapshot.location.region}</p>
           }
@@ -182,7 +224,10 @@ export function LocationPage() {
           <ScrollArea className="h-full lg:py-6 lg:pr-3">{filterPanel}</ScrollArea>
         </aside>
 
-        <div className="min-w-0 flex-1 lg:h-full lg:overflow-y-auto lg:overscroll-contain lg:py-6 lg:pl-1">
+        <div
+          ref={resultsRef}
+          className="min-w-0 flex-1 lg:h-full lg:overflow-y-auto lg:overscroll-contain lg:py-6 lg:pl-1"
+        >
           <ResultsToolbar
             count={visible.length}
             activeFilterCount={active}

@@ -155,44 +155,45 @@ export function LandingPage() {
 
   return (
     <div className="min-h-dvh">
-      <header className="flex h-14 w-full items-center px-4 sm:px-6 lg:px-8">
-        <span className="text-lg font-semibold tracking-tight">whazzon</span>
-      </header>
+      {/* A full-bleed banner with the title as real HTML over it, rather than a
+          logo with the name baked in. Two reasons that is better: the type stays
+          selectable, translatable and theme-aware, and the map can be swapped or
+          re-extended without regenerating a wordmark.
 
-      <main className="mx-auto w-full max-w-5xl px-4 pb-12 sm:px-6 lg:px-8">
-        {/* Mark beside the name, one line under it. Sized by height with the width
-            left to follow, because the mark is 16:9 now rather than square — a
-            square crop of a river city cut off both ends of the river, which is
-            the one thing that makes it read as Cork.
+          The extent is the whole island — both channels of the Lee splitting to
+          the west and rejoining to the east — because that shape is the one thing
+          that makes it read as Cork rather than as any street grid.
 
-            Sharp corners and no ring: it is a map, not an app icon, and a rounded
-            plate with a border around it read as a widget rather than a place.
+          The scrim is strongest on the left, where the title sits, and thins out
+          to the right so the map is still a map. It is built from `background`, so
+          it inverts correctly in dark mode instead of assuming a light page. */}
+      <section className="relative isolate w-full overflow-hidden border-b">
+        <img
+          src={`${import.meta.env.BASE_URL}banner.svg`}
+          alt=""
+          aria-hidden
+          className="h-52 w-full object-cover object-center sm:h-64 lg:h-72"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-background via-background/85 to-background/20" />
 
-            The attribution rides on the mark's tooltip. OpenStreetMap's licence
-            asks for a notice; a visible footer line was more prominent than a
-            timestamped listing page warrants, and this is the common reading. */}
-        <div className="flex flex-col items-start gap-6 py-14 sm:flex-row sm:items-center sm:gap-8">
-          <Tooltip>
-            <TooltipTrigger asChild>
-              <img
-                src={`${import.meta.env.BASE_URL}logo.svg`}
-                alt="whazzon"
-                className="h-32 w-auto shrink-0 sm:h-40 lg:h-48"
-              />
-            </TooltipTrigger>
-            <TooltipContent side="right" className="max-w-xs text-pretty">
-              Map data &copy; OpenStreetMap contributors, used under the Open Database Licence.
-            </TooltipContent>
-          </Tooltip>
-
-          <div>
-            <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl">whazzon</h1>
-            <p className="mt-2 text-lg text-muted-foreground">
+        <div className="absolute inset-0">
+          <div className="mx-auto flex h-full max-w-5xl flex-col justify-center px-4 sm:px-6 lg:px-8">
+            <h1 className="text-5xl font-semibold tracking-tight sm:text-6xl">whazzon</h1>
+            <p className="mt-2 max-w-sm text-lg text-muted-foreground">
               What&rsquo;s on in a city, from the places putting it on.
             </p>
           </div>
         </div>
 
+        {/* Bottom-right on a chip, which is where every map puts its attribution —
+            and the chip is what keeps it legible, since the map is light in both
+            themes while `text-muted-foreground` is not. */}
+        <p className="absolute bottom-0 right-0 rounded-tl bg-background/80 px-1.5 py-0.5 text-[0.6rem] text-muted-foreground">
+          Map data &copy; OpenStreetMap contributors
+        </p>
+      </section>
+
+      <main className="mx-auto w-full max-w-5xl px-4 pb-12 pt-10 sm:px-6 lg:px-8">
         <h2 className="text-xl font-semibold tracking-tight">City listing</h2>
 
         {locations.status === "ready" && locations.data.length > 3 && (

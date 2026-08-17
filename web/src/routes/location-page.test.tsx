@@ -12,9 +12,10 @@ import type { Snapshot } from "@/lib/types";
  *
  * The date control has been reported dead twice while its own tests passed —
  * both of those mounted it directly. This mounts `LocationPage` exactly as the
- * app does, with the router, the tooltip provider, the two scroll panes and a
- * stubbed snapshot fetch, so anything about the real composition that stops the
- * popover opening shows up here.
+ * app does, with the router, the tooltip provider, the filter rail and a stubbed
+ * snapshot fetch, so anything about the real composition that stops the popover
+ * opening shows up here — including a popover nested in a collapsed section
+ * inside a scroll area, which is where it now lives.
  */
 
 const ASOF = "2026-08-16";
@@ -105,11 +106,14 @@ async function setup() {
     </MemoryRouter>,
   );
   await waitFor(() => expect(screen.getByText("Gig Tomorrow")).toBeDefined());
-  return userEvent.setup();
+  const user = userEvent.setup();
+  // The dates live in the panel's Date facet, closed like every other section.
+  await user.click(screen.getByRole("button", { name: /^date/i }));
+  return user;
 }
 
 describe("the date control, on the real page", () => {
-  it("renders in the toolbar", async () => {
+  it("renders in the filter panel", async () => {
     await setup();
     expect(screen.getByRole("button", { name: /any time/i })).toBeDefined();
   });

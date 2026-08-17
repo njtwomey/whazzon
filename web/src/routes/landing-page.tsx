@@ -164,7 +164,7 @@ export function LandingPage() {
         className="h-52 sm:h-64 lg:h-72"
         titleClassName="text-6xl sm:text-7xl lg:text-8xl"
         subtitle={
-          <p className="mt-1 font-light tracking-wide text-muted-foreground/80 sm:text-lg">werzziton and whenzziton</p>
+          <p className="mt-1 font-light tracking-wide text-muted-foreground/80 sm:text-lg">werzziton and wenzziton</p>
         }
       />
 

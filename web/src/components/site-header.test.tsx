@@ -3,6 +3,7 @@ import { act, cleanup, fireEvent, render, screen } from "@testing-library/react"
 import { MemoryRouter } from "react-router-dom";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { SiteHeader } from "./site-header";
+import { TooltipProvider } from "@/components/ui/tooltip";
 
 /**
  * Search commits to the URL on a delay, because filter state lives in the URL
@@ -15,15 +16,23 @@ function setup(query = "") {
   const onQueryChange = vi.fn();
   render(
     <MemoryRouter>
-      <SiteHeader
-        locationName="Bristol"
-        asOf="2026-08-16"
-        eventCount={1095}
-        query={query}
-        onQueryChange={onQueryChange}
-        filterSlot={null}
-        activeFilterCount={0}
-      />
+      {/* The card-size buttons carry tooltips, so the provider is not optional. */}
+      <TooltipProvider>
+        <SiteHeader
+          locationName="Bristol"
+          asOf="2026-08-16"
+          eventCount={1095}
+          sourceCount={155}
+          categoryCount={16}
+          failingSourceCount={0}
+          query={query}
+          onQueryChange={onQueryChange}
+          filterSlot={null}
+          activeFilterCount={0}
+          density="medium"
+          setDensity={() => {}}
+        />
+      </TooltipProvider>
     </MemoryRouter>,
   );
   return { onQueryChange };

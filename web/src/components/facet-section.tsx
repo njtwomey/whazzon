@@ -42,7 +42,14 @@ const SEARCH_THRESHOLD = 8;
 /** How many to show before asking, so a long tail cannot bury the panel. */
 const SHOW_LIMIT = 24;
 
-function useRemembered(key: string, fallback: boolean): [boolean, (open: boolean) => void] {
+/**
+ * Whether a section is open, remembered across visits.
+ *
+ * Exported because the Date facet is hand-built rather than a `FacetSection` —
+ * two controls, not a value cloud — and a section that forgot its state while its
+ * neighbours remembered theirs would read as a bug.
+ */
+export function useRemembered(key: string, fallback: boolean): [boolean, (open: boolean) => void] {
   const storageKey = `whazzon-filter-${key}`;
   const [open, setOpen] = React.useState<boolean>(() => {
     const stored = localStorage.getItem(storageKey);

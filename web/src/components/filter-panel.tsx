@@ -1,6 +1,7 @@
-import { ChevronDown, FilterX, Info } from "lucide-react";
+import { ChevronDown, FilterX, Info, Radio } from "lucide-react";
 import * as React from "react";
-import { FacetSection, type FacetValue } from "@/components/facet-section";
+import { DateRangeFilter } from "@/components/date-range-filter";
+import { FacetSection, useRemembered, type FacetValue } from "@/components/facet-section";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ButtonGroup } from "@/components/ui/button-group";
@@ -61,6 +62,62 @@ function SubLabel({ hint, children }: { hint: string; children: React.ReactNode 
       <span className="text-[0.7rem] font-medium uppercase tracking-wider text-muted-foreground">{children}</span>
       <Hint label={`About ${String(children).toLowerCase()}`}>{hint}</Hint>
     </div>
+  );
+}
+
+/**
+ * When, as a facet of its own.
+ *
+ * "On now" and the range picker used to sit above the results, then briefly in
+ * the header. Neither was where you look for a filter — and having one filter
+ * somewhere else meant the panel's count badge was never the whole story.
+ *
+ * Closed on arrival and remembered afterwards, like every other section: the
+ * whole panel should be visible at once, and the badge is what makes that safe —
+ * a closed section still says how many of its filters are on.
+ */
+function DateSection({
+  filters,
+  update,
+  asOf,
+}: {
+  filters: Filters;
+  update: (patch: Partial<Filters>) => void;
+  asOf: string;
+}) {
+  const active = (filters.onNow ? 1 : 0) + (filters.from || filters.to ? 1 : 0);
+  const [open, setOpen] = useRemembered("date", false);
+
+  return (
+    <Collapsible open={open} onOpenChange={setOpen}>
+      <CollapsibleTrigger className="group flex w-full items-center justify-between py-1 text-left">
+        <span className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+          Date
+          {active > 0 && (
+            <Badge variant="secondary" className="px-1.5 py-0 text-[0.65rem]">
+              {active}
+            </Badge>
+          )}
+        </span>
+        <ChevronDown className="size-4 text-muted-foreground transition-transform group-data-[state=closed]:-rotate-90" />
+      </CollapsibleTrigger>
+
+      <CollapsibleContent className="grid gap-2 pt-2.5">
+        {/* A toggle rather than another preset in the picker: "on now" is not a
+            range — a run that started in June and ends in October is on today,
+            and no from/to pair expresses that. */}
+        <Button
+          variant={filters.onNow ? "default" : "outline"}
+          size="sm"
+          className="w-full justify-start font-normal"
+          aria-pressed={filters.onNow}
+          onClick={() => update({ onNow: !filters.onNow })}
+        >
+          <Radio className="size-4" /> On now
+        </Button>
+        <DateRangeFilter filters={filters} update={update} asOf={asOf} />
+      </CollapsibleContent>
+    </Collapsible>
   );
 }
 export function FilterPanel({
@@ -154,6 +211,12 @@ export function FilterPanel({
           </Button>
         )}
       </div>
+
+      {/* When first, then what, then where. It is the order people ask in, and
+          the only filter that reliably changes what you plan around. */}
+      <DateSection filters={filters} update={update} asOf={snapshot.asOf} />
+
+      <Separator />
 
       <FacetSection
         id="category"

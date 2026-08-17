@@ -1,27 +1,51 @@
-import { Search, SlidersHorizontal } from "lucide-react";
+import { Info, Search, SlidersHorizontal, TriangleAlert } from "lucide-react";
 import * as React from "react";
 import { Link } from "react-router-dom";
-import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { ButtonGroup } from "@/components/ui/button-group";
+import { HoverCard, HoverCardContent, HoverCardTrigger } from "@/components/ui/hover-card";
 import { InputGroup, InputGroupAddon, InputGroupInput } from "@/components/ui/input-group";
 import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
+import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
+import { DENSITY, DENSITY_OPTIONS, type Density } from "@/lib/density";
 import { formatDate } from "@/lib/format";
 
 /**
- * One bar, not a bar plus a hero. The page's whole job is to show events, and a
- * large banner repeating the city name pushes the first row of cards below the
- * fold. The title carries the same information in a line: which city, and how
- * fresh the data is.
+ * One bar for everything you do to the listing.
+ *
+ * It used to be split: identity and search up here, dates, sort and card size in a
+ * toolbar above the results. Two bars of controls meant looking in two places for
+ * the same kind of thing, so they are together now, and the split is by purpose
+ * instead — **who and where** on the left, **what you do about it** on the right.
+ *
+ * The counts moved into a hover card behind an ⓘ. They are worth having and worth
+ * nobody's screen space: how many events there are does not change what you click,
+ * and the number of unreachable sources is a caveat rather than a headline. Reading
+ * them on demand is the right trade.
+ *
+ * Dates are not here. They started here and moved into the panel as a Date facet,
+ * with everything else you narrow by — one filter kept somewhere else meant the
+ * panel's count badge was never the whole story.
+ *
+ * Compression order matters, because this bar has more in it than a phone can hold.
+ * Search is last to go — it is the one control that reaches anything. Card size
+ * goes first, then the sidebar collapses into the filters sheet, and everything
+ * that hid is inside it.
  */
 export function SiteHeader({
   locationName,
   locationImageUrl,
   asOf,
   eventCount,
+  sourceCount,
+  categoryCount,
+  failingSourceCount,
   query,
   onQueryChange,
   filterSlot,
   activeFilterCount,
+  density,
+  setDensity,
 }: {
   locationName: string;
   /**
@@ -32,14 +56,20 @@ export function SiteHeader({
   locationImageUrl?: string;
   asOf: string;
   eventCount: number;
+  sourceCount: number;
+  categoryCount: number;
+  failingSourceCount: number;
   query: string;
   onQueryChange: (value: string) => void;
   filterSlot: React.ReactNode;
   activeFilterCount: number;
+  density: Density;
+  setDensity: (density: Density) => void;
 }) {
   // One broken image should not leave a torn box in the header.
   const [markFailed, setMarkFailed] = React.useState(false);
   React.useEffect(() => setMarkFailed(false), [locationImageUrl]);
+
   /**
    * The field is local and commits to the URL after a pause.
    *
@@ -61,11 +91,8 @@ export function SiteHeader({
 
   return (
     <header className="sticky top-0 z-40 border-b bg-background/85 backdrop-blur-md">
-      <div className="flex h-14 w-full items-center gap-3 px-4 sm:px-6 lg:px-8">
-        <Link to="/" className="flex min-w-0 items-center gap-2.5" title="All locations">
-          {/* The city's illustration is the mark. Kept at the image's own 16:9
-              rather than cropped to a square, because these are compositions —
-              a centre-crop of Cork's map would cut off half the island. */}
+      <div className="flex h-14 w-full items-center gap-2 px-4 sm:px-6 lg:px-8">
+        <Link to="/" className="flex min-w-0 shrink-0 items-center gap-2.5" title="All locations">
           {locationImageUrl && !markFailed && (
             <img
               src={`${import.meta.env.BASE_URL}${locationImageUrl}`}
@@ -74,25 +101,53 @@ export function SiteHeader({
               className="h-8 w-14 shrink-0 rounded-md object-cover ring-1 ring-border"
             />
           )}
-          <span className="flex min-w-0 items-baseline gap-2">
-            {/* Just the city. The mark beside it already says whose site this is,
-                and "whazzon bristol" spent two words to name one place. */}
-            <span className="text-lg font-semibold lowercase tracking-tight">{locationName}</span>
-            <span className="hidden truncate text-xs text-muted-foreground sm:inline">
-              last updated {formatDate(asOf, true)}
-            </span>
-          </span>
+          <span className="text-lg font-semibold lowercase tracking-tight">{locationName}</span>
         </Link>
 
-        <Badge variant="secondary" className="hidden shrink-0 tabular-nums md:inline-flex">
-          {eventCount.toLocaleString()} events
-        </Badge>
+        {/* Everything the old toolbar said in prose, on demand. A hover card rather
+            than a tooltip because it is a small table, and because the unreachable
+            count deserves room to explain itself rather than being a bare number
+            with a warning triangle next to it. */}
+        <HoverCard openDelay={120}>
+          <HoverCardTrigger asChild>
+            <button
+              type="button"
+              aria-label="About this listing"
+              className="shrink-0 rounded-full p-1 text-muted-foreground/60 transition-colors hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+            >
+              <Info className="size-4" />
+            </button>
+          </HoverCardTrigger>
+          <HoverCardContent align="start" className="w-72">
+            <p className="text-sm font-medium">{locationName}</p>
+            <dl className="mt-2 grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 text-sm">
+              <dt className="text-muted-foreground">Last updated</dt>
+              <dd className="tabular-nums">{formatDate(asOf, true)}</dd>
+              <dt className="text-muted-foreground">Events</dt>
+              <dd className="tabular-nums">{eventCount.toLocaleString()}</dd>
+              <dt className="text-muted-foreground">Sources</dt>
+              <dd className="tabular-nums">{sourceCount.toLocaleString()}</dd>
+              <dt className="text-muted-foreground">Categories</dt>
+              <dd className="tabular-nums">{categoryCount}</dd>
+            </dl>
+            {failingSourceCount > 0 && (
+              <p className="mt-3 flex gap-2 border-t pt-3 text-xs text-muted-foreground">
+                <TriangleAlert className="mt-0.5 size-3.5 shrink-0" />
+                <span>
+                  {failingSourceCount} {failingSourceCount === 1 ? "source was" : "sources were"} unreachable at the
+                  last harvest, so anything they list is missing here rather than not on.
+                </span>
+              </p>
+            )}
+          </HoverCardContent>
+        </HoverCard>
 
-        <InputGroup className="ml-auto w-full max-w-xs">
+        <InputGroup className="ml-auto min-w-0 max-w-sm flex-1">
           <InputGroupAddon>
             <Search />
           </InputGroupAddon>
           <InputGroupInput
+            className="min-w-0"
             value={draft}
             onChange={(event) => setDraft(event.target.value)}
             placeholder="Search events, venues…"
@@ -100,18 +155,39 @@ export function SiteHeader({
           />
         </InputGroup>
 
+        {/* Three cell icons rather than a labelled select: the choice is about
+            shape, so showing the shapes is quicker to read than naming them. */}
+        <ButtonGroup aria-label="Card size" className="hidden shrink-0 sm:flex">
+          {DENSITY_OPTIONS.map((option) => {
+            const Icon = DENSITY[option.value].icon;
+            return (
+              <Tooltip key={option.value}>
+                <TooltipTrigger asChild>
+                  <Button
+                    variant={density === option.value ? "default" : "outline"}
+                    size="icon"
+                    aria-pressed={density === option.value}
+                    aria-label={`${option.label} cards`}
+                    onClick={() => setDensity(option.value)}
+                  >
+                    <Icon className="size-4" />
+                  </Button>
+                </TooltipTrigger>
+                <TooltipContent>{option.label} cards</TooltipContent>
+              </Tooltip>
+            );
+          })}
+        </ButtonGroup>
+
         {/* Filters live in a sheet on small screens and a sidebar on large ones. */}
         <Sheet>
           <SheetTrigger asChild>
-            <Button variant="outline" size="icon" className="relative lg:hidden" aria-label="Filters">
+            <Button variant="outline" size="icon" className="relative shrink-0 lg:hidden" aria-label="Filters">
               <SlidersHorizontal className="size-4" />
               {activeFilterCount > 0 && (
-                <Badge
-                  variant="default"
-                  className="absolute -right-1.5 -top-1.5 size-4 justify-center p-0 text-[0.6rem]"
-                >
+                <span className="absolute -right-1.5 -top-1.5 flex size-4 items-center justify-center rounded-full bg-primary text-[0.6rem] font-medium text-primary-foreground">
                   {activeFilterCount}
-                </Badge>
+                </span>
               )}
             </Button>
           </SheetTrigger>

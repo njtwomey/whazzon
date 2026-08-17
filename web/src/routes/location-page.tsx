@@ -30,44 +30,6 @@ export function LocationPage() {
   const [selected, setSelected] = React.useState<SnapshotEvent | null>(null);
   const [density, setDensity] = useDensity();
 
-  /**
-   * The banner collapses to a strip as you scroll, so the city is a hint rather
-   * than a cost. Two things make this fiddly enough to be worth explaining.
-   *
-   * On large screens the results scroll inside their own pane, not the window — so
-   * the window's scrollY barely moves and listening to it alone would leave the
-   * banner at full height for ever. It watches both and takes whichever has moved.
-   *
-   * And the panes keep their `calc(100dvh-3.5rem)` height throughout: the banner
-   * shrinking must not resize the content area, or the scroll position would fight
-   * the layout. The collapsed strip is what the page settles at, so the events get
-   * the same room they had before the banner existed.
-   */
-  const BANNER_MAX = 176;
-  const BANNER_HINT = 44;
-  const resultsRef = React.useRef<HTMLDivElement>(null);
-  const [bannerHeight, setBannerHeight] = React.useState(BANNER_MAX);
-
-  React.useEffect(() => {
-    let frame = 0;
-    const onScroll = () => {
-      if (frame) return;
-      frame = requestAnimationFrame(() => {
-        frame = 0;
-        const scrolled = Math.max(window.scrollY, resultsRef.current?.scrollTop ?? 0);
-        setBannerHeight(Math.max(BANNER_HINT, BANNER_MAX - scrolled));
-      });
-    };
-    const pane = resultsRef.current;
-    window.addEventListener("scroll", onScroll, { passive: true });
-    pane?.addEventListener("scroll", onScroll, { passive: true });
-    return () => {
-      window.removeEventListener("scroll", onScroll);
-      pane?.removeEventListener("scroll", onScroll);
-      if (frame) cancelAnimationFrame(frame);
-    };
-  }, []);
-
   const snapshot = snapshotState.status === "ready" ? snapshotState.data : undefined;
 
   /**
@@ -185,21 +147,21 @@ export function LocationPage() {
   return (
     <div className="min-h-dvh">
       {/* The city's own map, so a page is recognisably this place rather than the
-          same chrome with a different name in it. Above the sticky header and
-          scrolls away; `main` is sticky below, which is what keeps the
-          viewport-height panes honest once the banner has gone.
+          same chrome with a different name in it.
 
-          The title steps down with the strip rather than scaling continuously: a
-          44px band cannot hold a 48px word, and interpolating a font size every
-          frame reflows text constantly for a change nobody sees mid-scroll. */}
+          It is a welcome, not furniture: it sits above the sticky header at the
+          size the landing hero uses, and being the first thing on the page it is
+          the first thing scrolling takes away. Once it has gone the page is the
+          listing and nothing else, with the city still named and drawn in the
+          bar. */}
       {locationBannerUrl && (
         <MapBanner
           src={`${import.meta.env.BASE_URL}${locationBannerUrl}`}
           title={snapshot.location.name.toLowerCase()}
-          heightPx={bannerHeight}
-          titleClassName={bannerHeight > 90 ? "text-4xl sm:text-5xl" : "text-xl"}
+          className="h-56 sm:h-64 lg:h-72"
+          titleClassName="text-5xl sm:text-6xl"
           subtitle={
-            <p className="mt-0.5 font-light tracking-wide text-muted-foreground/80">{snapshot.location.region}</p>
+            <p className="mt-1 font-light tracking-wide text-muted-foreground/80">{snapshot.location.region}</p>
           }
         />
       )}
@@ -209,35 +171,45 @@ export function LocationPage() {
         locationImageUrl={locationImageUrl}
         asOf={snapshot.asOf}
         eventCount={snapshot.events.length}
+        sourceCount={snapshot.sources.length}
+        categoryCount={snapshot.categories.length}
+        failingSourceCount={failingSources.length}
         query={filters.q}
         onQueryChange={(q) => update({ q })}
         filterSlot={filterPanel}
         activeFilterCount={active}
+        density={density}
+        setDensity={setDensity}
       />
 
-      {/* Two panes that scroll independently below the header. The filters stay
-          put while results scroll past them, which is the whole point of a
-          filter panel — and on small screens this collapses back to one
-          ordinary scrolling page, with filters in the sheet instead. */}
-      <main className="w-full gap-8 px-4 py-6 sm:px-6 lg:sticky lg:top-14 lg:flex lg:h-[calc(100dvh-3.5rem)] lg:overflow-hidden lg:px-8 lg:py-0">
-        <aside className="hidden w-64 shrink-0 lg:block lg:h-full">
-          <ScrollArea className="h-full lg:py-6 lg:pr-3">{filterPanel}</ScrollArea>
+      {/* The page is one scroller, and it is the window.
+
+          It used to be two: the results had an `overflow-y-auto` pane of their
+          own, so the banner and the listing were on separate scrolls. That is
+          what made it feel like two phases — a gesture over the cards moved the
+          cards and never the map, so getting the map out of the way meant aiming
+          at it first. Redirecting the wheel between the two only moved the seam
+          into JavaScript, and `scroll-behavior: smooth` turned every redirected
+          notch into its own small animation, which is where the clunk came from.
+
+          The banner is now simply the first thing on an ordinary page, so one
+          continuous gesture carries you off the map and into the events with
+          nothing to feel. The filters keep a scroll of their own, because they
+          are a rail beside the content rather than a step in the sequence: they
+          stick under the header and the listing goes past them. On small screens
+          the rail is a sheet and this is one plain column. */}
+      <main className="w-full gap-8 px-4 py-6 sm:px-6 lg:flex lg:items-start lg:px-8">
+        {/* `top-[5rem]` is the header (3.5rem) plus the page's own top padding,
+            so the panel settles level with the first card rather than tucking
+            under the bar. The height is definite rather than a max: a
+            `ScrollArea` inside an auto-height box clips instead of scrolling,
+            because its viewport has nothing to be 100% of. */}
+        <aside className="sticky top-[5rem] hidden h-[calc(100dvh-6.5rem)] w-64 shrink-0 lg:block">
+          <ScrollArea className="h-full lg:pr-3">{filterPanel}</ScrollArea>
         </aside>
 
-        <div
-          ref={resultsRef}
-          className="min-w-0 flex-1 lg:h-full lg:overflow-y-auto lg:overscroll-contain lg:py-6 lg:pl-1"
-        >
-          <ResultsToolbar
-            count={visible.length}
-            activeFilterCount={active}
-            failingSourceCount={failingSources.length}
-            filters={filters}
-            update={update}
-            asOf={snapshot.asOf}
-            density={density}
-            setDensity={setDensity}
-          />
+        <div className="min-w-0 flex-1 lg:pl-1">
+          <ResultsToolbar count={visible.length} activeFilterCount={active} />
 
           {visible.length === 0 ? (
             <Empty className="border border-dashed">

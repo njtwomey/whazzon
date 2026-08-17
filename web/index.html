@@ -4,7 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>whazzon</title>
-    <meta name="description" content="What's on, in a place." />
+    <!--
+      The tagline, not a description of the tagline. This is what a link preview
+      quotes, so "What's on, in a place" turned up in every share as an
+      explanation nobody asked for.
+
+      Open Graph and Twitter carry the same pair, because Slack, WhatsApp and the
+      rest read those and ignore `description`. No `og:image`: the banners are
+      SVG and most scrapers will not render one, and a card with a broken image
+      is worse than a card with none.
+    -->
+    <meta name="description" content="werezziton and wenzziton" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="whazzon" />
+    <meta property="og:title" content="whazzon" />
+    <meta property="og:description" content="werezziton and wenzziton" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="whazzon" />
+    <meta name="twitter:description" content="werezziton and wenzziton" />
   </head>
   <body>
     <div id="root"></div>

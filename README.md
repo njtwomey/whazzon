@@ -1,6 +1,6 @@
 # whazzon
 
-What's on, in a place.
+werezziton and wenzziton.
 
 whazzon builds a periodically-refreshed catalogue of what is happening in a city
 and renders it as a static site. Bristol is the first location; adding another is

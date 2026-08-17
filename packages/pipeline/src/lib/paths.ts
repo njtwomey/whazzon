@@ -7,10 +7,10 @@ import { fileURLToPath } from "node:url";
  * location id, so a second city is a new config file and a new data directory
  * rather than a fork of the project:
  *
- *   configs/bristol-uk.yaml                        the place
- *   data/bristol-uk/catalogue/<category>.yaml      stage 1
- *   data/bristol-uk/harvest/<date>/<category>.yaml stage 2
- *   data/bristol-uk/snapshot.json                  compiled for stage 3
+ *   configs/gb-bristol.yaml                        the place
+ *   data/gb-bristol/catalogue/<category>.yaml      stage 1
+ *   data/gb-bristol/harvest/<date>/<category>.yaml stage 2
+ *   data/gb-bristol/snapshot.json                  compiled for stage 3
  *
  * No path in the project may reach into another location's data.
  */

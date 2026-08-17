@@ -1,0 +1,2138 @@
+schema: "whazzon.harvest/1"
+locationId: "ie-cork"
+date: "2026-08-17"
+category: "comedy"
+harvestedAt: "2026-08-17T10:40:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "4"
+model: "claude-opus-5[1m]"
+observations:
+  - sourceId: "comedy/coco-comedy-club"
+    fetch:
+      ok: true
+      url: "https://www.peoplesrepublicofcork.com/eventguide/venues/the-roundy"
+      status: 200
+    events:
+      - id: "comedy/coco-comedy-club#2dd28f5bc0"
+        sourceId: "comedy/coco-comedy-club"
+        title: "Stand-up Comedy Club: Thursday Showcase"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Thursday, 8:30pm"
+          start: "2026-08-20"
+          startTime: "20:30"
+        status: "scheduled"
+        venue:
+          sourceId: "music/the-roundy"
+        url: "https://www.peoplesrepublicofcork.com/eventguide/stand-up-comedy-club-thursday-showcase-11201041"
+        image: "https://www.peoplesrepublicofcork.com/eventguide/uploads/2026apr_4959451.jpg"
+        tags:
+          - "stand-up"
+          - "weekly"
+          - "booking-required"
+        raw: "**Stand-up Comedy Club: Thursday Showcase** — The Roundy — Thu 20 Aug, 8:30pm
+
+
+          Listed weekly on the PROC diary for Thu 20 Aug, 27 Aug, 3 Sep, 10 Sep,
+
+          24 Sep and 1 Oct 2026. The club's own site calls this slot the
+
+          \"Variety Comedy Show\" — \"Wide variety for a low price / Different acts
+
+          every week\".\n"
+        summary: "The club's Thursday bill: a rotating variety line-up rather than a single headliner, weekly upstairs in The Roundy."
+        confidence: "high"
+      - id: "comedy/coco-comedy-club#278e598780"
+        sourceId: "comedy/coco-comedy-club"
+        title: "Stand-up Comedy Club: Earlier Show"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Saturday, 6:30pm"
+          start: "2026-08-22"
+          startTime: "18:30"
+        status: "scheduled"
+        timesText: "6:30PM till 8PM"
+        venue:
+          sourceId: "music/the-roundy"
+        url: "https://www.peoplesrepublicofcork.com/eventguide/stand-up-comedy-club-earlier-show-11201048"
+        image: "https://www.peoplesrepublicofcork.com/eventguide/uploads/2023nov_3027789.jpg"
+        tags:
+          - "stand-up"
+          - "weekly"
+          - "booking-required"
+        raw: "**Stand-up Comedy Club: Earlier Show** — The Roundy — Sat 22 Aug, 6:30pm
+
+
+          Listed on the PROC diary for Sat 22 Aug, 29 Aug and 5 Sep 2026. The
+
+          club's own site: \"Saturday Early Show — 6:30PM till 8PM show /
+
+          Hilarious comedy and be home for dinner / Old and new acts for a low
+
+          price\".\n"
+        summary: "An early Saturday sitting that finishes at 8pm, pitched at people going on somewhere afterwards."
+        confidence: "high"
+      - id: "comedy/coco-comedy-club#593428e8c9"
+        sourceId: "comedy/coco-comedy-club"
+        title: "Stand-up Comedy Club: Primetime Comedy Show"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Saturday, 8:30pm"
+          start: "2026-08-22"
+          startTime: "20:30"
+        status: "scheduled"
+        venue:
+          sourceId: "music/the-roundy"
+        url: "https://www.peoplesrepublicofcork.com/eventguide/stand-up-comedy-club-primetime-comedy-show-11201051"
+        image: "https://www.peoplesrepublicofcork.com/eventguide/uploads/2025jun_6133646.jpg"
+        tags:
+          - "stand-up"
+          - "weekly"
+          - "headliner"
+        raw: "**Stand-up Comedy Club: Primetime Comedy Show** — The Roundy — Sat 22 Aug, 8:30pm
+
+
+          Listed on the PROC diary for Sat 22 Aug, 29 Aug, 5 Sep, 12 Sep, 26
+
+          Sep, 3 Oct and 10 Oct 2026. The club's own site: \"Cork's Primetime
+
+          Comedy Show — Crème de la crème of live comedy / Hosted by Daniel
+
+          Lukas / Featuring only the best of Irish Comedy\".\n"
+        summary: "The club's flagship Saturday-night bill, hosted by Daniel Lukas, and the busiest recurring slot in the diary."
+        confidence: "high"
+      - id: "comedy/coco-comedy-club#9cfc80f885"
+        sourceId: "comedy/coco-comedy-club"
+        title: "Low-Key Funny"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Wednesday"
+        status: "scheduled"
+        venue:
+          sourceId: "music/the-roundy"
+        url: "https://www.eventbrite.com/cc/work-in-progress-wednesdays-2817959?utm-campaign=social&utm-content=creatorshare&utm-medium=discovery&utm-term=odclsxcollection&utm-source=cp&aff=escb"
+        price:
+          free: true
+          text: "Free Entry"
+        tags:
+          - "stand-up"
+          - "weekly"
+          - "free-entry"
+          - "work-in-progress"
+        raw: "**Wednesday — Low-Key Funny**
+
+
+          - A peek behind the comedy curtain
+
+          - Free Entry
+
+          - New jokes by experienced comedians
+
+
+          From cococomedy.club, which gives no dates for this slot. Its booking
+
+          route is the Eventbrite collection \"Work In Progress Wednesdays\".\n"
+        summary: "Free midweek night where established comedians try out unfinished material — the club's work-in-progress room."
+        confidence: "medium"
+      - id: "comedy/coco-comedy-club#085f4c3ccf"
+        sourceId: "comedy/coco-comedy-club"
+        title: "Friday Night Comedy"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Friday"
+        status: "scheduled"
+        venue:
+          sourceId: "music/the-roundy"
+        url: "https://www.eventbrite.com/cc/friday-night-at-the-coco-comedy-club-1224269?utm-campaign=social&utm-content=creatorshare&utm-medium=discovery&utm-term=odclsxcollection&utm-source=cp&aff=escb"
+        tags:
+          - "stand-up"
+          - "weekly"
+          - "headliner"
+        raw: "**Friday — Friday Night Comedy**
+
+
+          - A mix of different comedy styles
+
+          - Featuring an amazing headliner
+
+          - Ireland's future comedy stars take the stage
+
+
+          From cococomedy.club, which gives no dates for this slot. The PROC
+
+          diary carries no Friday shows at all for The Roundy.\n"
+        summary: "Friday bill pairing a headline act with newer names off the Cork circuit."
+        confidence: "medium"
+      - id: "comedy/coco-comedy-club#fda2c6ff67"
+        sourceId: "comedy/coco-comedy-club"
+        title: "Off The Stage!"
+        occurrence:
+          kind: "recurring"
+          pattern: "Once a month, on a Thursday"
+        status: "scheduled"
+        venue:
+          sourceId: "music/the-roundy"
+        url: "https://www.eventbrite.com/cc/thursday-comedy-showcase-at-the-coco-comedy-club-1224229?utm-campaign=social&utm-content=creatorshare&utm-medium=discovery&utm-term=odclsxcollection&utm-source=cp&aff=escb"
+        tags:
+          - "stand-up"
+          - "open-mic"
+          - "beginners"
+        raw: "**Thursday — Once a Month: Off The Stage! (our monthly Gong Show)**
+
+
+          From cococomedy.club, which gives no dates for this slot beyond
+
+          \"once a month\" in the Thursday column.\n"
+        summary: "The club's monthly gong show, where the audience decides how long an act lasts. Runs in the Thursday slot."
+        confidence: "medium"
+      - id: "comedy/coco-comedy-club#d7537185b6"
+        sourceId: "comedy/coco-comedy-club"
+        title: "Deirdre O'Kane - Work In Progress At The CoCo Comedy Club"
+        occurrence:
+          kind: "single"
+          date: "2026-09-17"
+          startTime: "19:00"
+        status: "scheduled"
+        venue:
+          sourceId: "music/the-roundy"
+        url: "https://www.peoplesrepublicofcork.com/eventguide/deirdre-okane-work-in-progress-at-the-coco-comedy-club-11195928"
+        image: "https://www.peoplesrepublicofcork.com/eventguide/uploads/2026apr_9372451.png"
+        tags:
+          - "stand-up"
+          - "work-in-progress"
+          - "headliner"
+        raw: "**Deirdre O'kane - Work In Progress At The Coco Comedy..** — The Roundy — Thu 17 Sep, 7pm
+
+
+          (PROC truncates the title; the full form is confirmed by the row's own
+
+          slug and by the club's site.)
+
+
+          From cococomedy.club: \"One of Ireland's best-loved comedians is coming
+
+          upstairs to The Roundy for **three intimate nights of brand-new
+
+          material**. This is a rare chance to see Deirdre up close as she shapes
+
+          her next show — expect big laughs, spontaneous moments, and a proper
+
+          electric comedy-club atmosphere.\" Listed for Thursday 17th, Friday 18th
+
+          and Saturday 19th September.\n"
+        summary: "First of three nights in which Deirdre O'Kane works up her next show in front of a small room. New material, nothing finished."
+        confidence: "high"
+      - id: "comedy/coco-comedy-club#6a988b933e"
+        sourceId: "comedy/coco-comedy-club"
+        title: "Deirdre O'Kane - Work In Progress At The CoCo Comedy Club"
+        occurrence:
+          kind: "single"
+          date: "2026-09-18"
+          startTime: "19:00"
+        status: "scheduled"
+        venue:
+          sourceId: "music/the-roundy"
+        url: "https://www.peoplesrepublicofcork.com/eventguide/deirdre-okane-work-in-progress-at-the-coco-comedy-club-11195929"
+        image: "https://www.peoplesrepublicofcork.com/eventguide/uploads/2026apr_9372451.png"
+        tags:
+          - "stand-up"
+          - "work-in-progress"
+          - "headliner"
+        raw: "**Deirdre O'kane - Work In Progress At The Coco Comedy..** — The Roundy — Fri 18 Sep, 7pm
+
+
+          Second of the three announced nights.\n"
+        summary: "Second of Deirdre O'Kane's three work-in-progress nights upstairs in The Roundy."
+        confidence: "high"
+      - id: "comedy/coco-comedy-club#3199513781"
+        sourceId: "comedy/coco-comedy-club"
+        title: "Deirdre O'Kane - Work In Progress At The CoCo Comedy Club"
+        occurrence:
+          kind: "single"
+          date: "2026-09-19"
+          startTime: "19:00"
+        status: "scheduled"
+        venue:
+          sourceId: "music/the-roundy"
+        url: "https://www.peoplesrepublicofcork.com/eventguide/deirdre-okane-work-in-progress-at-the-coco-comedy-club-11195930"
+        image: "https://www.peoplesrepublicofcork.com/eventguide/uploads/2026apr_9372451.png"
+        tags:
+          - "stand-up"
+          - "work-in-progress"
+          - "headliner"
+        raw: "**Deirdre O'kane - Work In Progress At The Coco Comedy..** — The Roundy — Sat 19 Sep, 7pm
+
+
+          Last of the three announced nights.\n"
+        summary: "Last of Deirdre O'Kane's three work-in-progress nights upstairs in The Roundy."
+        confidence: "high"
+      - id: "comedy/coco-comedy-club#13b6af3924"
+        sourceId: "comedy/coco-comedy-club"
+        title: "Sharon Mannion: I Will, Yeah! - Stand-up Comedy"
+        occurrence:
+          kind: "single"
+          date: "2027-04-17"
+          startTime: "18:00"
+        status: "scheduled"
+        venue:
+          sourceId: "music/the-roundy"
+        url: "https://www.peoplesrepublicofcork.com/eventguide/sharon-mannion-i-will-yeah-stand-up-comedy-11200167"
+        image: "https://www.peoplesrepublicofcork.com/eventguide/uploads/2026jul_3705222.jfif"
+        tags:
+          - "stand-up"
+          - "one-night"
+          - "headliner"
+        raw: "**Sharon Mannion: I Will, Yeah! - Stand-up Comedy** — The Roundy — Sat 17 Apr, 6pm\n"
+        summary: "A named Sharon Mannion show in the Saturday early slot, and the furthest-out date on the club's diary."
+        confidence: "high"
+    notes: "The PROC venue page (\"The Roundy, Castle St.\") carried 21 dated rows: 20 stand-up and one weekly pub games night, which is not comedy and was dropped as the hint instructs. Dated horizon 20 Aug 2026 to 17 Apr 2027, taken in full, nothing truncated.
+
+
+      Three weekly slots the PROC diary does not carry — Low-Key Funny (Wed), Friday Night Comedy (Fri) and the monthly gong show Off The Stage! — were read from the club's own listings route, https://cococomedy.club/ (200), which states the weekly pattern and prices but prints no dates. `fetch.url` records the PROC route because every dated row came from it.
+
+
+      Useful finding for stage 1: PROC venue pages DO link every row per event, in single-quoted hrefs (`href='.../eventguide/<slug>-<id>'`) with a per-event image alongside. A first pass looking only for double-quoted hrefs found none and would have thrown away every deep link on the page — worth a hint. The recurring slots get the soonest sitting's own URL, since a weekly night has one page per sitting rather than one page for the night.
+
+
+      Two title corrections. PROC truncates the O'Kane rows to \"Deirdre O'kane - Work In Progress At The Coco Comedy..\" and lowercases the K; the full title is confirmed by its own slug (`deirdre-okane-work-in-progress-at-the-coco-comedy-club`) and by Eventbrite, so it is recorded untruncated rather than guessed at.
+
+
+      cococomedy.club sells each weekly night as a separate Eventbrite *collection* rather than an event — /cc/work-in-progress-wednesdays-2817959, /cc/thursday-comedy-showcase-...-1224229, /cc/friday-night-...-1224269, /cc/saturday-early-show-...-2420789, /cc/saturday-primetime-...-1224489 and /cc/special-shows-in-the-coco-3111139. Those are the booking routes for the undated weekly nights and are used as their `url`. They are on eventbrite.com, not .ie.
+
+
+      The weekly slots are recorded with a `start` but no `end`: the club states an open-ended weekly pattern and the PROC diary simply stops where its publishing horizon stops, so an `end` would be invented."
+  - sourceId: "comedy/city-limits"
+    fetch:
+      ok: true
+      url: "https://www.peoplesrepublicofcork.com/eventguide/venues/city-limits"
+      status: 200
+    events:
+      - id: "comedy/city-limits#d607d956d3"
+        sourceId: "comedy/city-limits"
+        title: "Risteard Cooper ' Out Of His Head '"
+        occurrence:
+          kind: "single"
+          date: "2026-09-25"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://www.peoplesrepublicofcork.com/eventguide/risteard-cooper-out-of-his-head-11199852"
+        image: "https://www.peoplesrepublicofcork.com/eventguide/uploads/2026jul_2541137.jpg"
+        tags:
+          - "stand-up"
+          - "one-night"
+          - "headliner"
+        raw: "**Risteard Cooper  ' Out Of His Head '** — City Limits — Fri 25 Sep, 8pm\n"
+        summary: "Après Match and Killinaskully actor Risteard Cooper in a solo stand-up show at Cork's original comedy club."
+        confidence: "high"
+      - id: "comedy/city-limits#d01937f46a"
+        sourceId: "comedy/city-limits"
+        title: "Mike Rice: Cruel Little Man"
+        occurrence:
+          kind: "single"
+          date: "2026-10-02"
+          startTime: "21:30"
+        status: "scheduled"
+        url: "https://www.peoplesrepublicofcork.com/eventguide/mike-rice-cruel-little-man-11194024"
+        image: "https://www.peoplesrepublicofcork.com/eventguide/uploads/2026jul_6712373.jpg"
+        tags:
+          - "stand-up"
+          - "one-night"
+          - "late-night"
+        raw: "**Mike Rice: Cruel Little Man** — City Limits — Fri 2 Oct, 9:30pm
+
+
+          The later of two Mike Rice shows on the same night. Eventbrite bills
+
+          this one \"and Guests\" and notes it is being recorded as a special.\n"
+        summary: "The late show of Mike Rice's double on Coburg Street, with support acts, being recorded for a special."
+        confidence: "high"
+      - id: "comedy/city-limits#18bdbc3259"
+        sourceId: "comedy/city-limits"
+        title: "Mike Rice: Cruel Little Man - Early Show"
+        occurrence:
+          kind: "single"
+          date: "2026-10-02"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://www.peoplesrepublicofcork.com/eventguide/mike-rice-cruel-little-man-early-show-11199854"
+        image: "https://www.peoplesrepublicofcork.com/eventguide/uploads/2026jul_5046672.jpg"
+        tags:
+          - "stand-up"
+          - "one-night"
+        raw: "**Mike Rice: Cruel Little Man - Early Show** — City Limits — Fri 2 Oct, 7pm
+
+
+          Added as an extra sitting; the club's later show the same night is
+
+          listed separately.\n"
+        summary: "An added early sitting of Mike Rice's Cruel Little Man, put on after the late show filled."
+        confidence: "high"
+      - id: "comedy/city-limits#acc1b83089"
+        sourceId: "comedy/city-limits"
+        title: "Catherine Bohart: Borrowing Trouble"
+        occurrence:
+          kind: "single"
+          date: "2026-11-05"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://www.peoplesrepublicofcork.com/eventguide/catherine-bohart-borrowing-trouble-11188949"
+        image: "https://www.peoplesrepublicofcork.com/eventguide/uploads/2025nov_5934820.jpg"
+        tags:
+          - "stand-up"
+          - "one-night"
+          - "headliner"
+          - "tour"
+        raw: "**Catherine Bohart: Borrowing Trouble** — City Limits — Thu 5 Nov, 8pm\n"
+        summary: "Catherine Bohart brings Borrowing Trouble to the Coburg Street room on tour."
+        confidence: "high"
+      - id: "comedy/city-limits#0c0e35c8f8"
+        sourceId: "comedy/city-limits"
+        title: "Anne Gildea - Further Adventures In Womaning"
+        occurrence:
+          kind: "single"
+          date: "2026-11-20"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://www.peoplesrepublicofcork.com/eventguide/anne-gildea-further-adventures-in-womaning-11189487"
+        image: "https://www.peoplesrepublicofcork.com/eventguide/uploads/2026jun_1578602.png"
+        tags:
+          - "stand-up"
+          - "one-night"
+          - "tour"
+        raw: "**Anne Gildea - Further Adventures In Womaning** — City Limits — Fri 20 Nov, 8pm\n"
+        summary: "Anne Gildea of The Nualas in a solo show, and the furthest-out date City Limits has announced."
+        confidence: "high"
+    notes: "Took the PROC route as the hint instructs; thecomedyclub.ie was not re-tested, since the hint already records it as a bot challenge serving 403 or 202 and a JavaScript calendar reporting \"0 Events loaded\". Five dated shows, the whole page, nothing truncated. Every row deep-links and carries its own image (single-quoted hrefs again).
+
+
+      Worth a stage 1 note: this venue page is **incomplete**. Eventbrite lists a sixth show at City Limits that PROC does not carry — Paul Crowley, \"That's Paul Folks\", Fri 11 Sep 2026, 8pm — recorded under comedy/eventbrite-cork-comedy. The two sources are not redundant here.
+
+
+      The two Mike Rice rows on Fri 2 Oct are kept as two events rather than one with two times: PROC titles them differently (\"Cruel Little Man\" at 9:30pm and \"Cruel Little Man - Early Show\" at 7pm), and Eventbrite sells them as separate shows, describing the later one as being recorded as a special. They are two shows on one night, not two sittings of one."
+  - sourceId: "comedy/crue-comedy"
+    fetch:
+      ok: true
+      url: "https://www.peoplesrepublicofcork.com/eventguide/venues/fred-zeppelins"
+      status: 200
+    events:
+      - id: "comedy/crue-comedy#597666925f"
+        sourceId: "comedy/crue-comedy"
+        title: "Crüe Comedy"
+        occurrence:
+          kind: "recurring"
+          pattern: "Wednesdays at 9pm"
+          start: "2026-08-19"
+          startTime: "21:00"
+        status: "scheduled"
+        venue:
+          sourceId: "music/fred-zeppelins"
+        url: "https://www.peoplesrepublicofcork.com/eventguide/crüe-comedy-11200735"
+        image: "https://www.peoplesrepublicofcork.com/eventguide/uploads/2026jan_3913553.png"
+        tags:
+          - "stand-up"
+          - "weekly"
+          - "late-night"
+        raw: "**Crüe Comedy** — Fred Zeppelins — Wed 19 Aug, 9pm
+
+
+          The only comedy row on the venue's 34-row diary; no line-up given.\n"
+        summary: "Late Wednesday stand-up in the back room of Fred Zeppelins, the Parliament Street rock bar. No line-up announced — the night is the draw."
+        confidence: "medium"
+    notes: "The Fred Zeppelins diary held 34 rows and exactly **one** is comedy: \"Crüe Comedy, Wed 19 Aug, 9pm\". The other 33 are the bar's music and retail programme — 12 Reusab-alt pop-up shop days, four Cork Song House open mics, two Battle Of The Bands heats and gigs through to 7 Nov 2026 — and belong to music or markets, not here. Filtered as the hint instructs; nothing comedy was truncated.
+
+
+      Recorded as `recurring` on the catalogue hint's authority, not the page's: the diary dates only the 19 Aug sitting, and no Crüe Comedy night appears on any later Wednesday even though the bar's other Wednesday slot (Cork Song House) is dated out to 21 Oct. Hence `confidence: medium`. If a later run still finds a single date, the honest reading may be that the weekly night has lapsed rather than that PROC is under-publishing it — worth a human deciding.
+
+
+      No price on the row, so `price` is omitted rather than inferred; the catalogue tags the source \"free\" but the diary does not say so.
+
+
+      The row's deep link contains a literal ü (`/eventguide/crüe-comedy-11200735`) and is recorded unencoded, as printed. fredzeppelins.ie was not retried — the hint records it as not resolving."
+  - sourceId: "comedy/rebel-comedy"
+    fetch:
+      ok: true
+      url: "https://www.eventbrite.ie/e/rebel-comedy-club-open-mic-night-tickets-731858166477"
+      status: 200
+    events:
+      - id: "comedy/rebel-comedy#94e851fdb9"
+        sourceId: "comedy/rebel-comedy"
+        title: "Rebel Comedy Club: Open Mic Night"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Monday — doors 8:30pm, show 9pm"
+          start: "2026-08-17"
+          end: "2027-10-25"
+          startTime: "20:30"
+        status: "scheduled"
+        timesText: "Doors 8:30pm, show 9pm"
+        venue:
+          sourceId: "food-drink/franciscan-well"
+        url: "https://www.eventbrite.ie/e/rebel-comedy-club-open-mic-night-tickets-731858166477"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F612806759%2F1280847818463%2F1%2Foriginal.20231004-120327?w=940&auto=format%2Ccompress&q=75&sharp=10&rect=632%2C419%2C3496%2C1748&s=9c539df23813fe0b11cf340f2b39e726"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "stand-up"
+          - "open-mic"
+          - "weekly"
+          - "free-entry"
+        raw: "**Rebel Comedy Club: Open Mic Night** — Franciscan Well Brewery &
+
+          Brewpub, Cork — Multiple dates — Free
+
+
+          Join us at the Rebel Comedy Club for a hilarious Open Mic Night, where
+
+          comedians and newbies will make you cry with laughter!
+
+
+          Rebel Comedy Club: Open Mic Night hosted by Graham Francis. Upstairs in
+
+          the Franciscan Well. Doors @ 8:30pm. Starts 9pm!\n"
+        summary: "Free weekly open mic upstairs in the Franciscan Well, hosted by Graham Francis, mixing circuit regulars with first-timers. Sign-ups on the night."
+        description: "Rebel Comedy Club: Open Mic Night hosted by Graham Francis
+
+
+          Upstairs in the Franciscan Well. Doors @ 8:30pm. Starts 9pm!
+
+
+          Join us for a night of laughter at the Rebel Comedy Club's Open Mic
+
+          Night with hilarious performances from veteran comedians and some new
+
+          faces from Cork and beyond.
+
+
+          Whether you're a comedy enthusiast or just looking for a fun night out,
+
+          this night promises a great atmosphere with laughter throughout. You'd
+
+          be amazed at just how much wit, talent and humour we have right here in
+
+          Cork. Not to mention the acts who come from up the country and overseas
+
+          to showcase their stuff at our Open Mic and get a taste of what's
+
+          happening in Cork comedy.
+
+
+          Something special started happening in the Cork comedy scene in 2023.
+
+          Dozens of talented comedians have sprung up out of the open mics.
+
+          Established performers from around the country and abroad have started
+
+          visiting Cork far more frequently to perform. Some have even relocated
+
+          here. There are so many new clubs opening, with shows happening almost
+
+          everyday, often multiple gigs a night. The quality of comedy throughout
+
+          the county is rising rapidly. This explosion shows no signs of
+
+          stopping. So, come see these folks now before they're too famous!
+
+
+          Our Open Mic Night is the perfect platform for established veterans to
+
+          explore their new ideas and for aspiring comedians to practice material
+
+          and meet the pros. Expect a wide range of comedy styles and
+
+          personalities, with something for everyone to enjoy.
+
+
+          So gather your friends, grab a drink (and maybe a pizza from
+
+          downstairs), and get ready to laugh yourself silly at Rebel Comedy
+
+          Club's Open Mic Night. Don't miss out on this unique and historic time
+
+          in Cork Comedy!\n"
+        confidence: "high"
+    notes: "**The hint's Monday-or-Sunday question is settled: it is Monday.** The event page's own state carries `\"nextAvailableSession\":\"2026-08-17T20:30:00+01\"` — today, a Monday — and its JSON-LD series runs to 2027-10-25, also a Monday. The organiser page's own copy agrees: \"Open Mic Night every Monday upstairs in The Franciscan Well Brewpub, Cork.\" The 2023 series start (2023-10-08) was a Sunday, which is presumably why secondary write-ups still say Sunday. Recorded high confidence.
+
+
+      Route note for stage 1: the catalogued URL — the organiser page /o/rebel-comedy-club-72736263543 — answers 200 but renders its Upcoming list client-side, so its only readable event link is the recurring event itself. The /e/ page used here is the working route and should become the catalogue's `listings` role, with the organiser page kept as `booking` or dropped.
+
+
+      Two catalogue corrections from the event page's own location block: it prints \"**14** North Mall\" where the catalogue has 14B, and it prints an Eircode the catalogue does not have, **T23 P264**. Neither is written here — the address belongs to the catalogue — but both are worth a curator's eye, and the Eircode in particular is the kind of thing that should not be left to be guessed later.
+
+
+      Eventbrite's JSON-LD gives the offer as `priceCurrency: GBP`, which is wrong for an Irish venue; it is moot because the show is free, but it is a reason not to trust that field elsewhere on this platform.
+
+
+      Kinsale dropped as instructed: the organiser blurb advertises \"Occasional Comedy Showcases in Kinsale's Post House Coffee Shop & Wine Bar\", outside the radius. `description` is the event page's own copy — the page was opened."
+  - sourceId: "comedy/snatch-comedy-improv"
+    fetch:
+      ok: false
+      url: "https://www.eventbrite.ie/o/improv-73331430753"
+      status: 200
+      error: "soft failure: the organiser page loads but its Upcoming/Past event list renders client-side, so no listings could be read"
+    events: []
+    notes: "Recorded as a failure rather than as \"nothing on\", exactly as the hint anticipates. The status is 200 — this is a soft 200, not a network error, and should not be read as the troupe being gone.
+
+
+      The only event link in the static HTML is /e/copy-of-snatch-comedy-at-whitehouse-bar-kinsale-tickets-1997162114647 — Kinsale, outside the radius, and titled as a copy of another event, so no Cork date could be recovered from it. The Facebook channel (facebook.com/Snatchcomedyimprov) was not tried; the hint records it as answering 400 to every non-browser client.
+
+
+      **The hint has gone stale and needs stage 1's attention.** It says Snatch's dates reach us \"billed 'Comedy Cavern: Snatch Improv' on comedy/comedy-cavern\" — but there is no `comedy/comedy-cavern` source in this catalogue. Coughlan's is now `music/coughlans` after the de-duplication pass, so the Comedy Cavern: Snatch Improv date of 8 Sep 2026 will be harvested by **music**, not by comedy. As written, the dedup instruction points at a source id that no longer exists."
+  - sourceId: "comedy/cork-opera-house"
+    fetch:
+      ok: true
+      url: "https://www.corkoperahouse.ie/whats-on/?category=33"
+      status: 200
+    events:
+      - id: "comedy/cork-opera-house#5dbd02473a"
+        sourceId: "comedy/cork-opera-house"
+        title: "Joanne McNally"
+        subcategory: "Comedy"
+        occurrence:
+          kind: "single"
+          date: "2026-08-28"
+          startTime: "20:00"
+        status: "sold-out"
+        url: "https://www.corkoperahouse.ie/whats-on/joanne-mcnally/"
+        image: "https://www.corkoperahouse.ie/wp-content/uploads/2024/12/Joanne-McNally-685x415-1.png"
+        price:
+          free: false
+          text: "€45.9"
+          min: 45.9
+          max: 45.9
+          currency: "EUR"
+        ageRestriction: "Under 16's must be accompanied by an adult"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "tour"
+        raw: "**Joanne McNally** — Fri 28 - Sat 29 Aug, 8pm | €45.9 — **Sold Out**
+
+
+          Record-breaking queen of Irish comedy Joanne McNally brings her new
+
+          tour 'Pinotphile' to Cork.\n"
+        summary: "First of two sold-out nights of Pinotphile, the follow-up to Joanne McNally's record-breaking Prosecco Express."
+        description: "Record-breaking queen of Irish comedy Joanne McNally brings her new
+
+          tour 'Pinotphile' to Cork.
+
+
+          'Pinotphile' follows the runaway success of Joanne's smash hit 'The
+
+          Prosecco Express' – a show that set off on its maiden voyage in initial
+
+          previews back in 2019 before becoming a critically acclaimed global
+
+          riot – touring across UK, Ireland, Australia, Dubai, Canada and the US
+
+          – where media giant Variety tipped Joanne as one of its comedy 'Ones to
+
+          Watch'. Back home, Ticketmaster IE crowned the show its 'Comedy Event
+
+          of the Year' following an unprecedented 78 show run at Dublin's Vicar
+
+          Street.
+
+
+          Since then, McNally has been keeping herself busy by ruining men's
+
+          lives (and her own) – still single, still unfertilised, and laden with
+
+          irreverent, ridiculous and hilarious war stories, join Joanne for a
+
+          wild ride in 'Pinotphile', as she navigates situationships, revenge,
+
+          frenemies and rejection in her 'terrifyingly funny' (London Standard)
+
+          and 'joyously nuts' (Irish Examiner) trademark style.
+
+
+          One of podcasting's best loved names, Joanne is the co-host of the
+
+          award-winning 'My Therapist Ghosted Me' alongside best friend Vogue
+
+          Williams – since launching in 2021, the podcast reaches over 2.5
+
+          million listeners per month and has toured across the world,
+
+          culminating in an extraordinary run of 5 sold out nights at Dublin's 3
+
+          Arena.
+
+
+          Elsewhere, Joanne also hosts the hugely popular BBC Sounds format
+
+          Joanne McNally Investigates – with two series under her belt – 'Who
+
+          Replaced Avril Lavigne?' and 'Do Furbys Spy On Us?'. A primetime TV
+
+          regular, Joanne is best known for her riotous appearances on
+
+          Taskmaster, The Jonathan Ross Show, The Big Fat Quiz of Everything, and
+
+          many more.
+
+
+          SPECIAL EFFECTS: This production may contain Strobe Lighting, Flashing
+
+          Lights, Smoke and Haze.
+
+
+          AGE GUIDANCE: Under 16's must be accompanied by an adult\n"
+        confidence: "high"
+      - id: "comedy/cork-opera-house#9b0802fb89"
+        sourceId: "comedy/cork-opera-house"
+        title: "Joanne McNally"
+        subcategory: "Comedy"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+          startTime: "20:00"
+        status: "sold-out"
+        url: "https://www.corkoperahouse.ie/whats-on/joanne-mcnally/"
+        image: "https://www.corkoperahouse.ie/wp-content/uploads/2024/12/Joanne-McNally-685x415-1.png"
+        price:
+          free: false
+          text: "€45.9"
+          min: 45.9
+          max: 45.9
+          currency: "EUR"
+        ageRestriction: "Under 16's must be accompanied by an adult"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "tour"
+        raw: "**Joanne McNally** — Fri 28 - Sat 29 Aug, 8pm | €45.9 — **Sold Out**
+
+
+          Second night of the two-night row.\n"
+        summary: "Second of two sold-out Pinotphile nights at the Opera House."
+        confidence: "high"
+      - id: "comedy/cork-opera-house#8da377159b"
+        sourceId: "comedy/cork-opera-house"
+        title: "Nish Kumar – Angry Humour From A Really Nice Guy"
+        subcategory: "Comedy"
+        occurrence:
+          kind: "single"
+          date: "2026-09-11"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://www.corkoperahouse.ie/whats-on/nish-kumar/"
+        image: "https://www.corkoperahouse.ie/wp-content/uploads/2026/01/NISH-KUMAR-AHFARNG-640_420-COPYRIGHT-MATT-STRONGE.jpg"
+        price:
+          free: false
+          text: "€30"
+          min: 30
+          max: 30
+          currency: "EUR"
+        ageRestriction: "14+. Under 16's must be accompanied by an adult. Expect Strong Language."
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "tour"
+        raw: "**Nish Kumar – Angry Humour From A Really Nice Guy** — Fri 11 Sep, 8pm | €30
+
+
+          The UK's leading political comic is back on tour.\n"
+        summary: "Political stand-up from the former Mash Report host, on tour with a new hour about turning 40 in a collapsing world."
+        description: "The UK's leading political comic is back on tour.
+
+
+          The world is in chaos. Inequality is widening, autocracy is rising and
+
+          political parties are collapsing. In these divided times, what this
+
+          country desperately needs is Angry Humour From a Really Nice Guy (in
+
+          many ways it's actually the last thing this country needs, but it's
+
+          what it's getting so tough luck).
+
+
+          The UK's leading political comic Nish Kumar – co-host of hugely popular
+
+          podcast Pod Save the UK, former host of axed BBC show The Mash Report,
+
+          and one of Taskmaster's greatest losers – is back on tour with a
+
+          formidable batch of passionate, progressive stand-up for the ages.
+
+
+          Kumar is 40. His mind is breaking. His body is worse. Expect
+
+          existential angst and political disquiet from comedy's cheekiest boy.
+
+          Nish Kumar was named one of the 50 Best Comedians of the 21st Century
+
+          by both The Guardian and The Telegraph, with his previous tour playing
+
+          to sold out crowds across the UK, North America, Australasia and
+
+          mainland Europe.
+
+
+          SPECIAL EFFECTS: This production may contain Strobe Lighting, Flashing
+
+          Lights, Smoke and Haze.
+
+
+          AGE GUIDANCE: 14+. Under 16's must be accompanied by an adult. Expect
+
+          Strong Language.\n"
+        confidence: "high"
+      - id: "comedy/cork-opera-house#74ea035ed0"
+        sourceId: "comedy/cork-opera-house"
+        title: "Gearoid Farrelly : No Pressure"
+        subcategory: "Comedy"
+        occurrence:
+          kind: "single"
+          date: "2026-09-25"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://www.corkoperahouse.ie/whats-on/gearoid-farrelly-no-pressure/"
+        image: "https://www.corkoperahouse.ie/wp-content/uploads/2025/11/Website-685x415-2025-11-12T104647.449.png"
+        price:
+          free: false
+          text: "€28"
+          min: 28
+          max: 28
+          currency: "EUR"
+        ageRestriction: "Under 16's must be accompanied by an adult"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "tour"
+        raw: "**Gearoid Farrelly : No Pressure** — Fri 25 Sep, 8pm | €28
+
+
+          The Irish comedian brings his new show to Cork.\n"
+        summary: "Gearóid Farrelly on hospital stays, a sick cat and Dancing with the Stars, in an hour about giving up on doing things properly."
+        description: "The Irish comedian brings his new show to Cork.
+
+
+          After surviving hospital stays, a sick cat, and a nerve-wracking stint
+
+          on Dancing with the Stars Gearóid Farrelly returns with No Pressure. In
+
+          this candid and hilarious hour, he unpacks the chaos of modern life
+
+          with his trademark wit. Gearóid reflects on the absurdities of life,
+
+          the challenges of self-care, and the joy of embracing imperfection.
+
+
+          SPECIAL EFFECTS: This production may contain Strobe Lighting, Flashing
+
+          Lights, Smoke and Haze.
+
+
+          AGE GUIDANCE: Under 16's must be accompanied by an adult\n"
+        confidence: "high"
+      - id: "comedy/cork-opera-house#cb4a85824d"
+        sourceId: "comedy/cork-opera-house"
+        title: "Sam Campbell – Kid Giblet"
+        subcategory: "Comedy"
+        occurrence:
+          kind: "single"
+          date: "2026-09-30"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://www.corkoperahouse.ie/whats-on/sam-campbell-kid-giblet/"
+        image: "https://www.corkoperahouse.ie/wp-content/uploads/2025/12/Website-685x415-2026-02-25T121350.071.png"
+        price:
+          free: false
+          text: "€32.5"
+          min: 32.5
+          max: 32.5
+          currency: "EUR"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "tour"
+        raw: "**Sam Campbell – Kid Giblet** — Wed 30 Sep, 8pm | €32.5 — **Last Few**
+
+
+          The Australian comic brings his new show to Cork.\n"
+        summary: "Absurdist Australian stand-up from the Edinburgh Comedy Award winner. Listed as Last Few tickets."
+        description: "The Australian comic brings his new show to Cork.
+
+
+          \"I definitely don't know what's going on. I'm not even sure I know
+
+          what's happening anymore. BUT I cannot wait to come to your town and
+
+          respect your traditions. I have been on TV over 5 times.
+
+
+          \"May I divulge a secret? I have purchased a large metal ring. I will
+
+          use it to keep all of the keys to the city that are given to me by the
+
+          mayors I impress with my showmanship.
+
+
+          \"Live comedy is straight up amazing because people gather to watch it
+
+          in a spectacular setting rather than ogling an evil phone screen in
+
+          some horrid grey dank little corner.\"
+
+
+          SPECIAL EFFECTS: This production may contain Strobe Lighting, Flashing
+
+          Lights, Smoke and Haze.\n"
+        confidence: "high"
+      - id: "comedy/cork-opera-house#d94b91cab0"
+        sourceId: "comedy/cork-opera-house"
+        title: "Adam Rowe – Fashionism"
+        subcategory: "Comedy"
+        occurrence:
+          kind: "single"
+          date: "2026-10-02"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://www.corkoperahouse.ie/whats-on/adam-rowe-fashionism/"
+        image: "https://www.corkoperahouse.ie/wp-content/uploads/2025/10/Website-685x415-2025-10-31T122207.180.png"
+        price:
+          free: false
+          text: "€28"
+          min: 28
+          max: 28
+          currency: "EUR"
+        ageRestriction: "Under 16's must be accompanied by an adult"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "tour"
+        raw: "**Adam Rowe – Fashionism** — Fri 2 Oct, 8pm | €28
+
+
+          Adam Rowe returns to Cork with his new show Fashionism.\n"
+        summary: "The Have A Word podcast host returns to Cork with Fashionism."
+        description: "Adam Rowe returns to Cork with his new show Fashionism.
+
+
+          Host of the Have A Word Podcast, Adam has also featured on Live At The
+
+          Apollo and on tour with Theo Von, Bill Burr, Dave Chappelle and Shane
+
+          Gillis.
+
+
+          SPECIAL EFFECTS: This production may contain Strobe Lighting, Flashing
+
+          Lights, Smoke and Haze.
+
+
+          AGE GUIDANCE: Under 16's must be accompanied by an adult\n"
+        confidence: "high"
+      - id: "comedy/cork-opera-house#f98ed47956"
+        sourceId: "comedy/cork-opera-house"
+        title: "Kyla Cobbler – Not My Lemons"
+        subcategory: "Comedy"
+        occurrence:
+          kind: "single"
+          date: "2026-10-06"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://www.corkoperahouse.ie/whats-on/kyla-cobbler-not-my-lemons/"
+        image: "https://www.corkoperahouse.ie/wp-content/uploads/2025/05/Website-685x415-65.png"
+        price:
+          free: false
+          text: "€39.9"
+          min: 39.9
+          max: 39.9
+          currency: "EUR"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "tour"
+        raw: "**Kyla Cobbler – Not My Lemons** — Tues 6 - Wed 7 Oct, 8pm | €39.9
+
+
+          Kyla returns to Cork Opera House with Not My Lemons after selling out 4
+
+          nights in March.\n"
+        summary: "First of two nights, after Kyla Cobbler sold out four here in March."
+        confidence: "high"
+      - id: "comedy/cork-opera-house#51c9ab2b47"
+        sourceId: "comedy/cork-opera-house"
+        title: "Kyla Cobbler – Not My Lemons"
+        subcategory: "Comedy"
+        occurrence:
+          kind: "single"
+          date: "2026-10-07"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://www.corkoperahouse.ie/whats-on/kyla-cobbler-not-my-lemons/"
+        image: "https://www.corkoperahouse.ie/wp-content/uploads/2025/05/Website-685x415-65.png"
+        price:
+          free: false
+          text: "€39.9"
+          min: 39.9
+          max: 39.9
+          currency: "EUR"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "tour"
+        raw: "**Kyla Cobbler – Not My Lemons** — Tues 6 - Wed 7 Oct, 8pm | €39.9
+
+
+          Second night of the two-night row.\n"
+        summary: "Second of Kyla Cobbler's two Not My Lemons nights."
+        confidence: "high"
+      - id: "comedy/cork-opera-house#eab1e85551"
+        sourceId: "comedy/cork-opera-house"
+        title: "Alan Davies – Think Ahead"
+        subcategory: "Comedy"
+        occurrence:
+          kind: "single"
+          date: "2026-10-12"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://www.corkoperahouse.ie/whats-on/alan-davies-think-ahead/"
+        image: "https://www.corkoperahouse.ie/wp-content/uploads/2026/03/Website-685x415-2026-03-03T121850.564.png"
+        price:
+          free: false
+          text: "€32.5"
+          min: 32.5
+          max: 32.5
+          currency: "EUR"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "tour"
+        raw: "**Alan Davies – Think Ahead** — Mon 12 Oct, 8pm | €32.5
+
+
+          Alan Davies comes to Cork on his latest tour Think Ahead, his first in
+
+          a decade.\n"
+        summary: "The QI regular's first stand-up tour in ten years."
+        confidence: "high"
+      - id: "comedy/cork-opera-house#b55a8bee37"
+        sourceId: "comedy/cork-opera-house"
+        title: "Emma Doran – Emmaculate"
+        subcategory: "Comedy"
+        occurrence:
+          kind: "single"
+          date: "2027-02-27"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://www.corkoperahouse.ie/whats-on/emma-doran-emmaculate/"
+        image: "https://www.corkoperahouse.ie/wp-content/uploads/2026/03/Website-685x415-2026-03-31T165756.059.png"
+        price:
+          free: false
+          text: "€29"
+          min: 29
+          max: 29
+          currency: "EUR"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "tour"
+        raw: "**Emma Doran – Emmaculate** — Sat 27 Feb 2027, 8pm | €29
+
+
+          Smash hit Irish comedian, best-selling author, podcast host and viral
+
+          online star Emma Doran brings her tour to Cork Opera House.\n"
+        summary: "Emma Doran's Emmaculate tour reaches Cork, six months out."
+        confidence: "high"
+      - id: "comedy/cork-opera-house#4bc4884a32"
+        sourceId: "comedy/cork-opera-house"
+        title: "Bernard O'Shea – Desperate House Husband"
+        subcategory: "Comedy"
+        occurrence:
+          kind: "single"
+          date: "2027-03-12"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://www.corkoperahouse.ie/whats-on/bernard-oshea/"
+        image: "https://www.corkoperahouse.ie/wp-content/uploads/2026/04/Website-685x415-2026-04-10T125934.250.png"
+        price:
+          free: false
+          text: "€29"
+          min: 29
+          max: 29
+          currency: "EUR"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "tour"
+        raw: "**Bernard O'Shea – Desperate House Husband** — Fri 12 Mar 2027, 8pm | €29
+
+
+          The Irish comic brings his new show to Cork!\n"
+        summary: "Bernard O'Shea's Desperate House Husband, booked for spring 2027."
+        confidence: "high"
+      - id: "comedy/cork-opera-house#f2bd417f2b"
+        sourceId: "comedy/cork-opera-house"
+        title: "Deirdre O'Kane – All The Rage"
+        subcategory: "Comedy"
+        occurrence:
+          kind: "single"
+          date: "2027-05-07"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://www.corkoperahouse.ie/whats-on/deirdre-okane-all-the-rage/"
+        image: "https://www.corkoperahouse.ie/wp-content/uploads/2026/04/Website-685x415-2026-04-02T145555.477.png"
+        price:
+          free: false
+          text: "€33.5"
+          min: 33.5
+          max: 33.5
+          currency: "EUR"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "tour"
+        raw: "**Deirdre O'Kane – All The Rage** — Fri 7 May 2027, 7:30pm | €33.5
+
+
+          The smash-hit Irish comedian comes back to Cork in 2027.\n"
+        summary: "The finished show whose material Deirdre O'Kane is working up over three nights at the CoCo Comedy Club this September."
+        confidence: "high"
+      - id: "comedy/cork-opera-house#703bc9c0be"
+        sourceId: "comedy/cork-opera-house"
+        title: "Troy Hawke – Never Stop, Never Change"
+        subcategory: "Comedy"
+        occurrence:
+          kind: "single"
+          date: "2027-06-06"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://www.corkoperahouse.ie/whats-on/troy-hawke-never-stop-never-change/"
+        image: "https://www.corkoperahouse.ie/wp-content/uploads/2026/02/Website-685x415-2026-02-10T114603.738.png"
+        price:
+          free: false
+          text: "€31.85"
+          min: 31.85
+          max: 31.85
+          currency: "EUR"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "tour"
+        raw: "**Troy Hawke – Never Stop, Never Change** — Sun 6 Jun 2027, 7:30pm | €31.85
+
+
+          The Comedian Is Bringing His New Show Back To Cork.\n"
+        summary: "Milo McCabe's dressing-gowned Troy Hawke character, and the furthest-out date on the Opera House's comedy list."
+        confidence: "high"
+    notes: "`?category=33` behaved exactly as the hint says: 11 comedy rows from 28 Aug 2026 to 6 Jun 2027, each with date, time, price, image, booking state and a one-line blurb. The whole filtered programme, nothing truncated. Page 2 was not fetched — the hint records it as empty and 11 rows is plainly the lot. The all-shows carousel further down the same page (about 90 links across musicals, ballet, opera and tribute acts) was ignored, as instructed.
+
+
+      Two rows print a date range and were expanded, as the hint requires: Joanne McNally \"Fri 28 - Sat 29 Aug\" and Kyla Cobbler \"Tues 6 - Wed 7 Oct\" become two singles each, giving 13 events from 11 rows. A comedian's two nights are two shows, not a `run`.
+
+
+      Every weekday printed on the page checks out against the year inferred, so all 13 rows are `confidence: high`. The four 2027 rows print their year explicitly.
+
+
+      Careful with the deep links: the filtered list emits its title href with a **doubled trailing slash** (`/whats-on/joanne-mcnally//`), which looks like a template bug. The single-slash form is also on the page — it is the href on each row's image and its Book button — so that is what is recorded here. Nothing was constructed.
+
+
+      Availability badges do not map onto the status enum: Joanne McNally's \"Sold Out\" is recorded as `status: sold-out`, but Sam Campbell's \"Last Few\" has no equivalent, so it stays `scheduled` with the badge kept in `raw`.
+
+
+      `description` was taken for the five soonest shows, whose pages were opened (joanne-mcnally, nish-kumar, gearoid-farrelly-no-pressure, sam-campbell-kid-giblet, adam-rowe-fashionism). The remaining eight have no `description`, because their pages were not opened. Age guidance on those five came off the same pages."
+  - sourceId: "comedy/wonky-donkey"
+    fetch:
+      ok: false
+      url: "https://mardyke.com/the-cellar-theatre/the-wonky-donkey/"
+      status: 401
+      error: "HTTP 401 serving a JavaScript 'Bot check — Javascript is needed to access this site' interstitial; the response body is the bot wall, not the club's page"
+    events: []
+    notes: "Expected failure, and it failed exactly as the catalogue predicted. The browser user-agent route from §2 of the prompt was tried and changed nothing. The site root was also fetched to confirm the wall is domain-wide rather than this path being gone: **https://mardyke.com/ also answers 401** with the same interstitial. So the 401 says nothing about whether the catalogued path is right — a 404 here would look identical — and the entry stays unverified rather than becoming dormant or closed.
+
+
+      No second route exists: the hint records that the club's dates reach neither the PROC event guide nor purecork.ie, and this run found nothing to contradict that. The programme is still unknown. Someone should open it in a browser, or find the Facebook page where the weekly line-up is posted."
+  - sourceId: "comedy/cork-fringe"
+    fetch:
+      ok: true
+      url: "https://corkfringe.ssboxoffice.com/events/feed/"
+      status: 200
+    events:
+      - id: "comedy/cork-fringe#5b3cc8a8b7"
+        sourceId: "comedy/cork-fringe"
+        title: "Johnny FIRE"
+        subcategory: "Comedy"
+        occurrence:
+          kind: "single"
+          date: "2026-05-07"
+          startTime: "18:30"
+        status: "scheduled"
+        timesText: "6:30 pm, 6:55 pm and 7:20 pm"
+        venue:
+          name: "The Fireman's Rest"
+        url: "https://corkfringe.ssboxoffice.com/events/johnny-fire/"
+        price:
+          free: true
+          text: "FREE"
+        tags:
+          - "stand-up"
+          - "festival"
+          - "free-entry"
+        raw: "**Johnny FIRE** — John Spillane — Thursday 7 May, The Fireman's Rest —
+
+          6:30 pm, 6:55 pm, 7:20 pm — Genre: Comedy — Duration: 15 mins — Price:
+
+          FREE
+
+
+          Irish comedy madman John Spillane takes over the Fireman's Rest and
+
+          sets it ablaze with his high-concept, high-energy, stand-up comedy
+
+          extravaganza!\n"
+        summary: "Three free fifteen-minute bursts of high-energy stand-up in one evening, in a room that appears in no other Cork listing."
+        description: "Irish comedy madman John Spillane takes over the Fireman's Rest and
+
+          sets it ablaze with his high-concept, high-energy, stand-up comedy
+
+          extravaganza!
+
+
+          Host of LadBible Ireland and as seen on Comedy Central, RTÉ, WWE & more.
+
+
+          2025 Dublin Fringe award winner
+
+
+          Socials @JohnSpillaneComedy
+
+
+          > \"John may be the most talented and naturally funny performer at the
+
+          > Fringe\" ***** Distractify
+
+
+          > \"The maddest man on the Irish Scene\" — Ranked #1 Irish Comic on
+
+          > IrelandBeforeYouDie.com
+
+
+          > \"One of the country's most energetic performers\" — RTÉ.ie
+
+
+          This show is supported by Cork City Council Night Time Economy.\n"
+        confidence: "high"
+      - id: "comedy/cork-fringe#7c5f37058b"
+        sourceId: "comedy/cork-fringe"
+        title: "The History of Art: A Clown Show"
+        subcategory: "Comedy"
+        occurrence:
+          kind: "single"
+          date: "2026-05-08"
+          startTime: "17:00"
+        status: "scheduled"
+        venue:
+          sourceId: "theatre/firkin-crane"
+        url: "https://corkfringe.ssboxoffice.com/events/the-history-of-art-a-clown-show/"
+        price:
+          free: false
+          text: "€12.50"
+          min: 12.5
+          max: 12.5
+          currency: "EUR"
+        ageRestriction: "12+ Accompanied by an Adult"
+        tags:
+          - "circus"
+          - "physical-theatre"
+          - "festival"
+        raw: "**The History of Art: A Clown Show** — Charee Monroy — Friday 8 May
+
+          5:00 pm, Dance Cork Firkin Crane — Genre: Comedy — Duration: 55 mins —
+
+          Price: €12.50 — 12+ Accompanied by an Adult, Audience Participation
+
+
+          To find her misplaced inspiration, a clown rummages through time & art
+
+          movements, exploring where inspiration comes from, where it went & why
+
+          art moves us in weird, wonderful ways.\n"
+        summary: "A clown ransacks the history of visual art for inspiration, using props, puppets and the audience. Wheelchair accessible."
+        description: "To find her misplaced inspiration, a clown rummages through time & art
+
+          movements, exploring where inspiration comes from, where it went & why
+
+          art moves us in weird, wonderful ways. Making things is never easy, but
+
+          when done with a little mischief and help from your friends (or
+
+          audience members) the clown discovers why people keep making art no
+
+          matter the time, place, or circumstance.
+
+
+          A mashup of visual art and clown, this show was recently developed and
+
+          performed in the Scene + Heard New Works Festival 2026 at Smock Alley
+
+          Theatre in Dublin. Through vignettes of different artists' lives and
+
+          work, the show explores the history of visual art spanning the
+
+          prehistoric to post-modern movements using clown, props, puppets and
+
+          art. This show is for anyone who's ever been brave enough to pick up a
+
+          paintbrush, a knitting needle, or chisel.
+
+
+          Cast & Crew:
+
+
+          - Charee Monroy: Writer & Performer
+
+          - Craig Addison: Producer
+
+          - Michael Sullivan: Sound & Lighting Technician
+
+
+          12+ Accompanied by an Adult, Audience Participation
+
+
+          This venue is wheelchair accessible, if you have accessibility
+
+          requirements, please email us at info@corkfringe.com ahead of your
+
+          visit so we can adequately prepare the space for your comfort.\n"
+        confidence: "high"
+      - id: "comedy/cork-fringe#a82ef52df3"
+        sourceId: "comedy/cork-fringe"
+        title: "The History of Art: A Clown Show"
+        subcategory: "Comedy"
+        occurrence:
+          kind: "single"
+          date: "2026-05-10"
+          startTime: "15:30"
+        status: "scheduled"
+        venue:
+          sourceId: "theatre/firkin-crane"
+        url: "https://corkfringe.ssboxoffice.com/events/the-history-of-art-a-clown-show/"
+        price:
+          free: false
+          text: "€12.50"
+          min: 12.5
+          max: 12.5
+          currency: "EUR"
+        ageRestriction: "12+ Accompanied by an Adult"
+        tags:
+          - "circus"
+          - "physical-theatre"
+          - "festival"
+          - "matinee"
+        raw: "**The History of Art: A Clown Show** — Charee Monroy — Sunday 10 May
+
+          3:30 pm, Dance Cork Firkin Crane — Genre: Comedy — Price: €12.50\n"
+        summary: "Sunday afternoon repeat of Charee Monroy's clown show about the history of art."
+        confidence: "high"
+      - id: "comedy/cork-fringe#5d11fae0c5"
+        sourceId: "comedy/cork-fringe"
+        title: "This Is My Act"
+        subcategory: "Comedy"
+        occurrence:
+          kind: "single"
+          date: "2026-05-09"
+          startTime: "18:45"
+        status: "scheduled"
+        venue:
+          sourceId: "music/the-roundy"
+        url: "https://corkfringe.ssboxoffice.com/events/this-is-my-act/"
+        price:
+          free: false
+          text: "€12.50"
+          min: 12.5
+          max: 12.5
+          currency: "EUR"
+        ageRestriction: "18+, coarse language, sexual and one suicide reference, verbal audience participation"
+        tags:
+          - "stand-up"
+          - "musical"
+          - "festival"
+          - "18-plus"
+        raw: "**This Is My Act** — Eoghan Collins — Saturday 9 May 6:45 pm, The
+
+          Roundy — Genre: Comedy — Duration: 60 mins — Price: €12.50 — 18+
+
+
+          This Is My Act is a musical stand up comedy show by Eoghan Collins
+
+          about ambition and building relationships, no matter how frustrating
+
+          that might be.\n"
+        summary: "Musical stand-up about wanting to act and ending up teaching drama in a prison. Dark, and firmly 18+."
+        description: "From as far back as he can remember, Eoghan wanted to be an actor. But
+
+          dreams turn to nightmares when they're not what you think, especially
+
+          when you find yourself surrounded by prisoners with a glint of desire
+
+          in their eyes and Shania Twain in their hearts.
+
+
+          This Is My Act is a musical stand up comedy show by Eoghan Collins
+
+          about ambition and building relationships, no matter how frustrating
+
+          that might be.
+
+
+          Expect dark jokes and short musical comedy tapas about Disney films,
+
+          choking girlfriends and racist mayonnaise.
+
+
+          As seen on the BBC and featured on Joe.ie.
+
+
+          Written & Performed by Eoghan Collins
+
+
+          18+, coarse language, sexual and one suicide reference, verbal audience
+
+          participation
+
+
+          This venue is not wheelchair accessible.\n"
+        confidence: "high"
+      - id: "comedy/cork-fringe#bfec6c4a0c"
+        sourceId: "comedy/cork-fringe"
+        title: "This Is My Act"
+        subcategory: "Comedy"
+        occurrence:
+          kind: "single"
+          date: "2026-05-10"
+          startTime: "19:00"
+        status: "scheduled"
+        venue:
+          sourceId: "music/the-roundy"
+        url: "https://corkfringe.ssboxoffice.com/events/this-is-my-act/"
+        price:
+          free: false
+          text: "€12.50"
+          min: 12.5
+          max: 12.5
+          currency: "EUR"
+        ageRestriction: "18+, coarse language, sexual and one suicide reference, verbal audience participation"
+        tags:
+          - "stand-up"
+          - "musical"
+          - "festival"
+          - "18-plus"
+        raw: "**This Is My Act** — Eoghan Collins — Sunday 10 May 7:00 pm, The Roundy
+
+          — Genre: Comedy — Price: €12.50 — 18+\n"
+        summary: "Closing-night repeat of Eoghan Collins's musical stand-up show."
+        confidence: "high"
+    notes: "Took the RSS route, which worked as the hint says: 10 items with titles, links and full blurbs, no JavaScript needed. **Between editions, and every row is in the past.** lastBuildDate is 5 May 2026; the 2026 programme has run and 2027 is not announced. Recorded with real past dates so the pipeline retires them, rather than as `undated`, which would leave a four-month-old fringe show looking current for ever.
+
+
+      Date correction for the catalogue: the 2026 edition ran **7–10 May**, not 8–10 May. Johnny FIRE played Thursday 7 May, confirmed on its own event page, and 7 May 2026 is a Thursday.
+
+
+      Deliberate truncation, with numbers: the feed carries 10 items and **3** event pages were opened — johnny-fire, the-history-of-art-a-clown-show and this-is-my-act — chosen because their blurbs read as comedy. Those three turned out to be `Genre: Comedy` and produced the 5 rows below (two of them played twice). The other **7** items (fXILE, The Weight of a Body, The Pigeon Factory, The Girls Room, THE FRIDGE-ING, SWEAT and the \"What is Fringe?\" panel) read as theatre, dance or visual art from their blurbs and their genre was **not** checked, so one or two of them could also be filed as Comedy by the festival. Worth a fuller pass in March–May when the 2027 programme lands.
+
+
+      Route note: the RSS feed's `pubDate` is the WordPress post date, not the performance date — the dates here all come from the event pages. The `&genre=17` comedy filter mentioned in the hint was not tried, since the list renders client-side. This source's real value is its venues: The Fireman's Rest is in no other Cork source in this category."
+  - sourceId: "comedy/allevents-cork"
+    fetch:
+      ok: true
+      url: "https://allevents.in/ie-cork/comedy"
+      status: 200
+    events:
+      - id: "comedy/allevents-cork#a61d6396aa"
+        sourceId: "comedy/allevents-cork"
+        title: "Paweł Reszela stand up Cork"
+        occurrence:
+          kind: "single"
+          date: "2026-08-27"
+          startTime: "20:00"
+        status: "scheduled"
+        venue:
+          name: "Cork & Fork"
+        url: "https://allevents.in/cork/paweł-reszela-stand-up-cork/200029689413633"
+        tags:
+          - "stand-up"
+          - "one-night"
+        raw: "**Paweł Reszela stand up Cork** — Thu, 27 Aug, 2026 - 08:00 PM — Cork &
+
+          Fork — 10+ Interested\n"
+        summary: "A one-off stand-up booking in a restaurant room that carries no arts programme of its own."
+        confidence: "medium"
+      - id: "comedy/allevents-cork#06bff3152e"
+        sourceId: "comedy/allevents-cork"
+        title: "Joanne McNally: Pinotphile"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+          startTime: "20:00"
+        status: "scheduled"
+        venue:
+          sourceId: "comedy/cork-opera-house"
+        url: "https://allevents.in/cork/joanne-mcnally-pinotphile/200029988497815"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "tour"
+        raw: "**Joanne McNally: Pinotphile** — Sat, 29 Aug, 2026 - 07:00 PM — Cork
+
+          Opera House — 119+ Interested
+
+
+          (Time as printed. The Opera House's own listing gives 8pm, which is
+
+          what `startTime` records.)\n"
+        summary: "The second of Joanne McNally's Pinotphile nights, which the Opera House lists as sold out."
+        confidence: "high"
+      - id: "comedy/allevents-cork#548fef0a8c"
+        sourceId: "comedy/allevents-cork"
+        title: "Adam Rowe"
+        occurrence:
+          kind: "single"
+          date: "2026-10-02"
+          startTime: "20:00"
+        status: "scheduled"
+        venue:
+          sourceId: "comedy/cork-opera-house"
+        url: "https://allevents.in/cork/adam-rowe/210002024988596"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "tour"
+        raw: "**Adam Rowe** — Fri, 02 Oct, 2026 - 07:00 PM — Cork Opera House
+
+
+          (Time as printed. The Opera House gives 8pm, which is what `startTime`
+
+          records.)\n"
+        summary: "Adam Rowe's Fashionism at the Opera House, as carried by the city feed."
+        confidence: "high"
+      - id: "comedy/allevents-cork#e7eaeec015"
+        sourceId: "comedy/allevents-cork"
+        title: "Darren Kiely"
+        occurrence:
+          kind: "single"
+          date: "2026-10-07"
+          startTime: "19:00"
+        status: "scheduled"
+        venue:
+          sourceId: "music/cork-city-hall"
+        url: "https://allevents.in/cork/darren-kiely/210003420806434"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "tour"
+        raw: "**Darren Kiely** — Wed, 07 Oct, 2026 - 07:00 PM — Cork City Hall\n"
+        summary: "Comedy in Cork City Hall, a room with no arts programme of its own — this feed is the only source carrying it."
+        confidence: "medium"
+      - id: "comedy/allevents-cork#f2b1b75a5c"
+        sourceId: "comedy/allevents-cork"
+        title: "Alan Davies: 'think Ahead'"
+        occurrence:
+          kind: "single"
+          date: "2026-10-12"
+          startTime: "20:00"
+        status: "scheduled"
+        venue:
+          sourceId: "comedy/cork-opera-house"
+        url: "https://allevents.in/cork/alan-davies-think-ahead/210003581107298"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "tour"
+        raw: "**Alan Davies: 'think Ahead'** — Mon, 12 Oct, 2026 - 07:00 PM — Cork
+
+          Opera House
+
+
+          (Time as printed; title lowercased as printed. The Opera House gives
+
+          8pm, which is what `startTime` records.)\n"
+        summary: "Alan Davies's Think Ahead at the Opera House, as carried by the city feed."
+        confidence: "high"
+      - id: "comedy/allevents-cork#101afa8ef2"
+        sourceId: "comedy/allevents-cork"
+        title: "Rory O'Hanlon"
+        occurrence:
+          kind: "single"
+          date: "2026-10-18"
+          startTime: "19:00"
+        status: "scheduled"
+        venue:
+          sourceId: "music/cyprus-avenue"
+        url: "https://allevents.in/cork/rory-ohanlon/200030435018951"
+        tags:
+          - "stand-up"
+          - "one-night"
+        raw: "**Rory O'Hanlon** — Sun, 18 Oct, 2026 - 07:00 PM — Cyprus Avenue, Cork
+
+          — 5+ Interested\n"
+        summary: "A Sunday-night stand-up booking at Cyprus Avenue."
+        confidence: "medium"
+      - id: "comedy/allevents-cork#a1ef449369"
+        sourceId: "comedy/allevents-cork"
+        title: "Paddy Young: Will Sir Be Laughing"
+        occurrence:
+          kind: "single"
+          date: "2026-11-22"
+          startTime: "19:00"
+        status: "scheduled"
+        venue:
+          sourceId: "music/cyprus-avenue"
+        url: "https://allevents.in/cork/paddy-young-will-sir-be-laughing/210004839971636"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "tour"
+        raw: "**Paddy Young: Will Sir Be Laughing** — Sun, 22 Nov, 2026 - 07:00 PM —
+
+          Cyprus Avenue\n"
+        summary: "Paddy Young's Will Sir Be Laughing tour at Cyprus Avenue."
+        confidence: "medium"
+      - id: "comedy/allevents-cork#1e3e3c947c"
+        sourceId: "comedy/allevents-cork"
+        title: "Troy Hawke"
+        occurrence:
+          kind: "single"
+          date: "2027-06-06"
+          startTime: "19:30"
+        status: "scheduled"
+        venue:
+          sourceId: "comedy/cork-opera-house"
+        url: "https://allevents.in/cork/troy-hawke/210001914082643"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "tour"
+        raw: "**Troy Hawke** — Sun, 06 Jun, 2027 - 07:00 PM — Cork Opera House
+
+
+          (Time as printed. The Opera House gives 7:30pm, which is what
+
+          `startTime` records.)\n"
+        summary: "Troy Hawke at the Opera House, ten months out, as carried by the city feed."
+        confidence: "high"
+    notes: "Eight events in the Cork block, taken in full — the source is shallow, as the catalogue says, and nothing was truncated.
+
+
+      **The nearby-cities block was stripped, as instructed.** Nine rows dropped: Rory's Stories and The Love Hungry Farmer (Tralee), Chris Kent and Deirdre O'Kane (Clonmel), Jenny Greene (Dolans, Limerick), Dan McCabe (Gleneagle Arena, Killarney), Cornelius Patrick O'Sullivan (Ballydehob Community Hall), and Reggie's Farm at the Carrigaline Court Hotel on 12 Sep. The Carrigaline one is the borderline case the hint flags — near the radius, but not Cork city — and it is dropped rather than filed as Cork. If the location config's radius is meant to include Carrigaline, that is a stage 1 decision, and note that comedy/eventbrite-cork-comedy independently surfaces a second Carrigaline show (Mabel Lane, 10 Sep), which *is* recorded there because Eventbrite files it as Cork.
+
+
+      The FAQ block at the foot restates the same eight events in prose and was ignored as duplicate, as the hint says.
+
+
+      **The unreliable-time warning is confirmed and acted on.** AllEvents prints 7:00 PM for four shows the Opera House itself advertises at 8pm (Adam Rowe, Joanne McNally, Alan Davies) or 7:30pm (Troy Hawke). Following the hint, those four carry the venue's own time in `startTime`, with the AllEvents string kept verbatim in `raw`. The three shows AllEvents alone carries (Darren Kiely, Paddy Young, Rory O'Hanlon) keep its 7:00 PM but are `confidence: medium`, because on this page's record that is as likely to be an hour early as right. Paweł Reszela's 8:00 PM is left alone.
+
+
+      This source earns its place on Darren Kiely at Cork City Hall (7 Oct) and Paweł Reszela at Cork & Fork (27 Aug) — neither is in any other comedy source. Cork & Fork is not catalogued, so it is recorded as `venue.name`.
+
+
+      No prices are printed for the Cork block (only the nearby-cities rows show any), and `image` is omitted throughout: the card images are injected by a Vue template client-side and are not in the served HTML. All eight weekdays check out against the years given."
+  - sourceId: "comedy/eventbrite-cork-comedy"
+    fetch:
+      ok: true
+      url: "https://www.eventbrite.ie/d/ireland--cork/comedy/"
+      status: 200
+    events:
+      - id: "comedy/eventbrite-cork-comedy#1c53a9a7bb"
+        sourceId: "comedy/eventbrite-cork-comedy"
+        title: "Stand-Up Comedy Club: Thursday Showcase"
+        occurrence:
+          kind: "single"
+          date: "2026-08-27"
+          startTime: "20:30"
+        status: "scheduled"
+        venue:
+          sourceId: "music/the-roundy"
+        url: "https://www.eventbrite.ie/e/stand-up-comedy-club-thursday-showcase-tickets-1990996779965?aff=ebdssbdestsearch"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186093435%2F673996367323%2F1%2Foriginal.20240903-214100?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=5fa8b78c3f6e9dc20e96d712247ca353"
+        tags:
+          - "stand-up"
+          - "weekly"
+          - "booking-required"
+        raw: "**Stand-Up Comedy Club: Thursday Showcase** — Thu, Aug 27, 8:30 PM —
+
+          Blackpool · The Roundy
+
+
+          (Eventbrite files The Roundy under \"Blackpool\"; Castle Street is on the
+
+          island.)\n"
+        summary: "One dated sitting of the CoCo club's weekly Thursday variety bill, sold through Eventbrite."
+        confidence: "high"
+      - id: "comedy/eventbrite-cork-comedy#ad3409d61f"
+        sourceId: "comedy/eventbrite-cork-comedy"
+        title: "Stand-Up Comedy Club: Cork's Best Stand-Up"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+          startTime: "20:30"
+        status: "scheduled"
+        venue:
+          sourceId: "music/the-roundy"
+        url: "https://www.eventbrite.ie/e/stand-up-comedy-club-corks-best-stand-up-tickets-1990996869232?aff=ebdssbdestsearch"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186093709%2F673996367323%2F1%2Foriginal.20240903-205650"
+        tags:
+          - "stand-up"
+          - "weekly"
+          - "headliner"
+        raw: "**Stand-Up Comedy Club: Cork's Best Stand-Up** — Sat, Aug 29, 8:30 PM —
+
+          Blackpool · The Roundy
+
+
+          Eventbrite's name for the Saturday 8:30pm slot that the PROC diary
+
+          titles \"Primetime Comedy Show\".\n"
+        summary: "The Saturday primetime bill at The Roundy, under the name Eventbrite sells it as."
+        confidence: "high"
+      - id: "comedy/eventbrite-cork-comedy#2d4dd54f2d"
+        sourceId: "comedy/eventbrite-cork-comedy"
+        title: "TEST TUBE BABIES - AN ALTERNATIVE COMEDY SHOW"
+        occurrence:
+          kind: "single"
+          date: "2026-09-05"
+          startTime: "20:00"
+        status: "scheduled"
+        venue:
+          name: "Triskel Arts Centre"
+        url: "https://www.eventbrite.co.uk/e/test-tube-babies-an-alternative-comedy-show-tickets-1997387909004?aff=ebdssbdestsearch"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190655441%2F244094364067%2F1%2Foriginal.20260809-180939"
+        tags:
+          - "stand-up"
+          - "experimental"
+          - "one-night"
+        raw: "**TEST TUBE BABIES - AN ALTERNATIVE COMEDY SHOW** — Sat, Sep 5, 8:00 PM
+
+          — Blackpool · Triskel Arts Centre\n"
+        summary: "An alternative comedy night in the Triskel, which programmes almost no comedy — this is the only source carrying it."
+        confidence: "high"
+      - id: "comedy/eventbrite-cork-comedy#b2a0a923da"
+        sourceId: "comedy/eventbrite-cork-comedy"
+        title: "A Night Of Comedy at Mabel Lane"
+        occurrence:
+          kind: "single"
+          date: "2026-09-10"
+          startTime: "20:00"
+        status: "scheduled"
+        venue:
+          name: "Mabel Lane, Carrigaline"
+        url: "https://www.eventbrite.ie/e/a-night-of-comedy-at-mabel-lane-tickets-1997858104371?aff=ebdssbdestsearch"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190983265%2F222449825507%2F1%2Foriginal.20260813-145333"
+        tags:
+          - "stand-up"
+          - "one-night"
+        raw: "**A Night Of Comedy at Mabel Lane** — Just added — Thu, Sep 10, 8:00 PM
+
+          — Carrigaline · Mabel Lane\n"
+        summary: "A new comedy night in Carrigaline, which Eventbrite files under Cork while AllEvents files the town separately."
+        confidence: "medium"
+      - id: "comedy/eventbrite-cork-comedy#dc096bcb49"
+        sourceId: "comedy/eventbrite-cork-comedy"
+        title: "Paul Crowley  \" That's Paul Folks \"  Corks Biggest and Original Comedy Club"
+        occurrence:
+          kind: "single"
+          date: "2026-09-11"
+          startTime: "20:00"
+        status: "scheduled"
+        venue:
+          sourceId: "comedy/city-limits"
+        url: "https://www.eventbrite.ie/e/paul-crowley-thats-paul-folks-corks-biggest-and-original-comedy-club-tickets-1991069880611?aff=ebdssbdestsearch"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186157036%2F2090452868933%2F1%2Foriginal.20260604-141827"
+        tags:
+          - "stand-up"
+          - "one-night"
+        raw: "**Paul Crowley  \" That's Paul Folks \"  Corks Biggest and Original
+
+          Comedy Club** — Fri, Sep 11, 8:00 PM — Blackpool · Cork Comedy Club -
+
+          City Limits\n"
+        summary: "A Paul Crowley show at City Limits that the venue's PROC diary does not carry at all."
+        confidence: "high"
+      - id: "comedy/eventbrite-cork-comedy#3e2ffd07c3"
+        sourceId: "comedy/eventbrite-cork-comedy"
+        title: "The Beamish Room Comedy Club At The Merchant"
+        occurrence:
+          kind: "single"
+          date: "2026-09-11"
+          startTime: "20:00"
+        status: "scheduled"
+        venue:
+          name: "The Merchant"
+        url: "https://www.eventbrite.ie/e/the-beamish-room-comedy-club-at-the-merchant-tickets-1996990562530?aff=ebdssbdestsearch"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190457452%2F222449825507%2F1%2Foriginal.20260806-132230"
+        tags:
+          - "stand-up"
+          - "one-night"
+        raw: "**The Beamish Room Comedy Club At The Merchant** — Fri, Sep 11, 8:00 PM
+
+          — Blackpool · The Merchant\n"
+        summary: "A comedy club night in the Beamish Room at The Merchant, a bar with no arts listings of its own. Possibly a new residency worth cataloguing."
+        confidence: "medium"
+      - id: "comedy/eventbrite-cork-comedy#c4cd465ea6"
+        sourceId: "comedy/eventbrite-cork-comedy"
+        title: "Fred Cooke  Clown to Earth"
+        occurrence:
+          kind: "single"
+          date: "2026-09-11"
+          startTime: "20:30"
+        status: "scheduled"
+        venue:
+          name: "Paddy Mac's"
+        url: "https://www.eventbrite.ie/e/fred-cooke-clown-to-earth-tickets-1982463282043?aff=ebdssbdestsearch"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176820670%2F256002555965%2F1%2Foriginal.20260205-211101"
+        tags:
+          - "stand-up"
+          - "one-night"
+          - "tour"
+        raw: "**Fred Cooke  Clown to Earth** — Fri, Sep 11, 8:30 PM — Cork · Paddy
+
+          Mac's
+
+
+          (One of the few rows Eventbrite labels \"Cork\" rather than
+
+          \"Blackpool\".)\n"
+        summary: "Fred Cooke's Clown to Earth in a city-centre pub, in a room that appears in no other source here."
+        confidence: "high"
+      - id: "comedy/eventbrite-cork-comedy#e73d88727b"
+        sourceId: "comedy/eventbrite-cork-comedy"
+        title: "Deirdre O'Kane - Work in Progress at the CoCo Comedy Club"
+        occurrence:
+          kind: "single"
+          date: "2026-09-17"
+          startTime: "19:00"
+        status: "scheduled"
+        venue:
+          sourceId: "music/the-roundy"
+        url: "https://www.eventbrite.ie/e/deirdre-okane-work-in-progress-at-the-coco-comedy-club-tickets-1977028681005?aff=ebdssbdestsearch"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1172387284%2F673996367323%2F1%2Foriginal.20251205-144849"
+        tags:
+          - "stand-up"
+          - "work-in-progress"
+          - "headliner"
+        raw: "**Deirdre O'Kane - Work in Progress at the CoCo Comedy Club** — Thu, Sep
+
+          17, 7:00 PM — Blackpool · The Roundy
+
+
+          Only the first of the three announced nights appears as a card here;
+
+          the 18th and 19th are on the PROC diary.\n"
+        summary: "The opening night of Deirdre O'Kane's three-night work-in-progress run, as sold on Eventbrite."
+        confidence: "high"
+      - id: "comedy/eventbrite-cork-comedy#45e10616e4"
+        sourceId: "comedy/eventbrite-cork-comedy"
+        title: "Risteard Cooper  \" Out Of His Head \"    A real not to be missed comedian !"
+        occurrence:
+          kind: "single"
+          date: "2026-09-25"
+          startTime: "20:00"
+        status: "scheduled"
+        venue:
+          sourceId: "comedy/city-limits"
+        url: "https://www.eventbrite.ie/e/risteard-cooper-out-of-his-head-a-real-not-to-be-missed-comedian-tickets-1993015492990?aff=ebdssbdestsearch"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188083217%2F2090452868933%2F1%2Foriginal.20260702-142445"
+        tags:
+          - "stand-up"
+          - "one-night"
+          - "headliner"
+        raw: "**Risteard Cooper  \" Out Of His Head \"    A real not to be missed
+
+          comedian !** — Fri, Sep 25, 8:00 PM — Blackpool · Cork Comedy Club -
+
+          City Limits\n"
+        summary: "The City Limits Risteard Cooper show, under the club's own longer marketing title."
+        confidence: "high"
+      - id: "comedy/eventbrite-cork-comedy#60651941a3"
+        sourceId: "comedy/eventbrite-cork-comedy"
+        title: "Thomas Green - Brainstorm"
+        occurrence:
+          kind: "single"
+          date: "2026-09-25"
+          startTime: "19:00"
+        status: "scheduled"
+        venue:
+          sourceId: "music/cyprus-avenue"
+        url: "https://www.eventbrite.ie/e/thomas-green-brainstorm-tickets-1984166918666?aff=ebdssbdestsearch"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178663282%2F134939632347%2F1%2Foriginal.20260228-015558"
+        tags:
+          - "stand-up"
+          - "one-night"
+          - "tour"
+        raw: "**Thomas Green - Brainstorm** — Almost full — Fri, Sep 25, 7:00 PM —
+
+          Blackpool · Cyprus Avenue\n"
+        summary: "Thomas Green's Brainstorm at Cyprus Avenue, listed as almost full."
+        confidence: "high"
+      - id: "comedy/eventbrite-cork-comedy#06814eb08c"
+        sourceId: "comedy/eventbrite-cork-comedy"
+        title: "Mike Rice ( Cruel Little Man )  Extra Show ,  been recorded as a Special !"
+        occurrence:
+          kind: "single"
+          date: "2026-10-02"
+          startTime: "19:00"
+        status: "scheduled"
+        venue:
+          sourceId: "comedy/city-limits"
+        url: "https://www.eventbrite.ie/e/mike-rice-cruel-little-man-extra-show-been-recorded-as-a-special-tickets-1992428561462?aff=ebdssbdestsearch"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F909636163%2F2090452868933%2F1%2Foriginal.20241202-063539"
+        tags:
+          - "stand-up"
+          - "one-night"
+        raw: "**Mike Rice ( Cruel Little Man )  Extra Show ,  been recorded as a
+
+          Special !** — Fri, Oct 2, **7:00 AM** — Blackpool · Cork Comedy Club -
+
+          City Limits
+
+
+          The 7:00 AM is Eventbrite's error; City Limits' own diary times this
+
+          sitting at 7pm, which is what `startTime` records.\n"
+        summary: "The early sitting of Mike Rice's Cruel Little Man double at City Limits."
+        confidence: "medium"
+      - id: "comedy/eventbrite-cork-comedy#e21dcedf62"
+        sourceId: "comedy/eventbrite-cork-comedy"
+        title: "Mike Rice ( Cruel Little Man ) and Guests"
+        occurrence:
+          kind: "single"
+          date: "2026-10-02"
+          startTime: "21:30"
+        status: "scheduled"
+        venue:
+          sourceId: "comedy/city-limits"
+        url: "https://www.eventbrite.ie/e/mike-rice-cruel-little-man-and-guests-tickets-1984442997425?aff=ebdssbdestsearch"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F909636163%2F2090452868933%2F1%2Foriginal.20241202-063539"
+        tags:
+          - "stand-up"
+          - "one-night"
+          - "late-night"
+        raw: "**Mike Rice ( Cruel Little Man ) and Guests** — Fri, Oct 2, **9:00 AM**
+
+          — Blackpool · Cork Comedy Club - City Limits
+
+
+          The 9:00 AM is Eventbrite's error; City Limits' own diary times this
+
+          sitting at 9:30pm, which is what `startTime` records.\n"
+        summary: "The late sitting of Mike Rice's Cruel Little Man double, with support acts."
+        confidence: "medium"
+      - id: "comedy/eventbrite-cork-comedy#4b1a707cc4"
+        sourceId: "comedy/eventbrite-cork-comedy"
+        title: "Stand-Up Comedy Club: Eric Lalor and Guests"
+        occurrence:
+          kind: "single"
+          date: "2026-10-17"
+          startTime: "20:30"
+        status: "scheduled"
+        venue:
+          sourceId: "music/the-roundy"
+        url: "https://www.eventbrite.ie/e/stand-up-comedy-club-eric-lalor-and-guests-tickets-1991979532404?aff=ebdssbdestsearch"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187016849%2F673996367323%2F1%2Foriginal.20260616-112719"
+        tags:
+          - "stand-up"
+          - "one-night"
+          - "headliner"
+        raw: "**Stand-Up Comedy Club: Eric Lalor and Guests** — Sat, Oct 17, 8:30 PM
+
+          — Blackpool · The Roundy
+
+
+          A named Saturday primetime bill; the PROC diary stops at Sat 10 Oct and
+
+          does not carry it.\n"
+        summary: "Eric Lalor headlining the Saturday primetime slot at The Roundy, further out than the PROC diary reaches."
+        confidence: "high"
+      - id: "comedy/eventbrite-cork-comedy#32378919e3"
+        sourceId: "comedy/eventbrite-cork-comedy"
+        title: "Paddy McDonnell - Gout's Out"
+        occurrence:
+          kind: "single"
+          date: "2026-10-21"
+          startTime: "19:00"
+        status: "scheduled"
+        venue:
+          name: "Winthrop Avenue (@ Old Oak)"
+        url: "https://www.eventbrite.ie/e/paddy-mcdonnell-gouts-out-tickets-1989397049127?aff=ebdssbdestsearch"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184516572%2F134939632347%2F1%2Foriginal.20260513-163059"
+        tags:
+          - "stand-up"
+          - "one-night"
+          - "tour"
+        raw: "**Paddy McDonnell - Gout's Out** — Wed, Oct 21, 7:00 PM — Blackpool ·
+
+          Winthrop Avenue    (@ Old Oak)\n"
+        summary: "Paddy McDonnell's Gout's Out in the Winthrop Avenue room at the Old Oak."
+        confidence: "high"
+      - id: "comedy/eventbrite-cork-comedy#059253a721"
+        sourceId: "comedy/eventbrite-cork-comedy"
+        title: "Stand-Up Comedy Club: Sharon Mannion and Guests"
+        occurrence:
+          kind: "single"
+          date: "2026-10-24"
+          startTime: "20:30"
+        status: "scheduled"
+        venue:
+          sourceId: "music/the-roundy"
+        url: "https://www.eventbrite.ie/e/stand-up-comedy-club-sharon-mannion-and-guests-tickets-1991980093081?aff=ebdssbdestsearch"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187017526%2F673996367323%2F1%2Foriginal.20260616-114026"
+        tags:
+          - "stand-up"
+          - "one-night"
+          - "headliner"
+        raw: "**Stand-Up Comedy Club: Sharon Mannion and Guests** — Sat, Oct 24, 8:30
+
+          PM — Blackpool · The Roundy
+
+
+          A different date from the Sharon Mannion show on the PROC diary (Sat 17
+
+          Apr 2027), so two separate bookings rather than one moved.\n"
+        summary: "Sharon Mannion headlining a Saturday primetime bill at The Roundy, six months before her named April show."
+        confidence: "high"
+      - id: "comedy/eventbrite-cork-comedy#4c8dcc2746"
+        sourceId: "comedy/eventbrite-cork-comedy"
+        title: "Nurse Georgie Carroll - Infectious"
+        occurrence:
+          kind: "single"
+          date: "2026-10-28"
+          startTime: "19:00"
+        status: "scheduled"
+        venue:
+          sourceId: "music/cyprus-avenue"
+        url: "https://www.eventbrite.ie/e/nurse-georgie-carroll-infectious-tickets-1983734486249?aff=ebdssbdestsearch"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178160462%2F134939632347%2F1%2Foriginal.20260222-233450"
+        tags:
+          - "stand-up"
+          - "one-night"
+          - "tour"
+        raw: "**Nurse Georgie Carroll - Infectious** — Selling fast — Wed, Oct 28,
+
+          7:00 PM — Blackpool · Cyprus Avenue\n"
+        summary: "The nurse-turned-comedian's Infectious tour at Cyprus Avenue, listed as selling fast."
+        confidence: "high"
+      - id: "comedy/eventbrite-cork-comedy#05855e3f17"
+        sourceId: "comedy/eventbrite-cork-comedy"
+        title: "Catherine Bohart - Borrowing Trouble"
+        occurrence:
+          kind: "single"
+          date: "2026-11-05"
+          startTime: "20:00"
+        status: "scheduled"
+        venue:
+          sourceId: "comedy/city-limits"
+        url: "https://www.eventbrite.ie/e/catherine-bohart-borrowing-trouble-tickets-1984445701513?aff=ebdssbdestsearch"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178980293%2F2090452868933%2F1%2Foriginal.20260304-044408"
+        tags:
+          - "stand-up"
+          - "one-night"
+          - "tour"
+        raw: "**Catherine Bohart - Borrowing Trouble** — Thu, Nov 5, 8:00 PM —
+
+          Blackpool · Cork Comedy Club - City Limits\n"
+        summary: "Catherine Bohart's Borrowing Trouble at City Limits, agreeing with the venue's own diary on date and time."
+        confidence: "high"
+      - id: "comedy/eventbrite-cork-comedy#62755e2d2b"
+        sourceId: "comedy/eventbrite-cork-comedy"
+        title: "Anne Gildea - Further Adventures in WOMANING"
+        occurrence:
+          kind: "single"
+          date: "2026-11-20"
+          startTime: "20:00"
+        status: "scheduled"
+        venue:
+          sourceId: "comedy/city-limits"
+        url: "https://www.eventbrite.ie/e/anne-gildea-further-adventures-in-womaning-tickets-1984446250154?aff=ebdssbdestsearch"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178981029%2F2090452868933%2F1%2Foriginal.20260304-050121"
+        tags:
+          - "stand-up"
+          - "one-night"
+          - "tour"
+        raw: "**Anne Gildea - Further Adventures in WOMANING** — Fri, Nov 20, 8:00 PM
+
+          — Blackpool · Cork Comedy Club - City Limits\n"
+        summary: "Anne Gildea at City Limits, agreeing with the venue's own diary on date and time."
+        confidence: "high"
+      - id: "comedy/eventbrite-cork-comedy#82b02daf21"
+        sourceId: "comedy/eventbrite-cork-comedy"
+        title: "Stand-Up Comedy Club: The Earlier Show"
+        occurrence:
+          kind: "recurring"
+          pattern: "Saturday at 6:30 PM"
+          startTime: "18:30"
+        status: "scheduled"
+        venue:
+          sourceId: "music/the-roundy"
+        url: "https://www.eventbrite.ie/e/stand-up-comedy-club-the-earlier-show-tickets-1990996845160?aff=ebdssbdestsearch"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186093611%2F673996367323%2F1%2Foriginal.20240903-145146"
+        tags:
+          - "stand-up"
+          - "weekly"
+          - "booking-required"
+        raw: "**Stand-Up Comedy Club: The Earlier Show** — Saturday at 6:30 PM —
+
+          Blackpool · The Roundy
+
+
+          The card prints a weekday and no date, so this is recorded as the
+
+          pattern it states rather than pinned to a guessed Saturday.\n"
+        summary: "The Roundy's early Saturday sitting, sold as a recurring Eventbrite listing with no single date."
+        confidence: "high"
+      - id: "comedy/eventbrite-cork-comedy#cb875c46fd"
+        sourceId: "comedy/eventbrite-cork-comedy"
+        title: "Stand-Up Comedy Club: Low-Key Funny"
+        occurrence:
+          kind: "recurring"
+          pattern: "Wednesday at 8:30 PM"
+          startTime: "20:30"
+        status: "scheduled"
+        venue:
+          sourceId: "music/the-roundy"
+        url: "https://www.eventbrite.ie/e/stand-up-comedy-club-low-key-funny-tickets-1990996738842?aff=ebdssbdestsearch"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186093342%2F673996367323%2F1%2Foriginal.20240205-193325"
+        tags:
+          - "stand-up"
+          - "weekly"
+          - "work-in-progress"
+        raw: "**Stand-Up Comedy Club: Low-Key Funny** — Sales end soon — Wednesday at
+
+          8:30 PM — Blackpool · The Roundy
+
+
+          The card prints a weekday and no date. This is the only source that
+
+          gives the Wednesday night a start time; the club's own site names the
+
+          night but no time.\n"
+        summary: "The Wednesday new-material night at The Roundy, and the only listing that puts a time on it."
+        confidence: "high"
+    notes: "Twenty cards on the first page of results, all recorded, with title, date, time, venue, image and deep link on every one. Pagination was not followed — twenty is the page's own set and the aggregator is allowed to be partial; there may be more beyond it.
+
+
+      **This source is the reason the category is not just the Opera House.** Five of the twenty are in rooms no other Cork comedy source carries: The Merchant (a Beamish Room club night, 11 Sep), Paddy Mac's (Fred Cooke, 11 Sep), Winthrop Avenue @ Old Oak (Paddy McDonnell, 21 Oct), Triskel Arts Centre (Test Tube Babies, 5 Sep) and Mabel Lane (10 Sep). It also carries three Roundy shows the PROC diary does not — Sharon Mannion 24 Oct, Eric Lalor 17 Oct, \"Cork's Best Stand-Up\" 29 Aug — and one City Limits show PROC misses, Paul Crowley on 11 Sep.
+
+
+      **Overlap is deliberate, not accidental.** Nine rows restate events already recorded under comedy/coco-comedy-club (the Roundy weekly slots and the Deirdre O'Kane 17 Sep sitting) or comedy/city-limits (Risteard Cooper, both Mike Rice shows, Catherine Bohart, Anne Gildea). Both sources said these things today, so both records say so; deciding which to show is compile's problem, not a witness's.
+
+
+      **Eventbrite's clock is broken on the Mike Rice rows and it matters.** It prints \"Fri, Oct 2, 9:00 AM\" and \"Fri, Oct 2, 7:00 AM\" for two evening shows that City Limits' own diary times at 9:30pm and 7pm — twelve hours out, and thirty minutes out on top. Those two carry the venue's corroborated evening time in `startTime`, with Eventbrite's string verbatim in `raw`, and `confidence: medium`. Publishing a 9am stand-up gig contradicted by another source in the same run would have been the worse error.
+
+
+      **Do not trust `area` from here, as the hint warns.** Every Cork row is labelled \"Blackpool\" — including Castle Street, Coburg Street, Cyprus Avenue and Triskel — so no `venue.area` is set anywhere in this observation; only `sourceId` or `name`.
+
+
+      Two venue names were left as `name` rather than resolved to an id, because the catalogue holds more than one candidate and guessing would put the event in the wrong room: **Triskel Arts Centre** (catalogued three times, as music/triskel-christchurch, cinema/triskel-christchurch and art/triskel-gallery, none of them the umbrella venue Eventbrite names) and **Winthrop Avenue (@ Old Oak)** (Old Oak is catalogued twice, as music/old-oak and trad/old-oak). Both worth stage 1 resolving.
+
+
+      Titles here are marketing copy, as the hint says — \"Corks Biggest and Original Comedy Club\" is appended to Paul Crowley's show name, and Mike Rice's second show carries \"Extra Show , been recorded as a Special !\". Recorded as printed rather than tidied, since the id derives from the title and trimming it here would break the match on a later run.
+
+
+      Two rows print a weekday and no date — \"Saturday at 6:30 PM\" and \"Wednesday at 8:30 PM\" — which is a pattern, not a date, so they are `recurring` rather than being pinned to a guessed Saturday. Badges like \"Selling fast\", \"Almost full\", \"Sales end soon\" and \"Just added\" have no equivalent in the status enum and are kept in `raw` instead. Test Tube Babies' link is on eventbrite.**co.uk**, not .ie, and is recorded as found."

@@ -29,8 +29,8 @@ import type { RouteRole } from "../schema/catalogue.js";
  * has quietly moved is worth exactly as much as a moved page — and it is the
  * kind of breakage nobody notices by eye.
  *
- *   npm run check-urls -- bristol-uk
- *   npm run check-urls -- bristol-uk --category theatre
+ *   npm run check-urls -- gb-bristol
+ *   npm run check-urls -- gb-bristol --category theatre
  */
 
 const { locations, rest } = resolveLocations();

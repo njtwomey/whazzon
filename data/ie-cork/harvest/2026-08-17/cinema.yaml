@@ -1,0 +1,3404 @@
+schema: "whazzon.harvest/1"
+locationId: "ie-cork"
+date: "2026-08-17"
+category: "cinema"
+harvestedAt: "2026-08-17T16:05:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "4"
+model: "claude-opus-5[1m]"
+observations:
+  - sourceId: "cinema/omniplex-mahon-point"
+    fetch:
+      ok: true
+      url: "https://www.omniplex.ie/cinema/showtimes/cork"
+      status: 200
+    events:
+      - id: "cinema/omniplex-mahon-point#d14b7d4ea6"
+        sourceId: "cinema/omniplex-mahon-point"
+        title: "Spider-Man: Brand New Day"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "13:50"
+        status: "scheduled"
+        timesText: "13:50 (MAXX 1), 14:20 (Screen 4), 16:00 (Screen 6), 17:00 (MAXX 1), 17:30 (Screen 4), 19:30 (Screen 6), 20:10 (MAXX 1), 20:40 (Screen 4)"
+        url: "https://www.omniplex.ie/cinema/movie/cork/spider-man-brand-new-day"
+        image: "https://www.omniplex.ie/cms/Spider%20Man%20Brand%20New%20Day%20Web%20Poster.webp"
+        price:
+          free: false
+          text: "From €7.95 (OmniplexMAXX from €9.95); booking online is €1.00 cheaper"
+          min: 7.95
+          max: 9.95
+          currency: "EUR"
+        ageRestriction: "12A"
+        tags:
+          - "screening"
+          - "new-release"
+          - "headliner"
+        raw: "**Spider-Man: Brand New Day** (12A) — Mon 17 Aug 2026. Action. 2hrs 25min.
+
+
+          Today's showtimes: 13:50 (MAXX 1), 14:20 (Screen 4), 16:00 (Screen 6), 17:00 (MAXX 1), 17:30 (Screen 4), 19:30 (Screen 6), 20:10 (MAXX 1), 20:40 (Screen 4).
+
+
+          The fourth installment in the Spider-Man franchise and part of Phase Six of the Marvel Cinematic Universe (MCU). A forgotten Peter Parker lives alone as a full-time Spider-Man until mounting pressure triggers a dangerous change and a powerful new enemy emerges."
+        summary: "The fourth Spider-Man film, on eight screenings today across three screens including two OmniplexMAXX shows."
+        confidence: "high"
+      - id: "cinema/omniplex-mahon-point#0e6acd15e7"
+        sourceId: "cinema/omniplex-mahon-point"
+        title: "The Odyssey"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "14:10"
+        status: "scheduled"
+        timesText: "14:10 (Screen 5), 15:40 (MAXX 2), 16:20 (Screen 13), 19:20 (MAXX 2), 20:00 (Screen 13)"
+        url: "https://www.omniplex.ie/cinema/movie/cork/the-odyssey"
+        image: "https://www.omniplex.ie/cms/The%20Odyssey%20Web%20Poster.webp"
+        price:
+          free: false
+          text: "From €7.95 (OmniplexMAXX from €9.95); booking online is €1.00 cheaper"
+          min: 7.95
+          max: 9.95
+          currency: "EUR"
+        ageRestriction: "15A"
+        tags:
+          - "screening"
+          - "new-release"
+          - "classic"
+        raw: "**The Odyssey** (15A) — Mon 17 Aug 2026. Action, Adventure, Drama, Fantasy. 2hrs 52min.
+
+
+          Today's showtimes: 14:10 (Screen 5), 15:40 (MAXX 2), 16:20 (Screen 13), 19:20 (MAXX 2), 20:00 (Screen 13).
+
+
+          After the Trojan War, Odysseus faces a dangerous voyage back to Ithaca, meeting creatures like the Cyclops Polyphemus, Sirens, and Circe along the way."
+        summary: "Christopher Nolan's Homer adaptation, on five times today including two on OmniplexMAXX."
+        confidence: "high"
+      - id: "cinema/omniplex-mahon-point#11c62ab7be"
+        sourceId: "cinema/omniplex-mahon-point"
+        title: "The End Of Oak Street"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "13:30"
+        status: "scheduled"
+        timesText: "13:30 (Screen 3), 15:50 (Screen 3), 17:05 (Screen 8), 18:10 (Screen 3), 19:30 (Screen 8), 20:30 (Screen 3)"
+        url: "https://www.omniplex.ie/cinema/movie/cork/the-end-of-oak-street"
+        image: "https://www.omniplex.ie/cms/The%20End%20of%20Oak%20Street%20Web%20Poster.webp"
+        price:
+          free: false
+          text: "From €7.95; booking online is €1.00 cheaper"
+          min: 7.95
+          max: 7.95
+          currency: "EUR"
+        ageRestriction: "15A"
+        tags:
+          - "screening"
+          - "new-release"
+          - "sci-fi"
+        raw: "**The End Of Oak Street** (15A) — Mon 17 Aug 2026. Sci-Fi, Action, Adventure, Thriller. 1hr 39min.
+
+
+          Today's showtimes: 13:30 (Screen 3), 15:50 (Screen 3), 17:05 (Screen 8), 18:10 (Screen 3), 19:30 (Screen 8), 20:30 (Screen 3).
+
+
+          After a mysterious cosmic event rips Oak Street from suburbia and transports their neighbourhood to someplace unknown, the Platt family soon discovers that their very survival depends on them sticking together as they navigate their now unrecognisable surroundings."
+        summary: "Suburban science-fiction thriller about a street torn out of its own neighbourhood. Six screenings today."
+        confidence: "high"
+      - id: "cinema/omniplex-mahon-point#5030523891"
+        sourceId: "cinema/omniplex-mahon-point"
+        title: "Sunny Dancer"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "17:25"
+        status: "scheduled"
+        timesText: "17:25 (Screen 11), 20:00 (Screen 11)"
+        url: "https://www.omniplex.ie/cinema/movie/cork/sunny-dancer"
+        image: "https://www.omniplex.ie/cms/Sunny%20Dancer%20Web%20Poster.webp"
+        price:
+          free: false
+          text: "From €7.95; booking online is €1.00 cheaper"
+          min: 7.95
+          max: 7.95
+          currency: "EUR"
+        tags:
+          - "screening"
+          - "new-release"
+          - "indie"
+        raw: "**Sunny Dancer** — Mon 17 Aug 2026. Comedy, Drama. 1hr 46min.
+
+
+          Today's showtimes: 17:25 (Screen 11), 20:00 (Screen 11).
+
+
+          Her lovingly overbearing parents have other plans: four weeks at Children Run Free Camp, a camp for young adults affected by cancer. A quick Google search confirms her fears with a shitty promo trailer - sunsets, crossfades, everything iMovie can vomit up. As if beating cancer wasn’t enough, now she has to go to summer camp. But ?Chemo camp? turns out to be more inspiring than expected. She meets like-minded misfits who just want to ?fuck shit up? and live life to the fullest - snorting prescription drugs, downing vodka, skinny dipping... and maybe even falling in love. Sunny Dancer is a coming-of-age comedy-romance celebrating love, friendship, and challenging adversity: feeling most alive whilst the world has other plans."
+        summary: "Comedy drama on two evening screenings today."
+        confidence: "high"
+      - id: "cinema/omniplex-mahon-point#ce9d755900"
+        sourceId: "cinema/omniplex-mahon-point"
+        title: "Holy Days"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "18:20"
+        status: "scheduled"
+        timesText: "18:20 (Screen 12), 20:50 (Screen 12)"
+        url: "https://www.omniplex.ie/cinema/movie/cork/holy-days"
+        image: "https://www.omniplex.ie/cms/Holy%20Days%20Web%20Poster.webp"
+        price:
+          free: false
+          text: "From €7.95; booking online is €1.00 cheaper"
+          min: 7.95
+          max: 7.95
+          currency: "EUR"
+        ageRestriction: "12A"
+        tags:
+          - "screening"
+          - "new-release"
+          - "comedy"
+        raw: "**Holy Days** (12A) — Mon 17 Aug 2026. Adventure, Comedy, Drama. 1hr 41min.
+
+
+          Today's showtimes: 18:20 (Screen 12), 20:50 (Screen 12).
+
+
+          1974 New Zealand: young Brian’s heart is broken, but he finds a quirky crew of nuns in a rundown convent facing shutdown. Together, they hit the road in a wild, hilarious race to save their home. Holy Days is a feel-good joyride about faith, fierce family vibes, and finding hope where you least expect it. Buckle up!"
+        summary: "Adventure comedy drama, two evening screenings today."
+        confidence: "high"
+      - id: "cinema/omniplex-mahon-point#4be13d7750"
+        sourceId: "cinema/omniplex-mahon-point"
+        title: "Paw Patrol: The Dino Movie"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "14:00"
+        status: "scheduled"
+        timesText: "14:00 (Screen 12), 16:10 (Screen 12), 17:10 (Screen 10)"
+        url: "https://www.omniplex.ie/cinema/movie/cork/paw-patrol-the-dino-movie"
+        image: "https://www.omniplex.ie/cms/Paw%20Patrol%20The%20Dino%20Movie%20Web%20Poster.webp"
+        price:
+          free: false
+          text: "From €7.95; booking online is €1.00 cheaper"
+          min: 7.95
+          max: 7.95
+          currency: "EUR"
+        ageRestriction: "G"
+        tags:
+          - "screening"
+          - "family"
+          - "animation"
+          - "kids"
+          - "matinee"
+        raw: "**Paw Patrol: The Dino Movie** (G) — Mon 17 Aug 2026. Animation. 1hr 29min.
+
+
+          Today's showtimes: 14:00 (Screen 12), 16:10 (Screen 12), 17:10 (Screen 10).
+
+
+          The film features an energetic voice cast bringing the beloved characters to life, with Finn Lee-Epp returning as Ryder, alongside the familiar heroic pups including Chase, Marshall, Skye, Rubble and Rocky. Expanding the colourful world of Adventure Bay, the story introduces new dinosaur-themed characters and spectacular rescue missions set in a prehistoric landscape filled with towering volcanoes, ancient jungles and enormous creatures. Since launching in 2013, PAW Patrol has grown into a global phenomenon spanning television, toys, live shows and blockbuster cinema releases. Packed with humour, teamwork and heart, PAW Patrol: The Dino Movie delivers another big-screen adventure designed to thrill younger audiences while celebrating the courage and cooperation that have made the pups such beloved heroes."
+        summary: "Paw Patrol's dinosaur outing, on three afternoon screenings — the daytime family slot."
+        confidence: "high"
+      - id: "cinema/omniplex-mahon-point#549415d3cf"
+        sourceId: "cinema/omniplex-mahon-point"
+        title: "Toy Story 5"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "14:35"
+        status: "scheduled"
+        timesText: "14:35 (Screen 10), 16:35 (Screen 7)"
+        url: "https://www.omniplex.ie/cinema/movie/cork/toy-story-5"
+        image: "https://www.omniplex.ie/cms/Toy%20Story%205%20Web%20Poster.webp"
+        price:
+          free: false
+          text: "From €7.95; booking online is €1.00 cheaper"
+          min: 7.95
+          max: 7.95
+          currency: "EUR"
+        ageRestriction: "G"
+        tags:
+          - "screening"
+          - "family"
+          - "animation"
+          - "kids"
+          - "matinee"
+        raw: "**Toy Story 5** (G) — Mon 17 Aug 2026. Animation, Comedy, Family. 1hr 42min.
+
+
+          Today's showtimes: 14:35 (Screen 10), 16:35 (Screen 7).
+
+
+          Buzz, Woody, Jessie and the rest of the gang's jobs get exponentially harder when they go head-to-head with a new threat to playtime. Tom Hanks returns as the ever loyal cowboy Woody, Tim Allen reports for duty as Buzz Lightyear, and Joan Cusack saddles up again as the rootin’ tootin’ cowgirl Jessie. It was recently announced that Conan O’Brien will also be a part of the voice cast as the toilet training tech toy, Smarty Pants."
+        summary: "Pixar's fifth Toy Story, two afternoon screenings today."
+        confidence: "high"
+      - id: "cinema/omniplex-mahon-point#0c9ebc048e"
+        sourceId: "cinema/omniplex-mahon-point"
+        title: "Minions and Monsters"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "13:40"
+        status: "scheduled"
+        timesText: "13:40 (Screen 6), 14:30 (Screen 9)"
+        url: "https://www.omniplex.ie/cinema/movie/cork/minions-and-monsters"
+        image: "https://www.omniplex.ie/cms/Minions%20&%20Monsters%20Web%20Poster.webp"
+        price:
+          free: false
+          text: "From €7.95; booking online is €1.00 cheaper"
+          min: 7.95
+          max: 7.95
+          currency: "EUR"
+        ageRestriction: "G"
+        tags:
+          - "screening"
+          - "family"
+          - "animation"
+          - "kids"
+          - "matinee"
+        raw: "**Minions and Monsters** (G) — Mon 17 Aug 2026. Animation. 1hr 30min.
+
+
+          Today's showtimes: 13:40 (Screen 6), 14:30 (Screen 9).
+
+
+          This time the Minions stumble into a mysterious world of creatures and monsters that pushes their chaotic curiosity to the absolute limit. Packed with the franchise’s trademark slapstick comedy, colourful animation and relentless visual gags, Minions & Monsters expands the universe with new characters, new villains and even bigger set-pieces. Since their introduction the Minions have become a true global phenomenon — spawning theme-park attractions, viral memes and billions of views online — thanks to their lovable stupidity and unstoppable enthusiasm for mayhem. With its combination of fast-paced comedy and family-friendly adventure, Minions & Monsters promises another wildly entertaining chapter for the most unpredictable characters in modern animation."
+        summary: "Animated family double-header, two early-afternoon screenings."
+        confidence: "high"
+      - id: "cinema/omniplex-mahon-point#c83bd8a438"
+        sourceId: "cinema/omniplex-mahon-point"
+        title: "Moana"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "13:10"
+        status: "scheduled"
+        timesText: "13:10 (Screen 13), 14:45 (Screen 11)"
+        url: "https://www.omniplex.ie/cinema/movie/cork/moana"
+        image: "https://www.omniplex.ie/cms/Moana%20Web%20Poster.webp"
+        price:
+          free: false
+          text: "From €7.95; booking online is €1.00 cheaper"
+          min: 7.95
+          max: 7.95
+          currency: "EUR"
+        ageRestriction: "PG"
+        tags:
+          - "screening"
+          - "family"
+          - "new-release"
+          - "kids"
+          - "matinee"
+        raw: "**Moana** (PG) — Mon 17 Aug 2026. Action, Adventure. 1hr 55min.
+
+
+          Today's showtimes: 13:10 (Screen 13), 14:45 (Screen 11).
+
+
+          Disney's highly-anticipated live-action reimagining of Moana, starring Catherine Laga'aia as Moana and Dwayne Johnson, who reprises his role as the trickster demigod Maui."
+        summary: "Disney's live-action Moana with Catherine Laga'aia and Dwayne Johnson, two afternoon screenings."
+        confidence: "high"
+      - id: "cinema/omniplex-mahon-point#154a55ff75"
+        sourceId: "cinema/omniplex-mahon-point"
+        title: "Ice cream man"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "19:45"
+        status: "scheduled"
+        url: "https://www.omniplex.ie/cinema/movie/cork/ice-cream-man"
+        image: "https://www.omniplex.ie/filmimages/small/112273.jpg?v=1560239862"
+        price:
+          free: false
+          text: "From €7.95; booking online is €1.00 cheaper"
+          min: 7.95
+          max: 7.95
+          currency: "EUR"
+        ageRestriction: "18"
+        tags:
+          - "screening"
+          - "horror"
+          - "new-release"
+          - "late-night"
+          - "18-plus"
+        raw: "**Ice cream man** (18) — Mon 17 Aug 2026. Horror. 1hr 26min.
+
+
+          Today's showtimes: 19:45 (Screen 9).
+
+
+          An idyllic summer town descends into madness when an ice cream man serves kids sweet delights with horrifying results."
+        summary: "Summer-town horror about an ice cream man with an unpleasant recipe. One late screening tonight."
+        confidence: "high"
+      - id: "cinema/omniplex-mahon-point#0aaf9997ba"
+        sourceId: "cinema/omniplex-mahon-point"
+        title: "James: Getting Away With It + Live Premiere Performance"
+        subcategory: "Event"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "19:45"
+        status: "scheduled"
+        url: "https://www.omniplex.ie/cinema/movie/cork/james-getting-away-with-it-live-premiere-performance"
+        image: "https://www.omniplex.ie/filmimages/small/JAMES3.jpg?v=1558802652"
+        price:
+          free: false
+          text: "From €11.95; booking online is €1.00 cheaper"
+          min: 11.95
+          max: 11.95
+          currency: "EUR"
+        tags:
+          - "screening"
+          - "documentary"
+          - "live-music"
+          - "one-night"
+          - "rock"
+        raw: "**James: Getting Away With It + Live Premiere Performance** — Mon 17 Aug 2026. Event. 2hrs 07min.
+
+
+          Today's showtimes: 19:45 (Screen 5).
+
+
+          This is the fully authorized, soulful, and wry story of James, the iconic-yet-unlikely Manchester band that survived a chaotic decade of missteps and dysfunction to achieve massive success. Following their 2000s collapse, the band reunited to reach new heights, a journey celebrated here alongside a special live performance and interview broadcast from Aviva Studios."
+        summary: "Documentary on the Manchester band James, screened with a live performance and interview broadcast from Aviva Studios. One night only."
+        confidence: "high"
+      - id: "cinema/omniplex-mahon-point#7cd2896e1b"
+        sourceId: "cinema/omniplex-mahon-point"
+        title: "Momo and the Time Thieves"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "14:50"
+        status: "scheduled"
+        url: "https://www.omniplex.ie/cinema/movie/cork/momo-and-the-time-thieves"
+        image: "https://www.omniplex.ie/filmimages/small/113007.jpg?v=1560632898"
+        price:
+          free: false
+          text: "From €7.95; booking online is €1.00 cheaper"
+          min: 7.95
+          max: 7.95
+          currency: "EUR"
+        tags:
+          - "screening"
+          - "family"
+          - "new-release"
+          - "kids"
+          - "matinee"
+        raw: "**Momo and the Time Thieves** — Mon 17 Aug 2026. Action, Adventure, Fantasy. 1hr 32min.
+
+
+          Today's showtimes: 14:50 (Screen 8).
+
+
+          Momo, a young orphan girl, lives in the ruins of an old Roman amphitheatre and has an open ear for everyone in the neighbourhood. But she prefers to spend her days with her best friend Gino. However, when a powerful international corporation begins stealing everyone's time, suddenly no one has time for her anymore. Not even Gino! Momo is desperate. But then a mysterious turtle appears and leads her to Master Hora, the guardian of time. Together they can take on the time thieves but will their plan work? An exciting race against time begins."
+        summary: "Adaptation of Michael Ende's Momo, one afternoon screening."
+        confidence: "high"
+      - id: "cinema/omniplex-mahon-point#b586e00da6"
+        sourceId: "cinema/omniplex-mahon-point"
+        title: "Obsession"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://www.omniplex.ie/cinema/movie/cork/obsession"
+        image: "https://www.omniplex.ie/filmimages/small/OBSESH47.jpg?v=1556368776"
+        price:
+          free: false
+          text: "From €7.95; booking online is €1.00 cheaper"
+          min: 7.95
+          max: 7.95
+          currency: "EUR"
+        ageRestriction: "16"
+        tags:
+          - "screening"
+          - "horror"
+          - "new-release"
+        raw: "**Obsession** (16) — Mon 17 Aug 2026. Horror. 1hr 44min.
+
+
+          Today's showtimes: 19:30 (Screen 7).
+
+
+          After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price."
+        summary: "Wish-gone-wrong horror, one evening screening."
+        confidence: "high"
+      - id: "cinema/omniplex-mahon-point#572b3c44ca"
+        sourceId: "cinema/omniplex-mahon-point"
+        title: "Super Troopers 3"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "17:15"
+        status: "scheduled"
+        url: "https://www.omniplex.ie/cinema/movie/cork/super-troopers-3"
+        image: "https://www.omniplex.ie/filmimages/small/112267.jpg?v=1560239731"
+        price:
+          free: false
+          text: "From €7.95; booking online is €1.00 cheaper"
+          min: 7.95
+          max: 7.95
+          currency: "EUR"
+        ageRestriction: "15A"
+        tags:
+          - "screening"
+          - "comedy"
+          - "new-release"
+        raw: "**Super Troopers 3** (15A) — Mon 17 Aug 2026. Comedy. 1hr 44min.
+
+
+          Today's showtimes: 17:15 (Screen 9).
+
+
+          Super Troopers 3 sees the return of the most incompetent highway patrol officers in America, continuing a comedy franchise that has become one of the most unlikely cult success stories in modern cinema. The original Super Troopers arrived in 2001, created by comedy troupe Broken Lizard-Jay Chandrasekhar, Kevin Heffernan, Steve Lemme, Erik Stolhanske and Paul Soter-and quickly built a devoted following thanks to its absurd humour, endlessly quotable dialogue and ridiculous police antics. Although it was only a modest box-office performer on release, the film exploded in popularity through DVD and late-night screenings, eventually becoming a bona fide cult classic. That fan loyalty was proven spectacularly in 2015, when Broken Lizard launched a crowdfunding campaign to make Super Troopers 2-raising over $4.5 million in just 24 hours, at the time one of the fastest-funded movie campaigns ever. Now the moustached lawmen are back once again, with Jay Chandrasekhar returning to direct and the entire Broken Lizard team reprising their roles as the hilariously unprofessional Vermont State Troopers. Over the years the franchise has endured because of its unique blend of outrageous pranks, ridiculous authority figures and the chemistry between the comedy troupe themselves, who have continued making films together for more than two decades. With fans still quoting lines from the original film more than twenty years later, Super Troopers 3 promises more highway chaos, more ridiculous investigations and plenty of the absurd humour that has kept this unlikely comedy franchise alive for a generation."
+        summary: "Broken Lizard's highway patrolmen return for a third outing. One screening today."
+        confidence: "high"
+      - id: "cinema/omniplex-mahon-point#d802240464"
+        sourceId: "cinema/omniplex-mahon-point"
+        title: "The Invite"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "19:40"
+        status: "scheduled"
+        url: "https://www.omniplex.ie/cinema/movie/cork/the-invite"
+        image: "https://www.omniplex.ie/filmimages/small/THEINV45.jpg?v=1557301998"
+        price:
+          free: false
+          text: "From €7.95; booking online is €1.00 cheaper"
+          min: 7.95
+          max: 7.95
+          currency: "EUR"
+        ageRestriction: "16"
+        tags:
+          - "screening"
+          - "new-release"
+          - "comedy"
+        raw: "**The Invite** (16) — Mon 17 Aug 2026. Romance, Comedy, Drama. 1hr 47min.
+
+
+          Today's showtimes: 19:40 (Screen 10).
+
+
+          Joe and Angela's marriage is on thin ice. When they invite their enigmatic upstairs neighbors for a dinner party, the night spirals into unexpected places."
+        summary: "Dinner-party comedy drama about a shaky marriage and some unnervingly charming neighbours."
+        confidence: "high"
+      - id: "cinema/omniplex-mahon-point#004223b1d8"
+        sourceId: "cinema/omniplex-mahon-point"
+        title: "The Pout-Pout Fish"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "14:15"
+        status: "scheduled"
+        url: "https://www.omniplex.ie/cinema/movie/cork/the-pout-pout-fish"
+        image: "https://www.omniplex.ie/filmimages/small/105718.jpg?v=1560967841"
+        price:
+          free: false
+          text: "From €7.95; booking online is €1.00 cheaper"
+          min: 7.95
+          max: 7.95
+          currency: "EUR"
+        ageRestriction: "G"
+        tags:
+          - "screening"
+          - "family"
+          - "animation"
+          - "kids"
+          - "matinee"
+        raw: "**The Pout-Pout Fish** (G) — Mon 17 Aug 2026. Animation. 1hr 32min.
+
+
+          Today's showtimes: 14:15 (Screen 7).
+
+
+          THE POUT-POUT FISH is the hilarious and heartwarming story of an unlikely duo: Mr Fish a prickly recluse and Pip a hyperactive sea dragon, who embark on a daunting quest."
+        summary: "Animated picture-book adaptation for younger children, one afternoon screening."
+        confidence: "high"
+    notes: "The hint is right on both counts: showtimes are server-rendered, and only for today. The seven date buttons are a POST on searchFilterForm and ?date=YYYY-MM-DD is ignored, so this is Mon 17 Aug only — 39 individual performances, folded into 16 rows, one per film with every time in timesText. The chain-wide /cinema/events strand is a dead end for a fetcher: 51 KB of chrome, cookie tables and the cinema picker, and not one event in the HTML. Per-film pages are no better — /cinema/movie/cork/nt-live-golden-boy returns the correct <title> \"NT Live: Golden Boy | Cinema Showtimes\" and zero booking links, so the dates live only in client-side JS. That is the real gap here and it is worth a hint: the \"Filter movies & events\" dropdown does enumerate every title with a future showtime at Cork — 35 in all — and 19 of them are not on today's list and are undateable from this site. They are the event cinema and the anime strand: NT Live: Golden Boy, NT Live: The Misanthrope, Hadestown: The Musical, Fallen Angels by Noel Coward, LINKIN PARK: UNSHATTER, GIANT - The Play, Andre Rieu's 2026 Christmas Concert, the seven RBO Royal Ballet and Royal Opera titles plus Manon, Khalifa (Malayalam), and Kiki's Delivery Service in both dubbed and subtitled versions. Most of those are dated on the Arc's /whatson/eventcinema page, so the two sources can corroborate each other. One event-cinema title is captured because it plays tonight: James: Getting Away With It + Live Premiere Performance, 19:45, Screen 5, from €11.95. Accessibility: the filter panel documents Sensory Friendly (\"every weekend around noon\"), Subtitled (\"blockbuster movies on Monday evenings\") and Parent & Baby (Wednesdays) strands, but nothing in today's markup flags any screening as any of them — and today is a Monday, so if there is a subtitled show it is not identifiable from the page. Encoding, for the record: the page declares charset=iso-8859-1 and its own bytes contain a literal \"?\" wherever a curly apostrophe or a dash belongs (\"wasn?t\", \"O?Brien\", \"phenomenon?spawning\"). That is the page's own corruption rather than a decoding artefact, and the unambiguous cases are repaired in the synopses here rather than shipped to a reader; no fact was changed. Deliberately not recorded: nothing. Everything the page listed for today is here. What is missing is future days, which this source cannot serve."
+  - sourceId: "cinema/arc-cinema-cork"
+    fetch:
+      ok: true
+      url: "https://cork.arccinema.ie/whatson/gate"
+      status: 200
+    events:
+      - id: "cinema/arc-cinema-cork#da1cd52f49"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "All Wishes Come True! (Mandarin)"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "20:45"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113507"
+        image: "https://cork.arccinema.ie/filmimages/banners/113507.jpg"
+        ageRestriction: "PG"
+        tags:
+          - "screening"
+          - "new-release"
+          - "subtitled"
+          - "arthouse"
+        raw: "**All Wishes Come True! (Mandarin)** (PG) — Mon 17 Aug 2026, 20:45 (Screen 5). Running time: 164 mins. Part of GATE Screen."
+        summary: "Mandarin-language release in the Arc's GATE arthouse screen."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#fddf2e4afa"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "All Wishes Come True! (Mandarin)"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+          startTime: "20:45"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113507"
+        image: "https://cork.arccinema.ie/filmimages/banners/113507.jpg"
+        ageRestriction: "PG"
+        tags:
+          - "screening"
+          - "new-release"
+          - "subtitled"
+          - "arthouse"
+        raw: "**All Wishes Come True! (Mandarin)** (PG) — Tue 18 Aug 2026, 20:45 (Screen 6). Running time: 164 mins. Part of GATE Screen."
+        summary: "Mandarin-language release in the Arc's GATE arthouse screen."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#7d72c7bb01"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "All Wishes Come True! (Mandarin)"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "18:40"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113507"
+        image: "https://cork.arccinema.ie/filmimages/banners/113507.jpg"
+        ageRestriction: "PG"
+        tags:
+          - "screening"
+          - "new-release"
+          - "subtitled"
+          - "arthouse"
+        raw: "**All Wishes Come True! (Mandarin)** (PG) — Wed 19 Aug 2026, 18:40 (Screen 6). Running time: 164 mins. Part of GATE Screen."
+        summary: "Mandarin-language release in the Arc's GATE arthouse screen."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#19172fb9d5"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "An Irish Atlantic Rainforest"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "17:50"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113221"
+        image: "https://cork.arccinema.ie/customFilmImages/113221_3.jpg"
+        tags:
+          - "screening"
+          - "documentary"
+          - "nature"
+          - "new-release"
+        raw: "**An Irish Atlantic Rainforest** — Mon 17 Aug 2026, 17:50 (Screen 6). Running time: 111 mins. Part of GATE Screen."
+        summary: "Irish documentary on the temperate rainforest of the Atlantic seaboard."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#c1b697eb8c"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "An Irish Atlantic Rainforest"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+          startTime: "18:40"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113221"
+        image: "https://cork.arccinema.ie/customFilmImages/113221_3.jpg"
+        tags:
+          - "screening"
+          - "documentary"
+          - "nature"
+          - "new-release"
+        raw: "**An Irish Atlantic Rainforest** — Tue 18 Aug 2026, 18:40 (Screen 6). Running time: 111 mins. Part of GATE Screen."
+        summary: "Irish documentary on the temperate rainforest of the Atlantic seaboard."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#18c40999cf"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "An Irish Atlantic Rainforest"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "16:35"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113221"
+        image: "https://cork.arccinema.ie/customFilmImages/113221_3.jpg"
+        tags:
+          - "screening"
+          - "documentary"
+          - "nature"
+          - "new-release"
+        raw: "**An Irish Atlantic Rainforest** — Wed 19 Aug 2026, 16:35 (Screen 6). Running time: 111 mins. Part of GATE Screen."
+        summary: "Irish documentary on the temperate rainforest of the Atlantic seaboard."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#18024a027b"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Blue Heron (English and Hungarian languages)"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113090"
+        image: "https://cork.arccinema.ie/customFilmImages/113090_3.jpg"
+        tags:
+          - "screening"
+          - "arthouse"
+          - "new-release"
+          - "subtitled"
+        raw: "**Blue Heron (English and Hungarian languages)** (CLUB) — Mon 17 Aug 2026, 20:00 (Screen 6). Running time: 110 mins. Part of GATE Screen."
+        summary: "Sophy Romvari's Canadian-Hungarian family memoir, one of the most praised debuts of the year. Listed as a CLUB certificate screening."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#4ca9a17da3"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Blue Heron (English and Hungarian languages)"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+          startTime: "15:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113090"
+        image: "https://cork.arccinema.ie/customFilmImages/113090_3.jpg"
+        tags:
+          - "screening"
+          - "arthouse"
+          - "new-release"
+          - "subtitled"
+        raw: "**Blue Heron (English and Hungarian languages)** (CLUB) — Tue 18 Aug 2026, 15:00 (Screen 6). Running time: 110 mins. Part of GATE Screen."
+        summary: "Sophy Romvari's Canadian-Hungarian family memoir, one of the most praised debuts of the year. Listed as a CLUB certificate screening."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#e34d090179"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Charlie The Wonderdog"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "10:30"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/109931"
+        image: "https://cork.arccinema.ie/filmimages/banners/109931.jpg"
+        ageRestriction: "G"
+        tags:
+          - "screening"
+          - "family"
+          - "kids"
+          - "matinee"
+        raw: "**Charlie The Wonderdog** (G) — Mon 17 Aug 2026, 10:30 (Screen 6). Running time: 117 mins. Part of GATE Screen."
+        summary: "Morning family screening in the GATE screen, on daily this week at 10:30."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#d4871cd40a"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Charlie The Wonderdog"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+          startTime: "10:30"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/109931"
+        image: "https://cork.arccinema.ie/filmimages/banners/109931.jpg"
+        ageRestriction: "G"
+        tags:
+          - "screening"
+          - "family"
+          - "kids"
+          - "matinee"
+        raw: "**Charlie The Wonderdog** (G) — Tue 18 Aug 2026, 10:30 (Screen 6). Running time: 117 mins. Part of GATE Screen."
+        summary: "Morning family screening in the GATE screen, on daily this week at 10:30."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#47069b34a2"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Charlie The Wonderdog"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "10:30"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/109931"
+        image: "https://cork.arccinema.ie/filmimages/banners/109931.jpg"
+        ageRestriction: "G"
+        tags:
+          - "screening"
+          - "family"
+          - "kids"
+          - "matinee"
+        raw: "**Charlie The Wonderdog** (G) — Wed 19 Aug 2026, 10:30 (Screen 6). Running time: 117 mins. Part of GATE Screen."
+        summary: "Morning family screening in the GATE screen, on daily this week at 10:30."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#b6386d2f08"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Gealtra (Irish Language)"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "16:05"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113155"
+        image: "https://cork.arccinema.ie/customFilmImages/113155_0.jpg"
+        tags:
+          - "screening"
+          - "irish-language"
+          - "new-release"
+          - "subtitled"
+        raw: "**Gealtra (Irish Language)** — Mon 17 Aug 2026, 16:05 (Screen 6). Running time: 90 mins. Part of GATE Screen."
+        summary: "Irish-language feature, screening in the GATE arthouse screen."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#956192e7cc"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Gealtra (Irish Language)"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+          startTime: "17:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113155"
+        image: "https://cork.arccinema.ie/customFilmImages/113155_0.jpg"
+        tags:
+          - "screening"
+          - "irish-language"
+          - "new-release"
+          - "subtitled"
+        raw: "**Gealtra (Irish Language)** — Tue 18 Aug 2026, 17:00 (Screen 6). Running time: 90 mins. Part of GATE Screen."
+        summary: "Irish-language feature, screening in the GATE arthouse screen."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#3549afbe80"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Gealtra (Irish Language)"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "14:55"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113155"
+        image: "https://cork.arccinema.ie/customFilmImages/113155_0.jpg"
+        tags:
+          - "screening"
+          - "irish-language"
+          - "new-release"
+          - "subtitled"
+        raw: "**Gealtra (Irish Language)** — Wed 19 Aug 2026, 14:55 (Screen 6). Running time: 90 mins. Part of GATE Screen."
+        summary: "Irish-language feature, screening in the GATE arthouse screen."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#d6c4f95e0c"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Toy Story 5"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "13:50"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/104999"
+        image: "https://cork.arccinema.ie/customFilmImages/104999_3.jpg"
+        ageRestriction: "G"
+        tags:
+          - "screening"
+          - "family"
+          - "animation"
+          - "kids"
+          - "matinee"
+        raw: "**Toy Story 5** (G) — Mon 17 Aug 2026, 13:50 (Screen 6). Running time: 122 mins. Part of GATE Screen."
+        summary: "Pixar's fifth Toy Story in the GATE screen's daytime family slot."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#a2d0116aea"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Toy Story 5"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+          startTime: "12:45"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/104999"
+        image: "https://cork.arccinema.ie/customFilmImages/104999_3.jpg"
+        ageRestriction: "G"
+        tags:
+          - "screening"
+          - "family"
+          - "animation"
+          - "kids"
+          - "matinee"
+        raw: "**Toy Story 5** (G) — Tue 18 Aug 2026, 12:45 (Screen 6). Running time: 122 mins. Part of GATE Screen."
+        summary: "Pixar's fifth Toy Story in the GATE screen's daytime family slot."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#f300b7604a"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Toy Story 5"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "12:40"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/104999"
+        image: "https://cork.arccinema.ie/customFilmImages/104999_3.jpg"
+        ageRestriction: "G"
+        tags:
+          - "screening"
+          - "family"
+          - "animation"
+          - "kids"
+          - "matinee"
+        raw: "**Toy Story 5** (G) — Wed 19 Aug 2026, 12:40 (Screen 6). Running time: 122 mins. Part of GATE Screen."
+        summary: "Pixar's fifth Toy Story in the GATE screen's daytime family slot."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#48027eacca"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Wallace & Gromit: The Wrong Trousers (re-release)"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "12:45"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/112602"
+        image: "https://cork.arccinema.ie/customFilmImages/112602_3.jpg"
+        ageRestriction: "G"
+        tags:
+          - "screening"
+          - "animation"
+          - "family"
+          - "classic"
+          - "kids"
+        raw: "**Wallace & Gromit: The Wrong Trousers (re-release)** (G) — Mon 17 Aug 2026, 12:45 (Screen 6). Running time: 50 mins. Part of GATE Screen."
+        summary: "Aardman's Wrong Trousers back on the big screen, a fifty-minute lunchtime family show."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#c158e32b8e"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Ice cream man"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "21:35"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/112273"
+        image: "https://cork.arccinema.ie/customFilmImages/112273_3.jpg"
+        ageRestriction: "18"
+        tags:
+          - "screening"
+          - "horror"
+          - "new-release"
+          - "late-night"
+          - "18-plus"
+        raw: "**Ice cream man** (18) — Wed 19 Aug 2026, 21:35 (Screen 6). Running time: 107 mins. Part of GATE Screen."
+        summary: "Late-night horror in the GATE screen, two nights."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#63f1144961"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Ice cream man"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "21:35"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/112273"
+        image: "https://cork.arccinema.ie/customFilmImages/112273_3.jpg"
+        ageRestriction: "18"
+        tags:
+          - "screening"
+          - "horror"
+          - "new-release"
+          - "late-night"
+          - "18-plus"
+        raw: "**Ice cream man** (18) — Thu 20 Aug 2026, 21:35 (Screen 6). Running time: 107 mins. Part of GATE Screen."
+        summary: "Late-night horror in the GATE screen, two nights."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#75f9198d6d"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Tony"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+          startTime: "20:25"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113149"
+        image: "https://cork.arccinema.ie/customFilmImages/113149_3.jpg"
+        ageRestriction: "15A"
+        tags:
+          - "screening"
+          - "new-release"
+          - "arthouse"
+        raw: "**Tony** (15A) — Fri 21 Aug 2026, 20:25 (Screen 6). Running time: 126 mins. Part of GATE Screen."
+        summary: "Origin-story portrait of a teenage Anthony Bourdain in a Provincetown kitchen."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#f2384b1c3d"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Tony"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "18:05"
+        status: "scheduled"
+        timesText: "18:05, 20:25"
+        url: "https://cork.arccinema.ie/event/113149"
+        image: "https://cork.arccinema.ie/customFilmImages/113149_3.jpg"
+        ageRestriction: "15A"
+        tags:
+          - "screening"
+          - "new-release"
+          - "arthouse"
+        raw: "**Tony** (15A) — Sat 22 Aug 2026, 18:05, 20:25 (Screen 6). Running time: 126 mins. Part of GATE Screen."
+        summary: "Origin-story portrait of a teenage Anthony Bourdain in a Provincetown kitchen."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#920cee1e63"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "The Sacrifice 4K Restoration (Swedish, French and English languages)"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-24"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113091"
+        image: "https://cork.arccinema.ie/customFilmImages/113091_3.jpg"
+        ageRestriction: "12A"
+        tags:
+          - "screening"
+          - "classic"
+          - "arthouse"
+          - "subtitled"
+        raw: "**The Sacrifice 4K Restoration (Swedish, French and English languages)** (12A) — Mon 24 Aug 2026, 20:00 (Screen 6). Running time: 163 mins. Part of GATE Screen."
+        summary: "Tarkovsky's last film in a 4K restoration, part of the GATE screen's world-cinema slot."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#961a53a2a0"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "The Sacrifice 4K Restoration (Swedish, French and English languages)"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-25"
+          startTime: "15:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113091"
+        image: "https://cork.arccinema.ie/customFilmImages/113091_3.jpg"
+        ageRestriction: "12A"
+        tags:
+          - "screening"
+          - "classic"
+          - "arthouse"
+          - "subtitled"
+        raw: "**The Sacrifice 4K Restoration (Swedish, French and English languages)** (12A) — Tue 25 Aug 2026, 15:00 (Screen 6). Running time: 163 mins. Part of GATE Screen."
+        summary: "Tarkovsky's last film in a 4K restoration, part of the GATE screen's world-cinema slot."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#13e41d88d9"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Harry Potter And The Philosopher's Stone (25th Anniversary)"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-28"
+          startTime: "16:55"
+        status: "scheduled"
+        timesText: "16:55, 20:05"
+        url: "https://cork.arccinema.ie/event/113160"
+        image: "https://cork.arccinema.ie/customFilmImages/113160_3.jpg"
+        tags:
+          - "screening"
+          - "classic"
+          - "family"
+          - "kids"
+        raw: "**Harry Potter And The Philosopher's Stone (25th Anniversary)** — Fri 28 Aug 2026, 16:55, 20:05 (Screen 6). Running time: 172 mins. Part of GATE Screen."
+        summary: "The first Harry Potter film back in cinemas for its 25th anniversary."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#520b218e00"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Harry Potter And The Philosopher's Stone (25th Anniversary)"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+          startTime: "16:55"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113160"
+        image: "https://cork.arccinema.ie/customFilmImages/113160_3.jpg"
+        tags:
+          - "screening"
+          - "classic"
+          - "family"
+          - "kids"
+        raw: "**Harry Potter And The Philosopher's Stone (25th Anniversary)** — Sat 29 Aug 2026, 16:55 (Screen 6). Running time: 172 mins. Part of GATE Screen."
+        summary: "The first Harry Potter film back in cinemas for its 25th anniversary."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#4180a1652a"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Love Me Tender (French language)"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-31"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113092"
+        image: "https://cork.arccinema.ie/customFilmImages/113092_3.jpg"
+        tags:
+          - "screening"
+          - "arthouse"
+          - "new-release"
+          - "subtitled"
+        raw: "**Love Me Tender (French language)** — Mon 31 Aug 2026, 20:00 (Screen 6). Running time: 154 mins. Part of GATE Screen."
+        summary: "French drama about a woman leaving her marriage for another woman."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#79c67d492b"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Love Me Tender (French language)"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-09-01"
+          startTime: "15:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113092"
+        image: "https://cork.arccinema.ie/customFilmImages/113092_3.jpg"
+        tags:
+          - "screening"
+          - "arthouse"
+          - "new-release"
+          - "subtitled"
+        raw: "**Love Me Tender (French language)** — Tue 1 Sep 2026, 15:00 (Screen 6). Running time: 154 mins. Part of GATE Screen."
+        summary: "French drama about a woman leaving her marriage for another woman."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#6186af7151"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "The Summer Book (English language)"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-09-07"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113717"
+        image: "https://cork.arccinema.ie/customFilmImages/113717_3.jpg"
+        ageRestriction: "PG"
+        tags:
+          - "screening"
+          - "arthouse"
+          - "new-release"
+        raw: "**The Summer Book (English language)** (PG) — Mon 7 Sep 2026, 20:00 (Screen 6). Running time: 110 mins. Part of GATE Screen."
+        summary: "Adaptation of Tove Jansson's The Summer Book, with Glenn Close."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#b00453f628"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "The Summer Book (English language)"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-09-08"
+          startTime: "15:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113717"
+        image: "https://cork.arccinema.ie/customFilmImages/113717_3.jpg"
+        ageRestriction: "PG"
+        tags:
+          - "screening"
+          - "arthouse"
+          - "new-release"
+        raw: "**The Summer Book (English language)** (PG) — Tue 8 Sep 2026, 15:00 (Screen 6). Running time: 110 mins. Part of GATE Screen."
+        summary: "Adaptation of Tove Jansson's The Summer Book, with Glenn Close."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#a20c3f9794"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "RADIANT CUTS - INTERNATIONAL SHORT FILM PROGRAMME 1 2026"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-09-11"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113663"
+        image: "https://cork.arccinema.ie/customFilmImages/113663_0.jpg"
+        tags:
+          - "screening"
+          - "short-film"
+          - "festival"
+          - "arthouse"
+        raw: "**RADIANT CUTS - INTERNATIONAL SHORT FILM PROGRAMME 1 2026** — Fri 11 Sep 2026, 18:00 (Screen 6). Running time: 102 mins. Part of GATE Screen."
+        summary: "First of two international short-film programmes in the GATE screen's September festival weekend."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#5d6578a43f"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "BEAUTIFUL EVENING, BEAUTIFUL DAY"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+          startTime: "20:30"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113668"
+        image: "https://cork.arccinema.ie/customFilmImages/113668_0.jpg"
+        tags:
+          - "screening"
+          - "festival"
+          - "arthouse"
+        raw: "**BEAUTIFUL EVENING, BEAUTIFUL DAY** — Sat 12 Sep 2026, 20:30 (Screen 6). Running time: 157 mins. Part of GATE Screen."
+        summary: "Late feature in the GATE screen's September festival weekend."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#f977bc6eb3"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Go Fish"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+          startTime: "15:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113665"
+        image: "https://cork.arccinema.ie/customFilmImages/113665_0.jpg"
+        tags:
+          - "screening"
+          - "festival"
+          - "arthouse"
+        raw: "**Go Fish** — Sat 12 Sep 2026, 15:00 (Screen 6). Running time: 134 mins. Part of GATE Screen."
+        summary: "Feature in the GATE screen's September festival weekend."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#5411ad1172"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "SUMMER'S CAMERA"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+          startTime: "13:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113664"
+        tags:
+          - "screening"
+          - "festival"
+          - "arthouse"
+        raw: "**SUMMER'S CAMERA** — Sat 12 Sep 2026, 13:00 (Screen 6). Running time: 102 mins. Part of GATE Screen."
+        summary: "Feature in the GATE screen's September festival weekend."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#5945ef232e"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "DRAGGING UP THE PAST"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-09-13"
+          startTime: "12:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113669"
+        image: "https://cork.arccinema.ie/customFilmImages/113669_0.jpg"
+        tags:
+          - "screening"
+          - "festival"
+          - "arthouse"
+        raw: "**DRAGGING UP THE PAST** — Sun 13 Sep 2026, 12:00 (Screen 6). Running time: 99 mins. Part of GATE Screen."
+        summary: "Sunday-lunchtime feature in the GATE screen's September festival weekend."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#39aae91ff6"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "I'M GOING TO MISS YOU"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-09-13"
+          startTime: "16:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113671"
+        tags:
+          - "screening"
+          - "festival"
+          - "arthouse"
+        raw: "**I'M GOING TO MISS YOU** — Sun 13 Sep 2026, 16:00 (Screen 6). Running time: 107 mins. Part of GATE Screen."
+        summary: "Feature in the GATE screen's September festival weekend."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#80f526c34a"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "REFRACTED LIGHTS - INTERNATIONAL SHORT FILM PROGRAMME 2 2026"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-09-13"
+          startTime: "14:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113670"
+        image: "https://cork.arccinema.ie/customFilmImages/113670_0.jpg"
+        tags:
+          - "screening"
+          - "short-film"
+          - "festival"
+          - "arthouse"
+        raw: "**REFRACTED LIGHTS - INTERNATIONAL SHORT FILM PROGRAMME 2 2026** — Sun 13 Sep 2026, 14:00 (Screen 6). Running time: 99 mins. Part of GATE Screen."
+        summary: "Second of two international short-film programmes in the GATE screen's September festival weekend."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#05d28e6538"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "On The Sea (English language)"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-09-14"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113718"
+        image: "https://cork.arccinema.ie/customFilmImages/113718_3.jpg"
+        tags:
+          - "screening"
+          - "arthouse"
+          - "new-release"
+        raw: "**On The Sea (English language)** (CLUB) — Mon 14 Sep 2026, 20:00 (Screen 6). Running time: 130 mins. Part of GATE Screen."
+        summary: "Irish feature in the GATE screen's Monday-evening, Tuesday-matinee world-cinema slot."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#d7c9e0be2c"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "On The Sea (English language)"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-09-15"
+          startTime: "15:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113718"
+        image: "https://cork.arccinema.ie/customFilmImages/113718_3.jpg"
+        tags:
+          - "screening"
+          - "arthouse"
+          - "new-release"
+        raw: "**On The Sea (English language)** (CLUB) — Tue 15 Sep 2026, 15:00 (Screen 6). Running time: 130 mins. Part of GATE Screen."
+        summary: "Irish feature in the GATE screen's Monday-evening, Tuesday-matinee world-cinema slot."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#58a454596d"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Ish (English language)"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-09-21"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113720"
+        image: "https://cork.arccinema.ie/customFilmImages/113720_0.jpg"
+        tags:
+          - "screening"
+          - "arthouse"
+          - "new-release"
+        raw: "**Ish (English language)** — Mon 21 Sep 2026, 20:00 (Screen 6). Running time: 107 mins. Part of GATE Screen."
+        summary: "Feature in the GATE screen's Monday-evening, Tuesday-matinee world-cinema slot."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#e455423798"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Ish (English language)"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-09-22"
+          startTime: "15:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113720"
+        image: "https://cork.arccinema.ie/customFilmImages/113720_0.jpg"
+        tags:
+          - "screening"
+          - "arthouse"
+          - "new-release"
+        raw: "**Ish (English language)** — Tue 22 Sep 2026, 15:00 (Screen 6). Running time: 107 mins. Part of GATE Screen."
+        summary: "Feature in the GATE screen's Monday-evening, Tuesday-matinee world-cinema slot."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#b381aac131"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Just An Illusion (French language)"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-09-28"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113721"
+        image: "https://cork.arccinema.ie/customFilmImages/113721_0.jpg"
+        tags:
+          - "screening"
+          - "arthouse"
+          - "new-release"
+          - "subtitled"
+        raw: "**Just An Illusion (French language)** — Mon 28 Sep 2026, 20:00 (Screen 6). Running time: 139 mins. Part of GATE Screen."
+        summary: "French-language feature in the GATE screen's Monday-evening, Tuesday-matinee world-cinema slot."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#3379883ba0"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Just An Illusion (French language)"
+        subcategory: "GATE Screen"
+        occurrence:
+          kind: "single"
+          date: "2026-09-29"
+          startTime: "15:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/113721"
+        image: "https://cork.arccinema.ie/customFilmImages/113721_0.jpg"
+        tags:
+          - "screening"
+          - "arthouse"
+          - "new-release"
+          - "subtitled"
+        raw: "**Just An Illusion (French language)** — Tue 29 Sep 2026, 15:00 (Screen 6). Running time: 139 mins. Part of GATE Screen."
+        summary: "French-language feature in the GATE screen's Monday-evening, Tuesday-matinee world-cinema slot."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#f1e847c8c2"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Girl From The North Country"
+        subcategory: "Arc Live! Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2026-09-03"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/89887"
+        image: "https://cork.arccinema.ie/customFilmImages/89887_0.jpg"
+        ageRestriction: "15A"
+        tags:
+          - "musical"
+          - "theatre"
+          - "live-music"
+        raw: "**Girl From The North Country** (15A) — Thu 3 Sep 2026, 19:00 (Screen 3). Running time: 151 mins. Part of Arc Live! Event Cinema."
+        summary: "Conor McPherson's Bob Dylan musical, filmed and screened as event cinema."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#f076cc303a"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Exhibition On Screen: James McNeill Whistler"
+        subcategory: "Arc Live! Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2026-09-15"
+          startTime: "18:30"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/111051"
+        image: "https://cork.arccinema.ie/customFilmImages/111051_0.jpg"
+        tags:
+          - "screening"
+          - "documentary"
+          - "exhibition"
+          - "artist-talk"
+        raw: "**Exhibition On Screen: James McNeill Whistler** — Tue 15 Sep 2026, 18:30 (Screen 6). Running time: 110 mins. Part of Arc Live! Event Cinema."
+        summary: "Exhibition on Screen's film on Whistler, screened twice — a Tuesday evening and a Sunday matinee."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#cdf16265f5"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Exhibition On Screen: James McNeill Whistler"
+        subcategory: "Arc Live! Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2026-09-20"
+          startTime: "14:30"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/111051"
+        image: "https://cork.arccinema.ie/customFilmImages/111051_0.jpg"
+        tags:
+          - "screening"
+          - "documentary"
+          - "exhibition"
+          - "artist-talk"
+        raw: "**Exhibition On Screen: James McNeill Whistler** — Sun 20 Sep 2026, 14:30 (Screen 6). Running time: 110 mins. Part of Arc Live! Event Cinema."
+        summary: "Exhibition on Screen's film on Whistler, screened twice — a Tuesday evening and a Sunday matinee."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#f359ba1905"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "NT Live: The Misanthrope"
+        subcategory: "Arc Live! Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2026-09-22"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/111711"
+        image: "https://cork.arccinema.ie/customFilmImages/111711_0.jpg"
+        tags:
+          - "theatre"
+          - "drama"
+        raw: "**NT Live: The Misanthrope** — Tue 22 Sep 2026, 19:00 (Screen 3). Running time: 170 mins. Part of Arc Live! Event Cinema."
+        summary: "National Theatre Live broadcast of Molière's The Misanthrope."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#c6bd2e12fe"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "RBO 2026-27: The Royal Opera – Carmen"
+        subcategory: "Arc Live! Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2026-11-10"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/110364"
+        image: "https://cork.arccinema.ie/customFilmImages/110364_0.jpg"
+        ageRestriction: "12A"
+        tags:
+          - "opera"
+          - "classical"
+        raw: "**RBO 2026-27: The Royal Opera – Carmen** (12A) — Tue 10 Nov 2026, 19:00 (Screen 6). Running time: 235 mins. Part of Arc Live! Event Cinema."
+        summary: "Royal Opera's Carmen from Covent Garden, in the 2026-27 cinema season."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#d0cffa1fdc"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "RBO 2026-27: The Royal Opera – Carmen"
+        subcategory: "Arc Live! Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2026-11-15"
+          startTime: "14:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/110364"
+        image: "https://cork.arccinema.ie/customFilmImages/110364_0.jpg"
+        ageRestriction: "12A"
+        tags:
+          - "opera"
+          - "classical"
+        raw: "**RBO 2026-27: The Royal Opera – Carmen** (12A) — Sun 15 Nov 2026, 14:00 (Screen 5). Running time: 235 mins. Part of Arc Live! Event Cinema."
+        summary: "Royal Opera's Carmen from Covent Garden, in the 2026-27 cinema season."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#dce01eaf16"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "GIANT - The Play"
+        subcategory: "Arc Live! Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2026-11-19"
+          startTime: "19:15"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/112616"
+        image: "https://cork.arccinema.ie/customFilmImages/112616_0.jpg"
+        tags:
+          - "theatre"
+          - "drama"
+        raw: "**GIANT - The Play** — Thu 19 Nov 2026, 19:15 (Screen 3). Running time: 156 mins. Part of Arc Live! Event Cinema."
+        summary: "Filmed staging of GIANT, Mark Rosenblatt's play about Roald Dahl."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#5600e7594c"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "GIANT - The Play"
+        subcategory: "Arc Live! Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2026-11-22"
+          startTime: "14:30"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/112616"
+        image: "https://cork.arccinema.ie/customFilmImages/112616_0.jpg"
+        tags:
+          - "theatre"
+          - "drama"
+        raw: "**GIANT - The Play** — Sun 22 Nov 2026, 14:30 (Screen 3). Running time: 156 mins. Part of Arc Live! Event Cinema."
+        summary: "Filmed staging of GIANT, Mark Rosenblatt's play about Roald Dahl."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#046aaa7ca6"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "RBO 2026-27: The Royal Ballet – The Nutcracker"
+        subcategory: "Arc Live! Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2026-12-01"
+          startTime: "19:15"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/110365"
+        image: "https://cork.arccinema.ie/customFilmImages/110365_0.jpg"
+        tags:
+          - "dance"
+          - "classical"
+          - "family"
+          - "seasonal"
+        raw: "**RBO 2026-27: The Royal Ballet – The Nutcracker** — Tue 1 Dec 2026, 19:15 (Screen 6). Running time: 160 mins. Part of Arc Live! Event Cinema."
+        summary: "The Royal Ballet's Nutcracker, the Christmas fixture of the cinema season."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#dbc022fd98"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "RBO 2026-27: The Royal Ballet – The Nutcracker"
+        subcategory: "Arc Live! Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2026-12-13"
+          startTime: "14:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/110365"
+        image: "https://cork.arccinema.ie/customFilmImages/110365_0.jpg"
+        tags:
+          - "dance"
+          - "classical"
+          - "family"
+          - "seasonal"
+        raw: "**RBO 2026-27: The Royal Ballet – The Nutcracker** — Sun 13 Dec 2026, 14:00 (Screen 6). Running time: 160 mins. Part of Arc Live! Event Cinema."
+        summary: "The Royal Ballet's Nutcracker, the Christmas fixture of the cinema season."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#ecc4f4dbc3"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Andre Rieu’s 2026 Christmas Concert: Let It Snow"
+        subcategory: "Arc Live! Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2026-12-05"
+          startTime: "14:30"
+        status: "scheduled"
+        timesText: "14:30, 18:00"
+        url: "https://cork.arccinema.ie/event/110080"
+        image: "https://cork.arccinema.ie/articleimages/Article%20Banners/Arc%20Live%20Event%20Cinema/Andre_Rieu_Arc_Live_Event_Cinema.png"
+        tags:
+          - "classical"
+          - "live-music"
+          - "seasonal"
+        raw: "**Andre Rieu’s 2026 Christmas Concert: Let It Snow** — Sat 5 Dec 2026, 14:30, 18:00 (Screen 5). Running time: 190 mins. Part of Arc Live! Event Cinema."
+        summary: "André Rieu's annual Christmas concert film, three screenings over one weekend."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#4ce7e955fe"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Andre Rieu’s 2026 Christmas Concert: Let It Snow"
+        subcategory: "Arc Live! Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2026-12-06"
+          startTime: "14:30"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/110080"
+        image: "https://cork.arccinema.ie/articleimages/Article%20Banners/Arc%20Live%20Event%20Cinema/Andre_Rieu_Arc_Live_Event_Cinema.png"
+        tags:
+          - "classical"
+          - "live-music"
+          - "seasonal"
+        raw: "**Andre Rieu’s 2026 Christmas Concert: Let It Snow** — Sun 6 Dec 2026, 14:30 (Screen 5). Running time: 190 mins. Part of Arc Live! Event Cinema."
+        summary: "André Rieu's annual Christmas concert film, three screenings over one weekend."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#c09667d44d"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Exhibition On Screen: Renoir & Love"
+        subcategory: "Arc Live! Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2027-01-19"
+          startTime: "18:30"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/111052"
+        image: "https://cork.arccinema.ie/customFilmImages/111052_0.jpg"
+        tags:
+          - "screening"
+          - "documentary"
+          - "exhibition"
+          - "artist-talk"
+        raw: "**Exhibition On Screen: Renoir & Love** — Tue 19 Jan 2027, 18:30 (Screen 6). Running time: 110 mins. Part of Arc Live! Event Cinema."
+        summary: "Exhibition on Screen's Renoir film, a Tuesday evening and a Sunday matinee."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#b4dc2528a8"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Exhibition On Screen: Renoir & Love"
+        subcategory: "Arc Live! Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2027-01-24"
+          startTime: "14:30"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/111052"
+        image: "https://cork.arccinema.ie/customFilmImages/111052_0.jpg"
+        tags:
+          - "screening"
+          - "documentary"
+          - "exhibition"
+          - "artist-talk"
+        raw: "**Exhibition On Screen: Renoir & Love** — Sun 24 Jan 2027, 14:30 (Screen 6). Running time: 110 mins. Part of Arc Live! Event Cinema."
+        summary: "Exhibition on Screen's Renoir film, a Tuesday evening and a Sunday matinee."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#600ca36172"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "RBO 2026-27: The Royal Opera – Götterdämmerung"
+        subcategory: "Arc Live! Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2027-02-03"
+          startTime: "16:45"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/110367"
+        image: "https://cork.arccinema.ie/customFilmImages/110367_0.jpg"
+        tags:
+          - "opera"
+          - "classical"
+        raw: "**RBO 2026-27: The Royal Opera – Götterdämmerung** — Wed 3 Feb 2027, 16:45 (Screen 6). Running time: 370 mins. Part of Arc Live! Event Cinema."
+        summary: "The Royal Opera's Götterdämmerung, the close of its Ring cycle."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#f3835d4c09"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "RBO 2026-27: The Royal Opera – Götterdämmerung"
+        subcategory: "Arc Live! Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2027-02-07"
+          startTime: "14:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/110367"
+        image: "https://cork.arccinema.ie/customFilmImages/110367_0.jpg"
+        tags:
+          - "opera"
+          - "classical"
+        raw: "**RBO 2026-27: The Royal Opera – Götterdämmerung** — Sun 7 Feb 2027, 14:00 (Screen 6). Running time: 370 mins. Part of Arc Live! Event Cinema."
+        summary: "The Royal Opera's Götterdämmerung, the close of its Ring cycle."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#7a5a6e6cfc"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "RBO 2026-27: The Royal Opera – Così Fan Tutte"
+        subcategory: "Arc Live! Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2027-02-23"
+          startTime: "18:45"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/110368"
+        image: "https://cork.arccinema.ie/customFilmImages/110368_0.jpg"
+        tags:
+          - "opera"
+          - "classical"
+        raw: "**RBO 2026-27: The Royal Opera – Così Fan Tutte** — Tue 23 Feb 2027, 18:45 (Screen 6). Running time: 230 mins. Part of Arc Live! Event Cinema."
+        summary: "The Royal Opera's Così Fan Tutte from Covent Garden."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#ec7fced6a1"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "RBO 2026-27: The Royal Opera – Così Fan Tutte"
+        subcategory: "Arc Live! Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2027-02-28"
+          startTime: "14:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/110368"
+        image: "https://cork.arccinema.ie/customFilmImages/110368_0.jpg"
+        tags:
+          - "opera"
+          - "classical"
+        raw: "**RBO 2026-27: The Royal Opera – Così Fan Tutte** — Sun 28 Feb 2027, 14:00 (Screen 6). Running time: 230 mins. Part of Arc Live! Event Cinema."
+        summary: "The Royal Opera's Così Fan Tutte from Covent Garden."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#0cd0d2d5b2"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "RBO 2026-27: The Royal Ballet – Alice’s Adventures In Wonderland"
+        subcategory: "Arc Live! Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2027-03-23"
+          startTime: "19:15"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/110369"
+        image: "https://cork.arccinema.ie/customFilmImages/110369_0.jpg"
+        tags:
+          - "dance"
+          - "classical"
+          - "family"
+        raw: "**RBO 2026-27: The Royal Ballet – Alice’s Adventures In Wonderland** — Tue 23 Mar 2027, 19:15 (Screen 6). Running time: 190 mins. Part of Arc Live! Event Cinema."
+        summary: "The Royal Ballet's Alice's Adventures in Wonderland."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#c4b09d5c4a"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "RBO 2026-27: The Royal Ballet – Swan Lake"
+        subcategory: "Arc Live! Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2027-04-22"
+          startTime: "19:15"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/110370"
+        image: "https://cork.arccinema.ie/customFilmImages/110370_0.jpg"
+        tags:
+          - "dance"
+          - "classical"
+        raw: "**RBO 2026-27: The Royal Ballet – Swan Lake** — Thu 22 Apr 2027, 19:15 (Screen 6). Running time: 225 mins. Part of Arc Live! Event Cinema."
+        summary: "The Royal Ballet's Swan Lake from Covent Garden."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#c7f75ce98c"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "RBO 2026-27: The Royal Ballet – Swan Lake"
+        subcategory: "Arc Live! Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2027-04-25"
+          startTime: "14:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/110370"
+        image: "https://cork.arccinema.ie/customFilmImages/110370_0.jpg"
+        tags:
+          - "dance"
+          - "classical"
+        raw: "**RBO 2026-27: The Royal Ballet – Swan Lake** — Sun 25 Apr 2027, 14:00 (Screen 6). Running time: 225 mins. Part of Arc Live! Event Cinema."
+        summary: "The Royal Ballet's Swan Lake from Covent Garden."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#4399d81376"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "RBO 2026-27: The Royal Opera – Tosca"
+        subcategory: "Arc Live! Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2027-05-05"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/110371"
+        image: "https://cork.arccinema.ie/customFilmImages/110371_0.jpg"
+        tags:
+          - "opera"
+          - "classical"
+        raw: "**RBO 2026-27: The Royal Opera – Tosca** — Wed 5 May 2027, 19:00 (Screen 6). Running time: 215 mins. Part of Arc Live! Event Cinema."
+        summary: "The Royal Opera's Tosca from Covent Garden."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#ec50119ea4"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "RBO 2026-27: The Royal Opera – Tosca"
+        subcategory: "Arc Live! Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2027-05-09"
+          startTime: "14:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/110371"
+        image: "https://cork.arccinema.ie/customFilmImages/110371_0.jpg"
+        tags:
+          - "opera"
+          - "classical"
+        raw: "**RBO 2026-27: The Royal Opera – Tosca** — Sun 9 May 2027, 14:00 (Screen 6). Running time: 215 mins. Part of Arc Live! Event Cinema."
+        summary: "The Royal Opera's Tosca from Covent Garden."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#0d6cbd8d35"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "Exhibition On Screen: Monet"
+        subcategory: "Arc Live! Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2027-05-11"
+          startTime: "18:30"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/111053"
+        image: "https://cork.arccinema.ie/customFilmImages/111053_0.jpg"
+        tags:
+          - "screening"
+          - "documentary"
+          - "exhibition"
+          - "artist-talk"
+        raw: "**Exhibition On Screen: Monet** — Tue 11 May 2027, 18:30 (Screen 6). Running time: 110 mins. Part of Arc Live! Event Cinema."
+        summary: "Exhibition on Screen's Monet film, one evening screening."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#816433137f"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "RBO 2026-27: The Royal Ballet – Romeo & Juliet"
+        subcategory: "Arc Live! Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2027-05-25"
+          startTime: "19:15"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/110372"
+        image: "https://cork.arccinema.ie/customFilmImages/110372_0.jpg"
+        tags:
+          - "dance"
+          - "classical"
+        raw: "**RBO 2026-27: The Royal Ballet – Romeo & Juliet** — Tue 25 May 2027, 19:15 (Screen 6). Running time: 190 mins. Part of Arc Live! Event Cinema."
+        summary: "The Royal Ballet's Romeo & Juliet from Covent Garden."
+        confidence: "high"
+      - id: "cinema/arc-cinema-cork#1680b6d09f"
+        sourceId: "cinema/arc-cinema-cork"
+        title: "RBO 2026-27: The Royal Ballet – Romeo & Juliet"
+        subcategory: "Arc Live! Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2027-05-30"
+          startTime: "14:00"
+        status: "scheduled"
+        url: "https://cork.arccinema.ie/event/110372"
+        image: "https://cork.arccinema.ie/customFilmImages/110372_0.jpg"
+        tags:
+          - "dance"
+          - "classical"
+        raw: "**RBO 2026-27: The Royal Ballet – Romeo & Juliet** — Sun 30 May 2027, 14:00 (Screen 6). Running time: 190 mins. Part of Arc Live! Event Cinema."
+        summary: "The Royal Ballet's Romeo & Juliet from Covent Garden."
+        confidence: "high"
+    notes: "Richest source in the category, and it needs a third route in the catalogue. Five fetches, one over budget, and the extra one earned its keep by closing off a route: /whatson/gate, /whatson, /whatson/eventcinema, /whatson/specialevent1 and /event/113155. **GATE Screen** gave 23 films across 23 distinct dates, Mon 17 Aug to Tue 29 Sep, 45 performances recorded as 43 rows. The Monday-20:00 / Tuesday-15:00 pairing is a standing world-cinema slot (Blue Heron, The Sacrifice, Love Me Tender, The Summer Book, On The Sea, Ish, Just An Illusion all sit in it). **Truncation, declared:** /whatson/gate prints at most three performances per film and then a \"Show More\" link to /event/<id>. Seven of the 23 films hit that ceiling — All Wishes Come True!, An Irish Atlantic Rainforest, Charlie The Wonderdog, Gealtra, Toy Story 5, Tony and Harry Potter And The Philosopher's Stone — so those seven runs are longer than the rows here show. The obvious fix does not work, and this is the fetch worth recording: /event/113155 (Gealtra) does carry a fourth performance the strand page omits, perfCode 218633, but it prints all four under one visible \"17 August\" heading with the date strip as a client-side filter, and it ships no var_dump at all. So the per-film page has more performances and no way to date them, while the strand page has fewer and dates them exactly. The strand page is the better route and the missing dates are not reachable without a browser. **Route to add:** /whatson/eventcinema is the Arc Live! event cinema strand and it is the single most valuable page on this domain — 15 titles, 26 dated screenings, 3 Sep 2026 out to Sun 30 May 2027, covering NT Live, the Royal Ballet and Royal Opera 2026-27 cinema season, Exhibition on Screen, GIANT - The Play, Girl From The North Country and Andre Rieu's Christmas concert. Nothing else in Cork publishes a diary nine months ahead. The footer advertises further strand paths — /whatson/worldcinema, /whatson/specialevent1 (Anniversary Screenings), /whatson/specialevent3 (linked twice, once as \"BACK TO THE 80s\" and once as \"Cork City FC. Away Games LIVE!\"), /whatson/film-festival (ANIME), /whatson/subtitled, /whatson/sensory, /whatson/silverscreen, /whatson/kidsclub, /whatson/parent-baby. I spent one fetch testing /whatson/specialevent1 and it is precisely the trap the hint warns about: 200, 68 KB, correct <title>, and zero performances — the homepage fallback. Compare byte size, not status. The var_dump wart is still there but it is inside HTML comments, not visible text, so a stripper that drops comments loses it. It is worth keeping: each performance object carries hall, halltype, perftype, soldout, subtitled, hoh, autismfriendly, advancescreening, language, performancetags and a unix time, and the dates and times here were read from that rather than from the rendered strings. Nothing was flagged soldout or subtitled today. **Encoding bug worth a hint:** these pages are Windows-1252 bytes served under <meta charset=\"UTF-8\">, so apostrophes (0x92) and en dashes (0x96) are invalid UTF-8 and a naive read mangles every RBO title. Titles here are decoded as CP1252, which restores \"RBO 2026-27: The Royal Opera – Götterdämmerung\" and \"Andre Rieu's\" (no accent — that is how the page prints it). **Not recorded, per the multiplex rule:** /whatson itself carries five days (Today to Fri 21 Aug) with 242 performances, and it is the routine first-run programme — Spider-Man, Moana, Toy Story 5 and the rest. Everything taken from this source is either the GATE arthouse strand or event cinema. Two things the hint predicts that are **not** in today's listings: CIFF Selects Cine Club, the monthly last-Wednesday programmer-introduced screening, appears nowhere, and neither does any November CIFF title — the GATE page stops at 29 Sep. The 11-13 Sep cluster (RADIANT CUTS, SUMMER'S CAMERA, Go Fish, BEAUTIFUL EVENING BEAUTIFUL DAY, DRAGGING UP THE PAST, REFRACTED LIGHTS, I'M GOING TO MISS YOU) is plainly a festival weekend in the GATE screen, and the footer links a PRIOSMA Film Festival while the film dropdown carries \"PRIOSMA - NEW IRISH SHORTS PROGRAMME 2026\" and \"F*CK DRUGS\" with no dates on the strand page. I have tagged those rows `festival` but named no festival on any of them, because the page never prints one against a screening — that attribution belongs to the festivals catalogue. Finally, the Gate handover is confirmed in the venue's own words: /whatson/gate reads \"we are proud to continue the rich tradition of cinematic excellence established by Cork's Gate Cinema\" and \"Gate Screen, hidden in Screen 6\", and every booking link on the site is still on gatecork.admit-one.eu."
+  - sourceId: "cinema/triskel-christchurch"
+    fetch:
+      ok: true
+      url: "https://triskelartscentre.ie/cinema/"
+      status: 200
+    events:
+      - id: "cinema/triskel-christchurch#064a82f234"
+        sourceId: "cinema/triskel-christchurch"
+        title: "Artists Film International 2026: A Kind of Power"
+        subcategory: "Cinema / Visual Art"
+        occurrence:
+          kind: "run"
+          start: "2026-08-11"
+          end: "2026-08-27"
+        status: "scheduled"
+        timesText: "Tue 11 – Thu 13 Aug, Tue 18 – Thu 20 Aug, Tue 25 – Thu 27 Aug, 10:00 – 15:30 each day"
+        url: "https://triskelartscentre.ie/events/artists-film-international-2026-a-kind-of-power/"
+        image: "https://triskelartscentre.ie/wp-content/uploads/2026/07/The-Kite-Ballet-by-Thais-Muniz-photo-Antonello-Veneri-2P9A3048-Develop-scaled.jpg"
+        price:
+          free: true
+          text: "Free – no booking required"
+          currency: "EUR"
+        tags:
+          - "short-film"
+          - "free-entry"
+          - "drop-in"
+          - "contemporary"
+          - "exhibition"
+        raw: "**Artists Film International 2026: A Kind of Power** — In partnership with Crawford Art Gallery. Tue 11 Aug – Thu 27 Aug.
+
+
+          Tue 11 – Thu 13 Aug, Tue 18 – Thu 20 Aug, Tue 25 – Thu 27 Aug, 10:00 – 15:30 each day. All films presented on a loop throughout the day. Free screenings, drop in, no booking required.
+
+
+          A public talk with **Thaís Muniz and Dr Eve Olney**, with Dawn Williams, curator, Crawford Art Gallery, takes place on Thursday 27 August at 1pm."
+        summary: "Free drop-in loop of twelve international artists' films on how power shapes looking and being seen, in partnership with Crawford Art Gallery. Runs Tuesday to Thursday for three weeks, with an artists' talk on the closing day."
+        description: "Triskel is delighted to partner with Crawford Art Gallery to present Artists Film International 2026 (AFI) under the theme *A Kind of Power*.
+
+
+          Bringing together artists and partner organisations from across the globe, this year's edition explores how systems of power shape the act of looking and the conditions under which we are seen.
+
+
+          This year Crawford Art Gallery selected artist Thaís Muniz to present her short film *The Kite Ballet.*
+
+
+          All films will be presented on a loop throughout the day. Free screenings, drop in, no booking required.
+
+
+          **Tue 11 - Thu 13 Aug / Tue 18 - Thu 20 Aug / Tue 25 - Thu 27 Aug, 10:00 – 15:30 each day.**
+
+
+          A public talk with **Thaís Muniz and Dr Eve Olney** with Dawn Williams, curator, Crawford Art Gallery, will take place on Thursday 27 August at 1pm.
+
+
+          **The full line-up includes:**
+
+
+          Razia Akbari, selected by Center for Contemporary Arts Afghanistan in eXiLe e.V. (CCAA in EXiLe), Frankfurt, Germany; Aqsa Arif, selected by Tramway, Glasgow, Scotland; Alessandra Ferrini, selected by Galleria d'Arte Moderna e Contemporanea di Bergamo (GAMeC), Bergamo, Italy; Ira Goryainova, selected by argos centre for audiovisual arts, Brussels, Belgium; Kiyo Gutiérrez, selected by Los Angeles Contemporary Exhibitions (LACE), Los Angeles, USA; Marte Hodne Haugen, selected by Tromsø Kunstforening, Tromsø, Norway; Malik Irtiza, selected by Project 88, Mumbai, India; Thaís Muniz, selected by Crawford Art Gallery, Cork, Ireland; Ann Oren, selected by Video-Forum of Neuer Berliner Kunstverein (n.b.k), Berlin, Germany; Amaal Said, selected by Forma, London and Focal Point, Southend, UK; Mila Turajlić, selected by Cultural Centre of Belgrade, Belgrade, Serbia; Video News, selected by Sapieha Palace, branch of the Contemporary Art Centre (CAC), Vilnius, Lithuania.
+
+
+          Since the advent of cinema, moving image practice has been tied to questions of perception and power. Early filmmakers imagined the camera as a form of mechanical vision capable of revealing the world objectively, yet cinema quickly exposed how vision remains shaped by the social and political structures that organise the gaze. Throughout the twentieth century, colonial image-making, propaganda, ethnographic film, and patriarchal modes of spectatorship produced and reinforced regimes that shaped how people, cultures, and histories were seen and understood. Far from disappearing, today these systems of visibility have been reconfigured within contemporary digital image cultures defined by circulation, algorithmic mediation, surveillance infrastructures, and the relentless production of visual information.
+
+
+          *A Kind of Power* brings together a selection of international artists whose films renegotiate the fraught legacies of representation and respond to the conditions under which people, histories, and territories are made visible. Many of the artists move beyond critique alone, to explore how moving-image might create new forms of relation, attention, and collective presence. While some works confront contemporary systems of visibility directly, others propose alternative ways of inhabiting and understanding the world through ritual, memory, reciprocity, and acts of witnessing.
+
+
+          Image credit: Thaís Muniz, The Kite Ballet 2024 (detail). Photo: Antonello Veneri. Courtesy and © the Artist."
+        confidence: "high"
+      - id: "cinema/triskel-christchurch#3249237db4"
+        sourceId: "cinema/triskel-christchurch"
+        title: "Edward Scissorhands"
+        subcategory: "The Fantastical Cinema of Tim Burton"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://triskelartscentre.ie/events/edward-scissorhands/"
+        image: "https://triskelartscentre.ie/wp-content/uploads/2026/07/edward-scissorhands.jpg"
+        price:
+          free: false
+          text: "Before 5pm: €8 full / €7 members / €7 child. From 5pm: €11 full / €8.50 members / €8.50 child"
+          min: 7
+          max: 11
+          currency: "EUR"
+        ageRestriction: "12A"
+        tags:
+          - "screening"
+          - "classic"
+          - "arthouse"
+          - "one-night"
+        raw: "**Edward Scissorhands** (12A) — Sat 22 Aug 2026, 19:00. Part of *The Fantastical Cinema of Tim Burton*.
+
+
+          **105 mins – United States 1990**. Director: Tim Burton. Starring: Johnny Depp, Winona Ryder and Dianne Wiest.
+
+
+          > A fantasy that's cleverly original and both funny and bittersweet. — United Press International"
+        summary: "Burton's suburban gothic fairy tale, and Vincent Price's last released role, in the fourth of five Saturday evenings devoted to Burton's early features."
+        description: "**105 mins - United States 1990**
+
+
+          **Director:** Tim Burton
+
+
+          **Starring:** Johnny Depp, Winona Ryder and Dianne Wiest
+
+
+          High above the town in a lonely, gothic mansion, lived a man called Edward Scissorhands. His hands were cold but his heart was warm. You see Edward Scissorhands was not a real man - he is a creation. And his life forever changed the town where he lived. EDWARD SCISSORHANDS is a delightfully humorous, romantic and haunting fantasy that was a popular hit with critics and audiences back in the day. It is notable that this charming film features Vincent Price's last role released in his lifetime.
+
+
+          **The Fantastical Cinema of Tim Burton**
+
+
+          Tim Burton is a filmmaker with a unique cinematic vision in that his films often blend elements of gothic fantasy with whimsy and surrealism. Triskel Arts Centre is delighted to present Burton's first five feature films, which will be screened over five consecutive Saturday evenings this August.
+
+
+          > A fantasy that's cleverly original and both funny and bittersweet. — United Press International"
+        confidence: "high"
+      - id: "cinema/triskel-christchurch#a4fb8c70d2"
+        sourceId: "cinema/triskel-christchurch"
+        title: "Batman Returns"
+        subcategory: "The Fantastical Cinema of Tim Burton"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://triskelartscentre.ie/events/batman-returns/"
+        image: "https://triskelartscentre.ie/wp-content/uploads/2026/07/Batman-Returns.jpg"
+        price:
+          free: false
+          text: "Before 5pm: €8 full / €7 members / €7 child. From 5pm: €11 full / €8.50 members / €8.50 child"
+          min: 7
+          max: 11
+          currency: "EUR"
+        ageRestriction: "15A"
+        tags:
+          - "screening"
+          - "classic"
+          - "arthouse"
+          - "one-night"
+        raw: "**Batman Returns** (15A) — Sat 29 Aug 2026, 19:00. Part of *The Fantastical Cinema of Tim Burton*.
+
+
+          **126 mins – United States 1992**. Director: Tim Burton. Starring: Michael Keaton, Danny DeVito and Michelle Pfeiffer.
+
+
+          > The rarest of Hollywood beasts – a sequel that's better than the original. — Boston Globe"
+        summary: "Burton's second Gotham film, with DeVito's Penguin and Pfeiffer's Catwoman, closing Triskel's five-Saturday Burton season."
+        description: "**126 mins - United States 1992**
+
+
+          **Director:** Tim Burton
+
+
+          **Starring:** Michael Keaton, Danny DeVito and Michelle Pfeiffer
+
+
+          Tim Burton returned to the streets of Gotham City to make a sequel to his colossal box office hit BATMAN and the result is a film that many consider to be even better than the original. This installment of the Batman franchise sees the Dark Knight pitted against an array of diabolical villains - the vicious Penguin with his umbrellaful of evil tricks, the sensuous and mysterious feline temptress, Catwoman, and the scheming mega-millionaire Max Shreck.
+
+
+          **The Fantastical Cinema of Tim Burton**
+
+
+          Tim Burton is a filmmaker with a unique cinematic vision in that his films often blend elements of gothic fantasy with whimsy and surrealism. Triskel Arts Centre is delighted to present Burton's first five feature films, which will be screened over five consecutive Saturday evenings this August.
+
+
+          > The rarest of Hollywood beasts - a sequel that's better than the original. — Boston Globe"
+        confidence: "high"
+      - id: "cinema/triskel-christchurch#6f5816d7d3"
+        sourceId: "cinema/triskel-christchurch"
+        title: "Shoot The People"
+        occurrence:
+          kind: "run"
+          start: "2026-08-30"
+          end: "2026-09-02"
+        status: "scheduled"
+        timesText: "Sun 30 Aug 16:00, Mon 31 Aug 20:00, Tues 1 Sep 20:00, Wed 2 Sep 16:00 (descriptive subtitles) / 20:00"
+        url: "https://triskelartscentre.ie/events/shoot-the-people/"
+        image: "https://triskelartscentre.ie/wp-content/uploads/2026/07/Shoot-The-People.jpg"
+        price:
+          free: false
+          text: "Before 5pm: €8 full / €7 members / €7 child. From 5pm: €11 full / €8.50 members / €8.50 child"
+          min: 7
+          max: 11
+          currency: "EUR"
+        ageRestriction: "12A"
+        tags:
+          - "screening"
+          - "documentary"
+          - "arthouse"
+          - "photography"
+          - "short-run"
+        raw: "**Shoot The People** (12A) — Sun 30 Aug – Wed 2 Sep.
+
+
+          Sun 30 Aug 16:00, Mon 31 Aug 20:00, Tues 1 Sep 20:00, Wed 2 Sep 16:00* / 20:00.
+
+
+          **96 mins – United States 2025 – Documentary**. Director: Andy Mundy-Castle. Featuring: Misan Harriman.
+
+
+          *The 16:00 screening on Wednesday 2nd September will contain descriptive subtitles for deaf/hard of hearing audiences.*
+
+
+          > Thoughtful… a contemporary hero's origin story. — Sight & Sound"
+        summary: "Documentary following photographer Misan Harriman through the protest movements he has spent years photographing, from Black Lives Matter to Palestine. One Wednesday screening carries descriptive subtitles."
+        description: "**96 mins - United States 2025 - Documentary**
+
+
+          **Director:** Andy Mundy-Castle
+
+
+          **Featuring:** Misan Harriman
+
+
+          This documentary follows renowned photographer and Oscar-nominated filmmaker Misan Harriman as he documents global protest movements driving social change, from the 2020 Black Lives Matter protests to the Palestinian liberation movement. Through his lens, the film captures the urgency, power, and humanity behind these movements.
+
+
+          *The 16:00 screening on Wednesday 2nd September will contain descriptive subtitles for deaf/hard of hearing audiences.*
+
+
+          Sun 30 Aug 16:00 · Mon 31 Aug 20:00 · Tues 1 Sep 20:00 · Wed 2 Sep 16:00* / 20:00
+
+
+          > Thoughtful…a contemporary hero's origin story. — Sight & Sound"
+        confidence: "high"
+      - id: "cinema/triskel-christchurch#973251f9c6"
+        sourceId: "cinema/triskel-christchurch"
+        title: "Trainspotting"
+        subcategory: "30th Anniversary"
+        occurrence:
+          kind: "run"
+          start: "2026-08-30"
+          end: "2026-09-02"
+        status: "scheduled"
+        timesText: "Sun 30 Aug 14:00, Mon 31 Aug 18:00, Tues 1 Sep 18:00, Wed 2 Sep 14:00 (descriptive subtitles) / 18:00"
+        url: "https://triskelartscentre.ie/events/trainspotting/"
+        image: "https://triskelartscentre.ie/wp-content/uploads/2026/07/Trainspotting-2.jpg"
+        price:
+          free: false
+          text: "Before 5pm: €8 full / €7 members / €7 child. From 5pm: €11 full / €8.50 members / €8.50 child"
+          min: 7
+          max: 11
+          currency: "EUR"
+        ageRestriction: "18"
+        tags:
+          - "screening"
+          - "classic"
+          - "arthouse"
+          - "18-plus"
+          - "short-run"
+        raw: "**Trainspotting** (18) — Sun 30 Aug – Wed 2 Sep. *30th Anniversary*.
+
+
+          Sun 30 Aug 14:00, Mon 31 Aug 18:00, Tues 1 Sep 18:00, Wed 2 Sep 14:00* / 18:00.
+
+
+          **94 mins – United Kingdom 1996**. Director: Danny Boyle. Starring: Ewan McGregor, Ewen Bremner and Jonny Lee Miller.
+
+
+          *The 14:00 screening on Wednesday 2nd September will contain descriptive subtitles for deaf/hard of hearing audiences.*
+
+
+          > An extraordinary achievement and a break-through British film. — The Guardian"
+        summary: "Danny Boyle's Irvine Welsh adaptation back on the big screen for its thirtieth anniversary, over four days. One Wednesday screening carries descriptive subtitles."
+        description: "**94 mins - United Kingdom 1996**
+
+
+          **Director:** Danny Boyle
+
+
+          **Starring:** Ewan McGregor, Ewen Bremner and Jonny Lee Miller
+
+
+          Hilarious but harrowing, this film is the story of Mark Renton and his friends Sick Boy, Spud, Begbie and Tommy, and charts the disintegration of their friendship as they proceed, seemingly inevitably, towards self-destruction. Mark alone has the insight and opportunity to escape his fate - but then again, does he really want to \"choose life\"? Based on the novel by Irvine Welsh, TRAINSPOTTING is one of the seminal movies of the nineties. To mark its 30th anniversary, do not miss seeing this film back on the big screen.
+
+
+          *The 14:00 screening on Wednesday 2nd September will contain descriptive subtitles for deaf/hard of hearing audiences.*
+
+
+          Sun 30 Aug 14:00 · Mon 31 Aug 18:00 · Tues 1 Sep 18:00 · Wed 2 Sep 14:00* / 18:00
+
+
+          > An extraordinary achievement and a break-through British film. — The Guardian"
+        confidence: "high"
+    notes: "/cinema/ is the right route and lists exactly five things, ending Wed 2 Sep with nothing beyond — the calendar's September cells are empty from the 3rd. Because the index is that thin I opened all five event pages (five extra fetches, declared), so every `description` here is that page's own copy in full. Prices are the venue's printed cinema tariff, which appears in a Tickets Pricing tab on every event page rather than per film: before 5pm €8 full / €7 with annual membership / €7 child; from 5pm €11 / €8.50 / €8.50. Membership is €20, free for students, over-65s and jobseekers, and NC-rated titles are members-only. Occurrence choices: the two four-day titles are `run` with the per-day times verbatim in `timesText`, because the site itself heads them \"Sun 30 Aug - Wed 2 Sep\" and then prints one or two times against each day; the Burton titles are single Saturday screenings. Both four-day runs include one descriptive-subtitled screening on Wed 2 Sep, which is in the timesText and the raw. The Tim Burton season is five consecutive Saturday evenings in August and only the last two survive — three have already gone, which is why the season looks thin. Artists Film International is free and drop-in and runs Tue-Thu only inside its 11-27 Aug span; the site's own calendar paints it on every day in between, which is wrong, so the real pattern is in `timesText`. Its listing also carries a public talk with Thaís Muniz and Dr Eve Olney on Thu 27 Aug at 1pm — there is no separate listing or link for it, so it stays inside that event's copy rather than becoming a row I invented a URL for. Booking is per-show on Ticketsolve with real ids (/shows/873666174/events for Edward Scissorhands, /shows/873666569/ for Shoot The People), so the deep links exist even though the Ticketsolve host itself is the JavaScript shell the catalogue describes."
+  - sourceId: "cinema/reel-picture-blackpool"
+    fetch:
+      ok: true
+      url: "https://blackpool.thereelpicture.com/whatson"
+      status: 200
+    events:
+      - id: "cinema/reel-picture-blackpool#50c1a9df3b"
+        sourceId: "cinema/reel-picture-blackpool"
+        title: "Minions & Monsters"
+        subcategory: "Kids Korner"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "14:00"
+        status: "scheduled"
+        url: "https://blackpool.thereelpicture.com/event/109933"
+        image: "https://blackpool.thereelpicture.com/filmimages/small/109933.jpg"
+        ageRestriction: "G"
+        tags:
+          - "screening"
+          - "family"
+          - "animation"
+          - "kids"
+          - "matinee"
+        raw: "**Minions & Monsters** (G) — Mon 17 Aug 2026. Running time: 90 mins.
+
+
+          Today's showtimes: 14:00 (KIDS KORNER)."
+        summary: "Animated family bill in the Kids Korner slot, one afternoon screening."
+        confidence: "high"
+      - id: "cinema/reel-picture-blackpool#cc60a79742"
+        sourceId: "cinema/reel-picture-blackpool"
+        title: "Moana"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "16:15"
+        status: "scheduled"
+        url: "https://blackpool.thereelpicture.com/event/105535"
+        image: "https://blackpool.thereelpicture.com/filmimages/small/105535.jpg"
+        ageRestriction: "PG"
+        tags:
+          - "screening"
+          - "family"
+          - "new-release"
+          - "kids"
+          - "matinee"
+        raw: "**Moana** (PG) — Mon 17 Aug 2026. Running time: 116 mins.
+
+
+          Today's showtimes: 16:15."
+        summary: "Disney's live-action Moana, one afternoon screening."
+        confidence: "high"
+      - id: "cinema/reel-picture-blackpool#97ec9fa756"
+        sourceId: "cinema/reel-picture-blackpool"
+        title: "Momo and the Time Thieves"
+        subcategory: "Kids Korner"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "14:00"
+        status: "scheduled"
+        url: "https://blackpool.thereelpicture.com/event/113007"
+        image: "https://blackpool.thereelpicture.com/filmimages/small/113007.jpg"
+        ageRestriction: "PG"
+        tags:
+          - "screening"
+          - "family"
+          - "new-release"
+          - "kids"
+          - "matinee"
+        raw: "**Momo and the Time Thieves** (PG) — Mon 17 Aug 2026. Running time: 91 mins.
+
+
+          Today's showtimes: 14:00 (KIDS KORNER)."
+        summary: "Michael Ende adaptation in the Kids Korner slot."
+        confidence: "high"
+      - id: "cinema/reel-picture-blackpool#212999497b"
+        sourceId: "cinema/reel-picture-blackpool"
+        title: "Paw Patrol: The Dino Movie"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "14:10"
+        status: "scheduled"
+        timesText: "14:10 (Reel Extra), 16:20 (Reel Extra)"
+        url: "https://blackpool.thereelpicture.com/event/109935"
+        image: "https://blackpool.thereelpicture.com/filmimages/small/109935.jpg"
+        ageRestriction: "G"
+        tags:
+          - "screening"
+          - "family"
+          - "animation"
+          - "kids"
+          - "matinee"
+        raw: "**Paw Patrol: The Dino Movie** (G) — Mon 17 Aug 2026. Running time: 89 mins.
+
+
+          Today's showtimes: 14:10 (Reel Extra), 16:20 (Reel Extra)."
+        summary: "Paw Patrol's dinosaur film, two afternoon screenings."
+        confidence: "high"
+      - id: "cinema/reel-picture-blackpool#b320868c02"
+        sourceId: "cinema/reel-picture-blackpool"
+        title: "Spider-Man: Brand New Day"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "14:00"
+        status: "scheduled"
+        timesText: "14:00 (PURE), 15:00, 16:15 (Reel Extra), 17:15 (PURE), 18:30 (Reel Extra), 19:30 (Reel Extra), 20:20 (PURE)"
+        url: "https://blackpool.thereelpicture.com/event/105913"
+        image: "https://blackpool.thereelpicture.com/filmimages/small/105913.jpg"
+        ageRestriction: "12A"
+        tags:
+          - "screening"
+          - "new-release"
+          - "headliner"
+        raw: "**Spider-Man: Brand New Day** (12A) — Mon 17 Aug 2026. Running time: 144 mins.
+
+
+          Today's showtimes: 14:00 (PURE), 15:00, 16:15 (Reel Extra), 17:15 (PURE), 18:30 (Reel Extra), 19:30 (Reel Extra), 20:20 (PURE)."
+        summary: "The week's biggest release, on across the standard, PURE and Reel Extra screens."
+        confidence: "high"
+      - id: "cinema/reel-picture-blackpool#1828beea40"
+        sourceId: "cinema/reel-picture-blackpool"
+        title: "Sunny Dancer"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "18:10"
+        status: "scheduled"
+        timesText: "18:10, 20:40"
+        url: "https://blackpool.thereelpicture.com/event/110836"
+        image: "https://blackpool.thereelpicture.com/filmimages/small/110836.jpg"
+        ageRestriction: "15A"
+        tags:
+          - "screening"
+          - "new-release"
+          - "indie"
+        raw: "**Sunny Dancer** (15A) — Mon 17 Aug 2026. Running time: 106 mins.
+
+
+          Today's showtimes: 18:10, 20:40."
+        summary: "Comedy drama, two evening screenings."
+        confidence: "high"
+      - id: "cinema/reel-picture-blackpool#6a8d4511e9"
+        sourceId: "cinema/reel-picture-blackpool"
+        title: "The End Of Oak Street"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "14:00"
+        status: "scheduled"
+        timesText: "14:00 (Reel Extra), 16:10 (Reel Extra), 18:25 (Reel Extra), 20:40 (Reel Extra)"
+        url: "https://blackpool.thereelpicture.com/event/111887"
+        image: "https://blackpool.thereelpicture.com/filmimages/small/111887.jpg"
+        ageRestriction: "15A"
+        tags:
+          - "screening"
+          - "new-release"
+          - "sci-fi"
+        raw: "**The End Of Oak Street** (15A) — Mon 17 Aug 2026. Running time: 100 mins.
+
+
+          Today's showtimes: 14:00 (Reel Extra), 16:10 (Reel Extra), 18:25 (Reel Extra), 20:40 (Reel Extra)."
+        summary: "Science-fiction thriller, four screenings today in the Reel Extra recliner screen."
+        confidence: "high"
+      - id: "cinema/reel-picture-blackpool#432b9290f4"
+        sourceId: "cinema/reel-picture-blackpool"
+        title: "The Odyssey"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "16:20"
+        status: "scheduled"
+        timesText: "16:20 (RECLINE), 18:45, 19:50 (RECLINE)"
+        url: "https://blackpool.thereelpicture.com/event/105912"
+        image: "https://blackpool.thereelpicture.com/filmimages/small/105912.jpg"
+        ageRestriction: "15A"
+        tags:
+          - "screening"
+          - "new-release"
+          - "classic"
+        raw: "**The Odyssey** (15A) — Mon 17 Aug 2026. Running time: 173 mins.
+
+
+          Today's showtimes: 16:20 (RECLINE), 18:45, 19:50 (RECLINE)."
+        summary: "Christopher Nolan's Odyssey, including a RECLINE screening."
+        confidence: "high"
+      - id: "cinema/reel-picture-blackpool#4f05aede17"
+        sourceId: "cinema/reel-picture-blackpool"
+        title: "Toy Story 5"
+        subcategory: "Kids Korner"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "14:00"
+        status: "scheduled"
+        url: "https://blackpool.thereelpicture.com/event/104999"
+        image: "https://blackpool.thereelpicture.com/filmimages/small/104999.jpg"
+        ageRestriction: "G"
+        tags:
+          - "screening"
+          - "family"
+          - "animation"
+          - "kids"
+          - "matinee"
+        raw: "**Toy Story 5** (G) — Mon 17 Aug 2026. Running time: 102 mins.
+
+
+          Today's showtimes: 14:00 (KIDS KORNER)."
+        summary: "Toy Story 5 in the Kids Korner slot."
+        confidence: "high"
+    notes: "/whatson is correct and better than the hint suggests: it server-renders seven whole days as panel0 to panel6 (Today to Sun 23 Aug), so one fetch really does reach a week ahead. **Truncation, declared:** I recorded today only — 9 films, 22 performances — and left the other six days, which are largely more dates for the same 10 titles that appear across the week. The format labels sit on each showtime and are the distinctive part: KIDS KORNER, PURE, Reel Extra and RECLINE. No price appears anywhere in the listing, at any level, so no price is recorded. Unlike the Arc, this Admit-One skin leaks no var_dump, so there are no soldout or subtitled flags to read. Both catalogued accessible views are live and both are empty, which is a real result rather than a failure: /whatson/autismfriendly returns \"No Autism Friendly events scheduled\" above a description of the strand (\"Our Sensory Screenings are every Sunday morning... lights up, sound lowered... 1 free adult with every child ticket bought, with prices from €10.75 for 2 seats\"), and /whatson/hardofhearing returns \"No Hard of hearing events scheduled\" above \"Every Sunday at the early evening shows (usually between 5-8), we will be showing the latest titles with subtitles\". Both patterns are stated in the venue's own words and both are genuinely useful, but neither has a screening attached, so I recorded no event rather than manufacturing one the page says is not there. Worth a hint: re-check those two paths on a Saturday or Sunday, when the week's sensory and subtitled titles are presumably filled in."
+  - sourceId: "cinema/reel-picture-ballincollig"
+    fetch:
+      ok: true
+      url: "https://ballincollig.thereelpicture.com/whatson"
+      status: 200
+    events:
+      - id: "cinema/reel-picture-ballincollig#399773803d"
+        sourceId: "cinema/reel-picture-ballincollig"
+        title: "Minions & Monsters"
+        subcategory: "Kids Korner"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "13:50"
+        status: "scheduled"
+        url: "https://ballincollig.thereelpicture.com/event/109933"
+        image: "https://ballincollig.thereelpicture.com/filmimages/small/109933.jpg"
+        ageRestriction: "G"
+        tags:
+          - "screening"
+          - "family"
+          - "animation"
+          - "kids"
+          - "matinee"
+        raw: "**Minions & Monsters** (G) — Mon 17 Aug 2026. Running time: 90 mins.
+
+
+          Today's showtimes: 13:50 (KIDS KORNER)."
+        summary: "Animated family bill in the Kids Korner slot, one afternoon screening."
+        confidence: "high"
+      - id: "cinema/reel-picture-ballincollig#d9972d6b0c"
+        sourceId: "cinema/reel-picture-ballincollig"
+        title: "Paw Patrol: The Dino Movie"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "14:15"
+        status: "scheduled"
+        timesText: "14:15 (RECLINE), 16:30 (RECLINE)"
+        url: "https://ballincollig.thereelpicture.com/event/109935"
+        image: "https://ballincollig.thereelpicture.com/filmimages/small/109935.jpg"
+        ageRestriction: "G"
+        tags:
+          - "screening"
+          - "family"
+          - "animation"
+          - "kids"
+          - "matinee"
+        raw: "**Paw Patrol: The Dino Movie** (G) — Mon 17 Aug 2026. Running time: 89 mins.
+
+
+          Today's showtimes: 14:15 (RECLINE), 16:30 (RECLINE)."
+        summary: "Paw Patrol's dinosaur film, two afternoon screenings."
+        confidence: "high"
+      - id: "cinema/reel-picture-ballincollig#3dac9c0c6a"
+        sourceId: "cinema/reel-picture-ballincollig"
+        title: "Spider-Man: Brand New Day"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "13:20"
+        status: "scheduled"
+        timesText: "13:20, 14:00 (PURE), 15:50, 16:35, 17:15 (PURE), 18:50, 19:30 (RECLINE), 20:15 (PURE)"
+        url: "https://ballincollig.thereelpicture.com/event/105913"
+        image: "https://ballincollig.thereelpicture.com/filmimages/small/105913.jpg"
+        ageRestriction: "12A"
+        tags:
+          - "screening"
+          - "new-release"
+          - "headliner"
+        raw: "**Spider-Man: Brand New Day** (12A) — Mon 17 Aug 2026. Running time: 144 mins.
+
+
+          Today's showtimes: 13:20, 14:00 (PURE), 15:50, 16:35, 17:15 (PURE), 18:50, 19:30 (RECLINE), 20:15 (PURE)."
+        summary: "The week's biggest release, on across the standard, PURE and Reel Extra screens."
+        confidence: "high"
+      - id: "cinema/reel-picture-ballincollig#fb98099597"
+        sourceId: "cinema/reel-picture-ballincollig"
+        title: "Sunny Dancer"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "18:30"
+        status: "scheduled"
+        timesText: "18:30 (Reel Extra), 20:50 (Reel Extra)"
+        url: "https://ballincollig.thereelpicture.com/event/110836"
+        image: "https://ballincollig.thereelpicture.com/filmimages/small/110836.jpg"
+        ageRestriction: "15A"
+        tags:
+          - "screening"
+          - "new-release"
+          - "indie"
+        raw: "**Sunny Dancer** (15A) — Mon 17 Aug 2026. Running time: 106 mins.
+
+
+          Today's showtimes: 18:30 (Reel Extra), 20:50 (Reel Extra)."
+        summary: "Comedy drama, two evening screenings."
+        confidence: "high"
+      - id: "cinema/reel-picture-ballincollig#89c71609cc"
+        sourceId: "cinema/reel-picture-ballincollig"
+        title: "The End Of Oak Street"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "14:00"
+        status: "scheduled"
+        timesText: "14:00 (Reel Extra), 16:15 (Reel Extra), 18:30 (Reel Extra), 20:45 (Reel Extra)"
+        url: "https://ballincollig.thereelpicture.com/event/111887"
+        image: "https://ballincollig.thereelpicture.com/filmimages/small/111887.jpg"
+        ageRestriction: "15A"
+        tags:
+          - "screening"
+          - "new-release"
+          - "sci-fi"
+        raw: "**The End Of Oak Street** (15A) — Mon 17 Aug 2026. Running time: 100 mins.
+
+
+          Today's showtimes: 14:00 (Reel Extra), 16:15 (Reel Extra), 18:30 (Reel Extra), 20:45 (Reel Extra)."
+        summary: "Science-fiction thriller, four screenings today in the Reel Extra recliner screen."
+        confidence: "high"
+      - id: "cinema/reel-picture-ballincollig#8ec52bee92"
+        sourceId: "cinema/reel-picture-ballincollig"
+        title: "The Odyssey"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "19:45"
+        status: "scheduled"
+        url: "https://ballincollig.thereelpicture.com/event/105912"
+        image: "https://ballincollig.thereelpicture.com/filmimages/small/105912.jpg"
+        ageRestriction: "15A"
+        tags:
+          - "screening"
+          - "new-release"
+          - "classic"
+        raw: "**The Odyssey** (15A) — Mon 17 Aug 2026. Running time: 173 mins.
+
+
+          Today's showtimes: 19:45."
+        summary: "Christopher Nolan's Odyssey, including a RECLINE screening."
+        confidence: "high"
+      - id: "cinema/reel-picture-ballincollig#5a33e103fc"
+        sourceId: "cinema/reel-picture-ballincollig"
+        title: "Toy Story 5"
+        subcategory: "Kids Korner"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "14:00"
+        status: "scheduled"
+        timesText: "14:00 (KIDS KORNER), 16:15 (Reel Extra)"
+        url: "https://ballincollig.thereelpicture.com/event/104999"
+        image: "https://ballincollig.thereelpicture.com/filmimages/small/104999.jpg"
+        ageRestriction: "G"
+        tags:
+          - "screening"
+          - "family"
+          - "animation"
+          - "kids"
+          - "matinee"
+        raw: "**Toy Story 5** (G) — Mon 17 Aug 2026. Running time: 102 mins.
+
+
+          Today's showtimes: 14:00 (KIDS KORNER), 16:15 (Reel Extra)."
+        summary: "Toy Story 5 in the Kids Korner slot."
+        confidence: "high"
+    notes: "Same platform and same behaviour as the Blackpool sibling: /whatson server-renders seven days as panel0 to panel6, Today to Sun 23 Aug. **Truncation, declared:** today only — 7 films, 20 performances — with the other six days left. The programme is confirmed distinct from Blackpool's (different times, and Moana and Momo are not on here today), so these really are two cinemas rather than one behind two subdomains. Format labels present: KIDS KORNER, PURE, Reel Extra, RECLINE. No prices in the listing, so none recorded. /whatson/autismfriendly and /whatson/hardofhearing both return the same \"No ... events scheduled\" as Blackpool, with the same strand descriptions (sensory Sunday mornings, subtitled Sunday early evenings), so no event from either — reached, and legitimately empty."
+  - sourceId: "cinema/cork-cine-club"
+    fetch:
+      ok: true
+      url: "https://corkcineclub.com/feed/"
+      status: 200
+    events:
+      - id: "cinema/cork-cine-club#86107c819d"
+        sourceId: "cinema/cork-cine-club"
+        title: "THE PRESIDENT’S CAKE [Iraq]"
+        occurrence:
+          kind: "single"
+          date: "2026-09-24"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://corkcineclub.com/2026/07/the-presidents-cake-iraq-thu-24-sept-730pm/"
+        image: "https://corkcineclub.com/wp-content/uploads/2026/07/The-Presidents-Cake-1-1024x683.jpg"
+        price:
+          free: false
+          text: "€8.50 / €7 concession"
+          min: 7
+          max: 8.5
+          currency: "EUR"
+        ageRestriction: "12A"
+        tags:
+          - "screening"
+          - "arthouse"
+          - "subtitled"
+          - "one-night"
+          - "community"
+        raw: "**THE PRESIDENT’S CAKE [Iraq], Thursday 24 September, 7:30pm**
+
+
+          Cork College of FET, Douglas Street Campus. Tickets €8.50 / €7 concession. Online booking closes at 18:30 on the night of the film; pay at the door by card or cash if not sold out online."
+        summary: "Hasan Hadi's Caméra d'Or winner, in which a nine-year-old in 1990s Iraq is told to bake a cake for the President's birthday. Opens Cork Cine Club's 30th season, with a glass of wine and cake."
+        description: "[Click here to book online for THE PRESIDENT’S CAKE](https://ie.powertik.com/events/the-president-s-cake-iraq)
+
+
+          **Jamie and Mandy have both seen this film and agreed that it’s perfect for our audience. We’ll serve our customary glass of wine to celebrate the start of our 30th season, and given the film’s subject, there will be cake! **
+
+
+          While people across 1990s Iraq struggle to survive, 9-year old Lamia has been selected to prepare a cake to celebrate the President’s birthday. In a landscape of fear and scarcity, where basic ingredients are nearly impossible to find, Lamia sets out on a determined journey throughout the big city in search of eggs, flour, and sugar. Accompanied by her grandmother, her loyal friend Saeed, and her pet rooster Hindi, she navigates vendors and police officers along the way. *The President’s Cake* is a charming and bitter-sweet crowd-pleaser.
+
+
+          Winner – Caméra d’Or, Cannes Film Festival 2025
+
+
+          *The bonds of the children, Bibi, the postman, and a very few others in their circle endow “The President’s Cake” with a grandly humanistic warmth that’s all the stronger for the mighty pressure under which it’s forged.* – The New Yorker
+
+
+          *This detail-rich and tremendously moving moral fable uncovers harsh realities in Iraqi society without departing from the earnest perspective of its knee-high protagonist, and without diminishing the dignity or value of her hopes and dreams. *– RogerEbert.com
+
+
+          *This is an impressive first feature from the writer-director Hasan Hadi, a sharply observed, bittersweet, child’s-eye odyssey that avoids cute-kid cliches.* – The Observer
+
+
+          *There’s a terrific charm and sweetness in this debut from Iraqi film-maker Hasan Hadi. *– The Guardian
+
+
+          *The President’s Cake is only superficially a story of youthful resilience. The deprivations and darkness of the dictatorship, which immiserates the Iraqi people even as it demands performative displays of happiness, lurk around every corner. *– The New York Times
+
+
+          *At times, the mood is almost larky. (Lamia travels with her cockerel, Hindi, a star.). But the small, grave face of Nayyef — who has never acted before, and gives a great performance — provides the soul of the film. *– Financial Times
+
+
+          [99% Rotten Tomatoes](https://www.rottentomatoes.com/m/the_presidents_cake)
+
+
+          **THE PRESIDENT’S CAKE **
+
+
+          Iraq, 2025 | Language: Arabic | 1 hr 45 min | Cert: 12A
+
+
+          Director: Hasan Hadi
+
+
+          Cast: Banin Ahmad Nayyef, Sajad Mohamad Qasem, Waheed Thabet Khreibat, Rahim AlHaj
+
+
+          Foreign language films are subtitled.
+
+
+          **BOOKING**
+
+
+          Tickets: €8.50/€7 concession.
+
+
+          [Click here to book online.](https://ie.powertik.com/events/the-president-s-cake-iraq)
+
+
+          Cork Cine Club absorbs the cost of online booking fees.
+
+
+          Online booking closes at 6:30pm on the night of the film.
+
+
+          Pay at the door by card or cash if not sold out online.
+
+
+          Exact change is appreciated.
+
+
+          Film schedule subject to change."
+        confidence: "high"
+      - id: "cinema/cork-cine-club#8ff49d91a7"
+        sourceId: "cinema/cork-cine-club"
+        title: "BLUE HERON [Canada/Hungary]"
+        occurrence:
+          kind: "single"
+          date: "2026-10-01"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://corkcineclub.com/2026/07/blue-heron-canada-hungary-1-oct-730pm/"
+        image: "https://corkcineclub.com/wp-content/uploads/2026/07/1.Blue-Heron_Still-min-1024x615.jpg"
+        price:
+          free: false
+          text: "€8.50 / €7 concession"
+          min: 7
+          max: 8.5
+          currency: "EUR"
+        ageRestriction: "12A"
+        tags:
+          - "screening"
+          - "arthouse"
+          - "subtitled"
+          - "one-night"
+          - "community"
+        raw: "**BLUE HERON [Canada/Hungary], Thursday 1 October, 7:30pm**
+
+
+          Cork College of FET, Douglas Street Campus. Tickets €8.50 / €7 concession. Online booking closes at 18:30 on the night of the film; pay at the door by card or cash if not sold out online."
+        summary: "Sophy Romvari's debut, a Hungarian family's 1990s Vancouver Island childhood remembered with documentary precision."
+        description: "[Click here to book online for BLUE HERON](https://ie.powertik.com/events/blue-heron-canada-hungary)
+
+
+          Vancouver Island in the 1990s. Eight-year-old Sasha’s parents have moved their family from Hungary to Canada. As Sasha and her siblings enjoy the new environment, their parents have become increasingly concerned about the unpredictable behaviour of their eldest son, Jeremy. As the parents desperately try to help their troubled son, Sasha struggles to understand what’s unfolding around her.
+
+
+          ★★★★ *Blue Heron juggles painful memoir and self-reflexive film-making with remarkable assurance… A surgically precise and poignant exploration of how families mythologise and editorialise the pain away.* – Irish Times
+
+
+          *A fine-grain family portrait laced with the spirit of documentary reconstruction. It is also hard to write about honestly without sounding like a hype artist, so brilliant is the filmmaking, so startling the narrative depth. *– Financial Times
+
+
+          *Occasionally, a talent arrives fully formed, and the Canadian-Hungarian director Sophy Romvari is one such phenomenon. Already effortlessly fluent in the language of cinema, she is confident enough to have made a feature debut that is entirely her own*. – The Observer
+
+
+          *It’s a reminder of the power of filmmaking to turn the deeply personal into relatable art, and an announcement of a major talent, one who has made the best film of the year to date. *– RogerEbert.com
+
+
+          [98% Rotten Tomatoes](https://www.rottentomatoes.com/m/blue_heron)
+
+
+          **BLUE HERON**
+
+
+          Canada/Hungary, 2025 | Language: English/Hungarian | 1 hr 30 min | Cert: 12A
+
+
+          Director: Sophy Romvari
+
+
+          Cast: Eylul Guven, Edik Beddoes, Iringó Réti, Ádám Tompa, Liam Serg
+
+
+          Foreign language films are subtitled.
+
+
+          **BOOKING**
+
+
+          Tickets: €8.50/€7 concession.
+
+
+          [Click here to book online.](https://ie.powertik.com/events/blue-heron-canada-hungary)
+
+
+          Cork Cine Club absorbs the cost of online booking fees.
+
+
+          Online booking closes at 6:30pm on the night of the film.
+
+
+          Pay at the door by card or cash if not sold out online.
+
+
+          Exact change is appreciated.
+
+
+          Film schedule subject to change."
+        confidence: "high"
+      - id: "cinema/cork-cine-club#85f900460a"
+        sourceId: "cinema/cork-cine-club"
+        title: "DEAR YOU [China]"
+        occurrence:
+          kind: "single"
+          date: "2026-10-08"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://corkcineclub.com/2026/07/dear-you-china-8-october-730pm/"
+        image: "https://corkcineclub.com/wp-content/uploads/2026/07/rsz_dear_you_cropped-e1785705259975-1006x1024.jpg"
+        price:
+          free: false
+          text: "€8.50 / €7 concession"
+          min: 7
+          max: 8.5
+          currency: "EUR"
+        tags:
+          - "screening"
+          - "arthouse"
+          - "subtitled"
+          - "one-night"
+          - "community"
+        raw: "**DEAR YOU [China], Thursday 8 October, 7:30pm**
+
+
+          Cork College of FET, Douglas Street Campus. Tickets €8.50 / €7 concession. Online booking closes at 18:30 on the night of the film; pay at the door by card or cash if not sold out online."
+        summary: "Teochew-dialect family saga, a sleeper hit in China, following a grandson to Thailand in search of a billionaire grandfather."
+        description: "[Click here to book online for DEAR YOU](https://ie.powertik.com/events/dear-you-china)
+
+
+          Shot mainly in the Teochew dialect from China’s Guandong region, DEAR YOU follows a cash-strapped grandson who travels to Thailand seeking his billionaire grandfather, only to uncover a decades-old secret about love letters and identity among the mid-century Chinese diaspora.
+
+
+          W**i**th a story that ranges from the 1940s to the present, this generations-spanning drama feels like a good old-fashioned novel, the kind in which coincidences and random accidents cause misunderstandings that last for decades until the truth is finally revealed. Its lashings of period colour and impressive performances has helped to make DEAR YOU a huge box-office hit in the People’s Republic of China.
+
+
+          [Click here](https://www.scmp.com/lifestyle/chinese-culture/article/3357640/how-teochew-people-spread-china-and-their-outsize-influence-hong-kong-thailand)to read an article in the South China Morning Post about DEAR YOU and the Teochew dialect.
+
+
+          [Click here](https://www.screendaily.com/features/dear-you-director-lan-hongchun-talks-inspiration-and-reactions-to-his-chinese-sleeper-hit/5218888.article)to read Screen Daily interview with director Lan Hongchun talking inspiration and reactions to his Chinese sleeper hit.
+
+
+          *Director Lan Hongchun’s family saga feels like a good old-fashioned novel as it goes in search of a man who has disappeared in Thailand.* – [The Guardian](https://www.theguardian.com/film/2026/jun/24/dear-you-review-chinese-romantic-drama-lan-hongchun)
+
+
+          *”Dear You” is a definite crowd pleaser, very smartly written and directed, and a story that is bound to entertain viewers who enjoy epic dramas.* – Asian Movie Pulse
+
+
+          *The film’s unabashedly romantic sensibility is hard to resist and continues to resonate with a wide, multi-generational audience. *– South China Morning Post
+
+
+          [Rotten Tomatoes](https://www.rottentomatoes.com/m/dear_you)
+
+
+          **DEAR YOU**
+
+
+          China, 2025 | Language: [Teochew-speaking Chinese](https://en.wikipedia.org/wiki/Teochew_Min) | 1 hr 58 min | Cert:
+
+
+          Director: Lan Hongchun
+
+
+          Cast: Usha Seamkhum, Li Sitong, Wang Yantong, Wu Shaoqing, Zheng Runqi, Wang Xiaohui
+
+
+          Foreign language films are subtitled.
+
+
+          **BOOKING**
+
+
+          Tickets: €8.50/€7 concession.
+
+
+          [Click here to book online.](https://ie.powertik.com/events/dear-you-china)
+
+
+          Cork Cine Club absorbs the cost of online booking fees.
+
+
+          Online booking closes at 6:30pm on the night of the film.
+
+
+          Pay at the door by card or cash if not sold out online.
+
+
+          Exact change is appreciated.
+
+
+          Film schedule subject to change."
+        confidence: "high"
+      - id: "cinema/cork-cine-club#c0602da5f5"
+        sourceId: "cinema/cork-cine-club"
+        title: "CACTUS PEARS [India]"
+        occurrence:
+          kind: "single"
+          date: "2026-10-15"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://corkcineclub.com/2026/07/cactus-pears-india-15-october-730pm/"
+        image: "https://corkcineclub.com/wp-content/uploads/2026/07/cactus-pears-1024x577.jpg"
+        price:
+          free: false
+          text: "€8.50 / €7 concession"
+          min: 7
+          max: 8.5
+          currency: "EUR"
+        tags:
+          - "screening"
+          - "arthouse"
+          - "subtitled"
+          - "lgbtq"
+          - "one-night"
+        raw: "**CACTUS PEARS [India], Thursday 15 October, 7:30pm**
+
+
+          Cork College of FET, Douglas Street Campus. Tickets €8.50 / €7 concession. Online booking closes at 18:30 on the night of the film; pay at the door by card or cash if not sold out online."
+        summary: "Sundance Grand Jury winner from Marathi-language India: two men find each other during a ten-day village mourning ritual."
+        description: "[Click here to book online for CACTUS PEARS](https://ie.powertik.com/en/events/cactus-pears-india)
+
+
+          Set in rural Maharashtra, Cactus Pears follows Anand, a 30-something Mumbai call-centre worker who returns to his ancestral village to observe the ten-day mourning ritual following his father’s death. While navigating the pressures of family expectations and marriage, he reconnects with Balya, a childhood friend facing similar struggles. Over the course of the mourning period, their bond deepens into a tender and intimate relationship, creating a quiet exploration of grief, identity and queer love within a traditional rural community.
+
+
+          Sundance Film Festival, Winner of Grand Jury Prize in World Cinema Dramatic
+
+
+          *Here is a really impressive directorial debut from Mumbai film-maker Rohan Kanawade: tender, subtle, candid, scrupulously observed.* – The Guardian
+
+
+          *While the film centers on the comfort Anand finds with Balya and vice versa, it is also an elegantly reserved study of Anand’s grief, finding a rhythm in its scenes of ritual that allows us to ache alongside.* – The New York Times
+
+
+          *In less assured hands, Cactus Pears might have edged into trite territory, yielding to the familiar beats of trauma-laden queer love stories, but Kanawade’s considered direction and spare storytelling keep the narrative refreshing. *– The Hollywood Reporter
+
+
+          *A touching queer romance whose subtle rhythms pull us into its tender embrace. *– RogerEbert.com
+
+
+          [95% Rotten Tomatoes](https://www.rottentomatoes.com/m/cactus_pears)
+
+
+          **CACTUS PEARS** **[Sabar Bonda]**
+
+
+          India, 2025 | Language: Marathi | 1 hr 52 min | Cert: none
+
+
+          Director: Rohan Parashuram Kanawade
+
+
+          Cast: Bhushaan Manoj, Suraaj Suman, Jayshri Jagtap
+
+
+          Foreign language films are subtitled.
+
+
+          **BOOKING**
+
+
+          Tickets: €8.50/€7 concession.
+
+
+          [Click here to book online.](https://ie.powertik.com/en/events/cactus-pears-india)
+
+
+          Cork Cine Club absorbs the cost of online booking fees.
+
+
+          Online booking closes at 6:30pm on the night of the film.
+
+
+          Pay at the door by card or cash if not sold out online.
+
+
+          Exact change is appreciated.
+
+
+          Film schedule subject to change."
+        confidence: "high"
+      - id: "cinema/cork-cine-club#5f8495ef5f"
+        sourceId: "cinema/cork-cine-club"
+        title: "PRIMAVERA [Italy]"
+        occurrence:
+          kind: "single"
+          date: "2026-10-22"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://corkcineclub.com/2026/07/primavera-italy-22-october-730pm/"
+        image: "https://corkcineclub.com/wp-content/uploads/2026/07/rsz_primavera_-_main_still-1024x683.jpg"
+        price:
+          free: false
+          text: "€8.50 / €7 concession"
+          min: 7
+          max: 8.5
+          currency: "EUR"
+        tags:
+          - "screening"
+          - "arthouse"
+          - "subtitled"
+          - "classical"
+          - "one-night"
+        raw: "**PRIMAVERA [Italy], Thursday 22 October, 7:30pm**
+
+
+          Cork College of FET, Douglas Street Campus. Tickets €8.50 / €7 concession. Online booking closes at 18:30 on the night of the film; pay at the door by card or cash if not sold out online."
+        summary: "Opera director Damiano Michieletto's debut feature, set in an 18th-century Venetian orphanage where Vivaldi arrives to teach."
+        description: "[Click here to book online for PRIMAVERA](https://ie.powertik.com/en/events/primavera-italy)
+
+
+          An astounding feature debut by the acclaimed Italian opera director, Damiano Michieletto, set in early 18th century Venice. Renowned for its exceptional music programme, the Pièta orphanage is home to Cecilia, a young violin virtuoso. Despite her talent, Cecilia’s future seems dim, with the prospect of an arranged marriage her only hope of escape. Her life changes drastically when Antonio Vivaldi, a brilliant and ambitious composer, arrives as the new music teacher. Through a complex artistic relationship with Vivaldi and his music, Cecilia finds the strength to challenge the destiny that once seemed inevitable.
+
+
+          *The dark, atmospheric tone of the film is enhanced by an engrossing storyline and a brilliant acting performance by Tecla Insolia. Primavera announces Damiano Michieletto as a filmmaker to watch.* – Subculture Entertainment
+
+
+          *Insolia and Riondino are quite perfectly cast. Their characters have soul chemistry and their scenes together are the film’s best.* – The Times [UK]
+
+
+          [Rotten Tomatoes](https://www.rottentomatoes.com/m/primavera)
+
+
+          **PRIMAVERA**
+
+
+          Italy, 2025 | Language: Italian | 1 hr 50 min | Cert: none
+
+
+          Director: Damiano Michieletto
+
+
+          Cast: Michele Riondino, Tecla Insolia, Fabrizia Sacchi, Andrea Pennacchi
+
+
+          Foreign language films are subtitled.
+
+
+          **BOOKING**
+
+
+          Tickets: €8.50/€7 concession.
+
+
+          [Click here to book online.](https://ie.powertik.com/en/events/primavera-italy)
+
+
+          Cork Cine Club absorbs the cost of online booking fees.
+
+
+          Online booking closes at 6:30pm on the night of the film.
+
+
+          Pay at the door by card or cash if not sold out online.
+
+
+          Exact change is appreciated.
+
+
+          Film schedule subject to change."
+        confidence: "high"
+      - id: "cinema/cork-cine-club#435f6c4029"
+        sourceId: "cinema/cork-cine-club"
+        title: "FAIRYLAND [USA]"
+        occurrence:
+          kind: "single"
+          date: "2026-11-05"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://corkcineclub.com/2026/07/fairyland-5-november-2026-730pm/"
+        image: "https://corkcineclub.com/wp-content/uploads/2026/07/Fairyland-1024x576.jpg"
+        price:
+          free: false
+          text: "€8.50 / €7 concession"
+          min: 7
+          max: 8.5
+          currency: "EUR"
+        tags:
+          - "screening"
+          - "arthouse"
+          - "lgbtq"
+          - "one-night"
+          - "community"
+        raw: "**FAIRYLAND [USA], Thursday 5 November, 7:30pm**
+
+
+          Cork College of FET, Douglas Street Campus. Tickets €8.50 / €7 concession. Online booking closes at 18:30 on the night of the film; pay at the door by card or cash if not sold out online."
+        summary: "Sofia Coppola-produced adaptation of Alysia Abbott's memoir of growing up with a gay poet father in 1970s San Francisco."
+        description: "[Click here to book online for FAIRYLAND](https://ie.powertik.com/en/events/fairyland-usa)
+
+
+          In this poignant adaptation of Alysia Abbott’s memoir, produced by Sofia Coppola, a daughter is along for the ride of her young life when her widowed father heads west to 1970s San Francisco to claim his authentic self in the exhilarating early days of gay liberation. Amiable, well-meaning Steve is a queer poet trying to balance fatherhood and writing with his enthusiastic exploration of his sexuality. Eight-year-old Alysia is rolling with life’s changes and watching the Pride parade go by.
+
+
+          The older Alysia reveals more complicated emotions as a young woman struggling to come to terms with her bohemian upbringing and sometimes irresponsible father. First-time director Andrew Durham captures the heady sense of freedom and possibility of an era along with the shattering reality of AIDS as it sweeps in, destroying lives and upending community.
+
+
+          *This fond, wise, lived-in film chronicles a spectrum of parentification – with the parties switching roles – over turbulent decades. Its emotional force is found in the two-step between parent and child as the sweep of LGBTQ+ history catches up.* – The Irish Times
+
+
+          *Andrew Durham’s adaptation of the bestselling Alysia Abbott memoir is a fine debut for the writer-director, one that mines ache and beauty within this most novel inflection of the father-daughter dynamic.* – Irish Independent
+
+
+          *Durham’s direction is sensitive and assured, and he does a great job mixing his location work with archival footage to create an authentic sense of what San Francisco was like during those times.* – San Francisco Chronicle
+
+
+          *An honest, real movie about people living big lives during tumultuous times, and coming through it damaged but wiser.* – RogerEbert.com
+
+
+          *At its most thoughtful, “Fairyland” conveys a dual sense of loss — spanning personal loves and lovers, and whole historical moments and communities — in such small, sweet gestures as a head on a shoulder, a hand in a hand, a silence finally understood.* – Variety
+
+
+          [96% Rotten Tomatoes](https://www.rottentomatoes.com/m/fairyland)
+
+
+          **FAIRYLAND**
+
+
+          USA, 2024 | Language: English | 1 hr 56 min | Cert: CLUB
+
+
+          Director: Andrew Durham
+
+
+          Cast: Scoot McNairy, Emilia Jones, Geena Davis, Nessa Dougherty
+
+
+          Foreign language films are subtitled.
+
+
+          **BOOKING**
+
+
+          Tickets: €8.50/€7 concession.
+
+
+          [Click here to book online.](https://ie.powertik.com/en/events/fairyland-usa)
+
+
+          Cork Cine Club absorbs the cost of online booking fees.
+
+
+          Online booking closes at 6:30pm on the night of the film.
+
+
+          Pay at the door by card or cash if not sold out online.
+
+
+          Exact change is appreciated.
+
+
+          Film schedule subject to change."
+        confidence: "high"
+      - id: "cinema/cork-cine-club#49833ee963"
+        sourceId: "cinema/cork-cine-club"
+        title: "MY FATHER’S SHADOW [Nigeria]"
+        occurrence:
+          kind: "single"
+          date: "2026-11-12"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://corkcineclub.com/2026/07/my-fathers-shadow-nigeria-thu-12-november-2026-730pm/"
+        image: "https://corkcineclub.com/wp-content/uploads/2026/07/MY-FATHER_S-SHADOW_Still-2-1024x683.jpg"
+        price:
+          free: false
+          text: "€8.50 / €7 concession"
+          min: 7
+          max: 8.5
+          currency: "EUR"
+        ageRestriction: "12A"
+        tags:
+          - "screening"
+          - "arthouse"
+          - "short-film"
+          - "one-night"
+          - "community"
+        raw: "**MY FATHER’S SHADOW [Nigeria], Thursday 12 November, 7:30pm**
+
+
+          Cork College of FET, Douglas Street Campus. Tickets €8.50 / €7 concession. Online booking closes at 18:30 on the night of the film; pay at the door by card or cash if not sold out online."
+        summary: "Akinola Davies Jr's Cannes-winning debut: two brothers spend a day in 1993 Lagos with their absent father. Shown with an Irish short."
+        description: "Click here to book online for MY FATHER’S SHADOW
+
+
+          Set over one day in 1993 Nigeria, young bothers Remi and Akin are taken by surprise when their often-absent father Folarin arrives home. Their surprise turns into excitement when Folarin suggests that the brothers accompany him to Lagos for the day, as he needs to collect a long-overdue salary. The trip becomes a journey of discovery for the boys as they spend time with their father and become more aware of their country’s political unrest. Drawing loosely on his own experiences and co-written with his brother, this first feature from director Akinola Davies Jr. deftly explores themes of loss, memory, nostalgia and connected histories.
+
+
+          *[My Father’s Shadow] quietly marries personal and national histories, offering a deceptively sprawling portrait of Lagos, a family and the fragile, frantic ways people try to hold on against tyranny.*– The Irish Times
+
+
+          ★★★★* In his Cannes-winning feature debut, the British-Nigerian filmmaker has crafted something quite special, and nails that elusive trick of finding the universal in the particular.* *– *The Irish Independent
+
+
+          *The casting is inspired… And Dìrísù’s tender, thoughtful, strong presence — his face often framed in the tightest of close-ups — evokes Folarin’s virtues as a father and a man, as well as his imperfections.* – Financial Times
+
+
+          *This terrific semi-autobiographical first feature from filmmaker Akinola Davies Jr, which stars Gangs of London’s Sope Dirisu as the boys’ magnetic father Folarin, is a thrillingly vital account of the moment when everything changes. *– Screen International
+
+
+          *This is an enchanting film. At every moment, one feels spellbound by its earnest aims and its heart-warming excursions.* – RogerEbert.om
+
+
+          *It is a rich, heartfelt and rewarding movie.* – The Guardian
+
+
+          *It’s that sharp contrast of beauty with an undercurrent of pain that makes “My Father’s Shadow” so bittersweet, and it’s why it cuts to the quick.* – The New York Times
+
+
+          *My Father’s Shadow is a gem, a deeply felt memory piece and vibrant portrait of Nigeria in 1993.* – Associated Press
+
+
+          [98% Rotten Tomatoes](https://www.rottentomatoes.com/m/my_fathers_shadow)
+
+
+          **MY FATHER’S SHADOW**
+
+
+          Nigeria, 2025 | Language: English/Yoruba | 1 hr 34 min | Cert: 12A
+
+
+          Director: Akinola Davies Jr.
+
+
+          Cast: Ṣọpẹ́ Dìrísù, Godwin Egbo, Chibuike Marvellous Egbo
+
+
+          Foreign language films are subtitled.
+
+
+          A short Irish film will be shown before the feature.
+
+
+          **BOOKING**
+
+
+          Tickets: €8.50/€7 concession.
+
+
+          Click here to book online.
+
+
+          Cork Cine Club absorbs the cost of online booking fees.
+
+
+          Online booking closes at 6:30pm on the night of the film.
+
+
+          Pay at the door by card or cash if not sold out online.
+
+
+          Exact change is appreciated.
+
+
+          Film schedule subject to change."
+        confidence: "high"
+      - id: "cinema/cork-cine-club#9ebe9c5f42"
+        sourceId: "cinema/cork-cine-club"
+        title: "HEN [Greece]"
+        occurrence:
+          kind: "single"
+          date: "2026-11-19"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://corkcineclub.com/2026/07/hen-greece-thu-19-november-2026-730pm/"
+        image: "https://corkcineclub.com/wp-content/uploads/2026/07/Hen2-1024x429.jpg"
+        price:
+          free: false
+          text: "€8.50 / €7 concession"
+          min: 7
+          max: 8.5
+          currency: "EUR"
+        ageRestriction: "12A"
+        tags:
+          - "screening"
+          - "arthouse"
+          - "subtitled"
+          - "animals"
+          - "one-night"
+        raw: "**HEN [Greece], Thursday 19 November, 7:30pm**
+
+
+          Cork College of FET, Douglas Street Campus. Tickets €8.50 / €7 concession. Online booking closes at 18:30 on the night of the film; pay at the door by card or cash if not sold out online."
+        summary: "György Pálfi's film told entirely from a chicken's point of view, as she escapes a farm into a crumbling Greek seaside restaurant."
+        description: "[Click here to book online for HEN](https://ie.powertik.com/events/hen-greece)
+
+
+          Told entirely from the perspective of its feathered protagonist, HEN follows a chicken who escapes an industrial farm only to find herself navigating the pecking order of a crumbling seaside restaurant in Greece. As she fights to protect her eggs, she becomes an unwitting witness to the complex human lives around her as the restaurant is caught up in greed, smuggling, and the migrant crisis. Eight chickens play the lead character.
+
+
+          [Click here](https://variety.com/2025/film/global/gyorgy-palfi-toronto-platform-title-hen-1236512055/) to read Variety article: ”György Pálfi Talks Logistical Challenges of Working With Eight Chicken Protagonists in HEN”
+
+
+          [Click here](https://www.theguardian.com/film/2026/may/07/chicken-hen-people-smuggling-film-gyorgy-palfi) to read The Guardian article: ”‘Somehow you become the chicken’: inside the film about people-smuggling told through the eyes of a hen”
+
+
+          *Mundane routines acquire a creeping dread, with barns, kitchens and farmyards becoming landscapes of unspoken terror as the heroine clucks her way through a compelling story.* – The Irish Times
+
+
+          *A wild, surreal, harrowing and funny ride that may even win you over to veganism. Think Chicken Run for intellectuals.*  – Empire Magazine
+
+
+          *The jolly Balkan music of the score suggests this avian adventure will be a light-hearted affair, but the low, chicken’s-eye lens captures an increasingly bleak human drama as it unfolds.* – The Observer [UK]
+
+
+          [100% Rotten Tomatoes](https://www.rottentomatoes.com/m/hen)
+
+
+          **HEN**
+
+
+          Greece, 2025 | Language: Greek | 1 hr 36 min | Cert: 12A
+
+
+          Director: György Pálfi
+
+
+          Cast: Yannis Kokiasmenos, Maria Diakopanayotou, Argyris Pandazaras
+
+
+          Chicken cast: Eight chickens playing the lead character
+
+
+          Foreign language films are subtitled.
+
+
+          **BOOKING**
+
+
+          Tickets: €8.50/€7 concession.
+
+
+          [Click here to book online.](https://ie.powertik.com/events/hen-greece)
+
+
+          Cork Cine Club absorbs the cost of online booking fees.
+
+
+          Online booking closes at 6:30pm on the night of the film.
+
+
+          Pay at the door by card or cash if not sold out online.
+
+
+          Exact change is appreciated.
+
+
+          Film schedule subject to change."
+        confidence: "high"
+      - id: "cinema/cork-cine-club#81a3f943d0"
+        sourceId: "cinema/cork-cine-club"
+        title: "LA FEMME INFIDELE [The Unfaithful Wife, France, 1968]"
+        subcategory: "Classic Film Choice"
+        occurrence:
+          kind: "single"
+          date: "2026-11-26"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://corkcineclub.com/2026/07/la-femme-infidele-france-thu-26-november-2026-730pm/"
+        image: "https://corkcineclub.com/wp-content/uploads/2026/07/rsz_femme_infidele_-_cap043-1024x548.jpg"
+        price:
+          free: false
+          text: "€8.50 / €7 concession"
+          min: 7
+          max: 8.5
+          currency: "EUR"
+        tags:
+          - "screening"
+          - "classic"
+          - "arthouse"
+          - "subtitled"
+          - "one-night"
+        raw: "**Classic Film Choice: LA FEMME INFIDELE [The Unfaithful Wife, France, 1968] Thursday 26 November, 7:30pm**
+
+
+          Cork College of FET, Douglas Street Campus. Tickets €8.50 / €7 concession. Online booking closes at 18:30 on the night of the film; pay at the door by card or cash if not sold out online."
+        summary: "The season's Classic Film Choice: Chabrol's 1968 study of a husband, an affair and a quiet act of revenge."
+        description: "[Trailer with English subtitles not available.]
+
+
+          [Click here to book online for LA FEMME INFIDELE](https://ie.powertik.com/events/classic-film-la-femme-infidele-france-1968)
+
+
+          This season’s Classic Film Choice is – after much debate by your committee! – LA FEMME INFIDELE [The Unfaithful Wife].
+
+
+          A 1968 masterpiece from Claude Chabrol’s remarkable run of bourgeois psychological thrillers, La Femme infidèle traces the fallout following a husband’s discovery of his wife’s affair and his quiet, unnerving and devastating act of revenge. Dubbed the ‘French Hitchcock’, Chabrol’s career spanned some 50 years and 80-odd films. Few directors have mapped the darkness beneath respectable surfaces with his wit, precision and relentless productivity.
+
+
+          *What could have been just another thriller becomes much more than that. It is also a passionate love story, with its share of intense irony and a pervading sense of the quirkiness of fate.* – The Guardian
+
+
+          *A brilliantly ambivalent scrutiny of bourgeois marriage and murder that juggles compassion and cynicism in a way that makes Hitchcock look obvious.* – *Time Out*
+
+
+          **LA FEMME INFIDELE** **[The Unfaithful Wife]**
+
+
+          France, 1968 | Language: French | 1 hr 38 min | Cert:
+
+
+          Director: Claude Chabrol
+
+
+          Cast: Stéphane Audran and Michel Bouquet
+
+
+          Foreign language films are subtitled.
+
+
+          **BOOKING**
+
+
+          Tickets: €8.50/€7 concession.
+
+
+          [Click here to book online.](https://ie.powertik.com/events/classic-film-la-femme-infidele-france-1968)
+
+
+          Cork Cine Club absorbs the cost of online booking fees.
+
+
+          Online booking closes at 6:30pm on the night of the film.
+
+
+          Pay at the door by card or cash if not sold out online.
+
+
+          Exact change is appreciated.
+
+
+          Film schedule subject to change."
+        confidence: "high"
+      - id: "cinema/cork-cine-club#b612fb1559"
+        sourceId: "cinema/cork-cine-club"
+        title: "Film to be confirmed"
+        occurrence:
+          kind: "single"
+          date: "2026-12-03"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://corkcineclub.com/2026/07/to-be-confirmed-thu-3-december-2026-730pm/"
+        image: "https://corkcineclub.com/wp-content/uploads/2024/12/film-to-be-confirmed-1024x1024.jpg"
+        price:
+          free: false
+          text: "€8.50 / €7 concession"
+          min: 7
+          max: 8.5
+          currency: "EUR"
+        tags:
+          - "screening"
+          - "arthouse"
+          - "one-night"
+          - "community"
+        raw: "**Film to be confirmed -Thursday 3 December, 7:30pm**
+
+
+          Cork College of FET, Douglas Street Campus. Tickets €8.50 / €7 concession. Online booking closes at 18:30 on the night of the film; pay at the door by card or cash if not sold out online."
+        summary: "The final film of the autumn season, not yet announced. Same slot: Thursday, 19:30."
+        description: "Click here to book online for
+
+
+          The final film of our season is yet to be confirmed. Stay tuned!
+
+
+          **BOOKING**
+
+
+          Tickets: €8.50/€7 concession.
+
+
+          Click here to book online.
+
+
+          Cork Cine Club absorbs the cost of online booking fees.
+
+
+          Online booking closes at 6:30pm on the night of the film.
+
+
+          Pay at the door by card or cash if not sold out online.
+
+
+          Exact change is appreciated.
+
+
+          Film schedule subject to change."
+        confidence: "high"
+    notes: "The best-behaved source in the category. The feed route is one fetch for the entire season: 10 items, one per screening, each carrying the film's whole page in content:encoded — synopsis, credits, run time, certificate, press quotes and booking terms — so every event here has a `description` without a single extra fetch. lastBuildDate Fri 14 Aug 2026. I also read the homepage (for the card images, which the feed omits) and the Powertik organiser page, which prints \"Cork College of FET, Douglas Street Campus [formerly St. John's Central College], Cork\" against all ten and independently confirms every date. Three fetches total. All ten dates verified as Thursdays, so every row is confidence: high. Season runs Thu 24 Sep to Thu 3 Dec with one gap, Thu 29 Oct — October bank holiday week — which is why ten screenings span eleven weeks. Titles: each card is headed \"TITLE [Country], Thursday 24 September, 7:30pm\". The date and time are fields, so only the film part is the `title`, which also matches the shorter names Powertik prints. The season's placeholder is recorded exactly as listed, \"Film to be confirmed\", with its real date, rather than guessed at. Prices confirm the catalogue: €8.50 / €7 concession, online booking closes 18:30 on the night, pay at the door by card or cash if not sold out. Nothing is bookable yet — the homepage says tickets go on sale Sunday 13 September. One footnote for the catalogue: the President's Cake page calls this \"the start of our 30th season\" while the site elsewhere says \"Since 2010\". Both are the club's own words; taken together they imply two seasons a year, but the site never says so, so it is noted rather than asserted."
+  - sourceId: "cinema/cork-film-centre"
+    fetch:
+      ok: true
+      url: "https://www.corkfilmcentre.ie/latest-news/"
+      status: 200
+    events: []
+    notes: "Both catalogued routes read; neither has anything upcoming, so this is a reached-and-empty result rather than a failure. /feed/ is live but effectively dead: lastBuildDate Thu 22 May 2025 and exactly one item, \"Futureproof Immersive\", pubDate 29 Mar 2023. \"Quiet rather than broken\" is right, but it is three years quiet. /latest-news/ carries three items and every one is in the past. An f.Project member's exhibition at the Lavit Gallery, \"From 8 - 30th May\" with a panel discussion \"Saturday 9th May\" and no year printed — 9 May is a Saturday in 2026 as well as 2025, but either reading is months gone. The Cork Young Filmmakers summer workshops, five week-long workshops \"during July\" in Midleton, Mallow, Cobh, Macroom and Bandon: wrong month and, as the catalogue notes, all five towns are outside the 12 km radius. And the standing notice that equipment hire has ceased, with \"our main role now is the provision of youth workshops\". None of this is `undated` — the items have dates and the dates have passed — so no event is recorded and this note is the reason. On today's evidence the entry is doing no work as a cinema source and a curator may well want the status: dormant the catalogue itself floats."
+  - sourceId: "cinema/ucc-film-screen-media"
+    fetch:
+      ok: true
+      url: "https://www.ucc.ie/en/fmt/film/news/"
+      status: 200
+    events: []
+    notes: "The hint is exactly right and today it costs the source everything: it is a news stream, not a diary, and every item on page 1 of 32 is retrospective. The footer reads \"Updated 7 July 2026\". Newest items, all past: the Coup 53 screening at Triskel with a Q&A with director Taghi Amirani, written up as \"co-hosted a screening... on Saturday 4th July\"; the Larry Groupé masterclass in the Film and Screen Media Auditorium, Kane Building, Thu 4 June 14:00-15:30; Portuguese language month screenings on 13 and 15 May; a Romanian community screening, Friday March 27th at 6pm in the same auditorium; and a screening and discussion of Where Can I Get Lost? with Prof. Mattijs van de Port, Tues 10 March 2026 15:00-17:00. Not one forward-dated event. I spent a second fetch on /en/fmt/film/research/events/, which sounds like the diary this source needs and is not: it is an archive of conferences and symposia whose newest entry is November 2023. Not worth a future fetch, and worth a hint saying so. Term-time only in practice, as the catalogue says, so a monthly cadence will keep returning nothing until late September. The pattern of items is genuinely useful though — public screenings with director Q&As, several of them co-hosted at Triskel — so the source is worth keeping despite an empty first harvest."
+  - sourceId: "cinema/access-cinema"
+    fetch:
+      ok: false
+      url: "https://www.accesscinema.ie/"
+      status: 202
+      error: "SiteGround bot wall: HTTP 202 and a 168-byte meta-refresh to /.well-known/sgcaptcha/, no content served, with a browser user-agent as well as without"
+    events: []
+    notes: "Fails exactly as the catalogue predicted, and the prediction is worth keeping. The whole response body is 168 bytes: an empty favicon link and <meta http-equiv=\"refresh\" content=\"0;/.well-known/sgcaptcha/?r=%2F&y=ipr:...\">. A browser user-agent makes no difference; this needs a real browser, not a header. Not a dead organisation and not something to reclassify: Cork Cine Club's pages still credit Access Cinema as a supporter and carry its logo alongside the Arts Council's. Nothing to change in the catalogue — the entry is correct as written, root URL rather than a guessed listings path, and rightly has no verifiedAt."
+  - sourceId: "cinema/cinematimes-cork"
+    fetch:
+      ok: true
+      url: "https://cinematimes.com/ie/cork/"
+      status: 200
+    events: []
+    notes: "Reached, working and full of listings — and nothing it lists is additive, so the empty `events` here is a deliberate zero, not a failure. The page is titled \"Cork Cinema Showtimes Today · Mon 17 Aug\" and reads \"23 films are showing across 6 cinemas near Cork today\" and \"545 screenings near Cork\". Every cinema it names inside the radius is already a catalogued source and was harvested today: Arc Cinema Cork 0.2 km (9 films tonight), The Reel Picture Blackpool 1.8 km (9), Omniplex Cork-Mahon Point 5.8 km (17), The Reel Picture Ballincollig 7.8 km (7). The remaining two are outside it: The Gate Midleton 20.4 km (14) and The Gate Mallow 28.9 km. Recording its rows under this sourceId would put a second card on the site for every screening those four venues already reported, which is worse than recording none. Three corrections for the catalogue. (1) It does **not** list Triskel Arts Centre or Cork Cine Club today — the independents are absent, contrary to the hint, and its directory link now reads \"All 13 cinemas in Cork\" rather than the 18-within-80 km the hint implies. (2) The Blackpool double-count is gone: one entry only, at /ie/cork/cinemas/the-reel-picture-cork-city/. (3) The naming lag is confirmed and reaches Cork itself — the Arc's own city-centre slug is /ie/cork/cinemas/the-arc-cinema-the-gate-cork/, and Midleton and Mallow are still printed as \"The Gate\". Where it earns its place is unchanged and is worth a hint: it carries per-showtime booking deep links straight to each venue's own ticketing host, so if a venue fetch fails on a future run this page can stand in for it."
+  - sourceId: "cinema/entertainment-ie-cork"
+    fetch:
+      ok: true
+      url: "https://entertainment.ie/cinema/cinema-listings/cork/"
+      status: 200
+    events: []
+    notes: "Needs the browser user-agent, exactly as the hint says; with it, 200 and \"Cork Cinema Film Times - Cinema Listings for Cork\". The index carries no showtimes at all — one tile per cinema with a film count, and nothing else — so there is nothing here to record without a fetch per cinema, and those would duplicate the four venue sources. Empty `events` is the honest result. What it is for is the trading signal, and today it names eight County Cork cinemas: The Arc Cinema, Cork (30 movies), Omniplex Cork, Mahon Point Shopping Centre (18), The Arc Cinema, Mallow (18), The Arc Cinema, Midleton (16), The Reel Picture, Blackpool (11), The Reel Picture, Ballincollig (8), Bantry Cinemax (7) and Park Cinema, Clonakilty (7). The same four sit inside the radius, with the same counts the catalogue recorded this morning. Still no Douglas cinema, no Gate and no Triskel — the first two corroborate the closed entries, and the third is a reminder that this source only knows commercial cinemas, so it can never be a check on Triskel or Cork Cine Club going quiet."

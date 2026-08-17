@@ -1,0 +1,106 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-08-16"
+category: "outdoors"
+harvestedAt: "2026-08-16T17:20:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "2"
+model: "claude-opus-5"
+observations:
+  - sourceId: "outdoors/ashton-court"
+    fetch:
+      ok: true
+      url: "https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/parks-and-open-spaces/parks-and-estates/ashton-court-estate"
+      status: 200
+    events: []
+    notes: "Catalogue URL 404s — the council has inserted /parks-and-open-spaces/ into the path. The page that works is /residents/museums-parks-sports-and-culture/parks-and-open-spaces/parks-and-estates/ashton-court-estate; catalogue URL needs updating. The page is location information only (admission, car parks, cafes, toilets, mountain biking, deer park, wildlife) with no events programme. It name-checks the Saturday parkrun, the Bristol International Balloon Fiesta, the miniature railway and the mansion's own programme, but gives no dates or times for any of them, so nothing has been recorded as an event. Dated programmes for those live elsewhere: ashtoncourtmansion.org (Bristol Historic Buildings Trust), Bristol Model Engineers, and parkrun — candidates for stage 1."
+  - sourceId: "outdoors/the-downs"
+    fetch:
+      ok: true
+      url: "https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/parks-and-open-spaces/parks-and-estates/the-downs"
+      status: 200
+    events: []
+    notes: "Catalogue URL 404s. The page has both moved under /parks-and-open-spaces/ and been renamed from clifton-and-durdham-downs to the-downs; the working URL is /residents/museums-parks-sports-and-culture/parks-and-open-spaces/parks-and-estates/the-downs. Catalogue URL needs updating. Content is location information — admission, facilities, playground, football pitches and self-guided trails (bird, lichen, meadow, tree). An \"Activities\" section names Adventure Cinema, the Downs Concerts and the Bristol SU Welcome Fair as outbound links only, with no dates, times or prices and a caveat that all events remain subject to site permissions and licensing approval, so none are recorded here. The Downs Concerts and Adventure Cinema are worth catalogueing as their own sources."
+  - sourceId: "outdoors/leigh-woods"
+    fetch:
+      ok: false
+      url: "https://www.nationaltrust.org.uk/leigh-woods/whats-on"
+      status: 200
+      error: "Radware bot-protection interstitial served instead of the page ('Verifying your browser before proceeding'); no listings content returned"
+    events: []
+    notes: "Catalogue URL /visit/bristol-bath/leigh-woods 404s — National Trust has the region the other way round, /visit/bath-bristol/leigh-woods, and the programme sits at /leigh-woods/whats-on. Catalogue URL needs updating to one of those. Both working paths were tried and both returned a Radware browser-verification page rather than content, so nothing could be read. This source will likely need a fetch method that executes JavaScript, or to be dropped in favour of a route that is not bot-protected."
+  - sourceId: "outdoors/blaise-castle-estate"
+    fetch:
+      ok: true
+      url: "https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/parks-and-open-spaces/parks-and-estates/blaise-castle-estate"
+      status: 200
+    events: []
+    notes: "Catalogue URL 404s; same /parks-and-open-spaces/ path insertion as the other council parks pages. Working URL is /residents/museums-parks-sports-and-culture/parks-and-open-spaces/parks-and-estates/blaise-castle-estate; catalogue URL needs updating. The page is location information rather than a programme — admission, parking charges and hours, accessibility, the museum and cafe, the play area, downloadable walking-route leaflets, orienteering, horse riding, parkrun and wildlife management. No dated events at all; the page even tells visitors to check noticeboards on site for dairy garden and castle opening times. Blaise Museum has its own programme on the Bristol Museums site, and the Friends of Blaise are named as a community group — both are stage 1 candidates."
+  - sourceId: "outdoors/avon-gorge-nature-reserve"
+    fetch:
+      ok: true
+      url: "https://avongorge.org.uk/whats-on/"
+      status: 200
+    events:
+      - id: "outdoors/avon-gorge-nature-reserve#cba1a39c02"
+        sourceId: "outdoors/avon-gorge-nature-reserve"
+        title: "A world of bats – discovery talk & exploration"
+        occurrence:
+          kind: "single"
+          date: "2026-09-10"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://avongorge.org.uk/?event=a-world-of-bats&event_date=2026-09-10"
+        image: "https://avongorge.org.uk/wp-content/uploads/2024/07/Battybeauties241.jpg"
+        tags:
+          - "talk"
+          - "wildlife"
+          - "nature"
+          - "outdoor"
+        raw: "**A world of bats – discovery talk & exploration** with Dr. Luke Romaine
+
+
+          Thursday 10th September 2026, 7:00pm — University of Bristol Botanic
+
+          Gardens / Durdham Down.
+
+
+          \"Discover the secrets of bats in the UK & worldwide & find out what an
+
+          amazing part they play in the world.\" Afterwards, explore the Downs
+
+          using bat detectors.\n"
+        summary: "An evening talk from bat specialist Dr Luke Romaine on how bats live here and worldwide, followed by a walk out onto the Downs with detectors to pick up the local colonies hunting."
+        confidence: "high"
+      - id: "outdoors/avon-gorge-nature-reserve#ecde1f0f40"
+        sourceId: "outdoors/avon-gorge-nature-reserve"
+        title: "Owl Prowl – family fun discovery"
+        occurrence:
+          kind: "single"
+          date: "2026-10-02"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://avongorge.org.uk/?event=owl-prowl-family-discovery-fun&event_date=2026-10-02"
+        image: "https://avongorge.org.uk/wp-content/uploads/2024/10/compressed-owl-prowl-242.jpg"
+        tags:
+          - "family"
+          - "wildlife"
+          - "nature"
+          - "outdoor"
+        raw: "**Owl Prowl – family fun discovery** led by Ed Drewitt
+
+
+          Friday 2nd October 2026, 6:00pm — University of Bristol Botanic
+
+          Gardens / Durdham Down.
+
+
+          Dissect owl pellets and look at them under the microscope with expert
+
+          Ed Drewitt, then venture out onto Durdham Down to listen for tawny
+
+          owls.\n"
+        summary: "A family session with naturalist Ed Drewitt: pull apart owl pellets to work out what the birds have been eating, then go out onto Durdham Down after dark to listen for tawny owls calling."
+        confidence: "high"
+    notes: "Catalogue URL /events/ 404s; the programme lives at /whats-on/. Catalogue URL needs updating. The page listed exactly two forthcoming events, both also trailed on the homepage, which matches the hint that the programme is seasonal and thin outside the summer walks season. Neither listing showed a price or booking details on the listings page — the catalogue's \"mostly free\" has not been assumed, so price is omitted rather than guessed. Individual event pages were not opened, per the depth guidance. Both events are indoor-then-outdoor: a session at the University of Bristol Botanic Gardens followed by an excursion onto Durdham Down. The listings page ran the two locations together ambiguously, so no venue override has been set; the events resolve to the project's own Clifton area, which is approximately right."

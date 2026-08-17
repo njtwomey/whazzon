@@ -77,7 +77,7 @@ function Harness() {
 
 function setup() {
   render(
-    <MemoryRouter initialEntries={["/bristol-uk"]}>
+    <MemoryRouter initialEntries={["/gb-bristol"]}>
       <TooltipProvider>
         <Harness />
       </TooltipProvider>

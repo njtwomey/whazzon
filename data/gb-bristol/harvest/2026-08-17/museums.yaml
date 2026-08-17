@@ -1,0 +1,3788 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-08-17"
+category: "museums"
+harvestedAt: "2026-08-17T07:45:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "3"
+model: "claude-opus-5[1m]"
+observations:
+  - sourceId: "museums/blaise-museum"
+    fetch:
+      ok: true
+      url: "https://www.bristolmuseums.org.uk/blaise-museum/whats-on/"
+      status: 200
+    events:
+      - id: "museums/blaise-museum#8ee7899c8d"
+        sourceId: "museums/blaise-museum"
+        title: "Blaise Museum permanent displays"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/blaise-museum/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2014/03/blaise_homepage-540x290.jpg"
+        tags:
+          - "permanent-collection"
+          - "heritage"
+          - "family"
+        raw: "**Blaise Museum** — Explore the past in this beautiful historic house set in
+
+          parkland through wonderful toys, clothes and contraptions.\n"
+        summary: "The standing collection at Blaise — a Georgian house in parkland showing toys, costume, the Picture Room and finds from Kings Weston Roman Villa."
+        confidence: "medium"
+      - id: "museums/blaise-museum#b7d27aa062"
+        sourceId: "museums/blaise-museum"
+        title: "Blaise 100: Museum Highlight Tours"
+        subcategory: "Talks, tours and workshops"
+        occurrence:
+          kind: "run"
+          start: "2026-04-01"
+          end: "2026-12-31"
+        status: "scheduled"
+        timesText: "Fridays, Saturdays and Sundays – 11:30am and 2pm (approx. 30 minutes)"
+        url: "https://www.bristolmuseums.org.uk/whats-on/blaise-museum/blaise-100-estate/blaise-museum-tours/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2025/07/Bristol-Museums-Newsletter-Images-5-256x144.jpg"
+        price:
+          free: false
+          text: "Standard ticket £5; under 16s free; carer/sighted guide free"
+          min: 0
+          max: 5
+          currency: "GBP"
+        tags:
+          - "guided-tour"
+          - "heritage"
+          - "booking-required"
+        raw: "1 April—31 December 2026
+
+
+          TOUR: Let us introduce you to our grand historic house and its impressive estate.\n"
+        summary: "A guided half-hour of the house and the story of how museum and estate came to be, running three days a week through the Blaise 100 anniversary year."
+        description: "Join us for a tour of the stunning Blaise Museum!
+
+
+          Let us introduce you to our grand historic house, share some stories you won't find
+
+          on the labels, and tell you how Blaise Museum and Blaise Castle Estate came to be.
+
+
+          You'll be greeted by our knowledgeable tour guide who will introduce you to the
+
+          fascinating history of the house and provide insights into the story of the city
+
+          through the artefacts found there.
+
+
+          Whether you're a seasoned Bristolian or a curious newcomer, we hope to inspire and
+
+          leave you with a deeper appreciation for the treasures housed within Blaise Museum.
+
+
+          Tours are approximately 30 minutes long.
+
+
+          **Tours start:** Fridays 11:30am and 2pm; Saturdays 11:30am and 2pm; Sundays 11:30am
+
+          and 2pm. You can book online up to two days before the event, box office tickets may
+
+          be available to buy on the day (subject to availability).\n"
+        confidence: "high"
+      - id: "museums/blaise-museum#39a2715cbd"
+        sourceId: "museums/blaise-museum"
+        title: "1000 Years of Fashion History – an exhibition in miniature"
+        subcategory: "Exhibitions"
+        occurrence:
+          kind: "run"
+          start: "2026-07-18"
+          end: "2026-11-01"
+        status: "scheduled"
+        timesText: "11am—4pm"
+        url: "https://www.bristolmuseums.org.uk/whats-on/blaise-museum/fashion-history-miniature/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2026/06/Bristol-Museums-Website-Images-4-256x144.jpg"
+        price:
+          free: true
+          text: "Free, donations welcome"
+        tags:
+          - "exhibition"
+          - "textiles"
+          - "drop-in"
+          - "free-entry"
+        raw: "18 July—1 November 2026
+
+
+          EXHIBITION: A timeline in miniature, with more than 100 hand-made costumes modelled
+
+          by fashion dolls.\n"
+        summary: "A thousand years of British dress rebuilt at doll scale — more than a hundred hand-sewn costumes made over six years by former theatre costumier Lisa Jayne Smith."
+        description: "From Saxon robes to Elizabethan ruffs, Victorian tartan and punk piercings, come and
+
+          see how what we wear has changed across time… in miniature!
+
+
+          This exhibition has been created by Lisa Jayne Smith, following a career working in
+
+          theatre and running her own business making and adapting period costume. She has been
+
+          an avid fan of costume history for as long as she can remember, and the exhibition is
+
+          inspired by a book she came across while costuming for a play, 'The Change in Fashion
+
+          from 1066-1960s'.
+
+
+          Lisa spent six years researching and making more than 100 miniature historical
+
+          costumes while receiving treatment for breast cancer. Each hand made outfit, modelled
+
+          by a 12-inch fashion doll, is complete down to the tiniest detail. The amount of time
+
+          spent on each model would depend on the size and era of each costume, anything from a
+
+          week to a month.
+
+
+          Journey through time, from the Saxons through Medieval, Renaissance, Tudor,
+
+          Elizabethan, Jacobean, Carolean, Restoration, Stuart, Georgian, Victorian, Edwardian,
+
+          1910's, 1920's, 1930's, 1940's, 1950's, 1960's, 1970's up to the 1980's.
+
+
+          \"I hope you enjoy looking at them as much as I have in making and creating them!\" —
+
+          Lisa Jayne Smith
+
+
+          This exhibition is located in the first floor costume gallery, please be aware there
+
+          are only stairs to this floor, no lift is available. Suitable for children of all
+
+          ages. Drop in, no booking necessary. Free, donations welcome.\n"
+        confidence: "high"
+      - id: "museums/blaise-museum#1a27d7e1d0"
+        sourceId: "museums/blaise-museum"
+        title: "Family activity: All dressed up!"
+        subcategory: "Families"
+        occurrence:
+          kind: "recurring"
+          pattern: "Thursday 13 August, Thursday 20 August, Thursday 27 August"
+          start: "2026-08-13"
+          end: "2026-08-27"
+          startTime: "11:00"
+        status: "scheduled"
+        timesText: "11am—3pm"
+        url: "https://www.bristolmuseums.org.uk/whats-on/blaise-museum/dressed-up/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2014/05/blaise_costume-256x144.jpg"
+        price:
+          free: true
+          text: "Free, donations welcome"
+        ageRestriction: "Suitable for 4-11yrs (must be accompanied by an adult at all times)"
+        tags:
+          - "family"
+          - "crafts"
+          - "storytelling"
+          - "drop-in"
+          - "free-entry"
+        raw: "13—27 August 2026
+
+
+          FAMILIES: Join us for a relaxed family dress up session where children and adults can
+
+          get creative together.\n"
+        summary: "Three Thursday craft-and-story afternoons where families make medieval shields, Georgian fans and sixties headbands, then raid the dressing-up room."
+        description: "Get all dressed up for our fashion-themed family craft and story sessions at Blaise
+
+          Museum this summer!
+
+
+          Take inspiration from the special display of costume dolls and our historical costume
+
+          here in the museum. Then get creative and make your own accessories – whether it's a
+
+          shield for a medieval knight, a fan for a Georgian aristocrat or some groovy headgear
+
+          for a 1960s hippy. Visit our special dressing-up room and have your own fashion show
+
+          wearing our child and adult costumes.
+
+
+          Join us for a relaxed family session where children and adults can get creative
+
+          together:
+
+
+          - Take part in a costume craft activity – make your own medieval shield, Georgians
+
+          \  fans and 1960s flower headbands
+
+          - Contribute to a joint artwork – add cut-out pictures, drawings, words and drawings
+
+          \  to create a collaborative costume
+
+          - Enjoy a summertime story on the picnic blanket (indoors or out, depending on the
+
+          \  weather!)
+
+
+          This activity will be taking place on the following days: Thursday 13 August,
+
+          Thursday 20 August, Thursday 27 August.
+
+
+          The sessions run on a first-come, first-served basis. To ensure a safe and
+
+          high-quality experience, we will ask people to return later if the session becomes too
+
+          busy.
+
+
+          2026 is National Year of Reading and here at Bristol Museums we're going to
+
+          [Go All In](https://goallin.org.uk/). All our family events all include story time for
+
+          children.
+
+
+          Drop in, no booking required. Free, donations welcome.\n"
+        confidence: "high"
+      - id: "museums/blaise-museum#c3dc48ff94"
+        sourceId: "museums/blaise-museum"
+        title: "Blaise 100: Explore the Estate"
+        subcategory: "Outdoors (walks, trains, boats, cranes)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Blaise Community Garden Sat 15 August and Sat 19 September 2pm—3pm; Archaeology and wildlife Thu 10 September; Humphrey Repton's landscape Thu 8 October; St Mary's Church and churchyard Thu 22 October; Hidden Blaise Sun 25 October — all 11am—12:30pm unless stated"
+          start: "2026-08-15"
+          end: "2026-10-22"
+        status: "scheduled"
+        timesText: "11am—12:30pm, except the Community Garden tours at 2pm—3pm"
+        url: "https://www.bristolmuseums.org.uk/whats-on/blaise-museum/blaise-100-estate/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2022/02/Blaise-Castle-Museum.170-256x144.jpg"
+        price:
+          free: true
+          text: "Free, donations welcome. Booking essential."
+        tags:
+          - "guided-tour"
+          - "outdoor"
+          - "heritage"
+          - "nature"
+          - "booking-required"
+        raw: "15 August—22 October 2026
+
+
+          WALKS: A special programme of walks designed to explore the Blaise Estate and
+
+          celebrate 100 years of public ownership.\n"
+        summary: "Five ranger- and volunteer-led walks marking a century of public ownership, each on a different theme — archaeology, wildlife, Repton's landscape, the churchyard and areas normally closed off."
+        description: "A special programme of walks designed to explore the Blaise Estate and celebrate 100
+
+          years of public ownership.
+
+
+          Each walk focuses on an aspect of the estate's rich wildlife, its historical
+
+          connections or its archaeological discoveries. Walk leaders will take you for a gentle
+
+          stroll to different parts of the park sharing what makes the Blaise Estate so special.
+
+
+          **Hidden Blaise** — Join the estate rangers for a guided tour around the estate and
+
+          visit areas usually closed to the public. Dates: Sunday 25 October. Time: 11am–12:30pm.
+
+
+          **Blaise Community Garden** — A guided tour around the Community Garden to learn about
+
+          the history of the site and how its changed over the years. If you want to discover
+
+          how a thriving community garden works then this is the tour for you! Dates: Saturday 15
+
+          August, Saturday 19 September. Times: 2pm to 3pm.
+
+
+          **Archaeology and wildlife** — Join the team from Blaise Museum and the Bristol
+
+          Regional Environmental Records Centre (BRERC) to find out more about Blaise's
+
+          archaeological discoveries and rich wildlife. Dates: Thursday 10 September. Time:
+
+          11am–12:30pm.
+
+
+          **Humphrey Repton's landscape** — Join the team from Blaise Museum and explore the
+
+          picturesque parkland created for the Harford Family by the famous landscape designer
+
+          Humphrey Repton. Dates: Thursday 8 October. Time: 11am–12:30pm.
+
+
+          **St Mary's Church and churchyard** — A guided walk exploring St Mary's church and
+
+          churchyard. Learn about the history of this amazing space, the historic memorials and
+
+          its links to Bristol's merchant history. Dates: Thursday 22 October. Time:
+
+          11am–12:30pm.
+
+
+          All walks last around 90 minutes and start from Blaise Museum unless otherwise stated.
+
+          Please arrive at least five minutes before the start of the walk. Suitable outdoor
+
+          clothing and a bottle of water are recommended. This event may have to be cancelled at
+
+          short notice due external factors such as weather conditions. Tours will go ahead in
+
+          wet weather unless the conditions are extreme. Well behaved dogs on leads are only
+
+          permitted on walks that specify this in the information above.
+
+
+          Free, donations welcome. Booking essential.\n"
+        confidence: "medium"
+      - id: "museums/blaise-museum#7fc7d9f677"
+        sourceId: "museums/blaise-museum"
+        title: "Visit the Villa"
+        subcategory: "Families"
+        occurrence:
+          kind: "recurring"
+          pattern: "Saturday 29 August and Saturday 26 September, 10am to 2pm"
+          start: "2026-08-29"
+          end: "2026-09-26"
+          startTime: "10:00"
+        status: "scheduled"
+        timesText: "10am—2pm"
+        url: "https://www.bristolmuseums.org.uk/whats-on/blaise-museum/visit-the-villa/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2024/06/mosaic-256x144.jpg"
+        price:
+          free: true
+          text: "Free, donations welcome"
+        tags:
+          - "family"
+          - "heritage"
+          - "outdoor"
+          - "drop-in"
+          - "free-entry"
+        raw: "29 August—26 September 2026
+
+
+          VILLA: Visit Kings Weston Roman Villa for some family friendly fun.\n"
+        summary: "Two Saturday open days at Kings Weston Roman Villa — mosaic floors, hypocaust and bath suite, with craft, dressing up and trails for children."
+        description: "Visit Kings Weston Roman Villa and find out about this fascinating archaeological site.
+
+
+          Explore where Romans used to live right on Bristol's doorstep and discover the remains
+
+          of a real Roman villa complete with mosaic floors, underfloor heating systems and a
+
+          bath suite.
+
+
+          There's plenty of family fun to enjoy too with craft, dressing up, trails and more.
+
+
+          Kings Weston Roman Villa is open regularly throughout the summer season. Upcoming 2026
+
+          open days: Saturday 29 August, Saturday 26 September. Join us from 10am to 2pm.
+
+
+          Free, donations welcome. This is a drop in event, no booking required. Kings Weston
+
+          Roman Villa is an outdoor archaeological site with some uneven surfaces, grassy areas
+
+          and low walls. Parking is available in the residential streets that surround the
+
+          villa. Buses 3 or 4 stop on the Long Cross.\n"
+        confidence: "high"
+      - id: "museums/blaise-museum#769d9ff76b"
+        sourceId: "museums/blaise-museum"
+        title: "Blaise 100: Castle Open Afternoons"
+        subcategory: "Outdoors (walks, trains, boats, cranes)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Sunday 30 August, Monday 31 August, Sunday 6 September, Sunday 4 October, 2pm to 4.30pm"
+          start: "2026-08-30"
+          end: "2026-10-04"
+          startTime: "14:00"
+        status: "scheduled"
+        timesText: "2pm—4.30pm, with a volunteer talk at 3pm"
+        url: "https://www.bristolmuseums.org.uk/whats-on/blaise-museum/blaise-100-castle/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2026/06/Castle-Home-Page-Final-2048x995-1-256x144.png"
+        price:
+          free: true
+          text: "Free, donations welcome"
+        tags:
+          - "heritage"
+          - "outdoor"
+          - "talk"
+          - "drop-in"
+          - "free-entry"
+        raw: "30 August—4 October 2026
+
+
+          EVENT: Explore Blaise Castle with the Friends of Blaise and climb the battlements for
+
+          a fine view of the surrounding landscape.\n"
+        summary: "Four afternoons when the 1766 folly castle itself opens — displays inside, a 3pm volunteer talk, and the battlements for the view."
+        description: "Take a peek inside this amazing historic building, built as a place to entertain guests
+
+          for estate owner Thomas Farr in 1766.
+
+
+          Visitors can explore displays in the Castle before climbing to the battlements for a
+
+          fine view of the surrounding landscape.
+
+
+          There will be a talk from the team of knowledgeable volunteers about the Castle and
+
+          the history of the hill at 3pm.
+
+
+          Blaise Castle is open from 2pm to 4.30pm on the following dates: Sunday 30 August,
+
+          Monday 31 August, Sunday 6 September, Sunday 4 October.
+
+
+          This event is run by the Friends of Blaise. Please check
+
+          [their website](https://friendsofblaise.co.uk/) and social media accounts before
+
+          visiting. Free, donations welcome. Drop in, no booking necessary.\n"
+        confidence: "high"
+      - id: "museums/blaise-museum#320febd897"
+        sourceId: "museums/blaise-museum"
+        title: "Blaise 100: Dairy Garden Open Sessions"
+        occurrence:
+          kind: "recurring"
+          pattern: "Sunday 6 September 2pm to 4.30pm; Saturday 12 September 11am to 1pm"
+          start: "2026-09-06"
+          end: "2026-09-12"
+        status: "scheduled"
+        timesText: "Sunday 6 September 2pm—4.30pm; Saturday 12 September 11am—1pm"
+        url: "https://www.bristolmuseums.org.uk/whats-on/blaise-museum/blaise-100-dairy/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2018/08/blaise-dairy-garden-1-256x144.jpg"
+        price:
+          free: true
+          text: "Free, donations welcome"
+        tags:
+          - "outdoor"
+          - "heritage"
+          - "nature"
+          - "drop-in"
+          - "free-entry"
+        raw: "6—12 September 2026
+
+
+          EVENT: Visit the Blaise Dairy gardens with the Friends of Blaise and discover a
+
+          beautiful, secret garden.\n"
+        summary: "Two chances to get into the walled Dairy garden — John Nash's 1803 dairy, an open-air amphitheatre and historic planting, with Friends of Blaise volunteers on hand."
+        description: "Visit this secret garden with its open air amphitheatre, historic planting and
+
+          enchanting Dairy, which built in 1803-5 for the Harford family and designed by
+
+          fashionable architect John Nash.
+
+
+          Visitors are welcome to bring a picnic and chat to volunteers from the Friends of
+
+          Blaise who will tell you more about the history of the site.
+
+
+          The Dairy Gardens are open from 2pm to 4.30pm on the following dates: Sunday 6
+
+          September. They will also be open from 11am to 1pm on the following dates: Saturday 12
+
+          Sept.
+
+
+          This event is run by the Friends of Blaise. Please check
+
+          [their website](https://friendsofblaise.co.uk/) and social media accounts before
+
+          visiting. Free, donations welcome. Drop in, no booking necessary.\n"
+        confidence: "high"
+      - id: "museums/blaise-museum#934fed6797"
+        sourceId: "museums/blaise-museum"
+        title: "Blaise 100: Blaise Community Garden Special Events"
+        subcategory: "Special events"
+        occurrence:
+          kind: "recurring"
+          pattern: "Saturday 12 September 9.45am—3pm Art Show and Garden Cafe; Saturday 10 October 9.45am—2pm Garden Cafe; Saturday 14 November 9.45am—3pm Winter Market and Garden Cafe"
+          start: "2026-09-12"
+          end: "2026-11-14"
+          startTime: "09:45"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/blaise-museum/blaise-100-garden/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2018/08/blaise-community-garden-256x144.jpg"
+        price:
+          free: true
+          text: "Free, donations welcome"
+        tags:
+          - "community"
+          - "outdoor"
+          - "market"
+          - "food-drink"
+          - "free-entry"
+        raw: "12 September—14 November 2026
+
+
+          EVENT: Join the Blaise Community Gardeners for a season of Café Days, special events
+
+          and community gatherings.\n"
+        summary: "Three Saturdays in the working community garden next door to the museum — an Art Show, a café day, and a Winter Market, with ponds, beehives and insect trails to wander."
+        description: "Join the Blaise Community Gardeners for a season of Café Days, special events and
+
+          community gatherings.
+
+
+          Whether you're a familiar face or visiting us for the first time, you'll find a warm
+
+          welcome, beautiful surroundings and plenty of homemade treats waiting for you.
+
+
+          From relaxed café mornings to our Spring Market, Art Show, Flower Show and Winter
+
+          Market, there's something for everyone to enjoy throughout the year.
+
+
+          Explore our working garden with ponds, beehives, fruit and vegetable areas, year-round
+
+          colour and fun activities including insect trails — perfect for families, friends and
+
+          nature lovers alike. Dogs on leads and accompanied children are very welcome.
+
+
+          Dates and times for Café Days, special events and community gatherings are as follows:
+
+
+          - Saturday 12 September, 9.45am to 3.00pm, Art Show and Garden Cafe
+
+          - Saturday 10 October, 9.45am to 2.00pm, Garden Cafe
+
+          - Saturday 14 November, 9.45am to 3.00pm, Winter Market and Garden Cafe
+
+
+          These events are run by the Blaise Community Garden, which is next to Blaise Museum.
+
+          Drop in, no booking necessary. Free, donations welcome.\n"
+        confidence: "high"
+      - id: "museums/blaise-museum#ef51c4c904"
+        sourceId: "museums/blaise-museum"
+        title: "Villa Open Afternoons"
+        subcategory: "Families"
+        occurrence:
+          kind: "single"
+          date: "2026-09-15"
+          startTime: "15:00"
+          endTime: "17:00"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/blaise-museum/villa-open-afternoon/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2014/05/kings_weston_roman_villa_2-256x144.jpg"
+        price:
+          free: true
+          text: "Free, donations welcome"
+        tags:
+          - "heritage"
+          - "family"
+          - "drop-in"
+          - "free-entry"
+        raw: "15 September 2026
+
+
+          VILLA: Visit Kings Weston Roman Villa in the afternoon to find out about this
+
+          fascinating archaeological site.\n"
+        summary: "A single Tuesday afternoon opening of Kings Weston Roman Villa, 3pm to 5pm — the quieter counterpart to the Saturday family open days."
+        description: "Visit Kings Weston Roman Villa in the afternoon to find out about this fascinating
+
+          archaeological site.
+
+
+          Explore where Romans used to live right on Bristol's doorstep and discover the remains
+
+          of a real Roman villa complete with mosaic floors, underfloor heating systems and a
+
+          bath suite.
+
+
+          Kings Weston Roman Villa is open regularly throughout the Summer season. Upcoming 2026
+
+          open afternoons: Tuesday 15 September. Join us from 3pm to 5pm.
+
+
+          Free, donations welcome. This is a drop in event, no booking required. Kings Weston
+
+          Roman Villa is an outdoor archaeological site with some uneven surfaces, grassy areas
+
+          and low walls. Parking is available in the residential streets that surround the
+
+          villa. Buses 3 or 4 stop on the Long Cross.\n"
+        confidence: "high"
+      - id: "museums/blaise-museum#4c3bb2719e"
+        sourceId: "museums/blaise-museum"
+        title: "Autumn Week at Blaise Museum"
+        subcategory: "Families"
+        occurrence:
+          kind: "recurring"
+          pattern: "Saturday 24 October, Sunday 25 October, Thursday 29 October, Friday 30 October, Saturday 31 October, Sunday 1 November"
+          start: "2026-10-24"
+          end: "2026-11-01"
+          startTime: "11:00"
+        status: "scheduled"
+        timesText: "11am—4pm"
+        url: "https://www.bristolmuseums.org.uk/whats-on/blaise-museum/autumn-week/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2026/07/Bristol-Museums-Website-Images-11-256x144.jpg"
+        price:
+          free: false
+          text: "£5 per person, children under 4 free; discounted family group tickets available"
+          min: 0
+          max: 5
+          currency: "GBP"
+        ageRestriction: "Perfect for families with children aged 0 to 9 years old"
+        tags:
+          - "family"
+          - "school-holidays"
+          - "seasonal"
+          - "crafts"
+          - "storytelling"
+        raw: "24 October—1 November 2026
+
+
+          FAMILIES: These autumn activity days will celebrate the season at Blaise Museum with
+
+          something to do for all the family.\n"
+        summary: "Six half-term activity days built around the season — tiny doors with fairies behind them, face painting, woodland trails and story time for under-nines."
+        description: "Join us for autumn fun, stories and exploration!
+
+
+          Perfect for families with children aged 0-9, this enchanting event will immerse you in
+
+          the richness and warmth of the season, celebrating nature this autumn.
+
+
+          Peep into our tiny world autumn doors and spot the fairies and animals that live
+
+          behind them. What stories do they tell? Let your creativity flow and create your own
+
+          story/poem inspired by our autumn creatures to take home with you.
+
+
+          This event is a delightful way to introduce young ones to the magic of the season with
+
+          lots of creative activities.
+
+
+          What's on:
+
+
+          - Snuggle up and enjoy a story time with our friendly volunteers
+
+          - Our art students will be on hand for face painting; will you transform in to a bat?
+
+          \  A squirrel? Or perhaps decorated with leaves and acorns?
+
+          - Enjoy a drink and a tasty treat on our terrace while you soak up the autumn colours
+
+          - Enjoy the scenes of the season and spot the cuddly woodland birds and their friends
+
+          \  hiding in our museum, can you find them all?
+
+          - Come dressed in your favourite costumes, ready to explore, learn, and make memories
+
+          \  in the beautiful scenery of the Blaise estate
+
+          - Make a paper woodland friend to take home with you
+
+          - Enjoy a nature walk and learn all about our local fauna and flora with our special
+
+          \  outdoor trail around the park and grounds
+
+
+          Happening on: Saturday 24 October, Sunday 25 October, Thursday 29 October, Friday 30
+
+          October, Saturday 31 October, Sunday 1 November.
+
+
+          Entry tickets are £5 per person (except children under 4) and activities are included
+
+          in the entry price. Child aged under 4: Free. Discounted family group tickets are
+
+          available for 2 adults + 2 children, 1 adult + 3 children and 2 adults + 1 child.
+
+          Walk ins on the day if space is available.\n"
+        confidence: "high"
+    notes: "Fetched with curl and a Chrome user-agent, as the hint says: the default fetcher gets 403 and a browser UA gets 200. Ten dated cards, all carrying a `venues-blaise-museum` class, so this is venue-filtered and does not duplicate the other Bristol Museums sites. Every card gives only a date range and one clause, so all ten event pages were opened for `description` — that is where the times, prices, individual session dates and access notes live. Years are printed on the page, so no year inference was needed. One internal inconsistency: \"Blaise 100: Explore the Estate\" is headed 15 August—22 October but lists a Hidden Blaise walk on Sunday 25 October, outside its own stated range."
+  - sourceId: "museums/bristol-aquarium"
+    fetch:
+      ok: true
+      url: "https://www.bristolaquarium.co.uk/whats-on-event/whats-on/"
+      status: 200
+    events:
+      - id: "museums/bristol-aquarium#0e09ec3b19"
+        sourceId: "museums/bristol-aquarium"
+        title: "Bristol Aquarium"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        url: "https://www.bristolaquarium.co.uk/"
+        image: "https://www.bristolaquarium.co.uk/wp-content/uploads/2026/03/BRISTOL-STILLS31-scaled.jpg"
+        tags:
+          - "permanent-collection"
+          - "animals"
+          - "family"
+          - "interactive"
+        raw: "Bristol Aquarium is open every day, including all bank holidays. We're closed only on
+
+          Christmas Day. Our standard day tickets allow you to come around the aquarium as many
+
+          times as you please during our opening hours on the day of your visit.\n"
+        summary: "The harbourside aquarium's standing offer — themed exhibits from coral seas to the Amazon, an octopus, a seahorse herd, VR experiences, and re-entry all day on one ticket."
+        confidence: "medium"
+      - id: "museums/bristol-aquarium#7d67c801d8"
+        sourceId: "museums/bristol-aquarium"
+        title: "Conservation Carnival!"
+        occurrence:
+          kind: "run"
+          start: "2026-07-18"
+          end: "2026-08-31"
+        status: "scheduled"
+        url: "https://www.bristolaquarium.co.uk/whats-on-event/whats-on/"
+        image: "https://www.bristolaquarium.co.uk/wp-content/uploads/2026/07/Conservation-Carnival-45.jpg"
+        price:
+          free: false
+          text: "Included with standard aquarium admission"
+        tags:
+          - "family"
+          - "wildlife"
+          - "hands-on"
+          - "animals"
+          - "guided-tour"
+        raw: "**Conservation Carnival!** — 18 July – 31 August
+
+
+          Celebrate the incredible conservation success stories helping to protect our oceans
+
+          and wildlife this summer at Bristol Aquarium.\n"
+        summary: "The aquarium's summer programme, hung on six species and the projects keeping them going — a stamp trail, daily guided tours, a beachcombing sandpit and a conservation corner, all on the standard ticket."
+        description: "Celebrate the incredible conservation success stories helping to protect our oceans and
+
+          wildlife this summer at Bristol Aquarium.
+
+
+          Join us for Conservation Carnival, where you'll discover inspiring stories of species
+
+          recovery, habitat restoration and the amazing work of conservation charities making a
+
+          real difference around the world. Through interactive activities, guided tours and
+
+          family-friendly experiences, you'll learn how small actions can help protect our blue
+
+          planet.
+
+
+          **Take on the Conservation Trail** — Collect stamps as you journey through the
+
+          aquarium, discovering six fascinating species and the conservation projects helping
+
+          them thrive.
+
+
+          **Daily Save Our Seas Guided Tours – 11am** — Join our expert team each day for a free
+
+          guided conservation tour through a different area of the aquarium. Discover amazing
+
+          animal facts, learn about the challenges these species face in the wild and hear
+
+          inspiring stories of conservation success. Tours last approximately 15–20 minutes and
+
+          include time for questions.
+
+
+          **Treasure or Trash: Sandpit Search – Daily at 4pm** — Become a marine explorer as you
+
+          dig through our interactive beach combing sandpit. Discover fascinating natural
+
+          treasures including shark teeth, shark egg cases, fossils, seashells, coral fragments
+
+          and ancient marine specimens. You'll also uncover examples of plastic pollution and
+
+          learn why keeping our beaches clean is so important for marine wildlife.
+
+
+          **Visit the Conservation Corner** — Looking for ways to make a difference after your
+
+          visit? Our Conservation Corner is packed with ideas for the whole family, including
+
+          beach clean information, conservation charities you can support, how Bristol Aquarium
+
+          and Aspro Parks help protect wildlife, and children's colouring activities.
+
+
+          All Conservation Carnival activities are included with standard aquarium admission.
+
+          Come along this summer and be inspired by the positive impact people are making to
+
+          protect our oceans—then discover how you can be part of the story.\n"
+        confidence: "medium"
+      - id: "museums/bristol-aquarium#ec68f3206f"
+        sourceId: "museums/bristol-aquarium"
+        title: "Conservation Carnival Bank Holiday Bonanza!"
+        occurrence:
+          kind: "run"
+          start: "2026-08-29"
+          end: "2026-08-31"
+        status: "scheduled"
+        url: "https://www.bristolaquarium.co.uk/whats-on-event/whats-on/"
+        image: "https://www.bristolaquarium.co.uk/wp-content/uploads/2026/08/Bank-Holiday-Bonanza-poster.jpg"
+        price:
+          free: false
+          text: "Included with standard aquarium admission; donations collected for the Shark Trust"
+        tags:
+          - "family"
+          - "games"
+          - "wildlife"
+          - "fundraiser"
+          - "workshop"
+        raw: "**Conservation Carnival Bank Holiday Bonanza!** — 29th – 31st August
+
+
+          Join us from the 29th – 31st August for this extra special bank holiday celebration.\n"
+        summary: "A bank holiday weekend bolted onto the Conservation Carnival — bouncy castle, coconut shy, tombola and a shark anatomy workshop, with donations going to the Shark Trust."
+        description: "The Bristol Aquarium Bank Holiday Bonanza!
+
+
+          Join us from the 29th – 31st August for this extra special bank holiday celebration.
+
+
+          As well as all of the fantastic Conservation Carnival tours, trails and activities we
+
+          have on we will be hosting some extra special carnival games over this weekend!
+
+
+          - Take a bounce on the bouncy castle
+
+          - Try your hand at the coconut shy
+
+          - Win a prize on the tombola
+
+          - Explore fascinating shark facts with our workshop, learn about shark anatomy with our
+
+          \  dissectible cuddly shark and more!
+
+
+          For these extra activities we will be collecting donations for @thesharktrust on the
+
+          day.\n"
+        confidence: "medium"
+      - id: "museums/bristol-aquarium#a58ad723c1"
+        sourceId: "museums/bristol-aquarium"
+        title: "Save Our Seas Guided Tours"
+        occurrence:
+          kind: "recurring"
+          pattern: "Daily at 11am"
+          start: "2026-07-18"
+          end: "2026-08-31"
+          startTime: "11:00"
+        status: "scheduled"
+        url: "https://www.bristolaquarium.co.uk/whats-on-event/whats-on/"
+        price:
+          free: false
+          text: "Free guided tour, included with standard aquarium admission"
+        tags:
+          - "guided-tour"
+          - "animals"
+          - "wildlife"
+          - "family"
+          - "drop-in"
+        raw: "**Daily Save Our Seas Guided Tours – 11am** — Join our expert team each day for a free
+
+          guided conservation tour through a different area of the aquarium. Tours last
+
+          approximately 15–20 minutes and include time for questions.\n"
+        summary: "A free fifteen-minute keeper-led tour every morning at 11, taking a different part of the aquarium each day and the conservation story behind it."
+        confidence: "medium"
+      - id: "museums/bristol-aquarium#605f4a4e9d"
+        sourceId: "museums/bristol-aquarium"
+        title: "Treasure or Trash: Sandpit Search"
+        occurrence:
+          kind: "recurring"
+          pattern: "Daily at 4pm"
+          start: "2026-07-18"
+          end: "2026-08-31"
+          startTime: "16:00"
+        status: "scheduled"
+        url: "https://www.bristolaquarium.co.uk/whats-on-event/whats-on/"
+        price:
+          free: false
+          text: "Included with standard aquarium admission"
+        tags:
+          - "family"
+          - "hands-on"
+          - "kids"
+          - "wildlife"
+          - "drop-in"
+        raw: "**Treasure or Trash: Sandpit Search – Daily at 4pm** — Become a marine explorer as you
+
+          dig through our interactive beach combing sandpit. Discover shark teeth, shark egg
+
+          cases, fossils, seashells, coral fragments and ancient marine specimens.\n"
+        summary: "A daily 4pm dig through an indoor beachcombing sandpit — shark teeth, egg cases and fossils mixed in with plastic, which is rather the point."
+        confidence: "medium"
+      - id: "museums/bristol-aquarium#b34ae2027a"
+        sourceId: "museums/bristol-aquarium"
+        title: "Talks & Feeds"
+        occurrence:
+          kind: "recurring"
+          pattern: "daily talks and feeds"
+        status: "scheduled"
+        timesText: "11:30am Coral Seas; 12:30pm Mon/Wed/Fri UK Fish and Sharks; 12:30pm Tue/Thu/Sat/Sun Seahorses; 1:30pm Bay of Rays; 2:30pm Amazing Amazon; 3:00pm Octopus"
+        url: "https://www.bristolaquarium.co.uk/whats-on-event/talks-feeds/"
+        image: "https://www.bristolaquarium.co.uk/wp-content/uploads/2026/03/PXL_20260306_133334672.PORTRAIT-1-scaled-e1774885638941.jpg"
+        price:
+          free: false
+          text: "Included in your ticket to the aquarium"
+        tags:
+          - "animals"
+          - "talk"
+          - "family"
+          - "drop-in"
+        raw: "Make the most of your ticket by joining us at our daily talks & feeds to discover more
+
+          about the wonderful creatures of the deep. Ask us anything about your favourite animals!\n"
+        summary: "Six keeper talks and feeds spread across the day, from the coral reef at 11.30 to Mabel the octopus getting her dinner at three."
+        description: "Make the most of your ticket by joining us at our daily talks & feeds to discover more
+
+          about the wonderful creatures of the deep. Ask us anything about your favourite animals!
+
+
+          **Daily talks & shows**
+
+
+          - **11:30am — Coral Seas** (Coral Seas): Meet the inhabitants of our colourful Coral
+
+          \  Reef plus see how we train our rays and sharks.
+
+          - **12:30pm Mon/Wed/Fri — UK Fish and Sharks** (Ocean Floor): Discover more about the
+
+          \  shark species that can be found around our own shores!
+
+          - **12:30pm Tue/Thu/Sat/Sun — Seahorses** (Learning Lab): Discover more about our
+
+          \  graceful herd of Big Bellied Seahorses from Australasia.
+
+          - **1:30pm — Bay of Rays** (Rocky Shores): Meet our inquisitive rays and skates!
+
+          - **2:30pm — Amazing Amazon** (Amazing Amazon): Our turtles, pacu, catfish and more get
+
+          \  their dinner in our Amazon river tank!
+
+          - **3:00pm — Octopus** (Ocean Floor): Learn about the incredible biology of octopuses as
+
+          \  Mabel gets her dinner.\n"
+        confidence: "high"
+      - id: "museums/bristol-aquarium#c6221e6b48"
+        sourceId: "museums/bristol-aquarium"
+        title: "Into the Depths: Double Bill"
+        subcategory: "Bristol Megascreen"
+        occurrence:
+          kind: "single"
+          date: "2026-09-10"
+          startTime: "18:30"
+        status: "scheduled"
+        url: "https://www.bristolaquarium.co.uk/megascreen-now-showing/"
+        tags:
+          - "screening"
+          - "classic"
+          - "arthouse"
+          - "talk"
+        raw: "**Into the Depths: Double Bill** — 10th Sep 6:30pm, runtime 4 hours 15mins.
+
+
+          Archaeo-Heritage Film: 'Gorgo' (1961) & 'The Lighthouse' (2019). Presented by
+
+          Archaeo-Heritage Film. From cult classics to contemporary documentaries they explore
+
+          the connections between archaeology, heritage and cinema. The Gorgo screening is
+
+          accompanied by an introduction by Kaiju expert Steven Sloss, along with short film
+
+          'Waiting for Gorgo' (2009).\n"
+        summary: "A four-hour sea-monster double bill on the ex-IMAX Megascreen — Eugène Lourié's Gorgo with a Kaiju expert's introduction, then Robert Eggers' The Lighthouse."
+        confidence: "medium"
+      - id: "museums/bristol-aquarium#1d747b23f7"
+        sourceId: "museums/bristol-aquarium"
+        title: "John Boorman and Bristol: Part II"
+        subcategory: "Bristol Megascreen"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+          startTime: "12:00"
+        status: "scheduled"
+        url: "https://www.bristolaquarium.co.uk/megascreen-now-showing/"
+        ageRestriction: "16+, any under 18s accompanied by 21+ adult 1:1 ratio"
+        tags:
+          - "screening"
+          - "documentary"
+          - "classic"
+        raw: "**John Boorman and Bristol: Part II** — 12th Sep 12pm, runtime 4hrs 30mins.
+
+
+          Before he went on to Hollywood fame, film director John Boorman worked at BBC Bristol
+
+          where he made many films about the city. Five documentaries and one fictional film,
+
+          almost all set in Bristol and the West of England. None of these titles have been seen
+
+          for decades. With thanks to the BFI National Archive and the BBC Archive.\n"
+        summary: "Six BBC Bristol films John Boorman made before Hollywood — Concorde at Filton, art students, Citizen 63 portraits — unseen for decades, on the city's biggest screen."
+        confidence: "high"
+      - id: "museums/bristol-aquarium#3cd2016fc6"
+        sourceId: "museums/bristol-aquarium"
+        title: "Rip It Up Sixties Double Bill"
+        subcategory: "Bristol Megascreen"
+        occurrence:
+          kind: "single"
+          date: "2026-09-13"
+          startTime: "12:00"
+        status: "scheduled"
+        url: "https://www.bristolaquarium.co.uk/megascreen-now-showing/"
+        ageRestriction: "14+, any under 18s accompanied by an adult"
+        tags:
+          - "screening"
+          - "classic"
+          - "talk"
+        raw: "**Rip It Up Sixties Double Bill** — 13th Sep 12pm, runtime 5hrs.
+
+
+          South West Silents presents a special double including Some People (1962), A Hard Day's
+
+          Night (1964) and Buster Keaton short Cops (1922). With special intro by writer and
+
+          broadcaster Samira Ahmed, author of the new BFI Classics book A Hard Day's Night, with
+
+          copies for sale at the event.\n"
+        summary: "Bristol-shot teen rebellion picture Some People in a new HD restoration, plus A Hard Day's Night introduced by Samira Ahmed, and a Buster Keaton short."
+        confidence: "high"
+      - id: "museums/bristol-aquarium#c740f6b00d"
+        sourceId: "museums/bristol-aquarium"
+        title: "The Big Bike Film Night 2026 – Bristol"
+        subcategory: "Bristol Megascreen"
+        occurrence:
+          kind: "single"
+          date: "2026-10-14"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://www.bristolaquarium.co.uk/megascreen-now-showing/"
+        ageRestriction: "PG"
+        tags:
+          - "screening"
+          - "cycling"
+          - "short-film"
+        raw: "**The Big Bike Film Night 2026 – Bristol** (PG) — 14th Oct 7pm, runtime 2hrs 40mins.
+
+
+          \"If you haven't experienced the cinematic excellence of The Big Bike Film Night – then
+
+          YOU MUST!!!\"\n"
+        summary: "The touring programme of cycling short films, this year's edition, on the biggest screen in the city."
+        confidence: "medium"
+      - id: "museums/bristol-aquarium#d83381096e"
+        sourceId: "museums/bristol-aquarium"
+        title: "Alfred Hitchcock Double Bill"
+        subcategory: "Bristol Megascreen"
+        occurrence:
+          kind: "single"
+          date: "2026-11-14"
+          startTime: "12:00"
+        status: "scheduled"
+        url: "https://www.bristolaquarium.co.uk/megascreen-now-showing/"
+        tags:
+          - "screening"
+          - "classic"
+          - "arthouse"
+        raw: "**Alfred Hitchcock Double Bill** — 14th November 12pm, runtime 4hrs 30mins.\n"
+        summary: "Two Hitchcock features back to back on the Megascreen; the page lists the date and runtime but does not yet name the titles."
+        confidence: "medium"
+    notes: "Fetched with curl and a Chrome user-agent as the hint says; the default fetcher gets 403. The What's On page is one long prose page rather than a listings index, so its own copy is the `description` for the two carnival entries — no per-event pages exist to open. Two further pages on the same site were read: /whats-on-event/talks-feeds/ for the daily talks schedule and /megascreen-now-showing/ for the Bristol Megascreen film programme, which is run by the aquarium and is not catalogued anywhere else. Dates on this page carry no year, as the hint warns, and no weekday is printed either; 2026 is inferred from the page's seasonal opening table (\"Jul 18 – Aug 31\"), its 2026 copyright line, and 31 August falling on the August bank holiday Monday in 2026 — hence `confidence: medium` on those rows rather than high. The Conservation Trail and Conservation Corner are untimed self-guided parts of the Carnival and are left inside its description rather than given rows of their own; the two timed daily slots are recorded as `recurring`. The six daily talks are one row with the schedule in `timesText`, not six near identical cards. The Megascreen screenings have no per-event page on the aquarium site — booking is handled by Headfirst — so they deep-link to the Megascreen page."
+  - sourceId: "museums/clifton-observatory"
+    fetch:
+      ok: true
+      url: "https://cliftonobservatory.com/events/"
+      status: 200
+    events:
+      - id: "museums/clifton-observatory#14f6107c5a"
+        sourceId: "museums/clifton-observatory"
+        title: "Golden Hour Thursday's"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "18:00"
+          endTime: "22:00"
+        status: "scheduled"
+        url: "https://cliftonobservatory.com/event/golden-hour-thursdays-2/"
+        image: "https://cliftonobservatory.com/wp-content/uploads/2026/08/OBS-EVENTS-2026-WEBSITE-4.png"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "live-music"
+          - "outdoor"
+          - "free-entry"
+          - "late-opening"
+        raw: "**Golden Hour Thursday's** — Thu 20 August 2026, 6:00 pm - 10:00 pm. Free.
+
+
+          Enjoy sunset views on the panoramic rooftop bar, along with 2-4-1 spritzes from 6PM
+
+          -7PM and acoustic guitar from 7PM - 9PM.\n"
+        summary: "Free Thursday evening on the rooftop terrace above the Avon Gorge — two-for-one spritzes for the first hour, acoustic guitar until nine, and the sunset over the suspension bridge."
+        description: "Enjoy sunset views on the panoramic rooftop bar, along with 2-4-1 spritzes from 6PM
+
+          -7PM and acoustic guitar from 7PM – 9PM.
+
+
+          FREE TO ATTEND.\n"
+        confidence: "high"
+      - id: "museums/clifton-observatory#3e90ebdd49"
+        sourceId: "museums/clifton-observatory"
+        title: "Golden Hour Thursday's"
+        occurrence:
+          kind: "single"
+          date: "2026-08-27"
+          startTime: "18:00"
+          endTime: "22:00"
+        status: "scheduled"
+        url: "https://cliftonobservatory.com/event/golden-hour-thursdays-3/"
+        image: "https://cliftonobservatory.com/wp-content/uploads/2026/08/OBS-EVENTS-2026-WEBSITE-4.png"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "live-music"
+          - "outdoor"
+          - "free-entry"
+          - "late-opening"
+        raw: "**Golden Hour Thursday's** — Thu 27 August 2026, 6:00 pm - 10:00 pm. Free.
+
+
+          Enjoy sunset views on the panoramic rooftop bar, along with 2-4-1 spritzes from 6PM
+
+          -7PM and acoustic guitar from 7PM - 9PM.\n"
+        summary: "The second of the late-August rooftop sunset evenings, free to attend, with discounted spritzes early on and live acoustic guitar after seven."
+        confidence: "high"
+      - id: "museums/clifton-observatory#bef3b0725a"
+        sourceId: "museums/clifton-observatory"
+        title: "Maker Market"
+        occurrence:
+          kind: "single"
+          date: "2026-08-31"
+          startTime: "11:00"
+          endTime: "16:00"
+        status: "scheduled"
+        url: "https://cliftonobservatory.com/event/maker-market/"
+        image: "https://cliftonobservatory.com/wp-content/uploads/2026/07/Maker-Market-Aug.png"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "market"
+          - "crafts"
+          - "family"
+          - "free-entry"
+        raw: "**Maker Market** — Mon 31 August 2026, 11:00 am - 4:00 pm. Free.
+
+
+          Join us on Bank Holiday Monday for a Maker Market organised by Makers for Good Bristol.
+
+          Explore gorgeous handcrafted goods made by local Bristol artists!\n"
+        summary: "A bank holiday craft market at the Observatory run by Makers for Good Bristol, with handmade work from local artists and no entry charge."
+        description: "Join us on Bank Holiday Monday for a Maker Market organised by Makers for Good Bristol.
+
+          Explore gorgeous handcrafted goods made by local Bristol artists!\n"
+        confidence: "high"
+      - id: "museums/clifton-observatory#4046ebddb9"
+        sourceId: "museums/clifton-observatory"
+        title: "Sound Bath and Meditation"
+        occurrence:
+          kind: "single"
+          date: "2026-09-07"
+          startTime: "18:30"
+          endTime: "20:00"
+        status: "scheduled"
+        url: "https://cliftonobservatory.com/event/sound-bath-and-meditation-9/"
+        image: "https://cliftonobservatory.com/wp-content/uploads/2025/12/sound-bath-and-meditation.png"
+        price:
+          free: false
+          text: "£27.80"
+          min: 27.8
+          max: 27.8
+          currency: "GBP"
+        tags:
+          - "wellbeing"
+          - "booking-required"
+        raw: "**Sound Bath and Meditation** — Mon 7 September 2026, 6:30 pm - 8:00 pm. £27.80.
+
+
+          Relax, re-balance mind & body in a heart-opening, healing Sound Bath with breath taking
+
+          views of Bristol's iconic suspension bridge.\n"
+        summary: "A ninety-minute gong and singing-bowl session led by Rounik Sound Healing, with breathwork and a chakra-balancing guided meditation, high above the gorge."
+        description: "Relax, re-balance mind & body in a heart-opening, healing Sound Bath with breath taking
+
+          views of Bristol's iconic suspension bridge.
+
+
+          Join the experience led by Rounik Sound Healing at Clifton Observatory. Participants
+
+          will find themselves in a tranquil and grounding setting of soothing candles,
+
+          glimmering fairy-lights, and the serene sounds of gongs, singing bowls and sacred
+
+          chimes.
+
+
+          The session includes a journey of relaxation, guided meditation and sound therapy.
+
+          Spaces are limited; attendees should bring yoga mats and blankets.
+
+
+          Sound healing offers a relaxing and re-tuning experience that assists our brain to
+
+          enter deeper, slower states and encourages physical repair on a cellular level. The
+
+          practice supports emotional processing and life transitions.
+
+
+          The session begins with a check-in and intention-setting, followed by breathwork for
+
+          connection to ourselves, and a chakra balancing guided meditation, before the sound
+
+          bath begins.
+
+
+          **What to bring:** yoga mat, water bottle, blankets, and cushions for comfort.
+
+
+          **Contraindications:** not recommended for those with extreme sound sensitivity,
+
+          epilepsy, or first-trimester pregnancy.\n"
+        confidence: "high"
+      - id: "museums/clifton-observatory#a85783bb9d"
+        sourceId: "museums/clifton-observatory"
+        title: "Rooftop Jazz Night"
+        occurrence:
+          kind: "single"
+          date: "2026-09-13"
+          startTime: "17:30"
+          endTime: "21:00"
+        status: "scheduled"
+        timesText: "Doors 5:30PM, first set 6PM, interval 7PM, second set 7:30PM"
+        url: "https://cliftonobservatory.com/event/rooftop-jazz-night-4/"
+        image: "https://cliftonobservatory.com/wp-content/uploads/2026/08/OBS-EVENTS-2026-WEBSITE-6-1.png"
+        price:
+          free: false
+          text: "£15 per person"
+          min: 15
+          max: 15
+          currency: "GBP"
+        tags:
+          - "live-music"
+          - "jazz"
+          - "blues"
+          - "outdoor"
+          - "booking-required"
+        raw: "**Rooftop Jazz Night** — Sun 13 September 2026, 5:30 pm - 9:00 pm. £15.
+
+
+          Rendezblues, a soulful jazz ensemble, will be performing two sets of mesmerising vocals
+
+          and elegant jazz accompaniment on 13th of September.\n"
+        summary: "Two sets from jazz and blues ensemble Rendezblues on the rooftop terrace, with the bar open and the suspension bridge in view as the sun goes down."
+        description: "You are invited to an evening of blues on the rooftop terrace at Clifton Observatory.
+
+          Rendezblues, a soulful jazz ensemble, will be performing two sets of mesmerising vocals
+
+          and elegant jazz accompaniment on 13th of September.
+
+
+          Tickets include exclusive rooftop access for the performance, with drinks available
+
+          from the rooftop bar and views of the Clifton Suspension Bridge.
+
+
+          Doors open at 5:30PM for the first set beginning at 6PM. There will be an interval at
+
+          7PM with an opportunity to purchase drinks and a second set beginning at 7:30PM.
+
+
+          The evening features a summertime sunset on the rooftop with unique arrangements of
+
+          jazz and blues classics.
+
+
+          Tickets are non-refundable.\n"
+        confidence: "high"
+      - id: "museums/clifton-observatory#a2efb1b2de"
+        sourceId: "museums/clifton-observatory"
+        title: "Sound Bath and Meditation"
+        occurrence:
+          kind: "single"
+          date: "2026-10-12"
+          startTime: "18:30"
+          endTime: "20:00"
+        status: "scheduled"
+        url: "https://cliftonobservatory.com/event/sound-bath-and-meditation-10/"
+        image: "https://cliftonobservatory.com/wp-content/uploads/2025/12/sound-bath-and-meditation.png"
+        price:
+          free: false
+          text: "£27.80"
+          min: 27.8
+          max: 27.8
+          currency: "GBP"
+        tags:
+          - "wellbeing"
+          - "booking-required"
+        raw: "**Sound Bath and Meditation** — Mon 12 October 2026, 6:30 pm - 8:00 pm. £27.80.
+
+
+          Relax, re-balance mind & body in a heart-opening, healing Sound Bath with breath taking
+
+          views of Bristol's iconic suspension bridge.\n"
+        summary: "The October date in the Observatory's monthly sound bath series — gongs, singing bowls and guided meditation on the rooftop."
+        confidence: "high"
+      - id: "museums/clifton-observatory#0e7da3b65d"
+        sourceId: "museums/clifton-observatory"
+        title: "Bonfire Night"
+        occurrence:
+          kind: "single"
+          date: "2026-11-05"
+          startTime: "18:00"
+          endTime: "22:30"
+        status: "scheduled"
+        url: "https://cliftonobservatory.com/event/bonfire-night-4/"
+        image: "https://cliftonobservatory.com/wp-content/uploads/2026/07/bonfire-night.png"
+        price:
+          free: false
+          text: "£10 – £17.50"
+          min: 10
+          max: 17.5
+          currency: "GBP"
+        tags:
+          - "seasonal"
+          - "outdoor"
+          - "family"
+          - "booking-required"
+        raw: "**Bonfire Night** — Thu 5 November 2026, 6:00 pm - 10:30 pm. £10 – £17.50.
+
+
+          Visit the Clifton Observatory Rooftop Terrace on Bonfire night to witness the skyline
+
+          lit by fireworks.\n"
+        summary: "Rooftop terrace access on 5 November to watch the city's fireworks go up across the skyline, at the cheaper end of the Observatory's bonfire offering."
+        confidence: "high"
+      - id: "museums/clifton-observatory#f922e23406"
+        sourceId: "museums/clifton-observatory"
+        title: "Bonfire Night Party | Friday"
+        occurrence:
+          kind: "single"
+          date: "2026-11-06"
+          startTime: "18:00"
+          endTime: "22:30"
+        status: "scheduled"
+        url: "https://cliftonobservatory.com/event/bonfire-night-party-friday/"
+        image: "https://cliftonobservatory.com/wp-content/uploads/2026/07/17.png"
+        price:
+          free: false
+          text: "£35"
+          min: 35
+          max: 35
+          currency: "GBP"
+        tags:
+          - "party"
+          - "dj"
+          - "seasonal"
+          - "outdoor"
+          - "late-night"
+        raw: "**Bonfire Night Party | Friday** — Fri 6 November 2026, 6:00 pm - 10:30 pm. £35.
+
+
+          The legendary Clifton Observatory Bonfire Night party returns with a fire performer,
+
+          DJ, hot food stand and unforgettable views.\n"
+        summary: "The ticketed bonfire party — fire performer, DJ and hot food on the rooftop, on the Friday of the bonfire weekend."
+        confidence: "high"
+      - id: "museums/clifton-observatory#afe4ac1148"
+        sourceId: "museums/clifton-observatory"
+        title: "Bonfire Night Party | Saturday"
+        occurrence:
+          kind: "single"
+          date: "2026-11-07"
+          startTime: "18:00"
+          endTime: "22:30"
+        status: "scheduled"
+        url: "https://cliftonobservatory.com/event/bonfire-night-party-saturday/"
+        image: "https://cliftonobservatory.com/wp-content/uploads/2026/07/18-1.png"
+        price:
+          free: false
+          text: "£35"
+          min: 35
+          max: 35
+          currency: "GBP"
+        tags:
+          - "party"
+          - "dj"
+          - "seasonal"
+          - "outdoor"
+          - "late-night"
+        raw: "**Bonfire Night Party | Saturday** — Sat 7 November 2026, 6:00 pm - 10:30 pm. £35.
+
+
+          The legendary Clifton Observatory Bonfire Night party returns with a fire performer,
+
+          DJ, hot food stand and unforgettable views.\n"
+        summary: "The Saturday repeat of the rooftop bonfire party, same line-up of fire performer, DJ and hot food stand."
+        confidence: "high"
+      - id: "museums/clifton-observatory#4d06b0fd8c"
+        sourceId: "museums/clifton-observatory"
+        title: "Sound Bath and Meditation"
+        occurrence:
+          kind: "single"
+          date: "2026-11-09"
+          startTime: "18:30"
+          endTime: "20:00"
+        status: "scheduled"
+        url: "https://cliftonobservatory.com/event/sound-bath-and-meditation-11/"
+        image: "https://cliftonobservatory.com/wp-content/uploads/2025/12/sound-bath-and-meditation.png"
+        price:
+          free: false
+          text: "£27.80"
+          min: 27.8
+          max: 27.8
+          currency: "GBP"
+        tags:
+          - "wellbeing"
+          - "booking-required"
+        raw: "**Sound Bath and Meditation** — Mon 9 November 2026, 6:30 pm - 8:00 pm. £27.80.
+
+
+          Relax, re-balance mind & body in a heart-opening, healing Sound Bath with breath taking
+
+          views of Bristol's iconic suspension bridge.\n"
+        summary: "The November sound bath in the Observatory's monthly series, led by Rounik Sound Healing."
+        confidence: "high"
+      - id: "museums/clifton-observatory#04d79199a3"
+        sourceId: "museums/clifton-observatory"
+        title: "Sound Bath and Meditation"
+        occurrence:
+          kind: "single"
+          date: "2026-12-21"
+          startTime: "18:30"
+          endTime: "20:00"
+        status: "scheduled"
+        url: "https://cliftonobservatory.com/event/sound-bath-and-meditation-12/"
+        image: "https://cliftonobservatory.com/wp-content/uploads/2025/12/sound-bath-and-meditation.png"
+        price:
+          free: false
+          text: "£27.80"
+          min: 27.8
+          max: 27.8
+          currency: "GBP"
+        tags:
+          - "wellbeing"
+          - "booking-required"
+        raw: "**Sound Bath and Meditation** — Mon 21 December 2026, 6:30 pm - 8:00 pm. £27.80.
+
+
+          Relax, re-balance mind & body in a heart-opening, healing Sound Bath with breath taking
+
+          views of Bristol's iconic suspension bridge.\n"
+        summary: "A solstice-week sound bath, the last date currently in the Observatory's diary."
+        confidence: "high"
+    notes: "Worth a hint on this source: it is the mirror image of the bristolmuseums.org.uk entries. curl with a Chrome user-agent gets a hard 403 \"403 - Forbidden\" body, even with full browser headers, while the default fetcher gets 200 — so the browser-UA workaround must not be applied here. Eleven dated entries, all with a printed weekday, and every weekday matches 2026, so the year is confirmed rather than inferred. The page `<title>` is a stale calendar artefact reading \"Events from 6 June, 2021 – 25 July, 2021\", which is a WordPress events-plugin default and not a sign the listings are old — the entries themselves run August to December 2026. Four event pages were opened for `description`, the soonest distinct ones; the repeats (a second Golden Hour, three more Sound Baths, the Saturday Bonfire party) reuse the same copy on the index and were not opened again. The permanent camera obscura and Giant's Cave are not listed on /events/, which is purely a diary, so no `ongoing` row is recorded from this page this run."
+  - sourceId: "museums/georgian-house"
+    fetch:
+      ok: true
+      url: "https://www.bristolmuseums.org.uk/georgian-house-museum/whats-on/"
+      status: 200
+    events:
+      - id: "museums/georgian-house#79a2ab0710"
+        sourceId: "museums/georgian-house"
+        title: "The Georgian House Museum permanent displays"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/georgian-house-museum/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2024/05/Untitled-design-15-540x290.png"
+        tags:
+          - "permanent-collection"
+          - "heritage"
+          - "family"
+        raw: "**The Georgian House Museum** — Discover life above and below stairs in Bristol over 200
+
+          years ago.
+
+
+          Life above stairs · Life below stairs · Look Inside\n"
+        summary: "A 1790s merchant's town house on Great George Street kept as it was, showing both the family's floors and the working ones below."
+        confidence: "medium"
+      - id: "museums/georgian-house#e44ae5f5c2"
+        sourceId: "museums/georgian-house"
+        title: "The Georgian House Museum Highlight Tours"
+        subcategory: "Talks, tours and workshops"
+        occurrence:
+          kind: "run"
+          start: "2026-04-01"
+          end: "2026-12-31"
+        status: "scheduled"
+        timesText: "Fridays, Saturdays and Sundays – 11:30am and 2pm (approx. 30 minutes)"
+        url: "https://www.bristolmuseums.org.uk/whats-on/georgian-house-museum/georgian-house-tour/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2024/07/The-Georgian-House-16-CB-Bristol-Design-2024-256x144.jpg"
+        price:
+          free: false
+          text: "Standard ticket £5; under 16s free; carer/sighted guide free"
+          min: 0
+          max: 5
+          currency: "GBP"
+        tags:
+          - "guided-tour"
+          - "heritage"
+          - "booking-required"
+        raw: "1 April—31 December 2026
+
+
+          TOUR: Join us on an exploratory tour of the Georgian House Museum, learning about the
+
+          history of the house and the people who lived there.\n"
+        summary: "Half an hour across four floors of a 230-year-old town house, taking in both Georgian domestic life and the slave-trade wealth that paid for it."
+        description: "Join us on an exploratory tour of the Georgian House Museum, learning about the history
+
+          of the house and the people who lived there.
+
+
+          Through the lens of a single household, guests will learn, not only about day-to-day
+
+          life in Georgian times, but about the dramatic and harrowing global events which
+
+          fuelled an era of both prosperity and tragedy, technology and romance, tradition and
+
+          progress.
+
+
+          Tours are approximately 30 minutes long. Visitors will be taken on a brief historical
+
+          journey throughout four floors of the 230 year old Georgian town house. You can book a
+
+          tour online up to two days before the event; box office tickets may be available to buy
+
+          on the day (subject to availability). Please arrive no more than five minutes early to
+
+          avoid having to wait around outside.
+
+
+          Eating and drinking (with the exception of bottled water) is not permitted inside the
+
+          museum.
+
+
+          Be aware that the tour deals with more difficult themes relating to the house's
+
+          colonial past and involvement with the trafficking of enslaved Africans which some
+
+          visitors may find distressing.
+
+
+          **Accessibility** — The number of stairs in the museum mean that the tour is not
+
+          accessible for those with reduced mobility.
+
+
+          **Facilities** — There is no access to toilet facilities on premises.
+
+
+          **Tours start:** Fridays 11:30am and 2pm; Saturdays 11:30am and 2pm; Sundays 11:30am
+
+          and 2pm.\n"
+        confidence: "high"
+      - id: "museums/georgian-house#1d39678084"
+        sourceId: "museums/georgian-house"
+        title: "Summer Family Fun at The Georgian House Museum"
+        subcategory: "Families"
+        occurrence:
+          kind: "run"
+          start: "2026-08-21"
+          end: "2026-08-22"
+        status: "scheduled"
+        timesText: "11am—4pm"
+        url: "https://www.bristolmuseums.org.uk/whats-on/georgian-house-museum/summer-family-fun-georgian/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2026/03/Bristol-Museums-Website-Images-6-256x144.jpg"
+        price:
+          free: false
+          text: "£5 per person, children under 4 free; discounted family group tickets available"
+          min: 0
+          max: 5
+          currency: "GBP"
+        ageRestriction: "Perfect for families with children aged 6 to 9 years old"
+        tags:
+          - "family"
+          - "school-holidays"
+          - "crafts"
+          - "storytelling"
+        raw: "21—22 August 2026
+
+
+          FAMILIES: This activity day will celebrate the literary excellence of Jane Austen with
+
+          something to do for all the family.\n"
+        summary: "Two Jane Austen days at the Georgian House — make a fan, get your face painted, dress up in period costume and take a volunteer-led story time."
+        description: "Join us at The Georgian House Museum for some Family Fun this summer!
+
+
+          This enchanting activity day will celebrate the literary excellence of Jane Austen with
+
+          something to do for all the family.
+
+
+          Upcoming 2026 dates: Friday 21 August, Saturday 22 August.
+
+
+          What's on:
+
+
+          - Immerse yourself in the world of Jane Austen
+
+          - Make your very own fan to take home with you!
+
+          - Get your face painted
+
+          - Join our friendly volunteers for historical story time
+
+          - Dress up in our historical costumes for both children and grown-ups
+
+          - Explore our historic museum and garden, trails are included in the price of the ticket
+
+          - Capture the experience with props and fanciful backdrops, be sure to tag your photos
+
+          \  @bristolmuseums on Instagram!
+
+          - Enjoy some Georgian sights, sounds and smells!
+
+
+          Come ready to explore, learn, and make memories in the beautiful surroundings of The
+
+          Georgian House Museum.
+
+
+          Entry tickets are £5 per person (except children under 4) and activities are included
+
+          in the entry price. Discounted family group tickets are available. Walk ins on the day
+
+          if space is available.
+
+
+          **Summer 2026 VAT reduction** — We're taking part in the Government's summer VAT
+
+          reduction scheme. For you, this means lower prices tickets, and reductions on children's
+
+          meals at our cafés. VAT reductions for adult tickets are included on this event.\n"
+        confidence: "high"
+    notes: "Fetched with curl and a Chrome user-agent per the hint; the default fetcher gets 403. Two dated cards, both venue-filtered. Both event pages were opened for `description` — the tour page is where the content warning about the house's colonial past and the no-lift access note live, neither of which the index carries. Years are printed, so no inference. Quarterly cadence still looks right for this venue."
+  - sourceId: "museums/red-lodge"
+    fetch:
+      ok: true
+      url: "https://www.bristolmuseums.org.uk/red-lodge-museum/whats-on/"
+      status: 200
+    events:
+      - id: "museums/red-lodge#451a669177"
+        sourceId: "museums/red-lodge"
+        title: "The Red Lodge Museum permanent displays"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/red-lodge-museum/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2024/05/Untitled-design-25-540x290.png"
+        tags:
+          - "permanent-collection"
+          - "heritage"
+          - "family"
+        raw: "**The Red Lodge Museum** — Experience 400 years of history in Bristol's secret treasure.
+
+
+          The former Victorian School · The Family Home · The Original Lodge · The Great Oak Room
+
+          · The Knot Garden\n"
+        summary: "An Elizabethan lodge off Park Row layered with four centuries of use — the Great Oak Room, a Georgian family home, a Victorian reform school and a Tudor knot garden."
+        confidence: "medium"
+      - id: "museums/red-lodge#11e96fcc81"
+        sourceId: "museums/red-lodge"
+        title: "The Red Lodge Museum Highlight Tours"
+        subcategory: "Talks, tours and workshops"
+        occurrence:
+          kind: "run"
+          start: "2026-04-01"
+          end: "2026-12-31"
+        status: "scheduled"
+        timesText: "Fridays, Saturdays and Sundays – 11:30am and 2pm (approx. 30 minutes)"
+        url: "https://www.bristolmuseums.org.uk/whats-on/red-lodge-museum/red-lodge-tours/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2025/07/Bristol-Museums-Newsletter-Images-7-256x144.jpg"
+        price:
+          free: false
+          text: "Standard ticket £5; under 16s free; carer/sighted guide free"
+          min: 0
+          max: 5
+          currency: "GBP"
+        tags:
+          - "guided-tour"
+          - "heritage"
+          - "booking-required"
+        raw: "1 April—31 December 2026
+
+
+          TOUR: Let us introduce you to our historic house and share some stories you won't find
+
+          on the labels!\n"
+        summary: "A guided half-hour through four hundred years of the Red Lodge, with the stories the object labels leave out."
+        description: "Join us for a tour of The Red Lodge Museum!
+
+
+          Let us introduce you to our historic house, share some stories you won't find on the
+
+          labels, and tell you how The Red Lodge Museum came to be.
+
+
+          You'll be greeted by our knowledgeable tour guide who will introduce you to the
+
+          fascinating history of the house and provide insights into the story of the city through
+
+          the artefacts found there.
+
+
+          Whether you're a seasoned Bristolian or a curious newcomer, we hope to inspire and
+
+          leave you with a deeper appreciation for the treasures housed within The Red Lodge
+
+          Museum.
+
+
+          Tours are approximately 30 minutes long. You can book a tour online up to two days
+
+          before the event; box office tickets may be available to buy on the day (subject to
+
+          availability).
+
+
+          Eating and drinking (with the exception of bottled water) is not permitted inside the
+
+          museum.
+
+
+          **Tours start:** Fridays 11:30am and 2pm; Saturdays 11:30am and 2pm; Sundays 11:30am
+
+          and 2pm.\n"
+        confidence: "high"
+      - id: "museums/red-lodge#68c179e0dd"
+        sourceId: "museums/red-lodge"
+        title: "Summer Family Fun at The Red Lodge Museum"
+        subcategory: "Families"
+        occurrence:
+          kind: "run"
+          start: "2026-08-29"
+          end: "2026-08-30"
+        status: "scheduled"
+        timesText: "11am—4pm"
+        url: "https://www.bristolmuseums.org.uk/whats-on/red-lodge-museum/spring-family-fun-red-2-2/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2026/03/Bristol-Museums-Website-Images-10-256x144.jpg"
+        price:
+          free: false
+          text: "£5 per person, children under 4 free; discounted family group tickets available"
+          min: 0
+          max: 5
+          currency: "GBP"
+        ageRestriction: "Perfect for families with children aged 6 to 9 years old"
+        tags:
+          - "family"
+          - "school-holidays"
+          - "crafts"
+          - "storytelling"
+        raw: "29—30 August 2026
+
+
+          FAMILIES: These enchanting activity days will investigate the past at The Red Lodge
+
+          Museum with something to do for all the family.\n"
+        summary: "Two Tudor-themed activity days over the bank holiday weekend — make a headdress and jewels, dress up, get your face painted, and take a story time with volunteers."
+        description: "Join us at The Red Lodge Museum for some Family Fun this summer!
+
+
+          These enchanting activity days will investigate the past at The Red Lodge Museum with
+
+          something to do for all the family.
+
+
+          Upcoming 2026 dates: Saturday 29 August, Sunday 30 August.
+
+
+          What's on:
+
+
+          - Join our friendly volunteers for story time
+
+          - Join in with Tudor crafts, make your very own headdress and Tudor jewels to take home
+
+          \  with you!
+
+          - Get your face painted
+
+          - Dress up in our historical costumes for both children and grown-ups
+
+          - Explore our historic museum and garden, trails are included in the price of the ticket
+
+          - Capture the experience and be sure to tag your photos @bristolmuseums on Instagram!
+
+          - Enjoy some Tudor sights, sounds and smells!
+
+
+          Come ready to explore, learn, and make memories in the beautiful surroundings of The Red
+
+          Lodge Museum.
+
+
+          Entry tickets are £5 per person (except children under 4) and activities are included in
+
+          the entry price. Discounted family group tickets are available. Walk ins on the day if
+
+          space is available.
+
+
+          **Summer 2026 VAT reduction** — We're taking part in the Government's summer VAT
+
+          reduction scheme, so ticket prices are lower and there are reductions on children's
+
+          meals at our cafés.\n"
+        confidence: "high"
+      - id: "museums/red-lodge#a142e97d3c"
+        sourceId: "museums/red-lodge"
+        title: "Spooky Week at The Red Lodge Museum"
+        subcategory: "Families"
+        occurrence:
+          kind: "recurring"
+          pattern: "Saturday 24 October, Sunday 25 October, Thursday 29 October, Friday 30 October, Saturday 31 October, Sunday 1 November"
+          start: "2026-10-24"
+          end: "2026-11-01"
+          startTime: "11:00"
+        status: "scheduled"
+        timesText: "11am—4pm"
+        url: "https://www.bristolmuseums.org.uk/whats-on/red-lodge-museum/spooky-week/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2026/07/Bristol-Museums-Website-Images-10-256x144.jpg"
+        price:
+          free: false
+          text: "£5 per person, children under 4 free; discounted family group tickets available"
+          min: 0
+          max: 5
+          currency: "GBP"
+        ageRestriction: "Perfect for families with children aged 6 to 9 years old"
+        tags:
+          - "family"
+          - "school-holidays"
+          - "seasonal"
+          - "storytelling"
+          - "crafts"
+        raw: "24 October—1 November 2026
+
+
+          FAMILIES: These spooky activity days will investigate the past at The Red Lodge Museum
+
+          with something to do for all the family.\n"
+        summary: "Six half-term days in a dimly lit Elizabethan house, with costumed former residents — Sir John Young, a Victorian reform-school girl, a Georgian lady — telling their own stories."
+        description: "Step into history this Halloween at The Red Lodge for a week of stories and exploration!
+
+
+          This enchanting event will immerse you in the rich history of one of Bristol's most
+
+          intriguing historical houses, where the past comes alive.
+
+
+          Peep into our tiny world spooky doors and spot the ghosts and ghouls that live behind
+
+          them, can you find them all? What Spooky stories do they tell? Let your creativity flow
+
+          and create your own story or poem inspired by our spooky creatures to take home with you.
+
+
+          As you wander through the dimly lit halls, you'll encounter former residents who will
+
+          guide you on a journey through time, sharing tales of the lives and the history of the
+
+          house. You can find out all about:
+
+
+          - Sir John Young, An Elizabethan gentleman, the first owner of the Red Lodge and host to
+
+          \  Queen Elizabeth I
+
+          - Annie Woolham, a young Victorian girl and early resident of the Red Lodge Reform School
+
+          - Mary Henley, a Georgian lady who modernised the Red Lodge and turned it into a home
+
+
+          What's on:
+
+
+          - Join our volunteers for some favourite spooky stories during the year of reading
+
+          - Join in with a creative activity; create a Gods Eye to take home and ward off any
+
+          \  unfriendly spirits, make a spooky paper pal, or make spooky decorations to take home
+
+          \  with you
+
+          - Let our arty volunteers decorate you with spooky face and body painting
+
+          - Dress up in our historical costume or come in your own, don't forget to share your
+
+          \  selfies with us!
+
+          - Enjoy a drink and a tasty treat in our Tudor Knot garden
+
+          - Come dressed in your favourite costumes, ready to explore, learn, and make memories in
+
+          \  the most atmospheric house in Bristol
+
+
+          Happening on: Saturday 24 October, Sunday 25 October, Thursday 29 October, Friday 30
+
+          October, Saturday 31 October, Sunday 1 November.
+
+
+          Entry tickets are £5 per person (except children under 4) and activities are included in
+
+          the entry price. Walk ins on the day if space is available.\n"
+        confidence: "high"
+    notes: "Fetched with curl and a Chrome user-agent per the hint; the default fetcher gets 403. Three dated cards, all venue-filtered. All three event pages were opened for `description`. Years printed, no inference needed. Note the Summer Family Fun page lives at the slug /red-lodge-museum/spring-family-fun-red-2-2/ — a stale slug for a summer event, not a different event."
+  - sourceId: "museums/ss-great-britain"
+    fetch:
+      ok: true
+      url: "https://www.bristoldockyards.org/whats-on"
+      status: 200
+    events:
+      - id: "museums/ss-great-britain#8a3e2b974c"
+        sourceId: "museums/ss-great-britain"
+        title: "SS Great Britain Experience"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        url: "https://www.bristoldockyards.org/ss-great-britain-experience"
+        image: "https://images.prismic.io/bristoldockyards/ailjZgeQX7-eXK9h_SSGBEHero7.png?auto=format%2Ccompress&rect=298%2C0%2C6374%2C3984&w=1920&fit=max"
+        price:
+          free: false
+          text: "Included in general admission; ticket valid for a year of return visits"
+        tags:
+          - "permanent-collection"
+          - "heritage"
+          - "interactive"
+          - "family"
+        raw: "**SS Great Britain experience** — Propelled by ideas since 1843.
+
+
+          Introducing our new museum: how many museums can claim they've travelled the world? Step
+
+          inside and discover interactive exhibitions, digital recreations, historic artefacts and
+
+          new community-led research uncovering voices and stories from SS Great Britain's 41 years
+
+          of service. Drawing on decades of research and the Brunel Institute's remarkable archive
+
+          of over 75,000 original drawings, letters and artefacts, the museum has been developed in
+
+          close collaboration with local community groups and researchers.\n"
+        summary: "The site's standing offer, expanded with a museum that opened in July 2026 — interactive exhibitions and community-led research alongside the ship itself, the dry dock, the Being Brunel museum and the historic dockyard."
+        confidence: "medium"
+      - id: "museums/ss-great-britain#748c7eac45"
+        sourceId: "museums/ss-great-britain"
+        title: "Summer Lates"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "18:00"
+          endTime: "21:00"
+        status: "scheduled"
+        url: "https://www.bristoldockyards.org/whats-on/summer-lates"
+        image: "https://images.prismic.io/bristoldockyards/isyrSdrtLDM2z1gh_lates.jpg?auto=format%2Ccompress&rect=499%2C669%2C2688%2C1411&w=2400&h=1260"
+        price:
+          free: false
+          text: "£10"
+          min: 10
+          max: 10
+          currency: "GBP"
+        tags:
+          - "late-opening"
+          - "live-music"
+          - "food-drink"
+          - "jazz"
+        raw: "20 August 2026
+
+
+          **Summer Lates** — Spend a summer evening at the Dockyards.\n"
+        summary: "After-hours opening with the crowds gone — the new museum and the ship, a drink on the top deck, a BBQ and swing-jazz from Champagne Chateau."
+        description: "Back by popular demand: Summer Lates at Bristol Dockyards.
+
+
+          We're opening the gates after hours allowing you to step into the new SS Great Britain
+
+          Experience while the crowds have gone, before exploring the iconic ship. As the light
+
+          softens over the harbour, enjoy a tipple on the top deck, stay for a BBQ and live music
+
+          from Champagne Chateau in partnership with Diverse Artists Network.
+
+
+          Please note: Being Brunel Museum will not be open.
+
+
+          **Live music** — Fronted by Sisanda Kowalski, Champagne Chateau are bringing a touch of
+
+          dockside elegance and swing-jazz. In partnership with Diverse Artists Network.
+
+
+          **Summer classics on the grill** — Our BBQ will be firing, serving up hearty summer food
+
+          to enjoy as the sun sets. The perfect accompaniment to live music, a glass of something
+
+          cold and the most spectacular backdrop.
+
+
+          **Key info** — Date: Thursday 20 August 2026. Time: 6pm-9pm. Tickets: £10.
+
+
+          Tickets must be booked online in advance and are non-refundable, though they can be
+
+          transferred to a new date up to 24 hours before, subject to availability. Your ticket
+
+          includes entry to SS Great Britain for the duration of the event only. Summer Lates will
+
+          go ahead in most weather conditions, and there is a wet weather option in place. Summer
+
+          lates are aimed at an adult audience but supervised children are welcome; anyone aged 18
+
+          or under must be accompanied by an adult. Smoking and vaping are prohibited everywhere on
+
+          site.\n"
+        confidence: "high"
+      - id: "museums/ss-great-britain#3e33f86d69"
+        sourceId: "museums/ss-great-britain"
+        title: "Go Aloft!"
+        occurrence:
+          kind: "recurring"
+          pattern: "March – October 2026, climb sessions 10.15am–4.15pm"
+          startTime: "10:15"
+        status: "scheduled"
+        timesText: "10.15am–4.15pm, sessions roughly 30 minutes, two climbers at a time"
+        url: "https://www.bristoldockyards.org/whats-on/go-aloft"
+        image: "https://images.prismic.io/bristoldockyards/bBJhUkYs7Zmks2Rr_MaxMcClure_ssGreatBritain_879GRBedited.jpg2.jpg?auto=format,compress"
+        price:
+          free: false
+          text: "£35.00 for the Go Aloft bundle (day pass + Go Aloft); from £24 for annual ticket holders"
+          min: 24
+          max: 35
+          currency: "GBP"
+        ageRestriction: "10 and over"
+        tags:
+          - "heritage"
+          - "interactive"
+          - "family"
+          - "booking-required"
+        raw: "March – October 2026
+
+
+          **Go Aloft!** — Climb the SS Great Britain's rigging 25 metres into the sky, for the
+
+          ultimate birds-eye view of Bristol.\n"
+        summary: "Harnessed up the ship's rigging 25 metres above the dockyard, with the option of edging out nine metres over the dry dock — instructed by Young Bristol's outdoor employment trainees."
+        description: "**Master the climb** — Discover what it was like to be a Victorian sailor of the SS Great
+
+          Britain crew, and climb the ship's rigging 25 metres into the sky. Feeling even braver?
+
+          Edge out 9m over the Great Western Dockyard for hands down the best birds-eye view in
+
+          Bristol.
+
+
+          **The only way is up** — Each session lasts roughly 30 minutes and is limited to two
+
+          climbers at a time. You'll be guided through every step by trained instructors from Young
+
+          Bristol's Outdoor Employment Programme. We're proud to support the youth-driven charity in
+
+          its mission to help young locals develop leadership skills and gain nationally recognised
+
+          qualifications. They'll make sure you're safe at all times, in an experience we promise is
+
+          as authentic as the mid-19th century.
+
+
+          **Key info** — Time: 10.15am–4.15pm. Price: add Go Aloft when booking your General
+
+          Admission ticket; £35.00 for the Go Aloft bundle (day pass + Go Aloft), or from £24 per
+
+          participant for annual ticket holders. Suitable for families, 10 and over.
+
+
+          Booking in advance is required; there may be walk-up slots on the day for admission ticket
+
+          holders but this is not guaranteed, and a waiver form must be completed. Sensible clothing
+
+          and closed-toe shoes are required, long hair tied back, jewellery and scarves removed, and
+
+          loose items including mobile phones are not permitted on the climb. The full experience
+
+          typically lasts 20–30 minutes including the fitting of safety equipment. Climbs take place
+
+          in all conditions unless the weather poses a health and safety risk — generally winds
+
+          consistently above 20mph, gusts above 30mph, or lightning. Once booked, tickets are
+
+          non-transferable and cannot be rescheduled, refunded or cancelled.\n"
+        confidence: "medium"
+      - id: "museums/ss-great-britain#15c86a0e3b"
+        sourceId: "museums/ss-great-britain"
+        title: "Sunday Roasts on Board"
+        occurrence:
+          kind: "recurring"
+          pattern: "Sunday sittings, June – October 2026"
+        status: "scheduled"
+        timesText: "Sittings at 12pm, 12:30pm, 1pm, 2pm and 2:30pm"
+        url: "https://www.bristoldockyards.org/whats-on/sunday-roast"
+        image: "https://images.prismic.io/bristoldockyards/ahgYHrK9tuLqENyW_Sunday-Roast-Close-up-edit-5-scaled-e1709292863299.jpg?auto=format,compress&rect=0,32,2560,1344&w=2400&h=1260"
+        price:
+          free: false
+          text: "Two-course, three-course and children's options; booking online only"
+        tags:
+          - "food-drink"
+          - "heritage"
+          - "booking-required"
+        raw: "June – October 2026
+
+
+          **Sunday Roasts on Board** — Sunday Roasts in Bristol just got even better! Step aboard
+
+          the SS Great Britain and enjoy a spectacular Sunday Roast in the ship's opulent First
+
+          Class Dining Saloon.\n"
+        summary: "Sunday lunch served in the ship's restored First Class Dining Saloon, with the rest of the site — ship, dry dock and Being Brunel — open to you on the same day."
+        description: "Sunday Roasts in Bristol just got even better! Step aboard the SS Great Britain and enjoy
+
+          a spectacular Sunday Roast in the ship's opulent First Class Dining Saloon.
+
+
+          Three-course, two-course and children's options are available, allowing everyone to
+
+          indulge. Treat your partner, your parents, friends or the kids with Special Sunday Roasts
+
+          scheduled throughout the year.
+
+
+          Before or after your Sunday Roast you can explore the attraction including the ship, dry
+
+          dock and Being Brunel Museum during the date of your lunch. Please ensure you arrive in
+
+          the First Class Dining Saloon at your chosen seating time.
+
+
+          Please note that you must book your Sunday Roast online. Bookings close 48 hours in
+
+          advance of each date.
+
+
+          **Availability** — Sittings are available at 12pm, 12:30pm, 1pm, 2pm and 2:30pm.\n"
+        confidence: "medium"
+      - id: "museums/ss-great-britain#94a130ae42"
+        sourceId: "museums/ss-great-britain"
+        title: "Walking Brunel's Bristol"
+        occurrence:
+          kind: "recurring"
+          pattern: "August: Sun 9, Fri 14, Sun 23, Mon 31; September: Sun 6, Fri 11, Sun 20"
+          start: "2026-06-19"
+          end: "2026-09-20"
+          startTime: "10:30"
+        status: "scheduled"
+        timesText: "10.30am–12.45pm, arrive 15 minutes before departure"
+        url: "https://www.bristoldockyards.org/whats-on/walking-brunels-bristol"
+        image: "https://images.prismic.io/bristoldockyards/afjiUsBOoF08xmI3_collection-card-7.jpg?auto=format,compress&rect=0,173,1256,659&w=2400&h=1260"
+        price:
+          free: false
+          text: "£14.00"
+          min: 14
+          max: 14
+          currency: "GBP"
+        ageRestriction: "Not age restricted, but recommended for ages 8 and over; children must be accompanied by a paying adult"
+        tags:
+          - "guided-tour"
+          - "outdoor"
+          - "heritage"
+          - "booking-required"
+        raw: "19 June – 20 September 2026
+
+
+          **Walking Brunel's Bristol** — Join Mr B on a historic walking tour of Bristol's
+
+          harbourside.\n"
+        summary: "Three miles round the Floating Harbour in the company of Brunel himself, taking in Underfall Yard, Cumberland Basin and Queen Square over two and a quarter hours."
+        description: "Join Mr B on a historic walking tour of Bristol's harbourside.
+
+
+          Unearth the stories, mishaps and mayhem behind Brunel's legacy, and discover how the city
+
+          of Bristol helped to forge one of history's greatest engineers.
+
+
+          Covering just over 3 miles of the harbourside, the tours last approximately 2 hrs 15 mins
+
+          and commence and finish outside The Board Walk restaurant in Brunel Square — located just
+
+          outside the main entrance to Bristol Dockyards.
+
+
+          Primarily following a circular route around Bristol's Floating Harbour, Mr. Brunel will
+
+          discuss his Bristol born projects, tales from his own life, the history of the harbour as
+
+          well as some interesting chapters from Bristol's past and present. Main stops on the tour
+
+          include Underfall Yard, Cumberland Basin, Queen Square and of course, the SS Great Britain.
+
+
+          **Tickets** — Online advance booking only, subject to capacity. Dates available: August —
+
+          Sun 9, Fri 14, Sun 23, Mon 31. September — Sun 6, Fri 11, Sun 20. General Admission to the
+
+          site is not included, however an Afternoon Saver can be added to your ticket.
+
+
+          **Key info** — Time: 10.30am–12.45pm. Please arrive 15 minutes before the tour is
+
+          scheduled to depart; Mr. Brunel is a stickler for timekeeping. Price: £14.00. Suitable for
+
+          families, 8 and over, neurodiverse visitors and travellers.
+
+
+          The tour is designed to be fully accessible for mobility scooters and wheelchairs, with
+
+          one or two small inclines and occasional cobbles. There are no scheduled toilet or picnic
+
+          stops, though public toilets are located en route. Dogs are welcome on a lead. Booking
+
+          changes can be made up to 24 hours in advance, but tickets are not refundable.\n"
+        confidence: "high"
+      - id: "museums/ss-great-britain#2a36bc7af7"
+        sourceId: "museums/ss-great-britain"
+        title: "Afternoon Tea at The Board Walk"
+        occurrence:
+          kind: "recurring"
+          pattern: "12pm and 2pm sittings on 11 July, 1 August, 5 September and 31 October 2026"
+          start: "2026-07-11"
+          end: "2026-10-31"
+          startTime: "12:00"
+        status: "scheduled"
+        timesText: "Sittings at 12pm and 2pm, two hours, up to 10 guests per sitting"
+        url: "https://www.bristoldockyards.org/whats-on/afternoon-tea"
+        image: "https://images.prismic.io/bristoldockyards/ah7djweQX7-eWjen_Z63_2732_SSGB_Boardwalk.jpg?auto=format,compress&rect=0,428,6048,3175&w=2400&h=1260"
+        price:
+          free: false
+          text: "£30pp"
+          min: 30
+          max: 30
+          currency: "GBP"
+        tags:
+          - "food-drink"
+          - "booking-required"
+        raw: "July – October 2026
+
+
+          **Afternoon Tea at The Board Walk** — A treat for a weekend on Bristol's waterfront.\n"
+        summary: "Four dates only — a two-hour afternoon tea at the dockside restaurant beside the ship, ten guests to a sitting."
+        description: "Experience a beautifully curated afternoon tea at The Board Walk, perfectly situated on
+
+          Bristol's iconic harbourside beside the world-famous SS Great Britain. Sit back by the
+
+          water, soak in the lively atmosphere on Bristol Dockyards, and indulge in a delicious
+
+          spread of handcrafted sweet and savoury treats — the perfect way to spend a relaxing
+
+          afternoon in one of the city's most scenic locations.
+
+
+          Whether you're celebrating a special occasion with loved ones or simply treating yourself
+
+          to a weekend indulgence, it's an experience not to be missed.
+
+
+          These limited afternoon tea sittings are available at 12pm and one at 2pm on the following
+
+          2026 dates: 11 July, 1 August, 5 September, 31 October.
+
+
+          **Key info** — Price: £30pp. Capacity: up to 10 guests per sitting. Duration: 2 hours.\n"
+        confidence: "medium"
+      - id: "museums/ss-great-britain#69ae3b7296"
+        sourceId: "museums/ss-great-britain"
+        title: "Ships and Giggles"
+        occurrence:
+          kind: "run"
+          start: "2026-07-18"
+          end: "2026-09-02"
+        status: "scheduled"
+        timesText: "10:00am-5:00pm"
+        url: "https://www.bristoldockyards.org/whats-on/ships-and-giggles"
+        image: "https://images.prismic.io/bristoldockyards/bZ-NskZ10JqBhuoc_HeroShips%26Giggles.png?auto=format,compress&rect=0,71,2160,1134&w=2400&h=1260"
+        price:
+          free: false
+          text: "Included in your ticket; one child free with every paying adult until 2 September"
+        tags:
+          - "family"
+          - "games"
+          - "interactive"
+          - "school-holidays"
+        raw: "18 July – 2 September 2026
+
+
+          **Ships and Giggles** — A summer of games, adventure and silliness down at the Dockyards.\n"
+        summary: "Summer challenges drawn from the ship's own history — jar fishing as child passengers did it, giant jump rope, orders bellowed through the engine-room speaking trumpets, and a pie race off an 1863 menu."
+        description: "Pack up your playmates and set sail for fun.
+
+
+          This summer at Bristol Dockyards – home of SS Great Britain – we're bringing the stories
+
+          of one of the world's most extraordinary ships to life through games, challenges and a
+
+          whole lot of laughs.
+
+
+          From the dockside to the dining room, take part in interactive challenges inspired by the
+
+          SS Great Britain's global voyages. Here's a taste of what's in store:
+
+
+          - **Jar Fishing:** Child passengers would dangle jars into the sea to catch fish – without
+
+          \  even being able to see what they'd caught! Now it's your turn.
+
+          - **Jump Rope:** Swing into action with our giant jump rope – a favourite from the streets
+
+          \  of New York City. How long can you keep going?
+
+          - **Good Shout:** Head down to the engine room and listen out for your orders – called out
+
+          \  through the speaking trumpets just like the real crew. How many commands can you get
+
+          \  right?
+
+          - **Who Made All the Pies?** Race to make three fruit pies in the ship's galley before
+
+          \  anyone else! Flip cards to build your desserts, based on a real menu from 1863.
+
+
+          **Key info** — Time: 10:00am-5:00pm. Price: included in your ticket.
+
+
+          **Kids Go Free — all summer long:** one child free for every paying adult, from now until
+
+          2 September. Come back as many times as you like at no extra cost: one ticket, a whole year
+
+          of adventures.\n"
+        confidence: "high"
+      - id: "museums/ss-great-britain#0181a64f63"
+        sourceId: "museums/ss-great-britain"
+        title: "Voyager Voices Tour"
+        occurrence:
+          kind: "recurring"
+          pattern: "Tue, Thu, Sat and Sun between 21 Jul - 30 Aug; Tue 11 Aug will be held on Fri 14 Aug instead"
+          start: "2026-07-21"
+          end: "2026-08-30"
+          startTime: "13:00"
+        status: "scheduled"
+        timesText: "1pm-1.50pm"
+        url: "https://www.bristoldockyards.org/whats-on/voyager-voices-tour"
+        image: "https://images.prismic.io/bristoldockyards/rOAAR2wTgC-BvR6y_Grouptour-Websiteimage.png?auto=format,compress&rect=0,220,6750,3544&w=2400&h=1260"
+        price:
+          free: false
+          text: "£5pp (all ages)"
+          min: 5
+          max: 5
+          currency: "GBP"
+        tags:
+          - "guided-tour"
+          - "performance"
+          - "heritage"
+          - "family"
+        raw: "21 July – 30 August 2026
+
+
+          **Voyager Voices Tour** — Explore all three decks of the SS Great Britain with a costumed
+
+          passenger or crew member as your guide.\n"
+        summary: "A costumed passenger or crew member walks you through all three decks in fifty minutes, telling the real stories of people who sailed on her."
+        description: "A tour of travels and tales! Join one of our costume characters for a unique guided tour
+
+          aboard the SS Great Britain and discover the amazing true stories of people who sailed on
+
+          the ship that changed the world.
+
+
+          Find out what life was really like on board the most famous Victorian steamship and marvel
+
+          at the experiences of those who dared to venture across the world in search of fame,
+
+          fortune and fresh beginnings.
+
+
+          Led by a Victorian costume guide, the tour will last 50 minutes and cover all three decks
+
+          of the SS Great Britain. Online booking is recommended, though tickets can be purchased in
+
+          house, subject to capacity on the day. Tickets are available until 1pm on the day of the
+
+          tour, however we advise people to please arrive at the stern of the ship 10 minutes before
+
+          their tour.
+
+
+          **Key info** — Tickets: £5pp (all ages). Annual Ticket Holders can buy tickets separately;
+
+          otherwise, you can add your Voyager Voices Tour to your General Admission booking. Dates:
+
+          Tue, Thu, Sat and Sun between 21 Jul - 30 Aug. NB: Tue 11 Aug will be held on Fri 14 Aug
+
+          instead. Time: 1pm-1.50pm.\n"
+        confidence: "high"
+      - id: "museums/ss-great-britain#bb00b2ae2d"
+        sourceId: "museums/ss-great-britain"
+        title: "Home Education Day"
+        occurrence:
+          kind: "single"
+          date: "2026-09-21"
+          startTime: "10:00"
+          endTime: "15:00"
+        status: "scheduled"
+        url: "https://www.bristoldockyards.org/whats-on/home-ed-day"
+        image: "https://images.prismic.io/bristoldockyards/rnISayTSUSRNayCA_SSGBExperienceMuseum-Hero.jpg?auto=format,compress&rect=0,71,2160,1134&w=2400&h=1260"
+        price:
+          free: false
+          text: "£9.00 pp | Free for children 3 and under and carers accompanying a disabled person; bookable extras £2–£3 per child"
+          min: 0
+          max: 9
+          currency: "GBP"
+        tags:
+          - "young-people"
+          - "hands-on"
+          - "workshop"
+          - "booking-required"
+        raw: "21 September 2026
+
+
+          **Home Education Day** — Meet real-life engineers, enjoy hands-on STEM activities, and
+
+          discover Brunel's legacy at our special Home Education Day.\n"
+        summary: "The whole site opened for home-educating families only, with Babcock and dockyard engineers on hand and three bookable extras — a ship tour and two workshops."
+        description: "Bristol Dockyards is home to the remarkable legacy of Victorian engineer Isambard Kingdom
+
+          Brunel, but engineering is far from history. Join us this autumn for a special Home
+
+          Education Day where you can meet real-life engineers from Babcock and Bristol Dockyards,
+
+          discover what they do, and take part in hands-on STEM activities. You'll also have the
+
+          chance to learn more about Brunel and explore our newly opened museum dedicated to his
+
+          most famous ship, the SS Great Britain.
+
+
+          **What's included:** whole site access including the Brunel Institute, Being Brunel
+
+          Museum, SS Great Britain & NEW museum and Historic Dockyards.
+
+
+          **Key info** — Price: £9.00 pp; free for children 3 and under and carers accompanying a
+
+          paying disabled person. Date & time: Monday 21st September 2026, 10am-3pm.
+
+
+          **Additional bookable activities:**
+
+
+          - **Guided Tour of SS Great Britain** — Find out about the SS Great Britain's long and
+
+          \  adventurous life, discover passengers and crew stories as you explore the ship with our
+
+          \  knowledgeable volunteer tour guides. 10:30-11:30, 60 mins, on board the ship, meeting at
+
+          \  the stern. £2 per child, adults free but must be booked in.
+
+          - **Brunel's Big Ideas** (education workshop) — Take a closer look at some of Brunel's
+
+          \  sketches, discover how the SS Great Britain was built then hunt for some of Brunel's
+
+          \  engineering tools in one of our museums. 10:30-11:30, 60 mins, Medlock classroom, Dry
+
+          \  Dock and Being Brunel Museum. For children working at Key Stage 1 or 2. £3 per
+
+          \  participating child, £1 per non-participating child, adults free.
+
+          - **Mission: Save the Ship** (education workshop) — Investigate the dehumidification system
+
+          \  that protects the SS Great Britain and discover the science and engineering behind it
+
+          \  with hands-on experiments led by the Ship's Conservation Engineer. 13:00-14:00, 60 mins,
+
+          \  Medlock classroom and Dry Dock. For children aged 12+. £3 per participating child, £1 per
+
+          \  non-participating child, adults free.
+
+
+          As the site is only open for home educating families it is likely to be quieter than it
+
+          would normally be at weekends or during school holidays. A covered picnic area with patio
+
+          heaters is available, and The Board Walk kiosk is open 8:30am-4:00pm.\n"
+        confidence: "high"
+      - id: "museums/ss-great-britain#2ce89e1724"
+        sourceId: "museums/ss-great-britain"
+        title: "Ma-ad Science Mayhem"
+        occurrence:
+          kind: "run"
+          start: "2026-09-26"
+          end: "2026-11-01"
+        status: "scheduled"
+        timesText: "10:00am-5:00pm"
+        url: "https://www.bristoldockyards.org/whats-on/ma-ad-science-mayhem"
+        image: "https://images.prismic.io/bristoldockyards/Td4xi3Xfkn7LOt0c_BristolDockyards-WebsiteBanner.png?auto=format%2Ccompress&rect=1674%2C0%2C4244%2C2228&w=2400&h=1260"
+        price:
+          free: false
+          text: "Included in your ticket"
+        tags:
+          - "family"
+          - "animation"
+          - "hands-on"
+          - "school-holidays"
+        raw: "26 September – 1 November 2026
+
+
+          **Ma-ad Science Mayhem** — A Shaun the Sheep movie challenge at Bristol Dockyards. Aardman
+
+          Shaun The Sheep Model Workshop 28 Oct.\n"
+        summary: "Shaun the Sheep's mad-science lab installed across the dockyard for the autumn, tied to the new Sky film — a run of challenges indoors and out, included in admission."
+        description: "Shaun the Sheep is back with a new movie - Sky Original film, Shaun The Sheep: The Beast of
+
+          Mossy Bottom, in cinemas September 18 - and this time he's gone full mad scientist. To
+
+          celebrate, you can visit Shaun's mad-science lab at the home of SS Great Britain, where he
+
+          needs the help of you and your flock to complete a string of baa-rilliantly bonkers
+
+          challenges to help power up Shaun's machine.
+
+
+          Get it right and you'll earn your title as an official Ma-ad Scientist. Rain or shine,
+
+          indoors or out, there's challenges to be found across the site - and it's all included in
+
+          your ticket.
+
+
+          Ma-ad Science Mayhem runs at Bristol Dockyards from 26 September to 1 November.
+
+
+          **Key info** — Time: 10:00am-5:00pm. Price: included in your ticket.\n"
+        confidence: "high"
+      - id: "museums/ss-great-britain#0573435bbe"
+        sourceId: "museums/ss-great-britain"
+        title: "Aardman Shaun the Sheep model workshop"
+        occurrence:
+          kind: "single"
+          date: "2026-10-28"
+          startTime: "10:30"
+        status: "scheduled"
+        timesText: "10:30am, 1:00pm or 3:00pm (60 mins)"
+        url: "https://www.bristoldockyards.org/whats-on/ma-ad-science-mayhem"
+        image: "https://images.prismic.io/bristoldockyards/Td4xi3Xfkn7LOt0c_BristolDockyards-WebsiteBanner.png?auto=format%2Ccompress&rect=1674%2C0%2C4244%2C2228&w=2400&h=1260"
+        price:
+          free: false
+          text: "£8pp + General Admission"
+          min: 8
+          currency: "GBP"
+        ageRestriction: "Ages 6+"
+        tags:
+          - "workshop"
+          - "animation"
+          - "family"
+          - "booking-required"
+        raw: "**Aardman Shaun the Sheep model workshop** — To celebrate Sky Original film, Shaun the
+
+          Sheep: The Beast of Mossy Bottom, join an Aardman modelmaker to make your very own Shaun
+
+          the Sheep. Wednesday 28 October: 10:30am, 1:00pm or 3:00pm (60 mins). Ages 6+ | £8pp +
+
+          General Admission. Held in the Viridor Theatre.\n"
+        summary: "One day only — an Aardman modelmaker teaches you to build your own Shaun from the same materials the studio uses, and you keep it."
+        description: "To celebrate Sky Original film, Shaun the Sheep: The Beast of Mossy Bottom, join an Aardman
+
+          modelmaker to make your very own Shaun the Sheep.
+
+
+          On Wednesday 28 October, under the expert teaching of one of Aardman's experienced and
+
+          creative modelmakers, you will learn how to make a model of Shaun using the same materials
+
+          used in your favourite Aardman animations. And the best bit? You get to take your model
+
+          home with you!
+
+
+          Ages 6+ | £8pp + General Admission — already have admission? Simply add the workshop.
+
+
+          Wednesday 28 October: 10:30am, 1:00pm or 3:00pm (60 mins). Held in the Viridor Theatre;
+
+          follow signs or ask staff for directions.\n"
+        confidence: "high"
+      - id: "museums/ss-great-britain#dd2c63b5f6"
+        sourceId: "museums/ss-great-britain"
+        title: "Calm Sessions"
+        occurrence:
+          kind: "recurring"
+          pattern: "Sessions vary through the year, some at weekends and some on weekdays in school holidays; upcoming Sunday 17th October 10am-5pm and Sunday 31st January 10am-5pm"
+          start: "2026-10-17"
+          startTime: "10:00"
+        status: "scheduled"
+        timesText: "10am-5pm"
+        url: "https://www.bristoldockyards.org/whats-on/calm-sessions"
+        image: "https://images.prismic.io/bristoldockyards/FPYcEAKX0Llks77x_SSGB0090.JPG?auto=format,compress&rect=0,145,2048,1075&w=2400&h=1260"
+        price:
+          free: false
+          text: "Included in general admission"
+        tags:
+          - "accessible"
+          - "heritage"
+          - "family"
+        raw: "17 October 2026
+
+
+          **Calm Sessions** — Calm Sensory Sessions have been designed for anyone who benefits from
+
+          visiting at a time when there is a calmer background sensory environment – particularly
+
+          neurodivergent people of all ages.
+
+
+          Upcoming dates: Sunday 17th October 10am-5pm; Sunday 31st January 10am-5pm.\n"
+        summary: "Whole-site openings with the audio, smell and lighting effects turned down, reduced capacity and a dedicated sensory room, for visitors who need a calmer environment."
+        description: "Calm Sensory Sessions have been designed for anyone who benefits from visiting at a time
+
+          when there is a calmer background sensory environment – particularly neurodivergent people
+
+          of all ages.
+
+
+          **What will the sessions include?** We understand that the sensory experience at SS Great
+
+          Britain can be challenging for some of our visitors. Where possible these calm sensory
+
+          sessions will include:
+
+
+          - Audio, visual, and smell effects will be turned off or reduced.
+
+          - Lighting levels will be adjusted.
+
+          - Capacity will be reduced.
+
+          - Dedicated sensory room.
+
+
+          These sessions will vary throughout the year with some happening on weekends and some
+
+          during weekdays in school holidays. Some will be mornings and some afternoons.
+
+
+          **Upcoming dates:** Sunday 17th October 10am-5pm. Sunday 31st January 10am-5pm.
+
+
+          Visual and sensory guides are available to download: Visual Story, Visual Timetable,
+
+          Sensory Information Guide, Sounds & Smells Guide and Mannequin Map.\n"
+        confidence: "low"
+      - id: "museums/ss-great-britain#c248dcaabf"
+        sourceId: "museums/ss-great-britain"
+        title: "Christmas Murder Mystery Evening"
+        occurrence:
+          kind: "single"
+          date: "2026-12-19"
+          startTime: "18:30"
+        status: "scheduled"
+        timesText: "6.30pm-12am"
+        url: "https://www.bristoldockyards.org/whats-on/christmas-murder-mystery-evening-"
+        image: "https://images.prismic.io/bristoldockyards/ah7yfweQX7-eWkJi_Hero-Christmas-Murder-Mystery-Evening.png?auto=format,compress&rect=0,260,6750,3544&w=2400&h=1260"
+        price:
+          free: false
+          text: "£99pp"
+          min: 99
+          max: 99
+          currency: "GBP"
+        tags:
+          - "seasonal"
+          - "food-drink"
+          - "immersive"
+          - "performance"
+        raw: "19 December 2026
+
+
+          **Christmas Murder Mystery Evening** — Take part in an exhilarating evening of
+
+          entertainment on board the captivating SS Great Britain.\n"
+        summary: "A three-course festive dinner on board that turns into a whodunnit — the strange case of Santa's 'Claws', set at a snowbound school board meeting in Christmas 1937."
+        description: "Take part in an exhilarating evening of entertainment on board the captivating SS Great
+
+          Britain. During your dinner, keep your eyes open for clues as you become the detective and
+
+          help solve the mysterious crime. We offer guests the ultimate, memorable evening.
+
+
+          **The plot** — Introducing the strange case of Santa's 'Claws'…
+
+
+          Christmas 1937. Mr Uffton Harlecombe had just left the December meeting of the Board of
+
+          Governors at St David's School. However, there was very little 'Christmas cheer' at the
+
+          meeting this evening. In fact, as he pulled his thick coat tightly around him to shield him
+
+          from the silently falling snow, he smiled to himself. He had left no one at that meeting in
+
+          any doubt that crossing him was not a smart career move.
+
+
+          Still laughing to himself, he crossed the road and walked along the snow-covered side
+
+          street back to his Bentley Sports motor car. Everywhere was silent; a chill wind suddenly
+
+          picked up, making him huddle in a doorway to light his cigar. Perhaps he may have seen the
+
+          white-bearded face and the crimson costume for a fleeting second. Maybe he even saw the
+
+          weapon—a wicked steel claw!
+
+
+          Uffton Harlecombe had misjudged tonight's meeting. The information he had spilt to the
+
+          assembled people had been taken far more to heart than he could ever have imagined. One
+
+          person would make this a Christmas everyone wants to forget. The spirit of Christmas may
+
+          never die, but there are people here tonight who are going to do just that!!
+
+
+          **Key info** — Price: £99pp. Time: 6.30pm-12am. Includes: arrival drink, 3 course festive
+
+          menu & murder mystery experience. Group bookings: for tables of 8, contact
+
+          events@bristoldockyards.org.\n"
+        confidence: "high"
+    notes: "The rebrand holds: the page brands itself Bristol Dockyards throughout, the `<title>` reads \"What's On | SS Great Britain - Bristol Dockyards\", the footer reads \"Bristol Dockyards @ 2026 … Operated by SS Great Britain Trust. Registered Charity: No. 262158\", and contact addresses are now @bristoldockyards.org. Same trust, same site, new brand — so the catalogue `name` \"Brunel's SS Great Britain\" is out of step with what the venue calls itself, which is a decision for the catalogue owner and not something recorded here. Eleven cards, and all eleven event pages were opened for `description`; that is what turns yesterday's four undated month-range rows (Go Aloft, Sunday Roasts, Afternoon Tea, and the walking tour's dates) into real dates and patterns, since the index prints only \"March – October 2026\" with no day of month. One extra row was split out of the Ma-ad Science Mayhem page: the Aardman Shaun the Sheep model workshop on 28 October is separately ticketed and separately dated, so it is its own event even though it shares that URL. Sunday Roasts is the one thing still soft — the page gives sitting times but hides individual dates behind a booking widget, so it stays `recurring` with no start or end rather than inventing a 1 June. The Calm Sessions page contradicts itself and is flagged on that row. Where the shop still links to shop.ssgreatbritain.org the old domain survives in outbound links only."
+  - sourceId: "museums/we-the-curious"
+    fetch:
+      ok: true
+      url: "https://www.wethecurious.org/whats-on/events"
+      status: 200
+    events:
+      - id: "museums/we-the-curious#deb162dc03"
+        sourceId: "museums/we-the-curious"
+        title: "Summer of Imagination"
+        subcategory: "Day visit activity"
+        occurrence:
+          kind: "run"
+          start: "2026-07-23"
+          end: "2026-09-01"
+        status: "scheduled"
+        url: "https://www.wethecurious.org/whats-on/events/summer-imagination"
+        image: "https://www.wethecurious.org/sites/default/files/styles/og_image/public/2026-06/we-the-curious_summer-of-imagination_summer-holidays_lisa-whiting-26-hero.jpg?h=56d0ca2e&itok=PsD1refZ"
+        price:
+          free: false
+          text: "All activities are included in the day ticket, with the exception of planetarium shows"
+        tags:
+          - "family"
+          - "school-holidays"
+          - "hands-on"
+          - "drop-in"
+          - "storytelling"
+        raw: "**Summer of Imagination** — 23 Jul – 1 Sep 2026, across the venue. Recommended for families.
+
+
+          Enjoy a summer day out packed with hands-on activities, live shows, storytelling and
+
+          creative experiences for families from 23 July to 1 September.\n"
+        summary: "The whole summer holiday programme in one listing — an Investigation Station challenge, food chemistry in the Kitchen, a shadow-play studio, the schools exhibition and sensory storytelling, all on one day ticket you can leave and re-enter."
+        description: "Looking for summer holiday activities for the family?
+
+
+          Summer of Imagination is our summer holiday programme packed with hands-on science,
+
+          creative workshops and drop-in experiences for all ages. All activities are included with
+
+          your admission ticket unless otherwise stated.
+
+
+          Your ticket lasts all day, meaning you can come and go as you please, popping out for ice
+
+          creams and sunshine, and then back into the cool.
+
+
+          **Summer holiday activities** — Fly through the rings of Saturn, explore illusions and
+
+          magic tricks, find rainbows, make fruit sorbets – there's so much to see and do.
+
+
+          - **Investigation Station (Theatre of Curiosity):** Swing by the station for our daily
+
+          \  challenge. Will you be imagining life as early man or exploring invisibility through
+
+          \  magic tricks?
+
+          - **Summer Kitchen (The Kitchen):** Experiment with food science as you make instant fruit
+
+          \  sorbets and explore alternatives to traditional ingredients.
+
+          - **Shadow Factory (The Studio):** Play with light, colour and shadow as you create
+
+          \  mosaics, experiment with shapes and bring your own shadow stories to life.
+
+          - **If Schools Were Ours to Imagine (Open City Lab):** Explore with us and share your ideas
+
+          \  for a fairer future by adding thoughts, designs and creative contributions to this
+
+          \  evolving exhibition.
+
+          - **Storytelling (The Studio):** Join Ursa and Leo for a sensory storytelling adventure
+
+          \  filled with colour, imagination and opportunities to join in. Recommended for children
+
+          \  under 7.
+
+
+          **Good to know** — All activities are drop-in. Check activity times when you arrive.
+
+
+          Please note, our Theatre of Curiosity will be closed from Wed 22 - Fri 24 July for
+
+          essential maintenance. The Investigation Station will be running from Sat 25 July onwards.\n"
+        confidence: "high"
+      - id: "museums/we-the-curious#88af202358"
+        sourceId: "museums/we-the-curious"
+        title: "Aardman on the Big Screen"
+        subcategory: "Special event"
+        occurrence:
+          kind: "run"
+          start: "2026-08-01"
+          end: "2026-08-28"
+        status: "scheduled"
+        timesText: "Aardman shorts throughout the summer holidays; A Shaun the Sheep Movie: Farmageddon on Wed 12 Aug at 10am"
+        url: "https://www.wethecurious.org/whats-on/events/aardman-big-screen"
+        image: "https://www.wethecurious.org/sites/default/files/styles/og_image/public/2026-07/stsm2_first_look_wide_final_0.jpg?h=fca9bc60&itok=KealYww4"
+        price:
+          free: true
+          text: "Free for all"
+        tags:
+          - "screening"
+          - "animation"
+          - "outdoor"
+          - "family"
+          - "free-entry"
+        raw: "**Aardman on the Big Screen** — 1 – 28 Aug 2026, The Big Screen. Free for all.
+
+
+          Head to Millennium Square this summer for free outdoor screenings of your Aardman
+
+          favourites!\n"
+        summary: "Free outdoor screenings on the Millennium Square big screen for Aardman's fiftieth year in Bristol — shorts all month, plus a full showing of Farmageddon on 12 August."
+        description: "We're celebrating 50 years of Aardman in Bristol this summer!
+
+
+          **Aardman shorts: All Summer** — We'll be showing some of your favourite Aardman shorts on
+
+          the Big Screen on Millennium Square throughout the summer holidays! These include: Shaun
+
+          the Sheep; Morph 2014; Wallace & Gromit Cracking Contraptions; and the latest Shaun the
+
+          Sheep Beast of Mossy Bottom Trailer!
+
+
+          **Farmageddon: Wed 12 Aug - 10am** — We will also be showing A Shaun the Sheep Movie:
+
+          Farmageddon on the Big Screen. Pack a picnic and head over to our Big Screen on Millennium
+
+          Square. Deckchair seating will be provided for the screening on a first come, first served
+
+          basis, so feel free to bring along your own blankets/camping chairs/beanbags. And remember
+
+          to dress for the weather - suncream and hats all round!
+
+
+          We'll be sharing the square with the summer fun fair, so you can grab yourselves some extra
+
+          refreshments and have a play on their activities after the screening. Please note the fair
+
+          does play music and can get busy during the middle of the day.
+
+
+          (U) | 2019 | 1hr 26m | Aardman Animations | Family, Comedy, Animation
+
+
+          \"When an alien with amazing powers crash-lands near Mossy Bottom Farm, Shaun the Sheep goes
+
+          on a mission to shepherd the intergalactic visitor home before a sinister organization can
+
+          capture her.\" — IMDb\n"
+        confidence: "high"
+      - id: "museums/we-the-curious#73e620db5f"
+        sourceId: "museums/we-the-curious"
+        title: "The Great Bristol Ball Run"
+        subcategory: "Special event"
+        occurrence:
+          kind: "run"
+          start: "2026-08-04"
+          end: "2026-09-13"
+        status: "scheduled"
+        url: "https://www.wethecurious.org/whats-on/events/great-bristol-ball-run"
+        image: "https://www.wethecurious.org/sites/default/files/styles/og_image/public/2026-07/gpp-eden_all_031.jpg?h=c9f93661&itok=FCiEwWEo"
+        price:
+          free: false
+          text: "Pick up your sustainable wooden ball at the We The Curious shop for £6 - yours to keep"
+          min: 6
+          max: 6
+          currency: "GBP"
+        tags:
+          - "family"
+          - "outdoor"
+          - "hands-on"
+          - "interactive"
+        raw: "**The Great Bristol Ball Run** — 4 Aug – 13 Sep 2026, Millennium Square and Anchor Square.
+
+
+          Come down and have a go at the Great Bristol Ball Run this summer across our outdoor
+
+          spaces.\n"
+        summary: "Six ball runs installed across Millennium and Anchor Squares, one as tall as a double decker with an overhead wire and Archimedes screw. Buy a £6 ash ball once and play as often as you like."
+        description: "The Great Bristol Ball Run is landing on Millennium Square and Anchor Square from 4 Aug!
+
+
+          Pick up a wooden ball for £6 in our We The Curious shop and let the fun begin.
+
+
+          There'll be 6 different ball runs dotted around the squares for you to try out. Including
+
+          one run as tall as a double decker bus, featuring an overhead wire run and Archimedes screw
+
+          lift. There'll also be tilting mazes, skittle alleys and head-to-head racing challenges.
+
+
+          Once you've had a go, the ball is yours to keep as a souvenir, and you can bring it back and
+
+          play as many times as you like!
+
+
+          Each ball is crafted from sustainably sourced British ash at a solar-powered workshop in
+
+          Somerset, by the team behind some of the UK's best-loved outdoor ball run experiences,
+
+          including those at the Eden Project and Forestry England sites. At just £6, take your wooden
+
+          ball home as a keepsake once you're done — or come back tomorrow and run it all again.
+
+
+          Pick up a ball. Head outside with the fam. See you at the Ball Run!\n"
+        confidence: "high"
+      - id: "museums/we-the-curious#a31d055c57"
+        sourceId: "museums/we-the-curious"
+        title: "Summer Kitchen"
+        subcategory: "Day visit activity"
+        occurrence:
+          kind: "run"
+          start: "2026-07-23"
+          end: "2026-10-31"
+        status: "scheduled"
+        url: "https://www.wethecurious.org/whats-on/events/summer-kitchen"
+        image: "https://www.wethecurious.org/sites/default/files/styles/og_image/public/2026-05/32cow45g.jpeg?h=34bbd072&itok=JcoEhCGW"
+        price:
+          free: false
+          text: "Included in your day ticket"
+        ageRestriction: "Best for ages 5-10"
+        tags:
+          - "family"
+          - "hands-on"
+          - "food-drink"
+          - "kids"
+        raw: "**Summer Kitchen** — 23 Jul – 31 Oct 2026, Kitchen. Recommended for families, best for ages
+
+          5-10. Allergens.
+
+
+          Join us for a variety of summery experiments in the Kitchen, from our Big Green Grill-Off
+
+          to cool sorbet making.\n"
+        summary: "Three rotating food-chemistry experiments at the kitchen counter — invent a meat-free burger, freeze sorbet with salt, or force oil and water together into mayonnaise."
+        description: "This summer we've got three fun activities in the kitchen, all delving into food chemistry
+
+          and how we can eat sustainably.
+
+
+          Learn a bit more about what our food is made of and some of the hidden chemistry that goes
+
+          in to cooking, have a fun tasting experience and learn some new foody skills to try at home!
+
+
+          **Activities on offer:**
+
+
+          - **The Big Green Grill-Off** — Love a BBQ? Not sure about all the meat? Become a
+
+          \  sustainable chef as you invent and cook your own meat-free burgers.
+
+          - **Supercool Sorbet** — How can salt help things freeze? Use some clever chemistry to make
+
+          \  sorbet in minutes.
+
+          - **Will it Mix?** — We've heard that oil and water don't mix but, with a bit of science, we
+
+          \  reckon they might. It's time to get saucy – and make some mayonnaise!
+
+
+          Activities running will vary depending on term time verses weekends and holidays. Please
+
+          always check the activity screens on arrival to see which activities are running at what
+
+          time each day.
+
+
+          **Accessibility / allergens** — This activity takes place on a raised kitchen counter. When
+
+          the venue is busy, you may need to share space and equipment with other visitors. Allergens
+
+          include milk, eggs and gluten though the activity can be adapted. Please speak to a member
+
+          of staff about any allergies before taking part.\n"
+        confidence: "high"
+      - id: "museums/we-the-curious#00e86882d2"
+        sourceId: "museums/we-the-curious"
+        title: "Open City Research - Summer specials"
+        subcategory: "Day visit activity"
+        occurrence:
+          kind: "recurring"
+          pattern: "Wed 5 Aug, Tues 18 Aug, Tues 25 Aug and Fri 28 Aug 2026, drop-in"
+          start: "2026-08-05"
+          end: "2026-08-28"
+          startTime: "11:00"
+        status: "scheduled"
+        timesText: "Drop in between 11am and 2.30pm on 5 Aug; 11am to 1pm on the other three dates"
+        url: "https://www.wethecurious.org/whats-on/events/open-city-research-summer-specials"
+        image: "https://www.wethecurious.org/sites/default/files/styles/og_image/public/2026-07/wtcsummer2026lisawhitingphotography-19.jpg?h=5c49b9b5&itok=G6vY0zaV"
+        price:
+          free: false
+          text: "Included in your day ticket"
+        tags:
+          - "hands-on"
+          - "talk"
+          - "drop-in"
+          - "family"
+          - "experimental"
+        raw: "**Open City Research - Summer specials** — Test Lab. Recommended for families.
+
+
+          A series of special activities happening in our Test-Lab this summer.\n"
+        summary: "Four drop-in sessions where university researchers bring live work into the Test-Lab — editing a children's book about AI, growing furniture, quantum computing, and designing for smell and taste."
+        description: "From Quantum computing to Bio-engineering we've got a series of special events in the
+
+          Test-Lab this summer. Our research partners will be coming down to join us and you can get
+
+          involved with some exciting real-life research. All events are included in your day ticket.
+
+
+          **Events coming up:**
+
+
+          - **Wed 5 Aug: Help write a book!** Get a sneak peak and help edit a book about AI for
+
+          \  children written by researchers at the University of Bristol. Activity is drop in between
+
+          \  11am and 2.30pm.
+
+          - **Tues 18 Aug: Bio-engineering future furniture.** What if you could plant a seed and grow
+
+          \  a chair? Join researchers to explore and share your thoughts on the future of objects
+
+          \  living, non-living and somewhere in between. Activity is drop in between 11am and 1pm.
+
+          - **Tues 25 Aug: Quantum computing.** How could the invisible world of quantum phenomena
+
+          \  change our lives in future? What exactly is quantum entanglement and what does it have to
+
+          \  do with computers? Explore these questions and more with this drop-in activity between
+
+          \  11am and 1pm.
+
+          - **Fri 28 Aug: Multisensory design challenge.** What if your smartwatch had a scent? Or
+
+          \  your phone had a taste? Join us in exploring future alternative interfaces. Discover how
+
+          \  touch, smell, taste, and other underused senses can inspire more creative, engaging, and
+
+          \  accessible ways to interact with technology. Activity is drop in between 11am and 1pm.
+
+
+          **Access considerations** — This activity takes place in a slightly enclosed first floor
+
+          space that is wheelchair accessible with some room between tables and information stands.
+
+          It's led by a facilitator capable of being responsive to audience needs and making reasonable
+
+          adjustments.\n"
+        confidence: "high"
+      - id: "museums/we-the-curious#5139d5140e"
+        sourceId: "museums/we-the-curious"
+        title: "If Schools Were Ours to Imagine"
+        subcategory: "Day visit activity"
+        occurrence:
+          kind: "run"
+          start: "2026-07-01"
+          end: "2027-01-02"
+        status: "scheduled"
+        url: "https://www.wethecurious.org/whats-on/events/if-schools-were-ours-imagine"
+        image: "https://www.wethecurious.org/sites/default/files/styles/og_image/public/2026-07/repair-ed_opencitylab.png?h=743bf4af&itok=1s_QjLBn"
+        price:
+          free: false
+          text: "Included in your day ticket"
+        tags:
+          - "exhibition"
+          - "interactive"
+          - "community"
+          - "hands-on"
+        raw: "**If Schools Were Ours to Imagine** — 1 Jul 2026 – 2 Jan 2027, Open City Lab. Recommended
+
+          for families.
+
+
+          Head to our Open City Lab, get creative and add to our evolving exhibition exploring how
+
+          schools could be made fairer for everyone.\n"
+        summary: "A growing exhibition made by its visitors, built with Oxford's Repair-Ed project on class and racial inequality in Bristol schools — retro desks to smell and hear, clay models, bunting, and an interactive city map of school memories."
+        description: "What would it look like if we could decide what schools were like in future? Get creative
+
+          and add to our evolving exhibition exploring how schools could be made fairer for everyone.
+
+
+          There are six mini-activities in the space:
+
+
+          - Head to the retro desks and smell, touch, and listen to connect with local Bristolian's
+
+          \  memories of school.
+
+          - It's school dance time. Express how people's stories of school make you feel through
+
+          \  movement.
+
+          - Make a clay model of what would you add to school to make it better (fairer)?
+
+          - If you could do anything on your dream school day, what would it be? Decorate a piece of
+
+          \  bunting to add to the display.
+
+          - Share your thoughts and reflections on what you've experienced in the space, and your own
+
+          \  school stories. Write it down or record it with the team.
+
+          - Explore an interactive map of Bristol with stories from the repair-ed archive.
+
+
+          This project is in partnership with Reparative Futures of Education (Repair-Ed) from the
+
+          University of Oxford. This collaboration builds on the team's existing work which explores
+
+          people's experiences of schooling in relation to racial and class inequality in Bristol and
+
+          how schools could be made fairer in future.
+
+
+          **Access considerations** — This activity takes place in a slightly enclosed ground floor
+
+          space that is wheelchair accessible with a lot of room between tables and information stands.\n"
+        confidence: "high"
+      - id: "museums/we-the-curious#11494ca718"
+        sourceId: "museums/we-the-curious"
+        title: "Pink Floyd's The Dark Side of the Moon"
+        subcategory: "Special event"
+        occurrence:
+          kind: "recurring"
+          pattern: "Thursday 17th Sept, Friday 2nd Oct, Friday 6th Nov, Thursday 26th Nov and Wednesday 2nd Dec — 6pm, 7:15pm and 8:30pm"
+          start: "2026-09-17"
+          end: "2026-12-02"
+          startTime: "18:00"
+        status: "scheduled"
+        timesText: "6pm, 7:15pm and 8:30pm on each date; doors open 20 minutes before start time"
+        url: "https://www.wethecurious.org/whats-on/events/pink-floyds-dark-side-moon"
+        image: "https://www.wethecurious.org/sites/default/files/styles/og_image/public/2026-03/pink-floyd-dark-side-of-the-moon_planetarium_we-the-curious.jpg?h=c9f93661&itok=bXaL7105"
+        price:
+          free: false
+          text: "Adult £21; Adult (Open concession) £17"
+          min: 17
+          max: 21
+          currency: "GBP"
+        tags:
+          - "planetarium"
+          - "immersive"
+          - "rock"
+          - "late-opening"
+        raw: "**Pink Floyd's The Dark Side of the Moon** — 17 Sep – 2 Dec 2026.
+
+
+          Official Planetarium Show from Pink Floyd, 10 tracks from The Dark Side of the Moon set to
+
+          cosmic 360° visuals.\n"
+        summary: "The official planetarium show — the remastered album played through the dome with 360° visuals made by NSC Creative with Pink Floyd's own creative director, Aubrey Powell."
+        description: "The Dark Side of the Moon returns to Bristol's Planetarium!
+
+
+          Celebrate over 50 years of Pink Floyd's legendary album The Dark Side of the Moon with a new
+
+          awe-inspiring audio-visual show.
+
+
+          Set to the newly remastered audio by James Guthrie and Joel Plante of das boot recording,
+
+          the sound is richer, deeper, and more powerful than ever. The breath-taking 360° visuals,
+
+          produced by the award-winning team at NSC Creative in collaboration with Pink Floyd's iconic
+
+          creative director Aubrey Powell, bring the music to life in spectacular style.
+
+
+          Each song has a different theme; some futuristically looking forward and some a retro
+
+          acknowledgment to Pink Floyd's visual history, all relating to a time and space experience,
+
+          embracing technology that only a Planetarium can offer.
+
+
+          So, join us for a truly immersive cosmic celebration of one of the greatest albums of all
+
+          time, now showing at the Planetarium.
+
+
+          **Autumn shows now available to book:** Thursday 17th Sept 6pm, 7:15pm, 8:30pm; Friday 2nd
+
+          Oct 6pm, 7:15pm, 8:30pm; Friday 6th Nov 6pm, 7:15pm, 8:30pm; Thursday 26th Nov 6pm, 7:15pm,
+
+          8:30pm; Wednesday 2nd Dec 6pm, 7:15pm, 8:30pm.
+
+
+          **Access considerations** — A hearing loop is available. Limited wheelchair spaces are
+
+          available, please book ahead. The Planetarium is a dark environment with a stepped walkway to
+
+          access seats. Planetarium shows can feature loud noises and flashing lights; visitors with
+
+          epilepsy and photosensitivity may suffer a seizure if exposed to flashing or strobe lighting.
+
+
+          **Planning your visit** — Doors open 20 minutes before start time. There will be a bar.
+
+          Tickets are checked at the entrance on Millennium Square next to the Planetarium. You can
+
+          explore the Space Gallery before being invited to enter the Planetarium. Please aim to arrive
+
+          at least 10 mins before your show; late entry will not be permitted.\n"
+        confidence: "high"
+      - id: "museums/we-the-curious#a3df2dd40e"
+        sourceId: "museums/we-the-curious"
+        title: "Planetarium Nights: The Story of Stars 3D"
+        subcategory: "Special event"
+        occurrence:
+          kind: "recurring"
+          pattern: "Oct 8 - 7:15pm, 8:30pm; Oct 22 - 6pm, 8:30pm; Nov 5 - 7:15pm, 8:30pm; Nov 19 - 6pm, 8:30pm; Dec 3 - 7:15pm, 8:30pm; Dec 17 - 6pm, 8:30pm"
+          start: "2026-10-08"
+          end: "2026-12-17"
+        status: "scheduled"
+        timesText: "Two showings each night, 6pm or 7:15pm and 8:30pm; hour-long, presenter-led"
+        url: "https://www.wethecurious.org/whats-on/events/planetarium-nights-story-stars-3d"
+        image: "https://www.wethecurious.org/sites/default/files/styles/og_image/public/2026-03/planetarium_nights_tsos_0.jpg?h=b04b4c8e&itok=BAu--LK5"
+        price:
+          free: false
+          text: "Standard £16.50; Open Concession £12.50"
+          min: 12.5
+          max: 16.5
+          currency: "GBP"
+        ageRestriction: "16+"
+        tags:
+          - "planetarium"
+          - "talk"
+          - "immersive"
+          - "late-opening"
+        raw: "**Planetarium Nights: The Story of Stars 3D (16+)** — 8 Oct – 17 Dec 2026, Planetarium.
+
+          Recommended for adults.
+
+
+          Discover the night sky from Bristol, and learn about the life cycle of stars in this
+
+          hour-long, presenter led evening show.\n"
+        summary: "The autumn and winter stargazing show for adults, six Thursday nights of it — a live map of that night's sky over Bristol, a star's life from nebula to supernova, and a 3D pass by a black hole."
+        description: "How about a trip to the stars on your Thursday night? Planetarium Nights are back this
+
+          Autumn!
+
+
+          Join us for our seasonal stargazing show, where our team of presenters will take you on a
+
+          journey through the solar system to discover the winter night sky above us.
+
+
+          **Highlights:**
+
+
+          - Gaze up at a real-time, accurate map of Bristol's night sky, to uncover what you can see
+
+          \  that night and investigate the secrets hidden in some well known constellations.
+
+          - Witness the majestic life-cycle of star, from humble nebula to exploding supernova.
+
+          - Dance on the edge of a black hole, with a 3D view like no other.
+
+
+          **Upcoming events:** Oct 8 - 7:15pm, 8:30pm; Oct 22 - 6pm, 8:30pm; Nov 5 - 7:15pm, 8:30pm;
+
+          Nov 19 - 6pm, 8:30pm; Dec 3 - 7:15pm, 8:30pm; Dec 17 - 6pm, 8:30pm.
+
+
+          Fancy something more in depth? Check out our immersive science show 'Light from Afar'.\n"
+        confidence: "high"
+      - id: "museums/we-the-curious#a295bcad92"
+        sourceId: "museums/we-the-curious"
+        title: "Planetarium Nights: Light from Afar 3D"
+        subcategory: "Special event"
+        occurrence:
+          kind: "recurring"
+          pattern: "Oct 8 - 6pm; Oct 22 - 7:15pm; Nov 5 - 6pm; Nov 19 - 7:15pm; Dec 3 - 6pm; Dec 17 - 7:15pm"
+          start: "2026-10-08"
+          end: "2026-12-17"
+        status: "scheduled"
+        timesText: "One showing each night, alternating 6pm and 7:15pm; hour-long, presenter-led"
+        url: "https://www.wethecurious.org/whats-on/events/planetarium-nights-light-afar-3d"
+        image: "https://www.wethecurious.org/sites/default/files/styles/og_image/public/2026-08/nasa-esa-csa-stsci-phangs-team-janice-lee-stsci-thomas-williams-oxford-rupali-chandar-utoledo.png?h=82f92a78&itok=v2XWrSQa"
+        price:
+          free: false
+          text: "Standard £16.50; Open Concession £12.50"
+          min: 12.5
+          max: 16.5
+          currency: "GBP"
+        ageRestriction: "16+"
+        tags:
+          - "planetarium"
+          - "talk"
+          - "immersive"
+          - "late-opening"
+        raw: "**Planetarium Nights: Light from Afar 3D (16+)** — 8 Oct – 17 Dec 2026, Planetarium.
+
+          Recommended for adults.
+
+
+          Discover how we use light to measure the scale of the cosmos and find alien worlds in our
+
+          revamped show in this hour-long, presenter led evening show.\n"
+        summary: "The deeper of the two adult planetarium shows, revamped this autumn — how telescopes read the light from distant objects, and what that tells us about the scale of the universe and the worlds in it."
+        description: "How about a trip to the stars on your Thursday night? Planetarium Nights are back this
+
+          Autumn!
+
+
+          Discover how astronomers capture the light from distant objects with advanced telescopes in
+
+          our revamped science show. Investigate how that light is used to calculate the scale of the
+
+          cosmos and to find alien worlds. Join us in the Planetarium to explore our galaxy… and
+
+          beyond!
+
+
+          **Highlights:**
+
+
+          - Where is the best place to go stargazing? And how do astronomers see beyond the haze of
+
+          \  Earth's atmosphere?
+
+          - How can we read the fingerprints in the light? And what do they tell us about alien worlds?
+
+          - How many galaxies are in the Universe? And how can we work it out by studying one patch of
+
+          \  sky?
+
+
+          **Upcoming events:** Oct 8 - 6pm; Oct 22 - 7:15pm; Nov 5 - 6pm; Nov 19 - 7:15pm; Dec 3 -
+
+          6pm; Dec 17 - 7:15pm.
+
+
+          Looking for more stargazing and floating through space? Check out our seasonal stargazing
+
+          show 'The Story of Stars'.\n"
+        confidence: "high"
+      - id: "museums/we-the-curious#66c70c9e5f"
+        sourceId: "museums/we-the-curious"
+        title: "Pitchblack Playback"
+        subcategory: "Special event"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "18:15"
+        status: "scheduled"
+        timesText: "Three sittings: Paul Simon 'Graceland' doors 18:15, begins 18:30; Metallica 'Metallica' 5.1 Mix doors 19:30, begins 19:45; Outkast 'ATLiens' doors 21:00, begins 21:15 — no late entry"
+        url: "https://www.wethecurious.org/whats-on/events/pitchblack-playback"
+        image: "https://www.wethecurious.org/sites/default/files/styles/og_image/public/2025-01/pbpb-heroweb.jpg?h=4744b527&itok=m6hxzF8N"
+        price:
+          free: false
+          text: "Adult from £14"
+          min: 14
+          currency: "GBP"
+        ageRestriction: "Recommended for adults"
+        tags:
+          - "planetarium"
+          - "immersive"
+          - "rock"
+          - "late-night"
+        raw: "**Pitchblack Playback** — 20 Aug 2026, 6:15pm, 7:30pm & 9pm, Planetarium. Recommended for
+
+          adults. Adult from £14.
+
+
+          Hear albums with the Planetarium immersive sound system, in the dark.\n"
+        summary: "Three deep-listening sittings in one evening — Graceland at 40, the Metallica black album in 5.1 at 35, and ATLiens at 30, played through the dome's sound system with the lights off."
+        description: "Hear classic albums & exclusive pre-release premieres on the Planetarium's powerful,
+
+          immersive sound systems, in the dark.
+
+
+          Meditate on music at the deep listening sessions. Discover hidden details and hear the album
+
+          in all its glory with no distractions; just you and the music.
+
+
+          **Upcoming shows — Thurs 20 August:**
+
+
+          - Paul Simon 'Graceland' (40th Anniversary) — doors 18:15, begins 18:30 with no late entry
+
+          - Metallica 'Metallica' (5.1 Mix) (35th Anniversary) — doors 19:30, begins 19:45 with no
+
+          \  late entry
+
+          - Outkast 'ATLiens' (30th Anniversary) — doors 21:00, begins 21:15 with no late entry\n"
+        confidence: "high"
+      - id: "museums/we-the-curious#356613e545"
+        sourceId: "museums/we-the-curious"
+        title: "Bristol Film Festival screenings"
+        subcategory: "Evening event"
+        occurrence:
+          kind: "undated"
+          note: "Tickets are managed by Bristol Film Festival and the We The Curious page carries no dates, linking out to their 'To Infinity @ The Planetarium' listings for upcoming events"
+        status: "scheduled"
+        url: "https://www.wethecurious.org/whats-on/events/bristol-film-festival-screenings"
+        image: "https://www.wethecurious.org/sites/default/files/styles/og_image/public/2026-03/bristol-film-festival_planetarium_insterstellar.jpg?h=c29551c4&itok=03AGKUbi"
+        price:
+          free: false
+          text: "Adult £16; Concession £13.50 (Student | Over 65 | NHS | Armed Forces | Emergency Services); registered carer free"
+          min: 0
+          max: 16
+          currency: "GBP"
+        tags:
+          - "screening"
+          - "planetarium"
+          - "sci-fi"
+          - "immersive"
+        raw: "**Bristol Film Festival screenings** — Planetarium. Recommended for adults. Adult £16,
+
+          concession £13.50, registered carer free.
+
+
+          Enjoy your favourite space and sci-fi films on the big screen inside the Planetarium. You'll
+
+          also have the chance to explore our Space Gallery beforehand.\n"
+        summary: "Bristol Film Festival's 'To Infinity' strand takes over the Planetarium dome for space and sci-fi screenings, with the Space Gallery open beforehand. Dates and titles live on the festival's own site."
+        description: "We're delighted to welcome Bristol Film Festival to the Planetarium for their 'To infinity @
+
+          the Planetarium' screening events.
+
+
+          Enjoy your favourite space and sci-fi films on the big screen inside the Planetarium. You'll
+
+          also have the chance to explore our Space Gallery beforehand.
+
+
+          Tickets for these events are being managed by Bristol Film Festival. Head to their website,
+
+          'To Infinity @ The Planetarium', to see upcoming events and book tickets.\n"
+        confidence: "high"
+      - id: "museums/we-the-curious#06bbd9dd78"
+        sourceId: "museums/we-the-curious"
+        title: "Relaxed Mornings"
+        subcategory: "Special event"
+        occurrence:
+          kind: "recurring"
+          pattern: "Sunday 2 August 2026, Sunday 4 October 2026, Sunday 6 December 2026, Sunday 7 February 2027; 10.00am -12.00pm"
+          start: "2026-08-02"
+          end: "2027-02-07"
+          startTime: "10:00"
+        status: "scheduled"
+        timesText: "10.00am—12.00pm, with the building gradually getting busier from 12.30 onwards"
+        url: "https://www.wethecurious.org/whats-on/events/relaxed-mornings"
+        image: "https://www.wethecurious.org/sites/default/files/styles/og_image/public/2025-01/we-the-curious_relaxed-morning_lisa-whiting_2024.jpg?h=9eb0d413&itok=zq5i9NFW"
+        price:
+          free: false
+          text: "Day ticket prices apply"
+        tags:
+          - "accessible"
+          - "family"
+          - "wellbeing"
+        raw: "**Relaxed Mornings** — 4 Oct 2026, 10am - 12pm, across the venue. Recommended for families.
+
+
+          For a calmer, less busy experience of the venue. Our Relaxed Mornings are for visitors who
+
+          would benefit from a calmer, less busy environment – along with their families, carers and
+
+          friends.\n"
+        summary: "Quarterly Sunday mornings with visitor numbers capped, the noisier exhibits turned down and the Planetarium free and drop-in rather than ticketed; your ticket still covers the whole day."
+        description: "We know that venues like ours can sometimes be overwhelming, so on Relaxed Mornings our
+
+          experience looks a little different.
+
+
+          These mornings have been specifically designed for visitors who may need a little extra
+
+          support to enjoy our venue. This may be due to disability or neurodiversity, such as autism
+
+          or other sensory processing conditions.
+
+
+          The session runs from 10.00am -12.00pm, with the building gradually getting busier from 12.30
+
+          onwards. Your ticket is valid for the whole day and you can come and go as you wish, just
+
+          keep hold of your ticket to show our team when you re-enter.
+
+
+          **Upcoming Relaxed Mornings:** Sunday 2 August 2026 (Summer Holidays); Sunday 4 October 2026;
+
+          Sunday 6 December 2026; Sunday 7 February 2027.
+
+
+          **Access considerations** — Visitor numbers are restricted during these events, to ensure
+
+          there is plenty of space to play. The sounds of some of our noisier exhibits are lowered. Our
+
+          Live Science team are on hand to offer a warm welcome and support you during your visit. The
+
+          Planetarium is free and drop-in, rather than ticketed – meaning you can stay for as long (or
+
+          as little) as you want.\n"
+        confidence: "high"
+      - id: "museums/we-the-curious#e55bf914bd"
+        sourceId: "museums/we-the-curious"
+        title: "Play Fridays"
+        subcategory: "Day visit activity"
+        occurrence:
+          kind: "recurring"
+          pattern: "Monthly: 25 Sept, 6 Nov and 4 Dec 2026, 10am - 12pm"
+          start: "2026-09-25"
+          end: "2026-12-04"
+          startTime: "10:00"
+        status: "scheduled"
+        timesText: "10am - 12pm, then stay and play the whole day"
+        url: "https://www.wethecurious.org/whats-on/events/play-fridays"
+        image: "https://www.wethecurious.org/sites/default/files/styles/og_image/public/2024-09/impossibleplants.jpg?h=ac778ff2&itok=y9QW-NbB"
+        price:
+          free: false
+          text: "Included in your day ticket; you can stay and play the whole day"
+        ageRestriction: "Best for ages 0-5"
+        tags:
+          - "kids"
+          - "family"
+          - "hands-on"
+          - "play"
+        raw: "**Play Fridays** — 25 Sep 2026, 10am - 12pm. Best for ages 0-5.
+
+
+          For families with children under 5, these special sessions once a month are all about
+
+          sensory play, having fun and exploratory learning.\n"
+        summary: "A monthly morning in the Theatre of Curiosity built for under-fives, each one on a different schema — September's is Rotation, with spinning tops and rolling toys."
+        description: "Relax, play and have fun together in our Play Friday sessions for under 5s and their
+
+          grown-ups.
+
+
+          Each month, our Theatre of Curiosity space comes alive with a different mini-adventure
+
+          developed specially for our youngest visitors.
+
+
+          Our Play Friday sessions are developed using the theory of schematic play to encourage
+
+          open-ended exploration and help children learn about the world through play.
+
+
+          **Upcoming events:** 25 Sept, 6 Nov, 4 Dec.
+
+
+          September's theme is 'On A Roll'. It's time to twist, turn, spin and roll. Experiment with
+
+          spinning tops and rolling toys or turn yourself around. This session is based on the Rotation
+
+          Schema: where a child is fascinated by objects or their own body spinning, twisting, rolling,
+
+          or moving in circles. It helps toddlers and young children develop balance, coordination,
+
+          spatial awareness, and an understanding of cause and effect.
+
+
+          **Access considerations** — Play Friday takes place in a large open space in the centre of
+
+          the ground floor. On busy days, the space can be noisy. Most activities will be at floor
+
+          height and the space can get a bit messy. You can come and go as you please between Play
+
+          Friday and the rest of the exhibition.\n"
+        confidence: "high"
+      - id: "museums/we-the-curious#0f3d39118a"
+        sourceId: "museums/we-the-curious"
+        title: "Storytelling"
+        subcategory: "Day visit activity"
+        occurrence:
+          kind: "undated"
+          note: "The listing card carries no date; its own page was not opened this run, as the source's page budget was spent on the dated items. The Summer of Imagination programme page lists Storytelling in The Studio through the summer holidays."
+        status: "scheduled"
+        url: "https://www.wethecurious.org/whats-on/events/storytelling"
+        image: "https://www.wethecurious.org/sites/default/files/styles/listing_s/public/2024-09/image-20240501-102226-482f02e9-p.jpeg.webp?itok=gAUEuJil"
+        price:
+          free: false
+          text: "Included in your day ticket"
+        ageRestriction: "Recommended for children under 7"
+        tags:
+          - "storytelling"
+          - "kids"
+          - "family"
+          - "drop-in"
+        raw: "**Storytelling** — Day visit activity. Partially accessible.
+
+
+          Head to the studio to meet our main characters, Leo and Ursa, and set off on a storytelling
+
+          adventure.\n"
+        summary: "A sensory storytelling session in The Studio with the centre's own characters, Leo and Ursa, aimed at under-sevens and included in a day ticket."
+        confidence: "medium"
+      - id: "museums/we-the-curious#11bf22a25a"
+        sourceId: "museums/we-the-curious"
+        title: "Colossal Cosmos 3D: Planetarium stargazing show"
+        subcategory: "Planetarium show"
+        occurrence:
+          kind: "undated"
+          note: "Listed in the standing 'Daytime planetarium shows' section with no date on the index; its own page was not opened this run, as the source's page budget was spent on the dated items"
+        status: "scheduled"
+        url: "https://www.wethecurious.org/whats-on/events/colossal-cosmos-3d-planetarium-stargazing-show"
+        image: "https://www.wethecurious.org/sites/default/files/styles/listing_s/public/2024-08/saturn-ccweb_0.jpg.webp?itok=MgP59ee8"
+        tags:
+          - "planetarium"
+          - "immersive"
+          - "family"
+        raw: "**Colossal Cosmos 3D: Planetarium stargazing show** — Planetarium show. Access
+
+          considerations.
+
+
+          Fly into space to investigate the incredibly large and the impossibly distant in this
+
+          presenter-led planetarium show for families and adults.\n"
+        summary: "A presenter-led daytime show in the UK's only 3D planetarium, going after the very large and the very far away — for families and adults together."
+        confidence: "medium"
+      - id: "museums/we-the-curious#55c72a7eb6"
+        sourceId: "museums/we-the-curious"
+        title: "Spin the Spaceship 2D: Under 6s planetarium show"
+        subcategory: "Planetarium show"
+        occurrence:
+          kind: "undated"
+          note: "Listed in the standing 'Daytime planetarium shows' section with no date on the index; its own page was not opened this run, as the source's page budget was spent on the dated items"
+        status: "scheduled"
+        url: "https://www.wethecurious.org/whats-on/events/spin-spaceship-2d-under-6s-planetarium-show"
+        image: "https://www.wethecurious.org/sites/default/files/styles/listing_s/public/2024-09/spinspaceshipweb.png.webp?itok=SNdKTvHH"
+        ageRestriction: "Designed for children under 6"
+        tags:
+          - "planetarium"
+          - "kids"
+          - "immersive"
+          - "family"
+        raw: "**Spin the Spaceship 2D: Under 6s planetarium show** — Planetarium show. Partially
+
+          accessible.
+
+
+          Help our live presenter find a home for Blurgle Wurgle, the friendly alien. Designed for
+
+          children under 6.\n"
+        summary: "The planetarium's show for the youngest visitors — a live presenter and the search for somewhere for Blurgle Wurgle the alien to live."
+        confidence: "medium"
+      - id: "museums/we-the-curious#d5e6bd371b"
+        sourceId: "museums/we-the-curious"
+        title: "Life in the Universe 3D: Family planetarium show"
+        subcategory: "Planetarium show"
+        occurrence:
+          kind: "undated"
+          note: "Listed in the standing 'Daytime planetarium shows' section with no date on the index; its own page was not opened this run, as the source's page budget was spent on the dated items"
+        status: "scheduled"
+        url: "https://www.wethecurious.org/whats-on/events/life-universe-3d-family-planetarium-show"
+        image: "https://www.wethecurious.org/sites/default/files/styles/listing_s/public/2025-09/exoplanets.png.webp?itok=Ex7RzkAx"
+        tags:
+          - "planetarium"
+          - "immersive"
+          - "family"
+        raw: "**Life in the Universe 3D: Family planetarium show** — Planetarium show. Access
+
+          considerations.
+
+
+          Join our planetarium presenter in the search for extra-terrestrial life in the UK's only 3D
+
+          Planetarium.\n"
+        summary: "The hunt for life beyond Earth, presented live in 3D under the dome — the family show currently in the daytime repertoire."
+        confidence: "medium"
+      - id: "museums/we-the-curious#4ca92c1d77"
+        sourceId: "museums/we-the-curious"
+        title: "Life in the Universe 2D: Family planetarium show"
+        subcategory: "Planetarium show"
+        occurrence:
+          kind: "undated"
+          note: "Listed in the standing 'Daytime planetarium shows' section with no date on the index; its own page was not opened this run, as the source's page budget was spent on the dated items"
+        status: "scheduled"
+        url: "https://www.wethecurious.org/whats-on/events/life-universe-2d-family-planetarium-show"
+        image: "https://www.wethecurious.org/sites/default/files/styles/listing_s/public/2025-09/exoplanets.png.webp?itok=Ex7RzkAx"
+        tags:
+          - "planetarium"
+          - "immersive"
+          - "family"
+        raw: "**Life in the Universe 2D: Family planetarium show** — Planetarium show. Access
+
+          considerations.
+
+
+          Join our Planetarium presenter in the search for extra-terrestrial life in this 2D
+
+          experience.\n"
+        summary: "The same search for extra-terrestrial life without the 3D, for anyone who would rather skip the glasses or finds the 3D effect uncomfortable."
+        confidence: "medium"
+    notes: "/whats-on/events is the real index, as the hint says, but it paginates: page 1 carries ten cards and ?page=1 carries eight more, eighteen in all. Those eighteen are a superset of /whats-on/special-events (7) and /whats-on/daytime-planetarium-shows (4), both of which were also read and added nothing except confirming which section each item sits in — a hint saying the two sibling sections are redundant once pagination is followed would save the next run two fetches. The important fact about this source: **the listing cards carry no dates at all** — no date field, nothing but a title, a one-line summary and an accessibility label. Every date below comes from the event's own page, which is why thirteen pages were opened rather than the dozen the contract allows; without them almost every row would be `undated`, which is what happened yesterday. The remaining five (Storytelling and the four daytime planetarium shows) were not opened and are recorded as `undated` with the reason, since guessing \"ongoing\" for them would be an inference the index does not support. Years are printed on the event pages, and every printed weekday checks out against 2026, so confidence is high except where noted."

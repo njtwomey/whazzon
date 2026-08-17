@@ -9,8 +9,8 @@ import { paths, rel } from "./paths.js";
  *
  * Every CLI takes the location id as its first positional argument:
  *
- *   npm run validate -- bristol-uk
- *   npm run stale -- bristol-uk --ids
+ *   npm run validate -- gb-bristol
+ *   npm run stale -- gb-bristol --ids
  *   npm run validate -- --all
  *
  * With exactly one location configured the argument may be omitted, so the

@@ -273,28 +273,38 @@ function EventCardImpl({
           event's own title.
 
           Omitted entirely when there are no tags, rather than left as an empty
-          strip — then the card keeps its ordinary bottom padding. */}
+          strip — then the card keeps its ordinary bottom padding.
+
+          The overflow tags are named in a tooltip on the counter, never revealed
+          in place. Revealing them on hover changed the card's height, and in a
+          CSS grid a taller card grows its whole row and shoves every later card
+          down — so pointing at one card visibly rearranged the page. A tooltip
+          floats above the layout instead, and the counter stays put whether you
+          are hovering or not. Same reason the pills row above does it this way.
+
+          The lift and shadow are kept: `transform` and `box-shadow` do not
+          participate in layout, so they cannot reflow anything. */}
       {event.tags.length > 0 && (
         <CardFooter className="flex-wrap gap-1 bg-transparent py-2.5">
-          {event.tags.map((tag, index) => (
-            <Badge
-              key={tag}
-              variant="outline"
-              className={cn(
-                "font-normal text-muted-foreground",
-                index >= config.visibleTags && "hidden group-hover:inline-flex group-focus-visible:inline-flex",
-              )}
-            >
+          {event.tags.slice(0, config.visibleTags).map((tag) => (
+            <Badge key={tag} variant="outline" className="font-normal text-muted-foreground">
               {tag.replace(/-/g, " ")}
             </Badge>
           ))}
           {hiddenTags > 0 && (
-            <Badge
-              variant="outline"
-              className="tabular-nums text-muted-foreground group-hover:hidden group-focus-visible:hidden"
-            >
-              +{hiddenTags}
-            </Badge>
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <Badge variant="outline" className="cursor-default tabular-nums text-muted-foreground">
+                  +{hiddenTags}
+                </Badge>
+              </TooltipTrigger>
+              <TooltipContent>
+                {event.tags
+                  .slice(config.visibleTags)
+                  .map((tag) => tag.replace(/-/g, " "))
+                  .join(" · ")}
+              </TooltipContent>
+            </Tooltip>
           )}
         </CardFooter>
       )}

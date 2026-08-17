@@ -20,8 +20,8 @@ import { SchemaError } from "../schema/versioning.js";
  * Idempotent: events that already have an id are left alone, so it is safe to
  * re-run as further categories land.
  *
- *   npm run assign-ids -- bristol-uk --date 2026-08-16
- *   npm run assign-ids -- bristol-uk --date 2026-08-16 --category music
+ *   npm run assign-ids -- gb-bristol --date 2026-08-16
+ *   npm run assign-ids -- gb-bristol --date 2026-08-16 --category music
  */
 
 const { locations, rest } = resolveLocations();

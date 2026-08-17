@@ -1,0 +1,411 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-08-17"
+category: "festivals"
+harvestedAt: "2026-08-17T07:20:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "3"
+model: "claude-opus-5"
+observations:
+  - sourceId: "festivals/bristol-harbour-festival"
+    fetch:
+      ok: true
+      url: "https://www.bristolharbourfestival.co.uk/whats-on/programme-at-a-glance"
+      status: 200
+    events:
+      - id: "festivals/bristol-harbour-festival#d96fc7ecc8"
+        sourceId: "festivals/bristol-harbour-festival"
+        title: "Bristol Harbour Festival 2026"
+        occurrence:
+          kind: "run"
+          start: "2026-07-17"
+          end: "2026-07-19"
+        status: "scheduled"
+        url: "https://www.bristolharbourfestival.co.uk/"
+        image: "https://cdn.prod.website-files.com/6452432ff5b5980cc67cca39/6a4fcab6ff61e1cdebdb8c35_7a70d3ca62bb10367829cd6d3a87c844_6a4fcab6ff61e1cdebdb8c35_BHF_2026_MainMap_page-0001.png"
+        tags:
+          - "festival"
+          - "outdoor"
+          - "multi-day"
+          - "live-music"
+          - "family"
+        raw: "**Bristol Harbour Festival — 17-19 July 2026.**
+
+
+          \"This year, we're bringing a reimagined footprint to Bristol that puts the
+
+          water right back at the heart of the celebration. Stretching along the
+
+          harbourside from Thekla to Underfall Yard, the festival's refreshed layout
+
+          turns Bristol's iconic waterfront into a living stage - packed with
+
+          back-to-back entertainment, dockside moments and maritime magic.\"
+
+
+          \"Bringing the best of Bristol's emerging artists as well as established and
+
+          international performers across all genres, expect three days of
+
+          back-to-back entertainment alongside some proper maritime magic with our
+
+          on-the-water programme. More announcements to come soon!\"
+
+
+          Underfall Yard is the official Charity Partner for 2026, \"celebrating the
+
+          place that has kept Bristol's Floating Harbour alive for more than 200
+
+          years\". The Harbour Festival Wayfinder is billed as \"your ultimate
+
+          interactive guide\", with a Harbour Treasure Hunt collecting digital stamps
+
+          at ten festival locations.
+
+
+          Programme at a glance is published by stage, with lineups viewable by day.\n"
+        summary: "Bristol's three-day harbourside festival, whose 2026 footprint stretched from Thekla to Underfall Yard across 23 stages and on-the-water venues, with music, circus, theatre, talks and boat parades. This edition is over and no 2027 dates have been announced."
+        confidence: "high"
+    notes: "The re-pointed www URL works: /whats-on/programme-at-a-glance returned 200 and, contrary to the hint, has not emptied between editions — it still serves the complete 17-19 July 2026 programme, about 318 slot rows across 23 stages and on-the-water venues (Amphitheatre, Thekla, Bristol Rising, Red Bull Beach Hut, Tidal Stage, Cumberland Basin, Prince Street Bridge Water Arena, Baltic Wharf, The Matthew, Underfall Yard, Expression Stage, Fringe, three Spike Island venues and more). Those rows are labelled by weekday and clock time only (\"Friday 19:30-20:15 Sam And The Womp\") with no calendar dates, no per-act links and no per-act images, and the edition finished a month ago, so they are deliberately not expanded into events — that would be 318 finished rows built on a weekday-to-date join. The edition dates come from the homepage hero (\"Bristol Harbour Festival / 17-19 / July / 2026\"), which was the second fetch; it now leads with a post-event survey (\"DID YOU HAVE A BLAST AT THIS YEARS BRISTOL HARBOUR FESTIVAL?\") and carries no 2027 dates, so the hint that the homepage banner is where the next dates appear holds but there is nothing there yet. For the reviewer: yesterday's run recorded this festival as `undated` because the dates had not been read; today's row is the same festival with the dates the site prints, so the two will not fold together and the older undated row will carry indefinitely. Lower down the homepage there is also stale 2024 copy (\"We're back between Friday 19th - Sunday 21st July 2024\") and the footer still reads \"©Bristol Harbour Festival 2024\"; neither was treated as current."
+  - sourceId: "festivals/upfest"
+    fetch:
+      ok: true
+      url: "https://www.upfest.co.uk/festivals/"
+      status: 200
+    events:
+      - id: "festivals/upfest#2565b81f9e"
+        sourceId: "festivals/upfest"
+        title: "Upfest"
+        occurrence:
+          kind: "undated"
+          note: "The festivals index prints no dates at all. \"Upfest 2026\" is listed under Upcoming alongside \"Weston Wallz 2026\", above archived editions back to 2016; no 2027 or 2028 edition is named anywhere on the page."
+        status: "scheduled"
+        url: "https://www.upfest.co.uk/festival/upfest-2026/"
+        tags:
+          - "festival"
+          - "street-art"
+          - "outdoor"
+          - "multi-day"
+          - "community"
+        raw: "Upfest's festival index lists two editions as **Upcoming** — **Weston Wallz
+
+          2026** and **[Upfest 2026](https://www.upfest.co.uk/festival/upfest-2026/)**
+
+          — above an archive of **UPFEST 2024**, **Weston Wallz 2024**, **Festival
+
+          Highlights**, **Upfest 2022**, **Upfest Summer Edition 2020**, **Upfest
+
+          Summer Edition 2019**, **Upfest 2018**, **Upfest 2017** and **Upfest 2016**.
+
+
+          No dates appear anywhere on the page and there is no \"dates to be
+
+          announced\" wording. Bristol is the only location named in the page's own
+
+          copy.\n"
+        summary: "Europe's largest street art festival, which repaints Bedminster and Southville over a multi-week programme of live walls, workshops, tours and talks. It runs in alternate years, and the index names no edition after 2026, so nothing is currently scheduled in Bristol."
+        confidence: "medium"
+    notes: "One fetch. The index prints no dates whatsoever — that is the whole result. It labels two editions \"Upcoming\", Weston Wallz 2026 and Upfest 2026, both of which have in fact already happened, above an archive running back to 2016, so the Upcoming heading is stale rather than informative. **Weston Wallz 2026 is not recorded**: it takes place in Weston-super-Mare, outside this location. The homepage was deliberately not fetched, because the hint says its banner carries whichever edition is next and that is currently Weston Wallz, which is nothing this file may record. /festival/upfest-2026/ was also not opened — the catalogue already records that edition as 15-31 May 2026, which has passed, and re-reading it would not tell us anything about the next Bristol edition. Upfest is biennial, so the next Bristol edition is expected in 2028; the site names no such edition and carries no \"dates to be announced\" wording, which is why this is `undated` rather than a guessed 2028 run."
+  - sourceId: "festivals/bristol-pride"
+    fetch:
+      ok: true
+      url: "https://www.bristolpride.co.uk/events/"
+      status: 200
+    events:
+      - id: "festivals/bristol-pride#6c2fe648f6"
+        sourceId: "festivals/bristol-pride"
+        title: "No More All Male Lineups – Pride"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "17:00"
+        status: "rescheduled"
+        venue:
+          sourceId: "music/st-georges-bristol"
+        url: "https://bristolpride.co.uk/events/no-more-all-male-lineups-pride/"
+        image: "https://bristolpride.co.uk/wp-content/uploads/2026/06/724147967_17905130673436636_2899608796696732937_n-1500x1000-c-default.jpg"
+        price:
+          free: false
+          text: "£5.50"
+          min: 5.5
+          max: 5.5
+          currency: "GBP"
+        ageRestriction: "no age restrictions"
+        tags:
+          - "live-music"
+          - "lgbtq"
+          - "party"
+          - "dj"
+          - "community"
+        raw: "**No More All Male Lineups – Pride** — Thursday 20 August, 5pm, St George's
+
+          Bristol. Listed as upcoming; every other listing on the page is flagged
+
+          Ended.\n"
+        summary: "A five-hour queer summer party at St George's from the campaign against gender-imbalanced music bills, with eight DJ and live slots running from 5pm to 10pm and Bristol FLINTA soundsystem Sonic Sirens on the rig. Rescheduled from July; existing tickets remain valid."
+        description: "Join No More All Male Lineups for a summer evening party, celebrating queer
+
+          talent!
+
+
+          **Lineup**
+
+
+          - 5-6 Empressure b2b Nymfro
+
+          - 6-6:30 Flo State (LIVE)
+
+          - 6:30-7 Sonic Sirens (Lupa)
+
+          - 7-7:30 gunk
+
+          - 7:30-8 Coren
+
+          - 8-8:30 Eva Scott (LIVE)
+
+          - 8:30-9 Pretty Patel
+
+          - 9-10 Maya Liberati
+
+
+          We will also be powered by local pink fluffy FLINTA soundsystem – Sonic
+
+          Sirens!
+
+
+          Entry requirements: no age restrictions.
+
+
+          Please note this event has been rescheduled to 20 August. Tickets are still
+
+          valid. Contact St George's Bristol for any ticket inquiries.\n"
+        confidence: "high"
+    notes: "The events page heads \"Bristol Pride 2026 | 27 June - 12 July\" and lists ten entries, nine of them flagged Ended: Pride Parade March (Castle Park) and Pride Day (The Downs) both Sat 11 July, then afterparties the same night at O2 Academy Bristol (The Official Afterparty), Basement 45 (GRRRL CRUSH), Lakota (XXXCESS: Pride after Dark), Cider Box Tap Room (Bend), and Lost Horizon (Booty Bass), then Sun 12 July at Old Castle Green (Spank and Cynthia's Dragathon) and Bristol Bear Bar (Pride Sunday). Those nine are finished and are recorded here as this note rather than as nine finished rows. One entry is upcoming and is the event below. **One event page opened for `description`** — the only forthcoming listing — which is where the price, the full DJ running order, the age policy and, importantly, the rescheduling notice came from; none of that is on the index. The reschedule is worth a human's attention: the page says \"this event has been rescheduled to 20 August. Tickets are still valid\", and the Headfirst booking link it points at still has the original date in its own slug (.../thu-2-jul-no-more-all-male-lineups-pride-summer-party-154612). No Bristol Pride 2027 dates are published anywhere on the page. Thursday confirms 20 August 2026, so the year inference is verified."
+  - sourceId: "festivals/forwards"
+    fetch:
+      ok: true
+      url: "https://www.forwardsbristol.co.uk/lineup"
+      status: 200
+    events:
+      - id: "festivals/forwards#833eea5a8c"
+        sourceId: "festivals/forwards"
+        title: "Forwards Festival 2026"
+        occurrence:
+          kind: "run"
+          start: "2026-08-29"
+          end: "2026-08-30"
+        status: "scheduled"
+        url: "https://www.forwardsbristol.co.uk/"
+        image: "https://cdn.prod.website-files.com/68b702cccff3664ee890de7d/6a2808808c67d425091f84fa_Bw-xdYfb.avif"
+        tags:
+          - "festival"
+          - "live-music"
+          - "outdoor"
+          - "multi-day"
+          - "headliner"
+        raw: "**FORWARDS RETURNS FOR 2026** — \"A Music Festival in Bristol, For The
+
+          Future\".
+
+
+          \"FORWARDS: an inner city music festival drawing the biggest names in
+
+          international music to Bristol Downs.\"
+
+
+          Two days, Saturday 29 and Sunday 30 August, with the lineup published A-Z
+
+          by day and no set times. [Buy
+
+          tickets](https://www.forwardsbristol.co.uk/buyticketsaxs) via AXS.\n"
+        summary: "The two-day music festival on the Downs, headlined this year by Tems, Maribou State and Self Esteem on the Saturday and Little Simz, Amyl and The Sniffers and Dijon on the Sunday, with a kids area, food and drink and The Information stage of talks alongside the music."
+        description: "FORWARDS: an inner city music festival drawing the biggest names in
+
+          international music to Bristol Downs. The festival aims to present high
+
+          quality, diverse and heritage music acts alongside emerging artists from
+
+          Bristol & beyond.
+
+
+          The festival presents a contemporary curation of music while paying homage
+
+          to Bristol's long standing history of being a music city. In addition,
+
+          FORWARDS is more than just a music festival, it looks to challenge what
+
+          metropolitan festivals can be today and how they can do good, from the
+
+          inside out. The 2-day festival aims to harness the power of live events to
+
+          bring people together for incredible music moments and lasting positive
+
+          change.
+
+
+          At the heart of the festival is FORWARDS THINKING, a platform for year round
+
+          social initiatives in Bristol, all through our partners, Big Team CIC and
+
+          Team Canteen CIC. Alongside these partners is The Information, a dedicated
+
+          space at FORWARDS for debate and understanding on today's current affairs
+
+          and cultural issues.\n"
+        confidence: "high"
+      - id: "festivals/forwards#04600ab47b"
+        sourceId: "festivals/forwards"
+        title: "Forwards Festival 2026 – Saturday"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+        status: "scheduled"
+        url: "https://www.forwardsbristol.co.uk/lineup"
+        tags:
+          - "festival"
+          - "live-music"
+          - "outdoor"
+          - "headliner"
+          - "dj"
+        raw: "**Saturday, Aug 29**
+
+
+          Maribou State · Self Esteem · Tems · Wet Leg · 1-800 Girls · Amber · Crazy P
+
+          (DJ) · Erika De Casier · Goldie (Live) · Joy Crookes · Mitch Sanders ·
+
+          ParaOrchestra - Kraftwork Re:Work · Rubii · The Itch · Tricky · Xanadu\n"
+        summary: "Day one on the Downs: Tems, Maribou State, Self Esteem and Wet Leg at the top of the bill, with Goldie live, Bristol's own Tricky, Erika De Casier, Joy Crookes and ParaOrchestra's Kraftwerk rework. Sixteen acts announced, no set times or stages published yet."
+        confidence: "high"
+      - id: "festivals/forwards#43b6fd2e00"
+        sourceId: "festivals/forwards"
+        title: "Forwards Festival 2026 – Sunday"
+        occurrence:
+          kind: "single"
+          date: "2026-08-30"
+        status: "scheduled"
+        url: "https://www.forwardsbristol.co.uk/lineup"
+        tags:
+          - "festival"
+          - "live-music"
+          - "outdoor"
+          - "headliner"
+          - "dj"
+        raw: "**Sunday, Aug. 30**
+
+
+          Amyl and The Sniffers · Dijon · Little Simz · Anaiis · Gena feat Liv.e &
+
+          Karriem Riggins · Jamz Supernova · Jean Dawson · Jim Legxacy · Ledbyher ·
+
+          Liim · O'Flynn · Oklou · Princess Nokia · Viagra Boys · Wesley Joseph ·
+
+          YHWH Nailgun\n"
+        summary: "Day two on the Downs: Little Simz, Amyl and The Sniffers, Dijon and Viagra Boys lead a bill that also takes in Princess Nokia, Oklou, Jim Legxacy and Jamz Supernova. Sixteen acts announced, no set times or stages published yet."
+        confidence: "high"
+      - id: "festivals/forwards#56cc9c85f8"
+        sourceId: "festivals/forwards"
+        title: "FORWARDS Presents: Lorde"
+        occurrence:
+          kind: "undated"
+          note: "Billed across the Forwards site and given its own page at lordebristol.co.uk, which prints no date, no start time and no venue — only a Buy Tickets link and \"Sign up for first access to news & tickets\". The AXS page behind that link could not be read. Lorde appears in neither day's festival lineup."
+        status: "scheduled"
+        url: "https://www.lordebristol.co.uk/"
+        image: "https://cdn.prod.website-files.com/6911bca5bd336940521b3886/6a44dc0d45c3c1558d352a60_Forwards-Lorde-Web_web.avif"
+        tags:
+          - "live-music"
+          - "headliner"
+        raw: "**forwards presents: lorde** — [Buy
+
+          tickets](https://www.axs.com/uk/events/1232923/lorde-tickets) via AXS.
+
+
+          \"Sign up for first access to news & tickets.\" No date, time, venue, support
+
+          act or price is given on the page.\n"
+        summary: "A Lorde show presented by Forwards, on sale through AXS. It is promoted across the festival site but sits outside both published day lineups, and neither its own page nor the festival's states a date or a venue."
+        confidence: "low"
+    notes: "Four fetches: /lineup (the A-Z, split by day), the homepage, the Lorde microsite it links to, and one refused attempt at the AXS ticket page. /lineup prints \"Saturday, Aug 29\" and \"Sunday, Aug. 30\" with no year anywhere on the page; the homepage supplies it with \"FORWARDS RETURNS FOR 2026\", and 29 and 30 August do fall on a Saturday and Sunday in 2026, so the inference is confirmed and the two day rows are high confidence. Following the hint, the lineup is recorded as one row per day rather than one row per act — there are no set times or stage assignments published, so per-act rows would carry nothing extra — plus the festival-level run, which keeps the same title as yesterday's row so the two fold together. No prices are published on either page; tickets go through AXS via /buyticketsaxs. \"FORWARDS Presents: Lorde\" is billed across the site and has its own microsite at lordebristol.co.uk, which prints no date, no time and no venue, and the AXS page behind its Buy Tickets link returned 403 to WebFetch and then a Cloudflare challenge to a browser user-agent, so it stays `undated` at low confidence rather than being assumed to be part of either festival day — it appears in neither day's lineup."
+  - sourceId: "festivals/winter-lanterns"
+    fetch:
+      ok: true
+      url: "https://www.lanternparade.org/"
+      status: 200
+    events:
+      - id: "festivals/winter-lanterns#ccaf4567fc"
+        sourceId: "festivals/winter-lanterns"
+        title: "Bedminster Winter Lantern Parade"
+        occurrence:
+          kind: "undated"
+          note: "\"Subject to funding, the parade will go ahead on a Saturday in January 2027.\" The site's own heading reads \"Bedminster Winter Lantern Parade – returning 2027\". No specific date is given."
+        status: "scheduled"
+        url: "https://www.lanternparade.org/"
+        tags:
+          - "festival"
+          - "community"
+          - "outdoor"
+          - "family"
+          - "seasonal"
+        raw: "**Bedminster Winter Lantern Parade – returning 2027.** \"Celebrating
+
+          creativity, inclusiveness and the magical spirit of BS3.\"
+
+
+          \"Subject to funding, the parade will go ahead on a Saturday in January
+
+          2027.\"
+
+
+          \"Donate now and bring the magic back. All donations, big and small, are very
+
+          much appreciated.\"
+
+
+          [Road closures](https://www.lanternparade.org/road-closures/) · [Become a
+
+          sponsor](https://www.lanternparade.org/home-2-2/become-a-sponsor/) ·
+
+          [Volunteer](https://www.lanternparade.org/volunteer/) ·
+
+          hellobemmylanterns@gmail.com\n"
+        summary: "A procession of handmade lanterns through Bedminster, preceded by community lantern-making workshops each autumn and run by a volunteer steering group with 200 helpers on the night. Organisers expect a Saturday in January 2027 if the funding lands, but no date is fixed."
+        description: "Bedminster Winter Lantern Parade is the biggest creative community event in
+
+          South Bristol bringing thousands of local residents together to celebrate
+
+          BS3's creativity.
+
+
+          Each Autumn, we hold lantern-making workshops for schools, community groups
+
+          and the public, with the illuminated parade taking place in January –
+
+          bringing thousands of spectators to Bedminster.
+
+
+          The event is organised by a small volunteer Steering Group who work
+
+          tirelessly each year to secure the funding and plan the Parade, supported by
+
+          200 wonderful volunteers who provide logistical support on the day.
+
+
+          Subject to funding, the parade will go ahead on a Saturday in January 2027.
+
+
+          Looking to sponsor the Bedminster Winter Lantern Parade? Email us at
+
+          hellobemmylanterns@gmail.com for more info.
+
+
+          If you'd like to join the organising team and have events, health and
+
+          safety, or community outreach experience, we'd love to hear from you.
+
+
+          And we'd also love to hear from community and street groups in BS3 who want
+
+          to take part in the next Lantern Parade.\n"
+        confidence: "high"
+    notes: "One fetch, and the re-pointed URL is correct: lanternparade.org served 200. Exactly as the hint predicted, this is an announcement page and not a listing — the parade is \"subject to funding\" and pinned only to \"a Saturday in January 2027\", so `undated` with that wording is the whole honest record and no January date has been guessed. There are no dated items of any kind on the page: the autumn lantern-making workshops are described but not scheduled, which fits the hint's expectation that dated items appear from about October, so this source is worth revisiting then. The page carries no `<img>` at all (artwork is CSS background) and no admission price, so both fields are omitted. Two things for stage 1: the site's own name for the event is \"Bedminster Winter Lantern Parade\", longer than the catalogued \"Bedminster Winter Lanterns\"; and the page invites community and street groups in BS3 to take part, contact hellobemmylanterns@gmail.com."

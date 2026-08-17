@@ -13,8 +13,8 @@ import { parseSchemaHeader } from "../schema/versioning.js";
  * a migration, run this once, review the diff. Files are only rewritten when
  * they are actually behind, so a no-op run produces an empty diff.
  *
- *   npm run migrate -- bristol-uk            report what would change
- *   npm run migrate -- bristol-uk --write    apply it
+ *   npm run migrate -- gb-bristol            report what would change
+ *   npm run migrate -- gb-bristol --write    apply it
  *   npm run migrate -- --all --write         every location
  */
 

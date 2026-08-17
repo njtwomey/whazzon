@@ -22,8 +22,8 @@ import { HarvestArtefact, type Observation, type Occurrence, type WhazzonEvent }
  * Everything it writes is valid against whazzon.harvest/1, so replacing it
  * with a real harvest changes nothing downstream.
  *
- *   npm run mock -- bristol-uk
- *   npm run mock -- bristol-uk --date 2026-08-16
+ *   npm run mock -- gb-bristol
+ *   npm run mock -- gb-bristol --date 2026-08-16
  */
 
 const { locations, rest } = resolveLocations();

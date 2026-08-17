@@ -7,8 +7,8 @@ import { LocationPage } from "@/routes/location-page";
  * Routes are keyed by location, so a second city is a URL rather than a fork:
  *
  *   /                       pick a city
- *   /bristol-uk             everything on there
- *   /bristol-uk/theatre     one category
+ *   /gb-bristol             everything on there
+ *   /gb-bristol/theatre     one category
  */
 export default function App() {
   return (

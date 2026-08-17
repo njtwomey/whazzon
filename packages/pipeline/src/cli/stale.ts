@@ -11,9 +11,9 @@ import { CADENCE_DAYS } from "../schema/common.js";
  * expensive; most of the catalogue does not change daily, and the cadence
  * field on each source is the judgement about how often it is worth looking.
  *
- *   npm run stale -- bristol-uk            due now, grouped by category
- *   npm run stale -- bristol-uk --all      every source with its last visit
- *   npm run stale -- bristol-uk --ids      bare ids, one per line, for scripting
+ *   npm run stale -- gb-bristol            due now, grouped by category
+ *   npm run stale -- gb-bristol --all      every source with its last visit
+ *   npm run stale -- gb-bristol --ids      bare ids, one per line, for scripting
  */
 
 const { locations, rest } = resolveLocations();

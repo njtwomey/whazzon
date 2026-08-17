@@ -21,7 +21,7 @@ const ASOF = "2026-08-16";
 
 const SNAPSHOT = {
   schema: "whazzon.snapshot/1",
-  location: { id: "bristol-uk", name: "Bristol", region: "SW", country: "UK", timezone: "Europe/London" },
+  location: { id: "gb-bristol", name: "Bristol", region: "SW", country: "UK", timezone: "Europe/London" },
   generatedAt: "2026-08-16T09:00:00Z",
   asOf: ASOF,
   categories: [{ category: "music", label: "Music", sourceCount: 1, eventCount: 2 }],
@@ -96,7 +96,7 @@ afterEach(() => {
 
 async function setup() {
   render(
-    <MemoryRouter initialEntries={["/bristol-uk"]}>
+    <MemoryRouter initialEntries={["/gb-bristol"]}>
       <TooltipProvider>
         <Routes>
           <Route path="/:locationId" element={<LocationPage />} />

@@ -17,7 +17,7 @@ authoritative: sources land as `provisional` and a human promotes them.
 ## 1. Resolve what was asked for
 
 **Location.** Match what the user said against `configs/*.yaml`. "bristol" means
-`bristol-uk`. If there is no config, this is a _new_ location — see §5.
+`gb-bristol`. If there is no config, this is a _new_ location — see §5.
 
 **Scope.** One of three jobs, and they behave differently:
 

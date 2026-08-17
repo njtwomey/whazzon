@@ -22,9 +22,9 @@ import { SnapshotArtefact, type SnapshotEvent } from "../schema/snapshot.js";
  * committed data and the same --as-of date it produces byte-identical output,
  * so a surprising diff in the snapshot always means the data changed.
  *
- *   npm run compile -- bristol-uk
- *   npm run compile -- bristol-uk --as-of 2026-08-16
- *   npm run compile -- bristol-uk --keep-finished 0     drop every past event
+ *   npm run compile -- gb-bristol
+ *   npm run compile -- gb-bristol --as-of 2026-08-16
+ *   npm run compile -- gb-bristol --keep-finished 0     drop every past event
  */
 
 const { locations, rest } = resolveLocations();

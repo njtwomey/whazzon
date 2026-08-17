@@ -1,0 +1,43 @@
+schema: whazzon.location/1
+
+id: gb-bristol
+name: Bristol
+region: South West England
+country: United Kingdom
+timezone: Europe/London
+language: en-GB
+
+centre:
+  lat: 51.4545
+  lon: -2.5879
+radiusKm: 12
+
+# Lives at data/gb-bristol/assets/<image>. Replace with a photograph whenever
+# you have one that is licensed for use — keep `imageCredit` accurate if so.
+image: region.svg
+imageCredit: Original illustration
+
+# This file's name must match `id:` below — configs/<id>.yaml.
+#
+# Free text handed to the stage 1 prompt. Describe the character of the place:
+# what it is known for, which neighbourhoods matter, what a local would expect
+# to see in a "what's on" list. This is the main lever for catalogue quality.
+character: |
+  A mid-sized English city with an outsized cultural footprint. Strong in
+  independent music (drum & bass, dub and trip-hop heritage), street art,
+  independent cinema, circus and physical theatre, and harbourside events.
+
+  Neighbourhoods with their own distinct scenes: Stokes Croft, Bedminster and
+  North Street, Gloucester Road, Clifton, Old City / King Street, Harbourside,
+  Easton, Montpelier.
+
+  The city has a dense calendar of large annual outdoor festivals in summer,
+  and a strong tradition of one-off, venue-less and community-run events that
+  do not appear on any single venue website.
+
+# Sources that list events across the whole city rather than for one venue.
+# These are catalogued as kind: aggregator and are the safety net for the
+# "venue-less event" problem described above.
+aggregatorPolicy: |
+  Always include the major local listings sites and the tourist board. They
+  catch fringe, pop-up and community events that no venue site will carry.

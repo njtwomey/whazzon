@@ -85,6 +85,6 @@ If a JS-capable fetch is added it belongs in stage 2 only, opt-in per source.
 - **Wrong `cadence`**: Everyman, Wapping Wharf, National Garden Scheme.
 - **Radius**: Chipping Sodbury parkrun is 16.6 km out against `radiusKm: 12`.
 - **`music/motion`** points at an abandoned 2021 build; needs a URL found by hand.
-- **Twelve hints are now wrong** — listed in `data/bristol-uk/harvest/2026-08-17/REPORT.md`.
+- **Twelve hints are now wrong** — listed in `data/gb-bristol/harvest/2026-08-17/REPORT.md`.
 - **New sources worth adding**: Showcase Avonmeads, The Prospect Building, Ashton Court Mansion,
   Heritage Open Days, Bristol Shredfest, Exploring Whisky Bristol, three uncatalogued markets.

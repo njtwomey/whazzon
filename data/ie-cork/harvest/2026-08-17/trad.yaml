@@ -1,0 +1,3315 @@
+schema: "whazzon.harvest/1"
+locationId: "ie-cork"
+date: "2026-08-17"
+category: "trad"
+harvestedAt: "2026-08-17T10:42:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "4"
+model: "claude-opus-5[1m]"
+observations:
+  - sourceId: "trad/lee-sessions"
+    fetch:
+      ok: true
+      url: "https://www.theleesessions.com/gigs_full_page.php"
+      status: 200
+    events:
+      - id: "trad/lee-sessions#f84ea77ccc"
+        sourceId: "trad/lee-sessions"
+        title: "Early trad session at Sin É"
+        occurrence:
+          kind: "recurring"
+          pattern: "Monday to Saturday at 6:00 pm"
+          startTime: "18:00"
+        status: "scheduled"
+        venue:
+          sourceId: "trad/sin-e"
+        tags:
+          - "trad"
+          - "session"
+          - "live-music"
+          - "weekly"
+        raw: "**Sin É** — Coburg St, 6:00 pm.
+
+
+          Printed in the full gig guide under Mon Aug 17, Tue Aug 18, Wed Aug 19,
+
+          Thu Aug 20, Fri Aug 21, Sat Aug 22, Mon Aug 24 and Tue Aug 25."
+        summary: "The earlier of the two sessions Sin É runs most nights, starting at six and
+
+          giving way to the late session at nine. Six consecutive nights of it are
+
+          printed in the guide, which is what marks it as the pub's standing
+
+          teatime session rather than a run of one-offs."
+        confidence: "high"
+      - id: "trad/lee-sessions#9df8c4ae5d"
+        sourceId: "trad/lee-sessions"
+        title: "Late trad session at Sin É"
+        occurrence:
+          kind: "recurring"
+          pattern: "Mondays, Tuesdays, Fridays and Saturdays at 9:00 pm"
+          startTime: "21:00"
+        status: "scheduled"
+        venue:
+          sourceId: "trad/sin-e"
+        tags:
+          - "trad"
+          - "session"
+          - "late-night"
+          - "weekly"
+        raw: "**Sin É** — Coburg St, 9:00 pm.
+
+
+          Printed in the full gig guide under Mon Aug 17, Tue Aug 18, Fri Aug 21,
+
+          Sat Aug 22, Mon Aug 24 and Tue Aug 25."
+        summary: "Sin É's late session, the one Cork musicians mean when they name the pub.
+
+          The guide prints it on Mondays, Tuesdays, Fridays and Saturdays but not on
+
+          the Wednesday or Thursday, where the six o'clock session is listed on its
+
+          own."
+        confidence: "medium"
+      - id: "trad/lee-sessions#8a87ef9010"
+        sourceId: "trad/lee-sessions"
+        title: "Sunday early trad session at Sin É"
+        occurrence:
+          kind: "recurring"
+          pattern: "Sundays at 5:30 pm"
+          startTime: "17:30"
+        status: "scheduled"
+        venue:
+          sourceId: "trad/sin-e"
+        tags:
+          - "trad"
+          - "session"
+          - "live-music"
+          - "weekly"
+        raw: "**Sin É** — Coburg St, 5:30 pm.
+
+
+          Printed in the full gig guide under Sun Aug 23."
+        summary: "Sunday shifts Sin É's teatime session half an hour earlier, to 5:30. The
+
+          pub's own page agrees that Sunday music starts before the rest of the week."
+        confidence: "medium"
+      - id: "trad/lee-sessions#19ee1d9d5b"
+        sourceId: "trad/lee-sessions"
+        title: "Sunday late trad session at Sin É"
+        occurrence:
+          kind: "recurring"
+          pattern: "Sundays at 8:30 pm"
+          startTime: "20:30"
+        status: "scheduled"
+        venue:
+          sourceId: "trad/sin-e"
+        tags:
+          - "trad"
+          - "session"
+          - "late-night"
+          - "weekly"
+        raw: "**Sin É** — Coburg St, 8:30 pm.
+
+
+          Printed in the full gig guide under Sun Aug 23."
+        summary: "The Sunday equivalent of Sin É's late session, starting half an hour
+
+          earlier than it does on a weeknight."
+        confidence: "medium"
+      - id: "trad/lee-sessions#f337213fb2"
+        sourceId: "trad/lee-sessions"
+        title: "Trad session at Clancy's"
+        occurrence:
+          kind: "recurring"
+          pattern: "Mondays, Tuesdays and Wednesdays at 8:00 pm"
+          startTime: "20:00"
+        status: "scheduled"
+        venue:
+          sourceId: "trad/clancys"
+        tags:
+          - "trad"
+          - "session"
+          - "live-music"
+          - "weekly"
+        raw: "**Clancy's** — Marlborough St., 8:00 pm.
+
+
+          Printed in the full gig guide under Mon Aug 17, Tue Aug 18, Wed Aug 19 and
+
+          Mon Aug 24."
+        summary: "Three early-week sessions at Clancy's, the only listing anywhere for them —
+
+          the pub's own site has no gig guide at all."
+        confidence: "medium"
+      - id: "trad/lee-sessions#8d25976bf3"
+        sourceId: "trad/lee-sessions"
+        title: "Monday trad session at JJ Walsh's"
+        occurrence:
+          kind: "recurring"
+          pattern: "Mondays at 8:00 pm"
+          startTime: "20:00"
+        status: "scheduled"
+        venue:
+          sourceId: "trad/jj-walshs"
+        tags:
+          - "trad"
+          - "session"
+          - "live-music"
+          - "weekly"
+        raw: "**JJ Walsh's** — 64 Oliver Plunkett St., 8:00 pm.
+
+
+          Printed in the full gig guide under Mon Aug 17, Mon Aug 24, Mon Aug 31 and
+
+          Mon Sep 7."
+        summary: "The Monday-night session at the reopened Oliver Plunkett Street pub, an hour
+
+          later than its weekend slot."
+        confidence: "high"
+      - id: "trad/lee-sessions#38c02519dd"
+        sourceId: "trad/lee-sessions"
+        title: "Weekend trad session at JJ Walsh's"
+        occurrence:
+          kind: "recurring"
+          pattern: "Saturdays and Sundays at 7:00 pm"
+          startTime: "19:00"
+        status: "scheduled"
+        venue:
+          sourceId: "trad/jj-walshs"
+        tags:
+          - "trad"
+          - "session"
+          - "live-music"
+          - "weekly"
+        raw: "**JJ Walsh's** — 64 Oliver Plunkett St., 7:00 pm.
+
+
+          Printed in the full gig guide under Sat Aug 22, Sun Aug 23, Sat Aug 29 and
+
+          Sun Aug 30."
+        summary: "An early-evening weekend session at JJ Walsh's, one of two slots the pub
+
+          keeps in the Lee Sessions guide."
+        confidence: "medium"
+      - id: "trad/lee-sessions#64ea1e20e4"
+        sourceId: "trad/lee-sessions"
+        title: "Midweek trad session at Old Oak"
+        occurrence:
+          kind: "recurring"
+          pattern: "Tuesdays, Wednesdays and Thursdays at 8:00 pm"
+          startTime: "20:00"
+        status: "scheduled"
+        venue:
+          sourceId: "trad/old-oak"
+        tags:
+          - "trad"
+          - "session"
+          - "live-music"
+          - "weekly"
+        raw: "**Old Oak** — Oliver Plunkett St., 8:00 pm.
+
+
+          Printed in the full gig guide nineteen times, from Tue Aug 18 through to
+
+          Wed Sep 30."
+        summary: "Three nights a week at Old Oak, the most heavily listed midweek slot in the
+
+          guide after Ó Súilleabháin's. Only part of Old Oak's week is trad — the
+
+          pub's own description puts DJs on Thursday to Saturday."
+        confidence: "high"
+      - id: "trad/lee-sessions#2ec1f0b976"
+        sourceId: "trad/lee-sessions"
+        title: "Sunday trad session at Old Oak"
+        occurrence:
+          kind: "recurring"
+          pattern: "Sundays at 7:00 pm"
+          startTime: "19:00"
+        status: "scheduled"
+        venue:
+          sourceId: "trad/old-oak"
+        tags:
+          - "trad"
+          - "session"
+          - "live-music"
+          - "weekly"
+        raw: "**Old Oak** — Oliver Plunkett St., 7:00 pm.
+
+
+          Printed in the full gig guide under Sun Aug 23, Sun Aug 30, Sun Sep 6,
+
+          Sun Sep 13 and Sun Sep 20."
+        summary: "Old Oak's Sunday session, an hour earlier than its midweek one."
+        confidence: "high"
+      - id: "trad/lee-sessions#eaab17a36d"
+        sourceId: "trad/lee-sessions"
+        title: "Friday trad session at Ó Súilleabháin's"
+        occurrence:
+          kind: "recurring"
+          pattern: "Fridays at 7:30 pm"
+          startTime: "19:30"
+        status: "scheduled"
+        venue:
+          sourceId: "trad/o-suilleabhains"
+        tags:
+          - "trad"
+          - "session"
+          - "live-music"
+          - "weekly"
+        raw: "**Ó Súilleabháin's** — 21 Washington Street, Cork, T12 Hf95, 7:30 pm.
+
+
+          Printed in the full gig guide under Fri Aug 21, Fri Aug 28 and Fri Sep 4."
+        summary: "Friday is the one night Ó Súilleabháin's starts at half seven rather than
+
+          eight, and the only Cork session at that time."
+        confidence: "high"
+      - id: "trad/lee-sessions#737defdae3"
+        sourceId: "trad/lee-sessions"
+        title: "Trad session at Ó Súilleabháin's"
+        occurrence:
+          kind: "recurring"
+          pattern: "Wednesdays, Thursdays, Saturdays and Sundays at 8:00 pm"
+          startTime: "20:00"
+        status: "scheduled"
+        venue:
+          sourceId: "trad/o-suilleabhains"
+        tags:
+          - "trad"
+          - "session"
+          - "live-music"
+          - "weekly"
+        raw: "**Ó Súilleabháin's** — 21 Washington Street, Cork, T12 Hf95, 8:00 pm.
+
+
+          Printed in the full gig guide twelve times, from Wed Aug 19 through to
+
+          Sun Sep 6."
+        summary: "Four nights a week at the Washington Street pub, which between this and its
+
+          Friday slot is the busiest venue in the guide after Sin É."
+        confidence: "high"
+      - id: "trad/lee-sessions#06aabf747f"
+        sourceId: "trad/lee-sessions"
+        title: "Wednesday trad session at The Gables"
+        occurrence:
+          kind: "recurring"
+          pattern: "Wednesdays at 9:30 pm"
+          startTime: "21:30"
+        status: "scheduled"
+        venue:
+          sourceId: "trad/the-gables"
+        tags:
+          - "trad"
+          - "session"
+          - "late-night"
+          - "weekly"
+        raw: "**The Gables** — Douglas St., 9:30 pm.
+
+
+          Printed in the full gig guide nineteen times, every Wednesday from
+
+          Wed Aug 19 through to Wed Dec 23."
+        summary: "The late Wednesday session on Douglas Street, an award-winning one — the
+
+          pub holds an Oireachtas na Gaeilge music award for it."
+        confidence: "high"
+      - id: "trad/lee-sessions#cc4fbdde68"
+        sourceId: "trad/lee-sessions"
+        title: "Sunday trad session at The Gables"
+        occurrence:
+          kind: "recurring"
+          pattern: "Sundays at 9:00 pm"
+          startTime: "21:00"
+        status: "scheduled"
+        venue:
+          sourceId: "trad/the-gables"
+        tags:
+          - "trad"
+          - "session"
+          - "late-night"
+          - "weekly"
+        raw: "**The Gables** — Douglas St., 9:00 pm.
+
+
+          Printed in the full gig guide nineteen times, every Sunday from Sun Aug 23
+
+          through to Sun Dec 27."
+        summary: "The Gables' Sunday session, half an hour earlier than its Wednesday one and
+
+          listed further ahead than anything else in the guide."
+        confidence: "high"
+      - id: "trad/lee-sessions#dcbc2b90d4"
+        sourceId: "trad/lee-sessions"
+        title: "Thursday trad session at An Spailpín Fánach"
+        occurrence:
+          kind: "recurring"
+          pattern: "Thursdays at 9:30 pm"
+          startTime: "21:30"
+        status: "scheduled"
+        venue:
+          sourceId: "trad/an-spailpin-fanach"
+        tags:
+          - "trad"
+          - "session"
+          - "late-night"
+          - "weekly"
+        raw: "**An Spailpín Fánach** — 28 South Main St., Cork, 9:30 pm.
+
+
+          Printed in the full gig guide under Thu Aug 20 only; the guide holds no
+
+          later date for this pub."
+        summary: "Thursday night at the 1779 pub across from the old Beamish brewery, one of
+
+          the two or three sessions a Cork musician would name first."
+        confidence: "medium"
+      - id: "trad/lee-sessions#855c61bfd4"
+        sourceId: "trad/lee-sessions"
+        title: "Sunday afternoon trad session at Charlie's"
+        occurrence:
+          kind: "recurring"
+          pattern: "Sundays at 3:30 pm"
+          startTime: "15:30"
+        status: "scheduled"
+        venue:
+          sourceId: "trad/charlies"
+        tags:
+          - "trad"
+          - "session"
+          - "matinee"
+          - "weekly"
+        raw: "**Charlie's** — Union Quay, 3:30 pm.
+
+
+          Printed in the full gig guide under Sun Aug 23 and Sun Aug 30."
+        summary: "The earliest session in the city, and the one to catch if you want to hear
+
+          Cork playing in daylight: a Sunday afternoon on Union Quay that has been
+
+          running for over twenty-five years."
+        confidence: "high"
+      - id: "trad/lee-sessions#237b9d276e"
+        sourceId: "trad/lee-sessions"
+        title: "Sunday trad session at The Wilton Bar"
+        occurrence:
+          kind: "recurring"
+          pattern: "Sundays at 7:00 pm"
+          startTime: "19:00"
+        status: "scheduled"
+        venue:
+          name: "The Wilton Bar"
+          area: "Wilton"
+          address:
+            locality: "Wilton"
+            city: "Cork"
+            country: "Ireland"
+        tags:
+          - "trad"
+          - "session"
+          - "live-music"
+          - "weekly"
+        raw: "**The Wilton Bar** — Wilton, 7:00 pm.
+
+
+          Printed in the full gig guide under Sun Aug 23 and Sun Aug 30."
+        summary: "The one session in the guide outside the city centre, in the suburb of
+
+          Wilton on a Sunday evening. No page for this pub could be found anywhere,
+
+          so the guide is the only record of it."
+        confidence: "medium"
+    notes: "The whole guide, read in one fetch, and it is the load-bearing source for this
+
+      category exactly as the hint says. Reached first time, 200, and live: the first
+
+      day heading it printed was \"Mon Aug 17\", the day it was fetched.
+
+
+      **Coverage: complete, nothing truncated.** The guide printed 60 day headings
+
+      from Mon Aug 17 to Sun Dec 27 2026 carrying **110 dated rows**, and those 110
+
+      rows are recorded above as **16 recurring events**. That is the whole guide,
+
+      not a sample. Grouping was mechanical — one event per distinct (venue, printed
+
+      start time) pair — and the sixteen groups are:
+
+
+      | venue | printed time | rows | last date printed |
+
+      | --- | --- | --- | --- |
+
+      | Sin É | 6:00 pm | 8 | Tue Aug 25 |
+
+      | Sin É | 9:00 pm | 6 | Tue Aug 25 |
+
+      | Sin É | 5:30 pm (Sun) | 1 | Sun Aug 23 |
+
+      | Sin É | 8:30 pm (Sun) | 1 | Sun Aug 23 |
+
+      | Clancy's | 8:00 pm | 4 | Mon Aug 24 |
+
+      | JJ Walsh's | 8:00 pm | 4 | Mon Sep 7 |
+
+      | JJ Walsh's | 7:00 pm | 4 | Sun Aug 30 |
+
+      | Old Oak | 8:00 pm | 19 | Wed Sep 30 |
+
+      | Old Oak | 7:00 pm | 5 | Sun Sep 20 |
+
+      | Ó Súilleabháin's | 7:30 pm | 3 | Fri Sep 4 |
+
+      | Ó Súilleabháin's | 8:00 pm | 12 | Sun Sep 6 |
+
+      | The Gables | 9:30 pm | 19 | Wed Dec 23 |
+
+      | The Gables | 9:00 pm | 19 | Sun Dec 27 |
+
+      | An Spailpín Fánach | 9:30 pm | 1 | Thu Aug 20 |
+
+      | Charlie's | 3:30 pm | 2 | Sun Aug 30 |
+
+      | The Wilton Bar | 7:00 pm | 2 | Sun Aug 30 |
+
+
+      **No `end` is set on any of them.** The last date a venue appears is that
+
+      venue's data-entry horizon, not the end of its session — Sin É plays seven
+
+      nights a week and stops appearing on 25 August, while The Gables has entered
+
+      dates to 27 December. Copying those into `occurrence.end` would retire live
+
+      weekly sessions off the site in a fortnight. No `start` either: these have been
+
+      running for years and the first printed date is simply today.
+
+
+      **The guide prints no event titles, no links, no images and no prices.** Titles
+
+      above are composed from the venue and the night or time, because that is all
+
+      the guide gives and four Sin É rows need telling apart. No `url` — there is not
+
+      a single anchor in the gig guide, only day headings, venue names, address lines
+
+      and times, so the site will fall back to this listings page. And **no `price`
+
+      on any row**: the hint says everything here is free and unticketed, and it very
+
+      likely is, but the page itself never uses the word \"free\" or names an
+
+      admission, so asserting `price.free` would be inference rather than
+
+      observation. The Pure Cork and Gables observations below do print FREE and are
+
+      priced accordingly.
+
+
+      Encoding, confirmed: the page declares `charset=iso-8859-1` and its static
+
+      prose really is Latin-1 (`bodhráns`, `Chorcaí` as single bytes), but the
+
+      database-driven venue names in the guide are UTF-8 bytes served inside it —
+
+      `c3 89`, `c3 93`, `c3 ba`, `c3 a1`, `c3 ad`. Decoded as Latin-1 and repaired,
+
+      the names are `Sin É`, `Ó Súilleabháin's` and `An Spailpín Fánach`, which match
+
+      this catalogue character for character. The stray `'>` prefix on every address
+
+      line is an unclosed `<p style='font-size: 15px;>'` and was stripped as the hint
+
+      instructs.
+
+
+      Year: the guide prints no year at all. Every one of the 60 day headings carries
+
+      a weekday, and all 60 match a 2026 reading (checked programmatically), so the
+
+      inference is confirmed rather than assumed.
+
+
+      Three things for stage 1:
+
+
+      1. **The guide's own prose disagrees with its guide.** The About text names
+
+      \   \"The Corner House (Coburg Street), Sin É (Coburg Street), The Oliver
+
+      \   Plunkett (Oliver Plunkett St) The Long Valley (Winthrop St)\" as its venues,
+
+      \   but the current dated guide contains **no Corner House, no Oliver Plunkett
+
+      \   and no Long Valley rows at all**. The nine venues it actually lists are Sin
+
+      \   É, Clancy's, JJ Walsh's, Old Oak, Ó Súilleabháin's, The Gables, An Spailpín
+
+      \   Fánach, Charlie's and The Wilton Bar. Three catalogue entries lean on this
+
+      \   guide for their \"dated signal\" and will get nothing from it.
+
+      2. **Ó Súilleabháin's Eircode is printed `T12 Hf95`** — the guide's own casing.
+
+      \   The catalogue's `T12 HF95` is the correct form; recorded verbatim in `raw`
+
+      \   only.
+
+      3. **Overlap with venue sources, deliberate and worth a curator's eye.** Eight
+
+      \   of these sixteen sessions are also listed by the venue's own source and so
+
+      \   appear twice in this run, once here with `venue` set and once under the
+
+      \   venue: Ó Súilleabháin's ×2 and JJ Walsh's ×2 (both on Pure Cork), Old Oak ×2
+
+      \   (Pure Cork), and The Gables ×2 (its own gig guide). Sin É, Charlie's and An
+
+      \   Spailpín Fánach are also covered by their own sources but from prose rather
+
+      \   than the same rows. Each observation records what its own source said, which
+
+      \   is the contract, but nothing downstream de-duplicates across sources — so
+
+      \   compile will draw two cards for the same physical session. Flagged rather
+
+      \   than silently suppressed on either side.
+
+
+      Footer, as warned: `pulsesoftradition.com` is still linked and is now an
+
+      Indonesian gambling site. Not followed. The footer also still reads \"© 2015\".
+
+
+      **Two tags coined here, and this is the note for both.** Bristol's 144-tag
+
+      vocabulary has `folk` and `open-mic` but nothing for an Irish session, and the
+
+      distinction matters enough in Cork to be filterable:
+
+
+      - **`trad`** — Irish traditional music specifically, as against `folk`, which in
+
+      \  Bristol's usage covers singer-songwriters and folk-revival gigs. Applied to 46
+
+      \  events in this file. `folk` is kept alongside it only on the two Cork Singers'
+
+      \  Club rows, where the material genuinely is both.
+
+      - **`session`** — the form, not the genre: an open circle of musicians playing
+
+      \  for each other rather than a billed performance to an audience, usually with
+
+      \  no admission and no line-up announced in advance. Applied to 45 events. It is
+
+      \  the single most useful filter in this category, because it separates \"turn up
+
+      \  and there will be tunes\" from \"a named act is playing\". Deliberately also
+
+      \  applied to the Gables' non-trad Thursday session and withheld from the karaoke
+
+      \  and residency rows, which is exactly the line it is meant to draw.
+
+
+      A third, `karaoke`, is coined once in `trad/old-oak` and justified there.
+
+      Everything else in this file reuses Bristol's vocabulary — twenty existing tags,
+
+      no near-duplicates coined."
+  - sourceId: "trad/thesession-cork"
+    fetch:
+      ok: true
+      url: "https://thesession.org/sessions/nearby?latlon=51.8985,-8.4756&radius=15"
+      status: 200
+    events:
+      - id: "trad/thesession-cork#e1e340c712"
+        sourceId: "trad/thesession-cork"
+        title: "Saturday afternoon session at Cork City Library"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Saturday, 3:30pm to 5pm"
+          startTime: "15:30"
+        status: "scheduled"
+        venue:
+          name: "Cork City Library"
+          area: "City Centre"
+          address:
+            street: "61 Grand Parade"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://thesession.org/sessions/7951"
+        tags:
+          - "trad"
+          - "session"
+          - "drop-in"
+          - "beginners"
+        raw: "**Cork City Library**, 61 Grand Parade, Cork. Schedule: Saturday.
+
+
+          > \"A session every Saturday from 4pm to 5:15pm, organised by Creative
+
+          > Tradition: https://www.creativetradition.ie/\"
+
+
+          > \"Sessions are now from 3:30pm to 5pm. Everyone welcome!\" — the most
+
+          > recent of the page's two comments."
+        summary: "The one session in the category that is not in a pub: an open Saturday
+
+          afternoon session in the city library on Grand Parade, run by Creative
+
+          Tradition and explicitly open to anyone."
+        confidence: "medium"
+      - id: "trad/thesession-cork#2c3e28d79e"
+        sourceId: "trad/thesession-cork"
+        title: "Tuesday session at Franciscan Well"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Tuesday"
+          startTime: "19:30"
+        status: "scheduled"
+        venue:
+          sourceId: "food-drink/franciscan-well"
+        url: "https://thesession.org/sessions/7016"
+        tags:
+          - "trad"
+          - "session"
+          - "brewery"
+          - "weekly"
+        raw: "**Franciscan Well**, 14b North Mall, Cork. Schedule: Tuesday.
+
+
+          > \"I don't know if this is an open session of not, but it's every Tuesday
+
+          > at 8:30pm.\" — 7 years ago
+
+
+          > \"Tuesdays at 7:30pm\" — 1 year ago
+
+
+          > \"We were welcomed when we visited this June. We had been told about it
+
+          > the night before by Hughie Kennedy, who plays the box there.\" — 2 months
+
+          > ago, the page's most recent comment."
+        summary: "A Tuesday session in the North Mall brewpub, confirmed as welcoming by a
+
+          visitor two months ago. The start time has drifted in the comments from
+
+          8:30 to 7:30; the more recent reading is recorded."
+        confidence: "medium"
+      - id: "trad/thesession-cork#842b281a7f"
+        sourceId: "trad/thesession-cork"
+        title: "Monday session at Gaia"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Monday, during university term only — not on holidays or midterm breaks"
+          startTime: "19:00"
+        status: "scheduled"
+        venue:
+          name: "Gaia"
+        url: "https://thesession.org/sessions/8023"
+        tags:
+          - "trad"
+          - "session"
+          - "young-people"
+          - "beginners"
+        raw: "**Gaia**, Cork. Schedule: Monday.
+
+
+          > \"The session is held by the UCC TradSoc. Therefore, it's mainly
+
+          > university students playing, but everyone's welcome. They also learn a
+
+          > new set for each session. Happening only during university times, not on
+
+          > any holidays or midterm breaks.\"
+
+
+          > \"It's a 7pm start, according to the bar's Facebook page.\" — 1 year ago,
+
+          > the page's most recent comment."
+        summary: "The UCC TradSoc's Monday session — mostly students, a new set learned each
+
+          week, and open to anyone. It runs in university term only, so it is dark
+
+          for the summer and back with the academic year."
+        confidence: "medium"
+      - id: "trad/thesession-cork#0dbc7b167b"
+        sourceId: "trad/thesession-cork"
+        title: "Tuesday session at Blarney Castle Hotel"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Tuesday from 9:30 on till around 1:00am"
+          startTime: "21:30"
+        status: "scheduled"
+        venue:
+          sourceId: "trad/blarney-castle-hotel"
+        url: "https://thesession.org/sessions/2618"
+        tags:
+          - "trad"
+          - "session"
+          - "late-night"
+          - "weekly"
+        raw: "**Blarney Castle Hotel**, The Square, Blarney, Cork. Schedule: Tuesday.
+
+
+          > \"Very nice and welcoming session every Tuesday from 9:30 on till around
+
+          > 1:00am!!!\"
+
+
+          > \"Session still going strong after so many years. Still laid-back and
+
+          > welcoming (although still fairly energetic tunes). Lots of nice polkas
+
+          > and slides since many musicians travel here from the Newmarket/Kanturk
+
+          > direction.\"
+
+
+          > \"Confirmed by management (May, 2024), still going on Tuesday nights.\" —
+
+          > 2 years ago, the page's most recent comment."
+        summary: "The only session in this category outside the city, in the hotel bar on
+
+          Blarney square, running late into the night. Polkas and slides from the
+
+          Newmarket and Kanturk direction rather than a city session."
+        confidence: "medium"
+    notes: "Both pages of the query read, with a browser user-agent as the hint requires —
+
+      a default fetcher does get a 403 here. **13 results across the two pages**, and
+
+      the hint's geography is exactly right: page 1 ends with Blarney and Cobh, page 2
+
+      is Cobh and Crosshaven.
+
+
+      Kept, as instructed: the eight city results plus Blarney. **Dropped as outside
+
+      the location: The Roaring Donkey (Cobh), Great Island Community Centre (Cobh),
+
+      The Rob Roy (Cobh), Cronin's Pub (Crosshaven)** — four of the thirteen.
+
+
+      The nearby index itself carries **no schedule and no times at all**, only a
+
+      venue name, who added it and when it was last updated. Everything usable is one
+
+      click away on the per-venue page, and with nine in-area results this is the thin
+
+      index of §3, so I opened **six** of them (`/7951` Cork City Library, `/404` Sin
+
+      É, `/7016` Franciscan Well, `/405` The Gables, `/8023` Gaia, `/2618` Blarney
+
+      Castle Hotel). The other three in-area results — `/150`, `/1969`, `/620` — are
+
+      the catalogued URLs of `trad/an-spailpin-fanach`, `trad/the-corner-house` and
+
+      `trad/charlies` and are recorded under those sources instead.
+
+
+      **Only four events are recorded here, and that is deliberate.** Six of the nine
+
+      in-area venues have their own source in this category, so their sessions belong
+
+      to those observations rather than being copied into the aggregator. What is left
+
+      is the four this aggregator is the only witness for: Cork City Library,
+
+      Franciscan Well, Gaia and Blarney Castle Hotel. The last of those has a
+
+      catalogue entry (`trad/blarney-castle-hotel`) but its own site publishes nothing
+
+      at all, so the session is recorded here with `venue.sourceId` pointing at it.
+
+
+      Nothing on this source is dated — every row is a weekday pattern — so all four
+
+      are `recurring` with no synthesised date, as the hint instructs. The hint is
+
+      also right that the times live in the comments and not the structured fields: in
+
+      all four cases `Schedule:` gave only weekday names and the start time came from
+
+      the newest comment that stated one.
+
+
+      Freshness, per the hint's instruction to check \"Last updated\":
+
+
+      - Franciscan Well — comment 2 months ago, and it confirms the session in person.
+
+      - Cork City Library — added 3 years ago, both comments 3 years old. Nothing
+
+      \  contradicts it, but nobody has touched it since either.
+
+      - Gaia — last comment 1 year ago.
+
+      - Blarney Castle Hotel — 2 years, as the hint warned, though that comment is
+
+      \  management confirming it.
+
+
+      All four are `confidence: medium` for that reason. None gets a `price`: the only
+
+      occurrence of the word \"free\" on any of these pages is The Session's own
+
+      \"Membership is free\" footer.
+
+
+      For stage 1:
+
+
+      - **Gaia's address is still unusable.** The page prints `11:11 98 Street, Cork`.
+
+      \  A commenter explains that \"98 Street\" is genuine and commemorates the 1798
+
+      \  rebellion, but the `11:11` prefix resolves to no premises, so no `address` is
+
+      \  set on the event — only `venue.name`. The catalogue's decision not to
+
+      \  catalogue Gaia separately still looks right.
+
+      - **Franciscan Well is catalogued in another category** as
+
+      \  `food-drink/franciscan-well`, so the event points at that id rather than
+
+      \  repeating a name. Worth knowing that a food-drink source hosts a weekly trad
+
+      \  session.
+
+      - **Cork City Library has no source anywhere in this catalogue.** It is a real,
+
+      \  open, weekly, free session in a civic building and currently reachable only
+
+      \  through this aggregator; `literature` catalogues the library service's
+
+      \  festivals but no `education` or `literature` source for the library itself.
+
+      - The Session's page for An Spailpín Fánach gives its street as **29** South
+
+      \  Main Street, against the catalogue's 28 — the same disagreement the catalogue
+
+      \  already records, unchanged."
+  - sourceId: "trad/cork-heritage-pubs"
+    fetch:
+      ok: true
+      url: "https://corkheritagepubs.com/traditional-irish-music-in-cork/"
+      status: 200
+    events: []
+    notes: "Reached on the second attempt and recorded as listing nothing, which is the
+
+      honest result rather than a failure.
+
+
+      The 403 the hint predicts is real: a default fetcher is refused, a browser
+
+      user-agent gets 200 and 138 KB. Worth keeping in the hint — this is the second
+
+      run in a row to need it.
+
+
+      **The page carries no listings of any kind** — no dates, no times, no event
+
+      rows, no links to events. It is an editorial page: five paragraphs on what a
+
+      Cork session is and is not (\"Real Irish music sessions never take place on a
+
+      stage (unless there's a flood!)\"), and then three short venue blurbs. Its only
+
+      trad content is one sentence of schedule, about Sin É:
+
+
+      > \"Sin É – home to Cork's longest running traditional music session … With live
+
+      > trad 7 nights a week, this house has been hosting music sessions since the
+
+      > early 1970s when the doors of many of the city's pubs were closed to
+
+      > traditional music.\"
+
+
+      That is the same claim, in weaker form, that `trad/sin-e` records from
+
+      `/sin-e/` on this same site — where the pub states its nights and times in its
+
+      own words. Recording it here as well would put a second, vaguer card on the site
+
+      for the same session, so it is left to that observation and noted here instead.
+
+
+      The hint's warning holds exactly: the other two pubs named on this page are
+
+      **Crane Lane Theatre** (\"live music & DJ 7 nights a week\", \"late night dancing\")
+
+      and **Vicarstown Bar** (\"Open late Thursday, Friday & Saturday with resident
+
+      DJs\"). Neither is trad and neither was recorded. Both would belong to music or
+
+      nightlife if a curator wants them.
+
+
+      One correction for stage 1: the hint says \"The per-pub pages at /<slug>/ are the
+
+      detailed ones\", which is true, but this page **does not link them** — the
+
+      \"check out the links below\" sentence is followed by plain headings rather than
+
+      anchors, and the only pub link on the page is a \"Visit Sin É\" style CTA. The
+
+      `/sin-e/` path had to be known in advance. It works, and the catalogue already
+
+      holds it."
+  - sourceId: "trad/sin-e"
+    fetch:
+      ok: true
+      url: "https://corkheritagepubs.com/sin-e/"
+      status: 200
+    events:
+      - id: "trad/sin-e#d42b06f2d9"
+        sourceId: "trad/sin-e"
+        title: "Trad session at Sin É"
+        occurrence:
+          kind: "recurring"
+          pattern: "Non-stop traditional music 7 days a week, from 6 to close Monday to Saturday and from 5 on Sunday"
+          startTime: "18:00"
+        status: "scheduled"
+        tags:
+          - "trad"
+          - "session"
+          - "live-music"
+          - "heritage"
+        raw: "> \"Non-stop traditional music 7 days a week from 6 – close Monday –
+
+          > Saturday, and from 5 on Sunday. Music and Drink are the focus but please
+
+          > feel free to bring some food with you! (hot food not allowed)\"
+
+
+          > \"We host a Trad Session 7 nights a week at 7pm – truly a must for any
+
+          > music fan!\""
+        summary: "Sin É's standing session, every night of the week — the longest-running in
+
+          Cork and the one the rest of the city is measured against. Music has been
+
+          played here without a break since the 1950s and 60s, when most Cork pubs
+
+          had closed their doors to it."
+        description: "The long-established home of Irish traditional music in Cork city, the
+
+          Irish words 'Sin é' literally translate to mean 'That's it', in reference
+
+          to the funeral parlour located next door. Sin é is widely viewed as the
+
+          best traditional pub in Cork!
+
+
+          Non-stop traditional music 7 days a week from 6 – close Monday – Saturday,
+
+          and from 5 on Sunday. Music and Drink are the focus but please feel free to
+
+          bring some food with you! (hot food not allowed)
+
+
+          Voted one of the best places in the world to spend St Patrick's Day.
+
+
+          Having first opened its doors in 1889, the pub has always been an
+
+          intriguing spot – to say the least – and has a very devout and widespread
+
+          following of people, patrons that hail from every different sort of
+
+          background.
+
+
+          The Sin É doesn't tolerate egos particularly well and respect is shown to
+
+          all who show respect to it and its patrons. Roots run deep here, with
+
+          generations of families from the locality mixing easily with newcomers and
+
+          tourists. The truth is that you can't be a blow in at the Sin é – you
+
+          either dig what's going on or you don't.
+
+
+          Traditional music has always been played at the pub, even when it was seen
+
+          as uncool in the 1950s, 60s and 70s; and unlike the tourist sessions that
+
+          pop up in other pubs during the summer, the Sin É has had live Irish music
+
+          every week for over 50 years now. We host a Trad Session 7 nights a week at
+
+          7pm – truly a must for any music fan! The best of Irish is always heard
+
+          every Tuesday at 9.30pm as well as Fridays and Sundays at 6.30pm, whatever
+
+          night of the week you arrive – good music is guaranteed.
+
+
+          The Sin É loves Stout, Horse racing, Cheltenham week, Traditional music,
+
+          Reggae (it started in Cork, just ask the bar man!), Rock and Blues,
+
+          Conversation, Singing and maintaining folks' hopes and dreams. We're very
+
+          much a community, so cross the river Lee and join us!"
+        confidence: "medium"
+      - id: "trad/sin-e#e28c9e4eaa"
+        sourceId: "trad/sin-e"
+        title: "Tuesday night session at Sin É"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Tuesday at 9.30pm"
+          startTime: "21:30"
+        status: "scheduled"
+        tags:
+          - "trad"
+          - "session"
+          - "late-night"
+          - "weekly"
+        raw: "> \"The best of Irish is always heard every Tuesday at 9.30pm as well as
+
+          > Fridays and Sundays at 6.30pm, whatever night of the week you arrive –
+
+          > good music is guaranteed.\""
+        summary: "The pub's own pick of its week: Tuesday at half nine, the late session the
+
+          regular players name first."
+        confidence: "high"
+      - id: "trad/sin-e#7473209082"
+        sourceId: "trad/sin-e"
+        title: "Friday and Sunday sessions at Sin É"
+        occurrence:
+          kind: "recurring"
+          pattern: "Fridays and Sundays at 6.30pm"
+          startTime: "18:30"
+        status: "scheduled"
+        tags:
+          - "trad"
+          - "session"
+          - "live-music"
+          - "weekly"
+        raw: "> \"The best of Irish is always heard every Tuesday at 9.30pm as well as
+
+          > Fridays and Sundays at 6.30pm, whatever night of the week you arrive –
+
+          > good music is guaranteed.\""
+        summary: "The two early-evening sessions the pub singles out alongside its Tuesday,
+
+          both starting at half six."
+        confidence: "medium"
+    notes: "Reached with a browser user-agent (403 to a default fetcher, as the hint says).
+
+      The catalogued URL is right and is the pub's fullest page anywhere.
+
+
+      **Nothing dated here, and the hint is explicit that a run finding no dated
+
+      events at Sin É is correct.** What the page carries instead is the pattern in
+
+      the pub's own first person, and that is recorded as three recurring events
+
+      rather than one, because the page states three different things:
+
+
+      - \"Non-stop traditional music 7 days a week from 6 – close Monday – Saturday,
+
+      \  and from 5 on Sunday\"
+
+      - \"We host a Trad Session 7 nights a week at 7pm\"
+
+      - \"The best of Irish is always heard every Tuesday at 9.30pm as well as Fridays
+
+      \  and Sundays at 6.30pm\"
+
+
+      **The first two contradict each other on one page**: 6pm Monday to Saturday in
+
+      one paragraph, 7pm seven nights a week in another. The recorded pattern follows
+
+      the 6pm / 5pm sentence because the Lee Sessions guide independently prints 6:00
+
+      pm for Sin É on six consecutive nights and 5:30 pm on the Sunday, which agrees
+
+      with it and not with the 7pm claim. That is why the first event is
+
+      `confidence: medium` and the 7pm wording is kept in `raw` rather than discarded.
+
+
+      The third statement is recorded as its own two events. The Tuesday 9.30pm is
+
+      `high` — the pub, the Lee Sessions guide (9:00 pm Tuesdays) and The Session all
+
+      name Tuesday as the strong night, and a Lee Sessions late session is listed on
+
+      it. The Friday/Sunday 6.30pm is `medium`: the guide prints 6:00 pm on Fridays
+
+      and 5:30 pm on Sundays, half an hour off in both cases, and I have not tried to
+
+      settle which is right.
+
+
+      The `description` on the first event is this page's own body copy in full,
+
+      trimmed only of the local-history paragraphs about the wheelwright, the barber's
+
+      chairs and the Austin Clarke carving, which are about the building rather than
+
+      the music. It is the venue's page rather than an event page — there is no event
+
+      page for a standing session — and it came from the one fetch, not an extra one.
+
+
+      No `price`: the page never mentions admission. Its only use of \"free\" is \"please
+
+      feel free to bring some food with you\".
+
+
+      Corroboration, from a page fetched today for `trad/thesession-cork`
+
+      (`thesession.org/sessions/404`, last updated three weeks ago). It gives Sin É's
+
+      Schedule as all seven days and phone (021) 450 2266, matching this page. Two of
+
+      its comments are worth a curator's attention rather than an event row:
+
+
+      > \"Sin É has a well deserved reputation as the finest traditional pub in Cork
+
+      > City. The sessions are still happening, beginning at 5:30 on Sundays and at
+
+      > 6:30 every other night of the week. All sessions end at 11:00 P.M.\" — January
+
+      > 2026
+
+
+      > \"Nothing. Nada. Thursday night. Pity.\" — 9 months ago
+
+
+      So there are now **three** readings of the weeknight start time in circulation —
+
+      6:00 (Lee Sessions), 6:30 (The Session) and 7:00 (this page's second paragraph)
+
+      — and one report of the session simply not happening on a Thursday. All three
+
+      sources agree on the Sunday being earlier. Nothing here is worth guessing over;
+
+      it is worth a curator ringing the pub once."
+  - sourceId: "trad/an-spailpin-fanach"
+    fetch:
+      ok: true
+      url: "https://thesession.org/sessions/150"
+      status: 200
+    events:
+      - id: "trad/an-spailpin-fanach#86ab688f3f"
+        sourceId: "trad/an-spailpin-fanach"
+        title: "Trad session at An Spailpín Fánach"
+        occurrence:
+          kind: "recurring"
+          pattern: "Sessions are Thursday, Friday and Saturday starting at 9:30, and Sundays during the summer"
+          startTime: "21:30"
+        status: "scheduled"
+        tags:
+          - "trad"
+          - "session"
+          - "late-night"
+          - "weekly"
+        raw: "**An Spailpín Fánach**, 29 South Main Street, Cork. Schedule: Sunday,
+
+          Thursday, Wednesday. Phone 086 806 2724.
+
+
+          > \"Confirmed: Sessions are Thursday, Friday and Saturday starting at 9:30
+
+          > and Sunday's during the summer. Cork Singers' Club (unaccompanied singing
+
+          > - all are welcome, but no instruments) is Sunday at 7:30, but they take
+
+          > the summers off. The season is October - June. … John O'Connor, the pub's
+
+          > owner for over 30 years, has announced his plans to retire and has put
+
+          > the pub up for sale. Hopefully the new owners will continue the
+
+          > tradition.\" — 10 months ago, the page's most recent comment
+
+
+          > \"Wednesday, 9.30pm / Thursday, approx. 8pm (Comhaltas group playing a
+
+          > slower style), 9.30pm core group starting the faster part of the evening
+
+          > / Sunday, 7pm is sean nós singing only, no instruments. All three are
+
+          > very welcoming for any level.\" — 3 years ago
+
+
+          > \"Sessions here every night from 9.30 … Totally different people from one
+
+          > night to the next.\" — 23 years ago"
+        summary: "A late session in the 1779 pub across from the old Beamish brewery, with a
+
+          different set of players on each night of the week and a reputation as one
+
+          of the two or three sessions a Cork musician names first. Half nine is the
+
+          standing start."
+        confidence: "medium"
+    notes: "The catalogued URL is The Session's page for the pub, and it is the right
+
+      choice — the obvious domain is an unrelated souvenir shop and the pub's own
+
+      channel is Facebook. Reached first time with a browser user-agent, 200, last
+
+      updated 10 months ago.
+
+
+      **One event, not several, and the reasoning matters.** The page carries a
+
+      structured `Schedule:` of Sunday, Thursday, Wednesday, and sixteen comments
+
+      spanning 24 years that name between three and seven nights a week. The most
+
+      recent comment (10 months ago) is the only one that says \"Confirmed\" and it
+
+      gives Thursday, Friday and Saturday at 9:30 plus Sundays in summer. That is
+
+      what is recorded, verbatim, as the pattern. It **disagrees with the structured
+
+      Schedule field** on this same page, which still lists Wednesday and omits
+
+      Friday and Saturday — hence `confidence: medium`. The Lee Sessions guide has
+
+      the pub on Thursday at 9:30 only, which agrees on the night and the time but
+
+      not the count.
+
+
+      Everything on the page is a weekday pattern; nothing is dated, so nothing was
+
+      turned into a date. No price is mentioned anywhere.
+
+
+      **The Sunday night is not recorded here**, and this is the judgement the
+
+      catalogue hint asks for. The hint says to decide from the month which of the two
+
+      Sunday things is on. Today is 17 August, and this page states plainly that the
+
+      Cork Singers' Club \"take the summers off. The season is October - June\" — so the
+
+      Sunday singing is dark right now and the summer Sunday session is the ordinary
+
+      one, already inside the pattern above. The Singers' Club's own Sunday night is
+
+      recorded once, under `trad/cork-singers-club`, with `venue.sourceId` pointing
+
+      back here.
+
+
+      Two things for stage 1, both from the page's own text:
+
+
+      1. **The pub is for sale.** \"John O'Connor, the pub's owner for over 30 years,
+
+      \   has announced his plans to retire and has put the pub up for sale.\" That is
+
+      \   ten months old and unresolved, and it is the single biggest risk to this
+
+      \   category's programme. Worth watching rather than acting on.
+
+      2. **Cork Yarnspinners**, \"a night of story and song\", is described on this page
+
+      \   as running here on the last Tuesday of each month from September to June.
+
+      \   That comment is 16 years old and nothing since mentions it, so no event was
+
+      \   recorded — but if it still runs it is a distinct, catalogueable thing that
+
+      \   nothing in this file covers.
+
+
+      The address disagreement the catalogue already records is unchanged: this page
+
+      says 29 South Main Street, the Lee Sessions guide and Pure Cork say 28."
+  - sourceId: "trad/the-corner-house"
+    fetch:
+      ok: true
+      url: "https://thesession.org/sessions/1969"
+      status: 200
+    events:
+      - id: "trad/the-corner-house#399f6a81f3"
+        sourceId: "trad/the-corner-house"
+        title: "Thursday sessions at The Corner House"
+        occurrence:
+          kind: "recurring"
+          pattern: "Thursdays — two sessions, one at 18h00 and the other at 20h30"
+          startTime: "18:00"
+        status: "scheduled"
+        timesText: "18h00 and 20h30"
+        tags:
+          - "trad"
+          - "session"
+          - "live-music"
+          - "weekly"
+        raw: "**The Corner House**, 7 Coburg Street, Cork. Schedule: Friday, Thursday,
+
+          Tuesday, Wednesday. Phone 021 450 0655.
+
+
+          > \"There were two sessions on Thursday when we were there in June 2026, one
+
+          > at 18h00, and the other at 20h30. Both were lovely.\" — 2 months ago, the
+
+          > page's most recent comment
+
+
+          > \"Sessions now take place at 9pm on Wednesdays with the Four Star Trio (Con
+
+          > Fada Ó Drisceoil, Johnny McCarthy & Pat 'Herring' Ahern), and at 6pm on
+
+          > Thursdays with Eoin Ó Riabhaigh, Johnny McCarthy & company.\" — 6 years ago
+
+
+          > \"No Thursday session at the moment, 11 Sep 2025\" — 11 months ago"
+        summary: "Thursday is the Corner House's main night and currently runs twice over,
+
+          early at six and again at half eight, forty metres from Sin É's door. It
+
+          lapsed for a while in 2025 and was back by June 2026."
+        confidence: "medium"
+      - id: "trad/the-corner-house#a28e8762ff"
+        sourceId: "trad/the-corner-house"
+        title: "First Friday session at The Corner House"
+        occurrence:
+          kind: "recurring"
+          pattern: "The first Friday of every month, from 6pm"
+          startTime: "18:00"
+        status: "scheduled"
+        tags:
+          - "trad"
+          - "session"
+          - "classic"
+          - "drop-in"
+        raw: "> \"The First Friday session (you've guessed it, takes place on the first
+
+          > Friday of every month) is a gathering of some of the famous players from
+
+          > Cork such as Matt Cranitch (fiddle), Con Fada (box), Colm Murphy
+
+          > (bodhran), Pat Herring (guitar), Dave Hennessy (box), Brid Cranitch
+
+          > (fiddle), Mick Daly (guitar) and many more (not all of them every time).
+
+          > This session tends to have a Sliabh Luachra slant but it is an open
+
+          > session. Worth a look/listen.\"
+
+
+          > \"The First Friday session start between 5pm - 6pm usually and plays on
+
+          > until after 9pm.\"
+
+
+          > \"There's also a session here on the first Friday of the month at 6pm.\" —
+
+          > 3 years ago"
+        summary: "Once a month, some of the best-known players in Cork — Matt Cranitch, Con
+
+          Fada, Colm Murphy among them — gather in the Corner House for an open
+
+          session with a Sliabh Luachra slant, and play from early evening until
+
+          after nine."
+        confidence: "medium"
+      - id: "trad/the-corner-house#4cee528f9d"
+        sourceId: "trad/the-corner-house"
+        title: "Wednesday session at The Corner House"
+        occurrence:
+          kind: "recurring"
+          pattern: "Wednesdays at 9pm"
+          startTime: "21:00"
+        status: "scheduled"
+        tags:
+          - "trad"
+          - "session"
+          - "late-night"
+          - "weekly"
+        raw: "> \"Sessions now take place at 9pm on Wednesdays with the Four Star Trio (Con
+
+          > Fada Ó Drisceoil, Johnny McCarthy & Pat 'Herring' Ahern)\" — 6 years ago
+
+
+          > \"Also tunes on Wednesdays and First Fridays.\" — 15 years ago
+
+
+          The page's structured Schedule still lists Wednesday."
+        summary: "A Wednesday-night session, historically led by the Four Star Trio. Still in
+
+          the venue's listed schedule but not confirmed in the comments for six years,
+
+          so worth ringing ahead for."
+        confidence: "low"
+    notes: "The catalogued URL is The Session's page rather than the pub's, correctly:
+
+      `thecornerhouse.ie` is a parked domain and the pub publishes on Facebook.
+
+      Reached first time with a browser user-agent, 200, last updated 2 months ago —
+
+      the freshest of the three catalogued Session pages in this file.
+
+
+      Nothing dated. Thirteen comments spanning 18 years, and the honest reading is
+
+      that this pub's schedule has moved a lot, so the three events above are graded
+
+      rather than flattened:
+
+
+      - **Thursday, `medium`.** The newest comment (2 months ago) reports two sessions
+
+      \  on a Thursday in June 2026, at 18h00 and 20h30. Both times are in `timesText`
+
+      \  verbatim and the earlier one is `startTime`; recording them as two events
+
+      \  would duplicate one night's card. Held at medium because it is one visitor's
+
+      \  report and because a comment 11 months ago said \"No Thursday session at the
+
+      \  moment, 11 Sep 2025\" — the night has evidently lapsed and returned.
+
+      - **First Friday, `medium`.** A monthly rather than weekly session and the most
+
+      \  distinctive thing this pub has: a named gathering of Cork's senior players
+
+      \  with a Sliabh Luachra slant. Last confirmed 3 years ago at 6pm; an older
+
+      \  comment says it starts between 5 and 6 and runs past 9. The pattern records
+
+      \  the 6pm reading and the range is kept in `raw`.
+
+      - **Wednesday, `low`.** Named in the page's structured Schedule, but the last
+
+      \  comment to confirm it is 6 years old. `low` rather than dropped because the
+
+      \  Schedule field is maintained and the page was updated two months ago.
+
+
+      Tuesday is also in the structured Schedule and was **not** recorded: the only
+
+      comments about it are \"Well there's no session here on a Tuesday\" and, from 11
+
+      years ago, \"not particularly welcoming\". A weekday in a structured field with
+
+      an explicit denial in the comments is not enough for a row.
+
+
+      No price anywhere on the page, so no `price` object is set on any of the three.
+
+      The First Friday is tagged `drop-in` rather than `free-entry`: the page calls it
+
+      \"an open session\", which says anyone may join in and play, not that admission is
+
+      free. Across this whole file `free-entry` appears only where a page printed the
+
+      word FREE.
+
+
+      One thing the catalogue expects that this page does not show: the hint notes Pure
+
+      Cork describes the programme as \"blues and trad mainly\", so a run should expect
+
+      blues nights here. **This page mentions no blues at all** — every one of the
+
+      thirteen comments is about trad — so nothing was tagged `blues`. The blues
+
+      claim's only source remains Pure Cork."
+  - sourceId: "trad/the-gables"
+    fetch:
+      ok: true
+      url: "https://www.thegablesbar.com/"
+      status: 200
+    events:
+      - id: "trad/the-gables#43b4ae96e8"
+        sourceId: "trad/the-gables"
+        title: "The Lee Sessions - Traditional Irish Music Session"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Wednesday, 9:30 pm"
+          startTime: "21:30"
+        status: "scheduled"
+        image: "https://www.peoplesrepublicofcork.com/eventguide/uploads/theleesessions_gables.jpg"
+        price:
+          free: true
+          text: "FREE"
+        tags:
+          - "trad"
+          - "session"
+          - "late-night"
+          - "free-entry"
+        raw: "**Wed Aug 19 — The Lee Sessions - Traditional Irish Music Session**
+
+          9:30 pm, FREE
+
+
+          Printed identically on 19 consecutive Wednesdays, from Wed Aug 19 to
+
+          Wed Dec 23."
+        summary: "The Gables' Wednesday session, free and starting late. The pub holds an
+
+          Oireachtas na Gaeilge award for it, and its walls are lined with Cork Folk
+
+          Festival posters going back decades."
+        description: "The Gables has been the recipient of many awards including Oireachtas na
+
+          Gaelige music award for pub session. The walls are lined with framed posters
+
+          from past Cork Folk Festivals, the history of the music of a city, with some
+
+          featured names of those appearing having played the Gables on many
+
+          occasions.
+
+
+          The session has been visited by travelling musicians from far and wide with
+
+          many diverse cultures. They have been tutored in all forms of music,
+
+          classical, jazz, folk and blues but in some way all are drawn to the allure
+
+          of traditional Irish music. They are drawn to the allure of the session. The
+
+          way in which a group of musicians can gather, some having met only for the
+
+          first time, pick a set of random tunes and yet all know exactly when to
+
+          start, change and stop, all in perfect unison. Yes the phenomena of the
+
+          musical gathering that it 'the session'."
+        confidence: "high"
+      - id: "trad/the-gables#9eef0fba18"
+        sourceId: "trad/the-gables"
+        title: "Gables Thursday Session"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Thursday, 8:00 pm"
+          startTime: "20:00"
+        status: "scheduled"
+        image: "https://www.peoplesrepublicofcork.com/eventguide/uploads/2022apr4345359.jpg"
+        price:
+          free: true
+          text: "FREE"
+        tags:
+          - "session"
+          - "open-mic"
+          - "free-entry"
+          - "drop-in"
+        raw: "**Thu Aug 20 — Gables Thursday Session**
+
+          8:00 pm, FREE
+
+
+          > \"Eclectic open music session. Made for people who want to share and
+
+          > encourage the sharing of music in others. Everyone welcome.\"
+
+
+          Printed identically on 18 consecutive Thursdays, from Thu Aug 20 to
+
+          Thu Dec 17."
+        summary: "The pub's own Thursday session, and deliberately not a trad one — an open,
+
+          eclectic session for anyone who wants to play or to get others playing."
+        description: "Eclectic open music session. Made for people who want to share and encourage
+
+          the sharing of music in others. Everyone welcome."
+        confidence: "high"
+      - id: "trad/the-gables#ac49da39b4"
+        sourceId: "trad/the-gables"
+        title: "The Lee Sessions - Traditional Irish Music Session (Sunday)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Sunday, 9:00 pm"
+          startTime: "21:00"
+        status: "scheduled"
+        image: "https://www.peoplesrepublicofcork.com/eventguide/uploads/theleesessions_gables.jpg"
+        price:
+          free: true
+          text: "FREE"
+        tags:
+          - "trad"
+          - "session"
+          - "late-night"
+          - "free-entry"
+        raw: "**Sun Aug 23 — The Lee Sessions - Traditional Irish Music Session**
+
+          9:00 pm, FREE
+
+
+          Printed identically on 19 consecutive Sundays, from Sun Aug 23 to
+
+          Sun Dec 27."
+        summary: "The Sunday half of the Gables' Lee Sessions trad slot, free and starting at
+
+          nine — the furthest-ahead listing anywhere in this category."
+        description: "The Gables has been the recipient of many awards including Oireachtas na
+
+          Gaelige music award for pub session. The walls are lined with framed posters
+
+          from past Cork Folk Festivals, the history of the music of a city, with some
+
+          featured names of those appearing having played the Gables on many
+
+          occasions.
+
+
+          The session has been visited by travelling musicians from far and wide with
+
+          many diverse cultures. They have been tutored in all forms of music,
+
+          classical, jazz, folk and blues but in some way all are drawn to the allure
+
+          of traditional Irish music. They are drawn to the allure of the session. The
+
+          way in which a group of musicians can gather, some having met only for the
+
+          first time, pick a set of random tunes and yet all know exactly when to
+
+          start, change and stop, all in perfect unison. Yes the phenomena of the
+
+          musical gathering that it 'the session'."
+        confidence: "high"
+    notes: "The best single venue source in this category, exactly as the hint says, and the
+
+      only one with a working dated gig guide of its own. One fetch of the root; the
+
+      guide is on it under `#gigs` and there are no other pages.
+
+
+      **Coverage: complete. 56 dated rows collapsed into 3 recurring events**, and
+
+      nothing was dropped. The guide ran from Wed Aug 19 to Sun Dec 27 2026 and holds
+
+      exactly three entries repeating verbatim — same title, same time, same body
+
+      text, same image — week after week:
+
+
+      | entry | night | time | rows | span |
+
+      | --- | --- | --- | --- | --- |
+
+      | The Lee Sessions - Traditional Irish Music Session | Wednesday | 9:30 pm | 19 | Aug 19 – Dec 23 |
+
+      | Gables Thursday Session | Thursday | 8:00 pm | 18 | Aug 20 – Dec 17 |
+
+      | The Lee Sessions - Traditional Irish Music Session | Sunday | 9:00 pm | 19 | Aug 23 – Dec 27 |
+
+
+      The hint's warning that these are three distinct things is right and is reflected
+
+      in the tags: the Wednesday and Sunday are Lee Sessions trad sessions, while the
+
+      **Thursday is the pub's own \"eclectic open music session\"** and is deliberately
+
+      *not* tagged `trad` — it is tagged `open-mic` and `drop-in` instead, which is
+
+      what the pub's own blurb describes.
+
+
+      The two Lee Sessions entries share a title character for character. To keep them
+
+      apart on a card the Sunday one carries a \"(Sunday)\" suffix in `title`; the
+
+      underlying titles are identical on the page and both are quoted verbatim in
+
+      `raw`. Their `occurrence.pattern` differs, so their content-derived ids will
+
+      differ regardless.
+
+
+      No `end` on any of them, and no `start`. December is where the pub has entered
+
+      data, not where the sessions stop — the same trap as the Lee Sessions guide.
+
+
+      `price.free: true` here is the page's own word: every one of the 56 rows reads
+
+      \"9:30 pm, FREE\". That is why these three carry a price and the Lee Sessions rows
+
+      do not.
+
+
+      Two mechanical notes:
+
+
+      - **No per-event links exist.** \"click for more info\" is
+
+      \  `<a onClick=\"open_div('blurb_0')\">` with no `href` — it toggles a hidden div
+
+      \  on the same page. `url` is therefore omitted on all three and the site will
+
+      \  fall back to this listings page, which is also the event's page.
+
+      - **`description` came at no extra cost.** Each entry's full body copy is
+
+      \  already in that hidden div on the index, so it was read in the same fetch. No
+
+      \  event page was opened, because there is none. The images live on
+
+      \  `peoplesrepublicofcork.com`; the markup prints them over `http://`, which
+
+      \  302s to `https://` and returns a real JPEG, so the `https://` form is recorded
+
+      \  (checked, 200, `image/jpeg`).
+
+
+      Corroboration from `thesession.org/sessions/405`, fetched today for
+
+      `trad/thesession-cork` and last updated three weeks ago: \"I stand corrected. The
+
+      sessions begin at 9:30 on Wednesday, 8:00 on Thursday, 9:00 on Sunday.\" That
+
+      agrees with this gig guide on all three nights and all three times, which is why
+
+      these are the only `high`-confidence recurring rows in the file with no caveat
+
+      attached.
+
+
+      For stage 1: the pub's own footer gives its address as **31-32** Douglas Street,
+
+      against the catalogue's 31 — it appears to occupy both numbers. It also states
+
+      \"Open 7 days a week from 5pm\", and the phone number (021) 431 3076."
+  - sourceId: "trad/charlies"
+    fetch:
+      ok: true
+      url: "https://thesession.org/sessions/620"
+      status: 200
+    events:
+      - id: "trad/charlies#166d08b694"
+        sourceId: "trad/charlies"
+        title: "Sunday afternoon session at Charlie's"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Sunday afternoon, 3:30pm"
+          startTime: "15:30"
+        status: "scheduled"
+        tags:
+          - "trad"
+          - "session"
+          - "matinee"
+          - "classic"
+        raw: "**Charlie's**, Union Quay, Cork. Schedule: Sunday, Thursday, Tuesday.
+
+          Phone 021 4318342.
+
+
+          > \"I just called to confirm and was told that the Sunday afternoon session
+
+          > *is* definitely happening; 3:30pm.\" — 2 months ago, the page's most recent
+
+          > comment
+
+
+          > \"The Sunday session in Charlie's has been going strong for 26 years now.
+
+          > Start time is 3:30pm.\"
+
+
+          > \"Session is still going 3-6 every Sunday.\"
+
+
+          > \"Fantastic session very friendly, Seanie o Driscoll plays there and he is
+
+          > amazing, great atmosphere with a burning fire and a good pint, for me its
+
+          > the start to a perfect Sunday\""
+        summary: "The earliest session in Cork and one of the longest-running — going on
+
+          thirty years of Sunday afternoons on Union Quay, in front of a fire, winding
+
+          down around six. Somebody rang the pub two months ago to check it was still
+
+          on. It is."
+        confidence: "high"
+      - id: "trad/charlies#d5dff25edd"
+        sourceId: "trad/charlies"
+        title: "Tuesday and Thursday night sessions at Charlie's"
+        occurrence:
+          kind: "recurring"
+          pattern: "Tuesdays and Thursdays from 9:00"
+          startTime: "21:00"
+        status: "scheduled"
+        tags:
+          - "trad"
+          - "session"
+          - "late-night"
+          - "weekly"
+        raw: "> \"The fella here assured me that there are NO sessions on Sunday there are
+
+          > Tuesdays and Thursdays from 9:00.\" — 2 months ago
+
+
+          > \"Session is still going 3-6 every Sunday. Also the occasional one on
+
+          > Thursdays evenings as well now.\" — 15 years ago
+
+
+          > \"From the website, it looks the Sunday afternoon sessions are going
+
+          > strong, but no more Thursday sessions.\" — 10 years ago
+
+
+          The page's structured Schedule lists Sunday, Thursday and Tuesday."
+        summary: "Two late weeknight sessions reported at Charlie's, on the word of one
+
+          visitor who was told at the bar that they had replaced the Sunday
+
+          afternoon — which somebody else then rang up and disproved. Worth checking
+
+          before travelling for it."
+        confidence: "low"
+    notes: "The catalogued URL is The Session's page rather than the pub's own, correctly:
+
+      `charliesbarcork.com` renders client-side and its served HTML holds nothing.
+
+      Reached first time with a browser user-agent, 200, last updated 3 weeks ago.
+
+
+      Nothing dated. Nineteen comments over 22 years, and this page contains **a
+
+      direct contradiction between two comments posted two months apart**, which is
+
+      the whole reason these two events are graded so far apart:
+
+
+      > \"The fella here assured me that there are NO sessions on Sunday there are
+
+      > Tuesdays and Thursdays from 9:00.\"
+
+
+      > \"I just called to confirm and was told that the Sunday afternoon session *is*
+
+      > definitely happening; 3:30pm.\"
+
+
+      The Sunday is recorded `high` and the Tuesday/Thursday `low`, for three reasons:
+
+      the Sunday claim is the newer of the two, it was made by someone who phoned the
+
+      pub, and the Lee Sessions guide independently prints Charlie's at 3:30 pm on
+
+      Sun Aug 23 and Sun Aug 30. The Tuesday/Thursday claim rests on one
+
+      second-hand remark at the bar, though Tuesday and Thursday are both in the
+
+      page's structured Schedule, which is why it is recorded at all rather than
+
+      dropped.
+
+
+      Start time: 3:30pm is what the two most recent sources say. Older comments say
+
+      3pm and \"3-6\", and one says \"3-7\". The pattern uses 3:30pm and the range is in
+
+      `raw`.
+
+
+      No price anywhere on the page.
+
+
+      For stage 1: this page gives the street as plain \"Union Quay\" with no number, so
+
+      the catalogue's \"2 Union Quay\" (from Pure Cork) is not corroborated here. The
+
+      phone number on the page is 021 4318342, and a comment notes it changed from the
+
+      one previously listed."
+  - sourceId: "trad/o-suilleabhains"
+    fetch:
+      ok: true
+      url: "https://www.purecork.ie/food-drink/o-suilleabhains"
+      status: 200
+    events:
+      - id: "trad/o-suilleabhains#bccef75ef1"
+        sourceId: "trad/o-suilleabhains"
+        title: "The Lee Sessions Trad Trail (Wednesday)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Wednesday @ 20:00"
+          start: "2026-07-15"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://purecork.ie/whats-on/11200233/the-lee-sessions-trad-trail"
+        image: "https://purecork.ie/media/event_images/orig/2026mar_4430011.jpg"
+        price:
+          free: true
+          text: "FREE"
+        tags:
+          - "trad"
+          - "session"
+          - "live-music"
+          - "free-entry"
+        raw: "**The Lee Sessions Trad Trail** — Every Wednesday @ 20:00. 20:00, FREE.
+
+          Starts Wed 15th Jul."
+        summary: "The Wednesday session at the Washington Street pub, free and starting at
+
+          eight. One of five nights a week here, which makes it the busiest trad
+
+          room in the city after Sin É."
+        confidence: "high"
+      - id: "trad/o-suilleabhains#d4594ec6c1"
+        sourceId: "trad/o-suilleabhains"
+        title: "The Lee Sessions Trad Trail (Thursday)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Thursday @ 20:00"
+          start: "2026-07-16"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://purecork.ie/whats-on/11200241/the-lee-sessions-trad-trail"
+        image: "https://purecork.ie/media/event_images/orig/2026mar_4430011.jpg"
+        price:
+          free: true
+          text: "FREE"
+        tags:
+          - "trad"
+          - "session"
+          - "live-music"
+          - "free-entry"
+        raw: "**The Lee Sessions Trad Trail** — Every Thursday @ 20:00. 20:00, FREE.
+
+          Starts Thu 16th Jul."
+        summary: "Thursday's session at Ó Súilleabháin's, free and at eight — the same slot as
+
+          Wednesday and Saturday."
+        confidence: "high"
+      - id: "trad/o-suilleabhains#a4db189e82"
+        sourceId: "trad/o-suilleabhains"
+        title: "The Lee Sessions Trad Trail (Friday)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Friday @ 19:30"
+          start: "2026-07-17"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://purecork.ie/whats-on/11200249/the-lee-sessions-trad-trail"
+        image: "https://purecork.ie/media/event_images/orig/2026mar_4430011.jpg"
+        price:
+          free: true
+          text: "FREE"
+        tags:
+          - "trad"
+          - "session"
+          - "live-music"
+          - "free-entry"
+        raw: "**The Lee Sessions Trad Trail** — Every Friday @ 19:30. 19:30, FREE.
+
+          Starts Fri 17th Jul."
+        summary: "Friday is the one night here that starts at half seven rather than eight,
+
+          and the earliest weekday session in the city centre."
+        confidence: "high"
+      - id: "trad/o-suilleabhains#015d4c3f0d"
+        sourceId: "trad/o-suilleabhains"
+        title: "The Lee Sessions Trad Trail (Saturday)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Saturday @ 20:00"
+          start: "2026-07-18"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://purecork.ie/whats-on/11200257/the-lee-sessions-trad-trail"
+        image: "https://purecork.ie/media/event_images/orig/2026mar_4430011.jpg"
+        price:
+          free: true
+          text: "FREE"
+        tags:
+          - "trad"
+          - "session"
+          - "live-music"
+          - "free-entry"
+        raw: "**The Lee Sessions Trad Trail** — Every Saturday @ 20:00. 20:00, FREE.
+
+          Starts Sat 18th Jul."
+        summary: "Saturday night at Ó Súilleabháin's, free and at eight, on a street better
+
+          known for late bars than for tunes."
+        confidence: "high"
+      - id: "trad/o-suilleabhains#6093fe619a"
+        sourceId: "trad/o-suilleabhains"
+        title: "The Lee Sessions Trad Trail (Sunday)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Sunday @ 20:00"
+          start: "2026-07-19"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://purecork.ie/whats-on/11200265/the-lee-sessions-trad-trail"
+        image: "https://purecork.ie/media/event_images/orig/2026mar_4430011.jpg"
+        price:
+          free: true
+          text: "FREE"
+        tags:
+          - "trad"
+          - "session"
+          - "live-music"
+          - "free-entry"
+        raw: "**The Lee Sessions Trad Trail** — Every Sunday @ 20:00. 20:00, FREE.
+
+          Starts Sun 19th Jul."
+        summary: "Sunday's session, the fifth of the pub's week, free and at eight."
+        confidence: "high"
+    notes: "**The hint on this source is wrong in a way worth correcting, and in the
+
+      pub's favour.** It says this page \"carries the identity, the address and the
+
+      Eircode but no schedule\", and that \"the 'What's On' block on a Pure Cork venue
+
+      page is a site-wide carousel, not that venue's diary\".
+
+
+      There are in fact **two** What's On blocks on the page, and only the second is
+
+      the site-wide carousel. The first sits in
+
+      `<div class=\"row\" id=\"events_at_this_venue\">` and is genuinely this venue's own
+
+      diary: five entries, each with its own `purecork.ie/whats-on/<id>/...`
+
+      permalink, its own image, a \"Starts <weekday> <date>\" tag, a recurring pattern
+
+      in words, a start time and the word FREE. That is richer data than anything else
+
+      in this category — it is the only source here that gives per-event links **and**
+
+      images **and** a stated price.
+
+
+      All five are recorded, and they match the Lee Sessions guide's times for this
+
+      pub exactly — Wednesday and Thursday 20:00, Friday 19:30, Saturday 20:00, Sunday
+
+      20:00. Two independent sources agreeing on five slots is why these are `high`.
+
+
+      `occurrence.start` is set here, unlike everywhere else in this file, because the
+
+      page states one: \"Starts Wed 15th Jul\" and so on. Those dates are in the past —
+
+      mid-July 2026 — so the series is already under way, which is exactly what a
+
+      start date is for. No `end`: the page states none. The year is not printed, but
+
+      every weekday matches a 2026 reading (checked).
+
+
+      Nothing truncated: five entries in the venue's block, five events recorded. The
+
+      second What's On block was ignored deliberately — it repeats the same five
+
+      titles with the text truncated to \"Every Monday\" for every one of them, which is
+
+      a carousel template rather than data, and its \"Every Monday\" is not a real
+
+      Monday session. Below that, the site-wide carousel the hint warns about does
+
+      appear (St. Peters, Crawford Art Gallery, *A Streetcar Named Desire*, DJ nights
+
+      at the Crystal Bar, the Gables Thursday Session) and none of it was attributed
+
+      to this pub.
+
+
+      The soft-404 check the hint asks for was done: the page's `<title>` is
+
+      \"Ó Súilleabháin's | Pure Cork | Food-drink\", so it is a real page and not an
+
+      unknown slug.
+
+
+      All five images resolve — `2026mar_4430011.jpg`, checked, 200, `image/jpeg`.
+
+
+      For stage 1: the address on the page is \"21 Washington Street, Cork, T12 HF95\",
+
+      matching the catalogue, and it also prints a phone number, +353896150014, which
+
+      the catalogue does not hold. The route worth adding is the finding above:
+
+      **Pure Cork venue pages carry a per-venue recurring diary at
+
+      `#events_at_this_venue`**, and the same is true of `old-oak` and `jj-walshs`
+
+      below."
+  - sourceId: "trad/old-oak"
+    fetch:
+      ok: true
+      url: "https://www.purecork.ie/food-drink/old-oak"
+      status: 200
+    events:
+      - id: "trad/old-oak#9b4a1445c6"
+        sourceId: "trad/old-oak"
+        title: "Traditional Irish Music & Dancing (Tuesday)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Tuesday @ 20:00"
+          start: "2026-07-07"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://purecork.ie/whats-on/11197098/traditional-irish-music-dancing"
+        image: "https://purecork.ie/media/event_images/orig/2024jun_3982964.jpeg"
+        price:
+          free: true
+          text: "FREE"
+        tags:
+          - "trad"
+          - "session"
+          - "dance"
+          - "free-entry"
+        raw: "**Traditional Irish Music & Dancing** — Every Tuesday @ 20:00. 20:00, FREE.
+
+          Starts Tue 7th Jul.
+
+
+          Listed twice, as two records of the same weekly series: \"Starts Tue 7th Jul\"
+
+          and \"Starts Tue 1st Sep\"."
+        summary: "Tuesday night music and dancing in the big Oliver Plunkett Street pub, free
+
+          and at eight. Dancing as well as tunes, which is unusual among the city
+
+          sessions."
+        confidence: "high"
+      - id: "trad/old-oak#80ec2abe7d"
+        sourceId: "trad/old-oak"
+        title: "Traditional Irish Music & Dancing (Wednesday)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Wednesday @ 20:00"
+          start: "2026-07-08"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://purecork.ie/whats-on/11197122/traditional-irish-music-dancing"
+        image: "https://purecork.ie/media/event_images/orig/2024jun_3982964.jpeg"
+        price:
+          free: true
+          text: "FREE"
+        tags:
+          - "trad"
+          - "session"
+          - "dance"
+          - "free-entry"
+        raw: "**Traditional Irish Music & Dancing** — Every Wednesday @ 20:00. 20:00,
+
+          FREE. Starts Wed 8th Jul.
+
+
+          Listed twice, as two records of the same weekly series: \"Starts Wed 8th Jul\"
+
+          and \"Starts Wed 2nd Sep\"."
+        summary: "The Wednesday half of Old Oak's midweek music and dancing, free and at
+
+          eight."
+        confidence: "high"
+      - id: "trad/old-oak#02171b10f1"
+        sourceId: "trad/old-oak"
+        title: "The 2 Drops"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Thursday @ 20:00"
+          start: "2026-07-30"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://purecork.ie/whats-on/11197143/the-2-drops"
+        image: "https://purecork.ie/media/event_images/orig/2025may_7870517.png"
+        price:
+          free: true
+          text: "FREE"
+        tags:
+          - "live-music"
+          - "weekly"
+          - "free-entry"
+        raw: "**The 2 Drops** — Every Thursday @ 20:00. 20:00, FREE. Starts Thu 30th Jul."
+        summary: "A weekly Thursday residency by a duo called The 2 Drops, free and at eight.
+
+          The listing does not say what they play."
+        confidence: "medium"
+      - id: "trad/old-oak#6922794c18"
+        sourceId: "trad/old-oak"
+        title: "Trad Session"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Sunday @ 19:00"
+          start: "2026-08-02"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://purecork.ie/whats-on/11197932/trad-session"
+        image: "https://purecork.ie/media/event_images/orig/2025may_6243344.jpg"
+        price:
+          free: true
+          text: "FREE"
+        tags:
+          - "trad"
+          - "session"
+          - "live-music"
+          - "free-entry"
+        raw: "**Trad Session** — Every Sunday @ 19:00. 19:00, FREE. Starts Sun 2nd Aug."
+        summary: "Old Oak's Sunday session, free and starting at seven — an hour earlier than
+
+          its midweek nights."
+        confidence: "high"
+      - id: "trad/old-oak#6ea5f0359e"
+        sourceId: "trad/old-oak"
+        title: "Karaoke with Fitzies Magical Flute (Monday)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Monday @ 22:00"
+          start: "2026-07-27"
+          startTime: "22:00"
+        status: "scheduled"
+        url: "https://purecork.ie/whats-on/11195450/karaoke-with-fitzies-magical-flute"
+        image: "https://purecork.ie/media/event_images/orig/2026mar_3389963.jpg"
+        price:
+          free: true
+          text: "FREE"
+        tags:
+          - "karaoke"
+          - "late-night"
+          - "free-entry"
+          - "weekly"
+        raw: "**Karaoke with Fitzies Magical Flute** — Every Monday @ 22:00. 22:00, FREE.
+
+          Starts Mon 27th Jul.
+
+
+          Listed twice, as two records of the same weekly series: \"Starts Mon 27th
+
+          Jul\" and \"Starts Mon 21st Sep\"."
+        summary: "Late Monday karaoke at Old Oak, free from ten. Not a trad night — it sits in
+
+          the same diary as the pub's sessions."
+        confidence: "high"
+      - id: "trad/old-oak#0a7d143021"
+        sourceId: "trad/old-oak"
+        title: "Karaoke with Fitzies Magical Flute"
+        occurrence:
+          kind: "single"
+          date: "2026-11-09"
+          startTime: "22:00"
+        status: "scheduled"
+        url: "https://purecork.ie/whats-on/11195463/karaoke-with-fitzies-magical-flute"
+        image: "https://purecork.ie/media/event_images/orig/2026mar_3389963.jpg"
+        price:
+          free: true
+          text: "FREE"
+        tags:
+          - "karaoke"
+          - "late-night"
+          - "free-entry"
+          - "one-night"
+        raw: "**Karaoke with Fitzies Magical Flute** — Mon 9th Nov. 22:00, FREE.
+
+
+          The only entry in this venue's diary printed as a single date rather than
+
+          \"Every <weekday>\"."
+        summary: "A one-off listing of the Monday karaoke on 9 November, printed as a single
+
+          date where every other entry in the diary states a weekly pattern."
+        confidence: "medium"
+      - id: "trad/old-oak#a206022bd8"
+        sourceId: "trad/old-oak"
+        title: "Karaoke with Fitzies Magical Flute (Sunday)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Sunday @ 22:00"
+          start: "2026-11-15"
+          startTime: "22:00"
+        status: "scheduled"
+        url: "https://purecork.ie/whats-on/11195464/karaoke-with-fitzies-magical-flute"
+        image: "https://purecork.ie/media/event_images/orig/2026mar_3389963.jpg"
+        price:
+          free: true
+          text: "FREE"
+        tags:
+          - "karaoke"
+          - "late-night"
+          - "free-entry"
+          - "weekly"
+        raw: "**Karaoke with Fitzies Magical Flute** — Every Sunday @ 22:00. 22:00, FREE.
+
+          Starts Sun 15th Nov."
+        summary: "A second weekly karaoke slot, on Sundays from ten, starting in mid-November."
+        confidence: "medium"
+    notes: "Same correction as `trad/o-suilleabhains`: this page's
+
+      `#events_at_this_venue` block **is** the venue's own diary, not the site-wide
+
+      carousel the hint warns about, and it carries per-event permalinks, images,
+
+      recurring patterns, start dates, times and prices.
+
+
+      **Coverage: complete. 10 entries in the block, collapsed to 7 events.** Three
+
+      were duplicate records of a series that already appears — the same title, the
+
+      same \"Every <weekday> @ <time>\", a later start date, a different permalink:
+
+
+      - Traditional Irish Music & Dancing, Every Tuesday @ 20:00 — starts 7 Jul *and*
+
+      \  1 Sep
+
+      - Traditional Irish Music & Dancing, Every Wednesday @ 20:00 — starts 8 Jul
+
+      \  *and* 2 Sep
+
+      - Karaoke with Fitzies Magical Flute, Every Monday @ 22:00 — starts 27 Jul *and*
+
+      \  21 Sep
+
+
+      Each is recorded once, with the earlier start, and the second record noted in
+
+      `raw`. Recording both would put two identical cards on the site for one weekly
+
+      night. The permalink kept is the earlier record's.
+
+
+      **Four of the seven are not trad, and are tagged accordingly.** Three karaoke
+
+      slots and a duo residency share this diary with the sessions:
+
+
+      - `Karaoke with Fitzies Magical Flute` ×3 — tagged `karaoke`, `late-night`,
+
+      \  never `trad`. If a curator would rather this pub's non-trad programme sat in
+
+      \  music or nightlife, these three rows are the ones to move. **`karaoke` is a
+
+      \  coined tag**: Bristol's vocabulary has `open-mic` and `party`, and neither is
+
+      \  right — karaoke is not an open mic for musicians and is not a club night — so
+
+      \  rather than mis-tag it under an existing slug it gets its own. Used three
+
+      \  times, all here.
+
+      - `The 2 Drops`, Thursdays at 20:00 — a named act, so the listing gives no
+
+      \  genre and none was invented; tagged `live-music` only. Worth knowing that the
+
+      \  Lee Sessions guide files this exact slot (Old Oak, Thursday, 8:00 pm) as a
+
+      \  trad session, while the pub's own description says DJs run Thursday to
+
+      \  Saturday. Three sources, three accounts of one Thursday. `medium`.
+
+
+      The Monday 9th November karaoke is the one `single` in this file. It is printed
+
+      as a bare date, \"Mon 9th Nov\", where every other entry in the block says
+
+      \"Every <weekday>\" — so it is recorded as a single date rather than folded into
+
+      the weekly Monday series. 9 November 2026 is a Monday (checked).
+
+
+      The page's own prose contradicts its diary and is quoted here rather than
+
+      recorded: \"Old Oak has live music every Monday, Tuesday, Wednesday and Sunday
+
+      nights, and has a DJ on Thursday, Friday and Saturday nights.\" The diary shows
+
+      music on Thursday (The 2 Drops) and karaoke on Monday, so neither half of that
+
+      sentence quite holds.
+
+
+      All five distinct images resolve (checked, 200). Title is \"Old Oak | Pure Cork |
+
+      Food-drink\", so not a soft-404. Address on the page is 113 Oliver Plunkett
+
+      Street, matching the catalogue; no Eircode is printed, so none is recorded."
+  - sourceId: "trad/jj-walshs"
+    fetch:
+      ok: true
+      url: "https://www.purecork.ie/food-drink/jj-walshs"
+      status: 200
+    events:
+      - id: "trad/jj-walshs#0ca562d645"
+        sourceId: "trad/jj-walshs"
+        title: "The Lee Sessions Trad Trail (Monday)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Monday @ 20:00"
+          start: "2026-07-20"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://purecork.ie/whats-on/11200272/the-lee-sessions-trad-trail"
+        image: "https://purecork.ie/media/event_images/orig/theleesessions_jjwalsh.jpg"
+        price:
+          free: true
+          text: "FREE"
+        tags:
+          - "trad"
+          - "session"
+          - "live-music"
+          - "free-entry"
+        raw: "**The Lee Sessions Trad Trail** — Every Monday @ 20:00. 20:00, FREE.
+
+          Starts Mon 20th Jul."
+        summary: "Monday night's session at the reopened Oliver Plunkett Street pub, free and
+
+          at eight — an hour later than its weekend slots."
+        confidence: "high"
+      - id: "trad/jj-walshs#230239b61b"
+        sourceId: "trad/jj-walshs"
+        title: "The Lee Sessions Trad Trail (Saturday)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Saturday @ 19:00"
+          start: "2026-07-11"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://purecork.ie/whats-on/11199956/the-lee-sessions-trad-trail"
+        image: "https://purecork.ie/media/event_images/orig/theleesessions_jjwalsh.jpg"
+        price:
+          free: true
+          text: "FREE"
+        tags:
+          - "trad"
+          - "session"
+          - "live-music"
+          - "free-entry"
+        raw: "**The Lee Sessions Trad Trail** — Every Saturday @ 19:00. 19:00, FREE.
+
+          Starts Sat 11th Jul."
+        summary: "Saturday's early-evening session at JJ Walsh's, free and at seven — one of
+
+          the few weekend sessions in the city that starts before eight."
+        confidence: "high"
+      - id: "trad/jj-walshs#b6bbbef1f3"
+        sourceId: "trad/jj-walshs"
+        title: "The Lee Sessions Trad Trail (Sunday)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Sunday @ 19:00"
+          start: "2026-07-12"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://purecork.ie/whats-on/11199964/the-lee-sessions-trad-trail"
+        image: "https://purecork.ie/media/event_images/orig/theleesessions_jjwalsh.jpg"
+        price:
+          free: true
+          text: "FREE"
+        tags:
+          - "trad"
+          - "session"
+          - "live-music"
+          - "free-entry"
+        raw: "**The Lee Sessions Trad Trail** — Every Sunday @ 19:00. 19:00, FREE.
+
+          Starts Sun 12th Jul."
+        summary: "Sunday evening's session, free and at seven, the third of the pub's three
+
+          weekly trad slots."
+        confidence: "high"
+    notes: "The third of the three Pure Cork pages in this file, and the same correction
+
+      applies: the hint says this page carries \"address and identity only — no
+
+      schedule, no dates\", but its `#events_at_this_venue` block is the venue's own
+
+      diary and holds three entries, each with a permalink, an image, a pattern, a
+
+      start date, a time and FREE.
+
+
+      Coverage: complete — three entries in the block, three events recorded, nothing
+
+      truncated. All three match the Lee Sessions guide's times for this pub exactly
+
+      (Monday 20:00, Saturday 19:00, Sunday 19:00), which is why all three are `high`.
+
+
+      `occurrence.start` is the page's own \"Starts <weekday> <date>\" tag in each case,
+
+      all in mid-July 2026 and therefore already under way. Weekdays checked against
+
+      2026. No `end` is stated and none is set.
+
+
+      This pub's image is a dedicated one — `theleesessions_jjwalsh.jpg` — rather than
+
+      a generic Lee Sessions graphic, and it resolves (checked, 200).
+
+
+      Title is \"JJ Walsh's | Pure Cork | Food-drink\", so not a soft-404. The address
+
+      is 64 Oliver Plunkett St., matching both the catalogue and the Lee Sessions
+
+      guide. No Eircode is printed.
+
+
+      The hint is right that the pub's programme is broader than trad — the page
+
+      describes \"a cocktail lounge and outdoor bar\" — but the venue diary itself
+
+      contains nothing except these three sessions, so there was nothing off-category
+
+      to tag."
+  - sourceId: "trad/the-oliver-plunkett"
+    fetch:
+      ok: true
+      url: "https://theoliverplunkett.com/live-entertainment/"
+      status: 200
+    events: []
+    notes: "Reached first time, 200, and it lists nothing. The hint predicts this precisely
+
+      and says it is the correct outcome rather than a mis-crawl; confirmed, in detail.
+
+
+      The page is the venue's real music page — titled \"Live Entertainment - Classic &
+
+      Signature Drinks at The Oliver Plunkett, Cork\" — and its entire account of the
+
+      programme is:
+
+
+      > \"At The Oliver Plunkett, live music and entertainment is at the forefront of
+
+      > our business. We love to host gigs and live events for our customers … We have
+
+      > many acts who perform in our venue. Please see our weekly schedule.\"
+
+
+      There is no weekly schedule on the page, and no link to one. The rest is a
+
+      tribute to Rory Gallagher, a paragraph about the pictures on the walls, an image
+
+      gallery and two \"Event tickets / Make an enquiry\" buttons.
+
+
+      No further fetches were spent: the hint has already established that
+
+      `/whats-on/` and `/live-music/` are hard 404s and that `/event-tickets/` is an
+
+      empty JavaScript widget, and re-deriving that would cost three fetches to
+
+      confirm a known dead end.
+
+
+      **The fallback the hint offers has also failed, and this is the finding worth
+
+      passing on.** It says to take the sessions from the Lee Sessions guide instead.
+
+      I read that guide in full today: it names The Oliver Plunkett in its About
+
+      prose as one of its venues, but **the current dated guide, all 110 rows from
+
+      17 August to 27 December, contains no Oliver Plunkett entry at all.** So this
+
+      venue now has no source of dated or patterned listings anywhere — not its own
+
+      site, not the aggregator the catalogue points at as its dated signal.
+
+
+      The trad sessions are supposed to run upstairs in the Frisky Whiskey Bar seven
+
+      nights. Nothing fetchable says so. For stage 1 this is a `dormant`-versus-`
+
+      provisional` question rather than a URL one, and the only route left to settle
+
+      it is the pub's social channels or a phone call.
+
+
+      Footer facts, for the catalogue: 116 Oliver Plunkett Street, Cork, T12 P957 —
+
+      matching the entry — plus +353 21 4222 779 and opening hours \"Mon – Thurs 12pm –
+
+      11.30pm, Fri 12pm – 2.30am, Sat 10am – 2.30am, Sun 10am – 11pm\"."
+  - sourceId: "trad/clancys"
+    fetch:
+      ok: true
+      url: "https://www.clancyscork.ie/"
+      status: 200
+    events: []
+    notes: "Reached first time, 200 — and a very large 200, nearly 2 MB of a
+
+      Squarespace-style single page. It lists nothing, exactly as the hint says.
+
+
+      The site is a four-venue food-and-drink presentation with a reservations flow:
+
+      Arthur's Bar (a \"Guinness Experience\"), Saints & Sinners restaurant, a Cocktail
+
+      Lab and the rooftop Sky Bar. Its navigation is MAKE A RESERVATION / VENUES /
+
+      MENU / GROUP BOOKINGS. **There is no What's On, Events, Gigs or Listings link
+
+      anywhere on it**, so there was no second page to navigate to — the only gesture
+
+      at a programme is a newsletter box reading \"Be the first to hear about events and
+
+      new menus\". No events plugin, no calendar, no JSON-LD `Event` blocks.
+
+
+      The pub's three sessions are recorded under `trad/lee-sessions` instead, which
+
+      is where the catalogue expects them: Mondays, Tuesdays and Wednesdays at 8:00
+
+      pm, filed there as \"Clancy's, Marlborough St.\".
+
+
+      For stage 1, the address disagreement the catalogue flags is unchanged and I
+
+      cannot settle it from this page either. The footer gives **15 - 16 Princes
+
+      Street, Cork, T12 V6FH** with phone 021 234 4455; the Lee Sessions guide files
+
+      the sessions under Marlborough St. The two streets meet at this corner and the
+
+      premises plausibly fronts both, but nothing on the pub's own site mentions
+
+      Marlborough Street at all, so a curator confirming that these are the same
+
+      premises still has only the corner geometry to go on. It also prints opening
+
+      hours \"Mon - Sun 12pm\"."
+  - sourceId: "trad/the-long-valley"
+    fetch:
+      ok: true
+      url: "https://www.thelongvalleybar.ie/events/"
+      status: 200
+    events: []
+    notes: "Reached first time, 200. **No trad session listed, which the hint says in
+
+      advance is the right answer for this pub, and it is.**
+
+
+      `/events/` is the pub's real events page — a WordPress news feed, titled \"Events
+
+      | Long Valley Bar, Wintrop Street, Cork City\" (the typo is theirs). It holds
+
+      three posts and no more, and the newest is nine months old:
+
+
+      1. **Halloween 2025** — posted 29 October 2025. \"A spooktastic night ahead … in
+
+      \   the company of PAT FEEL GOOD.\"
+
+      2. **Guinness Jazz Festival 2025 lineup** — posted 17 October 2025. Lists \"Friday
+
+      \   24th: The Lee Hedley Band - 10.00pm until Late / Saturday 25th: The Lee Hedley
+
+      \   Band - 4.00pm / Saturday 25th: Amy McNamarra & Friends - 6.30pm …\", i.e. the
+
+      \   October 2025 bank holiday weekend.
+
+      3. **Ó Bhéal: Cork's Weekly Poetry Event** — posted 28 July 2025. \"Every Monday
+
+      \   from 9.30pm in the Hayloft at the Long Valley Pub, Winthrop St, Cork.\"
+
+
+      **Nothing was recorded, and each omission has a different reason.** The first two
+
+      are last year's news posts whose dates have passed by ten months; §4 says a
+
+      clearly-past listing gets its real past date or is not recorded at all, and
+
+      logging two long-finished 2025 nights into Cork's first-ever harvest would add
+
+      rows that can only ever render as `finished`. The third is live and genuinely
+
+      weekly — but it is a poetry night, not trad, and it is already catalogued as
+
+      `literature/o-bheal`, so recording it here would duplicate whatever the
+
+      literature category harvests. The note is the handover.
+
+
+      Two things that together make this the weakest entry in the file, and both are
+
+      curation questions rather than URL ones:
+
+
+      - The **current Lee Sessions gig guide does not list the Long Valley** either. It
+
+      \  names the pub in its About prose as one of its venues, but not one of the 110
+
+      \  dated rows from 17 August to 27 December is here.
+
+      - The evidence for a session at all remains what the catalogue already says it
+
+      \  is: the Lee Sessions prose and a Cork Folk Festival listing from years ago.
+
+      \  Nothing current, on any source read today, says this is still a session pub.
+
+
+      `longvalleybar.com` was not followed — the catalogue records it as parked and for
+
+      sale. The page gives (021) 427 2144 and longvalleybar@gmail.com."
+  - sourceId: "trad/blarney-castle-hotel"
+    fetch:
+      ok: true
+      url: "https://blarneycastlehotel.com/"
+      status: 200
+    events: []
+    notes: "Reached first time, 200, and it publishes no listings, exactly as the hint says.
+
+      Expect no dated events here, and there are none.
+
+
+      The root is a rooms-and-bar page. Its only two references to music are prose:
+
+
+      > \"when you return from your day out you can relax in the bar and listen to
+
+      > traditional music or mix with the locals\"
+
+
+      > \"FOLLOW US FOR ALL MUSIC EVENTS AND UPDATES\" — over a social link, in the
+
+      > footer
+
+
+      **No night, no time, no dates anywhere.** The navigation is Home / Food and Drink
+
+      / Accommodation / The Hotel / Attractions / Contact / Book Now — there is no
+
+      What's On, Events or Music page to navigate to, so no second fetch was spent
+
+      guessing at one. The music is announced on Facebook and nowhere a fetcher can
+
+      read.
+
+
+      The session itself **is** recorded in this run, once, under
+
+      `trad/thesession-cork` with `venue.sourceId` pointing back at this entry: every
+
+      Tuesday from 9:30 until around 1:00am, confirmed by hotel management in May 2024
+
+      according to a comment on `thesession.org/sessions/2618`, which I read today.
+
+      That is two years old, so it is held at `medium` — which is as good as the
+
+      evidence for this venue gets, and better than the hint feared.
+
+
+      Address on the hotel's own page: The Square, Blarney, Co. Cork, T23 TCF6, matching
+
+      the catalogue, plus 021 4385116 and info@blarneycastlehotel.com. It also states
+
+      the hotel has been open since 1837 and is 9 km from the city."
+  - sourceId: "trad/cork-pipers-club"
+    fetch:
+      ok: true
+      url: "https://www.corkpipersclub.com/classes/"
+      status: 200
+    events:
+      - id: "trad/cork-pipers-club#317110365e"
+        sourceId: "trad/cork-pipers-club"
+        title: "Uilleann piping classes for beginners and improvers"
+        occurrence:
+          kind: "recurring"
+          pattern: "Two terms of classes a year, Thursday evenings at Wilton SMA Hall"
+          startTime: "20:00"
+        status: "scheduled"
+        venue:
+          name: "Wilton SMA Hall"
+          area: "Wilton"
+          address:
+            locality: "Wilton"
+            city: "Cork"
+            country: "Ireland"
+        tags:
+          - "trad"
+          - "courses"
+          - "beginners"
+          - "hands-on"
+        raw: "> \"Cork Pipers' Club have 2 terms of classes for both beginners and
+
+          > improvers each year at Wilton SMA Hall on Thursday evenings. We also hold
+
+          > a tionól on a less regular basis.\"
+
+
+          > \"The next set of classes kick off on January 24 2020 at Wilton SMA Hall at
+
+          > 8pm. We need to have a minimum number per class to ensure we can run these
+
+          > classes so be sure to contact us either preferably by text or email
+
+          > although we also monitor the Facebook and Twitter pages.\"
+
+
+          > \"For anybody who has a club set on loan for a year or more, please consider
+
+          > purchasing your own set to allow other beginners the opportunity to start
+
+          > the pipes. We always have more demand than we can satisfy for loan sets.\""
+        summary: "The only uilleann piping tuition in this catalogue, run by a club founded in
+
+          1898 — two terms a year on Thursday evenings in the SMA Hall in Wilton, for
+
+          beginners and improvers, with a small stock of club pipes on loan. Places
+
+          depend on numbers, so it is a contact-them rather than a turn-up."
+        confidence: "low"
+    notes: "Two fetches. The catalogued URL, `/news/`, came back 200 — and **empty**. Not
+
+      404, not a bot wall: the archive template renders with no post bodies and no
+
+      dates at all, just a \"Leave a Reply\" form and a sidebar. The hint says
+
+      \"everything dated arrives as a news post, so read the posts and their dates\",
+
+      and on this page there are none to read.
+
+
+      What the sidebar does give is five post permalinks, and WordPress puts the date
+
+      in the path. **Every one of them is in the past**, and the club has published
+
+      nothing forthcoming:
+
+
+      - `/2026/03/06/club-meeting-and-agm/` — Club Meeting and AGM
+
+      - `/2026/01/16/social-gathering-of-pipers-in-cork/` — Social Gathering of Pipers
+
+      \  in Cork
+
+      - `/2025/11/04/tionol-piobaireachta-na-mumhan/` — Tionol – Piobaireachta na
+
+      \  Mumhan
+
+      - `/2021/09/26/cork-folk-festival-2022/` — Cork Folk Festival 2022
+
+      - `/2020/01/19/spring-term-2020/` — Spring Term 2020
+
+
+      Those dates confirm the catalogue's note that the site is live and maintained —
+
+      three posts within the last ten months — while also confirming the hint that the
+
+      programme is thin rather than absent. The newest is the March 2026 AGM, five
+
+      months ago. **No event was recorded from any of them**: they are all past, and
+
+      §4 is explicit that a past listing must not be dressed up as `undated`.
+
+
+      So the second fetch went to `/classes/`, which is where the one live thing on
+
+      the site is, and `fetch.url` records that page rather than the catalogued one.
+
+      It states the standing pattern — two terms a year, Thursday evenings, Wilton SMA
+
+      Hall — with no dates against it. That is recorded as one `recurring` event.
+
+
+      **`confidence: low`, deliberately.** The pattern is a real standing arrangement
+
+      and the club is the only uilleann piping provision anywhere in this catalogue,
+
+      which is why it is recorded at all. But the page's own \"next set of classes\"
+
+      sentence is dated **January 24 2020**, six and a half years stale, and the
+
+      newest comment under it is from 2013. The 20:00 `startTime` comes from that same
+
+      stale sentence (\"at 8pm\"), which is the only time the site states. The hint
+
+      notes terms run from January and September, so the September 2026 term is
+
+      imminent and unannounced.
+
+
+      No price: the page names no fee and there is no fees page.
+
+
+      For stage 1: `/news/` is not a useful harvest route — it returns 200 with no
+
+      content. Either `/classes/` or the individual `/YYYY/MM/DD/` post URLs would be
+
+      better, or the site root. `/feed/` still 302s off-host to feedburner.com, as the
+
+      catalogue already records, so it is not an alternative. No street address is
+
+      published for the club; Wilton SMA Hall is the class venue rather than the
+
+      club's premises, so it is recorded as `venue` on the event rather than as the
+
+      source's address."
+  - sourceId: "trad/douglas-comhaltas"
+    fetch:
+      ok: true
+      url: "https://www.douglascomhaltas.com/"
+      status: 200
+    events:
+      - id: "trad/douglas-comhaltas#406cbb0c6b"
+        sourceId: "trad/douglas-comhaltas"
+        title: "Ranganna Ceoil — traditional music, song and dance classes"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Wednesday, 5pm – 9pm, in two terms: September – December (12 weeks) and mid-January – May (15 weeks)"
+          startTime: "17:00"
+        status: "scheduled"
+        venue:
+          name: "Gaelscoil na Dúglaise"
+          area: "Douglas"
+          address:
+            locality: "Douglas Village"
+            city: "Cork"
+            country: "Ireland"
+        price:
+          free: false
+          text: "Instruments: €9 per class. Grúpa classes: TBC. Membership required: Junior €6 / Senior €12 / Family €20"
+          min: 9
+          currency: "EUR"
+        tags:
+          - "trad"
+          - "courses"
+          - "family"
+          - "beginners"
+          - "dance"
+        raw: "**Ranganna — Classes. Every Wednesday music fills the village.**
+
+
+          > \"We offer classes from beginner to advanced across every traditional
+
+          > instrument. Students are graded by their teacher and we keep class sizes
+
+          > small to ensure everyone has time at the bow, the bellows or the bodhrán.\"
+
+
+          Wednesdays 5pm – 9pm · Gaelscoil na Dúglaise, Douglas, Cork · Small classes,
+
+          Beginner – Advanced · 30 / 60 min · Solo & Ceilí Band
+
+
+          Fiddle • Tin Whistle • Concertina • Bodhrán • Accordion • Flute • Banjo
+
+
+          > \"Douglas is a vibrant Branch of Comhaltas Ceoltóirí Éireann. Established
+
+          > 28 years ago, from humble beginnings with just a handful of members, the
+
+          > branch has continued to grow and prosper. We now have a membership of over
+
+          > 300 ranging in age from five to eighty five years old who attend classes
+
+          > each Wednesday night in Gaelscoil na Dúglaise in the heart of Douglas
+
+          > village, in Cork City.\"
+
+
+          From `/cost-of-classes/`: \"We operate a 2-term system. Term 1: September –
+
+          December (12 weeks). Term 2: Mid-January – May (15 weeks).\" \"Instruments: €9
+
+          per class.\" Membership: \"Junior €6, Senior €12, Family €20.\" \"Please note
+
+          that registration and payment for Classes will open shortly.\""
+        summary: "Four hours of classes every Wednesday evening in a Douglas village
+
+          Gaelscoil, across fiddle, whistle, concertina, bodhrán, accordion, flute and
+
+          banjo plus song and dance — the largest Comhaltas branch in the city, with
+
+          over three hundred members aged five to eighty-five. Registration for the
+
+          September term is described as opening shortly."
+        confidence: "high"
+    notes: "Reached first time, 200. The site is almost entirely static, which the hint says
+
+      in advance not to read as dormancy, and that is the right reading: the class
+
+      pattern is stated plainly and unambiguously in two places.
+
+
+      **One recurring event, not fifty.** The branch's whole activity as published is
+
+      a weekly class night; the thing that changes is the term, not the schedule, so
+
+      the term structure is inside the pattern rather than expanded into dates. No
+
+      `start` or `end` is set: the page gives month names for the terms, never a date,
+
+      and turning \"Term 1: September – December\" into an ISO date would be inventing
+
+      the day of the month.
+
+
+      Three fetches in total, two of them useful:
+
+
+      - `/` — the root, which carries the pattern, the venue and the membership
+
+      \  figures. This is `fetch.url`.
+
+      - `/cost-of-classes/` — 200. The source of the term structure and the whole
+
+      \  `price` object. Worth noting that its two statements about fees disagree:
+
+      \  \"Class fees are TBC per class\" appears a few lines above \"Instruments: €9 per
+
+      \  class\". The €9 is the concrete figure and is recorded as `min`; the TBC
+
+      \  wording applies to the Grúpa classes and is kept in `price.text`. Membership
+
+      \  is a separate charge from class fees and both are in the text rather than
+
+      \  being added together. This page also says registration \"will open shortly\",
+
+      \  which is consistent with a September term about to start.
+
+      - `/13-2/` — the **Fógraí / Notices** page, and a dead end. The hint calls it
+
+      \  \"the only part that ever carries anything dated\"; it now **soft-404s**,
+
+      \  returning HTTP 200 with the body \"Events / Not Found / Sorry, but you are
+
+      \  looking for something that isn't here.\" The nav still links it. That is the
+
+      \  one correction stage 1 should make here: either the Notices page has been
+
+      \  removed or its slug has changed, and the hint should stop pointing a run at
+
+      \  it.
+
+
+      No branch concerts, céilís or fleadh entries anywhere on the site, as the hint
+
+      predicts — those go to Facebook and Instagram (@comhaltasdouglas), which a
+
+      fetcher cannot read. Nothing dated was found, so nothing dated was recorded.
+
+
+      The class venue, Gaelscoil na Dúglaise, is set as `venue.name` on the event
+
+      rather than as the source's address, because it is a school the branch hires
+
+      rather than its own premises — the catalogue is right not to hold it as an
+
+      address. No postal address for the branch itself is published; contact is
+
+      douglas@comhaltas.net only.
+
+
+      `Grúpa`, `Ranganna`, `Fógraí` and `Gaelscoil na Dúglaise` are recorded as
+
+      printed, diacritics intact."
+  - sourceId: "trad/cork-singers-club"
+    fetch:
+      ok: true
+      url: "https://motherjonescork.com/tag/cork-singers-club/"
+      status: 200
+    events:
+      - id: "trad/cork-singers-club#d2db9ad723"
+        sourceId: "trad/cork-singers-club"
+        title: "Cork Singers' Club weekly singing session"
+        occurrence:
+          kind: "recurring"
+          pattern: "Club members also gather each Sunday night at An Spailpín Fánach"
+        status: "scheduled"
+        venue:
+          sourceId: "trad/an-spailpin-fanach"
+        url: "https://motherjonescork.com/2026/07/15/music-and-songs-at-the-2026-spirit-of-mother-jones-festival/"
+        tags:
+          - "trad"
+          - "folk"
+          - "session"
+          - "community"
+        raw: "> \"Established in 1993, the Cork Singers' Club has uniquely featured in every
+
+          > Mother Jones festival since the opening night on 31st July 2012. Eagerly
+
+          > awaited each year, the Cork Singers' Club will present an evening of songs.
+
+          > It has ensured that the tradition of singing remains alive in Cork, no
+
+          > instruments are allowed. For locals and visitors this is an opportunity to
+
+          > hear songs being sung in a pure manner in front of an attentive audience
+
+          > and an opportunity to sing a song themselves. Club members also gather each
+
+          > Sunday night at An Spailpín Fánach to hone their remarkable art.\"
+
+
+          > \"Under the Fear An Tí Jim Walsh, the Cork Singers' Club represents the
+
+          > unique singing heritage of the people of Cork.\""
+        summary: "Unaccompanied traditional singing, every Sunday night upstairs at An
+
+          Spailpín Fánach — no instruments allowed, Jim Walsh as fear an tí, and the
+
+          floor open to anyone who has a song. The club has been keeping this going
+
+          since 1993. The season runs October to June and it is dark for the summer."
+        confidence: "medium"
+      - id: "trad/cork-singers-club#19797be040"
+        sourceId: "trad/cork-singers-club"
+        title: "Cork Singers' Club at the Spirit of Mother Jones Festival"
+        occurrence:
+          kind: "single"
+          date: "2026-07-23"
+          startTime: "21:30"
+        status: "scheduled"
+        venue:
+          name: "Maldron Hotel, Shandon"
+          area: "Shandon"
+          address:
+            locality: "Shandon"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://motherjonescork.com/2026/07/15/music-and-songs-at-the-2026-spirit-of-mother-jones-festival/"
+        tags:
+          - "trad"
+          - "folk"
+          - "session"
+          - "festival"
+        raw: "**The Cork Singers' Club. Thursday 23rd July 2026 at 9.30 p.m.**
+
+
+          > \"Established in 1993, the Cork Singers' Club has uniquely featured in every
+
+          > Mother Jones festival since the opening night on 31st July 2012 … Their
+
+          > efforts at this festival to sing songs influenced by Mother Jones is deeply
+
+          > appreciated and songs of trade unions, of working class people and social
+
+          > justice, the well springs of folk and traditional songs are celebrated.
+
+          > Come along and sing your song!\"
+
+
+          Also printed on the festival's day programme for Thursday 23rd July 2026:
+
+          \"9.30 p.m. Cork Singers Club\", at the Maldron Hotel, Shandon."
+        summary: "The club's one appearance a year that anybody writes down: it has opened the
+
+          Spirit of Mother Jones Festival every year since 2012, and in 2026 sang on
+
+          the Thursday night to the festival's theme, \"Songs of Struggle, Songs of
+
+          Hope\". Now past."
+        confidence: "high"
+    notes: "Reached first time, 200. This URL is a fallback rather than a listings page, as
+
+      the catalogue says plainly — the club has no site of its own — and what it
+
+      returns is the Spirit of Mother Jones Festival's tag archive for the club.
+
+
+      **Everything dated on it has already happened.** Ten posts, newest first: 22
+
+      July 2026, 15 July 2026, then 2025, 2024, 2023 and 2021. The two 2026 posts
+
+      cover this year's festival, which ran 23–25 July — three weeks before this
+
+      harvest. There is nothing forthcoming anywhere on the page, which is exactly
+
+      what the hint predicts (\"expect dated content from it only around late July\").
+
+
+      Two events, and they are different kinds of thing:
+
+
+      1. **The weekly Sunday session** is the club's real activity and the reason this
+
+      \   source exists. This page states it in one clause — \"Club members also gather
+
+      \   each Sunday night at An Spailpín Fánach to hone their remarkable art\" — and
+
+      \   that clause is the `pattern`, verbatim. It gives **no time and no season**, so
+
+      \   none is fabricated: `startTime` is omitted entirely. `venue.sourceId` points
+
+      \   at `trad/an-spailpin-fanach`, since the session happens there rather than at
+
+      \   the festival site. `medium`, because the only current statement of it is a
+
+      \   subordinate clause in a festival write-up.
+
+
+      \   The season is not guessed: `thesession.org/sessions/150`, read today for
+
+      \   `trad/an-spailpin-fanach`, states \"Cork Singers' Club … is Sunday at 7:30, but
+
+      \   they take the summers off. The season is October - June\". That is the sentence
+
+      \   behind the `summary`'s caveat, and it is also why **the Sunday night is not
+
+      \   also recorded under `trad/an-spailpin-fanach`** — the catalogue hint asks for
+
+      \   a decision from the month, and in mid-August the club is dark while the pub's
+
+      \   ordinary summer Sunday session is not. One row for the club, here, with the
+
+      \   venue joined on.
+
+
+      2. **The 2026 festival appearance is recorded with its real past date**,
+
+      \   Thursday 23 July 2026 at 21:30 at the Maldron Hotel, Shandon. It is finished
+
+      \   and the pipeline will retire it. Recorded rather than dropped because it is a
+
+      \   genuine dated listing with a weekday, a time and a place, because the club's
+
+      \   annual festival slot is the one appearance anybody publishes, and because
+
+      \   §4 is explicit that a past listing gets its real date rather than being
+
+      \   recorded as `undated`. 23 July 2026 is a Thursday (checked).
+
+
+      No price on either: the page names no admission for the festival or the session.
+
+
+      Restated for stage 1, because it is a finding rather than a gap: **the club has
+
+      no website and no confirmable social URL**, so this entry does not point at the
+
+      club's own publishing and cannot be made to. A curator with the club's Facebook
+
+      page should replace the URL. Two other things on the page worth a curator's eye,
+
+      neither recorded here:
+
+
+      - **Club Ceoil Ballyphehane**, \"a volunteer-run, non-profit traditional Irish
+
+      \  music organization in Cork\", founded 2008, running classes \"on a Monday night
+
+      \  in Coláiste Éamann Rís and on a Tuesday evening in Presentation Secondary
+
+      \  School, Ballyphehane\". That is a second Cork trad teaching organisation with a
+
+      \  weekly pattern and nothing in this catalogue covers it.
+
+      - **Jimmy Crowley**, the Cork ballad singer, is recorded on the page as missing
+
+      \  the 2026 festival while recovering from serious illness, having played every
+
+      \  one since 2012."

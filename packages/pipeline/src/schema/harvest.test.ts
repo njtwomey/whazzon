@@ -23,7 +23,7 @@ const event = {
 
 const run = (...observations: unknown[]) => ({
   schema: "whazzon.harvest/1",
-  locationId: "bristol-uk",
+  locationId: "gb-bristol",
   date: "2026-08-16",
   category: "theatre",
   harvestedAt: "2026-08-16T09:00:00Z",

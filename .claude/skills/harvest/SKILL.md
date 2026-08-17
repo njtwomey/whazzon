@@ -19,10 +19,10 @@ Two things must always be settled before any fetching. Do not guess at either.
 **Location.** Match what the user said against the configured locations:
 
 ```bash
-ls configs/*.yaml    # bristol-uk.yaml -> location id "bristol-uk"
+ls configs/*.yaml    # gb-bristol.yaml -> location id "gb-bristol"
 ```
 
-"bristol", "Bristol UK" and "bristol-uk" all mean `bristol-uk`. If nothing
+"bristol", "Bristol UK" and "gb-bristol" all mean `gb-bristol`. If nothing
 matches, stop and say which locations exist — harvesting the wrong city writes
 into the wrong data directory.
 

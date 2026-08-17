@@ -9,8 +9,8 @@ _Last updated: 2026-08-17_
 
 | location     | stage 1                    | stage 2                           | snapshot     |
 | ------------ | -------------------------- | --------------------------------- | ------------ |
-| `bristol-uk` | 16 categories, 155 sources | 2 runs, 2,066 observations logged | 1,662 events |
-| `cork-ie`    | in progress                | in progress                       | —            |
+| `gb-bristol` | 16 categories, 155 sources | 2 runs, 2,066 observations logged | 1,662 events |
+| `ie-cork`    | in progress                | in progress                       | —            |
 
 Cork is the second location, and the point of it is that it required no code
 change: a config, a catalogue, an asset, and it appears on the landing page. Its
@@ -32,7 +32,7 @@ meant to be, what the URL looks like, and what the URL actually serves.
 That is the origin of the two rules that now matter most in stage 1: never invent
 a URL, and a 200 is not proof.
 
-Outstanding, all listed in `data/bristol-uk/harvest/2026-08-17/REPORT.md`:
+Outstanding, all listed in `data/gb-bristol/harvest/2026-08-17/REPORT.md`:
 
 - Four renames, one miscategorisation, three duplicate entries, six wrong
   `area`s, three wrong `cadence`s.

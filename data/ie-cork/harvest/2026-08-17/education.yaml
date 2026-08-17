@@ -1,0 +1,300 @@
+schema: "whazzon.harvest/1"
+locationId: "ie-cork"
+date: "2026-08-17"
+category: "education"
+harvestedAt: "2026-08-17T09:25:08Z"
+prompt:
+  name: "stage2-harvest"
+  version: "4"
+model: "claude-opus-5[1m]"
+observations:
+  - sourceId: "education/university-college-cork"
+    fetch:
+      ok: true
+      url: "https://www.ucc.ie/en/events/"
+      status: 200
+    events: []
+    notes: "Reached, and thin exactly as the hint predicted — but thinner than the hint
+
+      realised, because its one item is finished rather than forthcoming.
+
+
+      The central page carries exactly one row, \"Mapping Climate Change
+
+      Exhibition\", linked at /en/events/mappingclimatechangeexhibition/ and
+
+      labelled \"Exhibition\". The index prints no date, so I opened it (thin index,
+
+      §3). Its own Dates block reads \"4 November to 6 December 2025\", with opening
+
+      times by weekday and the address 1 Horgan's Quay, Cork City, T23 PPT8. That
+
+      ended nine months ago, and the page is stamped \"Updated 14 November 2025\",
+
+      so the university's central events page has not changed since last autumn.
+
+      Recorded no event rather than logging a long-finished run (§4).
+
+
+      Swept the departmental pages the hint names, and did not touch
+
+      /en/study/upcomingeventsinucc/ as instructed:
+
+
+      - /en/cacsss/upcomingevents/ — the two dated rows the hint promised: \"15
+
+      \  September - Integration and inclusion of migrant children in education;
+
+      \  IMMERSE End of Project Ireland Conference\" and \"20 September - Belonging
+
+      \  and Narrative Symposium\". Neither prints a year on the index, so I opened
+
+      \  both. The symposium page states \"September 20th 2023 from 1-4pm\", O'Rahilly
+
+      \  Building Room G027, and is stamped \"Updated 13 September 2023\". The IMMERSE
+
+      \  page states \"15th September from 10.00am-3.00pm\", Dora Allman Room in The
+
+      \  Hub, with no year at all — so I opened its one outbound link,
+
+      \  immerse-h2020.eu, purely to settle the ambiguity rather than guess: that
+
+      \  post is dated \"July 12th, 2023\" and its image sits under /uploads/2023/07/.
+
+      \  Both rows are therefore September 2023, and a page titled \"Upcoming Events\"
+
+      \  is a three-year-old archive. Nothing recorded from it.
+
+      - /en/chaplaincy/events/ — three rows, all past-stamped (21 Jan 2025, 05 Sep
+
+      \  2024, 05 Sep 2024), and two say so in the body: \"The Programme has now
+
+      \  finished for this academic year\" (Le Chéile, and the Sycamore Series under
+
+      \  \"Faith Sharing\"). The C.S. Lewis book club has no forward date. The prose
+
+      \  promises retreats and \"stress a little less\" weeks but dates none of them.
+
+      - /en/anml/events/ — no dated rows whatsoever. Just \"During term time, Áras
+
+      \  Na Mac Léinn regularly hosts gigs, table quizes and all kinds of one-off
+
+      \  events ... See our social media platforms for what's on.\" The annual-event
+
+      \  sub-pages (Orientation, Freshers', Celtfest, Green Week, Christmas on
+
+      \  Campus) are descriptive, not dated.
+
+      - /en/business-school/newsandevents/2026/ — the fourth hinted page, and it is
+
+      \  a news feed rather than a diary: RTÉ Brainstorm op-eds by faculty,
+
+      \  scholarship and part-time-teaching calls, student internship profiles, and
+
+      \  retrospectives on conferences already held. Five paginated pages of the
+
+      \  same character. Its only forward-dated item, \"CUBS Go Global at Home Week
+
+      \  2027\" (22-26 February 2027), is a call for visiting academic staff to
+
+      \  apply, not a public event.
+
+
+      For stage 1, three hint corrections: (a) /en/events/'s single item is a
+
+      finished 2025 exhibition, not a live listing, so a future run need not open it
+
+      again; (b) /en/cacsss/upcomingevents/ is stale to September 2023 despite its
+
+      title, and its sibling /archive/ is where it presumably should have moved
+
+      them; (c) /en/business-school/newsandevents/ is news, not events, and is not
+
+      worth a fetch. Six ucc.ie pages plus one external link were read for zero
+
+      forward public events. Whether this source earns a monthly cadence — or is
+
+      better replaced by the Glucksman, Granary and Boole Library sources that the
+
+      catalogue already keeps separately — is a stage 1 judgement, but late
+
+      September is the earliest it could change."
+  - sourceId: "education/munster-technological-university"
+    fetch:
+      ok: true
+      url: "https://www.mtu.ie/events/?search=all"
+      status: 200
+    events: []
+    notes: "The ?search=all hint is confirmed precisely: the whole diary comes back
+
+      server-rendered in one fetch under the heading \"You are viewing all events\",
+
+      and the HTML contains exactly four events-details links with no pagination of
+
+      any kind. So this is the complete forward programme, not a truncation.
+
+
+      All four are dropped and none recorded, on the two grounds the brief sets:
+
+
+      1. New Student Orientation 2026/2027 — 07 to 11 September 2026, location
+
+      \   given only as \"MTU\". Induction for students who have already enrolled, not
+
+      \   public programme.
+
+      2. MTU Careers Fair Cork Campus 2026 — 01 October 2026, MTU Bishopstown
+
+      \   Campus, 11:00 am - 3:00 pm. Careers fair.
+
+      3. MTU Careers Fair Kerry Campus 2026 — 07 October 2026, MTU Kerry North
+
+      \   Campus, 11:00 am - 2:00 pm. Careers fair, and outside Cork.
+
+      4. MTU Kerry Campus Autumn Open Day — 09 October 2026, MTU Kerry North
+
+      \   Campus, 9:30 am - 1:30 pm. Open day, and outside Cork.
+
+
+      So the arts programme the hint anticipates is genuinely not published yet
+
+      rather than missed. The scaffolding for it is all present in the client-side
+
+      filter vocabulary — categories Concert, Theatre, Arts Exhibition, Public Talk,
+
+      Lecturers and Seminars, Summer Camps; locations MTU Cork School of Music, MTU
+
+      Crawford College of Art & Design, Dúchas Comhaltas Centre alongside the Kerry,
+
+      Clonakilty and Ringaskiddy ones — but not one current row carries any of them.
+
+      Re-running from late September is the right call, as the hint says. The PHP
+
+      server-variable dump is still in the HTML comment; ignored as instructed."
+  - sourceId: "education/ucc-adult-continuing-education"
+    fetch:
+      ok: true
+      url: "https://www.ucc.ie/en/ace/"
+      status: 200
+    events: []
+    notes: "Reached, but with a correction to the hint: there is no forward-dated event
+
+      here today, and the \"ten dates on 2026-08-17\" the hint counted are deadlines
+
+      and news publication dates rather than events.
+
+
+      What the parent page actually carries is four countdown-timer banners, every
+
+      one of them an application date: \"Springboard+ Free & Funded Courses | 2026
+
+      Applications Now Open\"; \"Part-time Programmes for Adult Learners | Online
+
+      registration now open | Courses commencing Autumn 2026\"; \"80% Microcredential
+
+      Learner Fee Subsidy | Applications close 31 July 2026\" (already past);
+
+      \"Sanctuary Scholarships | applications open until 11 June 2026\" (already
+
+      past). Plus a four-item news strip (22 Jan 2026, 19 Dec 2025 x2, 11 Dec 2025).
+
+      By the hint's own rule an enrolment deadline is not an event and a part-time
+
+      degree commencing in September is not either, so none is recorded. All the
+
+      timers had run down to zero when fetched.
+
+
+      Followed the nav to /en/ace/news/, labelled \"News and Events\", which is where
+
+      ACE's real event rows live. The feed distinguishes them with a second stamp,
+
+      \"Happening On DD/MM/YYYY\", beside the publication date — and there are exactly
+
+      three across the whole feed, all in 2025:
+
+
+      - \"Myrtle Allen Memorial Lecture to examine if food can be both tasty and
+
+      \  healthy\" — Happening On 27/05/2025. A free public lecture, described as
+
+      \  annual, and precisely the kind of thing this source should be yielding.
+
+      - \"Spring Forward: Adult Learning & Career Growth Workshop at UCC\" — Happening
+
+      \  On 03/04/2025; blurb confirms \"Thursday, 3 April\".
+
+      - \"Drop-in information session | Discover Part-time Programmes for Adult
+
+      \  Learners\" — Happening On 05/03/2025, at Cork City Library; blurb confirms
+
+      \  \"Wednesday, 5 March\", which settles the stamp as day-first.
+
+
+      Also read /en/ace/coursesopen/, in case information evenings were listed
+
+      alongside the open courses: it is a client-rendered course search box with no
+
+      dates at all, the same as the hint reports of /en/ace/courses/.
+
+
+      For stage 1, the route worth recording is /en/ace/news/ and specifically its
+
+      \"Happening On\" stamp — a machine-readable forward-event marker sitting on an
+
+      otherwise undifferentiated news feed, and the only thing here that separates
+
+      an event from an announcement. A future run should read that page rather than
+
+      the parent. On the evidence of the three rows above, this source pays around
+
+      the spring (a March information session, an April workshop, the May Myrtle
+
+      Allen lecture) rather than in August."
+  - sourceId: "education/cork-etb"
+    fetch:
+      ok: true
+      url: "https://www.corketb.ie/news-events/"
+      status: 200
+    events: []
+    notes: "Empty, which the catalogue correctly called the expected outcome. 200, right
+
+      URL, right organisation, and no dated forward event — so this is a real result
+
+      and not a failure.
+
+
+      The page is a retrospective news feed of eight posts, most recent 16 July
+
+      2026, and every one reports something already done: a multi-year Cork GAA and
+
+      Rebel Óg sponsorship announcement; a Youthreach work-placement pilot with Cork
+
+      Chamber, completed; a visit by European Commission Executive Vice-President
+
+      Roxana Mînzatu; a Bishopstown Campus learner graduation held on 4 June; a
+
+      ten-week Youthreach esports pilot, completed; then three posts from early
+
+      2025. Its own \"Events\" category tag is applied to these retrospectives rather
+
+      than to anything upcoming, and the Archives dropdown offers only July 2026,
+
+      June 2026, May 2026, April 2025, February 2025 and January 2025 — no future
+
+      month exists to page into.
+
+
+      Worth noting against the hint's expectation: mid-August is one of the two
+
+      enrolment seasons it says to watch, and even so there is no enrolment notice
+
+      on the page today, let alone a dated event. A curator now has two independent
+
+      observations — stage 1's on this same day and this one — that the source does
+
+      not list forward events, which is the evidence the catalogue note said would
+
+      justify demoting it to dormant. It stays cheap to check at a quarterly
+
+      cadence, so demoting is a judgement call rather than an obvious one."

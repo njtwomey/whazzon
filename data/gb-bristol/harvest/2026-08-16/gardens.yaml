@@ -1,0 +1,1317 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-08-16"
+category: "gardens"
+harvestedAt: "2026-08-16T17:20:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "2"
+model: "claude-opus-5"
+observations:
+  - sourceId: "gardens/university-botanic-garden"
+    fetch:
+      ok: true
+      url: "https://botanic-garden.bristol.ac.uk/events/"
+      status: 200
+    events:
+      - id: "gardens/university-botanic-garden#1735b37434"
+        sourceId: "gardens/university-botanic-garden"
+        title: "Plant Collections and Glasshouses"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        timesText: "Main Garden 10:00–16:30 daily; Glasshouses 10:30–16:00 daily"
+        url: "https://botanic-garden.bristol.ac.uk/plant-collections-and-glasshouses/"
+        tags:
+          - "outdoor"
+          - "drop-in"
+          - "family"
+        raw: "**Opening hours** — Main Garden: 10:00 am – 4:30 pm daily.
+
+          Glasshouses: 10:30 am – 4:00 pm daily.
+
+
+          [Plant collections and glasshouses](https://botanic-garden.bristol.ac.uk/plant-collections-and-glasshouses/)\n"
+        summary: "The university's living collection on the Stoke Bishop site, open every day: themed outdoor beds plus a glasshouse range of tropical, arid and giant waterlily displays."
+        confidence: "medium"
+      - id: "gardens/university-botanic-garden#9a67e0d8ab"
+        sourceId: "gardens/university-botanic-garden"
+        title: "Wednesday Wanders – Free Garden Tours"
+        occurrence:
+          kind: "recurring"
+          pattern: "Wednesdays"
+          start: "2026-07-22"
+          end: "2026-10-28"
+          startTime: "14:00"
+        status: "scheduled"
+        timesText: "2:00 pm to 3:00 pm"
+        url: "https://botanic-garden.bristol.ac.uk/event/free-wednesday-tours-2026/"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "guided-tour"
+          - "free-entry"
+          - "outdoor"
+          - "drop-in"
+        raw: "**Wednesday Wanders – Free Garden Tours at 2pm**
+
+          Wednesday 22 July to Wednesday 28 October, 2:00 pm – 3:00 pm. Free.
+
+
+          \"Our magnificent experienced volunteer guides are putting on some free
+
+          tours for visitors to the Garden on Wednesdays!\" First come, first
+
+          served, with a different focus each month.\n"
+        summary: "A free hour-long tour with one of the garden's volunteer guides, every Wednesday afternoon through to late October. No booking — turn up at 2pm and join."
+        confidence: "high"
+      - id: "gardens/university-botanic-garden#5825cad74e"
+        sourceId: "gardens/university-botanic-garden"
+        title: "Botanic Garden Lates"
+        occurrence:
+          kind: "run"
+          start: "2026-07-30"
+          end: "2026-08-28"
+        status: "scheduled"
+        timesText: "10:00 am – 8:00 pm on selected dates: 30–31 July, 20–21 August, 27–28 August"
+        url: "https://botanic-garden.bristol.ac.uk/event/botanic-garden-lates/"
+        tags:
+          - "outdoor"
+          - "seasonal"
+          - "drop-in"
+        raw: "**Botanic Garden Lates – Garden open 'til 8pm**
+
+          Thursday 30 July to Friday 28 August (select dates: 20th, 21st, 27th,
+
+          28th), 10:00 am – 8:00 pm.
+
+
+          Summer evening opening — \"pop in after work and unwind among the bees
+
+          and butterflies.\"\n"
+        summary: "Late summer evening opening, with the garden staying open until 8pm on a handful of Thursdays and Fridays. Four dates remain in August."
+        confidence: "medium"
+      - id: "gardens/university-botanic-garden#7699b9baed"
+        sourceId: "gardens/university-botanic-garden"
+        title: "Sketching Bristol's Long-lived Trees"
+        subcategory: "externally run"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "18:00"
+          endTime: "20:00"
+        status: "scheduled"
+        url: "https://botanic-garden.bristol.ac.uk/event/sketching-bristols-long-lived-trees/"
+        tags:
+          - "workshop"
+          - "hands-on"
+          - "outdoor"
+        raw: "**[externally run] Sketching Bristol's Long-lived Trees**
+
+          Thursday 20 August, 6:00 pm – 8:00 pm.
+
+
+          \"Rest under a shady tree and take up your pencils.\"\n"
+        summary: "An externally run evening drawing session among the garden's oldest trees, two hours of sketching outdoors."
+        confidence: "high"
+      - id: "gardens/university-botanic-garden#d6b76f7f9b"
+        sourceId: "gardens/university-botanic-garden"
+        title: "Bee and Pollination Festival 2026"
+        occurrence:
+          kind: "run"
+          start: "2026-09-05"
+          end: "2026-09-06"
+        status: "scheduled"
+        timesText: "10am – 5pm both days"
+        url: "https://botanic-garden.bristol.ac.uk/event/bee-pol-26/"
+        tags:
+          - "family"
+          - "outdoor"
+          - "plant-sale"
+          - "talk"
+          - "seasonal"
+        raw: "**Bee and Pollination Festival 2026 – A Botanic Garden Fundraiser:
+
+          10am – 5pm**
+
+          Saturday 5 September to Sunday 6 September 2026. Advance tickets
+
+          available.
+
+
+          The 15th anniversary of the festival: live hive demonstrations, expert
+
+          talks on growing for wild bees, plant sales and lectures.\n"
+        summary: "The garden's biggest weekend of the year, now in its 15th edition — live hives, honey and plant stalls, and a programme of talks on pollinators, raising funds for the garden."
+        confidence: "high"
+    notes: "Catalogued URL https://botanic-garden.bristol.ac.uk/whats-on/ returns 404; the listings now live at /events/. Catalogue URL needs updating. Also read /events/month/2026-09/, which adds the Bee and Pollination Festival; nothing is listed beyond September 2026. The permanent plant collections are recorded as an `ongoing` event using the daily opening hours printed on the homepage — no admission price is stated on either page, so `price` is omitted rather than guessed."
+  - sourceId: "gardens/national-garden-scheme"
+    fetch:
+      ok: true
+      url: "https://ngs.org.uk/gardens/in/bristol/"
+      status: 200
+    events: []
+    notes: "No events recorded, and the reason matters for this source. The Bristol page lists 12 gardens (1 Sunnyside BS9, 30 Kingsholm Road BS10, 4 Haytor Park BS9, 81 Coombe Lane BS9, 87 Hallen Road BS10, 9 Codrington Road BS7, Algars Mill BS37, Camers BS37, Charlton Road Allotments BS10, Doynton House BS30, Greystones BS9, Japanese Garden Bristol BS4) but prints no opening dates, times or admission on the listing page — only a caveat that \"some may have completed their openings for the year\". Dates live on each garden's own page, one fetch each. Three further routes were tried and none carried dates either: /find-a-garden/?search=Bristol returns \"no results\" (it is a form), /gardens-open-this-week-south-west/ is a county hub with no listings, and findagarden.ngs.org.uk is a JavaScript shell that renders nothing server-side. /gardens/near/bristol/ says there is now just \"1 Private Garden to visit in Bristol\" — Dormers, Stowey Bottom, Bishop Sutton BS39 5TL — and that garden's own page states \"This garden has now completed its National Garden Scheme openings for this year.\" Read together, the Bristol NGS season is over for 2026 and next year's dates are not yet published; the hint's \"openings published for the whole year in spring\" means this source is worth re-harvesting from roughly February 2027, when a single fetch should again yield a year of dated openings."
+  - sourceId: "gardens/grow-wilder"
+    fetch:
+      ok: true
+      url: "https://www.avonwildlifetrust.org.uk/events?tags=661"
+      status: 200
+    events:
+      - id: "gardens/grow-wilder#195e2108e0"
+        sourceId: "gardens/grow-wilder"
+        title: "Youth Event: A Beginner's Guide to Moth Trapping"
+        subcategory: "Youth Event"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "18:00"
+        status: "scheduled"
+        timesText: "Wed 19 Aug 6:00pm – Thu 20 Aug 10:30am"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-08-19-youth-event-beginners-guide-moth-trapping"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2025-12/Eventbrite%20Event%20header%20images%20%282160%20x%20600%20px%29%20%286%29.png"
+        tags:
+          - "wildlife"
+          - "hands-on"
+          - "outdoor"
+        raw: "**Youth Event: A Beginner's Guide to Moth Trapping** — Grow Wilder,
+
+          Bristol. Wednesday 19 August 2026 – Thursday 20 August 2026,
+
+          6:00pm – 10:30am.
+
+
+          \"Join us online to learn about moth trapping and see how to set a trap
+
+          - and then come along to see what we catch overnight!\"\n"
+        summary: "An overnight moth trap set at Grow Wilder: an evening session on how traps work, then back next morning to identify what flew in."
+        confidence: "high"
+      - id: "gardens/grow-wilder#b3d4b8cd0f"
+        sourceId: "gardens/grow-wilder"
+        title: "Youth Event: Wild Wednesdays - BioBlitz"
+        subcategory: "Youth Event"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "10:00"
+          endTime: "12:30"
+        status: "scheduled"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-08-19-youth-event-wild-wednesdays-bioblitz"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2026-04/Eventbrite%20Event%20header%20images%20%2817%29.png"
+        tags:
+          - "wildlife"
+          - "family"
+          - "outdoor"
+        raw: "**Youth Event: Wild Wednesdays - BioBlitz** — Grow Wilder, Bristol.
+
+          Wednesday 19 August 2026, 10:00am – 12:30pm.
+
+
+          \"Come along to our new weekly summer sessions at Grow Wilder to
+
+          experience some of the wonderful wildlife\" found at this urban nature
+
+          reserve.\n"
+        summary: "A morning spent recording as many species as possible across the Grow Wilder site — one of the summer's weekly Wild Wednesday sessions."
+        confidence: "high"
+      - id: "gardens/grow-wilder#002d42ce2a"
+        sourceId: "gardens/grow-wilder"
+        title: "Introduction to Conservation (3-day course) for 16-30 yr olds"
+        occurrence:
+          kind: "run"
+          start: "2026-08-26"
+          end: "2026-08-28"
+        status: "scheduled"
+        timesText: "10:00am – 2:30pm each day"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-08-26-introduction-conservation-3-day-course-16-30-yr-olds"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2025-12/Eventbrite%20Event%20header%20images%20%282160%20x%20600%20px%29%20%282%29.png"
+        tags:
+          - "workshop"
+          - "hands-on"
+          - "outdoor"
+          - "volunteering"
+        raw: "**Introduction to Conservation (3-day course) for 16-30 yr olds** —
+
+          Grow Wilder, Bristol. Wednesday 26 August 2026 – Friday 28 August 2026,
+
+          10:00am – 2:30pm.
+
+
+          \"Do you want to get into conservation, learn more about nature and
+
+          wildlife or meet like-minded people?\"\n"
+        summary: "A three-day taster in practical conservation work for 16-to-30-year- olds, aimed at people thinking about the sector as a career."
+        confidence: "high"
+      - id: "gardens/grow-wilder#3e9e0715ad"
+        sourceId: "gardens/grow-wilder"
+        title: "Youth Event: Wild Wednesdays - Habitats"
+        subcategory: "Youth Event"
+        occurrence:
+          kind: "single"
+          date: "2026-08-26"
+          startTime: "10:00"
+          endTime: "12:30"
+        status: "scheduled"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-08-26-youth-event-wild-wednesdays-habitats"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2026-04/Eventbrite%20Event%20header%20images%20%2816%29.png"
+        tags:
+          - "wildlife"
+          - "family"
+          - "outdoor"
+        raw: "**Youth Event: Wild Wednesdays - Habitats** — Grow Wilder, Bristol.
+
+          Wednesday 26 August 2026, 10:00am – 12:30pm.
+
+
+          \"Come along to our new weekly summer sessions at Grow Wilder to
+
+          experience some of the wonderful wildlife\" found at this urban nature
+
+          reserve.\n"
+        summary: "The last of the summer Wild Wednesdays, this one looking at the different habitats packed into the Grow Wilder site and what lives in each."
+        confidence: "high"
+      - id: "gardens/grow-wilder#466fa52202"
+        sourceId: "gardens/grow-wilder"
+        title: "Grow Leader Course - September 2026"
+        occurrence:
+          kind: "single"
+          date: "2026-09-04"
+        status: "scheduled"
+        timesText: "Taught sessions 9am-4pm, practical workdays 10am-3pm"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-09-04-grow-leader-course-september-2026"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2021-10/Eventbrite%20-%20GL%20Course%202.png"
+        tags:
+          - "workshop"
+          - "hands-on"
+          - "community"
+          - "volunteering"
+        raw: "**Grow Leader Course - September 2026** — Grow Wilder, Bristol.
+
+          Friday 4 September 2026. Taught sessions 9am-4pm, practical workdays
+
+          10am-3pm.
+
+
+          \"A journey in agroecological skills, personal growth & community
+
+          leadership.\"\n"
+        summary: "Grow Wilder's flagship training course in agroecological growing and community leadership, mixing classroom sessions with practical days on the site. The listing gives only the start date."
+        confidence: "medium"
+      - id: "gardens/grow-wilder#583186fec6"
+        sourceId: "gardens/grow-wilder"
+        title: "Youth Event: Evening Bat Walk in Stoke Park"
+        subcategory: "Youth Event"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+          startTime: "18:00"
+          endTime: "20:00"
+        status: "scheduled"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-09-12-youth-event-evening-bat-walk-stoke-park"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2026-04/Eventbrite%20Event%20header%20images%20%2815%29.png"
+        tags:
+          - "wildlife"
+          - "guided-tour"
+          - "outdoor"
+        raw: "**Youth Event: Evening Bat Walk in Stoke Park** — Grow Wilder, Bristol.
+
+          Saturday 12 September 2026, 6:00pm – 8:00pm.
+
+
+          \"Join us for an evening walk through Grow Wilder and across to Stoke
+
+          Park to see some great bats in action!\"\n"
+        summary: "A dusk walk out of Grow Wilder and up into Stoke Park with detectors, listening for the bats that hunt over the estate."
+        confidence: "high"
+      - id: "gardens/grow-wilder#dc649c95ce"
+        sourceId: "gardens/grow-wilder"
+        title: "Youth-Led Community Gathering"
+        occurrence:
+          kind: "single"
+          date: "2026-09-15"
+          startTime: "18:00"
+          endTime: "20:00"
+        status: "scheduled"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-09-15-youth-led-community-gathering"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2026-07/IMG_7869.JPEG"
+        tags:
+          - "community"
+          - "drop-in"
+        raw: "**Youth-Led Community Gathering** — Grow Wilder, Bristol.
+
+          Tuesday 15 September 2026, 6:00pm – 8:00pm.
+
+
+          \"A space for young people to shout about what they've been doing for
+
+          nature in their community.\" Open to all ages but led by under-30s.\n"
+        summary: "An evening where young people running nature projects around Bristol share what they have been doing. Anyone can come; under-30s run it."
+        confidence: "high"
+      - id: "gardens/grow-wilder#033d5c4797"
+        sourceId: "gardens/grow-wilder"
+        title: "Youth Event: A Beginner's Guide to Moth Trapping"
+        subcategory: "Youth Event"
+        occurrence:
+          kind: "single"
+          date: "2026-09-25"
+          startTime: "18:00"
+        status: "scheduled"
+        timesText: "6:00pm – 10:30am"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-09-25-youth-event-beginners-guide-moth-trapping"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2025-12/Eventbrite%20Event%20header%20images%20%282160%20x%20600%20px%29%20%286%29.png"
+        tags:
+          - "wildlife"
+          - "hands-on"
+          - "outdoor"
+        raw: "**Youth Event: A Beginner's Guide to Moth Trapping** — Grow Wilder,
+
+          Bristol. Friday 25 September 2026, 6:00pm – 10:30am.
+
+
+          \"Learn about moth trapping online before attending in-person to
+
+          observe overnight catches.\"\n"
+        summary: "A second run of the overnight moth trapping session, this time in late September when the autumn species are flying."
+        confidence: "high"
+      - id: "gardens/grow-wilder#22f35f7cb5"
+        sourceId: "gardens/grow-wilder"
+        title: "Traditional Hedgelaying - Winter 2026/27"
+        occurrence:
+          kind: "undated"
+          note: "Listing titled \"Traditional Hedgelaying- Winter 2026/27 Dates Coming Soon\" and filed under the span Saturday 12 December 2026 – Sunday 31 January 2027; no workshop dates published yet."
+        status: "scheduled"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-12-12-traditional-hedgelaying-winter-202627-dates-coming-soon"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2022-11/midland.jpg"
+        tags:
+          - "workshop"
+          - "hands-on"
+          - "outdoor"
+          - "volunteering"
+        raw: "**Traditional Hedgelaying- Winter 2026/27 Dates Coming Soon** — Grow
+
+          Wilder, Bristol. Saturday 12 December 2026 – Sunday 31 January 2027.
+
+
+          Winter workshops teaching the heritage craft of hedgelaying, which
+
+          creates wildlife habitat and shows human and nature working together.\n"
+        summary: "Grow Wilder's winter hedgelaying workshops will return between December and January, but the listing says dates are still to be announced."
+        confidence: "low"
+    notes: "The catalogued URL https://www.avonwildlifetrust.org.uk/grow-wilder is a site page with no listings on it; it links to /events?tags=661, the Grow Wilder tag feed, which is where the programme actually lives. Catalogue URL could point there instead. All nine events are at Grow Wilder itself, so `venue` is omitted. No prices are printed on the listing page."
+  - sourceId: "gardens/avon-wildlife-trust"
+    fetch:
+      ok: true
+      url: "https://www.avonwildlifetrust.org.uk/events"
+      status: 200
+    events:
+      - id: "gardens/avon-wildlife-trust#3683abb131"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Portishead Local Group - From Aepyornis egg to Burchell's Zebra"
+        occurrence:
+          kind: "single"
+          date: "2026-09-25"
+          startTime: "19:30"
+          endTime: "21:00"
+        status: "scheduled"
+        venue:
+          name: "Portishead Town Council Folk Hall"
+          area: "Portishead"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-09-25-portishead-local-group-aepyornis-egg-burchells-zebra"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2026-01/Equus_quagga_burchellii_-_Etosha%2C%202014.jpg"
+        tags:
+          - "talk"
+          - "wildlife"
+          - "community"
+        raw: "**Portishead Local Group - From Aepyornis egg to Burchell's Zebra** —
+
+          Portishead Town Council Folk Hall. Friday 25 September 2026,
+
+          7:30pm – 9:00pm.
+
+
+          \"An illustrated talk by Ray Barnett. A selection from the amazing
+
+          biology collections of Bristol Museum.\"\n"
+        summary: "Bristol Museum's Ray Barnett picks his way through the natural history stores, from an elephant bird egg to an extinct zebra."
+        confidence: "high"
+      - id: "gardens/avon-wildlife-trust#76d8de3d55"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Keynsham Local Group - It's time to talk eels: An evening with the Somerset Eel Recovery Project"
+        occurrence:
+          kind: "single"
+          date: "2026-10-09"
+          startTime: "19:30"
+          endTime: "21:00"
+        status: "scheduled"
+        venue:
+          name: "Baptist Church Hall"
+          area: "Keynsham"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-10-09-keynsham-local-group-its-time-talk-eels-evening-somerset-eel-recovery-project"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2026-05/European%20eel%20%28c%29%20Vaughn%20Matthews_1.JPG"
+        tags:
+          - "talk"
+          - "wildlife"
+          - "community"
+        raw: "**Keynsham Local Group - It's time to talk eels: An evening with the
+
+          Somerset Eel Recovery Project** — Baptist Church Hall, Keynsham.
+
+          Friday 9 October 2026, 7:30pm – 9:00pm.
+
+
+          \"Join us for a fascinating evening with Vanessa Becker-Hughes,
+
+          co-founder of the Somerset Eel Recovery Project.\"\n"
+        summary: "The co-founder of the Somerset Eel Recovery Project on why the European eel has collapsed and what is being done about it locally."
+        confidence: "high"
+      - id: "gardens/avon-wildlife-trust#e9eaf1b3a9"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Portishead Local Group - Flora and Fauna of Portishead Open Space: The story so far"
+        occurrence:
+          kind: "single"
+          date: "2026-10-23"
+          startTime: "19:30"
+          endTime: "21:00"
+        status: "scheduled"
+        venue:
+          name: "Portishead Town Council Folk Hall"
+          area: "Portishead"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-10-23-portishead-local-group-flora-and-fauna-portishead-open-space-story-so-far"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2026-01/Portishead%2C%20Kilkenny%20Fields%20%28C%29%20Lewis%20Clarke.jpg"
+        tags:
+          - "talk"
+          - "wildlife"
+          - "community"
+        raw: "**Portishead Local Group - Flora and Fauna of Portishead Open Space:
+
+          The story so far** — Portishead Town Council Folk Hall.
+
+          Friday 23 October 2026, 7:30pm – 9:00pm.
+
+
+          \"An illustrated talk by Christopher Robinson.\"\n"
+        summary: "What has been recorded so far on Portishead's open space, told through Christopher Robinson's own photographs."
+        confidence: "high"
+      - id: "gardens/avon-wildlife-trust#5a0bea1bb6"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Portishead Local Group - Autumn Fair"
+        occurrence:
+          kind: "single"
+          date: "2026-10-31"
+          startTime: "10:00"
+          endTime: "13:00"
+        status: "scheduled"
+        venue:
+          name: "Portishead Town Council Folk Hall"
+          area: "Portishead"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-10-31-portishead-local-group-autumn-fair"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2024-08/World%20Photo%20Day%20%282%29.jpg"
+        tags:
+          - "community"
+          - "plant-sale"
+          - "family"
+          - "drop-in"
+        raw: "**Portishead Local Group - Autumn Fair** — Portishead Town Council
+
+          Folk Hall. Saturday 31 October 2026, 10:00am – 1:00pm.
+
+
+          \"Homemade cakes, plants, books, crafts, tombola, and refreshments
+
+          available.\"\n"
+        summary: "The Portishead group's autumn fundraiser: plant and cake stalls, second-hand books, crafts and a tombola over a Saturday morning."
+        confidence: "high"
+      - id: "gardens/avon-wildlife-trust#106fae76c6"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Keynsham Local Group - The weird and wonderful of moths, Bristol and beyond!"
+        occurrence:
+          kind: "single"
+          date: "2026-11-13"
+          startTime: "19:30"
+          endTime: "21:00"
+        status: "scheduled"
+        venue:
+          name: "Baptist Church Hall"
+          area: "Keynsham"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-11-13-keynsham-local-group-weird-and-wonderful-moths-bristol-and-beyond"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2026-07/51995776425_Elephant%20Hawkmoth.jpg"
+        tags:
+          - "talk"
+          - "wildlife"
+          - "community"
+        raw: "**Keynsham Local Group - The weird and wonderful of moths, Bristol and
+
+          beyond!** — Baptist Church Hall, Keynsham. Friday 13 November 2026,
+
+          7:30pm – 9:00pm.
+
+
+          \"A talk with Charlie Tallis from the BS3 Moth Club.\"\n"
+        summary: "Charlie Tallis of the BS3 Moth Club on the moths turning up in Bristol gardens and the odder species found further afield."
+        confidence: "high"
+      - id: "gardens/avon-wildlife-trust#6f9f29a15a"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Portishead Local Group - The South African Wildlife of Ecuador and Columbia"
+        occurrence:
+          kind: "single"
+          date: "2026-11-27"
+          startTime: "19:30"
+          endTime: "21:00"
+        status: "scheduled"
+        venue:
+          name: "Portishead Town Council Folk Hall"
+          area: "Portishead"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-11-27-portishead-local-group-south-african-wildlife-ecuador-and-columbia"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2026-01/Tapirus_pinchaque_133820375.jpg"
+        tags:
+          - "talk"
+          - "wildlife"
+          - "community"
+        raw: "**Portishead Local Group - The South African Wildlife of Ecuador and
+
+          Columbia** — Portishead Town Council Folk Hall.
+
+          Friday 27 November 2026, 7:30pm – 9:00pm.
+
+
+          \"An illustrated talk by Helen Mugridge.\"\n"
+        summary: "Helen Mugridge's illustrated account of the wildlife she found in Ecuador and Colombia."
+        confidence: "high"
+      - id: "gardens/avon-wildlife-trust#60e42bc3a8"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Keynsham Local Group - Yuletide and the wildside!"
+        occurrence:
+          kind: "single"
+          date: "2026-12-11"
+          startTime: "19:30"
+          endTime: "21:00"
+        status: "scheduled"
+        venue:
+          name: "Baptist Church Hall"
+          area: "Keynsham"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-12-11-keynsham-local-group-yuletide-and-wildside"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2021-09/Stag.jpg"
+        tags:
+          - "talk"
+          - "community"
+          - "seasonal"
+        raw: "**Keynsham Local Group - Yuletide and the wildside!** — Baptist Church
+
+          Hall, Keynsham. Friday 11 December 2026, 7:30pm – 9:00pm.
+
+
+          \"Members evening with short talks, wildlife quiz and festive
+
+          refreshments.\"\n"
+        summary: "The Keynsham group's Christmas meeting — a handful of short member talks, a wildlife quiz and mince pies."
+        confidence: "high"
+      - id: "gardens/avon-wildlife-trust#c9d9e7b02f"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Keynsham Local Group - The secret lives of Somerset birds"
+        occurrence:
+          kind: "single"
+          date: "2027-01-08"
+          startTime: "19:30"
+          endTime: "21:00"
+        status: "scheduled"
+        venue:
+          name: "Baptist Church Hall"
+          area: "Keynsham"
+        url: "https://www.avonwildlifetrust.org.uk/events/2027-01-08-keynsham-local-group-secret-lives-somerset-birds"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2017-12/Cetti%27s%20warbler%20%28c%29%20Amy%20Lewis.jpg"
+        tags:
+          - "talk"
+          - "wildlife"
+          - "community"
+        raw: "**Keynsham Local Group - The secret lives of Somerset birds** —
+
+          Baptist Church Hall, Keynsham. Friday 8 January 2027,
+
+          7:30pm – 9:00pm.
+
+
+          \"A talk with Nick Patel, nature guide and conservationist.\"\n"
+        summary: "Nature guide Nick Patel on the behaviour of Somerset's birds and where to go looking for them."
+        confidence: "high"
+      - id: "gardens/avon-wildlife-trust#7f4a044dfe"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Keynsham Local Group - Sea and sky: Wildlife stories from the South West"
+        occurrence:
+          kind: "single"
+          date: "2027-02-12"
+          startTime: "19:30"
+          endTime: "21:00"
+        status: "scheduled"
+        venue:
+          name: "Baptist Church Hall"
+          area: "Keynsham"
+        url: "https://www.avonwildlifetrust.org.uk/events/2027-02-12-keynsham-local-group-sea-and-sky-wildlife-stories-south-west"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2020-12/Bluefin%20tuna%20cropped%20%C2%A9%20Joe%20Pender.jpg"
+        tags:
+          - "talk"
+          - "wildlife"
+          - "community"
+        raw: "**Keynsham Local Group - Sea and sky: Wildlife stories from the South
+
+          West** — Baptist Church Hall, Keynsham. Friday 12 February 2027,
+
+          7:30pm – 9:00pm.
+
+
+          \"A talk with Henry Kirkwood, wildlife filmmaker.\"\n"
+        summary: "Wildlife filmmaker Henry Kirkwood on filming the South West's coast and its returning bluefin tuna."
+        confidence: "high"
+      - id: "gardens/avon-wildlife-trust#c4297a01ae"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Keynsham Local Group - Life below the surface: Exploring the relationship between river water quality and wildlife behaviour"
+        occurrence:
+          kind: "single"
+          date: "2027-03-12"
+          startTime: "19:30"
+          endTime: "21:00"
+        status: "scheduled"
+        venue:
+          name: "Baptist Church Hall"
+          area: "Keynsham"
+        url: "https://www.avonwildlifetrust.org.uk/events/2027-03-12-keynsham-local-group-life-below-surface-exploring-relationship-between-river"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2026-08/Ainsworth_bay_and_Marinelli_Glacier.jpg"
+        tags:
+          - "talk"
+          - "wildlife"
+          - "community"
+        raw: "**Keynsham Local Group - Life below the surface: Exploring the
+
+          relationship between river water quality and wildlife behaviour** —
+
+          Baptist Church Hall, Keynsham. Friday 12 March 2027,
+
+          7:30pm – 9:00pm.
+
+
+          \"A talk with Aleks Domanski, wildlife filmmaker.\"\n"
+        summary: "Filmmaker Aleks Domanski on what river water quality does to the animals living in it, filmed below the surface."
+        confidence: "high"
+      - id: "gardens/avon-wildlife-trust#a451ff1de4"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Keynsham Local Group - Patagonia: Ice, peaks and predators"
+        occurrence:
+          kind: "single"
+          date: "2027-04-09"
+          startTime: "19:30"
+          endTime: "21:00"
+        status: "scheduled"
+        venue:
+          name: "Baptist Church Hall"
+          area: "Keynsham"
+        url: "https://www.avonwildlifetrust.org.uk/events/2027-04-09-keynsham-local-group-patagonia-ice-peaks-and-predators"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2026-08/Ainsworth_bay_and_Marinelli_Glacier.jpg"
+        tags:
+          - "talk"
+          - "wildlife"
+          - "community"
+        raw: "**Keynsham Local Group - Patagonia: Ice, peaks and predators** —
+
+          Baptist Church Hall, Keynsham. Friday 9 April 2027,
+
+          7:30pm – 9:00pm.
+
+
+          \"A talk by Kathy Farrell, vice chair of Keynsham Local Group.\"\n"
+        summary: "The group's own vice chair on a trip through Patagonia — glaciers, mountains and the pumas that hunt there."
+        confidence: "high"
+    notes: "Read the first listings page and the second (?page=1); a \"Load More\" button hides anything beyond that, so coverage stops at April 2027, which is already the end of the published local-group season. The Trust's programme is dominated by Grow Wilder events, which are recorded under gardens/grow-wilder from the /events?tags=661 feed rather than duplicated here; what remains, and is recorded here, is the local-group talks and fairs held in Portishead and Keynsham, each with `venue` set since they are not at a catalogued site. No prices are printed on the listings page."
+  - sourceId: "gardens/bristol-allotments"
+    fetch:
+      ok: true
+      url: "https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/allotments-and-gardens"
+      status: 200
+    events: []
+    notes: "Catalogued URL https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/allotments returns 404; the section has moved to .../allotments-and-gardens. Catalogue URL needs updating. The page is purely administrative as the catalogue note anticipated — applying for a plot, paying rent, tenancy rules, the Bristol Allotments Forum and a link to Blaise plant nursery. No events, open days or community growing days are listed anywhere on it, and there is no events subsection to follow."
+  - sourceId: "gardens/bristol-botanical-society"
+    fetch:
+      ok: true
+      url: "https://bristolnats.org.uk/events/"
+      status: 200
+    events:
+      - id: "gardens/bristol-botanical-society#7850d76204"
+        sourceId: "gardens/bristol-botanical-society"
+        title: "Pomphrey Hill"
+        occurrence:
+          kind: "single"
+          date: "2026-08-16"
+        status: "scheduled"
+        venue:
+          name: "Pomphrey Hill"
+        url: "https://bristolnats.org.uk/events/pomphrey-hill/"
+        tags:
+          - "wildlife"
+          - "outdoor"
+          - "community"
+        raw: "**Pomphrey Hill** — 16.08.2026
+
+
+          \"This most curious squiggly artificial hill perched between the ring
+
+          road and Emerson's Green on the eastern fringes of Bristol hosts an
+
+          interesting and…\"\n"
+        summary: "A Bristol Naturalists' field meeting on the artificial hill east of the city, recording what has colonised it. No time is given on the listing."
+        confidence: "medium"
+      - id: "gardens/bristol-botanical-society#25df1215b9"
+        sourceId: "gardens/bristol-botanical-society"
+        title: "Lord's Wood, Pensford"
+        occurrence:
+          kind: "single"
+          date: "2026-09-04"
+        status: "scheduled"
+        venue:
+          name: "Lord's Wood"
+          area: "Pensford"
+        url: "https://bristolnats.org.uk/events/lords-wood-pensford/"
+        tags:
+          - "wildlife"
+          - "outdoor"
+          - "hands-on"
+        raw: "**Lord's Wood, Pensford** — 04.09.2026
+
+
+          \"Light-trapping at Lords Woods, Pensford with Ray Barnett. Details to
+
+          be confirmed.\"\n"
+        summary: "An evening of moth light-trapping in woodland south of Bristol with Ray Barnett. The listing says details are still to be confirmed."
+        confidence: "medium"
+      - id: "gardens/bristol-botanical-society#1889c62091"
+        sourceId: "gardens/bristol-botanical-society"
+        title: "Littleton Warth"
+        occurrence:
+          kind: "single"
+          date: "2026-09-20"
+        status: "scheduled"
+        venue:
+          name: "Littleton Warth"
+        url: "https://bristolnats.org.uk/events/littleton-warth/"
+        tags:
+          - "wildlife"
+          - "outdoor"
+          - "community"
+        raw: "**Littleton Warth** — 20.09.2026
+
+
+          \"Littleton Warth offers a wide expanse of grazed saltmarsh, with fine
+
+          views across to the Forest of Dean and down to the Severn Bridge,…\"\n"
+        summary: "A field meeting on the Severn saltmarsh at Littleton, looking at the specialised plants and birds of grazed estuary grassland. No time is given on the listing."
+        confidence: "medium"
+      - id: "gardens/bristol-botanical-society#548f19cdc8"
+        sourceId: "gardens/bristol-botanical-society"
+        title: "Emerson's Green"
+        occurrence:
+          kind: "single"
+          date: "2026-10-11"
+        status: "scheduled"
+        venue:
+          name: "Emerson's Green"
+        url: "https://bristolnats.org.uk/events/emersons-green/"
+        tags:
+          - "wildlife"
+          - "outdoor"
+          - "community"
+        raw: "**Emerson's Green** — 11.10.2026
+
+
+          \"An exciting chance to make some significant records in an extremely
+
+          under-recorded part of town.\"\n"
+        summary: "A recording trip to a corner of east Bristol the society has barely surveyed, so almost anything found counts as a new record. No time is given on the listing."
+        confidence: "medium"
+    notes: "Catalogued URL is the homepage; the programme lives at /events/, which is what was read. Catalogue URL could point there. The listings give a date and a teaser sentence only — no start times, no prices, and no indication of which section (botany, ornithology, geology, invertebrates) each field meeting belongs to, so `subcategory` is omitted and confidence is medium throughout. These are field meetings at sites around the city rather than at a society venue, so `venue.name` is set per event. Four events listed in total, none beyond October 2026."
+  - sourceId: "gardens/the-community-farm"
+    fetch:
+      ok: true
+      url: "https://www.thecommunityfarm.co.uk/events/"
+      status: 200
+    events:
+      - id: "gardens/the-community-farm#a1ed69dd75"
+        sourceId: "gardens/the-community-farm"
+        title: "Community Farmer Day - Harvest, weeding and hoeing"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "10:00"
+          endTime: "15:00"
+        status: "scheduled"
+        url: "https://www.thecommunityfarm.co.uk/events/308-cvs-community-farmer-day-7"
+        tags:
+          - "volunteering"
+          - "hands-on"
+          - "outdoor"
+          - "community"
+        raw: "**Community Farmer Day - Harvest, weeding and hoeing** — 22-08-2026,
+
+          10:00 am – 3:00 pm.
+
+
+          \"Dig in to an unforgettable day on The Farm as we harvest our
+
+          beautiful florence red onions!\"\n"
+        summary: "A day working alongside the farm's growers, lifting the red onion crop and weeding between rows. No experience needed."
+        confidence: "high"
+      - id: "gardens/the-community-farm#e92d86b5ea"
+        sourceId: "gardens/the-community-farm"
+        title: "Cyanotype Printing Workshop"
+        occurrence:
+          kind: "single"
+          date: "2026-09-04"
+          startTime: "10:00"
+          endTime: "12:30"
+        status: "scheduled"
+        url: "https://www.thecommunityfarm.co.uk/events/362-cyanotype-printing-workshop-2"
+        tags:
+          - "workshop"
+          - "hands-on"
+          - "outdoor"
+        raw: "**Cyanotype Printing Workshop** — 04-09-2026, 10:00 am – 12:30 pm.
+
+
+          \"Join us for a relaxed, creative morning exploring cyanotype printing
+
+          on the farm.\"\n"
+        summary: "A morning making blueprints from farm plants, using sunlight to expose the prints outdoors."
+        confidence: "high"
+      - id: "gardens/the-community-farm#4f76aac9ca"
+        sourceId: "gardens/the-community-farm"
+        title: "Foraging walk"
+        occurrence:
+          kind: "single"
+          date: "2026-09-05"
+          startTime: "10:00"
+          endTime: "12:30"
+        status: "scheduled"
+        url: "https://www.thecommunityfarm.co.uk/events/301-foraging-walk-autumn"
+        tags:
+          - "guided-tour"
+          - "outdoor"
+          - "hands-on"
+          - "seasonal"
+        raw: "**Foraging walk** — 05-09-2026, 10:00 am – 12:30 pm.
+
+
+          \"Join us at the farm to delve into the world of foraging!\"\n"
+        summary: "An autumn walk around the farm's hedgerows and margins learning what is edible and how to pick it responsibly."
+        confidence: "high"
+      - id: "gardens/the-community-farm#f88935aa88"
+        sourceId: "gardens/the-community-farm"
+        title: "Scything Workshop"
+        occurrence:
+          kind: "single"
+          date: "2026-09-10"
+          startTime: "10:00"
+          endTime: "15:00"
+        status: "scheduled"
+        url: "https://www.thecommunityfarm.co.uk/events/361-scything-workshop-3"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "workshop"
+          - "hands-on"
+          - "outdoor"
+          - "free-entry"
+        raw: "**Scything Workshop** — 10-09-2026, 10:00 am – 3:00 pm. Free.
+
+
+          \"This event is free thanks to funding by FiPL (Farming in Protected
+
+          Landscapes).\"\n"
+        summary: "A free full day learning to set up and use a scythe, funded through the Farming in Protected Landscapes scheme."
+        confidence: "high"
+      - id: "gardens/the-community-farm#d32b3f0978"
+        sourceId: "gardens/the-community-farm"
+        title: "Community Farmer Day - Leek and apple harvest"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+          startTime: "10:00"
+          endTime: "15:00"
+        status: "scheduled"
+        url: "https://www.thecommunityfarm.co.uk/events/309-cvs-community-farmer-day-8"
+        tags:
+          - "volunteering"
+          - "hands-on"
+          - "outdoor"
+          - "community"
+        raw: "**Community Farmer Day - Leek and apple harvest** — 12-09-2026,
+
+          10:00 am – 3:00 pm.
+
+
+          Participants harvest leeks and apples while connecting with nature and
+
+          the food-growing process.\n"
+        summary: "A volunteer day pulling leeks and picking apples, with lunch and a walk round the fields."
+        confidence: "high"
+      - id: "gardens/the-community-farm#80cd021788"
+        sourceId: "gardens/the-community-farm"
+        title: "Drop Spindle Workshop"
+        occurrence:
+          kind: "single"
+          date: "2026-09-13"
+          startTime: "10:00"
+          endTime: "12:00"
+        status: "scheduled"
+        url: "https://www.thecommunityfarm.co.uk/events/360-yarn-making"
+        tags:
+          - "workshop"
+          - "hands-on"
+          - "beginners"
+        raw: "**Drop Spindle Workshop** — 13-09-2026, 10:00 am – 12:00 pm.
+
+
+          \"Join textile artist Abbie Edbrooke for a relaxed and welcoming
+
+          workshop exploring the ancient craft of drop spinning.\"\n"
+        summary: "Textile artist Abbie Edbrooke teaches spinning yarn by hand on a drop spindle, from raw fleece up."
+        confidence: "high"
+      - id: "gardens/the-community-farm#6c0dabf38f"
+        sourceId: "gardens/the-community-farm"
+        title: "Owl Prowl - the first in the season!"
+        occurrence:
+          kind: "single"
+          date: "2026-09-19"
+          startTime: "19:00"
+          endTime: "21:00"
+        status: "scheduled"
+        url: "https://www.thecommunityfarm.co.uk/events/426-owl-prowl-13"
+        tags:
+          - "wildlife"
+          - "outdoor"
+          - "guided-tour"
+          - "one-night"
+        raw: "**Owl Prowl - the first in the season!** — 19-09-2026,
+
+          7:00 pm – 9:00 pm.
+
+
+          \"Join us for a night-time Owl Prowl here at The Farm, led by owl
+
+          expert Chris Sperring, MBE.\"\n"
+        summary: "The first of the season's after-dark owl walks with Chris Sperring, calling in tawnies across the farm."
+        confidence: "high"
+      - id: "gardens/the-community-farm#593124cde2"
+        sourceId: "gardens/the-community-farm"
+        title: "Introduction to Organic Growing - six week course"
+        occurrence:
+          kind: "recurring"
+          pattern: "Six-week course, weekly from 25 September 2026"
+          start: "2026-09-25"
+          startTime: "10:00"
+        status: "scheduled"
+        timesText: "10:00 am – 3:00 pm"
+        url: "https://www.thecommunityfarm.co.uk/events/435-introduction-organic-growing"
+        tags:
+          - "workshop"
+          - "hands-on"
+          - "outdoor"
+          - "beginners"
+        raw: "**Introduction to Organic Growing - six week course** — 25-09-2026,
+
+          10:00 am – 3:00 pm.
+
+
+          \"A friendly, 6-week course offering a gentle, practical introduction
+
+          to growing fruit, vegetables, and herbs using organic methods.\"\n"
+        summary: "Six weekly days on the farm covering the basics of organic fruit, veg and herb growing. The listing gives only the start date."
+        confidence: "medium"
+      - id: "gardens/the-community-farm#64e20353e3"
+        sourceId: "gardens/the-community-farm"
+        title: "The Big Community Squash Harvest!"
+        occurrence:
+          kind: "single"
+          date: "2026-09-26"
+          startTime: "12:30"
+          endTime: "18:00"
+        status: "scheduled"
+        url: "https://www.thecommunityfarm.co.uk/events/423-the-big-squash-harvest-2"
+        tags:
+          - "volunteering"
+          - "hands-on"
+          - "outdoor"
+          - "community"
+          - "family"
+        raw: "**The Big Community Squash Harvest!** — 26-09-2026,
+
+          12:30 pm – 6:00 pm.
+
+
+          \"Join us at The Farm as we celebrate autumnal abundance with a day
+
+          dedicated to harvesting one of our favourites — the squash!\"\n"
+        summary: "The farm's big autumn gathering-in: an afternoon bringing the squash crop off the field, open to anyone who wants to help."
+        confidence: "high"
+      - id: "gardens/the-community-farm#f9c4aeb08b"
+        sourceId: "gardens/the-community-farm"
+        title: "Log Basket weaving"
+        occurrence:
+          kind: "run"
+          start: "2026-10-10"
+          end: "2026-10-11"
+        status: "scheduled"
+        timesText: "9:30 am – 4:30 pm both days"
+        url: "https://www.thecommunityfarm.co.uk/events/359-basket-weaving-3"
+        tags:
+          - "workshop"
+          - "hands-on"
+        raw: "**Log Basket weaving** — 10-10-2026 to 11-10-2026,
+
+          9:30 am – 4:30 pm.
+
+
+          \"Learn the ancient craft of basket weaving during this two-day
+
+          workshop on our organic farm.\"\n"
+        summary: "Two full days weaving a willow log basket from scratch, finishing with one to take home."
+        confidence: "high"
+      - id: "gardens/the-community-farm#7d0245d181"
+        sourceId: "gardens/the-community-farm"
+        title: "Community Farmer Day - the final harvest"
+        occurrence:
+          kind: "single"
+          date: "2026-10-17"
+          startTime: "10:00"
+          endTime: "15:00"
+        status: "scheduled"
+        url: "https://www.thecommunityfarm.co.uk/events/310-cvs-community-farmer-day-9"
+        tags:
+          - "volunteering"
+          - "hands-on"
+          - "outdoor"
+          - "community"
+        raw: "**Community Farmer Day - the final harvest** — 17-10-2026,
+
+          10:00 am – 3:00 pm.
+
+
+          Event includes a farm tour mid-way through the day.\n"
+        summary: "The last big harvest day of the growing year, with a tour of the farm built into the middle of it."
+        confidence: "high"
+      - id: "gardens/the-community-farm#f6741fe648"
+        sourceId: "gardens/the-community-farm"
+        title: "Farm Tour"
+        occurrence:
+          kind: "single"
+          date: "2026-10-17"
+          startTime: "13:00"
+          endTime: "14:00"
+        status: "scheduled"
+        url: "https://www.thecommunityfarm.co.uk/events/434-farm-tour"
+        tags:
+          - "guided-tour"
+          - "outdoor"
+          - "family"
+        raw: "**Farm Tour** — 17-10-2026, 1:00 pm – 2:00 pm.
+
+
+          \"Join us at The Community Farm for an insightful walking tour around
+
+          our fields, as we share our approach, work and impact.\"\n"
+        summary: "An hour's walk round the fields with the farm team explaining how the organic operation and its veg box scheme work."
+        confidence: "high"
+      - id: "gardens/the-community-farm#629793a8a1"
+        sourceId: "gardens/the-community-farm"
+        title: "Owl Prowl - October"
+        occurrence:
+          kind: "single"
+          date: "2026-10-17"
+          startTime: "19:00"
+          endTime: "21:00"
+        status: "scheduled"
+        url: "https://www.thecommunityfarm.co.uk/events/427-owl-prowl-14"
+        tags:
+          - "wildlife"
+          - "outdoor"
+          - "guided-tour"
+          - "one-night"
+        raw: "**Owl Prowl - October** — 17-10-2026, 7:00 pm – 9:00 pm.
+
+
+          Night-time guided prowl led by owl expert Chris Sperring, MBE.\n"
+        summary: "October's after-dark owl walk with Chris Sperring, listening for tawny and barn owls over the fields."
+        confidence: "high"
+      - id: "gardens/the-community-farm#d688255c0f"
+        sourceId: "gardens/the-community-farm"
+        title: "Community Farmer Day - The last of the apple harvest"
+        occurrence:
+          kind: "single"
+          date: "2026-11-07"
+          startTime: "10:00"
+          endTime: "15:00"
+        status: "scheduled"
+        url: "https://www.thecommunityfarm.co.uk/events/311-cvs-community-farmer-day-10"
+        tags:
+          - "volunteering"
+          - "hands-on"
+          - "outdoor"
+          - "community"
+        raw: "**Community Farmer Day - The last of the apple harvest** — 07-11-2026,
+
+          10:00 am – 3:00 pm.
+
+
+          Participants harvest apples while engaging with the farm's seasonal
+
+          work.\n"
+        summary: "A November volunteer day clearing the last apples from the orchard before the trees go dormant."
+        confidence: "high"
+      - id: "gardens/the-community-farm#7527237a7d"
+        sourceId: "gardens/the-community-farm"
+        title: "Owl Prowl - November"
+        occurrence:
+          kind: "single"
+          date: "2026-11-14"
+          startTime: "19:00"
+          endTime: "21:00"
+        status: "scheduled"
+        url: "https://www.thecommunityfarm.co.uk/events/428-owl-prowl-15"
+        tags:
+          - "wildlife"
+          - "outdoor"
+          - "guided-tour"
+          - "one-night"
+        raw: "**Owl Prowl - November** — 14-11-2026, 7:00 pm – 9:00 pm.
+
+
+          Guided night-time experience led by owl expert Chris Sperring, MBE.\n"
+        summary: "November's owl walk, when the birds are most vocal and the farm is at its darkest."
+        confidence: "high"
+      - id: "gardens/the-community-farm#7d30c75572"
+        sourceId: "gardens/the-community-farm"
+        title: "Festive Willow Weaving"
+        occurrence:
+          kind: "single"
+          date: "2026-12-05"
+          startTime: "10:00"
+          endTime: "13:00"
+        status: "scheduled"
+        url: "https://www.thecommunityfarm.co.uk/events/424-festive-willow-weaving"
+        tags:
+          - "workshop"
+          - "hands-on"
+          - "seasonal"
+        raw: "**Festive Willow Weaving** — 05-12-2026, 10:00 am – 1:00 pm.
+
+
+          \"Get into the seasonal spirit with a relaxed and creative morning of
+
+          willow weaving.\"\n"
+        summary: "A morning weaving willow into Christmas decorations, the first of two December runs."
+        confidence: "high"
+      - id: "gardens/the-community-farm#8782e46f25"
+        sourceId: "gardens/the-community-farm"
+        title: "Festive Willow Weaving"
+        occurrence:
+          kind: "single"
+          date: "2026-12-11"
+          startTime: "10:00"
+          endTime: "13:00"
+        status: "scheduled"
+        url: "https://www.thecommunityfarm.co.uk/events/425-festive-willow-weaving-2"
+        tags:
+          - "workshop"
+          - "hands-on"
+          - "seasonal"
+        raw: "**Festive Willow Weaving** — 11-12-2026, 10:00 am – 1:00 pm.
+
+
+          \"Get into the seasonal spirit with a relaxed and creative morning of
+
+          willow weaving.\"\n"
+        summary: "The second December willow weaving morning, making seasonal decorations from the farm's own willow."
+        confidence: "high"
+      - id: "gardens/the-community-farm#8432f50d6f"
+        sourceId: "gardens/the-community-farm"
+        title: "Owl Prowl - December"
+        occurrence:
+          kind: "single"
+          date: "2026-12-13"
+          startTime: "19:00"
+          endTime: "21:00"
+        status: "scheduled"
+        url: "https://www.thecommunityfarm.co.uk/events/429-owl-prowl-16"
+        tags:
+          - "wildlife"
+          - "outdoor"
+          - "guided-tour"
+          - "one-night"
+        raw: "**Owl Prowl - December** — 13-12-2026, 7:00 pm – 9:00 pm.
+
+
+          Guided night experience with owl expert Chris Sperring, MBE.\n"
+        summary: "A midwinter owl walk across the farm with Chris Sperring."
+        confidence: "high"
+      - id: "gardens/the-community-farm#8ae827cb69"
+        sourceId: "gardens/the-community-farm"
+        title: "Owl Prowl - the last in the season!"
+        occurrence:
+          kind: "single"
+          date: "2027-01-09"
+          startTime: "19:00"
+          endTime: "21:00"
+        status: "scheduled"
+        url: "https://www.thecommunityfarm.co.uk/events/430-owl-prowl-17"
+        tags:
+          - "wildlife"
+          - "outdoor"
+          - "guided-tour"
+          - "one-night"
+        raw: "**Owl Prowl - the last in the season!** — 09-01-2027,
+
+          7:00 pm – 9:00 pm.
+
+
+          \"Join us for a night-time Owl Prowl here at The Farm, led by owl
+
+          expert Chris Sperring, MBE.\"\n"
+        summary: "The final owl walk of the run, in January when tawnies are setting up territories."
+        confidence: "high"
+    notes: "Catalogued URL is the real listings page and needs no correction. All 19 listed events are recorded, running from 22 August 2026 to 9 January 2027 — an unusually long forward horizon for this category. The listing page prints no promotional images and no prices except for the Scything Workshop, which is marked free, so `price` is omitted elsewhere rather than assumed. Everything is at the farm itself, so `venue` is omitted."
+  - sourceId: "gardens/blaise-plant-nursery"
+    fetch:
+      ok: true
+      url: "https://www.bristol.gov.uk/blaise-plant-nursery"
+      status: 200
+    events:
+      - id: "gardens/blaise-plant-nursery#ad1e68cf2c"
+        sourceId: "gardens/blaise-plant-nursery"
+        title: "Blaise Plant Nursery open to visitors"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        timesText: "1 March to 30 September: Mon–Sat 9:00–17:00, Sun and bank holidays 10:00–16:00. 1 October to 22 December: Mon–Sat 9:00–16:00, Sun and bank holidays 10:00–16:00. Closed Easter Sunday."
+        url: "https://www.bristol.gov.uk/blaise-plant-nursery/visit/opening-times"
+        image: "https://www.bristol.gov.uk/images/Subsites/Blaise%20Plant%20Nursery/Blaise.jpg"
+        tags:
+          - "plant-sale"
+          - "outdoor"
+          - "drop-in"
+          - "family"
+        raw: "**Blaise Plant Nursery** — \"a hidden gem of land, glasshouses and
+
+          polytunnels\" selling seasonal flowering plants, shrubs, vegetables,
+
+          herbs, seeds and compost, with an on-site café.
+
+
+          **Opening times**
+
+          1 March to 30 September — Monday to Saturday 9am–5pm; Sundays and
+
+          bank holidays 10am–4pm.
+
+          1 October to 22 December — Monday to Saturday 9am–4pm; Sundays and
+
+          bank holidays 10am–4pm. Closed Easter Sunday.\n"
+        summary: "The council's own working nursery beside Blaise Castle Estate, open to the public for bedding, shrubs, veg plants, seeds and compost, with a café attached. Closed from just before Christmas until March."
+        confidence: "medium"
+    notes: "Catalogued URL https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/parks-and-estates/blaise-plant-nursery returns 404; the nursery now has its own council subsite at https://www.bristol.gov.uk/blaise-plant-nursery, with sections for opening times, products, finding it, pot recycling and glasshouse hire. Catalogue URL needs updating. No dated plant sales or open days are advertised anywhere on the subsite, so the only thing recorded is the nursery being open, as an `ongoing` entry carrying its two seasonal opening patterns."

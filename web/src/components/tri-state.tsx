@@ -46,7 +46,7 @@ export function TriSelect({
   const state: TriState = facet.include.includes(value) ? "include" : facet.exclude.includes(value) ? "exclude" : "off";
 
   return (
-    <ButtonGroup className={className} aria-label={`${label} — ${TRI_HINT[state]}`}>
+    <ButtonGroup className={cn("max-w-full", className)} aria-label={`${label} — ${TRI_HINT[state]}`}>
       <Button
         variant={state === "include" ? "default" : "outline"}
         size="sm"
@@ -61,7 +61,15 @@ export function TriSelect({
         // Off goes to included; anything else goes back to neutral.
         onClick={() => onChange(withState(facet, value, state === "off" ? "include" : "off"))}
       >
-        <span className="truncate">{label}</span>
+        {/* `truncate` alone did nothing: with no width cap the button simply grew
+            to fit, so a long venue name — "Gurranabraher Credit Union Brunell" —
+            pushed the pill past the edge of the 256px rail and dragged the whole
+            cloud with it.
+
+            Capped in pixels rather than after N characters, because a character
+            count is not a width: thirteen capitals are far wider than thirteen
+            i's. The full name is on the button's `title`, so nothing is lost. */}
+        <span className="max-w-[8.5rem] truncate">{label}</span>
         {count !== undefined && (
           <span className={cn("tabular-nums", state === "include" ? "opacity-70" : "text-muted-foreground")}>
             {count}

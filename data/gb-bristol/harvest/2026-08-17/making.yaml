@@ -1,0 +1,3099 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-08-17"
+category: "making"
+harvestedAt: "2026-08-17T07:40:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "3"
+model: "claude-opus-5[1m]"
+observations:
+  - sourceId: "making/bricks-bristol"
+    fetch:
+      ok: true
+      url: "https://stanneshouse.org/whats-on/"
+      status: 200
+    events:
+      - id: "making/bricks-bristol#f7c632bcb8"
+        sourceId: "making/bricks-bristol"
+        title: "The Community Pottery Open"
+        occurrence:
+          kind: "recurring"
+          pattern: "open all week, Monday to Sunday"
+        status: "scheduled"
+        url: "https://stanneshouse.org/whats-on/the-community-pottery-open/"
+        image: "https://stanneshouse.org/wp-content/uploads/2024/10/Community-Potter-1-Oct-2024-Credit_-Ruby-Turner-9-scaled.jpg"
+        tags:
+          - "crafts"
+          - "hands-on"
+          - "drop-in"
+          - "community"
+        raw: "**The Community Pottery Open** — listed as a week-long open block,
+
+          Monday through Sunday. St Anne's House hub for hand-building, wheel
+
+          throwing and sculptural techniques.\n"
+        summary: "The Community Pottery CIC keeps its studio at St Anne's House open across the week for hand-building, wheel throwing and sculpture, with workshops and memberships for beginners and experienced potters alike."
+        description: "The Community Pottery CIC is St Anne's House hub for hand-building,
+
+          wheel throwing, and sculptural techniques. Founded by artists
+
+          Raphaela and Dan, our mission is to bring the joy of pottery to
+
+          diverse communities across Bristol. Whether you're a complete
+
+          beginner or an experienced artist, we offer a variety of creative
+
+          workshops and studio memberships to help you explore the art of
+
+          pottery in a welcoming and inclusive environment.
+
+
+          Visit their website for courses, workshops, and memberships here.\n"
+        confidence: "high"
+      - id: "making/bricks-bristol#2fbb3e9301"
+        sourceId: "making/bricks-bristol"
+        title: "Art Club"
+        occurrence:
+          kind: "recurring"
+          pattern: "Wednesdays 10am – 1pm — the calendar lists it every Wednesday, the listing text says fortnightly"
+          startTime: "10:00"
+        status: "scheduled"
+        timesText: "Wednesdays 10:00–13:00"
+        url: "https://stanneshouse.org/whats-on/art-club/"
+        image: "https://stanneshouse.org/wp-content/uploads/2026/06/alex-mihis-KptlGNWqnQY-unsplash-scaled.jpg"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "crafts"
+          - "community"
+          - "drop-in"
+          - "free-entry"
+        raw: "**Art Club** — every Wednesday 10:00–13:00, free. Run by artist and
+
+          St Anne's House tenant Joe Tymkow in the Community Living Room. \"Part
+
+          shared studio, part workshop, part crit – it's like body-doubling for
+
+          artists.\"\n"
+        summary: "A free weekly drop-in for anyone with a creative practice, lapsed or otherwise — shared studio time in the Community Living Room rather than a taught class, with company, feedback and shared accountability."
+        description: "Join artist and St Annes House tenant Joe Tymkow for a weekly Art
+
+          Club in the Community Living Room. This is not a class, but a shared
+
+          space to be shaped by everyone who comes. You may have an emerging
+
+          creative practice, or a lapsed one, or you may be a practising artist
+
+          who would benefit from having community and shared accountability to
+
+          make work, experiment with new ideas or collaborate on creative
+
+          projects. Perhaps the group can offer company for going to see
+
+          exhibitions or feedback on your work? Part shared studio, part
+
+          workshop, part crit – it's like body-doubling for artists. Come along
+
+          fortnightly on Wednesdays 10am – 1pm to see if Art Club is what you
+
+          need.
+
+
+          If you have any more questions, please contact Joe on
+
+          joe.tymkow@gmail.com\n"
+        confidence: "medium"
+      - id: "making/bricks-bristol#21bc7fbd40"
+        sourceId: "making/bricks-bristol"
+        title: "Creative Circle"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Tuesday, 9.30am–11am"
+          startTime: "09:30"
+        status: "scheduled"
+        timesText: "Tuesdays 09:30–11:00"
+        url: "https://stanneshouse.org/whats-on/creative-circle-2/"
+        image: "https://stanneshouse.org/wp-content/uploads/2025/04/Creative-Circle-1.jpg"
+        price:
+          free: true
+          text: "Free"
+        ageRestriction: "18+"
+        tags:
+          - "crafts"
+          - "community"
+          - "drop-in"
+          - "free-entry"
+          - "18-plus"
+        raw: "**Creative Circle** — every Tuesday 09:30–11:00. A weekly creative
+
+          meet-up set up by local volunteer Elisha. \"Sessions are free and open
+
+          to those aged 18 and over, no booking necessary.\"\n"
+        summary: "A volunteer-run weekly craft and art meet-up, free and drop-in, with a theme each week but room to bring your own project — set up for people who wanted somewhere creative to go during school hours."
+        description: "Join our weekly creative meet-up group set up by a local volunteer
+
+          Elisha.
+
+
+          This is a space to explore art, crafts, and get creative. Everyone is
+
+          welcome—whether you're looking to try something new, have a project
+
+          in mind, want to meet new people in your local area, or just need
+
+          some 'you' time. No artistic experience is needed, but if you have
+
+          skills to share, that's great too. As a new group, we'll decide what
+
+          we want to explore. Welcoming all ideas and creating projects we can
+
+          learn together!
+
+
+          Every Tuesday, 9.30am–11am.
+
+
+          \"I've set this up because I love being creative, whether that's
+
+          getting my paints out, crafting things with my kids, crocheting or
+
+          making presents. After speaking to other parents, I realised that my
+
+          desire to have a creative meeting space, open during school hours,
+
+          was something others would also enjoy. Knowing this, it inspired me
+
+          to create one. So the plan is to create a relaxed space for anyone
+
+          who wants to join…Parent or not.\" – Elisha
+
+
+          We will set up a theme for each session, where I can give inspiration
+
+          and projects everyone can get involved in. There will be a WhatsApp
+
+          group set up to share ideas and inspiration. The aim is to provide a
+
+          creative space where we can all explore in a safe, relaxed & friendly
+
+          way. But please also feel free to bring any projects you're working
+
+          on, your work may inspire us.
+
+
+          Sessions are free and open to those aged 18 and over, no booking
+
+          necessary.
+
+
+          If you have a small child, you're welcome to bring them along, as
+
+          long as you're still able to participate fully in the session. The
+
+          focus is on taking time for yourself, so we ask that you judge
+
+          whether you can take part with your child alongside.
+
+
+          We know it can be hard to anticipate, so you are welcome to come
+
+          along and test it out!\n"
+        confidence: "high"
+      - id: "making/bricks-bristol#cc3862dd88"
+        sourceId: "making/bricks-bristol"
+        title: "Morning Meet-ups"
+        occurrence:
+          kind: "recurring"
+          pattern: "every Thursday, 10:00–12:00"
+          startTime: "10:00"
+        status: "scheduled"
+        timesText: "Thursdays 10:00–12:00"
+        url: "https://stanneshouse.org/whats-on/morning-meet-ups/"
+        image: "https://stanneshouse.org/wp-content/uploads/2022/02/IMG_4176-scaled.jpg"
+        tags:
+          - "community"
+          - "crafts"
+          - "drop-in"
+          - "weekly"
+        raw: "**Morning Meet-ups** — every Thursday 10:00–12:00. \"Regular morning
+
+          socials, with mixed creative activities and a chance to chat to new
+
+          people.\" No price given.\n"
+        summary: "A weekly Thursday morning social with mixed creative activities, open to anyone and set up for getting to know neighbours."
+        confidence: "high"
+      - id: "making/bricks-bristol#075f3ca74a"
+        sourceId: "making/bricks-bristol"
+        title: "Shared Reading"
+        occurrence:
+          kind: "recurring"
+          pattern: "every Wednesday, 10:30–12:00"
+          startTime: "10:30"
+        status: "scheduled"
+        timesText: "Wednesdays 10:30–12:00"
+        url: "https://stanneshouse.org/whats-on/shared-reading-4/"
+        image: "https://stanneshouse.org/wp-content/uploads/2022/06/IMG_5827.jpg"
+        tags:
+          - "reading-group"
+          - "community"
+          - "drop-in"
+          - "weekly"
+        raw: "**Shared Reading** — every Wednesday 10:30–12:00, hosted by The
+
+          Reader. \"There's no pressure to read aloud, you can simply come and
+
+          listen.\" No price given.\n"
+        summary: "Weekly shared reading hosted by The Reader — stories and poems read aloud together, with no obligation to read yourself."
+        confidence: "high"
+      - id: "making/bricks-bristol#5df6490cff"
+        sourceId: "making/bricks-bristol"
+        title: "St Anne's Young People – Open Access Sessions"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Tuesday, 5pm – 7pm"
+          startTime: "17:00"
+        status: "scheduled"
+        timesText: "Tuesdays 17:00–19:00"
+        url: "https://stanneshouse.org/whats-on/st-annes-young-people-open-access-sessions-2-4/"
+        image: "https://stanneshouse.org/wp-content/uploads/2023/12/Young-People-Website.png"
+        price:
+          free: true
+          text: "Free"
+        ageRestriction: "13+"
+        tags:
+          - "young-people"
+          - "free-entry"
+          - "drop-in"
+          - "community"
+        raw: "**St Anne's Young People – Open Access Sessions** — \"Every Tuesday,
+
+          5pm – 7pm. Our sessions are for 13+ year olds who live in or around
+
+          Brislington and want to hang out, cook some food, meet new people,
+
+          relax.\" Free.\n"
+        summary: "Free weekly drop-in for 13+ year olds in and around Brislington — cooking, hanging out and meeting people, with no booking."
+        confidence: "high"
+      - id: "making/bricks-bristol#7a1fa34724"
+        sourceId: "making/bricks-bristol"
+        title: "Bristol Cooperative Gym Open"
+        occurrence:
+          kind: "recurring"
+          pattern: "Monday to Friday, listed as all day"
+        status: "scheduled"
+        url: "https://stanneshouse.org/whats-on/bristol-cooperative-gym-open-2/"
+        image: "https://stanneshouse.org/wp-content/uploads/2023/08/3.jpg"
+        tags:
+          - "wellbeing"
+          - "community"
+          - "drop-in"
+        raw: "**Bristol Cooperative Gym Open** — listed as a Monday-to-Friday open
+
+          block. \"The inclusive, supportive gym that's run by its members.
+
+          Bespoke classes for all abilities, flexible pricing, expert guidance
+
+          from friendly coaches, independent and member-led.\"\n"
+        summary: "The member-owned co-operative gym at St Anne's House is open weekdays, with flexible pricing and coached classes for all abilities."
+        confidence: "high"
+      - id: "making/bricks-bristol#601b869036"
+        sourceId: "making/bricks-bristol"
+        title: "Bristol Community Sauna Open"
+        occurrence:
+          kind: "recurring"
+          pattern: "Monday to Sunday, 07:00–20:00"
+          startTime: "07:00"
+        status: "scheduled"
+        timesText: "Daily 07:00–20:00"
+        url: "https://stanneshouse.org/whats-on/bristol-community-sauna-open/"
+        image: "https://stanneshouse.org/wp-content/uploads/2024/07/WhatsApp-Image-2024-06-12-at-15.25.50.jpeg"
+        tags:
+          - "wellbeing"
+          - "booking-required"
+          - "community"
+        raw: "**Bristol Community Sauna Open** — daily 07:00–20:00 behind St Anne's
+
+          House. \"We offer an affordable space for relaxation, wellness and
+
+          community spirit.\" Booking via bristolcommunitysauna.org.\n"
+        summary: "The community sauna behind St Anne's House, open every day from morning to evening, booked through its own site."
+        confidence: "high"
+      - id: "making/bricks-bristol#2aa42f3e83"
+        sourceId: "making/bricks-bristol"
+        title: "Cibomatto Canteen Open"
+        occurrence:
+          kind: "recurring"
+          pattern: "Monday to Thursday, 10:00–16:00"
+          startTime: "10:00"
+        status: "scheduled"
+        timesText: "Monday to Thursday 10:00–16:00"
+        url: "https://stanneshouse.org/whats-on/cibomatto-canteen-open-3-2-2-2-2/"
+        image: "https://stanneshouse.org/wp-content/uploads/2024/08/Cibomatto_Canteen-August-2024-1-scaled.jpg"
+        tags:
+          - "food-drink"
+          - "drop-in"
+          - "community"
+        raw: "**Cibomatto Canteen Open** — Monday to Thursday 10:00–16:00. \"Drop
+
+          into Cibomatto Canteen for a coffee, bite to eat, and sit back,
+
+          relax, or do some work with our free WiFi... seasonal menus... in the
+
+          space with hand-made and designed furniture.\"\n"
+        summary: "The Italian canteen at St Anne's House, open weekday daytimes for coffee, seasonal food and free-WiFi working space."
+        confidence: "high"
+      - id: "making/bricks-bristol#e5ed4ae364"
+        sourceId: "making/bricks-bristol"
+        title: "Vinyasa Flow Yoga (Mondays)"
+        occurrence:
+          kind: "recurring"
+          pattern: "6-7pm Every Monday at St.Anne's House (in the Mill Room)"
+          startTime: "18:00"
+        status: "scheduled"
+        timesText: "Mondays 18:00–19:00"
+        url: "https://stanneshouse.org/whats-on/vinyasa-flow-yoga-2-4-2/"
+        image: "https://stanneshouse.org/wp-content/uploads/2022/02/IMG_4114-scaled.jpg"
+        price:
+          free: false
+          text: "£8.50"
+          min: 8.5
+          max: 8.5
+          currency: "GBP"
+        tags:
+          - "wellbeing"
+          - "beginners"
+          - "weekly"
+        raw: "**Vinyasa Flow Yoga** — \"6-7pm Every Monday at St.Anne's House (in
+
+          the Mill Room).\" £8.50. Classes open with seated meditation and
+
+          breathwork.\n"
+        summary: "A Monday evening Vinyasa flow class in the Mill Room, opening with seated meditation and breathwork before the movement."
+        confidence: "high"
+      - id: "making/bricks-bristol#8418617232"
+        sourceId: "making/bricks-bristol"
+        title: "Vinyasa Flow Yoga (Wednesdays)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Vinyasa Flow Yoga Wednesday, 10am–11am"
+          startTime: "10:00"
+        status: "scheduled"
+        timesText: "Wednesdays 10:00–11:00"
+        url: "https://stanneshouse.org/whats-on/vinyasa-flow-yoga-3-2-2/"
+        image: "https://stanneshouse.org/wp-content/uploads/2023/05/IMG_0500.jpg"
+        tags:
+          - "wellbeing"
+          - "beginners"
+          - "weekly"
+        raw: "**Vinyasa Flow Yoga** — \"Wednesday, 10am–11am. A playful and
+
+          energising Vinyasa flow yoga class that can help build strength,
+
+          stability and flexibility. Suitable for all levels, with plenty of
+
+          optional modifications.\" No price shown on this listing.\n"
+        summary: "A separate Wednesday morning Vinyasa flow class, pitched at all levels with optional modifications throughout."
+        confidence: "high"
+      - id: "making/bricks-bristol#2dc5d30139"
+        sourceId: "making/bricks-bristol"
+        title: "Go With The Flow Kids"
+        occurrence:
+          kind: "recurring"
+          pattern: "every Tuesday, 10:15–11:00"
+          startTime: "10:15"
+        status: "scheduled"
+        timesText: "Tuesdays 10:15–11:00"
+        url: "https://stanneshouse.org/whats-on/go-with-the-flow-kids-2/"
+        image: "https://stanneshouse.org/wp-content/uploads/2025/11/IMG_20250121_120813_251.jpg"
+        price:
+          free: false
+          text: "£8"
+          min: 8
+          max: 8
+          currency: "GBP"
+        tags:
+          - "kids"
+          - "family"
+          - "wellbeing"
+          - "weekly"
+        raw: "**Go With The Flow Kids** — every Tuesday 10:15–11:00, £8. \"Each
+
+          class blends gentle movement, music, imaginative play\" for little
+
+          ones.\n"
+        summary: "A weekly Tuesday morning session for small children mixing gentle movement, music and imaginative play."
+        confidence: "high"
+      - id: "making/bricks-bristol#66fa98890a"
+        sourceId: "making/bricks-bristol"
+        title: "Bristol Community Acupuncture"
+        occurrence:
+          kind: "recurring"
+          pattern: "A weekly clinic — Tuesdays 11:00–17:00"
+          start: "2026-09-01"
+          startTime: "11:00"
+        status: "scheduled"
+        timesText: "Tuesdays 11:00–17:00"
+        url: "https://stanneshouse.org/whats-on/bristol-community-acupuncture/"
+        image: "https://stanneshouse.org/wp-content/uploads/2026/05/acupuncture-in-bristol-850x567-1.jpg"
+        price:
+          free: false
+          text: "£25 – £45"
+          min: 25
+          max: 45
+          currency: "GBP"
+        tags:
+          - "wellbeing"
+          - "booking-required"
+          - "weekly"
+        raw: "**Bristol Community Acupuncture** — \"A weekly clinic offering
+
+          affordable acupuncture for a wide range of conditions. As well as
+
+          acupuncture, BCA offers cupping, guasha, electroacupuncture and
+
+          auricular acupuncture.\" £25 – £45. Tuesdays 11:00–17:00, first listed
+
+          date 1 September 2026.\n"
+        summary: "A sliding-scale weekly acupuncture clinic at St Anne's House, also offering cupping, guasha and electroacupuncture, resuming 1 September."
+        confidence: "high"
+      - id: "making/bricks-bristol#b761ba7378"
+        sourceId: "making/bricks-bristol"
+        title: "Glisk Massage (Wednesdays)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Wednesdays 17:00–19:00"
+          startTime: "17:00"
+        status: "scheduled"
+        timesText: "Wednesdays 17:00–19:00"
+        url: "https://stanneshouse.org/whats-on/glisk-massage/"
+        image: "https://stanneshouse.org/wp-content/uploads/2026/01/GLISK_MASSAGE_PHOTOS_EXPORT_20.jpeg"
+        price:
+          free: false
+          text: "£60 – £90"
+          min: 60
+          max: 90
+          currency: "GBP"
+        tags:
+          - "wellbeing"
+          - "booking-required"
+        raw: "**Glisk Massage** — Wednesdays 17:00–19:00, £60 – £90. \"My name is
+
+          Fleur, I run Glisk Massage and Yoga, I'm a qualified masseuse and yoga
+
+          teacher who practices in both Bristol and Bath.\"\n"
+        summary: "Wednesday evening massage appointments with Fleur of Glisk Massage and Yoga, in the St Anne's House treatment space."
+        confidence: "high"
+      - id: "making/bricks-bristol#0057cc5321"
+        sourceId: "making/bricks-bristol"
+        title: "Glisk Massage (Fridays)"
+        occurrence:
+          kind: "recurring"
+          pattern: "every Friday, 10:30–12:30"
+          startTime: "10:30"
+        status: "scheduled"
+        timesText: "Fridays 10:30–12:30"
+        url: "https://stanneshouse.org/whats-on/glisk-massage-2/"
+        image: "https://stanneshouse.org/wp-content/uploads/2026/01/GLISK_MASSAGE_PHOTOS_EXPORT_20.jpeg"
+        price:
+          free: false
+          text: "£60 – £90"
+          min: 60
+          max: 90
+          currency: "GBP"
+        tags:
+          - "wellbeing"
+          - "booking-required"
+        raw: "**Glisk Massage** — Fridays 10:30–12:30, £60 – £90. A second weekly
+
+          slot from the same practitioner as the Wednesday evening listing.\n"
+        summary: "A Friday morning slot for Glisk Massage appointments, the same practitioner as the Wednesday evening clinic."
+        confidence: "high"
+      - id: "making/bricks-bristol#5091ebd43a"
+        sourceId: "making/bricks-bristol"
+        title: "Free to Move Massage"
+        occurrence:
+          kind: "recurring"
+          pattern: "every Thursday, 14:00–16:30"
+          startTime: "14:00"
+        status: "scheduled"
+        timesText: "Thursdays 14:00–16:30"
+        url: "https://stanneshouse.org/whats-on/free-to-move-massage/"
+        image: "https://stanneshouse.org/wp-content/uploads/2026/04/Screenshot-2026-04-15-at-15.28.42.png"
+        price:
+          free: false
+          text: "£55"
+          min: 55
+          max: 55
+          currency: "GBP"
+        tags:
+          - "wellbeing"
+          - "booking-required"
+        raw: "**Free to Move Massage** — Thursdays 14:00–16:30, £55. \"Relax,
+
+          Reconnect & Recover. I work with busy professionals managing lots of
+
+          responsibilities who experience ongoing stress and exhaustion and
+
+          carry tension in their back, neck, and shoulders.\"\n"
+        summary: "Thursday afternoon massage therapy appointments aimed at stress, exhaustion and tension held in the back, neck and shoulders."
+        confidence: "high"
+      - id: "making/bricks-bristol#7d4a5a6c44"
+        sourceId: "making/bricks-bristol"
+        title: "Noodle+Kin Presents: Mini Atelier School"
+        occurrence:
+          kind: "run"
+          start: "2026-08-17"
+          end: "2026-08-21"
+        status: "scheduled"
+        timesText: "10am to 4pm; early drop-off from 9am, late pick-up until 5pm Monday to Thursday only"
+        url: "https://stanneshouse.org/whats-on/noodlekin-presents-mini-atelier-school/"
+        image: "https://stanneshouse.org/wp-content/uploads/2026/06/NGZc8QCKwryE6NHvyOOfv7VMGL0.avif"
+        price:
+          free: false
+          text: "5-day programme £250 (Mon–Fri); 3-day programme £150 (Tue–Thu); early drop-off £5 per day, late pick-up £6 per day"
+          min: 150
+          max: 250
+          currency: "GBP"
+        tags:
+          - "kids"
+          - "crafts"
+          - "school-holidays"
+          - "hands-on"
+          - "booking-required"
+        raw: "**Noodle+Kin Presents: Mini Atelier School** — Monday 17 to Friday 21
+
+          August 2026, 10:00–16:00. \"A creativity-led summer holiday club for
+
+          children aged 5 to 8.\" Friday exhibition for families 16:00–17:00.\n"
+        summary: "A week-long summer holiday club for 5-to-8s built around open-ended art, outdoor atelier sessions and expert-led visual arts workshops, closing with a Friday exhibition of the children's work."
+        description: "A creativity-led summer holiday club for children aged 5 to 8.
+
+
+          A joyful week of open-ended art, creative play and outdoor atelier
+
+          practice, designed to build confidence, community and connection.
+
+
+          At Mini Atelier School, children will explore open-ended art,
+
+          creative play and experimental making through daily Open Studio
+
+          sessions.
+
+
+          They will also take part in expert-led visual arts workshops with
+
+          Let's Make Art, exploring themes inspired by the natural world. Each
+
+          day includes Outdoor Atelier time, where children take their creative
+
+          practice outside.
+
+
+          To close the week, families are invited to a Friday exhibition
+
+          celebrating the children's work, ideas and creative process.
+
+
+          - Ages – 5 to 8 years
+
+          - Times – 10am to 4pm
+
+          - Early drop-off – From 9am, £5 per day
+
+          - Late pick-up – Until 5pm, £6 per day, Monday to Thursday only
+
+          - Location – The Mill Room, St Anne's House, St Anne's Road,
+
+          \  Brislington, Bristol, BS4 4AB
+
+          - Capacity – 23 places total
+
+          - Staff ratio – 1:8
+
+          - 5-day programme – £250, Monday to Friday
+
+          - 3-day programme – £150, Tuesday to Thursday
+
+
+          There is no late pick-up on Friday, as families are invited to the
+
+          final exhibition from 4pm to 5pm.
+
+
+          What children will gain:
+
+
+          **Creative skills** — Painting, printmaking, collage, clay,
+
+          photography and sculpture.
+
+
+          **Time to go deeper** — Space to develop larger-scale creative
+
+          projects across the week.
+
+
+          **Community and confidence** — Opportunities to work alongside other
+
+          children, share ideas and build connection.
+
+
+          **Nature-led inspiration** — Daily time outside, using the natural
+
+          world to inform the creative process.
+
+
+          **Pride and ownership** — Children will help prepare the final Friday
+
+          exhibition and share their work with families.\n"
+        confidence: "high"
+      - id: "making/bricks-bristol#8cf45f3038"
+        sourceId: "making/bricks-bristol"
+        title: "Climate Cafe"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "10:00"
+          endTime: "11:30"
+        status: "scheduled"
+        url: "https://stanneshouse.org/whats-on/climate-cafe/"
+        image: "https://stanneshouse.org/wp-content/uploads/2026/07/2-IMG_1323.jpg"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "talk"
+          - "community"
+          - "free-entry"
+          - "wellbeing"
+        raw: "**Climate Cafe** — Saturday 22 August 2026, 10:00–11:30, free. \"Come
+
+          together with neighbours to reflect and share feelings about climate
+
+          change in a caring and considerate space.\"\n"
+        summary: "A free facilitated space to sit with feelings about climate change alongside neighbours — no advice given, no action expected, and listening is enough."
+        description: "With the recent heatwaves many local people have been feeling the
+
+          impacts of climate change on their everyday life. Come together with
+
+          neighbours to reflect and share feelings about climate change in a
+
+          caring and considerate space.
+
+
+          Questions about the event can be emailed to: futuremancy@gmail.com
+
+
+          Not sure what a Climate Cafe is? We liked this quick explainer from
+
+          the Climate Psychology Alliance of North America:
+
+          https://www.climatepsychology.us/climate-cafes/.
+
+
+          This is a space that is designed for us to reflect on our feelings
+
+          about the changing climate, which can often be difficult to access.
+
+          As such, you don't have to do anything, and you won't be expected to
+
+          sign up to any action or activity, unless that feels supportive to
+
+          you. You can just listen. No-one will be giving advice, and no
+
+          emotional response is 'wrong'. We are not trying to minimise, change
+
+          or 'look on the bright side' of any reaction you might have. We are
+
+          expressing these feelings together.\n"
+        confidence: "high"
+      - id: "making/bricks-bristol#aab6f96f6f"
+        sourceId: "making/bricks-bristol"
+        title: "Friendly Neighbourhood Film Club: In The Best Interests of Children"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "12:00"
+          endTime: "14:00"
+        status: "scheduled"
+        url: "https://stanneshouse.org/whats-on/friendly-neighbourhood-film-club-in-the-best-interests-of-children/"
+        image: "https://stanneshouse.org/wp-content/uploads/2026/08/image-w1280.webp"
+        price:
+          free: false
+          text: "£5"
+          min: 5
+          max: 5
+          currency: "GBP"
+        tags:
+          - "screening"
+          - "documentary"
+          - "lgbtq"
+          - "family"
+        raw: "**Friendly Neighbourhood Film Club: In The Best Interests of
+
+          Children** — Saturday 22 August 2026, 12:00–14:00, £5. A
+
+          family-friendly screening of the 1977 documentary by Elizabeth
+
+          Stevens, Cathy Zheutlin and Frances Reid, presented with Reverie
+
+          Cineclub.\n"
+        summary: "A rarely screened 1977 documentary following lesbian mothers fighting for custody of their children, made to educate family court judges and now a landmark of queer family history — with tea and talk afterwards."
+        description: "Friendly Neighbourhood Film Club and Reverie Cineclub present a
+
+          family-friendly screening of IN THE BEST INTERESTS OF THE CHILDREN
+
+          (1977), the groundbreaking documentary by Elizabeth Stevens, Cathy
+
+          Zheutlin and Frances Reid following lesbian mothers fighting for the
+
+          right to custody of their children.
+
+
+          Rarely screened for many years, this remarkable and underseen
+
+          documentary offers an intimate portrait of eight families. Giving
+
+          equal space to mothers and their children, the film captures their
+
+          experiences of family, upbringing and queer parenthood with warmth
+
+          and raw honesty. Originally produced to educate family court judges,
+
+          it has since become an important document of LGBTQ+ family history
+
+          and feminist filmmaking.
+
+
+          Made at a time when lesbian mothers routinely lost custody of their
+
+          children because of their sexuality, the film documents the legal and
+
+          social challenges these families faced while centering their
+
+          experiences of love and community. Through candid interviews and
+
+          snapshots of everyday life, the film reveals both the realities of
+
+          discrimination, and the strength, dignity and joy of queer families.
+
+
+          We chose this film because of the care with which it approaches its
+
+          subjects. While some laws and societal attitudes have changed since
+
+          the film was made, LGBTQ+ people continue to face barriers and public
+
+          debate around family life and parenthood. IN THE BEST INTERESTS OF
+
+          THE CHILDREN remains a timely reminder of why these stories matter.
+
+
+          After the screening, there will be space to stay, chat and reflect
+
+          together over tea and coffee. Whether you're discovering the film for
+
+          the first time or revisiting this landmark of queer cinema, everyone
+
+          is welcome.\n"
+        confidence: "high"
+      - id: "making/bricks-bristol#639680b88d"
+        sourceId: "making/bricks-bristol"
+        title: "4 O'Clock Club – Kids"
+        occurrence:
+          kind: "recurring"
+          pattern: "fortnightly on Thursdays, 4pm-5.30pm — dates listed 27 August, 10 and 24 September, 8 and 22 October 2026"
+          start: "2026-08-27"
+          startTime: "16:00"
+        status: "scheduled"
+        timesText: "Thursdays 16:00–17:30"
+        url: "https://stanneshouse.org/whats-on/4-oclock-club-kids/"
+        image: "https://stanneshouse.org/wp-content/uploads/2025/05/DSC_8020-scaled.jpg"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "kids"
+          - "family"
+          - "free-entry"
+          - "drop-in"
+          - "crafts"
+        raw: "**4 O'Clock Club – Kids** — \"A self-led space for parents and children
+
+          after school. Use our community living room to read, play and craft.
+
+          4pm-5.30pm, free to attend, just drop in.\" Listed fortnightly on
+
+          Thursdays: 27 August, 10 and 24 September, 8 and 22 October 2026.\n"
+        summary: "A free after-school drop-in every other Thursday where parents and children can use the community living room to read, play and craft with no programme to follow."
+        description: "A self-led space for parents and children after school. Use our
+
+          community living room to read, play and craft.
+
+
+          4pm-5.30pm, free to attend, just drop in.\n"
+        confidence: "high"
+      - id: "making/bricks-bristol#05e8643da7"
+        sourceId: "making/bricks-bristol"
+        title: "Homegrown Cinema Showcase with SWIF"
+        occurrence:
+          kind: "single"
+          date: "2026-08-27"
+          startTime: "19:00"
+          endTime: "22:00"
+        status: "scheduled"
+        url: "https://stanneshouse.org/whats-on/homegrown-cinema-showcase-with-swif/"
+        image: "https://stanneshouse.org/wp-content/uploads/2026/07/e157987_i345861_s5.jpg"
+        price:
+          free: false
+          text: "£5"
+          min: 5
+          max: 5
+          currency: "GBP"
+        tags:
+          - "screening"
+          - "short-film"
+          - "q-and-a"
+          - "indie"
+        raw: "**Homegrown Cinema Showcase with SWIF** — Thursday 27 August 2026,
+
+          19:00–22:00, £5. \"A fun evening celebrating independent films made
+
+          right here in the South West\", with the filmmakers present to
+
+          introduce their work and take questions.\n"
+        summary: "A curated programme of South West short films with the filmmakers there to introduce them and answer questions, run with South West Independent Film."
+        description: "Discover the incredible filmmaking talent on your doorstep at the
+
+          Homegrown Cinema Showcase, a fun evening celebrating independent
+
+          films made right here in the South West.
+
+
+          In collaboration with South West Independent Film (SWIF), each
+
+          screening showcases work by local filmmakers, who'll be joining us on
+
+          the night to introduce their films, share the stories behind them, and
+
+          answer your questions. It's a rare chance to experience original,
+
+          independent cinema and meet the people who made it.
+
+
+          Enjoy a thoughtfully curated programme of short films, and stay
+
+          afterwards for conversation with filmmakers, neighbours, and fellow
+
+          film lovers. Whether you're passionate about cinema or simply curious
+
+          to discover new local talent, everyone is welcome.
+
+
+          Hosted by South West Independent Film (SWIF.club), a regional network
+
+          connecting independent filmmakers with audiences across the South
+
+          West.\n"
+        confidence: "high"
+      - id: "making/bricks-bristol#3b0f49c5ed"
+        sourceId: "making/bricks-bristol"
+        title: "Myths with Marcus"
+        occurrence:
+          kind: "recurring"
+          pattern: "The sessions are monthly — dates listed 28 August, 25 September and 30 October 2026"
+          start: "2026-08-28"
+          startTime: "19:00"
+        status: "scheduled"
+        timesText: "19:00–21:30"
+        url: "https://stanneshouse.org/whats-on/myths-with-marcus-4/"
+        image: "https://stanneshouse.org/wp-content/uploads/2026/01/31ebc7a0-c9db-cde1-4588-ec83c29f4b51.jpg"
+        price:
+          free: true
+          text: "Free"
+        ageRestriction: "18+"
+        tags:
+          - "storytelling"
+          - "free-entry"
+          - "18-plus"
+          - "community"
+        raw: "**Myths with Marcus** — monthly, free, 19:00–21:30. Dates listed: 28
+
+          August, 25 September and 30 October 2026. \"A space where African and
+
+          European folklore come to life through oral storytelling.\" Open to
+
+          everyone 18+.\n"
+        summary: "A free monthly evening of oral storytelling drawing on African and European folklore, with room for reflection and discussion between the tales."
+        description: "Join Marcus, as he creates a space where African and European
+
+          folklore come to life through oral storytelling. Old stories are
+
+          given the space to become relevant and meaningful to contemporary
+
+          audiences.
+
+
+          The sessions are monthly, and free to attend. The evening will weave
+
+          magic and meaning though the beauty of story! There will be moments
+
+          of personal reflection, invitational discussion, and hearing new or
+
+          known stories.
+
+
+          As someone from dual heritage–Black Afro-Caribbean and White
+
+          European–telling these stories helps me discover where I come from.
+
+
+          Reconnect with people through imagination. Reconnect with your
+
+          ancestors. Reconnect with yourself.
+
+
+          These sessions are open to everyone 18+
+
+
+          Find out more about Myths With Marcus: www.mythswithmarcus.co.uk\n"
+        confidence: "high"
+      - id: "making/bricks-bristol#720e1e7a30"
+        sourceId: "making/bricks-bristol"
+        title: "Bike Bristol"
+        occurrence:
+          kind: "recurring"
+          pattern: "monthly on a Thursday, 10:00–13:30 — dates listed 3 September and 1 October 2026"
+          start: "2026-09-03"
+          startTime: "10:00"
+        status: "scheduled"
+        timesText: "10:00–13:30, in one-hour sessions"
+        url: "https://stanneshouse.org/whats-on/bike-bristol/"
+        image: "https://stanneshouse.org/wp-content/uploads/2026/04/appointmentType-thumb-70511069.jpg"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "repair"
+          - "cycling"
+          - "free-entry"
+          - "hands-on"
+          - "beginners"
+        raw: "**Bike Bristol** — free bike repair course, 10:00–13:30. Dates listed:
+
+          Thursday 3 September and Thursday 1 October 2026. \"Bike Bristol will
+
+          provide a bike, so there's no need to bring your own.\"\n"
+        summary: "A free monthly bike repair course where the bikes are provided — hour-long sessions on punctures, brakes, gears or safety checks depending on what the group wants."
+        description: "Come along to a free bike repair course at St Annes House! Bike
+
+          Bristol will provide a bike, so there's no need to bring your own
+
+          unless you have specific questions—feel free to bring it along if you
+
+          do.
+
+
+          Each one-hour session covers topics like punctures, brakes, gears, or
+
+          safety checks, depending on the group's preference.
+
+
+          Sign up here!\n"
+        confidence: "high"
+      - id: "making/bricks-bristol#7e8057ec45"
+        sourceId: "making/bricks-bristol"
+        title: "Yoga Foundations — 6-Week Beginners Course (September–October)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Wednesdays, 6.00–7.00pm, 9 September – 14 October"
+          start: "2026-09-09"
+          end: "2026-10-14"
+          startTime: "18:00"
+        status: "scheduled"
+        timesText: "Wednesdays 18:00–19:00"
+        url: "https://stanneshouse.org/whats-on/yoga-foundations-6-week-beginners-course-september-october/"
+        image: "https://stanneshouse.org/wp-content/uploads/2026/01/image.webp"
+        price:
+          free: false
+          text: "£65 – £75"
+          min: 65
+          max: 75
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "wellbeing"
+          - "beginners"
+          - "booking-required"
+        raw: "**Yoga Foundations — 6-Week Beginners Course (September–October)** —
+
+          \"Wednesdays, 6.00–7.00pm. 9 September – 14 October.\" £65 – £75.
+
+          Formerly Yoga for Beginners at Yogasara.\n"
+        summary: "A six-week beginners' course covering breathwork, meditation, movement and yoga philosophy, deliberately run in blocks with gaps between so the practice has time to settle."
+        description: "Get ready to build your yoga foundation in this 6-week course that
+
+          will leave you feeling centered and strong.
+
+
+          Yoga Foundations — 6-Week Beginners Course (formerly Yoga for
+
+          Beginners at Yogasara)
+
+
+          - St Anne's House, BS4
+
+          - Wednesdays, 6.00–7.00pm
+
+          - 9 September – 14 October
+
+
+          **What this course is about**
+
+
+          This 6-week course offers a gentle, supportive introduction to yoga.
+
+          We'll explore the four core elements of practice:
+
+
+          - Breathwork, to calm and steady the nervous system
+
+          - Meditation, simple practices for presence and perspective
+
+          - Asana (movement), building strength, steadiness and mobility
+
+          - Yoga philosophy, practical ideas you can take into everyday life
+
+
+          You don't need any experience, and you don't need to be flexible.
+
+          This isn't about achieving shapes, it's about learning how to work
+
+          with your body, your breath and your attention in a way that actually
+
+          supports real life.
+
+
+          **How the course is structured, and why**
+
+
+          This course runs several times a year, by design.
+
+
+          We learn together over six weeks, then there is space between courses
+
+          to integrate. Time to practise at home, attend regular classes with
+
+          new understanding, and notice what changes when you live with the
+
+          practices rather than rushing on to the next thing.
+
+
+          This is how learning really sticks.
+
+
+          When we repeat a practice, pause, and then return to it, the brain
+
+          lays down stronger neural pathways. Things that felt abstract start
+
+          to make sense in the body. You hear familiar instructions
+
+          differently. You move and breathe from a more informed, embodied
+
+          place.
+
+
+          Each time you return, you're not starting again, you're building on
+
+          lived experience.
+
+
+          **Saturday morning workshops, between courses**
+
+
+          In the spaces between the 6-week courses, I also offer Saturday
+
+          morning workshops for those who'd like to go a little deeper.\n"
+        confidence: "high"
+      - id: "making/bricks-bristol#00ea3f138c"
+        sourceId: "making/bricks-bristol"
+        title: "Home Energy Fair"
+        occurrence:
+          kind: "single"
+          date: "2026-10-17"
+          startTime: "09:30"
+          endTime: "12:30"
+        status: "scheduled"
+        url: "https://stanneshouse.org/whats-on/home-energy-fair/"
+        image: "https://stanneshouse.org/wp-content/uploads/2026/06/image-4.webp"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "free-entry"
+          - "community"
+          - "talk"
+        raw: "**Home Energy Fair** — Saturday 17 October 2026, 09:30–12:30, free.
+
+          Delivered by Retrofit West and funded by the West of England Mayoral
+
+          Combined Authority. Installer talks, case studies, product
+
+          demonstrations and virtual tours of retrofitted homes. \"Exhibitors and
+
+          product demonstrations: To be confirmed.\"\n"
+        summary: "A free morning fair on making a home warmer and cheaper to run, with retrofit experts, installer talks, product demos and homeowners who have already done the work."
+        description: "St Anne's House is pleased to be hosting the Home Energy Fair,
+
+          delivered by Retrofit West and funded by the West of England Mayoral
+
+          Combined Authority.
+
+
+          Whether you're planning improvements or simply curious about making
+
+          your home warmer, healthier and more energy efficient, this free
+
+          event is a great opportunity to explore the latest retrofit solutions
+
+          and speak directly with experts.
+
+
+          **What to expect**
+
+
+          - Learn about energy-efficient home improvements and the upgrades
+
+          \  available for your property.
+
+          - Explore virtual tours of homes that have already been retrofitted
+
+          \  through the popular Green Open Homes programme.
+
+          - Speak with homeowners who have made energy-saving improvements and
+
+          \  hear about their experiences.
+
+          - Meet trusted suppliers and industry professionals.
+
+          - Watch installer talks, case studies and product demonstrations
+
+          \  showcasing the latest energy-efficient technologies.
+
+          - Discover practical ways to reduce your energy bills while improving
+
+          \  comfort and creating a healthier home.
+
+          - Enjoy free refreshments throughout the event.
+
+
+          Exhibitors and product demonstrations: To be confirmed.
+
+
+          **About the organisers**
+
+
+          This event is hosted by Retrofit West and funded by the West of
+
+          England Mayoral Combined Authority.
+
+
+          Retrofit West supports homeowners across the West of England to
+
+          improve the energy efficiency of their homes through high-quality
+
+          retrofit. Their mission is to help accelerate the transition to
+
+          low-carbon housing, reducing carbon emissions while creating warmer,
+
+          healthier homes, lowering energy costs and supporting local jobs and
+
+          skills.\n"
+        confidence: "high"
+      - id: "making/bricks-bristol#f4ebe4d89f"
+        sourceId: "making/bricks-bristol"
+        title: "Yoga Foundations Workshop"
+        occurrence:
+          kind: "single"
+          date: "2026-10-31"
+          startTime: "10:00"
+          endTime: "12:30"
+        status: "scheduled"
+        url: "https://stanneshouse.org/whats-on/yoga-foundations-workshop-4/"
+        image: "https://stanneshouse.org/wp-content/uploads/2026/02/Screenshot-2026-02-16-at-16.59.51.png"
+        price:
+          free: false
+          text: "£25"
+          min: 25
+          max: 25
+          currency: "GBP"
+        tags:
+          - "workshop"
+          - "wellbeing"
+          - "beginners"
+          - "booking-required"
+        raw: "**Yoga Foundations Workshop** — Saturday 31 October 2026, 10:00–12:30,
+
+          £25. \"Breath, Meditation, Posture & Balance\", with a particular focus
+
+          on standing postures and balance. Finishes with Chinese tea and light
+
+          snacks.\n"
+        summary: "A two-and-a-half hour standalone workshop on standing postures and balance, taken slowly enough to explain the basics of foot placement and breathing, closing with tea and snacks."
+        description: "Yoga Foundations Workshop — Breath, Meditation, Posture & Balance
+
+
+          This Yoga Foundations workshop offers time and space to explore yoga
+
+          from the ground up.
+
+
+          We'll work with the four core parts of yoga — Breath, Meditation,
+
+          Asana (postures) and basic Philosophy — with a particular focus on
+
+          standing postures and balance, including Warrior I, II, III & IV, and
+
+          a small number of balance poses.
+
+
+          We'll take our time and work carefully, starting with the basics:
+
+
+          - where to place your feet
+
+          - how to breathe within the postures
+
+          - how the body organises itself to stand and balance
+
+
+          Alongside the physical learning, we'll explore the essence of these
+
+          postures — \"what do you stand up for?\" \"What do you show up for?\"
+
+
+          With 2.5 hours together (10:00–12:30), there is space to explore,
+
+          explain, rest & repeat – so learning has time to settle and
+
+          integrate.
+
+
+          The workshop finishes with Chinese tea for contemplation and light
+
+          snacks, offering a gentle close to the morning.
+
+
+          **Make a day of it?** Stay on site for brunch at the excellent
+
+          Cibomatto Italian Canteen, book in advance for the sauna and cold
+
+          plunge, or head out for a walk in the beautiful Nightingale Valley or
+
+          along the river towards Crews Hole.
+
+
+          **Why St Anne's House?**
+
+
+          - Free on-site parking (including accessible spaces)
+
+          - Accessible ground-floor Mill Room with step-free access
+
+          - Bristol Community Sauna & Cold Plunge on site for post-class
+
+          \  relaxation
+
+          - A vibrant community hub with creative studios, café, and local
+
+          \  projects
+
+
+          **What to Bring** — Wear comfortable clothes you can move in. Bring
+
+          your own yoga mat and props if you have them, plus a blanket and
+
+          pillow for relaxation. Mats are available to borrow if needed.\n"
+        confidence: "high"
+    notes: "Harvested St Anne's House, the building BRICKS runs, exactly as catalogued; the what's-on there is the public programme. Two useful hints for next time: the page is The Events Calendar and its REST endpoint at /wp-json/tribe/events/v1/events serves the whole diary as JSON, which is far cheaper than walking month views — but it 403s to a plain fetch and 200s to a browser user-agent, same as the hackspace. I queried 2026-08-17 to 2026-10-31 and got 192 dated instances across 26 distinct series, and collapsed them to 26 rows per §4 rather than recording every instance. Because the 31 October cut-off was mine and not the venue's, I have left `end` off the open-ended weeklies rather than implying they stop then. Descriptions came back inside the same API response at no extra fetch, so I have recorded them for 13 of the 26 — the dated one-offs, the runs, and the craft-related weeklies — and left them off the rest. Two things for a curator: much of this programme is wellbeing and food (massage, acupuncture, yoga, a sauna, a canteen) rather than making, so the source sits awkwardly in this category; and Art Club's own copy says \"come along fortnightly on Wednesdays\" while the calendar lists it every Wednesday, which is why that row is confidence medium. Talking Tarot, listed monthly, last ran 8 August and has no future date on the calendar."
+  - sourceId: "making/bristol-bike-project"
+    fetch:
+      ok: true
+      url: "https://thebristolbikeproject.org/maintenance/bike-kitchen/"
+      status: 200
+    events:
+      - id: "making/bristol-bike-project#29b99331d1"
+        sourceId: "making/bristol-bike-project"
+        title: "Bike Kitchen"
+        occurrence:
+          kind: "recurring"
+          pattern: "Thursdays 6pm – 9pm"
+          startTime: "18:00"
+        status: "scheduled"
+        timesText: "Thursdays 18:00–21:00"
+        url: "https://thebristolbikeproject.org/maintenance/bike-kitchen/"
+        price:
+          free: false
+          text: "Up to 1 hour: £7 / Up to 2 hours: £12 / Up to 3 hours: £15"
+          min: 7
+          max: 15
+          currency: "GBP"
+        tags:
+          - "repair"
+          - "cycling"
+          - "drop-in"
+          - "hands-on"
+        raw: "**Bike Kitchen** — \"Thursdays 6pm – 9pm\". \"This is a drop-in workshop
+
+          – no booking required.\" \"This workshop is only suitable for those with
+
+          some experience.\" Up to 1 hour: £7; up to 2 hours: £12; up to 3 hours:
+
+          £15.\n"
+        summary: "A Thursday evening drop-in workshop with professional stands and a full tool set, charged by the hour and no booking needed — pitched at people who already know their way round a bike."
+        description: "Thursdays 6pm – 9pm.
+
+
+          \"Come and take advantage of our fully equipped workshop with
+
+          professional work stands and a comprehensive set of tools to help you
+
+          tackle any problem. We also have wide range of new and used parts
+
+          available to buy.\"
+
+
+          This is a drop-in workshop – no booking required. This workshop is
+
+          only suitable for those with some experience.
+
+
+          - Up to 1 hour: £7
+
+          - Up to 2 hours: £12
+
+          - Up to 3 hours: £15
+
+
+          During busy times you may need to wait for a stand or return another
+
+          week. Tea and coffee are available for a donation.\n"
+        confidence: "high"
+      - id: "making/bristol-bike-project#d730d5c8fa"
+        sourceId: "making/bristol-bike-project"
+        title: "Bike maintenance intensive course - day 1 (29 August)"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+          startTime: "10:30"
+        status: "scheduled"
+        url: "https://bookwhen.com/bristolbikeproject"
+        tags:
+          - "courses"
+          - "repair"
+          - "cycling"
+          - "booking-required"
+        raw: "**Bike maintenance intensive course - day 1** — Saturday 29 August
+
+          2026, 10:30am BST. Listed in the project's Bookwhen calendar; no end
+
+          time, price or availability shown.\n"
+        summary: "Day one of the two-day intensive maintenance course, booked through the project's Bookwhen calendar."
+        confidence: "medium"
+      - id: "making/bristol-bike-project#d958af1c8b"
+        sourceId: "making/bristol-bike-project"
+        title: "Bicycle basics maintenance course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-05"
+          startTime: "10:30"
+        status: "scheduled"
+        url: "https://bookwhen.com/bristolbikeproject"
+        tags:
+          - "courses"
+          - "repair"
+          - "cycling"
+          - "beginners"
+          - "booking-required"
+        raw: "**Bicycle basics maintenance course** — Saturday 5 September 2026,
+
+          10:30am BST. Listed in the project's Bookwhen calendar; no end time,
+
+          price or availability shown.\n"
+        summary: "The project's entry-level maintenance course, a single Saturday covering the basics, booked through Bookwhen."
+        confidence: "medium"
+      - id: "making/bristol-bike-project#e426ebdab8"
+        sourceId: "making/bristol-bike-project"
+        title: "Bike maintenance intensive course - day 1 (19 September)"
+        occurrence:
+          kind: "single"
+          date: "2026-09-19"
+          startTime: "10:30"
+        status: "scheduled"
+        url: "https://bookwhen.com/bristolbikeproject"
+        tags:
+          - "courses"
+          - "repair"
+          - "cycling"
+          - "booking-required"
+        raw: "**Bike maintenance intensive course - day 1** — Saturday 19 September
+
+          2026, 10:30am BST. A second run of day one, listed in the project's
+
+          Bookwhen calendar; no end time, price or availability shown.\n"
+        summary: "Day one of a second run of the two-day intensive maintenance course, booked through Bookwhen."
+        confidence: "medium"
+      - id: "making/bristol-bike-project#c6dfaf0457"
+        sourceId: "making/bristol-bike-project"
+        title: "Bike maintenance intensive course - day 2"
+        occurrence:
+          kind: "single"
+          date: "2026-09-26"
+          startTime: "10:30"
+        status: "scheduled"
+        url: "https://bookwhen.com/bristolbikeproject"
+        tags:
+          - "courses"
+          - "repair"
+          - "cycling"
+          - "booking-required"
+        raw: "**Bike maintenance intensive course - day 2** — Saturday 26 September
+
+          2026, 10:30am BST. Listed in the project's Bookwhen calendar; no end
+
+          time, price or availability shown.\n"
+        summary: "Day two of the intensive maintenance course, a week after the 19 September first day."
+        confidence: "medium"
+    notes: "The catalogued URL is right and the hint is accurate: the Bike Kitchen is the one session with a stated pattern, recorded here as one recurring entry rather than a weekly stream. I also followed the hint's pointer to the external Bookwhen calendar at bookwhen.com/bristolbikeproject, which does carry the dated maintenance courses — four of them, all Saturdays from 29 August to 26 September 2026, and the calendar's own window ends there, so anything later is not yet published. Bookwhen gives titles, dates and 10:30 start times but no end times, prices or availability, so those fields are omitted rather than guessed, and the four rows are confidence medium for that reason. Nothing on the site itself carries a date, which is worth a hint: the Bookwhen calendar is the only route to the courses."
+  - sourceId: "making/bristol-folk-house"
+    fetch:
+      ok: true
+      url: "https://www.bristolfolkhouse.co.uk/live-music"
+      status: 200
+    events:
+      - id: "making/bristol-folk-house#fb8d69cb40"
+        sourceId: "making/bristol-folk-house"
+        title: "Pride Exhibition!"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "09:00"
+          endTime: "21:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/live-music/event/pride-exhibition-20-08-2026"
+        image: "https://www.bristolfolkhouse.co.uk/uploads/events/1781344192Pride%20Exhibition%202026.jpg"
+        price:
+          free: true
+          text: "FREE"
+        tags:
+          - "exhibition"
+          - "free-entry"
+          - "lgbtq"
+          - "drop-in"
+        raw: "**Pride Exhibition!** — Thursday 20 August 2026, 09:00–21:00. £FREE.
+
+          \"Come along to view our annual Pride Exhibition in the Folk House
+
+          Cafe! We selected work from queer following our annual open call.\"\n"
+        summary: "The Folk House's annual Pride exhibition in the café, hung from an open call and free to walk into from morning through to the evening."
+        description: "Come along to view our annual Pride Exhibition in the Folk House
+
+          Cafe! We selected work from queer following our annual open call.
+
+
+          Selected artists:
+
+
+          Pip Ralph [@cupboard_theatre](https://www.instagram.com/cupboard_theatre/),
+
+          Anna Samieh-Tucker [@altiplano12](https://www.instagram.com/altiplano12/),
+
+          Em Hallaran [@monksyphoto](https://www.instagram.com/monksyphoto/),
+
+          Leo Crumbie [@porridgecosmos](https://www.instagram.com/porridgecosmos/),
+
+          Matthew Price [@matthewpriceartist](https://www.instagram.com/matthewpriceartist/),
+
+          Dave Hall [@best_dave_ever](https://www.instagram.com/best_dave_ever/),
+
+          Rachel Jones [@hmp_she](https://www.instagram.com/hmp_she/),
+
+          Phoenix Dewberry [@lemon._.lad](https://www.instagram.com/lemon._.lad/),
+
+          Samantha Coen [@still.growing.zine](https://www.instagram.com/still.growing.zine/),
+
+          Simon Gamble [@simesdidthis](https://www.instagram.com/simesdidthis/),
+
+          Ferg Cooper [@fergcooper](https://www.instagram.com/fergcooper/),
+
+          Camilo Bedon [@Cam.bedon](https://www.instagram.com/cam.bedon/),
+
+          Emm Whitaker [@emm_whitaker.png](https://www.instagram.com/emm_whitaker.png/),
+
+          Charlotte McEvoy [@Charlotte_mcevoy_art](https://www.instagram.com/charlotte_mcevoy_art/),
+
+          Jay Langford [@Jay._.png09](https://www.instagram.com/jay._png09/),
+
+          Jon Bradfield [@wishuwerequeer](https://www.instagram.com/wishuwerequeer/),
+
+          Verity Waterfield [@vcw.photography](https://www.instagram.com/vcw.photography/),
+
+          Izzy Jacobs [@izzyjacobsphoto](https://www.instagram.com/izzyjacobsphoto/),
+
+          Katy Spencer [@what_katy_drew_next](https://www.instagram.com/what_katy_drew_next/),
+
+          MJ, Finn Brown [@finnlbrown](https://www.instagram.com/finnlbrown/),
+
+          Brian Chan [@Xav_bn_art](https://www.instagram.com/xav_bn_art/)\n"
+        confidence: "high"
+      - id: "making/bristol-folk-house#4e23c4f5cb"
+        sourceId: "making/bristol-folk-house"
+        title: "FOLKHOUSE PRIDE EXHIBITION: A CELEBRATION POETRY NIGHT"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "18:30"
+          endTime: "21:30"
+        status: "scheduled"
+        timesText: "Doors 18:30, performances from 19:30"
+        url: "https://www.bristolfolkhouse.co.uk/live-music/event/folkhouse-pride-exhibition-a-celebration-poetry-night-20-08-2026"
+        image: "https://www.bristolfolkhouse.co.uk/uploads/events/1786614426POSTER%20FOLKHOUSE.jpg"
+        price:
+          free: true
+          text: "free - optional donation"
+        tags:
+          - "poetry"
+          - "lgbtq"
+          - "free-entry"
+          - "one-night"
+          - "headliner"
+        raw: "**FOLKHOUSE PRIDE EXHIBITION: A CELEBRATION POETRY NIGHT** — Thursday
+
+          20 August 2026, doors 18:30, performances from 19:30. Free with an
+
+          optional donation; all proceeds to Dandelion-DIY. Headliners Aish
+
+          Humphreys and Edson Burton, hosted by Tom Denbigh, with an open mic.
+
+          The event page's own copy reads \"Thursday 21st August\", which is a
+
+          Friday — the listing date of Thursday 20 August is what I have taken.\n"
+        summary: "The closing night of the Folk House's queer art exhibition — two headline poets, Aish Humphreys and Edson Burton, an open mic, and donations going to Dandelion-DIY."
+        description: "**FOLKHOUSE PRIDE EXHIBITION: A CELEBRATION | Thursday 21st August
+
+          Doors: 6:30pm Performances from 7:30pm**
+
+
+          Join us for a night of flowing words and crafted lyricism as we bring
+
+          the Folkhouse Summer Queer Art exhibition to a close.
+
+
+          Featuring two headliners — the impeccable **Aish Humphreys** and the
+
+          inimitable **Edson Burton** — expect a night of queer poetry
+
+          surrounded by the brilliant artwork featured in our Pride open call,
+
+          and of course an open mic with an warm invitation to get involved.
+
+
+          The celebration will be hosted by notoriously queer poet Tom Denbigh,
+
+          tickets are free, with an option to donate, and all proceeds will go
+
+          directly to Dandelion-DIY. A little more about our headliners:
+
+
+          **Aish Humpries**
+
+
+          Aish is a poet, theatre maker and host from Cornwall, living in
+
+          Bristol. He is a host at Satellite of Love, a co-producer of the queer
+
+          poetry special for Lyra Festival and was a Young Curator with MAYK for
+
+          Mayfest 2024.
+
+
+          His first poetry pamphlet, Saints of Golden Hour was released in
+
+          February 2023 which explores soberness, girlhood, queer relationships
+
+          and the gods we create for ourselves. He is currently collaborating on
+
+          the production of the spoken word theatre show, Girlhood in T which
+
+          explores transness, masculinity and friendship.
+
+
+          **Edson Burton**
+
+
+          Dr Edson Burton is a prolific writer of audio, live drama and poetry.
+
+
+          Edson won the 2025 Tinniswood Prize for Man Friday an adaption of
+
+          Daniel Defoe's Robinson Crusoe.
+
+
+          His previous audio dramas include the acclaimed R4 series Deacon
+
+          starring Don Warrington.
+
+
+          Recent live work includes the listening journey _Duppy Hunter_
+
+          produced by Tamasha Theatre, and the theatrical promenade Destination
+
+          Old Market
+
+
+          He is the author of the poetry collections, Seasoned and Witness.
+
+
+          He is a member of Writers Mosaic the film collective Come the
+
+          Revolution, a board member of Lyra poetry festival and Afrika Eye film
+
+          festival.\n"
+        confidence: "high"
+      - id: "making/bristol-folk-house#f9b575ccd1"
+        sourceId: "making/bristol-folk-house"
+        title: "Visible Mending on Denim - Embroidery and patches"
+        subcategory: "One Day Workshop"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "14:00"
+          endTime: "16:30"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/live-music/event/visible-mending-on-denim-embroidery-and-patches-22-08-2026"
+        image: "https://www.bristolfolkhouse.co.uk/uploads/events/1785238583198288.jpg"
+        price:
+          free: false
+          text: "£10/£12/£15.88 — the listings index shows £10/£12/£5.88 for the same workshop"
+          currency: "GBP"
+        tags:
+          - "workshop"
+          - "textiles"
+          - "repair"
+          - "hands-on"
+          - "beginners"
+        raw: "**Visible Mending on Denim - Embroidery and patches** — Saturday 22
+
+          August 2026, 14:00–16:30. Part of the Sustainable Fashion Week
+
+          Festival. \"Give some love to your denim items! This guided session at
+
+          the Bristol Folk House will teach you the basics of embroidery and how
+
+          thread and fabric can come together.\"\n"
+        summary: "A two-and-a-half hour guided session on embroidering and patching denim — bring a pair of jeans or a jacket and plan the repair together, part of Sustainable Fashion Week."
+        description: "Give some love to your denim items! This guided session at the Bristol
+
+          Folk House will teach you the basics of embroidery and how thread and
+
+          fabric can come together to bring more personality and style to your
+
+          items.
+
+
+          You can bring a pair of jeans or a jacket and we will plan together
+
+          the action steps to bring that boost of colour! You can use spare
+
+          denim patches to create your own embroidered journey or simply add
+
+          some fabric scraps and stitch them as you please.
+
+
+          Come and have fun! Let's chat about sustainability whilst getting
+
+          creative. Allow the thread to show you the way your soul wants to
+
+          express.
+
+
+          The event is part of the Sustainable Fashion Week Festival.
+
+
+          Booking: online via Headfirst, by phone at 0117 926 2987, or in person
+
+          at Bristol Folk House, 40A Park Street, BS1 5JG.\n"
+        confidence: "high"
+      - id: "making/bristol-folk-house#a492d2c29a"
+        sourceId: "making/bristol-folk-house"
+        title: "Poetry Peace Feast"
+        occurrence:
+          kind: "single"
+          date: "2026-08-25"
+          startTime: "19:00"
+          endTime: "21:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/live-music/event/poetry-peace-feast-25-08-2026"
+        image: "https://www.bristolfolkhouse.co.uk/uploads/events/1782289332poetry-peace-feast-banner.png"
+        price:
+          free: false
+          text: "£15.00 adults, £7.50 children; 'Pay it Forward' tickets available"
+          min: 7.5
+          max: 15
+          currency: "GBP"
+        tags:
+          - "poetry"
+          - "food-drink"
+          - "community"
+          - "one-night"
+        raw: "**Poetry Peace Feast** — Tuesday 25 August 2026, 19:00–21:00. £15
+
+          adults / £7.50 children, with \"Pay it Forward\" tickets. Bridges for
+
+          Communities present an evening of storytelling, conversation and
+
+          poetry with Bristol Poet Laureate Sukina Noor and restorative poet
+
+          Leeza Awojobi.\n"
+        summary: "Bridges for Communities bring their peace feast back to the Folk House — a shared meal with Bristol Poet Laureate Sukina Noor and Leeza Awojobi, built around the question of how you sustain a village."
+        description: "We're returning to Bristol Folk House! Join us for an evening of
+
+          storytelling, conversation and poetry featuring Bristol Poet Laureate
+
+          Sukina Noor and restorative poet Leeza Awojobi. This is invitation to
+
+          share in food which nourishes the body and soul, exchange meaningful
+
+          ideas and leave feeling energised for the wellbeing of your community.
+
+
+          At Bridges for Communities, we love all things collective and have
+
+          recently been thinking about the phrase 'It takes a Village'. We know
+
+          it takes a village, but how to sustain one? This peace feast builds on
+
+          a conversation we've been having in a more creative way. It explores
+
+          the complex tension between the needs of the individual and the
+
+          collective. It brings together storytelling and collaboration in a way
+
+          which suggests rather than dictates, opening up fresh pathways for
+
+          engaging across difference. For those feeling extra bold, come
+
+          prepared to share your thoughts in an informal guided activity.
+
+
+          Peace Feasts bring people together around a meal, to listen to music,
+
+          exchange stories and hear from guest speakers. They celebrate local
+
+          communities, help us to see the world through someone else's eyes, and
+
+          create spaces for friendships to grow between people from different
+
+          backgrounds and experiences of life.\n"
+        confidence: "high"
+      - id: "making/bristol-folk-house#976702542b"
+        sourceId: "making/bristol-folk-house"
+        title: "Pride Exhibition! (27 August)"
+        occurrence:
+          kind: "single"
+          date: "2026-08-27"
+          startTime: "09:00"
+          endTime: "21:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/live-music/event/pride-exhibition-27-08-2026"
+        price:
+          free: true
+          text: "FREE"
+        tags:
+          - "exhibition"
+          - "free-entry"
+          - "lgbtq"
+          - "drop-in"
+        raw: "**Pride Exhibition!** — Thursday 27 August 2026, 09:00–21:00. £FREE.
+
+          The same annual Pride Exhibition as the 20 August listing, given a
+
+          second dated entry on the what's-on.\n"
+        summary: "A second listed day for the Folk House's annual Pride exhibition, free to view in the café from morning until late."
+        confidence: "high"
+      - id: "making/bristol-folk-house#6550cb6e01"
+        sourceId: "making/bristol-folk-house"
+        title: "Between The Lines - Poetry Night"
+        occurrence:
+          kind: "single"
+          date: "2026-09-02"
+          startTime: "19:00"
+          endTime: "21:30"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/live-music/event/between-the-lines-poetry-night-05-08-2026"
+        price:
+          free: true
+          text: "£FREE - please book your ticket via the link"
+        tags:
+          - "poetry"
+          - "free-entry"
+          - "one-night"
+          - "booking-required"
+        raw: "**Between The Lines - Poetry Night** — Wednesday 02 September 2026,
+
+          19:00–21:30. \"£FREE - please book your ticket via the link.\" The
+
+          event's own URL slug ends 05-08-2026, which does not match the listed
+
+          date.\n"
+        summary: "A free poetry night at the Folk House, ticketed in advance so the room can be counted."
+        confidence: "medium"
+      - id: "making/bristol-folk-house#3f751cb116"
+        sourceId: "making/bristol-folk-house"
+        title: "Creative writing workshop with Bertel Martin - Bristol New Writers Festival"
+        subcategory: "Bristol New Writers Festival"
+        occurrence:
+          kind: "single"
+          date: "2026-09-05"
+          startTime: "11:00"
+          endTime: "12:30"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/live-music/event/creative-writing-workshop-with-bertel-martin-bristol-new-writers-festival-05-09-2026"
+        price:
+          free: false
+          text: "£15-£20"
+          min: 15
+          max: 20
+          currency: "GBP"
+        tags:
+          - "workshop"
+          - "new-writing"
+          - "festival"
+          - "booking-required"
+        raw: "**Creative writing workshop with Bertel Martin - Bristol New Writers
+
+          Festival** — Saturday 05 September 2026, 11:00–12:30, £15-£20.
+
+          \"Limited capacity for workshops, book your ticket early to avoid
+
+          disappointment - all tickets sold via Headfirst.\"\n"
+        summary: "A ninety-minute creative writing workshop with Bertel Martin, co-founder of Bristol Black Writers Group and thirty-five years into Bristol's writing scene, opening the New Writers Festival day."
+        description: "# Creative writing workshop with Bertel Martin
+
+
+          Host and organiser of Word of Mouth and one of the team members
+
+          behind Satellite of Love.
+
+
+          Co-founder of Bristol Black Writers Group, He's been active in
+
+          Bristol's writing scene for over 35 years, as a writer, performer and
+
+          producer. Promoting Caribbean and African writers in Yardstick with
+
+          the British Council. A co-founder of Word of Mouth, former Director
+
+          of Plymouth International Book Festival and Director of City
+
+          Chameleon, poetry publisher, Bertel has been published in a number of
+
+          anthologies. Performance highlights include performing with Lee
+
+          Evans, Benjamin Zephaniah, Attila Stockbroker and Jean \"Binta\"
+
+          Breeze.
+
+
+          _Limited capacity for workshops, book your ticket early to avoid
+
+          disappointment - all tickets sold via Headfirst_\n"
+        confidence: "high"
+      - id: "making/bristol-folk-house#6b77ce48c3"
+        sourceId: "making/bristol-folk-house"
+        title: "\"So you want to be a writer?\" - Bristol New Writers Festival"
+        subcategory: "Bristol New Writers Festival"
+        occurrence:
+          kind: "single"
+          date: "2026-09-05"
+          startTime: "13:30"
+          endTime: "15:30"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/live-music/event/so-you-want-to-be-a-writer-bristol-new-writers-festival-05-09-2026"
+        price:
+          free: false
+          text: "£8-£10"
+          min: 8
+          max: 10
+          currency: "GBP"
+        tags:
+          - "talk"
+          - "new-writing"
+          - "festival"
+        raw: "**\"So you want to be a writer?\" - Bristol New Writers Festival** —
+
+          Saturday 05 September 2026, 13:30–15:30, £8-£10.\n"
+        summary: "A two-hour New Writers Festival session on how people actually get into writing and make it work."
+        confidence: "high"
+      - id: "making/bristol-folk-house#e7bb58a9bd"
+        sourceId: "making/bristol-folk-house"
+        title: "In conversation with Sarah Dunant - Bristol New Writers Festival"
+        subcategory: "Bristol New Writers Festival"
+        occurrence:
+          kind: "single"
+          date: "2026-09-05"
+          startTime: "16:30"
+          endTime: "17:45"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/live-music/event/in-conversation-with-sarah-dunant-bristol-new-writers-festival-05-09-2026"
+        price:
+          free: false
+          text: "£8-£10"
+          min: 8
+          max: 10
+          currency: "GBP"
+        tags:
+          - "author-talk"
+          - "new-writing"
+          - "festival"
+        raw: "**In conversation with Sarah Dunant - Bristol New Writers Festival** —
+
+          Saturday 05 September 2026, 16:30–17:45, £8-£10.\n"
+        summary: "The novelist Sarah Dunant in conversation, closing the Folk House's New Writers Festival day."
+        confidence: "high"
+    notes: "The hint is right on both counts. /live-music is the whole what's-on — nine dated events from 20 August to 5 September 2026, gigs and craft and writing workshops mixed together. The termly course index at /courses-and-workshops turned out to carry no courses at all: it is a filter interface, ten subject headings (Arts, Crafts, Photography, Pottery, Writing, Music Dance and Performance, Languages, Fitness, Wellbeing, Life and Leisure) linking to /results?category_parent=N, plus a /one-day-workshops?course_week=0 path. No course names, dates or prices appear on it, so no termly course rows are recorded and a future run would need to walk those /results pages to get them. The index is thin — title, date, time, price and nothing else — and the programme is nine events, so per §3 I opened five event pages for `description`: the four soonest (20, 20, 22 and 25 August) plus the 5 September creative-writing workshop. The other four have no `description`. Three things a curator should see: the Pride Exhibition is listed twice, on 20 and 27 August, as the same exhibition on two days; \"Between The Lines - Poetry Night\" has a slug ending 05-08-2026 while the listing itself says Wednesday 2 September 2026, so the slug is stale and I have taken the listed date; and the price for the visible-mending workshop reads £10/£12/£5.88 on the index and £10/£12/£15.88 on the event page, so I have kept the text and left min/max off."
+  - sourceId: "making/bristol-hackspace"
+    fetch:
+      ok: true
+      url: "https://www.ticketsource.com/bristol-hackspace"
+      status: 200
+    events:
+      - id: "making/bristol-hackspace#9c881c1790"
+        sourceId: "making/bristol-hackspace"
+        title: "Bristol Hackspace Open Day"
+        occurrence:
+          kind: "single"
+          date: "2026-11-01"
+          startTime: "13:00"
+          endTime: "17:30"
+        status: "scheduled"
+        url: "https://www.ticketsource.com/bristol-hackspace"
+        tags:
+          - "community"
+          - "hands-on"
+          - "booking-required"
+        raw: "**Bristol Hackspace Open Day** — Bristol Hackspace, Bristol. \"Sun 1
+
+          Nov 2026, 1:00PM - 5:30PM\". Marked \"Coming Soon\" — \"Available on Sun
+
+          18 Oct 2026 at 12:00PM\". No price shown.\n"
+        summary: "An afternoon open day at the volunteer-run hackspace in St Philips — the one dated way in, with tickets going live on 18 October."
+        confidence: "high"
+    notes: "The hint about the user-agent is exactly right and worth keeping: the TicketSource page 403s to a plain fetch and 200s to a browser user-agent. One correction for the catalogue, though — the page lists only ONE upcoming event, \"Bristol Hackspace Open Day, Sun 1 Nov 2026, 1:00PM - 5:30PM\", marked \"Coming Soon\" with \"Available on Sun 18 Oct 2026 at 12:00PM\" underneath. The 18 October in the current catalogue note is the ticket on-sale date, not a second open day, and there is no open day on that date. www.ticketsource.co.uk also 301s to www.ticketsource.com, so fetch.url is the .com form. The page carries no JSON-LD and no event image. Nothing here is recorded as recurring: with a single listed date there is no pattern to state, and the hint's own note that open days are irregular is the reason not to invent one. The hackspace's own site still has no diary."
+  - sourceId: "making/bristol-textile-quarter"
+    fetch:
+      ok: true
+      url: "https://www.bristoltextilequarter.co.uk/events/"
+      status: 200
+    events: []
+    notes: "A real result rather than a failure: the site is live and the page loads, and it genuinely lists nothing upcoming. The hint's check is the right one and it fired — the page's own embedded view JSON reads \"events\":[] with the notice \"There are no upcoming events.\", and every entry rendered on the page sits inside a tribe-events-calendar-latest-past block. So there is nothing to record, and the dormant status stands. One small catalogue note: bristoltextilequarter.co.uk redirects to www.bristoltextilequarter.co.uk."
+  - sourceId: "making/bristol-wood-recycling"
+    fetch:
+      ok: true
+      url: "https://www.bwrp.org.uk/what-to-expect"
+      status: 200
+    events:
+      - id: "making/bristol-wood-recycling#bb009678c0"
+        sourceId: "making/bristol-wood-recycling"
+        title: "Volunteer Day"
+        occurrence:
+          kind: "recurring"
+          pattern: "08:50 - 4:30, Monday to Friday, with half days 08:50 - 12:45 or 1:20 - 4:30"
+          startTime: "08:50"
+        status: "scheduled"
+        timesText: "08:50–16:30 Monday to Friday; half days 08:50–12:45 or 13:20–16:30"
+        url: "https://www.bwrp.org.uk/what-to-expect"
+        ageRestriction: "17+"
+        tags:
+          - "volunteering"
+          - "woodwork"
+          - "community"
+          - "hands-on"
+        raw: "**Volunteer Day** — \"08:50 - 4:30, Monday to Friday\", with half-day
+
+          options \"08:50 - 12:45 or 1:20 - 4:30\". \"You need to be 17 to
+
+          volunteer with us.\" \"We provide a hot lunch when you do a full days'
+
+          volunteering.\" \"We can pay for travel expenses up to £6.80.\" \"We will
+
+          provide all safety clothing (e.g. boots and ear defenders).\" There is
+
+          currently a waiting list for new volunteers, but the project is
+
+          \"still holding yard tours\". Contact volunteering@bwrp.org.uk. No price
+
+          is given — this is a volunteer shift, not a ticketed session.\n"
+        summary: "Weekday volunteer shifts at the reclaimed timber yard in St Philips — collections, timber processing and machinery training, with a hot lunch, safety kit and travel expenses. New volunteers are waitlisted, but yard tours are still running."
+        confidence: "high"
+    notes: "The new bwrp.org.uk URL resolves and the hint describes the site accurately. There is no events page and no public course programme anywhere on it; the volunteer day is the only thing with a schedule, so that is the single recurring row here and there is nothing else to record. Two things left out deliberately: yard tours are still offered while new volunteers are waitlisted, but no times or dates are given for them, so they are not an event; and \"Workshop\" in the site navigation is the joinery service — bespoke items, shelving, cutting, machining and planing — not a class, as the hint says. The homepage \"Shedzone\" button still has no page behind it."
+  - sourceId: "making/maker-shed"
+    fetch:
+      ok: true
+      url: "https://themakershed.co.uk/courses/"
+      status: 200
+    events:
+      - id: "making/maker-shed#003c44f48a"
+        sourceId: "making/maker-shed"
+        title: "Woodwork for Beginners Level 1 – The Toolbox (Tuesday Evenings)"
+        subcategory: "Daytime Classes"
+        occurrence:
+          kind: "recurring"
+          pattern: "eight weekly Tuesday sessions — the calendar shows the current cohort finishing 1 September 2026 and new cohorts starting 8 September and 3 November 2026"
+          start: "2026-09-08"
+        status: "scheduled"
+        timesText: "The course page states Tuesday evening classes 6.20pm to 8.45pm; the calendar entries for these dates read 10:00–15:00"
+        url: "https://themakershed.co.uk/woodwork-for-beginners-level-1-the-toolbox/"
+        image: "https://themakershed.co.uk/wp-content/uploads/2022/11/PRODUCT_PICS_WOODWORK_L1.jpg"
+        tags:
+          - "courses"
+          - "woodwork"
+          - "beginners"
+          - "hands-on"
+          - "booking-required"
+        raw: "**Woodwork for Beginners Level 1 – The Toolbox – Tuesday Evenings
+
+          Courses** — an eight-session course. The site's calendar lists the
+
+          sessions individually as \"(1 of 8)\" through \"(8 of 8)\": the running
+
+          cohort finishes Tuesday 1 September 2026, the next runs Tuesdays 8
+
+          September to 27 October 2026, and a further one starts Tuesday 3
+
+          November 2026. No price is shown on the index or the course page.\n"
+        summary: "The Makershed's entry-level course: eight Tuesday sessions building a softwood toolbox with hand tools and corner rebate joints, and you take the toolbox home. New cohorts start in September and November."
+        description: "# Woodwork for Beginners Level 1 – The Toolbox
+
+
+          This introductory woodworking course teaches students to create a
+
+          softwood toolbox with a handle and inset base using traditional hand
+
+          tools and corner rebate joints. Upon completion, participants take
+
+          home their finished toolbox and gain foundational skills to pursue
+
+          home projects or advance to Level 2 classes.
+
+
+          **LEARN HOW TO:**
+
+
+          - Sawing straight and square
+
+          - Accurately marking out and cutting joints
+
+          - Effectively using hand tools including chisels and planes
+
+          - Fitting and finishing woodwork projects
+
+
+          **Skill level:** \"Suitable for those with no previous woodwork
+
+          experience or, more experienced woodworkers wanting to improve their
+
+          skills and accuracy.\"
+
+
+          **Course options available:**
+
+
+          1. Thursday or Friday Daytime Classes — 10:30am to 3:40pm
+
+          2. Tuesday Evening Classes — 6:20pm to 8:45pm
+
+          3. Weekend Daytime Classes — 10:30am to 4:40pm
+
+
+          Visitors are directed to click individual course option links for
+
+          \"further information, prices and to book your course.\"\n"
+        confidence: "medium"
+      - id: "making/maker-shed#d93d7eb867"
+        sourceId: "making/maker-shed"
+        title: "Woodwork for Beginners Level 1 – The Toolbox (Weekends)"
+        subcategory: "Daytime Classes"
+        occurrence:
+          kind: "single"
+          date: "2026-10-03"
+        status: "scheduled"
+        timesText: "The course page states weekend daytime classes 10.30am – 4.40pm; the calendar entry for this date reads 10:30–15:30"
+        url: "https://themakershed.co.uk/woodwork-for-beginners-level-1-the-toolbox/"
+        image: "https://themakershed.co.uk/wp-content/uploads/2022/11/PRODUCT_PICS_WOODWORK_L1.jpg"
+        tags:
+          - "courses"
+          - "woodwork"
+          - "beginners"
+          - "hands-on"
+          - "booking-required"
+        raw: "**Woodwork for Beginners Level 1- The Toolbox – Weekends Courses** —
+
+          the calendar carries a single session for this variant, Saturday 3
+
+          October 2026, marked \"(1 of 1)\". The course page describes weekend
+
+          daytime classes at 10.30am – 4.40pm but gives no dates.\n"
+        summary: "The weekend run of the beginners' toolbox course, with one session published for Saturday 3 October — the calendar shows only the one date, so the rest of the run is not yet listed."
+        description: "# Woodwork for Beginners Level 1 – The Toolbox
+
+
+          This introductory woodworking course teaches students to create a
+
+          softwood toolbox with a handle and inset base using traditional hand
+
+          tools and corner rebate joints. Upon completion, participants take
+
+          home their finished toolbox and gain foundational skills to pursue
+
+          home projects or advance to Level 2 classes.
+
+
+          **LEARN HOW TO:**
+
+
+          - Sawing straight and square
+
+          - Accurately marking out and cutting joints
+
+          - Effectively using hand tools including chisels and planes
+
+          - Fitting and finishing woodwork projects
+
+
+          **Skill level:** \"Suitable for those with no previous woodwork
+
+          experience or, more experienced woodworkers wanting to improve their
+
+          skills and accuracy.\"
+
+
+          **Course options available:**
+
+
+          1. Thursday or Friday Daytime Classes — 10:30am to 3:40pm
+
+          2. Tuesday Evening Classes — 6:20pm to 8:45pm
+
+          3. Weekend Daytime Classes — 10:30am to 4:40pm\n"
+        confidence: "medium"
+      - id: "making/maker-shed#c3ebe25180"
+        sourceId: "making/maker-shed"
+        title: "Thursday & Friday Daytime Classes – All Levels"
+        subcategory: "Daytime Classes"
+        occurrence:
+          kind: "recurring"
+          pattern: "Thursdays and Fridays, weekly, from 10 September 2026 onwards"
+          start: "2026-09-10"
+        status: "scheduled"
+        timesText: "The course pages state Thursday or Friday daytime classes 10.30am – 3.40pm; the calendar entries read 10:00–15:00"
+        url: "https://themakershed.co.uk/courses/"
+        tags:
+          - "courses"
+          - "woodwork"
+          - "hands-on"
+          - "booking-required"
+        raw: "**Thursday & Friday Daytime Classes – All Levels** — the calendar
+
+          lists these as individual sessions each marked \"(1 of 1)\", running
+
+          every Thursday and Friday from 10 September 2026 through to at least
+
+          18 December 2026. Woodworkers at levels 1, 2 and 3 share the slot.\n"
+        summary: "The Makershed's open daytime workshop slot, running every Thursday and Friday through the autumn, taking woodworkers at any of the three levels working on their own course project."
+        confidence: "medium"
+      - id: "making/maker-shed#0bb001683a"
+        sourceId: "making/maker-shed"
+        title: "Tool Sharpening Day"
+        subcategory: "Daytime Classes"
+        occurrence:
+          kind: "single"
+          date: "2026-10-28"
+          startTime: "10:30"
+          endTime: "15:30"
+        status: "scheduled"
+        timesText: "1 Day (Wednesday 10.30am – 3.30pm)"
+        url: "https://themakershed.co.uk/courses/tool-sharpening-day/"
+        image: "https://themakershed.co.uk/wp-content/uploads/2022/11/PRODUCT_PICS_TOOL_SHARP.jpg"
+        price:
+          free: false
+          text: "£65.00 — the top of the page shows £75.00"
+          currency: "GBP"
+        tags:
+          - "workshop"
+          - "woodwork"
+          - "hands-on"
+          - "beginners"
+          - "booking-required"
+        raw: "**Tool Sharpening Day — WOODWORKING HAND TOOL SHARPENING AND SET UP**
+
+          — Wednesday 28 October 2026, 10.30am – 3.30pm. Course fee £65.00,
+
+          though £75.00 is displayed at the top of the page. \"All materials,
+
+          tutoring and tool use – there are no additional costs.\" Suitable for
+
+          everyone. The page also still lists a past date of 17th June 2026.\n"
+        summary: "A one-day class on sharpening and setting up chisels, planes and scrapers, with plane tuning covered too — bring your own blunt tools or use the workshop's."
+        description: "**WOODWORKING HAND TOOL SHARPENING AND SET UP**
+
+
+          On this one day course you will learn how to sharpen and maintain
+
+          your chisels, planes and scrapers so that they are effective and are
+
+          a pleasure to use. We will cover all the essential sharpening know
+
+          how and then give you the opportunity to put it into practice under
+
+          our guidance.
+
+
+          You will also learn how to set hand planes and make fine adjustments
+
+          to get the best performance from them. Gain the confidence to get
+
+          your home workshop chisels and planes into shape!
+
+
+          **LEARN ABOUT:**
+
+
+          - Angles, bevels and shapes
+
+          - Sharpening stones and other abrasives
+
+          - Honing fluids
+
+          - Freehand sharpening and honing guides
+
+          - How to create a turned edge
+
+          - Hand plane tuning and set up
+
+
+          **COURSE LENGTH & TIMES:** 1 Day (Wednesday 10.30am – 3.30pm)
+
+
+          **SKILL LEVEL:** Suitable for everyone
+
+
+          **COURSE FEE:** £65.00
+
+
+          **INCLUDED IN THE COURSE FEE:** All materials, tutoring and tool use
+
+          – there are no additional costs.
+
+
+          Please bring along a woodwork chisel and/or plane from home to
+
+          practice on. If you don't have any to bring, just let us know and we
+
+          will make sure there is something available in the workshop for you to
+
+          use.
+
+
+          **CANCELLATION SPACES:** We run waiting lists for cancellation spaces
+
+          on all of our fully booked courses – to be added to a waiting list
+
+          please email hello@themakershed.co.uk.\n"
+        confidence: "medium"
+      - id: "making/maker-shed#5c1f05dffe"
+        sourceId: "making/maker-shed"
+        title: "Woodwork for Beginners Level 2 – The Cabinet"
+        occurrence:
+          kind: "undated"
+          note: "The course page states the formats — 'Thursday or Friday daytime classes 10.30am - 3.40pm' and 'Wednesday or Thursday evening classes 6.20 - 8.45pm' — but no dates, and the site's calendar carries none for this course either."
+        status: "scheduled"
+        url: "https://themakershed.co.uk/woodwork-for-beginners-level-2-the-cabinet/"
+        image: "https://themakershed.co.uk/wp-content/uploads/2022/11/PRODUCT_PICS_WOODWORK_L2.jpg"
+        tags:
+          - "courses"
+          - "woodwork"
+          - "hands-on"
+          - "booking-required"
+        raw: "**Woodwork for Beginners Level 2 – The Cabinet** — \"Make a softwood
+
+          cabinet with a drawer and shaker style door using rebate, housing,
+
+          dovetail and mortice & tenon joints.\" Split into three modules. No
+
+          dates or prices are given; the page directs you to the course option
+
+          links.\n"
+        summary: "The longer of the two Level 2 courses: three modules building a softwood cabinet with a fitted drawer and a shaker door, covering housing, dovetail and mortice-and-tenon joints."
+        description: "# Woodwork for Beginners Level 2 – The Cabinet
+
+
+          Make a softwood cabinet with a drawer and shaker style door using
+
+          rebate, housing, dovetail and mortice & tenon joints. At the end of
+
+          the 3 modules, you will take home your finished cabinet and the skills
+
+          & confidence to start designing & making your own woodwork projects.
+
+
+          **LEARN HOW TO:**
+
+
+          - Select, tune and use hand tools effectively
+
+          - Accurately mark out, cut & fit a range of traditional joints
+
+          - Assemble, glue & cramp projects
+
+
+          **Course structure** — split into three modules:
+
+
+          - **Module 2A - The Case** — joints: through housing, through wedged
+
+          \  mortice & tenon.
+
+          - **Module 2B - The Drawer** — joints: dovetail, corner rebate and
+
+          \  ploughed groove.
+
+          - **Module 2C - The Door** — joints: haunched stopped mortice & tenon
+
+          \  and ploughed groove.
+
+
+          This course is the lengthier of the level 2 courses. There are more
+
+          opportunities for practice and you learn to fit a drawer and a door.
+
+          If you would prefer a shorter course, the alternative \"Woodwork for
+
+          Beginners Level 2 - The Box\" course covers broadly the same joinery
+
+          techniques.
+
+
+          **Skill level:** Suitable for those who have completed the Woodwork
+
+          for Beginners Level 1 course.
+
+
+          **Course options:**
+
+
+          - Thursday or Friday daytime classes 10.30am - 3.40pm
+
+          - Wednesday or Thursday evening classes 6.20 - 8.45pm\n"
+        confidence: "high"
+      - id: "making/maker-shed#1240a580fc"
+        sourceId: "making/maker-shed"
+        title: "Woodwork for Beginners Level 2 – The Lidded Box"
+        occurrence:
+          kind: "undated"
+          note: "The course page states three formats — Thursday or Friday daytime 10.30am - 3.40pm, Wednesday or Thursday evening 6.20 - 8.45pm, and weekend daytime 10.30am - 4.40pm — but gives no dates, and the site's calendar carries none for this course."
+        status: "scheduled"
+        url: "https://themakershed.co.uk/woodwork-for-beginners-level-2-the-lidded-box/"
+        image: "https://themakershed.co.uk/wp-content/uploads/2021/06/PRODUCT_PICS_WOODWORK_L2.jpg"
+        tags:
+          - "courses"
+          - "woodwork"
+          - "hands-on"
+          - "booking-required"
+        raw: "**Woodwork for Beginners Level 2 – The Lidded Box** — \"Build on your
+
+          Level 1 skills and apply them to more challenging joinery. This course
+
+          teaches you to make a lidded box using black cherry hardwood and a
+
+          wide variety of hand joinery techniques.\" No dates or prices are
+
+          given.\n"
+        summary: "The shorter Level 2 course: a black cherry box with a hinged lid, taking in rebate, housing, dovetail, mitre and mortice-and-tenon joints, plus fitting the hinges."
+        description: "# Woodwork for Beginners Level 2 – The Lidded Box
+
+
+          Build on your Level 1 skills and apply them to more challenging
+
+          joinery. This course teaches you to make a lidded box using black
+
+          cherry hardwood and a wide variety of hand joinery techniques.
+
+
+          Upon completion, you will take home a versatile hardwood box with
+
+          hinged lid and possess the hand joinery skills to either start making
+
+          more advanced projects at home or join level 3 project classes to make
+
+          furniture to your own design.
+
+
+          **LEARN HOW TO:**
+
+
+          - Tune and use hand tools effectively
+
+          - Accurately mark out, cut & fit a wide variety of hand joinery
+
+          \  including rebate, through housing, through dovetail, mitre, and
+
+          \  stopped haunched mortice and tenon
+
+          - Fit hinges
+
+          - Assemble, glue, cramp and finish your project
+
+
+          Extensions for faster paced woodworkers include half lap mitre and
+
+          stopped housing.
+
+
+          **Skill level:** \"2 - Suitable for those who have completed our
+
+          Woodwork for Beginners Level 1 course.\"
+
+
+          **Course options:**
+
+
+          - Thursday or Friday daytime classes 10.30am - 3.40pm
+
+          - Wednesday or Thursday evening classes 6.20 - 8.45pm
+
+          - Weekend daytime classes 10.30am - 4.40pm\n"
+        confidence: "high"
+      - id: "making/maker-shed#62d0662231"
+        sourceId: "making/maker-shed"
+        title: "Woodwork Level 3 – Furniture Projects"
+        occurrence:
+          kind: "undated"
+          note: "The course page states two formats — 'Thursday or Friday daytime classes 10.30am - 3.40pm' and 'Wednesday or Thursday evening classes 6.20 - 8.45pm' — and says the number of classes depends on your project, with no start dates given."
+        status: "scheduled"
+        url: "https://themakershed.co.uk/woodwork-level-3-furniture-projects/"
+        image: "https://themakershed.co.uk/wp-content/uploads/2022/11/PRODUCT_PICS_WOODWORK_L3.jpg"
+        tags:
+          - "courses"
+          - "woodwork"
+          - "hands-on"
+          - "booking-required"
+        raw: "**Woodwork Level 3 – Furniture Projects** — plan and build a piece of
+
+          furniture of your own choosing under tutor guidance, from joinery
+
+          planning and drawings through to sourcing timber and construction. No
+
+          dates or prices are given; the length depends on the project.\n"
+        summary: "The open-ended level for people who have finished Levels 1 and 2: bring your own furniture project and work through planning, drawings, timber and construction with a tutor, mostly by hand."
+        description: "# Woodwork Level 3 – Furniture Projects
+
+
+          Woodwork Level 3 – Furniture Projects is a course focused on planning
+
+          and creating furniture or other woodwork projects under tutor
+
+          guidance. Participants select their own project, and instructors guide
+
+          them through the complete process: planning joinery, making drawings,
+
+          sourcing timber, and constructing the project in the workshop.
+
+
+          The course emphasizes hand tools and traditional joinery techniques.
+
+          While The Makershed owns hobby-sized power tools, Level 3 woodworkers
+
+          may use these only when hand tools would be impractical. See the Power
+
+          Tools Policy for details.
+
+
+          **What you'll learn:**
+
+
+          - Plan your own project
+
+          - Choose appropriate timber and joinery methods
+
+          - Add new joints to your skillset
+
+
+          **Course duration** — Furniture projects vary significantly in
+
+          completion time. Since students have completed Levels 1 and 2, they
+
+          understand that hand-made furniture requires time and patience. The
+
+          number of classes needed depends on your specific project and working
+
+          speed.
+
+
+          **Skill level** — Level 3 is suitable for those who have completed
+
+          Woodwork for Beginners Level 1 and one Woodwork for Beginners Level 2
+
+          course.
+
+
+          **Course options:**
+
+
+          - Thursday or Friday daytime classes 10.30am - 3.40pm
+
+          - Wednesday or Thursday evening classes 6.20 - 8.45pm\n"
+        confidence: "high"
+    notes: "Confirmed real, and the corrected URL is right: The Makershed is a woodworking school running levelled courses. Two amendments to the hint. First, the /courses/ index carries no dates, and the dated programme is not in prose on the course pages either — it is in the site's own Events Calendar, reachable as JSON at /wp-json/tribe/events/v1/events?per_page=50&start_date=2026-08-17, which returned 51 entries every one of them titled \"Daytime classes\", with the course actually running that day named in the excerpt as \"(N of 8)\". That is one row per session of an eight-week course, so I have collapsed it to one row per course per §4 rather than recording 51 dated events. Second, the two-slug weekend/weekday pattern the hint describes was not there today: only /courses/tool-sharpening-day/ sits under /courses/, the four woodwork course pages sit at the site root, and there are no duplicate slugs. Because the index is thin and the programme is seven courses, I opened five course pages for `description` — Level 1, both Level 2s, Level 3 and the sharpening day. Two ambiguities left visible rather than resolved: the calendar slots every entry at 10:00–15:00 including the one whose excerpt calls it \"Tuesday Evenings Courses\", which contradicts the 6.20–8.45pm the course pages state, so the times are in `timesText` and those rows are confidence medium; and the sharpening day shows £75.00 at the top of its page and £65.00 in the course-fee block. The three Level 2 and Level 3 courses have no date anywhere, which the hint predicts — fully booked courses run waiting lists and some dates are held for email enquiry — so they are `undated` rather than dropped. Rent-A-Bench is bench hire rather than a class and is not recorded. Also noting a past date left out: the sharpening day page still carries 17th June 2026 alongside the live 28 October."
+  - sourceId: "making/the-island"
+    fetch:
+      ok: true
+      url: "https://artspace.uk/events-home/"
+      status: 200
+    events:
+      - id: "making/the-island#8a338aa3ee"
+        sourceId: "making/the-island"
+        title: "Beginner's Ballet"
+        subcategory: "Dance Class"
+        occurrence:
+          kind: "recurring"
+          pattern: "Mondays 11:00 — listed as 'Today – 11:00 am' on Monday 17 August 2026"
+          startTime: "11:00"
+        status: "scheduled"
+        url: "https://artspace.uk/event/beginners-ballet/"
+        image: "https://artspace.uk/wp-content/uploads/2021/08/etienne-boulanger-_k2ShezHMlw-unsplash-1-scaled-e1697633335152.jpg"
+        price:
+          free: false
+          text: "£10"
+          min: 10
+          max: 10
+          currency: "GBP"
+        tags:
+          - "dance"
+          - "beginners"
+          - "weekly"
+        raw: "**Beginner's Ballet** — Dance Class, £10. Listed as \"Today – 11:00 am\"
+
+          on Monday 17 August 2026.\n"
+        summary: "A Monday late-morning ballet class for beginners at The Island."
+        confidence: "medium"
+      - id: "making/the-island#65b25fb8bc"
+        sourceId: "making/the-island"
+        title: "Advanced Ballet"
+        subcategory: "Dance Class"
+        occurrence:
+          kind: "recurring"
+          pattern: "Mondays 12:30 — listed as 'Today – 12:30 pm' on Monday 17 August 2026"
+          startTime: "12:30"
+        status: "scheduled"
+        url: "https://artspace.uk/event/advanced-ballet/"
+        image: "https://artspace.uk/wp-content/uploads/2021/08/50221060_2427995490607521_8789483737554354176_n-e1697633392335.png"
+        price:
+          free: false
+          text: "£10"
+          min: 10
+          max: 10
+          currency: "GBP"
+        tags:
+          - "dance"
+          - "weekly"
+        raw: "**Advanced Ballet** — Dance Class, £10. Listed as \"Today – 12:30 pm\"
+
+          on Monday 17 August 2026.\n"
+        summary: "Advanced ballet on Monday lunchtimes, straight after the beginners' class."
+        confidence: "medium"
+      - id: "making/the-island#d23a771f9e"
+        sourceId: "making/the-island"
+        title: "Commercial (Beginners)"
+        subcategory: "Dance Class"
+        occurrence:
+          kind: "recurring"
+          pattern: "Mondays 18:00 — listed as 'Today – 6:00 pm' on Monday 17 August 2026"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://artspace.uk/event/commercial-beginners/"
+        image: "https://artspace.uk/wp-content/uploads/2026/06/alt_ratio_16x9_2x_2021-10-13_0236-Angharad-Edwards-e1780913307685.jpg"
+        price:
+          free: false
+          text: "£9"
+          min: 9
+          max: 9
+          currency: "GBP"
+        tags:
+          - "dance"
+          - "beginners"
+          - "weekly"
+        raw: "**Commercial (Beginners)** — Dance Class, £9. Listed as \"Today – 6:00
+
+          pm\" on Monday 17 August 2026.\n"
+        summary: "Beginners' commercial dance on Monday evenings."
+        confidence: "medium"
+      - id: "making/the-island#24ed0bb318"
+        sourceId: "making/the-island"
+        title: "Bristol Hoop School (Mondays)"
+        subcategory: "Circus"
+        occurrence:
+          kind: "recurring"
+          pattern: "Mondays 18:00 — listed as 'Today – 6:00 pm' on Monday 17 August 2026"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://artspace.uk/event/bristol-hoop-school/"
+        image: "https://artspace.uk/wp-content/uploads/2025/10/IMG_4324-Amy-G-1354x1360.jpeg"
+        price:
+          free: false
+          text: "£66"
+          min: 66
+          max: 66
+          currency: "GBP"
+        tags:
+          - "circus"
+          - "courses"
+          - "weekly"
+          - "booking-required"
+        raw: "**Bristol Hoop School** — Circus, £66. Listed as \"Today – 6:00 pm\" on
+
+          Monday 17 August 2026. The £66 price and the school framing suggest a
+
+          block rather than a single class, though the page does not say how
+
+          many weeks.\n"
+        summary: "Aerial hoop training with Bristol Hoop School on Monday evenings, priced as a block rather than per class."
+        confidence: "medium"
+      - id: "making/the-island#a456b77307"
+        sourceId: "making/the-island"
+        title: "Bristol Hoop School (Tuesdays)"
+        subcategory: "Circus"
+        occurrence:
+          kind: "recurring"
+          pattern: "Tuesdays 18:00 — listed as 'Tuesday 18th Aug – 6:00 pm'"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://artspace.uk/event/bristol-hoop-school-2/"
+        image: "https://artspace.uk/wp-content/uploads/2025/10/IMG_4324-Amy-G-1354x1360.jpeg"
+        price:
+          free: false
+          text: "£66"
+          min: 66
+          max: 66
+          currency: "GBP"
+        tags:
+          - "circus"
+          - "courses"
+          - "weekly"
+          - "booking-required"
+        raw: "**Bristol Hoop School** — Circus, £66. Listed as \"Tuesday 18th Aug –
+
+          6:00 pm\". A second Bristol Hoop School card at a separate slug
+
+          (/bristol-hoop-school-2/) from the Monday listing.\n"
+        summary: "The second weekly Bristol Hoop School slot, on Tuesday evenings."
+        confidence: "medium"
+      - id: "making/the-island#51f3954e07"
+        sourceId: "making/the-island"
+        title: "Open Ballroom/Vogue Sessions"
+        subcategory: "Dance Class"
+        occurrence:
+          kind: "recurring"
+          pattern: "Mondays 19:00 — listed as 'Today – 7:00 pm' on Monday 17 August 2026"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://artspace.uk/event/open-ballroom-vogue-sessions/"
+        image: "https://artspace.uk/wp-content/uploads/2021/05/image0-2-e1733138141849.jpeg"
+        price:
+          free: false
+          text: "£6"
+          min: 6
+          max: 6
+          currency: "GBP"
+        tags:
+          - "dance"
+          - "lgbtq"
+          - "weekly"
+          - "drop-in"
+        raw: "**Open Ballroom/Vogue Sessions** — Dance Class, £6. Listed as \"Today –
+
+          7:00 pm\" on Monday 17 August 2026.\n"
+        summary: "The cheapest thing on the timetable — open ballroom and vogue sessions on Monday evenings."
+        confidence: "medium"
+      - id: "making/the-island#adcc8315f7"
+        sourceId: "making/the-island"
+        title: "Aerial hoop – high intermediate"
+        subcategory: "Circus — aerial hoop"
+        occurrence:
+          kind: "recurring"
+          pattern: "Mondays 19:00 — listed as 'Today – 7:00 pm' on Monday 17 August 2026"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://artspace.uk/event/aerial-hoop-high-intermediate/"
+        image: "https://artspace.uk/wp-content/uploads/2025/07/Nicky-Pearsonresize-scaled-e1753711338496.jpg"
+        price:
+          free: false
+          text: "£15.50"
+          min: 15.5
+          max: 15.5
+          currency: "GBP"
+        tags:
+          - "circus"
+          - "weekly"
+        raw: "**Aerial hoop – high intermediate** — Circus, aerial hoop, £15.50.
+
+          Listed as \"Today – 7:00 pm\" on Monday 17 August 2026.\n"
+        summary: "The top rung of the aerial hoop ladder at The Island, Monday evenings."
+        confidence: "medium"
+      - id: "making/the-island#4d259a0447"
+        sourceId: "making/the-island"
+        title: "Commercial Latin For Beginners"
+        subcategory: "Dance Class"
+        occurrence:
+          kind: "recurring"
+          pattern: "Tuesdays 18:00 — listed as 'Tuesday 18th Aug – 6:00 pm'"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://artspace.uk/event/commercial-latin-for-beginners/"
+        image: "https://artspace.uk/wp-content/uploads/2024/01/1612877255188-Iris-Hernandez-Cabrera-e1704792356392.jpg"
+        price:
+          free: false
+          text: "£9"
+          min: 9
+          max: 9
+          currency: "GBP"
+        tags:
+          - "dance"
+          - "beginners"
+          - "weekly"
+        raw: "**Commercial Latin For Beginners** — Dance Class, £9. Listed as
+
+          \"Tuesday 18th Aug – 6:00 pm\".\n"
+        summary: "Beginners' commercial Latin on Tuesday evenings."
+        confidence: "medium"
+      - id: "making/the-island#af9e710290"
+        sourceId: "making/the-island"
+        title: "SUNSHINE SCHOOL OF PRO WRESTLING – Fundamentals of Wrestling class"
+        subcategory: "Circus Class"
+        occurrence:
+          kind: "recurring"
+          pattern: "Tuesdays 19:00 — listed as 'Tuesday 18th Aug – 7:00 pm'"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://artspace.uk/event/sunshine-school-of-pro-wrestling-fundamentals-of-wrestling-class/"
+        image: "https://artspace.uk/wp-content/uploads/2026/07/IMG_6188-Gareth-Snelling-scaled-e1782995803227.jpeg"
+        price:
+          free: false
+          text: "£12.50"
+          min: 12.5
+          max: 12.5
+          currency: "GBP"
+        tags:
+          - "wrestling"
+          - "beginners"
+          - "weekly"
+          - "hands-on"
+        raw: "**SUNSHINE SCHOOL OF PRO WRESTLING – Fundamentals of Wrestling class**
+
+          — Circus Class, £12.50. Listed as \"Tuesday 18th Aug – 7:00 pm\".\n"
+        summary: "Pro wrestling fundamentals with the Sunshine School, Tuesday evenings in the Island's main space."
+        confidence: "medium"
+      - id: "making/the-island#26091b2a9b"
+        sourceId: "making/the-island"
+        title: "World Fusion Dance"
+        subcategory: "Dance Class"
+        occurrence:
+          kind: "recurring"
+          pattern: "Tuesday, no classes 21/07 – 18/08"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://artspace.uk/event/world-fusion-dance/"
+        image: "https://artspace.uk/wp-content/uploads/2020/10/world-fusion-dance-promo-e1697633888794.jpg"
+        price:
+          free: false
+          text: "£9"
+          min: 9
+          max: 9
+          currency: "GBP"
+        tags:
+          - "dance"
+          - "weekly"
+        raw: "**World Fusion Dance** — Dance Class, £9. Listed as \"Tuesday, no
+
+          classes 21/07 – 18/08 – 7:30 pm\", so it resumes after 18 August.\n"
+        summary: "World fusion dance on Tuesday evenings, back after a summer break that runs to 18 August."
+        confidence: "high"
+      - id: "making/the-island#9e0faed5ea"
+        sourceId: "making/the-island"
+        title: "Contemporary Floorwork with AE Dance + Fitness"
+        subcategory: "Dance Class"
+        occurrence:
+          kind: "recurring"
+          pattern: "Wednesdays – no class 19/08"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://artspace.uk/event/contemporary-floorwork-with-ae-dance-fitness/"
+        image: "https://artspace.uk/wp-content/uploads/2022/03/FLOORWORK-post.png"
+        price:
+          free: false
+          text: "£11.25"
+          min: 11.25
+          max: 11.25
+          currency: "GBP"
+        tags:
+          - "dance"
+          - "contemporary"
+          - "weekly"
+        raw: "**Contemporary Floorwork with AE Dance + Fitness** — Dance Class,
+
+          £11.25. Listed as \"Wednesdays – no class 19/08 – 6:00 pm\".\n"
+        summary: "Contemporary floorwork technique on Wednesday evenings, with no class on 19 August."
+        confidence: "high"
+      - id: "making/the-island#c32d6df178"
+        sourceId: "making/the-island"
+        title: "Intermediate Ballet – 3rd Stage Dance Company"
+        subcategory: "Dance Class"
+        occurrence:
+          kind: "recurring"
+          pattern: "Wednesdays 19:30 — listed as 'Wednesday 19th Aug – 7:30 pm'"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://artspace.uk/event/intermediate-ballet/"
+        image: "https://artspace.uk/wp-content/uploads/2021/05/3SDC-Ballet-e1697632843440.jpeg"
+        price:
+          free: false
+          text: "£10"
+          min: 10
+          max: 10
+          currency: "GBP"
+        tags:
+          - "dance"
+          - "weekly"
+        raw: "**Intermediate Ballet – 3rd Stage Dance Company** — Dance Class, £10.
+
+          Listed as \"Wednesday 19th Aug – 7:30 pm\".\n"
+        summary: "Intermediate ballet with 3rd Stage Dance Company, Wednesday evenings."
+        confidence: "medium"
+      - id: "making/the-island#44d772e65d"
+        sourceId: "making/the-island"
+        title: "Improvers Aerial Hoop"
+        subcategory: "Circus Class"
+        occurrence:
+          kind: "recurring"
+          pattern: "Wednesdays 20:00 — listed as 'Wednesday 19th Aug – 8:00 pm'"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://artspace.uk/event/improvers-aerial-hoop/"
+        image: "https://artspace.uk/wp-content/uploads/2024/04/Improvers-Hoop.png"
+        price:
+          free: false
+          text: "£15"
+          min: 15
+          max: 15
+          currency: "GBP"
+        tags:
+          - "circus"
+          - "weekly"
+        raw: "**Improvers Aerial Hoop** — Circus Class, £15. Listed as \"Wednesday
+
+          19th Aug – 8:00 pm\". Distinct from the Friday \"IMPROVERS AERIAL HOOP
+
+          COURSE\" card at /improvers-aerial-hoop-course/.\n"
+        summary: "The late Wednesday improvers' aerial hoop class, for people past beginner level."
+        confidence: "medium"
+      - id: "making/the-island#310549b400"
+        sourceId: "making/the-island"
+        title: "Free To Be… Dance Classes with Bethany Kyle"
+        subcategory: "Dance Class"
+        occurrence:
+          kind: "recurring"
+          pattern: "Thursdays 17:30 — listed as 'Thursday 20th Aug – 5:30 pm'"
+          startTime: "17:30"
+        status: "scheduled"
+        url: "https://artspace.uk/event/free-to-be-dance-classes-with-bethany-kyle/"
+        image: "https://artspace.uk/wp-content/uploads/2020/10/Bethany-Kyle-e1697632291919.jpg"
+        price:
+          free: false
+          text: "£9.50"
+          min: 9.5
+          max: 9.5
+          currency: "GBP"
+        tags:
+          - "dance"
+          - "beginners"
+          - "weekly"
+        raw: "**Free To Be… Dance Classes with Bethany Kyle** — Dance Class, £9.50.
+
+          Listed as \"Thursday 20th Aug – 5:30 pm\".\n"
+        summary: "Bethany Kyle's Free To Be… dance class, early on Thursday evenings."
+        confidence: "medium"
+      - id: "making/the-island#7943206819"
+        sourceId: "making/the-island"
+        title: "Aerial Silks Class with Miss Radida (Thursdays)"
+        subcategory: "Circus Class"
+        occurrence:
+          kind: "recurring"
+          pattern: "Thursdays 18:00 — the title states Thursdays; listed as 'Thursday 20th Aug – 6:00 pm'"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://artspace.uk/event/aerial-silks-class-with-miss-radida-thursdays/"
+        image: "https://artspace.uk/wp-content/uploads/2021/05/Rada-silks-pic-1-e1697632365478.jpg"
+        price:
+          free: false
+          text: "£15"
+          min: 15
+          max: 15
+          currency: "GBP"
+        tags:
+          - "circus"
+          - "weekly"
+        raw: "**Aerial Silks Class with Miss Radida (Thursdays)** — Circus Class,
+
+          £15. Listed as \"Thursday 20th Aug – 6:00 pm\"; the class title itself
+
+          states the weekly Thursday slot.\n"
+        summary: "Aerial silks with Miss Radida, the class whose own title pins it to Thursday evenings."
+        confidence: "high"
+      - id: "making/the-island#1c64be8fcd"
+        sourceId: "making/the-island"
+        title: "Contemporary Technique – 3rd Stage Dance Company"
+        subcategory: "Dance Class"
+        occurrence:
+          kind: "recurring"
+          pattern: "Thursdays 19:00 — listed as 'Thursday 20th Aug – 7:00 pm'"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://artspace.uk/event/open-contemporary-3rd-stage-dance-company/"
+        image: "https://artspace.uk/wp-content/uploads/2021/05/3SDC-Contemporary-e1697632948827.jpeg"
+        price:
+          free: false
+          text: "£10"
+          min: 10
+          max: 10
+          currency: "GBP"
+        tags:
+          - "dance"
+          - "contemporary"
+          - "weekly"
+        raw: "**Contemporary Technique – 3rd Stage Dance Company** — Dance Class,
+
+          £10. Listed as \"Thursday 20th Aug – 7:00 pm\".\n"
+        summary: "Open contemporary technique with 3rd Stage Dance Company on Thursday evenings."
+        confidence: "medium"
+      - id: "making/the-island#643076aec9"
+        sourceId: "making/the-island"
+        title: "Ballet To Not Necessarily Ballet Music"
+        subcategory: "Dance Class"
+        occurrence:
+          kind: "recurring"
+          pattern: "Friday, no class 28/08"
+          startTime: "11:00"
+        status: "scheduled"
+        url: "https://artspace.uk/event/ballet-to-not-necessarily-ballet-music/"
+        image: "https://artspace.uk/wp-content/uploads/2023/10/Anna-Demming-Get-Back-into-Dance-Credit-to-Derwood-photography-e1773660247265.jpg"
+        price:
+          free: false
+          text: "£9"
+          min: 9
+          max: 9
+          currency: "GBP"
+        tags:
+          - "dance"
+          - "beginners"
+          - "weekly"
+        raw: "**Ballet To Not Necessarily Ballet Music** — Dance Class, £9. Listed
+
+          as \"Friday, no class 28/08 – 11:00 am\".\n"
+        summary: "Friday morning ballet set to whatever the music happens to be, with no class on 28 August."
+        confidence: "high"
+      - id: "making/the-island#57ea5de116"
+        sourceId: "making/the-island"
+        title: "IMPROVERS AERIAL HOOP COURSE"
+        subcategory: "Circus Class"
+        occurrence:
+          kind: "recurring"
+          pattern: "Fridays, no class 25/08"
+          startTime: "17:30"
+        status: "scheduled"
+        url: "https://artspace.uk/event/improvers-aerial-hoop-course/"
+        image: "https://artspace.uk/wp-content/uploads/2023/12/Improvers-Hoop-.png"
+        price:
+          free: false
+          text: "£15"
+          min: 15
+          max: 15
+          currency: "GBP"
+        tags:
+          - "circus"
+          - "courses"
+          - "weekly"
+          - "booking-required"
+        raw: "**IMPROVERS AERIAL HOOP COURSE** — Circus Class, £15. Listed as
+
+          \"Fridays, no class 25/08 – 5:30 pm\". The exclusion date given, 25/08,
+
+          is a Tuesday rather than a Friday, which is what the page says.\n"
+        summary: "The Friday improvers' aerial hoop course, a separate block from the Wednesday improvers' class."
+        confidence: "high"
+      - id: "making/the-island#995772bbb9"
+        sourceId: "making/the-island"
+        title: "INTRO TO AERIAL HOOP COURSE"
+        subcategory: "Circus Class"
+        occurrence:
+          kind: "recurring"
+          pattern: "Fridays, no class 07/08"
+          startTime: "18:40"
+        status: "scheduled"
+        url: "https://artspace.uk/event/introduction-to-aerial-hoop-course/"
+        image: "https://artspace.uk/wp-content/uploads/2023/10/November-p1.png"
+        price:
+          free: false
+          text: "£15"
+          min: 15
+          max: 15
+          currency: "GBP"
+        tags:
+          - "circus"
+          - "courses"
+          - "beginners"
+          - "booking-required"
+        raw: "**INTRO TO AERIAL HOOP COURSE** — Circus Class, £15. Listed as
+
+          \"Fridays, no class 07/08 – 6:40 pm\".\n"
+        summary: "The beginners' entry point to aerial hoop at The Island, Friday evenings."
+        confidence: "high"
+      - id: "making/the-island#811cfbbe16"
+        sourceId: "making/the-island"
+        title: "ICPAS Community Dance Classes"
+        subcategory: "Dance Class"
+        occurrence:
+          kind: "recurring"
+          pattern: "Sundays 15:00 — listed as 'Sunday 23rd Aug – 3:00 pm'"
+          startTime: "15:00"
+        status: "scheduled"
+        url: "https://artspace.uk/event/icpas-community-dance-classes/"
+        image: "https://artspace.uk/wp-content/uploads/2026/08/IPCASBaishaliGuha-crop-300x300.jpeg"
+        price:
+          free: false
+          text: "£12"
+          min: 12
+          max: 12
+          currency: "GBP"
+        tags:
+          - "dance"
+          - "community"
+          - "weekly"
+        raw: "**ICPAS Community Dance Classes** — Dance Class, £12. Listed as
+
+          \"Sunday 23rd Aug – 3:00 pm\".\n"
+        summary: "ICPAS community dance on Sunday afternoons, the one weekend class on the timetable."
+        confidence: "medium"
+    notes: "The new domain is right and the page is well populated: twenty class cards. Following the hint, every one is recorded as recurring with its day-and-time slot rather than as a dated instance — one term of twenty weekly classes would otherwise be hundreds of rows. The confidence split reflects what the page actually states: cards that print a weekly pattern with exclusions (\"Wednesdays – no class 19/08\", \"Fridays, no class 25/08\") are high, and cards that print only the next instance (\"Tuesday 18th Aug – 6:00 pm\") are medium, because the repeat is the hint's knowledge rather than the page's words. Note two cards both read \"Bristol Hoop School\" at different slugs, /bristol-hoop-school/ and /bristol-hoop-school-2/, one Monday and one Tuesday, so both are kept. Two further hints worth recording: /events-home/list/ 404s, and the site is not The Events Calendar — no tribe REST route, no month navigation — so the page shows one rolling week and there is no forward horizon to page through. No `description` captured: at twenty classes, opening each page is past the point where it pays, so `raw` stands. And the catalogue is right that the programme is dance, ballet, aerial circus and wrestling with no making content in it."

@@ -1,0 +1,1296 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-08-17"
+category: "gardens"
+harvestedAt: "2026-08-17T08:20:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "3"
+model: "claude-opus-5"
+observations:
+  - sourceId: "gardens/university-botanic-garden"
+    fetch:
+      ok: true
+      url: "https://botanic-garden.bristol.ac.uk/events/"
+      status: 200
+    events:
+      - id: "gardens/university-botanic-garden#1735b37434"
+        sourceId: "gardens/university-botanic-garden"
+        title: "Plant Collections and Glasshouses"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        timesText: "Main Garden 10:00–16:30 daily; Glasshouses 10:30–16:00; refreshments 11:00–16:00 (spring and summer hours, to 31 October 2026)"
+        price:
+          free: false
+          text: "Monday to Friday: DAISY Day (Donate As It Suits You) rate for adults, staff and alumni. Saturday and Sunday: adults £9 (£9.90 with Gift Aid), alumni £5. Free to members, under-18s, students and essential carers."
+          currency: "GBP"
+        tags:
+          - "permanent-collection"
+          - "outdoor"
+          - "drop-in"
+          - "family"
+        raw: "**Opening hours — spring and summer, until 31 October 2026**
+
+
+          Main Garden: 10:00 am – 4:30 pm daily.
+
+          Glasshouses: 10:30 am – 4:00 pm.
+
+          Refreshments: 11:00 am – 4:00 pm.
+
+
+          **Admission** — Monday to Friday: adults, staff and alumni pay the DAISY Day
+
+          rate; members, under-18s, students and essential carers enter free. Saturday
+
+          and Sunday: adults £9 (£9.90 with Gift Aid), alumni £5, staff DAISY rate;
+
+          members, under-18s, students free.\n"
+        summary: "The university's living collection at The Holmes in Stoke Bishop, open every
+
+          day: themed outdoor beds and a glasshouse range. Weekdays are \"DAISY Days\",
+
+          where entry is by voluntary donation; weekends carry a fixed adult charge.\n"
+        confidence: "medium"
+      - id: "gardens/university-botanic-garden#9a67e0d8ab"
+        sourceId: "gardens/university-botanic-garden"
+        title: "Wednesday Wanders – Free Garden Tours"
+        occurrence:
+          kind: "recurring"
+          pattern: "Wednesdays at 2pm"
+          start: "2026-07-22"
+          end: "2026-10-28"
+          startTime: "14:00"
+        status: "scheduled"
+        timesText: "2:00 pm to 3:00 pm"
+        url: "https://botanic-garden.bristol.ac.uk/event/free-wednesday-tours-2026/"
+        image: "https://botanic-garden.bristol.ac.uk/files/2024/10/Guided-tour2-300x225.jpg"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "guided-tour"
+          - "free-entry"
+          - "outdoor"
+          - "drop-in"
+        raw: "**Wednesday Wanders – Free Garden Tours at 2pm**
+
+
+          Wednesday 22 July, 2:00 pm to Wednesday 28 October, 3:00 pm. Free.
+
+
+          \"Our magnificent experienced volunteer guides are putting on some free tours
+
+          for visitors to the Garden on Wednesdays!\"\n"
+        summary: "A free hour-long tour with one of the garden's volunteer guides every
+
+          Wednesday afternoon through to late October, meeting at the main gates. No
+
+          booking — first come, first served — and Wednesdays are donate-what-you-like
+
+          entry.\n"
+        description: "Our magnificent experienced volunteer guides are putting on some free tours
+
+          for visitors to the Garden on Wednesdays! Learn a bit more about what's going
+
+          on in the Garden month-by-month.
+
+
+          Tours will take place the following Wednesdays at 2pm, and will meet near the
+
+          main Garden gates. They are on a first-come first-served basis – there is no
+
+          facility to pre-book, and we cannot guarantee space on the tour.
+
+
+          These tours are free to visitors, and Wednesdays are DAISY Days, where
+
+          entrance is by voluntary donation.
+
+
+          Wednesday 15 July was cancelled. Special focus tours of the Chinese Medicinal
+
+          Herb Garden take place on 22 July and 29 July.
+
+
+          These tours are not designed for large groups; parties of 10 or more should
+
+          consult the group visits page.\n"
+        confidence: "high"
+      - id: "gardens/university-botanic-garden#5825cad74e"
+        sourceId: "gardens/university-botanic-garden"
+        title: "Botanic Garden Lates"
+        occurrence:
+          kind: "run"
+          start: "2026-07-30"
+          end: "2026-08-28"
+        status: "scheduled"
+        timesText: "Late openings 10:00 am – 8:00 pm on Thursday 20, Friday 21, Thursday 27 and Friday 28 August; last entry 7pm, last refreshments orders 7:30pm, glasshouses close 7:30pm"
+        url: "https://botanic-garden.bristol.ac.uk/event/botanic-garden-lates/"
+        image: "https://botanic-garden.bristol.ac.uk/files/2026/04/IMG_8483a-300x200.jpg"
+        price:
+          free: false
+          text: "Standard adult entry: the weekday DAISY Day (Donate As It Suits You) offer stands for the late openings. Free to Friends, students, under-18s and essential carers."
+          currency: "GBP"
+        tags:
+          - "outdoor"
+          - "seasonal"
+          - "drop-in"
+          - "late-opening"
+        raw: "**Botanic Garden Lates – Garden open 'til 8pm for select dates in August
+
+          (20th, 21st, 27th, 28th)**
+
+
+          Thursday 30 July, 10:00 am to Friday 28 August, 8:00 pm.
+
+
+          \"Chance to pop in after work and unwind among the bees and butterflies as the
+
+          evening sets in.\"\n"
+        summary: "The garden stays open until 8pm on four late-summer evenings — 20, 21, 27 and
+
+          28 August — with the glasshouses open and drinks and sandwiches from Chandos
+
+          Deli on the terrace. Entry is donate-what-you-like.\n"
+        description: "Introducing Botanic Garden Lates – a chance to pop in after work and unwind
+
+          among the bees and butterflies as the evening sets in. This summer, our DAISY
+
+          Days continue into the evening on selected dates. Take a leisurely stroll
+
+          around the Garden and glasshouses during golden hour, or relax on the terrace
+
+          with refreshments from Chandos Deli – cold drinks, wine, cider, snacks and
+
+          sandwiches.
+
+
+          Late opening dates: Thursday 20th August, Friday 21st August, Thursday 27th
+
+          August, Friday 28th August.
+
+
+          On late dates the Garden opens at 10am and closes at 8pm. Last entry 7pm, last
+
+          refreshments orders 7:30pm, glasshouses close 7:30pm.
+
+
+          Standard adult entry: our weekday DAISY Day (Donate As It Suits You) offer
+
+          stands for our late openings! Entry remains free to Friends, students,
+
+          under-18s and essential carers.\n"
+        confidence: "high"
+      - id: "gardens/university-botanic-garden#7699b9baed"
+        sourceId: "gardens/university-botanic-garden"
+        title: "Sketching Bristol's Long-lived Trees"
+        subcategory: "externally run"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "18:00"
+          endTime: "20:00"
+        status: "scheduled"
+        timesText: "6:00 pm to 8:00 pm, arrival from 5:45 pm"
+        url: "https://botanic-garden.bristol.ac.uk/event/sketching-bristols-long-lived-trees/"
+        image: "https://botanic-garden.bristol.ac.uk/files/2026/07/Sketching-long-lived-trees-proj.-image-240x300.jpg"
+        tags:
+          - "workshop"
+          - "hands-on"
+          - "outdoor"
+          - "beginners"
+          - "booking-required"
+        raw: "**[externally run] Sketching Bristol's Long-lived Trees**
+
+
+          Thursday 20 August, 6:00 pm to 8:00 pm.
+
+
+          \"Come down to the University of Bristol Botanic Garden for an evening of
+
+          sketching and creatively exploring trees.\"\n"
+        summary: "A relaxed, beginner-friendly evening of drawing among the garden's oldest
+
+          trees, led by artist Alison Jones, with materials provided. Tickets through
+
+          Headfirst.\n"
+        description: "Rest under a shady tree and take up your pencils! On Thursday 20th August,
+
+          come down to the University of Bristol Botanic Garden for an evening of
+
+          sketching and creatively exploring some of the city's long-lived trees.
+
+
+          We'll wander beneath the branches, drawing and imagining the histories and
+
+          memories of some very old trees – from a tightly coiled twisted hazel, to a
+
+          giant 400 year old oak.
+
+
+          This session is relaxed and beginner-friendly! Alison will guide and
+
+          facilitate, offering prompts and moments to rest, refresh and have a chat.
+
+          Drawing materials provided, although you are welcome to bring your own if
+
+          you'd prefer.
+
+
+          Arrival 5:45pm for a 6pm start, with 2 comfort breaks. Run by Alison Jones,
+
+          independent community engagement practitioner and co-producer of Friendly
+
+          Neighbourhood Films. Tickets via Headfirst Bristol; enquiries to
+
+          hello.neat.picture@gmail.com.\n"
+        confidence: "high"
+      - id: "gardens/university-botanic-garden#d6b76f7f9b"
+        sourceId: "gardens/university-botanic-garden"
+        title: "Bee and Pollination Festival 2026"
+        occurrence:
+          kind: "run"
+          start: "2026-09-05"
+          end: "2026-09-06"
+        status: "scheduled"
+        timesText: "10am – 5pm both days"
+        url: "https://botanic-garden.bristol.ac.uk/event/bee-pol-26/"
+        image: "https://botanic-garden.bristol.ac.uk/files/2020/12/IMG_3949-2-284x300.jpg"
+        price:
+          free: false
+          text: "Advance tickets available through the university online shop"
+        tags:
+          - "family"
+          - "outdoor"
+          - "plant-sale"
+          - "talk"
+          - "seasonal"
+        raw: "**Bee and Pollination Festival 2026 – A Botanic Garden Fundraiser: 10am – 5pm**
+
+
+          Saturday 5 September, 10:00 am to Sunday 6 September, 5:00 pm. Advance tickets
+
+          available.
+
+
+          \"See live hive demonstrations, talk to experts about encouraging wild bees to
+
+          your garden, buy plants, and hear lectures.\"\n"
+        summary: "The garden's biggest weekend of the year, now in its 15th edition: live hive
+
+          demonstrations, expert advice on growing for wild bees, plant stalls and a
+
+          programme of lectures, raising funds for the garden.\n"
+        description: "The Bee and Pollination Festival returns for its 15th anniversary. See live
+
+          hive demonstrations, talk to experts about encouraging wild bees to your
+
+          garden, but plants, and hear lectures from the experts.
+
+
+          Advance tickets available through the university online shop.\n"
+        confidence: "high"
+      - id: "gardens/university-botanic-garden#1e7180fee8"
+        sourceId: "gardens/university-botanic-garden"
+        title: "Apple day: help make a proper Bristol cider!"
+        occurrence:
+          kind: "single"
+          date: "2026-10-04"
+          startTime: "11:00"
+          endTime: "15:00"
+        status: "scheduled"
+        url: "https://botanic-garden.bristol.ac.uk/event/apple-day-making-a-bristolian-cider/"
+        image: "https://botanic-garden.bristol.ac.uk/files/2023/07/22698991564_7da4b387c6_o-224x300.jpg"
+        price:
+          free: true
+          text: "FREE ENTRY if donating apples on the day"
+        tags:
+          - "family"
+          - "hands-on"
+          - "outdoor"
+          - "free-entry"
+          - "food-drink"
+        raw: "**Apple day: help make a proper Bristol cider!**
+
+
+          Sunday 4 October, 11:00 am to 3:00 pm. Free cider included.
+
+
+          \"Help make a proper Bristol Cider with donated apples as part of a local cider
+
+          project.\"\n"
+        summary: "Bring your surplus garden apples to be pressed into a communal Bristol cider
+
+          with The Cider Box, and drink some of last year's while you are there. Entry
+
+          is free if you donate apples.\n"
+        description: "\"Help make a proper Bristol Cider!\" More apples than you can use? Donate them
+
+          to be part of our local cider project and enjoy a free cider!
+
+
+          Apple Day aims to reduce wastage of garden apples, bringing together the
+
+          community and The Cider Box taprooms for this one-day event here at the
+
+          University of Bristol Botanic Garden (FREE ENTRY if donating apples on the
+
+          day). More information to follow for an expanded Apple Day this year!\n"
+        confidence: "high"
+      - id: "gardens/university-botanic-garden#38c90b147a"
+        sourceId: "gardens/university-botanic-garden"
+        title: "Lecture: Charles Dowding – No Dig Growing Together"
+        subcategory: "Friends' Winter Lectures"
+        occurrence:
+          kind: "single"
+          date: "2026-11-19"
+        status: "scheduled"
+        venue:
+          name: "The Frank Lecture Theatre, Wills Physics Laboratory"
+          address:
+            street: "Tyndall Avenue"
+            city: "Bristol"
+            postcode: "BS8 1TL"
+        url: "https://botanic-garden.bristol.ac.uk/event/lecture-no-dig-growing-together/"
+        tags:
+          - "talk"
+          - "nature"
+        raw: "**Protected: Lecture: Charles Dowding – No Dig Growing Together**
+
+
+          Thursday 19 November. No description or time given on the index; the event's
+
+          own page is password protected.\n"
+        summary: "Charles Dowding, the no-dig grower and writer, gives the November instalment
+
+          of the garden's Friends' Winter Lectures. The event page is password
+
+          protected, so no further detail is published.\n"
+        confidence: "medium"
+      - id: "gardens/university-botanic-garden#453daeb398"
+        sourceId: "gardens/university-botanic-garden"
+        title: "Lecture: The Knepp Estate"
+        subcategory: "Friends' Winter Lectures"
+        occurrence:
+          kind: "single"
+          date: "2027-01-21"
+          startTime: "19:30"
+          endTime: "21:00"
+        status: "scheduled"
+        venue:
+          name: "The Frank Lecture Theatre, Wills Physics Laboratory"
+          address:
+            street: "Tyndall Avenue"
+            city: "Bristol"
+            postcode: "BS8 1TL"
+        url: "https://botanic-garden.bristol.ac.uk/event/lecture-the-knepp-estate/"
+        image: "https://botanic-garden.blogs.bristol.ac.uk/files/2022/05/cropped-IMG_7558-Copy-2.jpg"
+        price:
+          free: true
+          text: "Free to Friends on production of their membership card and free to students on production of their student card; other guests are asked for a donation (suggested £5)"
+        tags:
+          - "talk"
+          - "nature"
+          - "wildlife"
+          - "free-entry"
+        raw: "**Lecture: The Knepp Estate**
+
+
+          Thursday 21 January 2027, 7:30 pm to 9:00 pm. Free.
+
+
+          \"Friends' Winter Lectures will take place on the third Thursday of the month
+
+          at the Frank Theatre, Wills Physics Laboratory.\"\n"
+        summary: "Charlie Harpur, head gardener at the Knepp Estate, on rewilding Knepp's walled
+
+          garden and building its market garden — the January instalment of the Friends'
+
+          Winter Lectures, in the city centre rather than at the garden.\n"
+        description: "Friends' Winter Lectures will take place on the third Thursday of the month at
+
+          the Frank Theatre, Wills Physics Laboratory, Tyndall Avenue, Bristol BS8 1TL
+
+          at 7:30pm. Lectures are free to Friends on production of their membership card,
+
+          and free to students on production of their student card. Guests who are not
+
+          members or students will be asked for a donation (suggested £5).
+
+
+          Speaker: Charlie Harpur, Head Gardener, Knepp Estate.
+
+
+          Charlie joined the Knepp team as Head Gardener in early 2022 to oversee the
+
+          rewilding of Knepp's Walled Garden, as well as the development of the Market
+
+          Garden and the landscape at the Wilding Kitchen. Having trained as an
+
+          architect, he worked for landscape architect Tom Stuart-Smith for several
+
+          years, then gained practical experience in horticulture and ecology at Chelsea
+
+          Physic Garden and Kew, where he completed the Kew Diploma in Horticulture.\n"
+        confidence: "high"
+      - id: "gardens/university-botanic-garden#eca9e7738d"
+        sourceId: "gardens/university-botanic-garden"
+        title: "Lecture: To be announced…"
+        subcategory: "Friends' Winter Lectures"
+        occurrence:
+          kind: "single"
+          date: "2027-02-18"
+          startTime: "19:30"
+          endTime: "21:00"
+        status: "scheduled"
+        venue:
+          name: "The Frank Lecture Theatre, Wills Physics Laboratory"
+          address:
+            street: "Tyndall Avenue"
+            city: "Bristol"
+            postcode: "BS8 1TL"
+        url: "https://botanic-garden.bristol.ac.uk/event/lecture-to-be-announced/"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "talk"
+          - "seasonal"
+          - "free-entry"
+        raw: "**Lecture: To be announced…**
+
+
+          Thursday 18 February 2027, 7:30 pm to 9:00 pm. Free.
+
+
+          \"Details to follow...\"\n"
+        summary: "The February slot in the Friends' Winter Lectures. The date and time are
+
+          fixed, the speaker and subject are not yet announced.\n"
+        confidence: "medium"
+      - id: "gardens/university-botanic-garden#abfc4f0f5e"
+        sourceId: "gardens/university-botanic-garden"
+        title: "Lecture: To be announced…"
+        subcategory: "Friends' Winter Lectures"
+        occurrence:
+          kind: "single"
+          date: "2027-03-18"
+          startTime: "19:30"
+          endTime: "21:00"
+        status: "scheduled"
+        venue:
+          name: "The Frank Lecture Theatre, Wills Physics Laboratory"
+          address:
+            street: "Tyndall Avenue"
+            city: "Bristol"
+            postcode: "BS8 1TL"
+        url: "https://botanic-garden.bristol.ac.uk/event/lecture-to-be-announced-2/"
+        tags:
+          - "talk"
+          - "seasonal"
+        raw: "**Lecture: To be announced…**
+
+
+          Thursday 18 March 2027, 7:30 pm to 9:00 pm.
+
+
+          \"Details to follow...\"\n"
+        summary: "The March slot in the Friends' Winter Lectures, and the last of the season.
+
+          The date and time are fixed, the speaker and subject are not yet announced.\n"
+        confidence: "medium"
+    notes: "The corrected catalogue URL is right and needed no navigation: /events/ returned 200 first time and carried the whole forward horizon in one page, nine dated items from July 2026 to March 2027, so no month pages were read. This is four more than yesterday's run saw — Apple Day and the four Friends' Winter Lectures — because yesterday stopped at September; nothing here was found by walking further, the index simply lists it all.
+
+
+      Seven event pages were opened for `description`: Wednesday Wanders, Botanic Garden Lates, Sketching Bristol's Long-lived Trees, Bee and Pollination Festival, Apple Day, the Knepp Estate lecture and the Charles Dowding lecture. The two \"to be announced\" lecture placeholders were not opened, since the index already showed their only content is \"Details to follow...\", and they carry no `description` as a result. The Dowding page is password protected — \"This content is password protected. To view it, please enter the password below.\" — so it has no `description` either, and no start time; the \"Protected:\" prefix WordPress adds is dropped from the title. Note that three /event/ URLs on the botanic-garden.blogs.bristol.ac.uk host 302 to the same path on botanic-garden.bristol.ac.uk, which is what is recorded.
+
+
+      Two hints are now out of date and worth curating. First, \"No admission price is printed on either page\" — the /events/ index does print admission in full: weekday DAISY Days (Donate As It Suits You) and weekend adults £9, £9.90 with Gift Aid, alumni £5, free to members, under-18s, students and essential carers. That is recorded on the ongoing collections row. Second, the hint that lecture placeholders should keep their date is followed here and is the right call, but note the placeholders are only missing a subject: the date, time and venue are all stated, so they are `single` rows rather than `undated` ones. Recording them as `undated` would also collide on id, since two identically-titled placeholders would produce the same content hash.
+
+
+      The four Friends' Winter Lectures are not at the garden. The Knepp page states the series \"will take place on the third Thursday of the month at the Frank Theatre, Wills Physics Laboratory, Tyndall Avenue, Bristol BS8 1TL\", so `venue` is set on all four; for Dowding and the two placeholders that is a join from the series statement rather than from their own pages, which is why those three rows are `confidence: medium`. Each date checks out as the third Thursday of its month. The Dowding lecture printed no year — 19 November is a Thursday in 2026 and the third Thursday of that November, so the inference is confirmed. The permanent collections row is derived from the opening-hours and admission block on the index rather than from a listing, so it is `confidence: medium` and carries no url; yesterday's row pointed at /plant-collections-and-glasshouses/, which was not opened today and so is not repeated."
+  - sourceId: "gardens/grow-wilder"
+    fetch:
+      ok: true
+      url: "https://www.avonwildlifetrust.org.uk/events?tags=661"
+      status: 200
+    events:
+      - id: "gardens/grow-wilder#195e2108e0"
+        sourceId: "gardens/grow-wilder"
+        title: "Youth Event: A Beginner's Guide to Moth Trapping"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "18:00"
+        status: "scheduled"
+        timesText: "Part one, online: Wednesday 19 August 6:00pm–7:00pm. Part two, in person at Grow Wilder: Thursday 20 August 9:00am–10:30am"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-08-19-youth-event-beginners-guide-moth-trapping"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/node_hero_default/public/2025-12/Eventbrite%20Event%20header%20images%20%282160%20x%20600%20px%29%20%286%29.png"
+        ageRestriction: "14–25 year olds; anyone under 18 must have parental consent to attend. Parents and siblings also welcome."
+        tags:
+          - "wildlife"
+          - "young-people"
+          - "beginners"
+          - "hands-on"
+          - "booking-required"
+        raw: "**Youth Event: A Beginner's Guide to Moth Trapping**
+
+
+          Wednesday 19 August 2026 – Thursday 20 August 2026, 6:00pm – 10:30am. Grow
+
+          Wilder, Bristol.
+
+
+          \"Join us online to learn about moth trapping and see how to set a trap - and
+
+          then come along to see what we catch overnight!\"\n"
+        summary: "A two-part crash course in moths for 14- to 25-year-olds: an hour online on
+
+          Wednesday evening covering what moths are and how a trap works, then an early
+
+          start at Grow Wilder on Thursday to open the trap and identify the catch.\n"
+        description: "Have you ever thought that moths are just drab butterflies? That the only thing
+
+          they do is eat holes in your clothes? This 2-part crash course in moths will
+
+          prove you wrong!
+
+
+          Part one, online, Wednesday 19 August, 6:00pm–7:00pm: the variety of moths, how
+
+          they differ from butterflies, why they matter ecologically, and how to set a
+
+          trap.
+
+
+          Part two, in person at Grow Wilder, Thursday 20 August, 9:00am–10:30am:
+
+          examining what the trap caught overnight and identifying the species found.
+
+
+          This event is part of our Youth Programme so we ask anyone attending to be
+
+          between 14-25 years old. Anyone under 18 must have parental consent to attend.
+
+          Parents and siblings are also welcome.\n"
+        confidence: "high"
+      - id: "gardens/grow-wilder#b3d4b8cd0f"
+        sourceId: "gardens/grow-wilder"
+        title: "Youth Event: Wild Wednesdays - BioBlitz"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "10:00"
+        status: "scheduled"
+        timesText: "10:00am - 12:30pm"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-08-19-youth-event-wild-wednesdays-bioblitz"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/node_hero_default/public/2026-04/Eventbrite%20Event%20header%20images%20%2817%29.png"
+        ageRestriction: "14–25 year olds; anyone under 18 must have parental consent to attend. Parents and siblings also welcome."
+        tags:
+          - "wildlife"
+          - "young-people"
+          - "hands-on"
+          - "outdoor"
+          - "weekly"
+        raw: "**Youth Event: Wild Wednesdays - BioBlitz**
+
+
+          Wednesday 19 August 2026, 10:00am - 12:30pm. Grow Wilder, Bristol.
+
+
+          \"Come along to our new weekly summer sessions at Grow Wilder to experience some
+
+          of the wonderful wildlife found at our urban nature reserve!\"\n"
+        summary: "One of Grow Wilder's weekly summer sessions for 14- to 25-year-olds: a bioblitz
+
+          of the Trust's new Green Shoots site, recording as many insects, plants, birds
+
+          and reptiles as the group can find in a morning.\n"
+        description: "Come along to our new weekly summer sessions at Grow Wilder to experience some
+
+          of the wonderful wildlife found at our urban nature reserve!
+
+
+          In this session we'll be carrying out a bioblitz at Green Shoots, spreading out
+
+          to discover and record as much wildlife as we can! We'll be looking at insects,
+
+          plants, birds, reptiles and checking for any signs of mammals too — and we'll
+
+          discuss why bioblitzes are so useful.
+
+
+          This will be an active session in an outdoor space, and will take place no
+
+          matter the weather — so dress for the weather!
+
+
+          This event is suitable for young people from any level of knowledge or
+
+          experience! Come along and say hello, meet new people and learn a new skill.
+
+
+          Grow Wilder, 181 Frenchay Park Road, Bristol, BS16 1EL — reachable on Metrobus
+
+          M1, M3 or M4 from the city centre. Parents and siblings are also welcome.\n"
+        confidence: "high"
+      - id: "gardens/grow-wilder#002d42ce2a"
+        sourceId: "gardens/grow-wilder"
+        title: "Introduction to Conservation (3-day course) for 16-30 yr olds"
+        occurrence:
+          kind: "run"
+          start: "2026-08-26"
+          end: "2026-08-28"
+        status: "scheduled"
+        timesText: "10:00am - 2:30pm"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-08-26-introduction-conservation-3-day-course-16-30-yr-olds"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/node_hero_default/public/2025-12/Eventbrite%20Event%20header%20images%20%282160%20x%20600%20px%29%20%282%29.png"
+        ageRestriction: "16–30 year olds; anyone under 18 must have parental consent to attend."
+        tags:
+          - "courses"
+          - "young-people"
+          - "hands-on"
+          - "multi-day"
+        raw: "**Introduction to Conservation (3-day course) for 16-30 yr olds**
+
+
+          Wednesday 26 August 2026 – Friday 28 August 2026, 10:00am - 2:30pm. Grow
+
+          Wilder, Bristol.
+
+
+          \"Do you want to get into conservation, learn more about nature and wildlife or
+
+          meet like-minded people?\"\n"
+        summary: "Three days behind the scenes at Avon Wildlife Trust for 16- to 30-year-olds:
+
+          habitat management and practical tasks, then ecology and wildlife monitoring,
+
+          then communication, advocacy and careers advice.\n"
+        description: "A 3-day course offering young people behind-the-scenes experience at Avon
+
+          Wildlife Trust, covering wildlife conservation and land management. It provides
+
+          foundational knowledge in conservation work, practical fieldwork skills, and
+
+          insight into the various roles at the charity.
+
+
+          Day 1 focuses on land and habitat management, including practical conservation
+
+          tasks, discussions on sustainable practices, and horticultural work.
+
+
+          Day 2 covers ecology and wildlife monitoring through techniques like moth
+
+          trapping, mammal tracking, pond dipping, bird transects and owl pellet
+
+          dissection.
+
+
+          Day 3 addresses communication, education and advocacy within conservation, plus
+
+          wellbeing activities and career guidance.
+
+
+          For 16-30-year-olds. Anyone under 18 must have parental consent to attend.
+
+          Grow Wilder, 181 Frenchay Park Road, Bristol, BS16 1EL (what3words
+
+          frog.tested.tidy). Booking through the Eventbrite widget on the event page.\n"
+        confidence: "high"
+      - id: "gardens/grow-wilder#3e9e0715ad"
+        sourceId: "gardens/grow-wilder"
+        title: "Youth Event: Wild Wednesdays - Habitats"
+        occurrence:
+          kind: "single"
+          date: "2026-08-26"
+          startTime: "10:00"
+        status: "scheduled"
+        timesText: "10:00am - 12:30pm"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-08-26-youth-event-wild-wednesdays-habitats"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/node_hero_default/public/2026-04/Eventbrite%20Event%20header%20images%20%2816%29.png"
+        ageRestriction: "14–25 year olds; anyone under 18 must have parental consent to attend."
+        tags:
+          - "wildlife"
+          - "young-people"
+          - "hands-on"
+          - "outdoor"
+          - "weekly"
+        raw: "**Youth Event: Wild Wednesdays - Habitats**
+
+
+          Wednesday 26 August 2026, 10:00am - 12:30pm. Grow Wilder, Bristol.
+
+
+          \"Come along to our new weekly summer sessions at Grow Wilder to experience some
+
+          of the wonderful wildlife found at our urban nature reserve!\"\n"
+        summary: "The following week's Wild Wednesday for 14- to 25-year-olds. Despite the
+
+          \"Habitats\" title, the listing describes the same bioblitz of the Green Shoots
+
+          site as the previous session.\n"
+        description: "Come along to our new weekly summer sessions at Grow Wilder to experience some
+
+          of the wonderful wildlife found at our urban nature reserve! In this session,
+
+          we'll be carrying out a bioblitz of Avon Wildlife Trust's new nature site Green
+
+          Shoots - spreading out to discover and record as much wildlife as we can! We'll
+
+          be looking at insects, plants, birds, reptiles and checking for any signs of
+
+          mammals too - and we'll discuss why bioblitzes are so useful! This will be an
+
+          active session in an outdoor space, and will take place no matter the weather -
+
+          so dress for the weather!
+
+
+          Participants must be aged 14-25 years old. Anyone under 18 requires parental
+
+          consent to attend. Grow Wilder, 181 Frenchay Park Road, Bristol, BS16 1EL.\n"
+        confidence: "high"
+      - id: "gardens/grow-wilder#466fa52202"
+        sourceId: "gardens/grow-wilder"
+        title: "Grow Leader Course - September 2026"
+        occurrence:
+          kind: "single"
+          date: "2026-09-04"
+        status: "scheduled"
+        timesText: "Taught sessions are 9am-4pm, practical workdays are 10am-3pm"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-09-04-grow-leader-course-september-2026"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/node_hero_default/public/2021-10/Eventbrite%20-%20GL%20Course%202.png"
+        price:
+          free: false
+          text: "Solidarity £1,250 / Standard £1,000 / Bursary £750. Non-refundable 25% deposit secures a place, balance due before the course begins; payment by instalments via direct debit available."
+          min: 750
+          max: 1250
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "hands-on"
+          - "community"
+          - "booking-required"
+          - "multi-day"
+        raw: "**Grow Leader Course - September 2026**
+
+
+          Friday 4 September 2026. Taught sessions are 9am-4pm, practical workdays are
+
+          10am-3pm. Grow Wilder, Bristol.
+
+
+          \"A journey in agroecological skills, personal growth & community leadership
+
+          with mixed classroom and practical sessions.\"\n"
+        summary: "Grow Wilder's flagship course in agroecological growing and community
+
+          leadership, mixing classroom teaching with practical workdays. Fifteen places,
+
+          with solidarity, standard and bursary rates from £750 to £1,250.\n"
+        description: "A journey in agroecological skills, personal growth & community leadership with
+
+          mixed classroom and practical sessions.
+
+
+          Participants learn ecological and horticultural skills including soil health,
+
+          composting, plant care and seed saving, while building leadership confidence
+
+          and designing community projects.
+
+
+          Taught sessions are 9am-4pm, practical workdays are 10am-3pm.
+
+
+          Pricing: Solidarity £1,250, Standard £1,000, Bursary £750. A non-refundable 25%
+
+          deposit is required to secure a place, with the balance due before the course
+
+          begins; pay-by-instalments via direct debit is available. Low-income ticket
+
+          applicants must provide proof of status before the course starts.
+
+
+          Maximum 15 attendees. Grow Wilder, 181 Frenchay Park Road, Bristol, BS16 1EL.
+
+          Contact growwilder@avonwildlifetrust.org.uk.\n"
+        confidence: "medium"
+      - id: "gardens/grow-wilder#583186fec6"
+        sourceId: "gardens/grow-wilder"
+        title: "Youth Event: Evening Bat Walk in Stoke Park"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+          startTime: "18:00"
+        status: "scheduled"
+        timesText: "6:00pm - 8:00pm"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-09-12-youth-event-evening-bat-walk-stoke-park"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/node_hero_default/public/2026-04/Eventbrite%20Event%20header%20images%20%2815%29.png"
+        ageRestriction: "14–25 year olds; anyone under 18 must have parental consent to attend. Parents and siblings also welcome."
+        tags:
+          - "wildlife"
+          - "young-people"
+          - "outdoor"
+          - "animals"
+        raw: "**Youth Event: Evening Bat Walk in Stoke Park**
+
+
+          Saturday 12 September 2026, 6:00pm - 8:00pm. Grow Wilder, Bristol.
+
+
+          \"Join us for an evening walk through Grow Wilder and across to Stoke Park to
+
+          see some great bats in action!\"\n"
+        summary: "An evening walk for 14- to 25-year-olds, meeting at Grow Wilder and crossing
+
+          into Stoke Park with bat detectors to pick out which of Britain's eighteen
+
+          species are flying. Bring a torch — the way back is in the dark.\n"
+        description: "Did you know there are 18 different species of bat in the UK? Did you know they
+
+          are the only true flying mammals in the world? Join us for an evening walk
+
+          through Grow Wilder and across to Stoke Park to see these great creatures in
+
+          action.
+
+
+          The event involves discussion of bat habitats, yearly cycles and conservation
+
+          needs, along with use of bat detectors to identify the species observed during
+
+          the walk. No prior expertise is required.
+
+
+          Participants should prepare for outdoor conditions with sturdy shoes,
+
+          appropriate clothing and a torch, as the return journey will occur in darkness
+
+          over uneven terrain.
+
+
+          This event is part of our Youth Programme so we ask anyone attending to be
+
+          between 14-25 years old. Anyone under 18 must have parental consent to attend.
+
+          Parents and siblings are also welcome. Meet at Grow Wilder, 181 Frenchay Park
+
+          Road, Bristol, BS16 1EL.\n"
+        confidence: "high"
+      - id: "gardens/grow-wilder#dc649c95ce"
+        sourceId: "gardens/grow-wilder"
+        title: "Youth-Led Community Gathering"
+        occurrence:
+          kind: "single"
+          date: "2026-09-15"
+          startTime: "18:00"
+        status: "scheduled"
+        timesText: "6:00pm - 8:00pm"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-09-15-youth-led-community-gathering"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/node_hero_default/public/2026-07/IMG_7869.JPEG"
+        ageRestriction: "Open to all ages, led by under-30s"
+        tags:
+          - "community"
+          - "young-people"
+          - "nature"
+          - "talk"
+        raw: "**Youth-Led Community Gathering**
+
+
+          Tuesday 15 September 2026, 6:00pm - 8:00pm. Grow Wilder, Bristol.
+
+
+          \"A space for young people to shout about what they've been doing for nature in
+
+          their community, open to all ages but led by under 30s.\"\n"
+        summary: "An evening at Grow Wilder where young people present the work they have been
+
+          doing for nature around Bristol — talks, activities and project stalls. Open to
+
+          all ages, programmed by under-30s.\n"
+        description: "We would like to warmly invite you to join us for a Youth Community Gathering
+
+          at Grow Wilder to celebrate the amazing work of young people in and around
+
+          Bristol.
+
+
+          Community Gatherings bring people together to inspire local action for nature.
+
+          Past themes have included wildlife gardening, running a community group,
+
+          guerrilla food growing and building a wildlife pond. This gathering provides
+
+          space for young people to share what they've accomplished for nature in their
+
+          community, learn from peers, and exchange knowledge and passion.
+
+
+          The event welcomes all ages but is led by under-30s. Organisers are seeking
+
+          young people interested in giving talks, running nature-based activities, or
+
+          staffing information stalls about their projects, and there is an interest form
+
+          on the event page for anyone under 30 who would like to take part.
+
+
+          Grow Wilder, 181 Frenchay Park Road, Bristol, BS16 1EL.\n"
+        confidence: "high"
+      - id: "gardens/grow-wilder#033d5c4797"
+        sourceId: "gardens/grow-wilder"
+        title: "Youth Event: A Beginner's Guide to Moth Trapping"
+        occurrence:
+          kind: "single"
+          date: "2026-09-25"
+          startTime: "18:00"
+        status: "scheduled"
+        timesText: "Part one, online: Friday 25 September 6:00pm–7:00pm. Part two, in person at Grow Wilder: Saturday 26 September 9:00am–10:30am"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-09-25-youth-event-beginners-guide-moth-trapping"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/node_hero_default/public/2025-12/Eventbrite%20Event%20header%20images%20%282160%20x%20600%20px%29%20%286%29.png"
+        ageRestriction: "14–25 year olds; anyone under 18 must have parental consent to attend. Parents and siblings also welcome."
+        tags:
+          - "wildlife"
+          - "young-people"
+          - "beginners"
+          - "hands-on"
+          - "booking-required"
+        raw: "**Youth Event: A Beginner's Guide to Moth Trapping**
+
+
+          Friday 25 September 2026, 6:00pm – 10:30am. Grow Wilder, Bristol.
+
+
+          \"Join us online to learn about moth trapping and see how to set a trap - and
+
+          then come along to see what we catch overnight!\"\n"
+        summary: "The September repeat of the two-part moth course for 14- to 25-year-olds: an
+
+          hour online on the Friday evening, then back to Grow Wilder on Saturday morning
+
+          to see what the trap caught overnight.\n"
+        description: "Have you ever thought that moths are just drab butterflies? That the only thing
+
+          they do is eat holes in your clothes? This 2-part crash course in moths will
+
+          prove you wrong!
+
+
+          Part one, online, Friday 25 September 2026, 6:00pm–7:00pm: the variety of
+
+          moths, how they differ from butterflies, their ecological importance, and
+
+          practical trap-setting techniques.
+
+
+          Part two, in person, Saturday 26 September 2026, 9:00am–10:30am: observing the
+
+          captured specimens and practising identification.
+
+
+          This event is part of our Youth Programme so we ask anyone attending to be
+
+          between 14-25 years old. Anyone under 18 must have parental consent to attend.
+
+          Parents and siblings are also welcome. Grow Wilder, 181 Frenchay Park Road,
+
+          Bristol, BS16 1EL.\n"
+        confidence: "high"
+      - id: "gardens/grow-wilder#22f35f7cb5"
+        sourceId: "gardens/grow-wilder"
+        title: "Traditional Hedgelaying - Winter 2026/27"
+        occurrence:
+          kind: "undated"
+          note: "Listing titled \"Traditional Hedgelaying- Winter 2026/27 Dates Coming Soon\" and filed under the span Saturday 12 December 2026 – Sunday 31 January 2027; no workshop dates published yet."
+        status: "scheduled"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-12-12-traditional-hedgelaying-winter-202627-dates-coming-soon"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/node_hero_default/public/2022-11/midland.jpg"
+        tags:
+          - "workshop"
+          - "hands-on"
+          - "heritage"
+          - "crafts"
+          - "outdoor"
+        raw: "**Traditional Hedgelaying - Winter 2026/27 Dates Coming Soon**
+
+
+          Filed in the feed under Saturday 12 December 2026 – Sunday 31 January 2027. No
+
+          times or price given. Grow Wilder, Bristol.
+
+
+          \"Each winter, we offer 1-day workshops teaching traditional hedgelaying: A
+
+          heritage craft that creates wildlife habitats and is one of the best – and
+
+          oldest – examples of people working in harmony…\"\n"
+        summary: "Grow Wilder's winter one-day hedgelaying workshops, taught by professional
+
+          hedgelayers and open to all levels. The 2026/27 dates are not yet published —
+
+          the feed carries a placeholder window over December and January.\n"
+        description: "Each winter, we offer 1-day workshops teaching traditional hedgelaying: a craft
+
+          that preserves the past and protects the future. Courses are taught by
+
+          professional hedgelayers and accommodate all skill levels, from beginners to
+
+          experienced enthusiasts.
+
+
+          Hedgelaying involves partially severing the stem of the trees in the hedgerow,
+
+          allowing them to be laid at an angle of around 45 degrees. This fills gaps in
+
+          the hedge while encouraging new vertical shoot growth for denser coverage. The
+
+          laid hedge is secured with stakes and binding, varying by regional style.
+
+          Previously taught styles include North Somerset and Midland approaches, and
+
+          examples of the various techniques can be seen around the Grow Wilder site.
+
+
+          **Winter 2026/27 Dates To Be Announced.** \"Future hedgelaying course dates will
+
+          be displayed in this section, once confirmed.\"
+
+
+          Grow Wilder, 181 Frenchay Park Road, Bristol, BS16 1EL. Toilets, picnic area,
+
+          accessible toilet and baby changing available; assistance dogs only.\n"
+        confidence: "medium"
+    notes: "The re-pointed catalogue URL is correct and is the only page needed: /events?tags=661 returned 200 first time with nine events, and every row printed its location as \"Grow Wilder, Bristol\", so the tag is still Grow Wilder's as the hint warns to check. `venue` is omitted throughout for that reason. The bat walk crosses into Stoke Park but meets at Grow Wilder, so it is not an exception. These nine rows are the same nine as yesterday and none has changed date or status.
+
+
+      Nine event pages were opened for `description` — all of them — since the feed gave only one clause per event and the whole programme is nine items. That is what the individual pages added beyond the index: the full street address (181 Frenchay Park Road, BS16 1EL), age restrictions on every youth event, the Grow Leader Course pricing (£750–£1,250 on three tiers, 25% deposit, max 15 places), and two corrections of substance. First, both moth-trapping entries are two-part events, an online session on the evening printed in the feed followed by an in-person trap opening the next morning — the feed's \"6:00pm - 10:30am\" is those two sessions run together, not an overnight vigil, so each is recorded as one `single` on the first date with both parts in `timesText`. Second, the hedgelaying page says plainly \"Winter 2026/27 Dates To Be Announced\" and \"Future hedgelaying course dates will be displayed in this section, once confirmed\", which confirms the 12 December – 31 January span in the feed is a placeholder and not a run; it stays `undated`, with yesterday's note wording kept unchanged so the content hash stays stable.
+
+
+      No prices are printed on the listing page, as the hint says, and only the Grow Leader Course prints one on its own page; `price` is omitted on the other eight rather than assumed free. \"Wild Wednesdays - Habitats\" carries the same bioblitz description as \"Wild Wednesdays - BioBlitz\" the week before — the titles differ but the Trust's copy does not, which looks like a copy-paste on their side rather than something to reconcile here."
+  - sourceId: "gardens/bristol-botanical-society"
+    fetch:
+      ok: true
+      url: "https://bristolnats.org.uk/events/"
+      status: 200
+    events:
+      - id: "gardens/bristol-botanical-society#25df1215b9"
+        sourceId: "gardens/bristol-botanical-society"
+        title: "Lord's Wood, Pensford"
+        subcategory: "Invertebrate"
+        occurrence:
+          kind: "single"
+          date: "2026-09-04"
+          startTime: "19:45"
+        status: "scheduled"
+        venue:
+          name: "Lord's Wood, Pensford"
+        url: "https://bristolnats.org.uk/events/lords-wood-pensford/"
+        tags:
+          - "wildlife"
+          - "nature"
+          - "outdoor"
+        raw: "**Lord's Wood, Pensford** — 04.09.2026, 7:45 pm. Leader: Ray Barnett.
+
+
+          \"Light-trapping at Lords Woods, Pensford with Ray Barnett. Details to be
+
+          confirmed.\"\n"
+        summary: "An evening moth-trapping session in woodland south of the city with Ray
+
+          Barnett, the society's invertebrate recorder. The society says details are
+
+          still to be confirmed.\n"
+        description: "Light-trapping at Lords Woods, Pensford with Ray Barnett. Details to be
+
+          confirmed.
+
+
+          7:45pm start. Leader: Ray Barnett. Filed by the society under Invertebrate.\n"
+        confidence: "high"
+      - id: "gardens/bristol-botanical-society#1889c62091"
+        sourceId: "gardens/bristol-botanical-society"
+        title: "Littleton Warth"
+        subcategory: "Botany"
+        occurrence:
+          kind: "single"
+          date: "2026-09-20"
+          startTime: "14:30"
+        status: "scheduled"
+        venue:
+          name: "Littleton Warth"
+          address:
+            street: "Car park at the end of Whale Wharf Lane"
+            postcode: "BS35 1NP"
+        url: "https://bristolnats.org.uk/events/littleton-warth/"
+        tags:
+          - "wildlife"
+          - "nature"
+          - "outdoor"
+        raw: "**Littleton Warth** — 20.09.2026, 2:30 pm. Leader: David Hawkins. Meet at the
+
+          car park at the end of Whale Wharf Lane, ST588910,
+
+          ///clincher.alive.begun, nearest postcode BS35 1NP.
+
+
+          \"Littleton Warth offers a wide expanse of grazed saltmarsh, with fine views
+
+          across to the Forest of Dean and down to the Severn Bridge\"\n"
+        summary: "A led botany meeting on the grazed saltmarsh at Littleton Warth, looking for
+
+          the site's large population of nationally scarce Slender Hare's-ear along with
+
+          sea and strawberry clover.\n"
+        description: "Littleton Warth offers a wide expanse of grazed saltmarsh, with fine views
+
+          across to the Forest of Dean and down to the Severn Bridge, and a remote,
+
+          untamed atmosphere.
+
+
+          Expect the common saltmarsh plants in September, with particular focus on the
+
+          site's notably large population of Slender Hare's-ear (*Bupleurum
+
+          tenuissimum*), an anomalous and nationally scarce member of the carrot family.
+
+          Sea Clover (*Trifolium squamosum*), Strawberry Clover (*Trifolium fragiferum*)
+
+          and potentially Bulbous Foxtail (*Alopecurus bulbosus*) are also mentioned, and
+
+          the seawall supports grassland plants.
+
+
+          2:30pm start. Leader: David Hawkins. Meet at the car park at the end of Whale
+
+          Wharf Lane, ST588910, ///clincher.alive.begun, nearest postcode BS35 1NP.
+
+          Filed by the society under Botany.\n"
+        confidence: "high"
+      - id: "gardens/bristol-botanical-society#548f19cdc8"
+        sourceId: "gardens/bristol-botanical-society"
+        title: "Emerson's Green"
+        subcategory: "Botany"
+        occurrence:
+          kind: "single"
+          date: "2026-10-11"
+          startTime: "14:00"
+        status: "scheduled"
+        venue:
+          name: "Emerson's Green Common"
+          address:
+            street: "Emerson's Green Lane"
+            postcode: "BS16 7HB"
+        url: "https://bristolnats.org.uk/events/emersons-green/"
+        tags:
+          - "wildlife"
+          - "nature"
+          - "outdoor"
+        raw: "**Emerson's Green** — 11.10.2026, 2:00 pm. Leader: David Hawkins. Meet at
+
+          Emerson's Green Common just off Emerson's Green Lane at ST668768,
+
+          ///events.ears.brave, postcode BS16 7HB.
+
+
+          \"An exciting chance to make some significant records in an extremely
+
+          under-recorded part of town.\"\n"
+        summary: "A botany recording meeting in a corner of the city that has almost no records
+
+          at all — the target grid square holds a single entry, made by the author of
+
+          *The Bristol Flora* in 1898.\n"
+        description: "An exciting chance to make some significant records in an extremely
+
+          under-recorded part of town. The monad (1km OS map grid square) that we will
+
+          target currently has just a single record to its name in the Botanical Society
+
+          of Britain and Ireland's database: Fine-leaved Sandwort _Sabulina tenuifolia_.
+
+          And what's more, that record was made in 1898 by none other than the great
+
+          J. W. White, author of the seminal The Bristol Flora. Who knows what we might
+
+          find?! But two things are for sure:
+
+
+          1) There will be some items of interest
+
+
+          2) Fine-leaved Sandwort is highly unlikely to persist.
+
+
+          2:00pm start. Leader: David Hawkins. Meet at Emerson's Green Common just off
+
+          Emerson's Green Lane at ST668768, ///events.ears.brave, postcode BS16 7HB.
+
+          Filed by the society under Botany.\n"
+        confidence: "high"
+    notes: "The re-pointed URL is right: /events/ returned 200 first time and is the programme. Three dated field meetings were showing, 4 September to 11 October 2026 — the same three as yesterday, minus Pomphrey Hill, which has dropped off the index since yesterday's run and should carry rather than disappear. Nothing is listed beyond October 2026 and there is no pagination.
+
+
+      All three event pages were opened for `description`, the whole programme, and they materially correct two hints. First, the hint says the listings give \"no start times\" — the index does not, but each event page prints one (7:45pm, 2:30pm, 2:00pm), along with the leader, a grid reference, a what3words and a postcode, so these rows now carry start times and are `confidence: high` rather than yesterday's medium. Second, the hint says the feed does not say which section a meeting belongs to — the index does not, but the event pages each state a category, so `subcategory` is set from the page rather than guessed: Lord's Wood is \"Invertebrate\", Littleton Warth and Emerson's Green are \"Botany\". That is direct evidence for the concern in this entry's catalogue note, that the feed is society-wide and not the botany section: two of three are botany, one is not. `venue.name` is set per event since these are field meetings at sites around the city, and no prices or images appear anywhere."
+  - sourceId: "gardens/blaise-plant-nursery"
+    fetch:
+      ok: true
+      url: "https://www.bristol.gov.uk/blaise-plant-nursery"
+      status: 200
+    events:
+      - id: "gardens/blaise-plant-nursery#ad1e68cf2c"
+        sourceId: "gardens/blaise-plant-nursery"
+        title: "Blaise Plant Nursery open to visitors"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        timesText: "March to September: Monday to Saturday 9:00–17:00, Sundays and bank holidays 10:00–16:00. October to 22 December: Monday to Saturday 9:00–16:00, Sundays and bank holidays 10:00–16:00. Closed Easter Sunday."
+        url: "https://www.bristol.gov.uk/blaise-plant-nursery"
+        tags:
+          - "plant-sale"
+          - "outdoor"
+          - "drop-in"
+          - "family"
+        raw: "**Blaise Plant Nursery** — Kings Weston Road, Lawrence Weston, Bristol, BS11
+
+          0XF. 0117 922 2290.
+
+
+          **Opening hours for 2026**
+
+
+          March to September — \"Monday to Saturday: 9am to 5pm\", \"Sundays and Bank
+
+          Holidays: 10am to 4pm\".
+
+
+          October to December 22 — \"Monday to Saturday: 9am to 4pm\", \"Sundays and Bank
+
+          Holidays: 10am to 4pm\".
+
+
+          \"Closed Easter Sunday.\"\n"
+        summary: "The council's own working nursery near Blaise Castle Estate, open to the public
+
+          six and a half days a week for bedding, shrubs, vegetable plants, seeds and
+
+          compost. Shorter hours from October, and closed from just before Christmas
+
+          until March.\n"
+        confidence: "medium"
+    notes: "The re-pointed catalogue URL is correct and one fetch was enough. As the hint says, no dated plant sales or open days are advertised anywhere on the subsite, so the only thing recorded is the nursery being open, as a single `ongoing` event carrying both seasonal opening patterns. This is a real result rather than a failure.
+
+
+      One small divergence from the hint, worth a curator's eye rather than a correction here: the page as read today prints the seasons as \"March to September\" and \"October to December 22\" without days of the month, where the hint has 1 March to 30 September and 1 October to 22 December. The hours themselves match the hint exactly. The `timesText` above follows the page. The address printed is Kings Weston Road, Lawrence Weston, Bristol BS11 0XF, which still disagrees with the catalogued area of Henbury, as the catalogue note already records. No promotional image was confirmed on the page today, so `image` is omitted rather than carried over from yesterday's row."
+  - sourceId: "gardens/bristol-allotments"
+    fetch:
+      ok: true
+      url: "https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/allotments-and-gardens"
+      status: 200
+    events: []
+    notes: "Fetched the re-pointed catalogue URL once, 200, and it lists nothing — which is the correct result for this source, not a failure. The page is \"Allotments and gardens\" and is entirely administrative: apply for an allotment, pay your allotment rent, guide to using your allotment, Bristol Allotments Forum, contact the allotment team, Blaise plant nursery, a European Foul Brood bee disease advisory, and the parks and green spaces strategy. There is no events subsection to follow and no date anywhere on it, so nothing was navigated to and no second fetch was spent. As the catalogue note says, whether this stays a source at all is a stage 1 decision; there is no URL left to fix."

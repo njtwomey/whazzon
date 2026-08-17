@@ -1,0 +1,1788 @@
+schema: "whazzon.harvest/1"
+locationId: "ie-cork"
+date: "2026-08-17"
+category: "markets"
+harvestedAt: "2026-08-17T10:45:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "4"
+model: "claude-opus-5[1m]"
+observations:
+  - sourceId: "markets/english-market"
+    fetch:
+      ok: true
+      url: "https://www.corkcity.ie/en/english-market/opening-hours/"
+      status: 200
+    events:
+      - id: "markets/english-market#92948a37a5"
+        sourceId: "markets/english-market"
+        title: "The English Market"
+        occurrence:
+          kind: "recurring"
+          pattern: "Monday - Saturday : 8.30 a.m. - 6:00 p.m. The Market is closed every Sunday and Bank Holidays"
+          startTime: "08:30"
+        status: "scheduled"
+        url: "https://www.corkcity.ie/en/english-market/"
+        image: "https://www.corkcity.ie/media/ds3flpfd/english-market-hero-web.jpg?width=1600&height=550&v=1dc848f3c4fe150"
+        price:
+          free: true
+        tags:
+          - "food-drink"
+          - "heritage"
+          - "free-entry"
+          - "community"
+        raw: "**Opening Hours — Weekly Hours**
+
+
+          Monday - Saturday : 8.30 a.m. - 6:00 p.m.
+
+
+          The Market is closed every Sunday and Bank Holidays
+
+
+          (The subsite's FAQ and Contact Us pages both state 8.00 am instead:
+
+          \"The English Market is open to the public from 8.00 am to 6.00 pm,
+
+          Monday to Saturday. It is closed on Sundays and Bank Holidays. Some
+
+          traders may operate different trading hours within those hours.\")\n"
+        summary: "Cork's covered municipal market, trading on the same site since 1788 and
+
+          the thing the city points at when asked what it is: two aisles of
+
+          fishmongers, butchers, cheesemongers, bakers and spice stalls under one
+
+          roof, open six mornings a week, with cafés and food counters upstairs.\n"
+        description: "\"Discover a vibrant and diverse marketplace, where an eclectic mix of
+
+          traders come together. Nestled alongside long-standing family-run stalls
+
+          passed down through generations, our market offers the best in local
+
+          produce. From fresh meats and fish to herbs, spices, fruits, vegetables,
+
+          sauces, oils, chocolates, cakes, cheeses, and pastas — there's something
+
+          to suit all taste buds and occasions.\"
+
+
+          \"The market offers visitors unique finds including crockery, T-shirts,
+
+          novelty items, clothing alterations, and local art. This diverse
+
+          selection creates a lively atmosphere that reflects the market's
+
+          character and charm.\"
+
+
+          \"Immerse yourself in the sights, sounds, and aromas of the market, then
+
+          relax and savor the flavors at our welcoming cafés, delis, and food
+
+          stalls.\"
+
+
+          Traders are grouped as: Bakery & Confectionery; Food for Now;
+
+          Delicatessen; Fish & Seafood; Fruit and Veg; Meat, Poultry and Game;
+
+          Spices, Preserves and Condiments; Specialities; Wine.
+
+
+          **Where it is.** \"The English Market is located in Cork city centre with
+
+          its main entrances on Grand Parade, and on Princes Street, with further
+
+          smaller entrances off Oliver Plunkett Street and Patrick Street.\"
+
+
+          **Visiting.** \"To ensure that tourists and casual visitors to the English
+
+          Market can get the maximum from their visit, tour groups are encouraged
+
+          to come outside of peak trading hours. In general, the busier trading
+
+          hours of 11.00 am – 4.30 pm daily should be avoided (Friday and Saturday
+
+          can be particularly hectic).\" Tour groups are asked to register in
+
+          advance. Public toilet facilities are limited to one coin-operated toilet
+
+          near the fish aisle.
+
+
+          **Why the name.** \"The Market was created in 1788 by the Protestant or
+
+          'English' corporation that controlled the city until 1841... When local
+
+          government was reformed in 1840, and the representatives of the city's
+
+          Catholic, 'Irish' majority took over, they established another covered
+
+          food market, St. Peter's (now the Bodega@St Peter's Market) which became
+
+          known as the 'Irish Market'.\"
+
+
+          **Who runs it.** \"Cork City Council owns the English Market and leases
+
+          the stalls to traders. Cork City Council contracts with Lisney who look
+
+          after the day-to-day running of the market.\"
+
+
+          Payment: \"Some traders accept credit cards and laser cards, however many
+
+          traders deal on a cash-only basis.\"\n"
+        confidence: "medium"
+    notes: "No diary anywhere on the subsite, exactly as the catalogue hint says, so this is one recurring event and has not been expanded into trading days. Four pages were opened and all four are the market's own council subsite: /opening-hours/ (recorded above as fetch.url), /information/information/ (FAQs), /contact-us/ and /market-traders/, plus /information/visiting-the-market/ and the subsite root for the hero image — description is assembled from those and nothing in it is invented. The contradiction the catalogue flags is confirmed verbatim today and I have not tried to settle it: /opening-hours/ prints \"Monday - Saturday : 8.30 a.m. - 6:00 p.m.\" while /information/information/ and /contact-us/ both print \"from 8.00 am to 6.00 pm, Monday to Saturday\". The 8.30 above is the page this observation's fetch.url points at; the 8.00 wording is kept in raw. All three agree on the 6pm close, on Monday–Saturday, and on Sunday and bank holiday closure, so confidence is medium only on the opening half-hour. The peak trading window of \"11.00 am – 4.30 pm daily\" is visitor guidance, not an occurrence, and is recorded in description rather than as an event. No image exists on /opening-hours/ (only logos), so the hero from the subsite root is used; it was checked and returns 200. price.free is a deliberate judgement — the market is walk-in and no admission charge is quoted on any page read."
+  - sourceId: "markets/marina-market"
+    fetch:
+      ok: true
+      url: "https://www.marinamarket.ie/events?format=json"
+      status: 200
+    events:
+      - id: "markets/marina-market#91922830d4"
+        sourceId: "markets/marina-market"
+        title: "Marina Market"
+        occurrence:
+          kind: "recurring"
+          pattern: "Monday - Sunday 8am - 8pm, 7 days a week"
+          startTime: "08:00"
+        status: "scheduled"
+        url: "https://www.marinamarket.ie/"
+        price:
+          free: true
+        tags:
+          - "food-drink"
+          - "street-food"
+          - "free-entry"
+          - "family"
+        raw: "**Hours** — Monday - Sunday 8am - 8pm. 7 days a week.
+
+
+          \"Cork's Largest Indoor & Outdoor Market.\" \"Dog-friendly. Parking
+
+          on-site.\" \"The Marina Market has over 35 amazing food & drink vendors,
+
+          creating our diverse, unique food offering.\"\n"
+        summary: "A converted dockside warehouse on Centre Park Road holding thirty-five-odd
+
+          food and drink traders, open every day from eight until eight, with an
+
+          outdoor yard that doubles as the venue for most of the market's own events
+
+          programme.\n"
+        confidence: "high"
+      - id: "markets/marina-market#ee0320a449"
+        sourceId: "markets/marina-market"
+        title: "A City of Tails"
+        occurrence:
+          kind: "run"
+          start: "2026-08-22"
+          end: "2026-08-28"
+        status: "scheduled"
+        timesText: "Sat 22 Aug 10:00 – Fri 28 Aug 18:00"
+        url: "https://www.marinamarket.ie/events/a-city-of-tails"
+        image: "https://images.squarespace-cdn.com/content/v1/6006faf63294c7562436bdf0/1785413567955-N76M80TC9CDQ7S3J892D/Screenshot+2026-07-30+131157.png"
+        tags:
+          - "sculpture"
+          - "exhibition"
+          - "family"
+          - "community"
+        raw: "**A City of Tails at Marina Market** — 22–28 August.
+
+
+          \"Marina Market is delighted to be part of A City of Tails, a unique public
+
+          art trail in support of Irish Guide Dogs for the Blind.\"\n"
+        summary: "Marina Market is one stop on a week-long city-wide sculpture trail: painted
+
+          life-size dog figures, decorated by schools, artists and community groups,
+
+          raising money for Irish Guide Dogs for the Blind.\n"
+        description: "A City of Tails at Marina Market
+
+
+          22–28 August
+
+
+          Marina Market is delighted to be part of A City of Tails, a unique public
+
+          art trail in support of Irish Guide Dogs for the Blind.
+
+
+          Throughout the week, visitors to Marina Market can discover a selection of
+
+          beautifully decorated life-size dog sculptures, each uniquely designed by
+
+          local schools, artists, community groups, and businesses. Every sculpture
+
+          tells its own story while celebrating creativity, community, and the
+
+          life-changing work of Irish Guide Dogs.
+
+
+          The sculptures form part of a city-wide interactive art trail, with 50
+
+          striking dog sculptures displayed at locations across Cork from 22–28
+
+          August. Whether you're following the full trail or simply stopping by
+
+          Marina Market, it's the perfect opportunity to admire local artwork, take
+
+          some memorable photos, and support an incredible cause.
+
+
+          Come along, explore the sculptures, enjoy everything Marina Market has to
+
+          offer, and be part of this paws-itively inspiring event!\n"
+        confidence: "high"
+      - id: "markets/marina-market#9125d11a65"
+        sourceId: "markets/marina-market"
+        title: "Summer Sessions"
+        occurrence:
+          kind: "recurring"
+          pattern: "A curated outdoor event series across selected dates — 22 August and 5 September 2026, 16:00-18:00"
+          startTime: "16:00"
+        status: "scheduled"
+        url: "https://www.marinamarket.ie/events/summer-sessions-jfmyf-tdbst-3hxzn-fy9hd-3yz5m-zebty"
+        image: "https://images.squarespace-cdn.com/content/v1/6006faf63294c7562436bdf0/1779444550565-ODM6OI0S5TI6GWJP1KWT/EVENTS+Corriboard.png"
+        tags:
+          - "live-music"
+          - "dj"
+          - "outdoor"
+          - "community"
+        raw: "**Summer Sessions** — 22 August and 5 September 2026, 16:00-18:00.
+
+
+          \"A curated outdoor event series bringing together music, creativity and
+
+          community in a unique open-air setting.\" \"Across selected dates, Summer
+
+          Sessions will evolve to feature a mix of special moments and
+
+          collaborations.\"\n"
+        summary: "An open-air music and arts series in Marina Market's yard, each date
+
+          programmed differently — guest MCs, DJs playing alongside live musicians,
+
+          dancers and live graffiti, leaning towards reggae, dub and jazz.\n"
+        description: "A curated outdoor event series bringing together music, creativity and
+
+          community in a unique open-air setting.
+
+
+          Across selected dates, Summer Sessions will evolve to feature a mix of
+
+          special moments and collaborations.
+
+
+          Expect a changing blend of:
+
+
+          - Guest MC appearances
+
+          - DJ-led sessions with live musicians
+
+          - Dance collaborations
+
+          - Live graffiti & creative activations
+
+          - Outdoor sounds spanning reggae, dub & jazz
+
+          - Selected emerging DJ showcases
+
+
+          The series will also include opportunities to platform younger local
+
+          talent and create space for fresh voices alongside established artists.
+
+
+          Each date will have its own atmosphere, energy and curated programme —
+
+          designed to feel different every time while staying rooted in music,
+
+          culture and connection.\n"
+        confidence: "high"
+      - id: "markets/marina-market#ed423ee31d"
+        sourceId: "markets/marina-market"
+        title: "Zumba Class by Cute Fit"
+        occurrence:
+          kind: "single"
+          date: "2026-08-23"
+          startTime: "14:00"
+          endTime: "16:00"
+        status: "scheduled"
+        url: "https://www.marinamarket.ie/events/zumba-class-by-cute-fit"
+        image: "https://images.squarespace-cdn.com/content/v1/6006faf63294c7562436bdf0/1780588763539-HGQHHSDWJXMKBAXLHD58/Screenshot+2026-06-04+165906.png"
+        tags:
+          - "dance"
+          - "wellbeing"
+          - "drop-in"
+        raw: "**Zumba Class by Cute Fit** — Sunday 23 August, 14:00-16:00.\n"
+        summary: "A two-hour Sunday-afternoon Zumba class run by Cute Fit in the market's
+
+          food court.\n"
+        confidence: "high"
+      - id: "markets/marina-market#1a8a6a36f8"
+        sourceId: "markets/marina-market"
+        title: "Everybody Dance w/Stevie G"
+        occurrence:
+          kind: "recurring"
+          pattern: "Monthly on a Thursday — 27 August, 24 September, 29 October, 26 November and 17 December 2026, 11:00-12:30"
+          startTime: "11:00"
+        status: "scheduled"
+        url: "https://www.marinamarket.ie/events/everybody-dance-wstevie-g-dhh37-3jejn-wdxy9-922a9-8nwld"
+        image: "https://images.squarespace-cdn.com/content/v1/6006faf63294c7562436bdf0/1768225032022-2UBW5ZN3BAXUBTVE3GI3/EAUG.png"
+        price:
+          free: true
+          text: "FREE"
+        tags:
+          - "dance"
+          - "free-entry"
+          - "accessible"
+          - "drop-in"
+          - "community"
+        raw: "**Everybody Dance w/Stevie G** — monthly on a Thursday: 27 August, 24
+
+          September, 29 October, 26 November, 17 December 2026. 11:00-12:30.
+
+
+          \"Join us for a FREE, inclusive dance session where everyone is welcome.
+
+          Come along, move your body, enjoy the music, and have some fun with us.\"
+
+
+          Location: Marina Market Food Court.\n"
+        summary: "A free, monthly, deliberately-for-everyone dance session in the market's
+
+          food court, with Cork DJ Stevie G on records for an hour and a half in the
+
+          middle of a Thursday morning.\n"
+        description: "Everybody Dance w/Stevie G
+
+
+          Join us for a FREE, inclusive dance session where everyone is welcome.
+
+          Come along, move your body, enjoy the music, and have some fun with us.
+
+
+          Location: Marina Market Food Court
+
+
+          Date: 27th August
+
+
+          Time: 11am
+
+
+          Let's move, groove, and brighten your day!\n"
+        confidence: "high"
+      - id: "markets/marina-market#916bd6dab8"
+        sourceId: "markets/marina-market"
+        title: "Zumba & Fitness – Brazilian Independence Day Celebration"
+        occurrence:
+          kind: "single"
+          date: "2026-09-05"
+          startTime: "13:00"
+          endTime: "15:00"
+        status: "scheduled"
+        url: "https://www.marinamarket.ie/events/zumba-fitness-brazilian-independence-day-celebration"
+        image: "https://images.squarespace-cdn.com/content/v1/6006faf63294c7562436bdf0/1786626206092-ZKAOA3ZHHRIBFRMUFVJ8/1000364015.png"
+        price:
+          free: false
+          text: "€10 at the door | €7.50 early bird before the event"
+          min: 7.5
+          max: 10
+          currency: "EUR"
+        tags:
+          - "dance"
+          - "wellbeing"
+          - "party"
+        raw: "**Zumba & Fitness – Brazilian Independence Day Celebration** — Saturday,
+
+          5th September 2026, 1PM start. €10 at the door | €7.50 early bird before
+
+          the event.
+
+
+          \"Get ready to move, sweat and celebrate Brazilian culture at Zumba &
+
+          Fitness at Marina Market, Cork!\" \"2 hours of pure energy, bringing the
+
+          vibrant sounds, rhythms and spirit of Brazil to the Market.\"\n"
+        summary: "Two hours of Brazilian-soundtracked Zumba marking Brazil's Independence
+
+          Day, pitched at all levels from complete beginner upwards.\n"
+        description: "Get ready to move, sweat and celebrate Brazilian culture at Zumba &
+
+          Fitness at Marina Market, Cork!
+
+
+          Join us for 2 hours of pure energy, bringing the vibrant sounds, rhythms
+
+          and spirit of Brazil to the Market. Whether you're a complete beginner or
+
+          a Zumba pro, all levels are welcome — just bring your energy and get ready
+
+          to dance!
+
+
+          Celebrating Brazil's Independence Day, this is the perfect afternoon to
+
+          experience the joy of Brazilian music, movement and community.
+
+
+          Saturday, 5th September 2026
+
+
+          1PM start
+
+
+          Marina Market, Cork
+
+
+          €10 at the door | €7.50 early bird before the event\n"
+        confidence: "high"
+      - id: "markets/marina-market#d46d2153b7"
+        sourceId: "markets/marina-market"
+        title: "Clothes Cycle"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+          startTime: "11:00"
+          endTime: "18:00"
+        status: "scheduled"
+        url: "https://www.marinamarket.ie/events/958977cqhoeyfwrw2xzmjubcpmz9rn"
+        image: "https://images.squarespace-cdn.com/content/v1/6006faf63294c7562436bdf0/1786639294425-LQWJAO4FZJGJW01NS835/DOUGLAS+LOGO+%281%29.png"
+        price:
+          free: false
+        tags:
+          - "textiles"
+          - "crafts"
+          - "dj"
+          - "street-food"
+          - "booking-required"
+        raw: "**Clothes Cycle Cork** — Saturday 12 September 2026, 11am–6pm. Marina
+
+          Market, Centre Park Road, Cork.
+
+
+          \"Europe's biggest thrift festival is coming to Cork!\" \"Get ready for a
+
+          huge 25,000+ sq ft immersive thrifting experience featuring 100+ curated
+
+          sellers, vintage, Y2K, streetwear, designer and luxury pieces, archive
+
+          fashion, bargains, handmade items, jewellery, shoes and more.\"
+
+
+          \"Children 12 and under and carers go free.\" \"Tickets may not be available
+
+          on the door due to high demand.\"\n"
+        summary: "A one-day thrifting festival taking over the whole of Marina Market: more
+
+          than a hundred vintage and preloved sellers, a free clothes swap, free
+
+          alterations, DJs and street food.\n"
+        description: "Clothes Cycle Cork
+
+
+          Saturday 12 September 2026 | 11am–6pm
+
+
+          Marina Market, Centre Park Road, Cork
+
+
+          Europe's biggest thrift festival is coming to Cork!
+
+
+          Get ready for a huge 25,000+ sq ft immersive thrifting experience
+
+          featuring 100+ curated sellers, vintage, Y2K, streetwear, designer and
+
+          luxury pieces, archive fashion, bargains, handmade items, jewellery, shoes
+
+          and more.
+
+
+          Expect a full day of shopping, music, food and entertainment, with live
+
+          DJs, street food, coffee and bakes, a free clothes swap, free alterations,
+
+          nail art, tooth gems, tarot, giveaways, games, sponsor activations and
+
+          plenty of surprises.
+
+
+          **Clothes Swap**
+
+
+          Bring up to 5 pre-loved clothing items, shoes, bags or hats and exchange
+
+          them for tokens to shop the swap section.
+
+
+          - 11am–12pm: Drop-off only
+
+          - 12pm–5pm: Drop-off or pick-up
+
+          - 5pm–6pm: Leftover items are FREE
+
+
+          The first 150 attendees receive a free tote bag, with more freebies and
+
+          giveaways throughout the day.
+
+
+          Children 12 and under and carers go free.
+
+
+          Tickets may not be available on the door due to high demand.
+
+
+          No dogs allowed. All sellers accept cash and card.\n"
+        confidence: "high"
+      - id: "markets/marina-market#7248e0d740"
+        sourceId: "markets/marina-market"
+        title: "The Echo Women's Mini Marathon"
+        occurrence:
+          kind: "single"
+          date: "2026-09-20"
+          startTime: "10:00"
+          endTime: "17:00"
+        status: "scheduled"
+        timesText: "Registration and bag drop from 10:00; race start 13:00"
+        url: "https://www.marinamarket.ie/events/the-echo-womens-mini-marathon"
+        image: "https://images.squarespace-cdn.com/content/v1/6006faf63294c7562436bdf0/1786627784612-X3A6KNM40I3RO5USZDLQ/IMG_4700.jpeg"
+        tags:
+          - "running"
+          - "mass-participation"
+          - "fundraiser"
+          - "community"
+        raw: "**The Echo Women's Mini Marathon** — Sunday, September 20. Race start:
+
+          1:00 PM. Registration & Bag Drop: Marina Market.
+
+
+          \"Marina Market is delighted to be the official bag drop and registration
+
+          venue for The Echo Women's Mini Marathon.\" \"The 6K event is a celebration
+
+          of women, community, and 45 years of the Mini Marathon.\"\n"
+        summary: "Marina Market is the registration point and bag drop for the Echo Women's
+
+          Mini Marathon, a 6K in its forty-fifth year; runners collect numbers and
+
+          leave belongings here before the one o'clock start.\n"
+        description: "Marina Market is delighted to be the official bag drop and registration
+
+          venue for The Echo Women's Mini Marathon.
+
+
+          Taking place on Sunday, September 20, the 6K event is a celebration of
+
+          women, community, and 45 years of the Mini Marathon.
+
+
+          Marina Market, Cork
+
+
+          6K Mini Marathon
+
+
+          Race start: 1:00 PM
+
+
+          Registration & Bag Drop: Marina Market
+
+
+          Participants can visit Marina Market to collect their race registration
+
+          and safely drop off their belongings before heading off to take part in the
+
+          event.
+
+
+          We're delighted to be part of this fantastic Cork tradition and look
+
+          forward to welcoming all participants to Marina Market!
+
+
+          For event information and registration, visit echolive.ie/minimarathon.\n"
+        confidence: "high"
+      - id: "markets/marina-market#25135d0c70"
+        sourceId: "markets/marina-market"
+        title: "Cork Comic Con"
+        occurrence:
+          kind: "run"
+          start: "2026-10-03"
+          end: "2026-10-04"
+        status: "scheduled"
+        timesText: "Sat 11:00 – Sun 17:00"
+        url: "https://www.marinamarket.ie/events/cork-comic-con-1"
+        image: "https://images.squarespace-cdn.com/content/v1/6006faf63294c7562436bdf0/1786629557478-LNFDQ69MDBRNQRT1U0P3/mwyrfozlsnokhdud3obe.jpg"
+        price:
+          free: false
+        tags:
+          - "games"
+          - "family"
+          - "animation"
+          - "booking-required"
+        raw: "**Cork Comic Con 2026** — October 3rd & 4th, 2026. Marina Market, Cork.
+
+
+          \"Presented by Comic Con Ireland, Cork Comic Con returns to Marina Market
+
+          on October 3rd & 4th, 2026, bringing fans together for two action-packed
+
+          days of entertainment, creativity and fandom.\" \"Tickets are on sale now,
+
+          with previous events selling out in advance.\"\n"
+        summary: "Two days of pop culture in the market hall: celebrity guests, an artist
+
+          alley of comic creators, panels, gaming zones, cosplay competitions and a
+
+          trade hall of comics and collectibles.\n"
+        description: "Cork Comic Con 2026 is coming to Marina Market!
+
+
+          Get ready for a huge weekend celebrating movies, TV, comics, gaming,
+
+          anime, cosplay and all things pop culture!
+
+
+          Presented by Comic Con Ireland, Cork Comic Con returns to Marina Market on
+
+          October 3rd & 4th, 2026, bringing fans together for two action-packed days
+
+          of entertainment, creativity and fandom.
+
+
+          **What to expect:**
+
+
+          - Celebrity guests from film, TV and gaming
+
+          - Artist Alley featuring talented comic creators and illustrators
+
+          - Panels, talks and live entertainment
+
+          - Gaming zones and interactive experiences
+
+          - Cosplay, competitions and fan communities
+
+          - Trade Hall packed with comics, collectibles, artwork and merchandise
+
+          - Family-friendly activities and entertainment for all ages
+
+
+          Whether you're a lifelong comic book fan, a gaming enthusiast, an anime
+
+          lover, a dedicated cosplayer or simply looking for a fun day out, Cork
+
+          Comic Con has something for everyone!
+
+
+          Tickets are on sale now, with previous events selling out in advance.
+
+          Secure your place early and avoid missing out!
+
+
+          October 3rd & 4th, 2026
+
+
+          Marina Market, Cork\n"
+        confidence: "high"
+      - id: "markets/marina-market#14860d3bb8"
+        sourceId: "markets/marina-market"
+        title: "Cork Card Show"
+        occurrence:
+          kind: "single"
+          date: "2026-10-10"
+          startTime: "09:30"
+          endTime: "16:30"
+        status: "scheduled"
+        timesText: "09:30-16:30 per the market's calendar; the event's own page states a 10:30 AM start"
+        url: "https://www.marinamarket.ie/events/cork-card-show-1-lzc42"
+        image: "https://images.squarespace-cdn.com/content/v1/6006faf63294c7562436bdf0/1762514168902-M5EKMUFX0HN8MFTBEOD5/Card+Show+2026.png"
+        price:
+          free: false
+        tags:
+          - "games"
+          - "community"
+          - "booking-required"
+        raw: "**Cork Card Show** — October 10th, 2026. Marina Market.
+
+
+          \"Get ready to browse, buy, and trade at the Cork Card Show — the biggest
+
+          and only dedicated trading card event in Cork!\" \"Whether you're into
+
+          Pokémon, Yu-Gi-Oh!, Magic: The Gathering, or Sports Cards, you'll find epic
+
+          vendors, rare pulls, and a buzzing community of fellow collectors.\"
+
+
+          \"Tickets available now on Eventbrite: https://corkcardshow.eventbrite.ie\"\n"
+        summary: "Cork's only dedicated trading card fair, a full day of vendors and swapping
+
+          for Pokémon, Yu-Gi-Oh!, Magic and sports cards.\n"
+        description: "Get ready to browse, buy, and trade at the Cork Card Show — the biggest and
+
+          only dedicated trading card event in Cork!
+
+
+          Happening in the vibrant Marina Market, this is the place for collectors
+
+          and enthusiasts to connect. Whether you're into Pokémon, Yu-Gi-Oh!, Magic:
+
+          The Gathering, or Sports Cards, you'll find epic vendors, rare pulls, and a
+
+          buzzing community of fellow collectors.
+
+
+          - Rare finds
+
+          - Top-tier traders
+
+          - All the TCG hype you can handle
+
+
+          October 10th, 2026 — 10:30 AM
+
+
+          Tickets available now on Eventbrite: https://corkcardshow.eventbrite.ie\n"
+        confidence: "medium"
+    notes: "Route discovery for stage 1: appending `?format=json` to the catalogued /events path returns the whole Squarespace events collection in one fetch — 14 upcoming and 30 past entries with exact start and end instants, the event slug, the promotional image and each event's full body text. That is the URL in fetch.url and every description here is the event's own page copy from it, not something I wrote. It should be added to the catalogue as an `api` route. Two cautions with it: the epoch timestamps render as UTC, so they must be converted to Europe/Dublin (an hour later in August) before use — I did, and the results match the times the rendered /events page prints; and the body fields have Squarespace CSS appended after the copy, which I stripped. The 14 upcoming entries were recorded as 10 events. Two are series that the site publishes as separate dated instances and that I collapsed rather than expanded: \"Everybody Dance w/Stevie G\" appears five times (27 Aug, 24 Sep, 29 Oct, 26 Nov, 17 Dec, all Thursdays) and is one recurring event here, and \"Summer Sessions\" appears twice (22 Aug, 5 Sep) and is likewise one. Each instance has its own slug and its own monthly artwork, so the url and image above are the soonest instance's. The 30 past entries were not recorded. The market's own opening pattern is a separate recurring event, taken from a second fetch of the homepage (https://www.marinamarket.ie/, 200) which prints \"Monday - Sunday 8am - 8pm\" and \"7 days a week\"; it has no image because the homepage's og:image is the market's wordmark logo. One internal contradiction: the calendar puts Cork Card Show at 09:30-16:30 but the event's own body says \"October 10th, 2026 — 10:30 AM\", so its startTime is the calendar's and the other figure is kept in timesText, at medium confidence. Clothes Cycle on 12 September is also carried by Pure Cork in this same category, recorded there against this venue."
+  - sourceId: "markets/black-market"
+    fetch:
+      ok: true
+      url: "https://www.theblackmarketcork.ie/"
+      status: 200
+    events:
+      - id: "markets/black-market#c5aef92d7d"
+        sourceId: "markets/black-market"
+        title: "The Black Market"
+        occurrence:
+          kind: "recurring"
+          pattern: "Wednesday to Sunday — Wednesday to Friday 09:00-20:00, Saturday and Sunday 10:00-20:00; closed Tuesday; Monday 10:00-20:00 on bank holidays only"
+        status: "scheduled"
+        timesText: "Monday 10:00 - 20:00 (BH); Tuesday CLOSED; Wednesday 09:00 - 20:00; Thursday 09:00 - 20:00; Friday 09:00 - 20:00; Saturday 10:00 - 20:00; Sunday 10:00 - 20:00"
+        url: "https://www.theblackmarketcork.ie/"
+        price:
+          free: true
+        tags:
+          - "food-drink"
+          - "street-food"
+          - "free-entry"
+          - "community"
+        raw: "**The Black Market** — \"Dog Friendly Food Market with parking on site.
+
+          Eat. Drink. Relax.\"
+
+
+          **OPENING HOURS** — Dine In, Take Away or Delivery
+
+
+          Monday 10:00 - 20:00 (BH) · Tuesday CLOSED · Wednesday 09:00 - 20:00 ·
+
+          Thursday 09:00 - 20:00 · Friday 09:00 - 20:00 · Saturday 10:00 - 20:00 ·
+
+          Sunday 10:00 - 20:00
+
+
+          \"We are open from Wednesday to Sunday and look forward to welcoming you
+
+          soon.\" (/about)\n"
+        summary: "A nine-vendor food hall in a docklands yard off Monahan Road, the smaller
+
+          and quieter counterpart to Marina Market up the road: open Wednesday to
+
+          Sunday, dog friendly, with parking on site.\n"
+        description: "Welcome to The Black Market Cork, where we believe in going back to black.
+
+          Our boutique food market offers a unique and trendy atmosphere for those
+
+          looking to try something new and exciting.
+
+
+          With nine different vendors serving up fantastic food, we are proud to be
+
+          Cork's premier destination for those seeking quality cuisine in a welcoming
+
+          environment. Our vendors come from diverse culinary backgrounds, offering a
+
+          range of flavors and experiences for you to enjoy.
+
+
+          At The Black Market Cork, we take pride in our commitment to excellence.
+
+          We strive to create a space that celebrates diversity and fosters a sense
+
+          of community. Our market is a blank canvas for those who dare to try
+
+          something different and want to experience the best that Cork has to offer.
+
+
+          Whether you're looking for a quick lunch or a leisurely dinner, we invite
+
+          you to come and join us at The Black Market Cork. We are open from
+
+          Wednesday to Sunday and look forward to welcoming you soon.\n"
+        confidence: "medium"
+    notes: "One recurring event and nothing else, which is the honest result: the Wix events widget on the homepage reads \"No events at the moment\" — an empty widget rather than a missing page — so there is nothing dated to record. The homepage prints days and times as two separate columns, and /about was opened as a second fetch (200) to resolve them; its sentence \"We are open from Wednesday to Sunday\" is what makes the Monday \"(BH)\" row bank holidays only, and that reading is the reason confidence is medium rather than high. The column pairs are kept verbatim in timesText. description is /about's copy in full. No startTime is set because the opening time differs across the week (09:00 midweek, 10:00 at weekends), so forcing one would misstate it. One thing I could not resolve and did not record: an image caption on the homepage reads \"DAILY 5pm-8pm\" with no surrounding text — it sits on a photograph and nothing on the page says what it refers to, so it is not an event. For stage 1: the footer copyright still reads 2023 and the events widget is empty, which supports the catalogue's own suggestion that this entry be reviewed for `dormant`; the market is trading, though, on the evidence of the hours block."
+  - sourceId: "markets/coal-quay-market"
+    fetch:
+      ok: true
+      url: "https://www.corkcity.ie/en/things-to-do/attractions/cornmarket-street-coal-quay-market/"
+      status: 200
+    events:
+      - id: "markets/coal-quay-market#66afaea4c9"
+        sourceId: "markets/coal-quay-market"
+        title: "Cornmarket Street (Coal Quay) Market"
+        occurrence:
+          kind: "recurring"
+          pattern: "every Saturday morning from approximately 9am – 2pm"
+          startTime: "09:00"
+        status: "scheduled"
+        url: "https://www.corkcity.ie/en/things-to-do/attractions/cornmarket-street-coal-quay-market/"
+        price:
+          free: true
+        tags:
+          - "farmers"
+          - "street-food"
+          - "outdoor"
+          - "free-entry"
+          - "heritage"
+        raw: "**Cornmarket Street (Coal Quay) Market is open for business!**
+
+
+          \"This market takes place every Saturday morning from approximately 9am –
+
+          2pm.\"
+
+
+          \"A wide range of delicious local produce is available so shop local and
+
+          visit Cornmarket Street Market this weekend!\"
+
+
+          \"Stay tuned for new Cornmarket Street Market webpage coming soon.\"
+
+
+          (Taste Cork's directory, read today, gives a different start: \"Held every
+
+          Saturday from 8.30 am.\")\n"
+        summary: "Cork's old open-air market, trading on Cornmarket Street under Shandon on
+
+          Saturday mornings — a short row of produce, bread and street food stalls on
+
+          the site the city has called the Coal Quay for two centuries.\n"
+        confidence: "medium"
+    notes: "No diary on either source, so this is one recurring Saturday event and has not been expanded into dates. The contradiction the catalogue flags is confirmed today from both sides and I have not picked a winner: Cork City Council's attractions page, which is the URL this source points at and is the fetch above, says \"every Saturday morning from approximately 9am – 2pm\", while Taste Cork's Cork City markets directory (https://www.tastecork.ie/explore-cork/food-markets/farmers-markets/cork-city, fetched today, 200) says \"Held every Saturday from 8.30 am\" with no closing time. The council's wording is what is recorded in the pattern because it is this source's own page; Taste Cork's is kept in raw, and confidence is medium for that reason. The council's casual trading bye-laws page, also fetched today, independently agrees on the day and gives no hours: \"Cornmarket/Kyle Street – Saturdays all year round.\" The page still carries COVID-era copy about traders \"operating within public health guidelines\" and social distancing, which I have deliberately not extracted as current news. It also says \"Stay tuned for new Cornmarket Street Market webpage coming soon\", so a dedicated site may replace this attractions stub. No image: the page carries only corkcity.ie section thumbnails, none of them of the market."
+  - sourceId: "markets/mahon-point-farmers-market"
+    fetch:
+      ok: true
+      url: "https://mahonpointsc.ie/farmers-market/"
+      status: 200
+    events:
+      - id: "markets/mahon-point-farmers-market#9f022138c0"
+        sourceId: "markets/mahon-point-farmers-market"
+        title: "Mahon Point Farmers' Market"
+        occurrence:
+          kind: "recurring"
+          pattern: "every Thursday morning from 10am to 2pm"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://mahonpointsc.ie/farmers-market/"
+        image: "https://mahonpointsc.ie/wp-content/uploads/2022/01/MAHON-POINT-220464-Farmers-1920x1080px-1024x576.jpg"
+        price:
+          free: true
+        tags:
+          - "farmers"
+          - "outdoor"
+          - "free-entry"
+          - "weekly"
+          - "food-drink"
+        raw: "**Mahon Point Farmers' Market** — \"held outside the main entrance of Mahon
+
+          Point Shopping Centre every Thursday morning from 10am to 2pm\".
+
+
+          \"Mahon Point Farmers' Market is the largest Farmers Market Cork has to
+
+          offer, bringing together a diverse range of local farmers and artisan food
+
+          producers in one large weekly market.\" \"Established in 2006, Mahon Point
+
+          Farmers' Market has over 50 stalls of high-quality foods available, much of
+
+          it organic, lovingly grown, produced or sourced by small producers across
+
+          the county.\"
+
+
+          (Taste Cork's directory, read today, gives a different close: \"Held every
+
+          Thursday from 10am to 3pm.\")\n"
+        summary: "The city's biggest weekday farmers' market: fifty-plus stalls of vegetables,
+
+          fish, bread, cheese and cooked food filling the plaza outside Mahon Point
+
+          Shopping Centre every Thursday morning, most of it grown or made within an
+
+          hour's drive.\n"
+        description: "Mahon Point Farmers' Market is the largest Farmers Market Cork has to
+
+          offer, bringing together a diverse range of local farmers and artisan food
+
+          producers in one large weekly market held outside the main entrance of
+
+          Mahon Point Shopping Centre every Thursday morning from 10am to 2pm.
+
+
+          Established in 2006, Mahon Point Farmers' Market has over 50 stalls of
+
+          high-quality foods available, much of it organic, lovingly grown, produced
+
+          or sourced by small producers across the county. The market has won an
+
+          array of prestigious awards including the Good Food Ireland \"Best Farmers
+
+          Market Award\" and the McKennas Guide \"Best in Ireland\" Award.
+
+
+          **Sustainability**
+
+
+          Our vision for our weekly Farmers Market is to be as plastic free as
+
+          possible and fully sustainable. We believe in local food systems and the
+
+          majority of our stallholders grow, rear, catch or bake their produce within
+
+          an hour's drive of Mahon Point reducing food miles and providing the
+
+          freshest food.
+
+
+          We are currently developing a project with CUSP (Cork Urban Soil Project)
+
+          where all of our compostable market waste will be broken down in a bio
+
+          digester and turned into soil that will then be distributed to gardens and
+
+          growing projects around the city.
+
+
+          **Awards**
+
+
+          The market has won an array of prestigious awards including the Good Food
+
+          Ireland \"Best Farmers Market Award\" and the McKennas Guide \"Best in
+
+          Ireland\" Award 2008, 2009, 2010, 2012, 2014, 2015, 2016 and 2017. In 2018,
+
+          it won Best Farmers Market in Cork at the #96fmbestofcork awards with
+
+          Cork's 96FM and The KC Show.
+
+
+          For all market inquiries please contact: Rupert Hugh-Jones at
+
+          farm@rossmoreoysters.com or on 086 1685312.\n"
+        confidence: "medium"
+    notes: "A single static page with a stallholder table and no diary, exactly as the catalogue says, so this is one recurring Thursday event and I did not go hunting for dated listings. The contradiction the catalogue flags is confirmed from both sides today and left unresolved: the shopping centre's own page, which is this source's URL and the fetch above, says \"every Thursday morning from 10am to 2pm\", while Taste Cork's Cork City directory (fetched today, 200) says \"Held every Thursday from 10am to 3pm\". The venue's own 2pm is in the pattern, Taste Cork's 3pm is kept in raw, and confidence is medium for that reason. Deliberately truncated: the page lists roughly forty stallholders by name, owner, trade and phone number, and none of that is recorded — it is a trader directory, not events, and the description above is the market's own prose only. I did not follow Taste Cork's outbound link for this market, http://www.mahonpointfarmersmarket.com/, which the catalogue records as a Thai foreign-exchange blog serving a healthy 200. I also did not retest /wp-json/tribe/events/v1/events, which the catalogue records as 404 on this host."
+  - sourceId: "markets/douglas-farmers-market"
+    fetch:
+      ok: true
+      url: "https://www.douglasvillage.ie/farmers-market-at-douglas-village/"
+      status: 200
+    events:
+      - id: "markets/douglas-farmers-market#acb2cd826c"
+        sourceId: "markets/douglas-farmers-market"
+        title: "Douglas Farmers' Market"
+        occurrence:
+          kind: "recurring"
+          pattern: "every Saturday from 10am to 2pm (per Taste Cork; the host page says only \"every week\")"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.douglasvillage.ie/farmers-market-at-douglas-village/"
+        image: "https://www.douglasvillage.ie/wp-content/uploads/2020/11/Kachmarsky-139035.jpg"
+        price:
+          free: true
+        tags:
+          - "farmers"
+          - "outdoor"
+          - "free-entry"
+          - "weekly"
+        raw: "**Farmers' Market – Douglas Village Shopping Centre**
+
+
+          \"Douglas Farmers Market brings together over 800 local farmers, growers,
+
+          fishermen, bakers and cooks every week.\"
+
+
+          \"Douglas Farmers Market provides visitors and locals with a diverse range of
+
+          naturally produced foods to connect local producers and farmers with the
+
+          public and restaurateurs in an atmosphere that fosters community and
+
+          hospitality.\"
+
+
+          \"Come on down for great produce from across Cork county. Great coffee,
+
+          music, company & TNB\"
+
+
+          The host page states no day and no time. Taste Cork's Cork City directory
+
+          supplies both: \"A little outside the city centre, the suburb of Douglas
+
+          hosts an impressive Farmer's Market every Saturday from 10am to 2pm.\"\n"
+        summary: "A Saturday-morning farmers' market in the grounds of Douglas Village
+
+          Shopping Centre, a couple of miles south-east of the centre: produce,
+
+          fish, bread and coffee from growers and makers around Cork county.\n"
+        confidence: "medium"
+    notes: "The catalogued host page resolves fine and is the right page, but it states no day and no time — the only temporal words on it are \"every week\", confirmed by reading the page body today. The day and hours in the pattern come from Taste Cork's Cork City markets directory (https://www.tastecork.ie/explore-cork/food-markets/farmers-markets/cork-city, fetched today, 200), which is a catalogued source in this category, and the attribution is stated in the pattern itself so nothing here reads as the host's own claim; confidence is medium for that reason rather than high. The page's \"over 800 local farmers, growers, fishermen, bakers and cooks\" is a typo for a much smaller number, so it is quoted in raw as the page prints it but not carried into the summary. Still unresolved and still worth a human decision: three different locations are given by different sources — this page and Taste Cork say Douglas Village Shopping Centre, some directories say Douglas Court Shopping Centre across the road, and Cork City Council's casual trading page, fetched today, designates \"Douglas Park\" as the trading area. No address is claimed here for that reason. I did not retest /wp-json/tribe/events/v1/events, which the catalogue records as resolving with \"total\": 0."
+  - sourceId: "markets/blackrock-village-market"
+    fetch:
+      ok: true
+      url: "https://www.corkcity.ie/en/council-services/public-info/events-hosting-and-licences/casual-trading-licences/"
+      status: 200
+    events:
+      - id: "markets/blackrock-village-market#f1a0d18b95"
+        sourceId: "markets/blackrock-village-market"
+        title: "Blackrock Village Sunday Market"
+        occurrence:
+          kind: "recurring"
+          pattern: "Sundays and Bank Holidays all year round"
+        status: "scheduled"
+        price:
+          free: true
+        tags:
+          - "farmers"
+          - "crafts"
+          - "outdoor"
+          - "free-entry"
+          - "community"
+        raw: "Cork City Council, casual trading bye-laws, under \"What days do Designated
+
+          Trading Areas operate?\":
+
+
+          \"Blackrock Market – Sundays and Bank Holidays all year round.\"
+
+
+          No hours are given for Blackrock on that page. Blackrock is one of the
+
+          council's nine designated casual trading areas, at an annual licence fee of
+
+          €600.\n"
+        summary: "A volunteer-run Sunday market on the village plaza by Blackrock pier,
+
+          trading every Sunday and bank holiday through the year — produce, crafts
+
+          and bric-a-brac at the end of the harbour walkway.\n"
+        confidence: "medium"
+    notes: "This source's catalogued URL could not be read and the observation above comes from a different page, which is the whole story of this entry. https://iomst.ie/markets/blackrock-village-sunday-market/ answers 202 with a meta refresh to /.well-known/sgcaptcha/; I fetched the challenge with a browser user-agent, which returns a genuine \"Robot Challenge Screen\", then retried the market path with the cookie jar and got 202 again. The body was never seen. So rather than record a failure and lose a real weekly market, the day above is taken from Cork City Council's casual trading bye-laws page, which I fetched today (200) and which is the fetch.url here — it is the fallback the catalogue itself names. That page states the day and nothing else, so no hours and no startTime are recorded; the \"10am-2pm\" that third-party listings add is not on any page I read and is not asserted here. url and image are omitted for the same reason: the market has no page of its own, and the council licensing page is not the event's page. Confidence is medium because the day is well attested but nothing else about the market was observable. For stage 1: iomst.ie needs a browser route recording, and Blackrock still has no source of its own."
+  - sourceId: "markets/ballincollig-farmers-market"
+    fetch:
+      ok: true
+      url: "https://castlewestcork.ie/farmers-market-whats-on/"
+      status: 200
+    events:
+      - id: "markets/ballincollig-farmers-market#f57f4c3c0f"
+        sourceId: "markets/ballincollig-farmers-market"
+        title: "Ballincollig Farmers' Market"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Wednesday from 10am to 2:30pm"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://castlewestcork.ie/farmers-market-whats-on/"
+        image: "https://castlewestcork.ie/wp-content/uploads/2016/10/farmers-market-whats-on.jpg"
+        price:
+          free: true
+        tags:
+          - "farmers"
+          - "outdoor"
+          - "free-entry"
+          - "weekly"
+        raw: "**Farmers Market – Ballincollig** (CastleWest Shopping Centre)
+
+
+          The page's own graphic reads: \"Farmers Market — Every Wednesday from 10am
+
+          to 2:30pm\".
+
+
+          That is the whole of the market detail on the page; the HTML around it is
+
+          navigation and a cookie notice.\n"
+        summary: "A Wednesday-morning farmers' market in the grounds of the CastleWest centre
+
+          on Ballincollig main street, four and a half hours of produce and cooked
+
+          food stalls out west past the regional park.\n"
+        confidence: "high"
+    notes: "The day and the hours are on this page, but not in its HTML — they are printed inside the page's own promotional graphic, which the catalogue predicted (\"If anything is to be read off this page it will be inside the images, so a fetch of the HTML will look empty\"). I downloaded /wp-content/uploads/2016/10/farmers-market-whats-on.jpg (200, 800x500, the full-size version of the thumbnail the page embeds) and read it: it reads \"Farmers Market\" over \"Every Wednesday from 10am to 2:30pm\". That is the host's own statement of both day and hours, so confidence is high, and it is also the image recorded on the event. Two corrections for stage 1. First, the catalogue's hint says the day survives in the parent URL slug /castlewest-shopping-market-every-wednesday/ which \"redirects here\" — that path now returns 404, not a redirect, so that hint is stale and the image is the only route to the day. Second, the 2:30pm close disagrees with both third-party figures the catalogue records as unconfirmed (2pm, and one saying 3pm); the host's own graphic is the primary source and 2:30pm is what it says. The extracted page text is 2KB of navigation and cookie notice with no market detail in it, as the catalogue says, so nothing was taken from it. og:image on this page is not an image at all — it is the page's own URL — so it was ignored."
+  - sourceId: "markets/wilton-farmers-market"
+    fetch:
+      ok: true
+      url: "https://www.tastecork.ie/food-producers/wilton-farmers-market"
+      status: 200
+    events:
+      - id: "markets/wilton-farmers-market#d362116092"
+        sourceId: "markets/wilton-farmers-market"
+        title: "Wilton Farmers Market"
+        occurrence:
+          kind: "recurring"
+          pattern: "\"a great mid-week option\" — no day and no hours are stated on any page reached today"
+        status: "scheduled"
+        url: "https://www.tastecork.ie/food-producers/wilton-farmers-market"
+        price:
+          free: true
+        tags:
+          - "farmers"
+          - "outdoor"
+          - "free-entry"
+          - "food-drink"
+        raw: "**Wilton Farmers Market**
+
+
+          \"With over 45 regular stalls serving up everything from burritos to locally
+
+          produced artisan meats, cheeses and veg, this busy market in the grounds of
+
+          a shopping centre in the suburb of Wilton is a great mid-week option -
+
+          especially if you want to stock up before heading to West Cork.\"
+
+
+          \"The Market gives customers a diverse range of naturally produced foods and
+
+          connects local producers and farmers to the public and restaurateurs in an
+
+          atmosphere that fosters community and fun.\"
+
+
+          \"Wilton Market takes the ethos of organic, locally sourced and seasonal very
+
+          seriously.\"
+
+
+          Farmers Market, Wilton Shopping Centre, Cork. +353 86 168 5312.\n"
+        summary: "One of the larger suburban farmers' markets — over forty-five stalls in the
+
+          grounds of Wilton Shopping Centre out by the hospital and the university —
+
+          trading midweek, though which day is not stated anywhere I could reach.\n"
+        description: "With over 45 regular stalls serving up everything from burritos to locally
+
+          produced artisan meats, cheeses and veg, this busy market in the grounds of
+
+          a shopping centre in the suburb of Wilton is a great mid-week option -
+
+          especially if you want to stock up before heading to West Cork.
+
+
+          The Market gives customers a diverse range of naturally produced foods and
+
+          connects local producers and farmers to the public and restaurateurs in an
+
+          atmosphere that fosters community and fun.
+
+
+          \"Wilton Market takes the ethos of organic, locally sourced and seasonal very
+
+          seriously.\"
+
+
+          Farmers Market, Wilton Shopping Centre, Cork.\n"
+        confidence: "low"
+    notes: "Recorded as recurring with the pattern in the page's own words, because that is genuinely all the page says about when it trades — \"a great mid-week option\" and nothing more. Confidence is low on the day for that reason. I deliberately did not adopt the \"Tuesday 10am-2pm\" the catalogue mentions from third-party listings: no page I read today printed it, and putting a specific day on a card on that basis would be asserting something I did not see. Taste Cork stands in as the source here because the market has no site of its own, and its page confirms the market, \"over 45 regular stalls\" and the location \"in the grounds of a shopping centre in the suburb of Wilton\". I did not follow its outbound \"own website\" link, http://www.wiltonmarketcork.com/, which the catalogue records as a re-registered domain now serving a Turkish online casino affiliate page at a healthy 200. No image: the page has no og:image and carries no photograph of the market. The contact number, 086 168 5312, is the same as Mahon Point's and Douglas's, consistent with the catalogue's reading that these are one operator."
+  - sourceId: "markets/harleys-streat"
+    fetch:
+      ok: true
+      url: "https://www.harleysstreat.com/"
+      status: 200
+    events:
+      - id: "markets/harleys-streat#4f06ec1f7d"
+        sourceId: "markets/harleys-streat"
+        title: "Harley's StrEAT Market"
+        occurrence:
+          kind: "undated"
+          note: "\"Please note we open for city events and festivals only. Please see our instagram for our opening hours\" — the site gives no days, dates or hours of its own"
+        status: "scheduled"
+        url: "https://www.harleysstreat.com/"
+        tags:
+          - "street-food"
+          - "outdoor"
+          - "food-drink"
+        raw: "**harley's Street cork food market**
+
+
+          \"From delicious cocktails and coffees to yummy Thai Seafood Spice Boxes and
+
+          BBQ Brisket Hash, made with locally sourced ingredients, you will be spoiled
+
+          for choice at our Harley's StrEAT Market in The VQ in Cork.\"
+
+
+          \"Come & stay or takeaway! We have plenty outdoor seating on Harley's Street,
+
+          available on a first come, first served basis.\"
+
+
+          **OPENING HOURS** — \"Summer is here. Please note we open for city events and
+
+          festivals only. Please see our instagram for our opening hours\"
+
+
+          (Cork City Council's casual trading bye-laws page, read today, states
+
+          something different: \"Harley Street – 12 noon to 9 pm Thursday to Sunday,
+
+          all year round.\")\n"
+        summary: "A street-food yard on Harley Street in the Victorian Quarter — outdoor
+
+          seating, cocktails and a handful of kitchens — which now opens only when
+
+          there is a city event or festival on, and publishes those days on Instagram
+
+          rather than on its own site.\n"
+        confidence: "low"
+    notes: "Deliberately recorded as one undated event rather than a standing weekly pattern, because a standing pattern is exactly what this site says it no longer has. Its own opening-hours block reads \"Please note we open for city events and festivals only. Please see our instagram for our opening hours\", which is a real listing with no usable date — hence `undated` with that sentence as the note, and confidence low. The contradiction the catalogue flags is confirmed from both sides today and left unresolved: the market's own site says events and festivals only, while Cork City Council's casual trading bye-laws page, which I also fetched today (200), still prints \"Harley Street – 12 noon to 9 pm Thursday to Sunday, all year round\". The council statement is what the licence permits and the site's is what the market does, which may be the whole explanation, but that is a judgement so both are recorded and neither is turned into a weekly occurrence. No image: the page's og:image is the market's circular wordmark logo, which I downloaded and looked at to be sure, so it is skipped as decoration. The hours genuinely live on Instagram, which the site does not mirror and which is not reachable by a plain fetch — see the note on markets/mother-jones-flea-market for what Instagram returns. This entry remains a good candidate for `dormant` on review."
+  - sourceId: "markets/mother-jones-flea-market"
+    fetch:
+      ok: false
+      url: "https://www.facebook.com/motherjonesfleamarket/"
+      status: 400
+      error: "Facebook returned HTTP 400 and an error page reading \"Sorry, something went wrong. We're working on getting this fixed as soon as we can.\" — no page content was retrievable"
+    events: []
+    notes: "Nothing was observable, so nothing is recorded, and this is a failure rather than an empty result. curl with a browser user-agent gets HTTP 400 and Meta's generic error page; a WebFetch of the same URL returns the page title \"Mother Jones Flea Market | Cork\" and no body at all, which confirms the page exists and is the right business but yields no hours, no address and no events. I also tried the alternative the catalogue suggests, https://www.instagram.com/motherjonesfleamarket/, which answers 200 with 606KB of JavaScript shell: the profile content is not in the HTML, there is no useful og:description, and the only occurrence of the account name is in a script variable. So Instagram is not a usable route for a plain fetch either, and that is worth recording as a hint rather than rediscovering next run. The widely repeated \"Friday, Saturday and Sunday, 10am to 6pm\" is not asserted here because no page I reached printed it, and events cannot be attached to a failed fetch in any case. The market is real and central — Thompson House, corner of York Street and MacCurtain Street — so this is a source that needs a browser or a different web presence, not a source that should be marked closed."
+  - sourceId: "markets/nano-nagle-place-craft-market"
+    fetch:
+      ok: true
+      url: "https://nanonagleplace.ie/tag/craft-markets-cork/"
+      status: 200
+    events: []
+    notes: "Reached, read, and genuinely nothing upcoming to record — an empty result rather than a failure. The tag archive resolves and carries exactly one post, \"A December to Remember\", whose own permalink is /nanoevents/christmas-markets-2024/: it advertises \"Christmas Craft Markets | 14th, 15th, 21st & 22nd | 11am-4pm\" and a \"Lantern Crochet Ladies Christmas Market | 15th December | 11:30am-2pm\", and those dates fall on weekends in 2024, so this page is two seasons out of date. I then fetched the full diary the catalogue names, https://nanonagleplace.ie/nanoevents/ (200), which splits upcoming from past and covers everything the site does. It lists no upcoming market of any kind. The most recent markets on it are both past: \"Nano Nagle Place Christmas Markets — 6th, 7th, 13th & 14th December 2025\" and \"The Lantern Project Crochet Ladies Christmas Market — 14th December 2025\". I chose not to back-date a finished 2024 or 2025 cluster into this run, since it would land on the site already retired and tells a reader nothing; the dates are here in the note instead, and they establish the cadence — two weekends of craft markets in early-to-mid December, announced in November. The site's upcoming events are a conservation talk, an exhibition and Heritage Week, which belong to other categories and were left. For stage 1: the tag archive is the weaker of the two catalogued routes and /nanoevents/ is the one that answers the question, so the `url` and `homepage` on this entry are arguably the wrong way round."
+  - sourceId: "markets/corkmas-christmas-market"
+    fetch:
+      ok: true
+      url: "https://www.corkcity.ie/en/a-cork-christmas-celebration/christmas-market/"
+      status: 200
+    events:
+      - id: "markets/corkmas-christmas-market#db119c20e5"
+        sourceId: "markets/corkmas-christmas-market"
+        title: "Corkmas Christmas Market"
+        occurrence:
+          kind: "run"
+          start: "2025-11-21"
+          end: "2025-12-22"
+        status: "scheduled"
+        timesText: "Thursdays 12pm-8pm (November 27; December 4, 11, 17); Fridays 12pm-9pm (November 21, 28; December 5, 12, 19); Saturdays 10am-9pm (November 22, 29; December 6, 13, 20); Sundays 10am-8pm (November 23, 30; December 7, 14, 21); Monday 10am-3pm, 22nd December ONLY"
+        venue:
+          name: "Emmet Place"
+          area: "City Centre"
+        url: "https://www.corkcity.ie/en/a-cork-christmas-celebration/christmas-market/"
+        image: "https://www.corkcity.ie/media/qu2geoxh/christmas-market-at-night-time.jpg?rmode=max&width=500"
+        price:
+          free: true
+        tags:
+          - "seasonal"
+          - "crafts"
+          - "family"
+          - "outdoor"
+          - "free-entry"
+        raw: "**Festive Market**
+
+
+          \"The Corkmas Christmas Market returns to Emmet Place for the 2025 season
+
+          from the 21st November to 22nd December.\"
+
+
+          \"Complete with wooden chalets offering gifts and snacks, Emmet Place will be
+
+          transformed into a Christmas village consisting of a broad mix of vendors
+
+          offering a range of festive delights and artisan crafts. Families will
+
+          wander through the Christmas Market, marvel at the glittering lights and
+
+          immerse in the festive atmosphere. Your perfect pitstop for supporting local
+
+          and soaking up the festive spirit at the heart of the city.\"
+
+
+          **Dates:** Friday 21st November to Monday 22nd December 2025. \"After the
+
+          opening weekend, the market will operate each week from Thursday to Sunday,
+
+          plus Monday 22nd December.\"
+
+
+          **Times: *Now extended*** — Thursdays 12pm-8pm; Fridays 12pm-9pm; Saturdays
+
+          10am-9pm; Sundays 10am-8pm; Monday 10am-3pm 22nd December ONLY.\n"
+        summary: "The city council's chalet market, a month of wooden huts selling crafts,
+
+          gifts and hot food filling Emmet Place outside the Opera House from the
+
+          November lights parade through to just before Christmas, Thursday to Sunday
+
+          each week.\n"
+        confidence: "medium"
+    notes: "This page is out of season and I have recorded what it says rather than inferring anything from the staleness, which is what the catalogue asks for. Read today, in August 2026, it still describes the 2025 season and says so explicitly — \"returns to Emmet Place for the 2025 season from the 21st November to 22nd December\" — so it is recorded as a run with its real 2025 dates. It will derive as finished immediately, which is correct, and firstSeen will show when the 2026 dates land. I also fetched /en/a-cork-christmas-celebration/news/ (200), which the catalogue names as where next season's dates appear first: its latest post is dated 9 December 2025, so no 2026 dates have been announced. Recorded as one run with the per-weekday date list kept verbatim in timesText rather than expanded into about twenty dated singles for a season that is over. One error on the council's own page, which is why confidence is medium: it lists \"December 17\" under Thursdays, but 17 December 2025 was a Wednesday. Every other date on the page matches the weekday it is printed under, including the run's own start (Friday 21 November) and end (Monday 22 December), so the run itself is sound and the discrepancy is confined to that one entry. venue is set to Emmet Place because the source is a festival rather than a place, and because the catalogue's own correction is that this market is on Emmet Place — Grand Parade gets the Ferris wheel and carousel, which are rides rather than a market. Not extracted: a choir timetable of seven slots across four dates, and a trader table of about twenty vendors."
+  - sourceId: "markets/cork-kerry-food-market"
+    fetch:
+      ok: true
+      url: "https://corkkerryfoodfestival.com/"
+      status: 200
+    events:
+      - id: "markets/cork-kerry-food-market#40d70d9e52"
+        sourceId: "markets/cork-kerry-food-market"
+        title: "Cork & Kerry Food Market"
+        occurrence:
+          kind: "run"
+          start: "2026-10-31"
+          end: "2026-11-01"
+        status: "scheduled"
+        venue:
+          sourceId: "music/cork-city-hall"
+        url: "https://corkkerryfoodfestival.com/"
+        image: "https://corkkerryfoodfestival.com/wp-content/uploads/2025/03/CKFF_Banner2-1-1024x410.jpeg"
+        price:
+          free: false
+        tags:
+          - "food-drink"
+          - "festival"
+          - "tasting"
+          - "family"
+        raw: "**Sat 31 October and Sun 1 November**
+
+
+          \"Cork & Kerry Food Market returns this Halloween Weekend, Saturday 31st
+
+          October and Sunday 1st November 2026, at Cork City Hall\"
+
+
+          \"Tickets Available Soon\". VIP Passes and stand enquiries are advertised.\n"
+        summary: "Two days of artisan producers from Cork and Kerry filling Cork City Hall
+
+          over the Halloween bank holiday weekend — the same weekend the jazz festival
+
+          takes the rest of the city — with tasting stands and a cookery stage.\n"
+        confidence: "high"
+    notes: "A thin one-page shell, as the catalogue says: roughly 500 characters of readable text and the substance on Instagram. The dates were got three times over from the same page and agree — a banner line reading \"Sat 31 October and Sun 1 November\", body copy giving \"Saturday 31st October and Sunday 1st November 2026, at Cork City Hall\", and an og:description repeating it — and both weekdays check out for 2026 (31 October is a Saturday, 1 November a Sunday), so confidence is high. Recorded as one run across the weekend rather than two singles. venue is set to music/cork-city-hall because this source is a festival rather than a place and the market borrows the hall; City Hall is catalogued under music, so the id alone resolves the address at compile time. price is free:false on the strength of \"Tickets Available Soon\" and the VIP pass link, with no text because no figure is printed yet. Two things for stage 1: the site brands itself \"Cork and Kerry Food Festival\" throughout while its own copy calls the event a market, and its \"View 2025 STAGE Schedule\" link still points at last year's programme, so the stage timetable for this year is not published. og:image is a generated s0.wp.com roundel, so the page's own header banner is used instead; I looked at it to check it is promotional artwork rather than a bare logo, and it is."
+  - sourceId: "markets/cork-city-council-casual-trading"
+    fetch:
+      ok: true
+      url: "https://www.corkcity.ie/en/council-services/public-info/events-hosting-and-licences/casual-trading-licences/"
+      status: 200
+    events: []
+    notes: "A licensing page, and it produces no dated events at all, which the catalogue says plainly — so this is a real empty result rather than a failure, and its value this run was as a cross-check and as the only reachable statement of Blackrock's trading days. The nine designated areas and their permitted days, verbatim from the FAQ headed \"What days do Designated Trading Areas operate?\": \"Ballincollig Regional Park - In line with park opening hours\"; \"Murphy's Farm, Bishopstown - In line with park opening hours\"; \"Clogheenmilcon Walkway, Blarney- 9am to 6 pm every day\"; \"Fitzgerald's Park - In line with park opening hours\"; \"Cornmarket/Kyle Street – Saturdays all year round\"; \"Harley Street – 12 noon to 9 pm Thursday to Sunday, all year round\"; \"Douglas Park - In line with park opening hours\"; \"Blackrock Market – Sundays and Bank Holidays all year round\"; \"Harty's Quay Car Park - 9 am until 6 pm Saturday, Sunday and Bank Holidays all year round\". Three uses this run: the Blackrock line is the source of that market's recurring event, since iomst.ie is walled; the Cornmarket line agrees with the council attractions page on Saturday and gives no hours, so it settles nothing about the 9am-versus-8.30am dispute; and the Harley Street line is one half of the contradiction recorded on markets/harleys-streat. Worth a human's attention: four designated areas still have no catalogued market against them — Murphy's Farm, Clogheenmilcon Walkway, Harty's Quay and Fitzgerald's Park — and the Douglas Park designation is a third candidate location for the Douglas market. Not extracted: the fee table, the insurance requirements and the application routes."
+  - sourceId: "markets/taste-cork-food-markets"
+    fetch:
+      ok: true
+      url: "https://www.tastecork.ie/explore-cork/food-markets/farmers-markets/cork-city"
+      status: 200
+    events: []
+    notes: "Reached and read in full, and no events recorded from it deliberately — all four markets it lists are standing weekly markets that are already catalogued sources in this same category, and each is recorded under its own id from its own page. Re-recording them here would put four duplicate cards beside four real ones, so I applied the rule the catalogue states for this category's aggregators: match a listing against the catalogue's recurring entries before recording it. Everything the directory said is here instead, verbatim, and it is the evidence behind three other observations in this file. \"Mahon Point Farmers Market — Held every Thursday from 10am to 3pm. One of the biggest and the best weekday markets is Mahon Point Farmer's Market\". \"Coal Quay Farmers Market — Held every Saturday from 8.30 am. At the other end of the scale from Mahon Point – This small-yet-mighty food & farmer's market in the historic he...\". \"Wilton Farmers Market — With over 45 regular stalls serving up everything from burritos to locally produced artisan meats, cheeses and veg, this busy market in the grounds...\" with no day given at all. \"Douglas Village Farmers Market — A little outside the city centre, the suburb of Douglas hosts an impressive Farmer's Market every Saturday from 10am to 2pm.\" Two of those contradict the venues' own pages and both contradictions are recorded on the venue entries rather than resolved: 3pm against Mahon Point's own 2pm, and 8.30am against the council's 9am–2pm for Coal Quay. The Douglas line is the only statement of that market's day and hours I found anywhere, and is used on markets/douglas-farmers-market with the attribution stated. I did not follow any outbound \"own website\" link; the catalogue records two of the four as re-registered domains serving unrelated businesses at a healthy 200, and that is exactly the failure a status check does not catch. The county-wide sibling path and the JavaScript /whats-on diary were not fetched, per the hints."
+  - sourceId: "markets/pure-cork-food-drink-events"
+    fetch:
+      ok: true
+      url: "https://www.purecork.ie/whats-on/categories/food-drink-events"
+      status: 200
+    events:
+      - id: "markets/pure-cork-food-drink-events#eda707bad4"
+        sourceId: "markets/pure-cork-food-drink-events"
+        title: "Reusab-alt Pop Up Shop"
+        subcategory: "Food & Drink Events"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Monday and Tuesday"
+          startTime: "16:00"
+        status: "scheduled"
+        venue:
+          sourceId: "music/fred-zeppelins"
+        url: "https://www.purecork.ie/whats-on/11199223/reusab-alt-pop-up-shop"
+        image: "https://www.purecork.ie/media/event_images/orig/2026feb_5139808.png"
+        price:
+          free: true
+          text: "€0"
+          currency: "EUR"
+        tags:
+          - "textiles"
+          - "crafts"
+          - "free-entry"
+          - "weekly"
+        raw: "**Reusab-alt Pop Up Shop** — Fred Zeppelins, Parliament St. Mondays and
+
+          Tuesdays, 4:00 pm.
+
+
+          \"Every Monday and Tuesday Reuseabl-ALT does an amazing pop-up alternative
+
+          clothing shop upstairs in the venue in Freds. Their stock is full of amazing
+
+          curated vintage and preloved items, from denim to leather to spikes to
+
+          patches. They promote freedom of expression minus fast fashion. Patches,
+
+          denim, leather, accessories. They have it all. They do a new drop every
+
+          Thursday, so pop along early to get first dibs.\"\n"
+        summary: "A twice-weekly vintage and preloved clothing pop-up in the room above Fred
+
+          Zeppelins on Parliament Street — denim, leather, patches and spikes, restocked
+
+          every Thursday, free to browse.\n"
+        description: "Every Monday and Tuesday Reuseabl-ALT does an amazing pop-up alternative
+
+          clothing shop upstairs in the venue in Freds. Their stock is full of amazing
+
+          curated vintage and preloved items, from denim to leather to spikes to
+
+          patches. They promote freedom of expression minus fast fashion. Patches,
+
+          denim, leather, accessories. They have it all. They do a new drop every
+
+          Thursday, so pop along early to get first dibs.\n"
+        confidence: "high"
+      - id: "markets/pure-cork-food-drink-events#5c592eaedc"
+        sourceId: "markets/pure-cork-food-drink-events"
+        title: "Hands-on Beekeeping Experience At Hanna's Bees"
+        subcategory: "Food & Drink Events"
+        occurrence:
+          kind: "single"
+          date: "2026-08-23"
+        status: "scheduled"
+        timesText: "Pure Cork prints 10:30 pm, which looks like an am/pm error; no other time is given"
+        venue:
+          name: "Hanna's Bees"
+          area: "Little Island"
+          address:
+            street: "Clash Cottage, Clash Road"
+            locality: "Little Island"
+            city: "Cork"
+            country: "Ireland"
+            lat: 51.89781371273455
+            lon: -8.343901634216309
+        url: "https://www.purecork.ie/whats-on/11201133/hands-on-beekeeping-experience-at-hannas-bees"
+        image: "https://www.purecork.ie/media/event_images/orig/2026aug_1837865.jpeg"
+        price:
+          free: false
+          text: "€125"
+          min: 125
+          max: 125
+          currency: "EUR"
+        tags:
+          - "hands-on"
+          - "tasting"
+          - "nature"
+          - "booking-required"
+          - "food-drink"
+        raw: "**Hands-on Beekeeping Experience At Hanna's Bees** — Sun 23 Aug 2026. Clash
+
+          Cottage, Clash Road, Little Island, Cork. €125.
+
+
+          \"Experience beekeeping in a traditional Irish cottage garden, where our native
+
+          Irish honey bees play a vital part in the homestead ecosystem.\" \"Suit up and
+
+          step inside a working apiary with beekeeper Hanna Bäckmo, open a beehive and
+
+          get a close-up look at a living honey bee colony.\" \"Advance booking is
+
+          essential. Places are limited.\"\n"
+        summary: "A morning in a working cottage apiary at Little Island: suit up, open a hive
+
+          with beekeeper Hanna Bäckmo, walk the pollinator garden, and taste a flight of
+
+          seasonal Irish honeys.\n"
+        description: "Experience beekeeping in a traditional Irish cottage garden, where our native
+
+          Irish honey bees play a vital part in the homestead ecosystem. Surrounded by
+
+          flowers, herbs, fruit and seasonal kitchen garden produce, this hands-on
+
+          experience takes guests through the pollinator-rich garden and into the apiary
+
+          to observe how bees make honey, from flower to jar.
+
+
+          Suit up and step inside a working apiary with beekeeper Hanna Bäckmo, open a
+
+          beehive and get a close-up look at a living honey bee colony. The experience
+
+          also includes a guided tasting of seasonal Irish honeys, refreshments and
+
+          plenty of time to ask questions about bees, beekeeping and the important
+
+          relationship between pollinators, gardens and our food.
+
+
+          Gain an insight into a slower, more connected way of living while learning
+
+          about bees, pollination and honey production as part of everyday life in a
+
+          working cottage garden.
+
+
+          Advance booking is essential. Places are limited.\n"
+        confidence: "medium"
+      - id: "markets/pure-cork-food-drink-events#a1cd11b3f3"
+        sourceId: "markets/pure-cork-food-drink-events"
+        title: "Clothes Cycle Cork"
+        subcategory: "Food & Drink Events"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+          startTime: "11:00"
+        status: "scheduled"
+        venue:
+          sourceId: "markets/marina-market"
+        url: "https://www.purecork.ie/whats-on/11201184/clothes-cycle-cork"
+        image: "https://www.purecork.ie/media/event_images/orig/2026aug_4852178.jpg"
+        price:
+          free: false
+          text: "€5 - €8.50"
+          min: 5
+          max: 8.5
+          currency: "EUR"
+        tags:
+          - "textiles"
+          - "crafts"
+          - "dj"
+          - "street-food"
+          - "booking-required"
+        raw: "**Clothes Cycle Cork** — Sat 12 Sep 2026, 11:00 am. Marina Market, Centre Park
+
+          Road, Cork. €5 - €8.50.
+
+
+          \"On Saturday 12th September, Clothes Cycle will take over the iconic Marina
+
+          Market, transforming it into a one-day thrifting festival. The event will bring
+
+          together more than 100 local vintage and preloved fashion sellers for a huge day
+
+          of shopping, music, food, and sustainable fashion.\"\n"
+        summary: "A one-day thrifting festival filling Marina Market: a hundred-plus vintage and
+
+          preloved sellers, from archive designer pieces to €2 bargain rails, with DJs, a
+
+          free clothes swap and a free alteration station.\n"
+        description: "On Saturday 12th September, Clothes Cycle will take over the iconic Marina
+
+          Market, transforming it into a one-day thrifting festival. The event will bring
+
+          together more than 100 local vintage and preloved fashion sellers for a huge
+
+          day of shopping, music, food, and sustainable fashion.
+
+
+          Far more than a vintage market, Clothes Cycle has become one of the UK's
+
+          fastest-growing fashion events, creating a completely new way to experience
+
+          second-hand shopping. From archive designer pieces and curated vintage
+
+          collections to €2 bargain rails, visitors can expect something for every style
+
+          and every budget.
+
+
+          Whether you're a serious vintage collector, looking to refresh your wardrobe
+
+          sustainably, or simply after a great day out with friends, Clothes Cycle
+
+          promises an experience unlike any other currently on offer in Ireland.
+
+
+          Visitors can expect:
+
+
+          - A free, all-day clothes swap - bring up to five items and swap them for
+
+          \  something new.
+
+          - DJs and live music throughout the day.
+
+          - Street food, a fully stocked bar, and plenty of chill-out areas and outdoor
+
+          \  seating.
+
+          - A free alteration station.
+
+          - Pop-ups including permanent jewellery, tooth gems, and tattoos.
+
+          - Thousands of curated vintage pieces.
+
+          - Fun giveaways throughout the day, including free tote bags for the first 150
+
+          \  attendees.\n"
+        confidence: "high"
+      - id: "markets/pure-cork-food-drink-events#1c0a49ce0b"
+        sourceId: "markets/pure-cork-food-drink-events"
+        title: "Cork Mind Body Experience"
+        subcategory: "Food & Drink Events"
+        occurrence:
+          kind: "run"
+          start: "2026-09-12"
+          end: "2026-09-13"
+        status: "scheduled"
+        timesText: "Saturday & Sunday 10 am to 7 pm"
+        venue:
+          sourceId: "music/cork-city-hall"
+        url: "https://www.purecork.ie/whats-on/11199271/cork-mind-body-experience"
+        image: "https://www.purecork.ie/media/event_images/orig/2026jun_8968137.png"
+        price:
+          free: true
+          text: "Free Admission"
+          currency: "EUR"
+        tags:
+          - "wellbeing"
+          - "free-entry"
+          - "workshop"
+          - "talk"
+        raw: "**Cork Mind Body Experience** — Cork City Hall, 12th & 13th September 2026,
+
+          Saturday & Sunday 10 am to 7 pm. Free Admission.
+
+
+          \"Ireland's Largest Holistic Event returns to the Cork City Hall on the 12th &
+
+          13th of September 2026, with Free Admission, 100 Exhibitors, and 100
+
+          Complimentary Talks, Workshops & Classes. The event is comprised of four
+
+          different elements all in one venue, the Mind Body Soul Expo, the Yoga and
+
+          Meditation Festival, Conscious Life Cork, the Cork Psychic Fair, and the Live
+
+          Well - Talks & Workshops.\"\n"
+        summary: "A free two-day holistic fair filling City Hall: a hundred exhibitor stands
+
+          across four strands — expo, yoga and meditation festival, psychic fair and a
+
+          talks programme — with a hundred free classes and workshops running alongside.\n"
+        description: "Cork Mind Body Experience
+
+
+          Free Admission: Cork City Hall, Cork - 12th & 13th September 2026, Saturday &
+
+          Sunday 10 am to 7 pm
+
+
+          Ireland's Largest Holistic Event returns to the Cork City Hall on the 12th &
+
+          13th of September 2026, with Free Admission, 100 Exhibitors, and 100
+
+          Complimentary Talks, Workshops & Classes.
+
+
+          The event is comprised of four different elements all in one venue, the Mind
+
+          Body Soul Expo, the Yoga and Meditation Festival, Conscious Life Cork, the Cork
+
+          Psychic Fair, and the Live Well - Talks & Workshops.\n"
+        confidence: "medium"
+      - id: "markets/pure-cork-food-drink-events#03d1e8af55"
+        sourceId: "markets/pure-cork-food-drink-events"
+        title: "'Projection Gourmande', French Dinner and Film"
+        subcategory: "Food & Drink Events"
+        occurrence:
+          kind: "single"
+          date: "2026-10-09"
+          startTime: "19:00"
+        status: "scheduled"
+        timesText: "7 pm to 10.30 pm"
+        venue:
+          name: "Metropole Hotel"
+          area: "Victorian Quarter"
+          address:
+            street: "MacCurtain Street"
+            city: "Cork"
+            country: "Ireland"
+            lat: 51.90136380021857
+            lon: -8.467691322040423
+        url: "https://www.purecork.ie/whats-on/11199872/projection-gourmande-french-dinner-and-film"
+        image: "https://www.purecork.ie/media/event_images/orig/2026jul_8989211.jpg"
+        price:
+          free: false
+          text: "€91"
+          min: 91
+          max: 91
+          currency: "EUR"
+        tags:
+          - "food-drink"
+          - "screening"
+          - "tasting"
+          - "booking-required"
+        raw: "**'Projection Gourmande', French Dinner and Film** — Friday 9th October, 7 pm to
+
+          10.30 pm, The Metropole Hotel (Mac Curtain Street, Cork, Douglas Vance Suite).
+
+          €91.
+
+
+          \"'Projection Gourmande' is an immersive night of French Flavour & Film organised
+
+          by Alliance Française de Cork in partnership with The Metropole Hotel in Cork.\"
+
+          \"Guests will enjoy a specially designed four-course French dining experience
+
+          inspired by regional dishes from across France, followed by a screening of the
+
+          acclaimed French film Sugar & Stars (2023).\"\n"
+        summary: "Alliance Française de Cork's four-course French dinner in the Metropole's
+
+          Douglas Vance Suite, followed by a screening of Sugar & Stars — a film about a
+
+          young chef — with the menu built by the hotel group's French executive chef.\n"
+        description: "'Projection Gourmande' is an immersive night of French Flavour & Film organised
+
+          by Alliance Française de Cork in partnership with The Metropole Hotel in Cork on
+
+          Friday 9th October from 7 pm to 10.30 pm at The Metropole Hotel (Mac Curtain
+
+          Street, Cork, Douglas Vance Suite).
+
+
+          Guests will enjoy a specially designed four-course French dining experience
+
+          inspired by regional dishes from across France, followed by a screening of the
+
+          acclaimed French film Sugar & Stars (2023), a heartwarming cinematic story
+
+          centred on the journey of a young French chef pursuing his culinary dreams.
+
+
+          Menu curated by Trigon Hotels French Executive Chef Alex Petit and Alliance
+
+          Française de Cork President Valérie David-Mc Gonnell.\n"
+        confidence: "high"
+    notes: "The JSON-LD read strategy the catalogue names works: the category page embeds one ItemList of 23 entries, each with a name, a start date, a Place with street address and coordinates, an image and a truncated description. 23 entries came back as 5 events, and the collapsing is the whole point. Eighteen of the 23 are the same weekly \"Reusab-alt Pop Up Shop\" at Fred Zeppelins, published as one dated entry per Monday and Tuesday from 17 August to 13 October — its own description says \"Every Monday and Tuesday\", so it is one recurring event here, not eighteen. That is precisely the flood the catalogue warns about. Two further entries are the two days of Cork Mind Body Experience, recorded as one run. Because five distinct events is a thin index, I opened all five event pages, which is where the full descriptions, the start times, the prices and the coordinates come from — the ItemList descriptions are truncated mid-sentence and the ItemList carries no time or price at all. Venues: three resolve to catalogued sources and are set by sourceId (music/fred-zeppelins, markets/marina-market, music/cork-city-hall); two are not catalogued and carry a name plus the coordinates Pure Cork geocoded. Clothes Cycle on 12 September is the same event Marina Market lists on its own diary, recorded there too — the two rows differ in price, since Marina Market's page prints no figure and Pure Cork gives €5 - €8.50. Two of the five have an am/pm problem in Pure Cork's own data and are held at medium confidence: the beekeeping experience is printed as \"10:30 pm\", which cannot be right for an outdoor apiary visit and for which the description gives no alternative, so no startTime is recorded and the printed value is in timesText; and Cork Mind Body Experience is printed as \"10:00 pm\" while its own description says \"Saturday & Sunday 10 am to 7 pm\", so the description's hours are in timesText and no startTime is set. Two of the five — the beekeeping experience and the French dinner-and-film — are food experiences rather than markets or pop-ups, which does not match what the catalogue says this source is for; they are recorded because this route is catalogued only under markets and would otherwise go unobserved, and their tags say what they are. Nothing was truncated: all 23 entries were accounted for."
+  - sourceId: "markets/iomst-cork-markets"
+    fetch:
+      ok: false
+      url: "https://iomst.ie/markets-cork/"
+      status: 202
+      error: "robot challenge: 202 with a meta refresh to /.well-known/sgcaptcha/; fetching the challenge with a browser user-agent and a cookie jar returns a real \"Robot Challenge Screen\" and retrying the path still gives 202"
+    events: []
+    notes: "A genuine wall, not a stale URL and not a dead site, so nothing is recorded and this must not be read as the aggregator having nothing on. I did more than fetch once: /markets-cork/ answered 202 with a meta refresh to /.well-known/sgcaptcha/, I fetched that challenge with a browser user-agent and a cookie jar and got 200 on a page titled \"Robot Challenge Screen\" reading \"Checking the site connection security\", then retried /markets-cork/ carrying the cookies and got 202 again with a fresh challenge token. The loop is closed to a plain fetch and needs a real browser. The same wall blocks /markets/blackrock-village-sunday-market/, which is the other IOMST entry in this category; the consequence is that the small volunteer-run markets IOMST is catalogued for are unobservable, and Blackrock's trading days had to come from Cork City Council's licensing page instead. IOMST's Cork index, its per-market pages and its dated diary at /whats-on/ were all unreadable, so the market list on /markets-cork/ remains unverified for a second run in a row. For stage 1: this source is worth either a browser route or a note that it cannot be harvested by the current fetcher."

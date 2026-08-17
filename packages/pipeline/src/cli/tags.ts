@@ -9,8 +9,8 @@ import { resolveLocations } from "../lib/locations.js";
  * be followed and the vocabulary drifts into `family` / `family-friendly` /
  * `for-families`, which makes tag filtering useless.
  *
- *   npm run tags -- bristol-uk           vocabulary with counts, plus warnings
- *   npm run tags -- bristol-uk --list    bare slugs, for pasting into a prompt
+ *   npm run tags -- gb-bristol           vocabulary with counts, plus warnings
+ *   npm run tags -- gb-bristol --list    bare slugs, for pasting into a prompt
  */
 
 const { locations, rest } = resolveLocations();

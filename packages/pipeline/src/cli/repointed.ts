@@ -18,9 +18,9 @@ import { walk } from "../lib/paths.js";
  * started from — an agent that navigated from a homepage to /whats-on would
  * look like a re-pointed source forever.
  *
- *   npm run repointed -- bristol-uk              vs HEAD
- *   npm run repointed -- bristol-uk --since <ref>
- *   npm run repointed -- bristol-uk --ids        bare ids, for scripting
+ *   npm run repointed -- gb-bristol              vs HEAD
+ *   npm run repointed -- gb-bristol --since <ref>
+ *   npm run repointed -- gb-bristol --ids        bare ids, for scripting
  */
 
 const { locations, rest } = resolveLocations();

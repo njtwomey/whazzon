@@ -4,7 +4,7 @@
 # files. These targets follow the same grain: each one does a single stage's
 # work and stops.
 
-LOCATION ?= bristol-uk
+LOCATION ?= gb-bristol
 TODAY := $(shell date +%F)
 
 .DEFAULT_GOAL := help
@@ -111,10 +111,10 @@ refresh: validate compile sync ## Validate, recompile and sync one location
 remock: mock refresh ## Regenerate mock data, then recompile and sync
 
 refresh-bristol: ## Refresh Bristol specifically
-	@$(MAKE) refresh LOCATION=bristol-uk
+	@$(MAKE) refresh LOCATION=gb-bristol
 
 refresh-cork: ## Refresh Cork specifically
-	@$(MAKE) refresh LOCATION=cork-ie
+	@$(MAKE) refresh LOCATION=ie-cork
 
 refresh-all: ## Recompile and sync every configured location
 	npm run validate -- --all
@@ -123,7 +123,7 @@ refresh-all: ## Recompile and sync every configured location
 	done
 	npm run sync-web -- --all
 
-refresh-%: ## Refresh any location by id, e.g. make refresh-bristol-uk
+refresh-%: ## Refresh any location by id, e.g. make refresh-gb-bristol
 	@$(MAKE) refresh LOCATION=$*
 
 ## ---------------------------------------------------------------- housekeeping

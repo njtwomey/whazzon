@@ -1,0 +1,2732 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-08-16"
+category: "museums"
+harvestedAt: "2026-08-16T17:20:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "2"
+model: "claude-opus-5"
+observations:
+  - sourceId: "museums/bristol-museum-art-gallery"
+    fetch:
+      ok: true
+      url: "https://www.bristolmuseums.org.uk/bristol-museum-and-art-gallery/whats-on/"
+      status: 200
+    events:
+      - id: "museums/bristol-museum-art-gallery#d09fe649f5"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "Bristol Museum & Art Gallery permanent collections"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/bristol-museum-and-art-gallery/"
+        tags:
+          - "permanent-collection"
+          - "exhibition"
+          - "family"
+        raw: "**Bristol Museum & Art Gallery** — Explore collections of art, nature,
+
+          world cultures and history on display in this beautiful building.\n"
+        summary: "The city's flagship museum, mixing fine art, natural history, Egyptology, world cultures and Bristol's own story across a grand Edwardian Baroque building on Queens Road."
+        confidence: "medium"
+      - id: "museums/bristol-museum-art-gallery#d97b243b61"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "Highlights Tour: Bristol Museum & Art Gallery"
+        subcategory: "Talks, tours and workshops"
+        occurrence:
+          kind: "run"
+          start: "2024-04-02"
+          end: "2027-12-31"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/highlights-tour-bristol-museum-art-gallery/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2024/04/bmag-welcome-tours-256x144.jpg"
+        tags:
+          - "guided-tour"
+          - "heritage"
+        raw: "2 April 2024—31 December 2027
+
+
+          TOUR: Welcome to Bristol Museum & Art Gallery! Our welcome tour offers you
+
+          a captivating introduction to the magnificent building and extensive
+
+          collections housed within our walls.\n"
+        summary: "The museum's standing welcome tour — an orientation to the building and the sweep of its collections, running on selected dates across a long open window."
+        confidence: "high"
+      - id: "museums/bristol-museum-art-gallery#8bc6090af7"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "Highlights Tour: Difficult Conversations at Bristol Museum & Art Gallery"
+        subcategory: "Talks, tours and workshops"
+        occurrence:
+          kind: "run"
+          start: "2024-04-02"
+          end: "2027-12-31"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/highlight-tour-difficult-conversations/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2024/04/bmag-welcome-tours-256x144.jpg"
+        tags:
+          - "guided-tour"
+          - "talk"
+          - "heritage"
+        raw: "2 April 2024—31 December 2027
+
+
+          TOUR: Our Difficult Conversations tour offers you a different view of our
+
+          collections and an insight into the complex ethics of museums in the
+
+          modern world.\n"
+        summary: "A guided route through the collection that confronts how the objects were acquired, and what a civic museum owes to the places they came from."
+        confidence: "high"
+      - id: "museums/bristol-museum-art-gallery#af6c226439"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "Highlights Tour: Hidden Histories, Women Artists, Muses and Rebels"
+        subcategory: "Talks, tours and workshops"
+        occurrence:
+          kind: "run"
+          start: "2025-04-02"
+          end: "2027-03-31"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/highlight-tours-hidden-histories-women-artists-muses-and-rebels/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2025/07/Bristol-Museums-Newsletter-Images-7-256x144.jpg"
+        tags:
+          - "guided-tour"
+          - "exhibition"
+        raw: "2 April 2025—31 March 2027
+
+
+          TOUR: This tour guides you through Bristol Museum's Art Galleries,
+
+          focusing on women's stories from our art collection and highlighting work
+
+          by women artists.\n"
+        summary: "A tour of the art galleries told through the women in them — as makers rather than only as subjects."
+        confidence: "medium"
+      - id: "museums/bristol-museum-art-gallery#d339ca7677"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "Highlight Tours: Bristol's Dinosaurs"
+        subcategory: "Talks, tours and workshops"
+        occurrence:
+          kind: "run"
+          start: "2025-06-01"
+          end: "2027-03-31"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/highlight-tours-bristols-dinosaurs/"
+        tags:
+          - "guided-tour"
+          - "family"
+          - "kids"
+        raw: "1 June 2025—31 March 2027
+
+
+          TOUR: Let us take you on an imaginary trip back in time to meet the
+
+          dinosaurs of Bristol Museum & Art Gallery!\n"
+        summary: "A family-pitched tour of the museum's dinosaur material, including the species found in the rocks around Bristol itself."
+        confidence: "high"
+      - id: "museums/bristol-museum-art-gallery#9b9f6bde34"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "Highlights Tour: Treasures of Bristol Museum and Art Gallery"
+        subcategory: "Talks, tours and workshops"
+        occurrence:
+          kind: "run"
+          start: "2026-01-10"
+          end: "2026-12-31"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/highlight-tour-treasures-of-bristol-museum-and-art-gallery/"
+        tags:
+          - "guided-tour"
+          - "heritage"
+        raw: "10 January—31 December 2026
+
+
+          TOUR: Bristol Museum and Art Gallery is a treasure house of beautiful
+
+          things!\n"
+        summary: "A greatest-hits walk-round for visitors who want the standout objects without working through every gallery."
+        confidence: "high"
+      - id: "museums/bristol-museum-art-gallery#468ccd9040"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "The Neon Hieroglyph by Tai Shani"
+        subcategory: "Exhibitions"
+        occurrence:
+          kind: "run"
+          start: "2026-02-10"
+          end: "2026-09-13"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/neon-hieroglyph/"
+        tags:
+          - "exhibition"
+        raw: "10 February—13 September 2026
+
+
+          EXHIBITION: The Neon Hieroglyph is a feature-length 57-minute video
+
+          installation by artist Tai Shani.\n"
+        summary: "A feature-length video installation by Turner Prize winner Tai Shani, in its closing month at the museum."
+        confidence: "high"
+      - id: "museums/bristol-museum-art-gallery#599a66bcba"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "Mini-museum hunt! 50 years of Aardman"
+        subcategory: "Families"
+        occurrence:
+          kind: "run"
+          start: "2026-02-13"
+          end: "2026-09-13"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/mini-museum-hunt-aardman/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2026/02/Bristol-Museums-Website-Images-1-256x144.jpg"
+        tags:
+          - "family"
+          - "kids"
+          - "drop-in"
+          - "hands-on"
+        raw: "13 February—13 September 2026
+
+
+          ACTIVITY: Families and curious explorers of all ages can pick up a
+
+          detective map and track down all the Aardman secret treasures.\n"
+        summary: "A pick-up-and-go trail sheet that sends families hunting Aardman characters hidden through the galleries, tied to the studio's 50th anniversary."
+        confidence: "high"
+      - id: "museums/bristol-museum-art-gallery#12023a49a7"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "The Lost Paintings: A Prelude to Return اللوحات المفقودة: تمهيد للعودة"
+        subcategory: "Exhibitions"
+        occurrence:
+          kind: "run"
+          start: "2026-06-19"
+          end: "2026-09-27"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/lost-paintings/"
+        tags:
+          - "exhibition"
+        raw: "19 June—27 September 2026
+
+
+          EXHIBITION: Discover a remarkable story of art reclaimed and reimagined
+
+          from a group of Palestinian artists.\n"
+        summary: "An exhibition tracing works by Palestinian artists that were lost and then recovered or remade, shown alongside a season of related panel discussions."
+        confidence: "high"
+      - id: "museums/bristol-museum-art-gallery#f5c27ea30d"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "In Conversation: Haifa – Culture, Loss and Art Resistance"
+        subcategory: "Online"
+        occurrence:
+          kind: "single"
+          date: "2026-08-26"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/in-conversation-haifa/"
+        tags:
+          - "talk"
+          - "one-night"
+        raw: "26 August 2026
+
+
+          PANEL DISCUSSION: Explore Haifa's cultural and artistic history while
+
+          reflecting on the continuing realities of life in the city.\n"
+        summary: "First of the panel discussions programmed around The Lost Paintings, on Haifa's artistic life past and present. Listed as an online event."
+        confidence: "high"
+      - id: "museums/bristol-museum-art-gallery#8717b2e740"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "The Bristol Tapestry Talk"
+        subcategory: "Talks, tours and workshops"
+        occurrence:
+          kind: "run"
+          start: "2026-09-04"
+          end: "2026-12-04"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/bristol-tapestry-talk/"
+        tags:
+          - "talk"
+          - "heritage"
+        raw: "4 September—4 December 2026
+
+
+          TALK: Explore the story of how The Bristol Tapestry came to be made at
+
+          this talk.\n"
+        summary: "A repeating talk on the making of the Bristol Tapestry, running on selected dates through the autumn."
+        confidence: "high"
+      - id: "museums/bristol-museum-art-gallery#fec113c589"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "Bristol Museum Morning Yoga"
+        subcategory: "Special events"
+        occurrence:
+          kind: "run"
+          start: "2026-09-06"
+          end: "2026-12-20"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/bristol-museum-morning-mindfulness-2/"
+        tags:
+          - "booking-required"
+          - "wellbeing"
+        raw: "6 September—20 December 2026
+
+
+          EXPERIENCE: Join us for Sunday morning yoga in the Enlightenment Gallery
+
+          this year.\n"
+        summary: "Sunday morning yoga held among the cases of the Enlightenment Gallery, on selected Sundays through to Christmas."
+        confidence: "high"
+      - id: "museums/bristol-museum-art-gallery#23f1113ee8"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "In Conversation: Sustaining Palestinian Culture in Gaza"
+        subcategory: "Online"
+        occurrence:
+          kind: "single"
+          date: "2026-09-09"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/in-conversation-culture/"
+        tags:
+          - "talk"
+          - "one-night"
+        raw: "9 September 2026
+
+
+          PANEL DISCUSSION: This panel will look at the different ways people are
+
+          working to protect and celebrate Palestinian culture.\n"
+        summary: "Panel on the practical work of keeping Palestinian cultural life going in Gaza, part of The Lost Paintings season. Listed as an online event."
+        confidence: "high"
+      - id: "museums/bristol-museum-art-gallery#c52c93eb2c"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "In Conversation: Ancestral Land, Colonialism and Palestinian Resistance."
+        subcategory: "Online"
+        occurrence:
+          kind: "single"
+          date: "2026-09-16"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/in-conversation-land/"
+        tags:
+          - "talk"
+          - "one-night"
+        raw: "16 September 2026
+
+
+          PANEL DISCUSSION: This panel will explore the connections between
+
+          landscape, history, identity, and displacement.\n"
+        summary: "Panel discussion on land, memory and displacement, third in the series accompanying The Lost Paintings. Listed as an online event."
+        confidence: "high"
+      - id: "museums/bristol-museum-art-gallery#4b33f9fba9"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "Home Educator activity: Discover Arts Award (Poetry)"
+        subcategory: "Families"
+        occurrence:
+          kind: "single"
+          date: "2026-09-17"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/home-educator-poetry/"
+        tags:
+          - "workshop"
+          - "kids"
+          - "booking-required"
+          - "hands-on"
+        raw: "17 September 2026
+
+
+          LEARNING: Join us and have fun with words during our Home Educator
+
+          activity Discover Arts Award – poetry.\n"
+        summary: "A poetry session for home-educated children working towards a Discover Arts Award, using the museum's collections as prompts."
+        confidence: "high"
+      - id: "museums/bristol-museum-art-gallery#2ca77354e2"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "William Hogarth's Altarpiece"
+        subcategory: "Talks, tours and workshops"
+        occurrence:
+          kind: "run"
+          start: "2026-09-17"
+          end: "2026-11-19"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/william-hogarths-altarpiece/"
+        tags:
+          - "exhibition"
+          - "talk"
+          - "heritage"
+        raw: "17 September—19 November 2026
+
+
+          SPECIAL EVENT: See Hogarth's vast triptych and learn about its remarkable
+
+          journey around Bristol since it was painted for St Mary Redcliffe in
+
+          1755/56.\n"
+        summary: "A focused display and talk on Hogarth's enormous three-panel altarpiece, painted for St Mary Redcliffe and shunted around the city ever since."
+        confidence: "high"
+      - id: "museums/bristol-museum-art-gallery#a118da8a66"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "In Conversation: Sumud (Palestinian Steadfastness), Creativity and Political Imagination"
+        subcategory: "Online"
+        occurrence:
+          kind: "single"
+          date: "2026-09-23"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/in-conversation-samud/"
+        tags:
+          - "talk"
+          - "one-night"
+        raw: "23 September 2026
+
+
+          PANEL DISCUSSION: The panel will discuss how art can be used to express
+
+          experiences, preserve memories, and explore ideas about the past,
+
+          present, and future.\n"
+        summary: "Closing panel of The Lost Paintings series, on art as a vehicle for memory and political imagination. Listed as an online event."
+        confidence: "high"
+      - id: "museums/bristol-museum-art-gallery#fc22c9b793"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "Home Educator workshop: All about Bumble Bees"
+        subcategory: "Families"
+        occurrence:
+          kind: "single"
+          date: "2026-09-24"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/home-educator-bees/"
+        tags:
+          - "workshop"
+          - "kids"
+          - "booking-required"
+          - "hands-on"
+        raw: "24 September 2026
+
+
+          LEARNING: Join zoologist Dr Sara Frears to discover the fascinating lives
+
+          of Bumble Bees in this special workshop.\n"
+        summary: "A zoologist-led workshop on bumblebee biology for home-educating families."
+        confidence: "high"
+      - id: "museums/bristol-museum-art-gallery#9e3f575b11"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "Back to the 90s: Silent School Disco"
+        subcategory: "Special events"
+        occurrence:
+          kind: "single"
+          date: "2026-09-26"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/school-silent-disco/"
+        tags:
+          - "late-opening"
+          - "one-night"
+          - "booking-required"
+        raw: "26 September 2026
+
+
+          EVENT: Get ready for your favourite school yard anthems at our
+
+          spectacular silent disco night!\n"
+        summary: "A 90s-themed silent disco after hours in the museum, headphones on among the collections."
+        confidence: "high"
+      - id: "museums/bristol-museum-art-gallery#7a317f4812"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "Home Educator activity: Geology Store tours"
+        subcategory: "Families"
+        occurrence:
+          kind: "single"
+          date: "2026-10-02"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/home-educator-activity-geology-store-tours/"
+        tags:
+          - "guided-tour"
+          - "kids"
+          - "booking-required"
+          - "hands-on"
+        raw: "2 October 2026
+
+
+          LEARNING: Home Educated students can join us for a special
+
+          behind-the-scenes tour of the Geology stores, followed by a hand-on
+
+          investigation of museum specimens.\n"
+        summary: "Behind-the-scenes access to the geology stores for home-educating families, with specimen handling afterwards."
+        confidence: "high"
+      - id: "museums/bristol-museum-art-gallery#e8628e6e63"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "Space Week: Immersed in Starlight"
+        subcategory: "Special events"
+        occurrence:
+          kind: "single"
+          date: "2026-10-10"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/immersed-in-starlight/"
+        tags:
+          - "one-night"
+          - "late-opening"
+          - "family"
+        raw: "10 October 2026
+
+
+          EVENT: See Bristol's night sky as never before, as the museum transforms
+
+          into a canvas for distant nebulae, star clusters and galaxies.\n"
+        summary: "A World Space Week takeover projecting deep-sky imagery across the museum's interior for one night."
+        confidence: "high"
+      - id: "museums/bristol-museum-art-gallery#7d3b6d4c86"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "Home Educator activity: Drawing British wildlife"
+        subcategory: "Families"
+        occurrence:
+          kind: "single"
+          date: "2026-10-13"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/drawing-british-wildlife/"
+        tags:
+          - "workshop"
+          - "kids"
+          - "booking-required"
+          - "hands-on"
+        raw: "13 October 2026
+
+
+          LEARNING: An opportunity for Home Educators to get up close to bird and
+
+          animal specimens and make observational drawings.\n"
+        summary: "An observational drawing session with real taxidermy specimens, aimed at home-educated children."
+        confidence: "high"
+      - id: "museums/bristol-museum-art-gallery#4dda5511c2"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "Home Educator workshop: Ancient Egypt"
+        subcategory: "Families"
+        occurrence:
+          kind: "single"
+          date: "2026-10-20"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/home-educator-egypt/"
+        tags:
+          - "workshop"
+          - "kids"
+          - "booking-required"
+          - "hands-on"
+        raw: "20 October 2026
+
+
+          LEARNING: This Home Educator workshop about Ancient Egypt explores life,
+
+          beliefs, and mummification, inspired by our fantastic Egypt gallery.\n"
+        summary: "A workshop on Egyptian daily life, belief and mummification, built around the museum's Egypt gallery."
+        confidence: "high"
+      - id: "museums/bristol-museum-art-gallery#774d8cab73"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "The Secret Life of Colour"
+        subcategory: "Exhibitions"
+        occurrence:
+          kind: "run"
+          start: "2026-10-24"
+          end: "2027-01-31"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/colour/"
+        tags:
+          - "exhibition"
+          - "family"
+        raw: "24 October 2026—31 January 2027
+
+
+          EXHIBITION: An exhibition exploring the powerful role colour plays in our
+
+          lives featuring objects from across the globe.\n"
+        summary: "The museum's main winter exhibition, drawing objects from across the collections to trace how colour is made, traded and understood."
+        confidence: "high"
+      - id: "museums/bristol-museum-art-gallery#4ff02d15f7"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "The Secret Life of Colour Lates"
+        subcategory: "Special events"
+        occurrence:
+          kind: "run"
+          start: "2026-10-29"
+          end: "2027-01-28"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/colour-lates/"
+        tags:
+          - "late-opening"
+          - "exhibition"
+          - "booking-required"
+        raw: "29 October 2026—28 January 2027
+
+
+          SPECIAL EVENT: Join us after hours for a chilled-out evening of art,
+
+          music, and good vibes at The Secret Life of Colour Lates.\n"
+        summary: "After-hours evenings inside the Secret Life of Colour exhibition with music and a bar, on selected dates through the run."
+        confidence: "high"
+      - id: "museums/bristol-museum-art-gallery#e10d19aab3"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "Home Educator activity: Brass rubbing and medieval handling"
+        subcategory: "Families"
+        occurrence:
+          kind: "single"
+          date: "2026-12-02"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/medieval-handling/"
+        tags:
+          - "workshop"
+          - "booking-required"
+          - "hands-on"
+          - "heritage"
+        raw: "2 December 2026
+
+
+          LEARNING: Home Educators 12-16 years can join us and make rubbings of our
+
+          replica church brasses, and handle medieval artefacts.\n"
+        summary: "Brass rubbing and medieval object handling for home-educated 12 to 16 year olds."
+        confidence: "high"
+      - id: "museums/bristol-museum-art-gallery#65966e0adc"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "British Art Show 10: A Chorus of Strangers"
+        subcategory: "Exhibitions"
+        occurrence:
+          kind: "run"
+          start: "2027-06-19"
+          end: "2027-09-19"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/british-art-show-10/"
+        tags:
+          - "exhibition"
+        raw: "19 June—19 September 2027
+
+
+          EXHIBITION: The British Art Show is the largest and most significant
+
+          recurring exhibition of contemporary art in the UK.\n"
+        summary: "The touring British Art Show reaches Bristol in summer 2027 — the UK's biggest recurring survey of contemporary art, held every five years."
+        confidence: "high"
+      - id: "museums/bristol-museum-art-gallery#88574d7630"
+        sourceId: "museums/bristol-museum-art-gallery"
+        title: "David Bowie: On Tour"
+        subcategory: "Exhibitions"
+        occurrence:
+          kind: "run"
+          start: "2028-06-01"
+          end: "2028-09-30"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/bristol-museum-and-art-gallery/bowie-on-tour/"
+        tags:
+          - "exhibition"
+        raw: "1 June—30 September 2028
+
+
+          EXHIBITION: Over 100 highlights from the V&A's David Bowie's archive are
+
+          coming to Bristol in Summer 2028.\n"
+        summary: "A touring selection from the V&A's David Bowie archive, booked into Bristol for summer 2028."
+        confidence: "high"
+    notes: "The catalogued URL is correct and already filtered to this venue — every card carried a `venues-bristol-museum-and-art-gallery` class, so no cross-venue bleed from the shared Bristol Museums platform. The site returns 403 to the default fetcher; a normal browser user-agent gets 200. Listings carry no price or time information at all, so both are omitted rather than guessed. Full forward horizon taken, including two 2027/2028 exhibitions."
+  - sourceId: "museums/m-shed"
+    fetch:
+      ok: true
+      url: "https://www.bristolmuseums.org.uk/m-shed/whats-on/"
+      status: 200
+    events:
+      - id: "museums/m-shed#ddbf6dd274"
+        sourceId: "museums/m-shed"
+        title: "M Shed permanent galleries"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/m-shed/"
+        tags:
+          - "permanent-collection"
+          - "heritage"
+          - "family"
+        raw: "**M Shed** — Explore Bristol through time: its places, its people and
+
+          their stories.\n"
+        summary: "Bristol's social history museum in a converted dockside transit shed, telling the city's story through its places, its people and its working harbour."
+        confidence: "medium"
+      - id: "museums/m-shed#d77084ad43"
+        sourceId: "museums/m-shed"
+        title: "Highlights Tour: M Shed"
+        subcategory: "Talks, tours and workshops"
+        occurrence:
+          kind: "run"
+          start: "2024-04-02"
+          end: "2027-12-31"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/m-shed/highlights-tour/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2024/04/mshed-welcome-tours-ewa-256x144.jpg"
+        tags:
+          - "guided-tour"
+          - "heritage"
+        raw: "2 April 2024—31 December 2027
+
+
+          TOUR: Join us for a tour of M Shed! Let us introduce you to our museum,
+
+          share some stories you won't find on the labels and tell you how we came
+
+          to be.\n"
+        summary: "The standing welcome tour of M Shed, with the stories the object labels leave out."
+        confidence: "high"
+      - id: "museums/m-shed#12f89e8656"
+        sourceId: "museums/m-shed"
+        title: "Behind the scenes tours"
+        subcategory: "Talks, tours and workshops"
+        occurrence:
+          kind: "run"
+          start: "2026-01-01"
+          end: "2027-12-31"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/m-shed/behind-the-scenes-tours/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2014/05/Sue_Thurlow_L_Shed_MShed_%C2%A9Chris_Bahn-256x144.jpg"
+        tags:
+          - "guided-tour"
+          - "heritage"
+          - "booking-required"
+        raw: "1 January 2026—31 December 2027
+
+
+          TOUR: Join a tour of M Shed's collection stores and get up close to the
+
+          city's industrial and maritime past.\n"
+        summary: "Access to the collection stores that hold the industrial and maritime material too large or too fragile for the public galleries."
+        confidence: "high"
+      - id: "museums/m-shed#88acf8a679"
+        sourceId: "museums/m-shed"
+        title: "Cracking Exhibition, Gromit! 50 Years of Aardman in Bristol"
+        subcategory: "Exhibitions"
+        occurrence:
+          kind: "run"
+          start: "2026-06-20"
+          end: "2026-09-13"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/m-shed/50-years-aardman/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2026/02/Bristol-Museums-Website-Images-1-256x144.jpg"
+        tags:
+          - "exhibition"
+          - "family"
+          - "kids"
+        raw: "20 June—13 September 2026
+
+
+          EXHIBITION: It is time to grab the whole family and jump into the
+
+          brilliant world of Aardman!\n"
+        summary: "The city's big summer show marking fifty years of Aardman, the Bristol animation studio behind Wallace and Gromit. In its final month."
+        confidence: "high"
+      - id: "museums/m-shed#38a189bc46"
+        sourceId: "museums/m-shed"
+        title: "50 Years of Aardman in Bristol: Late Opening"
+        subcategory: "Special events"
+        occurrence:
+          kind: "run"
+          start: "2026-08-13"
+          end: "2026-08-27"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/m-shed/aardman-late-opening/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2026/07/Untitled-21-July-2026-at-15.56.00-1-256x144.png"
+        tags:
+          - "late-opening"
+          - "exhibition"
+          - "booking-required"
+        raw: "13—27 August 2026
+
+
+          EVENT: Jump into the brilliant world of Aardman animation… after hours!\n"
+        summary: "Evening openings of the Aardman exhibition on selected August dates, for people who would rather see it without the school-holiday crowds."
+        confidence: "high"
+      - id: "museums/m-shed#23109e9b01"
+        sourceId: "museums/m-shed"
+        title: "Aardman Workshops: Animation"
+        subcategory: "Families"
+        occurrence:
+          kind: "run"
+          start: "2026-08-15"
+          end: "2026-08-27"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/m-shed/aardman-animation/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2026/07/Bristol-Museums-Website-Images-7-256x144.jpg"
+        tags:
+          - "workshop"
+          - "family"
+          - "hands-on"
+          - "school-holidays"
+        raw: "15—27 August 2026
+
+
+          WORKSHOP: Learn about the unique skills behind the making of Aardman's
+
+          films and TV shows.\n"
+        summary: "Hands-on stop-motion animation workshops running through the back end of the summer holidays, tied to the Aardman exhibition."
+        confidence: "high"
+      - id: "museums/m-shed#8b670cbf7c"
+        sourceId: "museums/m-shed"
+        title: "Train rides"
+        subcategory: "Outdoors (walks, trains, boats, cranes)"
+        occurrence:
+          kind: "run"
+          start: "2026-08-15"
+          end: "2026-11-01"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/m-shed/train-rides/"
+        tags:
+          - "family"
+          - "outdoor"
+          - "heritage"
+          - "kids"
+        raw: "15 August—1 November 2026
+
+
+          TRAIN: Take a train trip on Britain's only dockside steam railway behind
+
+          one of our Bristol-built locomotives.\n"
+        summary: "Short rides along the harbourside on Britain's only dockside steam railway, hauled by locomotives built in Bristol. Operates on selected days."
+        confidence: "high"
+      - id: "museums/m-shed#564f8093cc"
+        sourceId: "museums/m-shed"
+        title: "Family activity: Puppets at M Shed"
+        subcategory: "Families"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/m-shed/puppets/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2026/06/Bristol-Museums-Website-Images-256x144.jpg"
+        tags:
+          - "family"
+          - "kids"
+          - "school-holidays"
+          - "drop-in"
+        raw: "18 August 2026
+
+
+          FAMILIES: Expect mayhem, sausages and a very hungry crocodile as Punch &
+
+          Judy come to M Shed!\n"
+        summary: "Traditional Punch and Judy at M Shed for one day of the summer holidays."
+        confidence: "high"
+      - id: "museums/m-shed#390709bc90"
+        sourceId: "museums/m-shed"
+        title: "Historical Walk: Old City"
+        subcategory: "Outdoors (walks, trains, boats, cranes)"
+        occurrence:
+          kind: "run"
+          start: "2026-08-20"
+          end: "2026-12-17"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/m-shed/historical-walk-old-city/"
+        tags:
+          - "guided-tour"
+          - "outdoor"
+          - "heritage"
+          - "booking-required"
+        raw: "20 August—17 December 2026
+
+
+          WALK: Discover a millennium of history on this 1.8 mile walk around the
+
+          old city of Bristol.\n"
+        summary: "A 1.8-mile guided walk through medieval and early modern Bristol, running on selected dates into December."
+        confidence: "high"
+      - id: "museums/m-shed#d1aa738cfc"
+        sourceId: "museums/m-shed"
+        title: "Historical Walk: Bristol Abolition"
+        subcategory: "Outdoors (walks, trains, boats, cranes)"
+        occurrence:
+          kind: "run"
+          start: "2026-08-20"
+          end: "2026-11-19"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/m-shed/historical-walk-bristol-abolition/"
+        tags:
+          - "guided-tour"
+          - "outdoor"
+          - "heritage"
+          - "booking-required"
+        raw: "20 August—19 November 2026
+
+
+          WALK: Discover the names and places associated with Bristol's
+
+          thousand-year fight to end the city's involvement in slavery.\n"
+        summary: "A guided walk tracing the abolitionist side of Bristol's history, on selected dates through the autumn."
+        confidence: "high"
+      - id: "museums/m-shed#675d694949"
+        sourceId: "museums/m-shed"
+        title: "Aardman Workshops: Modelmaking"
+        subcategory: "Families"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/m-shed/aardman-modelmaking/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2026/07/Bristol-Museums-Website-Images-8-256x144.jpg"
+        tags:
+          - "workshop"
+          - "family"
+          - "hands-on"
+          - "school-holidays"
+        raw: "21 August 2026
+
+
+          WORKSHOP: Learn about the unique skills behind the making of Aardman's
+
+          films and TV shows.\n"
+        summary: "A one-day modelmaking workshop on how Aardman's plasticine characters are built."
+        confidence: "high"
+      - id: "museums/m-shed#dad45ebdcc"
+        sourceId: "museums/m-shed"
+        title: "Boat trips"
+        subcategory: "Outdoors (walks, trains, boats, cranes)"
+        occurrence:
+          kind: "run"
+          start: "2026-08-22"
+          end: "2026-10-25"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/m-shed/boat-trips/"
+        tags:
+          - "outdoor"
+          - "family"
+          - "heritage"
+        raw: "22 August—25 October 2026
+
+
+          WORKING EXHIBITS: Take a boat ride with a difference! All three of our
+
+          historic working boats offer scenic trips around Bristol Harbour.\n"
+        summary: "Trips around the Floating Harbour aboard M Shed's three historic working boats, on selected days into late October."
+        confidence: "high"
+      - id: "museums/m-shed#209791d28e"
+        sourceId: "museums/m-shed"
+        title: "Family activity: Marvellous Magical Stories with Marcus Fagon"
+        subcategory: "Families"
+        occurrence:
+          kind: "single"
+          date: "2026-08-25"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/m-shed/marvellous-magical-stories/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2026/06/Picture2-256x144.png"
+        tags:
+          - "family"
+          - "kids"
+          - "school-holidays"
+          - "drop-in"
+        raw: "25 August 2026
+
+
+          FAMILIES: Join storyteller Marcus Fagon and be captivated by marvellous,
+
+          magical and joyful stories.\n"
+        summary: "A storytelling session for families with Marcus Fagon, one day in the last week of the summer holidays."
+        confidence: "high"
+      - id: "museums/m-shed#c5b0394c2b"
+        sourceId: "museums/m-shed"
+        title: "Historical Walk: Floating Harbour"
+        subcategory: "Outdoors (walks, trains, boats, cranes)"
+        occurrence:
+          kind: "run"
+          start: "2026-09-01"
+          end: "2026-12-01"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/m-shed/historical-walk-floating-harbour/"
+        tags:
+          - "guided-tour"
+          - "outdoor"
+          - "heritage"
+          - "booking-required"
+        raw: "1 September—1 December 2026
+
+
+          WALK: Join our guides for a tour of Bristol docklands, exploring the
+
+          maritime heritage of the harbour and its modern regeneration.\n"
+        summary: "A guided dockside walk covering both the working history of the Floating Harbour and what has been built on it since."
+        confidence: "high"
+      - id: "museums/m-shed#69999de821"
+        sourceId: "museums/m-shed"
+        title: "An Evening with Sir David Sproxton CBE – 50 Years of Aardman"
+        subcategory: "Special events"
+        occurrence:
+          kind: "single"
+          date: "2026-09-02"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/m-shed/david-sproxton/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2026/07/RESIZE-CROP-David-Sproxton-05-256x144.jpg"
+        tags:
+          - "talk"
+          - "one-night"
+          - "booking-required"
+        raw: "2 September 2026
+
+
+          SPECIAL EVENT: Spend a captivating evening with Sir David Sproxton CBE,
+
+          co-founder of Aardman.\n"
+        summary: "An in-conversation evening with Aardman's co-founder, closing out the studio's anniversary programme at M Shed."
+        confidence: "high"
+      - id: "museums/m-shed#6ae3ed5810"
+        sourceId: "museums/m-shed"
+        title: "Historical Walk: Pirates and Prejudice"
+        subcategory: "Outdoors (walks, trains, boats, cranes)"
+        occurrence:
+          kind: "run"
+          start: "2026-09-03"
+          end: "2026-11-05"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/m-shed/historical-walk-pirates-and-prejudice/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2023/07/mark-with-parrot-e2-256x144.jpg"
+        tags:
+          - "guided-tour"
+          - "outdoor"
+          - "heritage"
+          - "booking-required"
+        raw: "3 September—5 November 2026
+
+
+          WALK: Explore Bristol's old dockside on this Pirates and Prejudice walk,
+
+          shattering the myths around Bristol's literary and piratical past\n"
+        summary: "A dockside walk that takes apart the pirate legends Bristol trades on, and the literature that built them."
+        confidence: "high"
+      - id: "museums/m-shed#9fdcfc5457"
+        sourceId: "museums/m-shed"
+        title: "Crane visits"
+        subcategory: "Outdoors (walks, trains, boats, cranes)"
+        occurrence:
+          kind: "run"
+          start: "2026-09-05"
+          end: "2026-10-04"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/m-shed/crane-trips/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2014/03/mshed_crane_1-256x144.jpg"
+        tags:
+          - "family"
+          - "outdoor"
+          - "heritage"
+          - "hands-on"
+        raw: "5 September—4 October 2026
+
+
+          CRANE: Experience a working crane on the dockside with visits inside the
+
+          electric cranes, M Shed's biggest exhibits!\n"
+        summary: "Climb inside the four dockside electric cranes while they are being operated — the museum's largest exhibits, and the only ones outdoors."
+        confidence: "high"
+      - id: "museums/m-shed#3cb3975823"
+        sourceId: "museums/m-shed"
+        title: "Historical Walk: 1831 Riots"
+        subcategory: "Outdoors (walks, trains, boats, cranes)"
+        occurrence:
+          kind: "run"
+          start: "2026-09-06"
+          end: "2026-12-06"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/m-shed/bristols-burning-1831-riots/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2015/04/Bristols-Burning-walk-256x144.jpg"
+        tags:
+          - "guided-tour"
+          - "outdoor"
+          - "heritage"
+          - "booking-required"
+        raw: "6 September—6 December 2026
+
+
+          WALK: Our knowledegable guides will vividly retell the history of this
+
+          tragic episode, exploring some of the sites that played a prominent role
+
+          in the unrest.\n"
+        summary: "A walk around the sites of the 1831 Queen Square riots, when reform protests burned a large part of central Bristol."
+        confidence: "high"
+      - id: "museums/m-shed#f784268247"
+        sourceId: "museums/m-shed"
+        title: "Docks Heritage Weekend"
+        subcategory: "Special events"
+        occurrence:
+          kind: "run"
+          start: "2026-09-19"
+          end: "2026-09-20"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/m-shed/docks-heritage-weekend/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2026/08/Bristol-Museums-Website-Images-4-256x144.jpg"
+        tags:
+          - "heritage"
+          - "family"
+          - "outdoor"
+          - "free-entry"
+        raw: "19—20 September 2026
+
+
+          SPECIAL EVENT: Celebrate Bristol's rich maritime heritage at the Docks
+
+          Heritage Weekend!\n"
+        summary: "A weekend of the harbour's working exhibits in action — boats, cranes and the steam railway — celebrating Bristol's maritime past."
+        confidence: "medium"
+      - id: "museums/m-shed#3e0ff34964"
+        sourceId: "museums/m-shed"
+        title: "Steam engine and crane driving experiences"
+        subcategory: "Special events"
+        occurrence:
+          kind: "run"
+          start: "2026-10-12"
+          end: "2026-10-16"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/m-shed/train-and-crane-driving-experiences/"
+        tags:
+          - "hands-on"
+          - "heritage"
+          - "outdoor"
+          - "booking-required"
+        raw: "12—16 October 2026
+
+
+          SPECIAL EVENT: Have a go at driving the steam engine, Henbury and one of
+
+          the iconic electric cranes outside M Shed.\n"
+        summary: "A rare chance to take the controls of the steam locomotive Henbury and one of the dockside electric cranes."
+        confidence: "high"
+      - id: "museums/m-shed#6054dffe30"
+        sourceId: "museums/m-shed"
+        title: "Family activity: Toddler Takeover at M Shed"
+        subcategory: "Families"
+        occurrence:
+          kind: "single"
+          date: "2026-10-12"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/m-shed/toddler-takeover/"
+        tags:
+          - "family"
+          - "kids"
+          - "hands-on"
+          - "drop-in"
+        raw: "12 October 2026
+
+
+          LEARNING: Under 4s can join us for a transport-themed Toddler Takeover at
+
+          M Shed!\n"
+        summary: "A transport-themed play session for under-fours, with the museum given over to toddlers."
+        confidence: "high"
+      - id: "museums/m-shed#c7ac5d7939"
+        sourceId: "museums/m-shed"
+        title: "Home Educator workshop: World War One"
+        subcategory: "Families"
+        occurrence:
+          kind: "single"
+          date: "2026-11-11"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/m-shed/world-war-one/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2014/04/m-shed-first-world-war-256x144.jpg"
+        tags:
+          - "workshop"
+          - "kids"
+          - "booking-required"
+          - "heritage"
+        raw: "11 November 2026
+
+
+          LEARNING: Our Home Educator workshop explores how World War One affected
+
+          the lives of people living in Bristol at the time.\n"
+        summary: "An Armistice Day workshop for home-educating families on how the First World War reshaped ordinary life in Bristol."
+        confidence: "high"
+    notes: "Catalogued URL correct and venue-filtered (all cards carried a `venues-m-shed` class). Requires a browser user-agent — the default fetcher gets 403. No prices or times anywhere on the listing, so both omitted. The walks, boat trips, train rides and crane visits are recurring operating seasons that the page expresses only as a date range, so they are recorded as runs with the range as printed."
+  - sourceId: "museums/we-the-curious"
+    fetch:
+      ok: true
+      url: "https://www.wethecurious.org/whats-on/events"
+      status: 200
+    events:
+      - id: "museums/we-the-curious#deb162dc03"
+        sourceId: "museums/we-the-curious"
+        title: "Summer of Imagination"
+        occurrence:
+          kind: "run"
+          start: "2026-07-23"
+          end: "2026-09-01"
+        status: "scheduled"
+        url: "https://www.wethecurious.org/whats-on/events/summer-imagination"
+        image: "https://www.wethecurious.org/sites/default/files/styles/promo_s/public/2026-06/we-the-curious_summer-of-imagination_summer-holidays_lisa-whiting-26-hero.jpg.webp"
+        price:
+          free: false
+          text: "Included with day ticket"
+        tags:
+          - "family"
+          - "kids"
+          - "school-holidays"
+          - "hands-on"
+        raw: "**Summer of Imagination** — 23 July to 1 September. Included with day ticket.
+
+
+          Enjoy a summer day out packed with hands-on activities, live shows,
+
+          storytelling and creative experiences for families\n"
+        summary: "The science centre's whole summer-holiday programme bundled into one ticket — hands-on activities, live shows and storytelling across the building."
+        confidence: "medium"
+      - id: "museums/we-the-curious#401e8c18df"
+        sourceId: "museums/we-the-curious"
+        title: "Summer Kitchen"
+        occurrence:
+          kind: "undated"
+          note: "Listed with no dates; described as running 'this summer'"
+        status: "scheduled"
+        url: "https://www.wethecurious.org/whats-on/events/summer-kitchen"
+        image: "https://www.wethecurious.org/sites/default/files/styles/promo_s/public/2026-05/32cow45g.jpeg.webp"
+        price:
+          free: false
+          text: "Included with day ticket"
+        tags:
+          - "family"
+          - "hands-on"
+          - "workshop"
+          - "school-holidays"
+        raw: "**Summer Kitchen** — Included with day ticket.
+
+
+          Join us for a variety of summery experiments in the Kitchen, from our Big
+
+          Green Grill-Off to cool sorbet making\n"
+        summary: "Food-science demonstrations and experiments in the centre's Kitchen space, from a barbecue chemistry showdown to making sorbet."
+        confidence: "medium"
+      - id: "museums/we-the-curious#da65bec8a8"
+        sourceId: "museums/we-the-curious"
+        title: "Aardman on the Big Screen"
+        occurrence:
+          kind: "undated"
+          note: "Listed with no dates; described as 'this summer'"
+        status: "scheduled"
+        venue:
+          name: "Millennium Square"
+        url: "https://www.wethecurious.org/whats-on/events/aardman-big-screen"
+        image: "https://www.wethecurious.org/sites/default/files/styles/listing_s/public/2026-07/stsm2_first_look_wide_final_0.jpg.webp"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "outdoor"
+          - "family"
+          - "free-entry"
+          - "kids"
+        raw: "**Aardman on the Big Screen** — Free.
+
+
+          Head to Millennium Square this summer for free outdoor screenings of your
+
+          Aardman favourites!\n"
+        summary: "Free open-air Aardman screenings on the big screen in Millennium Square, outside the science centre rather than inside it."
+        confidence: "medium"
+      - id: "museums/we-the-curious#33c0051f96"
+        sourceId: "museums/we-the-curious"
+        title: "The Great Bristol Ball Run"
+        occurrence:
+          kind: "undated"
+          note: "Listed with no dates; described as 'this summer'"
+        status: "scheduled"
+        url: "https://www.wethecurious.org/whats-on/events/great-bristol-ball-run"
+        image: "https://www.wethecurious.org/sites/default/files/styles/listing_s/public/2026-07/gpp-eden_all_031.jpg.webp"
+        tags:
+          - "outdoor"
+          - "family"
+          - "hands-on"
+          - "kids"
+        raw: "**The Great Bristol Ball Run**
+
+
+          Come down and have a go at the Great Bristol Ball Run this summer across
+
+          our outdoor spaces.\n"
+        summary: "A giant build-it-yourself marble run spread across the centre's outdoor spaces."
+        confidence: "medium"
+      - id: "museums/we-the-curious#cfe1d09cb3"
+        sourceId: "museums/we-the-curious"
+        title: "Pink Floyd's The Dark Side of the Moon"
+        occurrence:
+          kind: "undated"
+          note: "Planetarium show listed with no dates on the listings page"
+        status: "scheduled"
+        url: "https://www.wethecurious.org/whats-on/events/pink-floyds-dark-side-moon"
+        image: "https://www.wethecurious.org/sites/default/files/styles/listing_s/public/2026-03/pink-floyd-dark-side-of-the-moon_planetarium_we-the-curious.jpg.webp"
+        tags:
+          - "planetarium"
+          - "booking-required"
+        raw: "**Pink Floyd's The Dark Side of the Moon**
+
+
+          Official Planetarium Show from Pink Floyd, 10 tracks from The Dark Side of
+
+          the Moon set to cosmic 360° visuals.\n"
+        summary: "The officially licensed planetarium version of the album, all ten tracks played through the dome with 360-degree visuals."
+        confidence: "medium"
+      - id: "museums/we-the-curious#86c4742717"
+        sourceId: "museums/we-the-curious"
+        title: "Planetarium Nights: The Story of Stars 3D"
+        subcategory: "Special events"
+        occurrence:
+          kind: "undated"
+          note: "Listed under Special events with no dates on the listings page"
+        status: "scheduled"
+        url: "https://www.wethecurious.org/whats-on/events/planetarium-nights-story-stars-3d"
+        image: "https://www.wethecurious.org/sites/default/files/styles/compact_promo_s/public/2026-03/planetarium_nights_tsos_0.jpg.webp"
+        tags:
+          - "planetarium"
+          - "late-opening"
+          - "booking-required"
+          - "talk"
+        raw: "**Planetarium Nights: The Story of Stars 3D**
+
+
+          Explore the life cycle of stars and witness the fate of our sun in
+
+          seasonal show for adults.\n"
+        summary: "An adults-only evening planetarium show on stellar life cycles, ending with what happens to our own sun."
+        confidence: "medium"
+      - id: "museums/we-the-curious#c7f510a6a4"
+        sourceId: "museums/we-the-curious"
+        title: "Planetarium Nights: Light from Afar 3D"
+        subcategory: "Special events"
+        occurrence:
+          kind: "undated"
+          note: "Listed under Special events with no dates on the listings page"
+        status: "scheduled"
+        url: "https://www.wethecurious.org/whats-on/events/planetarium-nights-light-afar-3d"
+        image: "https://www.wethecurious.org/sites/default/files/styles/compact_promo_s/public/2026-08/nasa-esa-csa-stsci-phangs-team-janice-lee-stsci-thomas-williams-oxford-rupali-chandar-utoledo.png.webp"
+        tags:
+          - "planetarium"
+          - "late-opening"
+          - "booking-required"
+          - "talk"
+        raw: "**Planetarium Nights: Light from Afar 3D**
+
+
+          Discover the ways we explore the universe in our latest in-depth science
+
+          planetarium show.\n"
+        summary: "The newest of the adult evening planetarium shows, on the instruments and methods astronomers use to observe deep space."
+        confidence: "medium"
+      - id: "museums/we-the-curious#0ee8ab46f5"
+        sourceId: "museums/we-the-curious"
+        title: "Pitchblack Playback"
+        subcategory: "Special events"
+        occurrence:
+          kind: "undated"
+          note: "Listed under Special events with no dates on the listings page"
+        status: "scheduled"
+        url: "https://www.wethecurious.org/whats-on/events/pitchblack-playback"
+        image: "https://www.wethecurious.org/sites/default/files/styles/compact_promo_s/public/2025-01/pbpb-heroweb.jpg.webp"
+        tags:
+          - "planetarium"
+          - "late-opening"
+          - "booking-required"
+          - "one-night"
+        raw: "**Pitchblack Playback**
+
+
+          Hear albums with the Planetarium immersive sound system, in the dark.\n"
+        summary: "Full-album listening sessions in the planetarium with the lights out, using the dome's surround system and nothing to look at."
+        confidence: "medium"
+      - id: "museums/we-the-curious#6707a2d883"
+        sourceId: "museums/we-the-curious"
+        title: "If Schools Were Ours to Imagine"
+        occurrence:
+          kind: "undated"
+          note: "Described as an 'evolving exhibition'; no dates given on the listings page"
+        status: "scheduled"
+        url: "https://www.wethecurious.org/whats-on/events/if-schools-were-ours-imagine"
+        image: "https://www.wethecurious.org/sites/default/files/styles/listing_s/public/2026-07/repair-ed_opencitylab.png.webp"
+        tags:
+          - "exhibition"
+          - "hands-on"
+          - "kids"
+        raw: "**If Schools Were Ours to Imagine**
+
+
+          Get creative and add to an evolving exhibition exploring how schools could
+
+          be made fairer.\n"
+        summary: "A participatory exhibition that visitors add to themselves, collecting ideas about what a fairer school system would look like."
+        confidence: "medium"
+      - id: "museums/we-the-curious#dbecd280ef"
+        sourceId: "museums/we-the-curious"
+        title: "Open City Research - Summer Specials"
+        occurrence:
+          kind: "undated"
+          note: "Listed as happening 'this summer' with no dates"
+        status: "scheduled"
+        url: "https://www.wethecurious.org/whats-on/events/open-city-research-summer-specials"
+        image: "https://www.wethecurious.org/sites/default/files/styles/listing_s/public/2026-07/wtcsummer2026lisawhitingphotography-19.jpg.webp"
+        tags:
+          - "hands-on"
+          - "workshop"
+          - "school-holidays"
+        raw: "**Open City Research - Summer Specials**
+
+
+          Special activities happening in the Test-Lab this summer.\n"
+        summary: "Live research activities in the Test-Lab where visitors take part in real studies run with the centre's research partners."
+        confidence: "medium"
+      - id: "museums/we-the-curious#765e31c260"
+        sourceId: "museums/we-the-curious"
+        title: "Storytelling"
+        occurrence:
+          kind: "undated"
+          note: "No dates given; presented as a regular activity"
+        status: "scheduled"
+        url: "https://www.wethecurious.org/whats-on/events/storytelling"
+        image: "https://www.wethecurious.org/sites/default/files/styles/listing_s/public/2024-09/image-20240501-102226-482f02e9-p.jpeg.webp"
+        tags:
+          - "family"
+          - "kids"
+          - "drop-in"
+        raw: "**Storytelling**
+
+
+          Meet the main characters Leo and Ursa and set off on a storytelling
+
+          adventure.\n"
+        summary: "A regular storytelling slot for younger children built around the centre's own characters, Leo and Ursa."
+        confidence: "medium"
+      - id: "museums/we-the-curious#a98949368d"
+        sourceId: "museums/we-the-curious"
+        title: "Play Fridays"
+        occurrence:
+          kind: "recurring"
+          pattern: "Special monthly sessions"
+        status: "scheduled"
+        url: "https://www.wethecurious.org/whats-on/events/play-fridays"
+        image: "https://www.wethecurious.org/sites/default/files/styles/listing_s/public/2024-09/impossibleplants.jpg.webp"
+        tags:
+          - "family"
+          - "kids"
+          - "hands-on"
+          - "drop-in"
+        raw: "**Play Fridays**
+
+
+          Special monthly sessions for families with children under 5 focusing on
+
+          sensory play.\n"
+        summary: "A monthly sensory-play morning aimed squarely at under-fives and the people bringing them."
+        confidence: "medium"
+      - id: "museums/we-the-curious#d3019cac16"
+        sourceId: "museums/we-the-curious"
+        title: "Relaxed Mornings"
+        occurrence:
+          kind: "undated"
+          note: "No dates given; presented as a regular accessibility session"
+        status: "scheduled"
+        url: "https://www.wethecurious.org/whats-on/events/relaxed-mornings"
+        image: "https://www.wethecurious.org/sites/default/files/styles/listing_s/public/2025-01/we-the-curious_relaxed-morning_lisa-whiting_2024.jpg.webp"
+        tags:
+          - "family"
+          - "accessible"
+        raw: "**Relaxed Mornings**
+
+
+          For a calmer, less busy experience of the venue.\n"
+        summary: "Reduced-capacity opening with the noise and lighting turned down, for visitors who find the centre overwhelming at full tilt."
+        confidence: "medium"
+    notes: "Catalogued URL `/whats-on` is a landing page carrying only two promoted items; the full programme is at `/whats-on/events`, which is what was harvested, plus `/whats-on/special-events` for the evening and planetarium strand. The listings are almost entirely undated — most cards say only \"this summer\" or nothing at all, and dates live on the individual event pages, which were not opened. Those are recorded as `undated` with the wording used rather than guessed. Only Summer of Imagination carried an explicit range, and even that omitted the year. No prices or times on the listing except two \"included with day ticket\" notes."
+  - sourceId: "museums/ss-great-britain"
+    fetch:
+      ok: true
+      url: "https://www.bristoldockyards.org/whats-on"
+      status: 200
+    events:
+      - id: "museums/ss-great-britain#69ae3b7296"
+        sourceId: "museums/ss-great-britain"
+        title: "Ships and Giggles"
+        occurrence:
+          kind: "run"
+          start: "2026-07-18"
+          end: "2026-09-02"
+        status: "scheduled"
+        url: "https://bristoldockyards.org/whats-on/ships-and-giggles"
+        image: "https://images.prismic.io/bristoldockyards/bZ-NskZ10JqBhuoc_HeroShips%26Giggles.png"
+        tags:
+          - "family"
+          - "kids"
+          - "school-holidays"
+          - "hands-on"
+        raw: "**Ships and Giggles** — 18 July – 2 September 2026
+
+
+          A summer of games, adventure and silliness down at the Dockyards.\n"
+        summary: "The dockyard's summer-holiday family programme of games and activities around the SS Great Britain, in its final fortnight."
+        confidence: "high"
+      - id: "museums/ss-great-britain#748c7eac45"
+        sourceId: "museums/ss-great-britain"
+        title: "Summer Lates"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+        status: "scheduled"
+        url: "https://bristoldockyards.org/whats-on/summer-lates"
+        image: "https://images.prismic.io/bristoldockyards/isyrSdrtLDM2z1gh_lates.jpg"
+        price:
+          free: false
+          text: "Included in ticket"
+        tags:
+          - "late-opening"
+          - "one-night"
+          - "heritage"
+        raw: "**Summer Lates** — 20 August 2026. Included in ticket.
+
+
+          Spend a summer evening at the Dockyards.\n"
+        summary: "An evening opening of the dockyard and ship, with the site kept open past normal closing for one August night."
+        confidence: "high"
+      - id: "museums/ss-great-britain#974ecfeada"
+        sourceId: "museums/ss-great-britain"
+        title: "Go Aloft!"
+        occurrence:
+          kind: "undated"
+          note: "Listed as 'March – October 2026' with no day of month"
+        status: "scheduled"
+        url: "https://bristoldockyards.org/whats-on/go-aloft"
+        image: "https://images.prismic.io/bristoldockyards/afkGWMBOoF08xmWC_event-card-1.jpg"
+        tags:
+          - "hands-on"
+          - "outdoor"
+          - "heritage"
+          - "booking-required"
+        raw: "**Go Aloft!** — March – October 2026
+
+
+          Climb the SS Great Britain's rigging 25 metres into the sky, for the
+
+          ultimate birds-eye view of Bristol.\n"
+        summary: "A harnessed climb up the SS Great Britain's rigging to the main yard, 25 metres above the dock."
+        confidence: "medium"
+      - id: "museums/ss-great-britain#8dfd6b25ae"
+        sourceId: "museums/ss-great-britain"
+        title: "Sunday Roasts on Board"
+        occurrence:
+          kind: "undated"
+          note: "Listed as 'June – October 2026' with no day of month"
+        status: "scheduled"
+        url: "https://bristoldockyards.org/whats-on/sunday-roast"
+        image: "https://images.prismic.io/bristoldockyards/ahgYHrK9tuLqENyW_Sunday-Roast-Close-up-edit-5-scaled-e1709292863299.jpg"
+        tags:
+          - "booking-required"
+          - "heritage"
+        raw: "**Sunday Roasts on Board** — June – October 2026
+
+
+          Step aboard the SS Great Britain and enjoy a spectacular Sunday Roast in
+
+          the ship's opulent First Class Dining Saloon.\n"
+        summary: "Sunday lunch served in the ship's restored First Class Dining Saloon, on Sundays through to October."
+        confidence: "medium"
+      - id: "museums/ss-great-britain#94a130ae42"
+        sourceId: "museums/ss-great-britain"
+        title: "Walking Brunel's Bristol"
+        occurrence:
+          kind: "run"
+          start: "2026-06-19"
+          end: "2026-09-20"
+        status: "scheduled"
+        url: "https://bristoldockyards.org/whats-on/walking-brunels-bristol"
+        image: "https://images.prismic.io/bristoldockyards/afjiUsBOoF08xmI3_collection-card-7.jpg"
+        tags:
+          - "guided-tour"
+          - "outdoor"
+          - "heritage"
+          - "booking-required"
+        raw: "**Walking Brunel's Bristol** — 19 June – 20 September 2026
+
+
+          Join Mr B on a historic walking tour of Bristol's harbourside.\n"
+        summary: "A costumed walking tour of the harbourside taking in Brunel's work across the city, on selected dates until late September."
+        confidence: "high"
+      - id: "museums/ss-great-britain#3a4214115d"
+        sourceId: "museums/ss-great-britain"
+        title: "Afternoon Tea at The Board Walk"
+        occurrence:
+          kind: "undated"
+          note: "Listed as 'July – October 2026' with no day of month"
+        status: "scheduled"
+        url: "https://bristoldockyards.org/whats-on/afternoon-tea"
+        image: "https://images.prismic.io/bristoldockyards/ah7djweQX7-eWjen_Z63_2732_SSGB_Boardwalk.jpg"
+        tags:
+          - "booking-required"
+        raw: "**Afternoon Tea at The Board Walk** — July – October 2026
+
+
+          A treat for a weekend on Bristol's waterfront.\n"
+        summary: "Afternoon tea at the dockyard's waterfront cafe, bookable through the autumn."
+        confidence: "medium"
+      - id: "museums/ss-great-britain#0181a64f63"
+        sourceId: "museums/ss-great-britain"
+        title: "Voyager Voices Tour"
+        occurrence:
+          kind: "run"
+          start: "2026-07-21"
+          end: "2026-08-30"
+        status: "scheduled"
+        url: "https://bristoldockyards.org/whats-on/voyager-voices-tour"
+        image: "https://images.prismic.io/bristoldockyards/qjWaY2HRjD9BDUP5_Grouptour-hero-.png"
+        tags:
+          - "guided-tour"
+          - "heritage"
+          - "family"
+        raw: "**Voyager Voices Tour** — 21 July – 30 August 2026
+
+
+          Explore all three decks of the SS Great Britain with a costumed passenger
+
+          or crew member as your guide.\n"
+        summary: "A costumed first-person tour of all three decks, led by an actor playing one of the ship's original passengers or crew."
+        confidence: "high"
+      - id: "museums/ss-great-britain#bb00b2ae2d"
+        sourceId: "museums/ss-great-britain"
+        title: "Home Education Day"
+        occurrence:
+          kind: "single"
+          date: "2026-09-21"
+        status: "scheduled"
+        url: "https://bristoldockyards.org/whats-on/home-ed-day"
+        image: "https://images.prismic.io/bristoldockyards/rnISayTSUSRNayCA_SSGBExperienceMuseum-Hero.jpg"
+        tags:
+          - "kids"
+          - "hands-on"
+          - "workshop"
+          - "booking-required"
+        raw: "**Home Education Day** — 21 September 2026
+
+
+          Meet real-life engineers, enjoy hands-on STEM activities, and discover
+
+          Brunel's legacy.\n"
+        summary: "A day built for home-educating families, with working engineers running hands-on STEM activities around Brunel's ship."
+        confidence: "high"
+      - id: "museums/ss-great-britain#2ce89e1724"
+        sourceId: "museums/ss-great-britain"
+        title: "Ma-ad Science Mayhem"
+        occurrence:
+          kind: "run"
+          start: "2026-09-26"
+          end: "2026-11-01"
+        status: "scheduled"
+        url: "https://bristoldockyards.org/whats-on/ma-ad-science-mayhem"
+        image: "https://images.prismic.io/bristoldockyards/Td4xi3Xfkn7LOt0c_BristolDockyards-WebsiteBanner.png"
+        tags:
+          - "family"
+          - "kids"
+          - "hands-on"
+          - "school-holidays"
+        raw: "**Ma-ad Science Mayhem** — 26 September – 1 November 2026
+
+
+          A Shaun the Sheep movie challenge at Bristol Dockyards with workshop on 28
+
+          Oct.\n"
+        summary: "A Shaun the Sheep themed science trail and challenge across the dockyard, running into the October half term with a workshop on 28 October."
+        confidence: "high"
+      - id: "museums/ss-great-britain#dd2c63b5f6"
+        sourceId: "museums/ss-great-britain"
+        title: "Calm Sessions"
+        occurrence:
+          kind: "single"
+          date: "2026-10-17"
+        status: "scheduled"
+        url: "https://bristoldockyards.org/whats-on/calm-sessions"
+        image: "https://images.prismic.io/bristoldockyards/FPYcEAKX0Llks77x_SSGB0090.JPG"
+        tags:
+          - "accessible"
+          - "family"
+        raw: "**Calm Sessions** — 17 October 2026
+
+
+          Sensory sessions designed for neurodivergent visitors seeking a calmer
+
+          environment.\n"
+        summary: "A quieter, low-sensory opening of the ship and museum for neurodivergent visitors and their families."
+        confidence: "high"
+      - id: "museums/ss-great-britain#c248dcaabf"
+        sourceId: "museums/ss-great-britain"
+        title: "Christmas Murder Mystery Evening"
+        occurrence:
+          kind: "single"
+          date: "2026-12-19"
+        status: "scheduled"
+        url: "https://bristoldockyards.org/whats-on/christmas-murder-mystery-evening-"
+        image: "https://images.prismic.io/bristoldockyards/ah7yfweQX7-eWkJi_Hero-Christmas-Murder-Mystery-Evening.png"
+        tags:
+          - "one-night"
+          - "late-opening"
+          - "booking-required"
+          - "seasonal"
+        raw: "**Christmas Murder Mystery Evening** — 19 December 2026
+
+
+          An exhilarating evening of entertainment on board the SS Great Britain.\n"
+        summary: "A staged murder mystery played out aboard the ship over a December evening."
+        confidence: "high"
+    notes: "The attraction has rebranded: ssgreatbritain.org/whats-on/ now issues a 308 permanent redirect to bristoldockyards.org/whats-on. The catalogue URL and very likely the source name should be updated to Bristol Dockyards. Several listings give only months (\"March – October 2026\", \"June – October 2026\", \"July – October 2026\") with no day of month; those are recorded as `undated` with the wording rather than guessing a day. No times or prices on the listing."
+  - sourceId: "museums/aerospace-bristol"
+    fetch:
+      ok: true
+      url: "https://aerospacebristol.org/whats-on"
+      status: 200
+    events:
+      - id: "museums/aerospace-bristol#2646df6079"
+        sourceId: "museums/aerospace-bristol"
+        title: "Summer Holidays"
+        subcategory: "Daytime"
+        occurrence:
+          kind: "run"
+          start: "2026-07-18"
+          end: "2026-09-06"
+        status: "scheduled"
+        url: "https://aerospacebristol.org/summer"
+        image: "https://images.squarespace-cdn.com/content/v1/538d8f62e4b0f432bcf19df2/d7ac708a-0428-429c-8513-0b231f3a9621/AG-Aerospace-Bristol-Playpark-02.jpg"
+        tags:
+          - "family"
+          - "kids"
+          - "school-holidays"
+          - "hands-on"
+        raw: "**Summer Holidays** — 18 July - 6 Sept\n"
+        summary: "The museum's summer-holiday family programme, running alongside the aircraft halls and outdoor playpark until the schools go back."
+        confidence: "medium"
+      - id: "museums/aerospace-bristol#9eedc7c431"
+        sourceId: "museums/aerospace-bristol"
+        title: "Dome Club Planetarium"
+        subcategory: "Daytime"
+        occurrence:
+          kind: "run"
+          start: "2026-08-01"
+          end: "2026-08-16"
+        status: "scheduled"
+        url: "https://aerospacebristol.org/dome-club-planetarium"
+        image: "https://images.squarespace-cdn.com/content/v1/538d8f62e4b0f432bcf19df2/420ff446-ec4a-494a-9cd2-d68db9d2c555/The+Holy+Star+Christmas+Planetarium+Aerospace+Bristol.jpg"
+        tags:
+          - "planetarium"
+          - "family"
+          - "school-holidays"
+          - "kids"
+        raw: "**Dome Club Planetarium** — 1 - 16 August\n"
+        summary: "A pop-up mobile planetarium installed in the museum for the first half of August."
+        confidence: "medium"
+      - id: "museums/aerospace-bristol#46e65e12bb"
+        sourceId: "museums/aerospace-bristol"
+        title: "Rowland White | Concorde Talk"
+        subcategory: "Daytime"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+        status: "scheduled"
+        url: "https://aerospacebristol.org/my-concorde-journey"
+        image: "https://images.squarespace-cdn.com/content/v1/538d8f62e4b0f432bcf19df2/1781020589529-F38P0NQY5GAK8CZDESEK/Concorde+landing.jpg"
+        tags:
+          - "talk"
+          - "one-night"
+          - "heritage"
+          - "booking-required"
+        raw: "**Rowland White | Concorde Talk** — 12 September\n"
+        summary: "Aviation author Rowland White talks about Concorde, given in the museum that holds the last one ever to fly."
+        confidence: "medium"
+      - id: "museums/aerospace-bristol#280d0db8ff"
+        sourceId: "museums/aerospace-bristol"
+        title: "Flight Simulator UK LIVE"
+        subcategory: "Daytime"
+        occurrence:
+          kind: "run"
+          start: "2026-10-10"
+          end: "2026-10-11"
+        status: "scheduled"
+        url: "https://aerospacebristol.org/flight-simulator-uk"
+        image: "https://images.squarespace-cdn.com/content/v1/538d8f62e4b0f432bcf19df2/9f9ec8a5-f3dc-416f-8744-dbd7d73f485f/FSimUK+26+photo.jpg"
+        tags:
+          - "hands-on"
+          - "family"
+          - "drop-in"
+        raw: "**Flight Simulator UK LIVE** — 10 & 11 October\n"
+        summary: "A weekend of flight simulators brought into the museum for visitors to fly."
+        confidence: "medium"
+      - id: "museums/aerospace-bristol#e43b0ed29c"
+        sourceId: "museums/aerospace-bristol"
+        title: "Bristol Aero Talks Series"
+        subcategory: "After-Hours"
+        occurrence:
+          kind: "undated"
+          note: "Listed only as 'Multiple Dates'"
+        status: "scheduled"
+        url: "https://aerospacebristol.org/bristol-aero-talks"
+        image: "https://images.squarespace-cdn.com/content/v1/538d8f62e4b0f432bcf19df2/1501154378545-4DI6X8LOC9QCJGGE6A64/THE+JOHN+JAMES+THEATRE+AND+THE+STUDIO+SPACE"
+        tags:
+          - "talk"
+          - "heritage"
+          - "booking-required"
+          - "late-opening"
+        raw: "**Bristol Aero Talks Series** — Multiple Dates\n"
+        summary: "An evening lecture series on aviation history and engineering, held in the museum's John James Theatre."
+        confidence: "medium"
+      - id: "museums/aerospace-bristol#50e10a7728"
+        sourceId: "museums/aerospace-bristol"
+        title: "After-Hours Concorde Tours"
+        subcategory: "After-Hours"
+        occurrence:
+          kind: "undated"
+          note: "No dates given on the listing"
+        status: "scheduled"
+        url: "https://aerospacebristol.org/after-hours-tours"
+        image: "https://images.squarespace-cdn.com/content/v1/538d8f62e4b0f432bcf19df2/1574945340583-JJYXB4LPWAKUEHTP5E5Y/cockpit.jpg"
+        tags:
+          - "guided-tour"
+          - "late-opening"
+          - "heritage"
+          - "booking-required"
+        raw: "**After-Hours Concorde Tours**
+
+
+          Exclusive evening access to the Concorde aircraft.\n"
+        summary: "Small-group evening tours of Concorde Alpha Foxtrot, including cockpit access not available during normal opening."
+        confidence: "medium"
+    notes: "Catalogued URL correct. The listing splits into \"Daytime\" and \"After-Hours\" strands. Dates are printed without a year throughout (\"18 July - 6 Sept\", \"12 September\"); the year is inferred from the page's own ordering and those events carry `confidence: medium`. No times or prices anywhere on the listing. The Bristol Aero Talks series is listed only as \"Multiple Dates\" and is recorded as undated rather than expanded."
+  - sourceId: "museums/georgian-house"
+    fetch:
+      ok: true
+      url: "https://www.bristolmuseums.org.uk/georgian-house-museum/whats-on/"
+      status: 200
+    events:
+      - id: "museums/georgian-house#79a2ab0710"
+        sourceId: "museums/georgian-house"
+        title: "The Georgian House Museum permanent displays"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/georgian-house-museum/"
+        tags:
+          - "permanent-collection"
+          - "heritage"
+        raw: "**The Georgian House Museum** — Discover life above and below stairs in
+
+          Bristol over 200 years ago.
+
+
+          What's at The Georgian House Museum: Life above stairs · Life below
+
+          stairs · Look Inside\n"
+        summary: "A preserved 1790s townhouse built for a sugar merchant, shown across both the family rooms and the service floors that supported them."
+        confidence: "medium"
+      - id: "museums/georgian-house#e44ae5f5c2"
+        sourceId: "museums/georgian-house"
+        title: "The Georgian House Museum Highlight Tours"
+        subcategory: "Talks, tours and workshops"
+        occurrence:
+          kind: "run"
+          start: "2026-04-01"
+          end: "2026-12-31"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/georgian-house-museum/georgian-house-tour/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2024/07/The-Georgian-House-16-CB-Bristol-Design-2024-256x144.jpg"
+        tags:
+          - "guided-tour"
+          - "heritage"
+        raw: "1 April—31 December 2026
+
+
+          TOUR: Join us on an exploratory tour of the Georgian House Museum,
+
+          learning about the history of the house and the people who lived there.\n"
+        summary: "A guided tour of the house covering both its architecture and the people, enslaved and free, whose labour paid for it."
+        confidence: "high"
+      - id: "museums/georgian-house#1d39678084"
+        sourceId: "museums/georgian-house"
+        title: "Summer Family Fun at The Georgian House Museum"
+        subcategory: "Families"
+        occurrence:
+          kind: "run"
+          start: "2026-08-21"
+          end: "2026-08-22"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/georgian-house-museum/summer-family-fun-georgian/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2026/03/Bristol-Museums-Website-Images-6-256x144.jpg"
+        tags:
+          - "family"
+          - "kids"
+          - "school-holidays"
+          - "drop-in"
+        raw: "21—22 August 2026
+
+
+          FAMILIES: This activity day will celebrate the literary excellence of Jane
+
+          Austen with something to do for all the family.\n"
+        summary: "Two Jane Austen themed activity days for families in the Georgian townhouse, over a summer-holiday weekend."
+        confidence: "high"
+    notes: "The catalogued URL is the venue landing page, not a listings page; the programme lives one level down at `/georgian-house-museum/whats-on/`, which is what was harvested. Venue-filtered — both cards carried a `venues-georgian-house-museum` class. Sparse as the hints predicted: two events. No prices or times on the listing."
+  - sourceId: "museums/red-lodge"
+    fetch:
+      ok: true
+      url: "https://www.bristolmuseums.org.uk/red-lodge-museum/whats-on/"
+      status: 200
+    events:
+      - id: "museums/red-lodge#451a669177"
+        sourceId: "museums/red-lodge"
+        title: "The Red Lodge Museum permanent displays"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/red-lodge-museum/"
+        tags:
+          - "permanent-collection"
+          - "heritage"
+        raw: "**The Red Lodge Museum** — Experience 400 years of history in Bristol's
+
+          secret treasure.
+
+
+          What's at The Red Lodge Museum: The former Victorian School · The Family
+
+          Home · The Original Lodge · The Great Oak Room · The Knot Garden\n"
+        summary: "An Elizabethan lodge layered with four centuries of use, from its carved Great Oak Room to its later life as England's first girls' reform school, plus a Tudor-style knot garden."
+        confidence: "medium"
+      - id: "museums/red-lodge#11e96fcc81"
+        sourceId: "museums/red-lodge"
+        title: "The Red Lodge Museum Highlight Tours"
+        subcategory: "Talks, tours and workshops"
+        occurrence:
+          kind: "run"
+          start: "2026-04-01"
+          end: "2026-12-31"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/red-lodge-museum/red-lodge-tours/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2025/07/Bristol-Museums-Newsletter-Images-7-256x144.jpg"
+        tags:
+          - "guided-tour"
+          - "heritage"
+        raw: "1 April—31 December 2026
+
+
+          TOUR: Let us introduce you to our historic house and share some stories
+
+          you won't find on the labels!\n"
+        summary: "A guided tour of the Elizabethan lodge, running on selected dates through the year."
+        confidence: "high"
+      - id: "museums/red-lodge#68c179e0dd"
+        sourceId: "museums/red-lodge"
+        title: "Summer Family Fun at The Red Lodge Museum"
+        subcategory: "Families"
+        occurrence:
+          kind: "run"
+          start: "2026-08-29"
+          end: "2026-08-30"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/red-lodge-museum/spring-family-fun-red-2-2/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2026/03/Bristol-Museums-Website-Images-10-256x144.jpg"
+        tags:
+          - "family"
+          - "kids"
+          - "school-holidays"
+          - "drop-in"
+        raw: "29—30 August 2026
+
+
+          FAMILIES: These enchanting activity days will investigate the past at The
+
+          Red Lodge Museum with something to do for all the family.\n"
+        summary: "A bank holiday weekend of family activities in the Tudor lodge, at the end of the school summer holidays."
+        confidence: "high"
+      - id: "museums/red-lodge#a142e97d3c"
+        sourceId: "museums/red-lodge"
+        title: "Spooky Week at The Red Lodge Museum"
+        subcategory: "Families"
+        occurrence:
+          kind: "run"
+          start: "2026-10-24"
+          end: "2026-11-01"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/red-lodge-museum/spooky-week/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2026/07/Bristol-Museums-Website-Images-10-256x144.jpg"
+        tags:
+          - "family"
+          - "kids"
+          - "school-holidays"
+          - "seasonal"
+        raw: "24 October—1 November 2026
+
+
+          FAMILIES: These spooky activity days will investigate the past at The Red
+
+          Lodge Museum with something to do for all the family.\n"
+        summary: "Halloween half-term activity days in a genuinely creaky Elizabethan house."
+        confidence: "high"
+    notes: "The catalogued URL is the venue landing page; the listings are at `/red-lodge-museum/whats-on/`, which is what was harvested. Venue-filtered — all cards carried a `venues-red-lodge-museum` class. No prices or times on the listing."
+  - sourceId: "museums/blaise-museum"
+    fetch:
+      ok: true
+      url: "https://www.bristolmuseums.org.uk/blaise-museum/whats-on/"
+      status: 200
+    events:
+      - id: "museums/blaise-museum#8ee7899c8d"
+        sourceId: "museums/blaise-museum"
+        title: "Blaise Museum permanent displays"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/blaise-museum/"
+        tags:
+          - "permanent-collection"
+          - "heritage"
+          - "family"
+        raw: "**Blaise Museum** — Explore the past in this beautiful historic house set
+
+          in parkland through wonderful toys, clothes and contraptions.
+
+
+          What's at Blaise Museum: Kings Weston Roman Villa · Bristol at Home ·
+
+          Costume · Toys · The Picture Room\n"
+        summary: "A Georgian house in Blaise parkland holding the city's social history collections — costume, toys, domestic objects and a picture room — plus the Kings Weston Roman Villa site nearby."
+        confidence: "medium"
+      - id: "museums/blaise-museum#b7d27aa062"
+        sourceId: "museums/blaise-museum"
+        title: "Blaise 100: Museum Highlight Tours"
+        subcategory: "Talks, tours and workshops"
+        occurrence:
+          kind: "run"
+          start: "2026-04-01"
+          end: "2026-12-31"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/blaise-museum/blaise-100-estate/blaise-museum-tours/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2025/07/Bristol-Museums-Newsletter-Images-5-256x144.jpg"
+        tags:
+          - "guided-tour"
+          - "heritage"
+        raw: "1 April—31 December 2026
+
+
+          TOUR: Let us introduce you to our grand historic house and its impressive
+
+          estate.\n"
+        summary: "Guided tours of the house and estate, part of the Blaise 100 programme marking a century of public ownership."
+        confidence: "high"
+      - id: "museums/blaise-museum#39a2715cbd"
+        sourceId: "museums/blaise-museum"
+        title: "1000 Years of Fashion History – an exhibition in miniature"
+        subcategory: "Exhibitions"
+        occurrence:
+          kind: "run"
+          start: "2026-07-18"
+          end: "2026-11-01"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/blaise-museum/fashion-history-miniature/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2026/06/Bristol-Museums-Website-Images-4-256x144.jpg"
+        tags:
+          - "exhibition"
+          - "family"
+        raw: "18 July—1 November 2026
+
+
+          EXHIBITION: A timeline in miniature, with more than 100 hand-made costumes
+
+          modelled by fashion dolls.\n"
+        summary: "A thousand years of dress history told at doll scale, with over a hundred hand-made costumes arranged as a timeline."
+        confidence: "high"
+      - id: "museums/blaise-museum#1a27d7e1d0"
+        sourceId: "museums/blaise-museum"
+        title: "Family activity: All dressed up!"
+        subcategory: "Families"
+        occurrence:
+          kind: "run"
+          start: "2026-08-13"
+          end: "2026-08-27"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/blaise-museum/dressed-up/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2014/05/blaise_costume-256x144.jpg"
+        tags:
+          - "family"
+          - "kids"
+          - "school-holidays"
+          - "hands-on"
+        raw: "13—27 August 2026
+
+
+          FAMILIES: Join us for a relaxed family dress up session where children and
+
+          adults can get creative together.\n"
+        summary: "Relaxed costume dress-up sessions for adults and children together, on selected August dates alongside the fashion exhibition."
+        confidence: "high"
+      - id: "museums/blaise-museum#c3dc48ff94"
+        sourceId: "museums/blaise-museum"
+        title: "Blaise 100: Explore the Estate"
+        subcategory: "Special events"
+        occurrence:
+          kind: "run"
+          start: "2026-08-15"
+          end: "2026-10-22"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/blaise-museum/blaise-100-estate/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2022/02/Blaise-Castle-Museum.170-256x144.jpg"
+        tags:
+          - "guided-tour"
+          - "outdoor"
+          - "heritage"
+        raw: "15 August—22 October 2026
+
+
+          WALKS: A special programme of walks designed to explore the Blaise Estate
+
+          and celebrate 100 years of public ownership.\n"
+        summary: "A season of guided walks across the Blaise Estate marking a hundred years since the city bought it for the public."
+        confidence: "high"
+      - id: "museums/blaise-museum#7fc7d9f677"
+        sourceId: "museums/blaise-museum"
+        title: "Visit the Villa"
+        subcategory: "Families"
+        occurrence:
+          kind: "run"
+          start: "2026-08-29"
+          end: "2026-09-26"
+        status: "scheduled"
+        venue:
+          name: "Kings Weston Roman Villa"
+        url: "https://www.bristolmuseums.org.uk/whats-on/blaise-museum/visit-the-villa/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2024/06/mosaic-256x144.jpg"
+        tags:
+          - "family"
+          - "outdoor"
+          - "heritage"
+          - "kids"
+        raw: "29 August—26 September 2026
+
+
+          VILLA: Visit Kings Weston Roman Villa for some family friendly fun.\n"
+        summary: "Family openings at Kings Weston Roman Villa, the excavated Roman site cared for by Blaise Museum."
+        confidence: "high"
+      - id: "museums/blaise-museum#769d9ff76b"
+        sourceId: "museums/blaise-museum"
+        title: "Blaise 100: Castle Open Afternoons"
+        subcategory: "Special events"
+        occurrence:
+          kind: "run"
+          start: "2026-08-30"
+          end: "2026-10-04"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/blaise-museum/blaise-100-castle/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2026/06/Castle-Home-Page-Final-2048x995-1-256x144.png"
+        tags:
+          - "heritage"
+          - "outdoor"
+          - "family"
+          - "drop-in"
+        raw: "30 August—4 October 2026
+
+
+          EVENT: Explore Blaise Castle with the Friends of Blaise and climb the
+
+          battlements for a fine view of the surrounding landscape.\n"
+        summary: "Rare openings of the 18th-century folly castle itself, with access up onto the battlements."
+        confidence: "high"
+      - id: "museums/blaise-museum#320febd897"
+        sourceId: "museums/blaise-museum"
+        title: "Blaise 100: Dairy Garden Open Sessions"
+        occurrence:
+          kind: "run"
+          start: "2026-09-06"
+          end: "2026-09-12"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/blaise-museum/blaise-100-dairy/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2018/08/blaise-dairy-garden-1-256x144.jpg"
+        tags:
+          - "outdoor"
+          - "heritage"
+          - "drop-in"
+        raw: "6—12 September 2026
+
+
+          EVENT: Visit the Blaise Dairy gardens with the Friends of Blaise and
+
+          discover a beautiful, secret garden.\n"
+        summary: "A week of access to the walled garden behind Nash's Blaise Dairy, normally kept closed."
+        confidence: "high"
+      - id: "museums/blaise-museum#934fed6797"
+        sourceId: "museums/blaise-museum"
+        title: "Blaise 100: Blaise Community Garden Special Events"
+        subcategory: "Special events"
+        occurrence:
+          kind: "run"
+          start: "2026-09-12"
+          end: "2026-11-14"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/blaise-museum/blaise-100-garden/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2018/08/blaise-community-garden-256x144.jpg"
+        tags:
+          - "outdoor"
+          - "drop-in"
+          - "free-entry"
+        raw: "12 September—14 November 2026
+
+
+          EVENT: Join the Blaise Community Gardeners for a season of Café Days,
+
+          special events and community gatherings.\n"
+        summary: "An autumn season of café days and gatherings run by the volunteer gardeners in the Blaise community garden."
+        confidence: "medium"
+      - id: "museums/blaise-museum#ef51c4c904"
+        sourceId: "museums/blaise-museum"
+        title: "Villa Open Afternoons"
+        subcategory: "Families"
+        occurrence:
+          kind: "single"
+          date: "2026-09-15"
+        status: "scheduled"
+        venue:
+          name: "Kings Weston Roman Villa"
+        url: "https://www.bristolmuseums.org.uk/whats-on/blaise-museum/villa-open-afternoon/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2014/05/kings_weston_roman_villa_2-256x144.jpg"
+        tags:
+          - "heritage"
+          - "drop-in"
+          - "family"
+        raw: "15 September 2026
+
+
+          VILLA: Visit Kings Weston Roman Villa in the afternoon to find out about
+
+          this fascinating archaeological site.\n"
+        summary: "An afternoon opening of the Kings Weston Roman Villa excavation, with staff on hand to explain the site."
+        confidence: "high"
+      - id: "museums/blaise-museum#4c3bb2719e"
+        sourceId: "museums/blaise-museum"
+        title: "Autumn Week at Blaise Museum"
+        subcategory: "Families"
+        occurrence:
+          kind: "run"
+          start: "2026-10-24"
+          end: "2026-11-01"
+        status: "scheduled"
+        url: "https://www.bristolmuseums.org.uk/whats-on/blaise-museum/autumn-week/"
+        image: "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2026/07/Bristol-Museums-Website-Images-11-256x144.jpg"
+        tags:
+          - "family"
+          - "kids"
+          - "school-holidays"
+          - "seasonal"
+        raw: "24 October—1 November 2026
+
+
+          FAMILIES: These autumn activity days will celebrate the season at Blaise
+
+          Museum with something to do for all the family.\n"
+        summary: "October half-term family activities in the house and the surrounding parkland."
+        confidence: "high"
+    notes: "The catalogued URL is the venue landing page; the listings are at `/blaise-museum/whats-on/`, which is what was harvested. Venue-filtered — all cards carried a `venues-blaise-museum` class. Much busier than the quarterly cadence assumes, because of the Blaise 100 centenary programme. Note that several of these take place on the wider Blaise Estate and at Kings Weston Roman Villa rather than inside the museum. No prices or times on the listing."
+  - sourceId: "museums/clifton-observatory"
+    fetch:
+      ok: true
+      url: "https://cliftonobservatory.com/events/"
+      status: 200
+    events:
+      - id: "museums/clifton-observatory#411e50dcd6"
+        sourceId: "museums/clifton-observatory"
+        title: "Clifton Observatory, Camera Obscura and Giant's Cave"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        url: "https://cliftonobservatory.com/"
+        tags:
+          - "permanent-collection"
+          - "heritage"
+          - "family"
+        raw: "**Clifton Observatory** — home to one of the only Camera Obscuras in
+
+          England, the Giant's Cave tunnel emerging in the face of the Avon Gorge,
+
+          and a panoramic viewing platform over the Clifton Suspension Bridge.
+
+
+          Opening hours: Mon-Sun, April-Oct 10AM-5PM; Mon-Sun, Nov-March 10AM-4PM.
+
+          Final admission 15 mins before close.\n"
+        summary: "A converted windmill on Clifton Down holding a working camera obscura, a tunnel down to a cave mouth in the cliff face, and the best viewpoint over the Suspension Bridge."
+        confidence: "high"
+      - id: "museums/clifton-observatory#857d00e6fc"
+        sourceId: "museums/clifton-observatory"
+        title: "Summer Sunset Soiree"
+        occurrence:
+          kind: "single"
+          date: "2026-08-16"
+          startTime: "16:00"
+        status: "scheduled"
+        url: "https://cliftonobservatory.com/event/summer-sunset-soiree/"
+        image: "https://cliftonobservatory.com/wp-content/uploads/2026/08/OBS-EVENTS-2026-WEBSITE-6.png"
+        price:
+          free: false
+          text: "£7.50"
+          min: 7.5
+          max: 7.5
+          currency: "GBP"
+        tags:
+          - "one-night"
+          - "outdoor"
+          - "booking-required"
+        raw: "**Summer Sunset Soiree** — August 16, 2026, 4:00 pm - 9:00 pm. £7.50.
+
+
+          Award-winning DJs Paul Alexander and DJ Jez will be taking over this
+
+          exclusive landmark venue for a big afternoon of music and vibes\n"
+        summary: "A DJ afternoon into the evening on the observatory's rooftop terrace, running to sunset over the gorge."
+        confidence: "high"
+      - id: "museums/clifton-observatory#14f6107c5a"
+        sourceId: "museums/clifton-observatory"
+        title: "Golden Hour Thursday's"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://cliftonobservatory.com/event/golden-hour-thursdays-2/"
+        image: "https://cliftonobservatory.com/wp-content/uploads/2026/08/OBS-EVENTS-2026-WEBSITE-4.png"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "outdoor"
+          - "free-entry"
+          - "one-night"
+        raw: "**Golden Hour Thursday's** — August 20, 2026, 6:00 pm - 10:00 pm. Free.
+
+
+          Enjoy sunset views on the panoramic rooftop bar, along with 2-4-1 spritzes
+
+          from 6PM -7PM and acoustic guitar from 7PM - 9PM\n"
+        summary: "A free Thursday rooftop-bar evening with acoustic guitar and discounted spritzes, timed for sunset over the Suspension Bridge."
+        confidence: "high"
+      - id: "museums/clifton-observatory#3e90ebdd49"
+        sourceId: "museums/clifton-observatory"
+        title: "Golden Hour Thursday's"
+        occurrence:
+          kind: "single"
+          date: "2026-08-27"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://cliftonobservatory.com/event/golden-hour-thursdays-3/"
+        image: "https://cliftonobservatory.com/wp-content/uploads/2026/08/OBS-EVENTS-2026-WEBSITE-4.png"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "outdoor"
+          - "free-entry"
+          - "one-night"
+        raw: "**Golden Hour Thursday's** — August 27, 2026, 6:00 pm - 10:00 pm. Free.
+
+
+          Enjoy sunset views on the panoramic rooftop bar, along with 2-4-1 spritzes
+
+          from 6PM -7PM and acoustic guitar from 7PM - 9PM\n"
+        summary: "The last of the summer's free Golden Hour rooftop evenings, with live acoustic music from 7pm."
+        confidence: "high"
+      - id: "museums/clifton-observatory#bef3b0725a"
+        sourceId: "museums/clifton-observatory"
+        title: "Maker Market"
+        occurrence:
+          kind: "single"
+          date: "2026-08-31"
+          startTime: "11:00"
+        status: "scheduled"
+        url: "https://cliftonobservatory.com/event/maker-market/"
+        image: "https://cliftonobservatory.com/wp-content/uploads/2026/07/Maker-Market-Aug.png"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "free-entry"
+          - "family"
+          - "outdoor"
+          - "drop-in"
+        raw: "**Maker Market** — August 31, 2026, 11:00 am - 4:00 pm. Free.
+
+
+          Join us on Bank Holiday Monday for a Maker Market organised by Makers for
+
+          Good Bristol. Explore gorgeous handcrafted goods made by local Bristol
+
+          artists\n"
+        summary: "A bank holiday craft market of local makers at the observatory, run with Makers for Good Bristol."
+        confidence: "high"
+      - id: "museums/clifton-observatory#4046ebddb9"
+        sourceId: "museums/clifton-observatory"
+        title: "Sound Bath and Meditation"
+        occurrence:
+          kind: "single"
+          date: "2026-09-07"
+          startTime: "18:30"
+        status: "scheduled"
+        url: "https://cliftonobservatory.com/event/sound-bath-and-meditation-9/"
+        image: "https://cliftonobservatory.com/wp-content/uploads/2025/12/sound-bath-and-meditation.png"
+        price:
+          free: false
+          text: "£27.80"
+          min: 27.8
+          max: 27.8
+          currency: "GBP"
+        tags:
+          - "booking-required"
+          - "wellbeing"
+          - "one-night"
+        raw: "**Sound Bath and Meditation** — September 7, 2026, 6:30 pm - 8:00 pm. £27.80.
+
+
+          Healing Sound Bath with breath taking views of Bristol's iconic suspension
+
+          bridge, led by Rounik Sound Healing\n"
+        summary: "A ninety-minute gong and singing-bowl sound bath held in the observatory with the gorge outside the windows."
+        confidence: "high"
+      - id: "museums/clifton-observatory#a85783bb9d"
+        sourceId: "museums/clifton-observatory"
+        title: "Rooftop Jazz Night"
+        occurrence:
+          kind: "single"
+          date: "2026-09-13"
+          startTime: "17:30"
+        status: "scheduled"
+        url: "https://cliftonobservatory.com/event/rooftop-jazz-night-4/"
+        image: "https://cliftonobservatory.com/wp-content/uploads/2026/08/OBS-EVENTS-2026-WEBSITE-6-1.png"
+        price:
+          free: false
+          text: "£15"
+          min: 15
+          max: 15
+          currency: "GBP"
+        tags:
+          - "one-night"
+          - "outdoor"
+          - "booking-required"
+        raw: "**Rooftop Jazz Night** — September 13, 2026, 5:30 pm - 9:00 pm. £15.
+
+
+          Rendezblues, a soulful jazz ensemble, will be performing two sets of
+
+          mesmerising vocals and elegant jazz accompaniment\n"
+        summary: "Two sets from jazz group Rendezblues on the rooftop terrace, early evening into dark."
+        confidence: "high"
+      - id: "museums/clifton-observatory#a2efb1b2de"
+        sourceId: "museums/clifton-observatory"
+        title: "Sound Bath and Meditation"
+        occurrence:
+          kind: "single"
+          date: "2026-10-12"
+          startTime: "18:30"
+        status: "scheduled"
+        url: "https://cliftonobservatory.com/event/sound-bath-and-meditation-10/"
+        image: "https://cliftonobservatory.com/wp-content/uploads/2025/12/sound-bath-and-meditation.png"
+        price:
+          free: false
+          text: "£27.80"
+          min: 27.8
+          max: 27.8
+          currency: "GBP"
+        tags:
+          - "booking-required"
+          - "wellbeing"
+          - "one-night"
+        raw: "**Sound Bath and Meditation** — October 12, 2026, 6:30 pm - 8:00 pm. £27.80.
+
+
+          Healing Sound Bath with breath taking views of Bristol's iconic suspension
+
+          bridge, led by Rounik Sound Healing\n"
+        summary: "The October date in the observatory's monthly sound bath series, led by Rounik Sound Healing."
+        confidence: "high"
+      - id: "museums/clifton-observatory#0e7da3b65d"
+        sourceId: "museums/clifton-observatory"
+        title: "Bonfire Night"
+        occurrence:
+          kind: "single"
+          date: "2026-11-05"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://cliftonobservatory.com/event/bonfire-night-4/"
+        image: "https://cliftonobservatory.com/wp-content/uploads/2026/07/bonfire-night.png"
+        price:
+          free: false
+          text: "£10 – £17.50"
+          min: 10
+          max: 17.5
+          currency: "GBP"
+        tags:
+          - "one-night"
+          - "outdoor"
+          - "seasonal"
+          - "booking-required"
+        raw: "**Bonfire Night** — November 5, 2026, 6:00 pm - 10:30 pm. £10 – £17.50.
+
+
+          Visit the Clifton Observatory Rooftop Terrace on Bonfire night to witness
+
+          the skyline lit by fireworks\n"
+        summary: "Rooftop terrace access on 5 November for a high vantage point over the city's firework displays."
+        confidence: "high"
+      - id: "museums/clifton-observatory#f922e23406"
+        sourceId: "museums/clifton-observatory"
+        title: "Bonfire Night Party | Friday"
+        occurrence:
+          kind: "single"
+          date: "2026-11-06"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://cliftonobservatory.com/event/bonfire-night-party-friday/"
+        image: "https://cliftonobservatory.com/wp-content/uploads/2026/07/17.png"
+        price:
+          free: false
+          text: "£35"
+          min: 35
+          max: 35
+          currency: "GBP"
+        tags:
+          - "one-night"
+          - "outdoor"
+          - "seasonal"
+          - "booking-required"
+        raw: "**Bonfire Night Party | Friday** — November 6, 2026, 6:00 pm - 10:30 pm. £35.
+
+
+          The legendary Clifton Observatory Bonfire Night party features a fire
+
+          performer, DJ, hot food stand and unforgettable rooftop views\n"
+        summary: "The bigger of the observatory's bonfire weekend parties, with fire performance, a DJ and street food on the terrace."
+        confidence: "high"
+      - id: "museums/clifton-observatory#afe4ac1148"
+        sourceId: "museums/clifton-observatory"
+        title: "Bonfire Night Party | Saturday"
+        occurrence:
+          kind: "single"
+          date: "2026-11-07"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://cliftonobservatory.com/event/bonfire-night-party-saturday/"
+        image: "https://cliftonobservatory.com/wp-content/uploads/2026/07/18-1.png"
+        price:
+          free: false
+          text: "£35"
+          min: 35
+          max: 35
+          currency: "GBP"
+        tags:
+          - "one-night"
+          - "outdoor"
+          - "seasonal"
+          - "booking-required"
+        raw: "**Bonfire Night Party | Saturday** — November 7, 2026, 6:00 pm - 10:30 pm. £35.
+
+
+          The legendary Clifton Observatory Bonfire Night party features a fire
+
+          performer, DJ, hot food stand and unforgettable rooftop views\n"
+        summary: "The Saturday repeat of the bonfire weekend rooftop party, same line-up of fire performer, DJ and hot food."
+        confidence: "high"
+      - id: "museums/clifton-observatory#4d06b0fd8c"
+        sourceId: "museums/clifton-observatory"
+        title: "Sound Bath and Meditation"
+        occurrence:
+          kind: "single"
+          date: "2026-11-09"
+          startTime: "18:30"
+        status: "scheduled"
+        url: "https://cliftonobservatory.com/event/sound-bath-and-meditation-11/"
+        image: "https://cliftonobservatory.com/wp-content/uploads/2025/12/sound-bath-and-meditation.png"
+        price:
+          free: false
+          text: "£27.80"
+          min: 27.8
+          max: 27.8
+          currency: "GBP"
+        tags:
+          - "booking-required"
+          - "wellbeing"
+          - "one-night"
+        raw: "**Sound Bath and Meditation** — November 9, 2026, 6:30 pm - 8:00 pm. £27.80.
+
+
+          Healing Sound Bath with breath taking views of Bristol's iconic suspension
+
+          bridge, led by Rounik Sound Healing\n"
+        summary: "The November date in the observatory's monthly sound bath series."
+        confidence: "high"
+      - id: "museums/clifton-observatory#04d79199a3"
+        sourceId: "museums/clifton-observatory"
+        title: "Sound Bath and Meditation"
+        occurrence:
+          kind: "single"
+          date: "2026-12-21"
+          startTime: "18:30"
+        status: "scheduled"
+        url: "https://cliftonobservatory.com/event/sound-bath-and-meditation-12/"
+        image: "https://cliftonobservatory.com/wp-content/uploads/2025/12/sound-bath-and-meditation.png"
+        price:
+          free: false
+          text: "£27.80"
+          min: 27.8
+          max: 27.8
+          currency: "GBP"
+        tags:
+          - "booking-required"
+          - "wellbeing"
+          - "one-night"
+          - "seasonal"
+        raw: "**Sound Bath and Meditation** — December 21, 2026, 6:30 pm - 8:00 pm. £27.80.
+
+
+          Healing Sound Bath with breath taking views of Bristol's iconic suspension
+
+          bridge, led by Rounik Sound Healing\n"
+        summary: "A winter solstice sound bath, the last of the year's monthly series."
+        confidence: "high"
+    notes: "The catalogued URL is the homepage; the events listing is at `/events/`, which is what was harvested. Catalogue URL should be updated. The programme is largely rooftop-bar and one-off entertainment rather than museum content, but that is what the venue lists. Three separate Golden Hour Thursday dates and five separate Sound Bath dates are listed as individual events with their own URLs, so they are recorded individually as the site presents them. Full forward horizon to December taken."
+  - sourceId: "museums/bristol-aquarium"
+    fetch:
+      ok: true
+      url: "https://www.bristolaquarium.co.uk/whats-on-event/whats-on/"
+      status: 200
+    events:
+      - id: "museums/bristol-aquarium#0e09ec3b19"
+        sourceId: "museums/bristol-aquarium"
+        title: "Bristol Aquarium"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        url: "https://www.bristolaquarium.co.uk/discover/exhibits/"
+        image: "https://www.bristolaquarium.co.uk/wp-content/uploads/2026/03/BRISTOL-STILLS29-scaled-e1774545526439.jpg"
+        tags:
+          - "family"
+          - "kids"
+          - "permanent-collection"
+        raw: "**Bristol Aquarium** — Anchor Road, Harbourside.
+
+
+          Open every day, including all bank holidays, closed only on Christmas Day.
+
+          Standard day tickets allow you to come around the aquarium as many times
+
+          as you please during opening hours on the day of your visit. Seasonal
+
+          opening times: Jul 18 – Aug 31, 10am – 6pm every day; Sep 1 – Nov 1, 10am
+
+          – 5pm every day.\n"
+        summary: "A harbourside aquarium whose day ticket lets you re-enter as often as you like, taking in an underwater tunnel, tropical and coastal habitats and a giant former IMAX screen."
+        confidence: "high"
+      - id: "museums/bristol-aquarium#7d67c801d8"
+        sourceId: "museums/bristol-aquarium"
+        title: "Conservation Carnival!"
+        occurrence:
+          kind: "run"
+          start: "2026-07-18"
+          end: "2026-08-31"
+        status: "scheduled"
+        url: "https://www.bristolaquarium.co.uk/whats-on-event/whats-on/"
+        image: "https://www.bristolaquarium.co.uk/wp-content/uploads/2026/07/Conservation-Carnival-45.jpg"
+        price:
+          free: false
+          text: "Included with standard aquarium admission"
+        tags:
+          - "family"
+          - "kids"
+          - "school-holidays"
+          - "hands-on"
+          - "guided-tour"
+        raw: "**Conservation Carnival!** — 18 July – 31 August
+
+
+          Celebrate the incredible conservation success stories helping to protect
+
+          our oceans and wildlife this summer at Bristol Aquarium.
+
+
+          - **Take on the Conservation Trail** — collect stamps as you journey
+
+          \  through the aquarium, discovering six fascinating species and the
+
+          \  conservation projects helping them thrive.
+
+          - **Daily Save Our Seas Guided Tours – 11am** — a free guided conservation
+
+          \  tour through a different area of the aquarium each day. Tours last
+
+          \  approximately 15–20 minutes and include time for questions.
+
+          - **Treasure or Trash: Sandpit Search – Daily at 4pm** — dig through the
+
+          \  interactive beach combing sandpit for shark teeth, egg cases, fossils,
+
+          \  seashells and coral fragments, alongside examples of plastic pollution.
+
+          - **Visit the Conservation Corner** — beach clean information,
+
+          \  conservation charities you can support, and children's colouring
+
+          \  activities.
+
+
+          All Conservation Carnival activities are included with standard aquarium
+
+          admission.\n"
+        summary: "The aquarium's summer programme, built around a stamp-collecting conservation trail, daily 11am guided tours and a 4pm beachcombing sandpit dig."
+        confidence: "medium"
+      - id: "museums/bristol-aquarium#ec68f3206f"
+        sourceId: "museums/bristol-aquarium"
+        title: "Conservation Carnival Bank Holiday Bonanza!"
+        occurrence:
+          kind: "run"
+          start: "2026-08-29"
+          end: "2026-08-31"
+        status: "scheduled"
+        url: "https://www.bristolaquarium.co.uk/whats-on-event/whats-on/"
+        image: "https://www.bristolaquarium.co.uk/wp-content/uploads/2026/08/Bank-Holiday-Bonanza-poster.jpg"
+        tags:
+          - "family"
+          - "kids"
+          - "school-holidays"
+          - "hands-on"
+          - "workshop"
+        raw: "**Conservation Carnival Bank Holiday Bonanza!** — 29th – 31st August
+
+
+          Join us from the 29th – 31st August for this extra special bank holiday
+
+          celebration. As well as all of the fantastic Conservation Carnival tours,
+
+          trails and activities we have on we will be hosting some extra special
+
+          carnival games over this weekend!
+
+
+          - Take a bounce on the bouncy castle
+
+          - Try your hand at the coconut shy
+
+          - Win a prize on the tombola
+
+          - Explore fascinating shark facts with our workshop, learn about shark
+
+          \  anatomy with our dissectible cuddly shark and more!
+
+
+          For these extra activities we will be collecting donations for
+
+          @thesharktrust on the day.\n"
+        summary: "Carnival games, a bouncy castle and a shark anatomy workshop bolted onto the last bank holiday weekend of the summer, with donations going to the Shark Trust."
+        confidence: "medium"
+      - id: "museums/bristol-aquarium#afe117098a"
+        sourceId: "museums/bristol-aquarium"
+        title: "Talks and Feeds"
+        occurrence:
+          kind: "recurring"
+          pattern: "daily talks and feeds"
+        status: "scheduled"
+        url: "https://www.bristolaquarium.co.uk/whats-on-event/talks-feeds/"
+        image: "https://www.bristolaquarium.co.uk/wp-content/uploads/2026/04/ray-feed-square-scaled.jpg"
+        price:
+          free: false
+          text: "Included in your ticket to the aquarium"
+        tags:
+          - "family"
+          - "kids"
+          - "talk"
+          - "drop-in"
+        raw: "**Check our our talks and feeds!**
+
+
+          Visit our daily talks and feeds, included in your ticket to the aquarium!\n"
+        summary: "Keeper talks and feeding demonstrations run through the day and are covered by the standard ticket."
+        confidence: "medium"
+    notes: "The catalogued URL is the homepage and `/whats-on/` 404s; the listings live at `/whats-on-event/whats-on/`, which is what was harvested. Catalogue URL should be updated. The site returns 403 to the default fetcher and needs a browser user-agent. Only two dated events are programmed, both without a year, so those carry `confidence: medium`. Daily talks and feeds are described in prose with no individual times, so they are recorded as one recurring event. The Bristol Megascreen cinema programme is on a separate page and was not harvested — it belongs under cinema rather than museums."

@@ -1,0 +1,2137 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-08-17"
+category: "citywide"
+harvestedAt: "2026-08-17T07:26:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "3"
+model: "claude-opus-5[1m]"
+observations:
+  - sourceId: "citywide/365-bristol"
+    fetch:
+      ok: true
+      url: "https://365bristol.com/events"
+      status: 200
+    events:
+      - id: "citywide/365-bristol#0cddf027c6"
+        sourceId: "citywide/365-bristol"
+        title: "Annie"
+        occurrence:
+          kind: "run"
+          start: "2026-08-18"
+          end: "2026-08-23"
+        status: "scheduled"
+        venue:
+          sourceId: "theatre/bristol-hippodrome"
+        url: "https://365bristol.com/event/anniebristol2026"
+        image: "https://365bristol.com/userfiles/events/t_30968-1.jpg"
+        tags:
+          - "musical"
+          - "theatre"
+          - "family"
+        raw: "**Annie @ Bristol Hippodrome** — 18 Aug 2026 - 23 Aug 2026.
+
+          \"Set in 1930s New York, brave young Annie is forced to live a life of
+
+          misery...\"\n"
+        summary: "The Depression-era orphan musical plays a week at the Hippodrome before the schools go back."
+        confidence: "high"
+      - id: "citywide/365-bristol#f1bd15bdfa"
+        sourceId: "citywide/365-bristol"
+        title: "BLOC presents We Will Rock You"
+        occurrence:
+          kind: "run"
+          start: "2026-08-25"
+          end: "2026-08-29"
+        status: "scheduled"
+        venue:
+          sourceId: "theatre/bristol-hippodrome"
+        url: "https://365bristol.com/event/wwrybristol2026"
+        image: "https://365bristol.com/userfiles/events/t_30969-1.jpg"
+        tags:
+          - "musical"
+          - "theatre"
+        raw: "**BLOC presents We Will Rock You @ Bristol Hippodrome** — 25 Aug 2026
+
+          - 29 Aug 2026. \"BLOC Productions, Bristol's award-winning amateur
+
+          musical theatre club\" presents this production.\n"
+        summary: "Bristol's long-running amateur company BLOC takes the Hippodrome for a week with the Queen jukebox musical."
+        confidence: "high"
+      - id: "citywide/365-bristol#3219fe1bb1"
+        sourceId: "citywide/365-bristol"
+        title: "Lorde"
+        occurrence:
+          kind: "single"
+          date: "2026-08-28"
+        status: "scheduled"
+        venue:
+          sourceId: "outdoors/the-downs"
+        url: "https://365bristol.com/event/lorde-bristol-2026"
+        image: "https://365bristol.com/userfiles/events/t_31002-1.jpg"
+        tags:
+          - "live-music"
+          - "outdoor"
+          - "headliner"
+        raw: "**Lorde in Bristol | Durdham Downs on 28 August 2026** — \"New Zealand
+
+          pop powerhouse Lorde will be performing for the first time in the
+
+          city...\"\n"
+        summary: "Lorde's first Bristol show, outdoors on the Downs the night before Forwards takes the same site."
+        confidence: "high"
+      - id: "citywide/365-bristol#dace8b7591"
+        sourceId: "citywide/365-bristol"
+        title: "Forwards Festival Bristol 2026"
+        occurrence:
+          kind: "run"
+          start: "2026-08-29"
+          end: "2026-08-30"
+        status: "scheduled"
+        venue:
+          sourceId: "outdoors/the-downs"
+        url: "https://365bristol.com/event/forwards-festival-bristol-2026"
+        image: "https://365bristol.com/userfiles/events/t_31014-1.jpg"
+        tags:
+          - "festival"
+          - "live-music"
+          - "outdoor"
+          - "multi-day"
+        raw: "**Forwards Festival Bristol 2026** — 29 Aug 2026 - 30 Aug 2026,
+
+          Durdham Down. \"FORWARDS Festival returns to Bristol for another year
+
+          with its most ambitious and...\"\n"
+        summary: "The city's two-day festival on the Downs over the August bank holiday weekend."
+        confidence: "high"
+      - id: "citywide/365-bristol#108787af8b"
+        sourceId: "citywide/365-bristol"
+        title: "Bristol Hippodrome Theatre Tour"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+        status: "scheduled"
+        venue:
+          sourceId: "theatre/bristol-hippodrome"
+        url: "https://365bristol.com/event/bristol-hippodrome-tour-29-aug-2026"
+        image: "https://365bristol.com/userfiles/events/t_31042-1.jpg"
+        tags:
+          - "guided-tour"
+          - "heritage"
+        raw: "**Bristol Hippodrome Theatre Tour on 29 August 2026** — \"Bristol
+
+          Hippodrome theatre tours are held regularly each month where you can
+
+          have...\"\n"
+        summary: "Backstage tour of the 1912 Hippodrome, one of the monthly dates the theatre runs."
+        confidence: "high"
+      - id: "citywide/365-bristol#7b56970186"
+        sourceId: "citywide/365-bristol"
+        title: "Matthew Bourne's The Car Man"
+        occurrence:
+          kind: "run"
+          start: "2026-09-01"
+          end: "2026-09-05"
+        status: "scheduled"
+        venue:
+          sourceId: "theatre/bristol-hippodrome"
+        url: "https://365bristol.com/event/tcmbristol2026"
+        image: "https://365bristol.com/userfiles/events/t_30970-1.jpg"
+        tags:
+          - "dance"
+          - "theatre"
+          - "contemporary"
+        raw: "**Matthew Bourne's The Car Man @ Bristol Hippodrome** — 1 Sep 2026 - 5
+
+          Sep 2026. \"Loosely based on Bizet's ever-popular opera, The Car Man has
+
+          one of the most...\"\n"
+        summary: "Matthew Bourne's Bizet-derived dance thriller, a week at the Hippodrome."
+        confidence: "high"
+      - id: "citywide/365-bristol#a93842186d"
+        sourceId: "citywide/365-bristol"
+        title: "Mean Girls"
+        occurrence:
+          kind: "run"
+          start: "2026-09-08"
+          end: "2026-09-12"
+        status: "scheduled"
+        venue:
+          sourceId: "theatre/bristol-hippodrome"
+        url: "https://365bristol.com/event/meangirlsbristol2026"
+        image: "https://365bristol.com/userfiles/events/t_30971-1.jpg"
+        tags:
+          - "musical"
+          - "theatre"
+        raw: "**Mean Girls @ Bristol Hippodrome** — 8 Sep 2026 - 12 Sep 2026.
+
+          \"Winner of Best New Musical (WhatsOnStage Awards) and direct from the
+
+          West End, MEAN...\"\n"
+        summary: "The West End transfer of the Mean Girls musical, in for a week."
+        confidence: "high"
+      - id: "citywide/365-bristol#5c24bf00b3"
+        sourceId: "citywide/365-bristol"
+        title: "Kevin Bridges: Here If You Need Me"
+        occurrence:
+          kind: "run"
+          start: "2026-09-15"
+          end: "2026-09-19"
+        status: "scheduled"
+        venue:
+          sourceId: "theatre/bristol-hippodrome"
+        url: "https://365bristol.com/event/kevinbbristol2026"
+        image: "https://365bristol.com/userfiles/events/t_30972-1.jpg"
+        tags:
+          - "comedy"
+          - "stand-up"
+        raw: "**Kevin Bridges: Here If You Need Me @ Bristol Hippodrome** — 15 Sep
+
+          2026 - 19 Sep 2026. \"Scotland's comedy powerhouse Kevin Bridges returns
+
+          to the stage...\"\n"
+        summary: "Five nights of Kevin Bridges' touring show at the Hippodrome."
+        confidence: "high"
+      - id: "citywide/365-bristol#6b84e33192"
+        sourceId: "citywide/365-bristol"
+        title: "Saint Etienne"
+        occurrence:
+          kind: "single"
+          date: "2026-09-16"
+        status: "scheduled"
+        venue:
+          sourceId: "music/bristol-beacon"
+        url: "https://365bristol.com/event/saint-etienne-bristol-2026"
+        image: "https://365bristol.com/userfiles/events/t_30930-1.jpg"
+        tags:
+          - "live-music"
+          - "indie"
+        raw: "**Saint Etienne at Bristol Beacon - 16 September 2026** — \"Saint
+
+          Etienne have announced that 2026 will mark their final UK & Ireland
+
+          tour...\"\n"
+        summary: "Saint Etienne at the Beacon on what the listing calls their final UK and Ireland tour."
+        confidence: "high"
+      - id: "citywide/365-bristol#90cf2a51f3"
+        sourceId: "citywide/365-bristol"
+        title: "Mull Historical Society"
+        occurrence:
+          kind: "single"
+          date: "2026-09-22"
+        status: "scheduled"
+        venue:
+          sourceId: "theatre/wardrobe-theatre"
+        url: "https://365bristol.com/event/https-thewardrobetheatre-com-whats-on-events-page-1-search-order-asc-order-by"
+        image: "https://365bristol.com/userfiles/events/t_31017-1.jpg"
+        tags:
+          - "live-music"
+          - "indie"
+        raw: "**Mull Historical Society At The Wardrobe Theatre** — 22 Sep 2026.
+
+          \"With a new album and novel just around the corner, MULL HISTORICAL
+
+          SOCIETY AKA Colin...\"\n"
+        summary: "Colin MacIntyre's Mull Historical Society plays the Wardrobe with a new album and a novel due."
+        confidence: "high"
+      - id: "citywide/365-bristol#cd040c2078"
+        sourceId: "citywide/365-bristol"
+        title: "Goldie Lookin Chain"
+        occurrence:
+          kind: "single"
+          date: "2026-09-26"
+        status: "scheduled"
+        venue:
+          sourceId: "music/swx"
+        url: "https://365bristol.com/event/glc-bristol-2026"
+        image: "https://365bristol.com/userfiles/events/t_30921-1.jpg"
+        tags:
+          - "live-music"
+          - "hip-hop"
+        raw: "**Goldie Lookin Chain at Electric Bristol | 26 September 2026** —
+
+          \"Goldie Lookin Chain bring their chaotic brilliance to Electric Bristol
+
+          (formerly...\"\n"
+        summary: "Newport's Goldie Lookin Chain at the Nelson Street venue now trading as Electric Bristol."
+        confidence: "high"
+      - id: "citywide/365-bristol#21e9711ccf"
+        sourceId: "citywide/365-bristol"
+        title: "The Hu"
+        occurrence:
+          kind: "single"
+          date: "2026-10-01"
+        status: "scheduled"
+        venue:
+          name: "Prospect Bristol"
+        url: "https://365bristol.com/event/the-hu-bristol-2026"
+        image: "https://365bristol.com/userfiles/events/t_31015-1.jpg"
+        tags:
+          - "live-music"
+          - "metal"
+          - "rock"
+        raw: "**The Hu at Prospect Bristol | 1st October 2026** — \"Bristol will play
+
+          host to one of the most distinctive forces...\"\n"
+        summary: "Mongolian folk-metal band The Hu at the Prospect Building on Feeder Road."
+        confidence: "high"
+      - id: "citywide/365-bristol#0379c88f95"
+        sourceId: "citywide/365-bristol"
+        title: "The Hoosiers"
+        occurrence:
+          kind: "single"
+          date: "2026-10-07"
+        status: "scheduled"
+        venue:
+          sourceId: "music/o2-academy"
+        url: "https://365bristol.com/event/hoosiers-2026"
+        image: "https://365bristol.com/userfiles/events/t_31027-1.jpg"
+        tags:
+          - "live-music"
+          - "indie"
+        raw: "**The Hoosiers at O2 Academy Bristol | 7 October 2026** — \"The Hoosiers
+
+          have two upcoming gigs in Bristol - an acoustic record store tour...\"\n"
+        summary: "The Hoosiers at the O2 Academy; the listing mentions a second, acoustic in-store date in the city."
+        confidence: "high"
+      - id: "citywide/365-bristol#d3c19afada"
+        sourceId: "citywide/365-bristol"
+        title: "Back To The Future The Musical"
+        occurrence:
+          kind: "run"
+          start: "2026-10-08"
+          end: "2026-11-21"
+        status: "scheduled"
+        venue:
+          sourceId: "theatre/bristol-hippodrome"
+        url: "https://365bristol.com/event/bttf-bristol-hipp-2026"
+        image: "https://365bristol.com/userfiles/events/t_30908-1.jpg"
+        tags:
+          - "musical"
+          - "theatre"
+          - "multi-day"
+        raw: "**Back To The Future at The Bristol Hippodrome | Oct & Nov 2026** — 8
+
+          Oct 2026 - 21 Nov 2026. \"BACK TO THE FUTURE The Musical, opening at the
+
+          Bristol Hippodrome from Thursday...\"\n"
+        summary: "A six-week sit-down run of the Back To The Future musical at the Hippodrome."
+        confidence: "high"
+      - id: "citywide/365-bristol#d03a584a79"
+        sourceId: "citywide/365-bristol"
+        title: "Alison Moyet"
+        occurrence:
+          kind: "single"
+          date: "2026-10-08"
+        status: "scheduled"
+        venue:
+          sourceId: "music/bristol-beacon"
+        url: "https://365bristol.com/event/alison-moyet-bristol-2026-tickets"
+        image: "https://365bristol.com/userfiles/events/t_31012-1.jpg"
+        tags:
+          - "live-music"
+          - "headliner"
+        raw: "**Alison Moyet at Bristol Beacon | 8 October 2026** — \"The celebrated
+
+          British singer Alison Moyet will be bringing her powerful voice to...\"\n"
+        summary: "Alison Moyet at the Beacon on her autumn tour."
+        confidence: "high"
+      - id: "citywide/365-bristol#4cc3d06ceb"
+        sourceId: "citywide/365-bristol"
+        title: "Alan Carr: Have I Said Too Much?"
+        occurrence:
+          kind: "run"
+          start: "2026-10-14"
+          end: "2026-10-16"
+        status: "scheduled"
+        venue:
+          sourceId: "theatre/bristol-hippodrome"
+        url: "https://365bristol.com/event/alancarrbristol2026"
+        image: "https://365bristol.com/userfiles/events/t_30974-1.jpg"
+        tags:
+          - "comedy"
+          - "stand-up"
+        raw: "**Alan Carr: Have I Said Too Much?** — 14 Oct 2026 - 16 Oct 2026,
+
+          Bristol Hippodrome. \"With a big mouth and a talent for oversharing,
+
+          Alan's ready to dish some...\"\n"
+        summary: "Three nights of Alan Carr's touring stand-up show at the Hippodrome."
+        confidence: "high"
+      - id: "citywide/365-bristol#b6ff6baaff"
+        sourceId: "citywide/365-bristol"
+        title: "Teenage Fanclub"
+        occurrence:
+          kind: "single"
+          date: "2026-11-04"
+        status: "scheduled"
+        venue:
+          sourceId: "theatre/trinity-centre"
+        url: "https://365bristol.com/event/teenagefanclubbristol"
+        image: "https://365bristol.com/userfiles/events/t_31043-1.jpg"
+        tags:
+          - "live-music"
+          - "indie"
+        raw: "**Teenage Fanclub at Trinity Bristol | 4 November 2026** — \"In early
+
+          October 2026 Teenage Fanclub will be releasing their new album 'Do...'\"\n"
+        summary: "Teenage Fanclub at Trinity, touring a new album due in October."
+        confidence: "high"
+      - id: "citywide/365-bristol#24b4346475"
+        sourceId: "citywide/365-bristol"
+        title: "Sol & The Gang"
+        occurrence:
+          kind: "single"
+          date: "2026-11-06"
+        status: "scheduled"
+        venue:
+          sourceId: "music/swx"
+        url: "https://365bristol.com/event/j-sol-bristol-electric"
+        image: "https://365bristol.com/userfiles/events/t_31040-1.jpg"
+        tags:
+          - "live-music"
+          - "soul"
+        raw: "**Sol & The Gang at Electric Bristol on 6 November 2026** — \"Friday, 6
+
+          November 2026 will see Sol & The Gang arrive at Electric Bristol...\"\n"
+        summary: "Sol & The Gang at Electric Bristol on a Friday night in November."
+        confidence: "high"
+      - id: "citywide/365-bristol#540d090568"
+        sourceId: "citywide/365-bristol"
+        title: "East 17"
+        occurrence:
+          kind: "single"
+          date: "2026-11-20"
+        status: "scheduled"
+        venue:
+          sourceId: "music/o2-academy"
+        url: "https://365bristol.com/event/east-17-bristol-2026"
+        image: "https://365bristol.com/userfiles/events/t_31011-1.jpg"
+        tags:
+          - "live-music"
+          - "headliner"
+        raw: "**East 17 at O2 Academy Bristol | 20 November 2026** — \"The British pop
+
+          legends East 17 will return to the live stage in 2026 with a
+
+          celebratory...\"\n"
+        summary: "East 17's anniversary tour reaches the O2 Academy."
+        confidence: "high"
+      - id: "citywide/365-bristol#35843d9fbc"
+        sourceId: "citywide/365-bristol"
+        title: "CATS"
+        occurrence:
+          kind: "run"
+          start: "2026-11-24"
+          end: "2026-11-28"
+        status: "scheduled"
+        venue:
+          sourceId: "theatre/bristol-hippodrome"
+        url: "https://365bristol.com/event/cats-bristol-2026"
+        image: "https://365bristol.com/userfiles/events/t_30922-1.jpg"
+        tags:
+          - "musical"
+          - "theatre"
+        raw: "**CATS at The Bristol Hippodrome from 24-28 November 2026** — \"A
+
+          brand-new production of Andrew Lloyd Webber's global sensation CATS
+
+          visits The...\"\n"
+        summary: "A new touring production of CATS, a week at the Hippodrome."
+        confidence: "high"
+      - id: "citywide/365-bristol#f2e68b87fc"
+        sourceId: "citywide/365-bristol"
+        title: "The Snuts"
+        occurrence:
+          kind: "single"
+          date: "2026-11-30"
+        status: "scheduled"
+        venue:
+          name: "Prospect Bristol"
+        url: "https://365bristol.com/event/thesnutsbristol"
+        image: "https://365bristol.com/userfiles/events/t_31039-1.jpg"
+        tags:
+          - "live-music"
+          - "indie"
+          - "rock"
+        raw: "**The Snuts At The Prospect Building November 30** — 30 Nov 2026.
+
+          \"Indie-Rock powerhouses The Snuts will be heading out on the road once
+
+          again\"\n"
+        summary: "Scottish indie band The Snuts at the Prospect Building."
+        confidence: "high"
+      - id: "citywide/365-bristol#47ac615eb5"
+        sourceId: "citywide/365-bristol"
+        title: "Tony Hadley: Christmas Big Band Tour"
+        occurrence:
+          kind: "single"
+          date: "2026-12-03"
+        status: "scheduled"
+        venue:
+          sourceId: "music/bristol-beacon"
+        url: "https://365bristol.com/event/tony-hadley-bristol-2026"
+        image: "https://365bristol.com/userfiles/events/t_31016-1.jpg"
+        tags:
+          - "live-music"
+          - "seasonal"
+        raw: "**Tony Hadley | Christmas Big Band Tour | Bristol Beacon | 3 December
+
+          2026** — \"Tony Hadley, one of Britain's most distinctive vocalists,
+
+          returns to the stage\"\n"
+        summary: "Tony Hadley's Christmas big band show at the Beacon."
+        confidence: "high"
+      - id: "citywide/365-bristol#1ac3168e5f"
+        sourceId: "citywide/365-bristol"
+        title: "Westside Cowboy"
+        occurrence:
+          kind: "single"
+          date: "2026-12-04"
+        status: "scheduled"
+        venue:
+          sourceId: "music/swx"
+        url: "https://365bristol.com/event/westside-cowboy-bristol-2026"
+        image: "https://365bristol.com/userfiles/events/t_31022-1.jpg"
+        tags:
+          - "live-music"
+          - "indie"
+        raw: "**Westside Cowboy at Electric Bristol | 4 December 2026** — \"The rising
+
+          Manchester indie outfit Westside Cowboy have confirmed a headline show\"\n"
+        summary: "Manchester indie band Westside Cowboy headline Electric Bristol."
+        confidence: "high"
+      - id: "citywide/365-bristol#d04e2e5a4a"
+        sourceId: "citywide/365-bristol"
+        title: "Sleeping Beauty"
+        subcategory: "Pantomime"
+        occurrence:
+          kind: "run"
+          start: "2026-12-05"
+          end: "2027-01-03"
+        status: "scheduled"
+        venue:
+          sourceId: "theatre/bristol-hippodrome"
+        url: "https://365bristol.com/event/sbbristol2026"
+        image: "https://365bristol.com/userfiles/events/t_30973-1.jpg"
+        tags:
+          - "panto"
+          - "family"
+          - "seasonal"
+        raw: "**Sleeping Beauty (Pantomime) @ Bristol Hippodrome** — 5 Dec 2026 - 3
+
+          Jan 2027. \"Once upon a time in a faraway kingdom, Princess Aurora
+
+          receives a birthday present\"\n"
+        summary: "The Hippodrome's Christmas pantomime, running from early December to the new year."
+        confidence: "high"
+      - id: "citywide/365-bristol#e2952e0074"
+        sourceId: "citywide/365-bristol"
+        title: "Editors"
+        occurrence:
+          kind: "single"
+          date: "2027-03-09"
+        status: "scheduled"
+        venue:
+          name: "Prospect Bristol"
+        url: "https://365bristol.com/event/editorsbristol2027"
+        image: "https://365bristol.com/userfiles/events/t_31031-1.jpg"
+        tags:
+          - "live-music"
+          - "indie"
+          - "rock"
+        raw: "**Editors at Prospect Building Bristol | 9 March 2027** — \"The indie
+
+          guitar-rock band Editors have included Bristol in their upcoming UK
+
+          tour\"\n"
+        summary: "Editors bring their spring 2027 UK tour to the Prospect Building."
+        confidence: "high"
+      - id: "citywide/365-bristol#04e2d5752a"
+        sourceId: "citywide/365-bristol"
+        title: "Jesus Christ Superstar"
+        occurrence:
+          kind: "run"
+          start: "2027-10-19"
+          end: "2027-10-23"
+        status: "scheduled"
+        venue:
+          sourceId: "theatre/bristol-hippodrome"
+        url: "https://365bristol.com/event/jcsbristol2026"
+        image: "https://365bristol.com/userfiles/events/t_31038-1.jpg"
+        tags:
+          - "musical"
+          - "theatre"
+        raw: "**Jesus Christ Superstar at The Bristol Hippodrome - 19-23 Oct 2027** —
+
+          \"Jesus Christ Superstar arrives at The Bristol Hippodrome for a one
+
+          week run\"\n"
+        summary: "Jesus Christ Superstar's touring production, booked into the Hippodrome for a week in autumn 2027."
+        confidence: "high"
+    notes: "Complete programme, not a truncation: the index runs to two pages (/events and /events?&page=2, 20 + 6 rows) and there is no page 3, so all 26 listings are recorded. The corrected catalogue URL is right. The index gives title, venue, date range and one clipped sentence, and no times or prices at all — those fields are omitted rather than guessed. Every row carries an explicit year, so no year inference was needed. Links and images are site-relative and have been prefixed with https://365bristol.com (one image checked, 200 image/jpeg). No `description` was captured: 26 events is past the point where opening each page pays. \"Electric Bristol\" is the venue the catalogue holds as music/swx, per that source's own hints, so those rows use it. \"Prospect Bristol\" is the Prospect Building on Feeder Rd, which music/propyard's notes say wants a new source of its own; it is recorded as a venue name until stage 1 creates one. The Mull Historical Society row's own link is a mangled slug (/event/https-thewardrobetheatre-com-...) but it is 365's real URL and resolves, so it is kept verbatim."
+  - sourceId: "citywide/bristol-247"
+    fetch:
+      ok: true
+      url: "https://www.bristol247.com/guides/things-to-do/15-things-to-do-in-bristol-this-week-august-17-23-2026/"
+      status: 200
+    events:
+      - id: "citywide/bristol-247#f611ca031b"
+        sourceId: "citywide/bristol-247"
+        title: "Heartwood Chorus"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+        status: "scheduled"
+        venue:
+          sourceId: "music/the-canteen"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-canteen/mon-17-aug-heartwood-chorus-folk-choir-from-bristol-158598#e158598"
+        image: "https://www.bristol247.com/wp-content/uploads/2026/08/Folk-choir-photo-by-heartwoodchorus.jpg"
+        tags:
+          - "live-music"
+          - "folk"
+        raw: "**Monday: Heartwood Chorus – folk choir, The Canteen** — Heartwood
+
+          Chorus are a folk choir from Bristol. They sing original, spellbinding
+
+          arrangements of traditional folk songs, as well as interpretations of
+
+          future classic from the thriving folk scene.\n"
+        summary: "A Bristol folk choir singing traditional arrangements and newer songs, free-entry territory at the Canteen."
+        confidence: "high"
+      - id: "citywide/bristol-247#bdb50bfd6f"
+        sourceId: "citywide/bristol-247"
+        title: "Junk Journaling Social"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+        status: "scheduled"
+        venue:
+          name: "Very Small Bookshop"
+        url: "https://www.headfirstbristol.co.uk/whats-on/very-small-bookshop/tue-18-aug-junk-journaling-social-159606#e159606"
+        image: "https://www.bristol247.com/wp-content/uploads/2026/08/Junk-journaling-photo-by-missmoon.bristol-800x600.jpg"
+        tags:
+          - "hands-on"
+          - "crafts"
+          - "community"
+        raw: "**Tuesday: Junk Journaling Social, Very Small Bookshop** — A relaxed,
+
+          creative social for anyone who loves junk journaling and capturing
+
+          memories in a unique, personal way. Bring along your favourite junk
+
+          (photos, receipts, wrappers and tickets) with materials provided to
+
+          help turn everyday keepsakes into something special.\n"
+        summary: "Bring your receipts and ticket stubs: a sociable evening of junk journaling with materials provided."
+        confidence: "high"
+      - id: "citywide/bristol-247#70294b6549"
+        sourceId: "citywide/bristol-247"
+        title: "Nana Benz du Togo"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+        status: "scheduled"
+        venue:
+          name: "The Jam Jar"
+        url: "https://www.headfirstbristol.co.uk/whats-on/jam-jar/wed-19-aug-the-jam-jar-presents-nana-benz-du-togo-155739#e155739"
+        image: "https://www.bristol247.com/wp-content/uploads/2026/08/Nana-Benz-du-Togo-photo-by-Nana-Benz-du-Togo-800x800.jpg"
+        tags:
+          - "live-music"
+          - "electronic"
+          - "soul"
+        raw: "**Wednesday: Nana Benz du Togo, The Jam Jar** — Togo's Nana Benz du
+
+          Togo bring a powerful fusion of Vodoun rhythms, afro-disco and
+
+          electro-soul, blending hypnotic vocals, DIY percussion and deep,
+
+          pulsating bass. Their vibrant sound pays tribute to the pioneering
+
+          women who inspired their name, creating an uplifting, dancefloor-ready
+
+          experience.\n"
+        summary: "Togolese trio Nana Benz du Togo bring Vodoun rhythms and electro-soul to the Jam Jar."
+        confidence: "high"
+      - id: "citywide/bristol-247#3e8bdf72ec"
+        sourceId: "citywide/bristol-247"
+        title: "Henna Nights – MehndiMehr x Bristol Creative Co"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+        status: "scheduled"
+        venue:
+          name: "Queen Square"
+        url: "https://www.headfirstbristol.co.uk/whats-on/queen-square/wed-19-aug-henna-nights-mehndimehr-x-bristol-creative-co-159180#e159180"
+        image: "https://www.bristol247.com/wp-content/uploads/2026/08/Henna-nights-photo-by-MehndiMehr-x-Bristol-Creative-Co.jpg"
+        tags:
+          - "workshop"
+          - "hands-on"
+          - "crafts"
+        raw: "**Wednesday: Henna Nights – MehndiMehr x Bristol Creative Co, Queen
+
+          Square** — A hands-on henna workshop exploring the history and cultural
+
+          significance of this ancient art form. Learn about natural henna,
+
+          practise your own designs and enjoy an evening filled with creativity,
+
+          conversation, music and tea.\n"
+        summary: "A henna workshop on Queen Square covering the art form's history alongside practice time, music and tea."
+        confidence: "high"
+      - id: "citywide/bristol-247#590100fae8"
+        sourceId: "citywide/bristol-247"
+        title: "No More All Male Lineups"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+        status: "scheduled"
+        venue:
+          name: "St George's"
+        url: "https://www.headfirstbristol.co.uk/whats-on/st-georges-hall/thu-20-aug-no-more-all-male-lineups-159134#e159134"
+        image: "https://www.bristol247.com/wp-content/uploads/2026/04/Izzy-Russel-and-Dasha-Anderson-from-No-More-All-Male-Lineups-photo-credit-No-More-All-Male-Lineups-800x737.jpeg"
+        tags:
+          - "live-music"
+          - "dj"
+          - "lgbtq"
+        raw: "**Thursday: No More All Male Lineups, St George's** — A night dedicated
+
+          to championing women and non-binary artists while creating space for a
+
+          more inclusive music scene. Featuring a lineup of queer artists
+
+          spanning live music, electronic sounds and DJs, with a local
+
+          FLINTA-powered soundsystem bringing the energy.\n"
+        summary: "A night of women and non-binary artists across live music and DJ sets, run by the No More All Male Lineups collective."
+        confidence: "medium"
+      - id: "citywide/bristol-247#05553666b5"
+        sourceId: "citywide/bristol-247"
+        title: "Stand up comedy at The Gaffe Comedy Club"
+        occurrence:
+          kind: "recurring"
+          pattern: "every Thursday, Friday and Saturday"
+        status: "scheduled"
+        venue:
+          name: "The Gaffe Comedy Club"
+        url: "https://www.thegaffecomedyclub.com/whats-on#listings"
+        image: "https://www.bristol247.com/wp-content/uploads/2026/05/The-Gaffe-Bristols-Home-of-Live-Comedy-photo-Julian-Preece-800x533.jpg"
+        tags:
+          - "comedy"
+          - "stand-up"
+          - "weekly"
+        raw: "**Thursday-Saturday: Stand up comedy at The Gaffe Comedy Club** —
+
+          Edinburgh might be the epicentre of the comedy world right now, but
+
+          Bristol is the next best place to be! Big names and local legends share
+
+          the spotlight at The Gaffe Comedy Club every Thursday, Friday and
+
+          Saturday.\n"
+        summary: "The Gaffe's weekend stand-up bills, three nights a week, mixing touring names with local acts."
+        confidence: "high"
+      - id: "citywide/bristol-247#c0750e8c3b"
+        sourceId: "citywide/bristol-247"
+        title: "Teenage Sex and Death at Camp Miasma"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+        status: "scheduled"
+        venue:
+          sourceId: "cinema/watershed"
+        url: "https://wshd.to/miasma"
+        image: "https://www.bristol247.com/wp-content/uploads/2026/08/CampMiasma-photo-by-MUBI-Watershed-800x533.jpeg"
+        tags:
+          - "screening"
+          - "horror"
+          - "new-release"
+        raw: "**Friday: Teenage Sex and Death at Camp Miasma, Watershed** — A new kind
+
+          of horror remake from one of the most exciting new voices in cinema,
+
+          starring Hannah Einbinder and Gillian Anderson.\n"
+        summary: "MUBI's horror remake with Hannah Einbinder and Gillian Anderson, screening at Watershed."
+        confidence: "high"
+      - id: "citywide/bristol-247#c0dac1b4a4"
+        sourceId: "citywide/bristol-247"
+        title: "Lily Bellevedere presents: The Wheelie Big Cabaret!"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+        status: "scheduled"
+        venue:
+          sourceId: "music/strange-brew"
+        url: "https://www.headfirstbristol.co.uk/whats-on/strange-brew/fri-21-aug-lily-bellevedere-presents-the-wheelie-big-cabaret-158219#e158219"
+        image: "https://www.bristol247.com/wp-content/uploads/2026/08/The-Wheelie-Big-Cabaret-photo-by-Lily-Bellevedere-1.jpg"
+        tags:
+          - "cabaret"
+          - "drag"
+          - "fundraiser"
+        raw: "**Friday: Lily Bellevedere presents: The Wheelie Big Cabaret! Strange
+
+          Brew** — A big-hearted cabaret packed with drag, performance and camp,
+
+          bringing together an all-star lineup of artists for an evening of
+
+          outrageous entertainment. The event also features a tombola with
+
+          brilliant prizes, all helping raise funds towards Lily Bellevedere's
+
+          new powerchair.\n"
+        summary: "A drag and cabaret benefit at Strange Brew, raising money for Lily Bellevedere's new powerchair."
+        confidence: "high"
+      - id: "citywide/bristol-247#df89eb605e"
+        sourceId: "citywide/bristol-247"
+        title: "Blink-182 TOYPAJ 25th Anniversary Club Tour"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+        status: "scheduled"
+        venue:
+          sourceId: "music/the-fleece"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-fleece/fri-21-aug-blink-182-toypaj-25th-anniversary-club-tour-159673#e159673"
+        image: "https://www.bristol247.com/wp-content/uploads/2024/09/the-fleece-credit-Chris-Sharp-800x533.jpg"
+        tags:
+          - "live-music"
+          - "punk"
+          - "tribute-act"
+        raw: "**Friday: Blink-182 TOYPAJ 25th Anniversary Club Tour, The Fleece** — A
+
+          high-energy celebration of blink-182's iconic debut album, bringing the
+
+          raw, catchy spirit of late-90s pop-punk back to life. Packed with
+
+          nostalgic anthems, infectious riffs and plenty of singalong moments,
+
+          this anniversary party is made for fans ready to relive the era.\n"
+        summary: "A club-tour celebration of blink-182's debut album, 25 years on, at the Fleece."
+        confidence: "high"
+      - id: "citywide/bristol-247#c398ee2893"
+        sourceId: "citywide/bristol-247"
+        title: "Soultasia"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+        status: "scheduled"
+        venue:
+          name: "Bristol Amphitheatre"
+        url: "https://soultasia.com/event-bristol-saturday-22nd-august-2026"
+        image: "https://www.bristol247.com/wp-content/uploads/2026/08/Phil-Fearon-photo-by-SOULTASIA.jpg"
+        tags:
+          - "live-music"
+          - "soul"
+          - "outdoor"
+        raw: "**Saturday: Soultasia, Bristol Amphitheatre** — The UK's biggest touring
+
+          Soul & Disco Spectacular comes to Bristol for a truly unmissable event.
+
+          Featuring the biggest ever anthems from the biggest ever artists. A
+
+          star-studded unmissable event celebrating the legacy of Soul & Disco
+
+          featuring some of the world's finest artists\n"
+        summary: "A touring soul and disco revue in the harbourside amphitheatre, with Phil Fearon among the names."
+        confidence: "high"
+      - id: "citywide/bristol-247#160b43757f"
+        sourceId: "citywide/bristol-247"
+        title: "CBeebies House Party LIVE!"
+        occurrence:
+          kind: "single"
+          date: "2026-08-23"
+        status: "scheduled"
+        venue:
+          sourceId: "music/bristol-beacon"
+        url: "https://bristolbeacon.org/whats-on/cbeebies-house-party/"
+        image: "https://www.bristol247.com/wp-content/uploads/2026/06/CBeebies-house-party-live-photo-by-Bristol-Beacon-800x450.jpg"
+        tags:
+          - "family"
+          - "kids"
+          - "performance"
+        raw: "**Sunday: CBeebies House Party LIVE! Bristol Beacon** — Get ready for the
+
+          ultimate family celebration as CBeebies House Party LIVE! comes to
+
+          Bristol Beacon. Join favourites Andy Day, Evie Pickerill, Nigel Clarke,
+
+          George Webster and Hey Duggee for an hour of songs, dancing, bubbles,
+
+          giant jellies and magical surprises. Bursting with fun, laughter and a
+
+          special CBeebies Bedtime Story, it's the perfect first live show for
+
+          little ones.\n"
+        summary: "An hour of songs and silliness with the CBeebies presenters, pitched at first-time theatregoers."
+        confidence: "high"
+      - id: "citywide/bristol-247#6b86bce735"
+        sourceId: "citywide/bristol-247"
+        title: "The Wave Surfboard Expo"
+        occurrence:
+          kind: "single"
+          date: "2026-08-23"
+        status: "scheduled"
+        venue:
+          name: "The Wave"
+        url: "http://thewave.com/the-wave-surfboard-expo-boards-brands-food-and-music/"
+        image: "https://www.bristol247.com/wp-content/uploads/2025/03/Emily-at-The-Wave-February-2025-scaled-e1741107999464-800x451.jpg"
+        tags:
+          - "outdoor"
+          - "family"
+          - "live-music"
+        raw: "**Sunday: The Wave Surfboard Expo, The Wave** — Whether you've been
+
+          surfing for years, have only just started, or simply fancy a great
+
+          summer day out, then The Wave Surfboard Expo has something for you.
+
+          Everyone is welcome to come along, browse boards, listen to music, take
+
+          to the waves and soak up the atmosphere.\n"
+        summary: "Board brands, music and open water at the inland surf lake north of the city."
+        confidence: "high"
+      - id: "citywide/bristol-247#b7e1eec45c"
+        sourceId: "citywide/bristol-247"
+        title: "Mulligans Bristol's Family Summer Pass"
+        occurrence:
+          kind: "run"
+          end: "2026-09-01"
+        status: "scheduled"
+        venue:
+          name: "Mulligans Bristol"
+        url: "https://www.mrmulligan.com/"
+        image: "https://www.bristol247.com/wp-content/uploads/2026/08/Mulligans-summer-pass-photo-by-Mulligans-800x533.jpg"
+        price:
+          free: false
+          text: "£29"
+          min: 29
+          max: 29
+          currency: "GBP"
+        tags:
+          - "family"
+          - "games"
+          - "school-holidays"
+        raw: "**Until September 1: Mulligans Bristol's Family Summer Pass, Mulligans
+
+          Bristol** — Mulligans Bristol's Family Summer Pass offers: Unlimited
+
+          crazy golf for up to four people. One free hour of any other activity
+
+          for up to four people 30 per cent off all food and drink for just £29.
+
+          Each Summer Pass is valid for 6 weeks from the date of purchase until
+
+          1st September.\n"
+        summary: "A summer-holiday ticket rather than a dated event: unlimited crazy golf for up to four, valid until 1 September."
+        confidence: "medium"
+      - id: "citywide/bristol-247#a6a754685a"
+        sourceId: "citywide/bristol-247"
+        title: "SENTIENTS"
+        occurrence:
+          kind: "run"
+          start: "2026-08-01"
+          end: "2026-09-13"
+        status: "scheduled"
+        venue:
+          sourceId: "cinema/watershed"
+        url: "https://www.watershed.co.uk/whatson/14147/sentients"
+        image: "https://www.bristol247.com/wp-content/uploads/2026/06/Sentients-photo-by-Watershed-800x497.jpeg"
+        tags:
+          - "exhibition"
+          - "interactive"
+          - "games"
+        raw: "**August 1-September 13: SENTIENTS, Watershed** — Open your animal eyes.
+
+          A collection of groundbreaking video games and virtual reality in
+
+          Undershed.\n"
+        summary: "Watershed's Undershed exhibition of video games and VR about seeing the world as something other than human."
+        confidence: "high"
+      - id: "citywide/bristol-247#0a31e95fce"
+        sourceId: "citywide/bristol-247"
+        title: "Cracking Films, Gromit!: 50 Years of Aardman"
+        occurrence:
+          kind: "run"
+          start: "2026-08-01"
+          end: "2026-09-02"
+        status: "scheduled"
+        venue:
+          sourceId: "cinema/watershed"
+        url: "https://www.watershed.co.uk/whatson/season/749/cracking-films-gromit-50-years-of-aardman"
+        image: "https://www.bristol247.com/wp-content/uploads/2026/07/Cracking-films-photo-by-watershed-800x687.jpeg"
+        tags:
+          - "screening"
+          - "animation"
+          - "family"
+        raw: "**August 1-September 2: Cracking Films, Gromit!: 50 Years of Aardman,
+
+          Watershed** — We celebrate 50 years of Bristol's global animation stars,
+
+          Aardman, with a summer of their cracking films.\n"
+        summary: "A summer season of Aardman films at Watershed, marking the Bristol studio's 50th year."
+        confidence: "high"
+      - id: "citywide/bristol-247#79c2ec1aa4"
+        sourceId: "citywide/bristol-247"
+        title: "Bristol24/7 Presents: Drag Quiz Night"
+        occurrence:
+          kind: "single"
+          date: "2026-09-30"
+          startTime: "18:00"
+        status: "scheduled"
+        venue:
+          name: "The Pump House"
+        url: "https://www.bristol247.com/events/bristol24-7-presents-drag-quiz-night/"
+        tags:
+          - "drag"
+          - "quiz"
+          - "fundraiser"
+        raw: "**Bristol24/7 Presents: Drag Quiz Night** — Join us for our Drag Quiz
+
+          Night to fundraise for Bristol24/7's independent journalism on September
+
+          30 2026, 6pm at The Pump House, Bristol.\n"
+        summary: "Bristol24/7's own fundraiser: a drag-hosted quiz at the Pump House."
+        confidence: "high"
+      - id: "citywide/bristol-247#c29ed880e3"
+        sourceId: "citywide/bristol-247"
+        title: "Golomb"
+        occurrence:
+          kind: "single"
+          date: "2026-08-27"
+        status: "scheduled"
+        venue:
+          sourceId: "music/exchange"
+        url: "https://bristolbeacon.org/whats-on/golomb/"
+        image: "https://www.bristol247.com/wp-content/uploads/2026/08/Golomb-photo-by-Grace-Lillash--scaled.jpeg"
+        tags:
+          - "live-music"
+          - "electronic"
+          - "experimental"
+        raw: "**August 27: Golomb, Exchange** — Golomb brings a fresh perspective to
+
+          contemporary music, blending electronic textures and experimental sound
+
+          into an immersive live experience. With a distinctive approach that
+
+          moves between precision and spontaneity, their music is full of
+
+          unexpected turns, rich detail, and atmosphere. An intriguing listen for
+
+          adventurous ears.\n"
+        summary: "Electronic and experimental live set at Exchange, promoted by Bristol Beacon."
+        confidence: "high"
+      - id: "citywide/bristol-247#db0d22c58b"
+        sourceId: "citywide/bristol-247"
+        title: "Things I've Never Said"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+        status: "scheduled"
+        venue:
+          sourceId: "theatre/redgrave-theatre"
+        url: "https://redgravetheatre.com/shows/things-ive-never-said"
+        image: "https://www.bristol247.com/wp-content/uploads/2026/07/Things-Ive-Never-Said-photo-by-Redgrave-Theatre-800x477.png"
+        tags:
+          - "dance"
+          - "physical-theatre"
+        raw: "**August 29: Things I've Never Said, Redgrave Theatre** — A life-affirming
+
+          story told through breath-taking dance theatre, with world-class
+
+          original music. As seen on the BBC, the award-winning Project Dance
+
+          presents Things I've Never Said, a heart touching story that shines a
+
+          light on the secrets and unspoken thoughts we each carry.\n"
+        summary: "Project Dance's dance-theatre piece about the things people leave unsaid, one night at the Redgrave."
+        confidence: "high"
+      - id: "citywide/bristol-247#8e82d9d421"
+        sourceId: "citywide/bristol-247"
+        title: "The Real Thing"
+        occurrence:
+          kind: "single"
+          date: "2026-09-03"
+        status: "scheduled"
+        venue:
+          sourceId: "theatre/redgrave-theatre"
+        url: "https://redgravetheatre.com/shows/the-real-thing"
+        image: "https://www.bristol247.com/wp-content/uploads/2026/07/The-Real-Thing-photo-by-Redgrave-Theatre-800x528.jpg"
+        tags:
+          - "live-music"
+          - "soul"
+        raw: "**September 3: The Real Thing, Redgrave Theatre** — THE REAL THING remain
+
+          a force in British music. Formed in 1972, they are the UK's
+
+          longest-established black group and pioneers of soul, funk and dance. In
+
+          2026, they celebrate the 50th anniversary of their chart-topping classic
+
+          You To Me Are Everything reaching No. 1, a milestone marking an
+
+          extraordinary legacy.\n"
+        summary: "Liverpool soul group The Real Thing mark 50 years of You To Me Are Everything at the Redgrave."
+        confidence: "high"
+      - id: "citywide/bristol-247#d99f82b8ed"
+        sourceId: "citywide/bristol-247"
+        title: "Ian Prowse & Amsterdam"
+        occurrence:
+          kind: "single"
+          date: "2026-10-09"
+        status: "scheduled"
+        venue:
+          sourceId: "music/thekla"
+        url: "https://crosstownconcerts.gigantic.com/ian-prowse-amsterdam-tickets/bristol-thekla/2026-10-09-18-30"
+        image: "https://www.bristol247.com/wp-content/uploads/2026/08/Prowsey-New-photo-by-Crosstown-Concerts-800x1200.png"
+        tags:
+          - "live-music"
+          - "indie"
+          - "folk"
+        raw: "**October 9: Ian Prowse & Amsterdam, Thekla** — Merseyside's Ian Prowse &
+
+          Amsterdam celebrate their upcoming new album 'No Names', with a Thekla
+
+          appearance. The 6-piece band will be performing songs from Prowse's
+
+          previous indie cult band Pele, material from Prowse's 30-year song
+
+          writing career, along with brand new Amsterdam originals.\n"
+        summary: "Merseyside songwriter Ian Prowse brings his six-piece band to the Thekla with a new album."
+        confidence: "high"
+      - id: "citywide/bristol-247#a46294ee66"
+        sourceId: "citywide/bristol-247"
+        title: "Flora Hibberd"
+        occurrence:
+          kind: "single"
+          date: "2026-11-10"
+        status: "scheduled"
+        venue:
+          sourceId: "music/the-louisiana"
+        url: "https://crosstownconcerts.gigantic.com/flora-hibberd-tickets/bristol-the-louisiana/2026-11-10-19-30"
+        image: "https://www.bristol247.com/wp-content/uploads/2026/08/Flora-Hibberd-photo-by-Tchane-Cagan-Crosstown-Concerts-800x1222.jpeg"
+        tags:
+          - "live-music"
+          - "folk"
+          - "indie"
+        raw: "**November 10: Flora Hibberd, The Louisiana** — Following up her 2025
+
+          debut album Swirl alongside a run of shows this August with Hannah
+
+          Cohen, Paris-based, London-born musician Flora Hibberd has announced the
+
+          arrival of her energetic second album Mammoth, set for release October
+
+          16th. A return to Bristol highlights a new exciting music era.\n"
+        summary: "Flora Hibberd returns to the Louisiana behind a second album, Mammoth."
+        confidence: "high"
+      - id: "citywide/bristol-247#ec76efad58"
+        sourceId: "citywide/bristol-247"
+        title: "Park Drive"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+        status: "scheduled"
+        venue:
+          sourceId: "music/exchange"
+        url: "https://www.headfirstbristol.co.uk/whats-on/exchange/sat-15-aug-park-drive-149667#e149667"
+        tags:
+          - "live-music"
+          - "indie"
+          - "rock"
+        raw: "**August 17: Park Drive, Exchange** — Experience the debut tour of Essex
+
+          indie band Park Drive, delivering soaring hooks, snarling guitars and
+
+          unapologetically British anthems.\n"
+        summary: "Essex indie band Park Drive at Exchange on their debut tour. The article's date and its ticket link disagree by two days."
+        confidence: "low"
+      - id: "citywide/bristol-247#3e57497322"
+        sourceId: "citywide/bristol-247"
+        title: "Butcher Brown + special guests"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+        status: "scheduled"
+        venue:
+          sourceId: "music/strange-brew"
+        url: "https://www.headfirstbristol.co.uk/whats-on/strange-brew/tue-18-aug-butcher-brown-special-guests-154199#e154199"
+        tags:
+          - "live-music"
+          - "jazz"
+          - "hip-hop"
+        raw: "**August 18: Butcher Brown + Special guests, Strange Brew** — Richmond
+
+          collective Butcher Brown blend jazz, hip-hop, funk, soul and fusion into
+
+          an exhilarating live experience.\n"
+        summary: "Virginia's Butcher Brown bring their jazz-funk-hip-hop fusion to Strange Brew."
+        confidence: "high"
+      - id: "citywide/bristol-247#683e606685"
+        sourceId: "citywide/bristol-247"
+        title: "Silly Little Zine Night"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+        status: "scheduled"
+        venue:
+          name: "Basement Beer"
+        url: "https://www.headfirstbristol.co.uk/whats-on/basement-beer/wed-19-aug-silly-little-zine-night-159035#e159035"
+        tags:
+          - "hands-on"
+          - "crafts"
+          - "beginners"
+        raw: "**August 19: Silly Little Zine Night, Basement Beer** — Fancy spending a
+
+          wholesome, weird, and wonderful evening scribbling and chatting? Come
+
+          make your own silly little comic- all materials provided, no experience
+
+          needed.\n"
+        summary: "Make a comic in a taproom: materials provided, no experience needed."
+        confidence: "high"
+      - id: "citywide/bristol-247#5e62bf1163"
+        sourceId: "citywide/bristol-247"
+        title: "Song Circle"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+        status: "scheduled"
+        venue:
+          sourceId: "music/rough-trade"
+        tags:
+          - "live-music"
+          - "indie"
+          - "storytelling"
+        raw: "**August 20: Song Circle, Rough Trade** — Following a sold-out first night
+
+          in April, Bristol Song Circle returns to Rough Trade with stripped-back
+
+          and shared songs, and the stories of how they were written woven in
+
+          between; featuring Starsailor frontman James Walsh, Little Boots, and
+
+          Melody Pool.\n"
+        summary: "Songwriters in the round at Rough Trade, with James Walsh of Starsailor, Little Boots and Melody Pool."
+        confidence: "medium"
+      - id: "citywide/bristol-247#b0f4de35ce"
+        sourceId: "citywide/bristol-247"
+        title: "Freqy Friday"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+        status: "scheduled"
+        venue:
+          name: "The Crown"
+        url: "https://www.headfirstbristol.co.uk/whats-on/the-crown/fri-21-aug-freqy-friday-158752#e158752"
+        price:
+          free: true
+          text: "Free entry"
+        tags:
+          - "club-night"
+          - "techno"
+          - "free-entry"
+        raw: "**August 21: Freqy Friday, The Crown** — Freqy Friday brings a high-energy
+
+          mix of hard dance, hardstyle, techno and donk to the basement. With free
+
+          entry and an underground rave atmosphere, it's a night dedicated to
+
+          fast-paced beats and heavyweight DJs.\n"
+        summary: "Free-entry hard dance and hardstyle in a pub basement."
+        confidence: "high"
+      - id: "citywide/bristol-247#e27a4793e3"
+        sourceId: "citywide/bristol-247"
+        title: "Outdoor Emo Festival"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+        status: "scheduled"
+        venue:
+          sourceId: "music/lakota"
+        url: "https://www.headfirstbristol.co.uk/whats-on/lakota/sat-22-aug-outdoor-emo-festival-comes-to-bristol-152212#e152212"
+        tags:
+          - "club-night"
+          - "live-music"
+          - "dj"
+        raw: "**August 22: Outdoor Emo Festival, Lakota** — Teenage nostalgia featuring
+
+          all your biggest emo songs in existence with live band & live DJ's
+
+          spinning all the angst your teenage dirtbag heart desires all night
+
+          long!\n"
+        summary: "An emo nostalgia night at Lakota with a live band and DJs."
+        confidence: "high"
+      - id: "citywide/bristol-247#9d806711c9"
+        sourceId: "citywide/bristol-247"
+        title: "Dog Life Drawing at The Theatre"
+        occurrence:
+          kind: "single"
+          date: "2026-08-24"
+        status: "scheduled"
+        venue:
+          sourceId: "theatre/bristol-old-vic"
+        url: "https://www.headfirstbristol.co.uk/whats-on/bristol-old-vic/mon-24-aug-dog-life-drawing-at-the-theatre-154651#e154651"
+        tags:
+          - "workshop"
+          - "animals"
+          - "hands-on"
+        raw: "**August 24: Dog Life Drawing at The Theatre, Bristol Old Vic** — Join
+
+          this art class with a difference and get to know your fluffy models with
+
+          a tail who just love scratches, pets and treats.\n"
+        summary: "Life drawing with dogs as the models, in the Old Vic."
+        confidence: "high"
+      - id: "citywide/bristol-247#6f811cea90"
+        sourceId: "citywide/bristol-247"
+        title: "Ecstatic launch with Emily Woof"
+        occurrence:
+          kind: "single"
+          date: "2026-08-25"
+        status: "scheduled"
+        venue:
+          sourceId: "literature/bookhaus"
+        url: "https://www.headfirstbristol.co.uk/whats-on/bookhaus/tue-25-aug-ecstatic-launch-with-emily-woof-158245#e158245"
+        tags:
+          - "book-launch"
+          - "author-talk"
+        raw: "**August 25: Ecstatic launch with Emily Woof, Bookhaus** — Emily Woof
+
+          discusses her new novel Ecstatic, a powerful dystopian story exploring
+
+          freedom, resistance and the transformative power of dance. The launch
+
+          includes an author conversation, refreshments and a discount on the
+
+          book.\n"
+        summary: "Emily Woof launches her dystopian novel Ecstatic at Bookhaus, with a conversation and refreshments."
+        confidence: "high"
+      - id: "citywide/bristol-247#d25afba607"
+        sourceId: "citywide/bristol-247"
+        title: "Wednesday Night Wars"
+        occurrence:
+          kind: "single"
+          date: "2026-08-26"
+        status: "scheduled"
+        venue:
+          name: "The Ill Repute"
+        url: "https://www.headfirstbristol.co.uk/whats-on/ill-repute/wed-26-aug-wednesday-night-wars-pro-wrestling-night-158285#e158285"
+        tags:
+          - "screening"
+          - "wrestling"
+          - "late-night"
+        raw: "**August 26: Wednesday Night Wars, The Ill Repute** — Grab a beer, pull up
+
+          a steel chair, and prepare to relive the golden age of chaos. Wednesday
+
+          Night Wars is The Ill Repute's fortnightly descent into 90s/00s
+
+          wrestling madness; a random pay-per-view from the era when everything
+
+          was louder, bloodier, and just a bit unhinged.\n"
+        summary: "A fortnightly bar screening of a randomly chosen 90s or 00s wrestling pay-per-view."
+        confidence: "high"
+      - id: "citywide/bristol-247#06ff966c45"
+        sourceId: "citywide/bristol-247"
+        title: "Fulu Miziki"
+        occurrence:
+          kind: "single"
+          date: "2026-08-27"
+        status: "scheduled"
+        venue:
+          name: "The Jam Jar"
+        url: "https://www.headfirstbristol.co.uk/whats-on/jam-jar/thu-27-aug-erratic-batting-fulu-miziki-moshi-moshi-records-151351#e151351"
+        tags:
+          - "live-music"
+          - "punk"
+          - "experimental"
+        raw: "**August 27: Fulu Miziki, Jam Jar** — Afro-futuristic-punk and handmade
+
+          instruments comes courtesy of Moshi Moshi-signed band Fulu Miziki from
+
+          the Democratic Republic of the Congo.\n"
+        summary: "Kinshasa's Fulu Miziki play afro-futurist punk on instruments built from scrap."
+        confidence: "high"
+      - id: "citywide/bristol-247#0ed77f0d56"
+        sourceId: "citywide/bristol-247"
+        title: "East Bristol Brewery Trail"
+        occurrence:
+          kind: "run"
+          start: "2026-08-29"
+          end: "2026-08-30"
+        status: "scheduled"
+        venue:
+          name: "Various venues, east Bristol"
+        url: "https://www.eastbristolbrewerytrail.com"
+        tags:
+          - "beer"
+          - "brewery"
+          - "tasting"
+          - "multi-day"
+        raw: "**August 29 & 30: East Bristol Brewery Trail, various venues** — Enjoy
+
+          beer from seven breweries over the Bank Holiday weekend: Left Handed
+
+          Giant, Good Chemistry, Moor, Little Martha, Arbor, Wiper & True and
+
+          Unwins.\n"
+        summary: "Seven east Bristol breweries open over the bank holiday weekend as a walkable trail."
+        confidence: "high"
+      - id: "citywide/bristol-247#99e6a8a974"
+        sourceId: "citywide/bristol-247"
+        title: "FORWARDS Festival"
+        occurrence:
+          kind: "run"
+          start: "2026-08-29"
+          end: "2026-08-30"
+        status: "scheduled"
+        venue:
+          sourceId: "outdoors/the-downs"
+        url: "https://www.forwardsbristol.co.uk"
+        image: "https://www.bristol247.com/wp-content/uploads/2026/07/FORWARDS-festival-lineup-photo-by-FORWARDS.jpeg"
+        tags:
+          - "festival"
+          - "live-music"
+          - "outdoor"
+          - "multi-day"
+        raw: "**August 29 & 30: FORWARDS Festival, The Downs** — FORWARDS: an inner city
+
+          music festival drawing the biggest names in international music to
+
+          Bristol Downs. The festival aims to present high quality, diverse and
+
+          heritage music acts alongside emerging artists from Bristol & beyond.\n"
+        summary: "Two days of music on the Downs over the bank holiday, mixing international headliners with Bristol acts."
+        confidence: "high"
+      - id: "citywide/bristol-247#94feae4ffa"
+        sourceId: "citywide/bristol-247"
+        title: "Ashton Court Railway"
+        occurrence:
+          kind: "run"
+          start: "2026-08-30"
+          end: "2026-08-31"
+        status: "scheduled"
+        venue:
+          sourceId: "outdoors/ashton-court"
+        url: "https://www.bristolmodelengineers.co.uk/ashton-court-railway/"
+        price:
+          free: false
+          text: "£1.75 per ride"
+          min: 1.75
+          currency: "GBP"
+        tags:
+          - "family"
+          - "outdoor"
+          - "kids"
+        raw: "**August 30 & 31: Ashton Court Railway, Ashton Court** — It's £1.75 per
+
+          ride at Ashton Court Railway which has been in operation since 1973.
+
+          Public running days organised by volunteers from the Bristol Society of
+
+          Model and Experimental\n"
+        summary: "Volunteer-run miniature railway rides at Ashton Court over the bank holiday."
+        confidence: "high"
+      - id: "citywide/bristol-247#9d439a8a7e"
+        sourceId: "citywide/bristol-247"
+        title: "Mega Queer Sports Day 2: The Sequel"
+        occurrence:
+          kind: "single"
+          date: "2026-08-31"
+        status: "scheduled"
+        venue:
+          name: "St George's Park"
+        url: "https://www.headfirstbristol.co.uk/whats-on/st-georges-park/mon-31-aug-mega-queer-sports-day-2-the-sequel-158111#e158111"
+        tags:
+          - "lgbtq"
+          - "outdoor"
+          - "games"
+          - "community"
+        raw: "**August 31: Mega Queer Sports Day 2: The Sequel, St George's Park** —
+
+          Mega Queer Sports Day returns with an afternoon of playful races, team
+
+          games and friendly competition for the LGBTQ+ community and allies.\n"
+        summary: "An afternoon of races and team games in a park, for the LGBTQ+ community and allies."
+        confidence: "high"
+      - id: "citywide/bristol-247#a3260e596b"
+        sourceId: "citywide/bristol-247"
+        title: "Gurriers"
+        occurrence:
+          kind: "single"
+          date: "2026-10-22"
+        status: "scheduled"
+        venue:
+          sourceId: "music/swx"
+        url: "https://crosstownconcerts.gigantic.com/gurriers-tickets/bristol-electric-bristol/2026-10-22-19-00"
+        image: "https://www.bristol247.com/wp-content/uploads/2026/07/Gurriers-photo-by-Crosstown-Concerts-800x590.png"
+        tags:
+          - "live-music"
+          - "punk"
+          - "rock"
+        raw: "**October 22: Gurriers, Electric** — After releasing their explosive debut
+
+          album Come and See in 2024; establishing themselves as a one to watch
+
+          within the modern Irish music scene, the post-punk/noise rock guitar
+
+          quintet Gurriers support the release of their second album Nobody's
+
+          Coming To Save You with a visit to Electric Bristol.\n"
+        summary: "Dublin post-punk quintet Gurriers at Electric Bristol with a second album out."
+        confidence: "high"
+      - id: "citywide/bristol-247#46c382e838"
+        sourceId: "citywide/bristol-247"
+        title: "Camille Jansen"
+        occurrence:
+          kind: "single"
+          date: "2026-10-26"
+        status: "scheduled"
+        venue:
+          sourceId: "music/crofters-rights"
+        url: "https://crosstownconcerts.gigantic.com/camille-jansen-tickets/bristol-the-croft/2026-10-27-19-00"
+        image: "https://www.bristol247.com/wp-content/uploads/2026/07/Camille-Jansen-photo-by-Crosstown-Concerts-800x533.jpg"
+        tags:
+          - "live-music"
+          - "folk"
+          - "indie"
+        raw: "**October 26: Camille Jansen, The Croft** — Independent French-British
+
+          artist Camille Jansen studied the music of Bob Dylan and Leonard Cohen
+
+          in her youth before becoming a songwriter herself. Her debut release,
+
+          2024's The Loose Screws, echoed her heroes, blending folk, dream pop and
+
+          rock with her ability to take personal stories and turn them into
+
+          original songs.\n"
+        summary: "French-British songwriter Camille Jansen plays the Croft. The heading says 26 October and the ticket link says the 27th."
+        confidence: "low"
+    notes: "The hints are right on both counts: WebFetch gets 403 and a Chrome user-agent gets 200, and the listings are prose round-ups rather than a feed. Three fetches, all by curl with a browser user-agent: /guides/ for the index, then the two articles it carries — \"15 things to do in Bristol this week, August 17-23 2026\" (the fetch.url above) and \"45 things to do in Bristol in August 2026\" (https://www.bristol247.com/guides/things-to-do/45-things-to-do-in-bristol-in-august-2026/). 37 events recorded: 20 from the weekly article, including its \"and coming soon\" tail, and 17 more from the monthly that the weekly does not carry. Because the article is not the venue, every event has `venue` set — sourceId where the catalogue has the place, name where it does not (Very Small Bookshop, The Jam Jar, Queen Square, Bristol Amphitheatre, The Wave, Mulligans, The Pump House, Basement Beer, The Crown, The Ill Repute, St George's Park, The Gaffe Comedy Club). Deliberately left out. The monthly article's items dated 1-16 August have already happened (21 of them, Blood Countess through Ben Pope) and are not recorded; so are seven items outside Bristol that these round-ups carry as day trips — Wookey Hole and the Roman Baths Summer Lates, If Opera at Church Farm, two shows at the Cooper Associates County Ground in Taunton, and 5 Acre Farm at Backwell. Items appearing in both articles are recorded once. Three rows a human should look at. \"No More All Male Lineups, St George's\" is filed under a Headfirst slug of st-georges-hall, which is not obviously music/st-georges (St George's Bristol, the concert hall), so the venue is recorded as a name only. \"Park Drive, Exchange\" is headed August 17 but its Headfirst link reads sat-15-aug, a Saturday that has passed — recorded at the article's date with confidence low. \"Camille Jansen, The Croft\" is headed October 26 while its ticket link ends 2026-10-27, also confidence low. The round-up's link for Song Circle points at an unrelated Rough Trade artist page (/artist/a-perfect-circle), so that row carries no url. Every day-of-week label in the weekly article matches the 2026 calendar, so the dates are confirmed rather than inferred."
+  - sourceId: "citywide/bristol-libraries"
+    fetch:
+      ok: false
+      url: "https://bristol.events.mylibrary.digital/"
+      status: 403
+      error: "Cloudflare managed challenge — the platform serves a 'Just a moment...' interstitial instead of the page"
+    events: []
+    notes: "The hint is exactly right and nothing got past it. Three attempts, all on the corrected URL: a plain curl returned the Cloudflare interstitial (title \"Just a moment...\", body only a noscript \"Enable JavaScript and cookies to continue\" plus a challenge-platform script); the same request with a Chrome user-agent and a full browser header set (Accept, Accept-Language, Upgrade-Insecure-Requests, all four Sec-Fetch-* headers) returned HTTP 403 with the same interstitial; WebFetch also returned 403. This is a managed challenge that mints a token in JavaScript, so no header combination will clear it — it needs a JS-capable fetcher. The catalogue URL is not the problem and needs no change: the platform is the right target, it is simply unreadable by this harvester. Nothing is recorded about what Bristol's libraries have on, which is not the same as their having nothing on."
+  - sourceId: "citywide/uwe-bristol"
+    fetch:
+      ok: true
+      url: "https://www.uwe.ac.uk/events/search-results?a=General+public&page=1&pageSize=100"
+      status: 200
+    events:
+      - id: "citywide/uwe-bristol#f64c0347e1"
+        sourceId: "citywide/uwe-bristol"
+        title: "SENTIENTS exhibition at Undershed"
+        subcategory: "Art and culture"
+        occurrence:
+          kind: "run"
+          start: "2026-07-18"
+          end: "2026-09-13"
+        status: "scheduled"
+        timesText: "Sat 18 July 2026, 18:00 – Sun 13 September 2026, 17:00"
+        venue:
+          sourceId: "cinema/watershed"
+        url: "https://www.uwe.ac.uk/events/sentients-exhibition"
+        image: "https://www.uwe.ac.uk/-/media/uwe/images/events/sentients-exhibition-410x230.jpg"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "exhibition"
+          - "interactive"
+          - "games"
+          - "free-entry"
+        raw: "**SENTIENTS exhibition at Undershed** — Sat 18 July 2026, 18:00 – Sun 13
+
+          September 2026, 17:00, Watershed, Canons Road. Free, booking not
+
+          required. A collection of video games, film, and virtual reality
+
+          exploring more-than-human worlds.\n"
+        summary: "UWE-listed exhibition in Watershed's Undershed: video games and VR that put you behind other eyes, free and drop-in."
+        description: "If you weren't human – how would you see the world?
+
+
+          From raging wildfire to the vision of an owl, from a river to multiple
+
+          galaxies, SENTIENTS is about being something else.
+
+
+          Bringing together award-winning and brand-new works, this collection of
+
+          video games and virtual reality invites you to see through other eyes.
+
+          Discover wild imaginings and animal visions. Look through windows into a
+
+          world in conflict. Adventure into strange lands.
+
+
+          This exhibition was developed with a group of Young Curators from across
+
+          Bristol and shaped by the themes, ideas and questions that mattered most
+
+          to them.
+
+
+          Featuring work from Marshmallow Laser Feast, Alice Bucknell, Demelza
+
+          Kooij, Alan Kwan and David O'Reilly.
+
+
+          Cost: Free. Attendance: booking not required.\n"
+        confidence: "high"
+      - id: "citywide/uwe-bristol#98ea045d9b"
+        sourceId: "citywide/uwe-bristol"
+        title: "Social Value"
+        subcategory: "Careers and enterprise"
+        occurrence:
+          kind: "single"
+          date: "2026-09-02"
+          startTime: "07:45"
+          endTime: "09:00"
+        status: "scheduled"
+        url: "https://www.uwe.ac.uk/events/bristol-business-breakfast-15"
+        image: "https://www.uwe.ac.uk/-/media/uwe/images/alumni/alumni-reunions-410x230.jpg"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "talk"
+          - "community"
+          - "booking-required"
+        raw: "**Social Value** — Wed 02 September 2026, 07:45 - 09:00, Business School
+
+          Atrium, X Block, Frenchay Campus. Free, booking required. Held on the
+
+          first Wednesday of the month for the business community to connect,
+
+          explore a key topic, share knowledge and grow opportunities. Listen to a
+
+          key speaker, enjoy a light breakfast and network with business leaders.\n"
+        summary: "September's Bristol Business Breakfast at UWE, on building a business through inclusive practices, with breakfast and a Q&A."
+        description: "The theme of this event is Social Value: Building Your Business Through
+
+          Inclusive Practices. Different perspectives will be explored and applied
+
+          to real-life situations, with opportunities for Q&A.
+
+
+          A light breakfast will be served and there will be plenty of
+
+          opportunities to network.
+
+
+          Location: Business School Atrium, X Block, Frenchay Campus, Coldharbour
+
+          Lane, Bristol BS16 1QY.
+
+
+          Cost: Free. Attendance: booking required.
+
+
+          Accessibility: please include any accessibility requests on the
+
+          registration form or email cbl.engagement@uwe.ac.uk.\n"
+        confidence: "high"
+      - id: "citywide/uwe-bristol#da4186e2b7"
+        sourceId: "citywide/uwe-bristol"
+        title: "Free mindful eating information session"
+        subcategory: "Health and wellbeing"
+        occurrence:
+          kind: "single"
+          date: "2026-09-03"
+          startTime: "13:00"
+          endTime: "14:30"
+        status: "scheduled"
+        url: "https://www.uwe.ac.uk/events/free-mindful-eating-information-session-1"
+        image: "https://www.uwe.ac.uk/-/media/uwe/images/temporary-test-images/card-block-food-and-drink.jpg"
+        price:
+          free: true
+          text: "Free"
+        ageRestriction: "18+"
+        tags:
+          - "wellbeing"
+          - "courses"
+          - "booking-required"
+          - "free-entry"
+        raw: "**Free mindful eating information session** — Thu 03 September 2026, 13:00
+
+          - 14:30, online: Microsoft Teams. Free, booking required. A free session
+
+          explaining mindfulness and mindful eating, and what the Mindful Eating -
+
+          Conscious Living programme entails.\n"
+        summary: "A free online orientation for UWE's eight-week Mindful Eating course, including a short guided practice. Open to anyone over 18."
+        description: "Mindful Eating - Conscious Living is an eight-week mindfulness programme
+
+          that will help you to establish a regular mindfulness practice, and help
+
+          you to make better choices to manage your mood and stress levels.
+
+
+          The focus will be around learning how to be less anxious and more at
+
+          ease around food and eating. By practicing paying attention to the
+
+          present moment, without judgement, we can cultivate the capacity to tune
+
+          into the physical experience of eating and how they relate to our moods
+
+          and emotions. In time, we can regain our natural freedom around food.
+
+
+          This short course is appropriate for anyone over the age of 18 who is
+
+          interested in mindfulness meditation or mindful eating. You need to be
+
+          willing to practise the in-class exercises at home between sessions, to
+
+          fully benefit from the programme.
+
+
+          **Registration and tickets.** The orientation session is a chance to find
+
+          out more about the course and ask any questions you may have. It will
+
+          also be an opportunity for you to experience a short practice in a small
+
+          group environment, which can help you to assess whether this course is
+
+          right for you at this time. Upon completion of your orientation session,
+
+          you will be invited to formally register on the course and pay your
+
+          course fees via the UWE Bristol WPM System. Attendance at the orientation
+
+          session is a course requirement.
+
+
+          Cost: Free. Attendance: booking required. This is an online event on
+
+          Microsoft Teams.\n"
+        confidence: "high"
+      - id: "citywide/uwe-bristol#20ca72ce14"
+        sourceId: "citywide/uwe-bristol"
+        title: "Free mindful eating information session"
+        subcategory: "Health and wellbeing"
+        occurrence:
+          kind: "single"
+          date: "2026-09-07"
+          startTime: "10:30"
+          endTime: "12:00"
+        status: "scheduled"
+        url: "https://www.uwe.ac.uk/events/free-mindful-eating-information-session"
+        image: "https://www.uwe.ac.uk/-/media/uwe/images/temporary-test-images/card-block-food-and-drink.jpg"
+        price:
+          free: true
+          text: "Free"
+        ageRestriction: "18+"
+        tags:
+          - "wellbeing"
+          - "courses"
+          - "booking-required"
+          - "free-entry"
+        raw: "**Free mindful eating information session** — Mon 07 September 2026, 10:30
+
+          - 12:00, online: Microsoft Teams. Free, booking required. A free session
+
+          explaining mindfulness and mindful eating, and what the Mindful Eating -
+
+          Conscious Living programme entails.\n"
+        summary: "The second, morning orientation session for UWE's Mindful Eating course, online and free to attend."
+        description: "Mindful Eating - Conscious Living is an eight-week mindfulness programme
+
+          that will help you to establish a regular mindfulness practice, and help
+
+          you to make better choices to manage your mood and stress levels.
+
+
+          The focus will be around learning how to be less anxious and more at
+
+          ease around food and eating. By practicing paying attention to the
+
+          present moment, without judgement, we can cultivate the capacity to tune
+
+          into the physical experience of eating and how it relates to our moods
+
+          and emotions. In time we can regain our natural freedom around food.
+
+
+          This short course is appropriate for anyone over the age of 18 who is
+
+          interested in mindfulness meditation or mindful eating. You need to be
+
+          willing to practise the in-class exercises at home between sessions, to
+
+          fully benefit from the programme.
+
+
+          **Registration and tickets.** If you are interested in this course, you
+
+          will be invited to attend an orientation session. The orientation session
+
+          is a chance to find out more about the course and ask any questions you
+
+          may have. It will also be an opportunity for you to experience a short
+
+          practice in a small group environment, which can help you to assess
+
+          whether this course is right for you at this time. On completion of your
+
+          orientation session, you will be invited to formally register on the
+
+          course and pay your course fees via the UWE Bristol WPM System.
+
+          Attendance at the orientation session is a course requirement.
+
+
+          Cost: Free. Attendance: booking required. This is an online event on
+
+          Microsoft Teams.\n"
+        confidence: "high"
+      - id: "citywide/uwe-bristol#2bada9dcfb"
+        sourceId: "citywide/uwe-bristol"
+        title: "Big Hello – All Together Now"
+        occurrence:
+          kind: "recurring"
+          pattern: "every Monday on Frenchay Campus"
+          start: "2026-09-28"
+        status: "scheduled"
+        url: "https://www.uwe.ac.uk/events/big-hello-all-together-now-fr-9"
+        image: "https://www.uwe.ac.uk/-/media/uwe/images/events/event-big-hello-all-togther-now-410x230.jpg"
+        tags:
+          - "community"
+          - "weekly"
+          - "beginners"
+          - "live-music"
+        raw: "**Big Hello – All Together Now** — Monday 28 September, Frenchay Campus. An
+
+          informal, feel-good a capella group open to anyone who wants to try
+
+          singing. We will sing rounds and easy-to-learn songs by the likes of
+
+          Billie Eilish and Adele.\n"
+        summary: "A come-as-you-are a capella group open to anyone, singing rounds and pop songs on Mondays at Frenchay."
+        confidence: "high"
+      - id: "citywide/uwe-bristol#7c00362567"
+        sourceId: "citywide/uwe-bristol"
+        title: "Big Hello – Big Band"
+        occurrence:
+          kind: "recurring"
+          pattern: "every Monday on Frenchay Campus"
+          start: "2026-09-28"
+        status: "scheduled"
+        url: "https://www.uwe.ac.uk/events/big-hello-big-band-10"
+        image: "https://www.uwe.ac.uk/-/media/uwe/images/life/activities/cfm_2025_uwe_big_band_thumbnail.jpg"
+        tags:
+          - "community"
+          - "weekly"
+          - "live-music"
+          - "jazz"
+        raw: "**Big Hello – Big Band** — Monday 28 September, Frenchay Campus. Big Band is
+
+          back! This band is open to all and we rehearse every Monday on Frenchay
+
+          Campus.\n"
+        summary: "UWE's big band, open to any player, rehearsing weekly on Mondays."
+        confidence: "high"
+      - id: "citywide/uwe-bristol#d07796baa6"
+        sourceId: "citywide/uwe-bristol"
+        title: "Big Hello – UWE Bristol Orchestra"
+        occurrence:
+          kind: "recurring"
+          pattern: "rehearsing every Tuesday on Frenchay Campus"
+          start: "2026-09-29"
+        status: "scheduled"
+        url: "https://www.uwe.ac.uk/events/big-hello-uwe-bristol-orchestra-11"
+        image: "https://www.uwe.ac.uk/-/media/uwe/images/events/uwe-orchestra-anri-410x230.png"
+        tags:
+          - "community"
+          - "weekly"
+          - "classical"
+          - "live-music"
+        raw: "**Big Hello – UWE Bristol Orchestra** — Tuesday 29 September, Frenchay
+
+          Campus. Our fabulous orchestra is back, rehearsing every Tuesday on
+
+          Frenchay Campus.\n"
+        summary: "The university orchestra's weekly Tuesday rehearsal, open to players from outside the university."
+        confidence: "high"
+      - id: "citywide/uwe-bristol#97be06a355"
+        sourceId: "citywide/uwe-bristol"
+        title: "Big Hello – Gospel Choir"
+        occurrence:
+          kind: "recurring"
+          pattern: "Wednesdays, from Wednesday 30 September"
+          start: "2026-09-30"
+        status: "scheduled"
+        url: "https://www.uwe.ac.uk/events/big-hello-gospel-choir-10"
+        image: "https://www.uwe.ac.uk/-/media/uwe/images/events/gospel-f-mixedeth-410x230.jpg"
+        tags:
+          - "community"
+          - "weekly"
+          - "live-music"
+        raw: "**Big Hello – Gospel Choir** — Wednesday 30 September. Join the nationally
+
+          acclaimed Gospel Choir led by Kim Samuels and take part in performances
+
+          at great venues across Bristol.\n"
+        summary: "Kim Samuels' gospel choir, which performs around the city, opens its Wednesday sessions to new singers."
+        confidence: "high"
+      - id: "citywide/uwe-bristol#c62da61ac5"
+        sourceId: "citywide/uwe-bristol"
+        title: "Big Hello – UWE Singers"
+        occurrence:
+          kind: "recurring"
+          pattern: "Thursdays, from Thursday 1 October"
+          start: "2026-10-01"
+        status: "scheduled"
+        url: "https://www.uwe.ac.uk/events/big-hello-uwe-singers-10"
+        image: "https://www.uwe.ac.uk/-/media/uwe/images/events/fos-uwesingers-fm-ngm-410x230.jpg"
+        tags:
+          - "community"
+          - "weekly"
+          - "classical"
+          - "live-music"
+        raw: "**Big Hello – UWE Singers** — Thursday 01 October. UWE Singers are back with
+
+          a full programme of rehearsals and performances.\n"
+        summary: "The UWE Singers restart their Thursday rehearsals and concert programme, open to public singers."
+        confidence: "high"
+      - id: "citywide/uwe-bristol#e903416262"
+        sourceId: "citywide/uwe-bristol"
+        title: "Decolonisation selves research methods topics"
+        subcategory: "Research"
+        occurrence:
+          kind: "single"
+          date: "2026-10-09"
+          startTime: "10:00"
+          endTime: "16:30"
+        status: "scheduled"
+        url: "https://www.uwe.ac.uk/events/decolonisation-selves-research-methods-topics"
+        image: "https://www.uwe.ac.uk/-/media/uwe/images/events/events-blurred-auditorium-with-speaker-and-audience-410x230.jpg"
+        price:
+          free: false
+          text: "Standard ticket £50, concessionary ticket £30"
+          min: 30
+          max: 50
+          currency: "GBP"
+        tags:
+          - "talk"
+          - "booking-required"
+        raw: "**Decolonisation selves research methods topics** — Fri 09 October 2026,
+
+          10:00 - 16:30, 2X242, Bristol Business School, Frenchay Campus. £30-50,
+
+          booking required. This conference brings together academics and an
+
+          artist to explore what decolonisation means in higher education,
+
+          research, and professional practice.\n"
+        summary: "A one-day conference on decolonising research, teaching and psychotherapy, ending with an artist's response and a new South West consortium launch."
+        description: "Join us for this exciting one day conference. Through talks and
+
+          discussion, speakers will examine decolonising identities, research
+
+          methods, teaching, learning, psychotherapy, and knowledge production,
+
+          drawing on perspectives from Cyprus, Greece, and Chile.
+
+
+          The event concludes with an artist's perspective and the launch of a
+
+          South West consortium of social scientists committed to advancing
+
+          decolonising practices across disciplines.
+
+
+          **Registration and tickets.** Standard ticket: £50. Concessionary ticket:
+
+          £30.
+
+
+          Location: 2X242, Bristol Business School, Frenchay Campus, Coldharbour
+
+          Lane, Bristol BS16 1QY.\n"
+        confidence: "high"
+      - id: "citywide/uwe-bristol#fe29c77ba9"
+        sourceId: "citywide/uwe-bristol"
+        title: "The Six Triple Eight"
+        subcategory: "Black History Month"
+        occurrence:
+          kind: "single"
+          date: "2026-10-11"
+          startTime: "17:30"
+          endTime: "20:30"
+        status: "scheduled"
+        url: "https://www.uwe.ac.uk/events/the-six-triple-eight"
+        image: "https://www.uwe.ac.uk/-/media/uwe/images/events/events-black-history-month-410x230.jpg"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "screening"
+          - "free-entry"
+          - "drop-in"
+          - "accessible"
+        raw: "**The Six Triple Eight** — Sun 11 October 2026, 17:30 - 20:30, Purdown
+
+          View, MOVE Studio, Frenchay Campus. Free, booking not required. A Black
+
+          History Month screening of The Six Triple Eight. Enjoy tea, make a
+
+          toastie, and be inspired by this remarkable true story.\n"
+        summary: "A free Black History Month screening of The Six Triple Eight, with tea and toasties, open to all."
+        description: "Join us for a special Black History Month screening of The Six Triple
+
+          Eight, the remarkable true story of the only all-Black, all-female
+
+          battalion to serve overseas during World War II. Against the odds, these
+
+          trailblazing women overcame discrimination and adversity to make a
+
+          lasting impact on history.
+
+
+          Come and be inspired by this powerful story of courage, resilience, and
+
+          determination. Don't miss this opportunity to celebrate and reflect on
+
+          the extraordinary contributions of these pioneering women.
+
+
+          Settle in with a cup of tea and make yourself a delicious toastie
+
+          sandwich while you watch.
+
+
+          This is a free event, and all are welcome.
+
+
+          Location: Purdown View, MOVE Studio, Frenchay Campus, Coldharbour Lane,
+
+          Bristol BS16 1QY.
+
+
+          Accessibility: disabled parking on campus, step-free access, automatic
+
+          doors, accessible toilets, guide and assistance dog friendly, quiet
+
+          spaces available. No induction loop.\n"
+        confidence: "high"
+      - id: "citywide/uwe-bristol#3a9a4be132"
+        sourceId: "citywide/uwe-bristol"
+        title: "Ableton Live 12 Intensive Masterclass"
+        occurrence:
+          kind: "single"
+          date: "2026-10-24"
+        status: "scheduled"
+        url: "https://www.uwe.ac.uk/events/ableton-live-12-intensive-masterclass-4"
+        image: "https://www.uwe.ac.uk/-/media/uwe/images/events/ableton-taster-410x230.jpg"
+        tags:
+          - "workshop"
+          - "courses"
+          - "electronic"
+          - "hands-on"
+        raw: "**Ableton Live 12 Intensive Masterclass** — Saturday 24 October. Get lost in
+
+          Live 12's creative features and sounds and find your own way of making
+
+          music in this one-day intensive masterclass.\n"
+        summary: "A one-day Ableton Live 12 masterclass at UWE, open to the public. The index gives no time or price."
+        confidence: "high"
+      - id: "citywide/uwe-bristol#69239707a2"
+        sourceId: "citywide/uwe-bristol"
+        title: "ALIBSA Congress 2026"
+        subcategory: "Research"
+        occurrence:
+          kind: "single"
+          date: "2026-11-30"
+          startTime: "09:15"
+          endTime: "15:00"
+        status: "scheduled"
+        venue:
+          name: "Rose Green Centre"
+          address:
+            street: "65 Gordon Road"
+            city: "Bristol"
+            postcode: "BS5 7DR"
+        url: "https://www.uwe.ac.uk/events/alibsa-congress-2026"
+        image: "https://www.uwe.ac.uk/-/media/uwe/images/events/events-congress-conference-hall.jpg"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "talk"
+          - "community"
+          - "wellbeing"
+          - "booking-required"
+        raw: "**ALIBSA Congress 2026** — Mon 30 November 2026, 09:15 - 15:00, Rose Green
+
+          Centre, 65 Gordon Road. Free, booking required. Join us for the Ageing
+
+          Lifestyles in Blacks and Asians 2026 congress.\n"
+        summary: "The Ageing Lifestyles in Blacks and Asians congress comes to the Rose Green Centre, on grassroots cancer prevention."
+        description: "Please join us for the Ageing Lifestyles in Blacks and Asians 2026
+
+          Congress.
+
+
+          The theme for this year is Wadajir: Our Health, Our Community:
+
+          Grassroots Action for Cancer Prevention.
+
+
+          Location: Rose Green Centre, 65 Gordon Road, Bristol BS5 7DR.
+
+
+          Cost: Free. Attendance: booking required.\n"
+        confidence: "high"
+      - id: "citywide/uwe-bristol#87942e965f"
+        sourceId: "citywide/uwe-bristol"
+        title: "Ableton Live 12 Intensive Masterclass"
+        occurrence:
+          kind: "single"
+          date: "2026-11-28"
+        status: "scheduled"
+        url: "https://www.uwe.ac.uk/events/ableton-live-12-intensive-masterclass-5"
+        image: "https://www.uwe.ac.uk/-/media/uwe/images/events/ableton-taster-410x230.jpg"
+        tags:
+          - "workshop"
+          - "courses"
+          - "electronic"
+          - "hands-on"
+        raw: "**Ableton Live 12 Intensive Masterclass** — Saturday 28 November. Get lost in
+
+          Live 12's creative features and sounds and find your own way of making
+
+          music in this one-day intensive masterclass.\n"
+        summary: "The November date for UWE's one-day Ableton Live 12 masterclass."
+        confidence: "high"
+      - id: "citywide/uwe-bristol#63ddb03c8a"
+        sourceId: "citywide/uwe-bristol"
+        title: "Ableton Live 12 Intensive Masterclass"
+        occurrence:
+          kind: "single"
+          date: "2027-02-13"
+        status: "scheduled"
+        url: "https://www.uwe.ac.uk/events/ableton-live-12-intensive-masterclass-6"
+        image: "https://www.uwe.ac.uk/-/media/uwe/images/events/ableton-taster-410x230.jpg"
+        tags:
+          - "workshop"
+          - "courses"
+          - "electronic"
+          - "hands-on"
+        raw: "**Ableton Live 12 Intensive Masterclass** — Saturday 13 February. Get lost in
+
+          Live 12's creative features and sounds and find your own way of making
+
+          music in this one-day intensive masterclass.\n"
+        summary: "The February 2027 date for the Ableton Live 12 masterclass, the furthest-ahead item in UWE's diary."
+        confidence: "high"
+    notes: "Server-rendered as the hints say, and `pageSize` is honoured, so the whole diary came back in one request rather than 18 pages of 12: /events/search-results?page=1&pageSize=250 returned all 206 rows. **A better route for next time.** The listing supports an audience filter, `?a=General+public`, which UWE itself uses to mark what is open to the public. It cuts 206 rows to 19 and is the fetch recorded above. Worth a hint for stage 1. What was left, and why. Of the 206, the overwhelming majority is either recruitment (campus tours at three campuses, undergraduate on-campus and virtual open days, applicant and postgraduate webinars, \"Campus Tour International\") or internal student life (16 International drop-ins, 9 Student Life drop-ins, freshers' parties and fairs, sock-monkey making, sip 'n' paint, bowling, karaoke, ice cream vans, academic-skills workshops on essay structure and critical thinking). None of that is what is on in Bristol, and none of it is recorded. 15 events are: the public exhibition, the public-facing talks and conferences, the open-to-all music ensembles and the public masterclasses. Two judgement calls a human may want to revisit. The Bristol Business Breakfast, the decolonisation conference and the ALIBSA congress are not tagged \"General public\" by UWE — they are tagged Businesses/Alumni, Students/Staff and \"Bristol and local area\" respectively — but all three take open registration from outside the university, so they are included. The Six Triple Eight is tagged Current students yet its own page says \"This is a free event, and all are welcome\", so it is included on the page's own words. Left out for the opposite reason: \"Questions of no importance\" and the Global Buddies sessions (Transport in Bristol, the Arnolfini coffee morning) read as student-support activities despite being open-ish, and \"Big Hello – UWE Voices\" and \"Big Hello - UWE Brass\" are the same kind of open ensemble as the five recorded below but are not tagged General public, so they were left. **7 event pages opened for `description`** — SENTIENTS, the business breakfast, both mindful eating sessions, the decolonisation conference, the ALIBSA congress and The Six Triple Eight — because the index carries only a date with no year, no time, no room and no price, and the public programme is small enough to walk. The five Big Hello ensembles and the three Ableton masterclasses have no `description`: their pages were not opened, so their rows carry only what the index said. The Big Hello ensembles are recorded as one recurring event each, with the pattern in the listing's own words, rather than as the two dated occurrences the index shows for each. Every date in the diary omits its year; each one recorded here has had its printed weekday checked against the calendar, including the Ableton masterclass on Saturday 13 February, which confirms 2027. Image paths are root-relative without the leading slash (\"-/media/uwe/...\") and have been prefixed with https://www.uwe.ac.uk/ (one checked, 200 image/jpeg)."

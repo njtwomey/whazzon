@@ -18,7 +18,7 @@ import { SchemaError } from "../schema/versioning.js";
  * Run after any hand-edit. Exits non-zero on error so it can gate a build.
  *
  *   npm run validate                 the only configured location
- *   npm run validate -- bristol-uk
+ *   npm run validate -- gb-bristol
  *   npm run validate -- --all
  */
 

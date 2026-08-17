@@ -1,0 +1,1480 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-08-16"
+category: "making"
+harvestedAt: "2026-08-16T17:20:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "2"
+model: "claude-opus-5"
+observations:
+  - sourceId: "making/bristol-folk-house"
+    fetch:
+      ok: true
+      url: "https://www.bristolfolkhouse.co.uk/live-music"
+      status: 200
+    events:
+      - id: "making/bristol-folk-house#fb8d69cb40"
+        sourceId: "making/bristol-folk-house"
+        title: "Pride Exhibition!"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "09:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/live-music/event/pride-exhibition-20-08-2026"
+        price:
+          free: true
+          text: "£FREE"
+        tags:
+          - "free-entry"
+          - "exhibition"
+          - "community"
+          - "drop-in"
+        raw: "**Pride Exhibition!** — Thursday 20 August 2026, 09:00 (open late until 21:00). £FREE\n"
+        summary: "A free daytime Pride exhibition in the Folk House, open from morning through to the evening so you can drop in around work."
+        confidence: "high"
+      - id: "making/bristol-folk-house#4e23c4f5cb"
+        sourceId: "making/bristol-folk-house"
+        title: "FOLKHOUSE PRIDE EXHIBITION: A CELEBRATION POETRY NIGHT"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "18:30"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/live-music/event/folkhouse-pride-exhibition-a-celebration-poetry-night-20-08-2026"
+        price:
+          free: true
+          text: "£free - optional donation"
+        tags:
+          - "free-entry"
+          - "one-night"
+          - "community"
+          - "talk"
+        raw: "**FOLKHOUSE PRIDE EXHIBITION: A CELEBRATION POETRY NIGHT** — Thursday
+
+          20 August 2026, 18:30. £free - optional donation.\n"
+        summary: "An evening of poetry staged alongside the Folk House Pride exhibition, free to attend with a donation invited on the door."
+        confidence: "high"
+      - id: "making/bristol-folk-house#f9b575ccd1"
+        sourceId: "making/bristol-folk-house"
+        title: "Visible Mending on Denim - Embroidery and patches"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "14:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/live-music/event/visible-mending-on-denim-embroidery-and-patches-22-08-2026"
+        price:
+          free: false
+          text: "£10/£12/£5.88"
+          min: 5.88
+          max: 12
+          currency: "GBP"
+        tags:
+          - "workshop"
+          - "textiles"
+          - "repair"
+          - "hands-on"
+          - "beginners"
+        raw: "**Visible Mending on Denim - Embroidery and patches** — Saturday 22
+
+          August 2026, 14:00. £10/£12/£5.88. Workshop teaching embroidery and
+
+          patching techniques on denim garments.\n"
+        summary: "A Saturday afternoon visible-mending session: patch and embroider worn denim rather than bin it, on a sliding scale of ticket prices."
+        confidence: "high"
+      - id: "making/bristol-folk-house#a492d2c29a"
+        sourceId: "making/bristol-folk-house"
+        title: "Poetry Peace Feast"
+        occurrence:
+          kind: "single"
+          date: "2026-08-25"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/live-music/event/poetry-peace-feast-25-08-2026"
+        price:
+          free: false
+          text: "£7.50 – £15.00"
+          min: 7.5
+          max: 15
+          currency: "GBP"
+        tags:
+          - "one-night"
+          - "talk"
+          - "community"
+          - "booking-required"
+        raw: "**Poetry Peace Feast** — Tuesday 25 August 2026, 19:00. £7.50 – £15.00.
+
+          Combined poetry and dining experience with tiered pricing options.\n"
+        summary: "Poetry and a shared meal on a Tuesday evening, with tickets on a tiered scale so people can pay what they can manage."
+        confidence: "high"
+      - id: "making/bristol-folk-house#d1749dfb10"
+        sourceId: "making/bristol-folk-house"
+        title: "Pride Exhibition!"
+        occurrence:
+          kind: "single"
+          date: "2026-08-27"
+          startTime: "09:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/live-music/event/pride-exhibition-27-08-2026"
+        price:
+          free: true
+          text: "£FREE"
+        tags:
+          - "free-entry"
+          - "exhibition"
+          - "community"
+          - "drop-in"
+        raw: "**Pride Exhibition!** — Thursday 27 August 2026, 09:00. £FREE. Second
+
+          week of the free Pride exhibition with full-day access.\n"
+        summary: "The second week of the Folk House's free Pride exhibition, open all day and listed as a separate date by the venue."
+        confidence: "high"
+      - id: "making/bristol-folk-house#6550cb6e01"
+        sourceId: "making/bristol-folk-house"
+        title: "Between The Lines - Poetry Night"
+        occurrence:
+          kind: "single"
+          date: "2026-09-02"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/live-music/event/between-the-lines-poetry-night-05-08-2026"
+        price:
+          free: true
+          text: "£FREE - please book your ticket via the link"
+        tags:
+          - "free-entry"
+          - "one-night"
+          - "talk"
+          - "booking-required"
+        raw: "**Between The Lines - Poetry Night** — Wednesday 02 September 2026,
+
+          19:00. £FREE - please book your ticket via the link.\n"
+        summary: "A free monthly-feeling poetry night at the Folk House; tickets are free but must be booked ahead."
+        confidence: "medium"
+      - id: "making/bristol-folk-house#3f751cb116"
+        sourceId: "making/bristol-folk-house"
+        title: "Creative writing workshop with Bertel Martin - Bristol New Writers Festival"
+        subcategory: "Bristol New Writers Festival"
+        occurrence:
+          kind: "single"
+          date: "2026-09-05"
+          startTime: "11:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/live-music/event/creative-writing-workshop-with-bertel-martin-bristol-new-writers-festival-05-09-2026"
+        price:
+          free: false
+          text: "£15-£20"
+          min: 15
+          max: 20
+          currency: "GBP"
+        tags:
+          - "workshop"
+          - "hands-on"
+          - "booking-required"
+          - "beginners"
+        raw: "**Creative writing workshop with Bertel Martin - Bristol New Writers
+
+          Festival** — Saturday 05 September 2026, 11:00. £15-£20. Festival
+
+          workshop led by Bertel Martin on developing creative writing skills.\n"
+        summary: "A morning creative-writing workshop with Bertel Martin, part of the Bristol New Writers Festival day at the Folk House."
+        confidence: "high"
+      - id: "making/bristol-folk-house#6b77ce48c3"
+        sourceId: "making/bristol-folk-house"
+        title: "\"So you want to be a writer?\" - Bristol New Writers Festival"
+        subcategory: "Bristol New Writers Festival"
+        occurrence:
+          kind: "single"
+          date: "2026-09-05"
+          startTime: "13:30"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/live-music/event/so-you-want-to-be-a-writer-bristol-new-writers-festival-05-09-2026"
+        price:
+          free: false
+          text: "£8-£10"
+          min: 8
+          max: 10
+          currency: "GBP"
+        tags:
+          - "talk"
+          - "booking-required"
+          - "beginners"
+        raw: "**\"So you want to be a writer?\" - Bristol New Writers Festival** —
+
+          Saturday 05 September 2026, 13:30. £8-£10. Festival panel discussing
+
+          pathways into professional writing careers.\n"
+        summary: "A festival panel on how people actually get into writing for a living, aimed at people at the start of it."
+        confidence: "high"
+      - id: "making/bristol-folk-house#e7bb58a9bd"
+        sourceId: "making/bristol-folk-house"
+        title: "In conversation with Sarah Dunant - Bristol New Writers Festival"
+        subcategory: "Bristol New Writers Festival"
+        occurrence:
+          kind: "single"
+          date: "2026-09-05"
+          startTime: "16:30"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/live-music/event/in-conversation-with-sarah-dunant-bristol-new-writers-festival-05-09-2026"
+        price:
+          free: false
+          text: "£8-£10"
+          min: 8
+          max: 10
+          currency: "GBP"
+        tags:
+          - "talk"
+          - "booking-required"
+          - "one-night"
+        raw: "**In conversation with Sarah Dunant - Bristol New Writers Festival** —
+
+          Saturday 05 September 2026, 16:30. £8-£10. Author interview featuring
+
+          novelist Sarah Dunant discussing her work and process.\n"
+        summary: "Novelist Sarah Dunant interviewed about her historical fiction and how she works, closing the New Writers Festival day."
+        confidence: "high"
+    notes: "Catalogue URL https://www.bristolfolkhouse.co.uk/courses-and-workshops/ (as /courses/) returns a 404 page; the real course index is /courses-and-workshops, but that page renders only search filters and category pickers with no course listings server-side, so no termly courses could be read. All dated listings live at /live-music, which despite its name carries the whole diary — exhibitions, poetry, craft workshops and festival events. Catalogue URL should be updated to https://www.bristolfolkhouse.co.uk/live-music. No images were exposed on the listing page. \"Between The Lines - Poetry Night\" shows a date of Wednesday 02 September 2026 but its permalink ends 05-08-2026 — date taken from the printed text, confidence lowered accordingly."
+  - sourceId: "making/bristol-hackspace"
+    fetch:
+      ok: true
+      url: "https://www.bristolhackspace.org/visit"
+      status: 200
+    events:
+      - id: "making/bristol-hackspace#69235e4c0b"
+        sourceId: "making/bristol-hackspace"
+        title: "Bristol Hackspace Open Day"
+        occurrence:
+          kind: "undated"
+          note: "Site says only \"visit us on one of our regular open days\"; specific dates are released as free tickets on TicketSource and \"can sell out quickly\", with announcements via social media. No day, time or date is printed on the site."
+        status: "scheduled"
+        url: "https://www.bristolhackspace.org/visit"
+        price:
+          free: true
+          text: "Free ticket required, booked via TicketSource"
+        tags:
+          - "open-evening"
+          - "free-entry"
+          - "booking-required"
+          - "community"
+          - "hands-on"
+        raw: "\"If you're interested in becoming a member, visit us on one of our
+
+          regular open days.\"
+
+
+          On these occasions, visitors will: \"Receive a full tour of our space.
+
+          Have a chance to meet other members and ask questions. Have the option
+
+          of signing up.\"
+
+
+          \"Our open days get very busy, so to manage capacity, you need a free
+
+          ticket to attend.\" Tickets are available through TicketSource and \"can
+
+          sell out quickly.\"
+
+
+          Unit B, Meridian Studios, Queen Victoria Street, Bristol BS2 0QR —
+
+          about 10 minutes from Temple Meads.\n"
+        summary: "Bristol Hackspace's regular open days are the way in for anyone curious about the makerspace: a full tour, members to ask about the kit, and the option to join on the spot. Free but ticketed, and they go fast."
+        confidence: "medium"
+    notes: "Homepage carries no listings and points at /visit. /visit describes the open days but publishes no dates: they are ticketed through TicketSource and announced on social media. https://www.ticketsource.co.uk/bristolhackspace returned 403 to the crawler and https://www.bristolhackspace.org/events 404s, so no specific open-day dates could be recovered. Catalogue URL is fine as a homepage; /visit is the useful page."
+  - sourceId: "making/spike-print-studio"
+    fetch:
+      ok: true
+      url: "https://www.spikeprintstudio.org/courses"
+      status: 200
+    events:
+      - id: "making/spike-print-studio#8ddcf80336"
+        sourceId: "making/spike-print-studio"
+        title: "1 Year Intaglio | Etching (Portfolio Course)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Mondays 18:00-21:00, 21 September 2026 - 5 July 2027"
+        status: "scheduled"
+        url: "https://www.spikeprintstudio.org/product/1-year-intaglio-portfolio-course"
+        image: "https://cdn.prod.website-files.com/65df3cd40bcc1fe8a1f2356e/6a0af5d3b1a17b8f2b5b45c8_Etching%20room.jpg"
+        price:
+          free: false
+          text: "£1,525"
+          min: 1525
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "printmaking"
+          - "hands-on"
+        raw: "**1 Year Intaglio | Etching (Portfolio Course)** — 21 September 2026 to
+
+          5 July 2027, Mondays 6pm-9pm. £1,525.\n"
+        summary: "A full academic year of Monday evenings building an etching portfolio in Spike's intaglio room, for people who want to go deep rather than dabble."
+        confidence: "high"
+      - id: "making/spike-print-studio#ecc00c04d3"
+        sourceId: "making/spike-print-studio"
+        title: "1 Year In Print (Portfolio Course)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Mondays 09:30-12:30, 21 September 2026 - 5 July 2027"
+        status: "scheduled"
+        url: "https://www.spikeprintstudio.org/product/1-year-in-print-portfolio-course"
+        image: "https://cdn.prod.website-files.com/65df3cd40bcc1fe8a1f2356e/67fcd61685ab802de63517b4_for%20web%20SPS%20Process%20%26%20Equipment%2001%20Jo%20Hounsome%20Photography.jpg"
+        price:
+          free: false
+          text: "£1,525"
+          min: 1525
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "printmaking"
+          - "hands-on"
+        raw: "**1 Year In Print (Portfolio Course)** — 21 September 2026 to 5 July
+
+          2027, Mondays 9:30am-12:30pm. £1,525.\n"
+        summary: "A year of Monday mornings across Spike's print processes, ending with a portfolio rather than a single print."
+        confidence: "high"
+      - id: "making/spike-print-studio#b2f5e9d2bc"
+        sourceId: "making/spike-print-studio"
+        title: "1 Year In Textiles Printmaking (Portfolio Course)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Mondays 09:30-12:30, 21 September 2026 - 5 July 2027"
+        status: "scheduled"
+        url: "https://www.spikeprintstudio.org/product/1-year-in-textiles-printmaking-portfolio-course"
+        image: "https://cdn.prod.website-files.com/65df3cd40bcc1fe8a1f2356e/67fcd677934ea4e660cf3b24_for%20web%20textiles%2024%2025%2001%20.jpg"
+        price:
+          free: false
+          text: "£1,525"
+          min: 1525
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "printmaking"
+          - "textiles"
+          - "hands-on"
+        raw: "**1 Year In Textiles Printmaking (Portfolio Course)** — 21 September
+
+          2026 to 5 July 2027, Mondays 9:30am-12:30pm. £1,525.\n"
+        summary: "A year-long Monday morning course applying print processes to cloth, for people working toward a textiles portfolio."
+        confidence: "high"
+      - id: "making/spike-print-studio#e3b4d3e3d3"
+        sourceId: "making/spike-print-studio"
+        title: "5 Week CPD Etching"
+        occurrence:
+          kind: "recurring"
+          pattern: "Mondays 13:30-16:30, 21 September - 19 October 2026"
+        status: "scheduled"
+        url: "https://www.spikeprintstudio.org/product/5-week-cpd-etching"
+        image: "https://cdn.prod.website-files.com/65df3cd40bcc1fe8a1f2356e/682df35e7e43f05cf1f3e81c_cpd%20etch%2020250325_113910.jpg"
+        price:
+          free: false
+          text: "£232"
+          min: 232
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "printmaking"
+          - "hands-on"
+        raw: "**5 Week CPD Etching** — 21 September to 19 October 2026, Mondays
+
+          1:30-4:30pm. £232.\n"
+        summary: "A short five-week etching course pitched at continuing professional development, running on Monday afternoons through the autumn."
+        confidence: "high"
+      - id: "making/spike-print-studio#f6d59a0147"
+        sourceId: "making/spike-print-studio"
+        title: "10 Week Beginners Screenprinting (evenings)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Mondays 18:00-21:00, 21 September - 30 November 2026"
+        status: "scheduled"
+        url: "https://www.spikeprintstudio.org/product/10-week-beginners-screen-printing-2"
+        image: "https://cdn.prod.website-files.com/65df3cd40bcc1fe8a1f2356e/680770eb8116ce49ede0f8a8_for%20web%20screen%2024%2025%2000.jpg"
+        price:
+          free: false
+          text: "£382.50"
+          min: 382.5
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "printmaking"
+          - "beginners"
+          - "hands-on"
+        raw: "**10 Week Beginners Screenprinting** — 21 September to 30 November
+
+          2026, Mondays 6pm-9pm. £382.50.\n"
+        summary: "Ten Monday evenings learning screenprinting from scratch in Spike's open-access studio; the evening sitting of the beginners course."
+        confidence: "high"
+      - id: "making/spike-print-studio#6e2d1c0036"
+        sourceId: "making/spike-print-studio"
+        title: "10 Week Beginners Screenprinting (afternoons)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Mondays 13:30-16:30, 21 September - 30 November 2026"
+        status: "scheduled"
+        url: "https://www.spikeprintstudio.org/product/10-week-beginners-screen-printing-3"
+        image: "https://cdn.prod.website-files.com/65df3cd40bcc1fe8a1f2356e/683d99b5259b24f3fe0ddff2_for%2Bweb%2BAnna%2BMarrow%2BBranding%2BShoot%2B10%2BMArch%2B2025%2BJo%2BHounsome%2BPhotography.jpg"
+        price:
+          free: false
+          text: "£382.50"
+          min: 382.5
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "printmaking"
+          - "beginners"
+          - "hands-on"
+        raw: "**10 Week Beginners Screenprinting** — 21 September to 30 November
+
+          2026, Mondays 1:30-4:30pm. £382.50.\n"
+        summary: "The daytime sitting of Spike's ten-week beginners screenprinting course, on Monday afternoons through the autumn term."
+        confidence: "high"
+      - id: "making/spike-print-studio#4b1fb9ec2f"
+        sourceId: "making/spike-print-studio"
+        title: "1 Year Screenprinting (Portfolio Course)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Tuesdays 09:30-12:30, 22 September 2026 - 6 July 2027"
+        status: "scheduled"
+        url: "https://www.spikeprintstudio.org/courses"
+        image: "https://cdn.prod.website-files.com/65df3cd40bcc1fe8a1f2356e/67fcd4aa59322da3fb72b4f1_for%20web%20SPS%2022%20March%202024%20WEBSITE%20Jo%20Hounsome%20Photography.jpg"
+        price:
+          free: false
+          text: "£1,525"
+          min: 1525
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "printmaking"
+          - "hands-on"
+        raw: "**1 Year Screenprinting (Portfolio Course)** — 22 September 2026 to 6
+
+          July 2027, Tuesdays 9:30am-12:30pm. £1,525.\n"
+        summary: "A year of Tuesday mornings devoted to screenprint, working toward a finished body of work."
+        confidence: "medium"
+      - id: "making/spike-print-studio#38c48c6927"
+        sourceId: "making/spike-print-studio"
+        title: "1 Year In Contemporary Relief (Portfolio Course)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Tuesdays 09:30-12:30, 22 September 2026 - 6 July 2027"
+        status: "scheduled"
+        url: "https://www.spikeprintstudio.org/product/1-year-in-contemporary-relief-portfolio-course"
+        image: "https://cdn.prod.website-files.com/65df3cd40bcc1fe8a1f2356e/67fcd6b0abbc255ad984976b_for%20web%20SPS%20Process%20%26%20Equipment%2002%20Jo%20Hounsome%20Photography.jpg"
+        price:
+          free: false
+          text: "£1,525"
+          min: 1525
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "printmaking"
+          - "hands-on"
+        raw: "**1 Year In Contemporary Relief (Portfolio Course)** — 22 September
+
+          2026 to 6 July 2027, Tuesdays 9:30am-12:30pm. £1,525.\n"
+        summary: "Lino, woodcut and other relief processes over a full year of Tuesday mornings, aimed at building a coherent portfolio."
+        confidence: "high"
+      - id: "making/spike-print-studio#6362722a63"
+        sourceId: "making/spike-print-studio"
+        title: "1 Year Extended Illustration - Drawing, Print & Play (Portfolio Course)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Tuesdays 13:30-16:30, 22 September 2026 - 6 July 2027"
+        status: "scheduled"
+        url: "https://www.spikeprintstudio.org/product/1-year-extended-illustration---drawing-print-play-portfolio-course"
+        image: "https://cdn.prod.website-files.com/65df3cd40bcc1fe8a1f2356e/67fcd6ee40064a3edfe5a6fd_for%20web%20illus%2024%2025%2000.jpg"
+        price:
+          free: false
+          text: "£1,525"
+          min: 1525
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "printmaking"
+          - "hands-on"
+        raw: "**1 Year Extended Illustration - Drawing, Print & Play (Portfolio
+
+          Course)** — 22 September 2026 to 6 July 2027, Tuesdays 1:30-4:30pm.
+
+          £1,525.\n"
+        summary: "A year of Tuesday afternoons pushing illustration through drawing and print, with room to experiment rather than produce to brief."
+        confidence: "high"
+      - id: "making/spike-print-studio#060843b699"
+        sourceId: "making/spike-print-studio"
+        title: "10 Week Etching"
+        occurrence:
+          kind: "recurring"
+          pattern: "Tuesdays 18:00-21:00, 22 September - 1 December 2026"
+        status: "scheduled"
+        url: "https://www.spikeprintstudio.org/product/10-week-etching"
+        image: "https://cdn.prod.website-files.com/65df3cd40bcc1fe8a1f2356e/6846b82ffa317dd8d9fb397a_IMG_1474.JPG"
+        price:
+          free: false
+          text: "£382.50"
+          min: 382.5
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "printmaking"
+          - "hands-on"
+        raw: "**10 Week Etching** — 22 September to 1 December 2026, Tuesdays
+
+          6pm-9pm. £382.50.\n"
+        summary: "Ten Tuesday evenings on the etching presses, covering plate preparation through to printing an edition."
+        confidence: "high"
+      - id: "making/spike-print-studio#375158066a"
+        sourceId: "making/spike-print-studio"
+        title: "10 Week Intermediate Screenprinting"
+        occurrence:
+          kind: "recurring"
+          pattern: "Tuesdays 18:00-21:00, 22 September - 1 December 2026"
+        status: "scheduled"
+        url: "https://www.spikeprintstudio.org/product/intermediate-screenprinting"
+        image: "https://cdn.prod.website-files.com/65df3cd40bcc1fe8a1f2356e/67efedb92df4154e933d3f3d_for%20web%20screen%2024%2025%2001%20.jpg"
+        price:
+          free: false
+          text: "£382.50"
+          min: 382.5
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "printmaking"
+          - "hands-on"
+        raw: "**10 Week Intermediate Screenprinting** — 22 September to 1 December
+
+          2026, Tuesdays 6pm-9pm. £382.50.\n"
+        summary: "The follow-on from Spike's beginners screenprint course: ten Tuesday evenings for people who already know their way round a squeegee."
+        confidence: "high"
+      - id: "making/spike-print-studio#e183302c96"
+        sourceId: "making/spike-print-studio"
+        title: "5 Week Reduction Screenprint"
+        occurrence:
+          kind: "recurring"
+          pattern: "Tuesdays 13:30-16:30, 22 September - 20 October 2026"
+        status: "scheduled"
+        url: "https://www.spikeprintstudio.org/product/5-week-reduction-screenprint"
+        image: "https://cdn.prod.website-files.com/65df3cd40bcc1fe8a1f2356e/68592e3017084053f28f5502_Screenshot%202025-06-23%20at%2011.34.55.jpeg"
+        price:
+          free: false
+          text: "£236.50"
+          min: 236.5
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "printmaking"
+          - "hands-on"
+        raw: "**5 Week Reduction Screenprint** — 22 September to 20 October 2026,
+
+          Tuesdays 1:30pm-4:30pm. £236.50.\n"
+        summary: "Five Tuesday afternoons on reduction screenprinting, the one-screen technique where each colour destroys the last."
+        confidence: "high"
+      - id: "making/spike-print-studio#382e59ad44"
+        sourceId: "making/spike-print-studio"
+        title: "5 Week CPD Etching (November)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Mondays 13:30-16:30, 2 November - 30 November 2026"
+        status: "scheduled"
+        url: "https://www.spikeprintstudio.org/product/5-week-cpd-etching-2"
+        image: "https://cdn.prod.website-files.com/65df3cd40bcc1fe8a1f2356e/6846b29f484243f47e46e836_CPD%20Etching.jpg"
+        price:
+          free: false
+          text: "£236.50"
+          min: 236.5
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "printmaking"
+          - "hands-on"
+        raw: "**5 Week CPD Etching** — 2 November to 30 November 2026, Mondays
+
+          1:30-4:30pm. £236.50.\n"
+        summary: "The second autumn run of Spike's five-week CPD etching course, starting after the October half term."
+        confidence: "high"
+      - id: "making/spike-print-studio#5ccf0971f6"
+        sourceId: "making/spike-print-studio"
+        title: "5 Week Screenprinting on FABRIC (Repeat Pattern)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Tuesdays 13:30-16:30, 3 November - 1 December 2026"
+        status: "scheduled"
+        url: "https://www.spikeprintstudio.org/product/2-day-workshop-screenprinting-on-fabric-repeat-pattern"
+        image: "https://cdn.prod.website-files.com/65df3cd40bcc1fe8a1f2356e/693feb4c57b42de3b6c10dc5_textiles2dayimageES.jpg"
+        price:
+          free: false
+          text: "£236.50"
+          min: 236.5
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "printmaking"
+          - "textiles"
+          - "hands-on"
+        raw: "**5 Week Screenprinting on FABRIC (Repeat Pattern)** — 3 November to 1
+
+          December 2026, Tuesdays 1:30pm-4:30pm. £236.50.\n"
+        summary: "Five Tuesday afternoons printing repeat patterns onto cloth — the registration problem that makes fabric printing its own discipline."
+        confidence: "high"
+      - id: "making/spike-print-studio#b73686f12e"
+        sourceId: "making/spike-print-studio"
+        title: "HALF TERM WORKSHOP - 2 DAY Polymer Photogravure"
+        occurrence:
+          kind: "run"
+          start: "2026-10-26"
+          end: "2026-10-27"
+        status: "scheduled"
+        timesText: "From 10:00 each day"
+        url: "https://www.spikeprintstudio.org/product/10-week-polymer-photogravure"
+        image: "https://cdn.prod.website-files.com/65df3cd40bcc1fe8a1f2356e/68ecfbe22d98927442655be6_MG-Untitled%20(Where%20does%20it%20all%20go%3F)-Polymer-Photogravure%20copy%202.jpg"
+        price:
+          free: false
+          text: "£190"
+          min: 190
+          currency: "GBP"
+        tags:
+          - "workshop"
+          - "printmaking"
+          - "hands-on"
+          - "seasonal"
+          - "booking-required"
+        raw: "**HALF TERM WORKSHOP - 2 DAY Polymer Photogravure** — 26-27 October
+
+          2026, Monday & Tuesday 10am-4pm. £190.\n"
+        summary: "A two-day October half-term workshop in polymer photogravure, turning photographic images into intaglio plates over a long Monday and Tuesday."
+        confidence: "high"
+      - id: "making/spike-print-studio#735c02f92d"
+        sourceId: "making/spike-print-studio"
+        title: "SUMMER SCHOOL | Wood Engraving with Ben Goodman"
+        occurrence:
+          kind: "run"
+          start: "2026-07-13"
+          end: "2026-07-16"
+        status: "scheduled"
+        timesText: "From 10:00 each day"
+        url: "https://www.spikeprintstudio.org/product/summer-school-wood-engraving-with-ben-goodman"
+        image: "https://cdn.prod.website-files.com/65df3cd40bcc1fe8a1f2356e/6977615d33379564bac11932_Wood%20Engraving%2002.jpg"
+        price:
+          free: false
+          text: "£440"
+          min: 440
+          currency: "GBP"
+        tags:
+          - "workshop"
+          - "printmaking"
+          - "woodwork"
+          - "hands-on"
+        raw: "**SUMMER SCHOOL | Wood Engraving with Ben Goodman** — 13-16 July 2026,
+
+          Monday-Thursday 10am-4pm. £440.\n"
+        summary: "A four-day summer school in wood engraving with Ben Goodman. Still listed on the courses page although the printed dates have passed."
+        confidence: "low"
+      - id: "making/spike-print-studio#e8d84407bf"
+        sourceId: "making/spike-print-studio"
+        title: "SUMMER SCHOOL | Colour Mixing with Helen Boden"
+        occurrence:
+          kind: "single"
+          date: "2026-07-17"
+          startTime: "09:30"
+        status: "scheduled"
+        url: "https://www.spikeprintstudio.org/product/summer-school-colour-mixing-with-helen-boden"
+        image: "https://cdn.prod.website-files.com/65df3cd40bcc1fe8a1f2356e/69774f4b028040fee98fce4b_Colour%20Mixing%2005.jpg"
+        price:
+          free: false
+          text: "£155"
+          min: 155
+          currency: "GBP"
+        tags:
+          - "workshop"
+          - "printmaking"
+          - "hands-on"
+          - "beginners"
+        raw: "**SUMMER SCHOOL | Colour Mixing with Helen Boden** — 17 July 2026,
+
+          Friday 9:30am-5:30pm. £155.\n"
+        summary: "A single-day summer school on mixing print colour with Helen Boden. Still listed although the printed date has passed."
+        confidence: "low"
+    notes: "Catalogued /courses/ resolves to /courses and lists the whole autumn 2026-27 programme in one page; no separate workshops page exists (/workshops 404s). Multi-week and year-long courses recorded as recurring with the printed day and term, not expanded into dates. Two SUMMER SCHOOL entries are still on the page with July dates that have already passed (13-16 and 17 July 2026) — recorded as printed with low confidence, since they look like stale listings rather than next year's dates. Product links are relative on the page and have been resolved against the site root; the \"1 Year Screenprinting\" entry's link could not be resolved reliably and is given as the courses index."
+  - sourceId: "making/bristol-wood-recycling"
+    fetch:
+      ok: true
+      url: "https://www.bwrp.org.uk/what-to-expect"
+      status: 200
+    events:
+      - id: "making/bristol-wood-recycling#ab13c3fa33"
+        sourceId: "making/bristol-wood-recycling"
+        title: "Volunteer days at the wood yard"
+        occurrence:
+          kind: "recurring"
+          pattern: "The volunteer day is 08:50 - 4:30, Monday to Friday; half days 08:50 - 12:45 or 1:20 - 4:30"
+        status: "scheduled"
+        url: "https://www.bwrp.org.uk/what-to-expect"
+        price:
+          free: true
+          text: "Free — volunteer placement, email to join the list"
+        tags:
+          - "woodwork"
+          - "community"
+          - "hands-on"
+          - "free-entry"
+        raw: "\"The volunteer day is 08:50 - 4:30, Monday to Friday\", with half days
+
+          \"08:50 - 12:45 or 1:20 - 4:30\". Sign up by emailing
+
+          volunteering@bwrp.org.uk.
+
+
+          \"Volunteering with us is social experience where you will get to meet
+
+          people from all walks of life.\"
+
+
+          There is currently a waiting list for new volunteers, though yard tours
+
+          are still offered. Workshop machinery training is available to
+
+          volunteers.\n"
+        summary: "Weekday volunteer shifts at Bristol's reclaimed timber yard, full or half day, with machinery training for regulars. There is a waiting list at the moment, but they will still show you round the yard."
+        confidence: "high"
+    notes: "Catalogued URL https://www.bristolwoodrecycling.org.uk/ does not resolve (DNS ENOTFOUND). The project now trades as BWRP at https://www.bwrp.org.uk — catalogue URL needs updating. Its /workshop page is about the commercial joinery service (bespoke items, cutting, machining), not public classes, and lists no events. The only recurring public activity is volunteering, recorded below; the site states plainly that no public woodworking courses are offered."
+  - sourceId: "making/bristol-bike-project"
+    fetch:
+      ok: true
+      url: "https://thebristolbikeproject.org/maintenance/bike-kitchen/"
+      status: 200
+    events:
+      - id: "making/bristol-bike-project#ba9c6b71fc"
+        sourceId: "making/bristol-bike-project"
+        title: "Bike Kitchen"
+        occurrence:
+          kind: "recurring"
+          pattern: "Thursdays 6pm - 9pm"
+        status: "scheduled"
+        url: "https://thebristolbikeproject.org/maintenance/bike-kitchen/"
+        price:
+          free: false
+          text: "Up to 1 hour: £7, Up to 2 hours: £12, Up to 3 hours: £15"
+          min: 7
+          max: 15
+          currency: "GBP"
+        tags:
+          - "repair"
+          - "drop-in"
+          - "hands-on"
+          - "community"
+        raw: "**Bike Kitchen** — Thursdays 6pm – 9pm.
+
+
+          \"Come and take advantage of our fully equipped workshop with
+
+          professional work stands and a comprehensive set of tools to help you
+
+          tackle any problem.\"
+
+
+          Up to 1 hour: £7, Up to 2 hours: £12, Up to 3 hours: £15. Check the
+
+          events calendar before attending in case of cancellations.\n"
+        summary: "A Thursday-evening DIY workshop where you fix your own bike using the Project's stands and tools, paying by the hour. Worth checking their calendar first in case a session is off."
+        confidence: "high"
+      - id: "making/bristol-bike-project#1f5b6bf17e"
+        sourceId: "making/bristol-bike-project"
+        title: "Bicycle Basics"
+        occurrence:
+          kind: "undated"
+          note: "Listed on the courses page with no dates, times or prices; booking is handled through an external Bookwhen system, and enquiries go to courses@thebristolbikeproject.org."
+        status: "scheduled"
+        url: "https://thebristolbikeproject.org/maintenance/courses/"
+        tags:
+          - "courses"
+          - "repair"
+          - "beginners"
+          - "hands-on"
+          - "booking-required"
+        raw: "The courses page lists Bicycle Basics alongside intensive bike
+
+          maintenance courses. No dates, times or prices are published; the page
+
+          directs bookings to an external Bookwhen system and enquiries to
+
+          courses@thebristolbikeproject.org.\n"
+        summary: "The Bike Project's entry-level maintenance course. Dates are not on the website — they are released through its Bookwhen booking page."
+        confidence: "medium"
+    notes: "Homepage lists nothing; navigated via /maintenance/. The Bike Kitchen page gives the recurring session and prices. The courses page (/maintenance/courses/) names Bicycle Basics and intensive maintenance courses but publishes no dates, times or prices — booking is handed off to an external Bookwhen system, which was not opened. Catalogue URL is a valid homepage; the listings live under /maintenance/."
+  - sourceId: "making/knowle-west-media-centre"
+    fetch:
+      ok: true
+      url: "https://kwmc.org.uk/whats-on/"
+      status: 200
+    events:
+      - id: "making/knowle-west-media-centre#32f7aeabe9"
+        sourceId: "making/knowle-west-media-centre"
+        title: "KWMC's 30th Birthday"
+        occurrence:
+          kind: "undated"
+          note: "Listed on the What's On grid with no date, time or price shown."
+        status: "scheduled"
+        url: "https://kwmc.org.uk/whats-on/events/30th-birthday/"
+        image: "https://kwmc.org.uk/wp-content/uploads/2026/06/Birthday-Photo-Cropped-e1784821842738-568x451.jpg"
+        tags:
+          - "community"
+          - "seasonal"
+        raw: "**KWMC's 30th Birthday** — listed under Upcoming Events with no date,
+
+          time or price on the listing page.\n"
+        summary: "Knowle West Media Centre marks thirty years; the What's On page advertises it without saying when."
+        confidence: "low"
+      - id: "making/knowle-west-media-centre#2713f78012"
+        sourceId: "making/knowle-west-media-centre"
+        title: "October Half-Term: Radical Creators (Ages 14-17)"
+        occurrence:
+          kind: "undated"
+          note: "Listed only as \"October Half-Term\"; no specific dates, times or price on the What's On grid."
+        status: "scheduled"
+        url: "https://kwmc.org.uk/whats-on/sessions/radical-creators/"
+        image: "https://kwmc.org.uk/wp-content/uploads/2026/02/ypp-568x379.jpg"
+        tags:
+          - "workshop"
+          - "hands-on"
+          - "seasonal"
+          - "community"
+        raw: "**October Half-Term: Radical Creators (Ages 14-17)** — listed for
+
+          October half-term with no dates or price given.\n"
+        summary: "An October half-term creative programme for 14 to 17 year olds at KWMC's digital fabrication workshops."
+        confidence: "low"
+      - id: "making/knowle-west-media-centre#3e6f0b8dca"
+        sourceId: "making/knowle-west-media-centre"
+        title: "After-School: PLUS+ Night (Ages 14-17)"
+        occurrence:
+          kind: "recurring"
+          pattern: "After-school session; the What's On listing gives no day or time"
+        status: "scheduled"
+        url: "https://kwmc.org.uk/whats-on/sessions/after-school-plus-night/"
+        image: "https://kwmc.org.uk/wp-content/uploads/2026/08/OUTSIDE-2-MIDDLE-SOUNDWAVE-SoundWaveFestival_2025_IbiFeher_2661-568x379.jpg"
+        tags:
+          - "community"
+          - "hands-on"
+          - "drop-in"
+        raw: "**After-School: PLUS+ Night (Ages 14-17)** — regular after-school
+
+          session. No day, time or price on the listing.\n"
+        summary: "A regular after-school evening for older teenagers at Knowle West Media Centre, using its studios and making facilities."
+        confidence: "low"
+      - id: "making/knowle-west-media-centre#3bede922ca"
+        sourceId: "making/knowle-west-media-centre"
+        title: "After-School: Creative Hub (Ages 10-13)"
+        occurrence:
+          kind: "recurring"
+          pattern: "After-school session; the What's On listing gives no day or time"
+        status: "scheduled"
+        url: "https://kwmc.org.uk/whats-on/sessions/creative-hub/"
+        image: "https://kwmc.org.uk/wp-content/uploads/2025/07/SoundWave_2025_IbiFeher_1744-1-Large-568x379.jpeg"
+        tags:
+          - "family"
+          - "community"
+          - "hands-on"
+          - "drop-in"
+        raw: "**After-School: Creative Hub (Ages 10-13)** — regular after-school
+
+          session. No day, time or price on the listing.\n"
+        summary: "A weekly after-school creative session for 10 to 13 year olds at KWMC."
+        confidence: "low"
+      - id: "making/knowle-west-media-centre#31b890eb05"
+        sourceId: "making/knowle-west-media-centre"
+        title: "After-School: Maker City (Ages 10-13)"
+        occurrence:
+          kind: "recurring"
+          pattern: "After-school session; the What's On listing gives no day or time"
+        status: "scheduled"
+        url: "https://kwmc.org.uk/whats-on/sessions/makercity/"
+        image: "https://kwmc.org.uk/wp-content/uploads/2024/11/INSIDE-PAGE-3-Maker-City-568x379.jpg"
+        tags:
+          - "family"
+          - "workshop"
+          - "hands-on"
+          - "community"
+        raw: "**After-School: Maker City (Ages 10-13)** — regular after-school
+
+          session. No day, time or price on the listing.\n"
+        summary: "KWMC's after-school making club for 10 to 13 year olds, run out of its digital fabrication workshop, The Factory."
+        confidence: "low"
+      - id: "making/knowle-west-media-centre#6639e55b08"
+        sourceId: "making/knowle-west-media-centre"
+        title: "Creative Cuppa"
+        occurrence:
+          kind: "recurring"
+          pattern: "Regular session; the What's On listing gives no day or time"
+        status: "scheduled"
+        url: "https://kwmc.org.uk/whats-on/sessions/creative-cuppa/"
+        image: "https://kwmc.org.uk/wp-content/uploads/2024/12/Creative-Cuppa-x-PRRRRRT-electronic-pompoms_June-2024_Ibi-Feher-0061-Large-568x379.jpeg"
+        tags:
+          - "community"
+          - "drop-in"
+          - "hands-on"
+        raw: "**Creative Cuppa** — regular session. No day, time or price on the
+
+          listing.\n"
+        summary: "A relaxed drop-in where people make something together over a hot drink at Knowle West Media Centre."
+        confidence: "low"
+      - id: "making/knowle-west-media-centre#a79705b4a6"
+        sourceId: "making/knowle-west-media-centre"
+        title: "Community x Arts x Tech Meetups"
+        occurrence:
+          kind: "recurring"
+          pattern: "Regular meetup; the What's On listing gives no day or time"
+        status: "scheduled"
+        url: "https://kwmc.org.uk/whats-on/sessions/cat/"
+        image: "https://kwmc.org.uk/wp-content/uploads/2025/07/Community-x-Arts-x-Tech-photo-by-Ibi-Feher-copy-568x379.jpg"
+        tags:
+          - "community"
+          - "talk"
+          - "drop-in"
+        raw: "**Community x Arts x Tech Meetups** — regular meetup. No day, time or
+
+          price on the listing.\n"
+        summary: "A recurring meetup for people working where community organising, art and technology overlap."
+        confidence: "low"
+      - id: "making/knowle-west-media-centre#958f1bb6ea"
+        sourceId: "making/knowle-west-media-centre"
+        title: "Foundations for the Future Exhibition"
+        occurrence:
+          kind: "undated"
+          note: "Listed under the regular programme with no opening dates or times on the What's On grid."
+        status: "scheduled"
+        url: "https://kwmc.org.uk/whats-on/sessions/fftf-exhibition/"
+        image: "https://kwmc.org.uk/wp-content/uploads/2025/07/FoundationsForTheFuture_Jan2025_IbiFeher_4509-copy-568x379.jpg"
+        tags:
+          - "exhibition"
+          - "community"
+          - "free-entry"
+        raw: "**Foundations for the Future Exhibition** — listed under the regular
+
+          programme with no dates or price shown.\n"
+        summary: "An exhibition drawn from KWMC's Foundations for the Future project; the listing does not say when it is open."
+        confidence: "low"
+    notes: "Catalogued URL is correct. The What's On page is a card grid with titles and images but no dates, times or prices exposed on the listing itself — each card links through to its own page, which was not opened. Recorded as undated or recurring accordingly, which is why confidence is low across this source. /whats-on/events/ shows the same single event card and /whats-on/sessions/ 404s. Two \"Opportunities\" cards (Trustee, Project Coordinator) are recruitment, not events, and were skipped."
+  - sourceId: "making/bricks-bristol"
+    fetch:
+      ok: true
+      url: "https://bricksbristol.org/what-we-do/"
+      status: 200
+    events: []
+    notes: "No listings anywhere on the site. The homepage has no What's On, Events, Programme or Workshops navigation at all; /whats-on/ and /events/ both return 404. /what-we-do/ describes five areas of practice and invites collaboration enquiries but publishes nothing dated. If BRICKS announces its public programme, it is not doing so on its own site — the News/blog at /blog/ may be the only route and would be worth a hint for stage 1."
+  - sourceId: "making/bristol-textile-quarter"
+    fetch:
+      ok: true
+      url: "https://bristoltextilequarter.co.uk/workshops/"
+      status: 200
+    events: []
+    notes: "Still trading — no closure or hiatus notice, and the site carries current membership and studio information. But the workshops page says \"All our forthcoming workshops are listed below\" and then lists none; the homepage says they \"hold a regular programme of workshops and events\" and names only past ones (weaving, bundle dyeing, pattern cutting, basket weaving, machine knitting). Announcements go out by mailing list and via hello@bristoltextilequarter.co.uk. Genuinely nothing scheduled today."
+  - sourceId: "making/bristol-guild"
+    fetch:
+      ok: true
+      url: "https://www.bristolguild.co.uk/"
+      status: 200
+    events: []
+    notes: "Site is a \"Launching Soon\" holding page with only a contact form and cookie notice — no exhibitions, events or workshops, and no navigation to any. Worth flagging to stage 1: the Guild's public programme is not reachable from this domain at present."
+  - sourceId: "making/the-island"
+    fetch:
+      ok: true
+      url: "https://artspace.uk/events-home/"
+      status: 200
+    events:
+      - id: "making/the-island#516d97a231"
+        sourceId: "making/the-island"
+        title: "ICPAS Community Dance Classes"
+        occurrence:
+          kind: "recurring"
+          pattern: "Listed as \"Today - 3:00 pm\" on Sunday 16 August; weekly class"
+        status: "scheduled"
+        url: "https://artspace.uk/event/icpas-community-dance-classes/"
+        image: "https://artspace.uk/wp-content/uploads/2026/08/IPCASBaishaliGuha-crop-300x300.jpeg"
+        price:
+          free: false
+          text: "£12"
+          min: 12
+          currency: "GBP"
+        tags:
+          - "dance"
+          - "community"
+          - "drop-in"
+        raw: "**ICPAS Community Dance Classes** — Today – 3:00 pm. £12. Community
+
+          dance instruction in traditional styles.\n"
+        summary: "A weekly community dance class in traditional Indian styles, open to drop in."
+        confidence: "medium"
+      - id: "making/the-island#46cffd4321"
+        sourceId: "making/the-island"
+        title: "Beginner's Ballet"
+        occurrence:
+          kind: "recurring"
+          pattern: "Listed as \"Monday 17th Aug - 11:00 am\"; weekly class"
+        status: "scheduled"
+        url: "https://artspace.uk/event/beginners-ballet/"
+        image: "https://artspace.uk/wp-content/uploads/2021/08/etienne-boulanger-_k2ShezHMlw-unsplash-1-scaled-e1697633335152-300x289.jpg"
+        price:
+          free: false
+          text: "£10"
+          min: 10
+          currency: "GBP"
+        tags:
+          - "dance"
+          - "beginners"
+          - "drop-in"
+        raw: "**Beginner's Ballet** — Monday 17th Aug – 11:00 am. £10. Entry-level
+
+          ballet instruction for new dancers.\n"
+        summary: "A weekly Monday morning ballet class for people starting from nothing."
+        confidence: "medium"
+      - id: "making/the-island#3490bd562d"
+        sourceId: "making/the-island"
+        title: "Advanced Ballet"
+        occurrence:
+          kind: "recurring"
+          pattern: "Listed as \"Monday 17th Aug - 12:30 pm\"; weekly class"
+        status: "scheduled"
+        url: "https://artspace.uk/event/advanced-ballet/"
+        image: "https://artspace.uk/wp-content/uploads/2021/08/50221060_2427995490607521_8789483737554354176_n-e1697633392335-300x275.png"
+        price:
+          free: false
+          text: "£10"
+          min: 10
+          currency: "GBP"
+        tags:
+          - "dance"
+          - "drop-in"
+        raw: "**Advanced Ballet** — Monday 17th Aug – 12:30 pm. £10. Higher-level
+
+          ballet technique for experienced students.\n"
+        summary: "The advanced sitting of the Monday ballet class, for dancers with existing technique."
+        confidence: "medium"
+      - id: "making/the-island#c238538be1"
+        sourceId: "making/the-island"
+        title: "Commercial (Beginners)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Listed as \"Monday 17th Aug - 6:00 pm\"; weekly class"
+        status: "scheduled"
+        url: "https://artspace.uk/event/commercial-beginners/"
+        image: "https://artspace.uk/wp-content/uploads/2026/06/alt_ratio_16x9_2x_2021-10-13_0236-Angharad-Edwards-e1780913307685-300x300.jpg"
+        price:
+          free: false
+          text: "£9"
+          min: 9
+          currency: "GBP"
+        tags:
+          - "dance"
+          - "beginners"
+          - "drop-in"
+        raw: "**Commercial (Beginners)** — Monday 17th Aug – 6:00 pm. £9.
+
+          Contemporary commercial dance for beginning-level participants.\n"
+        summary: "A Monday evening beginners class in commercial dance — the music-video end of choreography."
+        confidence: "medium"
+      - id: "making/the-island#812fbdf91b"
+        sourceId: "making/the-island"
+        title: "Bristol Hoop School (Mondays)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Listed as \"Monday 17th Aug - 6:00 pm\"; weekly course block"
+        status: "scheduled"
+        url: "https://artspace.uk/event/bristol-hoop-school/"
+        image: "https://artspace.uk/wp-content/uploads/2025/10/IMG_4324-Amy-G-300x300.jpeg"
+        price:
+          free: false
+          text: "£66"
+          min: 66
+          currency: "GBP"
+        tags:
+          - "circus"
+          - "courses"
+          - "hands-on"
+          - "booking-required"
+        raw: "**Bristol Hoop School** — Monday 17th Aug – 6:00 pm. £66.
+
+          Comprehensive aerial hoop training and circus skills development.\n"
+        summary: "A block-booked Monday evening aerial hoop course run by Bristol Hoop School."
+        confidence: "medium"
+      - id: "making/the-island#b0f51a5d80"
+        sourceId: "making/the-island"
+        title: "Aerial Hoop - High Intermediate"
+        occurrence:
+          kind: "recurring"
+          pattern: "Listed as \"Monday 17th Aug - 7:00 pm\"; weekly class"
+        status: "scheduled"
+        url: "https://artspace.uk/event/aerial-hoop-high-intermediate/"
+        image: "https://artspace.uk/wp-content/uploads/2025/07/Nicky-Pearsonresize-scaled-e1753711338496-300x300.jpg"
+        price:
+          free: false
+          text: "£15.50"
+          min: 15.5
+          currency: "GBP"
+        tags:
+          - "circus"
+          - "hands-on"
+          - "drop-in"
+        raw: "**Aerial Hoop – High Intermediate** — Monday 17th Aug – 7:00 pm.
+
+          £15.50. Advanced aerial hoop instruction for experienced performers.\n"
+        summary: "A Monday evening aerial hoop class for performers already well past beginner level."
+        confidence: "medium"
+      - id: "making/the-island#87e2476072"
+        sourceId: "making/the-island"
+        title: "Open Ballroom/Vogue Sessions"
+        occurrence:
+          kind: "recurring"
+          pattern: "Listed as \"Monday 17th Aug - 7:00 pm\"; weekly session"
+        status: "scheduled"
+        url: "https://artspace.uk/event/open-ballroom-vogue-sessions/"
+        image: "https://artspace.uk/wp-content/uploads/2021/05/image0-2-e1733138141849-300x292.jpeg"
+        price:
+          free: false
+          text: "£6"
+          min: 6
+          currency: "GBP"
+        tags:
+          - "dance"
+          - "community"
+          - "drop-in"
+          - "beginners"
+        raw: "**Open Ballroom/Vogue Sessions** — Monday 17th Aug – 7:00 pm. £6.
+
+          Ballroom and vogue dance sessions open to all levels.\n"
+        summary: "Cheap, open-to-all ballroom and vogue sessions on Monday evenings, no experience assumed."
+        confidence: "medium"
+      - id: "making/the-island#caf13acfd4"
+        sourceId: "making/the-island"
+        title: "Bristol Hoop School (Tuesdays)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Listed as \"Tuesday 18th Aug - 6:00 pm\"; weekly course block"
+        status: "scheduled"
+        url: "https://artspace.uk/event/bristol-hoop-school-2/"
+        image: "https://artspace.uk/wp-content/uploads/2025/10/IMG_4324-Amy-G-300x300.jpeg"
+        price:
+          free: false
+          text: "£66"
+          min: 66
+          currency: "GBP"
+        tags:
+          - "circus"
+          - "courses"
+          - "hands-on"
+          - "booking-required"
+        raw: "**Bristol Hoop School** — Tuesday 18th Aug – 6:00 pm. £66. Aerial hoop
+
+          training with focused skill development.\n"
+        summary: "The Tuesday evening block of Bristol Hoop School's aerial hoop course."
+        confidence: "medium"
+      - id: "making/the-island#c386fbd22c"
+        sourceId: "making/the-island"
+        title: "Commercial Latin For Beginners"
+        occurrence:
+          kind: "recurring"
+          pattern: "Listed as \"Tuesday 18th Aug - 6:00 pm\"; weekly class"
+        status: "scheduled"
+        url: "https://artspace.uk/event/commercial-latin-for-beginners/"
+        image: "https://artspace.uk/wp-content/uploads/2024/01/1612877255188-Iris-Hernandez-Cabrera-e1704792356392-300x270.jpg"
+        price:
+          free: false
+          text: "£9"
+          min: 9
+          currency: "GBP"
+        tags:
+          - "dance"
+          - "beginners"
+          - "drop-in"
+        raw: "**Commercial Latin For Beginners** — Tuesday 18th Aug – 6:00 pm. £9.
+
+          Beginning-level Latin dance instruction with commercial styling.\n"
+        summary: "A Tuesday evening beginners Latin class taught with commercial dance styling."
+        confidence: "medium"
+      - id: "making/the-island#e1c7ab80eb"
+        sourceId: "making/the-island"
+        title: "SUNSHINE SCHOOL OF PRO WRESTLING - Fundamentals of Wrestling Class"
+        occurrence:
+          kind: "recurring"
+          pattern: "Listed as \"Tuesday 18th Aug - 7:00 pm\"; weekly class"
+        status: "scheduled"
+        url: "https://artspace.uk/event/sunshine-school-of-pro-wrestling-fundamentals-of-wrestling-class/"
+        image: "https://artspace.uk/wp-content/uploads/2026/07/IMG_6188-Gareth-Snelling-scaled-e1782995803227-300x300.jpeg"
+        price:
+          free: false
+          text: "£12.50"
+          min: 12.5
+          currency: "GBP"
+        tags:
+          - "wrestling"
+          - "beginners"
+          - "hands-on"
+        raw: "**SUNSHINE SCHOOL OF PRO WRESTLING – Fundamentals of Wrestling Class**
+
+          — Tuesday 18th Aug – 7:00 pm. £12.50. Professional wrestling
+
+          fundamentals and technique instruction.\n"
+        summary: "Weekly pro wrestling training in the fundamentals — bumps, holds and ring craft — run by the Sunshine School."
+        confidence: "medium"
+      - id: "making/the-island#1f5f6644c4"
+        sourceId: "making/the-island"
+        title: "World Fusion Dance"
+        occurrence:
+          kind: "recurring"
+          pattern: "Tuesday, no classes 21/07 - 18/08, 19:30"
+        status: "scheduled"
+        url: "https://artspace.uk/event/world-fusion-dance/"
+        image: "https://artspace.uk/wp-content/uploads/2020/10/world-fusion-dance-promo-e1697633888794-300x290.jpg"
+        price:
+          free: false
+          text: "£9"
+          min: 9
+          currency: "GBP"
+        tags:
+          - "dance"
+          - "drop-in"
+          - "community"
+        raw: "**World Fusion Dance** — Tuesday, no classes 21/07 – 18/08 – 7:30 pm.
+
+          £9. Global dance styles blended into one contemporary class.\n"
+        summary: "A Tuesday evening class blending dance styles from around the world, currently on a summer break until after 18 August."
+        confidence: "medium"
+      - id: "making/the-island#0c5b0d2988"
+        sourceId: "making/the-island"
+        title: "Contemporary Floorwork with AE Dance + Fitness"
+        occurrence:
+          kind: "recurring"
+          pattern: "Wednesdays - no class 19/08, 18:00"
+        status: "scheduled"
+        url: "https://artspace.uk/event/contemporary-floorwork-with-ae-dance-fitness/"
+        image: "https://artspace.uk/wp-content/uploads/2022/03/FLOORWORK-post-300x300.png"
+        price:
+          free: false
+          text: "£11.25"
+          min: 11.25
+          currency: "GBP"
+        tags:
+          - "dance"
+          - "drop-in"
+          - "hands-on"
+        raw: "**Contemporary Floorwork with AE Dance + Fitness** — Wednesdays – no
+
+          class 19/08 – 6:00 pm. £11.25. Floor-based contemporary movement and
+
+          dance fitness training.\n"
+        summary: "A Wednesday evening contemporary floorwork class; note there is no class on 19 August."
+        confidence: "medium"
+      - id: "making/the-island#f46fa72cde"
+        sourceId: "making/the-island"
+        title: "Intermediate Ballet - 3rd Stage Dance Company"
+        occurrence:
+          kind: "recurring"
+          pattern: "Listed as \"Wednesday 19th Aug - 7:30 pm\"; weekly class"
+        status: "scheduled"
+        url: "https://artspace.uk/event/intermediate-ballet/"
+        image: "https://artspace.uk/wp-content/uploads/2021/05/3SDC-Ballet-e1697632843440-281x300.jpeg"
+        price:
+          free: false
+          text: "£10"
+          min: 10
+          currency: "GBP"
+        tags:
+          - "dance"
+          - "drop-in"
+        raw: "**Intermediate Ballet – 3rd Stage Dance Company** — Wednesday 19th Aug
+
+          – 7:30 pm. £10. Mid-level ballet instruction from an established dance
+
+          company.\n"
+        summary: "A Wednesday evening intermediate ballet class taught by 3rd Stage Dance Company."
+        confidence: "medium"
+      - id: "making/the-island#1fceb5647d"
+        sourceId: "making/the-island"
+        title: "Improvers Aerial Hoop"
+        occurrence:
+          kind: "recurring"
+          pattern: "Listed as \"Wednesday 19th Aug - 8:00 pm\"; weekly class"
+        status: "scheduled"
+        url: "https://artspace.uk/event/improvers-aerial-hoop/"
+        image: "https://artspace.uk/wp-content/uploads/2024/04/Improvers-Hoop-300x300.png"
+        price:
+          free: false
+          text: "£15"
+          min: 15
+          currency: "GBP"
+        tags:
+          - "circus"
+          - "hands-on"
+          - "drop-in"
+        raw: "**Improvers Aerial Hoop** — Wednesday 19th Aug – 8:00 pm. £15.
+
+          Intermediate aerial hoop training for students with foundational
+
+          skills.\n"
+        summary: "A late Wednesday aerial hoop class for people past their first term on the hoop."
+        confidence: "medium"
+      - id: "making/the-island#49bd63e098"
+        sourceId: "making/the-island"
+        title: "Free To Be... Dance Classes with Bethany Kyle"
+        occurrence:
+          kind: "recurring"
+          pattern: "Listed as \"Thursday 20th Aug - 5:30 pm\"; weekly class"
+        status: "scheduled"
+        url: "https://artspace.uk/event/free-to-be-dance-classes-with-bethany-kyle/"
+        image: "https://artspace.uk/wp-content/uploads/2020/10/Bethany-Kyle-e1697632291919-278x300.jpg"
+        price:
+          free: false
+          text: "£9.50"
+          min: 9.5
+          currency: "GBP"
+        tags:
+          - "dance"
+          - "community"
+          - "beginners"
+          - "drop-in"
+        raw: "**Free To Be… Dance Classes with Bethany Kyle** — Thursday 20th Aug –
+
+          5:30 pm. £9.50. Expressive dance classes emphasizing personal freedom
+
+          and movement.\n"
+        summary: "An early Thursday evening class with Bethany Kyle built around free expressive movement rather than set technique."
+        confidence: "medium"
+      - id: "making/the-island#96609cf7d0"
+        sourceId: "making/the-island"
+        title: "Aerial Silks Class with Miss Radida (Thursdays)"
+        occurrence:
+          kind: "recurring"
+          pattern: "Listed as \"Thursday 20th Aug - 6:00 pm\"; weekly class"
+        status: "scheduled"
+        url: "https://artspace.uk/event/aerial-silks-class-with-miss-radida-thursdays/"
+        image: "https://artspace.uk/wp-content/uploads/2021/05/Rada-silks-pic-1-e1697632365478-284x300.jpg"
+        price:
+          free: false
+          text: "£15"
+          min: 15
+          currency: "GBP"
+        tags:
+          - "circus"
+          - "hands-on"
+          - "drop-in"
+        raw: "**Aerial Silks Class with Miss Radida (Thursdays)** — Thursday 20th Aug
+
+          – 6:00 pm. £15. Aerial silk fabric training and circus arts
+
+          instruction.\n"
+        summary: "Thursday evening aerial silks with Miss Radida, in the high-ceilinged spaces of the old police station."
+        confidence: "medium"
+      - id: "making/the-island#4ab5dd5bfb"
+        sourceId: "making/the-island"
+        title: "Contemporary Technique - 3rd Stage Dance Company"
+        occurrence:
+          kind: "recurring"
+          pattern: "Listed as \"Thursday 20th Aug - 7:00 pm\"; weekly class"
+        status: "scheduled"
+        url: "https://artspace.uk/event/open-contemporary-3rd-stage-dance-company/"
+        image: "https://artspace.uk/wp-content/uploads/2021/05/3SDC-Contemporary-e1697632948827-285x300.jpeg"
+        price:
+          free: false
+          text: "£10"
+          min: 10
+          currency: "GBP"
+        tags:
+          - "dance"
+          - "drop-in"
+        raw: "**Contemporary Technique – 3rd Stage Dance Company** — Thursday 20th
+
+          Aug – 7:00 pm. £10. Modern contemporary technique from a professional
+
+          dance company.\n"
+        summary: "An open contemporary technique class on Thursday evenings, taught by 3rd Stage Dance Company."
+        confidence: "medium"
+      - id: "making/the-island#dc59a5db17"
+        sourceId: "making/the-island"
+        title: "Ballet To Not Necessarily Ballet Music"
+        occurrence:
+          kind: "recurring"
+          pattern: "Friday, no class 28/08, 11:00"
+        status: "scheduled"
+        url: "https://artspace.uk/event/ballet-to-not-necessarily-ballet-music/"
+        image: "https://artspace.uk/wp-content/uploads/2023/10/Anna-Demming-Get-Back-into-Dance-Credit-to-Derwood-photography-e1773660247265-300x300.jpg"
+        price:
+          free: false
+          text: "£9"
+          min: 9
+          currency: "GBP"
+        tags:
+          - "dance"
+          - "drop-in"
+          - "beginners"
+        raw: "**Ballet To Not Necessarily Ballet Music** — Friday, no class 28/08 –
+
+          11:00 am. £9. Ballet instruction paired with contemporary and
+
+          experimental music.\n"
+        summary: "A Friday morning ballet class set to anything but the usual piano repertoire; no class on 28 August."
+        confidence: "medium"
+      - id: "making/the-island#5d3e55930b"
+        sourceId: "making/the-island"
+        title: "IMPROVERS AERIAL HOOP COURSE"
+        occurrence:
+          kind: "recurring"
+          pattern: "Fridays, no class 25/08, 17:30"
+        status: "scheduled"
+        url: "https://artspace.uk/event/improvers-aerial-hoop-course/"
+        image: "https://artspace.uk/wp-content/uploads/2023/12/Improvers-Hoop--300x300.png"
+        price:
+          free: false
+          text: "£15"
+          min: 15
+          currency: "GBP"
+        tags:
+          - "circus"
+          - "courses"
+          - "hands-on"
+        raw: "**IMPROVERS AERIAL HOOP COURSE** — Fridays, no class 25/08 – 5:30 pm.
+
+          £15. Extended intermediate-level aerial hoop skills development
+
+          programme.\n"
+        summary: "A Friday improvers course on the aerial hoop, taken as a run rather than dropped into."
+        confidence: "medium"
+      - id: "making/the-island#2982b8c47e"
+        sourceId: "making/the-island"
+        title: "INTRO TO AERIAL HOOP COURSE"
+        occurrence:
+          kind: "recurring"
+          pattern: "Fridays, no class 07/08, 18:40"
+        status: "scheduled"
+        url: "https://artspace.uk/event/introduction-to-aerial-hoop-course/"
+        image: "https://artspace.uk/wp-content/uploads/2023/10/November-p1-300x300.png"
+        price:
+          free: false
+          text: "£15"
+          min: 15
+          currency: "GBP"
+        tags:
+          - "circus"
+          - "courses"
+          - "beginners"
+          - "hands-on"
+        raw: "**INTRO TO AERIAL HOOP COURSE** — Fridays, no class 07/08 – 6:40 pm.
+
+          £15. Beginner course introducing fundamental aerial hoop techniques.\n"
+        summary: "The Friday evening entry point to aerial hoop, a short course for people who have never been off the ground."
+        confidence: "medium"
+    notes: "Catalogued https://artspacelifespace.com/ 301-redirects to https://artspace.uk/ — catalogue URL needs updating, and the listings sit at https://artspace.uk/events-home/. The listing is a weekly class timetable rather than a making programme: dance, ballet, aerial and circus classes across Artspace Lifespace's venues (The Island, Arts Mansion, The Vestibules), with no craft or maker workshops at all. Each card shows only the next occurrence (\"Monday 17th Aug - 6:00 pm\"), so all are recorded as recurring with the printed wording rather than expanded into dates; confidence is medium because weekly repetition is implied by the timetable rather than stated on every card. The listing does not say which venue each class uses, so venue is left unset."
+  - sourceId: "making/maker-shed"
+    fetch:
+      ok: true
+      url: "https://www.bristolhackspace.org/visit"
+      status: 200
+    events: []
+    notes: "Confirmed placeholder. The catalogued URL is Bristol Hackspace's own site, already harvested as making/bristol-hackspace, and nothing on it mentions a \"Maker Shed\" — no such name appears anywhere on bristolhackspace.org. No independent Bristol makerspace of that name could be reached from this URL. Events are deliberately left empty rather than duplicating the hackspace's open day under a second source id. Stage 1 should either identify the real Maker Shed (it may be a Men's Shed group, see making/mens-sheds-bristol) or set this entry to status: closed."
+  - sourceId: "making/mens-sheds-bristol"
+    fetch:
+      ok: true
+      url: "https://menssheds.org.uk/find-a-shed/"
+      status: 200
+    events: []
+    notes: "The directory is a client-side search: the page renders a postcode/town box and the text \"No results found in this location. Please try again\" with no shed data in the HTML. Tried the search with query parameters (?address=Bristol&distance=15) and the /sheds/ page; neither returns results without JavaScript. So no Bristol sheds, and no session days or times, could be read. Individual sheds would each need their own catalogue entry to be harvestable — this aggregator is not usable by crawler as it stands, which is worth recording against its quarterly cadence."

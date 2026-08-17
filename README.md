@@ -46,14 +46,14 @@ its page says today.
 > "harvest bristol music" — one category only
 
 What happens: each category agent reads `prompts/stage2-harvest.md`, crawls its
-sources, and writes `data/bristol-uk/harvest/<today>/<category>.yaml`. Then:
+sources, and writes `data/gb-bristol/harvest/<today>/<category>.yaml`. Then:
 
 ```bash
-npm run assign-ids -- bristol-uk --date <YYYY-MM-DD>   # ids are content hashes
-npm run validate   -- bristol-uk                        # must pass
-npm run tags       -- bristol-uk                        # vocabulary drift?
-npm run drift      -- bristol-uk                        # catalogue corrections
-npm run compile    -- bristol-uk                        # -> snapshot.json
+npm run assign-ids -- gb-bristol --date <YYYY-MM-DD>   # ids are content hashes
+npm run validate   -- gb-bristol                        # must pass
+npm run tags       -- gb-bristol                        # vocabulary drift?
+npm run drift      -- gb-bristol                        # catalogue corrections
+npm run compile    -- gb-bristol                        # -> snapshot.json
 ```
 
 Or just `make refresh-bristol` for the last three once the harvest has landed.
@@ -62,7 +62,7 @@ Check what is actually due first:
 
 ```bash
 make stale                    # grouped by category
-npm run stale -- bristol-uk --ids
+npm run stale -- gb-bristol --ids
 ```
 
 **After every harvest, read the run's `REPORT.md`.** It lists what needs a human:
@@ -81,7 +81,7 @@ Everything a run proposes lands as `status: provisional`. Nothing is trusted
 until a human promotes it.
 
 ```bash
-npm run check-urls -- bristol-uk    # are the catalogued URLs real?
+npm run check-urls -- gb-bristol    # are the catalogued URLs real?
 ```
 
 Take that seriously — on the first Bristol run, **80 of 155 catalogued URLs were
@@ -92,8 +92,8 @@ business, so a "200 OK" is not proof the source is still real.
 **Applying corrections after a harvest** is the main catalogue chore:
 
 ```bash
-npm run drift -- bristol-uk              # every URL that harvested from elsewhere
-npm run drift -- bristol-uk --markdown   # as a table, for a report
+npm run drift -- gb-bristol              # every URL that harvested from elsewhere
+npm run drift -- gb-bristol --markdown   # as a table, for a report
 ```
 
 Each suggestion was actually fetched during the harvest, so you are verifying,
@@ -137,7 +137,7 @@ locations from the synced snapshot index.
 Faster than a catalogue run when you just want one venue:
 
 ```yaml
-# data/bristol-uk/catalogue/music.yaml
+# data/gb-bristol/catalogue/music.yaml
 - id: music/the-new-place # <category>/<slug> — permanent, joins everything
   name: The New Place
   category: music
@@ -153,7 +153,7 @@ Faster than a catalogue run when you just want one venue:
   addedAt: "2026-08-16"
 ```
 
-Then `npm run validate -- bristol-uk`.
+Then `npm run validate -- gb-bristol`.
 
 **`hints` is the important field.** It carries everything specific to that source
 — how far ahead it books, where the listings really are, what to ignore — which

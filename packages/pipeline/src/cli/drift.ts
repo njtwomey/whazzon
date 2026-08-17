@@ -17,8 +17,8 @@ import { hasRoute, primaryUrl, routesOf } from "../lib/routes.js";
  * Reports nothing it cannot back up. A suggested URL is one a harvest actually
  * fetched successfully.
  *
- *   npm run drift -- bristol-uk
- *   npm run drift -- bristol-uk --date 2026-08-16
+ *   npm run drift -- gb-bristol
+ *   npm run drift -- gb-bristol --date 2026-08-16
  *
  * Reads the YAML directly rather than through the schema, so it works on a
  * harvest that is still mid-flight and has not had ids assigned yet — which is

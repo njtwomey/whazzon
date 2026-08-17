@@ -1,0 +1,2583 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-08-17"
+category: "literature"
+harvestedAt: "2026-08-17T07:25:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "3"
+model: "claude-opus-5[1m]"
+observations:
+  - sourceId: "literature/bookhaus"
+    fetch:
+      ok: true
+      url: "https://www.headfirstbristol.co.uk/whats-on/bookhaus"
+      status: 200
+    events:
+      - id: "literature/bookhaus#b4121b049e"
+        sourceId: "literature/bookhaus"
+        title: "The Bristol Crocodile"
+        subcategory: "workshops & classes, talks"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/bookhaus/fri-21-aug-the-bristol-crocodile-160198"
+        image: "https://www.headfirstbristol.co.uk/images/events/bookhaus/the-bristol-crocodile/1601/e160198_i351889_s3.jpg"
+        tags:
+          - "talk"
+          - "one-night"
+        raw: "**The Bristol Crocodile** — Fri 21 Aug, Bookhaus.
+
+          Listed under: workshops & classes, talks.
+
+          No start time or price given on the venue index.\n"
+        summary: "An evening billed under workshops and talks; the Headfirst listing gives the title and date only."
+        confidence: "high"
+      - id: "literature/bookhaus#ebc39da57e"
+        sourceId: "literature/bookhaus"
+        title: "Ecstatic launch with Emily Woof"
+        subcategory: "workshops & classes, talks"
+        occurrence:
+          kind: "single"
+          date: "2026-08-25"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/bookhaus/tue-25-aug-ecstatic-launch-with-emily-woof-158245"
+        image: "https://www.headfirstbristol.co.uk/images/events/bookhaus/ecstatic-launch-with-emily-woof/1582/e158245_i345758_s3.jpg"
+        tags:
+          - "book-launch"
+          - "author-talk"
+          - "one-night"
+        raw: "**Ecstatic launch with Emily Woof** — Tue 25 Aug, Bookhaus.
+
+          Listed under: workshops & classes, talks.
+
+          No start time or price given on the venue index.\n"
+        summary: "Emily Woof launches her novel Ecstatic at the shop on Wapping Wharf."
+        confidence: "high"
+      - id: "literature/bookhaus#6762383108"
+        sourceId: "literature/bookhaus"
+        title: "Charity Shop World launch with Tansy E. Hoskins"
+        subcategory: "workshops & classes, talks"
+        occurrence:
+          kind: "single"
+          date: "2026-09-01"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/bookhaus/tue-1-sep-charity-shop-world-launch-with-tansy-e-hoskins-155231"
+        image: "https://www.headfirstbristol.co.uk/images/events/bookhaus/charity-shop-world-launch-with-tansy-e-hoskins/1552/e155231_i336219_s3.jpg"
+        tags:
+          - "book-launch"
+          - "author-talk"
+          - "one-night"
+        raw: "**Charity Shop World launch with Tansy E. Hoskins** — Tue 1 Sep, Bookhaus.
+
+          Listed under: workshops & classes, talks.
+
+          No start time or price given on the venue index.\n"
+        summary: "Tansy E. Hoskins launches Charity Shop World, on overconsumption and where donated clothes end up."
+        confidence: "high"
+      - id: "literature/bookhaus#9646b92587"
+        sourceId: "literature/bookhaus"
+        title: "The World Beneath Our Feet launch with Frank Ashwood"
+        subcategory: "workshops & classes, talks"
+        occurrence:
+          kind: "single"
+          date: "2026-09-02"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/bookhaus/wed-2-sep-the-world-beneath-our-feet-launch-with-frank-ashwood-158258"
+        image: "https://www.headfirstbristol.co.uk/images/events/bookhaus/the-world-beneath-our-feet-launch-with-frank-ashwood/1582/e158258_i345786_s3.jpg"
+        tags:
+          - "book-launch"
+          - "author-talk"
+          - "nature"
+          - "one-night"
+        raw: "**The World Beneath Our Feet launch with Frank Ashwood** — Wed 2 Sep, Bookhaus.
+
+          Listed under: workshops & classes, talks.
+
+          No start time or price given on the venue index.\n"
+        summary: "Soil scientist Frank Ashwood launches The World Beneath Our Feet."
+        confidence: "high"
+      - id: "literature/bookhaus#d95c21d8ab"
+        sourceId: "literature/bookhaus"
+        title: "Fakers with Rory Cormac in partnership with Bristol Radical History Group"
+        subcategory: "workshops & classes, talks"
+        occurrence:
+          kind: "single"
+          date: "2026-09-07"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/bookhaus/mon-7-sep-fakers-with-rory-cormac-in-partnership-with-bristol-radical-history-group-159241"
+        image: "https://www.headfirstbristol.co.uk/images/events/bookhaus/fakers-with-rory-cormac-in-partnership-with-bristol-radical-history-group/1592/e159241_i348956_s3.jpg"
+        tags:
+          - "author-talk"
+          - "talk"
+          - "heritage"
+          - "one-night"
+        raw: "**Fakers with Rory Cormac in partnership with Bristol Radical History Group** — Mon 7 Sep, Bookhaus.
+
+          Listed under: workshops & classes, talks.
+
+          No start time or price given on the venue index.\n"
+        summary: "Historian Rory Cormac on Fakers, co-hosted with Bristol Radical History Group."
+        confidence: "high"
+      - id: "literature/bookhaus#938f01e9e7"
+        sourceId: "literature/bookhaus"
+        title: "The Breaking of the English Working Class launch with Jonas Patrick Marvin"
+        subcategory: "workshops & classes, talks"
+        occurrence:
+          kind: "single"
+          date: "2026-09-08"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/bookhaus/tue-8-sep-the-breaking-of-the-english-working-class-launch-with-jonas-patrick-marvin-158457"
+        image: "https://www.headfirstbristol.co.uk/images/events/bookhaus/the-breaking-of-the-english-working-class-launch-with-jonas-patrick-marvin/1584/e158457_i346426_s3.jpg"
+        tags:
+          - "book-launch"
+          - "author-talk"
+          - "one-night"
+        raw: "**The Breaking of the English Working Class launch with Jonas Patrick Marvin** — Tue 8 Sep, Bookhaus.
+
+          Listed under: workshops & classes, talks.
+
+          No start time or price given on the venue index.\n"
+        summary: "Jonas Patrick Marvin launches The Breaking of the English Working Class."
+        confidence: "high"
+      - id: "literature/bookhaus#c699eb38ed"
+        sourceId: "literature/bookhaus"
+        title: "Up the Youth Club with Emma Warren"
+        subcategory: "workshops & classes, talks"
+        occurrence:
+          kind: "single"
+          date: "2026-09-09"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/bookhaus/wed-9-sep-up-the-youth-club-with-emma-warren-158458"
+        image: "https://www.headfirstbristol.co.uk/images/events/bookhaus/up-the-youth-club-with-emma-warren/1584/e158458_i346429_s3.jpg"
+        tags:
+          - "author-talk"
+          - "talk"
+          - "community"
+          - "one-night"
+        raw: "**Up the Youth Club with Emma Warren** — Wed 9 Sep, Bookhaus.
+
+          Listed under: workshops & classes, talks.
+
+          No start time or price given on the venue index.\n"
+        summary: "Emma Warren on Up the Youth Club, her account of youth clubs as cultural infrastructure."
+        confidence: "high"
+      - id: "literature/bookhaus#559195cad6"
+        sourceId: "literature/bookhaus"
+        title: "In Conversation with Stacey Yu and Freya Bromley"
+        subcategory: "workshops & classes, talks"
+        occurrence:
+          kind: "single"
+          date: "2026-09-14"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/bookhaus/mon-14-sep-in-conversation-with-stacey-yu-and-freya-bromley-157631"
+        image: "https://www.headfirstbristol.co.uk/images/events/bookhaus/in-conversation-with-stacey-yu-and-freya-bromley/1576/e157631_i343780_s3.jpg"
+        tags:
+          - "author-talk"
+          - "one-night"
+        raw: "**In Conversation with Stacey Yu and Freya Bromley** — Mon 14 Sep, Bookhaus.
+
+          Listed under: workshops & classes, talks.
+
+          No start time or price given on the venue index.\n"
+        summary: "Stacey Yu and Freya Bromley in conversation at the shop."
+        confidence: "high"
+      - id: "literature/bookhaus#9df1f9c464"
+        sourceId: "literature/bookhaus"
+        title: "How Not to Save the World: Doing Good Without Annoying Everyone"
+        subcategory: "workshops & classes, talks"
+        occurrence:
+          kind: "single"
+          date: "2026-09-16"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/bookhaus/wed-16-sep-how-not-to-save-the-world-doing-good-without-annoying-everyone-156837"
+        image: "https://www.headfirstbristol.co.uk/images/events/bookhaus/how-not-to-save-the-world-doing-good-without-annoying-everyone/1568/e156837_i341438_s3.jpg"
+        tags:
+          - "talk"
+          - "author-talk"
+          - "one-night"
+        raw: "**How Not to Save the World: Doing Good Without Annoying Everyone** — Wed 16 Sep, Bookhaus.
+
+          Listed under: workshops & classes, talks.
+
+          No start time or price given on the venue index.\n"
+        summary: "A talk on doing good without annoying everyone, at the Wapping Wharf shop."
+        confidence: "high"
+      - id: "literature/bookhaus#5b278bf138"
+        sourceId: "literature/bookhaus"
+        title: "Bookhaus artist series: Black Lodge"
+        subcategory: "workshops & classes, talks, exhibition"
+        occurrence:
+          kind: "single"
+          date: "2026-09-18"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/bookhaus/fri-18-sep-bookhaus-artist-series-black-lodge-160441"
+        image: "https://www.headfirstbristol.co.uk/images/events/bookhaus/bookhaus-artist-series-black-lodge/1604/e160441_i352805_s3.jpg"
+        tags:
+          - "artist-talk"
+          - "exhibition"
+          - "one-night"
+        raw: "**Bookhaus artist series: Black Lodge** — Fri 18 Sep, Bookhaus.
+
+          Listed under: workshops & classes, talks, exhibition.
+
+          No start time or price given on the venue index.\n"
+        summary: "The next instalment of Bookhaus's artist series, with Black Lodge; listed as talk and exhibition."
+        confidence: "high"
+      - id: "literature/bookhaus#6c0ef0c00b"
+        sourceId: "literature/bookhaus"
+        title: "A Way of Love launch with Peter Parker and Lurid Editions"
+        subcategory: "workshops & classes, talks, lgbtq+"
+        occurrence:
+          kind: "single"
+          date: "2026-09-22"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/bookhaus/tue-22-sep-a-way-of-love-launch-with-peter-parker-and-lurid-editions-157627"
+        image: "https://www.headfirstbristol.co.uk/images/events/bookhaus/a-way-of-love-launch-with-peter-parker-and-lurid-editions/1576/e157627_i343769_s3.jpg"
+        tags:
+          - "book-launch"
+          - "author-talk"
+          - "lgbtq"
+          - "one-night"
+        raw: "**A Way of Love launch with Peter Parker and Lurid Editions** — Tue 22 Sep, Bookhaus.
+
+          Listed under: workshops & classes, talks, lgbtq+.
+
+          No start time or price given on the venue index.\n"
+        summary: "Peter Parker and Bristol's Lurid Editions launch A Way of Love; Headfirst flags it as an LGBTQ+ event."
+        confidence: "high"
+      - id: "literature/bookhaus#c4f33451fd"
+        sourceId: "literature/bookhaus"
+        title: "Life in Bloom: Grow, Gather & Arrange Seasonal Flowers launch"
+        subcategory: "workshops & classes, talks"
+        occurrence:
+          kind: "single"
+          date: "2026-09-25"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/bookhaus/fri-25-sep-life-in-bloom-grow-gather-arrange-seasonal-flowers-launch-159133"
+        image: "https://www.headfirstbristol.co.uk/images/events/bookhaus/life-in-bloom-grow-gather-arrange-seasonal-flowers-launch/1591/e159133_i348631_s3.jpg"
+        tags:
+          - "book-launch"
+          - "author-talk"
+          - "one-night"
+        raw: "**Life in Bloom: Grow, Gather & Arrange Seasonal Flowers launch** — Fri 25 Sep, Bookhaus.
+
+          Listed under: workshops & classes, talks.
+
+          No start time or price given on the venue index.\n"
+        summary: "Launch of Life in Bloom, on growing, gathering and arranging seasonal flowers."
+        confidence: "high"
+      - id: "literature/bookhaus#5a896e43ef"
+        sourceId: "literature/bookhaus"
+        title: "Left Cultures 5th Edition Launch Party"
+        subcategory: "talks, exhibition, poetry"
+        occurrence:
+          kind: "single"
+          date: "2026-09-26"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/bookhaus/sat-26-sep-left-cultures-5th-edition-launch-party-160320"
+        image: "https://www.headfirstbristol.co.uk/images/events/bookhaus/left-cultures-5th-edition-launch-party/1603/e160320_i352301_s3.jpg"
+        tags:
+          - "book-launch"
+          - "poetry"
+          - "exhibition"
+          - "one-night"
+        raw: "**Left Cultures 5th Edition Launch Party** — Sat 26 Sep, Bookhaus.
+
+          Listed under: talks, exhibition, poetry.
+
+          No start time or price given on the venue index.\n"
+        summary: "Launch party for the fifth edition of Left Cultures, with readings and work on the walls."
+        confidence: "high"
+      - id: "literature/bookhaus#6fa4fbfcc3"
+        sourceId: "literature/bookhaus"
+        title: "Doom Painting launch with A. K. Blakemore"
+        occurrence:
+          kind: "single"
+          date: "2026-09-30"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/bookhaus/wed-30-sep-doom-painting-launch-with-a-k-blakemore-153229"
+        image: "https://www.headfirstbristol.co.uk/images/events/bookhaus/doom-painting-launch-with-a-k-blakemore/1532/e153229_i330346_s3.jpg"
+        tags:
+          - "book-launch"
+          - "author-talk"
+          - "one-night"
+        raw: "**Doom Painting launch with A. K. Blakemore** — Wed 30 Sep, Bookhaus.
+
+          No start time or price given on the venue index.\n"
+        summary: "A. K. Blakemore launches her novel Doom Painting."
+        confidence: "high"
+      - id: "literature/bookhaus#06d88386bd"
+        sourceId: "literature/bookhaus"
+        title: "The Sleep Thief launch with Ibtisam Azem"
+        subcategory: "workshops & classes, talks"
+        occurrence:
+          kind: "single"
+          date: "2026-10-09"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/bookhaus/fri-9-oct-the-sleep-thief-launch-with-ibtisam-azem-158502"
+        image: "https://www.headfirstbristol.co.uk/images/events/bookhaus/the-sleep-thief-launch-with-ibtisam-azem/1585/e158502_i346582_s3.jpg"
+        tags:
+          - "book-launch"
+          - "author-talk"
+          - "one-night"
+        raw: "**The Sleep Thief launch with Ibtisam Azem** — Fri 9 Oct, Bookhaus.
+
+          Listed under: workshops & classes, talks.
+
+          No start time or price given on the venue index.\n"
+        summary: "Ibtisam Azem launches The Sleep Thief."
+        confidence: "high"
+      - id: "literature/bookhaus#ef41b43f05"
+        sourceId: "literature/bookhaus"
+        title: "There Is No Antimemetics Division paperback launch with qntm"
+        subcategory: "workshops & classes, talks"
+        occurrence:
+          kind: "single"
+          date: "2026-10-13"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/bookhaus/tue-13-oct-there-is-no-antimemetics-division-paperback-launch-with-qntm-158504"
+        image: "https://www.headfirstbristol.co.uk/images/events/bookhaus/there-is-no-antimemetics-division-paperback-launch-with-qntm/1585/e158504_i346589_s3.jpg"
+        tags:
+          - "book-launch"
+          - "author-talk"
+          - "sci-fi"
+          - "one-night"
+        raw: "**There Is No Antimemetics Division paperback launch with qntm** — Tue 13 Oct, Bookhaus.
+
+          Listed under: workshops & classes, talks.
+
+          No start time or price given on the venue index.\n"
+        summary: "qntm marks the paperback of There Is No Antimemetics Division."
+        confidence: "high"
+      - id: "literature/bookhaus#7a920bff5b"
+        sourceId: "literature/bookhaus"
+        title: "Come what may, we're here to stay: The story of South Asian resistance in B"
+        subcategory: "workshops & classes, talks"
+        occurrence:
+          kind: "single"
+          date: "2026-10-21"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/bookhaus/wed-21-oct-come-what-may-we-re-here-to-stay-the-story-of-south-asian-resistance-in-b-156952"
+        image: "https://www.headfirstbristol.co.uk/images/events/bookhaus/come-what-may-we-re-here-to-stay-the-story-of-south-asian-resistance-in-b/1569/e156952_i341742_s2.jpg"
+        tags:
+          - "talk"
+          - "heritage"
+          - "community"
+          - "one-night"
+        raw: "**Come what may, we're here to stay: The story of South Asian resistance in B** — Wed 21 Oct, Bookhaus.
+
+          Listed under: workshops & classes, talks.
+
+          No start time or price given on the venue index.\n"
+        summary: "A talk on the history of South Asian resistance; the listing's own title is cut off mid-word on the index page."
+        confidence: "high"
+      - id: "literature/bookhaus#81cc9ece35"
+        sourceId: "literature/bookhaus"
+        title: "Changing Gender launch with Susan Stryker"
+        subcategory: "workshops & classes, talks, lgbtq+"
+        occurrence:
+          kind: "single"
+          date: "2026-10-27"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/bookhaus/tue-27-oct-changing-gender-launch-with-susan-stryker-158834"
+        image: "https://www.headfirstbristol.co.uk/images/events/bookhaus/changing-gender-launch-with-susan-stryker/1588/e158834_i347649_s3.jpg"
+        tags:
+          - "book-launch"
+          - "author-talk"
+          - "lgbtq"
+          - "one-night"
+        raw: "**Changing Gender launch with Susan Stryker** — Tue 27 Oct, Bookhaus.
+
+          Listed under: workshops & classes, talks, lgbtq+.
+
+          No start time or price given on the venue index.\n"
+        summary: "Susan Stryker launches Changing Gender; Headfirst flags it as an LGBTQ+ event."
+        confidence: "high"
+      - id: "literature/bookhaus#8fa746e924"
+        sourceId: "literature/bookhaus"
+        title: "The Mercy Step with Marcia Hutchinson"
+        subcategory: "workshops & classes, talks"
+        occurrence:
+          kind: "single"
+          date: "2026-10-28"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/bookhaus/wed-28-oct-the-mercy-step-with-marcia-hutchinson--159160"
+        image: "https://www.headfirstbristol.co.uk/images/events/bookhaus/the-mercy-step-with-marcia-hutchinson-/1591/e159160_i348721_s3.jpg"
+        tags:
+          - "author-talk"
+          - "one-night"
+        raw: "**The Mercy Step with Marcia Hutchinson** — Wed 28 Oct, Bookhaus.
+
+          Listed under: workshops & classes, talks.
+
+          No start time or price given on the venue index.\n"
+        summary: "Marcia Hutchinson on her novel The Mercy Step."
+        confidence: "high"
+      - id: "literature/bookhaus#546786384a"
+        sourceId: "literature/bookhaus"
+        title: "Womanhood launch with Tahmina Begum"
+        subcategory: "workshops & classes, talks"
+        occurrence:
+          kind: "single"
+          date: "2026-11-11"
+        status: "scheduled"
+        url: "https://www.headfirstbristol.co.uk/whats-on/bookhaus/wed-11-nov-womanhood-launch-with-tahmina-begum-160444"
+        image: "https://www.headfirstbristol.co.uk/images/events/bookhaus/womanhood-launch-with-tahmina-begum/1604/e160444_i352812_s3.jpg"
+        tags:
+          - "book-launch"
+          - "author-talk"
+          - "one-night"
+        raw: "**Womanhood launch with Tahmina Begum** — Wed 11 Nov, Bookhaus.
+
+          Listed under: workshops & classes, talks.
+
+          No start time or price given on the venue index.\n"
+        summary: "Tahmina Begum launches Womanhood."
+        confidence: "high"
+    notes: "Harvested the Headfirst venue page as the hints direct: the shop's own site, bookhausbristol.com/events, is a JavaScript Headfirst embed that serves only \"loading events…\". The mirror is server-rendered and is the same programme — 20 events from Fri 21 Aug to Wed 11 Nov 2026, no pagination, all 20 recorded. Every listing prints its weekday and all 20 confirm 2026. Two gaps to flag: the venue index carries no start times and no prices at all (a regex over the fetched HTML found neither a single time nor a single £ figure), so startTime and price are omitted throughout rather than guessed; and it carries no per-event blurb, so raw is title, date and Headfirst's own category labels. No event pages were opened for description — 20 events is over the threshold in §3, and the cost of 20 extra fetches to enrich one card each is the trade that rule exists to refuse. The 21 Oct listing's title is truncated by the source itself, ending \"...South Asian resistance in B\"; recorded as printed. subcategory holds Headfirst's labels verbatim (\"workshops & classes\", \"talks\", \"exhibition\", \"lgbtq+\"); the 30 Sep listing carries no labels."
+  - sourceId: "literature/gloucester-road-books"
+    fetch:
+      ok: true
+      url: "https://gloucesterroadbooks.com/events/"
+      status: 200
+    events: []
+    notes: "Fetched fine and the re-pointed .com URL is correct — this is the shop's own events page. It lists nothing upcoming. All six events on it have already happened: A Jingle Jangle Song by Mariana Villa-Gilbert (Thu 5 Feb), Plastic by Matthew Rice (Thu 12 Feb), Tarantula by Eduardo Halfon (Mon 2 Mar), Black Bag by Luke Kennard (Tue 24 Mar), Goatsong by Phoebe Giannisi (Wed 15 Apr) and The Villain's Dance by Fiston Mwanza Mujila (Wed 20 May), all 2026, all at 19:00, all ticketed through Headfirst. As the hints warn, the page is not pruned, so those stay on it; none is recorded as an event because none is on. Nothing announced beyond 20 May — the shop is trading and the homepage still teases a \"2026 Events Programme\" with no dates attached, so this reads as a gap in the programme rather than a dormant venue. Worth a re-crawl once autumn dates go up."
+  - sourceId: "literature/lyra-poetry-festival"
+    fetch:
+      ok: true
+      url: "https://www.lyrafest.com/"
+      status: 200
+    events: []
+    notes: "Fetched fine; genuinely nothing on, exactly as the hints predict. The homepage is the listings page and its \"2026 Programme & Tickets\" grid is JavaScript-rendered — it serves \"loading events…\" to a fetcher. That grid is moot either way: the edition it advertises (\"Lyra Festival returns from April 17th - 26th 2026\") finished four months ago, and the linked assets are all retrospective — a 2026 e-brochure PDF, a 2026 accessibility guide, and a digital pass whose on-demand access expired 31 May 2026. Nothing is announced for 2027. The PDF was not fetched: it is the programme for a festival that has already run, so it holds no upcoming events. Not dormant, just out of season — re-crawl in the new year when 2027 dates appear."
+  - sourceId: "literature/max-minervas"
+    fetch:
+      ok: true
+      url: "https://www.maxminervas.co.uk/collections/events"
+      status: 200
+    events:
+      - id: "literature/max-minervas#7ec78ad7c6"
+        sourceId: "literature/max-minervas"
+        title: "Max Minerva's Summer Reading Challenge"
+        occurrence:
+          kind: "run"
+          end: "2026-08-29"
+        status: "scheduled"
+        url: "https://www.maxminervas.co.uk/products/max-minervas-summer-reading-challenge-1"
+        image: "https://cdn.shopify.com/s/files/1/0014/7570/6953/files/2026_summer_reading_challenge_1.png?v=1782227242"
+        price:
+          free: true
+          text: "£0.00"
+        tags:
+          - "kids"
+          - "young-people"
+          - "reading"
+          - "school-holidays"
+          - "free-entry"
+        raw: "**MAX MINERVA'S SUMMER READING CHALLENGE! (FOR EARLY READERS, TEENS AND YAs)** — £0.00.\n"
+        summary: "A summer bingo card of reading prompts for early readers, teens and young adults; complete six to go in the draw for a limited-edition goodie bag."
+        description: "**This Summer we invite you to take part in our reading challenge! Our lovely team of booksellers have put together a summer-themed bingo which should inspire you embark on new reading adventures over the holidays. **
+
+
+          **Complete 6 prompts to be in with a chance of winning one of our limited edition goodie bags! **
+
+
+          **Are you up for the challenge?**
+
+
+          ### ***Let us know if you've completed the challenge by the last week of August, so you can collect your reward on Saturday 29th of August.***
+
+
+          Feel free to reach out if you have any questions.
+
+
+          Happy reading!\n"
+        confidence: "medium"
+      - id: "literature/max-minervas#616920db60"
+        sourceId: "literature/max-minervas"
+        title: "Kulbhushansingh Suryawanshi introduces The Ghost of the Mountains"
+        occurrence:
+          kind: "single"
+          date: "2026-08-24"
+          startTime: "18:30"
+          endTime: "20:00"
+        status: "scheduled"
+        timesText: "Doors at 18:30. Discussion at 19:00. Finish approx 20:00."
+        url: "https://www.maxminervas.co.uk/products/event-24-08-kulbhushansingh-suryawanshi-introduces-the-ghost-of-the-mountains"
+        image: "https://cdn.shopify.com/s/files/1/0014/7570/6953/files/KulluSuryawanshi_byPrasenjeetYadav.jpg?v=1786720333"
+        price:
+          free: false
+          text: "£6 ticket only; £20 ticket with The Ghost of the Mountains (hardback)"
+          min: 6
+          max: 20
+          currency: "GBP"
+        tags:
+          - "author-talk"
+          - "nature"
+          - "one-night"
+          - "booking-required"
+        raw: "**Event 24/08: Kulbhushansingh Suryawanshi introduces The Ghost of the Mountains** — From £6.00.\n"
+        summary: "Conservation scientist Kulbhushansingh Suryawanshi on twenty years tracking snow leopards in the high Himalaya, and the book that came out of it."
+        description: "**We are absolutely thrilled to welcome the award-winning scientist and conservationist, Dr Kulbhushansingh Suryawanshi, to discuss his debut novel, *The Ghost of the Mountains: Unravelling the Secrets of the Snow Leopard*. The Ghost of the Mountains is a story of discovery, conservation and adventure on the trail of one of the most elusive and mysterious predators, brought to life by the world-leading expert on snow leopards.**
+
+
+          **Date:**
+
+          Monday 24th of August
+
+
+          **Venue:**
+
+          Max Minerva's, 47 Henleaze Road, BS9 4JU
+
+
+          **Time:**
+
+          Doors at 18:30. Discussion at 19:00. Finish approx 20:00.
+
+
+          **Tickets:**
+
+          £6 ticket only
+
+          £20 ticket with *The Ghost of the Mountains* (hardback)
+
+
+          You don't need to bring your ticket with you, we will have a list of names on the door. Books will be available to buy on the night.
+
+
+          **ABOUT THE BOOK**
+
+
+          ***The Ghost of the Mountain: Unravelling the Secrets of the Snow Leopard***
+
+
+          Silent, solitary and beautiful: snow leopards inhabit the cliffs and rugged mountains of central Asia at heights of over 3,000 metres. Thickly furred, with silver-grey pelts, they are so well camouflaged that they vanish into the rocky landscape.
+
+
+          For twenty years, scientist and mountaineer Dr Kulbhushansingh Suryawanshi– known as Kullu– has studied the snow leopard in the highest reaches of the Himalaya. The snow leopard is the most elusive of cats.
+
+
+          With their silver-grey pelts and long tails, they move silently through glaciers, snow, rocks and the icy peaks of their wild, mountainous habitat. Rarely seen, they are often regarded as mythical, but this is an animal that faces extraordinary daily challenges, and whose survival depends on the delicate balance of climate, prey, landscape and local people.
+
+
+          Living for months at a time in some of the most difficult-to-reach places on earth, Kullu has pioneered research that shines fresh light on these charismatic and vulnerable animals. His work makes a compelling and urgent case for their conservation.
+
+
+          Combining scientific authority, high-altitude fieldwork and powerful storytelling, *The Ghost of the Mountains* is a gripping exploration into what it takes to save the snow leopard.
+
+
+          *‘A brave, unique field-study of the most extraordinary cat on the planet - the Snow*
+
+          *Leopard - elusive, Spartan and beautiful’ Desmond Morris*
+
+
+          *‘Enchanting. The author is a most amiable guide on the mountainside, and this deeply*
+
+          *informed book gave me hope for the future of conservation’ Sara Wheeler*
+
+
+          *'Kulbhushansingh Suryawanshi has spent his adult life studying, following and trying to protect snow leopards. The Ghost of the Mountains takes readers into the field, high in the Himalayas. The story it tells is by turns beautiful, terrible, and encouraging’ Elizabeth Kolbert*
+
+
+          *‘What a thrilling and intrepid story. Kulbhushansingh Suryawanshi takes us into the icy heights of the Himalaya, tracking the elusive snow leopard and bringing to life both this solitary animal and the threatened world it inhabits. Beautifully told, it's a tale of beauty, drama and wild landscapes but also one of the entangled lives of snow leopards, their prey and the humans who share their terrain’ Andrea Wulf*
+
+
+          *‘Marvellous - quite literally. A thrilling story of adventure amongst high mountains, deep mysteries, elusive animals and vertiginous facts’ Charles Foster*
+
+
+          ***ABOUT THE AUTHOR***
+
+
+          **Dr Kulbhushansingh Suryawanshi** is an award-winning scientist and conservationist who has studied the snow leopard for twenty years. A Fellow of the British Ecological Society, he is a scientist with the Nature Conservation Foundation, a National NGO in India, and the Country Director for the Snow Leopard Trust, an international NGO. His field research is concentrated in India, Nepal, Kyrgyzstan and Mongolia. *The Ghost of the Mountains* is his first book.\n"
+        confidence: "high"
+      - id: "literature/max-minervas#d84a4ff917"
+        sourceId: "literature/max-minervas"
+        title: "Peng and Spanners Pizza Party, with author Steve Webb"
+        occurrence:
+          kind: "single"
+          date: "2026-08-26"
+          startTime: "12:00"
+        status: "scheduled"
+        timesText: "The event will start at 12pm and will last for around two hours (or for as long as we have pizza!)"
+        url: "https://www.maxminervas.co.uk/products/%F0%9F%8D%95%F0%9F%8E%89-event-26-08-peng-and-spanners-pizza-party"
+        image: "https://cdn.shopify.com/s/files/1/0014/7570/6953/files/steve_webb.png?v=1786448989"
+        price:
+          free: true
+          text: "General admission £0.00; ticket with book £9.99"
+          min: 0
+          max: 9.99
+          currency: "GBP"
+        tags:
+          - "book-launch"
+          - "kids"
+          - "family"
+          - "free-entry"
+        raw: "**🍕🎉 EVENT: 26/08: Peng and Spanners Pizza Party, with author Steve Webb!** — From £0.00.\n"
+        summary: "Pizza, a window-painting session and a day-early copy of Peng and Spanners: Doctor Biscuits, with author-illustrator Steve Webb on hand to sign."
+        description: "Join us to celebrate the release of the new Peng and Spanners book, **Peng and Spanners: Doctor Biscuits**, with author and illustrator, Steve Webb!
+
+
+          Enjoy a slice or three, meet Steve, and get your hands on the new copy the day before it comes out for everyone else.
+
+
+          **Date:**
+
+          Wednesday 26th of August
+
+
+          **Venue:**
+
+          Max Minerva's, 47 Henleaze Road, BS9 4JU
+
+
+          **Time:**
+
+          The event will start at 12pm and will last for around two hours (or for as long as we have pizza!)
+
+          Steve will be happy to sign books and will be painting our window.
+
+
+          **Tickets:**
+
+          £9.99 ticket with a book 💫
+
+
+          **Introducing *Peng & Spanners: Doctor Biscuits!***
+
+
+          Peng and Spanners are off to the Invention Convention with Spanners’ latest and greatest invention, the Crust-Away!
+
+
+          For fans of *Donut Squad, Dogman, Bunny vs Monkey* and *Looshkin*, this graphic novel series is laugh a millisecond, with action guaranteed!
+
+
+          **If you plan on attending, please RSVP by purchasing a free ticket. This helps us order the right amount of pizza and reduce food waste. **\n"
+        confidence: "high"
+      - id: "literature/max-minervas#28cacc0f8c"
+        sourceId: "literature/max-minervas"
+        title: "Translated Fiction Book Club: She Who Remains by Rene Karabash"
+        occurrence:
+          kind: "single"
+          date: "2026-08-27"
+          startTime: "18:30"
+          endTime: "19:45"
+        status: "scheduled"
+        timesText: "Doors at 18:30. Discussion at 18:45. Finish at 19:45."
+        url: "https://www.maxminervas.co.uk/products/translated-fiction-book-club-27-08-she-who-remains-by-rene-karabash"
+        image: "https://cdn.shopify.com/s/files/1/0014/7570/6953/files/translatedbookclub_9b4fe559-e957-4f3a-9640-e0dc50465960.png?v=1779372364"
+        price:
+          free: true
+          text: "Ticket only £0.00; ticket with She Who Remains £12.99"
+          min: 0
+          currency: "GBP"
+        tags:
+          - "reading-group"
+          - "free-entry"
+          - "booking-required"
+        raw: "**Translated Fiction Book Club: 27/08 She Who Remains by Rene Karabash** — From £0.00.\n"
+        summary: "August's translated fiction club takes Rene Karabash's She Who Remains, shortlisted for the 2026 International Booker and translated from Bulgarian by Izidora Angel."
+        description: "**Join us for an exciting evening to discuss translated literature. Whether you're a fan of literary fiction or just looking to try something new, this book club hopes to achieve just that. In August, we will be looking at Rene Karabash's She Who Remains, translated from Bulgarian by Izidora Angel, which was shortlisted for the 2026 International Booker Prize.**
+
+
+          ***Date:***
+
+
+          Thursday 28th of August
+
+
+          **Venue:**
+
+          Max Minerva's, 47 Henleaze Road, BS9 4JU
+
+
+          **Time:**
+
+          Doors at 18:30. Discussion at 18:45. Finish at 19:45.
+
+
+          **Tickets:**
+
+          Attendance for the book club is free, but if you could register your place through the website, it helps us to gauge numbers.
+
+
+          If you would like to buy a copy of the book, you can order it through us and show up on the night.
+
+
+          **ABOUT *SHE WHO REMAINS***
+
+
+          High in the Accursed Mountains, in a village ruled by the ancient laws of the Kanun, Bekija escapes an arranged marriage by becoming a sworn virgin, renouncing her womanhood to live as a man.
+
+
+          Her decision sets off a brutal chain of events, destroying her family and separating her from the one she loves the most.
+
+
+          Years later, as Bekija – now Matija – tells their story to a visiting journalist, long-buried truths come to light, along with the realisation of all that might have been.
+
+
+          ***Shortlisted for the 2026 International Booker Prize.***
+
+
+          **ABOUT *PEIRENE PRESS***
+
+
+          Peirene Press is an award-winning independent publisher. Founded in 2008, specialising in bringing exciting literary fiction and novellas from around the world, especially Europe, to English-language readers.
+
+
+          https://www.peirenepress.com/\n"
+        confidence: "medium"
+      - id: "literature/max-minervas#b936edc908"
+        sourceId: "literature/max-minervas"
+        title: "Romance Book Club: A Court of Thorns and Roses Books 3 and 4"
+        occurrence:
+          kind: "single"
+          date: "2026-08-31"
+          startTime: "18:30"
+          endTime: "19:45"
+        status: "scheduled"
+        timesText: "Doors at 18:30. Discussion at 18:45. Finish at 19:45."
+        url: "https://www.maxminervas.co.uk/products/romance-book-club-31-08-a-court-of-thorns-and-roses-books-3-and-4"
+        image: "https://cdn.shopify.com/s/files/1/0014/7570/6953/files/romancebookclub.png?v=1781685629"
+        price:
+          free: true
+          text: "Ticket only £0.00; ticket with ACOTAR 3 or ACOTAR 4 £9.99"
+          min: 0
+          currency: "GBP"
+        tags:
+          - "reading-group"
+          - "free-entry"
+          - "booking-required"
+        raw: "**Romance Book Club 31/08: A Court of Thorns and Roses Books 3 and 4** — From £0.00.\n"
+        summary: "The romance club's read-through of Sarah J. Maas reaches books three and four, ahead of ACOTAR 6 in the autumn."
+        description: "**Whether you’re a fan of the series or looking to delve into romance fiction, our Romance book club offers a joyful escape. We're building a community to gush over swoon-worthy characters and a safe space to discuss themes like relationships. With *ACOTAR 6* coming out this Autumn, our Romance Book Club is reading through the entire series in anticipation of its release. **
+
+
+          **In August, we will be looking at Books 3 and 4 in Sarah J Maas' *A Court of Thorns and Roses *Series. Let’s share the love!**
+
+
+          **Date:**
+
+          Monday 31st of August
+
+
+          **Venue:**
+
+          Max Minerva's, 47 Henleaze Road, BS9 4JU
+
+
+          **Time:**
+
+          Doors at 18:30. Discussion at 18:45. Finish at 19:45.
+
+
+          **Tickets:**
+
+          Attendance for the book club is free, but if you could register your place through the website, it helps us to gauge numbers.
+
+
+          If you would like to buy a copy of the book, you can order it through us and show up on the night.
+
+
+          **ABOUT *A COURT OF WINGS AND RUIN (BOOK THREE)***
+
+
+          Feyre has returned to the Spring Court, determined to gather information on Tamlin's manoeuvrings and the invading king threatening to bring her land to its knees. But to do so she must play a deadly game of deceit – and one slip may spell doom not only for Feyre, but for her world as well.
+
+
+          As war bears down upon them all, Feyre must decide who to trust amongst the dazzling and lethal High Lords and hunt for allies in unexpected places. And her heart will face the ultimate test as she and her mate are forced to question whether they can truly trust each other.
+
+
+          **ABOUT *A COURT OF FROST AND STARLIGHT (BOOK FOUR)***
+
+
+          In this companion tale to the bestselling *A Court of Thorns and Roses** series*, Feyre, Rhys and their friends are working to rebuild the Night Court and the vastly changed world beyond after the events of *A Court of Wings and Ruin*.
+
+
+          But Winter Solstice is finally near, and with it a hard-earned reprieve. Yet even the festive atmosphere can't keep the shadows of the past from looming. As Feyre navigates her first Winter Solstice as High Lady, she finds that those dearest to her have more wounds than she anticipated – scars that will have a far-reaching impact on the future of their court.
+
+
+          ***ABOUT SARAH J. MAAS***
+
+
+          **Sarah J. Maas** is the #1 bestselling author of the Court of Thorns and Roses, Throne of Glass, and Crescent City series. Her books have sold more than seventy-five million copies and are published in forty languages.
+
+
+          sarahjmaas.com
+
+
+          facebook.com/theworldofsarahjmaas
+
+
+          instagram.com/sarahjmaas\n"
+        confidence: "high"
+      - id: "literature/max-minervas#1b5aff1d1e"
+        sourceId: "literature/max-minervas"
+        title: "Contemporary Fiction Book Club: The Correspondent by Virginia Evans"
+        occurrence:
+          kind: "single"
+          date: "2026-09-09"
+          startTime: "18:30"
+          endTime: "19:45"
+        status: "scheduled"
+        timesText: "Doors at 18:30. Discussion at 18:45. Finish at 19:45."
+        url: "https://www.maxminervas.co.uk/products/contemporary-fiction-book-club-09-09-the-correspondent-by-virginia-evans"
+        image: "https://cdn.shopify.com/s/files/1/0014/7570/6953/files/contemporary_fiction_book_club.png?v=1774359281"
+        price:
+          free: true
+          text: "Ticket only £0.00; ticket with the book £9.99"
+          min: 0
+          currency: "GBP"
+        tags:
+          - "reading-group"
+          - "free-entry"
+          - "booking-required"
+        raw: "**Contemporary Fiction Book Club: 09/09 The Correspondent by Virginia Evans** — From £0.00.\n"
+        summary: "September's contemporary fiction club discusses The Correspondent, Virginia Evans's epistolary novel and winner of the 2026 Women's Prize for Fiction."
+        description: "**Everyone is welcome at our Contemporary Fiction book club, where on the first Wednesday of every month we discuss a recently-published paperback novel. In September, we'll be delving into *The Correspondent *by Virginia Evans, winner of the 2026 Women's Prize of Fiction. **
+
+
+          ***Date:*
+
+          Wednesday 9th of September
+
+
+          **Venue:**
+
+          Max Minerva's, 47 Henleaze Road, BS9 4JU
+
+
+          **Time:**
+
+          Doors at 18:30. Discussion at 18:45. Finish at 19:45.
+
+
+          **Tickets:**
+
+
+          Attendance for the book club is free, but if you could register your place through the website, it helps us to gauge numbers.
+
+
+          If you would like to buy a copy of the book, you can order it through us and show up on the night.
+
+
+          **ABOUT *The Correspondent***
+
+
+          ***Winner of the 2026 Women's Prize of Fiction***
+
+
+          Every morning, Sybil Van Antwerp sits down to write letters – to her brother, to her best friend, to the president of the university who will not allow her to attend a class she desperately wants to take, to her favourite authors to tell them what she thinks of their latest books, and to one person to whom she writes often yet never sends the letter. Because at seventy-three, Sybil has used her correspondence – witty and wise – to make sense of the world.
+
+
+          But beyond the page, she has spent the last thirty years keeping the people who love her at arms’ length... Until letters from someone in her past force her to examine one of the most painful periods of her life. Now, Sybil must send the letter she has been writing for all these years - and find forgiveness within herself in order to move on.
+
+
+          Sybil Van Antwerp’s life of letters might not be an extraordinary one, but she also might be one of the most memorable characters you will ever read.\n"
+        confidence: "high"
+      - id: "literature/max-minervas#a896eff7d7"
+        sourceId: "literature/max-minervas"
+        title: "Crime and Thriller Book Club: The Big Sleep"
+        occurrence:
+          kind: "single"
+          date: "2026-09-14"
+          startTime: "18:30"
+          endTime: "19:45"
+        status: "scheduled"
+        timesText: "Doors at 18:30. Discussion at 18:45. Finish at 19:45."
+        url: "https://www.maxminervas.co.uk/products/crime-and-thriller-book-club-14-09-the-big-sleep"
+        image: "https://cdn.shopify.com/s/files/1/0014/7570/6953/files/CRIMEbookclub_1.png?v=1782214641"
+        price:
+          free: true
+          text: "Ticket only £0.00; ticket with The Big Sleep £9.99"
+          min: 0
+          currency: "GBP"
+        tags:
+          - "reading-group"
+          - "free-entry"
+          - "booking-required"
+        raw: "**Crime and Thriller Book Club 14/09: The Big Sleep** — From £0.00.\n"
+        summary: "The crime club takes Raymond Chandler's The Big Sleep — classic noir, Philip Marlowe, no prior reading required."
+        description: "**Whodunnit? Let's find out together! Our Crime and Thriller Book Club is built for readers who love the thrill of a good chase. Whether you're a lifelong fan of golden-age whodunnits or looking to dive into the genre for the first time, our goal is to create a welcoming, lively space to share theories, analyse motives, and celebrate great storytelling. Each month, we'll gather in person to dissect everything from the atmospheric pacing of classic thrillers to the complex puzzles of modern murder mysteries. **
+
+
+          **In September, we will be discussing *The Big Sleep *by Raymond Chandler: a classic noir that follows a cynical private investigator, Philip Marlowe.**
+
+
+          **Date:**
+
+          Monday 14th of September
+
+
+          **Venue:**
+
+          Max Minerva's, 47 Henleaze Road, BS9 4JU
+
+
+          **Time:**
+
+          Doors at 18:30. Discussion at 18:45. Finish at 19:45.
+
+
+          **Tickets:**
+
+          Attendance for the book club is free, but if you could register your place through the website, it helps us to gauge numbers.
+
+
+          If you would like to buy a copy of the book, you can order it through us and show up on the night.
+
+
+          **ABOUT *THE BIG SLEEP***
+
+
+          Los Angeles PI Philip Marlowe is working for the Sternwood family.
+
+
+          Old man Sternwood, crippled and wheelchair-bound, is being given the squeeze by a blackmailer, and he wants Marlowe to make the problem go away. But with Sternwood's two wild, devil-may-care daughters prowling LA's seedy backstreets, Marlowe's got his work cut out, and that's before he stumbles over the first corpse...
+
+
+          *The Big Sleep* is Raymond Chandler's first novel featuring laconic PI Philip Marlowe.
+
+
+          ***ABOUT RAYMOND CHANDLER***
+
+
+          Raymond Thornton Chandler was born in Chicago in 1888, but moved to England with his family when he was twelve, where he attended Dulwich College, alma mater to some of the twentieth century's most renowned writers. Returning to America in 1912, he settled in California, worked in a number of jobs, and later married.
+
+
+          It was during the Depression era that he seriously turned his hand to writing, and his first published story appeared in the pulp magazine *Black Mask* in 1933, followed six years later, when he was fifty, by his first novel, *The Big Sleep.*
+
+
+          Chandler died in 1959, having established himself as the finest crime writer in America.\n"
+        confidence: "high"
+      - id: "literature/max-minervas#3edadc8acf"
+        sourceId: "literature/max-minervas"
+        title: "Translated Fiction Book Club: Two Year Book Club Anniversary"
+        occurrence:
+          kind: "single"
+          date: "2026-09-24"
+          startTime: "18:30"
+          endTime: "19:45"
+        status: "scheduled"
+        timesText: "Doors at 18:30. Discussion at 18:45. Finish at 19:45."
+        url: "https://www.maxminervas.co.uk/products/translated-fiction-book-club-24-09-two-year-book-club-anniversary"
+        image: "https://cdn.shopify.com/s/files/1/0014/7570/6953/files/translatedbookclub_6348cd4a-6783-4e09-9667-2af06d6a30e3.png?v=1762863105"
+        price:
+          free: true
+          text: "£0.00"
+          min: 0
+          currency: "GBP"
+        tags:
+          - "reading-group"
+          - "free-entry"
+          - "booking-required"
+        raw: "**Translated Fiction Book Club: 24/09 TWO YEAR BOOK CLUB ANNIVERSARY!** — £0.00.\n"
+        summary: "The translated fiction club turns two: a mini party and a discussion that revisits two years of reading."
+        description: "**Join us for an exciting evening to discuss translated literature. Whether you're a fan of literary fiction or just looking to try something new, this book club hopes to achieve just that. **
+
+
+          **In September, we'll be celebrating our book club's two year anniversary! Come along for a mini party and book club discussion that takes a trip down memory lane...**
+
+
+          ***Date:***
+
+
+          Thursday 24th of September
+
+
+          **Venue:**
+
+          Max Minerva's, 47 Henleaze Road, BS9 4JU
+
+
+          **Time:**
+
+          Doors at 18:30. Discussion at 18:45. Finish at 19:45.
+
+
+          **Tickets:**
+
+          Attendance for the book club is free, but if you could register your place through the website, it helps us to gauge numbers.
+
+
+          If you would like to buy a copy of the book, you can order it through us via info@maxminervas.co.uk.
+
+
+          All you have to do is read the book and show up on the night.
+
+
+          **THE TWO YEAR BOOK CLUB SPECIAL:**
+
+
+          To celebrate the book club's two year anniversary, we're going to take a trip down memory lane and revisit the books we've explored together in our book club.
+
+
+          The goal is simple: pick your favourite book club title and bring it on the night so we can discuss what we all liked, didn't like, and see what titles we're all fond of.
+
+
+          *Eligible books:*
+
+
+          - ***Brandy Sour*** by Constantia Soteriou, translated from Greek by Lina Protopapa (Cyprus)
+
+
+          - ***Elevator in **Sài Gòn*** by Thuận, translated from Vietnamese by Nguyễn An Lý (Vietnam)
+
+
+          - ***Down the Rabbit Hole*** by Juan Pablo Villalobos, translated from Spanish by Rosalind Harvey (Mexico)
+
+
+          - ***The Vegetarian*** by Han Kang, translated from Korean by Deborah Smith (South Korea)
+
+
+          - ***Ceasaria*** by Hanna Nordenhök, translated from Swedish by Saskia Vogel (Sweden)
+
+
+          - ***Spanish Beauty*** by Esther García Llovet, translated from Spanish by Richard Village (Spain)
+
+
+          - ***Drive Your Plow Over the Bones of the Dead*** by Olga Tokarzcuk, translated from Polish by Antonia Lloyd-Jones (Poland)
+
+
+          - ***The National Telepathy*** by Roque Larraquy, translated from Spanish by Frank Wynne (Argentina)
+
+
+          - ***On the Calculation of Volume I ***by Solvej Balle, translated from Danish by Barbara J Haveland (Denmark)
+
+
+          - ***From Savagery ***by Alejandra Banca, translated from Spanish by Katie Brown (Venezuela)
+
+
+          - ***The Little I Knew ***by Chiara Valerio, translated from Italian by Ailsa Wood (Italy)
+
+
+          - ***Just A Little Dinner*** by Cécile Tili, translated from French by Katherine Gregor (France)
+
+
+          - ***The Memory Police*** by Yoko Ogawa, translated from Japanese by Stephen Snyder (Japan)
+
+
+          - ***Heart Lamp ***by Banu Mushtaq, translated from Kannada by Deepa Bhasti (India)
+
+
+          - ***On the Calculation of Volume II ***by Solvej Balle, translated from Danish by Barbara J Haveland (Denmark)
+
+
+          - ***Chess*** by Stefan Zweig, translated from German by Anthea Bell (Austria)
+
+
+          - ***The Palace on the Higher Hill*** by Karim Kattan, translated from French by Jeffrey Zuckerman (Palestine)
+
+
+          - ***Sánchez ***by Esther García Llovet, translated from Spanish by Richard Village (Spain)
+
+
+          - ***The Rarest Fruit*** by Gaëlle Bélem, translated from French by Karen Fleetwood and Laëtitia Saint-Loubert (Réunion)
+
+
+          - ***The Love of Singular Men*** by Victor Heringer, translated from Portuguese by James Young (Brazil)
+
+
+          - ***Before The Rocket ***by Loranne Vella, translated from Maltese by Kat Storace (Malta)
+
+
+          - ***Cathedrals*** by Claudia Piñeiro, translated from Spanish by Frances Riddle (Argentina)
+
+
+          - ***Taiwan Travelogue ***by Yáng Shuāng-zǐ, translated from Mandarin by Lin King (Taiwan)
+
+
+          - ***She Who Remains ***by Rene Karabash, translated from Bulgarian by Izidora Angel (Bulgaria)
+
+
+          \"The book club was born out of a love for translated literature and a desire to find a community. When I started the book club two years ago, I had no idea that it would have become so integral to my routine. We've had the pleasure of welcoming translators, new faces, and discussing books from 22 different countries together. I hope to keep reading around the world with you all for many more years! Thank you for everything.\" - Ev\n"
+        confidence: "high"
+      - id: "literature/max-minervas#c858e15aa2"
+        sourceId: "literature/max-minervas"
+        title: "Liane Moriarty in conversation with Charlotte Philby"
+        occurrence:
+          kind: "single"
+          date: "2026-09-25"
+          startTime: "12:30"
+        status: "sold-out"
+        timesText: "Doors at 12:30 pm. Discussion at 1:00 pm. The event should finish at around 2:00 pm, and books will be signed."
+        url: "https://www.maxminervas.co.uk/products/event-25-09-liane-moriarty-in-conversation-with-charlotte-philby"
+        image: "https://cdn.shopify.com/s/files/1/0014/7570/6953/files/liane_moriarty.png?v=1784301146"
+        price:
+          free: false
+          text: "£5 ticket only; £22 ticket with Big Little Truths; £30 ticket with Big Little Lies and Big Little Truths — all sold out, waitlist reservation £0.00"
+          min: 5
+          max: 30
+          currency: "GBP"
+        tags:
+          - "author-talk"
+          - "signing"
+          - "one-night"
+          - "booking-required"
+        raw: "**[SOLD OUT: Waitlist Only] EVENT 25/09: Liane Moriarty in conversation with Charlotte Philby** — From £0.00.\n"
+        summary: "A lunchtime conversation between Liane Moriarty and Charlotte Philby on Big Little Truths. Sold out — the shop is taking waitlist reservations only."
+        description: "### Please note that the event is sold out: You're booking a spot on the waitlist. Any tickets that are cancelled will be offered to waitlist attendees in the order that they're signed up for. Please include your name and contact information as an order note.
+
+
+          Tickets are £22 and include a copy of Big Little Truths.
+
+
+          **__________________________________________________________________________________**
+
+
+          **Join us for a fantastic lunchtime discussion packed with gripping secrets, sharp wit, and psychological suspense! We are thrilled to host an exclusive conversation between global phenomenon **Liane Moriarty** and highly acclaimed **Charlotte Philby. **Come along for a riveting discussion!**
+
+
+          **Date:**
+
+          Friday 25th of September
+
+
+          **Venue:**
+
+          Max Minerva's, 47 Henleaze Road, BS9 4JU
+
+
+          **Time:**
+
+          Doors at 12:30 pm. Discussion at 1:00 pm. The event should finish at around 2:00 pm, and books will be signed.
+
+
+          **Tickets:**
+
+          £5 ticket only
+
+          £22 ticket with *Big Little Truths* (hardback)
+
+          £30 ticket with *Big Little Lies* (paperback) and *Big Little Truths *(hardback)
+
+
+          You don't need to bring your ticket with you, we will have a list of names on the door. Books will be available to buy on the night.
+
+
+          **ABOUT THE BOOK**
+
+
+          ***BIG LITTLE TRUTHS***
+
+
+          After the lies, come the truths . . .
+
+
+          Ten years ago, at the Pirriwee High School gates, the friendships of Celeste, Jane and Madeline were forged in the fires of young motherhood, the big little lies we all tell to hide our deepest fears and secrets – and the event that changed everything.
+
+
+          Now mothers to hormonal teens, these frazzled friends are starting to worry about the strangers newly occupying their kids’ bedrooms. Or they would, if they weren’t so distracted by their own problems. Because Madeline’s landmark birthday is about to land a bombshell. Jane’s rock-solid marriage is suddenly crumbling. And Celeste’s mother-in-law is asking awkward questions about the past. Not to mention the mystery of who sent the school receptionist a freshly severed finger. So many difficult little truths that each is facing.
+
+
+          Such a pity then that not a one of them can see the biggest ugliest truth hiding in their midst . . .
+
+
+          ***Big Little Truths is the sequel to Big Little Lies, the breakout worldwide phenomenon that has sold over 6 million copies and is an Emmy- and Golden Globe-winning HBO sensation, produced by and starring Reese Witherspoon and Nicole Kidman. This novel follows Madeline, Celeste and Jane and their teenage kids years later, and will inspire the upcoming TV series.***
+
+
+          **ABOUT THE AUTHORS**
+
+
+          **Liane Moriarty** is the bestselling author of ten novels, including *Here One Moment*, *Apples Never Fall, The Husband's Secret, Big Little Lies* and *Nine Perfect Strangers*. Her novels have sold more than 25 million copies worldwide and have been translated into over 40 languages. *Big Little Lies* is now an Emmy and Golden Globe-winning HBO series, produced by and starring Nicole Kidman and Reese Witherspoon. *Nine Perfect Strangers* and *Apples Never Fall* have both been adapted for TV. *Here One Moment* is being adapted for TV by Nicole Kidman and Bruna Papandrea. Liane lives in Sydney with her husband, son and daughter.
+
+
+          **Charlotte Philby** is a critically acclaimed author of six novels. As a journalist, she worked for eight years as a newspaper reporter, editor and columnist at the *Independent*, where she was shortlisted for the Cudlipp Prize for investigative reporting. She is a former contributing editor and features writer at *Marie Claire*, and has written for publications including the *Sunday Times, New Statesman* and *Financial Times*. With the support of the BFI, she is currently adapting for film her novel *Edith and Kim*, which reimagines the lives of her grandfather, the double-agent Kim Philby, and Edith Tudor-Hart, who recruited him to the Soviet cause. Charlotte has three children and lives in Bristol.\n"
+        confidence: "high"
+      - id: "literature/max-minervas#c002cb445b"
+        sourceId: "literature/max-minervas"
+        title: "Romance Book Club: A Court of Thorns and Roses Book 5"
+        occurrence:
+          kind: "single"
+          date: "2026-09-28"
+          startTime: "18:30"
+          endTime: "19:45"
+        status: "scheduled"
+        timesText: "Doors at 18:30. Discussion at 18:45. Finish at 19:45."
+        url: "https://www.maxminervas.co.uk/products/romance-book-club-28-09-a-court-of-thorns-and-roses-book-5"
+        image: "https://cdn.shopify.com/s/files/1/0014/7570/6953/files/romancebookclub.png?v=1781685629"
+        price:
+          free: true
+          text: "Ticket only £0.00; ticket with ACOTAR 5 £9.99"
+          min: 0
+          currency: "GBP"
+        tags:
+          - "reading-group"
+          - "free-entry"
+          - "booking-required"
+        raw: "**Romance Book Club 28/09: A Court of Thorns and Roses Book 5** — From £0.00.\n"
+        summary: "Book five of A Court of Thorns and Roses, the last stop before ACOTAR 6 lands in October."
+        description: "**Whether you’re a fan of the series or looking to delve into romance fiction, our Romance book club offers a joyful escape. We're building a community to gush over swoon-worthy characters and a safe space to discuss themes like relationships. With *ACOTAR 6* coming out this Autumn, our Romance Book Club is reading through the entire series in anticipation of its release. **
+
+
+          **In September, we will be looking at Book 5 in Sarah J Maas' *A Court of Thorns and Roses *Series. Let’s share the love!**
+
+
+          **Date:**
+
+          Monday 28th of September
+
+
+          **Venue:**
+
+          Max Minerva's, 47 Henleaze Road, BS9 4JU
+
+
+          **Time:**
+
+          Doors at 18:30. Discussion at 18:45. Finish at 19:45.
+
+
+          **Tickets:**
+
+          Attendance for the book club is free, but if you could register your place through the website, it helps us to gauge numbers.
+
+
+          If you would like to buy a copy of the book, you can order it through us and show up on the night.
+
+
+          **ABOUT *A COURT OF SILVER FLAMES (BOOK FIVE)***
+
+
+          ***ABOUT SARAH J. MAAS***
+
+
+          **Sarah J. Maas** is the #1 bestselling author of the Court of Thorns and Roses, Throne of Glass, and Crescent City series. Her books have sold more than seventy-five million copies and are published in forty languages.
+
+
+          sarahjmaas.com
+
+
+          facebook.com/theworldofsarahjmaas
+
+
+          instagram.com/sarahjmaas\n"
+        confidence: "high"
+      - id: "literature/max-minervas#01f4033202"
+        sourceId: "literature/max-minervas"
+        title: "An evening with David McKay, award-winning translator"
+        occurrence:
+          kind: "single"
+          date: "2026-10-06"
+          startTime: "18:30"
+          endTime: "20:00"
+        status: "scheduled"
+        timesText: "Doors at 18:30. Discussion at 19:00. Finish approx 20:00."
+        url: "https://www.maxminervas.co.uk/products/event-06-10-an-evening-with-david-mckay-award-winning-translator"
+        image: "https://cdn.shopify.com/s/files/1/0014/7570/6953/files/mckay-david.jpg?v=1786441732"
+        price:
+          free: false
+          text: "£6 ticket only; £25 ticket with The Song of Stork and Dromedary (hardback); £12.99 ticket with The Remembered Soldier (paperback)"
+          min: 6
+          max: 25
+          currency: "GBP"
+        tags:
+          - "author-talk"
+          - "talk"
+          - "one-night"
+          - "booking-required"
+        raw: "**Event 06/10: An evening with David McKay, award-winning translator** — From £6.00.\n"
+        summary: "What it takes to carry a Dutch novel into English, with David McKay on his translation of Anjet Daanje's The Song of Stork and Dromedary."
+        description: "**We are absolutely delighted to be hosting David McKay, the award-winning translator of Dutch fiction and non-fiction, who will be discussing his latest translation of Anjet Daanje's *The Song of Stork and Dromedary*. This will be a fantastic and riveting evening spent discussing what it takes to bring a Dutch novel into English.**
+
+
+          **Date:**
+
+          Tuesday 6th of October
+
+
+          **Venue:**
+
+          Max Minerva's, 47 Henleaze Road, BS9 4JU
+
+
+          **Time:**
+
+          Doors at 18:30. Discussion at 19:00. Finish approx 20:00.
+
+
+          **Tickets:**
+
+          £6 ticket only
+
+          £25 ticket with The Song of Stork and Dromedary (hardback)
+
+          £12.99 ticket with The Remembered Soldier (paperback)
+
+
+          You don't need to bring your ticket with you, we will have a list of names on the door. Books will be available to buy on the night.
+
+
+          **ABOUT THE BOOKS**
+
+
+          ***The Song of Stork and Dromedary***
+
+
+          **Inspired by the life and work of Emily Brontë, this masterful, multi-award-winning book — acclaimed as the best Dutch novel published this century — pulls readers into a narrative that redefines time itself.**
+
+
+          In the early 1800s, in Yorkshire, Eliza May Drayden and her sisters live far from the public eye, devoted to their shared love of reading and writing books. When, after dozens of rejections, Eliza May’s only novel, *Haeger Mass*, is finally published, it’s labelled as ‘ghastly’ and ‘immoral’. Over time, however, it is embraced by generations of readers as a masterpiece, and tales about its mysterious, reclusive author take on a life of their own.
+
+
+          In eleven extraordinary chapters, the story of Eliza May — both before and after her death — unfolds: through the tales of people who met her; her sister’s letters; her biographers’ words; the pages of a mysterious notebook; and the lives that become intertwined with hers, even centuries later.
+
+
+          In *The Song of Stork and Dromedary*, Anjet Daanje has crafted an absorbing literary mystery and an unforgettable meditation on love, life, loss, and the inexplicable nature of time. As the Brontës themselves did, Daanje shows us that storytelling is our only way to transcend death.
+
+
+          ***The Remembered Soldier***
+
+
+          **An extraordinary love story and a captivating novel about the power of memory and imagination.**
+
+
+          Flanders 1922. After serving as a soldier in the Great War, Noon Merckem has lost his memory and lives in a psychiatric asylum. Countless women, responding to a newspaper ad, visit him there in the hope of finding their spouse who vanished in battle. One day a woman, Julienne, appears and recognises Noon as her husband, the photographer Amand Coppens, and takes him home against medical advice. But their miraculous reunion doesn’t turn out the way that Julienne wants her envious friends to believe. Only gradually do the two grow close, and Amand’s biography is pieced together on the basis of Julienne’s stories about him. But how can he be certain that she’s telling the truth?
+
+
+          In *The Remembered Soldier*, Anjet Daanje immerses us in the psyche of a war-traumatised man who has lost his identity. When Amand comes to doubt Julienne’s word, the reader is caught up in a riveting spiral of confusion that only the greatest works of literature can achieve.
+
+
+          *Longlisted for the 2026 International Booker Prize.*
+
+
+          **ABOUT THE TRANSLATOR**
+
+
+          **David McKay** is an award-winning translator of Dutch fiction and nonfiction. Born and educated in the United States, he has lived in and around The Hague since 1997.\n"
+        confidence: "high"
+      - id: "literature/max-minervas#d7c21ffb24"
+        sourceId: "literature/max-minervas"
+        title: "Contemporary Fiction Book Club: Drayton and McKenzie by Alexander Starritt"
+        occurrence:
+          kind: "single"
+          date: "2026-10-07"
+          startTime: "18:30"
+          endTime: "19:45"
+        status: "scheduled"
+        timesText: "Doors at 18:30. Discussion at 18:45. Finish at 19:45."
+        url: "https://www.maxminervas.co.uk/products/contemporary-fiction-book-club-07-10-drayton-and-mckenzie-by-alexander-sharritt"
+        image: "https://cdn.shopify.com/s/files/1/0014/7570/6953/files/contemporary_fiction_book_club.png?v=1774359281"
+        price:
+          free: true
+          text: "Ticket only £0.00; ticket with Drayton and McKenzie £9.99"
+          min: 0
+          currency: "GBP"
+        tags:
+          - "reading-group"
+          - "free-entry"
+          - "booking-required"
+        raw: "**Contemporary Fiction Book Club: 07/10 Drayton and McKenzie by Alexander Starritt** — From £0.00.\n"
+        summary: "October's contemporary fiction club reads Alexander Starritt's Drayton and McKenzie, a 2025 book of the year for several papers."
+        description: "**Everyone is welcome at our Contemporary Fiction book club, where on the first Wednesday of every month we discuss a recently-published paperback novel. In October, we'll be delving into *Drayton and McKenzie by Alexander Starritt*, a Sunday Times, GQ, and Financial Times 2025 Book of the Year. **
+
+
+          ***Date:*
+
+          Wednesday 7th of October
+
+
+          **Venue:**
+
+          Max Minerva's, 47 Henleaze Road, BS9 4JU
+
+
+          **Time:**
+
+          Doors at 18:30. Discussion at 18:45. Finish at 19:45.
+
+
+          **Tickets:**
+
+
+          Attendance for the book club is free, but if you could register your place through the website, it helps us to gauge numbers.
+
+
+          If you would like to buy a copy of the book, you can order it through us and show up on the night.
+
+
+          **ABOUT *Drayton and McKenzie***
+
+
+          **A TIMES/SUNDAY TIMES, GQ, FINANCIAL TIMES AND BLOOMBERG BEST BOOK OF THE YEAR 2025**
+
+
+          *‘A big, bustling novel about love, friendship, money, ambition and the 21st century, packed with humour and intelligent observations … I finished it tear-stained’ Sunday Times*
+
+
+          *‘Will have you hooked … an ode to the enduring power of male friendship’ The Times Best Summer Books*
+
+
+          *‘My book of the summer’ Janice Turner*
+
+
+          *‘Thrilling’ Guardian*
+
+
+          For the first time since university, James and Roland’s paths through life – one drawn in straight lines, the other squiggled and meandering – began to cross…
+
+
+          James Drayton has always found things too easy. By the time he leaves university, he’s still waiting for a challenge worthy of his ambitions. Roland Mackenzie, on the other hand, is an impulsive risk-taker, a charismatic drifter with a knack for derailing his own attempts to get started in life.
+
+
+          When a chance encounter in a pub reunites these old acquaintances, it sets them on an unpredictable course through the upheavals of the twenty-first century, and sparks an unlikely alliance. Sent to Aberdeen during the financial crisis to lay off hundreds of workers, James and Roland begin to wonder: what if they were made for more than this? What if together they could build something grand and lasting – something that might even change the world?\n"
+        confidence: "high"
+      - id: "literature/max-minervas#82ec0ecdc7"
+        sourceId: "literature/max-minervas"
+        title: "Phil Melanson introduces Florenzer"
+        occurrence:
+          kind: "single"
+          date: "2026-10-22"
+          startTime: "18:30"
+          endTime: "20:00"
+        status: "scheduled"
+        timesText: "Doors at 18:30. Discussion at 19:00. Finish approx 20:00."
+        url: "https://www.maxminervas.co.uk/products/event-22-10-phil-melanson-introduces-florenzer"
+        image: "https://cdn.shopify.com/s/files/1/0014/7570/6953/files/Phil_Melanson_-_Author_Photo_2.jpg?v=1786719963"
+        price:
+          free: false
+          text: "£6 ticket only; £14.99 ticket with Florenzer (paperback)"
+          min: 6
+          max: 14.99
+          currency: "GBP"
+        tags:
+          - "author-talk"
+          - "lgbtq"
+          - "one-night"
+          - "booking-required"
+        raw: "**Event 22/10: Phil Melanson introduces Florenzer** — From £6.00.\n"
+        summary: "Phil Melanson on his debut Florenzer, a queer historical novel set in fifteenth-century Florence."
+        description: "**Join us for a fantastic evening with Phil Melanson to discuss his brilliant debut, *Florenzer:* a queer, historical novel that paints a richly imagined portrait of a city that paints over its own decay; where an untested artist, not yet marked by greatness, will dare to follow his most unholy desires.**
+
+
+          **Date:**
+
+          Thursday 22nd of October
+
+
+          **Venue:**
+
+          Max Minerva's, 47 Henleaze Road, BS9 4JU
+
+
+          **Time:**
+
+          Doors at 18:30. Discussion at 19:00. Finish approx 20:00.
+
+
+          **Tickets:**
+
+          £6 ticket only
+
+          £14.99 ticket with *Florenzer* (paperback)
+
+
+          You don't need to bring your ticket with you, we will have a list of names on the door. Books will be available to buy on the night.
+
+
+          **ABOUT THE BOOK**
+
+
+          ***Florenzer***
+
+
+          *THE DAZZLING NEW HISTORICAL FICTION NOVEL FOR FANS OF THE SONG OF ACHILLES AND MARRIAGE PORTRAIT.*
+
+
+          15th-century Florence: where the river runs red with slaughterhouse blood and bronze statues glow in every square. Into its fold comes a young Leonardo da Vinci. Wayward and dreamy, he is different from the other artists' apprentices, drawn to what passes behind veils of steam in the baths and along the moonlit banks of the Arno.
+
+
+          Such habits have long belonged to Florence, but they carry risk in a city where anonymous accusations slipped into letterboxes destroy reputations overnight. Alongside Leonardo, two men pursue their own forms of immortality: Francesco Salviati, a priest willing to endure any degradation in the name of salvation, and Lorenzo de' Medici, heir to a great banking fortune, for whom wealth proves a shifting, uncertain thing.
+
+
+          Weaving together these three lives, *Florenzer* is a sensuous and richly imagined portrait of a city that paints over its own decay; where an untested artist, not yet marked by greatness, will dare to follow his most unholy desires.
+
+
+          *'The rift between Rome and Florence brings Melanson's three characters together in a bloody, vivid climax. All three characters are superbly drawn and Renaissance Florence leaps from the page...A stunning debut.' - The Times*
+
+
+          *'A captivating portrait of an all-too-human genius - subtle, erudite and exquisitely sexy.' - James Cahill, author of The Violet Hour*
+
+
+          *'Florenzer is a heady, intoxicating debut that examines the meaning of art in a time of turmoil. Melanson draws subtle, intimate portraits of his three protagonists, each of them caught between the worldly and the divine. Tortured Leonardo, ambitious Lorenzo and fanatical Salviati: the lives of these men intersect in surprising and sometimes bloody ways in the cutthroat world of Renaissance Italy. Told in rich, vivid prose, passion and desire permeate every page.' - Danielle Giles, author of Mere*
+
+
+          *'Introduces us to a teenage Leonardo still struggling to find himself amid the roiling artistic and political atmosphere of late-15th-century Florence... For a young man sexually attracted to other young men, this can be particularly dangerous...Yet his work may be his salvation.' - New York Times Book Review*
+
+
+          *'Impressively ambitious. . . An enjoyably sticky web of intrigue is spun, with much gossiping, bribing and backstabbing, and much shifting of allegiance between the great centres of power on the peninsula.' - TLS*
+
+
+          ***ABOUT THE AUTHOR***
+
+
+          **Phil Melanson** is the author of the queer historical novel *Florenzer*, which was a National Bestseller, long-listed for the Centre for Fiction’s First Novel Prize, and an Allstora “(Very) Gay Book Club” Selection. He is a graduate of NYU’s Tisch School of the Arts and the University of Warwick, and in another life was a digital marketer for Hollywood film studios, working on campaigns for movies such as *Little Women, Mamma Mia! Here We Go Again *and* Once Upon on a Time… in Hollywood*. He teaches with Boston University in London, where he lives with his husband.\n"
+        confidence: "high"
+      - id: "literature/max-minervas#660d4442cd"
+        sourceId: "literature/max-minervas"
+        title: "ACOTAR 6 Release Party"
+        occurrence:
+          kind: "single"
+          date: "2026-10-27"
+          startTime: "18:30"
+        status: "scheduled"
+        timesText: "Doors at 18:30."
+        venue:
+          name: "Kask2"
+          address:
+            street: "243 Cheltenham Road"
+            city: "Bristol"
+            postcode: "BS6 5QP"
+        url: "https://www.maxminervas.co.uk/products/event-26-10-acotar-6-release-party"
+        image: "https://cdn.shopify.com/s/files/1/0014/7570/6953/files/book6.jpg?v=1781103254"
+        price:
+          free: false
+          text: "£5, includes a complimentary drink courtesy of Kask; £30 ticket with ACOTAR 6 (pre-order)"
+          min: 5
+          max: 30
+          currency: "GBP"
+        tags:
+          - "party"
+          - "new-release"
+          - "one-night"
+          - "booking-required"
+        raw: "**EVENT 27/10: ACOTAR 6 Release Party!** — From £5.00.\n"
+        summary: "Max Minerva's romance book club takes over Kask2 on Cheltenham Road to celebrate the sixth ACOTAR, with copies available on the night."
+        description: "** This event is not at the bookshop, it's at Kask2 on *Cheltenham Road.***
+
+
+          **Hosted by our Romance book club, this is an exclusive celebration of the sixth book in Sarah J. Maas’ ACOTAR series! **
+
+
+          **Attendees will be able to get copies of *ACOTAR 6 on the night*!**
+
+
+          **Date:**
+
+          Tuesday 27th of October
+
+
+          **Venue:**
+
+          Kask2, 243 Cheltenham Road BS6 5QP
+
+
+          **Time:**
+
+          Doors at 18:30.
+
+
+          **Tickets:**
+
+          Tickets cost £5, which includes a complementary drink courtesy of Kask.
+
+
+          If you'd like a copy, please preorder the book as well! We'll have a few extra copies on the night, but we want to make sure no one that wants a book has to leave empty handed!
+
+
+          **ABOUT *A COURT OF THORNS AND ROSES BOOK 6:***
+
+
+          Sarah J. Maas, the #1 bestselling author of the Court of Thorns and Roses series, returns to the courts of Prythian . . .
+
+
+          Romance, danger, and intrigue await you in the stunning new instalment.
+
+
+          ***ABOUT SARAH J. MAAS***
+
+
+          **Sarah J. Maas** is the #1 bestselling author of the Court of Thorns and Roses, Throne of Glass, and Crescent City series. Her books have sold more than seventy-five million copies and are published in forty languages.
+
+
+          sarahjmaas.com
+
+
+          facebook.com/theworldofsarahjmaas
+
+
+          instagram.com/sarahjmaas\n"
+        confidence: "high"
+      - id: "literature/max-minervas#3974223cb0"
+        sourceId: "literature/max-minervas"
+        title: "Contemporary Fiction Book Club: Dream Count by Chimamanda Ngozi Adichie"
+        occurrence:
+          kind: "single"
+          date: "2026-11-04"
+          startTime: "18:30"
+          endTime: "19:45"
+        status: "scheduled"
+        timesText: "Doors at 18:30. Discussion at 18:45. Finish at 19:45."
+        url: "https://www.maxminervas.co.uk/products/contemporary-fiction-book-club-04-11-dream-count-by-chimamanda-ngozi-adichie"
+        image: "https://cdn.shopify.com/s/files/1/0014/7570/6953/files/contemporary_fiction_book_club.png?v=1774359281"
+        price:
+          free: true
+          text: "Ticket only £0.00; ticket with the book £9.99"
+          min: 0
+          currency: "GBP"
+        tags:
+          - "reading-group"
+          - "free-entry"
+          - "booking-required"
+        raw: "**Contemporary Fiction Book Club: 04/11 Dream Count by Chimamanda Ngozi Adichie** — From £0.00.\n"
+        summary: "Chimamanda Ngozi Adichie's Dream Count, longlisted for the Women's Prize, at the first-Wednesday contemporary fiction club."
+        description: "**Everyone is welcome at our Contemporary Fiction book club, where on the first Wednesday of every month we discuss a recently-published paperback novel. In September, we'll be delving into *Dream Count by Chimamanda Ngozi Adichie*, a Sunday Times Bestseller that was also Longlisted for the Women's Prize for Fiction. **
+
+
+          ***Date:*
+
+          Wednesday 4th of November
+
+
+          **Venue:**
+
+          Max Minerva's, 47 Henleaze Road, BS9 4JU
+
+
+          **Time:**
+
+          Doors at 18:30. Discussion at 18:45. Finish at 19:45.
+
+
+          **Tickets:**
+
+
+          Attendance for the book club is free, but if you could register your place through the website, it helps us to gauge numbers.
+
+
+          If you would like to buy a copy of the book, you can order it through us and show up on the night.
+
+
+          **ABOUT *Dream Count***
+
+
+          **THE INSTANT SUNDAY TIMES NO.1 BESTSELLER; LONGLISTED FOR THE WOMEN'S PRIZE FOR FICTION**
+
+
+          *'Magnificent' SUNDAY TIMES*
+
+
+          *‘Extraordinary’ NEW STATESMAN*
+
+
+          *'The return of a literary titan' TELEGRAPH*
+
+
+          A searing, exquisite novel by the bestselling and award-winning author of Americanah and We Should All Be Feminists – the story of four women and their loves, longings and desires.
+
+
+          Chiamaka is a Nigerian travel writer living in America. Alone in the midst of the pandemic, she recalls her past lovers and grapples with her choices and regrets. Zikora, her best friend, has been successful at everything until – betrayed and brokenhearted – she must turn to the person she thought she needed least. Chiamaka’s bold, outspoken cousin Omelogor is a financial powerhouse in Nigeria who begins to question how well she knows herself. And Kadiatou, Chiamaka’s housekeeper, is proudly raising her daughter in America – but faces an unthinkable hardship that threatens all she has worked to achieve.
+
+
+          Dream Count is Chimamanda Ngozi Adichie’s searing, unforgettable story of these four women – a sparkling, transcendent novel that takes up the very nature of love itself.\n"
+        confidence: "high"
+      - id: "literature/max-minervas#872854c4ba"
+        sourceId: "literature/max-minervas"
+        title: "Romance Book Club: The Love Hypothesis by Ali Hazelwood"
+        occurrence:
+          kind: "single"
+          date: "2026-11-30"
+          startTime: "18:30"
+          endTime: "19:45"
+        status: "scheduled"
+        timesText: "Doors at 18:30. Discussion at 18:45. Finish at 19:45."
+        url: "https://www.maxminervas.co.uk/products/romance-book-club-23-11-the-love-hypothesis-by-ali-hazelwood"
+        image: "https://cdn.shopify.com/s/files/1/0014/7570/6953/files/romancebookclub.png?v=1781685629"
+        price:
+          free: true
+          text: "Ticket only £0.00; ticket with The Love Hypothesis £10.99"
+          min: 0
+          currency: "GBP"
+        tags:
+          - "reading-group"
+          - "free-entry"
+          - "booking-required"
+        raw: "**Romance Book Club 30/11: The Love Hypothesis by Ali Hazelwood** — From £0.00.\n"
+        summary: "November's romance club leaves Prythian for Ali Hazelwood's The Love Hypothesis."
+        description: "**Whether you’re a fan of the series or looking to delve into romance fiction, our Romance book club offers a joyful escape. We're building a community to gush over swoon-worthy characters and a safe space to discuss themes like relationships. **
+
+
+          **In November, we will be looking at *The Love Hypothesis *by Ali Hazelwood. Let’s share the love!**
+
+
+          **Date:**
+
+          Monday 30th of November
+
+
+          **Venue:**
+
+          Max Minerva's, 47 Henleaze Road, BS9 4JU
+
+
+          **Time:**
+
+          Doors at 18:30. Discussion at 18:45. Finish at 19:45.
+
+
+          **Tickets:**
+
+          Attendance for the book club is free, but if you could register your place through the website, it helps us to gauge numbers.
+
+
+          If you would like to buy a copy of the book, you can order it through us and show up on the night.
+
+
+          **ABOUT *THE BOOK***
+
+
+          ***The Love Hypothesis***
+
+
+          **When a fake relationship between scientists meets the irresistible force of attraction, it throws one woman’s carefully calculated theories on love into chaos.**
+
+
+          As a third-year Ph. D. candidate, Olive Smith doesn’t believe in lasting romantic relationships but her best friend does, and that’s what got her into this situation. Convincing Anh that Olive is on her way to a happily ever after was always going to be tough, scientists require proof. So, like any self-respecting woman, Olive panics and kisses the first man she sees.
+
+
+          That man is none other than Adam Carlsen, a young hotshot professor and well-known ass. Which is why Olive is positively floored when he agrees to keep her charade a secret and be her fake boyfriend. But when a big science conference goes haywire and Adam surprises her again with his unyielding support (and his unyielding abs), their little experiment feels dangerously close to combustion.
+
+
+          Olive soon discovers that the only thing more complicated than a hypothesis on love is putting her own heart under the microscope.
+
+
+          **ABOUT THE AUTHOR**
+
+
+          **Ali Hazelwood** is an Italian romance novelist and neuroscience professor based in the United States. Many of her works center on women in STEM fields and academia. Her debut novel, The Love Hypothesis, was a New York Times best seller and is currently being developed into a feature film.\n"
+        confidence: "high"
+    notes: "Catalogued URL is right and served the whole programme: 16 products, no pagination, dated 24/08 to 30/11 2026. The collection page itself is very thin — it prints a title, a \"From £x\" and nothing else: no times, no images, no blurb. Rather than open 16 product pages I read the collection's own Shopify feed, /collections/events/products.json?limit=250, in a single fetch; that is where every description, image, variant price and start time here comes from, so it is the product pages' own copy rather than 16 separate fetches. Worth a hint. Titles carry the date as dd/mm as the hints say; I have moved that into occurrence and dropped the \"Event dd/mm:\" prefix (and one \"[SOLD OUT: Waitlist Only]\" label) from title, keeping the printed string verbatim in raw. Three title/date discrepancies a human should know about. (1) Translated Fiction Book Club \"27/08\": the body text says \"Thursday 28th of August\", but 27 August 2026 is the Thursday and 28 August is a Friday, so the day number in the body looks like the typo and the row is dated 27 August at confidence medium. (2) ACOTAR 6 Release Party is titled 27/10 and its body says \"Tuesday 27th of October\" (which checks out) while its URL handle still reads event-26-10 — dated 27 October. (3) Romance Book Club is titled 30/11 with a body reading \"Monday 30th of November\" (checks out) against a handle of romance-book-club-23-11 — dated 30 November. That release party is also the one event here not at the shop: its body opens \"This event is not at the bookshop, it's at Kask2 on Cheltenham Road\", so venue is set to Kask2, 243 Cheltenham Road BS6 5QP, which is not itself catalogued. The summer reading challenge is the one row without a stated date: it gives no start, and its end is taken from \"collect your reward on Saturday 29th of August\" (29 August 2026 is indeed a Saturday), hence a run with no start at confidence medium. Book clubs are recorded as the single dated sittings the shop lists, not as recurring patterns, because each is sold as its own product with its own book. Separately, and only as an observation for stage 1: every product gives the address as 47 Henleaze Road BS9 4JU, matching the note already on the catalogue entry that the \"Westbury Park\" area looks out of date."
+  - sourceId: "literature/storysmith"
+    fetch:
+      ok: true
+      url: "https://storysmithbooks.com/product-category/upcoming-events/"
+      status: 200
+    events:
+      - id: "literature/storysmith#4e95c807a3"
+        sourceId: "literature/storysmith"
+        title: "Tice Cin: Safe Spaces"
+        occurrence:
+          kind: "single"
+          date: "2026-09-14"
+          startTime: "18:30"
+        status: "scheduled"
+        url: "https://storysmithbooks.com/product/tice-cin-safe-spaces-event/"
+        image: "https://storysmithbooks.com/wp-content/uploads/2026/07/tice-cin-event-hero.jpg"
+        price:
+          free: false
+          text: "£8.00 – £15.00 (ticket only, or ticket plus a copy of Safe Spaces)"
+          min: 8
+          max: 15
+          currency: "GBP"
+        tags:
+          - "author-talk"
+          - "one-night"
+          - "booking-required"
+        raw: "**Tice Cin: Safe Spaces** — Monday 14th September 2026, 6:30 pm. £8.00 – £15.00.\n"
+        summary: "Tice Cin discusses her second novel Safe Spaces with the poet Ralf Webb, in the shop on North Street. Tickets come with the option of a discounted copy."
+        description: "*Storysmith, 236 North Street, Bristol, BS3 1JD ([click here for a map](https://maps.app.goo.gl/9N9dxXfnwxac83FY7))*
+
+
+          We are stoked to welcome a truly singular literary talent to Bristol in September: **Tice Cin** will be with us to discuss her second novel **Safe Spaces**!
+
+
+          As longtime fans of Cin’s debut novel Keeping The House, we are especially excited to be hosting – expect an enlivening and perspective-altering chat about a book which is already gathering incredible praise. Tice will be in conversation with **Ralf Webb**.
+
+
+          ***Pre-order your copy of Safe Spaces** (rrp £14.99) for a special discounted price with your ticket, then collect on the night!*
+
+
+          ## About Tice Cin
+
+
+          **Tice Cin** is an interdisciplinary artist and author from North London. Her debut novel **Keeping the House** (2021) received a Somerset Maugham Award and a London Writers Award, was a Guardian Book of the Year and was shortlisted for a British Book Award and the Desmond Elliot Prize among other accolades. Its accompanying mixtape having her named as one of Notion Magazines Ones to Watch. Her BBC Radio 4 documentary How Much Can You Say? (2024) won an Audio Production Award. Her work has been published and commissioned by Granta Magazine, London Magazine, Somerset House, Montblanc, Cartier and more. She is the founder of the interdisciplinary production company Neoprene Genie. Cin’s sophomore novel **Safe Spaces** will be published by Granta in September 2026. Cin lives between North London and North Cyprus.
+
+
+          *Photo credit: Eric Aydin Barberini*
+
+
+          ## About Safe Spaces
+
+
+          Our unnamed narrator survives in London on a combination of Universal Credit, music production and songwriting, trying to figure out what she wants from the city, and whether the city is prepared to give it to her. Navigating love affairs and blinded by grief following the death of her closest confidante, Safe Spaces is a portrait of the artist as a young musician. Of the DJ booths, green rooms and dance floors that shape her, and the worlds she finds herself in: be they the grime and electronic nightclubs, her Turkish-Cypriot family, the beauty parlour, the studio.
+
+
+          At once a songbook, a collection of aphorisms, a therapy transcript and a community journal, Safe Spaces is a work of extraordinary lyricism and candour, confirming Tice Cin as one of the foremost stylists of her generation. An intimate portrait of a community and a moving personal reckoning, it fearlessly asks: can the dream of a safe space ever be realised?
+
+
+          *“Being able to capture so much raw emotion through incredible writing like this is a gift. This book conveys magical and visceral energy, that everyone should have the luxury of experiencing. Powerful shit”* – Lola Young
+
+
+          *“Safe Spaces makes a universe of London in all its glory, cruelty, poetry and bureaucracy. This is a book that evokes the shattering effect of trauma on prose, then painstakingly reconstructs a way to experience life, and talk about love. I saw in it a feat of outstanding energy to keep looking, keep listening and, feel everything in a time of grief, and yet somehow overstate nothing.” – *Amber Hussain
+
+
+          *“At first discordant, finally symphonic, Cin captures the heavy beat of her city’s blood, its healing music, in ways that recall and update the vivid prose-poetry of Clarence Major and Elizabeth Smart. This is an honest, intimate, grief-soaked work of experiential wonder.” – *Tom Benn, author of Oxblood
+
+
+          *“With arresting street smarts and vulnerability, Tice Cin reshapes London literature to ends previously unknown. We should all be grateful.” *– Matthew Sperling
+
+
+          ## About Ralf Webb\n"
+        confidence: "high"
+      - id: "literature/storysmith#2914e315c2"
+        sourceId: "literature/storysmith"
+        title: "Patricia Lockwood: Agate Head / Stone Soup"
+        occurrence:
+          kind: "single"
+          date: "2026-09-23"
+          startTime: "18:30"
+        status: "scheduled"
+        url: "https://storysmithbooks.com/product/patricia-lockwood-agate-head-stone-soup-event/"
+        image: "https://storysmithbooks.com/wp-content/uploads/2026/07/patricia-lockwood-event-hero.jpg"
+        price:
+          free: false
+          text: "£8.00 – £19.00 (ticket only, or ticket plus a copy of Agate Head / Stone Soup)"
+          min: 8
+          max: 19
+          currency: "GBP"
+        tags:
+          - "author-talk"
+          - "poetry"
+          - "one-night"
+          - "booking-required"
+        raw: "**Patricia Lockwood: Agate Head / Stone Soup** — Wednesday 23rd September 2026, 6:30 pm. £8.00 – £19.00.\n"
+        summary: "Patricia Lockwood in the shop for the first time, marking her new poetry collection Agate Head / Stone Soup and talking about whatever else comes up."
+        description: "*Storysmith, 236 North Street, Bristol, BS3 1JD ([click here for a map](https://maps.app.goo.gl/9N9dxXfnwxac83FY7))*
+
+
+          Join us as we welcome a Storysmith all-time favourite, live in the shop for the very first time! The one and only **Patricia Lockwood**, the original Priestdaughter, will be in Bristol to mark the release of her new poetry collection, **Agate Head / Stone Soup**, and in conversation about this alongside other matters.
+
+
+          You may know Patricia from her life-defining memoir Priestdaddy, her devastating yet delirious novels No One Is Talking About This ([Storysmith Book of the Year 2021](https://storysmithbooks.com/list/storysmith-books-of-the-year-2021/)) and Will There Ever Be Another You, her poetry collection Motherland Fatherland Homelandsexuals, or [that video where she slowly extrudes a crystal egg from her mouth](https://x.com/TheBookerPrizes/status/1455100456699670534). We’re very excited.
+
+
+          ***Pre-order your copy of Agate Head / Stone Soup** (rrp £18.99) for a special discounted price with your ticket, then collect on the night!*
+
+
+          ## About Patricia Lockwood
+
+
+          Patricia Lockwood is the author of six books, including the 2021 novel No One Is Talking About This, an international bestseller which was shortlisted for the Booker Prize and the Women’s Prize for Fiction, and translated into 20 languages. Her 2017 memoir Priestdaddy won the Thurber Prize for American Humor and was named one of the Guardian’s 100 best books of the 21st century. Her other books include the novel Will There Ever Be Another You and two poetry collections, Motherland Fatherland Homelandsexuals (2014) and Balloon Pop Outlaw Black (2012). Lockwood’s work has appeared in the New York Times, the New Yorker, and the London Review of Books, where she is a contributing editor. She lives in Savannah, Georgia.
+
+
+          *Photo credit: Grep Hoax*
+
+
+          ## About Agate Head / Stone Soup
+
+
+          Many have called Patricia Lockwood a wordsmith, but in the latest iteration of her life, she has become, quite literally, a metalsmith too. Stones, gems, metals, fossils – she forges them into bodies, faces and, with her typical irreverence, vaginas.
+
+
+          In these poems, a robot dog discovers the Lascaux caves in France. Jane Austen shoots a perfect 147. A rock gets a girlfriend. The Pope blesses McLovin (kind of).
+
+
+          Lockwood’s most successful work of metal- and wordsmithing yet is her blend of the Internet world with the natural one, as she slips meme references and algospeak into evocations of geological time, explorations of organic bodies, and observations of youth. Her most personal collection of poetry yet, you may find you understand yourself – and Patricia – more than you’d like to by the end.\n"
+        confidence: "high"
+      - id: "literature/storysmith#3ce1521d35"
+        sourceId: "literature/storysmith"
+        title: "Meg Mason: Sophie, Standing There"
+        occurrence:
+          kind: "single"
+          date: "2026-10-08"
+          startTime: "19:00"
+        status: "scheduled"
+        venue:
+          name: "The Station"
+          address:
+            street: "Silver Street"
+            city: "Bristol"
+            postcode: "BS1 2AG"
+        url: "https://storysmithbooks.com/product/meg-mason-sophie-standing-there/"
+        image: "https://storysmithbooks.com/wp-content/uploads/2026/06/meg-mason-event-hero.jpg"
+        price:
+          free: false
+          text: "£8.00 – £20.00 (ticket only, ticket plus a copy of Sophie, Standing There, or a low-income ticket)"
+          min: 8
+          max: 20
+          currency: "GBP"
+        tags:
+          - "author-talk"
+          - "one-night"
+          - "booking-required"
+        raw: "**Meg Mason: Sophie, Standing There** — Thursday 8th October 2026, 7pm. £8.00 – £20.00.\n"
+        summary: "The author of Sorrow and Bliss on her new novel, with Monica Heisey. Not at the shop — this one is at The Station on Silver Street, and there is a low-income ticket tier."
+        description: "*The Station, Silver Street, Bristol, BS1 2AG ([click here for a map](https://maps.app.goo.gl/3exg7KQv8vD3BaEGA)) For venue access info, [click here](https://www.accessable.co.uk/bristol-city-council/access-guides/the-station).*
+
+
+          We are delighted to welcome the international bestselling author of the seminal novel Sorrow and Bliss, **Meg Mason**, to Bristol this autumn! She’ll be here to discuss her new novel **Sophie, Standing There** with fellow author and chronicler of life’s ineffable difficulties, **Monica Heisey **(author of equally-beloved bestseller [Really Good Actually](https://storysmithbooks.com/product/really-good-actually-2/), writer on Schitt’s Creek).
+
+
+          Sorrow and Bliss won Book of the Year at the British Book Awards, was shortlisted for the Women’s Prize, and has been translated into more than 30 languages. Sophie, Standing There is one of the most anticipated books of the year, and has already won praise from Gillian Anderson and Ann Patchett (no biggie).
+
+
+          **Pre-order your copy of Sophie, Standing There** (rrp £20.00) for a special discounted price with your ticket, then collect on the night!
+
+
+          ## About Meg Mason
+
+
+          Meg Mason is the author of You Be Mother and Sorrow and Bliss, which became an international bestseller after it was published in 2021. Winner of the British Book Industry Book of the Year, and shortlisted for the Women’s Prize, it has since been translated into twenty-five languages. Her first career was in journalism, beginning at The Times of London, and later writing for Vogue, Elle, GQ, and humour for the New Yorker’s Daily Shouts. Born in New Zealand, she lives in Sydney with her husband and two daughters.
+
+
+          ## About Sophie, Standing There
+
+
+          **From the award-winning, bestselling author of Sorrow and Bliss comes an achingly tender, poignant, funny and bittersweet new novel**
+
+
+          *‘Heartwarming, tender and so funny, Sophie, Standing There is a wonderful, bittersweet story of what it means to be truly, achingly lonely. I loved it’* – Gillian Anderson
+
+
+          *‘So smart, so funny, so moving. I absolutely loved it’* Bonnie Garmus, bestselling author of Lessons in Chemistry
+
+
+          *‘A moving examination of what it means to be alone in the world, and what it means to find connection. It is, by turns, heartbreaking, hilarious, and deeply hopeful. Meg Mason is a dazzling talent’* Ann Patchett, bestselling author of Tom Lake and The Dutch House
+
+
+          Sophie Pattison is a lovely person – warm, kind, relentlessly positive. She’s cherished by her brother Laurie, adored by her best friend Emma and valued by her colleagues. Sometimes, it’s true, one day in her life can feel like the entire month of January. It’s also true she can go an entire day without speaking. But she’s fine really. She spends her time alone reading, finding comfort in the pages of the books she devours.
+
+
+          Until one day she stumbles upon an author she hasn’t read in years. Her books, interviews and podcasts soon become a lifeline; every word is a solace, company she hasn’t felt in so long. It’s almost like love.
+
+
+          A lot like love. And Sophie would love to meet the author, although she never will obviously. In a way, thank goodness, because that would change everything. Sophie’s entire life. Wouldn’t it?
+
+
+          **Hilariously candid and raw, Sophie, Standing There is a bittersweet story of love, loneliness and finding connection in the most unlikely of places.**
+
+
+          *‘Sophie, Standing There unfolds like a strange origami crane in reverse – so achingly tender and so brilliantly subtle that I could never put it down… Dazzling’* Catherine Newman, bestselling author of Wreck and Sandwich
+
+
+          *‘I loved Sophie, and I love Meg Mason’s brain and the strange, wonderful, funny stories she gives us’* Ann Napolitano, bestselling author of Hello, Beautiful and Dear Edward
+
+
+          ## About Monica Heisey
+
+
+          Monica Heisey is a writer and comedian from Toronto. She has been published in The New Yorker, The New York Times, Vogue, Elle, The Guardian, Glamour, New York magazine, and VICE, among others. She has written for television shows like Schitt’s Creek, Workin’ Moms, Baroness von Sketch Show, and more. Her debut novel — Really Good, Actually — was published by 4th Estate in 2022 and is a Sunday Times Bestseller. She currently lives in London.\n"
+        confidence: "high"
+      - id: "literature/storysmith#3d49ce90ff"
+        sourceId: "literature/storysmith"
+        title: "In-store signing with Oliver Jeffers"
+        occurrence:
+          kind: "single"
+          date: "2026-10-26"
+          startTime: "15:30"
+        status: "scheduled"
+        url: "https://storysmithbooks.com/product/oliver-jeffers-signing/"
+        image: "https://storysmithbooks.com/wp-content/uploads/2026/07/oliver-jeffers-signing-hero-1.jpg"
+        price:
+          free: false
+          text: "£5.00, redeemable against any Oliver Jeffers book on the day; one ticket covers a group of up to five"
+          min: 5
+          max: 5
+          currency: "GBP"
+        tags:
+          - "signing"
+          - "family"
+          - "kids"
+          - "booking-required"
+        raw: "**In-store signing with Oliver Jeffers** — Monday 26th October 2026, 3:30 pm. £5.00.\n"
+        summary: "Oliver Jeffers signs in the shop for A Day Off School and the new paperback of There's a Ghost in This House, with a free art print on either. Expect to queue."
+        description: "*Storysmith, 236 North Street, Bristol, BS3 1JD*
+
+
+          Join us in the shop for a very special book signing with the one and only **Oliver Jeffers**!
+
+
+          Oliver will be joining us to celebrate not only the release of his new picture book **A Day Off School** (written by Oliver and illustrated by Kevin Waldron), but also the new paperback edition of his classic **There’s a Ghost in This House**.
+
+
+          **You’ll get a free art print with every purchase of either of those two books**, and we’ll also have an array of Oliver’s incredible backlist on sale too, ready for him to sign just for you.
+
+
+          Here’s the lowdown on how it’ll work on the day:
+
+
+          - *You must purchase a £5 ticket to attend: this can be redeemed against any Oliver Jeffers book on the day (we’ll have a large selection of his books available as well as the new ones!)*
+
+
+          - *One ticket required per group (up to 5 people)*
+
+
+          - *The signing will begin at 3:30pm and tickets are limited to ensure everyone will have time to get their books signed, but please be aware that you will have to queue!*
+
+
+          ## About Oliver Jeffers
+
+
+          Oliver Jeffers’ career in children’s books began with his highly acclaimed debut, How to Catch a Star, first published in 2004. Since then, he has become a worldwide phenomenon and a genre-busting creative force in the world of children’s books with book translations in forty-nine languages. Oliver has exhibited in museums and galleries such as the Brooklyn Museum in New York, the National Portrait Gallery in London and the Isabella Stewart Gardner Museum in Boston. In 2022 Oliver received a Member of the Order of the British Empire Award (MBE) for his Services in Art and in 2026 Oliver joined Smartphone Free Childhood as their ambassador.
+
+
+          *Photo credit: Caroline Tompkins*
+
+
+          ## About A Day Off School
+
+
+          A hilarious story full of action and adventure from two highly regarded, award-winning picture book creators.
+
+
+          When Herbie has the sniffles, he stays home from school. It’s exciting to have time to play Space Blasters and watch cartoons.
+
+
+          But, by lunchtime, he starts to wonder what he might be missing at school. What if there’s an extra playtime, a dog on the loose… or even A PIRATE INVASION?
+
+
+          Is Herbie missing out on all the action? A hilarious, action-packed story from the globally bestselling creator of Lost and Found and Here We Are, Oliver Jeffers, and the award-winning illustrator of Chocolate Cake, Kevin Waldron.
+
+
+          ## About There’s a Ghost in This House
+
+
+          *“Hello, come in. Maybe you can help me?”*
+
+
+          A young girl lives in a haunted house, but has never seen a ghost. Are they white with holes for eyes? Are they hard to see? She’d love to know!
+
+
+          Step inside and join in an entertaining ghost hunt, from behind the sofa, right up to the attic. With lots of friendly ghost surprises and incredible mixed media illustrations, this unique and funny book will entertain young readers over and over again!
+
+
+          A perfect Halloween picture book from the New York Times bestselling creator of Here We Are. Oliver Jeffers has sold more than 18 million books worldwide, in 49 languages!
+
+
+          *‘Hauntingly adorable’* Guardian
+
+
+          *‘Another absolute winner from this inventive author’* Daily Mail
+
+
+          *‘Absolutely brilliant’* BookTrust
+
+
+          *‘Thrilling’* Big Issue
+
+
+          [Accessibility information can be found here.](https://storysmithbooks.com/access/)\n"
+        confidence: "high"
+      - id: "literature/storysmith#e7458ba938"
+        sourceId: "literature/storysmith"
+        title: "An evening with Oliver Jeffers"
+        occurrence:
+          kind: "single"
+          date: "2026-10-26"
+          startTime: "19:00"
+        status: "scheduled"
+        venue:
+          sourceId: "museums/we-the-curious"
+          name: "The Planetarium @ We The Curious"
+        url: "https://storysmithbooks.com/product/oliver-jeffers-evening/"
+        image: "https://storysmithbooks.com/wp-content/uploads/2026/07/oliver-jeffers-event-hero-1.jpg"
+        price:
+          free: false
+          text: "£12.00 (ticket only, or ticket plus a copy of The Cave Downwind of the Café)"
+          min: 12
+          max: 12
+          currency: "GBP"
+        tags:
+          - "author-talk"
+          - "family"
+          - "one-night"
+          - "booking-required"
+        raw: "**An evening with Oliver Jeffers** — Monday 26th October 2026, 7pm. £12.00.\n"
+        summary: "A career-spanning conversation with Oliver Jeffers, staged inside the planetarium at We The Curious — the evening half of his Bristol day."
+        description: "*The Planetarium @ We The Curious, 1 Millennium Square, Anchor Rd, Bristol, BS1 5DB ([click here for a map](https://maps.app.goo.gl/Czk7ay6gKiDDZcdD8))*
+
+
+          We are thrilled to welcome **Oliver Jeffers** back to Bristol for a very special in-conversation event, and **we’ve gone and hired an actual Planetarium** for the occasion!
+
+
+          This will be a fascinating, career-spanning chat that takes you right into the world of one of our most beloved creatives. Fine artist, storyteller, children’s book creator, international force for good and ghost expert: we are so excited to have Oliver back with us, and anyone who was with us [back in 2023 at the RWA](https://www.instagram.com/p/CynYtOrMqmp/?img_index=5) will know that we’re in for a mind-expanding time.
+
+
+          Tickets are on sale now!
+
+
+          ## About Oliver Jeffers
+
+
+          Oliver Jeffers’ career in children’s books began with his highly acclaimed debut, How to Catch a Star, first published in 2004. Since then, he has become a worldwide phenomenon and a genre-busting creative force in the world of children’s books with book translations in forty-nine languages. Oliver has exhibited in museums and galleries such as the Brooklyn Museum in New York, the National Portrait Gallery in London and the Isabella Stewart Gardner Museum in Boston. In 2022 Oliver received a Member of the Order of the British Empire Award (MBE) for his Services in Art and in 2026 Oliver joined Smartphone Free Childhood as their ambassador.
+
+
+          Photo credit: Yasmin Cowan
+
+
+          Access info can be found on the [We the Curious website](https://www.wethecurious.org/visit-us/access-and-support).\n"
+        confidence: "high"
+    notes: "The re-pointed WooCommerce category URL is correct and served the lot: heading \"Upcoming Events\", \"Showing all 5 results\", no pagination. Five events is well inside the §3 threshold and the index is as thin as it gets — a title, a date and a price range, no blurb at all — so all five product pages were opened and description carries each page's own copy. Note that these five were also recorded yesterday from the same URL; today's rows are the same events with the descriptions and off-site venues that yesterday's index-only pass could not see. Every date prints its weekday and its year and all five check out. Two of the five are not at the shop, which the index does not tell you and the product pages do: Meg Mason on 8 October is at The Station, Silver Street BS1 2AG (not catalogued, so recorded by name), and the Oliver Jeffers evening is in the planetarium at We The Curious, which is catalogued as museums/we-the-curious. The two Oliver Jeffers events share 26 October and are separate listings at separate venues and prices — an in-store signing at 15:30 and the planetarium evening at 19:00 — so they are two rows, not one. The Meg Mason page also advertises a low-income ticket tier, which is in price.text."
+  - sourceId: "literature/waterstones-bristol"
+    fetch:
+      ok: true
+      url: "https://www.waterstones.com/events/search/shop/bristol-galleries"
+      status: 200
+    events:
+      - id: "literature/waterstones-bristol#2106c3d9cc"
+        sourceId: "literature/waterstones-bristol"
+        title: "Summer Fun! - Kids in the Bookshop"
+        occurrence:
+          kind: "run"
+          start: "2026-07-29"
+          end: "2026-09-02"
+        status: "scheduled"
+        timesText: "09:00"
+        url: "https://www.waterstones.com/events/summer-fun-kids-in-the-bookshop/bristol-galleries"
+        image: "https://cdn.waterstones.com/bookjackets/large/9781/3988/9781398856479.jpg"
+        tags:
+          - "kids"
+          - "family"
+          - "drop-in"
+          - "school-holidays"
+        raw: "**Summer Fun! - Kids in the Bookshop** — Wednesday 29th July 09:00 - Wednesday 2nd September, Waterstones, Bristol - Galleries.
+
+          We have a selection of activities for the summer holidays\n"
+        summary: "A summer of daily drop-in activities in the children's department — treasure hunt, Saturday storytime, Monday comic-making, colouring and bookmark days."
+        description: "Every day this summer you can take part in a fun treasure hunt and win a goodie bag filled with stickers, bookmarks and activity pages!
+
+
+          Every Saturday we have our usual storytime at 11am in the children's section- come and find us!
+
+
+          We will also have every Monday our popular Comic Making Workshop at 2pm.
+
+
+          On Wednesdays, Coco Wyo cosy colouring all day.
+
+
+          On Fridays, design a bookmark all day.
+
+
+          And plenty more colouring and puzzle games on the large table in our cafe!\n"
+        confidence: "high"
+      - id: "literature/waterstones-bristol#0d1292a35a"
+        sourceId: "literature/waterstones-bristol"
+        title: "Rainbow Bookclub: August"
+        occurrence:
+          kind: "single"
+          date: "2026-08-27"
+          startTime: "17:30"
+        status: "scheduled"
+        url: "https://www.waterstones.com/events/rainbow-bookclub-august/bristol-galleries"
+        image: "https://cdn.waterstones.com/bookjackets/large/9781/5266/9781526604989.jpg"
+        tags:
+          - "reading-group"
+          - "lgbtq"
+        raw: "**Rainbow Bookclub: August** — Thursday 27th August 17:30, Waterstones, Bristol - Galleries.
+
+          Join us for the August edition of our monthly LBGTQ+ discussion.\n"
+        summary: "The shop's monthly LGBTQ+ reading group meets in the café; August's book is Tomasz Jedrowski's Swimming in the Dark."
+        description: "Grab a drink, and join us in the Cafe for our monthly LGBTQ+ reading group!
+
+
+          This month we will be reading *Swimming in the Dark by Tomasz Jedrowski.*
+
+
+          Everyone is welcome, however, spoilers will be included!\n"
+        confidence: "high"
+      - id: "literature/waterstones-bristol#f20ad6efd9"
+        sourceId: "literature/waterstones-bristol"
+        title: "Reds - Paul Mason on the Past, Present and Future of Communism"
+        occurrence:
+          kind: "single"
+          date: "2026-09-11"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://www.waterstones.com/events/reds-paul-mason-on-the-past-present-and-future-of-communism/bristol-galleries"
+        image: "https://cdn.waterstones.com/bookjackets/large/9781/0359/9781035905904.jpg"
+        price:
+          free: false
+          text: "£30 includes a copy of the book; £6 general admission"
+          min: 6
+          max: 30
+          currency: "GBP"
+        tags:
+          - "author-talk"
+          - "talk"
+          - "one-night"
+          - "booking-required"
+        raw: "**Reds - Paul Mason on the Past, Present and Future of Communism** — Friday 11th September 19:00, Waterstones, Bristol - Galleries.
+
+          A major analysis as we head into a dangerous new world order where China and Russia threaten major change to the world's democracies\n"
+        summary: "Paul Mason on Reds, his global history of communism, in conversation with Andrew Kelly, formerly of Bristol Ideas."
+        description: "It starts in antiquity, not in 1917. It centres not just on the obvious leaders and thinkers but asks how the idealism of millions of working-class activists could lead to their acquiescence in mass murder, repression and social atomisation. A fact whose legacy – unfortunately – is alive and kicking in both Russia and China today.
+
+
+          **Paul Mason**’s startling new book will argue that the desire to live without hierarchy and property is an impulse deeply rooted in our human nature. Reds traces the history of communist ideas through revolts in the ancient and medieval worlds, and chronicles the rise of 19th century anti-capitalist movements. Using first hand testimonies of both the perpetrators and the victims, Mason gives a new and terrifying account of how the 20th century experiment in communism turned into a totalitarian nightmare.
+
+
+          But, he argues, the story is not over. Western democracies are stagnant and lacking self-belief. Looming climate chaos demands radical economic answers. Millions of people in the global south see China’s offer of authoritarian, state-led development model as a viable alternative. And among the Western left, new forms of techno-egalitarianism vie with right-wing libertarianism in the battle over the digital future.
+
+
+          **Paul Mason** is a British journalist, author, broadcaster, and political commentator known for his economic and political analysis. Formerly Economics Editor at* BBC Newsnight* and *Channel 4 News*, he has written for *The New European*, *Social Europe*, and *Frankfurter Rundschau*, authored books like *Postcapitalism* and *How to Stop Fascism*, produced award-winning documentaries, and is active in progressive politics and defence policy.
+
+          He will be in conversation with **Andrew Kelly**, formerly director of* Bristol Ideas*.\n"
+        confidence: "high"
+      - id: "literature/waterstones-bristol#b3a26bb651"
+        sourceId: "literature/waterstones-bristol"
+        title: "In Conversation: Pete Wharmby & Lisa Galley"
+        occurrence:
+          kind: "single"
+          date: "2026-09-15"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://www.waterstones.com/events/in-conversation-pete-wharmby-and-lisa-galley/bristol-galleries"
+        image: "https://cdn.waterstones.com/bookjackets/large/9781/7850/9781785046223.jpg"
+        price:
+          free: false
+          text: "£6; £5"
+          min: 5
+          max: 6
+          currency: "GBP"
+        tags:
+          - "author-talk"
+          - "talk"
+          - "one-night"
+          - "booking-required"
+        raw: "**In Conversation: Pete Wharmby & Lisa Galley** — Tuesday 15th September 19:00, Waterstones, Bristol - Galleries.
+
+          How can we really help autistic children in education?\n"
+        summary: "Two writers on supporting autistic children — Pete Wharmby on school systems, Lisa Galley on parenting — with questions and signing after."
+        description: "We're delighted to host **Pete Wharmby** and** Lisa Galley** for a discussion on education and care for autistic children.
+
+
+          In *Different Minds*, neurodivergence campaigner Pete Wharmby shines a light on what it's like to be autistic in Western school systems today, so we can understand how to support our children through the most important years of their lives.
+
+
+          With gentle science, practical tools and deep validation, Lisa Galley's *Parenting your Autistic Child* explains exactly what is happening in your child's brain and body during these difficult moments – when they refuse to get dressed, experience sensory overload or meltdown at 3.30pm – offering practical strategies that work with their nervous system rather than against it.
+
+
+          This informative and compassionate talk will be your chance to learn more, ask questions and get copies of the books signed.
+
+
+          **Peter Wharmby** is a neurodivergence campaigner and former teacher who was diagnosed autistic at age 34. He is also father to an autistic child. Shocked by the statistics around depression, anxiety and life expectancy for autistic people, Pete has immersed himself in working to improve neurodiversity awareness, acceptance and making the world a more suitable place for the neurodivergent community to live in.
+
+
+          **Lisa Galley** is an Autism Family Consultant, and former Speech and Language Therapist. She is also a dedicated mum to grown-up autistic kids. Her mission is to empower parents of neurodivergent children to reject the unrealistic neurotypical expectations that society places on autistic children, and to embrace intuitive parenting that aligns with the unique needs of their amazing kids.\n"
+        confidence: "high"
+      - id: "literature/waterstones-bristol#4a18d53f61"
+        sourceId: "literature/waterstones-bristol"
+        title: "Raising Readers Storytimes: The Turtle Who Turned The Tide"
+        occurrence:
+          kind: "run"
+          start: "2026-09-19"
+          end: "2026-09-20"
+        status: "scheduled"
+        timesText: "11:00"
+        url: "https://www.waterstones.com/events/raising-readers-storytimes-the-turtle-who-turned-the-tide/bristol-galleries"
+        image: "https://cdn.waterstones.com/bookjackets/large/9781/4083/9781408366455.jpg"
+        tags:
+          - "kids"
+          - "family"
+          - "storytelling"
+          - "reading"
+        raw: "**Raising Readers Storytimes: The Turtle Who Turned The Tide** — Saturday 19th September 11:00 - Sunday 20th September, Waterstones, Bristol - Galleries.
+
+          A special storytime celebrating The Turtle Who Turned the Tide as part of the Raising Readers literacy weekend\n"
+        summary: "Booksellers read Rachel Bright and Jim Field's The Turtle Who Turned The Tide across both days of Hachette's Raising Readers weekend."
+        description: "Join us on Saturday 19th and Sunday 20th September for a nationwide story time event when our booksellers will be reading from **Rachel Bright**’s and **Jim Field**’s number one bestselling picture book, ***The Turtle Who Turned The Tide ***as part of Hachette Children’s Books’ Raising Readers literacy initiative.
+
+
+          Raising Readers: Books Build Bright Futures is Hachette Children’s Books initiative, which raises awareness about the UK’s reading crisis and encourages all of us to make reading for enjoyment part of children’s daily lives. Find out more at [www.raisingreaders.co.uk](http://www.raisingreaders.co.uk/)\n"
+        confidence: "high"
+      - id: "literature/waterstones-bristol#c08c784381"
+        sourceId: "literature/waterstones-bristol"
+        title: "Intelligence Squared: Anthony Scaramucci - The All The Wrong Moves Tour"
+        occurrence:
+          kind: "single"
+          date: "2026-09-19"
+          startTime: "19:00"
+        status: "scheduled"
+        venue:
+          sourceId: "music/st-georges-bristol"
+          name: "St George's Bristol"
+        url: "https://www.waterstones.com/events/intelligence-squared-anthony-scaramucci-the-all-the-wrong-moves-tour/bristol-galleries"
+        image: "https://cdn.waterstones.com/bookjackets/large/9781/8479/9781847929235.jpg"
+        price:
+          free: false
+          text: "Tickets available through Intelligence Squared"
+        tags:
+          - "talk"
+          - "q-and-a"
+          - "one-night"
+          - "booking-required"
+        raw: "**Intelligence Squared: Anthony Scaramucci - The All The Wrong Moves Tour** — Saturday 19th September 19:00, St George's Bristol, Great George Street, Bristol, BS1 5RR.
+
+          This event is hosted by our partners at Intelligence Squared.\n"
+        summary: "The former White House communications director turned Trump critic on the eve of the US midterms, with an audience Q&A. At St George's, not the shop; ticketed by Intelligence Squared."
+        description: "This event is hosted by our partners at Intelligence Squared.
+
+
+          American democracy is on the brink. Masked agents menace the streets of Minneapolis. Donald Trump jokes about cancelling elections. And traditional allies like Canada and the UK are beginning to look for alliances that could replace their pivotal relationships with the US.
+
+
+          According to** Anthony Scaramucci**, former White House Communications Director turned outspoken Trump critic and host of the Rest is Politics: U.S., President Trump represents one of the most serious challenges the country has faced.
+
+
+          This autumn, on the eve of the pivotal US midterm elections, Scaramucci comes to live audiences across the UK to offer an insider’s account of how America reached this moment and to offer a hopeful message for how it might find a way back. Drawing on his forthcoming book *All The Wrong Moves*, he will trace a series of catastrophic decisions made by both Democrats and Republicans that in Scaramucci’s view dismantled decades of postwar stability and prosperity. And he will describe how undoing these mistakes can unlock a new era of success for America and the world.
+
+
+          Don’t miss this opportunity to see Anthony Scaramucci – hilarious, irreverent, insightful and deeply sourced within both the Republican and Democratic parties – live in-person and ask your own questions in the audience Q&A.\n"
+        confidence: "high"
+      - id: "literature/waterstones-bristol#149f417171"
+        sourceId: "literature/waterstones-bristol"
+        title: "An Evening with Jonn Elledge"
+        occurrence:
+          kind: "single"
+          date: "2026-09-24"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://www.waterstones.com/events/an-evening-with-jonn-elledge/bristol-galleries"
+        image: "https://cdn.waterstones.com/bookjackets/large/9781/0354/9781035432769.jpg"
+        price:
+          free: false
+          text: "£29 includes a copy of the book; £5 admission only"
+          min: 5
+          max: 29
+          currency: "GBP"
+        tags:
+          - "author-talk"
+          - "talk"
+          - "q-and-a"
+          - "signing"
+          - "one-night"
+        raw: "**An Evening with Jonn Elledge** — Thursday 24th September 19:00, Waterstones, Bristol - Galleries.
+
+          From electric lighting to pedestrian crossings\n"
+        summary: "Jonn Elledge on 31 Inventions that Built Our World — lifts, street lighting, pedestrian crossings — then questions and a signing."
+        description: "For over 10,000 years, we humans have been busy altering our environment and embracing 'progress', evolving seamlessly from hunter gatherers to the modern urban sophisticates we see ourselves as today.
+
+
+          But what are the ideas and inventions that enabled humanity to become, by the early 21st century, a majority urban species for the first time? How did the essential infrastructure of modern life - the innovations that we barely even notice, but without which our world would fall apart - actually come to be?
+
+
+          With his characteristic wit and boundless curiosity, Jonn Elledge invites us to join him on a fascinating and often surprising tour of the ideas and technologies that made modernity possible. From elevators to electric lighting, parks to pedestrian crossings, he guides us through the history of civilisation itself.
+
+
+          Jonn will talk about his new book before an audience Q&A and book signing.
+
+
+          **Jonn Elledge **is the author of the number-one bestseller, *A History of the World in 47 Borders**. *A New Statesman and New World columnist*, *he is a regular on the podcasts *Oh God, What Now? *and the late, lamented *Paper Cuts, *and a frequent contributor to *The i Paper, the Guardian *and assorted other publications. He was previously an assistant editor at the *New Statesman*, where he created and ran its urbanism-focused *City Metric *site, spending six happy years writing about cities, maps and borders and hosting the *Skylines *podcast*. *He has written three books, as well as over 200 editions of the *Newsletter of (Not Quite) Everything*. He lives in London, with the best dog in the world.\n"
+        confidence: "high"
+      - id: "literature/waterstones-bristol#7c06081a8f"
+        sourceId: "literature/waterstones-bristol"
+        title: "Threshing Day Midnight Opening"
+        occurrence:
+          kind: "single"
+          date: "2026-09-28"
+          startTime: "22:00"
+          endTime: "00:30"
+        status: "scheduled"
+        url: "https://www.waterstones.com/events/threshing-day-midnight-opening/bristol-galleries"
+        image: "https://cdn.waterstones.com/override/v6/large/9780/3494/9780349450612.jpg"
+        price:
+          free: false
+          text: "£27 includes a copy of the new book; £5 entry"
+          min: 5
+          max: 27
+          currency: "GBP"
+        ageRestriction: "Due to the late hour and safeguarding reasons, minors must be accompanied by an adult; parents and carers need not book a ticket."
+        tags:
+          - "new-release"
+          - "late-night"
+          - "party"
+          - "quiz"
+        raw: "**Threshing Day Midnight Opening** — Monday 28th September 22:00 - 00:30, Waterstones, Bristol - Galleries.
+
+          Celebrate a new collection of thirteen short stories from the Empyrean series!\n"
+        summary: "A midnight opening for Rebecca Yarros's Threshing Day: Basgiath costume competition, themed drinks, a quiz, dragon-egg painting and a countdown to the book."
+        description: "*Empyrean fans rejoice, as **Rebecca Yarros** captivates readers with thirteen addictive short stories set on the thrilling - and dangerous - day when cadets bond with their dragons...*
+
+
+          If you're excited about this new release, this is the celebration event for you!
+
+
+          Come dressed in your best Basgiath outfit to enter our costume competition, and join us for an evening of themed drinks and nibbles, official quiz and other merriments.
+
+
+          Take part in our Scavenger Quest- answer the questions to get access to the Dragon Cave...
+
+          There will also be a quiet corner for dragon egg painting and the new *Fourth Wing: Rise of the Wingleader* board game.
+
+
+          The evening will wrap-up at midnight with a countdown to reveal the new books, *Threshing Day*!
+
+
+          **Please note: due to the late hour and safeguarding reasons, minors must be accompanied by an adult. Parents and carers need not book a ticket.**\n"
+        confidence: "high"
+      - id: "literature/waterstones-bristol#16500cafcd"
+        sourceId: "literature/waterstones-bristol"
+        title: "Mikey Please presents: The Thieves Beneath the Floorboards AND The Rambler's Curse"
+        occurrence:
+          kind: "single"
+          date: "2026-10-08"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://www.waterstones.com/events/mikey-please-presents-the-thieves-beneath-the-floorboards-and-the-ramblers-curse/bristol-galleries"
+        image: "https://cdn.waterstones.com/override/v2/large/9780/0088/9780008808402.jpg"
+        price:
+          free: false
+          text: "£30 super bundle includes a copy of both new books; £5 entry only - includes free pin badge!"
+          min: 5
+          max: 30
+          currency: "GBP"
+        tags:
+          - "book-launch"
+          - "kids"
+          - "family"
+          - "one-night"
+        raw: "**Mikey Please presents: The Thieves Beneath the Floorboards AND The Rambler's Curse** — Thursday 8th October 18:00, Waterstones, Bristol - Galleries.
+
+          New adventures for Rene and Glumfoot!\n"
+        summary: "Two new books at once from Mikey Please, back in the world of the Café at the Edge of the Woods, with drinks on arrival."
+        description: "Glumfoot and Rene return! We're so thrilled to welcome back **Mikey Please** in our shop for not one, but two brilliant new books!
+
+
+          *The Thieves Beneath the Floorboards*: When Rene hears gnawing, clawing and scratching sounds from underneath the café, she just can't ignore them. Using every skill she can muster, she lays an elaborate trap – but what she finds will put all of her hopes and dreams in jeopardy…
+
+
+          *The Rambler's Curse*: Set in the irresistibly icky world of the *Waterstones Children's Book of the Year*-winning *The Café at the Edge of the Woods*, *The Rambler's Curse* follows the unexpected drama that unfolds when Rene and Glumfoot receive a particularly worrisome new customer- a human!
+
+
+          Come celebrate with him- drinks on arrival and more surprises on the night!\n"
+        confidence: "high"
+      - id: "literature/waterstones-bristol#b4f980ef2a"
+        sourceId: "literature/waterstones-bristol"
+        title: "An Evening with Jack Shoulder - Book Launch & Exhibition"
+        occurrence:
+          kind: "single"
+          date: "2026-10-09"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://www.waterstones.com/events/an-evening-with-jack-shoulder-book-launch-and-exhibition/bristol-galleries"
+        image: "https://cdn.waterstones.com/bookjackets/large/9781/5294/9781529452457.jpg"
+        price:
+          free: false
+          text: "£20 includes a copy of the book; £5 admission only"
+          min: 5
+          max: 20
+          currency: "GBP"
+        tags:
+          - "book-launch"
+          - "author-talk"
+          - "exhibition"
+          - "one-night"
+        raw: "**An Evening with Jack Shoulder - Book Launch & Exhibition** — Friday 9th October 19:00, Waterstones, Bristol - Galleries.
+
+          An event of art and handsomeness\n"
+        summary: "Museum Bums co-author Jack Shoulder launches Hotties in Art, surrounded by a pop-up show of work by local artists — the shop is still inviting submissions."
+        description: "Has an artwork ever made you hot under the collar? How often have you walked through a gallery, tried to focus on the text panel, but, really, just been enamoured by the drop dead gorgeous guy staring back at you?
+
+
+          Offering a fresh and humorous introduction to art and written by *Museum Bums* co-author **Jack Shoulder**, this book searches art history, across movements and throughout the world to find the most alluring artworks - some famous while others rarely ever seen before. Whether you are looking for boyfriend material, a heavenly hunk, a bright young thing or even holding out for a hero, there is a Museum Hottie carefully curated for you.
+
+
+          We're delighted to welcome Jack to discuss this new funny, informative and eye candy-filled book!
+
+
+          ***To make this event even more special, we are looking to feature artwork pieces by local artists on the night as a pop-up exhibition to surround Jack during his event. So whether you're a professional or amateur illustrator, painter, sculptor or sketcher, we'd love to hear from you- please email the shop for more details.***\n"
+        confidence: "high"
+      - id: "literature/waterstones-bristol#9b4aae0bf5"
+        sourceId: "literature/waterstones-bristol"
+        title: "The Surf House - Lucy Clarke & Bristol Girls Surf Club"
+        occurrence:
+          kind: "single"
+          date: "2026-10-22"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://www.waterstones.com/events/the-surf-house-lucy-clarke-and-bristol-girls-surf-club/bristol-galleries"
+        image: "https://cdn.waterstones.com/bookjackets/large/9780/0087/9780008791155.jpg"
+        price:
+          free: false
+          text: "£12 includes a copy of the paperback; £5 general admission/ £3 special for Bristol Girls Surf Club"
+          min: 3
+          max: 12
+          currency: "GBP"
+        tags:
+          - "author-talk"
+          - "one-night"
+          - "booking-required"
+        raw: "**The Surf House - Lucy Clarke & Bristol Girls Surf Club** — Thursday 22nd October 19:00, Waterstones, Bristol - Galleries.
+
+          We're welcoming the bestselling author of The Surf House!\n"
+        summary: "Lucy Clarke on her Morocco-set thriller The Surf House, in conversation with Molly from Bristol Girls Surf Club, who get a reduced ticket."
+        description: "We're excited to welcome bestselling author **Lucy Clarke** to Bristol!
+
+
+          *High on the cliffs of Morocco, far from the city lights and the souks, stands The Surf House: a sanctuary for travellers chasing sunshine and waves. But the idyll hides a dark mystery.*
+
+          *And when Bea washes in, seeking refuge after a dangerous encounter in Marrakesh, she soons gets caught in the current.*
+
+
+          *A woman her age - who stayed in the same area, walked the same beaches, met the same guests- disappeared one year earlier, vanishing without trace.*
+
+          *Somewhere inside The Surf House lies the truth, but there'll be a price for uncovering it...*
+
+
+          Join us for a special event with Lucy in conversation with Molly from the Bristol Girls Surf Club!
+
+
+          **Lucy Clarke** is a Sunday Times bestselling author whose novels have sold over a million copies worldwide. Her book *The Castaways* was a Waterstones Thriller of the Month selection. When not on research trips, Lucy can be found writing her destination thrillers from a beach hut on the south coast of England.\n"
+        confidence: "high"
+      - id: "literature/waterstones-bristol#16fa729166"
+        sourceId: "literature/waterstones-bristol"
+        title: "A Court of Thorns and Roses 6 - Midnight Masked Fantasy Ball"
+        occurrence:
+          kind: "single"
+          date: "2026-10-26"
+          startTime: "22:00"
+        status: "scheduled"
+        url: "https://www.waterstones.com/events/a-court-of-thorns-and-roses-6-midnight-masked-fantasy-ball/bristol-galleries"
+        image: "https://cdn.waterstones.com/bookjackets/large/9781/0372/9781037200076.jpg"
+        price:
+          free: false
+          text: "£30 incudes a copy of the new book; £7"
+          min: 7
+          max: 30
+          currency: "GBP"
+        ageRestriction: "Due to the late hour and safeguarding reasons, minors must be accompanied by an adult; parents and carers need not book a ticket."
+        tags:
+          - "new-release"
+          - "late-night"
+          - "party"
+          - "one-night"
+        raw: "**A Court of Thorns and Roses 6 - Midnight Masked Fantasy Ball** — Monday 26th October 22:00, Waterstones, Bristol - Galleries.
+
+          The most anticipated romantasy title of the year...\n"
+        summary: "A masked ball for the sixth ACOTAR: purple carpet, costume competition, a ballroom and a midnight countdown to the book. Dress code High Fantasy Ball."
+        description: "Few fantasy series have captivated the hearts of readers and become megaselling bestsellers like **Sarah J. Maas'** *A Court of Thorns and Roses*... join us for the publication of the sixth installment!
+
+
+          Return to the courts of Prythian with our special Masked Fantasy Ball- walk down the purple carpet for the photocall and best costume competition, and dance the night away in our ballroom with music, drinks and other activities.
+
+
+          The dress code is High Fantasy Ball.
+
+
+          Join us to count down to the stroke of midnight and to be the first to get your hands on the new book.
+
+
+          **Please note: due to the late hour and safeguarding reasons, minors must be accompanied by an adult. Parents and carers need not book a ticket.**\n"
+        confidence: "high"
+      - id: "literature/waterstones-bristol#c3b4d6fcea"
+        sourceId: "literature/waterstones-bristol"
+        title: "Meet Cody Dahler!"
+        occurrence:
+          kind: "single"
+          date: "2026-11-09"
+          startTime: "13:00"
+          endTime: "15:00"
+        status: "scheduled"
+        url: "https://www.waterstones.com/events/meet-cody-dahler/bristol-galleries"
+        image: "https://cdn.waterstones.com/override/v1/large/9781/8061/9781806175680.jpg"
+        tags:
+          - "signing"
+          - "one-night"
+        raw: "**Meet Cody Dahler!** — Monday 9th November 13:00 - 15:00, Waterstones, Bristol - Galleries.
+
+          Want to stop feeling like a thicky thicky dumb dumb in front of all your mates?\n"
+        summary: "A two-hour meet-and-greet with Cody Dahler in the shop; the only event on the second page of the Galleries listing."
+        confidence: "high"
+    notes: "The hints are right on both counts: waterstones.com still 403s WebFetch, and the same URL returns full HTML to curl with a browser user-agent, which is how everything here was read. The shop filter is correct — the applied-filter label reads \"Bristol - Galleries\" and every event links to /bristol-galleries. Yesterday's run recorded this source as a total fetch failure, so these 13 events are the first Waterstones data in the log. The default page is paginated: 12 events on page one and \"of 2\", so /page/2 was followed and yielded the thirteenth (Meet Cody Dahler, 9 Nov). No month filter was needed. Twelve event pages were opened for description, soonest first, which is the cap in §3; only Meet Cody Dahler is left with raw alone. Those pages are also where the prices come from — the index shows none — and where two age notes came from. Every listing prints its weekday and every detail page prints the year outright, so all 13 are unambiguously 2026. One event is not at the shop: Intelligence Squared's Anthony Scaramucci on 19 Sep is at St George's Bristol, which the listing states in place of the shop name, so venue points at music/st-georges-bristol. Three rows carry no price because none is printed on either the index or the detail page (Summer Fun, Rainbow Bookclub, Raising Readers) plus Meet Cody Dahler, whose page was not opened — price is left off rather than assumed free. Two are date ranges rather than single sittings and are recorded as runs with the single printed time in timesText. Clifton and Cribbs Causeway were not touched: they are separate shop filters and separate sources."

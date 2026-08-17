@@ -6,7 +6,7 @@ import { defineConfig, type Plugin } from "vite";
 
 /**
  * Static hosts serve a file per path. This app routes client-side, so a direct
- * hit on /bristol-uk/theatre asks for a file that does not exist and gets a 404
+ * hit on /gb-bristol/theatre asks for a file that does not exist and gets a 404
  * — the index is only served at /.
  *
  * GitHub Pages (and Netlify, and S3) fall back to 404.html for unknown paths,

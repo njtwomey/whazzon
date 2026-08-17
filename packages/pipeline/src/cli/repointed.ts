@@ -53,12 +53,31 @@ interface Entry {
   category: string;
 }
 
+/**
+ * A source's routes as one comparable string.
+ *
+ * `url` is either a plain URL or a list of roled routes, and both forms have to
+ * reduce to something two commits apart can be compared with. Roles are part of
+ * the key on purpose: gaining an `api` route is as good a reason to re-harvest
+ * as having the listings page corrected, because everything recorded so far came
+ * from the worse of the two.
+ */
+function routeKey(url: unknown): string | undefined {
+  if (typeof url === "string") return url;
+  if (!Array.isArray(url)) return undefined;
+  const routes = url
+    .filter((route): route is { role?: string; url?: string } => Boolean(route) && typeof route === "object")
+    .map((route) => `${route.role ?? "?"}=${route.url ?? "?"}`);
+  return routes.length > 0 ? routes.join(" ") : undefined;
+}
+
 function sourcesOf(text: string): Map<string, Entry> {
   const out = new Map<string, Entry>();
-  const parsed = parse(text) as { sources?: { id?: string; url?: string; status?: string; category?: string }[] };
+  const parsed = parse(text) as { sources?: { id?: string; url?: unknown; status?: string; category?: string }[] };
   for (const source of parsed?.sources ?? []) {
-    if (!source?.id || !source.url) continue;
-    out.set(source.id, { url: source.url, status: source.status ?? "", category: source.category ?? "" });
+    const url = routeKey(source?.url);
+    if (!source?.id || !url) continue;
+    out.set(source.id, { url, status: source.status ?? "", category: source.category ?? "" });
   }
   return out;
 }

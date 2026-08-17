@@ -132,7 +132,11 @@ export function FacetSection({
               <InputGroupAddon>
                 <Search />
               </InputGroupAddon>
+              {/* `min-w-0`: an input's intrinsic width is ~20 characters, and
+                  without this it refuses to shrink below that and shoves the
+                  sort control off the edge of the rail. */}
               <InputGroupInput
+                className="min-w-0"
                 value={query}
                 onChange={(event) => setQuery(event.target.value)}
                 placeholder={`Search ${values.length} ${noun}…`}

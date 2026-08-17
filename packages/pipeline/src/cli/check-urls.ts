@@ -1,5 +1,7 @@
 import { loadSources } from "../lib/catalogue.js";
 import { resolveLocations } from "../lib/locations.js";
+import { routesOf } from "../lib/routes.js";
+import type { RouteRole } from "../schema/catalogue.js";
 
 /**
  * Deterministic reachability check over every catalogued URL. No LLM, no
@@ -22,6 +24,11 @@ import { resolveLocations } from "../lib/locations.js";
  * common stage 1 error is a real venue with a guessed `/whats-on/` path, and
  * knowing the root is alive turns "is this venue real?" into a one-line fix.
  *
+ * Every route is checked, not just the listings page. A source's `api` or `ics`
+ * route is the one stage 2 actually reads where it exists, so an endpoint that
+ * has quietly moved is worth exactly as much as a moved page — and it is the
+ * kind of breakage nobody notices by eye.
+ *
  *   npm run check-urls -- bristol-uk
  *   npm run check-urls -- bristol-uk --category theatre
  */
@@ -36,6 +43,9 @@ type Verdict = "ok" | "blocked" | "dead";
 
 interface Result {
   id: string;
+  /** `<source id>` for a single-route source, `<source id> [api]` otherwise. */
+  label: string;
+  role: RouteRole;
   url: string;
   verdict: Verdict;
   status?: number;
@@ -89,12 +99,14 @@ function verdictFor(status?: number): Verdict {
   return status < 400 ? "ok" : "dead";
 }
 
-async function probe(id: string, url: string): Promise<Result> {
-  const first = await request(url);
+async function probe(target: Target): Promise<Result> {
+  const first = await request(target.url);
   const verdict = verdictFor(first.status);
   const result: Result = {
-    id,
-    url,
+    id: target.id,
+    label: target.label,
+    role: target.role,
+    url: target.url,
     verdict,
     status: first.status,
     finalUrl: first.finalUrl,
@@ -102,8 +114,8 @@ async function probe(id: string, url: string): Promise<Result> {
   };
 
   if (verdict === "dead") {
-    const origin = new URL(url).origin + "/";
-    if (origin !== url) {
+    const origin = new URL(target.url).origin + "/";
+    if (origin !== target.url) {
       const root = await request(origin);
       if (verdictFor(root.status) !== "dead") result.rootAlive = origin;
     }
@@ -111,29 +123,53 @@ async function probe(id: string, url: string): Promise<Result> {
   return result;
 }
 
+interface Target {
+  id: string;
+  label: string;
+  role: RouteRole;
+  url: string;
+}
+
 const sources = locations
   .flatMap((locationId) => loadSources(locationId))
   .filter((s) => s.status !== "closed")
   .filter((s) => !categoryFilter || s.category === categoryFilter);
 
-console.log(`checking ${sources.length} URLs...\n`);
+/** One target per route, so a source with an API endpoint is checked twice. */
+const targets: Target[] = sources.flatMap((source) => {
+  const routes = routesOf(source);
+  return routes.map((route) => ({
+    id: source.id,
+    label: routes.length > 1 ? `${source.id} [${route.role}]` : source.id,
+    role: route.role,
+    url: route.url,
+  }));
+});
+
+const compound = sources.filter((source) => routesOf(source).length > 1).length;
+
+console.log(
+  `checking ${targets.length} URLs across ${sources.length} sources` +
+    (compound > 0 ? ` (${compound} with more than one route)` : "") +
+    `...\n`,
+);
 
 const results: Result[] = [];
-const queue = [...sources];
+const queue = [...targets];
 
 await Promise.all(
   Array.from({ length: Math.min(CONCURRENCY, queue.length) }, async () => {
     while (queue.length > 0) {
-      const source = queue.shift();
-      if (!source) break;
-      const result = await probe(source.id, source.url);
+      const target = queue.shift();
+      if (!target) break;
+      const result = await probe(target);
       results.push(result);
       const mark = { ok: "ok     ", blocked: "BLOCKED", dead: "DEAD   " }[result.verdict];
       const detail =
         result.verdict === "ok"
           ? (result.finalUrl ?? "")
           : (result.error ?? `HTTP ${result.status}`) + (result.rootAlive ? `  (root alive: ${result.rootAlive})` : "");
-      console.log(`${mark} ${result.id.padEnd(38)} ${detail}`);
+      console.log(`${mark} ${result.label.padEnd(44)} ${detail}`);
     }
   }),
 );
@@ -153,7 +189,7 @@ if (blocked.length > 0) {
     `\n${blocked.length} refused us but are probably fine — bot protection, not a dead site.` +
       `\nCheck by hand; do NOT mark these closed:`,
   );
-  for (const r of blocked) console.log(`  ${r.id.padEnd(38)} HTTP ${r.status}  ${r.url}`);
+  for (const r of blocked) console.log(`  ${r.label.padEnd(44)} HTTP ${r.status}  ${r.url}`);
 }
 
 if (fixable.length > 0) {
@@ -161,18 +197,18 @@ if (fixable.length > 0) {
     `\n${fixable.length} have a dead path but a live site — almost certainly a wrong` +
       `\nlistings path rather than a wrong venue. Find the real path or use the root:`,
   );
-  for (const r of fixable) console.log(`  ${r.id}\n    dead: ${r.url}\n    live: ${r.rootAlive}`);
+  for (const r of fixable) console.log(`  ${r.label}\n    dead: ${r.url}\n    live: ${r.rootAlive}`);
 }
 
 const gone = dead.filter((r) => !r.rootAlive);
 if (gone.length > 0) {
   console.log(`\n${gone.length} did not answer at all — wrong domain, or genuinely gone:`);
-  for (const r of gone) console.log(`  ${r.id.padEnd(38)} ${r.url}\n    ${r.error ?? `HTTP ${r.status}`}`);
+  for (const r of gone) console.log(`  ${r.label.padEnd(44)} ${r.url}\n    ${r.error ?? `HTTP ${r.status}`}`);
 }
 
 if (redirected.length > 0) {
   console.log(`\n${redirected.length} redirected — consider updating the catalogue URL:`);
-  for (const r of redirected) console.log(`  ${r.id}\n    ${r.url}\n    ${r.finalUrl}`);
+  for (const r of redirected) console.log(`  ${r.label}\n    ${r.url}\n    ${r.finalUrl}`);
 }
 
 // Unreachable URLs are a curation task, not a build failure — exit 0 so this

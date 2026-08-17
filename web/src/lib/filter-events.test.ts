@@ -191,3 +191,31 @@ describe("facets", () => {
     expect(applyFilters([carried], filters(), ASOF)).toHaveLength(1);
   });
 });
+
+describe("narrowing by how good the listing is", () => {
+  const linked = event({ id: "linked", url: "https://example.org/e/1" });
+  const unlinked = event({ id: "unlinked" });
+  const vague = event({ id: "vague", confidence: "low" });
+  const middling = event({ id: "middling", confidence: "medium" });
+
+  it("shows everything by default — these are opt-in", () => {
+    // The whole point of the defaults: a scraped catalogue is imperfect, and
+    // hiding the imperfect parts before anyone asks hides real events.
+    expect(ids(applyFilters([linked, unlinked, vague, middling], filters(), ASOF)).sort()).toEqual([
+      "linked",
+      "middling",
+      "unlinked",
+      "vague",
+    ]);
+  });
+
+  it("can drop events with no link of their own", () => {
+    expect(ids(applyFilters([linked, unlinked], filters({ hasLink: true }), ASOF))).toEqual(["linked"]);
+  });
+
+  it("treats confidence as a floor, not an equality", () => {
+    const all = [event({ id: "high" }), middling, vague];
+    expect(ids(applyFilters(all, filters({ confidence: "medium" }), ASOF)).sort()).toEqual(["high", "middling"]);
+    expect(ids(applyFilters(all, filters({ confidence: "high" }), ASOF))).toEqual(["high"]);
+  });
+});

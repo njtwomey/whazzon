@@ -51,6 +51,19 @@ for (const locationId of locations) {
     }
   }
 
+  /**
+   * Headline counts, so the landing page can describe a city without
+   * downloading its whole snapshot to do it — which is the entire reason this
+   * index exists.
+   *
+   * Venues, areas and tags are counted over **events**, not over the catalogue.
+   * That is the honest reading of a card that answers "what is on here": a
+   * catalogued venue with nothing listed is not somewhere you can go tonight.
+   * `sourceCount` already carries the catalogue side of it.
+   */
+  const distinct = (values: (string | undefined)[]) =>
+    new Set(values.filter((v): v is string => Boolean(v && v.trim()))).size;
+
   index.push({
     id: location.id,
     name: location.name,
@@ -62,6 +75,9 @@ for (const locationId of locations) {
     eventCount: snapshot.events.length,
     sourceCount: snapshot.sources.length,
     categoryCount: snapshot.categories.length,
+    venueCount: distinct(snapshot.events.map((event) => event.venueName)),
+    areaCount: distinct(snapshot.events.map((event) => event.area)),
+    tagCount: distinct(snapshot.events.flatMap((event) => event.tags)),
     // Enough to give each city a recognisable shape on the landing page.
     topCategories: [...snapshot.categories]
       .sort((a, b) => b.eventCount - a.eventCount)

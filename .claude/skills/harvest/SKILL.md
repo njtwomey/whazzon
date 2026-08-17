@@ -63,7 +63,10 @@ Each subagent gets:
 
 - the contents of `prompts/stage2-harvest.md`
 - its category's due sources: `id`, `name`, `url` and **`hints`** (the hints are
-  the per-source knowledge that keeps the shared prompt general — pass them)
+  the per-source knowledge that keeps the shared prompt general — pass them).
+  `url` may be a list of roled routes rather than one URL; pass all of them, with
+  their roles and notes — an `api` or `ics` route is usually the whole diary in
+  one fetch and is the reason the source has more than one.
 - the current tag vocabulary
 - today's date, so it can resolve "08 Mar" to a real year
 
@@ -99,7 +102,7 @@ locationId: <location-id>
 date: "<YYYY-MM-DD>"
 category: <category>
 harvestedAt: "<YYYY-MM-DD>T<HH:MM:SS>Z"
-prompt: { name: stage2-harvest, version: "3" }
+prompt: { name: stage2-harvest, version: "4" }
 model: <the model that did the extraction>
 observations: [...]
 ```
@@ -165,3 +168,9 @@ than one that covered half and said so.
 
 - **`npm run mock` is fixtures, not a harvest.** It refuses to overwrite a real
   run without `--force`. Never reach for it here.
+
+- **Tell subagents not to write `{0,n}` in a grep pattern.** See `CLAUDE.md`:
+  `grep` wraps ugrep, and a bounded repeat of a wide character class over saved
+  HTML costs gigabytes and never finishes. Two fan-outs have left multi-GB
+  orphaned processes behind doing exactly this. Unbounded quantifiers,
+  `/usr/bin/grep`, `rg`, or a short node script instead.

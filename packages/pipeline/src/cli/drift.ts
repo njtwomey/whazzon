@@ -3,6 +3,7 @@ import { parse } from "yaml";
 import { loadSources } from "../lib/catalogue.js";
 import { resolveLocations } from "../lib/locations.js";
 import { paths, rel, walk } from "../lib/paths.js";
+import { hasRoute, primaryUrl, routesOf } from "../lib/routes.js";
 
 /**
  * What stage 2 learned that stage 1 needs to know.
@@ -40,8 +41,6 @@ const dateFilter = rest.includes("--date") ? rest[rest.indexOf("--date") + 1] : 
 /** Emit a table for pasting into a run REPORT.md, so corrections can be checked at a glance. */
 const markdown = rest.includes("--markdown");
 
-const normalise = (url: string) => url.replace(/\/+$/, "").toLowerCase();
-
 for (const locationId of locations) {
   const catalogued = new Map(loadSources(locationId).map((s) => [s.id, s]));
 
@@ -73,9 +72,10 @@ for (const locationId of locations) {
       const source = catalogued.get(observation.sourceId);
       if (!source) continue;
 
+      const routes = routesOf(source);
       const base = {
         sourceId: observation.sourceId,
-        catalogueUrl: source.url,
+        catalogueUrl: primaryUrl(source) + (routes.length > 1 ? ` (+${routes.length - 1} more routes)` : ""),
         note: observation.notes,
         date: run.date,
       };
@@ -84,7 +84,10 @@ for (const locationId of locations) {
         failed.push({ ...base, error: observation.fetch.error });
         continue;
       }
-      if (normalise(observation.fetch.url) !== normalise(source.url)) {
+      // Against every route, not just the primary one. An agent that took the
+      // `api` route found no moved page, and flagging it each run would bury
+      // the corrections that are real.
+      if (!hasRoute(source, observation.fetch.url)) {
         moved.push({ ...base, workingUrl: observation.fetch.url });
       }
       if ((observation.events ?? []).length === 0) {

@@ -1,0 +1,781 @@
+schema: whazzon.catalogue/1
+category: festivals
+label: Festivals
+description: >-
+  Cork's year is festival-shaped, and most of it happens in borrowed rooms rather
+  than at a venue that would list it. Jazz over the October bank holiday and
+  Midsummer in June are the two peaks; Halloween, St Patrick's and Christmas are
+  civic events run by the council; the film, folk, choral and craft festivals fill
+  in the rest. Almost every entry here is silent between editions, which is why
+  nearly all of them are quarterly.
+sources:
+  - id: festivals/guinness-cork-jazz
+    name: Guinness Cork Jazz Festival
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://guinnesscorkjazz.com/line-up/
+    homepage: https://guinnesscorkjazz.com/
+    area: City Centre
+    tags: [music, jazz, major, citywide, multi-venue, autumn, ticketed]
+    cadence: quarterly
+    hints: |
+      22-26 October 2026, the October bank holiday weekend, and the single
+      biggest thing in the Cork year — around 500 musicians over 100 events in
+      roughly 80 venues, plus the free Guinness Music Trail in the pubs.
+      Nothing usable is published until autumn: in mid-August /line-up/ reads
+      only "LINE UP COMING SOON" while the homepage carries the dates. Raise to
+      weekly from September until the festival, then drop back. Most of the
+      programme happens in venues catalogued elsewhere, so set `venue.sourceId`
+      where it matches. /music-trail/ and /the-big-fringe/ are linked from the
+      nav but currently 404. The homepage also carries a stale April 2025
+      Kamasi Washington item and an undated Blue Note Records exhibition —
+      neither belongs to this edition.
+    notes: |
+      Verified 2026-08-17: guinnesscorkjazz.com is the festival's own site and
+      prints "OCTOBER BANK HOLIDAY WEEKEND 22 - 26 OCT". Two plausible-looking
+      domains must never be catalogued: guinnessjazzfestival.com does not
+      resolve at all, and corkjazzfestival.com serves a healthy 200 but is now
+      an online gambling affiliate blog trading as "Corkjazz Festival" (casino
+      and sports-betting posts, most recent August 2026).
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: festivals/cork-midsummer
+    name: Cork Midsummer Festival
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://www.corkmidsummer.com/whats-on
+    homepage: https://www.corkmidsummer.com/
+    area: City Centre
+    tags: [theatre, dance, art, music, major, citywide, multi-venue, summer]
+    cadence: quarterly
+    hints: |
+      Ten days each June — 12-21 June 2026 was the last edition — about 50
+      events at 30 locations, commissioning theatre, dance, circus and music
+      across the city. **The what's-on page does not empty between editions.**
+      In mid-August it still serves the whole dated June programme behind a
+      "Thanks for joining, see you in 2027" header, complete with a day picker
+      for 12-21 and prices. Read that header first: everything below it is the
+      finished edition, and a naive crawl re-records fifty past events every
+      run. 2027 dates are not published yet. Much of the programme sits in
+      venues we catalogue separately, so set `venue.sourceId` where it matches.
+    notes: >-
+      Verified 2026-08-17: /whats-on carries the 12-21 June 2026 programme,
+      including "Isabelle Huppert Reads Maupassant" as opening words and a
+      Solstice Céilí as the closing event.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: festivals/cork-international-film-festival
+    name: Cork International Film Festival
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://corkfilmfest.org/events/
+    homepage: https://www.corkfilmfest.org/
+    area: City Centre
+    tags: [film, major, multi-venue, autumn]
+    cadence: monthly
+    hints: |
+      The 71st edition runs 12-22 November 2026. Unlike most of this category
+      CIFF programmes year-round — Bastille Day, Culture Night, Heritage Week
+      walking tours, Cruinniú na nÓg, CIFF Selects — so /events/ is a genuine
+      rolling diary rather than a page that empties, which is why this is
+      monthly rather than quarterly. It sorts "Forthcoming First" and filters by
+      venue; in mid-August it held exactly one future item, Moving Pictures: A
+      Historic City Walk, Fri 21 Aug 18:00 from outside Gallagher's Pub on
+      MacCurtain Street. Raise to weekly from late October, when the November
+      brochure lands. Screenings sit at The Arc, The Everyman, Triskel and The
+      Gate, all catalogued elsewhere, so set `venue.sourceId`. Ticketing is on
+      Eventive (corkfilmfest.eventive.org) whose /schedule is rendered entirely
+      in JavaScript and serves an empty body to a plain fetch — use the
+      corkfilmfest.org pages instead.
+    notes: >-
+      Verified 2026-08-17: the homepage heads "71st FESTIVAL: 12th - 22nd
+      NOVEMBER 2026" and /events/ is the site's own events archive with a
+      forthcoming-first sort. Note that Pure Cork advertises 5-15 November for
+      the same edition; the festival's own dates are the ones to trust.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: festivals/indiecork
+    name: IndieCork
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://indiecork.com/programme/
+    homepage: https://indiecork.com/
+    area: City Centre
+    tags: [film, independent, autumn, short-film]
+    cadence: quarterly
+    hints: |
+      Independent film and music festival, the indie counterpart to CIFF, held
+      at the Arc Cinema on North Main Street. **The programme is only ever a PDF
+      brochure** — /programme/ is a download link and nothing else, so expect no
+      HTML diary at any point in the year. Dated announcements appear in /news/
+      posts from about September. The edition month has moved around: December
+      in 2023, October in 2024 and 2025, so do not assume a date from the
+      previous year. Serve the site a browser user-agent; it 403s automated
+      fetchers.
+    notes: |
+      Verified 2026-08-17 with a browser user-agent (a plain fetch gets 403).
+      The site is still branded "IndieCork 2025" throughout and the newest
+      brochure is IndieCork-Brochure-2025-v2.pdf, re-uploaded July 2026; the
+      13th edition ran in 2025 with awards announced 4 November 2025. No 2026
+      edition is announced yet — the only 2026 item in the nav is an industry
+      strand, Euro Connection 2026. Alive but between editions, not gone.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: festivals/cork-folk-festival
+    name: Cork Folk Festival
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://www.corkfolkfestival.com/
+    area: City Centre
+    tags: [music, folk, trad, autumn, multi-venue, independent]
+    cadence: quarterly
+    hints: |
+      The 47th edition runs 8-11 October 2026 — the dates are in the site's
+      <title> tag on every page, which is the most reliable thing on the site.
+      **Most of this site is years out of date and will poison a naive crawl.**
+      /sessions-gig-trail/ still lists the 2019 session timetable under a
+      COVID-19 notice ("all sessions are on hold at the moment"); page titles
+      say "46th" where the body says 47th; /pictures-program-tickets/ is a
+      poster JPG from a 2022 upload path. The dated programme exists only as a
+      news post — /46th-cork-folk-festival-news/ currently holds the 47th
+      edition's headline acts — plus a poster image, so treat news posts as the
+      programme and ignore the standing pages. Concerts are at St Peter's,
+      Triskel and the Coburg Street trad pubs. Needs a browser user-agent.
+    notes: >-
+      Verified 2026-08-17 with a browser user-agent (WebFetch gets 403). Live
+      and running, but the worst-maintained site in this category — a stage 2
+      run that reads the sessions page as current would record about thirty
+      seven-year-old pub sessions as though they were on this October.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: festivals/cork-international-choral-festival
+    name: Cork International Choral Festival
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://www.corkchoral.ie/festival_events/
+    homepage: https://www.corkchoral.ie/
+    area: City Centre
+    tags: [music, choral, classical, major, spring, multi-venue]
+    cadence: quarterly
+    hints: |
+      Running since 1954, five days over the May bank holiday: 28 April - 2 May
+      2027 is the next edition, counted down on the homepage. Gala concerts and
+      the Fleischmann International Trophy competition at City Hall, St Fin
+      Barre's and the churches, plus school and open competitions.
+      **/festival_events/ empties completely between editions** — in mid-August
+      it reads "Festivals Coming Soon. We're working on the next installment" —
+      and the programme goes live in April, so there is nothing to fetch from
+      about June to March. The festival also promotes one-off concerts outside
+      the festival window (Gospel Voices, 2 October 2026) and those appear only
+      in /news/, so read the news index when the events page is empty. Office
+      at Civic Trust House, 50 Pope's Quay.
+    notes: >-
+      Verified 2026-08-17: /festival_events/ is the site's own events listing
+      and is currently empty by design. The tribe/events REST API and the
+      festival_events REST collection both answer 401, so there is no usable
+      structured route.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: festivals/sounds-from-a-safe-harbour
+    name: Sounds from a Safe Harbour
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://soundsfromasafeharbour.com/
+    tags: [music, art, theatre, major, multi-venue, independent, biennial]
+    cadence: quarterly
+    hints: |
+      Biennial multi-venue festival of music, art and conversation, curated by
+      Bryce Dessner and Mary Hickson, running in odd years. **2026 is an off
+      year** — the site is stripped back to a homepage whose only nav items are
+      "2027 Home" and "Sirens", both of which currently carry artwork rather
+      than dates, so expect nothing until the 2027 edition is announced. There
+      is no separate listings page: the homepage is the programme when there is
+      one. Sirens is a companion strand with its own ticket links. Almost
+      everything happens in venues we catalogue separately, so set
+      `venue.sourceId` where it matches.
+    notes: >-
+      Verified 2026-08-17: the site is live, titled "Sounds from a Safe
+      Harbour // SFSH", copyright 2026, and its nav points at 2027. The
+      brief's question is answered: 2026 is not an on year. The page is almost
+      entirely images, so a text-only fetch returns very little.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: festivals/quarter-block-party
+    name: Quarter Block Party
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://linktr.ee/quarter_cork
+    area: MacCurtain Street
+    tags: [music, theatre, art, independent, community, multi-venue]
+    cadence: quarterly
+    hints: |
+      DIY music, theatre and art festival presented by Makeshift Ensemble in the
+      Victorian Quarter around North and MacCurtain Street. **It no longer has a
+      website.** The Linktree is the only live official page and lists no dates,
+      so expect a `notes` handover to `catalogue` rather than events until the
+      festival publishes somewhere crawlable. Note the edition has moved: it ran
+      in February from 2015 to 2020 and in July afterwards (14-16 July 2023,
+      20-21 July 2024), so the February assumption is wrong.
+    notes: |
+      Checked 2026-08-17, and this is the Bristol failure repeating. The
+      festival's own domain quarterblockparty.com now serves a healthy 200 that
+      redirects to harum4dd6.com, an Indonesian gambling APK site on Squarespace
+      ("Harum4d Platform Unduhan Apk Gacor Resmi") — do not catalogue it and do
+      not let stage 2 fetch it. quarterblockparty.ie does not resolve. The
+      organisation still exists: linktr.ee/quarter_cork is live, headed "Quarter
+      presents — Festival & Music Promoters in Cork City", linking Instagram and
+      Plugd Records, and the old contact address info@quarterblockparty.com is
+      still published. No 2025 or 2026 edition could be confirmed. A human
+      should decide whether to keep this as dormant or find the new home.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: festivals/cork-harbour-festival
+    name: Cork Harbour Festival
+    category: festivals
+    kind: festival
+    status: provisional
+    url:
+      - role: listings
+        url: https://corkharbourfestival.com/events/
+      - role: api
+        url: https://corkharbourfestival.com/wp-json/wp/v2/ajde_events
+        note: >-
+          167 events with full body text and links, 1 per page by default, but
+          it carries no event dates — meta is empty — so take dates from the
+          startDate on each /events/<slug>/ page
+    tags: [maritime, family, free, outdoor, summer, community, multi-venue]
+    cadence: quarterly
+    hints: |
+      Ten days each June built around the Ocean to City rowing race, with 100+
+      events across the city and the wider harbour. The next edition is 5-14
+      June 2027, with Ocean to City on 5 June. **The listings page is an EventON
+      JavaScript calendar pinned to the last edition's month** (fixed_month 5,
+      fixed_year 2026 in the widget config) and renders nothing to a plain
+      fetch, so use the api route above, or the /events/<slug>/ pages, rather
+      than trying to read the calendar. A large share of the programme is in
+      Cobh, Crosshaven, Passage West and Monkstown — outside this location's
+      radius — so filter to the city and inner harbour.
+    notes: >-
+      Verified 2026-08-17: the homepage <title> still advertises the finished
+      "30 May - 8 June 2026" edition while the body announces 5-14 June 2027, so
+      trust the body. The api route was confirmed by fetching it — it returns
+      real ajde_events JSON with X-WP-Total 167. tribe/events 404s here.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: festivals/ocean-to-city
+    name: Ocean to City — An Rás Mór
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://oceantocity.com/
+    tags: [maritime, sport, free, outdoor, summer, major]
+    cadence: quarterly
+    hints: |
+      Ireland's largest multi-craft rowing and paddling race, from Crosshaven up
+      the harbour to the quays in the city centre, and the anchor event of Cork
+      Harbour Festival. Next running 5 June 2027. The site is a single-event
+      site with no diary — the homepage banner carries the date and the rest is
+      participant information, regulations and boat rentals — so one `single`
+      event per edition is the honest record, plus the year-round "5 Miles from
+      Home" challenge which is not a dated event. Organised by Meitheal Mara.
+    notes: >-
+      Verified 2026-08-17: the site heads "Ocean to City is on 5 June 2027" and
+      states the 2026 race has finished. Address deliberately omitted — the
+      published address (c/o Meitheal Mara, Crosses Green House, T12 HF38) is
+      the organiser's office, not where the race happens, and would put the map
+      pin in the wrong place.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: festivals/dragon-of-shandon
+    name: Dragon of Shandon
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://www.dragonofshandon.com/
+    area: Shandon
+    tags: [free, outdoor, family, community, halloween, major, civic]
+    cadence: quarterly
+    hints: |
+      Cork's Samhain night parade, and a genuine civic event rather than a
+      themed evening: a 36-foot dragon and hundreds of costumed participants
+      leaving Shandon at 7pm on Halloween night. 31 October 2026 is the 20th
+      anniversary. One parade plus a finale show, so expect a single dated event
+      per year and a run of free community workshops through October. Made by
+      Cork Community Art Link, which programmes into other events too. Nothing
+      new appears here between about November and September; the site is a deep
+      archive of editions back to 2006, so read the current year's copy on the
+      homepage rather than the archive pages.
+    notes: >-
+      Verified 2026-08-17: the homepage states the dragon re-emerges "at 7pm on
+      Saturday 31st October 2026" for the 20th anniversary, a project by Cork
+      Community Art Link and Cork City Communities.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: festivals/cork-community-pride
+    name: Cork Community Pride
+    category: festivals
+    kind: festival
+    status: provisional
+    url:
+      - role: listings
+        url: https://www.corkcommunitypride.ie/events/
+      - role: api
+        url: https://www.corkcommunitypride.ie/wp-json/tribe/events/v1/events
+        note: >-
+          The Events Calendar REST API; answers with valid JSON and total 0
+          while nothing is scheduled, so it is the cheapest way to tell an empty
+          diary from a fetch failure
+    tags: [lgbtq, community, free, outdoor, summer, citywide]
+    cadence: quarterly
+    hints: |
+      Cork's Pride, rebuilt in 2026 by a volunteer collective after the previous
+      organisation went into liquidation: 1-2 August 2026, with the march on
+      Sunday 2 August and a family picnic. The events page currently reads
+      "There are no upcoming events" and the API agrees, so expect nothing until
+      the next edition is programmed — announcements arrive as news posts first.
+      Satellite events at other venues are likely, so set `venue.sourceId`
+      where they match.
+    notes: |
+      Verified 2026-08-17. The brief's lead was the old organisation: corkpride.com
+      and corkpride.ie do not resolve at all, and Cork Pride went into
+      liquidation. corkcommunitypride.ie is the live successor, describing
+      itself as a grassroots collective of volunteers from across Cork city and
+      county established in 2026. Catalogued under the successor's name so the
+      id is not tied to the defunct body.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: festivals/culture-night-cork
+    name: Culture Night Cork
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://www.corkcity.ie/en/culture-night/one-night-for-all/cork-city-events/
+    homepage: https://www.corkcity.ie/en/culture-night/
+    area: City Centre
+    tags: [free, civic, citywide, multi-venue, autumn, community]
+    cadence: quarterly
+    hints: |
+      One free evening in late September when dozens of Cork venues, studios,
+      churches and civic buildings open late — the biggest single night of free
+      programming in the city, and almost none of it appears on the venues' own
+      sites. Cork City Council runs the local hub; the national scheme is at
+      culturenight.ie, which answers 202 to a plain fetch (a bot wall, not a
+      dead site) and holds a county-filtered listing if the council page is
+      stale. The council page is year-stamped in content rather than path and
+      goes stale: in mid-August 2026 it still headed "Cork City Culture Night
+      September 19th 2025", with the previous year parked at
+      /one-night-for-all/all-events-2024-for-reference/. Check which year the
+      page claims before recording anything, and raise to weekly through
+      September. Printable brochure and map sit alongside the listings.
+    notes: >-
+      Verified 2026-08-17: /one-night-for-all/cork-city-events/ is the council's
+      own Culture Night listings path and resolves, but the section is still
+      dressed for the 2025 edition. The corkcity.ie template puts a very large
+      site-wide nav ahead of the content, so a text-only fetch is mostly menu.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: festivals/cork-st-patricks-festival
+    name: Cork St Patrick's Festival
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://www.corkcity.ie/en/cork-st-patricks-festival/
+    area: City Centre
+    tags: [free, outdoor, family, civic, citywide, community, spring]
+    cadence: quarterly
+    hints: |
+      A five-day council-run festival around 17 March, not just the parade:
+      2026 carried a Ceilí Mór at City Hall, Ceol Chorcaí, the Lee Sessions
+      Trad Trail on five separate days, a night market on Cornmarket Street,
+      Playin' in the Park and tours of Elizabeth Fort and UCC. **The dated
+      listings live at a year-stamped path** —
+      /cork-st-patricks-festival/festival-events-2026/, split into
+      /special-events/ and /city-events/ with one page per event — so start from
+      this parent page and follow whichever year it links, rather than hard-coding
+      the year. Programme lands in February; nothing new from April to January.
+    notes: >-
+      Verified 2026-08-17: the parent page and the festival-events-2026 tree
+      both resolve, with about twenty individually-pathed dated events under
+      /city-events/.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: festivals/cork-christmas-celebration
+    name: A Cork Christmas Celebration (Corkmas)
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://www.corkcity.ie/en/a-cork-christmas-celebration/whats-on-in-the-city/
+    homepage: https://www.corkcity.ie/en/a-cork-christmas-celebration/
+    area: City Centre
+    tags: [free, outdoor, family, civic, citywide, winter, christmas]
+    cadence: quarterly
+    hints: |
+      The council's whole Christmas programme, branded Corkmas: the Corkmas
+      parade, Bishop Lucey Park, the Counting House Plaza stage, a Santa
+      experience, a ferris wheel and a festive market, plus a "Corkmas in the
+      City" strand pointing at partner venues including Triskel. Live from about
+      November to early January and dormant the rest of the year, with dates
+      appearing first under /news/. The Christmas market itself is also
+      catalogued under `markets`, so prefer the parade, stage and city events
+      here and let that entry own the market stalls.
+    notes: >-
+      Verified 2026-08-17: the whats-on-in-the-city path resolves and the
+      section's sub-pages are all in place; the newest news item is
+      "Announcing Corkmas 2025", so the 2026 programme is not up yet.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: festivals/cork-heritage-open-day
+    name: Cork Heritage Open Day
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://www.corkcity.ie/en/cork-heritage-open-day/events/
+    homepage: https://www.corkcity.ie/en/cork-heritage-open-day/
+    area: City Centre
+    tags: [free, heritage, family, civic, citywide, summer, multi-venue]
+    cadence: quarterly
+    hints: |
+      One Saturday each August when over 40 buildings normally closed to the
+      public open free of charge — 15 August 2026 was the 21st edition, and it
+      marks the start of National Heritage Week in Cork. The /events/ tree is
+      split into building tours, historical street walking tours, talks,
+      family-friendly events and workshops, with a separate /buildings/ tree
+      grouping the 42 buildings by type; the programme is also published as a
+      brochure. Slots need booking and go quickly, so listings appear only a few
+      weeks ahead — raise to weekly from mid-July. Many of the buildings are
+      catalogued elsewhere (Cork Opera House, Graffiti Theatre, Nano Nagle
+      Place, Cork Public Museum), so set `venue.sourceId`.
+    notes: >-
+      Verified 2026-08-17: both the parent and /events/ resolve and the page
+      states 42 buildings and Heritage Week 15-23 August 2026. As with the other
+      corkcity.ie microsites the site-wide nav dominates a text fetch.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: festivals/cork-carnival-of-science
+    name: Cork Carnival of Science
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://www.corkcity.ie/en/cork-carnival-of-science/what-on/
+    homepage: https://www.corkcity.ie/en/cork-carnival-of-science/
+    area: Sunday's Well
+    tags: [free, outdoor, family, science, civic, summer]
+    cadence: quarterly
+    hints: |
+      A free two-day outdoor STEM festival in Fitzgerald Park, 6-7 June 2026,
+      run by Cork City Council with Research Ireland: 26 science shows and 50+
+      activities each day, from Tyndall, MTU, UCC, Fota Wildlife Park and the
+      rest. The what's-on page lists the stands and shows individually but
+      without per-item times, so a `run` over the two days is usually the honest
+      record. Note this is not the same thing as Cork Science Festival in
+      November. Programme appears in May; silent otherwise.
+    notes: >-
+      Verified 2026-08-17: /what-on/ resolves and names the 6-7 June 2026
+      edition at Fitzgerald Park along with the individual shows and exhibitors.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: festivals/cork-science-festival
+    name: Cork Science Festival
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://www.corksciencefestival.ie/calendar.html
+    homepage: https://www.corksciencefestival.ie/
+    tags: [free, science, family, university, autumn, multi-venue]
+    cadence: quarterly
+    hints: |
+      Cork's Science Week festival each November — free public events, open
+      days, tours, talks and shows across the universities, Blackrock Castle
+      Observatory, the libraries and Marina Market. **The website is frozen on
+      the 2021 edition**: both /calendar.html and the homepage still head
+      "6 - 14 November 2021" and the calendar widget sits on May 2022, so
+      nothing on it is current. It is a Wix site, so the content is rendered in
+      JavaScript and a plain fetch returns mostly framework markup. Expect the
+      live programme to appear via scienceweek.ie and the partner venues rather
+      than here.
+    notes: |
+      Checked 2026-08-17: the domain and site are alive but have published
+      nothing since 2021, while the festival itself has continued to run each
+      November. Left provisional rather than dormant because the festival is
+      real; a human should decide whether to keep this URL or repoint the entry
+      at scienceweek.ie's Cork listing. This is the honest opposite of the
+      Bristol problem — a live 200 that is four editions stale.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: festivals/cork-french-film-festival
+    name: Cork French Film Festival
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://corkfrenchfilmfestival.com/
+    area: City Centre
+    tags: [film, spring, independent]
+    cadence: quarterly
+    hints: |
+      A week of French, Belgian, Swiss and Luxembourgish cinema at The Arc
+      Cinema on North Main Street, plus school screenings and one online event.
+      2-10 March 2026 was the last edition. **Every listings path is
+      year-stamped** — /programme-2026/, /timetable-2026/, /category/films-2026/
+      and a page per festival day — and old years stay up in full, so navigate
+      from the homepage nav, which always points at the current year, and never
+      assume a year in the path. The timetable is the page with times and
+      screens on it. The edition month moved from September (2021, 2022) to
+      March (2023 onwards), so do not infer dates from an old page. Programme
+      appears in January or February; nothing from April to December.
+    notes: >-
+      Verified 2026-08-17: /timetable-2026/ carries dated screenings — "Sunday,
+      March 8th 11:00am, Le Secret des mésanges"; "Saturday, March 7th 2:00pm,
+      La Vérité" — at The Arc Cinema, North Main Street.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: festivals/cork-podcast-festival
+    name: Cork Podcast Festival
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://corkpodcastfestival.ie/full-lineup-details/
+    homepage: https://corkpodcastfestival.ie/
+    area: City Centre
+    tags: [spoken-word, spring, ticketed, multi-venue]
+    cadence: quarterly
+    hints: |
+      Live podcast recordings and talks over about ten days in March — 20-28
+      March 2026 for the last edition — at St Luke's, Cork Opera House and UCC's
+      Boole Library. The lineup page carries one dated line per show ("THURS 26
+      MARCH — THE BLINDBOY PODCAST — CORK OPERA HOUSE") with no year printed, so
+      settle the year from the page title, which does carry it. The page does
+      **not** empty after the festival: in mid-August it still serves the whole
+      March 2026 lineup, so check the title year before recording. Note the .ie
+      domain — corkpodcastfestival.com and corkpodcastfest.com do not resolve.
+      Nearly everything is at venues we catalogue, so set `venue.sourceId`.
+    notes: >-
+      Verified 2026-08-17: the site is titled "Cork Podcast Festival 2026" and
+      /full-lineup-details/ lists seven dated shows from Fri 20 to Sat 28 March.
+      The nav label is "Full Lineup" but the path is /full-lineup-details/.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: festivals/cork-lifelong-learning-festival
+    name: Cork Lifelong Learning Festival
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://www.corklearningcity.ie/lifelong-learning-festival/
+    homepage: https://www.corklearningcity.ie/
+    tags: [free, community, civic, citywide, spring, family]
+    cadence: quarterly
+    hints: |
+      A week each April — 22-29 April 2026 for the last edition — of hundreds of
+      free workshops, talks, walks, classes and performances, run by Cork
+      Learning City out of Cork City Hall and spread across the learning
+      neighbourhoods (South Parish, Togher, Knocknaheeny, Ballyphehane, The Glen,
+      Mayfield). This carries a large slice of the city's free community
+      programme, and almost none of it appears anywhere else. **The programme is
+      a flipbook, not HTML** — there is no per-event page and no dated web
+      listing, so expect the honest record to be a small number of `run` or
+      `undated` entries plus a note pointing at the flipbook, rather than
+      hundreds of events. Nothing here between May and February.
+    notes: >-
+      Verified 2026-08-17: the page states the next festival runs "Wednesday
+      22nd of April - Wednesday 29th of April 2026" and that printed programmes
+      go to libraries, host venues and the City Hall foyer. learningfestival.ie
+      does not resolve; corklearningcity.ie is the live host.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: festivals/spirit-of-mother-jones
+    name: The Spirit of Mother Jones Festival
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://motherjonescork.com/
+    area: Shandon
+    tags: [free, community, independent, summer, heritage, multi-venue]
+    cadence: quarterly
+    hints: |
+      Three days in Shandon each late July — 23-25 July 2026 — of talks, film
+      and music marking Mary Harris "Mother Jones", born on the North Side, plus
+      a summer school and an annual award. Free, community-run, and held in the
+      Shandon venues (the Maldron, the Firkin Crane, St Anne's). **The programme
+      is published as WordPress news posts, one per day of the festival**
+      ("Events at the Spirit of Mother Jones Festival ... on Thursday 23rd July
+      2026"), with a /festival-<year>/ page as the hub — the year is in the
+      path, so navigate from the homepage nav item rather than guessing it.
+      Editions back to 2012 all remain online, so anchor on the current year.
+    notes: >-
+      Verified 2026-08-17: the site is headed "The Spirit of Mother Jones
+      Festival, Shandon, Cork City, Ireland", the nav's current item is
+      "Festival 2026", and news posts from 18-22 July 2026 announce the 23rd-25th
+      July edition and the 2026 award recipient.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: festivals/cork-craft-month
+    name: Cork Craft Month
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://corkcraftanddesign.ie/pages/cork-craft-month-2026
+    homepage: https://corkcraftanddesign.ie/
+    tags: [craft, art, family, free, summer, multi-venue]
+    cadence: quarterly
+    hints: |
+      All of August, run by Cork Craft & Design as Cork's arm of August Craft
+      Month: 90+ exhibitions, workshops, demonstrations, open studios and maker
+      markets. The hub page carries dated entries — Open-Air Makers Market at
+      Douglas Court, 7 August 10am-4pm; Members Showcase at St Peter's, 13-31
+      August with a launch on the 20th; Emerge Graduate Exhibition at No 46
+      Grand Parade, 30 July - 17 August — and individual workshops are sold as
+      dated Shopify products under /products/. **The hub path carries the year**,
+      so follow the homepage link rather than hard-coding it. Much of the
+      programme is out in the county (Fermoy, Fota, Greywood Arts, Clonakilty),
+      well outside this location, so filter to the city. Cork Craft & Design's
+      own shop and markets are catalogued under `markets`; keep this entry to
+      the August festival programme.
+    notes: >-
+      Verified 2026-08-17: /pages/cork-craft-month-2026 resolves and carries the
+      dated 2026 programme; the site is a Shopify store, so the workshops appear
+      as products with dates in their titles. corkcraftanddesign.com redirects
+      to the .ie host.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: festivals/cork-summer-show
+    name: Cork Summer Show
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://www.corksummershow.com/
+    area: Bishopstown
+    address:
+      street: Curraheen Showgrounds
+      locality: Curraheen
+      city: Cork
+      country: Ireland
+    tags: [family, outdoor, agricultural, ticketed, summer, major]
+    cadence: quarterly
+    hints: |
+      Munster Agricultural Society's two-day agricultural show at Curraheen
+      Showgrounds, 20-21 June 2026, and one of the largest ticketed family days
+      in the city's year: livestock, showjumping, horticulture, vintage, dog
+      shows, arts and baking, and a military show. The site is organised by
+      competition rather than by time — /competitions/ holds a "Competition
+      Times, Rules & Info" page and a "Diary 2026" — so the show weekend is
+      usually best recorded as one `run` with the competition schedule as
+      detail, not as fifty separate classes. Entries and schedules go up in
+      spring; the site is quiet from July to March.
+    notes: >-
+      Verified 2026-08-17: the homepage prints "20th & 21st June 2026 — Munster
+      Agricultural Society" and names Curraheen Showgrounds. No Eircode is
+      published on the site, so none is recorded here.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: festivals/blackpool-block-party
+    name: Blackpool Block Party
+    category: festivals
+    kind: festival
+    status: provisional
+    url: https://corkcommunityartlink.com/blackpool-block-party-2026/
+    homepage: https://corkcommunityartlink.com/
+    area: Blackpool
+    tags: [free, outdoor, family, community, summer]
+    cadence: quarterly
+    hints: |
+      A free street party on Great William O'Brien Street in Blackpool each
+      August — Sunday 23 August 2026 — with live music, street dancing, games,
+      storytelling and a free lunch, run by Cork Community Art Link. One of the
+      few neighbourhood festivals on the north side with a page of its own.
+      **The path carries the year**, so follow the link from
+      corkcommunityartlink.com rather than editing the year in. The organiser's
+      homepage carries the dated announcement and is the better place to check
+      whether an edition is happening at all.
+    notes: >-
+      Verified 2026-08-17: the year-stamped page resolves and the Cork Community
+      Art Link homepage carries the 23 August 2026 date and programme. The
+      organiser itself is catalogued under `theatre`, so this entry covers only
+      the street festival.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: festivals/pure-cork-festivals
+    name: Pure Cork — Festivals
+    category: festivals
+    kind: aggregator
+    status: provisional
+    url: https://www.purecork.ie/whats-on/categories/festivals
+    homepage: https://www.purecork.ie/whats-on/
+    tags: [citywide, civic]
+    cadence: weekly
+    hints: |
+      Cork's own destination site, run with Cork Business Tourism, and the
+      safety net for this whole category — a filtered festivals view of its
+      what's-on database, paginated three pages deep, with roughly twenty dated
+      festivals followed by a "More Festivals" block that gives only a month.
+      Covers city and county across 26 areas, so filter to Cork City (about 890
+      of its entries) and drop Bantry, Kinsale, Youghal, Cobh, Macroom, Cape
+      Clear and the islands. **Its dates drift from the festivals' own** — it
+      advertised 5-15 November 2026 for a film festival whose own site says
+      12-22 November — so treat it as a discovery tool and take dates from the
+      festival where we have it. Note /whats-on/festivals/ also returns 200 but
+      is a broken view that renders "1 January 1970"; the /categories/ path is
+      the working one.
+    notes: >-
+      Verified 2026-08-17: /whats-on/categories/festivals lists dated entries
+      including Guinness Cork Jazz Festival 22-26 October 2026 and Festigeal
+      17-23 August 2026 in Blarney.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: festivals/national-heritage-week
+    name: National Heritage Week — Cork
+    category: festivals
+    kind: aggregator
+    status: provisional
+    url: https://www.heritageweek.ie/event-listings?q=cork
+    homepage: https://www.heritageweek.ie/
+    tags: [free, heritage, family, community, summer, citywide]
+    cadence: quarterly
+    hints: |
+      The Heritage Council's national scheme, 15-23 August 2026, under which
+      several hundred free Cork events run in one week — walks, talks, open
+      buildings, family days — most of them one-offs by community groups with no
+      website of their own, which makes this the only place they are listed.
+      Cork Heritage Open Day opens it. The listing is a searchable index filtered
+      by county, event type and date; ?q=cork is the query that works and the
+      site reports 364 events nationally. Only live from about July to late
+      August each year, so quarterly with a lift to weekly in August. Filter to
+      the city — the county results reach Cobh, Youghal and West Cork.
+    notes: >-
+      Verified 2026-08-17: the Cork query returns dated entries including
+      "Medieval Day at Cork Public Museum, 15 August, 11am - 4pm" and "Moving
+      Pictures: Cork's Historic Cinema Walking Tour, 21 August, 6pm - 7:30pm".
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"

@@ -20,5 +20,13 @@ export interface LocationSummary {
   eventCount: number;
   sourceCount: number;
   categoryCount: number;
+  /**
+   * Counted over the events in the snapshot rather than over the catalogue — a
+   * catalogued venue with nothing listed is not somewhere you can go tonight.
+   * Optional so an index written before these existed still parses.
+   */
+  venueCount?: number;
+  areaCount?: number;
+  tagCount?: number;
   topCategories: string[];
 }

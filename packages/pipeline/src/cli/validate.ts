@@ -3,6 +3,7 @@ import { basename, dirname } from "node:path";
 import { readArtefact } from "../lib/files.js";
 import { loadLocation, resolveLocations } from "../lib/locations.js";
 import { paths, rel, walk } from "../lib/paths.js";
+import { routesOf } from "../lib/routes.js";
 import { CatalogueArtefact } from "../schema/catalogue.js";
 import { HarvestArtefact } from "../schema/harvest.js";
 import type { Source } from "../schema/catalogue.js";
@@ -105,15 +106,21 @@ for (const locationId of locations) {
 
       // Two catalogue entries pointing at one URL means stage 2 pays twice for
       // the same page and the site shows the same event under two venues.
-      const url = source.url.replace(/\/$/, "");
-      const owner = sourcesByUrl.get(url);
-      if (owner && owner !== source.id) {
-        warnings.push({
-          path: rel(path),
-          message: `"${source.id}" shares a URL with "${owner}" — one of them is probably redundant`,
-        });
-      } else {
-        sourcesByUrl.set(url, source.id);
+      // Checked per route, because the collision that matters is any shared
+      // endpoint, not just a shared front page.
+      for (const route of routesOf(source)) {
+        const url = route.url.replace(/\/$/, "");
+        const owner = sourcesByUrl.get(url);
+        if (owner && owner !== source.id) {
+          warnings.push({
+            path: rel(path),
+            message:
+              `"${source.id}" shares a ${route.role} URL with "${owner}" — one of them is probably redundant` +
+              `\n      ${url}`,
+          });
+        } else {
+          sourcesByUrl.set(url, source.id);
+        }
       }
     }
   }

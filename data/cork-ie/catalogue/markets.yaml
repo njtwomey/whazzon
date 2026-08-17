@@ -1,0 +1,685 @@
+schema: whazzon.catalogue/1
+category: markets
+label: Markets
+description: >-
+  Cork's covered market and food halls, the weekly farmers' markets ringing the
+  city, flea and craft markets, and the seasonal Christmas trading. Almost every
+  entry is one `occurrence.kind: recurring` event with the day and time stated in
+  prose — very few of these sources keep a diary at all.
+sources:
+  - id: markets/english-market
+    name: The English Market
+    category: markets
+    kind: venue
+    status: provisional
+    url: https://www.corkcity.ie/en/english-market/
+    homepage: https://www.corkcity.ie/en/english-market/
+    area: City Centre
+    address:
+      street: Grand Parade and Princes Street
+      locality: City Centre
+      city: Cork
+      country: Ireland
+    tags: [indoor, food, historic, major, civic]
+    cadence: monthly
+    hints: |
+      Trading since 1788 and the single thing Cork points at when asked what the
+      city is. Owned by Cork City Council, managed day to day by Lisney, and it
+      has its own subsite under corkcity.ie rather than a page.
+
+      There is no event listing anywhere on the subsite — no what's-on, no news
+      path (/en/english-market/whats-on/ and /news/ both 404). The target is the
+      days-and-hours statement, recorded as one recurring event, not one per
+      trading day. Three pages state the hours and two of them disagree with the
+      third: /opening-hours/ says 8.30 a.m., while /information/information/
+      (the FAQs) and /contact-us/ both say 8.00 am. See `notes` — record both
+      rather than choosing.
+
+      /market-traders/ lists the stalls by category and is the closest thing to
+      a programme; useful for a description but it produces no dated events.
+      /information/visiting-the-market/ gives peak trading hours of 11.00 am to
+      4.30 pm daily, which is guidance rather than an occurrence.
+    notes: |
+      Verified 2026-08-17 by fetching. Council subsite confirmed, headed
+      "Welcome to The English Market".
+
+      Two official council pages contradict each other on the opening time and
+      neither is obviously the newer:
+
+        /en/english-market/opening-hours/ — "Weekly Hours Monday - Saturday :
+        8.30 a.m. - 6:00 p.m. The Market is closed every Sunday and Bank
+        Holidays"
+
+        /en/english-market/information/information/ (FAQs) and
+        /en/english-market/contact-us/ — "The English Market is open to the
+        public from 8.00 am to 6.00 pm, Monday to Saturday. It is closed on
+        Sundays and Bank Holidays."
+
+      Both agree on the 6pm close, on Monday–Saturday, and on Sunday and bank
+      holiday closure; they differ only on the opening half-hour. Recorded as
+      found; a human should decide which the site means. Both also note
+      individual traders keep their own hours within those.
+
+      Address read off the FAQ page: "main entrances on Grand Parade, and on
+      Princes Street, with further smaller entrances off Oliver Plunkett Street
+      and Patrick Street". No Eircode is published on the subsite, so none is
+      recorded here.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: markets/marina-market
+    name: Marina Market
+    category: markets
+    kind: venue
+    status: provisional
+    url: https://www.marinamarket.ie/events
+    homepage: https://www.marinamarket.ie/
+    area: The Marina
+    address:
+      street: Centre Park Road
+      locality: The Marina
+      city: Cork
+      postcode: T12 YX76
+      country: Ireland
+    tags: [indoor, food, street-food, independent, family]
+    cadence: weekly
+    hints: |
+      The rare market in this category that genuinely has a diary: /events
+      carries real dated listings (roller discos, DJ sets, comic conventions,
+      fitness classes, one-day pop-up markets), so treat those as `single` or
+      `run` occurrences in the normal way.
+
+      Separately, the hall itself is a recurring event: the homepage states
+      "Monday - Sunday 8am - 8pm", "7 days a week". Record that once as
+      `recurring` — do not emit one event per opening day.
+
+      Squarespace site. /events-1 redirects to /events; /whats-on 404s.
+    notes: |
+      Verified 2026-08-17 by fetching. /events lists dated events with titles and
+      times. Address and hours read off the homepage, which prints "Marina
+      Market, Center Park Road, Cork. T12YX76" — the road is Centre Park Road
+      and is recorded with the Irish spelling here. Pure Cork's event data
+      independently geocodes the venue to the same street.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: markets/black-market
+    name: The Black Market
+    category: markets
+    kind: venue
+    status: provisional
+    url: https://www.theblackmarketcork.ie/
+    area: Ballintemple
+    address:
+      street: Dornan's Yard, Monahan Road
+      locality: Ballintemple
+      city: Cork
+      postcode: T12 NXN1
+      country: Ireland
+    tags: [indoor, food, street-food, independent]
+    cadence: monthly
+    hints: |
+      A nine-vendor food hall in the docklands, the smaller counterpart to
+      Marina Market. Wix site with an events widget on the homepage that
+      currently reads "No events at the moment" — an empty widget, not a missing
+      page, so record the standing opening pattern as one recurring event and
+      nothing else unless the widget fills.
+
+      The homepage prints days and times in two separate columns, which reads
+      oddly out of context: Monday 10:00-20:00 marked "(BH)", Tuesday CLOSED,
+      Wednesday to Friday 09:00-20:00, Saturday and Sunday 10:00-20:00. /about
+      resolves it — "We are open from Wednesday to Sunday" — so the Monday entry
+      is bank holidays only.
+    notes: |
+      Verified 2026-08-17 by fetching. Homepage names itself "Dog Friendly Food
+      Market"; /about confirms "The Black Market Cork ... nine different
+      vendors" and gives the address as "The Black Market, Dornan's Yard,
+      Monahan Rd, Ballintemple, Cork, T12 NXN1, Ireland", which is what is
+      recorded above. Footer copyright reads 2023, so the site is not actively
+      maintained; worth a look at whether this should be `dormant`.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: markets/coal-quay-market
+    name: Cornmarket Street (Coal Quay) Market
+    category: markets
+    kind: venue
+    status: provisional
+    url: https://www.corkcity.ie/en/things-to-do/attractions/cornmarket-street-coal-quay-market/
+    area: City Centre
+    tags: [outdoor, food, farmers, street-food, historic, community]
+    cadence: monthly
+    hints: |
+      Cork's old open-air market, on the Coal Quay under Shandon. One recurring
+      Saturday-morning event, never a series of dated ones — neither source
+      carries a diary.
+
+      Two sources disagree on the start time (see `notes`); record both and keep
+      confidence medium. The council page also says "Stay tuned for new
+      Cornmarket Street Market webpage coming soon", so watch for a dedicated
+      site replacing this attractions stub, and note the page still carries
+      COVID-era social distancing copy — do not extract that as current news.
+    notes: |
+      Verified 2026-08-17 by fetching. Cork City Council's attractions page
+      names the market and states "This market takes place every Saturday
+      morning from approximately 9am - 2pm."
+
+      Taste Cork, the county's own food body, disagrees on the start:
+      https://www.tastecork.ie/food-producers/coal-quay-farmers-market (fetched,
+      200) says "Held every Saturday from 8.30 am" with no closing time. Neither
+      is a third-party blog and I did not pick between them.
+
+      A third quasi-official source, the council's own casual trading bye-laws
+      page, lists the designated area as "Cornmarket/Kyle Street - Saturdays all
+      year round" without hours, which agrees on the day only. No Eircode
+      published; address omitted.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: markets/mahon-point-farmers-market
+    name: Mahon Point Farmers' Market
+    category: markets
+    kind: venue
+    status: provisional
+    url: https://mahonpointsc.ie/farmers-market/
+    area: Mahon
+    address:
+      street: Mahon Point Shopping Centre, Mahon Link Road
+      locality: Mahon
+      city: Cork
+      postcode: T12 X7HK
+      country: Ireland
+    tags: [outdoor, food, farmers, major, weekly]
+    cadence: monthly
+    hints: |
+      The biggest weekday farmers' market in the city, 50-plus stalls in the
+      plaza at the shopping centre's main entrance. One recurring Thursday
+      event. The page is a single static description with a stallholder table —
+      there is no diary and no dated listings, so do not go hunting for one.
+
+      The day is agreed everywhere; the closing time is not (see `notes`).
+      /wp-json/tribe/events/v1/events 404s on this host; there is a /feed/ but
+      it is the shopping centre's general news feed, not the market's.
+    notes: |
+      Verified 2026-08-17 by fetching. The shopping centre's own page names the
+      market and states it is "held outside the main entrance of Mahon Point
+      Shopping Centre every Thursday morning from 10am to 2pm", "Established in
+      2006", "over 50 stalls". Address read off the same site's footer: "Mahon
+      Point Shopping Centre, Mahon Link Road, Cork, Ireland, T12-X7HK" — that is
+      the centre, and the market sits in its plaza.
+
+      Taste Cork contradicts the closing time: its entry (fetched, 200) says
+      "Held every Thursday from 10am to 3pm". Recorded both; the venue's own page
+      is what this URL points at.
+
+      Taste Cork's outbound link for this market,
+      http://www.mahonpointfarmersmarket.com/, now serves a Thai foreign-exchange
+      blog with a healthy 200 — do not follow it. Market contact on both pages is
+      Rupert Hugh-Jones, 086 1685312, who also appears as the contact for the
+      Douglas and Wilton markets; they look like one operator.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: markets/douglas-farmers-market
+    name: Douglas Farmers' Market
+    category: markets
+    kind: venue
+    status: provisional
+    url: https://www.douglasvillage.ie/farmers-market-at-douglas-village/
+    area: Douglas
+    tags: [outdoor, food, farmers, weekly]
+    cadence: monthly
+    hints: |
+      One recurring Saturday-morning event. The host page describes the market
+      but never states a day or a time — the only temporal words on it are "every
+      week". Taste Cork supplies "every Saturday from 10am to 2pm"; record that
+      with the source named and confidence medium rather than treating the host
+      page as silent.
+
+      WordPress site. Its Events Calendar REST endpoint,
+      /wp-json/tribe/events/v1/events, resolves and returns valid JSON with
+      "total": 0 — the plugin is installed and empty, so there is no diary here
+      either. /feed/ is the shopping centre's news feed.
+
+      The page claims "over 800 local farmers, growers, fishermen, bakers and
+      cooks every week", which is a typo for a much smaller number; other sources
+      say around 30. Do not carry the 800 through.
+    notes: |
+      Verified 2026-08-17 by fetching. Douglas Village Shopping Centre's page is
+      headed "Farmers' Market - Douglas Village Shopping Centre" and names the
+      market, so the market and its host are confirmed; the day and hours are
+      not on it.
+
+      Two locations are given by different sources and they are different
+      buildings: Taste Cork and this page say Douglas Village Shopping Centre,
+      while some directory listings say Douglas Court Shopping Centre across the
+      road. Cork City Council separately designates "Douglas Park" as a casual
+      trading area, which is a third place again. Unresolved — a human should
+      settle where the market actually stands before an address is recorded, so
+      none is recorded here.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: markets/blackrock-village-market
+    name: Blackrock Village Sunday Market
+    category: markets
+    kind: venue
+    status: provisional
+    url: https://iomst.ie/markets/blackrock-village-sunday-market/
+    area: Blackrock
+    tags: [outdoor, food, farmers, crafts, community]
+    cadence: monthly
+    hints: |
+      A volunteer-run Sunday market on Blackrock Village plaza, by the pier. One
+      recurring event. The market has no website of its own — blackrockmarket.ie
+      and the obvious variants do not resolve — so this is the IOMST traders'
+      organisation's page for it.
+
+      iomst.ie sits behind a JavaScript robot challenge: every path returns 202
+      with a meta refresh to /.well-known/sgcaptcha/, and following the challenge
+      with a cookie jar loops back to 202. Expect to need a real browser, and do
+      not read the 202 as a dead page.
+
+      Cork City Council's casual trading bye-laws page is the fallback fact:
+      "Blackrock Market - Sundays and Bank Holidays all year round". Third-party
+      listings add 10am-2pm, unconfirmed.
+    notes: |
+      Verified 2026-08-17 only as far as the wall allows: the URL answers 202 and
+      redirects to a captcha, so the page body was never seen. The market itself
+      is confirmed to exist by Cork City Council, which lists Blackrock as one of
+      its nine designated casual trading areas and gives its trading days.
+      Neither the plaza address nor an Eircode was confirmed, so no address is
+      recorded.
+    addedAt: "2026-08-17"
+
+  - id: markets/ballincollig-farmers-market
+    name: Ballincollig Farmers' Market
+    category: markets
+    kind: venue
+    status: provisional
+    url: https://castlewestcork.ie/farmers-market-whats-on/
+    area: Ballincollig
+    tags: [outdoor, food, farmers, weekly]
+    cadence: monthly
+    hints: |
+      One recurring Wednesday event in the grounds of the CastleWest shopping
+      centre on Ballincollig main street. The page carries a heading and images
+      and no readable day or time — the day survives only in the parent URL slug,
+      /castlewest-shopping-market-every-wednesday/, which redirects here. Third
+      parties say Wednesday 10am-2pm, one says to 3pm; treat the day as good and
+      the hours as unconfirmed.
+
+      If anything is to be read off this page it will be inside the images, so a
+      fetch of the HTML will look empty. That is the page, not a failure.
+    notes: |
+      Verified 2026-08-17 by fetching. https://castlewestcork.ie/ resolves and
+      the market page is real, headed "Farmers Market - Ballincollig", reached
+      via a redirect from /castlewest-shopping-market-every-wednesday/. Extracted
+      text is 2KB of navigation and cookie notice with no market detail in it —
+      the centre publishes this market as pictures. /feed/ exists but is the
+      centre's general news feed.
+
+      Cork City Council designates "Ballincollig Regional Park" as a casual
+      trading area, which is a different site from the shopping centre; the two
+      should not be merged.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: markets/wilton-farmers-market
+    name: Wilton Farmers' Market
+    category: markets
+    kind: venue
+    status: provisional
+    url: https://www.tastecork.ie/food-producers/wilton-farmers-market
+    area: Bishopstown
+    tags: [outdoor, food, farmers, weekly]
+    cadence: monthly
+    hints: |
+      One recurring midweek event in the grounds of Wilton Shopping Centre, out
+      by the university and the hospital. Over 45 stalls, so one of the larger
+      ones.
+
+      Nothing I could fetch states the day. Taste Cork calls it "a great mid-week
+      option" and stops there; the shopping centre's own site has no market page
+      at all — its only navigation is /the-shops/, /opening-hours/,
+      /category/news-events/ and the like, and /farmers-market/ 404s. Third-party
+      listings say Tuesday 10am-2pm. Record as recurring with the pattern
+      attributed and confidence low on the day.
+    notes: |
+      Verified 2026-08-17 by fetching. Taste Cork's page names the market,
+      confirms "over 45 regular stalls" and places it "in the grounds of a
+      shopping centre in the suburb of Wilton". This is a third-party listing
+      standing in for a source of its own.
+
+      Taste Cork's outbound link for the market,
+      http://www.wiltonmarketcork.com/, now serves a Turkish online casino
+      affiliate page and returns 200 — the domain is gone and must not be
+      catalogued. Contact given is 086 168 5312, the same number as Mahon Point
+      and Douglas.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: markets/harleys-streat
+    name: Harley's StrEAT Market
+    category: markets
+    kind: venue
+    status: provisional
+    url: https://www.harleysstreat.com/
+    area: Victorian Quarter
+    tags: [outdoor, food, street-food, independent]
+    cadence: monthly
+    hints: |
+      A street-food yard on Harley Street in the Victorian Quarter, and the
+      catalogue entry with the sharpest disagreement in this category: the
+      market's own site says it now opens only for city events and festivals,
+      while the council's licensing page still prints year-round Thursday to
+      Sunday trading. See `notes`.
+
+      Consequence for a harvest: do not record a standing weekly pattern from
+      this page. The site's own words are "Please note we open for city events and
+      festivals only. Please see our instagram for our opening hours" — which
+      means the honest record on a quiet week is nothing at all, or an `undated`
+      observation with that sentence as the note. The opening hours genuinely
+      live on Instagram, which this site does not mirror.
+    notes: |
+      Verified 2026-08-17 by fetching. Site is live and is the right business,
+      headed "harley's Street cork food market" and naming "our Harley's StrEAT
+      Market in The VQ in Cork". /events 404s; the homepage is all there is.
+
+      The contradiction, both sources official:
+
+        harleysstreat.com — "Please note we open for city events and festivals
+        only."
+
+        Cork City Council casual trading bye-laws page — "Harley Street - 12
+        noon to 9 pm Thursday to Sunday, all year round."
+
+      The council statement describes what the licence permits, the market's own
+      statement what it actually does, which may be the whole explanation — but
+      it is a judgement, so both are recorded. This entry is a candidate for
+      `dormant` rather than `active` when a human reviews it.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: markets/mother-jones-flea-market
+    name: Mother Jones Flea Market
+    category: markets
+    kind: venue
+    status: provisional
+    url: https://www.facebook.com/motherjonesfleamarket/
+    area: Victorian Quarter
+    tags: [indoor, vintage, crafts, independent]
+    cadence: monthly
+    hints: |
+      Cork's long-running vintage and antiques market, in Thompson House on the
+      corner of York Street and MacCurtain Street. This is what travel sites mean
+      when they write "Cork Flea Market" — there is no separate business by that
+      name.
+
+      A Facebook page is the only web presence, and it is login-walled: curl gets
+      400, and a fetch returns the page title and nothing else. Do not expect to
+      extract from it, and do not mark it closed on that basis. Third-party
+      listings agree on Friday, Saturday and Sunday, 10am to 6pm; if a harvest
+      cannot see the page, an `undated` observation naming the source of those
+      hours is more honest than asserting them.
+    notes: |
+      Verified 2026-08-17 as far as possible: the Facebook page exists and is the
+      right business — it returns the title "Mother Jones Flea Market | Cork" —
+      but no content beyond that was retrievable.
+
+      Everything else I tried was worse. motherjonesfleamarket.com does not
+      resolve. Pure Cork has a /things-to-do/mother-jones-flea-market stub that
+      returns 200 but its title is empty and the only occurrence of the market's
+      name in 200KB of HTML is the breadcrumb, so the record is hollow. An
+      Instagram profile at instagram.com/motherjonesfleamarket/ answers 200 and
+      may be a better route if a browser is available.
+
+      A human should decide whether a Facebook-only source belongs in the
+      catalogue at all. The market is real and central and omitting it would be
+      the bigger error, so it is here with the weakness stated.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: markets/nano-nagle-place-craft-market
+    name: Nano Nagle Place Craft Markets
+    category: markets
+    kind: venue
+    status: provisional
+    url: https://nanonagleplace.ie/tag/craft-markets-cork/
+    homepage: https://nanonagleplace.ie/nanoevents/
+    area: Douglas Street
+    tags: [indoor, crafts, seasonal, family, community]
+    cadence: monthly
+    hints: |
+      The heritage site on Douglas Street runs craft markets in clusters rather
+      than weekly — several December weekends, and one-off makers' markets during
+      the year. These are genuinely dated events, not a recurring pattern.
+
+      This tag archive is the narrow view; the site's full diary is
+      /nanoevents/, which splits into upcoming and past and covers everything
+      Nano Nagle Place does. /events/ 404s and /whats-on/ redirects to
+      /nanoevents/. Take only the market entries from this category and leave the
+      concerts, exhibitions and talks to whoever catalogues those.
+    notes: |
+      Verified 2026-08-17 by fetching. The tag archive resolves and carries
+      market listings — the most recent post gives "Christmas Craft Markets |
+      14th, 15th, 21st & 22nd | 11am-4pm" and a "Lantern Crochet Ladies Christmas
+      Market | 15th December | 11:30am-2pm". /nanoevents/ also fetched and
+      confirmed as a working dated diary. Address is on the site but was not read
+      off it, so none is recorded.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: markets/corkmas-christmas-market
+    name: Corkmas Christmas Market
+    category: markets
+    kind: festival
+    status: provisional
+    url: https://www.corkcity.ie/en/a-cork-christmas-celebration/christmas-market/
+    homepage: https://www.corkcity.ie/en/a-cork-christmas-celebration/
+    area: City Centre
+    tags: [outdoor, seasonal, crafts, food, family, free, civic]
+    cadence: quarterly
+    hints: |
+      The council's chalet market, part of the Corkmas programme that runs from
+      the November lights parade to New Year. Emmet Place, not Grand Parade — see
+      `notes`.
+
+      Two things to get right. It is not one recurring weekly event: the page
+      prints an explicit per-weekday date list with different hours for each day,
+      so it is a `run` with a stated pattern, or a set of dated `single`
+      occurrences, and the page gives you the dates to do either. And the page
+      sits out of season for most of the year — in August 2026 it still described
+      the 2025 market. Record what it says and let `firstSeen` show when the new
+      season's dates land, rather than inferring a cancellation from stale copy.
+
+      /en/a-cork-christmas-celebration/news/ carries the announcements and is
+      where the next season's dates appear first. /whats-on/ under that subsite
+      404s.
+    notes: |
+      Verified 2026-08-17 by fetching. The page is live and detailed, headed
+      "Festive Market", and states "The Corkmas Christmas Market returns to Emmet
+      Place for the 2025 season from the 21st November to 22nd December", then
+      "Thursdays 12pm-8pm ... Fridays 12pm-9pm ... Saturdays 10am-9pm ...
+      Sundays 10am-8pm ... Monday 10am - 3pm 22nd December ONLY", with the exact
+      dates listed under each. It also carries a choir timetable and a trader
+      table.
+
+      Correction to the lead this entry came from: the Christmas market is on
+      Emmet Place. Grand Parade gets the Ferris wheel and vintage carousel, which
+      are rides rather than a market. The earlier "Glow" Christmas market brand
+      was retired after 2022 and replaced by Solas and then Corkmas, so any
+      catalogue entry naming Glow is out of date.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: markets/cork-kerry-food-market
+    name: Cork & Kerry Food Market
+    category: markets
+    kind: festival
+    status: provisional
+    url: https://corkkerryfoodfestival.com/
+    area: City Centre
+    tags: [indoor, food, major]
+    cadence: quarterly
+    hints: |
+      A two-day indoor artisan food market in City Hall over the Halloween bank
+      holiday weekend, which is the same weekend the jazz festival takes the rest
+      of the city. Two dated occurrences a year, not a recurring pattern.
+
+      The site is a thin one-page shell — around 500 characters of readable text
+      — with the dates in a banner line and most of the substance on Instagram.
+      The stage schedule link goes to last year's. Expect to get the dates and
+      the venue and little else.
+    notes: |
+      Verified 2026-08-17 by fetching. The market's older domain,
+      corkandkerryfoodmarket.com, now 301s to corkkerryfoodfestival.com, which is
+      live and states "Cork & Kerry Food Market returns this Halloween Weekend,
+      Saturday 31st October and Sunday 1st November 2026, at Cork City Hall".
+      Note the site brands itself "Cork and Kerry Food Festival" while its own
+      copy calls the event a market; named here as the copy does. City Hall is on
+      Anglesea Street; no Eircode confirmed, so no address recorded.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: markets/cork-city-council-casual-trading
+    name: Cork City Council Casual Trading Areas
+    category: markets
+    kind: listing
+    status: provisional
+    url: https://www.corkcity.ie/en/council-services/public-info/events-hosting-and-licences/casual-trading-licences/
+    tags: [civic, free, outdoor]
+    cadence: quarterly
+    hints: |
+      A licensing page rather than a listings page, and the most authoritative
+      thing in this category: it enumerates the nine designated casual trading
+      areas in the city with their permitted trading days, which is the closest
+      Cork has to an official register of where markets are allowed to happen.
+      As of 2026-08-17 the areas named are Cornmarket/Kyle Street, Blackrock,
+      Harley Street, Clogheenmilcon Walkway (Blarney), Harty's Quay, Murphy's
+      Farm (Bishopstown), Ballincollig Regional Park, Douglas Park and
+      Fitzgerald's Park.
+
+      It produces no dated events at all. Its value at harvest time is as a
+      cross-check on the day a market claims to trade, and as a way of spotting
+      designated areas with no catalogued market against them — Murphy's Farm,
+      Clogheenmilcon Walkway, Harty's Quay and Fitzgerald's Park currently have
+      none. Bear in mind the days it gives are what the licence permits, which is
+      not always what the market does: compare the Harley Street entry.
+
+      Changes rarely; quarterly is generous.
+    notes: |
+      Verified 2026-08-17 by fetching. Page is live and detailed, giving both a
+      fee table and a FAQ headed "What days do Designated Trading Areas
+      operate?". Harty's Quay is in Rochestown, at the edge of the radius, and
+      Clogheenmilcon Walkway is in Blarney, which is inside it.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: markets/taste-cork-food-markets
+    name: Taste Cork Food Markets
+    category: markets
+    kind: aggregator
+    status: provisional
+    url: https://www.tastecork.ie/explore-cork/food-markets/farmers-markets/cork-city
+    homepage: https://www.tastecork.ie/
+    tags: [food, farmers]
+    cadence: monthly
+    hints: |
+      The county food body's markets directory, filtered to the city. Four
+      markets on it as of 2026-08-17 — Mahon Point, Coal Quay, Wilton and Douglas
+      Village — each with a day and often hours in the summary line, and a detail
+      page under /food-producers/<slug> with a longer description. This is a
+      directory of standing patterns, so everything from it is `recurring`.
+
+      Do not follow the outbound "own website" link on the detail pages. Two of
+      the four are dead domains that have been re-registered by unrelated
+      businesses and both serve 200 — see `notes`. The market name, day and hours
+      on Taste Cork's own page are the usable part.
+
+      /explore-cork/food-markets/farmers-markets/ is the whole county and reaches
+      well past the radius; /whats-on is a separate dated diary whose body is
+      rendered in JavaScript and returns almost nothing to a plain fetch.
+    notes: |
+      Verified 2026-08-17 by fetching. The Cork City directory page is live and
+      names its four markets with days and hours; the Wilton, Mahon Point and Coal
+      Quay detail pages were each fetched and confirmed.
+
+      Two of its outbound links are now other businesses entirely, both
+      answering 200: wiltonmarketcork.com serves a Turkish casino affiliate page,
+      and mahonpointfarmersmarket.com a Thai foreign-exchange blog. Worth telling
+      Taste Cork, and worth remembering that this is the exact failure mode a 200
+      does not catch.
+
+      Taste Cork also disagrees with two venues' own pages on closing times — 3pm
+      versus 2pm at Mahon Point, 8.30am versus 9am at Coal Quay. Recorded on
+      those entries.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: markets/pure-cork-food-drink-events
+    name: Pure Cork Food & Drink Events
+    category: markets
+    kind: aggregator
+    status: provisional
+    url: https://www.purecork.ie/whats-on/categories/food-drink-events
+    homepage: https://www.purecork.ie/
+    tags: [food]
+    cadence: weekly
+    hints: |
+      The tourist board's dated diary, food and drink category — the safety net
+      for one-off markets, pop-ups and food festivals that no venue site lists.
+      Each event has JSON-LD in the page source with a start date, a Place with a
+      street address and a latitude and longitude, which is by far the cleanest
+      way to read it.
+
+      Two things. The right path is /whats-on/categories/<slug>; the guessable
+      /whats-on/food-drink/ answers 200 with a soft 404 that renders "Thu 01 Jan
+      1970" — a healthy status code on an empty page, so check the dates you get
+      back are real. And it lists individual dates for markets that are actually
+      weekly, so a naive read turns one Cork market into a year of events: match
+      against the recurring entries in this catalogue before recording, and set
+      `venue.sourceId` where it matches.
+
+      Covers the whole county, well past the 12km radius.
+    notes: |
+      Verified 2026-08-17 by fetching. The category page is live and carries real
+      dated listings with embedded JSON-LD; one of them, a one-day thrifting
+      market at Marina Market on 12 September 2026, independently confirmed that
+      venue's street address and coordinates.
+
+      Two sibling paths that look right and are not:
+      /things-to-do/food-and-drink/markets/ and /whats-on/food-drink/ both return
+      200 rendering "Page Not Found" and a 1970 date respectively. Neither is a
+      valid target.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: markets/iomst-cork-markets
+    name: IOMST Cork Markets
+    category: markets
+    kind: aggregator
+    status: provisional
+    url: https://iomst.ie/markets-cork/
+    homepage: https://iomst.ie/
+    tags: [food, farmers, crafts, community]
+    cadence: monthly
+    hints: |
+      The Irish Organisation for Market and Street Traders — the traders' own
+      membership body, and the only source that lists the small volunteer-run
+      markets nobody else covers, including Blackrock, which has no site of its
+      own. It has a Cork index at /markets-cork/, per-market pages under
+      /markets/<slug>/, and a dated diary at /whats-on/.
+
+      The whole domain is behind a JavaScript robot challenge. Every path returns
+      202 with a meta refresh to /.well-known/sgcaptcha/; the challenge page is a
+      real "Robot Challenge Screen" and following it with a cookie jar loops back
+      to 202. A plain fetch will never see the content — this needs a browser.
+      The 202 is not a dead page and this must not be marked closed on it.
+    notes: |
+      Verified 2026-08-17 only to the extent the wall allows: iomst.ie answers,
+      the challenge is genuine anti-bot infrastructure rather than a parked
+      domain, and IOMST is independently confirmed as a real organisation with
+      Cork market pages. The page bodies were never seen, so the market list on
+      /markets-cork/ is unverified.
+    addedAt: "2026-08-17"

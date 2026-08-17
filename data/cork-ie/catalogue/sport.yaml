@@ -1,0 +1,1052 @@
+schema: whazzon.catalogue/1
+category: sport
+label: Sport
+description: >-
+  Hurling and Gaelic football first — in Cork these are civic occasions, not a
+  niche — then rugby, League of Ireland football, greyhound and horse racing,
+  athletics, rowing on the Lee, and the free weekly participation events. Most
+  of this is fixture lists: they are published a season at a time and then move,
+  so the value is in re-checking dates rather than discovering new events.
+sources:
+  # ---------------------------------------------------------------- GAA ------
+  - id: sport/cork-gaa
+    name: Cork GAA (Cork County Board)
+    category: sport
+    kind: aggregator
+    status: provisional
+    url: https://gaacork.ie/fixtures/
+    tags: [gaa, hurling, gaelic-football, camogie, fixtures, major, civic]
+    cadence: weekly
+    hints: |
+      The backbone of this category. One page carries every county and club
+      fixture in Cork across dozens of grounds, so treat it as an aggregator:
+      set `venue` on each event from the ground named in the row, and expect
+      most of them to be club pitches that are not catalogued sources.
+
+      Server-rendered by the SportLoMo plugin, with each row giving date, time,
+      competition, the two teams and the ground ("20/08/2026 … Pairc Ui Rinn …
+      Valley Rovers"). Two things to know:
+
+      - The date range is a POST form, defaulting to a rolling window of roughly
+        the next two weeks. Query-string overrides are ignored — `?fdate=…&tdate=…`
+        returns the same default window — so a plain GET gives you a fortnight
+        and no more. Re-harvest weekly rather than trying to widen the horizon.
+      - Divisions and competitions are separate POST filters. The unfiltered
+        page is the union of them, which is what you want.
+
+      Two grounds carry most of the county fixtures: SuperValu Páirc Uí Chaoimh
+      on the Marina (catalogued separately) and Páirc Uí Rinn in Ballinlough,
+      which has no site of its own and appears only as a ground name here.
+
+      gaacork.ie/masterfixtureplan/ is the season-long plan and
+      gaacork.ie/tickets/ the ticket links; both are prose around the same
+      fixture data.
+    notes: >-
+      Verified 2026-08-17: page titled "Fixtures – Cork GAA", with dated fixtures server-rendered from Thursday
+      20th August, Co-Op Superstores Premier IHC at Páirc Uí Rinn. Camogie and ladies football fixtures may not
+      all surface here — the competition filter lists only hurling and football grades, while club sites such as
+      Nemo Rangers show Camogie and LGFA championship games. A human should decide whether Cork Camogie and Cork
+      LGFA need their own sources; note that corkcamogie.ie has lapsed and now serves a crypto casino, so there
+      is no separate camogie domain to point at.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: sport/pairc-ui-chaoimh
+    name: SuperValu Páirc Uí Chaoimh
+    category: sport
+    kind: venue
+    status: provisional
+    url:
+      - role: listings
+        url: https://gaacork.ie/paircuichaoimh/whats-on/
+      - role: api
+        url: https://gaacork.ie/wp-json/tribe/events/v1/events
+        note: The Events Calendar REST API — the stadium's dated diary in one fetch
+      - role: ics
+        url: https://gaacork.ie/events/?ical=1
+    area: The Marina
+    address:
+      street: The Marina
+      locality: Ballintemple
+      city: Cork
+      postcode: T12 PF30
+      country: Ireland
+    tags: [gaa, hurling, gaelic-football, stadium, major, ticketed, civic]
+    cadence: weekly
+    hints: |
+      Cork's principal stadium, 45,000 capacity, officially the Cork Athletic
+      Grounds and trading since February 2024 as **SuperValu Páirc Uí Chaoimh** —
+      use the sponsored name, it is what the venue calls itself throughout.
+
+      Two distinct programmes come out of here and they need different routes:
+
+      - **Gaelic games** — county and Munster championship fixtures. These are
+        not on the stadium's own pages; they are in the Cork GAA fixtures list
+        and the Munster GAA fixtures list, both catalogued separately.
+      - **Everything else** — soccer internationals, Munster Rugby's occasional
+        Cork outings, stadium concerts. These are the ones on the What's On
+        page and in the Events Calendar feed above.
+
+      The stadium's own domain, paircuichaoimh.ie, is dead (see notes) — do not
+      fetch it. The whats-on page mixes news items with the calendar; the dated
+      block is at the bottom, and the api/ics routes give the same two entries
+      cleanly.
+    notes: >-
+      Verified 2026-08-17: paircuichaoimh.ie is a suspended cPanel account — it redirects to
+      /cgi-sys/suspendedpage.cgi, titled "Account Suspended", and its TLS certificate expired on 6 August 2026.
+      The stadium's live pages have moved under Cork GAA at gaacork.ie/paircuichaoimh/, titled "SuperValu Páirc
+      Uí Chaoimh – Cork GAA", with the address above read off the page footer. The what's-on page and the tribe
+      API both return the same two forthcoming events: Republic of Ireland Women v Kazakhstan, 13 October 2026
+      19:30, and Munster Rugby v Racing 92, 17 October 2026 20:00. A human should decide whether the dead
+      paircuichaoimh.ie domain is worth watching for a return.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: sport/munster-gaa
+    name: Munster GAA
+    category: sport
+    kind: aggregator
+    status: provisional
+    url: https://munster.gaa.ie/fixtures/
+    tags: [gaa, hurling, gaelic-football, fixtures, major]
+    cadence: weekly
+    hints: |
+      The provincial council. Matters here because the Munster senior hurling
+      and football championships are the biggest days in Cork's year and are
+      played at Páirc Uí Chaoimh — set `venue.sourceId` to
+      sport/pairc-ui-chaoimh when the ground matches, and skip fixtures at
+      Limerick, Thurles or Killarney.
+
+      Provincial championships run February to July; the page is quiet the rest
+      of the year. Separate senior / under-20 / minor sub-pages exist under
+      /fixtures/, plus an Events Calendar in the same nav.
+    notes: >-
+      Verified 2026-08-17: page titled "Fixtures - Munster GAA", with the fixtures nav (senior, under-20, minor,
+      Munster Hurling League, McGrath Cup) present. Same SportLoMo platform as Cork GAA, so expect the same
+      rolling date window rather than a full season.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: sport/gaa-national
+    name: GAA fixtures & results (gaa.ie)
+    category: sport
+    kind: aggregator
+    status: provisional
+    url: https://www.gaa.ie/fixtures-results
+    tags: [gaa, hurling, gaelic-football, fixtures, major]
+    cadence: weekly
+    hints: |
+      The national list. Catch-all for Cork's All-Ireland series games and for
+      neutral-venue fixtures staged at Páirc Uí Chaoimh that neither the county
+      nor the provincial page carries. Almost all of it is outside Cork —
+      filter hard on the ground, and drop anything at Croke Park unless a human
+      later decides away fixtures are wanted.
+    notes: >-
+      Verified 2026-08-17: 200 at /fixtures-results (no trailing slash), titled "GAA.ie - GAA Match Video and
+      Highlights, Fixtures and Results, Latest News". Large page; the fixture rows themselves were not visible
+      to a plain fetch, so stage 2 should expect to look for a JSON block or a client-rendered widget.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: sport/nemo-rangers
+    name: Nemo Rangers GAA
+    category: sport
+    kind: organiser
+    status: provisional
+    url: https://nemorangers.ie/fixtures
+    area: Douglas
+    tags: [gaa, gaelic-football, hurling, camogie, fixtures, community]
+    cadence: weekly
+    hints: |
+      Cork's most decorated football club, at Trabeg off the South Douglas Road.
+      Included as the worked example of a city club that publishes its own list:
+      /fixtures is server-rendered with date, time, competition, both teams and
+      the ground, and — unlike the county board page — it includes Camogie and
+      LGFA championship fixtures.
+
+      Filter by ground: many rows are away games at club pitches across the
+      county. "At Away" appears where the venue is unknown, which is an
+      `occurrence` you can date but not place.
+    notes: >-
+      Verified 2026-08-17: page titled "Nemo Rangers - Fixtures", listing dated games from Monday 17 August 2026
+      at 7.00pm, Junior C Football Championship, Whites Cross v Nemo Rangers at Ballinlough. Sister pages
+      /results and /ua_fixtures (underage) exist on the same platform.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: sport/blackrock-hurling
+    name: Blackrock National Hurling Club
+    category: sport
+    kind: organiser
+    status: provisional
+    url: https://www.blackrockhurlingclub.com/
+    area: Blackrock
+    tags: [gaa, hurling, community]
+    cadence: weekly
+    hints: |
+      One of the city's senior hurling clubs, on Church Road in Blackrock.
+      Fixtures are on the Cork GAA county list rather than here, so the value of
+      this source is club-level notices — tournaments, juvenile blitzes, club
+      events — that the county page never carries.
+    notes: >-
+      Verified 2026-08-17: the domain answers 200 and is the club's own site. /fixtures 404s, so no separate
+      fixtures path was found; the url above is the homepage, which is the page that lists things. Unverified
+      whether the homepage carries dated items — a human should check before promoting this past provisional.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  # -------------------------------------------------------------- RUGBY ------
+  - id: sport/munster-rugby
+    name: Munster Rugby
+    category: sport
+    kind: organiser
+    status: provisional
+    url:
+      - role: listings
+        url: https://www.munsterrugby.ie/munster-rugby-fixtures-results/
+      - role: ics
+        url: https://cdn.soticservers.net/tools/wordpress/ical/calendar.php?TeamId=22&CompId=4585&source=sfms&project=celtic,erc,munster
+        note: club's own iCal; CompId is season-specific and currently serves the completed 2025 URC season
+    area: Ballyphehane
+    tags: [rugby, fixtures, ticketed, major]
+    cadence: weekly
+    hints: |
+      Munster split their home games between Thomond Park in Limerick and
+      Virgin Media Park in Cork, so **every fixture must be filtered on the
+      ground** — roughly one Cork game in four. Set `venue.sourceId` to
+      sport/virgin-media-park where it matches, and drop Limerick outright.
+      A handful of the biggest games move to Páirc Uí Chaoimh instead.
+
+      The human fixtures page is client-rendered: a fetcher sees the season
+      dropdown, "All kick-off times are listed in your local time" and no
+      fixture rows at all. So the ICS route is the one that carries data — but
+      read `X-WR-CALNAME` before trusting it, because the club has not
+      repointed the link and it currently returns "2025 United Rugby
+      Championship", 18 completed fixtures. When the 2026-27 CompId appears at
+      /fixtures-results/downloadable-fixture-list/, that is where to find it.
+
+      LOCATION lines in the ICS use the sponsored ground names verbatim
+      ("Virgin Media Park", "Thomond Park"), which is the cheapest way to
+      filter.
+    notes: >-
+      Verified 2026-08-17: /fixtures/ and /fixtures-and-results/ both 404. /fixtures-results/ 301s to
+      /munster-rugby-fixtures-results/, titled "Munster Rugby | Men's Fixtures & Results". The ICS above is
+      linked from the club's own downloadable-fixture-list page and parses to 18 VEVENTs with real Munster
+      fixtures, two of them at Virgin Media Park — but all in the past. ?rest_route=/tribe/events/v1/events
+      404s; /feed/ answers but is news, not fixtures.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: sport/virgin-media-park
+    name: Virgin Media Park (Musgrave Park)
+    category: sport
+    kind: venue
+    status: provisional
+    url: https://www.munsterrugby.ie/the-club/stadia/virgin-media-park/
+    area: Ballyphehane
+    address:
+      locality: Ballyphehane
+      city: Cork
+      country: Ireland
+    tags: [rugby, stadium, ticketed, major]
+    cadence: monthly
+    hints: |
+      **Record the sponsored name.** Musgrave Park has traded as Virgin Media
+      Park since a five-year naming-rights deal in January 2024; the venue's own
+      pages use only the new name, so a listing that says "Musgrave Park" is
+      matching on a name the ground no longer uses.
+
+      8,008 capacity, and shared: Munster Rugby's Cork home plus two All-Ireland
+      League clubs, Dolphin RFC and Sundays Well RFC, all catalogued separately.
+      This page is a stadium-information page rather than a diary — cadence is
+      monthly because what changes here is the venue description, not a
+      programme. Fixtures come from the three tenants.
+    notes: >-
+      Verified 2026-08-17: page titled "Munster Rugby | Virgin Media Park" and states "Virgin Media Park,
+      formerly Musgrave Park, is the Cork home of Munster Rugby and is also home to two of the All Ireland League
+      Senior Club sides, Dolphin RFC and Sundays Well RFC" and "situated between Tramore Road and Pearse Road in
+      Ballyphehane". No postcode is printed on the page, so the address is deliberately partial rather than
+      guessed.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: sport/cork-constitution
+    name: Cork Constitution FC
+    category: sport
+    kind: organiser
+    status: provisional
+    url: https://www.corkcon.ie/fixtures
+    area: Ballintemple
+    tags: [rugby, fixtures, ticketed]
+    cadence: weekly
+    hints: |
+      Energia All-Ireland League, playing at Temple Hill. Fixtures are a plain
+      server-rendered table of date, kick-off, opponent and venue, with home
+      games marked "(H)" and Temple Hill named — so home/away separation is
+      trivial. AIL season runs late September to April; nothing between May and
+      August.
+    notes: >-
+      Verified 2026-08-17: page titled "FIXTURES | Cork Constitution", table server-rendered. But the table is
+      the **2025-2026** season (27/09/2025 to 04/04/2026, all played) — the 2026-27 list is not up yet, and one
+      row carries a typo, "04/04/206". Stage 2 should read the season heading and record an empty harvest rather
+      than ingesting last season as forthcoming.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: sport/highfield-rfc
+    name: Highfield RFC
+    category: sport
+    kind: organiser
+    status: provisional
+    url: https://www.highfieldrfc.ie/FixtureS.php
+    area: Bishopstown
+    tags: [rugby, fixtures]
+    cadence: weekly
+    hints: |
+      Energia AIL Division 1B, at Woodleigh Park off the Model Farm Road. The
+      best-maintained club fixture list of the Cork rugby sources — the only one
+      with the current season up in August.
+
+      Capital S in `FixtureS.php` is not a typo: /FixtureS.php is the senior
+      list and /FixtureY.php the youth one. Both are hand-built PHP pages,
+      server-rendered, with competition, date, time, both teams and the ground.
+      Filter on "Woodleigh Park" for home games.
+    notes: >-
+      Verified 2026-08-17: page titled "Results and Fixtures - Senior", heading "Fixtures ( 2026 - 2027 )", with
+      dated fixtures from Bruff v Highfield, 29/08/2026 2.30pm at Kilballyowen Park and the first home game
+      Highfield v Nenagh Ormond, 26/09/2026 at Woodleigh Park.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: sport/dolphin-rfc
+    name: Dolphin RFC
+    category: sport
+    kind: organiser
+    status: provisional
+    url: https://dolphinrfc.com/fixtures-results/
+    area: Ballyphehane
+    tags: [rugby, fixtures]
+    cadence: weekly
+    hints: |
+      Founded 1902 and based at Virgin Media Park, so home games are at
+      sport/virgin-media-park rather than at a ground of their own; the club's
+      postal address is a PO box in Togher. Separate lists exist for the AIL
+      side (/ail-repres-fixtures/) and the women's side
+      (/womens-senior-fixtures/).
+
+      The page is not UTF-8 clean — decode as latin-1 if a strict parser chokes.
+    notes: >-
+      Verified 2026-08-17: page titled "Weekend Fixtures / Results - Dolphin RFC" and names the club throughout,
+      but the fixture table is headers only — Day, Date, Team, Competition, Opponents, Venue, K/O Time — with no
+      rows, and the footer still reads "Copyright 2019". Reachable but empty in mid-August; a human should check
+      once the AIL season starts whether it fills in, and mark it dormant if not.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: sport/sundays-well-rfc
+    name: Sundays Well RFC
+    category: sport
+    kind: organiser
+    status: provisional
+    url: https://sundayswellrfc.com/calendar/calendar/
+    area: Ballyphehane
+    tags: [rugby, fixtures, community]
+    cadence: weekly
+    hints: |
+      The third tenant at Virgin Media Park. WordPress, with individual
+      /event/<slug>/ pages per fixture ("senior-xv-v-bandon-rfc") linked from
+      the homepage — those carry more than the calendar does, so follow them
+      from the homepage if the calendar month is empty.
+
+      `area` is where they play rather than where the name points: home games
+      are at Virgin Media Park in Ballyphehane, not in Sunday's Well.
+    notes: >-
+      Verified 2026-08-17: page titled "Senior XV – The Official Site of Sundays Well RFC" and the site is
+      genuinely the club's. The August 2026 calendar grid is empty and its back-link reads "« May", so the
+      calendar is only populated in season; the homepage did carry /event/ links (Clonakilty, Thurles, Bandon,
+      Kanturk fixtures).
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: sport/munster-club-rugby
+    name: Munster domestic rugby fixtures
+    category: sport
+    kind: aggregator
+    status: provisional
+    url: https://www.munsterrugby.ie/domestic/domestic-fixtures-results/
+    tags: [rugby, fixtures, community]
+    cadence: weekly
+    hints: |
+      The province-wide club list — Energia Men's and Women's AIL, All-Ireland
+      Cup, junior leagues. The safety net for Cork's club rugby: it catches
+      Cork Con, Highfield, Dolphin, Sundays Well, UCC and the junior clubs in
+      one place, including the ones with no usable site of their own (UCC RFC
+      has no reachable domain).
+
+      Almost everything on it is outside Cork, so filter on the ground and set
+      `venue.sourceId` where it matches a catalogued one.
+    notes: >-
+      Verified 2026-08-17: page titled "Munster Domestic Rugby | Domestic Fixtures & Results" with the full
+      competition nav present. Like the senior fixtures page it is client-rendered — the fetch returned the nav
+      and no fixture rows — so stage 2 should expect to chase the per-competition sub-pages.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  # ------------------------------------------------------------ FOOTBALL -----
+  - id: sport/cork-city-fc
+    name: Cork City FC
+    category: sport
+    kind: organiser
+    status: provisional
+    url:
+      - role: listings
+        url: https://www.corkcityfc.ie/pages/cork-city-fc-mens-first-team-fixtures-and-results
+      - role: api
+        url: https://api-fai.analyticom.de/api/live/competition/42532027/matches/paginated/future/1/56418?page=1&pageSize=36&teamIdFilter=10614
+        note: FAI Connect feed behind the page; 403 without an API_KEY header — key is in hints
+    area: Turner's Cross
+    tags: [football, fixtures, ticketed, major]
+    cadence: weekly
+    hints: |
+      Home games at Munster FA Turner's Cross Stadium — set `venue.sourceId` to
+      sport/turners-cross. The club is in the **SSE Airtricity Men's First
+      Division** in 2026, not the Premier Division, so competition names on
+      harvested events should not be assumed.
+
+      The site is a Shopify store and the fixtures page renders four empty tab
+      containers — League Fixtures, League Results, FAI Cup Fixtures, FAI Cup
+      Results — filled client-side. Nothing dated is in the HTML.
+
+      The api route is the feed that page calls. It needs a request header:
+
+        API_KEY: 8f03d750e912f7ff66d3b5eb1ca39f66d762785059470f85723d7513a71ae097106e5b8d3a548b85e60d49ec9fec2471e2086e9cc95f2f22f741f1962d3db004
+
+      That key is published in the shop theme asset
+      /cdn/shop/t/8/assets/mens-first-team-fixture-results.js, which is also
+      where to look if it rotates. The payload is richer than the page: per
+      match it gives dateTimeUTC, liveStatus, round, competition.name and a
+      `facility` object with name, full address and a real latitude/longitude —
+      use that for the venue rather than anything from the page. Swap
+      `future` for `past` in the path for results, and compFai=42432166 for the
+      FAI Cup.
+
+      Link harvested events to the human page, not to the endpoint.
+    notes: >-
+      Verified 2026-08-17: /fixtures/ 301s to the /pages/… path above, titled "Cork City FC Men's First Team -
+      Fixtures and Results". The api route returns 403 unkeyed and 200 with the header, giving nine forthcoming
+      First Division fixtures including Cork City v Wexford at "Munster FA Turner's Cross Stadium", Curragh Road,
+      T12 DY8P. A human should decide whether a hard-coded third-party API key belongs in the catalogue, since
+      check-urls will see the 403.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: sport/cork-city-fc-women
+    name: Cork City FC Women
+    category: sport
+    kind: organiser
+    status: provisional
+    url: https://www.corkcityfc.ie/pages/cork-city-fc-womens-first-team-fixtures-and-results
+    area: Turner's Cross
+    tags: [football, fixtures, ticketed]
+    cadence: weekly
+    hints: |
+      Same club and same Shopify platform as the men's team, but a separate
+      fixture list and a separate league, so it wants its own events rather than
+      a footnote on the men's. Expect the same client-rendered tabs and the same
+      FAI Connect feed pattern with different competition and team ids — read
+      them out of the page's own theme JS rather than guessing.
+    notes: >-
+      Verified 2026-08-17: 200, distinct page from the men's list. Its own API ids were not extracted, so no api
+      route is proposed here.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: sport/turners-cross
+    name: Munster FA Turner's Cross Stadium
+    category: sport
+    kind: venue
+    status: provisional
+    url: https://munsterfootball.ie/fixtures/
+    homepage: https://munsterfootball.ie/
+    area: Turner's Cross
+    address:
+      street: Curragh Road
+      locality: Turner's Cross
+      city: Cork
+      postcode: T12 DY8P
+      country: Ireland
+      lat: 51.8852451
+      lon: -8.4666676
+    tags: [football, stadium, ticketed, major]
+    cadence: weekly
+    hints: |
+      Cork's football ground, owned by the Munster Football Association, whose
+      headquarters is at the stadium. Two programmes: Cork City FC's League of
+      Ireland home games, which come from the club's own sources, and the
+      Munster FA's own cup competitions — Munster Senior Cup, Junior Cup, Youth
+      Cup, women's and girls' cups — whose finals are played here. The url is
+      the association's fixtures page, i.e. the second of those.
+
+      SportLoMo again, so the same date-form behaviour as the GAA pages.
+
+      **munsterfa.com is not the Munster FA** — see notes. Only munsterfootball.ie.
+    notes: >-
+      Verified 2026-08-17: munsterfootball.ie is the real association site, titled "Munster FA", with the footer
+      "Munster FA Turners Cross Stadium" and a full competition nav; /fixtures/ is titled "fixtures – Munster FA"
+      but the fixture table rendered with no rows in mid-August. Two lookalikes to avoid: munsterfa.com
+      redirects to baytelet.com, an unrelated site, and munsterfa.ie serves "TOTAP Shop – The Other Three
+      Amigos", an e-commerce store. The address and geocode are the FAI's own facility record for this ground,
+      taken from the Cork City FC feed, not guessed from the postcode.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  # ------------------------------------------------------------- RACING ------
+  - id: sport/curraheen-park
+    name: Curraheen Park Greyhound Stadium
+    category: sport
+    kind: venue
+    status: provisional
+    url: https://www.grireland.ie/go-greyhound-racing/our-stadiums/curraheen-park-greyhound-stadium/
+    homepage: https://www.grireland.ie/racing/upcoming-race-cards/
+    area: Bishopstown
+    address:
+      street: Bishopstown Road
+      locality: Curraheen
+      city: Cork
+      postcode: T12 HNP4
+      country: Ireland
+    tags: [greyhound-racing, weekly, ticketed, family]
+    cadence: weekly
+    hints: |
+      Racing every Friday and Saturday night: gates 6:30pm, first race about
+      7:35pm. That is a `recurring` occurrence, not two events a week — model
+      it as the pattern and let the race cards supply the exceptions, or this
+      one source produces a hundred near-identical events a year.
+
+      The stadium page carries the schedule and the address but no dated
+      meetings. Dated cards are on the national list at
+      /racing/upcoming-race-cards/, server-rendered as "17-Aug-26 - Youghal"
+      links with the track in the query string — **Cork is track code CRK**.
+      Cards are only published midweek for the coming weekend, so a Monday
+      fetch will legitimately show no Cork meeting; that is a gap in
+      publication, not a dark stadium.
+
+      Beware two other Cork-county tracks in the same national list, Youghal
+      (YGL) and Kilcohan Park — both well outside the radius.
+    notes: >-
+      Verified 2026-08-17: the guessed paths /curraheen-park/, /stadiums/… and /tracks/… all land on grireland.ie's
+      404 handler; the real path is under /go-greyhound-racing/our-stadiums/. The page names "Curraheen Park
+      Greyhound Stadium", prints "Bishopstown Road, Curraheen, Co. Cork T12 HNP4", states "Racing every Friday &
+      Saturday night" with "1st Race/1ú Rás 7:35pm approx.", and directs to "Check Upcoming Racecards to view
+      exact race times - available midweek for each weekend". The race-cards page is server-rendered and dated;
+      it showed no Cork meeting on a Monday, as expected.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: sport/cork-racecourse
+    name: Cork Racecourse Mallow
+    category: sport
+    kind: venue
+    status: provisional
+    url:
+      - role: listings
+        url: https://www.corkracecourse.ie/events/
+      - role: api
+        url: https://www.corkracecourse.ie/wp-json/tribe/events/v1/events
+        note: The Events Calendar REST API — the whole meeting list in one fetch
+    tags: [horse-racing, ticketed, family, major]
+    cadence: monthly
+    hints: |
+      **Read the event title, not the start date.** The calendar entries are
+      mis-dated at source: "Sunday 30th August 2026 – Flat Racing" carries
+      start_date 2026-09-09, the same date as the following meeting. The title
+      is the meeting's real date; the date field is data entry. Record what the
+      title says and put the discrepancy in the event note.
+
+      Mixed flat and jumps, roughly a dozen fixtures a year, set a year ahead —
+      monthly is plenty. The 2026 fixture list page publishes the year as an
+      **image**, so it is useless to a fetcher; the api route is the only clean
+      dated source. Meetings are typically evening or Sunday afternoon cards
+      with a music act after racing.
+    notes: >-
+      Verified 2026-08-17: site titled "Cork Racecourse Mallow | Horse Racing Cork Ireland", live and trading.
+      The tribe endpoint returns two forthcoming meetings at venue "Cork Racecourse". **Outside the configured
+      12km radius** — Mallow is about 35km north of the city, on the Killarney Road — but included deliberately:
+      it is the only horse racing anywhere near Cork, it is named for the city, and a Cork "what's on" that
+      omitted it would be wrong. A human should decide whether to keep it or drop it on distance.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  # ---------------------------------------------------------- ATHLETICS ------
+  - id: sport/cork-athletics
+    name: Cork Athletics (County Board)
+    category: sport
+    kind: aggregator
+    status: provisional
+    url:
+      - role: listings
+        url: https://www.corkathletics.org/events/
+      - role: feed
+        url: https://www.corkathletics.org/events/modlatest_rss/rss/0.feed
+        note: JEvents RSS with the date and full HTML description per race; only the next few items
+    tags: [athletics, running, fixtures, community, free]
+    cadence: weekly
+    hints: |
+      The single best route into Cork's road-race calendar — the county board
+      permits the races, so everything from a village 5 mile to the county track
+      and field championships passes through here, including many events no
+      listings site carries.
+
+      Server-rendered JEvents, no JavaScript needed. Views worth knowing:
+
+      - /events/ is the current month.
+      - /events/eventsbyyear/2026/-.html is the **whole year** in one fetch,
+        with times and full descriptions. Use this rather than paging months.
+      - The RSS route carries only the next handful of items, but each has the
+        complete race description, so it is cheap for a weekly re-check.
+
+      This is a **county** calendar, so most of it is outside the 12km radius —
+      Adrigole, Youghal, Bandon, Beaufort in Kerry. Filter on the location in
+      the title and description. It is also where Cork's parkruns get their
+      Christmas and New Year special editions announced.
+    notes: >-
+      Verified 2026-08-17: /fixtures/ 404s; /events/ is titled "Events - Cork Athletics" and renders the August
+      2026 grid with dated races — "20 Aug 19:30 Rathcormac 4 Mile Road Race 2026", "16 Aug 09:30 St Finbarr's
+      AC Cork City 10k". The RSS feed is a real JEvents feed, lastBuildDate Mon, 17 Aug 2026, five items. Serves
+      403 to some fetchers and 200 to a browser user-agent — send one.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: sport/cork-city-sports
+    name: Cork City Sports
+    category: sport
+    kind: festival
+    status: provisional
+    url: https://corkcitysports.ie/
+    area: Bishopstown
+    tags: [athletics, annual, ticketed, major]
+    cadence: quarterly
+    hints: |
+      Cork's international athletics meeting, one evening in midsummer, staged
+      at the university athletics stadium out in Bishopstown. One meeting a year,
+      so quarterly, and treat the whole evening as one event rather than one per
+      track discipline.
+
+      **Bot-walled.** The site is behind SiteGround's captcha: it answers HTTP
+      202 with a meta-refresh to /.well-known/sgcaptcha/ and no content, to both
+      a browser user-agent and a separate fetcher. The URL is almost certainly
+      fine — do not mark it closed on the 202. If stage 2 cannot get past it,
+      the meeting's date is usually carried by Cork Athletics and Athletics
+      Ireland instead.
+    notes: >-
+      Unverified content, 2026-08-17: corkcitysports.ie resolves and responds, but every fetch returned the
+      SiteGround captcha shim rather than the page, so nothing on it was read — the meeting's existence, its
+      date and its venue are all from general knowledge, not from the site. corkcitysports.com does not resolve.
+      `area: Bishopstown` is the expected venue and is not confirmed. A human needs to open this in a browser.
+    addedAt: "2026-08-17"
+
+  - id: sport/cork-city-marathon
+    name: Analog Devices Cork City Marathon
+    category: sport
+    kind: festival
+    status: provisional
+    url: https://www.corkcity.ie/en/cork-city-marathon/
+    area: City Centre
+    tags: [running, marathon, mass-participation, annual, road-closures, civic]
+    cadence: quarterly
+    hints: |
+      The city's mass-participation road race, run by Cork City Council on the
+      June bank holiday weekend and sponsored as the **Analog Devices Cork City
+      Marathon** — record the sponsored name.
+
+      Several distances share the day: full marathon, half, a relay and a
+      shorter event. Record each as its own event — separate start times, entry
+      fees and sell-out dates, and an entrant cares which one they have. Entries
+      open the previous autumn, so use a long forward horizon.
+
+      corkcitymarathon.ie is not a site of its own: over http it redirects here,
+      and over https it fails outright. Always use the corkcity.ie path.
+
+      The council page is a microsite inside a very large council nav, so the
+      dated content is a small fraction of the HTML; look for the year in the
+      logo and headings.
+    notes: >-
+      Verified 2026-08-17: corkcitymarathon.ie resolves but serves nothing over https (connection reset); over
+      http it 301s to https://www.corkcity.ie/en/cork-city-marathon/, which is titled "Cork City Marathon - Cork
+      City Council" and names the event "Analog Devices Cork City Marathon". The page's newest asset is a
+      "Marathon Logo 2027", implying the next edition is 2027, but no date is printed on it — a human should
+      confirm the date rather than let stage 2 infer one.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: sport/parkrun-cork
+    name: parkrun — Cork area
+    category: sport
+    kind: aggregator
+    status: provisional
+    url:
+      - role: listings
+        url: https://www.parkrun.ie/events/events/
+      - role: api
+        url: https://images.parkrun.com/events.json
+        note: single GeoJSON of every parkrun worldwide with coordinates; no user-agent trick needed
+    tags: [running, free, weekly, 5k, community, all-abilities, family]
+    cadence: monthly
+    hints: |
+      Free timed runs every Saturday morning at several sites around the city,
+      plus junior 2K runs on Sundays. **Irish parkruns start at 9:30am, not
+      9:00** like the UK ones.
+
+      Model each location as one `occurrence.kind: recurring` event with the
+      pattern stated ("every Saturday, 9:30"), never as a new event each week —
+      otherwise this single source floods the whole site. Cadence is monthly
+      because what changes is the set of locations, not the schedule.
+
+      The human events page is a JavaScript map and carries no event names. The
+      api route is the GeoJSON behind it: about 2,960 events worldwide, each
+      with eventname, EventLongName, EventLocation, countrycode (42 = Ireland,
+      www.parkrun.ie) and point coordinates. Filter on the coordinates to the
+      configured radius; seriesid 1 is the Saturday 5K and 2 the Sunday junior
+      2K. For a start time and course description fetch
+      https://www.parkrun.ie/<eventname>/, which is server-rendered.
+
+      Inside 12km of the centre at time of checking, with distances:
+      tramorevalley (2.7km, Tramore Valley Park, South Link Road), glenriver
+      (2.1km, Glen River Park, The Glen), ballincollig (8.9km, The Regional
+      Park), and four juniors — stmaryscampus-juniors (1.9km),
+      nurserydrive-juniors (2.3km, Ballinlough), clashduv-juniors (2.5km),
+      ballincolligregional-juniors (9.6km). Just outside and to be excluded:
+      haulbowlineisland-juniors (13.9km), cobh-juniors (14.0km),
+      midletongreenway (20.8km).
+    notes: >-
+      Verified 2026-08-17: images.parkrun.com/events.json returns 200 and 906KB of GeoJSON with no user-agent
+      trick, and the seven events above are in it. https://www.parkrun.ie/glenriver/ confirms "Every Saturday at
+      9:30am" at "Glen River Park, Glen Avenue, The Glen, Cork"; tramorevalley confirms the same time at
+      "Tramore Valley Park, South Link Road, Cork". Two leads discarded: there is **no Blarney and no Doneraile
+      parkrun** anywhere in the feed, and no event of either name within 25km.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  # -------------------------------------------------------------- WATER ------
+  - id: sport/ocean-to-city
+    name: Ocean to City – An Rás Mór
+    category: sport
+    kind: festival
+    status: provisional
+    url: https://oceantocity.com/the-race/
+    area: City Centre
+    address:
+      street: Crosses Green House, Crosses Green
+      city: Cork
+      postcode: T12 HF38
+      country: Ireland
+    tags: [rowing, mass-participation, annual, outdoor, community, free]
+    cadence: quarterly
+    hints: |
+      Ireland's largest and most inclusive rowing race — traditional working
+      boats, currachs, skiffs, gigs, longboats and paddlecraft, run from
+      Crosshaven up the harbour to finish in the city centre, and the anchor of
+      Cork Harbour Festival each June. Started 2005, organised by Meitheal Mara.
+
+      Multiple distances start at different points on the same morning; record
+      each as its own event where the site names them. The finish is in the
+      city, which is why it belongs to the city's programme even though the
+      start is outside the radius.
+
+      The next edition's date is in the page `<title>` — cheapest place to read
+      it.
+    notes: >-
+      Verified 2026-08-17: title reads "Challenge yourself in Cork Harbour for the Big Race: 30 May 2026" and the
+      page names the race, the organiser and the address above. That date has passed and no 2027 date is
+      published yet, so the site is currently stale rather than wrong; a human should not read the title date as
+      forthcoming.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: sport/meitheal-mara
+    name: Meitheal Mara
+    category: sport
+    kind: organiser
+    status: provisional
+    url: https://meithealmara.ie/events/
+    area: City Centre
+    address:
+      street: Crosses Green House, Crosses Green
+      city: Cork
+      postcode: T12 HF38
+      country: Ireland
+    tags: [rowing, outdoor, community, free, family]
+    cadence: monthly
+    hints: |
+      The community boatyard on Crosses Green, and the reason Cork has a
+      programme on the water at all: Ocean to City, the Inter-firm Dragon Boat
+      Challenge in the city centre, CORK UMNAVIGATION paddling trips around the
+      island, and support for the Rebel RAID small-boat event. Worth harvesting
+      separately from Ocean to City because the smaller events only appear here.
+
+      Dragon boat and circumnavigation dates are often given as a day and month
+      in prose with no year — do not resolve them to a year the page does not
+      state; `undated` with a note is the honest record.
+    notes: >-
+      Verified 2026-08-17: page titled "Events on Land & Water | Meitheal Mara - Community Boatyard Cork", with
+      an "Upcoming Events" block naming "Inter-firm Dragon Boat Challenge – 18 April 2026", "Ocean to City –
+      Saturday 30 May 2026" and "Cork Harbour Festival – Week surrounding Ocean to City 2026". All three dates
+      are in the past as of today, so the page needs a refresh; treat it as reachable-but-stale.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: sport/lee-rowing-club
+    name: Lee Rowing Club
+    category: sport
+    kind: organiser
+    status: provisional
+    url: https://www.leerowingclub.com/
+    area: The Marina
+    tags: [rowing, community]
+    cadence: monthly
+    hints: |
+      Founded 1850 and the oldest rowing club in Ireland, with its clubhouse on
+      the Marina beside the Lee. Regattas and head races are run under Rowing
+      Ireland's domestic calendar rather than published here, so expect this
+      source to yield club notices rather than dated racing.
+    notes: >-
+      Verified 2026-08-17: leerowingclub.ie does not resolve; leerowingclub.com does and is titled "Lee Rowing
+      Club", describing itself as "the oldest rowing club in Ireland" with a clubhouse "on the Marina in Cork
+      City". No events, fixtures or calendar link anywhere in the nav — the url is the homepage because there is
+      nothing else. Likely to harvest empty; a human may prefer to mark it dormant.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: sport/shandon-boat-club
+    name: Shandon Boat Club
+    category: sport
+    kind: organiser
+    status: provisional
+    url: https://shandonboatclub.com/calendar/
+    area: The Marina
+    address:
+      street: The Marina
+      city: Cork
+      postcode: T12 PV07
+      country: Ireland
+    tags: [rowing, community]
+    cadence: monthly
+    hints: |
+      Despite the name the club is on the Marina, not up in Shandon — the
+      address on its own contact block confirms it. Regatta season is roughly
+      April to September; the calendar is empty out of season.
+    notes: >-
+      Verified 2026-08-17: page titled "Calendar - Shandon Boat Club" and the footer prints "Shandon Boat Club,
+      The Marina, Cork T12 PV07". The August 2026 grid is empty and the newest linked item is a 2021 regatta, so
+      the calendar is barely maintained. Kept because the club is real and active on the water; a human should
+      decide between provisional and dormant.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  # ---------------------------------------------------- OTHER TEAM SPORTS ----
+  - id: sport/neptune-basketball
+    name: Neptune Basketball Club
+    category: sport
+    kind: venue
+    status: provisional
+    url: https://neptunebasketball.ie/
+    area: Blackpool
+    address:
+      street: North Monastery Road
+      city: Cork
+      postcode: T23 HK30
+      country: Ireland
+    tags: [basketball, fixtures, ticketed, community]
+    cadence: weekly
+    hints: |
+      Cork's senior basketball club, 75 years old, playing Super League at its
+      own Neptune Stadium on the north side. Season runs late September to
+      April.
+
+      **Do not harvest /events/.** It is an unconfigured Avada theme calendar:
+      "There are no upcoming events", and its past entries are demo placeholders
+      — "Lorem ipsum", "The Avada Complex FL". The Fixtures and Results menu
+      items are dead `#` anchors. Fixtures come from Basketball Ireland instead
+      (catalogued as sport/basketball-ireland); harvest this source for club
+      notices and the community programme only.
+    notes: >-
+      Verified 2026-08-17: site titled "Neptune Basketball – 75 Years in Cork" with the footer "NEPTUNE
+      BASKETBALL CLUB LTD. NEPTUNE STADIUM, NORTH MONASTERY ROAD, CORK, T23 HK30". It runs The Events Calendar —
+      /events/?ical=1 and the tribe REST endpoint both answer 200 — but the endpoint returns total 0 and the
+      page shows theme demo content, so neither is proposed as a route. neptunebc.ie and neptunebasketball.com
+      do not resolve.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: sport/basketball-ireland
+    name: Basketball Ireland — Super League fixtures
+    category: sport
+    kind: aggregator
+    status: provisional
+    url: https://ireland.basketball/MensSuperLeagueFixtures
+    tags: [basketball, fixtures, ticketed]
+    cadence: weekly
+    hints: |
+      The only place Cork's basketball fixtures are actually published, since
+      the clubs' own sites do not carry them. Cork's Super League sides are
+      Neptune (Neptune Stadium, Blackpool) and UCC Demons (Mardyke Arena) —
+      filter on those and on the venue, and drop the rest of the country.
+
+      Parallel pages exist per competition: /WomensSuperLeagueFixtures,
+      /MensDivisionOneFixtures, /WomensDivisionOneFixtures, /NationalLeagueFixtures.
+      The page offers the season as a download, so the fixture rows may not be
+      in the HTML.
+    notes: >-
+      Verified 2026-08-17: titled "Domino's Men's Super League" and the page text reads "The 2026/27 Domino's
+      Men's Super League fixtures Download…", so the current season is up. Whether individual rows are
+      server-rendered was not established — stage 2 should check the download link if the page yields nothing.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: sport/cork-county-cricket
+    name: Cork County Cricket Club (The Mardyke)
+    category: sport
+    kind: venue
+    status: provisional
+    url: https://www.corkcountycricketclub.com/resultsfixtures/
+    area: The Mardyke
+    address:
+      street: Richard Beamish Cricket Grounds, Mardyke
+      city: Cork
+      postcode: T12 YN61
+      country: Ireland
+    tags: [cricket, fixtures, summer]
+    cadence: monthly
+    hints: |
+      150 years old, on the Mardyke at the western end of the island, and the
+      ground where Munster Reds interprovincials and the occasional Ireland
+      fixture are staged. **The ground trades under a sponsor's name** — the
+      club's own footer calls it the Richard Beamish Cricket Grounds — so record
+      that as well as "the Mardyke", which is what everyone says.
+
+      Season is April to September and dormant over winter, hence monthly.
+    notes: >-
+      Verified 2026-08-17: /fixtures/ 301s to a stale /resultsfixtures/fixtures-results-2010/ path; the live page
+      is /resultsfixtures/, titled "Fixtures & Results". It is a **stub** — the prose says "View all fixtures for
+      each of the adult sides competing in both Munster and Leinster competitions" but the only link on it points
+      back at itself, there are no dated fixtures, and the copyright reads 2024. Expect an empty harvest.
+      munstercricket.ie is live but its /match-centre/ is equally empty, so there is no better route; a human
+      should check whether Cricket Ireland publishes a fixture feed for this ground.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: sport/cork-harlequins
+    name: Cork Harlequins Hockey & Cricket Club
+    category: sport
+    kind: venue
+    status: provisional
+    url: https://corkharlequins.com/
+    area: Farmers Cross
+    tags: [hockey, cricket, community]
+    cadence: monthly
+    hints: |
+      Cork's main hockey club, out at Farmers Cross south of the city, with a
+      cricket section sharing the ground. Hockey runs September to April,
+      cricket April to September, so something is on nearly all year.
+    notes: >-
+      Verified 2026-08-17: titled "Cork Harlequins Hockey and Cricket Club" and unmistakably the club, but the
+      homepage nav carries no fixtures, results or calendar link at all — the url is the homepage because there
+      is nothing better. Fixtures are likely published by Munster Hockey / Hockey Ireland; a human should decide
+      whether to add a governing-body source for hockey.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  # ------------------------------------------ PARTICIPATION & INSTITUTIONS ---
+  - id: sport/cork-sports-partnership
+    name: Cork Sports Partnership
+    category: sport
+    kind: listing
+    status: provisional
+    url: https://corksports.ie/all-events/
+    area: Bishopstown
+    address:
+      street: Cork College of FET, Bishopstown Campus, Rossa Avenue
+      locality: Bishopstown
+      city: Cork
+      postcode: T12 EE94
+      country: Ireland
+    tags: [community, free, family, all-abilities, civic]
+    cadence: monthly
+    hints: |
+      The council-funded body behind almost all of Cork's free participation
+      sport, and the source for the part of the category that has no ticket:
+      Cork Rebel Run, Cork Bike Week, the annual Cork Walking Celebration, Cork
+      Rebel Ramble, Cork Rebel Swim, European Week of Sport, Cork SportsAbility
+      Month, and a list of supported community events.
+
+      The /all-events/ hub names each of those but dates none of them — every
+      one has its own "Learn More" child page, and that is where the date is.
+      New programmes are announced as posts under /latest-news/ before they
+      reach the events hub, so check both.
+
+      The site runs The Events Calendar and its REST endpoint at
+      /wp-json/tribe/events/v1/events answers 200 — but with `"events":[]` and
+      `"total":0`, so it is not worth a route until someone populates it.
+    notes: >-
+      Verified 2026-08-17: /events/ and /whats-on/ 404; /all-events/ is the real path, titled "All Events | Cork
+      Sports Partnership", and lists the eight programmes above with the address taken from its own footer. The
+      tribe endpoint was fetched and is genuinely empty — the envelope and the array agree — which is why it is
+      recorded here rather than proposed as an api route.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: sport/mardyke-arena
+    name: Mardyke Arena UCC
+    category: sport
+    kind: venue
+    status: provisional
+    url: https://www.mardykearena.com/news/
+    homepage: https://www.mardykearena.com/
+    area: The Mardyke
+    tags: [university, community, family, all-abilities]
+    cadence: monthly
+    hints: |
+      The university's sports and leisure complex on the Mardyke, and the venue
+      where UCC Demons play Super League basketball — those fixtures come from
+      Basketball Ireland, not from here.
+
+      There is no what's-on page: the class and course timetable lives in a
+      third-party Glofox portal at app.glofox.com, which is a booking system
+      rather than a listing, and the only editorial page is /news/. Expect
+      swimming galas, open days and one-off community events rather than a
+      programme.
+    notes: >-
+      Verified 2026-08-17: homepage titled "Mardyke Arena Health & Leisure Centre Cork". /whats-on/ and
+      /news-events/ both 404; /news/ answers 200 and is the only listing-shaped page on the site. Fitness
+      classes are behind the Glofox portal, which is not proposed as a route because it is a booking widget with
+      no public event data.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: sport/ucc-sport
+    name: UCC Sport
+    category: sport
+    kind: listing
+    status: provisional
+    url: https://www.ucc.ie/en/sport/
+    area: The Mardyke
+    tags: [university, student, community]
+    cadence: monthly
+    hints: |
+      University College Cork fields clubs in nearly every sport, several of
+      them competing at national level, and hosts intervarsity competitions
+      that bring hundreds of visitors into the city for a weekend. UCC RFC and
+      UCC Demons are the ones a general reader would recognise.
+
+      No dated calendar on the site — /en/sport/ is a clubs-and-news page and
+      /en/sport/clubs/ the club directory. Harvest for intervarsity
+      announcements and one-off fixtures in the news stream; the club fixtures
+      themselves come from the governing bodies (Munster domestic rugby,
+      Basketball Ireland).
+    notes: >-
+      Verified 2026-08-17: titled "UCC Sport | University College Cork", live and current — newest news item 31
+      July 2026. /en/sportsrec/ and /en/mardyke/ both 404. There is no events listing, so this is a low-yield
+      source included for coverage rather than volume; uccrfc.ie and uccrowing.com do not resolve, so UCC's
+      clubs have no reachable sites of their own.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"

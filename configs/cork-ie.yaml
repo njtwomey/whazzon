@@ -1,0 +1,114 @@
+schema: whazzon.location/1
+
+id: cork-ie
+name: Cork
+region: Munster
+country: Ireland
+timezone: Europe/Dublin
+language: en-IE
+
+centre:
+  lat: 51.8985
+  lon: -8.4756
+radiusKm: 12
+
+# Lives at data/cork-ie/assets/<image>. Replace with a photograph whenever you
+# have one that is licensed for use — keep `imageCredit` accurate if so.
+#
+# Two are committed. `cork-not-cork.svg` is the joke map in the county's red and
+# white, and is the one in use. `region.svg` is the alternative: the city at dusk,
+# with the arms turned into a place — the ship sailing between the two towers,
+# Shandon's salmon and St Fin Barre's spires on the skyline.
+#
+# Switch by changing this line, and correct `imageCredit` when you do — the two
+# have different provenance. The dusk illustration is wholly original. The map is
+# someone else's design that we have redrawn, so it carries a designer credit,
+# and its geometry is Natural Earth's rather than ours.
+image: cork-not-cork.svg
+imageCredit: '"Cork / Not Cork" designed by Jim Finn for Rebel Ultimate; redrawn here, with coastline and county boundaries from Natural Earth (public domain)'
+
+# This file's name must match `id:` above — configs/<id>.yaml.
+#
+# Free text handed to the stage 1 prompt. Describe the character of the place:
+# what it is known for, which neighbourhoods matter, what a local would expect
+# to see in a "what's on" list. This is the main lever for catalogue quality.
+character: |
+  Ireland's second city, and thoroughly unconvinced that "second" is the right
+  word — the self-styled "real capital", and the Rebel City. Small enough to
+  walk across in twenty minutes, with a cultural programme that behaves like a
+  much larger place.
+
+  The city centre is an island: the River Lee splits into two channels and
+  rejoins below the city, so the centre is bounded by water on both sides and
+  crossed by a couple of dozen bridges. Streets curve because they were
+  waterways — St Patrick's Street follows a channel that was filled in. This
+  matters for listings, because "in town" means the island, and the hills either
+  side are separate worlds.
+
+  What Cork is known for:
+
+  - **Trad and folk music**, played in pubs rather than on stages. Sessions are
+    weekly, unticketed, and mostly announced on the pub's own social media if
+    anywhere. A "what's on" list that misses them misses the thing Cork is best
+    at.
+  - **A very strong choral and classical tradition** — an international choral
+    festival, cathedral and church programmes, and a conservatoire in the middle
+    of the city.
+  - **Independent live music** across the range: songwriter rooms, a converted
+    church, a summer big-top season down at the docks, and a club scene.
+  - **Film** — a long-established international film festival, an indie
+    counterpart, a French film festival, and year-round arthouse programming.
+  - **Food.** The English Market is genuinely central to how the city sees
+    itself, and there is a dense scene of markets, food halls and festivals
+    around it.
+  - **Theatre and contemporary performance**, including circus and dance, with
+    a midsummer festival that commissions across all of it.
+  - **Hurling and Gaelic football**, which are civic events rather than merely
+    sport, plus rugby and League of Ireland football.
+
+  Neighbourhoods and quarters with their own distinct scenes:
+
+  - **The island city centre** — Oliver Plunkett Street, Princes Street, Paul
+    Street and the Huguenot Quarter, South Main Street, Washington Street
+    (student-facing), Grand Parade, Emmet Place.
+  - **MacCurtain Street and the Victorian Quarter**, north of the river: the
+    city's regenerated nightlife and theatre strip, plus Coburg Street's trad
+    pubs.
+  - **Shandon**, up the hill on the north side: the bell tower with the salmon
+    weathervane, the butter museum, a dance centre in a converted butter market.
+    Historic, steep, and self-contained.
+  - **Douglas Street / Barrack Street**, on the south side climbing away from
+    the river — small independent venues and a strong local pub scene.
+  - **Blackpool** and **Ballyvolane** to the north, **Ballyphehane** and
+    **Turner's Cross** to the south, **Bishopstown** west (the university and
+    the technological university), **Douglas** and **Blackrock** southeast along
+    the river, **Ballincollig** west, **Mayfield** northeast, **Tivoli** and
+    **The Marina** east along the water towards the docks.
+  - **The docklands** — Centre Park Road, Monahan Road, the Marina. Warehouses,
+    a food hall, a stadium, and where the big temporary summer venues go.
+
+  The calendar has a strong seasonal shape and it is not the same as an English
+  city's. A jazz festival over the October bank holiday weekend takes over the
+  whole city and is the single biggest thing in the year. Midsummer is the other
+  peak. Halloween is a real civic event here, with a night-time parade from
+  Shandon. The choral festival is late spring, the film festival November, folk
+  in early autumn. Between festivals, a great deal of what happens is
+  weekly-recurring and pub-based.
+
+  Cork also programmes heavily out of institutions that are not arts venues at
+  all: the two universities, the city libraries, the cathedral and city
+  churches, the observatory in a castle downriver, a wildlife park east of the
+  city, and the council's own events office. These carry most of the free and
+  family programme.
+
+# Sources that list events across the whole city rather than for one venue.
+# These are catalogued as kind: aggregator and are the safety net for the
+# "venue-less event" problem described above.
+aggregatorPolicy: |
+  Always include the major local listings sites, the local news titles that
+  carry a "what's on" column, and the tourist board. Cork needs these more than
+  a larger city would: a lot of its programme is pub sessions, one-off gigs in
+  borrowed rooms, and community events that no venue website will ever list.
+
+  Irish ticketing platforms are worth catalogued entries in their own right —
+  they frequently hold dates that the venue's own site never publishes.

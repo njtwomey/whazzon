@@ -1,0 +1,537 @@
+schema: whazzon.catalogue/1
+category: theatre
+label: Theatre
+description: >-
+  Main houses, studio theatres, university theatres, dance, circus and
+  contemporary performance, and the companies that programme into other
+  people's spaces.
+sources:
+  - id: theatre/cork-opera-house
+    name: Cork Opera House
+    category: theatre
+    kind: venue
+    status: provisional
+    url:
+      - role: listings
+        url: https://www.corkoperahouse.ie/whats-on/
+      - role: booking
+        url: https://www.ticketmaster.ie/cork-opera-house-tickets-cork/venue/196738
+        note: per-performance dates and start times for the ticketed shows, which the venue's own diary prints as a date range
+    homepage: https://www.corkoperahouse.ie/
+    area: City Centre
+    address:
+      street: Emmet Place
+      city: Cork
+      postcode: T12 DW6P
+    tags: [major, producing-house, receiving-house, historic]
+    cadence: weekly
+    hints: |
+      The city's main house — 1,000 seats on Emmet Place, and the biggest
+      single programme in Cork. Output is genuinely mixed: musicals, panto,
+      stand-up, gigs and spoken word sit next to plays, so classify per event
+      rather than assuming a listing here is theatre.
+
+      The diary is server-rendered and paginated: /whats-on/?event-page=2
+      through ?event-page=6 at the time of writing, so follow pagination to the
+      end rather than taking the first screen. Category filters narrow it —
+      ?category=42 is Theatre, ?category=38 Musical Theatre, ?category=33
+      Comedy, ?category=37 Music, ?category=41 Spoken Word. There are also date
+      filters of the form ?datefilter=this%20month&date-from=&date-to=.
+
+      Multi-night runs print as a start–end pair with "Various Times", which is
+      `occurrence.kind: run`, not a single sitting.
+
+      The Opera House also operates two smaller spaces, but neither is named
+      anywhere in the /whats-on/ diary: the 100-seat Half Moon Theatre to the
+      rear (catalogued separately) and the Half Moon Place café, whose free
+      Tuesday/Friday 1–2pm lunchtime concert series runs through the summer and
+      is announced only on social media.
+    notes: >-
+      Verified 2026-08-17: header reads "Cork Opera House", address printed on the page as Emmet Place, Cork
+      City, T12 DW6P, agreeing with area: City Centre. Dated events server-rendered from The Sound of Music
+      (Thurs 23 Jul – Sun 23 Aug) through Freya Ridings (Tues 8 Sep) and on to Gavin James (30 October 2026) on
+      the Ticketmaster venue page. The string "Half Moon" does not appear once in the 168KB listings page, so
+      that space's programme is not discoverable from here.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: theatre/everyman
+    name: The Everyman
+    category: theatre
+    kind: venue
+    status: provisional
+    url: https://everymancork.com/whats-on/
+    area: MacCurtain Street
+    address:
+      street: 15 MacCurtain Street
+      city: Cork
+      postcode: T23 E094
+    tags: [producing-house, historic, major]
+    cadence: weekly
+    hints: |
+      Late-Victorian 650-seat house on MacCurtain Street, and Cork's main
+      producing and mid-scale receiving theatre. Books a long way ahead —
+      the Christmas panto (Jack and the Beanstalk, 03 Dec–10 Jan) is already
+      listed in August — so use a long forward horizon.
+
+      The diary is server-rendered on /whats-on/ with a month dropdown rather
+      than numbered pagination, and dates print as "20 Aug–22 Aug" for runs and
+      a bare "06 Sep" for single sittings. A ?category= query is accepted.
+
+      Do not follow the box office: "Book Now" goes to
+      everymancork.ticketsolve.com, which redirects into a Queue-it virtual
+      waiting room and then requires JavaScript. It yields nothing to a
+      fetcher — stay on /whats-on/.
+
+      The site also runs a WordPress /feed/, but it carries news posts and
+      audition calls rather than dated performances, so it is not a listings
+      route.
+    notes: >-
+      Verified 2026-08-17: page names "The Everyman" and prints "15 Maccurtain street, Cork, T23 E094", agreeing
+      with area: MacCurtain Street. Dated shows include K-POP ALL STARS (17 Aug), A Streetcar Named Desire
+      (20 Aug–22 Aug) and Judy – End of the Rainbow (27 Aug–05 Sep). www.everymancork.com 301s to the apex, so
+      the apex is written here.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: theatre/cork-arts-theatre
+    name: Cork Arts Theatre
+    category: theatre
+    kind: venue
+    status: provisional
+    url:
+      - role: listings
+        url: https://corkartstheatre.com/whatson/
+      - role: api
+        url: https://corkartstheatre.com/wp-json/tribe/events/v1/events
+        note: whole diary in one fetch with start/end datetimes, full body text and the venue address; 9 events, total_pages 1
+    homepage: https://corkartstheatre.com/
+    area: Victorian Quarter
+    address:
+      street: Carroll's Quay
+      city: Cork
+      postcode: T23 X72D
+    tags: [independent, studio, fringe]
+    cadence: weekly
+    hints: |
+      Small independent theatre on the north channel, and the main receiving
+      room for Cork's fringe and independent companies — the programme turns
+      over roughly weekly, so most shows are short runs of three or four
+      nights rather than long ones.
+
+      Prefer the Tribe events API over scraping /whatson/: it is The Events
+      Calendar's standard endpoint and returns the entire diary in one fetch
+      with `start_date`/`end_date`, the description as HTML, and the venue
+      block. Because the endpoint stamps every show 00:00:00–23:59:59, take the
+      curtain time from the description rather than from `start_date`.
+
+      Almost everything here is a visiting company, not a house production, so
+      it is the best single source for who is making theatre in Cork.
+      /whats-on/ (with hyphens) is a 404 — the real path is /whatson/.
+    notes: >-
+      Verified 2026-08-17: header reads "Cork Arts Theatre"; the guessed /whats-on/ path 404s and the real
+      listings path is /whatson/, reached from the site nav. The Tribe API confirms the venue as "Cork Arts
+      Theatre", Carroll's Quay, Cork, T23 X72D, Ireland, which is where the address here comes from. Dated shows
+      run from Craic! The Improv Irish Play (2026-08-18 to 2026-08-22) through GOLL (2026-10-02 to 2026-10-04).
+      Carroll's Quay sits at the eastern end of the north-channel quays beside the Victorian Quarter; a human
+      may prefer City Centre for the area.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: theatre/granary-theatre
+    name: The Granary Theatre
+    category: theatre
+    kind: venue
+    status: provisional
+    url: https://www.ucc.ie/en/granary/
+    area: Mardyke
+    address:
+      street: Dyke Parade
+      city: Cork
+      postcode: T12 VF64
+    tags: [university, student, studio]
+    cadence: monthly
+    hints: |
+      UCC's black-box studio on Dyke Parade. It has no what's-on page of its
+      own — the URL here is the venue page, which carries facilities, hire
+      terms and FAQs and states plainly that "The Granary is currently not used
+      as a receiving house for touring work".
+
+      Its actual programme therefore comes from two other places, and both are
+      catalogued: the UCC Department of Theatre news page, which announces the
+      student productions staged here, and Cork Midsummer Festival, which
+      programmes into it under a partnership. Expect this URL itself to yield
+      no events most of the time — that is the truth about the building, not a
+      failed crawl.
+    notes: >-
+      Verified 2026-08-17: the guessed granary.ie 301s to https://www.ucc.ie/en/granary/, which is titled
+      "Granary Theatre UCC" and prints "UCC Granary Theatre, Dyke Parade, T12 VF64, Cork". Both /whatson/ and
+      /whatson-2/ under that path are 404s and no events page is linked, so the venue page is the best available
+      URL. Confirmed as a live space, not a closed one: the Department of Theatre lists MOMENTUM, its final-year
+      showcase, here on 1–2 April 2026.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: theatre/firkin-crane
+    name: Firkin Crane
+    category: theatre
+    kind: venue
+    status: provisional
+    url: https://dancecorkfirkincrane.ie/programme/
+    homepage: https://dancecorkfirkincrane.ie/
+    area: Shandon
+    address:
+      street: John Redmond Street
+      locality: Shandon
+      city: Cork
+      postcode: T23 Y584
+    tags: [dance, independent, historic]
+    cadence: weekly
+    hints: |
+      Ireland's dedicated dance house, in the round former butter market up the
+      hill in Shandon. Almost everything here is dance or dance-adjacent
+      performance, so it is the one source that carries Cork's dance programme.
+
+      The programme mixes three quite different things and only the first is a
+      public performance: ticketed shows and work-in-progress showings;
+      professional classes for dancers (recurring, weekly, named for the
+      teacher — "Professional Class with Caroline Meaden"); and artist
+      residencies stated as a multi-week span, which are studio time rather
+      than something an audience attends. Record the showings, and treat the
+      professional classes as `occurrence.kind: recurring` rather than one
+      event per week.
+
+      Residencies print as a long date range with a single showing date inside
+      it, e.g. "4 August – 12 September 2026" — take the showing, not the span.
+    notes: >-
+      Verified 2026-08-17: the guessed firkincrane.ie 301s to dancecorkfirkincrane.ie. Page reads "Firkin Crane
+      – Dance Theatre Cork" and prints "Firkin Crane, John Redmond Street, Shandon, Cork T23 Y584", agreeing
+      with area: Shandon. /whats-on/ 404s; the real listings path is /programme/. Dated items include Immacolata
+      (17–21 August 2026, showing Friday 21 August, 6pm) and a professional class on 20 August 2026.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: theatre/circus-factory
+    name: Circus Factory
+    category: theatre
+    kind: venue
+    status: provisional
+    url: https://circusfactorycork.com/
+    area: Ballintemple
+    address:
+      street: Centre Park Road
+      locality: Ballintemple
+      city: Cork
+      postcode: T12 X856
+    tags: [circus, independent, courses]
+    cadence: monthly
+    hints: |
+      Cork's contemporary circus and street arts hub, in a warehouse on Centre
+      Park Road down in the docklands. Part training space, part producer —
+      distinguish public performances from the classes, workshops and
+      intensives that dominate the site, and record only the former.
+
+      The whole domain sits behind a SiteGround captcha wall: a plain fetch
+      returns HTTP 202 and a 168-byte meta-refresh to
+      /.well-known/sgcaptcha/. This is a bot wall, not a dead site — send a
+      full browser user-agent and follow the challenge. Do not mark it closed
+      on a 202.
+
+      No /events/ or /whats-on/ path could be confirmed through the wall, so
+      start from the root. Its flagship public event is the Pitch'd Circus and
+      Street Arts Festival, which is a festival rather than a house programme.
+    notes: >-
+      Unverified content, confirmed existence. corkcircusfactory.com and circusfactory.ie do not resolve; the
+      real domain is circusfactorycork.com, which answers only with a captcha challenge, so the page body was
+      never read. The organisation is confirmed real and current through the Cork City Public Participation
+      Network members directory, which gives the website as circusfactorycork.com and the address as "Centre
+      Park Road, Ballintemple, Cork T12 X856" — that directory, not the venue's own page, is where the address
+      here comes from, so a human should re-read it off the site once the wall is passed. Area may be better
+      recorded as The Marina or the docklands.
+    addedAt: "2026-08-17"
+
+  - id: theatre/half-moon-theatre
+    name: Half Moon Theatre
+    category: theatre
+    kind: venue
+    status: provisional
+    url: https://www.corkgigs.com/v2/venue.php?v=14
+    homepage: https://www.corkoperahouse.ie/
+    area: City Centre
+    address:
+      street: Half Moon Street
+      city: Cork
+    tags: [studio, independent]
+    cadence: monthly
+    hints: |
+      The 100-seat flexible studio behind Cork Opera House, on Half Moon
+      Street, run by the Opera House but programmed quite differently from the
+      main auditorium — described as hosting experimental interdisciplinary
+      work mixing drama with music and comedy. Most of what plays here is
+      music, so classify per event.
+
+      It has no listings page of its own and, importantly, is not named
+      anywhere in the Opera House's /whats-on/ diary, so the CorkGigs venue
+      profile is the only per-venue listing. That listing is gig-led and will
+      miss theatre, and it may legitimately read "No upcoming events listed" —
+      record the fetch and attach nothing rather than hunting for another URL.
+
+      Do not confuse this with Half Moon Place, the Opera House café, which
+      runs a separate free lunchtime concert series.
+    notes: >-
+      Verified 2026-08-17 that the venue is real and the page is the right one: the CorkGigs profile names "Half
+      Moon Theatre", places it on Half Moon Street at the rear of Cork Opera House, and describes it as "a
+      flexible studio space" fostering "a more experimental range of interdisciplinary projects mixing drama
+      with music and comedy". It currently shows "No upcoming events listed". No eircode recorded because the
+      address came from CorkGigs rather than the venue's own page. Worth a human decision: the programme is
+      predominantly music, so the music category may be the better owner, and the entry could alternatively be
+      folded into theatre/cork-opera-house.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: theatre/graffiti-theatre
+    name: Graffiti Theatre Company
+    category: theatre
+    kind: organiser
+    status: provisional
+    url: https://www.graffiti.ie/theatre/
+    homepage: https://www.graffiti.ie/
+    area: Blackpool
+    address:
+      street: Assumption Road
+      locality: Blackpool
+      city: Cork
+    tags: [youth, family, touring]
+    cadence: monthly
+    hints: |
+      Cork's professional theatre company for children and young people, based
+      in its own building on Assumption Road in Blackpool but touring into
+      schools, festivals and other venues rather than programming a public
+      season there — set `venue.sourceId` where the host venue is in our
+      catalogue.
+
+      There is no what's-on page. /theatre/ is a productions page written
+      entirely in the past tense with no dates and no venues, so it is an
+      archive rather than a diary; treat what it lists as
+      `occurrence.kind: undated` with a note rather than inventing dates.
+      Tour announcements appear on /news/ instead, mixed in with job postings
+      and application calls for its Fighting Words and Write Club strands —
+      those calls are not events.
+
+      The domain sits behind a bot wall that answers a plain fetch with 403 or
+      202; a browser user-agent gets through.
+    notes: >-
+      Verified 2026-08-17: page names "Graffiti Theatre Company" and gives the base as Assumption Road,
+      Blackpool, Cork, agreeing with area: Blackpool. No eircode published, so none recorded. /theatre/ carries
+      recent productions with no performance dates; the most recent dated item anywhere on the site is a
+      14 Aug 2026 recruitment post on /news/, which confirms the company is trading. Left as the listings URL
+      because it is the closest thing to a programme the site has.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: theatre/ucc-department-of-theatre
+    name: UCC Department of Theatre
+    category: theatre
+    kind: listing
+    status: provisional
+    url: https://www.ucc.ie/en/fmt/theatre/news/
+    homepage: https://www.ucc.ie/en/fmt/theatre/
+    area: Mardyke
+    tags: [university, student, free]
+    cadence: monthly
+    hints: |
+      The department is where the Granary Theatre's programme actually comes
+      from, so harvest it alongside theatre/granary-theatre rather than
+      instead of it. Its public output is student productions — a final-year
+      showcase in spring, second-year shows in December, and one-off staged
+      readings — and most are free but ticketed through Ticket Tailor.
+
+      Term-time only: an empty page in July or August is the truth, not a
+      failed crawl. The page is a news feed rather than a diary, so dates are
+      buried in prose ("Next Tues 9th Dec at 7:30pm in the Granary Theatre")
+      and past items sit alongside forthcoming ones — check the year before
+      recording anything.
+
+      /en/theatre/ 301s to /en/fmt/theatre/ and /en/fmt/theatre/events/ is a
+      404; /news/ is the real path.
+    notes: >-
+      Verified 2026-08-17: page is UCC's Department of Theatre, contact theatre@ucc.ie, based on Western Road
+      beside the Granary. Dated public performances listed include MOMENTUM, the final-year showcase, "Wed 1st
+      April @7.30pm / Thur 2nd April @2.30pm" at the Granary Theatre, and a second-year show in December. Page
+      last updated 9 July 2026.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: theatre/cork-city-ballet
+    name: Cork City Ballet
+    category: theatre
+    kind: organiser
+    status: provisional
+    url: https://www.corkcityballet.com/upcoming-performances/
+    homepage: https://www.corkcityballet.com/
+    tags: [dance, touring]
+    cadence: quarterly
+    hints: |
+      Cork's ballet company. It has no building — it mounts roughly one
+      full-length production a year with guest principals, almost always at
+      Cork Opera House, so its dates are usually already in that diary. Set
+      `venue.sourceId` to theatre/cork-opera-house where the listing says so.
+
+      The company's own page is slow to update and mixes the current
+      production with several years of past ones under the same "Upcoming
+      Performances" heading, so read the year off each item rather than
+      trusting the heading. Where it says only "On sale now at Cork Opera
+      House" with no date, that is `occurrence.kind: undated`.
+    notes: >-
+      Verified 2026-08-17: page is titled "Upcoming Performances - Cork City Ballet". It is stale — the newest
+      item is a Swan Lake poster uploaded September 2025 reading "On sale now at Cork Opera House", below which
+      sit The Sleeping Beauty (Nov 2024) and The Nutcracker (November 2022). No street address published, so
+      none recorded, and no area set because the company has no premises. The company is real and current but a
+      human may want status: dormant if nothing newer appears.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: theatre/gaitkrash
+    name: Gaitkrash Theatre Company
+    category: theatre
+    kind: organiser
+    status: provisional
+    url: https://gaitkrash.com/
+    tags: [independent, contemporary, site-specific]
+    cadence: quarterly
+    hints: |
+      Cork company making interdisciplinary contemporary performance —
+      Suzuki/Viewpoints-trained actors working with sound and visual art,
+      founded by artists from UCC and the Cork School of Music. Output is
+      occasional and project-based, often in found or partner spaces, so a
+      quarterly check is enough.
+
+      The site is a project archive with a /news list rather than a diary and
+      publishes no dates, so expect `occurrence.kind: undated` or nothing at
+      all. The homepage is the only page worth fetching.
+    notes: >-
+      Verified 2026-08-17: site confirms Gaitkrash, "formed in 2007 by theatre artists Bernadette Cronin,
+      Regina Crowley and sound and visual artist Mick O'Shea", with a 2026 copyright line, so it is maintained.
+      No dated productions and no venues anywhere on it, and no address published — hence no area or address
+      here.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: theatre/cyclone-rep
+    name: Cyclone Rep
+    category: theatre
+    kind: organiser
+    status: provisional
+    url: https://www.cyclonerep.com/
+    tags: [youth, touring]
+    cadence: quarterly
+    hints: |
+      Theatre-in-education company touring Shakespeare to second-level
+      schools. Its performances are almost all in school halls to a booked
+      audience rather than open to the public, so expect very little that
+      belongs on a what's-on site — the site advertises productions
+      ("Venetian Double Bill – on sale now", Shylock's Revenge and Othello:
+      The Green-Eyed Monster) and tour availability, never public dates.
+      Treat productions as `occurrence.kind: undated`.
+    notes: >-
+      Verified 2026-08-17: cyclonerep.ie does not resolve; the live domain is cyclonerep.com, which names
+      Cyclone Rep Theatre Company and gives its base as "Cliffside, Weaver's Side, Crosshaven, P43 AT80" — the
+      street line is printed inconsistently elsewhere as Weaver's Point, so no address is recorded here. Two
+      reasons a human may want to drop this entry: Crosshaven is roughly 20km from the centre and outside the
+      12km radius, and the company's work is schools-only, so it is not part of the city's public programme.
+      Kept because it was an explicit lead and the company is real and active.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: theatre/montfort-college
+    name: Montfort College of Performing Arts
+    category: theatre
+    kind: organiser
+    status: provisional
+    url: https://www.montfortcollege.com/news
+    homepage: https://www.montfortcollege.com/
+    tags: [courses, youth, amateur]
+    cadence: quarterly
+    hints: |
+      A performing arts school — dance, drama, singing and musical theatre
+      classes — rather than a venue or a producing company. Its public output
+      is occasional student showcases, and its site sells classes, exams and
+      camps. Record only public performances, and ignore the class and camp
+      listings, which are courses.
+
+      The site is old and hand-rolled: no listings page, dated items only under
+      /news as viewNews/id/<n>, and no address on the front page (see
+      /locations, which lists several).
+    notes: >-
+      Verified 2026-08-17: montfortcollege.ie does not resolve; the live domain is montfortcollege.com, titled
+      "Montfort College of Performing Arts - Classes in Dance, Drama, Singing and Musical Theatre", so the
+      organisation is real. The site looks largely unmaintained — it still links a Google Plus profile and a
+      covid-procedures page. No area or address recorded because it teaches from more than one location and
+      none is printed on the front page. A human may reasonably drop this: it is a classes provider, and its
+      public shows are annual at most.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: theatre/pure-cork-theatre
+    name: Pure Cork — Theatre & Comedy
+    category: theatre
+    kind: listing
+    status: provisional
+    url: https://www.purecork.ie/whats-on/categories/theatre-comedy
+    homepage: https://www.purecork.ie/
+    tags: [tourist-board, official]
+    cadence: daily
+    hints: |
+      The Cork tourist board's what's-on, filtered to theatre and comedy. The
+      single best safety net for this category: it aggregates the main houses,
+      the independents and one-off shows in borrowed rooms into one dated,
+      venue-named list, and it catches things no venue site publishes.
+
+      Its sibling filter /whats-on/categories/performance carries the dance,
+      circus and contemporary performance side and is worth the second fetch.
+
+      Every row names its venue, so set `venue.sourceId` where it matches a
+      catalogued source and set `venue` explicitly where it does not — this
+      source lists events at other people's venues by definition. It reaches
+      the whole county, so expect Bandon, Blarney, Youghal and Kinsale rows
+      that are outside the location radius. Paginated, five pages at the time
+      of writing.
+    notes: >-
+      Verified 2026-08-17: page is the "Official tourism website for Cork, Ireland" and the theatre-comedy
+      filter returns dated, venue-named rows — Craic! The Improv Irish Play (Tue 18th Aug, 20:00, Cork Arts
+      Theatre), The Sound of Music (Wed 19th Aug, 19:00, Cork Opera House), A Streetcar Named Desire (Thu 20th
+      Aug, 19:30, The Everyman), Circus Extreme (Sun 30th Aug, 17:00, Curraheen Showground). Both category paths
+      were fetched and confirmed.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: theatre/eventbrite-cork-performing-arts
+    name: Eventbrite — Cork Performing Arts
+    category: theatre
+    kind: aggregator
+    status: provisional
+    url: https://www.eventbrite.ie/d/ireland--cork/performing-arts/
+    tags: [commercial, ticketed]
+    cadence: daily
+    hints: |
+      Self-serve ticketing, so it holds the things that never reach a venue
+      website: improv nights, one-off shows in hotel function rooms, comedy
+      club showcases, studio classes. Worth crawling precisely because it is
+      the long tail.
+
+      Signal-to-noise is poor for this category — the performing-arts feed is
+      heavy with art camps, therapy workshops and classes, which are courses
+      rather than performances. Its narrower sibling
+      /d/ireland--cork/theatre/ also answers and is a cleaner filter.
+
+      Every row names its own venue, so set `venue` or `venue.sourceId` on each
+      event. Eventbrite's area labels are unreliable — it tags several
+      city-centre venues as Blackpool — so take the area from our catalogue
+      where the venue matches, not from the listing.
+    notes: >-
+      Verified 2026-08-17: page returns dated Cork rows naming real Cork venues, including Stand-Up Comedy Club:
+      Thursday Showcase (Thu, Aug 27, 8:30 PM, The Roundy), Creative Art Therapy at The Everyman (Sat, Sep 5),
+      A Night at the Opera by Candlelight (Sun, Sep 20, Cork City Hall) and Mamma Mia - The Live Experience
+      (Fri, Aug 28, Radisson Blu Hotel, Cork). The /theatre/ variant was also fetched and answers 200.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"

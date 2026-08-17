@@ -1,0 +1,872 @@
+schema: "whazzon.harvest/1"
+locationId: "cork-ie"
+date: "2026-08-17"
+category: "literature"
+harvestedAt: "2026-08-17T09:45:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "4"
+model: "claude-opus-5[1m]"
+observations:
+  - sourceId: "literature/munster-literature-centre"
+    fetch:
+      ok: true
+      url: "https://munsterlit.ie/events/"
+      status: 200
+    events:
+      - id: "literature/munster-literature-centre#95d6ee4507"
+        sourceId: "literature/munster-literature-centre"
+        title: "Frank O'Connor Writers' Group"
+        occurrence:
+          kind: "recurring"
+          pattern: "2nd Tuesday of each month at 3.30 p.m. (no meetings in July or August)"
+          startTime: "15:30"
+        status: "scheduled"
+        venue:
+          name: "Mayfield Library"
+          area: "Mayfield"
+        tags:
+          - "new-writing"
+          - "community"
+          - "drop-in"
+        raw: "**Frank O'Connor Writers' Group**
+
+
+          2nd Tuesday of each month at 3.30 p.m.
+
+          (no meetings in July or August)
+
+
+          The Frank O'Connor Writers' Group meet in Mayfield Library. Refreshments served. New members always
+
+          welcome. Phone Mayfield Library on 021-4924935 for further details.\n"
+        summary: "A long-standing writers' group that meets monthly in Mayfield Library, open to new members and with refreshments served. No meetings over July and August."
+        confidence: "high"
+    notes: "Both catalogued routes read. /events/ is the noticeboard the hint describes: the \"MLC Workshops\" block reads only \"MLC workshops TBA\", so the centre has nothing of its own dated, and the \"Cork Events\" block is a mix of recurring entries stated in words and three image-only banner links. Two of those banners are now stale — events.stfinbarres.ie/event/ill-be-your-mirror-alternative-storytelling/ was 7 August 2026 18:00 and the Eventbrite \"Borrow a poet from The Poets Library\" was 8 August 2026 13:00 (both opened and confirmed past, so neither is recorded); the third points at the Cork City Libraries Eventbrite organiser, which is a listing not an event and belongs to citywide. Of the named recurring entries, Ó Bhéal go Béal is recorded under literature/o-bheal-go-beal rather than duplicated here, Waterstones Cork / UCC School of English / Cork City Libraries are separately catalogued sources, and Lime Square Poets (online, Limerick) and De Barra's Spoken Word (Clonakilty) are out of scope exactly as the catalogue notes say. Only the Frank O'Connor Writers' Group has no source of its own, so it is recorded here. The /feed/ route was also read (10 items, most recent 9 Jul 2026) and is almost entirely competition opens, closes and results, which the hint rightly says are not events; its one workshop, the Shangyang Fang online poetry course, ran 15, 22, 29 June and 6 July 2026 and is past. The single genuinely new fact in the feed is that the \"Louise Hegarty to judge this year's Ó Faoláin Competition\" post dates the Cork International Short Story Festival as \"14 - 17 October 2026\" — recorded against literature/cork-international-short-story-festival, whose own site still shows 2025. Worth stage 1 knowing that events.stfinbarres.ie carries a whole August readings series (\"I'll Be Your Mirror\") that this noticeboard only banners one instance of; the cathedral is catalogued as museums/st-fin-barres-cathedral."
+  - sourceId: "literature/cork-international-poetry-festival"
+    fetch:
+      ok: true
+      url: "https://www.corkpoetryfest.net/programme.html"
+      status: 200
+    events: []
+    notes: "Reached the right page and it is current for the edition it advertises, but that edition has run: the heading reads \"12–16 May, 2026\" and the programme lists 23 dated sessions plus a Mon 11 May Ó Bhéal go Béal fringe event, across the Farmgate Café, Cork City Library, Cork Arts Theatre and the Hayloft Bar. All of it is three months past, so nothing is recorded rather than filing two dozen finished rows on a first harvest. No 2027 dates appear anywhere on the site, and the hint's prediction holds — it stays quiet until the new year. Sister pages were not re-fetched because the programme page is not stale, only over."
+  - sourceId: "literature/cork-international-short-story-festival"
+    fetch:
+      ok: true
+      url: "https://corkshortstory.net/programme.html"
+      status: 200
+    events:
+      - id: "literature/cork-international-short-story-festival#80aec429d4"
+        sourceId: "literature/cork-international-short-story-festival"
+        title: "Cork International Short Story Festival 2026"
+        occurrence:
+          kind: "run"
+          start: "2026-10-14"
+          end: "2026-10-17"
+        status: "scheduled"
+        tags:
+          - "festival"
+          - "multi-day"
+          - "reading"
+          - "author-talk"
+        raw: "Dates as stated in the Munster Literature Centre's own announcement, not on the festival site:
+
+
+          > First prize includes €2000 and a featured reading at the Cork International Short Story Festival
+
+          > (14 - 17 October 2026).
+
+
+          — [Louise Hegarty to judge this year's Ó Faoláin Competition](https://munsterlit.ie/louise-hegarty-to-judge-this-years-o-faolain-competition/), 28 May 2026.
+
+
+          No per-event programme has been published. corkshortstory.net still shows the 2025 edition,
+
+          \"15–18 october 2025\".\n"
+        summary: "The Munster Literature Centre's short story festival returns for four days in mid October, with the Ó Faoláin Prize reading and the Frank O'Connor Fellow among the fixtures. Dates are announced but the per-event programme is not."
+        confidence: "medium"
+    notes: "FOR A HUMAN: the festival's own site is still entirely the 2025 edition. /programme.html, index.html, /awards.html and /workshop.html all carry the heading \"15–18 october 2025\", and awards.html still refers forward to \"Saturday 18th October\" as though 2025 were ahead. But the 2026 edition IS dated — the Munster Literature Centre's RSS feed, read in this same run, says the Ó Faoláin first prize \"includes €2000 and a featured reading at the Cork International Short Story Festival (14 - 17 October 2026)\". The run below is recorded from that feed post, not from this page, which is why it is confidence medium and carries no venue: 2025 used Cork City Library and Cork Arts Theatre, but nothing states the 2026 rooms. Two months' lead time remains and the festival's own site has not been updated, which is exactly the curator decision the catalogue note anticipated. Re-crawl weekly through September."
+  - sourceId: "literature/cork-world-book-fest"
+    fetch:
+      ok: true
+      url: "https://corkworldbookfest.com/events/"
+      status: 200
+    events: []
+    notes: "Reached, current, and entirely retrospective. The page still opens \"Cork World Book Fest returns from Tuesday 21 – Sunday 26 April 2026\" and lists roughly fifty dated events across those six days, every one of them four months past, so nothing is recorded. Nothing is announced for 2027 and the fest's rhythm puts that announcement in the new year, so this is expected rather than a problem. Individual events do have their own /events/<slug>/ pages, which will be worth taking when a live edition is up."
+  - sourceId: "literature/waterstones-cork"
+    fetch:
+      ok: true
+      url: "https://www.waterstones.com/events/search/shop/cork"
+      status: 200
+    events:
+      - id: "literature/waterstones-cork#9446696caa"
+        sourceId: "literature/waterstones-cork"
+        title: "Book signing: The Dungeon Book by Gareth Hanrahan"
+        subcategory: "Book signing"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "14:00"
+        status: "scheduled"
+        url: "https://www.waterstones.com/events/book-signing-the-dungeon-book-by-gareth-hanrahan/cork"
+        image: "https://cdn.waterstones.com/bookjackets/large/9780/3565/9780356531205.jpg"
+        tags:
+          - "signing"
+          - "author-talk"
+          - "one-night"
+        raw: "**Book signing: The Dungeon Book by Gareth Hanrahan** — Saturday 22nd August 2026, 14:00, Waterstones
+
+          Cork.
+
+
+          Meet fantasy author Gareth Hanrahan as he signs copies of his hilarious new standalone novel, The Dungeon
+
+          Book.\n"
+        summary: "Cork-based fantasy author Gareth Hanrahan signs copies of his standalone novel The Dungeon Book, told by Cornelius the skull."
+        description: "We are delighted to welcome back Cork-based fantasy author Gareth Hanrahan to sign copies of his hilarious
+
+          new standalone novel, The Dungeon Book. Gareth is a writer and game designer, and his debut novel The
+
+          Gutter Prayer was published by Orbit in 2019.
+
+
+          The book: *The Dungeon Book: (As told by Cornelius the skull)* (Hardback).
+
+
+          Terms & Conditions: please note that events can occasionally be cancelled at short notice or their times
+
+          or dates may alter; we therefore recommend that you check with the shop before travelling. If you are
+
+          unable to attend an event we can often reserve signed copies. Please contact the host shop for details.
+
+          All signings (unless otherwise stated) operate on a first come first served basis, so early arrival is
+
+          often recommended.\n"
+        confidence: "high"
+      - id: "literature/waterstones-cork#0e82c12c8c"
+        sourceId: "literature/waterstones-cork"
+        title: "Fiction Book Club"
+        occurrence:
+          kind: "single"
+          date: "2026-08-27"
+          startTime: "18:00"
+          endTime: "19:00"
+        status: "scheduled"
+        url: "https://www.waterstones.com/events/fiction-book-club/cork-172624"
+        image: "https://cdn.waterstones.com/bookjackets/large/9780/5713/9780571368129.jpg"
+        tags:
+          - "reading-group"
+          - "drop-in"
+          - "community"
+        raw: "**Fiction Book Club** — Thursday 27th August 2026, 18:00 – 19:00, Waterstones Cork.
+
+
+          Come and join us for our discussion of Nervous Conditions, a perfect coming of age story--both of the young
+
+          protagonist and of her nation, Zimbabwe. The narrator of this novel is so memorable, from the arresting
+
+          first line, you will be gripped by her darkly funny voice. Conversation will be friendly and informal, all
+
+          are welcome. There's no need to reserve your seat, and if you haven't joined us before, please feel free to
+
+          come!\n"
+        summary: "The shop's monthly fiction book club takes on Tsitsi Dangarembga's Nervous Conditions. No booking, no reserved seats, newcomers welcome."
+        description: "Come and join us for our discussion of Nervous Conditions, a perfect coming of age story--both of the
+
+          young protagonist and of her nation, Zimbabwe. Conversation will be friendly and informal, all are
+
+          welcome. There's no need to reserve your seat, and if you haven't joined us before, please feel free to
+
+          come!
+
+
+          The book: *Nervous Conditions* by Tsitsi Dangarembga (Paperback).\n"
+        confidence: "high"
+      - id: "literature/waterstones-cork#8ba39f14fd"
+        sourceId: "literature/waterstones-cork"
+        title: "A Nation Once Again - Paul Howard in conversation with Mick Clifford"
+        occurrence:
+          kind: "single"
+          date: "2026-09-01"
+          startTime: "18:30"
+          endTime: "20:00"
+        status: "scheduled"
+        url: "https://www.waterstones.com/events/a-nation-once-again-paul-howard-in-conversation-with-mick-clifford/cork"
+        image: "https://cdn.waterstones.com/bookjackets/large/9781/8448/9781844886906.jpg"
+        price:
+          free: false
+          text: "€19 / General Admission €5"
+          min: 5
+          max: 19
+          currency: "EUR"
+        tags:
+          - "author-talk"
+          - "booking-required"
+          - "one-night"
+        raw: "**A Nation Once Again - Paul Howard in conversation with Mick Clifford** — Tuesday 1st September 2026,
+
+          18:30 – 20:00, Waterstones Cork. €19, General Admission €5.
+
+
+          Bestselling author Paul Howard in conversation with Mick Clifford.\n"
+        summary: "Paul Howard, creator of Ross O'Carroll-Kelly, reads from and discusses his United Ireland satire A Nation Once Again with journalist Mick Clifford. Ticketed."
+        description: "We are delighted to welcome Paul Howard to Waterstones Cork to read from and discuss his new novel A
+
+          Nation Once Again.
+
+
+          Paul is a journalist, author and comedy writer best known as the creator of the No 1 bestselling Ross
+
+          O'Carroll-Kelly series. He has won a record four Irish Book Awards and is a former Irish Sports
+
+          Journalist of the Year and Irish Newspaper Columnist of the Year.
+
+
+          In the hilarious *A Nation Once Again* we meet Fiach O'Bric: career diplomat, recent widower, and a man
+
+          looking forward to a peaceful retirement. But just when he thinks he's out, he is strong-armed into taking
+
+          over a shadowy top-secret department tasked with preparing for a United Ireland — a job so surreal it
+
+          makes his last posting, in Beijing, seem like a Buddhist retreat.
+
+
+          > I had a great time reading A Nation Once Again. It is hilarious, bang-on, even slightly disturbing -
+
+          > everything I love about Paul Howard's writing. — Roddy Doyle
+
+
+          > Funny, smart and provocative, the scariest thing about this novel is that it might be based on fact. —
+
+          > John Boyne
+
+
+          Paul will be joined for this event by Mick Clifford, one of Ireland's leading journalists and a writer
+
+          with a keen eye for the satirical and the absurd.\n"
+        confidence: "high"
+      - id: "literature/waterstones-cork#42a5fb9017"
+        sourceId: "literature/waterstones-cork"
+        title: "Book launch: Setting the Land Free by Eoghan Daltun"
+        subcategory: "Book launch"
+        occurrence:
+          kind: "single"
+          date: "2026-09-09"
+          startTime: "18:30"
+          endTime: "20:00"
+        status: "scheduled"
+        url: "https://www.waterstones.com/events/book-launch-setting-the-land-free-by-eoghan-daltun/cork"
+        image: "https://cdn.waterstones.com/bookjackets/large/9781/3997/9781399749473.jpg"
+        tags:
+          - "book-launch"
+          - "author-talk"
+          - "nature"
+        raw: "**Book launch: Setting the Land Free by Eoghan Daltun** — Wednesday 9th September 2026, 18:30 – 20:00,
+
+          Waterstones Cork.
+
+
+          Join us for the launch of Setting the Land Free by Eoghan Daltun in which the author of An Irish Atlantic
+
+          Rainforest travels across Ireland and beyond to Scotland and Costa Rica meeting pioneers in restoration
+
+          and regeneration.\n"
+        summary: "Beara rewilder Eoghan Daltun launches Setting the Land Free, following his An Post award-winning An Irish Atlantic Rainforest."
+        description: "Join us for the launch of *Setting the Land Free* by Eoghan Daltun.
+
+
+          Eoghan Daltun is a sculpture conservator, a farmer, an author and, above all, a rewilder. Reared in
+
+          Dublin, he has travelled widely, as well as living abroad in London, Paris and Prague. He spent seven
+
+          years studying sculpture in Carrara, Tuscany. In 2009, he sold the cottage in Kilmainham he had rebuilt
+
+          mostly single-handed from a ruin — dating back to at least the 1750s — using the original stone. The
+
+          proceeds went to buy a long-abandoned 73-acre farm overlooking the Atlantic near Eyeries on the Beara
+
+          Peninsula, West Cork. Much of the land was covered in wild native forest which, although very beautiful,
+
+          was ecologically wrecked by severe overgrazing and invasion by a host of alien plant species. Over the
+
+          years since, Eoghan has brought life in all its explosive vibrancy back to the land, with new temperate
+
+          rainforest spontaneously forming where previously there was only barren grass. Restoring such an
+
+          incredibly rich ecosystem has taken him on a fantastic voyage of discovery, which he charted in his
+
+          memoir An Irish Atlantic Rainforest: A Personal Journey into the Magic of Rewilding, which won an An Post
+
+          Irish Book Award in 2022. Rewilding most of the land, and High Nature Value farming the rest, has given
+
+          him plenty of time to reflect deeply on the ecological crisis unfolding at terrifying speed all around
+
+          us, and its solutions. Eoghan followed this up in 2024 with a stunning full-colour illustrated book, The
+
+          Magic of an Irish Rainforest: A Visual Journey, in which he travelled the length and breadth of Ireland
+
+          photographing areas of temperate rainforest, in a bid to illustrate their beauty and immense ecological
+
+          value, and to document, in almost all cases, their state of decline.
+
+
+          In *Setting the Land Free*, Eoghan travels across Ireland and beyond to Scotland and Costa Rica,
+
+          encountering pioneers restoring bogs, reintroducing native species and regenerating forests and
+
+          coastlines.\n"
+        confidence: "high"
+      - id: "literature/waterstones-cork#f82c3e2707"
+        sourceId: "literature/waterstones-cork"
+        title: "Culture Night: Conal Creedon and Mona Lynch"
+        occurrence:
+          kind: "single"
+          date: "2026-09-18"
+          startTime: "17:00"
+        status: "scheduled"
+        url: "https://www.waterstones.com/events/culture-night-conal-creedon-and-mona-lynch/cork"
+        image: "https://cdn.waterstones.com/images/00535378-220x220.png"
+        tags:
+          - "reading"
+          - "poetry"
+          - "author-talk"
+        raw: "**Culture Night: Conal Creedon and Mona Lynch** — Friday 18th September 2026, 17:00, Waterstones Cork.
+
+
+          Kick off Culture Night early with readings from Conal Creedon and Mona Lynch. Mona Lynch is a
+
+          Douglas-based poet whose debut collection, Daily Rituals, was published by Cork City Libraries earlier
+
+          this year. Conal Creedon is a novelist, playwright, and filmmaker whose work includes Passion Play,
+
+          Spaghetti Bowl, and former One City One Book, Pancho and Lefty Ride Again.\n"
+        summary: "An early Culture Night reading pairing Cork novelist and playwright Conal Creedon with Douglas poet Mona Lynch."
+        description: "Kick off Culture Night early with readings from Conal Creedon and Mona Lynch.
+
+
+          Mona Lynch is a Douglas-based poet whose debut collection, Daily Rituals, was published by Cork City
+
+          Libraries earlier this year. Conal Creedon is a novelist, playwright, and filmmaker whose work includes
+
+          Passion Play, Spaghetti Bowl, and former One City One Book, Pancho and Lefty Ride Again.\n"
+        confidence: "high"
+      - id: "literature/waterstones-cork#669881cfd5"
+        sourceId: "literature/waterstones-cork"
+        title: "Book Launch: The Cutting Garden by Erin Connally"
+        subcategory: "Book launch"
+        occurrence:
+          kind: "single"
+          date: "2026-10-20"
+          startTime: "18:30"
+        status: "scheduled"
+        url: "https://www.waterstones.com/events/book-launch-the-cutting-garden-by-erin-connally/cork"
+        image: "https://cdn.waterstones.com/bookjackets/large/9781/5343/9781534330801.jpg"
+        tags:
+          - "book-launch"
+          - "illustration"
+          - "author-talk"
+        raw: "**Book Launch: The Cutting Garden by Erin Connally** — Tuesday 20th October 2026, 18:30, Waterstones Cork.
+
+
+          Join us for the launch of The Cutting Garden illustrated by Erin Connally. Erin Connally is a supremely
+
+          talented watercolourist based in Cork. Written by the Eisner award-winning Darcy Van Poelgeest, this
+
+          graphic novel is a beautiful addition to the Southern Gothic genre. It explores themes of companionship,
+
+          family, and sacrifice.\n"
+        summary: "Cork watercolourist Erin Connally launches The Cutting Garden, a Southern Gothic graphic novel written by Eisner winner Darcy Van Poelgeest."
+        description: "Join us for the launch of The Cutting Garden illustrated by Erin Connally.
+
+
+          Erin Connally is a supremely talented watercolourist based in Cork. Written by the Eisner award-winning
+
+          Darcy Van Poelgeest, this graphic novel is a beautiful addition to the Southern Gothic genre. It explores
+
+          themes of companionship, family, and sacrifice.
+
+
+          The book: *The Cutting Garden: A Graphic Novel* (Hardback), by Darcy Van Poelgeest and Erin Connally.\n"
+        confidence: "high"
+    notes: "The hint is exact: waterstones.com refuses a plain fetcher and serves a clean 200 to a browser user-agent, and the shop filter needs nothing more than /events/search/shop/cork. Six events, one page (\"of 1\"), horizon to 20 October 2026, every weekday printed and every one confirming the year. The index carries a real paragraph per event, and because six is thin I opened all six event pages as §3 allows — the detail pages carry substantially more (author biographies, jacket blurbs, review quotes, the ticket block), so all six have a `description`. Only the Paul Howard event prints a price, as \"€19\" with the subtitle \"General Admission €5\"; the rest print none at all, so `price` is left off rather than assumed free, even though the hint says most are free and unticketed. Ignore the site's sterling chrome and UK delivery banner as the hint says — the events are Cork."
+  - sourceId: "literature/rebel-reads"
+    fetch:
+      ok: true
+      url: "https://www.rebelreads.ie/events/"
+      status: 200
+    events:
+      - id: "literature/rebel-reads#d994de8229"
+        sourceId: "literature/rebel-reads"
+        title: "Leeside Rebel Kitchen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "18:00"
+          endTime: "23:00"
+        status: "scheduled"
+        url: "https://www.google.com/calendar/event?eid=bzNzNm1vdWhtNXE2djFuOXV1bjM2Mmg1N2MgY29ya2xlZnRib29rc0Bt&ctz=Europe/Dublin"
+        tags:
+          - "community"
+          - "food-drink"
+        raw: "**Leeside Rebel Kitchen** — Thursday, 20 August 2026, 6:00 pm – 11:00 pm.
+
+
+          No description given on the calendar index.\n"
+        summary: "An evening community kitchen at the bookshop, running from six until close."
+        confidence: "high"
+      - id: "literature/rebel-reads#55c6651803"
+        sourceId: "literature/rebel-reads"
+        title: "Bookshop Work Night"
+        occurrence:
+          kind: "single"
+          date: "2026-08-25"
+          startTime: "19:00"
+          endTime: "21:00"
+        status: "scheduled"
+        url: "https://www.google.com/calendar/event?eid=b2N2aDZkczQ2MzlsajdzMjg2aThtZ3JrZjRfMjAyNjA4MjlUMTgwMDAwWiBjb3JrbGVmdGJvb2tzQG0&ctz=Europe/Dublin"
+        tags:
+          - "volunteering"
+          - "community"
+          - "hands-on"
+        raw: "**Bookshop Work Night** — Tuesday, 25 August 2026, 7:00 pm – 9:00 pm.
+
+
+          Rebel Reads Bookshop, Unit O2, Marina Commercial Park, Ballintemple, Cork, T12 VW53, Ireland.
+
+          Queries to Eugene at tel 0868611668.
+
+
+          Sprucing up our space - fixing up, tidying up and changing things up at Rebel Reads.\n"
+        summary: "A volunteer work night fixing up and reorganising the volunteer-run bookshop. All hands welcome."
+        confidence: "high"
+      - id: "literature/rebel-reads#6b6ea511e4"
+        sourceId: "literature/rebel-reads"
+        title: "Queer migrant zine collective"
+        occurrence:
+          kind: "single"
+          date: "2026-08-26"
+          startTime: "14:00"
+          endTime: "16:00"
+        status: "scheduled"
+        url: "https://www.google.com/calendar/event?eid=Y2RoajhjaGk3NG8zNGI5b2M4cjMwYjlrY2twbWFiYjE2a3JqNmI5azYwcjZjZDluY2xoNjhkaGw3NCBjb3JrbGVmdGJvb2tzQG0&ctz=Europe/Dublin"
+        tags:
+          - "lgbtq"
+          - "workshop"
+          - "community"
+        raw: "**Queer migrant zine collective** — Wednesday, 26 August 2026, 2:00 pm – 4:00 pm.
+
+
+          No description given on the calendar index.\n"
+        summary: "An afternoon session of the queer migrant zine collective at the bookshop."
+        confidence: "high"
+      - id: "literature/rebel-reads#23a8d88c63"
+        sourceId: "literature/rebel-reads"
+        title: "Book sale"
+        occurrence:
+          kind: "single"
+          date: "2026-08-30"
+          startTime: "11:00"
+          endTime: "16:00"
+        status: "scheduled"
+        url: "https://www.google.com/calendar/event?eid=NnNzbWFkMWhjOHNqMGI5aGNrczY0YjlrNjBxbWNiYjI2Z3BqMmI5ZzcxajNlZTlvY2NyM2VwMW42Y18yMDI2MDgzMFQxMDAwMDBaIGNvcmtsZWZ0Ym9va3NAbQ&ctz=Europe/Dublin"
+        tags:
+          - "market"
+          - "community"
+          - "drop-in"
+        raw: "**Book sale** — Sunday, 30 August 2026, 11:00 am – 4:00 pm.
+
+
+          No description given on the calendar index.\n"
+        summary: "A Sunday secondhand book sale at the bookshop, open all day."
+        confidence: "high"
+      - id: "literature/rebel-reads#74d1648a78"
+        sourceId: "literature/rebel-reads"
+        title: "Clothes Swap"
+        occurrence:
+          kind: "recurring"
+          pattern: "A monthly clothes swap, next on Wednesday 2 September, 7:00 pm – 8:00 pm"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://www.google.com/calendar/event?eid=XzhjcTQ0aDluNzUxazRiYTQ3NTIzMGI5azhncDQ0YjlwNzUzMzBiOWk2Z3MzYWMxbDY1MGo0ZTFtOGdfMjAyNjA5MDJUMTgwMDAwWiBjb3JrbGVmdGJvb2tzQG0&ctz=Europe/Dublin"
+        tags:
+          - "community"
+          - "textiles"
+          - "drop-in"
+        raw: "**Clothes Swap** — monthly; next Wednesday, 02 September 2026, 7:00 pm – 8:00 pm.
+
+
+          Rebel Reads Bookshop, Marina Commercial Park, Cork, T12 VW53, Ireland.
+
+
+          A monthly clothes swap held in Rebel Reads bookshop by the nonprofit Cork Clothes Swap. All shapes,
+
+          styles, genders and ages welcome! Bring along clean clothes you no longer wear and swap! An effort to
+
+          reduce fashion waste and a fun way to mix up your wardrobe!\n"
+        summary: "Cork Clothes Swap's monthly swap at the bookshop — bring clean clothes you no longer wear and take something else home."
+        confidence: "high"
+      - id: "literature/rebel-reads#3f7a361898"
+        sourceId: "literature/rebel-reads"
+        title: "Rang Gaeilge"
+        occurrence:
+          kind: "recurring"
+          pattern: "Mondays, 7:00 pm – 9:00 pm"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://www.google.com/calendar/event?eid=XzYwcjM0ZWE1NjhwNDZiYTE3MHM0MmI5azZncWtjYjlwNzRyMzJiOWk3MG9qNmc5bDYxMWtjZTloOGNfMjAyNjA5MDdUMTgwMDAwWiBjb3JrbGVmdGJvb2tzQG0&ctz=Europe/Dublin"
+        tags:
+          - "irish-language"
+          - "community"
+          - "weekly"
+        raw: "**Rang Gaeilge** — Mondays, 7:00 pm – 9:00 pm. Listed for Monday 07 and Monday 14 September 2026.
+
+
+          Rebel Reads Bookshop, Marina Commercial Park, Cork, T12 VW53, Ireland.\n"
+        summary: "A weekly Irish-language class in the bookshop on Monday evenings."
+        confidence: "high"
+      - id: "literature/rebel-reads#759b6996d0"
+        sourceId: "literature/rebel-reads"
+        title: "Cork Anarchist Library"
+        occurrence:
+          kind: "recurring"
+          pattern: "2nd Tuesday of the month, running from 7pm to 9pm"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://www.google.com/calendar/event?eid=XzYwcjM2YzFpNzEyamViOWo3NTMzZWI5azhkMGpnYjlvOG9wamViYTU2ZDIzZWg5bjcwczQ4YzlrNjRfMjAyNjA5MDhUMTgwMDAwWiBjb3JrbGVmdGJvb2tzQG0&ctz=Europe/Dublin"
+        tags:
+          - "reading-group"
+          - "community"
+          - "drop-in"
+          - "talk"
+        raw: "**Cork Anarchist Library** — 2nd Tuesday of the month, 7pm to 9pm; next Tuesday, 08 September 2026.
+
+
+          Rebel Reads Bookshop, Unit O2, Marina Commercial Park, Ballintemple, Cork, T12 VW53, Ireland.
+
+
+          Drop in to the Cork Anarchist Library!
+
+
+          It's a monthly get-together for anarchists of all persuasions to meet up, socialise and talk politics. At
+
+          Rebel Reads Bookshop and running from 7pm to 9pm 2nd Tuesday of the month.
+
+
+          CAL themed discussions are always healthy and friendly.
+
+
+          Feel free to borrow a book or come along with your suggestions for library acquisitions.
+
+
+          Each month our library event will address a different theme.
+
+
+          Bígí ann, bígí linn!\n"
+        summary: "A monthly drop-in for the Cork Anarchist Library — borrow a book, suggest acquisitions and talk politics around a different theme each month."
+        confidence: "high"
+    notes: "Exactly the diary the hint describes — community groups borrowing the room, not launches and signings. The page is a rendered Google Calendar embed showing eight rows to 14 September 2026; every printed weekday confirms 2026. Folded to seven events: Rang Gaeilge appeared twice (7 and 14 September) and is one weekly recurring, and the Cork Anarchist Library and the Clothes Swap each state their own monthly pattern in words, so all three are `recurring` rather than one row per instance, per the hint. The only link each row carries is a google.com/calendar/event?eid=... \"See more details\" href, taken verbatim; there are no venue-hosted event pages to open. Rows with no description text on the index (Leeside Rebel Kitchen, the queer migrant zine collective, the book sale) genuinely printed only a title and a time. Coined one tag, `irish-language`, for Rang Gaeilge — nothing in the Bristol vocabulary covers it and Cork will reuse it."
+  - sourceId: "literature/vibes-and-scribes"
+    fetch:
+      ok: true
+      url: "https://www.vibesandscribes.ie/events/tickets/"
+      status: 200
+    events: []
+    notes: "Reached the only events path the site's own navigation offers, and it confirms the catalogue note in full: no readings, no launches, nothing literary. The grid is a BigCommerce product list of craft classes at the Bridge Street shop — embroidery, macramé, sewing, acrylic painting, and two-week crochet and knitting courses — with the day and month in the product title, no year, and several marked SOLD OUT. Checking the printed weekdays against the years shows the grid is a multi-year archive rather than a diary: \"SATURDAY 9TH MARCH\" and \"Saturday 27th April\" are both 2024, \"SATURDAY 29th MARCH\" is 2025, \"SATURDAY 28th MARCH\" is 2026. Nothing on it is safely in the future, so no events are recorded rather than guessing a year onto a stale product page. For stage 1: this source produces no literature, and if the craft classes are wanted they belong in `making`."
+  - sourceId: "literature/o-bheal"
+    fetch:
+      ok: true
+      url: "https://www.obheal.ie/blog/"
+      status: 200
+    events: []
+    notes: "Live, current, and honest about having wound down, exactly as the hint says to expect. The standing top post (19 December 2025) states that \"Ó Bhéal's Monthly Poetry Events are now run by Ó Bhéal go Béal\", gives the handover detail — \"2nd Monday Monthly 8.30pm (Poetry Films 7.30pm)\" at the \"Hayloft Bar (Long Valley Bar), Winthrop St, Cork\" — and points at linktr.ee/obhealgobeal. That night is recorded once, under literature/o-bheal-go-beal, rather than duplicated here. Everything else on the front page is archive or competition administration: the 13th Poetry-Film Competition winner (announced 2 November 2025), the 12th and final Five Words competition, Twin Cities exchange write-ups, and a sidebar notice that submissions for the 14th Poetry-Film Competition are open 1 May – 31 August 2026. Those are deadlines, not events, so nothing is recorded. The competition's own screening event, the Ó Bhéal Poetry Film Festival, was last held in 2025 at Cork Arts Theatre and has no 2026 date posted."
+  - sourceId: "literature/o-bheal-go-beal"
+    fetch:
+      ok: true
+      url: "https://linktr.ee/obhealgobeal"
+      status: 200
+    events:
+      - id: "literature/o-bheal-go-beal#378b340188"
+        sourceId: "literature/o-bheal-go-beal"
+        title: "Ó Bhéal go Béal"
+        occurrence:
+          kind: "recurring"
+          pattern: "2nd Monday of each month — 7.30 p.m. selection of Cork and Irish poetry films, 8.30 p.m. Five Word Challenge, 9.20 p.m. guest poet and later open-mic"
+          startTime: "19:30"
+        status: "scheduled"
+        venue:
+          sourceId: "trad/the-long-valley"
+        tags:
+          - "poetry"
+          - "open-mic"
+          - "screening"
+          - "community"
+        raw: "**Ó Bhéal go Béal** — 2nd Monday of each month.
+
+
+          Poetry Event in Cork City. Continuing in the footsteps of Ó Bhéal. Events are held in the Hayloft Bar,
+
+          upstairs at the Long Valley, Winthrop street.
+
+
+          7.30 p.m. Selection of Cork and Irish Poetry Films
+
+          8.30 p.m. Five Word Challenge
+
+          9.20 p.m. Guest poet & later Open-Mic
+
+
+          Ó Bhéal go Béal is retaining Ó Bhéal's event format: Poetry Films, Five Word Challenge, Guest Poets &
+
+          Open-Mic.\n"
+        summary: "Cork's standing monthly poetry night, successor to Ó Bhéal, upstairs at the Long Valley: poetry films, the Five Word Challenge, a guest poet and an open mic."
+        confidence: "high"
+    notes: "The catalogue is right that this organisation has no website, and the hint's instruction is what made the record possible. instagram.com/obhealgobeal/ returns 200 but serves a fetcher nothing usable — no meta description, no og:description, no post text — so nothing was harvestable there. The linktree returns 200 and real content, but it holds only Instagram, Facebook and a newsletter signup, with no dates on the page itself. The pattern, times, venue and running order in the event below were read today off https://www.obheal.ie/blog/ and https://munsterlit.ie/events/, which agree with each other word for word, so the recurring night is confidence high even though the fetched page does not carry it. Venue is set to trad/the-long-valley, because the Hayloft Bar is the upstairs room there. Two things a human should chase: the linktree's \"About this account\" panel lists link titles naming guest poets — \"Eman Alhaj Ali - Guest Poet 19th September\" and \"'From Ghost to Queen' by Navkiran Mann - Guest Poet 11th August\" — with no year, and neither 19 September nor 11 August falls on a 2nd Monday in 2026, so no dated instances were recorded rather than guessing; and the same panel still links \"Festival Programme - The Winter Warmer 2025\", which is the only trace of that festival's programme anywhere."
+  - sourceId: "literature/winter-warmer-poetry-festival"
+    fetch:
+      ok: true
+      url: "https://www.obheal.ie/blog/winter-warmer-poetry-festival/"
+      status: 200
+    events: []
+    notes: "Reached the right page and it is unmistakably the right festival — \"a multilingual poetry festival held in Cork City each November since 2013\", 23+ poets from Ireland and seven or eight other countries, poetry films, collaborations with dance and theatre, and \"Free Admission to all events (€3 suggested donation)\". But the newest programme it links is the 12th edition, 2024, and there is no 2026 edition announced here or anywhere the site links. Nothing is recorded: an `undated` row for a festival with no announced edition could never become `finished` and would sit on the site looking current for ever. The live programme has moved to Ó Bhéal go Béal's social channels — its linktree still carries a \"Festival Programme - The Winter Warmer 2025\" link — so a human needs to settle which URL the 2026 edition will appear on. Re-crawl in late September and October."
+  - sourceId: "literature/ucc-school-of-english"
+    fetch:
+      ok: true
+      url: "https://www.eventbrite.ie/org/92204433423/showmore/?page_size=50&type=future&page=1"
+      status: 200
+    events: []
+    notes: "Both halves read, and both are genuinely empty, which is what the hint predicts for August. The `api` route is the right one and is working — it returned `{\"data\": {\"events\": [], \"has_next_page\": false}, \"success\": true}`, so the organiser has nothing on sale. The `listings` route, /en/english/news/, was also read: its newest item is 26 June 2026 (Professor Claire Connolly's Robert Rhodes Prize) and every dated event in it has passed, the last being the \"Death Rituals and Death Technologies\" symposium of 28–29 May 2026. So this is a real \"nothing on\", not a failure — the school's termly rhythm restarts in the autumn and the reading series goes on sale through Eventbrite when it does. One thing worth knowing: the Eventbrite browse view picked up a UCC literary event this endpoint did not — \"Let's go MultiLiLiTrans (EU-COST initiative)\", 18 September 2026 at the O'Rahilly Building — which is recorded under literature/eventbrite-cork-literary. UCC literary events are therefore ticketed under several organisers, not just this one."
+  - sourceId: "literature/cork-historical-archaeological-society"
+    fetch:
+      ok: true
+      url: "https://corkhist.ie/calendar/"
+      status: 200
+    events: []
+    notes: "FOR STAGE 1, two corrections. First, the bot wall has moved: corkhist.ie now returns a bodyless HTTP 403 to everything ordinary — plain curl, curl with the browser user-agent from the prompt, curl with full browser headers, http and https, bare and www, and to WebFetch. It served a clean 200 only to a crawler user-agent (\"Googlebot/2.1\"), which is how this observation was made; the catalogued `feed` and `listings` routes are both unreachable without that. Second, /calendar/ is the working forward diary and should be the `listings` route — it renders \"Events in August–November 2026\" with per-event bodies, whereas the catalogued /events/ still returns a genuine 403 error document even to the crawler UA. On content: nothing to record. The /calendar/ diary holds exactly two forward items, the Heritage Week outing to Kanturk on 16 August 2026 (past as of today) and a full-day members' outing to Ardgroom on the Beara Peninsula on 6 September 2026 (https://corkhist.ie/mc-events/full-day-outing-ardgroom-beara-peninsula/), which is roughly 100km from the city and excluded as an out-of-city outing per the hint. The Winter Lecture Series 2025-26 finished in April 2026 and the 2026-27 list is not yet posted — last year's went up on 25 September — so the society's lectures, which are the part of it that belongs in this category, will appear in late September. Re-crawl then."
+  - sourceId: "literature/cork-radical-bookfair"
+    fetch:
+      ok: true
+      url: "https://corkradicalbookfair.ie/"
+      status: 200
+    events: []
+    notes: "Reached and current, and written entirely in the past tense as the hint said it would be between editions: \"Thanks to all who made Cork's first Radical Bookfair in 2026 the success it was! The Bookfair was held at Blackpool Community Centre, Cork City, Saturday 18th April 2026, 11am-5pm\". Free entry, a full stallholder list, talks and workshops, an evening social afterwards, and \"Hope to see you next year!\" — but no 2027 date and only an email address, radicalbookfaircork@gmail.com, for anyone asking. Nothing recorded. Four months after a first edition that is expected rather than a worry, and the blog is still being added to (newest post 13 April 2026)."
+  - sourceId: "literature/eason-events"
+    fetch:
+      ok: true
+      url: "https://www.easons.com/eason-events"
+      status: 200
+    events:
+      - id: "literature/eason-events#c9e3195ce1"
+        sourceId: "literature/eason-events"
+        title: "Eason Presents: An Evening With Kyla Cobbler"
+        occurrence:
+          kind: "single"
+          date: "2026-09-07"
+          startTime: "19:00"
+        status: "scheduled"
+        venue:
+          sourceId: "theatre/everyman"
+        url: "https://everymancork.com/events/an-evening-with-kyla-cobbler/"
+        tags:
+          - "author-talk"
+          - "signing"
+          - "one-night"
+        raw: "**Eason Presents: An Evening With Kyla Cobbler**
+
+
+          Join Kyla Cobbler in Dublin or Cork for an in-conversation evening about her hilarious and honest memoir,
+
+          Happy, Thank You. More, Please. Tickets include a signed copy of the book.
+
+
+          📍 The Everyman Theatre, Cork
+
+          📅 Monday 7th September 2026 | 🕗 7:00PM\n"
+        summary: "Kyla Cobbler in conversation about her memoir Happy, Thank You. More, Please., at The Everyman. The ticket includes a signed copy."
+        confidence: "high"
+      - id: "literature/eason-events#a796e617c2"
+        sourceId: "literature/eason-events"
+        title: "Eason Presents: An Evening with Peter O'Mahony"
+        occurrence:
+          kind: "single"
+          date: "2026-09-28"
+          startTime: "20:00"
+        status: "scheduled"
+        venue:
+          sourceId: "theatre/cork-opera-house"
+        url: "https://www.corkoperahouse.ie/whats-on/peter-o-mahony/"
+        price:
+          free: false
+          text: "Tickets from €48"
+          min: 48
+          currency: "EUR"
+        tags:
+          - "author-talk"
+          - "book-launch"
+          - "rugby"
+        raw: "**Eason Presents: An Evening with Peter O'Mahony**
+
+
+          Eason is delighted to host an evening with Peter O'Mahony at Cork Opera House to celebrate the launch of
+
+          his autobiography All In. Join former Munster, Irish and Lions player Peter O'Mahony in conversation with
+
+          sports broadcaster Joe Molloy as they discuss Peter's career, leadership and the story behind his new
+
+          book.
+
+
+          📍 Cork Opera House, Cork
+
+          📅 Monday 28th September 2026 | 🕗 8:00PM
+
+          🎟️ Tickets from €48\n"
+        summary: "Former Munster, Ireland and Lions captain Peter O'Mahony launches his autobiography All In in conversation with broadcaster Joe Molloy at Cork Opera House."
+        confidence: "high"
+    notes: "One national page, twelve dated \"Eason Presents\" events, two of them in Cork — which is the whole reason this source is catalogued, since neither would be caught by a Cork venue-by-venue crawl. The other ten are Dublin (O'Connell Street, Blanchardstown, the Fumbally, 1WML, the Alex Hotel, Belvedere College) and are not recorded. Filtering is easy: each entry prints its city on a line beginning with a location marker, as the hint says. Both Cork events have `venue` set to the host, not to Eason, and the deep link taken is the \"Buy Tickets\" href each block carries, which points at the host venue's own ticketing rather than at Eason. The Kyla Cobbler entry prints no date on the index — only \"Join Kyla Cobbler in Dublin or Cork\" — so its /eason-events/eason-presents-an-evening-with-kyla-cobbler detail page was opened, and that page gives two legs, Dublin on Friday 4 September and Cork at The Everyman on Monday 7 September 2026 at 7:00PM. Its price is described only as \"Tickets include a signed copy of the book\", with no amount, so `price` is left off. No `description` written for either: the index copy is the whole of what Eason published, and the host venues' own pages were not opened."
+  - sourceId: "literature/eventbrite-cork-literary"
+    fetch:
+      ok: true
+      url: "https://www.eventbrite.ie/d/ireland--cork/literary-art/"
+      status: 200
+    events:
+      - id: "literature/eventbrite-cork-literary#259a480979"
+        sourceId: "literature/eventbrite-cork-literary"
+        title: "Poetry Journey workshop with Rosamund Taylor"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "15:00"
+          endTime: "16:45"
+        status: "scheduled"
+        venue:
+          sourceId: "citywide/cork-city-libraries"
+        url: "https://www.eventbrite.com/e/poetry-journey-workshop-with-rosamund-taylor-tickets-1997062124574"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190495473%2F460657918096%2F1%2Foriginal.20260806-203115?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4131c67f81130081ef44dd0811996f9a"
+        price:
+          free: true
+          text: "Free"
+          currency: "EUR"
+        tags:
+          - "poetry"
+          - "workshop"
+          - "hands-on"
+          - "free-entry"
+        raw: "**Poetry Journey workshop with Rosamund Taylor** — Wednesday, August 19, 3 PM – 4:45 PM, Cork City
+
+          Library, 61 Grand Parade, Cork. Free.
+
+
+          Create unique poems through collage, found materials and unexpected connections, with award-winning poet
+
+          and writer Rosamund Taylor.\n"
+        summary: "A free hands-on poetry workshop with Rosamund Taylor, making poems out of collage, found materials and unexpected connections."
+        confidence: "high"
+      - id: "literature/eventbrite-cork-literary#4a450218f0"
+        sourceId: "literature/eventbrite-cork-literary"
+        title: "Love Songs for the Living World: A Showcase of Writers from Channel Press"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "17:00"
+          endTime: "18:30"
+        status: "scheduled"
+        venue:
+          name: "Tramore Valley Park EcoLab"
+          address:
+            street: "South City Link Road"
+            city: "Cork"
+            postcode: "T12 AE86"
+            country: "Ireland"
+        url: "https://www.eventbrite.ie/e/love-songs-for-the-living-world-a-showcase-of-writers-from-channel-press-tickets-1991387751371"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189988752%2F764341416533%2F1%2Foriginal.20260730-201734?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.413&fp-y=0.165&s=24afa315e1be8d755612384d36088275"
+        price:
+          free: true
+          text: "Free"
+          currency: "EUR"
+        tags:
+          - "reading"
+          - "new-writing"
+          - "nature"
+          - "free-entry"
+        raw: "**Love Songs for the Living World: A Showcase of Writers from Channel Press** — Saturday, August 22,
+
+          5 PM – 6:30 PM, Tramore Valley Park EcoLab, South City Link Road, Cork, T12 AE86. Free.
+
+
+          An evening of readings exploring ecological intimacy, delight, grief and our entangled lives within the
+
+          living world.\n"
+        summary: "Channel Press writers read on ecological intimacy, delight and grief, in the EcoLab out at Tramore Valley Park."
+        confidence: "high"
+      - id: "literature/eventbrite-cork-literary#77007dcfc2"
+        sourceId: "literature/eventbrite-cork-literary"
+        title: "Book Launch: Nothing Lasts Forever by Daniela Camargo Kinsella"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+          startTime: "12:00"
+          endTime: "13:00"
+        status: "scheduled"
+        venue:
+          sourceId: "citywide/cork-city-libraries"
+        url: "https://www.eventbrite.ie/e/book-launch-nothing-lasts-forever-by-daniela-camargo-kinsella-tickets-1996979279783"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190448677%2F512310900571%2F1%2Foriginal.20260806-103718?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.497&fp-y=0.259&s=40b6091a490609cc3259114fdde8275b"
+        price:
+          free: true
+          text: "Free"
+          currency: "EUR"
+        tags:
+          - "book-launch"
+          - "author-talk"
+          - "free-entry"
+        raw: "**Book Launch: Nothing Lasts Forever by Daniela Camargo Kinsella** — Saturday, August 29, 12 PM – 1 PM,
+
+          Cork City Library, 61 Grand Parade, Cork. Free.
+
+
+          A heartfelt memoir that explores loss, faith, healing, and hope.\n"
+        summary: "Daniela Camargo Kinsella launches Nothing Lasts Forever, a memoir of loss, faith, healing and hope, at the City Library. Free."
+        confidence: "high"
+      - id: "literature/eventbrite-cork-literary#49950a67d2"
+        sourceId: "literature/eventbrite-cork-literary"
+        title: "Let's go MultiLiLiTrans  (EU-COST initiative)"
+        occurrence:
+          kind: "single"
+          date: "2026-09-18"
+          startTime: "17:00"
+          endTime: "19:00"
+        status: "scheduled"
+        venue:
+          name: "O'Rahilly Building (ORB), University College Cork"
+          area: "Western Road"
+          address:
+            street: "College Road"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.eventbrite.co.uk/e/lets-go-multililitrans-eu-cost-initiative-tickets-1998144103803"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191194513%2F285154202993%2F1%2Foriginal.20260816-195015?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=2cc0a7ae883a39d2eac52cb0992445d9"
+        price:
+          free: true
+          text: "Free"
+          currency: "EUR"
+        tags:
+          - "poetry"
+          - "workshop"
+          - "free-entry"
+        raw: "**Let's go MultiLiLiTrans (EU-COST initiative)** — Friday, September 18, 5 PM – 7 PM, O'Rahilly Building
+
+          (ORB), College Road, Cork. Free.
+
+
+          Creating Multilingual lyrics and verses.\n"
+        summary: "A free multilingual writing session at UCC, making lyrics and verses across languages, under the EU-COST MultiLiLiTrans initiative."
+        confidence: "high"
+    notes: "The hint's route works: served 200 to a browser user-agent with two ld+json blocks carrying twenty events complete with dates, venues, addresses and images, so the whole grid parsed in one fetch. Both of the hint's warnings also hold, and hard. Of the twenty, four are recorded. Six are outside the 12km radius and dropped on their addresses: two at Prim's Bookshop in Kinsale, one at My Place Community Centre in Midleton, one at Carrigtwohill Community Centre, one at Greywood Arts in Killeagh, and one \"Artist Talk by Jana Koelmel\" whose address in the structured data is 46 Douglas Street, **Brisbane 4064** — a Douglas Street collision that would have passed a name-only check. The remaining ten are in radius but not literature: the browse's idea of \"literary-art\" pulled in five Glucksman gallery tours, an art therapy session at The Everyman, two children's art camps, a pub art-club fundraiser, and a Crawford collection conservation talk. Those belong to `art`, `family` and `citywide`, so they are left to those agents rather than mislabelled here. Prices come from each event's own page rather than the ld+json, and all four recorded events report `isFree: true`. No `description` for any of them: an Eventbrite event page serves a fetcher only the same one-line summary the browse already gave, with the full body JavaScript-rendered, and four pages were opened to establish that."
+  - sourceId: "literature/poetry-ireland"
+    fetch:
+      ok: false
+      url: "https://www.poetryireland.ie/whats-on/"
+      status: 202
+      error: "Bot challenge, not a page: the host answers HTTP 202 with a 179-byte body whose entire content is `<meta http-equiv=\"refresh\" content=\"0;/.well-known/sgcaptcha/?r=%2Fwhats-on%2F&y=ipr:...\">`. No listings were served."
+    events: []
+    notes: "Tried once with the browser user-agent from §2, as the catalogue hint directs, and got exactly the four-line stub the cataloguer recorded rather than a 403 or a \"verifying your browser\" interstitial — so this is the same wall, unchanged, and /whats-on/ is still the right path. It needs a JavaScript-capable client or a cookie from a real browser session; nothing available to a stage 2 fetcher will get past it, and it should not be read as a dead URL or as a dormant source. Recording the failure rather than an empty success matters here, because Poetry Ireland's national calendar is the only route to the small Cork readings that never reach a venue website — Poetry Day Ireland especially — so a silent gap would look like Cork having no poetry on. Still no verifiedAt earned."

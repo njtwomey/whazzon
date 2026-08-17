@@ -33,6 +33,13 @@ export interface DensityConfig {
    */
   visiblePills: number;
   visibleTags: number;
+  /**
+   * Passed straight to shadcn's `Card`, which is where card padding and the gaps
+   * between its regions actually come from: `sm` sets `--card-spacing` to 3
+   * rather than 4. Spacing the card by hand instead of through this was what made
+   * the tag strip look bolted on.
+   */
+  cardSize: "default" | "sm";
   /** Shown in the size toggle — three cell sizes you can compare at a glance. */
   icon: LucideIcon;
 }
@@ -43,6 +50,7 @@ export const DENSITY: Record<Density, DensityConfig> = {
     imageAspect: "aspect-[16/9]",
     summaryLines: "line-clamp-1",
     showSummary: false,
+    cardSize: "sm",
     visiblePills: 1,
     visibleTags: 2,
     icon: Grid3x3,
@@ -52,6 +60,7 @@ export const DENSITY: Record<Density, DensityConfig> = {
     imageAspect: "aspect-[16/8]",
     summaryLines: "line-clamp-2",
     showSummary: true,
+    cardSize: "default",
     visiblePills: 2,
     visibleTags: 3,
     icon: Grid2x2,
@@ -61,6 +70,7 @@ export const DENSITY: Record<Density, DensityConfig> = {
     imageAspect: "aspect-[16/7]",
     summaryLines: "line-clamp-4",
     showSummary: true,
+    cardSize: "default",
     visiblePills: 99,
     visibleTags: 99,
     icon: Rows3,

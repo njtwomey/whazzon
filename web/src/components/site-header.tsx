@@ -15,6 +15,7 @@ import { formatDate } from "@/lib/format";
  */
 export function SiteHeader({
   locationName,
+  locationImageUrl,
   asOf,
   eventCount,
   query,
@@ -23,6 +24,12 @@ export function SiteHeader({
   activeFilterCount,
 }: {
   locationName: string;
+  /**
+   * The city's own illustration, as its mark. Optional: it comes from the
+   * locations index rather than the snapshot, so a page can render before it
+   * arrives, and a location need not have an image at all.
+   */
+  locationImageUrl?: string;
   asOf: string;
   eventCount: number;
   query: string;
@@ -30,6 +37,9 @@ export function SiteHeader({
   filterSlot: React.ReactNode;
   activeFilterCount: number;
 }) {
+  // One broken image should not leave a torn box in the header.
+  const [markFailed, setMarkFailed] = React.useState(false);
+  React.useEffect(() => setMarkFailed(false), [locationImageUrl]);
   /**
    * The field is local and commits to the URL after a pause.
    *
@@ -52,12 +62,25 @@ export function SiteHeader({
   return (
     <header className="sticky top-0 z-40 border-b bg-background/85 backdrop-blur-md">
       <div className="flex h-14 w-full items-center gap-3 px-4 sm:px-6 lg:px-8">
-        <Link to="/" className="flex min-w-0 items-baseline gap-2" title="All locations">
-          <span className="text-lg font-semibold tracking-tight">
-            whazzon <span className="text-primary">{locationName.toLowerCase()}</span>
-          </span>
-          <span className="hidden truncate text-xs text-muted-foreground sm:inline">
-            last updated {formatDate(asOf, true)}
+        <Link to="/" className="flex min-w-0 items-center gap-2.5" title="All locations">
+          {/* The city's illustration is the mark. Kept at the image's own 16:9
+              rather than cropped to a square, because these are compositions —
+              a centre-crop of Cork's map would cut off half the island. */}
+          {locationImageUrl && !markFailed && (
+            <img
+              src={`${import.meta.env.BASE_URL}${locationImageUrl}`}
+              alt=""
+              onError={() => setMarkFailed(true)}
+              className="h-8 w-14 shrink-0 rounded-md object-cover ring-1 ring-border"
+            />
+          )}
+          <span className="flex min-w-0 items-baseline gap-2">
+            <span className="text-lg font-semibold tracking-tight">
+              whazzon <span className="text-primary">{locationName.toLowerCase()}</span>
+            </span>
+            <span className="hidden truncate text-xs text-muted-foreground sm:inline">
+              last updated {formatDate(asOf, true)}
+            </span>
           </span>
         </Link>
 

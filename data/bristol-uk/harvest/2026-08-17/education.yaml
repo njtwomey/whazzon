@@ -1,0 +1,2068 @@
+schema: "whazzon.harvest/1"
+locationId: "bristol-uk"
+date: "2026-08-17"
+category: "education"
+harvestedAt: "2026-08-17T14:40:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "4"
+model: "claude-opus-5[1m]"
+observations:
+  - sourceId: "education/university-of-bristol-alumni"
+    fetch:
+      ok: true
+      url: "https://www.bristol.ac.uk/alumni/events/"
+      status: 200
+    events:
+      - id: "education/university-of-bristol-alumni#8cf41b0862"
+        sourceId: "education/university-of-bristol-alumni"
+        title: "History 1976 graduates: 50th anniversary reunion"
+        subcategory: "Alumni reunions"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "11:00"
+          endTime: "17:00"
+        status: "scheduled"
+        timesText: "Tower Tour of Wills Memorial Building at 11 am; celebratory lunch at 1 pm"
+        venue:
+          name: "Wills Memorial Building"
+          address:
+            street: "Queens Rd"
+            city: "Bristol"
+            postcode: "BS8 1RJ"
+        url: "https://www.bristol.ac.uk/alumni/events/alumni-reunions/2026/partnership-event-history-1976-graduates-reunion-50th-anniversary.html"
+        tags:
+          - "community"
+          - "heritage"
+          - "guided-tour"
+        raw: "**History 1976 graduates: 50th anniversary reunion** — 22 August 2026, 11.00 AM - 22 August 2026, 5.00 PM. Wills Memorial Building, Queens Rd, Bristol BS8 1RJ.\n"
+        summary: "Historians who graduated in 1976 mark fifty years over lunch at the Wills Memorial Building, with an optional public Tower Tour beforehand. Organised by alumni volunteers, and independent of the University."
+        description: "The Historians of 1976 are delighted to invite you to a reunion to mark their 50th anniversary, on Saturday 22 August 2026.
+
+
+          Join them to catch up with friends and share memories over a celebratory lunch at 1 pm. They will also be going on a public Tower Tour of Wills Memorial Building at 11 am before the lunch. This costs £5 per person and you are welcome to join.
+
+
+          **Contact / RSVP**
+
+
+          If you are interested in coming along, please contact the reunion organisers on bristolhistory1976@gmail.com. They will send further details closer to the time.
+
+
+          You are more than welcome to bring a guest, and please do share the invitation with any fellow historians you are still in touch with.
+
+
+          **Organisers**
+
+
+          This event has been organised by Pat, Susanne, Vijay, Roger, Jane, Yvonne and Tess. They hope you will be able to join them for this celebration.
+
+
+          This event is organised by alumni volunteers and is independent of the University of Bristol. The University of Bristol does not accept any liability for this event.\n"
+        confidence: "high"
+      - id: "education/university-of-bristol-alumni#01bb6a20ed"
+        sourceId: "education/university-of-bristol-alumni"
+        title: "Aerospace & Avionic Engineering 2000 Reunion"
+        subcategory: "Alumni reunions"
+        occurrence:
+          kind: "single"
+          date: "2026-10-03"
+          startTime: "10:00"
+          endTime: "23:00"
+        status: "scheduled"
+        venue:
+          name: "Queen's Building"
+          address:
+            street: "University Walk"
+            city: "Bristol"
+            postcode: "BS8 1TR"
+        url: "https://www.bristol.ac.uk/alumni/events/alumni-reunions/2026/aerospace--avionic-engineering-2000-reunion.html"
+        price:
+          free: false
+          text: "£30 deposit towards the evening; final cost expected to be between £50 and £80"
+          min: 50
+          max: 80
+          currency: "GBP"
+        tags:
+          - "community"
+          - "booking-required"
+        raw: "**Aerospace & Avionic Engineering 2000 Reunion** — 3 October 2026, 10.00 AM - 3 October 2026, 11.00 PM. Queen’s Building, University Walk, Bristol BS8 1TR.\n"
+        summary: "Aerospace and avionic engineers who started at Bristol in 1996 mark thirty years, with a daytime event at the Queen's Building, a group lunch in Clifton and a drinks reception into the evening."
+        description: "Join the Aerospace & Avionic Engineering reunion to celebrate 30 years since starting at the University of Bristol in 1996, organised by James Clayton and Radley Browne (MEng 2000).
+
+
+          Celebrate with old friends at a daytime event at Queen's building, with a group lunch in Clifton, and a drinks reception with food into the evening. There will be lots of opportunities for you to catch up and share your memories of Bristol.
+
+
+          The organisers are welcoming ideas for things you would like to see or do, please contact them on radleybrowne@hotmail.com if you would like to make a suggestion.
+
+
+          **Tickets**
+
+
+          If you are interested in this event, please RSVP using the eventbrite page. Once you have signed up, you will be contacted to pay a £30 deposit towards the evening. The final cost of the evening is expected to cost between £50 and £80.
+
+
+          The Alumni Association Committee are proud to have supported this event by awarding the organisers an Alumni Association Initiative Grant.
+
+
+          This event is organised by alumni volunteers and is independent of the University of Bristol. The University of Bristol does not accept any liability for this event.\n"
+        confidence: "high"
+      - id: "education/university-of-bristol-alumni#548f5783c7"
+        sourceId: "education/university-of-bristol-alumni"
+        title: "2001 Medics, 25 year Reunion"
+        subcategory: "Alumni reunions"
+        occurrence:
+          kind: "single"
+          date: "2026-10-03"
+          startTime: "18:00"
+          endTime: "23:00"
+        status: "scheduled"
+        venue:
+          sourceId: "museums/clifton-observatory"
+        url: "https://www.bristol.ac.uk/alumni/events/alumni-reunions/2026/partnership-event-medics-class-of-2001-reunion.html"
+        tags:
+          - "community"
+          - "booking-required"
+        raw: "**2001 Medics, 25 year Reunion** — 3 October 2026, 6.00 PM - 3 October 2026, 11.00 PM. Clifton Observatory, Litfield Place, Clifton, Bristol BS8 3LT.\n"
+        summary: "The medical class of 2001 marks twenty-five years since graduation with food, drink and entertainment at the Clifton Observatory. Smart casual, and booked through the organiser rather than a ticket page."
+        description: "The University of Bristol Medics class of 2001 are celebrating their 25th anniversary of graduation at the Clifton Observatory on Saturday 3 October 2026.
+
+
+          The evening event will include food, drinks and entertainment to enjoy whilst catching up with friends and sharing memories. The dress code for this event is smart casual.
+
+
+          **Tickets**
+
+
+          To book tickets for this event, please contact Robert Dunning on rjldunning@hotmail.com or via WhatsApp on +61 450 924004. There is a groupchat on WhatsApp which Robert can add you to and share further details as they are confirmed.
+
+
+          **Travel**
+
+
+          The Clifton Observatory doesn't have any designated parking, however there is meter parking on the streets nearby, notably on Clifton Down Road and Observatory Road.
+
+
+          It is approximately a 5-minute walk from the nearby bus stop on Observatory Road, where the number 8 bus runs from Temple Meads Station.
+
+
+          **Accessibility**
+
+
+          For accessibility information, please visit the Clifton Observatory website.
+
+
+          This event is organised by alumni volunteers and is independent of the University of Bristol. The University of Bristol does not accept any liability for this event.\n"
+        confidence: "high"
+      - id: "education/university-of-bristol-alumni#54db3cbce6"
+        sourceId: "education/university-of-bristol-alumni"
+        title: "Geology 1979 Reunion"
+        subcategory: "Alumni reunions"
+        occurrence:
+          kind: "run"
+          start: "2026-10-09"
+          end: "2026-10-10"
+        status: "scheduled"
+        timesText: "9 October 2026, 12.00 PM - 10 October 2026, 5.00 PM"
+        url: "https://www.bristol.ac.uk/alumni/events/alumni-reunions/2026/partnership-event-geology-1979-reunion.html"
+        tags:
+          - "community"
+          - "heritage"
+          - "guided-tour"
+          - "multi-day"
+        raw: "**Geology 1979 Reunion** — 9 October 2026, 12.00 PM - 10 October 2026, 5.00 PM. Venue: TBC.\n"
+        summary: "Geologists who started in 1979 mark fifty years over two days: Friday lunch, the Geology Department and the Wills Building tower, then on Saturday either the rediscovered caverns under the Clifton Suspension Bridge with a geologist guide, or a walking tour of St Nicholas Market. The venue is still to be confirmed."
+        description: "The Geologists of 1979 are delighted to invite you to a reunion on 9 and 10 October 2026, celebrating 50 years since they started the course.
+
+
+          Their plans include meeting for lunch on the Friday, followed by a visit to the Geology Department and a tour of the Wills Building including a trip up the tower, followed by an evening meal in a restaurant in Bristol.
+
+
+          On Saturday morning there are the possibilities of a trip down to the caverns below the Clifton suspension bridge (only rediscovered about 20 years ago) with a guide who is a geologist or a walking tour of St Nicks market (they will do a poll once they know who is able to come).
+
+
+          Please forward this invitation to any friends who graduated in 1979 that you are still in touch with.
+
+
+          **Contact**
+
+
+          If you are interested in coming, please email the organiser, John Leeson (BSc Geology 1979) at johnleeson@aol.com. Further details will be communicated closer to the time.
+
+
+          This event is organised by alumni volunteers and is independent of the University of Bristol. The University of Bristol does not accept any liability for this event.\n"
+        confidence: "medium"
+      - id: "education/university-of-bristol-alumni#da9c132b76"
+        sourceId: "education/university-of-bristol-alumni"
+        title: "Bristol and the Brain - 150th Celebration: Alumni Research Lecture"
+        occurrence:
+          kind: "single"
+          date: "2026-10-09"
+          startTime: "18:30"
+          endTime: "22:00"
+        status: "scheduled"
+        timesText: "Registration from 18:30; discussion 19:00-20:30; networking and food 20:30-21:30; close 22:00"
+        venue:
+          name: "Shanta Studio, Sloane Robinson Building, Temple Quarter Enterprise Campus"
+          address:
+            street: "Sloane Robinson Building, Temple Quarter Enterprise Campus"
+            city: "Bristol"
+            postcode: "BS1 6BX"
+        url: "https://www.bristol.ac.uk/alumni/events/2026/bristol-and-the-brain---150th-celebration-alumni-research-lecture-oct-2026.html"
+        price:
+          free: true
+          text: "This event is free for all alumni; register via Eventbrite"
+        tags:
+          - "talk"
+          - "free-entry"
+          - "booking-required"
+        raw: "**Bristol and the Brain - 150th Celebration: Alumni Research Lecture** — 9 October 2026, 6.30 PM - 9 October 2026, 10.00 PM. Shanta Studio, Sloane Robinson Building, Temple Quarter Enterprise Campus, BS1 6BX.\n"
+        summary: "Neuroscience and psychology academics on 150 years of brain research at Bristol, from memory to movement, held on the eve of the University's 150th birthday and among the first public events in its new Temple Quarter building."
+        description: "Join us for an exclusive evening celebrating 150 years of pioneering brain research at the University of Bristol. Held on the eve of the University's 150th birthday, this special event offers alumni and supporters the chance to be among the first to experience the new Temple Quarter Enterprise Campus.
+
+
+          Hear from leading academics as they explore exciting advances in Neuroscience and Psychology, from memory to movement, and discuss the discoveries shaping the future of human health and wellbeing. Afterwards, enjoy refreshments, reconnect with fellow alumni and explore Bristol's newest campus.
+
+
+          As an alumnus, you are an important part of Bristol's story of innovation, ambition and hope. Join us to celebrate the past and future of research on campus.
+
+
+          **Schedule**
+
+
+          - 6:30 pm - 7:00 pm: Registration opens
+
+          - 7:00 pm - 08:30 pm: Bristol and the Brain discussion begins
+
+          - 8:30 pm - 9:30 pm: Networking and Food
+
+          - 10:00 pm: Event close
+
+
+          **Register**
+
+
+          This event is free for all alumni. Click here to register via Eventbrite.
+
+
+          **Contact**
+
+
+          If you have any questions about this event, please email alumni-events@bristol.ac.uk.\n"
+        confidence: "high"
+      - id: "education/university-of-bristol-alumni#35020e54fc"
+        sourceId: "education/university-of-bristol-alumni"
+        title: "Film and Television Alumni Networking Event, Bristol"
+        occurrence:
+          kind: "single"
+          date: "2026-11-21"
+          startTime: "14:00"
+          endTime: "17:00"
+        status: "scheduled"
+        venue:
+          name: "5th and 6th Floor of the Richmond Building"
+          address:
+            street: "105-115 Queens Road"
+            city: "Bristol"
+            postcode: "BS8 1LN"
+        url: "https://www.bristol.ac.uk/alumni/events/2026/partnership-event-film-and-television-alumni-networking-event-nov-2026.html"
+        price:
+          free: true
+          text: "Free place, reserved via the booking form"
+        tags:
+          - "talk"
+          - "q-and-a"
+          - "free-entry"
+          - "booking-required"
+        raw: "**Film and Television Alumni Networking Event, Bristol** — 21 November 2026, 2.00 PM - 21 November 2026, 5.00 PM. 5th and 6th Floor of the Richmond Building, 105-115 Queens Road, Bristol BS8 1LN.\n"
+        summary: "Film and TV graduates meet the department's final-year and MA students over drinks and nibbles, with a panel of alumni talking through how they got into the industry and what they would tell someone starting out."
+        description: "Alumni of the Department of Film and Television are invited to their alumni networking event.
+
+
+          This event has been organised primarily for their current third-year undergraduate and MA students, providing them with the opportunity to connect with alumni working across the film and television industry, gain valuable insights, and explore potential career pathways.
+
+
+          Don't miss this fantastic opportunity to reconnect with fellow graduates, share your experiences since leaving the University of Bristol, and expand your professional network in an informal setting over drinks and nibbles.
+
+
+          The Department are looking for a small number of alumni to take part in a panel discussion during the event, sharing their career journeys, experiences of working in the industry, and advice for students preparing to enter the profession. If you are interested in joining the panel, they would love to hear from you.
+
+
+          **Booking**
+
+
+          To reserve your free place, click here to sign up via the booking form.
+
+
+          **Contact**
+
+
+          If you have any questions or would like to find out more, please do not hesitate to get in touch directly by emailing piers.leigh@bristol.ac.uk.\n"
+        confidence: "high"
+      - id: "education/university-of-bristol-alumni#c4ac77f89f"
+        sourceId: "education/university-of-bristol-alumni"
+        title: "Celebrating 20 years of Widening Participation, Bristol"
+        occurrence:
+          kind: "single"
+          date: "2026-12-02"
+          startTime: "16:00"
+          endTime: "18:00"
+        status: "scheduled"
+        venue:
+          name: "Wills Memorial Building"
+          address:
+            street: "Queen's Road"
+            city: "Bristol"
+            postcode: "BS8 1RJ"
+        url: "https://www.bristol.ac.uk/alumni/events/2026/partnership-event-celebrating-20-years-of-widening-participation-dec-2026.html"
+        price:
+          free: true
+          text: "Free to attend; sign up via Eventbrite using the code 'Alumni'"
+        tags:
+          - "talk"
+          - "free-entry"
+          - "booking-required"
+          - "community"
+        raw: "**Celebrating 20 years of Widening Participation, Bristol** — 2 December 2026, 4.00 PM - 2 December 2026, 6.00 PM. Wills Memorial Building, Queen's Road, Bristol BS8 1RJ.\n"
+        summary: "Twenty years of Access to Bristol and ten of Bristol Scholars, marked with stories from staff, school and college partners and past participants. Open to alumni who completed either programme rather than to the general public."
+        description: "**From access to achievement: Celebrating 20 years of Access to Bristol and 10 years of Bristol Scholars**
+
+
+          Join us as we celebrate a milestone year for widening participation at the University of Bristol.
+
+
+          Marking 20 years since the launch of Access to Bristol and 10 years of the Bristol Scholars programme - alongside the University's 150th anniversary - this special event brings together colleagues, partners, and students past and present to reflect on impact, share stories, and look ahead to the future.
+
+
+          We warmly invite university staff, school and college partners, current participants, and alumni of these programmes who have progressed to study or graduate from Bristol and beyond.
+
+
+          Enjoy light refreshments while connecting with the community that has helped shape two decades of opportunity and achievement.
+
+
+          Please note, this event is exclusively for alumni that completed either Access to Bristol or Bristol Scholars.
+
+
+          **Booking**
+
+
+          This event is free to attend. Click here to sign up via Eventbrite. Enter the code 'Alumni' when you sign up via the Eventbrite page.
+
+
+          **Contact**
+
+
+          If you have any questions, please email uob-outreach-projects@bristol.ac.uk.\n"
+        confidence: "high"
+    notes: "Read the catalogued URL directly and it is the listings page — twelve rows, server-rendered, with \"Bristol and the Brain\" printed twice (once as the featured item at the top, once in the list), so eleven distinct events. Four are outside Bristol and are not recorded: Welcome to Mumbai Enterprise Campus (10 Sep, Mumbai), Alumni Meet-up in Accra, Ghana (18 Sep), Law 1979 / 80 / 81 Reunion (29 Sep, Leathersellers' Hall, London) and 150th Celebration: Bristol Alumni Lunch in Melbourne (4 Oct). Recorded 7 of the 11.
+
+
+      The index gives only title, start/end datetime and an address line, so §3's thin-index rule applies and all seven Bristol event pages were opened for `description` — seven fetches for a programme of seven. Every row prints a full date with the year, so no year had to be inferred, and each detail page names the weekday (\"Saturday 22 August 2026\", \"Saturday 3 October 2026\"), which agrees. No images anywhere on the page or the detail pages beyond the University logo and a fallback SVG, so `image` is omitted throughout.
+
+
+      The hints read this as \"largely lectures, panels and campus openings that anyone can attend, with the genuinely members-only reunions a minority\". That is the wrong way round for what is on today: four of the seven Bristol rows are class reunions organised by alumni volunteers and carrying the disclaimer \"independent of the University of Bristol\", two of them bookable only by emailing an individual. The genuinely public-facing rows are Bristol and the Brain (free, Eventbrite, open to alumni and supporters), the Film and Television networking afternoon (free, booking form) and the Widening Participation celebration — and the last of those states it is \"exclusively for alumni that completed either Access to Bristol or Bristol Scholars\". Worth correcting in the hints so a later run does not over-promise how public this source is.
+
+
+      Two things for stage 1. First, the listings template leaves a static paragraph, \"There are currently no events scheduled. We will list new events here when they're confirmed\", visible immediately below the twelve populated rows; it is a template artefact rather than a claim that nothing is on, and a future extractor could easily read it as one. Second, the page's sidebar promotes a public programme for Saturday 10 October 2026 — the 150th anniversary and the opening of Temple Quarter Enterprise Campus — and links to https://www.bristol.ac.uk/university/150-years/events/. That URL returns 200 but its body is empty: navigation and footer only, no content and not even a Timely embed. Nothing is recorded from it, because the only thing that would describe what is on that day carries no text; it is a candidate source once it renders. /alumni/events/feed/ was not retried, the hints already having it as a 404."
+  - sourceId: "education/bristol-ideas"
+    fetch:
+      ok: false
+      url: "https://www.bristolideas.co.uk/events/"
+      status: 403
+      error: "403 to a plain fetch and again with a desktop Chrome user-agent, on /events/ and on the site root; the 1.4 KB body is a \"Checking your browser...\" bot-check interstitial that redirects to /?ki-cf-botcl=1, so no page body was read"
+    events: []
+    notes: "Bot-walled exactly as the catalogue hint records. /events/ returned 403 with a 1,395-byte body to a plain fetch, and the site root returned 403 with a 1,360-byte body. Retried once with the desktop Chrome user-agent §2 prescribes and got the same 403 both times. The body is not an error page but a \"Checking your browser...\" interstitial that redirects via JavaScript to /?ki-cf-botcl=1, with a noscript meta-refresh to the same place — a bot check, so this is the genuine wall §2 distinguishes from a host that merely dislikes an unfamiliar fetcher, not a dead site. No page body was read, so no events, and none are attached to the failed fetch. Needs a JS-capable fetcher or a browser; the catalogue entry and its missing `verifiedAt` are both still accurate."
+  - sourceId: "education/bristol-folk-house"
+    fetch:
+      ok: true
+      url: "https://www.bristolfolkhouse.co.uk/results?course_duration=&category_parent=&category_child=&tutor=&day=&time_of_day=&keyword=&month="
+      status: 200
+    events:
+      - id: "education/bristol-folk-house#51d7f3e475"
+        sourceId: "education/bristol-folk-house"
+        title: "Introduction to Natural Dyes"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/introduction-to-natural-dyes-sc03-21579"
+        tags:
+          - "workshop"
+          - "crafts"
+          - "textiles"
+          - "hands-on"
+          - "beginners"
+        raw: "**Introduction to Natural Dyes** — 1 Day Course, starts 18 August 2026, at 10:00. Course code: SC03. Tutor: Freia Groves.
+
+
+          Join us for a one day, natural dye workshop. Freia will guide you through the basics of natural dyeing in the comfort of the classroom setting at the Folk House. The workshop will include: ...\n"
+        summary: "A day learning the basics of dyeing with plants, in the Folk House classroom with Freia Groves."
+        confidence: "high"
+      - id: "education/bristol-folk-house#296b652b57"
+        sourceId: "education/bristol-folk-house"
+        title: "Anthotype and Chlorophyll Printing"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "14:30"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/anthotype-and-chlorophyll-printing-sa15-21572"
+        tags:
+          - "workshop"
+          - "photography"
+          - "printmaking"
+          - "hands-on"
+          - "experimental"
+        raw: "**Anthotype and Chlorophyll Printing** — 1 Day Course, starts 19 August 2026, at 14:30. Course code: SA15. Tutor: Sophie Sherwood.
+
+
+          Find out how to use plants to make photographic images in this experimental workshop. This style of printmaking is an excellent lesson in slowing down, how to be more eco conscious when making images, ...\n"
+        summary: "Making photographic images out of plants — anthotypes and chlorophyll prints, with no darkroom chemistry involved."
+        confidence: "high"
+      - id: "education/bristol-folk-house#d98e88ba26"
+        sourceId: "education/bristol-folk-house"
+        title: "Pottery: Three Pots in a Day"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-19"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/pottery-three-pots-in-a-day-sp01-22278"
+        tags:
+          - "workshop"
+          - "crafts"
+          - "hands-on"
+          - "beginners"
+        raw: "**Pottery: Three Pots in a Day** — 1 Day Course, starts 19 September 2026, at 10:00. Course code: SP01. Tutor: Sam Hallett.
+
+
+          Join us in our studio to get your hands on some clay and your creativity flowing in this full day course for beginners. You will explore three fundamental yet very different pottery techniques: coilin ...\n"
+        summary: "A beginners' day at the wheel and the bench covering three pottery techniques, with three pots to take home."
+        confidence: "high"
+      - id: "education/bristol-folk-house#25ea860e92"
+        sourceId: "education/bristol-folk-house"
+        title: "How to Edit your own Writing"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-19"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/how-to-edit-your-own-writing-sw01-22286"
+        tags:
+          - "workshop"
+          - "creative-writing"
+          - "hands-on"
+        raw: "**How to Edit your own Writing** — 1 Day Course, starts 19 September 2026, at 10:00. Course code: SW01. Tutor: Rob Campbell.
+
+
+          This workshop is for anyone who has got some writing done, whether factual or fiction, and wants to polish it. We will take a whistle-stop tour of the editing process and the challenges of applying it ...\n"
+        summary: "For anyone sitting on a draft: a whistle-stop tour of the editing process and how to turn it on your own writing."
+        confidence: "high"
+      - id: "education/bristol-folk-house#b8f1c6b964"
+        sourceId: "education/bristol-folk-house"
+        title: "Nature Writing: A World of Possibility"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-19"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/nature-writing-a-world-of-possibility-sw02-22287"
+        tags:
+          - "workshop"
+          - "creative-writing"
+          - "nature"
+        raw: "**Nature Writing: A World of Possibility** — 1 Day Course, starts 19 September 2026, at 10:00. Course code: SW02. Tutor: Liz Kalaugher.
+
+
+          Nature is all around us, even in the city, but how often do we pause to look? Come along to spend the day noticing the natural world, hear the words of established nature writers, and develop your own ...\n"
+        summary: "A day spent noticing the natural world in the city and writing about it, with readings from established nature writers."
+        confidence: "high"
+      - id: "education/bristol-folk-house#272f9d2d6a"
+        sourceId: "education/bristol-folk-house"
+        title: "Move Freely, Move Well: Alexander Technique"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-19"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/move-freely-move-well-alexander-technique-sf01-22251"
+        tags:
+          - "workshop"
+          - "wellbeing"
+          - "beginners"
+        raw: "**Move Freely, Move Well: Alexander Technique** — 1 Day Course, starts 19 September 2026, at 10:00. Course code: SF01. Tutor: Jennifer Mackerras.
+
+
+          Have you ever wondered why certain activities seem more effortful than they really ought to be? Or how you could prevent yourself having aches and pains from something as simple as driving or walking? ...\n"
+        summary: "An introduction to the Alexander Technique and why walking, driving and sitting cost more effort than they should."
+        confidence: "high"
+      - id: "education/bristol-folk-house#f43d181343"
+        sourceId: "education/bristol-folk-house"
+        title: "Tarot for Everyone"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-19"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/tarot-for-everyone-sm09-22271"
+        tags:
+          - "workshop"
+          - "beginners"
+        raw: "**Tarot for Everyone** — 1 Day Course, starts 19 September 2026, at 10:00. Course code: SM09. Tutor: Carolyn Dougherty.
+
+
+          The Fool, The Tower, The Hanging Man...many people find the imagery of the Rider-Waite-Smith Tarot, the most popular Tarot deck, intriguing but intimidating. How can we use these images to provide ins ...\n"
+        summary: "An unintimidating day with the Rider-Waite-Smith deck, reading its pictures rather than memorising card meanings."
+        confidence: "high"
+      - id: "education/bristol-folk-house#41aaabf506"
+        sourceId: "education/bristol-folk-house"
+        title: "Drawing: People"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-19"
+          startTime: "10:15"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/drawing-people-sa16-22156"
+        tags:
+          - "workshop"
+          - "drawing"
+          - "beginners"
+          - "hands-on"
+        raw: "**Drawing: People** — 1 Day Course, starts 19 September 2026, at 10:15. Course code: SA16. Tutor: Bill Guilding.
+
+
+          A beginner level day workshop in drawing figures. In the morning we will draw from photographs of athletes, dancers and gymnasts in action, and in the afternoon we will draw from a live clothed model, ...\n"
+        summary: "Figure drawing for beginners: athletes and dancers from photographs in the morning, a live clothed model after lunch."
+        confidence: "high"
+      - id: "education/bristol-folk-house#f4455a00a8"
+        sourceId: "education/bristol-folk-house"
+        title: "Ukulele (Beginners)"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-19"
+          startTime: "13:30"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/ukulele-beginners-sd16-22248"
+        tags:
+          - "workshop"
+          - "beginners"
+          - "hands-on"
+        raw: "**Ukulele (Beginners)** — 1 Day Course, starts 19 September 2026, at 13:30. Course code: SD16. Tutor: Ben Searle.
+
+
+          If you have never played a musical instrument, you can play Ukulele today! This course is aimed to complete music novices and those very new to the uke to get to grips with the instrument in a friend ...\n"
+        summary: "An afternoon that gets a complete musical novice playing the ukulele."
+        confidence: "high"
+      - id: "education/bristol-folk-house#9b51aeaec1"
+        sourceId: "education/bristol-folk-house"
+        title: "Mixed Media Textile Art"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-20"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/mixed-media-textile-art-sa21-22161"
+        tags:
+          - "workshop"
+          - "textiles"
+          - "crafts"
+          - "hands-on"
+        raw: "**Mixed Media Textile Art** — 1 Day Course, starts 20 September 2026, at 10:00. Course code: SA21. Tutor: Phoebe Moss.
+
+
+          In this guided workshop, you will explore the potential of materials and processes as a starting point for Mixed Media Textile Art. We will focus more on the process, rather than specific outcomes. P ...\n"
+        summary: "A guided day pushing materials and processes around in mixed-media textile art, with process rather than outcome as the point."
+        confidence: "high"
+      - id: "education/bristol-folk-house#f1cb1b2df0"
+        sourceId: "education/bristol-folk-house"
+        title: "Darkroom Basics"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-20"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/darkroom-basics-sa46-22186"
+        tags:
+          - "workshop"
+          - "photography"
+          - "hands-on"
+          - "beginners"
+        raw: "**Darkroom Basics** — 1 Day Course, starts 20 September 2026, at 10:00. Course code: SA46. Tutor: Connie Whitham.
+
+
+          In this workshop, we will start by learning how to process a black and white film (35mm or 120mm), before making a contact sheet of your negatives. We will then select one of your pictures to enlarge, ...\n"
+        summary: "Develop a roll of black and white film, make a contact sheet and enlarge a print, in the Folk House darkroom."
+        confidence: "high"
+      - id: "education/bristol-folk-house#b63ed3146b"
+        sourceId: "education/bristol-folk-house"
+        title: "Reframing Grief with Photography"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-20"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/reframing-grief-with-photography-sa52-22192"
+        tags:
+          - "workshop"
+          - "photography"
+          - "wellbeing"
+        raw: "**Reframing Grief with Photography** — 1 Day Course, starts 20 September 2026, at 10:00. Course code: SA52. Tutor: Adrian Wyatt.
+
+
+          Photographing the Spaces Loss Leaves Behind And the Meaning We Build from Them This workshop is not about providing counselling or offering fixed answers - grief is deeply personal, and everyone's ex ...\n"
+        summary: "Photographing the spaces a loss leaves behind — not counselling, and not a set of answers, but a way of making meaning with a camera."
+        confidence: "high"
+      - id: "education/bristol-folk-house#f3b865910f"
+        sourceId: "education/bristol-folk-house"
+        title: "Using your Digital Camera"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-20"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/using-your-digital-camera-sa53-22193"
+        tags:
+          - "workshop"
+          - "photography"
+          - "beginners"
+        raw: "**Using your Digital Camera** — 1 Day Course, starts 20 September 2026, at 10:00. Course code: SA53. Tutor: Lee Spencer-Fleet.
+
+
+          This workshop is suitable for DSLR, Mirrorless, Compact System or Bridge Cameras only. Your friendly tutor will support you in using your digital camera, making sense of the camera controls and menus. ...\n"
+        summary: "Get to grips with your own DSLR, mirrorless, compact system or bridge camera's controls and menus."
+        confidence: "high"
+      - id: "education/bristol-folk-house#d95fa825bd"
+        sourceId: "education/bristol-folk-house"
+        title: "Trio of Earrings"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-20"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/trio-of-earrings-sc17-22218"
+        tags:
+          - "workshop"
+          - "crafts"
+          - "hands-on"
+        raw: "**Trio of Earrings** — 1 Day Course, starts 20 September 2026, at 10:00. Course code: SC17. Tutor: Heather Coleman.
+
+
+          Create a trio of silver earrings in this creative workshop! Using sterling silver or hypoallergenic Argentium silver, you will learn how to make three different types of earrings: stud, drop and hoop. ...\n"
+        summary: "Make three pairs of silver earrings — stud, drop and hoop — in sterling or hypoallergenic Argentium silver."
+        confidence: "high"
+      - id: "education/bristol-folk-house#c36734e1cd"
+        sourceId: "education/bristol-folk-house"
+        title: "Learn to Read Music in a Day"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-20"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/learn-to-read-music-in-a-day-sd11-22243"
+        tags:
+          - "workshop"
+          - "beginners"
+          - "hands-on"
+        raw: "**Learn to Read Music in a Day** — 1 Day Course, starts 20 September 2026, at 10:00. Course code: SD11. Tutor: Jennifer Mackerras.
+
+
+          Would you like to feel more confident in your choir or music group? Want to know your clef from your crotchet, or feel at ease with all those weird terms like crescendo or staccato? By the end of the ...\n"
+        summary: "Clefs, crotchets and crescendos in a day, for singers and players who cannot yet read the page in front of them."
+        confidence: "high"
+      - id: "education/bristol-folk-house#7c2a9f51b6"
+        sourceId: "education/bristol-folk-house"
+        title: "Dream Interpretation"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-20"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/dream-interpretation-sf02-22252"
+        tags:
+          - "workshop"
+          - "wellbeing"
+          - "beginners"
+        raw: "**Dream Interpretation** — 1 Day Course, starts 20 September 2026, at 10:00. Course code: SF02. Tutor: Rosanne Jacks.
+
+
+          In this half-day workshop, we will explore the significance of our dreams and how we can decipher their meaning. Using dream journaling techniques, we will learn how we can use our dreams to solve pro ...\n"
+        summary: "A half-day on dream journaling and on what a dream might be trying to work out for you."
+        confidence: "high"
+      - id: "education/bristol-folk-house#8a1f092418"
+        sourceId: "education/bristol-folk-house"
+        title: "Anthotype and Chlorophyll Printing"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-26"
+          startTime: "09:30"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/anthotype-and-chlorophyll-printing-sa39-22179"
+        tags:
+          - "workshop"
+          - "photography"
+          - "printmaking"
+          - "hands-on"
+          - "experimental"
+        raw: "**Anthotype and Chlorophyll Printing** — 1 Day Course, starts 26 September 2026, at 09:30. Course code: SA39. Tutor: Sophie Sherwood.
+
+
+          Find out how to use plants to make photographic images in this experimental workshop. This style of printmaking is an excellent lesson in slowing down, how to be more eco conscious when making images, ...\n"
+        summary: "The plant-based photographic printing workshop again, this time as a Saturday morning session."
+        confidence: "high"
+      - id: "education/bristol-folk-house#99d7289df4"
+        sourceId: "education/bristol-folk-house"
+        title: "Pottery: Animal Magic: Clay Creatures"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-26"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/pottery-animal-magic-clay-creatures-sp02-22279"
+        tags:
+          - "workshop"
+          - "crafts"
+          - "hands-on"
+          - "animals"
+        raw: "**Pottery: Animal Magic: Clay Creatures** — 1 Day Course, starts 26 September 2026, at 10:00. Course code: SP02. Tutor: Margaret Crump.
+
+
+          Animal Magic: A Day of Making Clay Creatures Design and make one or a few small ceramic animals, whether three fish plaques for your bathroom wall, a pet, a fantasy creature, or an occupant for your ...\n"
+        summary: "A day making small ceramic animals: fish plaques for the bathroom wall, a pet, a fantasy creature."
+        confidence: "high"
+      - id: "education/bristol-folk-house#a42faafb4d"
+        sourceId: "education/bristol-folk-house"
+        title: "Starting your Novel from Scratch"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-26"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/starting-your-novel-from-scratch-sw03-22288"
+        tags:
+          - "workshop"
+          - "creative-writing"
+          - "beginners"
+        raw: "**Starting your Novel from Scratch** — 1 Day Course, starts 26 September 2026, at 10:00. Course code: SW03. Tutor: Cara Marks.
+
+
+          This workshop is for anyone who wants to write a novel but has not known where to start. You do not need to have written a single word, or even to have any ideas for what you might want to write about ...\n"
+        summary: "For people who want to write a novel and have not written a word of one — no idea needed to turn up."
+        confidence: "high"
+      - id: "education/bristol-folk-house#2edabb3c31"
+        sourceId: "education/bristol-folk-house"
+        title: "Medieval Relics: What Did They Do and What Did They Want?"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-26"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/medieval-relics-what-did-they-do-and-what-did-they-want-sa02-22144"
+        tags:
+          - "workshop"
+          - "heritage"
+          - "talk"
+        raw: "**Medieval Relics: What Did They Do and What Did They Want?** — 1 Day Course, starts 26 September 2026, at 10:00. Course code: SA02. Tutor: Dr Maeve Marta O Donnell.
+
+
+          Medieval Relics: What did they do and what did they want? Ever wondered why medieval people wrapped pieces of teeth, hair, bones and even dirt in silk and gold? Learn about medieval relics from ...\n"
+        summary: "Why medieval people wrapped teeth, hair, bone and dirt in silk and gold: a day on relics and what they were for."
+        confidence: "high"
+      - id: "education/bristol-folk-house#9b3557364f"
+        sourceId: "education/bristol-folk-house"
+        title: "Lino Printing (Beginners)"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-26"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/lino-printing-beginners-sa59-22199"
+        tags:
+          - "workshop"
+          - "printmaking"
+          - "hands-on"
+          - "beginners"
+        raw: "**Lino Printing (Beginners)** — 1 Day Course, starts 26 September 2026, at 10:00. Course code: SA59. Tutor: Kerry Day.
+
+
+          Come and learn the basics of Lino Printing. This one day workshop will cover a variety of cutting, using the printing press as well as hand printing methods that can be used at home without any expens ...\n"
+        summary: "The basics of lino printing — cutting, the press, and hand-printing methods that need no equipment at home."
+        confidence: "high"
+      - id: "education/bristol-folk-house#a8f65d7c00"
+        sourceId: "education/bristol-folk-house"
+        title: "Acrylics: Landscape"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-26"
+          startTime: "10:15"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/acrylics-landscape-sa24-22164"
+        tags:
+          - "workshop"
+          - "painting"
+          - "beginners"
+          - "hands-on"
+        raw: "**Acrylics: Landscape** — 1 Day Course, starts 26 September 2026, at 10:15. Course code: SA24. Tutor: Bill Guilding.
+
+
+          This is a beginner level day-workshop, aimed at people who have not painted in acrylics before or not in a representational way. We will copy a landscape painting, and you will be guided through each ...\n"
+        summary: "A beginners' day in acrylics, working step by step from an existing landscape painting."
+        confidence: "high"
+      - id: "education/bristol-folk-house#42c6ee396a"
+        sourceId: "education/bristol-folk-house"
+        title: "Sketching: Watercolour and Pen"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-26"
+          startTime: "10:45"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/sketching-watercolour-and-pen-sa31-22171"
+        tags:
+          - "workshop"
+          - "painting"
+          - "drawing"
+          - "beginners"
+        raw: "**Sketching: Watercolour and Pen** — 1 Day Course, starts 26 September 2026, at 10:45. Course code: SA31. Tutor: Marilyn Millard.
+
+
+          Enjoy the fun of creating sketches of landscapes and flowers guided by an experienced tutor using easy step by step demonstrations. Including brush techniques and useful colour mixing. Ideal for begin ...\n"
+        summary: "Sketching landscapes and flowers in watercolour and pen, with brush technique and colour mixing demonstrated as you go."
+        confidence: "high"
+      - id: "education/bristol-folk-house#ce6a0309e9"
+        sourceId: "education/bristol-folk-house"
+        title: "Dare to Sing (Beginners)"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-26"
+          startTime: "11:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/dare-to-sing-beginners-sd14-22246"
+        tags:
+          - "workshop"
+          - "beginners"
+          - "wellbeing"
+        raw: "**Dare to Sing (Beginners)** — 1 Day Course, starts 26 September 2026, at 11:00. Course code: SD14. Tutor: Janne Bird.
+
+
+          DARE TO SING: Do you want to sing with your whole heart but feel something stops you? Here is an opportunity to try a Dare to Sing introductory workshop aimed to spark the beginning of a journey to d ...\n"
+        summary: "An introductory workshop for people who want to sing out and feel something in the way."
+        confidence: "high"
+      - id: "education/bristol-folk-house#f857e95626"
+        sourceId: "education/bristol-folk-house"
+        title: "Learn to Borrow like the Best"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-26"
+          startTime: "13:30"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/learn-to-borrow-like-the-best-sw05-22290"
+        tags:
+          - "workshop"
+          - "creative-writing"
+        raw: "**Learn to Borrow like the Best** — 1 Day Course, starts 26 September 2026, at 13:30. Course code: SW05. Tutor: Jacob Waller.
+
+
+          Every artist borrows. The trick is what you do with it. Shakespeare re-worked chronicles, plays and poems into something richer: he even lifted entire passages when he saw fit. The Beatles lifted bass ...\n"
+        summary: "Shakespeare lifted whole passages and the Beatles lifted bass lines; a workshop on borrowing as a writing method."
+        confidence: "high"
+      - id: "education/bristol-folk-house#76cc81389b"
+        sourceId: "education/bristol-folk-house"
+        title: "Developing with Plants"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-26"
+          startTime: "13:30"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/developing-with-plants-sa40-22180"
+        tags:
+          - "workshop"
+          - "photography"
+          - "hands-on"
+          - "experimental"
+        raw: "**Developing with Plants** — 1 Day Course, starts 26 September 2026, at 13:30. Course code: SA40. Tutor: Sophie Sherwood.
+
+
+          This workshop is suitable for those with a 35mm or 120mm film camera. Using steeped tea, vitamin c tablets and washing soda, participants will learn how to make their very own homemade darkroom chemis ...\n"
+        summary: "Brew darkroom chemistry from tea, vitamin C tablets and washing soda, then develop your own 35mm or 120 film in it."
+        confidence: "high"
+      - id: "education/bristol-folk-house#4030ae343e"
+        sourceId: "education/bristol-folk-house"
+        title: "Brazilian Rhythm Dance"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-26"
+          startTime: "15:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/brazilian-rhythm-dance-sd01-22233"
+        tags:
+          - "workshop"
+          - "dance"
+          - "beginners"
+        raw: "**Brazilian Rhythm Dance** — 1 Day Course, starts 26 September 2026, at 15:00. Course code: SD01. Tutor: Silvana Costa.
+
+
+          Feel the energy and joy of Brazil in this vibrant Brazilian Rhythms Dance workshop. Open to all levels, it's designed to be easy to follow, so anyone can join and enjoy - no previous experience needed ...\n"
+        summary: "An all-levels Brazilian rhythms dance workshop, built to be easy to follow with no experience behind you."
+        confidence: "high"
+      - id: "education/bristol-folk-house#81fee44a84"
+        sourceId: "education/bristol-folk-house"
+        title: "Tarot: The Cards by Numbers (Improvers)"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-27"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/tarot-the-cards-by-numbers-improvers-sm11-22273"
+        tags:
+          - "workshop"
+          - "hands-on"
+        raw: "**Tarot: The Cards by Numbers (Improvers)** — 1 Day Course, starts 27 September 2026, at 10:00. Course code: SM11. Tutor: Carolyn Dougherty.
+
+
+          In this workshop, a supplement to the Tarot for Everyone workshop, we will take a closer look at the significance of number in the Minor Arcana. The images in the Minor Arcana draw on the esoteric sig ...\n"
+        summary: "A follow-up to Tarot for Everyone, on what number means across the Minor Arcana."
+        confidence: "high"
+      - id: "education/bristol-folk-house#1ebcbc1caa"
+        sourceId: "education/bristol-folk-house"
+        title: "Drawing: Wading Birds of the Severn Estuary"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-27"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/drawing-wading-birds-of-the-severn-estuary-sa10-22150"
+        tags:
+          - "workshop"
+          - "drawing"
+          - "wildlife"
+          - "nature"
+        raw: "**Drawing: Wading Birds of the Severn Estuary** — 1 Day Course, starts 27 September 2026, at 10:00. Course code: SA10. Tutor: Andy Gray.
+
+
+          Drawing wading birds of the Severn Estuary - Oystercatcher, Curlew, Dunlin and Redshank - Learn to capture the unique characters of these birds in sketch form. How to accurately produce well-proportio ...\n"
+        summary: "Drawing the Severn Estuary's waders — oystercatcher, curlew, dunlin, redshank — and catching what makes each one itself."
+        confidence: "high"
+      - id: "education/bristol-folk-house#af5c379595"
+        sourceId: "education/bristol-folk-house"
+        title: "Art, Instructions and Originality: Sol Le Witt Inspired Painting Day"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-27"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/art-instructions-and-originality-sol-le-witt-inspired-painting-day-sa25-22165"
+        tags:
+          - "workshop"
+          - "painting"
+          - "hands-on"
+          - "contemporary"
+        raw: "**Art, Instructions and Originality: Sol Le Witt Inspired Painting Day** — 1 Day Course, starts 27 September 2026, at 10:00. Course code: SA25. Tutor: Catherine White.
+
+
+          This workshop will focus on the concepts of Sol Le Witt's wall art. Participants will be provided with canvas boards, acrylic paints, pens, pencils and a set of rules to create their own abstract pain ...\n"
+        summary: "Abstract painting made by following a set of rules, after Sol LeWitt's wall drawings; boards and paints supplied."
+        confidence: "high"
+      - id: "education/bristol-folk-house#95c680143b"
+        sourceId: "education/bristol-folk-house"
+        title: "Silver Ring in a day"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-27"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/silver-ring-in-a-day-sc18-22219"
+        tags:
+          - "workshop"
+          - "crafts"
+          - "hands-on"
+        raw: "**Silver Ring in a day** — 1 Day Course, starts 27 September 2026, at 10:00. Course code: SC18. Tutor: Heather Coleman.
+
+
+          Make your own silver ring in this creative workshop! Learn how to form metal into a textured ring band that fits you perfectly. You will use techniques such as texturing, cutting, filing, forming, sol ...\n"
+        summary: "Texture, cut, file, form and solder a silver ring that actually fits you, in a day."
+        confidence: "high"
+      - id: "education/bristol-folk-house#b82cc75271"
+        sourceId: "education/bristol-folk-house"
+        title: "Flower Arranging: Dried Flower Meadow"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-27"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/flower-arranging-dried-flower-meadow-sm02-22265"
+        tags:
+          - "workshop"
+          - "crafts"
+          - "hands-on"
+        raw: "**Flower Arranging: Dried Flower Meadow** — 1 Day Course, starts 27 September 2026, at 10:00. Course code: SM02. Tutor: Becky Wright.
+
+
+          Come and learn how to use dried flowers to create a flower meadow. Your session will include forming a willow window, securing chicken wire to act as your 'canvas', then letting your creativity run wi ...\n"
+        summary: "Weave a willow window, wire it, then fill it with dried flowers to make a meadow to hang."
+        confidence: "high"
+      - id: "education/bristol-folk-house#5646b36ced"
+        sourceId: "education/bristol-folk-house"
+        title: "Collage Poetry"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-27"
+          startTime: "13:30"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/collage-poetry-sw04-22289"
+        tags:
+          - "workshop"
+          - "poetry"
+          - "creative-writing"
+          - "hands-on"
+        raw: "**Collage Poetry** — 1 Day Course, starts 27 September 2026, at 13:30. Course code: SW04. Tutor: Fra Beecher.
+
+
+          In this workshop, we will create brand-new poems from old words - cutting, rearranging, and reimagining text from existing publications. It is a relaxed, playful way to uncover surprising themes and f ...\n"
+        summary: "Cut up existing publications and rearrange the words into new poems — a relaxed and playful way to write."
+        confidence: "high"
+      - id: "education/bristol-folk-house#c71d18f410"
+        sourceId: "education/bristol-folk-house"
+        title: "Art Coaching: Building Confidence in Sharing Your Creativity"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-27"
+          startTime: "13:30"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/art-coaching-building-confidence-in-sharing-your-creativity-sa01-22143"
+        tags:
+          - "workshop"
+          - "wellbeing"
+        raw: "**Art Coaching: Building Confidence in Sharing Your Creativity** — 1 Day Course, starts 27 September 2026, at 13:30. Course code: SA01. Tutor: Amy Powell.
+
+
+          This workshop invites participants to explore the narratives that keep them feeling safe but stuck. From here they can move forward in their creative practice and have more confidence in sharing their ...\n"
+        summary: "For makers who feel stuck: a look at the stories that keep a creative practice safe and private."
+        confidence: "high"
+      - id: "education/bristol-folk-house#6b8af4d5f1"
+        sourceId: "education/bristol-folk-house"
+        title: "Flower Arranging: Dried Flower Wreath"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "single"
+          date: "2026-09-27"
+          startTime: "13:30"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/flower-arranging-dried-flower-wreath-sm03-22266"
+        tags:
+          - "workshop"
+          - "crafts"
+          - "hands-on"
+          - "seasonal"
+        raw: "**Flower Arranging: Dried Flower Wreath** — 1 Day Course, starts 27 September 2026, at 13:30. Course code: SM03. Tutor: Becky Wright.
+
+
+          Would you like to learn how to create a dried flower wreath inspired by Autumn? If so, this is the workshop for you. You will learn how to work with delicate dried flowers, creating flower posies and ...\n"
+        summary: "Work with delicate dried flowers, build posies and bind them into an autumn wreath."
+        confidence: "high"
+      - id: "education/bristol-folk-house#3f05951466"
+        sourceId: "education/bristol-folk-house"
+        title: "Crochet (Beginners)"
+        subcategory: "6 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "6 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/crochet-beginners-bc33-22034"
+        tags:
+          - "courses"
+          - "crafts"
+          - "textiles"
+          - "beginners"
+        raw: "**Crochet (Beginners)** — 6 Week Course, starts Mon 14 September 2026, at 10:00. Course code: BC33.
+
+
+          Learn how to crochet and let me introduce you to this beautiful skill full of creative possibilities. You will learn the basic stitches and will be introduced to different techniques such as colour ch ...\n"
+        summary: "Six Monday mornings learning the basic crochet stitches, then colour changes and shaping."
+        confidence: "high"
+      - id: "education/bristol-folk-house#75d55dfb3c"
+        sourceId: "education/bristol-folk-house"
+        title: "Pottery (Improvers) (BP05)"
+        subcategory: "12 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "12 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/pottery-improvers-bp05-22121"
+        tags:
+          - "courses"
+          - "crafts"
+          - "hands-on"
+        raw: "**Pottery (Improvers)** — 12 Week Course, starts Mon 14 September 2026, at 10:00. Course code: BP05.
+
+
+          This half day course is suitable for you if you have some experience of making with clay and an understanding of ceramic processes. These sessions offer the opportunity to work on your own projects in ...\n"
+        summary: "A twelve-week Monday-morning studio course for potters who already know their way around clay and want to work on their own projects."
+        confidence: "high"
+      - id: "education/bristol-folk-house#8e3f88377e"
+        sourceId: "education/bristol-folk-house"
+        title: "The Practice of Poetry"
+        subcategory: "6 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "6 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/the-practice-of-poetry-bw01-22127"
+        tags:
+          - "courses"
+          - "poetry"
+          - "creative-writing"
+        raw: "**The Practice of Poetry** — 6 Week Course, starts Mon 14 September 2026, at 10:00. Course code: BW01.
+
+
+          This course explores a range of poetic forms and encourages you to develop your own practice of poetry. Afraid poetry is not for you? Remember - it began in the streets, at campfires, and through oral ...\n"
+        summary: "Six weeks across a range of poetic forms, with your own practice of poetry as the object."
+        confidence: "high"
+      - id: "education/bristol-folk-house#43dbac9e79"
+        sourceId: "education/bristol-folk-house"
+        title: "Acrylic Painting"
+        subcategory: "12 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "12 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "10:15"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/acrylic-painting-ba17-21970"
+        tags:
+          - "courses"
+          - "painting"
+          - "hands-on"
+        raw: "**Acrylic Painting** — 12 Week Course, starts Mon 14 September 2026, at 10:15. Course code: BA17.
+
+
+          Join experienced tutor, Jenny Mizel, to explore the versatile medium of acrylic paint. In this course, students will be encouraged to experiment freely with many techniques while also improving skills ...\n"
+        summary: "Twelve weeks with Jenny Mizel experimenting freely in acrylics while sharpening technique."
+        confidence: "high"
+      - id: "education/bristol-folk-house#3b35f16f1d"
+        sourceId: "education/bristol-folk-house"
+        title: "Line Dance (Advanced)"
+        subcategory: "12 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "12 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "10:30"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/line-dance-advanced-bd15-22051"
+        tags:
+          - "courses"
+          - "dance"
+          - "weekly"
+        raw: "**Line Dance (Advanced)** — 12 Week Course, starts Mon 14 September 2026, at 10:30. Course code: BD15.
+
+
+          An established class for those who have previously attended a dance class of any style for more than two years. Student testimonials: Relaxed atmosphere while helping balance, co-ordination and memo ...\n"
+        summary: "An established Monday-morning line dance class for people with two years or more of dancing behind them."
+        confidence: "high"
+      - id: "education/bristol-folk-house#57691e48b4"
+        sourceId: "education/bristol-folk-house"
+        title: "Learn to Draw (Beginners)"
+        subcategory: "6 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "6 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "10:45"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/learn-to-draw-beginners-ba03-21956"
+        tags:
+          - "courses"
+          - "drawing"
+          - "beginners"
+        raw: "**Learn to Draw (Beginners)** — 6 Week Course, starts Mon 14 September 2026, at 10:45. Course code: BA03.
+
+
+          An excellent step-by-step course, developed to encourage beginners who want to learn the invaluable techniques of line, tone, proportion and perspective over a wide range of subjects including still l ...\n"
+        summary: "A step-by-step beginners' course in line, tone, proportion and perspective, across still life, landscape and more."
+        confidence: "high"
+      - id: "education/bristol-folk-house#c0602542ea"
+        sourceId: "education/bristol-folk-house"
+        title: "Line Dance (Beginners) (BD06)"
+        subcategory: "6 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "6 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "12:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/line-dance-beginners-bd06-22042"
+        tags:
+          - "courses"
+          - "dance"
+          - "beginners"
+        raw: "**Line Dance (Beginners)** — 6 Week Course, starts Mon 14 September 2026, at 12:00. Course code: BD06. Tutor: Rebecca O’Farrell.
+
+
+          A beginners line dance class for those who would like to learn the basics. Also welcome are those who have line danced in the past but would like a refresher. This is a good introduction to a re-emerg ...\n"
+        summary: "A six-week Monday lunchtime introduction to line dance; returners wanting a refresher are welcome too."
+        confidence: "high"
+      - id: "education/bristol-folk-house#19c8c63cf9"
+        sourceId: "education/bristol-folk-house"
+        title: "Harmonica"
+        subcategory: "6 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "6 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "13:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/harmonica-bd30-22066"
+        tags:
+          - "courses"
+          - "beginners"
+          - "blues"
+        raw: "**Harmonica** — 6 Week Course, starts Mon 14 September 2026, at 13:00. Course code: BD30.
+
+
+          Learn to play your harmonica, it is the coolest little instrument on the planet. We will try some Blues, Folk, Country, Rock, Pop, Sing-alongs and get you playing along. This course will get you going ...\n"
+        summary: "Six weeks getting a harmonica to play blues, folk, country, rock and sing-alongs."
+        confidence: "high"
+      - id: "education/bristol-folk-house#6c5933626b"
+        sourceId: "education/bristol-folk-house"
+        title: "Monoprinting"
+        subcategory: "6 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "6 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "13:15"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/monoprinting-ba43-21996"
+        tags:
+          - "courses"
+          - "printmaking"
+          - "hands-on"
+        raw: "**Monoprinting** — 6 Week Course, starts Mon 14 September 2026, at 13:15. Course code: BA43.
+
+
+          Your tutor Cathy Mills will cover the basic foundations of monoprinting. Students will initially learn how to create different tones and marks and then learn how to layer colour. This will be without ...\n"
+        summary: "The foundations of monoprinting with Cathy Mills: tones and marks first, then layering colour."
+        confidence: "high"
+      - id: "education/bristol-folk-house#dbacb9ab97"
+        sourceId: "education/bristol-folk-house"
+        title: "Circle Dance (Advanced)"
+        subcategory: "12 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "12 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "13:30"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/circle-dance-advanced-bd05-22041"
+        tags:
+          - "courses"
+          - "dance"
+          - "community"
+        raw: "**Circle Dance (Advanced)** — 12 Week Course, starts Mon 14 September 2026, at 13:30. Course code: BD05.
+
+
+          An in-person class for experienced circle dancers who have attended classes for more than two years. A friendly group who meet for tea and chat in the cafe afterwards. Student testimonials: Great te ...\n"
+        summary: "A Monday-afternoon class for experienced circle dancers, with tea and a chat in the café afterwards."
+        confidence: "high"
+      - id: "education/bristol-folk-house#73cef2b060"
+        sourceId: "education/bristol-folk-house"
+        title: "Pottery (Beginners)"
+        subcategory: "12 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "12 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "14:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/pottery-beginners-bp01-22117"
+        tags:
+          - "courses"
+          - "crafts"
+          - "beginners"
+          - "hands-on"
+        raw: "**Pottery (Beginners)** — 12 Week Course, starts Mon 14 September 2026, at 14:00. Course code: BP01.
+
+
+          If you are new to making pottery, this course will provide you with a well-rounded and comprehensive introduction to the craft of pottery. Through directed projects, you will learn the foundational sk ...\n"
+        summary: "A twelve-week grounding in pottery for people new to clay, taught through directed projects."
+        confidence: "high"
+      - id: "education/bristol-folk-house#8707fcd18e"
+        sourceId: "education/bristol-folk-house"
+        title: "Learn to Draw (Improvers)"
+        subcategory: "6 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "6 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "14:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/learn-to-draw-improvers-ba05-21958"
+        tags:
+          - "courses"
+          - "drawing"
+          - "hands-on"
+        raw: "**Learn to Draw (Improvers)** — 6 Week Course, starts Mon 14 September 2026, at 14:00. Course code: BA05.
+
+
+          This course is ideal for anyone with some previous knowledge of drawing in pencil. You will be taught in easy step by step projects that cover a variety of subjects including still life, flowers, land ...\n"
+        summary: "Six weeks of pencil drawing projects for people with some drawing already behind them."
+        confidence: "high"
+      - id: "education/bristol-folk-house#f0bfeccc63"
+        sourceId: "education/bristol-folk-house"
+        title: "Mosaics"
+        subcategory: "6 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "6 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "14:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/mosaics-bc03-22004"
+        tags:
+          - "courses"
+          - "crafts"
+          - "hands-on"
+          - "beginners"
+        raw: "**Mosaics** — 6 Week Course, starts Mon 14 September 2026, at 14:00. Course code: BC03.
+
+
+          Discover the art of mosaic in this friendly, hands-on 6-week course. Perfect for beginners and improvers alike, you will be given a short introduction to the evolution of mosaic from the ancient to th ...\n"
+        summary: "Six hands-on weeks of mosaic, from the ancient origins of the form to a piece of your own."
+        confidence: "high"
+      - id: "education/bristol-folk-house#d11c9834b8"
+        sourceId: "education/bristol-folk-house"
+        title: "Line Dance (Improvers) (BD10)"
+        subcategory: "6 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "6 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "15:45"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/line-dance-improvers-bd10-22046"
+        tags:
+          - "courses"
+          - "dance"
+          - "weekly"
+        raw: "**Line Dance (Improvers)** — 6 Week Course, starts Mon 14 September 2026, at 15:45. Course code: BD10.
+
+
+          This course is for those who have attended some beginners classes, and would like to experience slightly more challenging steps and dances. If you previously attended the beginners class on Mondays he ...\n"
+        summary: "A late-afternoon step up from the beginners' line dance class, with harder steps and dances."
+        confidence: "high"
+      - id: "education/bristol-folk-house#cb7776bcc6"
+        sourceId: "education/bristol-folk-house"
+        title: "Line Dance (Beginners) (BD08)"
+        subcategory: "6 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "6 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "17:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/line-dance-beginners-bd08-22044"
+        tags:
+          - "courses"
+          - "dance"
+          - "beginners"
+        raw: "**Line Dance (Beginners)** — 6 Week Course, starts Mon 14 September 2026, at 17:00. Course code: BD08.
+
+
+          A beginners line dance class for those who would like to learn the basics. Also welcome are those who have line danced in the past but would like a refresher. This is a good introduction to a re-emerg ...\n"
+        summary: "The beginners' line dance course again, this time as an early-evening Monday class."
+        confidence: "high"
+      - id: "education/bristol-folk-house#2efc5776b2"
+        sourceId: "education/bristol-folk-house"
+        title: "Mindful Watercolour Landscapes"
+        subcategory: "6 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "6 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "17:15"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/mindful-watercolour-landscapes-ba23-21976"
+        tags:
+          - "courses"
+          - "painting"
+          - "wellbeing"
+        raw: "**Mindful Watercolour Landscapes** — 6 Week Course, starts Mon 14 September 2026, at 17:15. Course code: BA23.
+
+
+          Join tutor Holly Foskett-Barnes for a tranquil, nature-inspired journey where you'll learn to create landscapes in watercolour. From rolling mountains to starry skies, Holly will guide you through a ...\n"
+        summary: "Six calm weeks painting landscapes in watercolour with Holly Foskett-Barnes, from mountains to starry skies."
+        confidence: "high"
+      - id: "education/bristol-folk-house#64fe901773"
+        sourceId: "education/bristol-folk-house"
+        title: "Stained Glass: Copper Foiling Method"
+        subcategory: "6 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "6 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "17:30"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/stained-glass-copper-foiling-method-bc25-22026"
+        tags:
+          - "courses"
+          - "crafts"
+          - "hands-on"
+        raw: "**Stained Glass: Copper Foiling Method** — 6 Week Course, starts Mon 14 September 2026, at 17:30. Course code: BC25. Tutor: Rebecca O’Farrell.
+
+
+          Make your own Stained Glass Creations: Differing from the Traditional Leaded Window classes, Copper Foiling allows you to create delicate sun catchers and decorative pieces, both 2d and 3d forms are p ...\n"
+        summary: "Copper foiling rather than leading, which lets you make delicate sun catchers and decorative pieces in 2D and 3D."
+        confidence: "high"
+      - id: "education/bristol-folk-house#7b9a52a340"
+        sourceId: "education/bristol-folk-house"
+        title: "Interior Design: Transform your Space"
+        subcategory: "6 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "6 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "17:30"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/interior-design-transform-your-space-bm01-22112"
+        tags:
+          - "courses"
+          - "hands-on"
+        raw: "**Interior Design: Transform your Space** — 6 Week Course, starts Mon 14 September 2026, at 17:30. Course code: BM01.
+
+
+          In this course, students will embark on a captivating journey into the world of Interior design. They will begin by creating their own brief, whether it is for a room or their entire home, and gather ...\n"
+        summary: "Write your own interior design brief — a room or a whole home — then spend six weeks designing to it."
+        confidence: "high"
+      - id: "education/bristol-folk-house#38c738ebff"
+        sourceId: "education/bristol-folk-house"
+        title: "Sew your own Wardrobe (Improvers)"
+        subcategory: "12 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "12 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "17:30"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/sew-your-own-wardrobe-improvers-bc11-22012"
+        tags:
+          - "courses"
+          - "textiles"
+          - "crafts"
+          - "hands-on"
+        raw: "**Sew your own Wardrobe (Improvers)** — 12 Week Course, starts Mon 14 September 2026, at 17:30. Course code: BC11.
+
+
+          Come and make your own clothes. You will learn the art of reading a pattern, cutting, making, stitching and how to get the best from your sewing machine. Previous experience in machine sewing is neede ...\n"
+        summary: "Twelve weeks making your own clothes: reading a pattern, cutting, stitching and getting the best from a machine. Machine-sewing experience needed."
+        confidence: "high"
+      - id: "education/bristol-folk-house#29fb7d1f67"
+        sourceId: "education/bristol-folk-house"
+        title: "French (Beginners Plus)"
+        subcategory: "12 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "12 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "17:45"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/french-beginners-plus-bl02-22087"
+        tags:
+          - "courses"
+          - "languages"
+          - "beginners"
+        raw: "**French (Beginners Plus)** — 12 Week Course, starts Mon 14 September 2026, at 17:45. Course code: BL02.
+
+
+          This course is for learners with prior experience, who have attended the French Beginners Entry course (or a similar basic 'survival' French language course) or would like to refresh previously acquir ...\n"
+        summary: "The step after beginners' French, and a way back in for anyone refreshing what they once had."
+        confidence: "high"
+      - id: "education/bristol-folk-house#fb70ed5556"
+        sourceId: "education/bristol-folk-house"
+        title: "Yoga Flow"
+        subcategory: "6 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "6 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/yoga-flow-bf01-22073"
+        tags:
+          - "courses"
+          - "wellbeing"
+          - "beginners"
+        raw: "**Yoga Flow** — 6 Week Course, starts Mon 14 September 2026, at 18:00. Course code: BF01.
+
+
+          Yoga flow sessions are suitable for all levels, including beginners. In these classes you will be invited to explore the principles and practice of yoga in a fun and explorative way. The practice will ...\n"
+        summary: "Six weeks of all-levels flow yoga, beginners included."
+        confidence: "high"
+      - id: "education/bristol-folk-house#fd41abd21d"
+        sourceId: "education/bristol-folk-house"
+        title: "Spanish (Level 2)"
+        subcategory: "12 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "12 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/spanish-level-2-bl25-22110"
+        tags:
+          - "courses"
+          - "languages"
+        raw: "**Spanish (Level 2)** — 12 Week Course, starts Mon 14 September 2026, at 18:00. Course code: BL25.
+
+
+          Spanish level 2 is for students who have completed beginners and beginners plus and level 1 or studied the equivalent elsewhere, at least 2 years, and a good grounding and some confidence to chat. If ...\n"
+        summary: "Spanish for people who have finished level 1 or have a couple of years and some confidence chatting."
+        confidence: "high"
+      - id: "education/bristol-folk-house#462d81dcf1"
+        sourceId: "education/bristol-folk-house"
+        title: "Pottery (Improvers) (BP06)"
+        subcategory: "12 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "12 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/pottery-improvers-bp06-22122"
+        tags:
+          - "courses"
+          - "crafts"
+          - "hands-on"
+        raw: "**Pottery (Improvers)** — 12 Week Course, starts Mon 14 September 2026, at 18:00. Course code: BP06.
+
+
+          This course is suitable for you if you have experience of making in clay and an understanding of basic ceramic processes. You will be able to continue making progress on the potter's wheel and/or in h ...\n"
+        summary: "The improvers' pottery course as a Monday evening class, on the wheel or hand-building."
+        confidence: "high"
+      - id: "education/bristol-folk-house#ad86d62f3b"
+        sourceId: "education/bristol-folk-house"
+        title: "Line Dance (Improvers) (BD12)"
+        subcategory: "6 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "6 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/line-dance-improvers-bd12-22048"
+        tags:
+          - "courses"
+          - "dance"
+          - "weekly"
+        raw: "**Line Dance (Improvers)** — 6 Week Course, starts Mon 14 September 2026, at 19:30. Course code: BD12.
+
+
+          This course is for those who have attended some beginners classes, and would like to experience slightly more challenging steps and dances. If you previously attended the beginners class on Mondays he ...\n"
+        summary: "The improvers' line dance course as a Monday evening class."
+        confidence: "high"
+      - id: "education/bristol-folk-house#a8a22bf209"
+        sourceId: "education/bristol-folk-house"
+        title: "French (Level 1)"
+        subcategory: "12 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "12 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/french-level-1-bl03-22088"
+        tags:
+          - "courses"
+          - "languages"
+        raw: "**French (Level 1)** — 12 Week Course, starts Mon 14 September 2026, at 19:30. Course code: BL03.
+
+
+          This level is suitable for learners who have completed the Beginners Entry and Beginners Plus courses or have studied French to some extent in the past, whether at school or on courses elsewhere, and ...\n"
+        summary: "French for anyone who has done Beginners Entry and Beginners Plus, or studied it at school a while ago."
+        confidence: "high"
+      - id: "education/bristol-folk-house#eb9681a659"
+        sourceId: "education/bristol-folk-house"
+        title: "Letting go with Autumn Watercolours"
+        subcategory: "6 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "6 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/letting-go-with-autumn-watercolours-ba24-21977"
+        tags:
+          - "courses"
+          - "painting"
+          - "nature"
+          - "seasonal"
+        raw: "**Letting go with Autumn Watercolours** — 6 Week Course, starts Mon 14 September 2026, at 19:30. Course code: BA24.
+
+
+          Step into a season of creativity and calm with tutor Holly Foskett-Barnes in this nature-inspired art course. You'll explore a new botanical subject every week, growing your artistic confidence, wate ...\n"
+        summary: "A new botanical subject in watercolour every week with Holly Foskett-Barnes, as the season turns."
+        confidence: "high"
+      - id: "education/bristol-folk-house#4f5654c90d"
+        sourceId: "education/bristol-folk-house"
+        title: "Spanish (Level 1)"
+        subcategory: "12 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "12 Week Course, Mondays from 14 September 2026"
+          start: "2026-09-14"
+          startTime: "19:45"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/spanish-level-1-bl23-22108"
+        tags:
+          - "courses"
+          - "languages"
+        raw: "**Spanish (Level 1)** — 12 Week Course, starts Mon 14 September 2026, at 19:45. Course code: BL23. Tutor: Rebecca O’Farrell.
+
+
+          This level is for students who have completed Beginners Plus or studied the equivalent elsewhere. If you are unsure of your level we strongly recommend that you check with the tutor before enrolling, ...\n"
+        summary: "Spanish for people who have completed Beginners Plus; the tutor would rather check your level before you enrol."
+        confidence: "high"
+      - id: "education/bristol-folk-house#c851e94f40"
+        sourceId: "education/bristol-folk-house"
+        title: "Drop in and Draw - Weekly Life Drawing"
+        subcategory: "12 Week Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "12 Week Course, Fridays from 17 July 2026"
+          start: "2026-07-17"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://www.bristolfolkhouse.co.uk/courses/drop-in-and-draw-weekly-life-drawing-dd-22298"
+        tags:
+          - "drop-in"
+          - "drawing"
+          - "weekly"
+          - "hands-on"
+        raw: "**Drop in and Draw - Weekly Life Drawing** — 12 Week Course, starts Fri 17 July 2026, at 10:00. Course code: DD.
+
+
+          Bookings are now open. Untutored. The deep concentration of Life Drawing from the nude model in a small group of artists of any experience. Easels, tables and drawing boards supplied but bring ...\n"
+        summary: "An untutored weekly life-drawing session from a nude model, open to any level of experience; easels, tables and boards are supplied. Under way since July and running to the end of the twelve weeks."
+        confidence: "high"
+      - id: "education/bristol-folk-house#bb4ede5598"
+        sourceId: "education/bristol-folk-house"
+        title: "The Folk House Choir"
+        subcategory: "1 Day Course"
+        occurrence:
+          kind: "recurring"
+          pattern: "Tuesday evenings 7.00 pm - 9.00pm. Autumn Term 1: 15th September to 20th October; Term 2: 3rd November to 8th December"
+          start: "2026-09-15"
+          end: "2026-12-08"
+          startTime: "19:00"
+        status: "scheduled"
+        timesText: "Rehearsal times: Tuesday evenings 7.00 pm - 9.00pm"
+        url: "https://www.bristolfolkhouse.co.uk/courses/the-folk-house-choir-d-15671"
+        price:
+          free: false
+          text: "£7 per session (reduces to £6.50 per session if you block book more than 4 sessions)"
+          min: 6.5
+          max: 7
+          currency: "GBP"
+        tags:
+          - "folk"
+          - "community"
+          - "beginners"
+          - "weekly"
+        raw: "**The Folk House Choir** — Day: Tuesday. Time: 19:00 to 21:00. Course code: D. Tutor: Nonny Tabbush.
+
+
+          Full fee: £7.00 | Over 65s: £7.00 | Benefit: £7.00
+
+
+          Rehearsal times: Tuesday evenings 7.00 pm - 9.00pm. Term dates: Autumn Term: Term 1: 15th September to 20th October; Term 2: 3rd November to 8th December.\n"
+        summary: "A no-audition community choir that learns folk, world and contemporary songs by ear, so there is no need to read music. Tuesday evenings in the Hall, across two autumn terms, conducted by folk singer Nonny Tabbush."
+        description: "Rehearsal times: Tuesday evenings 7.00 pm - 9.00pm
+
+
+          Term dates:
+
+
+          Autumn Term:
+
+
+          Term 1: 15th September to 20th October
+
+
+          Term 2: 3rd November to 8th December
+
+
+          Please ask to join the WhatsApp group on your first session to find out up-to-date information.
+
+
+          For all enquiries please email: admin@bristolfolkhouse.co.uk
+
+
+          Price: £7 per session (reduces to £6.50 per session if you block book more than 4 sessions)
+
+
+          A friendly choir based in the heart of Bristol. We learn songs by ear, so there's no need to read music. We don't hold auditions - come along, have a go, and give it a try. Singing in a choir is one of the simplest ways to feel good.
+
+
+          The choir will cover a wide variety of folk songs, as well as some world and contemporary music. This choir is happy and fun-loving, our aim is to create a sense of community and a love of singing.
+
+
+          If you fancy giving it a go, meeting some friendly people, and having a good sing then do come along. We meet at the Bristol Folk House in the Hall. The choir is conducted by Nonny Tabbush, a folk singer and choral practitioner. Nonny is a fun and lively choir conductor who has experience working with singers of all ages. She has started and run several community choirs, singing a range of materials including folk, world, and contemporary. She also works as a vocal practitioner for Bristol Plays Music, teaching songs in primary and secondary schools and she currently runs the Glox Vox choir in Bristol too.
+
+
+          Nonny is also an experienced performer, she started her career in vocal harmony when she was 16 years old, as one of The Tabbush Sisters, who performed at folk festivals across the country. She is now in a ceilidh band called The Bristol Ceilidh Quartet.\n"
+        confidence: "high"
+    notes: "**Route.** The catalogued /courses-and-workshops is a category landing page wrapped around a search form, not a listings page: it prints category, duration, month, subcategory, day, time-of-day and tutor selects and no course rows at all. The form GETs https://www.bristolfolkhouse.co.uk/results. Bare /results returns 500; /results with every filter present but empty returns 200 and the whole prospectus, ordered by start date, ten to a page — \"We found 356 courses for you\". One-off workshops have their own route, https://www.bristolfolkhouse.co.uk/one-day-workshops?course_week=0, also date-ordered and ten to a page. Both are handovers for stage 1: the catalogued URL is a landing page, and these two result routes are what a harvest actually needs. `fetch.url` records the all-courses route as the one this observation is anchored on.
+
+
+      **Declared partial.** 356 courses is far more than belongs on a city listings site, so this is a deliberate slice of 64: all 35 one-off workshops starting between today and Sunday 27 September 2026 (pages 1-4 of the one-day route); the 27 term courses of the Monday 14 September autumn-term cohort (pages 1-4 of the all-courses route); and two standing weekly things, the Folk House Choir and Drop in and Draw. Not read: pages 5 onward of the one-day route, which continue into October, and pages 5 onward of the all-courses route, which continue into the Tuesday-to-Sunday classes of the same autumn term. The slice is therefore honest about dates but skewed by weekday for term courses — every Monday class and no Tuesday one.
+
+
+      **Courses are not expanded.** Each term course is a single `recurring` event with the length and start in the source's own words (\"6 Week Course, Mondays from 14 September 2026\") and never one row per class. `end` is omitted because the index prints a start and a duration but no end date, and deriving one would be inventing it.
+
+
+      **Past rows dropped rather than undated.** Eight one-day workshops between 6 and 14 August have been and gone, as have \"Writing for All Course (Online)\" (3 weeks from 21 July) and \"I Wish I Could Paint (In Acrylics)\" (3 weeks from 3 August, whose last of three sessions falls today); none is recorded, since a past start is not what `undated` is for. \"Drop in and Draw\" is recorded despite a July start because it is a twelve-week weekly drop-in still running.
+
+
+      **Id collisions.** Three titles recur inside the 14 September cohort as separate classes at different times — Pottery (Improvers) at 10:00 and 18:00, Line Dance (Beginners) at 12:00 and 17:00, Line Dance (Improvers) at 15:45 and 19:30. Event ids hash source, title and anchor date, so each pair would collide. The source's own printed course code is appended in brackets to those six titles and to no others.
+
+
+      **Prices and images.** The result cards carry no fee and no thumbnail, so `price` and `image` are omitted rather than guessed. Detail pages do print fees (\"Full fee: £7.00 | Over 65s: £7.00 | Benefit: £7.00\"), but that is 63 further fetches for one field. Exactly one event page was opened: The Folk House Choir, because the one-day route files it as a \"1 Day Course\" when it is nothing of the kind — a weekly Tuesday-evening choir across two autumn terms — and the pattern and price had to come from the page. It is the only row here with a `description`.
+
+
+      **Dates.** The all-courses route prints weekdays (\"Fri 17 July 2026\", \"Mon 14 September 2026\") and both check out against the calendar; the one-day route prints the year but no weekday. No year was inferred anywhere, so every row is `confidence: high`.
+
+
+      **New tags.** Four coined, because nothing in Bristol's existing vocabulary covered what an adult-education prospectus mostly is: `creative-writing`, `languages`, `painting` and `drawing`. `new-writing` already exists but is in use for new plays in theatre.yaml, and `courses` is kept for term-length courses while `workshop` marks the one-off days.
+
+
+      The hints' note that /feed/ serves the HTML page rather than RSS was taken on trust and not re-tested."
+  - sourceId: "education/wea-bristol"
+    fetch:
+      ok: true
+      url: "https://www.wea.org.uk/courses?location%5Bvalue%5D=Bristol&location%5Bdistance%5D%5Bfrom%5D=10"
+      status: 200
+    events:
+      - id: "education/wea-bristol#d23d079f20"
+        sourceId: "education/wea-bristol"
+        title: "Award in ESOL Skills for Life (Speaking and Listening) Entry 1"
+        subcategory: "ESOL"
+        occurrence:
+          kind: "recurring"
+          pattern: "39 sessions, Mon 07/09/2026 - Wed 16/12/2026, 9:30am - 12:00pm"
+          start: "2026-09-07"
+          end: "2026-12-16"
+          startTime: "09:30"
+        status: "sold-out"
+        timesText: "9:30am - 12:00pm"
+        venue:
+          name: "WEA York Court (Bristol)"
+          address:
+            street: "7 York Court, Wilder Street"
+            city: "Bristol"
+            postcode: "BS2 8QH"
+        url: "https://www.wea.org.uk/courses/esol/7-september-award-esol-skills-life-speaking-and-listening-entry-1"
+        price:
+          free: false
+          text: "Funding available - £780.00"
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "languages"
+          - "beginners"
+          - "community"
+        raw: "**Award in ESOL Skills for Life (Speaking and Listening) Entry 1**
+
+
+          This course is funded by the West of England Combined Authority and is only available to residents living within the West of England Combined Authority area.
+
+
+          Learn basic communication skills with this ESOL speaking and listening course. This English course is for speakers of other languages. It will help you learn essential speaking and listening skills to be able to communicate in English.
+
+
+          Entry 1 ESOL courses help people who are just starting to learn English. This course will help you gain confidence to speak about basic topics and understand core words. There are also reading and writing courses at this level.
+
+
+          Dates: Mon 07/09/2026 - Wed 16/12/2026. Times: 9:30am - 12:00pm. Duration: 39 sessions. Location: WEA York Court (Bristol), 7 York Court, Wilder Street, Bristol BS2 8QH. Tutor: Sasha Novikova. Course code: Q00026411. How you'll learn: In venue. Availability: 0 places remaining. Status: Waiting list. Fee range: Funding available - £780.00.\n"
+        summary: "The first rung of the WEA's ESOL speaking and listening award, for people just starting to learn English. Monday to Wednesday mornings at York Court from September to mid-December; currently full, with a waiting list."
+        confidence: "high"
+      - id: "education/wea-bristol#9d956ede40"
+        sourceId: "education/wea-bristol"
+        title: "Award in ESOL Skills for Life (Speaking and Listening) Entry 2 (Q00026415)"
+        subcategory: "ESOL"
+        occurrence:
+          kind: "recurring"
+          pattern: "39 sessions, Tue 08/09/2026 - Thu 17/12/2026, 6:00pm - 8:30pm"
+          start: "2026-09-08"
+          end: "2026-12-17"
+          startTime: "18:00"
+        status: "scheduled"
+        timesText: "6:00pm - 8:30pm"
+        venue:
+          name: "WEA York Court (Bristol)"
+          address:
+            street: "7 York Court, Wilder Street"
+            city: "Bristol"
+            postcode: "BS2 8QH"
+        url: "https://www.wea.org.uk/courses/esol/8-september-award-esol-skills-life-speaking-and-listening-entry-2-0"
+        price:
+          free: false
+          text: "Funding available - £780.00"
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "languages"
+          - "beginners"
+          - "community"
+        raw: "**Award in ESOL Skills for Life (Speaking and Listening) Entry 2**
+
+
+          This course is funded by the West of England Combined Authority and is only available to residents living within the West of England Combined Authority area.
+
+
+          Build on your communication skills with this ESOL speaking and listening course. This English course for adults is aimed at speakers of other languages. It will help you improve your speaking and listening skills to communicate better in English.
+
+
+          Entry 2 ESOL courses are right for you if you have basic speaking and listening skills in English. This course will help you gain confidence to speak about everyday topics and improve your comprehension. There are also reading and writing courses at this level.
+
+
+          Dates: Tue 08/09/2026 - Thu 17/12/2026. Times: 6:00pm - 8:30pm. Duration: 39 sessions. Location: WEA York Court (Bristol), 7 York Court, Wilder Street, Bristol BS2 8QH. Tutor: TBC T.B.C. Course code: Q00026415. How you'll learn: In venue. Availability: 7 places remaining. Status: Available. Fee range: Funding available - £780.00.\n"
+        summary: "The evening cohort of the ESOL Entry 2 speaking and listening award, for learners who already have the basics and want to hold everyday conversations. Autumn term at York Court."
+        confidence: "high"
+      - id: "education/wea-bristol#10977d82c6"
+        sourceId: "education/wea-bristol"
+        title: "Award in ESOL Skills for Life (Speaking and Listening) Level 1"
+        subcategory: "ESOL"
+        occurrence:
+          kind: "recurring"
+          pattern: "39 sessions, Tue 08/09/2026 - Thu 17/12/2026, 12:30pm - 3:00pm"
+          start: "2026-09-08"
+          end: "2026-12-17"
+          startTime: "12:30"
+        status: "scheduled"
+        timesText: "12:30pm - 3:00pm"
+        venue:
+          name: "WEA York Court (Bristol)"
+          address:
+            street: "7 York Court, Wilder Street"
+            city: "Bristol"
+            postcode: "BS2 8QH"
+        url: "https://www.wea.org.uk/courses/esol/8-september-award-esol-skills-life-speaking-and-listening-level-1"
+        price:
+          free: false
+          text: "Funding available - £780.00"
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "languages"
+          - "community"
+        raw: "**Award in ESOL Skills for Life (Speaking and Listening) Level 1**
+
+
+          This course is funded by the West of England Combined Authority and is only available to residents living within the West of England Combined Authority area.
+
+
+          Develop confidence to interact with others in English, no matter the situation. This ESOL course teaches you skills to help you communicate verbally in English. It can support you in job interviews, social conversations, or in your studies.
+
+
+          This ESOL level 1 speaking and listening course builds on skills you learnt at entry 3. Gain tools to help you in conversations and sharpen your listening skills.
+
+
+          Dates: Tue 08/09/2026 - Thu 17/12/2026. Times: 12:30pm - 3:00pm. Duration: 39 sessions. Location: WEA York Court (Bristol), 7 York Court, Wilder Street, Bristol BS2 8QH. Tutor: Sasha Novikova. Course code: Q00026422. How you'll learn: In venue. Availability: 3 places remaining. Status: Available. Fee range: Funding available - £780.00.\n"
+        summary: "The highest ESOL speaking and listening level the WEA runs in Bristol this term, aimed at job interviews, study and everyday conversation. Early afternoons at York Court."
+        confidence: "high"
+      - id: "education/wea-bristol#7b739a22fa"
+        sourceId: "education/wea-bristol"
+        title: "Award in ESOL Skills for Life (Speaking and Listening) Entry 2 (Q00026414)"
+        subcategory: "ESOL"
+        occurrence:
+          kind: "recurring"
+          pattern: "39 sessions, Tue 08/09/2026 - Thu 17/12/2026, 9:30am - 12:00pm"
+          start: "2026-09-08"
+          end: "2026-12-17"
+          startTime: "09:30"
+        status: "sold-out"
+        timesText: "9:30am - 12:00pm"
+        venue:
+          name: "WEA York Court (Bristol)"
+          address:
+            street: "7 York Court, Wilder Street"
+            city: "Bristol"
+            postcode: "BS2 8QH"
+        url: "https://www.wea.org.uk/courses/esol/8-september-award-esol-skills-life-speaking-and-listening-entry-2"
+        price:
+          free: false
+          text: "Funding available - £780.00"
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "languages"
+          - "beginners"
+          - "community"
+        raw: "**Award in ESOL Skills for Life (Speaking and Listening) Entry 2**
+
+
+          This course is funded by the West of England Combined Authority and is only available to residents living within the West of England Combined Authority area.
+
+
+          Build on your communication skills with this ESOL speaking and listening course. This English course for adults is aimed at speakers of other languages. It will help you improve your speaking and listening skills to communicate better in English.
+
+
+          Entry 2 ESOL courses are right for you if you have basic speaking and listening skills in English. This course will help you gain confidence to speak about everyday topics and improve your comprehension. There are also reading and writing courses at this level.
+
+
+          Dates: Tue 08/09/2026 - Thu 17/12/2026. Times: 9:30am - 12:00pm. Duration: 39 sessions. Location: WEA York Court (Bristol), 7 York Court, Wilder Street, Bristol BS2 8QH. Tutor: Taona Makunde. Course code: Q00026414. How you'll learn: In venue. Availability: 0 places remaining. Status: Waiting list. Fee range: Funding available - £780.00.\n"
+        summary: "The morning cohort of the ESOL Entry 2 speaking and listening award at York Court; full for the autumn term, with a waiting list."
+        confidence: "high"
+      - id: "education/wea-bristol#e99d3a1134"
+        sourceId: "education/wea-bristol"
+        title: "Award in ESOL Skills for Life (Speaking and Listening) Entry 1"
+        subcategory: "ESOL"
+        occurrence:
+          kind: "recurring"
+          pattern: "39 sessions, Tue 08/09/2026 - Thu 17/12/2026, 12:30pm - 3:00pm"
+          start: "2026-09-08"
+          end: "2026-12-17"
+          startTime: "12:30"
+        status: "scheduled"
+        timesText: "12:30pm - 3:00pm"
+        venue:
+          name: "WEA York Court (Bristol)"
+          address:
+            street: "7 York Court, Wilder Street"
+            city: "Bristol"
+            postcode: "BS2 8QH"
+        url: "https://www.wea.org.uk/courses/esol/8-september-award-esol-skills-life-speaking-and-listening-entry-1"
+        price:
+          free: false
+          text: "Funding available - £780.00"
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "languages"
+          - "beginners"
+          - "community"
+        raw: "**Award in ESOL Skills for Life (Speaking and Listening) Entry 1**
+
+
+          This course is funded by the West of England Combined Authority and is only available to residents living within the West of England Combined Authority area.
+
+
+          Learn basic communication skills with this ESOL speaking and listening course. This English course is for speakers of other languages. It will help you learn essential speaking and listening skills to be able to communicate in English.
+
+
+          Entry 1 ESOL courses help people who are just starting to learn English. This course will help you gain confidence to speak about basic topics and understand core words. There are also reading and writing courses at this level.
+
+
+          Dates: Tue 08/09/2026 - Thu 17/12/2026. Times: 12:30pm - 3:00pm. Duration: 39 sessions. Location: WEA York Court (Bristol), 7 York Court, Wilder Street, Bristol BS2 8QH. Tutor: TBC T.B.C. Course code: Q00026413. How you'll learn: In venue. Availability: 9 places remaining. Status: Available. Fee range: Funding available - £780.00.\n"
+        summary: "An afternoon cohort of the ESOL Entry 1 speaking and listening award, for people at the very start of learning English. The one with most places left this term."
+        confidence: "high"
+      - id: "education/wea-bristol#4e02811f40"
+        sourceId: "education/wea-bristol"
+        title: "Award in ESOL Skills for Life (Speaking and Listening) Entry 3"
+        subcategory: "ESOL"
+        occurrence:
+          kind: "recurring"
+          pattern: "38 sessions, Thu 10/09/2026 - Fri 18/12/2026, 12:30pm - 3:00pm"
+          start: "2026-09-10"
+          end: "2026-12-18"
+          startTime: "12:30"
+        status: "scheduled"
+        timesText: "12:30pm - 3:00pm"
+        venue:
+          name: "WEA York Court (Bristol)"
+          address:
+            street: "7 York Court, Wilder Street"
+            city: "Bristol"
+            postcode: "BS2 8QH"
+        url: "https://www.wea.org.uk/courses/esol/10-september-award-esol-skills-life-speaking-and-listening-entry-3-0"
+        price:
+          free: false
+          text: "Funding available - £780.00"
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "languages"
+          - "beginners"
+          - "community"
+        raw: "**Award in ESOL Skills for Life (Speaking and Listening) Entry 3**
+
+
+          This course is funded by the West of England Combined Authority and is only available to residents living within the West of England Combined Authority area.
+
+
+          Take your speaking and listening skills to the next level with this ESOL course. Improving your communication skills will make you feel more confident interacting with others in the UK.
+
+
+          ESOL entry 3 courses build on skills you learnt at entry 2. Gain confidence speaking in new and familiar situations and learn tools for effective communication.
+
+
+          Dates: Thu 10/09/2026 - Fri 18/12/2026. Times: 12:30pm - 3:00pm. Duration: 38 sessions. Location: WEA York Court (Bristol), 7 York Court, Wilder Street, Bristol BS2 8QH. Tutor: Sasha Novikova. Course code: Q00026416. How you'll learn: In venue. Availability: 7 places remaining. Status: Available. Fee range: Funding available - £780.00.\n"
+        summary: "ESOL Entry 3 speaking and listening, building on Entry 2 towards confidence in unfamiliar situations. Afternoons at York Court, 38 sessions to mid-December."
+        confidence: "high"
+    notes: "The catalogued filtered URL works and the location filter is load-bearing exactly as the hints say — kept percent-encoded and untouched. It returns \"Displaying 1 - 6 of 6\" with no pagination, so this is the complete Bristol result set and all six are recorded. Nothing had to be dropped for the ten-mile radius being wider than this location: every row is in Bristol.
+
+
+      **One hint is wrong.** All six courses run at \"WEA York Court (Bristol)\", 7 York Court, Wilder Street, Bristol BS2 8QH — the WEA does have a building here, rather than only borrowed halls, libraries and church rooms. `venue` is still set on every event, because the source is a national organiser and §6 wants the venue whenever it differs from the source, but it is set to the WEA's own centre. Worth correcting so a later run does not go hunting for community-hall names that are not there.
+
+
+      **What is actually on.** The whole Bristol programme is one qualification: the Award in ESOL Skills for Life (Speaking and Listening), across six cohorts of four levels — Entry 1 twice, Entry 2 twice, Entry 3 once, Level 1 once — at different times of day. There is no arts, crafts or humanities provision in Bristol this term. That is a real result and not a truncation.
+
+
+      Each is a term course of 38 or 39 sessions between early September and mid-December, so each is one `recurring` event carrying the source's own date range and session count, never one row per class. Both Entry 2 cohorts start on 2026-09-08 under an identical printed title and would collide on id, so the WEA's printed course code is appended to those two titles only.
+
+
+      `status` follows the page rather than inference: the two cohorts showing \"0 places remaining\" and \"Status: Waiting list\" are recorded `sold-out`, the other four `scheduled`. Fee is printed only as \"Funding available - £780.00\", kept verbatim in `price.text` with `free: false` and no min or max, since what a learner pays turns on funding the page does not resolve. Every card also carries \"This course is funded by the West of England Combined Authority and is only available to residents living within the West of England Combined Authority area\" — an eligibility restriction rather than a location one, kept in `raw`.
+
+
+      No detail pages were opened, so there is no `description`; the index carries each course's full blurb untruncated and that is what `raw` holds. Dates print day-first as the hints record, and every printed weekday checks out (Mon 07/09, Tue 08/09, Thu 10/09, Wed 16/12, Thu 17/12, Fri 18/12), so no year or day was inferred. The `languages` tag is one of four coined in this category's run."
+  - sourceId: "education/university-of-bristol"
+    fetch:
+      ok: true
+      url: "https://www.bristol.ac.uk/events/"
+      status: 200
+    events: []
+    notes: "Fetched the catalogued URL, 200, and it confirms the catalogue rather than adding to it. The page is a shell: under the heading \"Forthcoming events\" it prints \"If no events appear, you need to update your cookie preferences\" and nothing else. The body holds six references to time.ly and the calendar key s4f7hatq and carries no event data of any kind. Recorded `ok: true` with an empty `events` list, because the page genuinely answered — this is not a failed fetch, and it is not \"the venue has nothing on\" either. The University does have a public programme; it is behind a cookie-gated Timely widget, and reading it needs a JS-capable fetcher or the API token the embed script mints.
+
+
+      Two fetches only, per the brief. No alternative paths were tried, since the catalogue notes already record /university/for-bristol/events/ and /public-engagement/ as prose hubs and the per-department pages as too fragmented to catalogue as one source. One thing to add to that list: /university/150-years/events/, linked from the alumni page as the home of a Saturday 10 October public programme, also returns 200 with an entirely empty body — navigation and footer, no content, and not even a Timely embed. `education/university-of-bristol-alumni` remains the only readable half of this institution."

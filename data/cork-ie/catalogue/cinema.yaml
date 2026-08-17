@@ -1,0 +1,477 @@
+schema: whazzon.catalogue/1
+category: cinema
+label: Cinema
+description: Cork's multiplexes, its arthouse and independent screens, and the film societies and arts-centre cinemas that programme world cinema between festivals.
+sources:
+  - id: cinema/omniplex-mahon-point
+    name: Omniplex Cork — Mahon Point
+    category: cinema
+    kind: venue
+    status: provisional
+    url: https://www.omniplex.ie/cinema/showtimes/cork
+    homepage: https://www.omniplex.ie/
+    area: Mahon
+    address:
+      street: 1 Mahon Point Shopping Centre
+      locality: Mahon
+      city: Cork
+    tags: [multiplex, commercial, mainstream]
+    cadence: daily
+    hints: |
+      Thirteen screens, the largest cinema in the city, and the only Omniplex
+      within reach of Cork — the chain has no second Cork site. Showtimes are
+      server-rendered, so a plain fetch does return dated screenings, but only
+      for today: the seven date buttons across the top are a POST form
+      (`filterDate` on `searchFilterForm`), not links, and `?date=YYYY-MM-DD`
+      is ignored. Harvest daily rather than trying to reach forward. The
+      OmniplexMAXX screen and the chain-wide /cinema/events strand (opera,
+      concerts, sport, anime) are the parts worth capturing over the fiftieth
+      showing of a blockbuster. Per-film pages are /cinema/movie/cork/<slug>.
+    notes: >-
+      Verified 2026-08-17: page reads "Omniplex Cinema Cork", "a 13-screen
+      cinema in Cork", and prints "1 Mahon Point Shopping Centre, Mahon, Co
+      Cork" — identity, area and URL all agree. No eircode on the page, so none
+      recorded. Their own map link carries query=-8.3962,51.8859 with lat and
+      lon transposed; the site is at 51.8859, -8.3962 if a curator wants to fill
+      in a geocode. No JSON showtimes endpoint exists — the only API on the page
+      is /api/internalapi/?action=addRating|getEventName|setLatLon, none of which
+      returns a schedule.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: cinema/arc-cinema-cork
+    name: The Arc Cinema Cork
+    category: cinema
+    kind: venue
+    status: provisional
+    url:
+      - role: listings
+        url: https://cork.arccinema.ie/whatson
+        note: today's showtimes across all screens; one fetch is one day
+      - role: listings
+        url: https://cork.arccinema.ie/whatson/gate
+        note: the GATE Screen arthouse strand, dated weeks ahead — 23 distinct dates out to late September on a single fetch
+    homepage: https://cork.arccinema.ie/
+    area: City Centre
+    address:
+      street: North Main Street
+      city: Cork
+      postcode: T12 KN88
+    tags: [multiplex, commercial, mainstream, arthouse]
+    cadence: daily
+    hints: |
+      Six screens on North Main Street, and the city centre's only commercial
+      cinema. The listings live at /whatson — note the spelling, /whats-on
+      silently serves the homepage, as does any unknown path, so a 200 here is
+      not evidence a path exists. Compare byte sizes rather than status codes.
+      Two things make this source unusually worthwhile. Screen 5/6 trades as the
+      **GATE Screen**, the arthouse, festival and world-cinema strand inherited
+      from the Gate Cinema, and its page carries dates far further forward than
+      the main listing. And Cork International Film Festival runs its monthly
+      **CIFF Selects Cine Club** here on the last Wednesday of the month, with a
+      programmer's introduction — those screenings, and the festival's own
+      November programme, appear in these listings; leave the festival record
+      itself to the festivals catalogue and set `venue.sourceId` to this entry.
+      Also carries plenty of event cinema: NT Live, Royal Ballet and Opera,
+      Exhibition on Screen, and re-release seasons ("Back to the 80s").
+      One wart: /whatson/gate leaks a PHP `var_dump` of each performance object
+      into the page body after every showtime. It is noise, but it is also the
+      cleanest place to read `hall`, `soldout`, `subtitled` and the unix `time`.
+    notes: >-
+      Verified 2026-08-17: /cinema-info reads "ADDRESS: North Main Street,
+      Centre, Cork, T12 KN88" and the pricing tables list HYPERSENSE and GATE
+      SCREEN tiers, so identity, area and both routes agree. This is the former
+      Gate Cinema under new ownership — see cinema/gate-cinema. No JSON endpoint:
+      the page ships jQuery and a date-picker widget and nothing else, and the
+      basket links to gatecork.admit-one.eu, which 302s straight back to
+      cork.arccinema.ie, so there is no separate booking route to record.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: cinema/triskel-christchurch
+    name: Triskel Christchurch
+    category: cinema
+    kind: venue
+    status: provisional
+    url: https://triskelartscentre.ie/cinema/
+    homepage: https://triskelartscentre.ie/
+    area: City Centre
+    address:
+      street: Tobin Street
+      city: Cork
+    tags: [independent, arthouse, cultural-cinema]
+    cadence: weekly
+    hints: |
+      Cork's arthouse cinema, and the reason the city has year-round world
+      cinema at all: a single screen inside a deconsecrated church, with the
+      original pews, at the heart of Triskel Arts Centre. /cinema/ is the
+      film-only view and is the right route for this category; /whats-on/ is the
+      whole arts-centre programme and is mostly classical, jazz and visual art.
+      Programming is curated seasons and one-off screenings rather than runs, so
+      capture the individual screening date — do not assume a film showing on
+      Saturday is on all week. Named strands recur ("The Fantastical Cinema of
+      Tim Burton", anniversary presentations, Artists Film International), and
+      Cork International Film Festival and the Cork French Film Festival both
+      use this room, so festival titles will appear here; set `venue.sourceId`
+      to this entry and leave the festivals themselves to that catalogue.
+    notes: >-
+      Verified 2026-08-17: /cinema/ lists dated screenings (Edward Scissorhands
+      Sat 22 Aug, Batman Returns Sat 29 Aug, Shoot The People Sun 30 Aug – Wed
+      2 Sep) and the footer reads "Triskel Arts Centre, Tobin St., Cork City,
+      Phone: 021 427 2022" — page, URL and content agree. WordPress, but there
+      is nothing structured to reach: /feed/ 500s, Tribe Events is not installed
+      (both /wp-json/tribe/... and ?rest_route=... 404), and /wp-json/wp/v2/types
+      exposes only posts and pages, so the events are a private post type.
+      Booking is triskelarts.ticketsolve.com, which is a JavaScript shell —
+      every path, including .json and /api/ variants, returns the same 29 KB
+      "Your browser doesn't support JavaScript" page, so it is deliberately not
+      recorded as a route. No eircode is published on the site.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: cinema/reel-picture-blackpool
+    name: The Reel Picture Blackpool
+    category: cinema
+    kind: venue
+    status: provisional
+    url: https://blackpool.thereelpicture.com/whatson
+    homepage: https://blackpool.thereelpicture.com/
+    area: Blackpool
+    address:
+      street: Blackpool Retail Park
+      locality: Blackpool
+      city: Cork
+      postcode: T23 RYN3
+    tags: [multiplex, commercial, mainstream]
+    cadence: daily
+    hints: |
+      The nearest multiplex to the north side, in Blackpool Retail Park. Owned
+      and operated by IMC Cinemas, whose own site calls it "Blackpool Cinema" —
+      expect that name in aggregator data. Listings are at /whatson and are
+      server-rendered with times; a single fetch reaches roughly a week ahead.
+      Sibling views worth knowing: /whatson/pure (the premium PURE screen),
+      /whatson/kidskorner, /whatson/autismfriendly and /whatson/hardofhearing —
+      the accessible and sensory screenings are the part a listings site adds
+      most value on. Unknown paths fall back to the homepage rather than 404, so
+      check the page title before trusting a 200. There is no contact or
+      cinema-info page on the domain at all.
+    notes: >-
+      Verified 2026-08-17: /whatson is titled "What's On | The Reel Picture
+      Blackpool" and carries today's times plus dates to Sun 23 Aug, distinct
+      from the Ballincollig site, so this is genuinely a per-cinema subdomain
+      and not wildcard DNS (an invented subdomain does not resolve). Address and
+      eircode come from IMC's own location page at imc.ie/location/blackpool/,
+      "Blackpool Retail Park, Blackpool, Co. Cork T23 RYN3", not from the
+      cinema's own site, which publishes no address; a stale third-party
+      directory gives "123 Commons Road, T23 X8E2" instead, so the eircode is
+      worth one human glance. CinemaTimes lists "The Reel Picture Blackpool" and
+      "Blackpool Cinema" as two separate cinemas 300 m apart — they are the same
+      building, confirmed by IMC's locations page linking Blackpool straight to
+      blackpool.thereelpicture.com.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: cinema/reel-picture-ballincollig
+    name: The Reel Picture Ballincollig
+    category: cinema
+    kind: venue
+    status: provisional
+    url: https://ballincollig.thereelpicture.com/whatson
+    homepage: https://ballincollig.thereelpicture.com/
+    area: Ballincollig
+    address:
+      street: Time Square
+      locality: Ballincollig
+      city: Cork
+      postcode: P31 AE20
+    tags: [multiplex, commercial, mainstream, out-of-town]
+    cadence: daily
+    hints: |
+      The western suburban multiplex, IMC-owned like its Blackpool sibling and
+      on the same platform: listings at /whatson, server-rendered with times,
+      with /whatson/pure, /whatson/kidskorner, /whatson/autismfriendly and
+      /whatson/hardofhearing as filtered views. Unknown paths serve the homepage
+      rather than 404. Programme is mainstream first-run; the accessible and
+      Kids Korner screenings are the distinctive part.
+    notes: >-
+      Verified 2026-08-17: /whatson is titled "What's On | The Reel Picture
+      Ballincollig" and its programme differs from Blackpool's, so the two
+      subdomains are genuinely separate cinemas. Address from IMC's own
+      imc.ie/location/ballincollig/, "Time Square Ballincollig, Co. Cork P31
+      AE20"; the cinema's own site publishes no address. About 8 km west of the
+      centre, inside the configured radius.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: cinema/cork-cine-club
+    name: Cork Cine Club
+    category: cinema
+    kind: organiser
+    status: provisional
+    url:
+      - role: listings
+        url: https://corkcineclub.com/
+        note: the whole season sits on the homepage, one card per screening with date and time
+      - role: feed
+        url: https://corkcineclub.com/feed/
+        note: WordPress RSS, one item per film; lastBuildDate 14 Aug 2026
+      - role: booking
+        url: https://ie.powertik.com/organizers/cork-cine-club
+        note: every dated screening in the season with its venue printed against it
+    area: Douglas Street
+    address:
+      street: Cork College of FET, Douglas Street Campus
+      city: Cork
+    tags: [independent, community, arthouse, volunteer-run]
+    cadence: monthly
+    hints: |
+      A volunteer-run film society, going since 2010, and the answer to "where
+      do I see world cinema in Cork on a Thursday". It has no building: films
+      screen in Cork College of FET (formerly St John's Central College) at
+      7:30pm on Thursdays, in seasons of ten. The entire season is published at
+      once, months ahead, which is why monthly is enough — but it also means one
+      harvest can pick up ten dated screenings, so do not stop at the first.
+      Expect one placeholder per season ("Film to be confirmed"); record it as
+      the listing says rather than guessing a title. Titles are one film per
+      country with the country in brackets, and there is a "Classic Film Choice"
+      slot late in the run. Supported by Access Cinema — see cinema/access-cinema.
+    notes: >-
+      Verified 2026-08-17: homepage lists the full autumn season, Thu 24 Sep to
+      Thu 3 Dec 2026, ten screenings with dates and 19:30 times, and reads
+      "Bringing the Best of Independent World Cinema to Cork Audiences Since
+      2010". Their About page gives the venue as "Cork College of FET [formerly
+      St. John's Central College], Cork City, T12 DW32" while Powertik prints
+      "Cork College of FET, Douglas Street Campus" against each screening, and
+      a third-party directory places them on Sawmill Street — the college has
+      more than one campus, so the eircode is deliberately omitted rather than
+      risk a pin on the wrong building. Tickets €8.50/€7, online sales close
+      18:30 on the night.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: cinema/cork-film-centre
+    name: Cork Film Centre
+    category: cinema
+    kind: organiser
+    status: provisional
+    url:
+      - role: listings
+        url: https://www.corkfilmcentre.ie/latest-news/
+        note: the only dated page on the site; workshops, screenings and exhibitions in one stream
+      - role: feed
+        url: https://www.corkfilmcentre.ie/feed/
+        note: WordPress RSS, but lastBuildDate is May 2025 — quiet rather than broken
+    homepage: https://www.corkfilmcentre.ie/
+    area: Shandon
+    address:
+      street: Civic Trust House, 50 Pope's Quay
+      city: Cork
+      postcode: T23 R6XC
+    tags: [independent, community, student]
+    cadence: quarterly
+    hints: |
+      A not-for-profit film resource organisation rather than a cinema — youth
+      filmmaking, Cork Young Filmmakers summer workshops, the f.Project
+      analogue photography group and darkroom, and occasional exhibitions and
+      screenings. It also runs the First Cut! Youth Film Festival, which belongs
+      to the festivals catalogue, not here. Nothing on this site is a screening
+      most weeks, so read the news stream sceptically: a workshop with an
+      enrolment address is not an event, and much of what is dated happens in
+      County Cork towns well outside the city.
+    notes: >-
+      Verified 2026-08-17: homepage and /latest-news/ both live, titled "CFC
+      NEWS - Cork Film Centre", footer reads "CORK FILM CENTRE, Civic Trust
+      House, 50 Pope's Quay, Cork T23 R6XC". Activity has narrowed — the page
+      states equipment hire has ceased after funding cuts and "our main role now
+      is the provision of youth workshops" — and the most recent dated items are
+      from 2025, with the 2026 summer workshops described as "in the planning
+      stage" and sited in Midleton, Mallow, Cobh, Macroom and Bandon, all
+      outside the 12 km radius. A curator may well prefer status: dormant; kept
+      provisional because the organisation plainly still exists and is the only
+      film-development body in the city.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: cinema/ucc-film-screen-media
+    name: UCC Department of Film and Screen Media
+    category: cinema
+    kind: listing
+    status: provisional
+    url: https://www.ucc.ie/en/fmt/film/news/
+    homepage: https://www.ucc.ie/en/fmt/film/
+    area: Bishopstown
+    address:
+      street: Kane Building, University College Cork
+      city: Cork
+    tags: [university, student, free]
+    cadence: monthly
+    hints: |
+      The university's film department, and the closest thing Cork has to a
+      student film-society listing. It has its own Film and Screen Media
+      Auditorium in the Kane Building and puts on public screenings, director
+      Q&As, masterclasses and archive events, sometimes in its own auditorium
+      and sometimes co-hosted at Triskel — where the venue is Triskel, set
+      `venue.sourceId` to cinema/triskel-christchurch. The page is a news
+      stream, not a diary, so most items are retrospective ("co-hosted a
+      screening ... on Saturday 4th July"); only take the forward-dated ones.
+      Term-time only in practice.
+    notes: >-
+      Verified 2026-08-17: /en/fmt/film/news/ is live and dated, last updated
+      7 July 2026, carrying a Coup 53 screening at Triskel with a director Q&A
+      (Sat 4 July) and a masterclass with composer Larry Groupé in the Kane
+      Building (Thu 4 June). Recorded in place of the "UCC Film Society" lead,
+      which does not exist: UCC's own society directory lists a Film and
+      Photography Society and a Science-Fiction, Anime, Horror and Fantasy
+      Society that runs weekly screenings, but neither publishes anything beyond
+      an email address and an Instagram handle, so neither is crawlable. Area
+      follows the location config, which places the universities in
+      Bishopstown; the Kane Building is on the main campus off Western Road.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: cinema/access-cinema
+    name: Access Cinema
+    category: cinema
+    kind: organiser
+    status: provisional
+    url: https://www.accesscinema.ie/
+    tags: [independent, arthouse, community]
+    cadence: monthly
+    hints: |
+      The national resource organisation for regional cultural cinema, and the
+      body that puts touring arthouse seasons into small Irish venues. It is
+      worth crawling for Cork because it programmes into rooms that publish
+      nothing themselves — Cork Cine Club names it as a supporter. Behind a
+      SiteGround JavaScript captcha, so a plain fetcher gets a 168-byte "Robot
+      Challenge Screen" and a cookie jar does not help; a real browser is
+      needed. Filter hard to Cork — most of what it lists is elsewhere in
+      Ireland.
+    notes: >-
+      Unverified, and honestly so. The organisation is real and Cork-relevant:
+      corkcineclub.com/about-us states "Cork Cine Club is supported by Access
+      Cinema, a resource organisation for regional cultural cinema, and by The
+      Arts Council of Ireland". The domain resolves and is served by SiteGround,
+      but every request — root and any path, with or without cookies — returns
+      HTTP 202 and a captcha challenge titled "Robot Challenge Screen", so the
+      content could never be read and no listings path could be confirmed. The
+      root URL is recorded rather than a guessed /whats-on/. Not marked closed:
+      a bot wall is not an absence. No verifiedAt.
+    addedAt: "2026-08-17"
+
+  - id: cinema/cinematimes-cork
+    name: CinemaTimes — Cork
+    category: cinema
+    kind: aggregator
+    status: provisional
+    url: https://cinematimes.com/ie/cork/
+    tags: [aggregator, showtimes]
+    cadence: daily
+    hints: |
+      The best single safety net in this category: it aggregates showtimes
+      across every cinema near Cork on one page, with a date strip covering
+      about ten days, distances from the city centre, and — unusually — it
+      carries the independents as well as the chains, listing Triskel Arts
+      Centre and Cork Cine Club alongside the multiplexes. /ie/cork/cinemas/ is
+      the directory, /ie/cork/cinemas/<slug>/ a per-cinema week. Every cinema
+      page also embeds a schema.org `MovieTheater` JSON-LD block with street
+      address, eircode and coordinates, which is the cheapest way to fill in an
+      address a venue does not publish. Two cautions: its naming lags reality
+      (it still calls the Midleton and Mallow sites "The Gate"), and it
+      double-counts the Blackpool multiplex as both "The Reel Picture Blackpool"
+      and "Blackpool Cinema". Treat it as corroboration, not as a source of
+      record — set `venue.sourceId` to the catalogued cinema.
+    notes: >-
+      Verified 2026-08-17: page is titled "Cork Cinema Showtimes Today · Mon 17
+      Aug" and reads "23 films are showing across 6 cinemas near Cork today",
+      with per-cinema times and distances. cinematimes.ie 301s here, so the .com
+      host is recorded as canonical.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: cinema/entertainment-ie-cork
+    name: entertainment.ie — Cork cinema listings
+    category: cinema
+    kind: aggregator
+    status: provisional
+    url: https://entertainment.ie/cinema/cinema-listings/cork/
+    tags: [aggregator, showtimes]
+    cadence: weekly
+    hints: |
+      A second, independent read on which cinemas in County Cork are actually
+      trading, and useful mostly for that: the index page names each cinema with
+      a live film count, so a venue vanishing from it is a real signal. Covers
+      the whole county, so most of what it lists — Mallow, Midleton, Bantry,
+      Clonakilty — is outside the configured radius and should be ignored.
+      Per-cinema listings hang off /cinema/cinema-listings/cork/<slug>/. Needs a
+      browser user-agent: a plain fetch gets 403.
+    notes: >-
+      Verified 2026-08-17 with a browser user-agent: page titled "Cork Cinema
+      Film Times - Cinema Listings for Cork" and lists exactly six trading
+      County Cork cinemas — The Arc Cinema Cork (30 films), Omniplex Cork Mahon
+      Point (18), The Arc Cinema Mallow (18), The Arc Cinema Midleton (16), The
+      Reel Picture Blackpool (11), The Reel Picture Ballincollig (8) — plus
+      Bantry Cinemax and Park Cinema Clonakilty. Notably it lists no cinema in
+      Douglas and no Gate, which is the corroboration behind the two closed
+      entries below.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: cinema/kino
+    name: The Kino
+    category: cinema
+    kind: venue
+    status: closed
+    url: https://www.kinocinema.net/
+    area: Washington Street
+    address:
+      street: Washington Street
+      city: Cork
+    tags: [independent, arthouse, cultural-cinema]
+    cadence: monthly
+    hints: |
+      Closed as a cinema — kept so it is not re-proposed. A model asked for
+      Cork's arthouse cinema will reach for the Kino; the answer since 2011 is
+      cinema/triskel-christchurch, and the building itself is now a bar and live
+      venue that belongs in music or nightlife, not here.
+    notes: >-
+      Verified 2026-08-17: kinocinema.net is live but is an archive, and says so
+      — "Content is from the site's 2008 archived pages". It records the Kino as
+      an independent arthouse cinema in a former pool hall on Washington Street,
+      operating 1996–2009 and closing in debt, with 2007 reviews as its most
+      recent programme. The building was taken over by promoters and reopened
+      from 2019 as a live music venue, theatre space, bar and café, and again in
+      February 2022 as a licensed bar and nightclub under Banger Productions.
+      No cinema listing at this address in any current source. Address kept to
+      the street only; the archive gives no number.
+    addedAt: "2026-08-17"
+
+  - id: cinema/cinema-world-douglas
+    name: Cinema World Douglas
+    category: cinema
+    kind: venue
+    status: closed
+    url: https://www.corkcinemas.com/
+    area: Douglas
+    tags: [multiplex, commercial, mainstream, out-of-town]
+    cadence: daily
+    hints: |
+      Recorded as gone so it is not re-proposed — a Douglas multiplex is exactly
+      the sort of entry a model produces from stale knowledge. If a curator finds
+      it trading, flip it to provisional rather than re-adding it.
+    notes: >-
+      Closure inferred rather than announced, and flagged for a human on that
+      basis. What is confirmed as of 2026-08-17: its operator Cork Cinemas, which
+      also ran the Gate sites, no longer exists as a business — both
+      corkcinemas.com and its old /home.php path 301 to arccinema.ie — and Arc
+      lists no Douglas site among its eight cinemas. It appears in none of the
+      three live listings sources checked: entertainment.ie names six trading
+      County Cork cinemas with no Douglas entry, CinemaTimes' Cork directory of
+      18 cinemas within 80 km has none in Douglas, and IMC's locations page lists
+      only Blackpool and Ballincollig for Cork. Cinema Treasures has no record of
+      a Douglas cinema at all, so that is silence rather than evidence. The only
+      trace is a stale third-party directory giving "Douglas East Street, Cork
+      T12 K8NR" and describing a 1998 multiplex; no address is recorded here
+      because that source also still lists the Gate as current. No usable URL of
+      its own survives, so the former operator's domain is recorded and the
+      redirect is the evidence.
+    addedAt: "2026-08-17"

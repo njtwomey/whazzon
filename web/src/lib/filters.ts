@@ -1,6 +1,6 @@
 import * as React from "react";
 import { useSearchParams } from "react-router-dom";
-import type { Facet, Filters, PriceFilter, Sort } from "./filter-events";
+import type { ConfidenceFilter, Facet, Filters, PriceFilter, Sort } from "./filter-events";
 
 /**
  * Filter state lives in the URL, not in component state, so any view a person
@@ -47,6 +47,8 @@ export function useFilters(): [Filters, (patch: Partial<Filters>) => void, () =>
       price: (params.get("price") as PriceFilter) ?? "any",
       includeCarried: params.get("carried") !== "0",
       includeFinished: params.get("finished") === "1",
+      hasLink: params.get("link") === "1",
+      confidence: (params.get("conf") as ConfidenceFilter) ?? "any",
     }),
     [params],
   );
@@ -67,6 +69,8 @@ export function useFilters(): [Filters, (patch: Partial<Filters>) => void, () =>
       if (next.price !== "any") search.set("price", next.price);
       if (!next.includeCarried) search.set("carried", "0");
       if (next.includeFinished) search.set("finished", "1");
+      if (next.hasLink) search.set("link", "1");
+      if (next.confidence !== "any") search.set("conf", next.confidence);
       setParams(search, { replace: true });
     },
     [filters, setParams],

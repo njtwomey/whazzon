@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Stylised Cork at dusk: a three-masted ship sailing between the two red towers of the city's arms, with Shandon's tower and St Fin Barre's spires on the skyline">
+  <title>Cork</title>
+  <desc>The city arms — a ship in full sail between two towers on the water — set in the Lee valley at sunset. Original illustration.</desc>
+  <defs>
+    <linearGradient id="corkSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#12283a"/>
+      <stop offset="42%" stop-color="#34506b"/>
+      <stop offset="74%" stop-color="#a95f66"/>
+      <stop offset="100%" stop-color="#e79f6d"/>
+    </linearGradient>
+    <linearGradient id="corkWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2b4258"/>
+      <stop offset="100%" stop-color="#0e1c2a"/>
+    </linearGradient>
+    <radialGradient id="corkGlow" cx="0.7" cy="0.7" r="0.4">
+      <stop offset="0%" stop-color="#ffd7a3" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ffd7a3" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#corkSky)"/>
+
+  <!-- The Lee valley: Cork sits in a bowl, and the hills either side of the
+       island are why the north and south sides feel like separate cities.
+       They are drawn before the sun and shaped to leave it a gap, so a low sun
+       reads as behind the quays rather than in front of a hillside. -->
+  <path d="M0 478V372l84-26 78 22 96-34 82 26 74-14 68 22v110Z" fill="#0d1c2c" opacity="0.5"/>
+  <path d="M1200 478V362l-96-26-90 28-84-16-92 32v98Z" fill="#0d1c2c" opacity="0.5"/>
+
+  <circle cx="778" cy="380" r="300" fill="url(#corkGlow)"/>
+  <circle cx="778" cy="372" r="36" fill="#ffe3bb" opacity="0.92"/>
+
+  <!-- Shandon: the bell tower of St Anne's, four clock faces and an eleven-foot
+       salmon for a weathervane. Two of its faces are red sandstone and two are
+       white limestone, which is the two-tone body below. -->
+  <g>
+    <path d="M300 250h30v206h-30z" fill="#7c3b32"/>
+    <path d="M330 250h30v206h-30z" fill="#c9c0ae" opacity="0.85"/>
+    <path d="M294 244h72v10h-72z" fill="#e6ddcb" opacity="0.9"/>
+    <!-- The cupola, and the salmon above it. -->
+    <path d="M312 244l6-26h24l6 26z" fill="#8f9aa8" opacity="0.9"/>
+    <path d="M318 218q12-16 24 0z" fill="#c9c0ae" opacity="0.9"/>
+    <path d="M330 218v-14" stroke="#e6ddcb" stroke-width="2.4"/>
+    <circle cx="330" cy="201" r="3.6" fill="#f0c987"/>
+    <path d="M326 190q10-8 20 0-10 8-20 0Zm20 0 8-5v10Z" fill="#f0c987"/>
+    <!-- One of the four faces, which never agree with each other. -->
+    <circle cx="330" cy="292" r="15" fill="#f4ecdb" opacity="0.95"/>
+    <path d="M330 292v-9M330 292l7 5" stroke="#2b2119" stroke-width="2"/>
+    <g fill="#1b232f" opacity="0.55">
+      <path d="M308 330h14v22h-14zM338 330h14v22h-14zM308 378h14v22h-14zM338 378h14v22h-14z"/>
+    </g>
+  </g>
+
+  <!-- St Fin Barre's, whose three spires are the south side's answer to it. -->
+  <g fill="#101f30" opacity="0.9">
+    <path d="M812 456V368l16-52 16 52v88z"/>
+    <path d="M884 456V368l16-52 16 52v88z"/>
+    <path d="M846 456V330l18-74 18 74v126z"/>
+    <path d="M812 424h104v32H812z"/>
+  </g>
+
+  <!-- Quays and warehouse rooflines along the water. -->
+  <g fill="#0a1522" opacity="0.88">
+    <path d="M0 478v-34h70l14-20 16 20h96v-30h64v30h108l14-22 16 22h74v-40h58v40h96l16-24 18 24h84v-32h62v32h122l14-18 16 18h62v34Z"/>
+  </g>
+  <g stroke="#f6efe4" stroke-width="1.6" opacity="0.28">
+    <path d="M140 444v-24M420 444v-30M660 444v-36M980 444v-28"/>
+  </g>
+
+  <rect y="478" width="1200" height="197" fill="url(#corkWater)"/>
+
+  <!-- The arms, made into a place: "a three-masted ship in full sail on the
+       waves of the sea between two red towers flying saltires". The towers were
+       the King's and Queen's castles, which worked the portcullis that let ships
+       into the walled town's dock — so the ship is sailing through the gate. -->
+  <g>
+    <!-- Rocks. -->
+    <path d="M164 512q22-18 46-14 20-14 44-4 22-4 36 18-42 12-126 0Z" fill="#0a1522"/>
+    <path d="M944 512q22-18 46-14 20-14 44-4 22-4 36 18-42 12-126 0Z" fill="#0a1522"/>
+
+    <g fill="#b4332f">
+      <path d="M180 350h60v152h-60z"/>
+      <path d="M960 350h60v152h-60z"/>
+    </g>
+    <!-- Lit on the sunset side, shadowed on the other. -->
+    <g fill="#7f2320" opacity="0.55">
+      <path d="M180 350h22v152h-22z"/>
+      <path d="M960 350h22v152h-22z"/>
+    </g>
+    <g fill="#b4332f">
+      <path d="M180 332h12v8h12v-8h12v8h12v-8h12v18h-60z"/>
+      <path d="M960 332h12v8h12v-8h12v8h12v-8h12v18h-60z"/>
+    </g>
+    <!-- Arrow slits and a gate arch each. -->
+    <g fill="#2a1013" opacity="0.75">
+      <path d="M204 372h12v20h-12zM204 410h12v20h-12z"/>
+      <path d="M984 372h12v20h-12zM984 410h12v20h-12z"/>
+      <path d="M198 502v-38a12 12 0 0 1 24 0v38z"/>
+      <path d="M978 502v-38a12 12 0 0 1 24 0v38z"/>
+    </g>
+    <!-- Each tower flies argent, a saltire gules. -->
+    <g stroke="#e6ddcb" stroke-width="2">
+      <path d="M210 332v-38M990 332v-38"/>
+    </g>
+    <g>
+      <path d="M210 294h38v22h-38z" fill="#f4ecdb"/>
+      <path d="M990 294h38v22h-38z" fill="#f4ecdb"/>
+      <g stroke="#b4332f" stroke-width="2.6">
+        <path d="M210 294l38 22M248 294l-38 22"/>
+        <path d="M990 294l38 22M1028 294l-38 22"/>
+      </g>
+    </g>
+
+    <!-- The ship, in full sail, coming through. -->
+    <g>
+      <path d="M545 505V352M600 505V316M655 505V352" stroke="#3a2a1e" stroke-width="3.4"/>
+      <path d="M521 360h48M521 412h48M576 324h48M574 382h52M572 440h56M631 360h48M631 412h48" stroke="#3a2a1e" stroke-width="2.4"/>
+      <g fill="#f4ecdb" opacity="0.96">
+        <path d="M521 362h48v38q-24 10-48 0z"/>
+        <path d="M521 414h48v38q-24 10-48 0z"/>
+        <path d="M576 326h48v40q-24 10-48 0z"/>
+        <path d="M574 384h52v40q-26 10-52 0z"/>
+        <path d="M572 442h56v40q-28 10-56 0z"/>
+        <path d="M631 362h48v38q-24 10-48 0z"/>
+        <path d="M631 414h48v38q-24 10-48 0z"/>
+      </g>
+      <path d="M600 316l24 7-24 7z" fill="#b4332f"/>
+      <path d="M690 505l34-13" stroke="#3a2a1e" stroke-width="2.6"/>
+      <path d="M510 503h180l-20 25q-70 10-140 0z" fill="#2b1e15"/>
+      <path d="M510 503h180v6H510z" fill="#7c5a3c" opacity="0.8"/>
+    </g>
+  </g>
+
+  <!-- Waves, and the sun's reflection reaching the near bank. -->
+  <rect y="478" width="1200" height="16" fill="#ffd7a3" opacity="0.07"/>
+  <!-- A glitter path rather than a solid column: broken bands that widen towards
+       the viewer, which is what a low sun on moving water actually does. The
+       solid wedge read as a stray shape. -->
+  <g fill="#ffd7a3">
+    <path d="M766 486h24v3h-24z" opacity="0.3"/>
+    <path d="M760 500h36v3h-36z" opacity="0.24"/>
+    <path d="M754 518h48v3h-48z" opacity="0.19"/>
+    <path d="M746 542h64v3h-64z" opacity="0.15"/>
+    <path d="M736 572h84v3h-84z" opacity="0.11"/>
+    <path d="M724 608h108v3h-108z" opacity="0.08"/>
+    <path d="M710 648h136v3h-136z" opacity="0.06"/>
+  </g>
+  <g stroke="#8fa8c6" stroke-width="2" opacity="0.34">
+    <path d="M70 508h130M250 528h170M470 556h150M690 520h180M930 542h200M120 588h240M520 600h190M800 618h300M180 646h300M660 656h280"/>
+  </g>
+</svg>

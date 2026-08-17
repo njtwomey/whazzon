@@ -89,7 +89,8 @@ npm run validate   -- <location-id>
 npm run check-urls -- <location-id>
 ```
 
-`check-urls` is this stage's quality control. It separates:
+`check-urls` is this stage's quality control, and it probes **every route** a
+source declares, not just its listings page. It separates:
 
 - **ok** — reachable
 - **blocked** — the host refused us (403/429). A bot wall, **not** a dead site.
@@ -116,9 +117,19 @@ Then run §3 for every category.
   anyway, put your best guess in `url`, and say plainly in `notes` that it is
   unverified. A missing venue is worse than a wrong URL, because `check-urls`
   catches wrong URLs and nothing catches an omission.
+- **`url` is a plain string unless you have confirmed a second route.** It also
+  takes a list of roled routes — `listings`, `api`, `feed`, `ics`, `booking` — and
+  that is how a JSON endpoint or an ICS feed gets recorded instead of being
+  described in `hints`. One route must be `listings`. Never guess an endpoint:
+  `/wp-json/tribe/events/v1/events` and `/events.ics` are conventions a model
+  will produce confidently and wrongly. `check-urls` tests every route.
 - **`cadence` is a cost decision.** It is what stage 2 spends. `daily` only for
   sources that genuinely move daily; `quarterly` for annual festivals.
 - **Put per-source knowledge in `hints`, not in the prompt.** "Books a year
   ahead", "listings are a PDF", "programme is inside a JS widget" — that is how
   the shared stage 2 prompt stays general.
 - **Nothing location-specific in code.** It belongs in `configs/` or `data/`.
+- **Tell subagents not to write `{0,n}` in a grep pattern.** See `CLAUDE.md`:
+  `grep` wraps ugrep, and a bounded repeat of a wide character class over a saved
+  page costs gigabytes and never finishes. Unbounded quantifiers,
+  `/usr/bin/grep`, `rg`, or a short node script instead.

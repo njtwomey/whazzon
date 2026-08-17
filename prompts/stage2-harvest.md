@@ -1,6 +1,6 @@
 ---
 name: stage2-harvest
-version: "3"
+version: "4"
 stage: 2
 description: Harvest one category's sources into whazzon.harvest/1 observations.
 ---
@@ -35,6 +35,29 @@ just spending money.
 The catalogued `url` is a starting point, not a guarantee. Some are the real
 listings page; some are a homepage; some are a path that has since moved. Your
 job is to reach the page that actually lists events.
+
+**A source may give you several routes rather than one URL**, each labelled with
+a role:
+
+```yaml
+url:
+  - role: listings
+    url: https://www.example.org/whats-on/
+  - role: api
+    url: https://www.example.org/wp-json/tribe/events/v1/events
+    note: whole diary with body text; needs a browser user-agent
+```
+
+They are alternatives, not steps. **Take the structured one when there is one** —
+`api`, `feed` and `ics` routes are usually the whole forward diary in a single
+fetch, already parsed, and often carry each event's body text as well, which is
+the cheapest `description` you will ever get. Fall back to `listings` if it
+disappoints. `booking` is for dates the venue's own site does not print.
+
+Record whichever you read in `fetch.url`, exactly as fetched. A route that has
+stopped working is a `notes` handover, the same as a stale page. So is a route
+you _discover_: a JSON endpoint you found behind a widget belongs in `notes` for
+stage 1 to add, never written into the catalogue yourself.
 
 **Navigate, but cheaply.** Budget roughly **two to four fetches per source**:
 
@@ -225,6 +248,19 @@ access notes. Keep it as the page wrote it, in markdown, and do not pad it out
 to look fuller than the page was. **Never write a `description` for a page you
 did not open** — inventing one is worse than leaving the field off, because the
 detail view presents it as what the venue said.
+
+**`url` is the event's own page, and it is close to mandatory.** Nearly every
+index links each row it prints. Take that href verbatim — including a `-2`
+suffix, a query string, a tracking path you would rather not keep. It is the
+field that lets a reader act on what they just read, and it is the easiest one
+to skip while feeling productive: the first Bristol run came back with 7 of
+Arnolfini's 16 events missing a link that was there on the page.
+
+**Never construct one.** Arnolfini lists "Latinas in Bristol" at
+`/whatson/latinasinbristol-2/`, which no amount of slugifying a title would
+produce. Where a row genuinely is not a link, leave the field off — the site
+then falls back to the listings page the event came from, which is honest. A
+guessed URL is not, and it 404s in front of a reader.
 
 **`tags` describe the event; the category describes the source.** A cinema's
 programme holds a subtitled matinee, a director Q&A and a late-night horror;

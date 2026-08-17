@@ -1,0 +1,388 @@
+schema: whazzon.catalogue/1
+category: comedy
+label: Comedy
+description: >-
+  Cork's two dedicated comedy clubs, the weekly stand-up and improv nights that
+  run in rooms which are otherwise pubs and music venues, and the theatres that
+  host touring comedy.
+sources:
+  - id: comedy/coco-comedy-club
+    name: CoCo Comedy Club (The Roundy)
+    category: comedy
+    kind: organiser
+    status: provisional
+    url:
+      - role: listings
+        url: https://cococomedy.club/
+        note: the club's own front door — states the weekly pattern, no dates
+      - role: listings
+        url: https://www.peoplesrepublicofcork.com/eventguide/venues/the-roundy
+        note: the dated diary; plain GET, no JS, whole forward horizon in one fetch
+      - role: booking
+        url: https://www.eventbrite.com/o/coco-comedy-club-37252111113
+        note: one Eventbrite collection per weekly night; needs a browser to render
+    area: City Centre
+    address:
+      street: 1 Castle Street
+      city: Cork
+      country: Ireland
+    tags: [club, stand-up, weekly, independent]
+    cadence: weekly
+    hints: |
+      Cork's busiest comedy room: five or six shows a week upstairs in The
+      Roundy. Take the dates from the PROC route, not from cococomedy.club —
+      the club's own site is a marketing page with a per-night Eventbrite
+      collection link and no diary on it at all.
+      The recurring titles are the weekly slots and should stay as `recurring`
+      rather than becoming one event per sitting: "Stand-up Comedy Club:
+      Thursday Showcase" (Thu), "Earlier Show" (Sat 6:30pm), "Primetime Comedy
+      Show" (Sat 8:30pm), plus Low-Key Funny (Wed, new material) and a Friday
+      show. Named runs — a Deirdre O'Kane work-in-progress over three nights —
+      are separate events.
+      The Roundy's diary also carries a weekly pub games night; it is not
+      comedy even though PROC files it under Comedy.
+      Ignore Eventbrite's geography for this club: it labels The Roundy as
+      "Blackpool", which is wrong — Castle Street is on the island.
+    notes: >-
+      Verified 2026-08-17. cococomedy.club (200) names "The Roundy (upstairs)",
+      describes six weekly shows and carries a Deirdre O'Kane run for 17-19
+      September. The PROC venue page is titled "The Roundy, Castle St." and
+      lists 21 dated stand-up shows from 20 Aug 2026 to 17 Apr 2027; the
+      Eventbrite organiser page describes "a weekly comedy club on Thursdays,
+      Fridays and Saturdays upstairs in The Roundy, Cork".
+      The venue's own theroundy.com/whats-on/ answers 200 but is an empty
+      shell — 4.4 KB of stylesheet with no events in it — which is why the
+      listings routes point elsewhere. Deliberately catalogued as an organiser
+      rather than a venue: the club is the programmer, the pub is the room.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: comedy/city-limits
+    name: City Limits (Cork Comedy Club)
+    category: comedy
+    kind: venue
+    status: provisional
+    url: https://www.peoplesrepublicofcork.com/eventguide/venues/city-limits
+    homepage: https://thecomedyclub.ie/
+    area: Victorian Quarter
+    address:
+      street: 16 Coburg Street
+      city: Cork
+      postcode: T23 HEF9
+      country: Ireland
+    tags: [club, stand-up, weekly, independent]
+    cadence: weekly
+    hints: |
+      Cork's original comedy club, on Coburg Street since the early 90s, and
+      the room that launched the Irish circuit. Two distinct strands: touring
+      one-nighters, and a resident "Best of Cork" series (Winter/Summer) whose
+      lineup is a list of local names rather than a headliner.
+      Use the PROC venue page, not the club's own site. thecomedyclub.ie sits
+      behind a bot challenge that answers 403 or 202 instead of the page on
+      most requests, and its /gigs/ page — when it does answer — renders a
+      JavaScript calendar that reports
+      "0 Events loaded / No events found" while the club is demonstrably
+      selling tickets. Do not read that as a dormant venue.
+      Tickets are sold through tickets.ie, so dates can also surface there
+      before the club's own site shows them.
+    notes: >-
+      Verified 2026-08-17: the PROC venue page is headed "City Limits, 16
+      Coburg St., Cork" and lists five dated shows (Risteard Cooper 25 Sep,
+      Mike Rice early and late 2 Oct, Catherine Bohart 5 Nov, Anne Gildea 20
+      Nov 2026). thecomedyclub.ie is titled "Home - Cork Comedy Club - City
+      Limits" and gives the address as 16 Coburg St, Victorian Quarter, Cork,
+      T23 HEF9 with tickets@thecomedyclub.ie — so the club is real and
+      trading; only its own listings page is unusable. The brief's "Cork
+      Comedy Club" and "City Limits" are the same business, catalogued once.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: comedy/crue-comedy
+    name: Crüe Comedy (Fred Zeppelins)
+    category: comedy
+    kind: organiser
+    status: provisional
+    url: https://www.peoplesrepublicofcork.com/eventguide/venues/fred-zeppelins
+    area: City Centre
+    address:
+      street: Parliament Street
+      city: Cork
+      country: Ireland
+    tags: [stand-up, weekly, pub, independent, free]
+    cadence: weekly
+    hints: |
+      A weekly Wednesday-night comedy slot at 9pm in Fred Zeppelins, the rock
+      bar on Parliament Street, plus occasional themed specials ("Crüe Comedy
+      presents: Master Debators"). Titled just "Crüe Comedy" most weeks with no
+      lineup given, so this is a `recurring` night, not a series of distinct
+      shows.
+      The bar's own domain fredzeppelins.ie does not resolve, so the PROC venue
+      page is the only fetchable listing. It carries the bar's whole diary —
+      battle-of-the-bands heats, gigs, a pop-up shop — so filter to the comedy
+      rows.
+      Note the umlaut in the name: "Crüe Comedy".
+    notes: >-
+      Verified 2026-08-17: the PROC venue page is headed "Fred Zeppelins,
+      Parliament Street" and lists "Crüe Comedy, Wed 19 Aug, 9pm" among the
+      bar's diary; the same night appears on purecork.ie as "Crüe Comedy —
+      Fred Zeppelins, Parliament St, 19 Aug 2026, 9pm". fredzeppelins.ie
+      returns a DNS/connection failure, so no address could be read off the
+      venue's own page — the street is taken from the PROC venue header and
+      the house number is deliberately omitted rather than guessed.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: comedy/rebel-comedy
+    name: Rebel Comedy Club (Franciscan Well)
+    category: comedy
+    kind: organiser
+    status: provisional
+    url: https://www.eventbrite.ie/o/rebel-comedy-club-72736263543
+    area: North Mall
+    address:
+      street: 14B North Mall
+      city: Cork
+      country: Ireland
+    tags: [stand-up, weekly, pub, free, independent]
+    cadence: weekly
+    hints: |
+      Weekly free open-mic night upstairs in the Franciscan Well brewpub,
+      founded by Graham Francis. Doors 8:30, show 9, sign-ups on the night.
+      Record it as a `recurring` night: it is one repeating open mic with no
+      published lineup, and turning it into a row per week floods the listing.
+      Which night it runs on has moved — the club's own Eventbrite copy says
+      Monday, secondary write-ups say Sunday — so take the day from the page
+      rather than from either. The Eventbrite organiser page renders its event
+      list in JavaScript; the recurring listing that does carry the dates is
+      /e/rebel-comedy-club-open-mic-night-tickets-731858166477, which answers
+      200 and is marked "Multiple dates".
+      They also run occasional showcases in Kinsale, which is outside the
+      radius — drop those rather than filing them under Cork.
+    notes: >-
+      Verified 2026-08-17: the Eventbrite organiser page (200) reads "Rebel
+      Comedy Club — Stand-up comedy club founded by Graham Francis" and names
+      "Open Mic Night every Monday upstairs in The Franciscan Well Brewpub,
+      Cork"; the multi-date event page names "Franciscan Well Brewery &
+      Brewpub, Cork". This night is invisible to the PROC event guide — its
+      Franciscan Well venue page answers 200 with "No events for these dates
+      or this venue" — and franciscanwellbrewery.com fails TLS negotiation
+      outright, so Eventbrite is the only working route. Street read off the
+      PROC venue header ("Franciscan Well Brew Pub, 14B North Mall"), not the
+      brewery's own page; no Eircode, rather than a guessed one.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: comedy/snatch-comedy-improv
+    name: Snatch Comedy Improv
+    category: comedy
+    kind: organiser
+    status: provisional
+    url: https://www.eventbrite.ie/o/improv-73331430753
+    area: City Centre
+    tags: [improv, independent, weekly]
+    cadence: monthly
+    hints: |
+      Cork's longest-running improvised comedy show — audience suggestions
+      turned into sketches on the spot — historically weekly on Tuesdays at
+      9pm in The Roundy, now appearing as a booked act rather than a fixed
+      residency.
+      Expect this source to return nothing and record the failed fetch rather
+      than inferring the troupe is gone: the Eventbrite organiser is filed
+      under the bare name "improv" and renders its listings in JavaScript, and
+      their announcement channel is facebook.com/Snatchcomedyimprov, which
+      answers 400 to every non-browser client.
+      Their dates do reach us by other routes — billed "Comedy Cavern: Snatch
+      Improv" on comedy/comedy-cavern, and under Comedy on the PROC event
+      guide — so dedup on event id rather than treating those as separate.
+    notes: >-
+      Real and active: "Comedy Cavern: Snatch Improv" is booked at Coughlan's
+      for 8 Sep 2026, and the troupe supplied performers to an improvised
+      murder mystery at Cork Arts Theatre. But it has no listings page of its
+      own that a crawler can read. The Eventbrite organiser URL above (200)
+      was taken from the organiser link on a Snatch event page rather than
+      guessed, and could not be confirmed to hold current dates. Worth
+      flagging: snatchcomedy.com now 301s to vitalitycommunityfitness.com, a
+      lapsed domain that has become an unrelated business — exactly the
+      failure mode that must not be catalogued as the troupe's website.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: comedy/cork-opera-house
+    name: Cork Opera House — comedy programme
+    category: comedy
+    kind: venue
+    status: provisional
+    url: https://www.corkoperahouse.ie/whats-on/?category=33
+    homepage: https://www.corkoperahouse.ie/
+    area: City Centre
+    address:
+      street: Emmet Place
+      city: Cork
+      postcode: T12 DW6P
+      country: Ireland
+    tags: [major, stand-up]
+    cadence: weekly
+    hints: |
+      The city's main room for touring comedy — Joanne McNally, Nish Kumar,
+      Alan Davies, Sam Campbell — booked up to a year ahead, so capture the
+      full forward horizon.
+      `?category=33` is the real filter: 33 is Comedy in the "View By Genre"
+      select. `?category=comedy` renders "Sorry, we couldn't find any results
+      to match your search" — a slug that looks right and silently returns
+      nothing. Take only the filtered list; the same page also carries an
+      all-shows carousel further down whose links include musicals, opera and
+      ballet, and following those will pull in the whole programme.
+      Pagination is `?category=33&&event-page=N` — the doubled ampersand is
+      what the site itself emits — and page 2 is currently empty, so the whole
+      comedy programme fits on page 1.
+      Listing rows give day, month and time with the year only on shows a
+      season out ("Sat 27 Feb 2027"); an undated month is the coming one.
+      Multi-night runs are printed as one row with a range ("Fri 28 - Sat 29
+      Aug"), so they need expanding rather than recording as a single sitting.
+    notes: >-
+      Verified 2026-08-17: `?category=33` returns 11 comedy shows from 28 Aug
+      2026 to 6 Jun 2027 with prices and booking state (Joanne McNally, sold
+      out; Nish Kumar 11 Sep; Gearoid Farrelly 25 Sep; Kyla Cobbler; Deirdre
+      O'Kane; Troy Hawke), each tagged "Comedy" in the row. Address read off
+      the site footer. WordPress; /whats-on/feed/ is a valid RSS but is not
+      genre-filtered, so it is not catalogued as a route.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: comedy/wonky-donkey
+    name: The Wonky Donkey Comedy Club (Mardyke Cellar Theatre)
+    category: comedy
+    kind: venue
+    status: provisional
+    url: https://mardyke.com/the-cellar-theatre/the-wonky-donkey/
+    homepage: https://mardyke.com/
+    area: Mardyke
+    tags: [club, stand-up, weekly]
+    cadence: monthly
+    hints: |
+      A dinner-and-comedy club in the Cellar Theatre at the Mardyke
+      Entertainment Complex — a purpose-set-up room rather than the back of a
+      pub — running Fridays, with ticket tiers that bundle food from the
+      attached barbecue kitchen.
+      Every path on mardyke.com, the root included, answers HTTP 401 with a
+      JavaScript "Bot check — Javascript is needed to access this site" page.
+      That is a bot wall, not a dead site: do not mark it closed, and do not
+      read the 401 on this path as the page being gone, because a 404 here
+      would look identical. If it cannot be read, the club's Facebook page is
+      where the weekly lineup is posted.
+      Their dates do not appear on the PROC event guide or purecork.ie, so
+      there is currently no second route to fall back on.
+    notes: >-
+      NOT VERIFIED. The club is real — an Irish Examiner piece covers it as "a
+      new type of comedy club for Cork", it has a standing Tripadvisor listing
+      and a yaycork round-up names it as one of the four Cork comedy clubs,
+      Fridays at the Mardyke — but nothing on the site itself could be
+      confirmed on 2026-08-17: the whole domain is behind a JS bot check, so
+      the path above (which came from a search result, not from navigating the
+      site) is unverified, and the current programme is unknown. A human should
+      open it in a browser and either confirm the path or replace it. Address
+      omitted rather than guessed, and no Eircode is on record.
+    addedAt: "2026-08-17"
+
+  - id: comedy/cork-fringe
+    name: Cork Fringe Festival
+    category: comedy
+    kind: festival
+    status: provisional
+    url:
+      - role: listings
+        url: https://corkfringe.ssboxoffice.com/events/
+        note: the programme browser; the list itself renders client-side
+      - role: feed
+        url: https://corkfringe.ssboxoffice.com/events/feed/
+        note: RSS of the programme with full blurbs, and no JavaScript needed
+    area: City Centre
+    tags: [festival, independent, stand-up]
+    cadence: quarterly
+    hints: |
+      Three days in early May, 50-odd performances across about fifteen rooms,
+      with alternative comedy and cabaret sitting alongside experimental
+      theatre and dance. The comedy strand is why it is here; the rest belongs
+      to theatre.
+      The programme browser has a Genre select in which Comedy is value 17 and
+      the JavaScript appends `&genre=17` to the URL — but the listing renders
+      client-side, so that filter could not be confirmed by fetching and is
+      recorded here rather than as a route. The RSS route is the reliable one:
+      it returns real items with titles, links and full descriptions.
+      Venue names in the programme are the small rooms that never appear
+      elsewhere — Callanan's, Forde's Bar, Maureen's, The Pav, CTC Studio,
+      Elizabeth Fort — which is much of this source's value.
+      Announced in one go in spring, so quarterly is enough outside March-May;
+      between editions the whole programme is in the past and should be
+      recorded as it stands rather than rolled forward.
+    notes: >-
+      Verified 2026-08-17: /events/ is titled "Events | Cork Fringe" with
+      venue, genre and season filters and a "Cork Fringe Festival 2026"
+      season; the RSS feed has a lastBuildDate of 5 May 2026 and real items
+      ("Johnny FIRE", a panel on the place of fringe art). The 2026 edition,
+      8-10 May, has passed and 2027 is not yet announced — between editions,
+      not dormant. Worth a human's attention: corkfringe.com does not resolve
+      at all, so this box-office subdomain is the festival's only live web
+      presence, and its WordPress root still carries an unedited "Hello
+      world!" post. Festivals or theatre will reasonably want this source too.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: comedy/allevents-cork
+    name: AllEvents — Cork comedy
+    category: comedy
+    kind: aggregator
+    status: provisional
+    url: https://allevents.in/cork-ie/comedy
+    cadence: weekly
+    hints: |
+      A comedy-filtered city feed, useful mainly as a backstop for one-off
+      bookings in rooms with no arts programme of their own — it was the only
+      source to surface comedy at Cork City Hall and at Cork & Fork.
+      Two things to strip. It bleeds in a "Comedy events from nearby cities"
+      block covering Tralee, Clonmel, Killarney, Limerick and Carrigaline —
+      only Carrigaline is anywhere near the radius, and none of them is Cork
+      city. And its start times are unreliable: it prints 7:00 PM for shows
+      the venue itself advertises at 8pm, so prefer the venue's own time
+      whenever the event is catalogued elsewhere.
+      There is an FAQ block at the foot of the page that restates the same
+      events in prose; it is duplicate, not extra.
+    notes: >-
+      Verified 2026-08-17: the page is titled "Comedy Shows in Cork, CK 2026"
+      and lists dated events through to June 2027 (Adam Rowe 2 Oct at Cork
+      Opera House, Darren Kiely 7 Oct at Cork City Hall, Paddy Young 22 Nov at
+      Cyprus Avenue, Paweł Reszela 27 Aug at Cork & Fork). Shallow — eight or
+      so events — but its misses and hits do not overlap with the PROC guide's.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: comedy/eventbrite-cork-comedy
+    name: Eventbrite — Cork comedy
+    category: comedy
+    kind: aggregator
+    status: provisional
+    url: https://www.eventbrite.ie/d/ireland--cork/comedy/
+    cadence: weekly
+    hints: |
+      Catalogued because two of Cork's comedy clubs sell exclusively here and
+      publish dates nowhere else in a readable form: CoCo Comedy Club at The
+      Roundy and Rebel Comedy Club at the Franciscan Well. Treat it as the
+      ticketing platform of record for the open-mic and weekly-residency end
+      of the scene, not as a general city listing.
+      Its geography is wrong and should not be trusted for `area`: it files
+      The Roundy (Castle Street, on the island) under "Blackpool" and City
+      Limits (Coburg Street) likewise. Take the area from the venue's
+      catalogue entry instead.
+      Titles here are the club's marketing copy rather than the show name —
+      "Corks Biggest and Original Comedy Club" appended to an act — so expect
+      to trim before deriving an id.
+    notes: >-
+      Verified 2026-08-17: the page is headed "Comedy Events and Things to do
+      in Cork, Ireland" and carries dated listings including "Stand-Up Comedy
+      Club: Thursday Showcase, Thu Aug 27, 8:30 PM, The Roundy" and a Paul
+      Crowley night at "Cork Comedy Club - City Limits" on 11 Sep 2026.
+      Included on the strength of the location config's aggregator policy,
+      which calls for Irish ticketing platforms in their own right — this is
+      the clearest case of it in comedy.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"

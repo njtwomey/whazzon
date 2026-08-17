@@ -6,33 +6,12 @@ Ideas worth doing, not due yet. Short on purpose — enough to remember why, not
 
 ---
 
-## 1. A source should have more than one URL
+## 1. Use the routes now that sources can have them
 
-One `url` plus everything-else-in-prose inside `hints` is straining. Often the best route in is
-not an HTML page at all: `wp-json/tribe/events/v1/events`, BookThatApp `schedule.json`, Shopify
-`products.json`, parkrun's GeoJSON, an ICS feed, RA's GraphQL. Four agents found this
-independently.
-
-Give each route a role:
-
-```yaml
-url: https://www.stanneshouse.org/whats-on/ # where a person is sent
-urls:
-  - role: api
-    url: https://www.stanneshouse.org/wp-json/tribe/events/v1/events
-    note: whole diary with body text; needs a browser user-agent
-  - role: ics
-    url: https://example.org/events.ics
-```
-
-Roles: `listings`, `api`, `feed` (RSS/Atom), `ics`, `booking`. RSS and ICS we do not use at all
-yet, and they are commonest on the venues whose HTML is worst.
-
-Buys: `check-urls` verifies every route, prompts stop carrying operational detail, and an `ics`
-role could give the site "subscribe to this venue".
-
-Optional `urls` is additive — edits `whazzon.catalogue/1` in place. Folding `url` into the list
-would need v2 and a migration.
+`url` takes a list of roled routes as of 2026-08-17, and `check-urls` probes all of them. What
+is not done yet: nothing consumes an `ics` route as a calendar subscription ("subscribe to this
+venue" is close to free once one exists), and Bristol's twelve known JSON endpoints are still
+sitting in `hints` as prose rather than being curated into routes.
 
 ---
 
@@ -94,14 +73,7 @@ If a JS-capable fetch is added it belongs in stage 2 only, opt-in per source.
 
 ---
 
-## 6. Cheaper greps over scraped HTML
-
-Agents grepping saved pages with unanchored `.{0,400}` patterns left seven orphaned processes
-holding ~1.9 GB. Bound the input and the pattern; say so in the prompt.
-
----
-
-## 7. Curate the 2026-08-17 findings
+## 6. Curate the 2026-08-17 findings
 
 - **Renames**: SS Great Britain → Bristol Dockyards; SWX → Electric Bristol; maker-shed → The
   Makershed; Great Bristol Run → AJ Bell Great Bristol Run.

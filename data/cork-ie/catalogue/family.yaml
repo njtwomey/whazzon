@@ -1,0 +1,492 @@
+schema: whazzon.catalogue/1
+category: family
+label: Family & Kids
+description: >-
+  Wildlife and science attractions, young people's theatre, puppetry and circus,
+  play centres, and the children's strands of the city libraries and the
+  council's own programme. Cork's free family programme is largely civic — the
+  council, the libraries and the two universities carry it — and it spikes at
+  midterms, Cruinniú na nÓg in June and Halloween.
+sources:
+  - id: family/fota-wildlife-park
+    name: Fota Wildlife Park
+    category: family
+    kind: venue
+    status: provisional
+    url:
+      - role: listings
+        url: https://www.fotawildlife.ie/blogs/news
+      - role: feed
+        url: https://www.fotawildlife.ie/blogs/news.atom
+        note: >-
+          Atom, one entry per announcement with the full body text and a real
+          published date; cheaper and richer than the HTML listing
+    homepage: https://www.fotawildlife.ie/
+    area: Fota Island
+    address:
+      locality: Carrigtwohill
+      city: Cork
+      postcode: T45 CD93
+      country: Ireland
+    tags: [zoo, animals, outdoor, ticketed]
+    cadence: monthly
+    hints: |
+      Shopify site with no events calendar at all — /whats-on/ and /pages/events
+      both 404. Dated one-off events are announced as news posts (International
+      Tiger Day 29 July, Biodiversity Week 15–24 May, summer educational
+      weekends), so treat the news blog as the diary.
+
+      The park's standing programme is recurring rather than single: keeper talks
+      at /pages/wildlife-talks and feeding times at /pages/feeding-times are a
+      daily timetable, not a set of dated events.
+    notes: >-
+      Verified 2026-08-17: fotawildlife.ie is live and the news blog carries
+      dated 2026 posts (rhino calf 11 Aug, sea eagle chick 30 Jul). Address read
+      off the park's own /pages/contact-us. Sits 11.3km from the configured
+      centre by great-circle distance, so it is inside the 12km radius despite
+      the Carrigtwohill postal address — and it is the family attraction Cork
+      residents name first, so it belongs here on merit as well as geography.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: family/old-cork-waterworks
+    name: Old Cork Waterworks Experience (Lifetime Lab)
+    category: family
+    kind: venue
+    status: provisional
+    url: https://www.corkcity.ie/en/old-cork-waterworks-experience/events/
+    homepage: https://www.corkcity.ie/en/old-cork-waterworks-experience/
+    area: Sunday's Well
+    address:
+      street: Lee Road
+      city: Cork
+      postcode: T23 N828
+      country: Ireland
+    tags: [science, workshops, civic]
+    cadence: monthly
+    hints: |
+      Programme is built around school holidays — Easter, February midterm and
+      summer camps — so a fetch outside a holiday window can look empty when it
+      is not. Each event has its own page under /events/<slug>/ with a full
+      description; several titles carry the date in the slug and nowhere else
+      ("easter-camp-tues-7th-april"), and a few carry no date at all ("How Water
+      Works?", "Summer Science Camp"), which is an `undated` occurrence rather
+      than a date to guess.
+
+      The separate /education/ tree is schools-only outreach, not public events.
+    notes: >-
+      Verified 2026-08-17: lifetimelab.ie now 301s to this Cork City Council
+      microsite — the old standalone domain no longer serves the site, so the
+      catalogued URL is the council path. Lifetime Lab survives as the name of
+      the education programme run from the building. Events page lists dated
+      2026 items with per-event pages; address read off the site's own
+      /contact-us/.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: family/piccolo-play-village
+    name: Piccolo Play Village
+    category: family
+    kind: venue
+    status: provisional
+    url:
+      - role: listings
+        url: https://piccoloplayvillage.ie/events/
+      - role: api
+        url: https://piccoloplayvillage.ie/wp-json/tribe/events/v1/events
+        note: >-
+          The Events Calendar REST API, advertised in the page head; returns
+          valid JSON with full descriptions but total 0 on 2026-08-17
+    homepage: https://piccoloplayvillage.ie/
+    area: Ballincollig
+    address:
+      street: Unit 32B, CastleWest Shopping Centre
+      locality: Ballincollig
+      city: Cork
+      postcode: P31 K661
+      country: Ireland
+    tags: [play, ticketed]
+    cadence: monthly
+    hints: |
+      Fourteen themed role-play areas for under-8s; the core offer is booked
+      play sessions rather than events, so the diary is thin and the api can
+      legitimately be empty. Third parties programme classes into the building —
+      Mini Melodies runs there and sells through Eventbrite — so events at this
+      venue often surface on an aggregator before the venue's own calendar.
+    notes: >-
+      Verified 2026-08-17: piccoloplayvillage.ie is live and names the village;
+      address and Eircode read off its own /contact-us/. Refuses some fetchers
+      with a 403 but answers a browser user-agent. Found via the Eventbrite Cork
+      family feed rather than from general knowledge. Ballincollig is otherwise
+      unrepresented in this category.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: family/little-rebels-softplay
+    name: Little Rebels Softplay
+    category: family
+    kind: venue
+    status: provisional
+    url: https://littlerebels.ie/
+    area: Bishopstown
+    address:
+      street: Model Arena, Model Farm Road
+      city: Cork
+      postcode: T12 A9XE
+      country: Ireland
+    tags: [play, ticketed]
+    cadence: monthly
+    hints: |
+      Soft play for babies to age eleven, run alongside Awesome Walls at the
+      Model Arena. Sessions are bookable slots, not events: there is no /events/
+      or /whats-on/ path (both 404) and nothing dated on the site. Only worth a
+      fetch for holiday camps and one-off closures.
+    notes: >-
+      Verified 2026-08-17: site is live, names Little Rebels, and gives the Model
+      Farm Road address and T12 A9XE off its own pages. Catalogued at the
+      homepage because it is the page that carries whatever is on; say so rather
+      than inventing a listings path.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: family/monkey-maze
+    name: Monkey Maze Activity Centre
+    category: family
+    kind: venue
+    status: provisional
+    url: https://www.monkeymaze.ie/
+    area: Glanmire
+    address:
+      street: Glanmire Business Park
+      locality: Glanmire
+      city: Cork
+      country: Ireland
+    tags: [play, ticketed]
+    cadence: monthly
+    hints: |
+      Four-level indoor play maze; no booking needed for play and no dated
+      programme published — only opening days (Friday to Monday, 10am–5pm) and
+      party packages. Nothing to extract most weeks, so a low-yield source kept
+      for holiday openings.
+    notes: >-
+      Verified 2026-08-17: monkeymaze.ie is live and is the Cork centre; the
+      Glanmire Business Park address is read off its own /contact/, which prints
+      no Eircode, so none is recorded. Glanmire is inside the 12km radius. No
+      events page exists anywhere on the site.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: family/the-planet-cork
+    name: The Planet Entertainment Centre Cork
+    category: family
+    kind: venue
+    status: provisional
+    url: https://theplanet.ie/cork/
+    homepage: https://theplanet.ie/
+    area: Blackpool
+    address:
+      street: Old Mallow Road
+      locality: Blackpool
+      city: Cork
+      postcode: T23 NR4R
+      country: Ireland
+    tags: [play, ticketed]
+    cadence: monthly
+    hints: |
+      Rebranded: this was Planet Entertainment / Cosmo's Funworld, and the old
+      /cosmos-funworld/ path now 404s. Bowling, laser tag, soft play, arcades and
+      a 9D cinema across four locations, so read the Cork page rather than the
+      group site — group promotions and news are undated or apply to all four
+      venues. Nothing date-shaped on the Cork page itself.
+    notes: >-
+      Verified 2026-08-17: planetcork.ie redirects to theplanet.ie and the /cork/
+      page names the venue and prints Old Mallow Road, Blackpool, T23 NR4R.
+      Included as a family entertainment centre rather than an events source —
+      there is no diary, and the human may reasonably drop it on that basis.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: family/airtastic-cork
+    name: Airtastic Entertainment Centre Cork
+    category: family
+    kind: venue
+    status: provisional
+    url: https://air-tastic.com/locations/cork
+    homepage: https://air-tastic.com/
+    area: Little Island
+    address:
+      street: Unit 5, Eastgate Retail Park
+      locality: Little Island
+      city: Cork
+      postcode: T45 NF25
+      country: Ireland
+    tags: [play, ticketed]
+    cadence: monthly
+    hints: |
+      Trampoline and ninja park, twelve-lane bowling, indoor mini golf and
+      arcades. Six-venue chain across Ireland and the North, so /offers and
+      /latest-news are group-wide and mostly undated; only the /locations/cork
+      page and the per-activity "at Cork" pages are Cork-specific.
+    notes: >-
+      Verified 2026-08-17: air-tastic.com resolves (airtastic.ie redirects to it)
+      and the Cork location page prints Unit 5, Eastgate Retail Park, Little
+      Island, T45 NF25. Little Island is 7.9km from the centre, inside the
+      radius. Like the other play centres, no dated diary — kept for coverage of
+      the east of the city.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: family/cruinniu-na-nog
+    name: Cruinniú na nÓg Cork
+    category: family
+    kind: festival
+    status: provisional
+    url: https://www.corkcity.ie/en/cruinniu-na-nog/event-details/
+    homepage: https://www.corkcity.ie/en/cruinniu-na-nog/
+    tags: [free, civic, workshops, community]
+    cadence: quarterly
+    hints: |
+      The national free day of creativity for under-18s, on a Saturday in June,
+      programmed city-wide by Cork City Council. Almost everything happens on
+      that one day in dozens of borrowed rooms — libraries, UCC, the Everyman,
+      Blackpool, the Butter Museum — so nearly every event needs a venue set that
+      is not the council.
+
+      One page per event under /event-details/<slug>/ with an age range and a
+      booking note; roughly forty in the 2026 edition. Pages stay up after the
+      day, so read the year rather than assuming the list is forward-looking, and
+      expect the page to be a shell outside April–June.
+    notes: >-
+      Verified 2026-08-17: /event-details/ returns 200 and carries 39 event
+      pages — Make Your Own Puppet, Rod Puppet Workshop, Circus Céilí, New Moon
+      Youth Dance, Story Seeds, Art Explorers at UCC. This is the single richest
+      free children's listing on the council's site. No address: city-wide.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: family/cork-puppetry-festival
+    name: Cork Puppetry Festival
+    category: family
+    kind: festival
+    status: provisional
+    url: https://corkpuppetryfestival.com/
+    tags: [puppetry, independent]
+    cadence: quarterly
+    hints: |
+      Late July into early August, in venues and on streets across the city.
+      Founded by Dowtcha Puppets in 2014 and run by the Cork Puppetry Company
+      since 2019, so older coverage credits the wrong organiser. If the site
+      comes back, /performances/ is the programme page.
+    notes: >-
+      NOT verified. corkpuppetryfestival.com resolves and is served by
+      Cloudflare, but returned HTTP 522 (origin unreachable) on every attempt on
+      2026-08-17, for both / and /performances/, so nothing on it could be read.
+      The festival itself is real and the domain is the right one — it is
+      indexed with a /performances/ programme page — but a human should confirm
+      the 2026 edition happened and whether the site is being maintained; the
+      last copyright a search index shows is 2023. Left in rather than dropped
+      because a Cork family catalogue without the puppetry festival is missing
+      something a resident would name.
+    addedAt: "2026-08-17"
+
+  - id: family/circus-factory-cork
+    name: Circus Factory Cork
+    category: family
+    kind: organiser
+    status: provisional
+    url: https://circusfactorycork.com/for-kids/
+    homepage: https://circusfactorycork.com/
+    tags: [circus, workshops, independent]
+    cadence: monthly
+    hints: |
+      Bot-walled: a plain fetch gets 403, or a 202 whose body is a captcha
+      meta-refresh. Needs a browser user-agent and probably JavaScript. The wall
+      answers identically for every path, so a status code proves nothing here.
+
+      The youth programme is termly and recurring, not dated — Thursday Youth
+      Circus (7–11), Circus Gymnastics (8+), Saturday Rebel Circus ensemble
+      (10–17) — plus Easter and summer camps at /for-kids/camps/. They also
+      publish a monthly "Cork Circus Guide" post (/your-july-cork-circus-guide/
+      and so on) which lists circus events across the whole city, including other
+      people's: worth reading, and worth setting the venue on those.
+    notes: >-
+      Domain and paths are real — /for-kids/, /circus-classes/, /for-kids/camps/
+      and the monthly guides are all indexed — but the content could not be read
+      on 2026-08-17 through the captcha, so no verifiedAt is claimed. Note the
+      domain is circusfactorycork.com; corkcircusfactory.com and .ie do not
+      resolve at all. No address recorded because none could be read off the
+      site.
+    addedAt: "2026-08-17"
+
+  - id: family/cork-community-art-link
+    name: Cork Community Art Link
+    category: family
+    kind: organiser
+    status: provisional
+    url: https://corkcommunityartlink.com/
+    area: Blackpool
+    address:
+      street: The Lido, 71 Watercourse Road
+      locality: Blackpool
+      city: Cork
+      postcode: T23 DV24
+      country: Ireland
+    tags: [community, workshops, free]
+    cadence: monthly
+    hints: |
+      Dated items sit on the homepage rather than on a listings page —
+      /projects/ and /workshops/ exist but read as programme descriptions. Their
+      work is mostly free, outdoors and in other people's neighbourhoods
+      (Blackpool Block Party on Great William O'Brien Street, screenings in
+      Blackpool Community Centre), so set the venue and expect no ticket link.
+
+      /feed/ is a live RSS feed but does not carry events — its most recent item
+      is from July 2025 and unrelated. Do not use it.
+    notes: >-
+      Verified 2026-08-17: site is live, names the charity (CHY20769) and prints
+      The Lido, 71 Watercourse Road, Blackpool, T23 DV24. Homepage carried dated
+      August 2026 items. They also make and run the Dragon of Shandon Halloween
+      parade, which has its own live site at dragonofshandon.com (confirmed
+      2026-08-17, 20th edition at 7pm on Sat 31 October 2026) — that is left for
+      the festivals catalogue to avoid a duplicate, so if festivals does not take
+      it, it needs adding somewhere.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: family/cork-puppetry-company
+    name: Cork Puppetry Company
+    category: family
+    kind: organiser
+    status: provisional
+    url: https://www.corkpuppetrycompany.com/
+    area: The Marina
+    tags: [puppetry, workshops, independent]
+    cadence: quarterly
+    hints: |
+      Wix site and a portfolio rather than a diary: large-scale puppets for
+      parades, children's workshops and community projects, with no dated items
+      anywhere. Low yield — kept because they run the Cork Puppetry Festival and
+      their parade work (Cork and Dublin St Patrick's Day) is where puppetry
+      shows up in the city's family programme.
+    notes: >-
+      Verified 2026-08-17: site is live and names the company, its artistic
+      director and its base at Marina Commercial Park, shared with Outlaw
+      Studios. Nothing dated on it and the footer copyright reads 2023, so a
+      human should decide whether it is worth a slot at all. No street address
+      recorded — the site names the park but not a street line. Note the
+      workshops page is spelt /worskhops (their typo, not ours).
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: family/cork-city-libraries-children
+    name: Cork City Libraries — Children & Young People
+    category: family
+    kind: listing
+    status: provisional
+    url: https://www.corkcitylibraries.ie/en/what-s-on/children-and-young-people/
+    homepage: https://www.corkcitylibraries.ie/
+    tags: [free, civic, community]
+    cadence: weekly
+    hints: |
+      The largest source of free family events in the city, spread across the
+      branches — Lego Time, Toddler Music Time, Storytime, Happy Talk, teen book
+      clubs — most of them weekly or fortnightly recurring rather than one-offs.
+
+      Individual events live at /en/events/<slug>-ddmm/ and the title carries the
+      day and month with no year ("Lego Time 08/07"), so the year has to come
+      from context; do not assume the list is forward-only. The branch is the
+      venue and is usually only in the event page, not the title. The event tree
+      shown on this page is the whole library programme, adult items included,
+      so filter to the children's and teen strands rather than taking everything.
+
+      Annual set pieces to expect: Summer Reading Challenge, Spring into
+      Storytime, the Children's Book Festival every October, and Teen Day inside
+      Cork World Book Fest in April.
+    notes: >-
+      Verified 2026-08-17: this page returns 200, is Cork City Libraries' own
+      children's and young people's programme page, and links hundreds of dated
+      /en/events/ items. Catalogued here rather than left to literature because
+      the children's programme has its own page and would otherwise be
+      invisible as family; literature will very likely also hold the general
+      /en/events/ listing, which is a different URL — check the two are not
+      harvesting the same events twice.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: family/ucc-science-week
+    name: UCC Science Week
+    category: family
+    kind: listing
+    status: provisional
+    url: https://www.ucc.ie/en/sefs/science-week/
+    area: Western Road
+    tags: [university, free, science]
+    cadence: quarterly
+    hints: |
+      Annual, 8–15 November 2026, free, on the UCC main campus, and explicitly
+      for all ages — magic shows and an expo alongside the lectures. The page is
+      built up through the autumn: it was carrying one confirmed event in
+      mid-August and says to check back, so it is near-empty for most of the
+      year and worth a real look from October.
+    notes: >-
+      Verified 2026-08-17: page is live, stamped "Updated 7 August 2026", and
+      gives Science Week 2026 dates with the theme "Water: From Molecule to
+      Ocean" plus a Chemistry Magic Show on 9 November. Included as the family
+      strand of the university's public programme.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: family/yourdaysout-cork
+    name: Your Days Out — Cork
+    category: family
+    kind: aggregator
+    status: provisional
+    url: https://www.yourdaysout.com/events-on-in-county-cork-ireland
+    homepage: https://www.yourdaysout.com/
+    tags: [family]
+    cadence: daily
+    hints: |
+      Ireland's family days-out listings site; the Cork page is explicitly
+      "Family Events & Things To Do". Events carry age bands (Baby, Under 5,
+      Under 9, Under 12, Teenager) and a free/paid flag, which is exactly the
+      metadata a family listing needs.
+
+      The page embeds a JSON-LD ItemList of Events with names, start dates and
+      Place objects — read that rather than scraping the cards. Refuses some
+      fetchers with a 403; answers a browser user-agent. County-wide, so it
+      reaches well past the 12km radius — check the location on every event.
+    notes: >-
+      Verified 2026-08-17: 200 to a browser user-agent, page titled "What's On in
+      Cork – Family Events & Things To Do", JSON-LD carried real dated items
+      (Playful Culture Trail 1 June 2026, Stories from the Sea 26 Sept 2026).
+      This is the family safety net — daily cadence is deliberate.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: family/eventbrite-cork-family
+    name: Eventbrite — Cork Kids & Family
+    category: family
+    kind: aggregator
+    status: provisional
+    url: https://www.eventbrite.ie/d/ireland--cork/kids-and-family/
+    tags: [family]
+    cadence: weekly
+    hints: |
+      Catches the family events that have no venue website at all — parent
+      groups, summer camps in community centres, music classes programmed into
+      play centres. JSON-LD Events are in the served HTML, so it can be read
+      without executing the page.
+
+      Two cautions: it is Cork the region, not the city, so Carrigtwohill and
+      Youghal turn up and need filtering on location; and it lists events at
+      venues catalogued separately here (Fota Wildlife Park, Mayfield Library,
+      Piccolo Play Village), so set venue.sourceId where it matches rather than
+      creating a second copy of the event.
+    notes: >-
+      Verified 2026-08-17: 200, titled "Discover Kids And Family Events &
+      Activities in Cork, Ireland", and the JSON-LD held eight real dated items
+      including Cushion Concerts at Mayfield Branch Library on 19 Sept 2026 and
+      Family Day Out at Fota Wildlife Park. Weekly rather than daily because
+      Your Days Out is already daily and the two overlap.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"

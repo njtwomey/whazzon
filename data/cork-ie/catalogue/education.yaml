@@ -1,0 +1,183 @@
+schema: whazzon.catalogue/1
+category: education
+label: Learning & Talks
+description: >-
+  Public lectures, adult education and outreach — the programmes whose purpose is
+  that someone leaves knowing something. The two universities carry most of it in
+  Cork, and they belong here rather than among the city-wide aggregators: what
+  they publish is a teaching programme, not a listings service.
+sources:
+  - id: education/university-college-cork
+    name: University College Cork — events
+    category: education
+    kind: listing
+    status: provisional
+    url: https://www.ucc.ie/en/events/
+    homepage: https://www.ucc.ie/
+    tags: [university, talks, free, student]
+    cadence: monthly
+    hints: |
+      UCC programmes a great deal that is open to the public — public lectures,
+      exhibitions, conferences, festivals in Áras na Mac Léinn — but almost none
+      of it reaches one page, and this is the honest state of it rather than a
+      missed URL.
+      The central page carried a single item on 2026-08-17 (Mapping Climate
+      Change Exhibition). The real diary is scattered across roughly 190
+      departmental pages: /en/cacsss/upcomingevents/ (College of Arts, Celtic
+      Studies and Social Sciences research events — two dated items in
+      September), /en/business-school/newsandevents/2026/, /en/chaplaincy/events/,
+      /en/anml/events/ (student centre) and so on, far too fragmented to
+      catalogue as sources. Sweep the central page, and if a run needs more,
+      pick two or three departmental pages rather than all of them.
+      Do not bother with /en/study/upcomingeventsinucc/ — it is recruitment
+      (open days, applicant webinars, guidance counsellor conferences), not
+      public programme. The student societies calendar at
+      socsportal.ucc.ie/calendar/ is client-rendered and yields nothing to a
+      plain fetch.
+      Quiet in summer; expect this to be worth more from late September.
+      UCC's public-facing venues are separate sources: the Glucksman gallery, the
+      Granary Theatre and the Boole Library each publish their own programme.
+    notes: >-
+      Verified 2026-08-17: /en/events/ is the real central events page, titled
+      "Events | University College Cork" under Discover UCC, but it is thin.
+      /en/discover/events/, /en/whatson/, /en/events/archive/ and
+      /en/library/events/ all 404; ?search=all changes nothing. The site's own
+      sitemap confirms the per-department fragmentation.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: education/munster-technological-university
+    name: Munster Technological University — events
+    category: education
+    kind: listing
+    status: provisional
+    url: https://www.mtu.ie/events/?search=all
+    homepage: https://www.mtu.ie/events/
+    tags: [university, talks, free, student]
+    cadence: monthly
+    hints: |
+      MTU absorbed CIT, the Cork School of Music and the Crawford College of Art
+      and Design, so its diary reaches concerts, recitals, theatre and art
+      exhibitions as well as the usual academic programme — its own category list
+      includes Concert, Theatre, Arts Exhibition, Public Talk and Lecturers and
+      Seminars.
+      The `?search=all` param in the url is load-bearing. Without it the page is
+      a month calendar widget that renders no rows; with it the whole diary comes
+      back server-rendered in one fetch under "You are viewing all events", with
+      title, description, location and times. /events/all/ 404s — it is a query
+      param, not a path.
+      MTU spans Cork and Kerry. Locations appear as plain text (MTU Bishopstown
+      Campus, MTU Cork School of Music, MTU Crawford College of Art & Design,
+      MTU Kerry North/South Campus, Clonakilty Agricultural College, National
+      Maritime College of Ireland at Ringaskiddy) and the location filter is
+      client-side only, so filter after fetching and drop the Kerry, Clonakilty
+      and Ringaskiddy rows.
+      Thin over the summer — four events on 2026-08-17, all orientation, careers
+      fairs and open days. Expect the arts programme from late September, and
+      drop recruitment items.
+      The page leaks a PHP server-variable dump inside an HTML comment; ignore it.
+    notes: >-
+      Verified 2026-08-17: "What's On at MTU | Events, Open Days & Lectures |
+      MTU"; ?search=all returned the full diary (New Student Orientation 7-11
+      Sep, MTU Careers Fair Cork Campus 1 Oct, Kerry Autumn Open Day 9 Oct).
+      /artsoffice/ 404s — the Arts Office has no separate events page.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: education/ucc-adult-continuing-education
+    name: UCC Adult Continuing Education
+    category: education
+    kind: listing
+    status: provisional
+    url:
+      - role: listings
+        url: https://www.ucc.ie/en/ace/
+      - role: listings
+        url: https://www.ucc.ie/en/ace/news/
+        note: >-
+          Where the events actually are. Genuine events carry a "Happening On
+          DD/MM/YYYY" stamp; everything else on the feed is an announcement.
+          Found by the 2026-08-17 harvest.
+    homepage: https://www.ucc.ie/en/ace/
+    area: City Centre
+    tags: [university, courses, beginners, community]
+    cadence: monthly
+    hints: |
+      UCC's adult and continuing education arm.
+      **The dates on the landing page are not events.** They are countdown
+      timers on application deadlines, plus news publication dates. An earlier
+      version of this hint claimed ten dated events here; the first harvest read
+      the page properly and found none — two of the deadlines had already passed.
+      Counting dates on a page is not the same as finding events on it.
+      The real mechanism is the `listings` route at /en/ace/news/, an otherwise
+      undifferentiated news feed in which genuine events are stamped
+      **"Happening On DD/MM/YYYY"** beside the publication date. That marker is
+      the only thing separating an event from an announcement, so key on it.
+      Dates there are day-first.
+      **Expect nothing in August.** All three events found by the first harvest
+      were spring — a memorial lecture in May, a workshop in April, a drop-in
+      information session in March. This is worth a quarterly cadence, not a
+      monthly one, until a spring run proves otherwise.
+      When something is listed: an information evening or public talk is an
+      event; a part-time degree starting in September is not, and an application
+      deadline never is. A course of weekly evening classes across a term is one
+      `recurring` event with the pattern in words, never one per class.
+      /en/ace/courses/ is a course browser with no dates at all.
+    notes: >-
+      Separate from `education/university-college-cork`, which is the
+      university's central events page: different URL, different programme.
+      Corrected 2026-08-17 after the first harvest. This entry was added on the
+      strength of a date count that turned out to be deadlines, which is the
+      "a 200 is not proof" rule applied one level down: a date on a page is not
+      proof of an event either.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: education/cork-skeptics
+    name: Cork Skeptics
+    category: education
+    kind: organiser
+    status: dormant
+    url: https://corkskeptics.org/category/events/
+    homepage: https://corkskeptics.org/
+    tags: [talks, community, free]
+    cadence: quarterly
+    hints: |
+      Ran a monthly public-talk series — "Skeptics in the Castle" at Blackrock
+      Castle Observatory among other rooms. Expect nothing until a curator
+      confirms it has restarted.
+    notes: >-
+      `dormant`, not closed and not provisional. The site is live and answers 200
+      on 2026-08-17, but the events category's most recent dated item is 2023 and
+      the page carries a past-events archive rather than a forward programme.
+      Recorded so a future stage 1 run does not re-propose it as new, and so
+      stage 2 does not pay to fetch it — `harvestableSources` covers only
+      `active` and `provisional`.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: education/cork-etb
+    name: Cork Education and Training Board
+    category: education
+    kind: listing
+    status: provisional
+    url: https://www.corketb.ie/news-events/
+    homepage: https://www.corketb.ie/
+    tags: [courses, community, civic, beginners]
+    cadence: quarterly
+    hints: |
+      The statutory further-education body for Cork, running adult education
+      across the city's colleges and training centres. Its news-and-events page
+      answers 200 but carried **no dated forward events** on 2026-08-17 — it
+      reads as a news feed with enrolment notices.
+      Treat an empty result here as the normal case rather than a failure, and
+      expect anything real around the two enrolment seasons, late August and
+      January.
+    notes: >-
+      Verified 2026-08-17: the URL and the organisation are right, but no dated
+      programme was visible. Kept because it is the only civic adult-education
+      publisher in Cork and an omission is harder to catch than a quiet source;
+      a curator may reasonably demote it to `dormant` after a harvest or two
+      confirms it never lists anything.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"

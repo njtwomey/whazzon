@@ -9,7 +9,8 @@ TODAY := $(shell date +%F)
 
 .DEFAULT_GOAL := help
 .PHONY: help install check test typecheck format format-check validate check-urls stale \
-        mock remock compile sync dev build build-pages preview clean distclean refresh refresh-bristol ci
+        mock remock compile sync dev build build-pages preflight preview clean distclean refresh \
+        refresh-all refresh-bristol refresh-cork ci
 
 ## ---------------------------------------------------------------- meta
 
@@ -86,6 +87,19 @@ build-pages: ## Build for GitHub Pages (BASE=/whazzon/ by default)
 	VITE_BASE=$(BASE) npm run build:web
 	@echo "built for base $(BASE) — web/dist is ready to publish"
 
+# Everything the deploy workflow does, in the same order, before pushing. The
+# only things it cannot rehearse are the Pages actions themselves; it does check
+# the two failure modes that have actually bitten — an asset base that does not
+# match the published prefix, and data that no longer validates.
+preflight: check build-pages ## Rehearse the deploy locally before pushing
+	@echo
+	@hidden=$$(find web/dist -name ".*" ! -name "." | wc -l | tr -d ' '); \
+		echo "hidden files in web/dist: $$hidden  (upload-pages-artifact v4+ silently drops them)"
+	@echo "local refs in index.html:"
+	@grep -oE '(src|href)="[^"]+"' web/dist/index.html | grep -v 'https\?:' || true
+	@echo
+	@echo "preflight ok — base $(BASE), $$(du -sh web/dist | cut -f1) to publish"
+
 ## ---------------------------------------------------------------- pipelines
 
 refresh: validate compile sync ## Validate, recompile and sync one location
@@ -98,6 +112,16 @@ remock: mock refresh ## Regenerate mock data, then recompile and sync
 
 refresh-bristol: ## Refresh Bristol specifically
 	@$(MAKE) refresh LOCATION=bristol-uk
+
+refresh-cork: ## Refresh Cork specifically
+	@$(MAKE) refresh LOCATION=cork-ie
+
+refresh-all: ## Recompile and sync every configured location
+	npm run validate -- --all
+	@for id in $$(ls configs/*.yaml | xargs -n1 basename | sed 's/\.yaml//'); do \
+		npm run --silent compile -- $$id; \
+	done
+	npm run sync-web -- --all
 
 refresh-%: ## Refresh any location by id, e.g. make refresh-bristol-uk
 	@$(MAKE) refresh LOCATION=$*

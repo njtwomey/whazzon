@@ -191,3 +191,42 @@ sources:
       rather than a fixed venue. Runs in bursts through the year, so the site
       is quiet for long stretches and then lists a great deal at once.
     addedAt: "2026-08-16"
+
+  - id: cinema/bristol-bad-film-club
+    name: Bristol Bad Film Club
+    category: cinema
+    kind: organiser
+    status: dormant
+    url:
+      - role: listings
+        url: https://bristolbadfilmclub.co.uk/category/upcoming-screenings/
+      - role: feed
+        url: https://bristolbadfilmclub.co.uk/feed/
+        note: >-
+          Real RSS (application/rss+xml). The site is a WordPress blog, so
+          screenings arrive as posts and the feed is the cheapest way to see
+          whether it has restarted.
+    homepage: https://bristolbadfilmclub.co.uk/
+    tags: [independent, community]
+    cadence: quarterly
+    hints: |
+      Screens bad films with live riffing, in borrowed rooms rather than its own
+      — the Cube Microplex and Bristol Improv Theatre both appear in past
+      listings, so set `venue.sourceId` where it matches a catalogued venue.
+      Posts title themselves with the film, the date and the venue, and are
+      edited in place to read "SOLD OUT:" once they go — so the same post is a
+      status change rather than a new event.
+      There is no events API: /wp-json/tribe/events/v1/events 404s, /events/
+      404s, and ?ical=1 returns the HTML homepage rather than a calendar.
+    notes: >-
+      `dormant`, deliberately, rather than omitted. The site is live and answers
+      200, but the most recent item in both the upcoming-screenings category and
+      the RSS feed is January 2025, and nothing is dated forward. Recorded so a
+      future stage 1 run does not re-propose it as a discovery, and so stage 2
+      does not pay to fetch it — `harvestableSources` covers only `active` and
+      `provisional`.
+      Note the domain: `badfilmclub.com` is an unrelated site and
+      `badfilmclub.co.uk` does not resolve. Only `bristolbadfilmclub.co.uk` is
+      this organisation.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"

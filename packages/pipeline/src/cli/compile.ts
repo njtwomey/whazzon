@@ -4,6 +4,7 @@ import { loadCatalogues } from "../lib/catalogue.js";
 import { endDateOf, foldHarvests, sortDateOf, stateOf } from "../lib/fold.js";
 import { loadLocation, resolveLocations } from "../lib/locations.js";
 import { paths, rel } from "../lib/paths.js";
+import { primaryUrl } from "../lib/routes.js";
 import type { Source } from "../schema/catalogue.js";
 import { SnapshotArtefact, type SnapshotEvent } from "../schema/snapshot.js";
 
@@ -101,7 +102,9 @@ for (const locationId of locations) {
         category: source.category,
         kind: source.kind,
         status: source.status,
-        url: source.url,
+        // One link, not the routes: which endpoint a harvest reads is stage 2's
+        // business, and an API URL under an event title would be a bug.
+        url: primaryUrl(source),
         area: source.area,
         address: source.address,
         tags: source.tags,
@@ -144,13 +147,24 @@ for (const locationId of locations) {
           continue;
         }
 
-        // Resolve where this actually happens. Most events omit `venue`
-        // entirely and simply happen at their source.
+        /**
+         * Resolve where this actually happens. Most events omit `venue`
+         * entirely and simply happen at their source.
+         *
+         * The `elsewhere` guard matters more than it looks. `venue` being set at
+         * all is the harvester saying "not at the source" — so when it names a
+         * venue we cannot resolve and gives no address, the honest answer is *no
+         * address*, not the source's. Falling through to `source.address` there
+         * published seven Crawford Art Gallery events at Emmet Place, a building
+         * closed for redevelopment until 2028, when every one of them was
+         * actually at a library or another venue across town.
+         */
         const hostId = event.venue?.sourceId;
         const host = hostId ? catalogueById.get(hostId) : undefined;
+        const elsewhere = event.venue !== undefined;
         const venueName = host?.source.name ?? event.venue?.name ?? source.name;
-        const area = host?.source.area ?? event.venue?.area ?? source.area;
-        const address = host?.source.address ?? event.venue?.address ?? source.address;
+        const area = host?.source.area ?? event.venue?.area ?? (elsewhere ? undefined : source.area);
+        const address = host?.source.address ?? event.venue?.address ?? (elsewhere ? undefined : source.address);
 
         events.push({
           id: event.id,
@@ -170,6 +184,7 @@ for (const locationId of locations) {
           area,
           address,
           url: event.url,
+          sourceUrl: primaryUrl(source),
           image: event.image,
           price: event.price,
           ageRestriction: event.ageRestriction,

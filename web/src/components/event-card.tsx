@@ -1,7 +1,7 @@
 import { CalendarClock, ImageOff, MapPin, Repeat } from "lucide-react";
 import * as React from "react";
 import { Badge } from "@/components/ui/badge";
-import { Card } from "@/components/ui/card";
+import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { bucketOf, formatDate, formatDay, occurrenceLabel, occurrenceTime, priceLabel } from "@/lib/format";
 import { DENSITY, type Density } from "@/lib/density";
@@ -140,16 +140,29 @@ function EventCardImpl({
           onOpen(event);
         }
       }}
+      size={config.cardSize}
       className={cn(
-        "group relative cursor-pointer gap-0 overflow-hidden p-0",
+        // Only `pt-0` is overridden, so the image can meet the top edge.
+        // Everything else — the gaps between regions, the horizontal padding,
+        // dropping the bottom padding when a footer is present — is the Card's
+        // own `--card-spacing` geometry. This used to be `gap-0 p-0`, which opted
+        // out of all of it and left the tag strip pinned on with negative
+        // margins and mismatched top and bottom padding.
+        "group relative cursor-pointer pt-0",
         // Skip layout and paint while off screen — see .card-skip in index.css.
         "card-skip",
         // A card is a button, so hovering should feel like one: it lifts,
         // takes a real shadow, and picks up a coloured edge. The subtle
         // version read as nothing happening at all.
-        "transition-[transform,box-shadow,border-color] duration-200 ease-out",
-        "hover:-translate-y-1 hover:border-primary/40 hover:shadow-xl hover:shadow-primary/10",
-        "focus-visible:-translate-y-1 focus-visible:border-primary/40 focus-visible:shadow-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
+        //
+        // `ring`, not `border`: the Card draws its edge with
+        // `ring-1 ring-foreground/10`, so the `hover:border-primary/40` this used
+        // to carry coloured nothing — there was no border-width to colour. Rings
+        // are box-shadows in Tailwind, so the existing box-shadow transition
+        // animates the colour change for free.
+        "transition-[transform,box-shadow] duration-200 ease-out",
+        "hover:-translate-y-1 hover:shadow-xl hover:shadow-primary/10 hover:ring-primary/40",
+        "focus-visible:-translate-y-1 focus-visible:shadow-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
         "active:translate-y-0 active:shadow-md",
         // Respect a reduced-motion preference: keep the shadow, drop the lift.
         "motion-reduce:transition-none motion-reduce:hover:translate-y-0",
@@ -157,7 +170,10 @@ function EventCardImpl({
       )}
     >
       {showImage ? (
-        <div className={cn("relative overflow-hidden bg-muted", config.imageAspect)}>
+        // `rounded-t-xl` on the wrapper: the Card's own
+        // `*:[img:first-child]:rounded-t-xl` does not fire, because its first
+        // child is this div rather than the image.
+        <div className={cn("relative overflow-hidden rounded-t-xl bg-muted", config.imageAspect)}>
           <img
             src={event.image}
             alt=""
@@ -185,7 +201,7 @@ function EventCardImpl({
           </div>
         </div>
       ) : (
-        <div className="flex items-center justify-between gap-2 border-b bg-muted/40 px-4 py-2.5">
+        <div className="flex items-center justify-between gap-2 rounded-t-xl border-b bg-muted/40 px-(--card-spacing) py-2.5">
           <span className="flex min-w-0 items-center gap-1.5">{!nowOn && <DateChip event={event} asOf={asOf} />}</span>
           <span className="flex shrink-0 items-center gap-1.5">
             {nowOn && <DateChip event={event} asOf={asOf} />}
@@ -196,7 +212,7 @@ function EventCardImpl({
         </div>
       )}
 
-      <div className="flex min-w-0 flex-1 flex-col gap-1.5 p-4 pb-0">
+      <CardContent className="flex min-w-0 flex-1 flex-col gap-1.5">
         {/* Title and pills share a line: the title takes the space it needs and
             truncates, the pills hug the right. They belong together because the
             pills change how the title reads — "Sold out" after the fact is a
@@ -247,10 +263,19 @@ function EventCardImpl({
             {event.summary.replace(/[*_`#[\]]/g, "")}
           </p>
         )}
+      </CardContent>
 
-        {/* A footer, pinned to the bottom edge: tags sit in the same place on
-            every card in a row, however tall the title or summary turned out. */}
-        <div className="-mx-4 mt-auto flex flex-wrap items-center gap-1 border-t px-4 pb-2 pt-1.5">
+      {/* A real footer, so tags sit in the same place on every card in a row
+          however tall the title or summary turned out — and so the card drops its
+          own bottom padding, which is what `has-data-[slot=card-footer]:pb-0`
+          is for. `bg-transparent` overrides the footer's default tint: the rule
+          is enough, and a shaded bar would give a tag row more weight than the
+          event's own title.
+
+          Omitted entirely when there are no tags, rather than left as an empty
+          strip — then the card keeps its ordinary bottom padding. */}
+      {event.tags.length > 0 && (
+        <CardFooter className="flex-wrap gap-1 bg-transparent py-2.5">
           {event.tags.map((tag, index) => (
             <Badge
               key={tag}
@@ -271,8 +296,8 @@ function EventCardImpl({
               +{hiddenTags}
             </Badge>
           )}
-        </div>
-      </div>
+        </CardFooter>
+      )}
     </Card>
   );
 }

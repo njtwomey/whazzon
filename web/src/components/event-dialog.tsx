@@ -54,6 +54,17 @@ export function EventDialog({
   const listing = event.raw.trim();
   const alsoShowListing = Boolean(event.description?.trim()) && listing.length > 0 && !body.includes(listing);
 
+  /**
+   * Plenty of indexes print a title and a date with nothing to click. Falling
+   * back to the page the listing came from is the difference between a dead end
+   * and one more click to a box office — and it is not a guess, it is where we
+   * read this.
+   *
+   * The two are not the same promise, so the tooltip says which one this is.
+   */
+  const link = event.url ?? event.sourceUrl;
+  const linksToEvent = Boolean(event.url);
+
   return (
     <Dialog open={Boolean(event)} onOpenChange={(open) => !open && onClose()}>
       <DialogContent
@@ -73,17 +84,36 @@ export function EventDialog({
         <DialogHeader className="shrink-0 gap-0 border-b p-6 py-4">
           <div className="flex items-center gap-3">
             {/* The title is the link. A separate button said the same thing
-                twice, and the title is what people aim at anyway. */}
-            <DialogTitle className="min-w-0 flex-1 text-balance text-2xl">
-              {event.url ? (
+                twice, and the title is what people aim at anyway.
+
+                No `text-balance` here, and the icon is glued to the last word
+                with a non-breaking space. Balancing distributes content to even
+                out line lengths, and it counted the icon as something to place —
+                so a title that fitted comfortably on one line still put its
+                icon alone on a second. The nbsp then removes the only break
+                opportunity left before the icon. */}
+            <DialogTitle className="min-w-0 flex-1 text-2xl">
+              {link ? (
                 <a
-                  href={event.url}
+                  href={link}
                   target="_blank"
                   rel="noreferrer noopener"
+                  title={
+                    linksToEvent ? undefined : `No link for this event \u2014 opens ${event.sourceName}'s listings`
+                  }
                   className="group inline underline-offset-4 hover:underline"
                 >
                   {event.title}
-                  <ExternalLink className="ml-1.5 inline size-4 shrink-0 align-baseline text-muted-foreground transition-colors group-hover:text-foreground" />
+                  {"\u00a0"}
+                  <ExternalLink
+                    className={
+                      linksToEvent
+                        ? "inline size-4 align-baseline text-muted-foreground transition-colors group-hover:text-foreground"
+                        : // Dimmer, because it promises less: the venue's index
+                          // rather than this event's own page.
+                          "inline size-4 align-baseline text-muted-foreground/50 transition-colors group-hover:text-muted-foreground"
+                    }
+                  />
                 </a>
               ) : (
                 event.title

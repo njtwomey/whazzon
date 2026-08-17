@@ -1,6 +1,6 @@
 ---
 name: stage1-catalogue
-version: "1"
+version: "2"
 stage: 1
 description: Generate the venue/source catalogue for a location from nothing but config/location.yaml.
 ---
@@ -79,6 +79,9 @@ a failure; the whole point is not missing things.
 - **`url` should be the page that lists events**, not the homepage — the
   `/whats-on` or `/events` path where one exists. If unsure, use the homepage
   and say so in `notes`.
+- **Write `url` as a plain string.** It takes a list of roled routes too (see
+  below), but that is for a route you have _confirmed_, and almost everything
+  you propose here should be the one page.
 - **Never invent a URL.** If you do not know a source's real address, still
   include the source, put your best guess in `url`, and say plainly in `notes`
   that it is unverified. A missing venue is a worse outcome than a wrong URL,
@@ -104,6 +107,40 @@ a failure; the whole point is not missing things.
   guessed postcode is worse than an absent one because it silently produces a
   map pin in the wrong place. Aggregators, touring companies and city-wide
   festivals have no address; omit it rather than inventing one.
+
+## More than one way in
+
+`url` accepts either a single URL or a list of routes, each saying what it is
+for. Roles: `listings`, `api`, `feed` (RSS/Atom), `ics`, `booking`.
+
+```yaml
+url:
+  - role: listings
+    url: https://www.example.org/whats-on/
+  - role: api
+    url: https://www.example.org/wp-json/tribe/events/v1/events
+    note: whole diary with body text in one fetch; needs a browser user-agent
+```
+
+At least one route must be `listings` — that is the one a person is sent to, and
+it is what the site links to. Ordering otherwise does not matter, and the routes
+are alternatives rather than steps: stage 2 picks whichever suits it.
+
+Two rules, and the first is the one that matters:
+
+- **Never guess a route.** "Never invent a URL" applies here with force, because
+  these are guessable: `/wp-json/tribe/events/v1/events`, `/events.ics`,
+  `/products.json` are all real conventions and a plausible one is easy to
+  produce. A guessed endpoint that happens to 404 wastes a fetch; one that
+  happens to resolve to something else is far worse. Propose a route only if you
+  have confirmed it answers, and expect `check-urls` to test every route you
+  write — a route that fails is removed, not left in with a note.
+- **Prefer this over prose in `hints`.** "The listings are inside a JS widget but
+  there is a JSON endpoint at …" is a route, not a hint. `hints` is for what
+  cannot be expressed as a field.
+
+A single listings page is the normal case and stays a plain string. Do not
+convert an existing entry to a list to make it look more thorough.
 
 ## Output
 

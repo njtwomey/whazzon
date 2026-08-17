@@ -88,13 +88,36 @@ export function facetPasses(values: (string | undefined)[], facet: Facet): boole
   return true;
 }
 
+/** Labels are terse because these sit three-across in a 256px rail. */
 export const PRICE_OPTIONS = [
-  { value: "any", label: "Any price" },
-  { value: "free", label: "Free only" },
-  { value: "paid", label: "Ticketed only" },
+  { value: "any", label: "Any" },
+  { value: "free", label: "Free" },
+  { value: "paid", label: "Ticketed" },
 ] as const;
 
 export type PriceFilter = (typeof PRICE_OPTIONS)[number]["value"];
+
+/**
+ * The floor on how much the extractor trusted its own reading.
+ *
+ * `confidence` is the one field on an event that is about the *harvest* rather
+ * than the event, and it is honest about a real problem: some listings are a
+ * date buried in a sentence, and the row recorded from one is a guess. Showing
+ * everything is still the default, because a medium-confidence listing is
+ * usually a correct listing with an ambiguous time — but someone who has been
+ * caught out by one wants a way to stop seeing them.
+ */
+export const CONFIDENCE_OPTIONS = [
+  { value: "any", label: "Any" },
+  { value: "medium", label: "Med+" },
+  { value: "high", label: "High" },
+] as const;
+
+export type ConfidenceFilter = (typeof CONFIDENCE_OPTIONS)[number]["value"];
+
+/** How much confidence each level carries, for comparing against the floor. */
+const CONFIDENCE_RANK: Record<SnapshotEvent["confidence"], number> = { low: 0, medium: 1, high: 2 };
+const CONFIDENCE_FLOOR: Record<ConfidenceFilter, number> = { any: 0, medium: 1, high: 2 };
 
 export interface Filters {
   q: string;
@@ -113,6 +136,14 @@ export interface Filters {
   /** Events the source has stopped listing but which have not happened yet. */
   includeCarried: boolean;
   includeFinished: boolean;
+  /**
+   * Only events that link somewhere. A listings index that prints a title and a
+   * date but no href leaves nothing to click through to, which is a dead end if
+   * what you want is to book.
+   */
+  hasLink: boolean;
+  /** Lowest extractor confidence worth showing. */
+  confidence: ConfidenceFilter;
 }
 
 export const DEFAULT_FILTERS: Filters = {
@@ -126,6 +157,8 @@ export const DEFAULT_FILTERS: Filters = {
   price: "any",
   includeCarried: true,
   includeFinished: false,
+  hasLink: false,
+  confidence: "any",
 };
 
 export function activeFilterCount(filters: Filters): number {
@@ -140,6 +173,8 @@ export function activeFilterCount(filters: Filters): number {
   if (filters.price !== "any") n += 1;
   if (!filters.includeCarried) n += 1;
   if (filters.includeFinished) n += 1;
+  if (filters.hasLink) n += 1;
+  if (filters.confidence !== "any") n += 1;
   return n;
 }
 
@@ -192,6 +227,9 @@ export function applyFilters(events: SnapshotEvent[], filters: Filters, asOf: st
     // event with no price information should not be asserted to be either.
     if (filters.price === "paid" && event.price?.free !== false) return false;
     if (filters.onNow && !isOnNow(event, asOf)) return false;
+
+    if (filters.hasLink && !event.url) return false;
+    if (CONFIDENCE_RANK[event.confidence] < CONFIDENCE_FLOOR[filters.confidence]) return false;
 
     if (filters.from || filters.to) {
       // Undated, ongoing and recurring events have no place on a timeline, so a

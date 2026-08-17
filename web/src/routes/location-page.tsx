@@ -12,7 +12,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { Skeleton } from "@/components/ui/skeleton";
 import { useDensity } from "@/lib/density";
 import { activeFilterCount, applyFilters, EMPTY_FACET, useFilters } from "@/lib/filters";
-import { useSnapshot } from "@/lib/snapshot";
+import { useLocations, useSnapshot } from "@/lib/snapshot";
 import type { SnapshotEvent } from "@/lib/types";
 
 /**
@@ -30,6 +30,16 @@ export function LocationPage() {
   const [density, setDensity] = useDensity();
 
   const snapshot = snapshotState.status === "ready" ? snapshotState.data : undefined;
+
+  /**
+   * The city's illustration for the header mark. It lives in the locations index
+   * rather than the snapshot — the snapshot is the events contract and has no
+   * business carrying an asset path — so this is a second, tiny fetch that the
+   * header degrades gracefully without.
+   */
+  const locations = useLocations();
+  const locationImageUrl =
+    locations.status === "ready" ? locations.data.find((l) => l.id === params.locationId)?.imageUrl : undefined;
 
   React.useEffect(() => {
     document.title = snapshot ? `whazzon ${snapshot.location.name.toLowerCase()}` : "whazzon";
@@ -136,6 +146,7 @@ export function LocationPage() {
     <div className="min-h-dvh">
       <SiteHeader
         locationName={snapshot.location.name}
+        locationImageUrl={locationImageUrl}
         asOf={snapshot.asOf}
         eventCount={snapshot.events.length}
         query={filters.q}

@@ -1,0 +1,597 @@
+schema: whazzon.catalogue/1
+category: trad
+label: Trad & Folk
+description: >-
+  Pub sessions, singers' clubs, Comhaltas branches, pipers and folk festivals —
+  the weekly, unticketed, largely unadvertised music that Cork is best at.
+sources:
+  - id: trad/lee-sessions
+    name: The Lee Sessions
+    category: trad
+    kind: aggregator
+    status: provisional
+    url: https://www.theleesessions.com/gigs_full_page.php
+    homepage: https://www.theleesessions.com/
+    tags: [trad, session, free, civic]
+    cadence: weekly
+    hints: |
+      The single most valuable source in this category. Cork City Council's own
+      guide to the city's trad sessions, running continuously since May 2011.
+      The full gig guide is a flat dated list — day heading, then venue, street
+      or full address, and start time — four to eight sessions a night, and when
+      checked it ran from the current day to 27 December. Everything on it is
+      free and unticketed, so expect no prices and no ticket links, and expect
+      the same venue several times on one date (Sin É appears twice most days,
+      early evening and late).
+      Two operational notes. The page is served as Latin-1 and mis-encodes
+      accented characters, so "bodhráns" and "Chorcaí" arrive mangled — repair
+      them against the venue names in this catalogue rather than recording the
+      mojibake. And the venue names carry a stray "'>" prefix on the address
+      line, an unclosed-tag artefact; strip it.
+      /venues.php is not a venue directory despite the name — it is the same
+      listing scoped to the next seven days. Use the full guide.
+      Venues named here that are also catalogued separately below: Sin É,
+      Clancy's, JJ Walsh's, Old Oak, Ó Súilleabháin's, The Gables, An Spailpín
+      Fánach, Charlie's, The Corner House, The Oliver Plunkett, The Long Valley.
+      One venue it lists has no catalogue entry of its own because no page for it
+      could be found anywhere — The Wilton Bar, Wilton, Sundays at 19:00. Set
+      venue on those events from the address the guide prints.
+    notes: |
+      Verified 2026-08-17: /gigs_full_page.php is headed "The Lee Sessions" and
+      "sponsored by Cork City Council", and the first day it printed was Mon Aug
+      17 — the day it was fetched — so the data is live even though the site's
+      chrome is not. The chrome is genuinely stale: the footer reads "© 2015",
+      and one of its three footer links, pulsesoftradition.com, has been taken
+      over by an Indonesian gambling site (title "Kinghorsetoto") on a
+      TeePublic-shaped store. Do not follow that link, and do not treat a healthy
+      200 from it as a live Cork source.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: trad/thesession-cork
+    name: The Session — sessions near Cork
+    category: trad
+    kind: aggregator
+    status: provisional
+    url: https://thesession.org/sessions/nearby?latlon=51.8985,-8.4756&radius=15
+    homepage: https://thesession.org/
+    tags: [trad, session, community]
+    cadence: monthly
+    hints: |
+      The crowd-maintained database of Irish trad sessions, queried at Cork's
+      centre. Each result links to a per-venue page giving the venue's address,
+      phone, a Schedule block naming the days of the week the session runs, and a
+      comment thread where players correct the start times — the times are in the
+      comments far more often than in the structured fields, so read them.
+      Two pages of results at radius 15. It is a whole-of-place query and reaches
+      past the location radius: page 1 ends with Blarney and Cobh, page 2 is all
+      Cobh and Crosshaven. Keep Blarney, drop Cobh and Crosshaven.
+      Nothing here is dated — the output is weekly recurring patterns, so prefer
+      a recurring occurrence and never synthesise a date from a weekday name.
+      Check each session page's "Last updated": several Cork entries were last
+      touched within a month, but Blarney Castle Hotel's was two years old.
+      Needs a browser user-agent — the host 403s a default fetcher.
+    notes: |
+      Verified 2026-08-17: the query is headed "Sessions near Cork, County Cork"
+      and returned Cork City Library, An Spailpín Fánach, The Corner House, Sin
+      É, Franciscan Well, Charlie's, The Gables and Gaia inside the city, plus
+      Blarney Castle Hotel. The latlon is this location's configured centre and
+      the radius was chosen to cover the 12 km radiusKm without reaching Cobh;
+      15 was the smallest value tested that still returned Blarney.
+      Gaia (Monday, 19:00, Facebook-only) is deliberately not catalogued
+      separately — the address The Session holds for it, "11:11 98 Street", is
+      not a real Cork address and could not be resolved to a premises.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: trad/cork-heritage-pubs
+    name: Cork Heritage Pubs
+    category: trad
+    kind: aggregator
+    status: provisional
+    url: https://corkheritagepubs.com/traditional-irish-music-in-cork/
+    homepage: https://corkheritagepubs.com/
+    tags: [trad, pub, historic, free]
+    cadence: monthly
+    hints: |
+      The Cork Heritage Pub Trail's own trad page, and the closest thing several
+      of these pubs have to a website. No dates anywhere — what it carries is
+      which pub has music on which nights, written by the pubs themselves in the
+      first person, so it is good for a recurring occurrence and useless for a
+      dated one. The per-pub pages at /<slug>/ are the detailed ones; /sin-e/ is
+      the one that matters for this category.
+      403s to a plain fetcher but returns 200 to a browser user-agent. Do not
+      mark it closed on a 403.
+      Not everything on the trail is trad — Crane Lane Theatre and The
+      Vicarstown are named on the same page as DJ and late-music rooms, and
+      belong to music or nightlife rather than here.
+    notes: |
+      Verified 2026-08-17: the page is headed "Traditional Irish Music @ Cork
+      Heritage Pubs", is explicit that the trail's trad centre of gravity is Sin
+      É — "home to Cork's longest running traditional music session" — and links
+      to the member-pub pages. Fetched at 138 KB with a browser user-agent after
+      a 403 to the default one.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: trad/sin-e
+    name: Sin É
+    category: trad
+    kind: venue
+    status: provisional
+    url: https://corkheritagepubs.com/sin-e/
+    area: Victorian Quarter
+    address:
+      street: 8 Coburg Street
+      city: Cork
+    tags: [trad, pub, free, session, historic]
+    cadence: monthly
+    hints: |
+      Cork's best-known session pub and the one the rest of this category is
+      measured against — trad seven nights a week, and the Lee Sessions guide
+      lists it twice most days (an early session around 18:00 and a late one
+      around 21:00). The page states the pattern in the pub's own words: music
+      seven days from 18:00 to close Monday to Saturday and from 17:00 on
+      Sunday, with the strongest nights Tuesday 21:30 and Friday and Sunday
+      18:30. Treat all of that as recurring, not dated.
+      No dated listings exist anywhere for this pub, so the weekly signal is the
+      Lee Sessions guide and the pattern above; a run that finds no dated events
+      here is correct.
+      Needs a browser user-agent (the host 403s the default fetcher).
+    notes: |
+      Verified 2026-08-17: the page is headed "Sin É", gives 8 Coburg Street and
+      (021) 450 2266, which matches what The Session holds, and states the
+      session pattern. The pub has no website of its own: sine.ie answers 200 but
+      is a parked domain — a "Redirecting..." stub whose headers advertise
+      parklogic.com — so it must not be catalogued as the venue's site. Its own
+      channels are Facebook and Instagram, which a fetcher cannot read.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: trad/an-spailpin-fanach
+    name: An Spailpín Fánach
+    category: trad
+    kind: venue
+    status: provisional
+    url: https://thesession.org/sessions/150
+    area: City Centre
+    address:
+      street: 28 South Main Street
+      city: Cork
+    tags: [trad, pub, free, session, singing]
+    cadence: monthly
+    hints: |
+      Founded 1779, across from the old Beamish & Crawford brewery, and one of
+      the two or three sessions a Cork musician would name first. The Session
+      holds Wednesday, Thursday and Sunday; the Lee Sessions guide lists it
+      Thursdays at 21:30. Sessions here have historically run most nights at
+      21:30 with a different set of players each night, so expect the printed
+      schedule to understate it.
+      This is also the home of the Cork Singers' Club — Sunday nights from about
+      21:30, upstairs, unaccompanied, October to June — catalogued separately as
+      trad/cork-singers-club. When recording the Sunday night, decide which of
+      the two it is from the month.
+      Everything here is recurring and unticketed. The comment thread on the page
+      is where start times are confirmed; the structured fields give only weekdays.
+    notes: |
+      Verified 2026-08-17: the page names the venue, gives South Main Street,
+      Cork and phone 086 806 2724, and was last updated ten months before
+      checking. The pub has no site of its own — the obvious domain,
+      anspailpinfanach.ie, 200s but redirects to spailpin.ie, which is an
+      unrelated Shopify souvenir shop selling tin whistles and tea towels, not
+      the pub. Its real channel is facebook.com/anspailpinfanac, which a fetcher
+      cannot read.
+      Two address readings disagree: The Session says 29 South Main Street, while
+      the Lee Sessions guide and Pure Cork both say 28. The address above follows
+      the two that agree; a curator should settle it from the door.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: trad/the-corner-house
+    name: The Corner House
+    category: trad
+    kind: venue
+    status: provisional
+    url: https://thesession.org/sessions/1969
+    area: Victorian Quarter
+    address:
+      street: 7 Coburg Street
+      city: Cork
+    tags: [trad, pub, free, session, folk]
+    cadence: monthly
+    hints: |
+      Coburg Street's other session house, forty metres from Sin É. The Session
+      holds Tuesday, Wednesday, Thursday and Friday and was updated two months
+      before checking; Thursday is the night usually named as the main one.
+      Not everything here is trad: Pure Cork describes the programme as "regular
+      live music sessions (blues and trad mainly)", so a run should expect blues
+      nights in the same room and tag accordingly rather than filing them as trad.
+      Recurring only — no dated listing for this pub exists anywhere.
+    notes: |
+      Verified 2026-08-17: the page names The Corner House at 7 Coburg Street
+      with phone 021 450 0655, matching the address on Pure Cork's own page for
+      the pub. thecornerhouse.ie answers 200 but is a parked domain serving the
+      same parklogic.com "Redirecting..." stub as sine.ie — it is not the pub's
+      site and must not be catalogued as one. The pub's own channel is
+      facebook.com/TheCornerHouseCork, which a fetcher cannot read.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: trad/the-gables
+    name: The Gables Bar
+    category: trad
+    kind: venue
+    status: provisional
+    url: https://www.thegablesbar.com/
+    area: Douglas Street
+    address:
+      street: 31 Douglas Street
+      city: Cork
+    tags: [trad, pub, free, session]
+    cadence: weekly
+    hints: |
+      The only session pub in this category with a working dated gig guide of its
+      own, and therefore the best single venue source here. One-page site: the
+      guide is on the root under the #gigs anchor, there are no other pages, and
+      every entry carries a day, a date, a start time and the word FREE. When
+      checked it ran from 19 August into December.
+      Three distinct weekly slots, and they are not the same thing: Wednesday
+      21:30 and Sunday 21:00 are Lee Sessions trad sessions, while Thursday 20:00
+      is the pub's own "Gables Thursday Session", an open eclectic session rather
+      than a trad one. The Wednesday and Sunday entries repeat verbatim week
+      after week, so prefer a recurring occurrence over fifty near-identical
+      dated events.
+    notes: |
+      Verified 2026-08-17: titled "The Gables Bar, Douglas Street, Cork,
+      Ireland", carries a bilingual nav (GIG GUIDE / imeachtaí) and a live gig
+      guide whose first entry was Wed Aug 19. The Session's page for the venue
+      agrees on 31 Douglas Street and adds a comment confirming 21:30 Wednesday,
+      20:00 Thursday, 21:00 Sunday. Both http and https serve the same page.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: trad/charlies
+    name: Charlie's Bar
+    category: trad
+    kind: venue
+    status: provisional
+    url: https://thesession.org/sessions/620
+    homepage: https://www.charliesbarcork.com/
+    area: City Centre
+    address:
+      street: 2 Union Quay
+      city: Cork
+    tags: [trad, pub, free, session]
+    cadence: monthly
+    hints: |
+      Union Quay, across the south channel. The distinctive one is the Sunday
+      afternoon session at 15:30 — the earliest slot in the city and confirmed
+      both by the Lee Sessions guide and by a comment on this page from someone
+      who rang the pub. The Session also holds Tuesday and Thursday.
+      The URL is The Session rather than the pub's own site because
+      charliesbarcork.com is a JavaScript application: the served HTML is 3.5 KB
+      containing a stylesheet link and nothing else, so no listing and no address
+      is extractable from it without a headless browser.
+    notes: |
+      Verified 2026-08-17: the page names Charlie's at Union Quay with phone 021
+      4318342 and was last updated three weeks before checking. Pure Cork's page
+      for the pub gives 2 Union Quay, which is the source of the street above.
+      charliesbarcork.com resolves and is titled "Charlie's Bar Cork", so the
+      domain is right and live — it simply renders client-side.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: trad/o-suilleabhains
+    name: Ó Súilleabháin's
+    category: trad
+    kind: venue
+    status: provisional
+    url: https://www.purecork.ie/food-drink/o-suilleabhains
+    area: City Centre
+    address:
+      street: 21 Washington Street
+      city: Cork
+      postcode: T12 HF95
+    tags: [trad, pub, free, session]
+    cadence: monthly
+    hints: |
+      A recent, deliberately traditional refit on student-facing Washington
+      Street, and one of the busiest entries in the Lee Sessions guide — five
+      nights when checked: Wednesday and Thursday 20:00, Friday 19:30, Saturday
+      20:00, Sunday 20:00. The Lee Sessions guide is the only place those times
+      are published; this page carries the identity, the address and the Eircode
+      but no schedule.
+      The "What's On" block on a Pure Cork venue page is a site-wide carousel,
+      not that venue's diary, so do not attribute the events in it to this pub.
+      Pure Cork soft-404s: an unknown slug returns 200 with an empty <title> and
+      about 206 KB. Check the title before trusting a Pure Cork page.
+    notes: |
+      Verified 2026-08-17: the page is titled "Ó Súilleabháin's | Pure Cork" and
+      gives 21 Washington Street, Cork, T12 HF95 — character-for-character the
+      address the Lee Sessions guide prints for it, which is what ties the two
+      records together. No website of its own was found, and no Facebook or
+      Instagram URL could be confirmed, so the tourist board's page is the best
+      available. It has no session times on it; that is why this entry leans on
+      the Lee Sessions guide.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: trad/old-oak
+    name: Old Oak
+    category: trad
+    kind: venue
+    status: provisional
+    url: https://www.purecork.ie/food-drink/old-oak
+    area: City Centre
+    address:
+      street: 113 Oliver Plunkett Street
+      city: Cork
+    tags: [trad, pub, free, session]
+    cadence: monthly
+    hints: |
+      A large Oliver Plunkett Street pub, and in the Lee Sessions guide four or
+      five nights a week — Tuesday, Wednesday and Thursday at 20:00 and Sunday at
+      19:00 when checked. Its own description is that live music runs Monday,
+      Tuesday, Wednesday and Sunday with DJs Thursday to Saturday, so only part
+      of the week is trad and the rest is not.
+      This page carries the address and that weekly pattern but no dates; the
+      dated signal is the Lee Sessions guide.
+    notes: |
+      Verified 2026-08-17: the page is titled "Old Oak | Pure Cork" and gives 113
+      Oliver Plunkett Street with the live-music pattern quoted above. The pub
+      has no working site: oldoak.ie answers a hard 404 on the root, theoldoak.ie
+      does not resolve, and theoldoak.com serves a 114-byte stub. The Lee
+      Sessions guide files it as "Old Oak, Oliver Plunkett St.".
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: trad/jj-walshs
+    name: JJ Walsh's
+    category: trad
+    kind: venue
+    status: provisional
+    url: https://www.purecork.ie/food-drink/jj-walshs
+    area: City Centre
+    address:
+      street: 64 Oliver Plunkett Street
+      city: Cork
+    tags: [trad, pub, free, session]
+    cadence: monthly
+    hints: |
+      Reopened Oliver Plunkett Street venue with several rooms, a cocktail lounge
+      and an outdoor bar, so its programme is broader than trad. The Lee Sessions
+      guide has it Monday 20:00, Saturday 19:00 and Sunday 19:00.
+      Address and identity only on this page — no schedule, no dates. The dated
+      signal is the Lee Sessions guide.
+    notes: |
+      Verified 2026-08-17: titled "JJ Walsh's | Pure Cork", gives 64 Oliver
+      Plunkett St., which matches the address the Lee Sessions guide prints. No
+      site of its own was found — jjwalshs.ie, jjwalshs.com, jjwalshscork.ie and
+      jjwalsh.ie all fail to resolve.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: trad/the-oliver-plunkett
+    name: The Oliver Plunkett
+    category: trad
+    kind: venue
+    status: provisional
+    url: https://theoliverplunkett.com/live-entertainment/
+    homepage: https://theoliverplunkett.com/
+    area: City Centre
+    address:
+      street: 116 Oliver Plunkett Street
+      city: Cork
+      postcode: T12 P957
+    tags: [trad, pub, free, session]
+    cadence: monthly
+    hints: |
+      Big, busy, tourist-facing, and named by the Lee Sessions as one of its core
+      venues — the trad sessions run upstairs in the Frisky Whiskey Bar, with
+      live music of some kind seven nights.
+      The trap here is that the venue publishes nothing usable. This page says
+      "please see our weekly schedule" and then does not contain one; /whats-on/
+      and /live-music/ are hard 404s; and /event-tickets/ is a page with the
+      heading "BOOK YOUR EVENT TICKETS" and an empty JavaScript widget under it,
+      no dates in the HTML. Expect zero extractable events from the venue's own
+      site and take the sessions from the Lee Sessions guide instead. That is the
+      correct outcome here, not a mis-crawl.
+    notes: |
+      Verified 2026-08-17: /live-entertainment/ is the venue's real music page —
+      titled "Live Entertainment ... at The Oliver Plunkett, Cork" — and its
+      footer gives 116 Oliver Plunkett Street, Cork, T12 P957, which is the
+      source of the address above. WordPress site, no events plugin exposed.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: trad/clancys
+    name: Clancy's
+    category: trad
+    kind: venue
+    status: provisional
+    url: https://www.clancyscork.ie/
+    area: City Centre
+    address:
+      street: 15-16 Princes Street
+      city: Cork
+      postcode: T12 V6FH
+    tags: [trad, pub, free, session]
+    cadence: monthly
+    hints: |
+      In the Lee Sessions guide three nights a week — Monday, Tuesday and
+      Wednesday at 20:00 — filed there as "Clancy's, Marlborough St.", which is
+      the far side of the same corner building.
+      The site itself is a four-venue food and drink presentation (Arthur's Bar,
+      Saints & Sinners, the Cocktail Lab, the rooftop Sky Bar) with a
+      reservations flow and no listings page at all. Nothing dated will come off
+      it; the sessions come from the Lee Sessions guide.
+    notes: |
+      Verified 2026-08-17: titled "Clancy's Cork | Explore & Experience" and
+      gives 15-16 Princes Street, Cork, T12 V6FH in its footer. The address
+      disagrees with the Lee Sessions guide's "Marlborough St." — the premises
+      occupies the corner and both streets are plausible frontages, but a curator
+      should confirm the two records are the same pub before this entry is
+      promoted.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: trad/the-long-valley
+    name: The Long Valley Bar
+    category: trad
+    kind: venue
+    status: provisional
+    url: https://www.thelongvalleybar.ie/events/
+    homepage: https://www.thelongvalleybar.ie/
+    area: City Centre
+    address:
+      street: 7 Winthrop Street
+      city: Cork
+    tags: [trad, pub, free, historic]
+    cadence: monthly
+    hints: |
+      The weakest trad entry in this file, and included because the Lee Sessions
+      names it as one of its venues and the Cork Folk Festival has programmed a
+      21:00 trad session here. Its own /events/ page is a WordPress news feed
+      whose newest post was October 2025 when checked, and none of the three
+      visible posts is a trad session — a jazz festival lineup, Halloween, and
+      the Ó Bhéal weekly poetry night upstairs in the Hayloft. The current Lee
+      Sessions guide does not list it.
+      So: expect nothing most of the year, and expect it to appear during the
+      folk festival in early October. A run that finds no trad here is right.
+      Do not follow longvalleybar.com — that domain is parked and for sale.
+    notes: |
+      Verified 2026-08-17: /events/ is the pub's real events page, titled "Events
+      | Long Valley Bar, Wintrop Street, Cork City" (the typo is theirs). Pure
+      Cork gives 7 Winthrop St. for the pub, which is the source of the street
+      above. Whether this is still a session pub at all is a curation question
+      rather than a URL one — the evidence for the session is the Lee Sessions
+      prose and a 2019 festival listing, not anything current.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: trad/blarney-castle-hotel
+    name: Blarney Castle Hotel
+    category: trad
+    kind: venue
+    status: provisional
+    url: https://blarneycastlehotel.com/
+    area: Blarney
+    address:
+      street: The Square
+      locality: Blarney
+      city: Cork
+      postcode: T23 TCF6
+    tags: [trad, session, free]
+    cadence: monthly
+    hints: |
+      The one session outside the city in this file — Blarney is inside the 12 km
+      radius. The bar's trad session is Tuesday according to The Session, but
+      that entry was last updated two years before checking, so confirm it before
+      relying on it.
+      The hotel publishes no listings. The root is a rooms-and-bar page whose only
+      gesture at a programme is the line "FOLLOW US FOR ALL MUSIC EVENTS AND
+      UPDATES" over a social link, so the music is announced on Facebook and
+      nowhere fetchable. Expect no dated events.
+    notes: |
+      Verified 2026-08-17: root is titled "Home - Blarney Castle Hotel" and gives
+      The Square, Blarney, Co. Cork, T23 TCF6, which is the address above read
+      off the hotel's own page. It describes traditional music in the bar but
+      names no night and no time. The weakest evidence of a live session in this
+      file after The Long Valley.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: trad/cork-pipers-club
+    name: Cork Pipers' Club
+    category: trad
+    kind: organiser
+    status: provisional
+    url: https://www.corkpipersclub.com/news/
+    homepage: https://www.corkpipersclub.com/
+    tags: [trad, classes, community, historic]
+    cadence: monthly
+    hints: |
+      Cumann na bPíobairí Corcaigh, founded 1898 and one of the oldest pipers'
+      clubs anywhere — uilleann piping specifically, which nothing else in this
+      file covers. What it programmes is club meetings, recitals, an annual tionól
+      and classes rather than a weekly session, so expect a handful of events a
+      year and long quiet stretches.
+      WordPress, and everything dated arrives as a news post, so read the posts
+      and their dates. Classes are held in the SMA Hall in Wilton and run in terms
+      from January and September; the /classes/ page describes them but does not
+      date them.
+      The club has been rebuilding since covid — the recent posts are about
+      meetings to reinvigorate it — so treat the programme as thin rather than
+      absent, and do not infer closure from a quiet month.
+    notes: |
+      Verified 2026-08-17: the site is titled "Cork Pipers Club — Cumann na
+      bPíobairí Corcaigh" and its three newest posts are dated November 2025,
+      January 2026 and March 2026, so it is live and maintained. No street
+      address is published, so none is recorded. /feed/ exists but 302s off-host
+      to feedburner.com, so it is not offered as a route.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: trad/douglas-comhaltas
+    name: Douglas Comhaltas
+    category: trad
+    kind: organiser
+    status: provisional
+    url: https://www.douglascomhaltas.com/
+    area: Douglas
+    tags: [trad, classes, community, family]
+    cadence: monthly
+    hints: |
+      Craobh na Dúglaise, the largest Comhaltas branch in the city — over three
+      hundred members aged five to eighty-five, classes every Wednesday from
+      17:00 to 21:00 in Gaelscoil na Dúglaise in Douglas village, across every
+      traditional instrument plus song and dance.
+      What this yields is a weekly recurring class rather than events, and the
+      class term is the thing that changes, not the schedule. Branch concerts,
+      céilís and fleadh entries are announced on Facebook and Instagram
+      (@comhaltasdouglas) rather than on the site, so expect the site to be
+      almost static and do not read that as dormancy. The Fógraí/Notices page is
+      the only part that ever carries anything dated.
+    notes: |
+      Verified 2026-08-17: bilingual site titled "Douglas Comhaltas", states the
+      Wednesday class pattern, the venue and the membership figures quoted above.
+      Cork City Council's own site links to the branch, which corroborates it.
+      No postal address is published for the branch itself — the class venue is
+      recorded in hints rather than as an address, since it is not the
+      organisation's own premises.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: trad/cork-singers-club
+    name: Cork Singers' Club
+    category: trad
+    kind: organiser
+    status: provisional
+    url: https://motherjonescork.com/tag/cork-singers-club/
+    area: City Centre
+    tags: [trad, singing, free, community]
+    cadence: quarterly
+    hints: |
+      Founded 1993. Unaccompanied traditional singing — no instruments allowed —
+      upstairs at An Spailpín Fánach on South Main Street on Sunday nights from
+      about 21:30, October to June, dark in July and August, with Jim Walsh as
+      fear an tí. That weekly session is the club's real activity and it is
+      announced nowhere a fetcher can read it.
+      This URL is therefore a fallback rather than a listings page: it is the
+      Spirit of Mother Jones Festival's tag archive for the club, which has opened
+      that festival every year since 2012 and is the one appearance of the club
+      that anybody writes down. Expect dated content from it only around late
+      July, and expect the weekly session to have to be recorded as a recurring
+      occurrence from the pattern above rather than from any page.
+    notes: |
+      Verified 2026-08-17: the tag page loads and carries several posts
+      describing the club in detail — "Club members also gather each Sunday night
+      at An Spailpín Fánach", "no instruments are allowed", "Under the Fear An Tí
+      Jim Walsh" — including the 2026 festival programme post.
+      Said plainly: the club has no website and no confirmable social URL, so this
+      entry does not point at the club's own publishing. That is a real finding
+      about how Cork's singing tradition is organised, not a gap that a better
+      search would close. A curator who can get the club's Facebook page should
+      replace this URL with it.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"

@@ -1,0 +1,1059 @@
+schema: whazzon.catalogue/1
+category: music
+label: Music
+description: >-
+  Concert halls, songwriter rooms, converted churches, club and warehouse
+  spaces, the docklands marquee season, the conservatoire, and the promoters and
+  gig guides that carry what no single venue publishes. Cork's largest category.
+sources:
+  - id: music/cyprus-avenue
+    name: Cyprus Avenue
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.cyprusavenue.ie/gigs
+    homepage: https://www.cyprusavenue.ie/
+    area: City Centre
+    address:
+      street: Caroline Street
+      city: Cork
+      postcode: T12 PY8A
+    tags: [independent, mid-size, indie, touring]
+    cadence: weekly
+    hints: |
+      Cork's main independent mid-size room, and the one most touring indie acts
+      play. The listings path is /gigs with no trailing segment — /whats-on/
+      returns the site chrome with no gigs in it.
+      One box office covers three rooms in the same complex: Cyprus Avenue
+      itself, the 80-capacity Winthrop Avenue upstairs (opened 2019, for newer
+      acts) and the Old Oak next door. Listings name the room, so read it off
+      each entry rather than assuming Cyprus Avenue.
+      Dates run about five months out with a few entries into 2027. Rendered as
+      a static table of date, act, doors time and price, with no pagination.
+    notes: |
+      Verified 2026-08-17: /gigs is headed "CYPRUS AVENUE", gives "Caroline
+      Street, Cork Ireland, T12 PY8A" matching the address below, and lists
+      dated gigs from 20 Aug 2026 (The Wailers, Babyshambles 22 Aug, Boyce
+      Avenue 2 Sep). The catalogued homepage returns only header and footer to a
+      fetcher, which is why /gigs and not the root.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/coughlans
+    name: Coughlan's
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.coughlans.ie/whats-on/
+    area: Douglas Street
+    address:
+      street: 7 Douglas Street
+      city: Cork
+    tags: [independent, grassroots, folk, acoustic, pub]
+    cadence: weekly
+    hints: |
+      The city's best-loved songwriter room, on the Douglas Street side. Very
+      high volume — something on most nights, often two or three on a Saturday.
+      Three strands share the one list and only one of them is this category:
+      live music, the "Comedy Cavern" stand-up nights, and Monday trad sessions.
+      Prefix the listing title to tell them apart.
+      The Monday trad session is weekly and unticketed — state it as a recurring
+      occurrence rather than minting one event per Monday.
+      Coughlan's also runs its own festival in late September, tagged #CLMF26 in
+      titles, and occasionally promotes into The Everyman on MacCurtain Street —
+      set the venue on those rather than filing them here.
+      Titles carry "SOLD OUT" inline; that is decoration, not part of the name.
+      The host 403s some fetchers but answers a browser user-agent.
+    notes: |
+      Verified 2026-08-17: /whats-on/ returns 403 to a plain fetcher and 200 to
+      a browser user-agent. The page is titled "Coughlan's Bar & Live Music
+      Venue, Cork, Ireland" and lists a dense dated programme from 17 Aug 2026
+      (Trad Session 17 Aug, Son Of Crazy Chester 22 Aug, Paul Tiernan 27 Aug)
+      through late October, including Cork Jazz Festival dates. /feed/ is not a
+      feed — it serves the site's catch-all HTML — so no feed route is proposed.
+      Address is from the corkgigs.com venue profile, not read off the venue's
+      own page.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/live-at-st-lukes
+    name: Live at St Luke's
+    category: music
+    kind: venue
+    status: provisional
+    url:
+      - role: listings
+        url: https://www.corkgigs.com/venue/live-at-st-lukes
+        note: third-party listings page; the venue's own domain does not resolve
+      - role: booking
+        url: https://www.eventbrite.ie/o/the-good-room-34032697875
+        note: promoter's Eventbrite, covering St Luke's and the Savoy together
+    area: Victorian Quarter
+    address:
+      street: Summerhill North
+      city: Cork
+      postcode: T23 XE29
+    tags: [independent, historic, acoustic, classical, folk]
+    cadence: weekly
+    hints: |
+      A deconsecrated church up the hill on the north side, prized for its
+      acoustic and used for seated, listening-room shows — songwriters, chamber
+      and choral work. Run by the promoter The Good Room, which also programmes
+      the Savoy, so the same Eventbrite carries both: read the venue off each
+      listing rather than assuming St Luke's.
+      Do not follow liveatstlukes.com. It is the venue's real address and is
+      still printed everywhere, but it is currently unreachable — see notes.
+    notes: |
+      Verified 2026-08-17, and this one needs an owner's decision.
+      liveatstlukes.com is registered and its nameservers answer, but the
+      authoritative A record is 127.0.0.1 with a 3600s TTL — confirmed
+      identically via 8.8.8.8 and 1.1.1.1, so this is the real published record
+      and not a local resolver artefact. Every connection is therefore refused,
+      from anywhere. The venue is emphatically not closed: the corkgigs profile
+      is headed "Live At St. Luke's", gives "Summerhill North, Cork", and shows
+      forthcoming gigs, and the corkgigs diary listed The Tallest Man On Earth
+      at Live At St. Luke's on 27 Aug 2026. The Eircode T23 XE29 below is read
+      off the venue record in The Good Room's Eventbrite page. Worth someone
+      telling the venue their DNS is broken.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/triskel-christchurch
+    name: Triskel Christchurch
+    category: music
+    kind: venue
+    status: provisional
+    url: https://triskelartscentre.ie/live-music/
+    homepage: https://triskelartscentre.ie/
+    area: City Centre
+    address:
+      street: Tobin Street
+      city: Cork
+    tags: [independent, classical, jazz, historic, concert-hall]
+    cadence: weekly
+    hints: |
+      A former church inside the Triskel Arts Centre complex on Tobin Street,
+      and the city's main room for chamber music, early music and serious jazz.
+      /live-music/ is the music-scoped view; /whats-on/ is the same hub widened
+      to include cinema, visual art and talks. Prefer /live-music/ here so the
+      film and gallery programme does not arrive in this category.
+      Much of the programme is stated as a named series running over months —
+      Spotlight Chamber Music, Autumn String Quartet Series, Triskel Lunchtime
+      Jazz, ECM Cork — so expect series pages alongside single concerts.
+      Gulpd is Triskel's own bar and small venue on the same site; gulpd.com
+      resolves but serves an empty page, so anything at Gulpd should be looked
+      for here rather than on its own domain.
+    notes: |
+      Verified 2026-08-17: /live-music/ is titled "Live Music – Triskel Arts
+      Centre" and /whats-on/ carries dated entries in the served HTML, both as
+      day-and-month ("22 Aug", "29 Sep") and as ISO dates, linking to
+      /events/<slug>/ pages (Aurelian Ensemble, ConTempo Quartet, Bill
+      Laurance). /wp-json/tribe/events/v1/events 404s and /feed/ returns a 500,
+      so no api or feed route is proposed.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/crane-lane-theatre
+    name: Crane Lane Theatre
+    category: music
+    kind: venue
+    status: provisional
+    url:
+      - role: listings
+        url: https://www.cranelanetheatre.ie/event/
+        note: grid is loaded by AJAX — nothing dated in the served HTML
+      - role: feed
+        url: https://www.cranelanetheatre.ie/event/feed/
+        note: one item per event with title, link and body text; pubDate is the publication date, not the event date
+    area: City Centre
+    address:
+      street: Phoenix Street / Pembroke Street
+      city: Cork
+    tags: [independent, club, historic, free, nightly]
+    cadence: weekly
+    hints: |
+      A 1920s former gentlemen's club off Oliver Plunkett Street, now part
+      country pub, part ballroom, part cabaret room. Music almost every night
+      and much of it free. Two rooms are listed separately — Crane Lane Theatre
+      and Cantys — plus a Crystal Bar DJ slot that appears in listing titles in
+      brackets.
+      Take the dates from the RSS feed or from Cork Heritage Pubs rather than
+      /event/: the listings grid is an AJAX widget whose empty state reads
+      "Sorry, No events are scheduled at this time", and the served HTML for
+      /event/ contains no event links and no dates at all. The feed gives
+      titles and body copy but each event's actual date lives on its own page.
+      Part of the Cork Heritage Pubs group, whose /whats-on/ page carries the
+      same gigs with dates and times already attached.
+    notes: |
+      Verified 2026-08-17: root is titled "Home - Crane Lane Theatre", the
+      corkgigs profile gives "Phoenix St / Pembroke St, Cork" matching the
+      address below, and /event/ is titled "Events Archive - Crane Lane
+      Theatre". /events/ redirects to /live-music which is itself a 404, and
+      /gigs/ and /listings/ are 404s, so /event/ is the real path.
+      /wp-json/wp/v2/event 404s. /event/feed/ is a genuine events RSS feed —
+      first item "The Guilteens and Sir Marmalade" with a full description.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/the-roundy
+    name: The Roundy
+    category: music
+    kind: venue
+    status: provisional
+    url: https://theroundy.ie/whats-on/
+    homepage: https://theroundy.ie/
+    area: City Centre
+    address:
+      street: 1 Castle Street
+      city: Cork
+      postcode: T12 RX09
+    tags: [independent, grassroots, free, pub, nightly]
+    cadence: weekly
+    hints: |
+      Small curved-corner bar on Castle Street with a nightly programme —
+      songwriters, DJs, comedy and the odd book launch, so not everything listed
+      is music. Listings run roughly six weeks ahead and are dated with weekday
+      and month but no year.
+    notes: |
+      Verified 2026-08-17: /whats-on/ is titled "Whats On - The Roundy Bar &
+      Cafe", prints Eircode T12 RX09, and lists 30 dated entries running from
+      18 Aug 2026 onward.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/fred-zeppelins
+    name: Fred Zeppelins
+    category: music
+    kind: venue
+    status: provisional
+    url: https://fredzeppelins.com/upcoming-shows/
+    homepage: https://fredzeppelins.com/
+    area: City Centre
+    address:
+      street: Parliament Street
+      city: Cork
+    tags: [independent, rock, grassroots, free, pub]
+    cadence: weekly
+    hints: |
+      Cork's rock and metal bar since 1997, on Parliament Street. Expect a run
+      here to find nothing extractable and that to be correct rather than
+      broken: /upcoming-shows/ is a stack of poster images with no text
+      anywhere. There are no weekday-and-month strings, no long-form dates and
+      no event links in the HTML — the only clue to what is on is the image
+      filename ("3-AUGUST-live-@-freds"). Read the programme from corkgigs
+      instead, and treat this URL as identity rather than data.
+      "Tom Keating Presents" is the in-house promoter strand and lives at
+      /tom-keating-presents/, which is posters only for the same reason.
+    notes: |
+      Verified 2026-08-17: fredzeppelins.com is titled "Fred Zeppelins – Cork's
+      Best Rock Bar Since 1997" and /upcoming-shows/ is a real page linked from
+      the venue's own nav. /gigs/, /events/ and /whats-on/ are all 404s. The
+      corkgigs profile confirms Parliament Street and points at this domain, but
+      itself showed no upcoming events. Address is from corkgigs, not from the
+      venue's own page.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/dali
+    name: Dali
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.eventbrite.ie/o/dali-cork-18153752920
+    area: City Centre
+    address:
+      street: 8 Lavitts Quay
+      city: Cork
+      postcode: T12 K20P
+    tags: [independent, club, electronic, nightlife]
+    cadence: weekly
+    hints: |
+      Cork's venue for electronic and alternative music, upstairs over Nudes on
+      Lavitts Quay. Open Thursday to Saturday and occasionally Tuesday, so most
+      listings fall at the end of the week.
+      It has no website: dalibar.ie and dali.ie do not resolve at all, and the
+      venue programmes through Eventbrite, Instagram and Facebook. The
+      Eventbrite organiser page confirms the identity but renders its event list
+      client-side, so cross-check corkgigs and Resident Advisor for lineups.
+    notes: |
+      Verified 2026-08-17: the Eventbrite page is titled "dali Cork" and
+      describes it as "Corks only venue dedicated to" electronic and alternative
+      music, but exposed no dates to a fetcher. dalibar.ie, www.dalibar.ie and
+      dali.ie all have no A record. One correction worth recording: this venue
+      is on Lavitts Quay in the city centre, not in Blackpool — the corkgigs
+      profile gives "8 Lavitts Quay, Cork, T12 K20P". It occupies the former
+      Pavilion building's scene but The Pavilion itself trades separately and is
+      catalogued below.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/the-pavilion
+    name: The Pavilion
+    category: music
+    kind: venue
+    status: provisional
+    url: https://thepav.ie/whats-on/
+    homepage: https://thepav.ie/
+    area: City Centre
+    address:
+      street: Carey's Lane
+      city: Cork
+    tags: [independent, club, mid-size, nightlife]
+    cadence: weekly
+    hints: |
+      Carey's Lane venue in the Huguenot Quarter, running club nights, tribute
+      shows and mid-size gigs. Two rooms with quite different programmes and
+      the room is named on every listing: "The Pavillion" for ticketed shows,
+      "Intermission Bar" for the free late-night DJ strand. Note the venue
+      spells the larger room with a double L in listings.
+      Prices and door times are printed alongside each date, and many
+      Intermission nights are free and weekly-recurring — Panic At The Disco
+      runs every Wednesday, so prefer a recurring occurrence over fifty-two
+      single events.
+    notes: |
+      Verified 2026-08-17: /whats-on/ is titled "What's On - The Pav" and lists
+      dated events from 19 Aug 2026 (Panic At The Disco 19 Aug, Kiss Nights Cork
+      City 22 Aug, Aja - A Tribute To Steely Dan 12 Sep). /events/ and /gigs/
+      are 404s. Address is from the corkgigs profile.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/savoy-theatre
+    name: Savoy Theatre
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.corkgigs.com/venue/savoy-theatre
+    area: City Centre
+    address:
+      street: 7 Drawbridge Street
+      city: Cork
+      postcode: T12 YW13
+    tags: [mid-size, club, touring, nightlife]
+    cadence: weekly
+    hints: |
+      Former cinema off Patrick Street, now a mid-size standing room for touring
+      acts, tribute shows and club nights. Programmed by The Good Room, so its
+      dates share an Eventbrite with Live at St Luke's — read the venue off each
+      listing.
+    notes: |
+      Verified 2026-08-17: the corkgigs profile is headed "Savoy Theatre", gives
+      "7 Drawbridge Street, Cork T12 YW13" matching the address below, and shows
+      forthcoming gigs; the corkgigs diary listed a Savoy Theatre show on 21 Aug
+      2026. savoycork.ie resolves but answered 503 when checked, which is a
+      server fault rather than a dead domain, so it is worth retrying later
+      rather than being recorded as the venue's URL now.
+      The Good Room Eventbrite route was removed on 2026-08-17: St Luke's carries the same promoter page, and two sources on one URL means paying twice and showing every gig twice.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/cork-city-hall
+    name: Cork City Hall
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.corkgigs.com/venue/city-hall-cork
+    homepage: https://www.corkcity.ie/en/council-services/public-info/events-hosting-and-licences/use-of-council-facilities/concert-hall-and-millennium-hall/
+    area: City Centre
+    tags: [major, civic, concert-hall, classical]
+    cadence: monthly
+    hints: |
+      The council's own 1,189-seat concert hall on the south channel, used for
+      orchestral concerts, choral galas and the larger touring rock and pop
+      shows. Monthly is enough: a handful of concerts a year, each announced
+      months out, so the list barely moves week to week.
+      The council's own page is a venue-hire page, not a programme, and the
+      shows themselves are announced by whoever promotes them — The Good Room,
+      Aiken, MCD — so the corkgigs venue view is the only page that lists them
+      in one place. No address is set because neither page printed one.
+    notes: |
+      Verified 2026-08-17: the corkgigs profile is headed "Cork City Hall" and
+      shows a "Forthcoming gigs at Cork City Hall" section, and the corkgigs
+      diary listed Wunderhorse at Cork City Hall on 26 Aug 2026. The council
+      page is titled "Concert Hall and Millennium Hall - Cork City Council" and
+      describes hire terms rather than events.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/maureens
+    name: Maureen's
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.maureenscork.com/events
+    homepage: https://www.maureenscork.com/
+    area: Shandon
+    address:
+      street: 14 John Redmond Street
+      locality: Shandon
+      city: Cork
+    tags: [independent, grassroots, free, listening-bar]
+    cadence: weekly
+    hints: |
+      Small bar up the hill in Shandon, by the bell tower — one of very few
+      music rooms on that side of the river, so worth keeping even when quiet.
+      Squarespace events collection: /whats-on 404s, /events is the path.
+      Expect low volume and gaps between shows.
+    notes: |
+      Verified 2026-08-17: /events is titled "Events — Maureen's" and is a
+      Squarespace events collection. The corkgigs profile gives "14 John Redmond
+      Street, Shandon, Cork City" matching the address below and points at this
+      domain, though corkgigs itself showed no upcoming events. No ICS route is
+      proposed: the page carries Squarespace's iCal/GCal link markup but no
+      endpoint was confirmed by fetching.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/an-brog
+    name: An Bróg
+    category: music
+    kind: venue
+    status: provisional
+    url: https://anbrog.ie/
+    area: City Centre
+    address:
+      street: 74 Oliver Plunkett Street
+      city: Cork
+    tags: [independent, rock, free, pub, student, nightly]
+    cadence: weekly
+    hints: |
+      Late-opening rock and indie bar on the corner of Oliver Plunkett Street
+      and Grand Parade, heavily student-facing, with DJs and bands most nights
+      and no cover.
+      The root is the only page — anbrog.com redirects here, /events/ 404s, and
+      the site carries no dates and no internal links, programming through
+      Instagram instead. A run that finds nothing here is behaving correctly;
+      corkgigs and the People's Republic of Cork guide are the fallbacks.
+    notes: |
+      Verified 2026-08-17: anbrog.com 301s to anbrog.ie, which is titled "An
+      Bróg Cork". No date strings and no internal navigation links were present
+      in the served HTML. Address is from the corkgigs profile, which also
+      points at this domain.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/the-oliver-plunkett
+    name: The Oliver Plunkett
+    category: music
+    kind: venue
+    status: provisional
+    url: https://theoliverplunkett.com/event-tickets/
+    homepage: https://theoliverplunkett.com/
+    area: City Centre
+    address:
+      street: 116 Oliver Plunkett Street
+      city: Cork
+      postcode: T12 P957
+    tags: [free, pub, nightly, trad, historic]
+    cadence: weekly
+    hints: |
+      Big multi-room pub with live music every night across several stages, plus
+      trad sessions — the sessions are noted here rather than catalogued,
+      because this room's main output is nightly covers, blues and singer
+      slots.
+      Its own site is close to useless for listings: /event-tickets/ is titled
+      "Events" but carries no dates, and /live-entertainment/ has been repurposed
+      as a cocktails page. Take the dated programme from Cork Heritage Pubs,
+      which lists this pub by name.
+    notes: |
+      Verified 2026-08-17: root is titled "The Oliver Plunkett - Cork City" and
+      prints Eircode T12 P957. /whats-on and /live-music/ are 404s; /events/
+      redirects to /events-functions/, which is a private-hire page.
+      /event-tickets/ returned 200 and is titled "Events – The Oliver Plunkett"
+      but yielded no date strings from 211 KB of mostly base64 images. Street is
+      from the corkgigs profile.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/bodega
+    name: Bodega
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.bodegacork.ie/
+    area: City Centre
+    address:
+      street: 46-47 Cornmarket Street
+      city: Cork
+    tags: [independent, club, nightlife, free]
+    cadence: weekly
+    hints: |
+      Large room on Cornmarket Street, off the Coal Quay — club nights, DJs and
+      occasional live bands. Part of the Cork Heritage Pubs group, which lists
+      its gigs as "The Old Town Whiskey Bar at Bodega", so the group page is the
+      more reliable source of dates.
+      The host has a TLS quirk: it completed for curl with a browser user-agent
+      but aborted the handshake for a stricter client. Retry rather than
+      treating a handshake failure as a dead site.
+    notes: |
+      Verified 2026-08-17: https://www.bodegacork.ie/ returned 200 to curl with
+      a browser user-agent, and the same URL raised an SSL
+      UNEXPECTED_EOF_WHILE_READING from Python's client, so the certificate or
+      TLS termination is imperfect but the site is live. bodega.ie was not
+      reachable. Address is from the corkgigs profile. Dates were not confirmed
+      on the venue's own page — the Cork Heritage Pubs listing is what confirmed
+      it is programming.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/the-woodford
+    name: The Woodford
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.thewoodford.ie/
+    area: City Centre
+    address:
+      street: Daunt's Square
+      city: Cork
+      postcode: T12 EK53
+    tags: [free, pub, nightly, historic]
+    cadence: weekly
+    hints: |
+      Landmark bar at the junction of St Patrick's Street and Daunt's Square,
+      with weekend live music and DJs. The site is a single brochure page with
+      no dates and no listings section, so expect nothing extractable here and
+      use corkgigs or the People's Republic of Cork guide for the programme.
+    notes: |
+      Verified 2026-08-17: root is titled "The Woodford" and prints Eircode
+      T12 EK53; its own copy places it "at the junction of Saint Patrick's
+      Street and Daunts' Square", which is the street used below. No date
+      strings and no events paths were found. The corkgigs profile files it as
+      "Paul St., Cork", which disagrees with the venue's own page — the venue's
+      page is preferred here, but the discrepancy is worth an owner's eye.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/kino-events-house
+    name: Kino Events House
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.corkgigs.com/venue/kino-events-house
+    homepage: https://www.instagram.com/kinoeventshouse/
+    area: City Centre
+    address:
+      street: 22 Washington Street
+      city: Cork
+      postcode: T12 NY66
+    tags: [independent, events-space, diy, student]
+    cadence: weekly
+    hints: |
+      The former Kino arthouse cinema on Washington Street, reopened as an
+      events room and used for gigs, club nights and one-off promotions in the
+      student end of town. It has no website — the venue's only published
+      contact is an Instagram account — so the URL points at the corkgigs venue
+      view, which is the one fetchable page that would list its dates.
+    notes: |
+      Verified 2026-08-17: the corkgigs profile is headed "Kino Events House"
+      and gives "22 Washington Street, Cork, T12 NY66" matching the address
+      below, with the venue's website recorded as instagram.com/kinoeventshouse.
+      It showed no upcoming events on the day, so the identity is confirmed but
+      the programme was not observable.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/mr-bradleys
+    name: Mr Bradley's
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.corkgigs.com/venue/mr-bradleys-barrack-st
+    area: Barrack Street
+    address:
+      street: Barrack Street
+      city: Cork
+    tags: [independent, grassroots, free, pub, folk]
+    cadence: weekly
+    hints: |
+      Small room on Barrack Street, on the south side climbing away from the
+      river — songwriter and acoustic bills, and one of the few venues in that
+      pocket. No website: mrbradleys.ie does not resolve, so the URL is the
+      corkgigs venue view. Low volume; expect empty weeks.
+    notes: |
+      Verified 2026-08-17: the corkgigs profile is headed "Mr Bradleys" and
+      gives "Barrack St., Cork". www.mrbradleys.ie did not resolve. The profile
+      showed no upcoming events on the day, so this is confirmed as a real
+      venue with an unobserved programme rather than a working listings page.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/charlies-bar
+    name: Charlie's Bar
+    category: music
+    kind: venue
+    status: provisional
+    url: https://charliesbarcork.com/
+    area: City Centre
+    address:
+      street: 2 Union Quay
+      city: Cork
+    tags: [independent, grassroots, free, pub, nightly, trad]
+    cadence: weekly
+    hints: |
+      Riverside bar on Union Quay with live music five nights a week — rock,
+      blues and folk — plus a Sunday afternoon trad session from 3pm, which is
+      noted here rather than catalogued because the room's main output is
+      ticketless rock and blues.
+      The site is a single page: /gigs/ and /events/ both return 200 but serve
+      byte-identical content to the root, so they are soft 404s rather than
+      listings. Nothing dated is published anywhere on the domain; the programme
+      goes out on Facebook and Instagram, so use corkgigs as the fallback.
+    notes: |
+      Verified 2026-08-17: root is titled "Charlie's Bar Cork" and its own copy
+      describes hosting "local, national and international names from Rock to
+      Blues to Folk to Trad on Sunday afternoons". /gigs/ returned identical
+      text to the root, confirming the soft 404. charlies.ie and
+      www.charliesbar.ie have no A record. Address is from the corkgigs profile.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/unitarian-church
+    name: Unitarian Church Cork
+    category: music
+    kind: venue
+    status: provisional
+    url: http://www.unitarianchurchcork.org/Events.html
+    homepage: http://www.unitarianchurchcork.org/
+    area: City Centre
+    address:
+      street: Prince's Street
+      city: Cork
+    tags: [classical, community, historic, free]
+    cadence: monthly
+    hints: |
+      A small church on Prince's Street used as a recital and choral venue — it
+      is one of the Cork International Choral Festival's listed venues and takes
+      chamber and early-music concerts through the year.
+      Its Events page is currently empty, so treat this as a venue whose
+      programme has to be picked up from the choral festival, Triskel or
+      corkgigs. Monthly cadence because the page is not expected to change.
+    notes: |
+      Verified 2026-08-17: the domain answers 200 on both root and
+      /Events.html, and /Events.html is the path the corkgigs profile records —
+      but the page yielded only 23 characters of text ("unitarianchurchcork.org")
+      with no dates, so it is live and correct yet effectively blank. Included
+      because a real choral and recital venue is worth having even with a dead
+      listings page; a human may prefer to point this at the choral festival
+      instead.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/old-oak
+    name: Old Oak
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.corkgigs.com/venue/old-oak
+    area: City Centre
+    address:
+      street: 113 Oliver Plunkett Street
+      city: Cork
+    tags: [free, pub, nightlife, student]
+    cadence: weekly
+    hints: |
+      Long-running late bar on Oliver Plunkett Street with DJs and live music,
+      next door to Cyprus Avenue and sharing that complex's box office for
+      ticketed shows — so some of its gigs appear on cyprusavenue.ie/gigs with
+      the room named. It has no website of its own, so the URL is the corkgigs
+      venue view.
+    notes: |
+      Verified 2026-08-17: oldoak.ie and www.oldoak.ie both return 404. The
+      corkgigs profile is headed "Old Oak", gives "113 Oliver Plunkett St., Cork"
+      matching the address below, and records the venue's only published web
+      address as facebook.com/oldoak. No `homepage` is set because that Facebook
+      URL answers 400 to a fetcher and would fail check-urls forever without
+      telling anyone anything. It showed no upcoming events on the day.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/white-horse-ballincollig
+    name: The White Horse
+    category: music
+    kind: venue
+    status: provisional
+    url: https://whitehorse.ie/
+    area: Ballincollig
+    address:
+      street: West Village
+      locality: Ballincollig
+      city: Cork
+      postcode: P31 YA40
+    tags: [independent, grassroots, folk, pub, trad]
+    cadence: weekly
+    hints: |
+      Ballincollig gastropub with a long-standing live programme and its own
+      guitar club — the main music room west of the city, and worth keeping
+      even though it is outside the centre.
+      The listings are on the root under "Upcoming Shows"; /events/ is a
+      group-bookings page despite the path, and /whats-on/ is a 404. There is
+      also a Sunday trad session stated as a weekly recurrence rather than dated
+      one-offs, and the venue runs a Ballincollig Winter Music Festival at
+      /ballincolligwintermusicfestival/.
+    notes: |
+      Verified 2026-08-17: root is titled "The White Horse – Gastropub Food and
+      Live Music Venue Cork", prints Eircode P31 YA40 matching the corkgigs
+      profile, carries an "Upcoming Shows" block with 12 dated entries from
+      21 Aug 2026 onward, and advertises "Traditional Irish Music Every Sunday".
+      /events/ returned 200 but is titled "Group Bookings at The White Horse"
+      with no dates, which is why the root is used.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/mtu-cork-school-of-music
+    name: MTU Cork School of Music
+    category: music
+    kind: venue
+    status: provisional
+    url: https://www.mtu.ie/events/
+    area: City Centre
+    tags: [university, classical, student, free, concert-hall]
+    cadence: monthly
+    hints: |
+      The conservatoire in the middle of the city, on Union Quay, and its Curtis
+      Auditorium — student recitals, ensemble and orchestral concerts, many free
+      and announced at short notice. This is the source that carries Cork's
+      classical undercard.
+      The URL is MTU's institution-wide events page, which has a location filter
+      whose options include "MTU Cork School of Music" — that is the filter to
+      use, because most of what is listed unfiltered is open days and careers
+      fairs rather than concerts. The listing itself is JavaScript-driven and
+      exposes no event links or dates to a fetcher, so expect a headless browser
+      to be needed, and expect the concert programme to be under-represented.
+      No address is set: the school's Union Quay location was not confirmed on
+      any page fetched.
+    notes: |
+      Verified 2026-08-17, with a caveat. No dedicated Cork School of Music site
+      exists any more — mtu.ie/cork-school-of-music, /csm/,
+      /departments/corkschoolofmusic/ and /schools/cork-school-of-music/ are all
+      404s, and the pre-merger cit.ie/csm and curtisauditorium.ie do not
+      resolve. mtu.ie/events/ is real and its category filter markup contains
+      the literal value "Location>MTU Cork School of Music", which is what
+      confirms the school is a first-class location in that system. Adding the
+      filter as a query parameter changed the response, but no dated events and
+      no /events/events-details/ links appeared in the HTML of either version —
+      only the date-range picker's own bounds. A human should decide whether
+      this is worth harvesting at all, or whether the recital programme needs a
+      different route.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/ucc-music
+    name: UCC Department of Music
+    category: music
+    kind: listing
+    status: provisional
+    url: https://www.ucc.ie/en/fmt/music/events/
+    area: Bishopstown
+    tags: [university, classical, student, free, community]
+    cadence: monthly
+    hints: |
+      The university's own music department events — lunchtime recitals,
+      ensembles, visiting composers and research seminars, mostly free and
+      largely invisible outside the campus. The department also programmes into
+      the Aula Maxima and the Boole lecture theatres on College Road, so read
+      the room off each listing.
+      Note the path: /en/music/ redirects into /en/fmt/music/ (Faculty of Music
+      and Theatre), so use the /en/fmt/ form.
+    notes: |
+      Verified 2026-08-17: https://www.ucc.ie/en/music/events/ redirects to
+      https://www.ucc.ie/en/fmt/music/events/ and returns 200, which is the URL
+      recorded here. Individual event dates were not sampled, so this is a
+      confirmed path rather than a confirmed programme.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/live-at-the-marquee
+    name: Live at the Marquee
+    category: music
+    kind: festival
+    status: provisional
+    url: https://aikenpromotions.com/shows/?filter_venue=live-at-the-marquee-cork&date_range=
+    homepage: https://aikenpromotions.com/festivals/
+    area: The Docklands
+    tags: [major, summer, concert-series, touring]
+    cadence: quarterly
+    hints: |
+      The 4,000-capacity big top on the former Tedcastle's yard on Centre Park
+      Road, run by Aiken Promotions every summer since 2005 and the single
+      biggest music season in the Cork year. The 2026 run was 11 June to 18
+      July.
+      Dormant for most of the year: the lineup is announced in one go over the
+      winter and spring, then the site empties again after the season. A run
+      between August and the next announcement that finds "No upcoming events"
+      is correct behaviour, not a broken URL — quarterly cadence is set for
+      exactly that reason. The URL is Aiken's own shows list pre-filtered to
+      this venue, so it needs no further filtering.
+      Tickets are sold through Ticketmaster, which sometimes holds on-sale dates
+      before the promoter's site prints them.
+    notes: |
+      Verified 2026-08-17: the venue-filtered URL returns 200 and is Aiken's own
+      filter link, taken from a link on aikenpromotions.com/shows/ rather than
+      guessed. It read "No upcoming events" on the day, which matches a season
+      that finished on 18 July. aikenpromotions.com/festivals/ confirms the
+      strand in its own words — "Live At The Marquee, June – July, Docklands" —
+      and /shows/ lists "Live at the Marquee, Cork" under "Our Festivals". The
+      guessed paths /events/live-at-the-marquee/ and
+      /show/live-at-the-marquee-cork-2026/ are both 404s, and liveatthemarquee.ie
+      has no A record, so no separate festival domain exists.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/singular-artists
+    name: Singular Artists
+    category: music
+    kind: organiser
+    status: provisional
+    url: https://singularartists.ie/all-shows/
+    homepage: https://singularartists.ie/
+    area: City Centre
+    tags: [touring, indie, commercial]
+    cadence: weekly
+    hints: |
+      National promoter that books heavily into Cyprus Avenue, Live at St
+      Luke's and Cork Opera House, and one of the better sources for dates a
+      venue has not yet printed.
+      Use /all-shows/ rather than /shows/: the paginated /shows/ list runs to
+      about 75 pages, whereas /all-shows/ embeds the entire diary as a JSON
+      calendar payload in one fetch, each entry carrying a title, an ISO start
+      and end, and a per-city event URL. The city is in the title, so Cork
+      shows are filtered on the title suffix — the same act appears once per
+      city ("Rua Rí – Cork" alongside "Rua Rí – Clonakilty"), so filter before
+      extracting or the catalogue fills with shows in other cities. The page is
+      about 1.5 MB.
+    notes: |
+      Verified 2026-08-17: /all-shows/ returns 200 and its HTML contains a
+      calendar JSON block with entries such as
+      /calendar_event/rua-ri-cork/ (start 2026-10-09),
+      /calendar_event/nerina-pallot-2026-cork/ and
+      /calendar_event/margaret-glaspy-cork/. /events/ is a 404 and /shows/
+      exposes no dates in extractable text, which is why /all-shows/ is used.
+      The JSON is embedded in the page rather than served from a separate
+      endpoint, so it is not proposed as an api route.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/aiken-promotions
+    name: Aiken Promotions
+    category: music
+    kind: organiser
+    status: provisional
+    url: https://aikenpromotions.com/shows/
+    area: City Centre
+    tags: [touring, commercial, major]
+    cadence: weekly
+    hints: |
+      One of the two big Irish promoters, and the operator of Live at the
+      Marquee. Beyond the Marquee it books Cork Opera House and City Hall, so it
+      is worth crawling on its own account and not only in summer.
+      The list is national — filter for Cork. Aiken exposes per-venue filter
+      links of the form /shows/?filter_venue=<slug>&date_range=, which is how the
+      Marquee entry in this catalogue is scoped; the unfiltered list is the right
+      URL here because Cork shows land in several different rooms.
+    notes: |
+      Verified 2026-08-17: /shows/ returns 200, is titled "Shows Archive - Aiken
+      Promotions", and lists artists in the served HTML. /events/ and
+      /show/live-at-the-marquee-cork-2026/ are 404s. The venue-filter link was
+      taken from the page's own markup rather than constructed.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/mcd-promotions
+    name: MCD Promotions
+    category: music
+    kind: organiser
+    status: provisional
+    url: https://www.mcd.ie/events/
+    area: City Centre
+    tags: [touring, commercial, major]
+    cadence: weekly
+    hints: |
+      Ireland's largest promoter. Its Cork output is a handful of shows a year
+      into Cork Opera House, City Hall and the Marquee, but they are usually the
+      largest names, and MCD announces before the venues do.
+      The list is national and needs filtering for Cork. The host refuses some
+      clients — it returned 403 to a plain fetcher while answering curl with a
+      browser user-agent — so send a browser user-agent.
+    notes: |
+      Verified 2026-08-17 as reachable but not as content: /events/ returns 200
+      to curl with a browser user-agent and 403 to a plain fetcher, so the path
+      is real, but no Cork listings were read off it. Treat the Cork coverage
+      claim as unconfirmed until a run reports back.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/tom-keating-presents
+    name: Tom Keating Presents
+    category: music
+    kind: organiser
+    status: provisional
+    url: https://fredzeppelins.com/tom-keating-presents/
+    area: City Centre
+    tags: [independent, rock, grassroots]
+    cadence: weekly
+    hints: |
+      The promoter strand behind most of Cork's rock, metal and punk bills,
+      booking into Fred Zeppelins and other small rooms. It has no site of its
+      own — the page is a section of the Fred Zeppelins site.
+      Like the rest of that site it is posters only: no text dates, no event
+      links. Included so the promoter exists as an id to attribute gigs to, not
+      because this page is expected to yield events. A run finding nothing here
+      is correct.
+    notes: |
+      Verified 2026-08-17: the page returns 200 and is titled "Tom Keating
+      Presents – Fred Zeppelins", so it is real and correctly named, but it
+      yielded no date strings from 58 KB of extracted text. Low value for
+      harvesting; a human may prefer to drop it and keep the attribution in
+      hints on music/fred-zeppelins instead.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/corkgigs
+    name: CorkGigs
+    category: music
+    kind: aggregator
+    status: provisional
+    url: https://www.corkgigs.com/
+    tags: [independent, community]
+    cadence: daily
+    hints: |
+      The best single source for Cork music, running since 2004 and maintained
+      by hand. The homepage is the listings: a When / What / Where / Price table
+      covering city and county, with the venue named on every row and dates
+      running about ten months ahead.
+      Because it names the venue per row, this is the source that most needs
+      venue.sourceId set — it is also the fallback for the many Cork venues in
+      this catalogue with no working listings page of their own.
+      Two cautions. It covers Cork county as well as the city, so entries at De
+      Barras in Clonakilty, Levis in Ballydehob, Sea Church in Ballycotton,
+      Connollys of Leap and Green Glens in Millstreet fall well outside the
+      12 km radius. And /venue/<slug> returns 200 for any slug, including
+      nonsense ones — a 200 there proves nothing, so check that the venue's name
+      appears in the page title before trusting it.
+      The site announces itself as "renovating"; several venue pages read "No
+      upcoming events listed" even for venues that are gigging, while the main
+      diary is current.
+    notes: |
+      Verified 2026-08-17: the homepage carried 294 date strings, running from
+      20 Aug 2026 to mid-2027, with venue and price per row — for example
+      "Thu 20 Aug 2026 7:00PM The Wailers, Cyprus Avenue, €37.50" and "Wed 26
+      Aug 2026 8:00PM Wunderhorse, Cork City Hall, €50". /venues is a real
+      directory of 46 venues with per-venue profiles carrying address, phone and
+      the venue's own website. The blanket-200 behaviour on /venue/<slug> was
+      confirmed against a deliberately fake slug. /gigs is a 404 — the diary is
+      on the root.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/cork-heritage-pubs
+    name: Cork Heritage Pubs
+    category: music
+    kind: aggregator
+    status: provisional
+    url: https://www.corkheritagepubs.com/whats-on/
+    tags: [free, pub, community, trad]
+    cadence: daily
+    hints: |
+      A pub group's own listings page, and unexpectedly one of the highest-value
+      sources in this catalogue: it carries the nightly free-music programme for
+      about twenty Cork bars in one server-rendered list, each row giving act,
+      pub, date and time. Almost none of these pubs publish their own dates.
+      Pubs named in the listings include Crane Lane Theatre and Cantys, The
+      Pavilion and Intermission Bar, The Vicarstown, Arty's Bar, The Park, The
+      Poor Relation, Arthur Mayne's, The Old Town Whiskey Bar at Bodega, The
+      Oval, Mutton Lane Inn, El Fenix, Rising Sons Brewery and Sin É — so set
+      venue.sourceId from the pub name on each row.
+      Two overlaps to handle. Sin É's entries are the Lee Sessions trad trail
+      and belong to the trad category, not this one. And several pubs here are
+      catalogued separately, so the same gig can arrive twice — the content-
+      derived event id should absorb that, but expect it.
+      Room names appear in brackets after the act ("(Crystal Bar)"), and much of
+      the programme is weekly-recurring rather than one-off.
+    notes: |
+      Verified 2026-08-17: /whats-on/ returns 200, is titled "Cork Heritage Pub
+      Trail | Cork's Best Pubs and Bars", and carried 122 weekday-and-month date
+      strings from 17 Aug 2026 with the pub named on every row — for example
+      "Jazz Improv! (All Players Welcome), Crane Lane Theatre, Mon 17 Aug, 9pm"
+      and "The Professional Blues Band, The Poor Relation, Fri 21 Aug, 10pm".
+      Individual events also have their own ?e=<id> URLs on the same path.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/gigs-ie
+    name: Gigs.ie
+    category: music
+    kind: aggregator
+    status: provisional
+    url: https://www.gigs.ie/
+    tags: [independent, commercial]
+    cadence: weekly
+    hints: |
+      An Irish ticketing platform whose listings are strongly weighted to Cork
+      and West Cork — it is the box office for Coughlan's and Levis among
+      others, so it frequently holds dates and prices before a venue's own site
+      does. Exactly the kind of source Cork needs more than a larger city would.
+      Server-rendered with act, date, venue and price on each row, so the venue
+      is attributable. The list is national and includes West Cork venues well
+      outside the radius, and it carries the Comedy Cavern nights at Coughlan's
+      which are not this category. There is a /venues page for cross-reference.
+    notes: |
+      Verified 2026-08-17: the root is titled "Gigs.ie | Live Music, Concerts &
+      Event Listings in Ireland" and carried 54 date strings from 20 Aug 2026
+      with venue and price per row — for example "Paul Tiernan, Thu 27 Aug,
+      Coughlan's, €24.20" and "The White Horse Guitar Club, Fri 28 Aug, Levis
+      Corner House, €30.00".
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/low-trees-cork-gig-guide
+    name: Cork Gig Guide (low trees)
+    category: music
+    kind: aggregator
+    status: provisional
+    url: https://thegmanworld.com/cork-gig-guide/
+    tags: [independent, community]
+    cadence: weekly
+    hints: |
+      A hand-written, editorially selected Cork gig guide on a local music blog
+      — useful precisely because it is a person's judgement rather than a feed,
+      and it picks up small shows the ticketing platforms miss.
+      It is one long page maintained in place rather than a dated feed, so the
+      same URL is correct every week and old entries are not necessarily
+      removed. Dates are written in ordinal long form ("23rd June") with the
+      year often implicit, so check the inferred year. The same site carries a
+      separate Irish traditional music gig guide, which belongs to the trad
+      category rather than here.
+    notes: |
+      Verified 2026-08-17: the page returns 200 and is titled "Cork Gig Guide
+      2026 – The Best Live Music Listings in Cork | low trees". It carried 109
+      ordinal date strings and mentions August, September and October, so it is
+      maintained forward rather than abandoned, though some listed dates had
+      already passed.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: music/pure-cork
+    name: Pure Cork
+    category: music
+    kind: listing
+    status: provisional
+    url: https://www.purecork.ie/whats-on/
+    tags: [civic, community, family]
+    cadence: weekly
+    hints: |
+      The tourist board's what's-on, with a "Live Music" category among its
+      filters. Broad rather than deep, and it skews to what is promotable, but
+      it is the official listing and picks up civic and free events that no
+      venue site carries.
+      The listings are rendered client-side: the served HTML contains the
+      category navigation but no dates at all, so a headless browser is needed
+      or this source will report empty every run.
+    notes: |
+      Verified 2026-08-17: /whats-on/ returns 200 and its served markup carries
+      the category navigation including "Live Music", "Festivals" and
+      "Nightlife", but zero date strings — the event list is JavaScript-driven.
+      One oddity for a human: the served HTML also contains the literal markers
+      "test" and "Development site", so the production page may be
+      misconfigured.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"

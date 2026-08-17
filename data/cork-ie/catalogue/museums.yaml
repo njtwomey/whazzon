@@ -1,0 +1,744 @@
+schema: whazzon.catalogue/1
+category: museums
+label: Museums & Heritage
+description: >-
+  Civic and independent museums, forts, historic buildings, cathedrals and an
+  observatory — plus the heritage societies and heritage-week platforms that
+  programme into them. Mostly permanent collections (`occurrence.kind: ongoing`)
+  with temporary exhibitions as `run` and tours or talks as `single`.
+sources:
+  - id: museums/cork-public-museum
+    name: Cork Public Museum
+    category: museums
+    kind: venue
+    status: provisional
+    url: https://www.corkcity.ie/en/cork-public-museum/visit/upcoming-events/
+    homepage: https://www.corkcity.ie/en/cork-public-museum/
+    area: The Mardyke
+    address:
+      street: Fitzgerald's Park
+      city: Cork
+      country: Ireland
+    tags: [civic, free, local-history, exhibitions]
+    cadence: monthly
+    hints: |
+      Free entry, council-run, lives inside the Cork City Council site rather
+      than on its own domain — so the page is buried under a very large council
+      mega-menu; the real content is inside <main>.
+      Publishes exhibitions, not a dated diary: the two entries carried on this
+      page are collection exhibitions with no printed end date, so they are
+      `ongoing` unless a date is stated. Dated one-offs (curator tours, staff
+      talks, Heritage Week drop-ins) appear only in the child page
+      /visit/upcoming-events/events-and-exhibitions/, which is worth a second
+      fetch but is currently stale — it still heads its programme "Heritage Week
+      2025" and refers to the museum's 80th anniversary (1945+80 = 2025), so
+      check the printed year against the weekday before recording anything from
+      it.
+      The permanent galleries are listed separately under
+      /en/cork-public-museum/exhibitions/.
+    notes: |
+      Verified 2026-08-17: title "Upcoming Events - Cork City Council",
+      breadcrumb reads Home / Cork Public Museum / Visit / Upcoming Events, and
+      the page lists "SUFFERING THE MOST — Tomas MacCurtain and Terence
+      MacSwiney" and "Our Collections: Aspects of Life in Medieval Cork".
+      The museum's own Getting Here page confirms it is in Fitzgerald's Park,
+      1.8km west of the centre, off the Western Road — hence the Mardyke area.
+      No street-level address or Eircode is printed anywhere on the site (the
+      footer gives Cork City Council's City Hall address instead), so the
+      address here stops at the park and no Eircode is guessed.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: museums/cork-city-gaol
+    name: Cork City Gaol
+    category: museums
+    kind: venue
+    status: provisional
+    url:
+      - role: listings
+        url: https://corkcitygaol.com/news-updates/
+      - role: booking
+        url: https://bookings.corkcitygaol.com/book
+        note: >-
+          the only place tour times are printed — self-guided admission any
+          time, guided tour 2pm daily and hourly through July and August
+    homepage: https://corkcitygaol.com/
+    area: Sunday's Well
+    address:
+      street: Convent Avenue
+      locality: Sunday's Well
+      city: Cork
+      postcode: T23 VX25
+      country: Ireland
+    tags: [heritage, ticketed, family, local-history]
+    cadence: monthly
+    hints: |
+      There is no what's-on page. /news-updates/ is a blog that mixes seasonal
+      events (Easter Bunny Trail, Halloween Family Fun, Culture Night) with
+      history articles (prisoner profiles, "Did You Know?"), and the event posts
+      carry no date in the listing — open the post for the date, and discard the
+      history pieces rather than recording them as events.
+      Watch the year: a "Culture Night 2025 - Fully Booked" post is still on the
+      first page.
+      The core offer is recurring, not one-off: self-guided admission during
+      opening hours plus a 2pm guided tour daily, hourly in July and August.
+      The Radio Museum Experience is in the same building and is not ticketed
+      separately.
+    notes: |
+      Verified 2026-08-17: corkcitygaol.com serves "Home - Cork City Gaol" and
+      /news-updates/ serves "News & Updates - Cork City Gaol" with the event and
+      history posts above. Address and Eircode read off the venue's own
+      /visit-us/ page (Convent Avenue, Sunday's Well, Cork City, T23 VX25; it
+      also prints GPS 51.8995105, -8.4990497). The booking route was fetched and
+      is a live basket-driven shop, not a redirect to a third-party lander.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: museums/butter-museum
+    name: The Butter Museum
+    category: museums
+    kind: venue
+    status: provisional
+    url: https://thebuttermuseum.com/
+    area: Shandon
+    address:
+      street: O'Connell Square
+      locality: Shandon
+      city: Cork
+      postcode: T23 H004
+      country: Ireland
+    tags: [heritage, ticketed, independent, local-history]
+    cadence: quarterly
+    hints: |
+      Homepage is the listings page — there is nothing else. /category/upcoming-
+      events/ exists but renders an empty list, and the site's Events Calendar
+      plugin answers at /wp-json/tribe/events/v1/events with a diary of zero
+      events, so neither is worth a fetch.
+      The only date-shaped content is recurring and lives on the homepage:
+      traditional butter-making demonstrations Wednesdays and Saturdays at 12.00
+      (35 seats, no booking, arrive by 11.40), plus season-dependent opening
+      hours that change four times a year. Record the demonstration as
+      `recurring` and the museum itself as `ongoing`.
+      Tickets are sold through thebuttermuseum.clr.events, which currently holds
+      one product — general admission — so it is not an events source.
+    notes: |
+      Verified 2026-08-17: title "Home - The Butter Museum", copy describes the
+      Cork Butter Exchange and Kerrygold, address read off the site's own
+      /visit-the-area/ page (O'Connell Square, Shandon, Cork T23 H004).
+      corkbutter.museum also resolves and serves the same site.
+      Cadence set to quarterly rather than the monthly used for the other
+      museums here, because the diary is genuinely empty and only the seasonal
+      opening hours change.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: museums/shandon-bells-st-annes
+    name: Shandon Bells & Tower, St Anne's Church
+    category: museums
+    kind: venue
+    status: provisional
+    url: https://www.stanneshandon.ie/news-events/
+    homepage: https://www.stanneshandon.ie/
+    area: Shandon
+    address:
+      street: Eason's Hill
+      locality: Shandon
+      city: Cork
+      postcode: T23 YN88
+      country: Ireland
+    tags: [heritage, ticketed, community, local-history]
+    cadence: monthly
+    hints: |
+      shandonbells.ie is the name people use but its certificate has expired —
+      https:// fails outright, http:// redirects to stanneshandon.ie. Use
+      stanneshandon.ie.
+      The listing mixes three different things and they need different
+      occurrence kinds: weekly Sunday services ("12th Sunday After Trinity",
+      10:15), one-off heritage tours and talks, and the year-round ticketed
+      climb to ring the bells, which is `ongoing` rather than an event.
+      Paginated 6 to a page and 27 pages deep, oldest kept forever — take the
+      first page or two and stop; everything after that is archive.
+      Times are printed as ranges ("10:30 AM to 12:00 PM").
+      Not a WordPress Events Calendar site: /wp-json/tribe/events/v1/events
+      404s, and the entries are a custom /event/<slug> post type.
+    notes: |
+      Verified 2026-08-17: title "St. Anne's Church News & Events | Latest
+      Updates" with dated entries — Heritage Week 2026: Uncovering Hidden
+      Shandon (Tue 18 Aug 2026), Conserving a Lost Cork Institution: The
+      Heritage of the Green Coat School (Sat 22 Aug 2026), Cork Heritage Open
+      Day Shandon Walking Tour (Sat 15 Aug 2026). Address and Eircode read off
+      the venue's own /plan-your-visit/ page.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: museums/nano-nagle-place
+    name: Nano Nagle Place
+    category: museums
+    kind: venue
+    status: provisional
+    url: https://nanonagleplace.ie/nanoevents/
+    homepage: https://nanonagleplace.ie/
+    area: Douglas Street
+    address:
+      street: South Presentation Centre, Douglas Street
+      city: Cork
+      postcode: T12 X70A
+      country: Ireland
+    tags: [heritage, ticketed, community, exhibitions]
+    cadence: monthly
+    hints: |
+      /whats-on/ 301s to /nanoevents/ — use /nanoevents/ directly.
+      The page carries upcoming and past events in one list, each row labelled
+      "Upcoming Event" or "Past Event"; trust the label, because the list is not
+      in date order and some rows print a range with no year ("August 15th -
+      August 22nd") or no date at all.
+      Programmes exhibitions in the Design & Crafts gallery alongside talks,
+      workshops and festival slots (Cork Midsummer, Choral Festival, Lifelong
+      Learning, Bealtaine, Heritage Week), so many events here belong to another
+      organiser and only borrow the room.
+      The museum, gardens and heritage centre themselves are `ongoing`.
+      No Events Calendar API — /wp-json/tribe/events/v1/events 404s.
+    notes: |
+      Verified 2026-08-17: title "Nano Nagle Events Archive - Nano Nagle Place",
+      dated entries include Preserving Nano Nagle's Treasures with Conservator
+      Karen Horton (25 Aug 2026), National Heritage Week (15-22 Aug), The Past
+      from the Press exhibition (June-September 2026) and the Playful Culture
+      Trail. Address read off the site's own /visitor-info-tours/ page.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: museums/elizabeth-fort
+    name: Elizabeth Fort
+    category: museums
+    kind: venue
+    status: provisional
+    url: https://www.corkcity.ie/en/elizabeth-fort/upcoming-events/
+    homepage: https://www.corkcity.ie/en/elizabeth-fort/
+    area: Barrack Street
+    address:
+      street: Barrack Street
+      city: Cork
+      postcode: T12 C8A0
+      country: Ireland
+    tags: [civic, free, heritage, family]
+    cadence: monthly
+    hints: |
+      elizabethfort.ie redirects here; the fort has no site of its own.
+      This page is the council's shared event widget — a filter bar (Art &
+      Theatre, Family Friendly, Free, ...) above cards printed as "4 Sep / First
+      Friday at Elizabeth Fort / #Family Friendly, #Music & Comedy, #Free". The
+      day and month are on the card, the year is not — take it from the detail
+      page. The same widget is used by Old Cork Waterworks, so the two look
+      identical.
+      Free to enter. Guided tours and an audio guide run during opening hours
+      and are `recurring`, not events; the walls and the star fort are
+      `ongoing`. First Friday appears to be a monthly series.
+    notes: |
+      Verified 2026-08-17: breadcrumb reads Home / Elizabeth Fort / Upcoming
+      Events and one dated card is live (First Friday at Elizabeth Fort, 4 Sep).
+      Address and Eircode read off the fort's own /visitor-information/ page
+      (Elizabeth Fort, Barrack Street, Cork City, T12 C8A0), which also warns
+      that wheelchair access to the walls is not possible.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: museums/blackrock-castle-observatory
+    name: MTU Blackrock Castle Observatory
+    category: museums
+    kind: venue
+    status: provisional
+    url: https://www.bco.ie/exhibitions-events/
+    homepage: https://www.bco.ie/
+    area: Blackrock
+    address:
+      street: Castle Road
+      locality: Blackrock
+      city: Cork
+      postcode: T12 YW52
+      country: Ireland
+    tags: [science, family, ticketed, university]
+    cadence: monthly
+    hints: |
+      Branded "MTU Blackrock Castle" now that Munster Technological University
+      runs it; bco.ie is still the domain and the observatory is still the draw.
+      Three different occurrence kinds sit on this one page and it labels them
+      for you: "Permanent Exhibition" (Ireland in Space, Alien Worlds) is
+      `ongoing`, visiting exhibitions are a `run`, and the Star Show and castle
+      tour are scheduled slots through the day — `recurring`, no booking
+      required, 10.00-18.00 daily with last entry 17.00.
+      Also a family and science-centre venue, so its school-holiday programme
+      may be worth cross-listing; do not duplicate the entry.
+      Cork Astronomy Club exhibits here (see museums/cork-astronomy-club) — set
+      `venue.sourceId` to this source when an event turns up on their site.
+    notes: |
+      Verified 2026-08-17: title "Exhibitions & Events - MTU Blackrock Castle",
+      the page names the observatory and lists its permanent exhibitions plus a
+      solar-eclipse exhibition. Address and Eircode read off /plan-your-visit/
+      (Castle Rd, Blackrock, Cork, T12 YW52, charity CHY 18134).
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: museums/st-fin-barres-cathedral
+    name: St Fin Barre's Cathedral
+    category: museums
+    kind: venue
+    status: provisional
+    url: https://events.stfinbarres.ie/
+    homepage: https://www.stfinbarres.ie/
+    area: Barrack Street
+    address:
+      street: Bishop Street
+      city: Cork
+      postcode: T12 K710
+      country: Ireland
+    tags: [heritage, ticketed, exhibitions, community]
+    cadence: monthly
+    hints: |
+      Two separate WordPress sites. www.stfinbarres.ie is the visitor site and
+      its /tours-and-events/ page is a signpost with no dates on it; the diary
+      lives on the events.stfinbarres.ie subdomain, which is the URL to fetch.
+      It filters by All / Music / Readings / Talk & Discussion and prints full
+      dates and times ("17 August 2026 · 7:00 pm"), with "Free" where
+      applicable.
+      Both sites run The Events Calendar but both answer
+      /wp-json/tribe/events/v1/events with zero events, and /events/?ical=1
+      returns an empty body on both — the listings are hand-built pages, so
+      there is no cheap structured route here.
+      Expect a monthly rhythm of Friday lunchtime organ recitals (1.10pm)
+      alongside readings, conservation talks and Heritage Week openings.
+      Admission to the cathedral is ticketed and `ongoing`.
+    notes: |
+      Verified 2026-08-17, and the URL needed correcting twice. corkcathedral.ie
+      is NOT this cathedral — it 301s to corkcathedralfop.ie, the Catholic Cork
+      Cathedral Family of Parishes site for the North Cathedral (St Mary and St
+      Anne), which serves a healthy 200 of mass times and parish notices.
+      corkcathedral.com 301s to www.stfinbarres.ie, which is how the real domain
+      was established. events.stfinbarres.ie then serves "Events & Arts at St
+      Fin Barre's Cathedral, Cork" with dated entries (Caring for an Icon
+      conservation talk 17 Aug 2026 7pm, Friday Lunchtime Organ recital 21 Aug
+      1.10pm). Address and Eircode read off www.stfinbarres.ie/visit/.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: museums/st-peters-cork
+    name: St Peter's Cork
+    category: museums
+    kind: venue
+    status: provisional
+    url: https://stpeterscork.ie/events
+    homepage: https://stpeterscork.ie/
+    area: City Centre
+    address:
+      street: 87a North Main Street
+      locality: City Centre
+      city: Cork
+      postcode: T12 RF8D
+      country: Ireland
+    tags: [heritage, free, exhibitions, community]
+    cadence: monthly
+    hints: |
+      A deconsecrated medieval church on the city's medieval spine, now an
+      exhibition and event venue — so most of what it lists is somebody else's
+      programme in its room (Cork Craft & Design showcases, festival slots,
+      workshops). Set `venue.sourceId` to this source and attribute the event to
+      its organiser.
+      /events prints category, day and month, venue line, start time and price
+      ("Workshops / 22 Aug / Lino Cut Workshop / 1pm / €45"), but no year.
+      Below the list sits a live calendar block that renders client-side and
+      falls back to "No publicly listed events this month" — ignore it, the
+      cards above are the real listing.
+      A separate "Cultural Calendar" section on the same page names the annual
+      festivals it hosts (Ortus Chamber Music Festival in February, and others)
+      months ahead of any dates being fixed; treat those as `undated` unless a
+      date is printed.
+    notes: |
+      Verified 2026-08-17: title "What's On | St. Peter's Cork" with three dated
+      entries (Playspaces from 17 Aug, Crafting Legacy Members Showcase
+      Exhibition 10-31 Aug 2026, Lino Cut Workshop with Solas Agus Scath 22 Aug
+      2026). Address and Eircode read off /plan-your-visit (87a North Main
+      Street, Cork City Centre, T12 RF8D). Not to be confused with the Cork
+      Vision Centre, which occupied this building until it closed;
+      corkvisioncentre.com is now a parked domain serving an empty page, so it
+      is deliberately not catalogued.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: museums/blarney-castle
+    name: Blarney Castle & Gardens
+    category: museums
+    kind: venue
+    status: provisional
+    url: https://blarneycastle.ie/
+    area: Blarney
+    tags: [heritage, ticketed, major, outdoor]
+    cadence: quarterly
+    hints: |
+      There is no what's-on page and the homepage is the best available listing.
+      /news/ looks like one but is the head gardener's monthly diary — prose
+      about the arboretum, dated by publication rather than by anything
+      happening. Do not read those posts as events.
+      What the homepage does carry is authoritative and `ongoing`: castle and
+      gardens open all year, with admission times that change month by month
+      (Jan-Mar 9.00-17.00, Apr 9.00-17.30, and so on) and a printed last
+      admission. Record the visit as `ongoing` or `recurring`, not as a series
+      of single dates.
+      Inside the 12km radius, roughly 7km northwest, and inside the city
+      boundary since the 2019 extension — a Cork City entry, not a county one.
+      Also a gardens and outdoors venue; do not duplicate it there.
+    notes: |
+      Verified 2026-08-17: www.blarneycastle.ie 301s to blarneycastle.ie, which
+      serves "Family Friendly Holiday | World-Famous | Blarney Castle" and names
+      the Blarney Stone, Cormac MacCarthy and the rock close. Ticketing is at
+      blarneycastle.retailint-tickets.com; not catalogued as a booking route
+      because it was not fetched and appears to sell timed admission only. No
+      address recorded — the site prints directions rather than a street
+      address, and Blarney is unambiguous enough for a map pin.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: museums/fota-house
+    name: Fota House, Arboretum & Gardens
+    category: museums
+    kind: venue
+    status: provisional
+    url:
+      - role: listings
+        url: https://fotahouse.com/events/
+      - role: api
+        url: https://fotahouse.com/wp-json/tribe/events/v1/events
+        note: >-
+          whole forward diary as JSON with full body text, 9 events in one
+          fetch — cheaper and richer than the page, which renders its cards
+          client-side
+      - role: ics
+        url: https://fotahouse.com/events/?ical=1
+        note: text/calendar, Europe/Dublin, dates without any parsing
+    homepage: https://fotahouse.com/
+    area: Fota Island
+    tags: [historic-house, heritage, ticketed, exhibitions]
+    cadence: monthly
+    hints: |
+      Prefer the API route: /events/ is an Events Calendar view whose cards are
+      assembled in the browser, so a plain fetch of the HTML returns the search
+      widget and little else, while the JSON gives id, url, title, description
+      and dates for the whole diary.
+      A Regency house run by the Irish Heritage Trust — conservation talks,
+      guided house tours, seasonal trails and outdoor events, with a separate
+      /outdoor-events/ page. The house, arboretum and gardens are `ongoing`.
+    notes: |
+      Verified 2026-08-17: /events/ serves "Events from August 10 - August 15 -
+      Fota House / 9 events found", the API returns event JSON (Presentation on
+      the Conservation of Furniture, /event/presentation-on-the-conservation-of-
+      furniture/) and the ICS route returns a real VCALENDAR with PRODID
+      "Fota House - ECPv6.17.1".
+      Outside the 12km radius, at roughly 13km east — included because Fota is
+      part of how Cork programmes its east side (the config names the wildlife
+      park next door as one of the institutions carrying the city's family
+      offer), it is on the Cork-Cobh commuter line with its own station, and it
+      has a genuine year-round events diary rather than a static visitor offer.
+      Distance is a judgement for the catalogue owner to confirm; no address
+      recorded because the site gives directions rather than a street line.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: museums/spike-island
+    name: Spike Island
+    category: museums
+    kind: venue
+    status: provisional
+    url:
+      - role: listings
+        url: https://www.spikeislandcork.ie/news-and-events/
+      - role: booking
+        url: https://spikeislandcork.digitickets.ie/tickets
+        note: >-
+          ferry-and-tour departures sold as timed products; special events
+          appear here as separate products
+    homepage: https://www.spikeislandcork.ie/
+    area: Cork Harbour
+    tags: [heritage, ticketed, major, family]
+    cadence: monthly
+    hints: |
+      /news-events mixes dated events with press notices ("Named One of the
+      Top Visitor Attractions in Ireland") — keep the first, drop the second.
+      Dates are printed day-and-month with no year, and some entries name only a
+      month ("returns this September").
+      Every visit is a ferry sailing from Kennedy Pier in Cobh, so an event here
+      always has a departure time attached and capacity is hard-capped; the
+      standard Spike Island Experience is `recurring` and only the specials
+      (Haunted Spike, the literary festival, Culture Night screenings, the 5K)
+      are `single`.
+      A separate /exhibitions/ page holds the permanent displays, which are
+      `ongoing`.
+    notes: |
+      Verified 2026-08-17: title "News & Events - Spike Island Cork" with dated
+      entries (Haunted Spike 22 August, Spike Island Literary Festival in
+      September, 5K Run 12 September 2026, Culture Night Film Screening: Mná na
+      DXP 18 September). The digitickets shop was fetched and is a live product
+      catalogue.
+      Outside the 12km radius, roughly 15km southeast in Cork Harbour, and
+      reached via Cobh — included because it is genuinely part of the city's
+      programme rather than Cobh's: it takes part in Culture Night Cork and Cork
+      Harbour Festival, and its own events are marketed city-wide. Worth the
+      catalogue owner's confirmation.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: museums/cork-city-county-archives
+    name: Cork City and County Archives
+    category: museums
+    kind: listing
+    status: provisional
+    url: https://www.corkarchives.ie/what_s_on/events-and-exhibitions/
+    homepage: https://www.corkarchives.ie/
+    area: Blackpool
+    address:
+      street: 32 Great William O'Brien Street
+      city: Cork
+      postcode: T23 WP82
+      country: Ireland
+    tags: [civic, free, local-history, exhibitions]
+    cadence: quarterly
+    hints: |
+      The listing is titles only — no dates, no times, and past and present in
+      one column above a "Previous Events and Exhibitions" link. The date is on
+      the child page, so this source costs one fetch per item; the titles
+      usually carry the year ("National Heritage Week 2026 at Cork City & County
+      Archives", "Culture Night 2026 at the Archives") which is enough to skip
+      the archive rows.
+      Exhibitions in the Seamus Murphy Building reading room are a `run`; the
+      large set of online exhibitions under /resources/online-exhibitions/ is
+      `ongoing` and not really an event at all.
+      Also runs group visits, talks and workshops on request — bookable, not
+      listed.
+    notes: |
+      Verified 2026-08-17: title "Events and Exhibitions - Cork City and County
+      Archives", entries include The Story of Us: Independent Ireland and the
+      1926 Census Exhibition, General Stephen Moylan, and Cork and the
+      Anglo-Normans - Millennium 2027 Project. Address and Eircode read off
+      /research_room_access/before-your-visit/ (32 Great William O'Brien Street,
+      Cork, T23 WP82), which puts it in Blackpool.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: museums/cork-city-archaeology
+    name: Cork City Council Archaeology
+    category: museums
+    kind: listing
+    status: provisional
+    url: https://www.corkcity.ie/en/council-services/services/arts-culture-heritage/archaeology/events-projects/
+    tags: [civic, free, local-history, community]
+    cadence: quarterly
+    hints: |
+      The City Archaeologist's own public programme, and one of the few places
+      Cork's free heritage talks are announced. Two pages, both shallow:
+      /events-projects/ carries the next talk in full prose (title, speaker,
+      date, time, venue) and /lecture-series-and-talks/ describes the Autumn
+      Archaeology Lecture Series and links past audio.
+      Talks are almost always at Cork City Library, Grand Parade, not at a
+      council building — set `venue` on the event, since the source is not the
+      place.
+      Concentrated in autumn; there is often nothing to find between January and
+      August, which is why the cadence is quarterly.
+    notes: |
+      Verified 2026-08-17: title "Events & Projects - Cork City Council",
+      breadcrumb Home / Council Services / Services / Arts, Culture & Heritage /
+      Archaeology / Events & Projects, and one fully dated talk live — "Walls
+      that Shaped a City: Excavating Cork's Medieval Defences", City
+      Archaeologist Ciara Brett, Tuesday 18th August 2026 at 2:30pm, Cork City
+      Library, Grand Parade. No address: this is a council service, not a venue.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: museums/cork-historical-archaeological-society
+    name: Cork Historical and Archaeological Society
+    category: museums
+    kind: organiser
+    status: provisional
+    url: https://corkhist.ie/calendar/
+    homepage: https://corkhist.ie/
+    tags: [community, local-history]
+    cadence: monthly
+    hints: |
+      /events/ returns 403 to everything while the rest of the site serves 200 —
+      the working listings path is /calendar/. Do not read the 403 as a dead
+      site.
+      Founded 1891 and the busiest heritage programmer in the county: winter
+      lectures roughly fortnightly, summer outings, a conference, an annual
+      weekend away and a Christmas lunch. The calendar prints a heading ("Events
+      in August-November 2026") then full date, time, place and a paragraph of
+      description per row, so one fetch is usually enough.
+      Two things to watch. Many outings are well outside Cork city — the current
+      list opens with a full-day outing to Kanturk, 50km north — so check the
+      location line before recording. And some events are members-only.
+      Separate /summer-programme-2026/ and /winter-lecture-series/ pages carry
+      the season at a glance if the calendar is thin.
+    notes: |
+      Verified 2026-08-17: /calendar/ serves "Events - Cork Historical and
+      Archaeological Society" and lists Heritage Week Full Day Outing - Kanturk,
+      16th August 2026, 11:00am-5:00pm, with speakers named. Homepage confirms
+      the society, the journal and the lecture/outing structure. No address —
+      it programmes into other people's rooms.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: museums/cork-astronomy-club
+    name: Cork Astronomy Club
+    category: museums
+    kind: organiser
+    status: provisional
+    url: https://corkastronomyclub.com/events/
+    homepage: https://corkastronomyclub.com/
+    tags: [community, science, university, free]
+    cadence: monthly
+    hints: |
+      Monthly public lectures from September to May, 8.00pm, almost always in
+      Boole 4 lecture theatre at UCC — the event data carries a location and
+      coordinates (51.8923, -8.4922), and the filter lists other rooms it uses
+      (Bodega, Douglas Library, Frankfield Golf Club, the Cummins Building), so
+      read the location rather than assuming. Set `venue` on the event.
+      The listing filters by "Restricted: Members Event Only" and "Unrestricted:
+      Everyone welcome" — only the unrestricted ones belong on the site.
+      Titles carry the date and the lecture title is often only in the body
+      ("Mon 14th Sept 2026 - public lecture - the universe at the largest
+      scales" / "Large Scale Structures in the Universe: the Great Wall to the
+      Great Attractor").
+      WordPress.com hosted with an events plugin, not The Events Calendar —
+      /wp-json/tribe/events/v1/events 404s. The homepage repeats the upcoming
+      lectures if /events/ comes back thin.
+      Members' astrophotography is exhibited at Blackrock Castle Observatory;
+      set `venue.sourceId` to museums/blackrock-castle-observatory when it is.
+    notes: |
+      Verified 2026-08-17: /events/ serves "Events - Cork Astronomy Club", and
+      the homepage carries the 2026-27 season opening on 14th September with a
+      lecture by Frances McCarthy, formerly of MTU Blackrock Castle Observatory,
+      at 8:00pm-9:45pm, plus a May 2026 members' photo exhibition at Blackrock
+      Castle. No address — the club has no premises.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: museums/cork-folklore-project
+    name: Cork Folklore Project
+    category: museums
+    kind: organiser
+    status: provisional
+    url: https://corkfolklore.org/
+    tags: [community, local-history]
+    cadence: quarterly
+    hints: |
+      The homepage is the listing, deliberately: /events/ exists but its newest
+      post is from 2019, while the homepage carries current activity (a "30
+      Years of the Cork Folklore Project" post from January 2026).
+      An oral-history project rather than a venue — its public output is
+      exhibitions, book and recording launches, Cork Memory Mornings and
+      Lifelong Learning Festival slots, in other people's rooms. Always set
+      `venue` from the post.
+      Expect long gaps. If a harvest finds nothing here twice running, that is
+      information for the catalogue owner rather than a fetch failure.
+    notes: |
+      Verified 2026-08-17: corkfolklore.org serves "Cork Folklore Project -
+      Recording and Sharing the Memories of Cork" with a January 2026 post.
+      /events/ was also fetched and is real but stale — top posts are from
+      March 2019 (Cork Memory Morning, OUTing the Past) — so it is not the URL
+      catalogued. Worth reviewing for `dormant` rather than `active` if the
+      first harvests come back empty.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: museums/cork-heritage-open-day
+    name: Cork Heritage Open Day
+    category: museums
+    kind: festival
+    status: provisional
+    url: https://www.corkcity.ie/en/cork-heritage-open-day/
+    tags: [civic, free, heritage, family]
+    cadence: quarterly
+    hints: |
+      One Saturday a year — 15 August in 2026, its 21st — when 42 buildings that
+      are normally closed open free of charge, alongside guided street walks,
+      talks, exhibitions and family events. Everything is free.
+      This is the single highest-yield fetch in the category, but only in July
+      and August: the programme goes up a few weeks ahead and comes down after.
+      Child pages carry the detail — /events/, /events/family-friendly-events/,
+      the buildings list grouped as civic, commercial, cultural, military,
+      sacred, educational and historic, and /heritage-week/ for the week that
+      follows.
+      Almost every listing happens somewhere else, so set `venue` — and where
+      the building is already catalogued (Elizabeth Fort, St Anne's Shandon, the
+      Gaol) set `venue.sourceId`, or the same open day will be recorded twice.
+      corkheritageopenday.ie redirects here, over http only.
+    notes: |
+      Verified 2026-08-17: title "Cork Heritage Open Day - Cork City Council",
+      dated 15 August 2026, and the copy confirms the 21st anniversary, the 42
+      buildings and the free admission. Sub-pages for events, family events and
+      the buildings list were seen in the navigation.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: museums/national-heritage-week
+    name: National Heritage Week
+    category: museums
+    kind: aggregator
+    status: provisional
+    url: https://www.heritageweek.ie/event-listings?where%5B%5D=cork
+    homepage: https://www.heritageweek.ie/
+    tags: [free, heritage, family, community]
+    cadence: monthly
+    hints: |
+      The catalogued URL is already filtered to Cork City. The county filter is
+      a plain GET checkbox — `where[]=cork` narrows 2,634 national events to
+      118, and there is a separate "Cork County" box if the radius is ever
+      widened. Fetch the filtered URL; the unfiltered one is thirty times the
+      volume for the same yield.
+      15-23 August in 2026, theme "Heritage at Risk". Listings appear from about
+      June and are gone by September, so most of the year this returns nothing —
+      that is not a failure.
+      Results are rendered client-side below a server-rendered filter form, so
+      the raw HTML holds only a handful of featured cards even though the count
+      is right. Expect to page or to read the count and go to the individual
+      /event-listings/<slug> pages.
+      Every event belongs to someone else and most are one-offs by small local
+      groups that have no website — which is exactly why this source is here.
+      Set `venue`, and `venue.sourceId` where it matches a catalogued source.
+      Its own event-type vocabulary (guided tour, exhibition, workshop, talk,
+      live performance, OPW event, Heritage Open Doors) maps neatly onto
+      occurrence kinds.
+    notes: |
+      Verified 2026-08-17: title "2026 Events | National Heritage Week 15th -
+      23rd August 2026". The filter was tested rather than assumed — the
+      unfiltered page reads "Search 2634 Events" and the catalogued URL reads
+      "Search 118 Events", and the Cork City checkbox in the form is
+      name="where[]" value="cork".
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: museums/irish-museums-association
+    name: Irish Museums Association
+    category: museums
+    kind: aggregator
+    status: provisional
+    url: https://irishmuseums.org/events/
+    homepage: https://irishmuseums.org/
+    tags: [heritage, exhibitions, community]
+    cadence: monthly
+    hints: |
+      The only year-round listing that covers Irish museums as a sector, and the
+      safety net for a Cork museum talk that never reaches the venue's own site.
+      Filter hard: most of what it lists is professional — IMA Forums, workshops,
+      job shadowing, the annual conference — and does not belong on a what's-on
+      site. Keep the public-facing rows: talks, exhibitions and museum visits
+      that name a Cork venue.
+      Each row prints time, day and month and the host venue on its own line
+      ("12:30-13:30 | 18 August | Crawford Art Gallery, Cork"), with no year.
+      Set `venue` from that line, and `venue.sourceId` when the venue is
+      catalogued here.
+      /events-landing/upcoming-events/ 301s to this URL. The year tabs on the
+      page reach back to 2016 — stay on the current one.
+    notes: |
+      Verified 2026-08-17: title "Events Archive - Irish Museums Association",
+      and a Cork public event is live on it — "Conservation in Action:
+      Documenting Crawford Art Gallery's Collection", 12:30-13:30, 18 August, at
+      Crawford Art Gallery, Cork — next to sector-only entries, which is the
+      pattern the hints describe. No address: a national membership body.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"

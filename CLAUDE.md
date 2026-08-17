@@ -164,8 +164,10 @@ full harvest is otherwise a permission prompt per source.
 
 - **Prompts are assets, not string literals** — `prompts/`, versioned, with frontmatter. Harvests record which prompt name and version produced them.
 - **`hints` on a catalogue source** is the escape hatch that keeps prompt templates general ("books a year ahead, use a long horizon"). Prefer a hint over forking a prompt.
+- **A source's `url` is one URL or a list of roled routes** — `listings`, `api`, `feed`, `ics`, `booking`. One must be `listings`; that is what a person is sent to and the only one the snapshot carries. Read it through `lib/routes.ts` (`routesOf`, `primaryUrl`), never by branching on the field's shape. Routes are for a confirmed endpoint, not a guessed one — `/wp-json/tribe/events/v1/events` is exactly the kind of plausible URL a model invents.
 - **Location-agnostic by construction.** Anything Bristol-specific belongs in `configs/` or `data/`, never in `packages/` or `web/`.
 - **Never invent a URL or an address to fill a field.** Omit it and say so in `notes`. `check-urls` catches wrong URLs; nothing catches a fabricated one that resolves.
+- **Do not use `{0,n}` in a grep pattern here.** `grep` is a shell function wrapping ugrep, which builds a DFA eagerly, and a bounded repeat of a wide character class expands it combinatorially. `[a-z0-9./?=_-]{0,60}x[a-z0-9./?=_-]{0,60}` over a 7 KB file does not finish in ten seconds and reaches several GB of RSS; agents scraping saved HTML have twice left multi-GB orphans behind. The same pattern unbounded (`[...]*x[...]*`) runs in 15 ms, and `/usr/bin/grep` handles the bounded form in 10 ms. So: unbounded quantifiers, or `/usr/bin/grep`, or `rg`. Better still, parse HTML with node rather than regex.
 - Data under `data/` is committed, snapshot included, and is excluded from prettier — the catalogue's block scalars and the append-only log should not be reflowed.
 
 ## Where things stand

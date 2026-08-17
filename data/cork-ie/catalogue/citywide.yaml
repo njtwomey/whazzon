@@ -1,0 +1,630 @@
+schema: whazzon.catalogue/1
+category: citywide
+label: City-wide
+description: >-
+  Cross-category listings sites, ticketing platforms, the local news titles, the
+  council and the universities. These are the safety net for a city whose
+  programme is mostly pub sessions, one-off gigs in borrowed rooms and free
+  community events that no venue website will ever list.
+sources:
+  - id: citywide/pure-cork
+    name: Pure Cork
+    category: citywide
+    kind: aggregator
+    status: provisional
+    url: https://www.purecork.ie/whats-on/?locations=cork-city_ballincollig_blarney_glanmire
+    homepage: https://www.purecork.ie/
+    tags: [tourist-board, official, trad, free]
+    cadence: daily
+    hints: |
+      The official Cork tourism listing and the single best safety net in this
+      catalogue — 893 events tagged Cork City on 2026-08-17, and unusually for a
+      tourist board it carries the weekly pub trad sessions (Lee Sessions Trad
+      Trail at Sin É, Clancy's, JJ Walsh's; trad session at Coughlan's), which
+      is the thing Cork is best at and the thing venue websites never print.
+      Server-rendered: title, date, local time, venue name and a "Free Entry"
+      flag per row. No JS needed.
+      The `locations` query param in the url is load-bearing. Unfiltered the page
+      is county-wide (Bantry, Skibbereen, Youghal, Kinsale — all outside our
+      12 km radius); the four towns in the param are the ones inside it. Values
+      are underscore-separated slugs; `categories` takes the same form
+      (art-culture-heritage, cinema-film, festivals, food-drink-events,
+      live-music, nightlife, performance, sports-outdoors, theatre-comedy).
+      Paginate by path, keeping the query string:
+      /whats-on/page/2?locations=… — 48 rows per page, 30 pages filtered.
+      One row per date, so a run or a weekly session appears many times: fold
+      repeats into a `run` or `recurring` occurrence rather than emitting fifty.
+      Lists events at venues catalogued elsewhere (Triskel, Cork Opera House,
+      Cyprus Avenue, Coughlan's, Crane Lane, Sin É, The Lavit Gallery, Cork
+      Public Museum, St Peter's) — set `venue.sourceId` where it matches.
+      Shares an event id space with citywide/proc-event-guide (ids like
+      11199509 appear on both), so the two carry substantially the same rows.
+      Harvest whichever is cheaper on the day and dedup hard against the other.
+    notes: >-
+      Verified 2026-08-17: "What's On | Pure Cork", "Official tourism website for
+      Cork, Ireland", faceted by town (Cork City 893, Ballincollig 17, Blarney 5,
+      Glanmire 3) and category (Live Music 552, Festivals 138, Theatre & Comedy
+      118). visitcork.ie is not a separate source — it serves a meta-refresh to
+      purecork.ie and nothing else.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: citywide/proc-event-guide
+    name: People's Republic of Cork — Event Guide
+    category: citywide
+    kind: aggregator
+    status: provisional
+    url:
+      - role: listings
+        url: https://www.peoplesrepublicofcork.com/eventguide/
+        note: 150 rows per page, ?page=N; default window is today to today+1 year
+      - role: booking
+        url: https://tickets.peoplesrepublicofcork.com/
+        note: PROC Tickets — the ticketed subset with prices, ~51 dated shows on one page
+    tags: [independent, grassroots, tickets, community, trad]
+    cadence: daily
+    hints: |
+      Cork's own grassroots listings site, running since the early 2000s, and the
+      closest thing the city has to Headfirst — user-submitted, so it carries
+      table quizzes, book launches, markets, public meetings and trad sessions
+      that no commercial platform lists. 1,385 events on 2026-08-17 across a full
+      forward year.
+      Server-rendered. Paginate with GET ?page=N — 150 rows per page, ten pages.
+      Each row gives title, venue and either a single date and time or a
+      "Mon 17 Aug - Fri 18 Sep 2026" range; use the range for a `run`.
+      Category and venue facets exist (Live Music, DJ / Nightlife, Comedy,
+      Readings, Cinema, Theatre, Dance, Book Launch, Table quiz, Market,
+      Lecture/Talk/Tour, Workshops, Exhibition, Festivals, plus "Outside Cork" —
+      drop that one), but they post rather than GET, so filter after fetching.
+      The booking route is the same organisation's ticketing arm and the same id
+      space; it adds prices and sold-out state but nothing the guide lacks.
+      Advertises events across the whole city: set `venue.sourceId` for
+      Coughlan's, Cyprus Avenue, Cork Opera House, Crane Lane, Sin É, Dwyers,
+      Fred Zeppelins, The Roundy, Old Oak, Páirc Uí Chaoimh, Turners Cross and
+      the rest of its venue list.
+      Shares its event ids with citywide/pure-cork — dedup on those ids first,
+      they are the same underlying rows.
+    notes: >-
+      Verified 2026-08-17: /eventguide/ is headed "People's Republic of Cork -
+      Event Guide", "Showing 1-150 of 1,385 events", date window "Mon 17 Aug
+      2026" to "Mon 16 Aug 2027", venue facet listing 38 Cork rooms. The
+      /gig-guide/ path some sources cite is not real — it silently serves the
+      homepage. tickets.peoplesrepublicofcork.com is headed "PROC Tickets | Live
+      Music, Concerts & Event Listings in Ireland" with dated shows to Dec 2026;
+      its /all-tickets path answers 200 with "Page not found", so the root is the
+      listing.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: citywide/entertainment-ie
+    name: Entertainment.ie — Cork listings
+    category: citywide
+    kind: aggregator
+    status: provisional
+    url: https://entertainment.ie/events/listing/all/cork/all/
+    homepage: https://entertainment.ie/events/
+    tags: [national, editorial, tickets]
+    cadence: daily
+    hints: |
+      The main Irish national what's-on site, filtered to Cork. Server-rendered
+      and grouped under day headings, one row per event with venue, start time
+      and a price or price range — the price is the thing this has that the other
+      aggregators do not.
+      18 days of listings per page; paginate with /page/2/ appended to the url.
+      County-wide, so it reaches Bantry and Skibbereen: filter on the venue name
+      rather than assuming a row is in the city. Do not try to narrow it by
+      putting a town in the third path segment — /events/listing/all/cork/cork/
+      and /…/cork-city/ both answer 200 and then return national results
+      (National Museum of Country Life, Belfast Exposed), which is worse.
+      Overlaps heavily with the venue catalogues on ticketed shows: set
+      `venue.sourceId` for Triskel, The Everyman, Cyprus Avenue and Coughlan's.
+    notes: >-
+      Verified 2026-08-17: "What's On: All Listings for Cork - Entertainment.ie",
+      57 rows over 18 days from 17 Aug, including Billy Lingwood at Triskel,
+      K-Pop All Stars and A Streetcar Named Desire at The Everyman, The Wailers
+      at Cyprus Avenue. The guessed /whats-on/ and /event-guide/ paths both 404;
+      this is the real one, reached from the site's own nav.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: citywide/eventbrite-cork
+    name: Eventbrite — Cork
+    category: citywide
+    kind: aggregator
+    status: provisional
+    url: https://www.eventbrite.ie/d/ireland--cork/events/
+    tags: [tickets, national, community]
+    cadence: daily
+    hints: |
+      High volume and noisy — speed dating, webinars, commercial workshops — but
+      kept because community and one-off events routinely appear here and nowhere
+      else. Filter hard for genuinely public cultural events.
+      Read the `application/ld+json` ItemList block rather than the rendered
+      cards: it carries startDate, endDate, description and url per event. The
+      visible text uses relative dates ("Friday at 21:00", "Tomorrow at 17:00")
+      which the JSON-LD resolves to real dates.
+      Lists events at catalogued venues (Cyprus Avenue, Live at St Luke's, Cork
+      City Hall, Savoy, Clancy's, Kino) — set `venue.sourceId` where it matches.
+    notes: >-
+      Verified 2026-08-17: "Cork, Ireland Events, Calendar & Tickets |
+      Eventbrite", one JSON-LD ItemList plus server-rendered cards, all at real
+      Cork rooms.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: citywide/ticketmaster-ireland
+    name: Ticketmaster Ireland — Cork
+    category: citywide
+    kind: aggregator
+    status: provisional
+    url: https://www.ticketmaster.ie/discover/cork
+    homepage: https://www.ticketmaster.ie/
+    tags: [tickets, national, major]
+    cadence: weekly
+    hints: |
+      Ticketmaster's Cork city page. Books a long way ahead — listings ran to
+      April 2027 on 2026-08-17 — so capture the full forward horizon rather than
+      the next month.
+      Server-rendered under Concerts / Sports / Arts & Theatre / Family headings,
+      and it also emits `application/ld+json` Event blocks with startDate and the
+      venue's postal address. Prefer those.
+      Only the big ticketed rooms, so overlap with the venue catalogues is near
+      total: set `venue.sourceId` for Cork City Hall, Cyprus Avenue, Páirc Uí
+      Chaoimh and Wavelength. Its value is dates the venue's own site has not
+      published yet.
+      The obvious /discover/concerts/cork and /city/cork/… paths 404 — this is
+      the one linked from the site's own city menu.
+    notes: >-
+      Verified 2026-08-17: "Cork Events - Discover Things To Do In Cork |
+      Ticketmaster", carrying Dizzee Rascal at Cork City Hall (28 Oct), The
+      Wailers at Cyprus Avenue (20 Aug), Darren Kiely (Apr 2027) and a UEFA U21
+      fixture.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: citywide/resident-advisor
+    name: Resident Advisor — Cork
+    category: citywide
+    kind: aggregator
+    status: provisional
+    url:
+      - role: listings
+        url: https://ra.co/events/ie/cork
+        note: human-facing page only — every HTML route on ra.co 403s a fetch
+      - role: api
+        url: https://ra.co/graphql
+        note: POST JSON, no auth; Cork is area 387
+    tags: [electronic, club, tickets]
+    cadence: weekly
+    hints: |
+      Definitive for club nights and electronic music, which mainstream Irish
+      listings cover badly.
+      Do not fetch the listings url — ra.co's HTML sits behind DataDome and 403s
+      a plain fetch and a full Chrome header set alike. **A 403 here is not
+      evidence the data is unreachable.** POST to the api route with
+      `Content-Type: application/json` and no auth of any kind:
+
+        query GET_EVENT_LISTINGS($filters: FilterInputDtoInput, $page: Int,
+                                 $pageSize: Int) {
+          eventListings(filters: $filters, page: $page, pageSize: $pageSize) {
+            totalResults
+            data {
+              id listingDate
+              event {
+                id title date startTime endTime contentUrl
+                venue { id name contentUrl }
+                artists { name }
+              }
+            }
+          }
+        }
+
+      Cork is area 387 — re-resolve it if it ever moves with
+      `{ area(areaUrlName:"cork", countryUrlCode:"ie"){ id } }`. Variables:
+      `{"filters":{"areas":{"eq":387},"listingDate":{"gte":"<from>T00:00:00.000Z",
+      "lte":"<to>T00:00:00.000Z"}},"page":1,"pageSize":50}`. Page until you have
+      `totalResults`. `contentUrl` is site-relative — prefix https://ra.co.
+      Venue names come back plain, so match them to the catalogue by name.
+      Cork is a small RA area — eight events for 2026-08-17 to 2026-12-31, so
+      weekly rather than daily is enough. Lists events at other people's rooms:
+      set `venue.sourceId` for Dali, The Pav, Savoy and The Liberty Bar.
+    notes: >-
+      Verified 2026-08-17: area lookup returned {"id":"387","name":"Cork"} and
+      the listings query returned totalResults 8 at real Cork clubs — M A D D E E P
+      at Dali (23 Aug), Cassy at The Pav (18 Sep), MTRPLS x DISTORT at Savoy
+      (29 Aug), a Jazz Festival weekend date at The Pav (24 Oct). The HTML page
+      403s; the GraphQL endpoint is open and unauthenticated.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: citywide/skiddle-cork
+    name: Skiddle — Cork
+    category: citywide
+    kind: aggregator
+    status: provisional
+    url: https://www.skiddle.com/whats-on/Cork/
+    tags: [tickets, national, club]
+    cadence: weekly
+    hints: |
+      A UK platform with a real if thin Irish presence — 18 events on
+      2026-08-17, weighted to Cyprus Avenue and The Pavillion, running to March
+      2027.
+      The rendered cards are lazy-loaded and mostly empty, but the page carries
+      one `application/ld+json` Event block per listing with name, startDate,
+      description and the venue's postal address. Read those, not the HTML.
+      Small enough that it is only worth harvesting for the forward dates the
+      venue pages have not printed yet. Set `venue.sourceId` from the JSON-LD
+      location name.
+    notes: >-
+      Verified 2026-08-17: "Skiddle Cork Events 2026 - What's on in Cork", 18
+      JSON-LD Event blocks, all at Cork addresses (Katherine Priddy and Black
+      Stone Cherry at Cyprus Avenue, The Vintage Explosion at The Pavillion).
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: citywide/bandsintown-cork
+    name: Bandsintown — Cork
+    category: citywide
+    kind: aggregator
+    status: provisional
+    url: https://www.bandsintown.com/c/cork-ireland
+    tags: [tickets, national]
+    cadence: weekly
+    hints: |
+      Artist-driven, so it catches pub and small-room gigs that ticketing
+      platforms miss — but its "Cork" metro is really Munster and bleeds badly
+      into Kerry and West Cork. Of 36 events on 2026-08-17, several were at the
+      Gleneagle Hotel and Killarney Grand in Killarney and at Connolly's of Leap
+      and Levis' in West Cork, all far outside the radius. Filter on the venue's
+      address, do not trust the page's own geography.
+      Read the `application/ld+json` Event blocks; they carry startDate and the
+      venue name. Event names arrive in "Artist @ Venue" form — split on " @ ".
+    notes: >-
+      Verified 2026-08-17: "Concerts & Events in Cork, Ireland | Bandsintown",
+      36 JSON-LD events including The Wailers at Cyprus Avenue (20 Aug) alongside
+      the Kerry listings noted above.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: citywide/meetup-cork
+    name: Meetup — Cork
+    category: citywide
+    kind: aggregator
+    status: provisional
+    url: https://www.meetup.com/find/?location=ie--Cork&source=EVENTS
+    tags: [community, national]
+    cadence: weekly
+    hints: |
+      Community and hobby events — discussion groups, book clubs, walks, language
+      exchanges — which are exactly the category no venue site and no tourist
+      board will ever carry. Noisy and heavy on singles and networking events;
+      keep the ones that are genuinely open and cultural.
+      Server-rendered with dated rows, but times are given in IST wall-clock and
+      the venue is often withheld until RSVP: expect to record the organising
+      group rather than a venue, and leave `venue` unset rather than guessing.
+      The `location=ie--Cork` param defaults to an 18-mile radius, wider than
+      ours — check the group's stated area.
+    notes: >-
+      Verified 2026-08-17: "Find Events & Groups | Meetup" with dated Cork rows
+      (History of Ideas Discussion Group Cork, 19 Aug; Book Reading Club Cork,
+      29 Aug; Harper's Island Wetlands with Common Ground, 29 Aug).
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: citywide/yay-cork
+    name: Yay Cork
+    category: citywide
+    kind: aggregator
+    status: provisional
+    url: https://yaycork.ie/
+    tags: [independent, editorial]
+    cadence: weekly
+    hints: |
+      Independent Cork things-to-do site. Unreachable from a plain fetcher as of
+      2026-08-17 and no URL change will fix it: every path on the host, the
+      sitemap, robots.txt, /feed/ and the WordPress REST API alike, answers 202
+      with a meta-refresh to /.well-known/sgcaptcha/ — SiteGround's bot wall.
+      A Chrome user-agent and a full browser header set make no difference.
+      **Do not mark this closed on the wall.** It needs a JS-capable fetcher;
+      when there is one, start from the root and find the listings path, because
+      the wall hid the site's own navigation from us.
+    notes: >-
+      Checked 2026-08-17: the domain is live and answers (the root serves a
+      styled "403 - Forbidden" page, other paths the sgcaptcha redirect), so the
+      site exists, but we have seen none of its content and cannot confirm its
+      listings path. The url is deliberately the homepage rather than a guessed
+      /whats-on/ — /whats-on/, /events/ and /things-to-do/ were all tried and all
+      returned the same wall, which is no evidence either way.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: citywide/echo-live
+    name: The Echo — What's On
+    category: citywide
+    kind: aggregator
+    status: provisional
+    url: https://www.echolive.ie/entertainment/whatson/
+    homepage: https://www.echolive.ie/
+    tags: [news, editorial]
+    cadence: daily
+    hints: |
+      Cork's evening paper and the local news title with a genuine what's-on
+      column, which is the one thing the aggregators cannot replace: John Dolan's
+      weekend picks and the "Weekend guide: What's happening in Cork" pieces name
+      one-off gigs, tribute nights and community events that never reach a
+      listings database.
+      Editorial roundups, not a feed — read the articles and extract one event
+      per paragraph. Items often carry a day and venue but no year; resolve
+      against the article's publication date.
+      No RSS: /rss/ 404s and ?service=rss returns the HTML page unchanged.
+      The catalogued /whatson/ path 301s to /entertainment/whatson/, which is the
+      one recorded here; /whats-on/ 404s.
+    notes: >-
+      Verified 2026-08-17: "Whats On - Echolive", carrying "Weekend guide: What's
+      happening in Cork this Saturday and Sunday", "Weekend plans? Here's our top
+      picks" (7 Aug), a Crane Lane tribute gig for drummer James Spillane and a
+      free tour of Cork's cinema landmarks.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: citywide/corkbeo
+    name: CorkBeo — What's On
+    category: citywide
+    kind: aggregator
+    status: provisional
+    url:
+      - role: listings
+        url: https://www.corkbeo.ie/culture/whats-on-news/
+        note: the full article list; far more items than the feed
+      - role: feed
+        url: https://www.corkbeo.ie/culture/whats-on-news/?service=rss
+        note: cheap but shallow — six items, about two days
+    homepage: https://www.corkbeo.ie/
+    tags: [news, editorial]
+    cadence: daily
+    hints: |
+      Reach plc's Cork title. Reachable, unlike its Bristol sibling, but the
+      signal is poor: on 2026-08-17 three of six feed items and roughly a fifth
+      of the article list were genuine Cork events, the rest Next and M&S
+      affiliate shopping copy filed under the same section. Be ruthless — keep
+      only items with a date and a place.
+      The real events do not appear anywhere else (a free UCC conference on the
+      history of Cork city, a food market at the airport for Cork on a Fork), so
+      it is worth the filtering.
+      /whats-on/ 404s; the section lives under /culture/. The sibling tag
+      /all-about/things-to-do-in-cork is cleaner but much thinner — one item on
+      the day checked — so the noisy section is the better listings route.
+    notes: >-
+      Verified 2026-08-17: page titled "What's On - Cork events news, reviews,
+      guides - Cork Beo"; the feed is a real RSS 2.0 document headed "Cork Beo -
+      What's On News", copyright Reach PLC 2026.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: citywide/cork-independent
+    name: Cork Independent — What's On
+    category: citywide
+    kind: aggregator
+    status: provisional
+    url: https://www.corkindependent.com/whats-on/
+    homepage: https://www.corkindependent.com/
+    tags: [news, independent, free]
+    cadence: weekly
+    hints: |
+      Cork's free weekly, distributed across the city since 2005, and worth
+      having for community and neighbourhood events that the dailies skip.
+      Nothing is server-rendered. The site is a Naviga/Infomaker front end that
+      builds every article list client-side, so /whats-on/ arrives with its
+      heading and an empty body, and /category/entertainment/ and
+      /lifestyle-leisure/ do the same. Needs a JS-capable fetcher.
+      Its WordPress REST API is present but useless — /wp-json/wp/v2/categories
+      lists the taxonomy (entertainment id 7, arts-culture id 26) while
+      /wp-json/wp/v2/posts holds only two stub posts, so the real content is not
+      in WordPress. Do not add a route for it.
+      Weekly paper, so a weekly visit catches everything.
+    notes: >-
+      Verified 2026-08-17 as the right page, not as readable: title "What's On |
+      Cork Independent", masthead "Cork's biggest free newspaper … since 2005",
+      North Point House, Blackpool. The url is correct and should start yielding
+      without a catalogue change once there is a browser-capable fetcher.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: citywide/irish-examiner-arts
+    name: Irish Examiner — Arts & Culture
+    category: citywide
+    kind: aggregator
+    status: provisional
+    url: https://www.irishexaminer.com/lifestyle/artsandculture/
+    homepage: https://www.irishexaminer.com/
+    tags: [news, editorial, national]
+    cadence: weekly
+    hints: |
+      The Examiner is a national paper published from Cork, so its arts desk
+      previews Cork shows in more depth than any listings site — but the section
+      is national in scope and much of it is review and interview rather than
+      anything dated. Its recurring "Five for your radar" column is the useful
+      one: a handful of dated picks each week, usually one or two in Cork.
+      Extract only items with a date and a venue, and drop anything outside the
+      radius — the column ranges over Limerick, Kerry and West Cork.
+      There is no what's-on listings page: /whatson/ 404s and the legacy
+      /arid-whatson.html answers 410. Much of the site is paywalled; take what
+      the section page itself prints.
+    notes: >-
+      Verified 2026-08-17: "Arts | Irish Examiner", carrying "Five for your
+      radar: Cian Ducrot in Limerick, trad music in Bantry, dance in Kerry",
+      a Cork actress interview and a Skibbereen festival preview.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: citywide/discover-ireland-cork
+    name: Discover Ireland — Cork events
+    category: citywide
+    kind: aggregator
+    status: provisional
+    url: https://www.discoverireland.ie/cork/events
+    homepage: https://www.discoverireland.ie/cork
+    tags: [tourist-board, official, national]
+    cadence: monthly
+    hints: |
+      Fáilte Ireland's national tourism site, Cork events section. Low priority
+      and the honest reason is duplication: it draws on the same Fáilte Ireland
+      content pool as citywide/pure-cork, which is server-rendered, city-filtered
+      and far richer. Harvest Pure Cork first and treat this as a check for
+      anything Pure Cork dropped.
+      Nothing is server-rendered — the event cards are a client-side Next.js
+      list and the page's `__NEXT_DATA__` payload contains no events, so there is
+      no unauthenticated JSON route to add. Needs a JS-capable fetcher.
+      County-wide when it does render, so filter on the venue's address.
+    notes: >-
+      Verified 2026-08-17 as the right page, not as readable: title "Find Out
+      What's On in County Cork with Discover Ireland", Fáilte Ireland footer,
+      "Festivals & events / What's on in Cork" headings and zero event rows in
+      the HTML. /cork/events was reached from the destination page's own nav.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: citywide/cork-city-council
+    name: Cork City Council — festivals and events
+    category: citywide
+    kind: listing
+    status: provisional
+    url:
+      - role: listings
+        url: https://www.corkcity.ie/en/things-to-do/festivals-events/
+        note: the council's own festival programme, one microsite per festival
+      - role: listings
+        url: https://www.corkcity.ie/en/council-services/news-room/latest-news/
+        note: where the dates actually appear — line-ups and programmes are announced here
+    homepage: https://www.corkcity.ie/
+    tags: [official, civic, free, family]
+    cadence: monthly
+    hints: |
+      Unlike most councils this one programmes heavily in its own right, and the
+      free and family end of Cork's calendar is largely its output: Corkmas,
+      St Patrick's Festival, Culture Night, Cork on a Fork Fest, Cruinniú na nÓg,
+      Cork Lifelong Learning Festival, Cork Carnival of Science, Cork World Book
+      Fest, Ardú, Heritage Open Day, Africa Day, Cork City Marathon, Cork Rocks
+      for Rory, European Maritime Days, and the monthly First Fridays series.
+      The first route is a hub, not a diary — it links one microsite per festival
+      under corkcity.ie/en/<festival>/, and the dates live on those. Follow the
+      links rather than expecting rows.
+      The second route is where dated announcements land ("Cork City Council
+      Announces First Fridays Event line-up for August", 5 Aug 2026), and it is
+      the only part of the site that behaves like a feed. There is no RSS —
+      /en/rss/, /rss.xml and a per-section rss/ path all 404.
+      Most of the named festivals will also be catalogued under festivals/, so
+      expect duplication: prefer the festival's own entry and use this for the
+      council-run one-offs that have no festival of their own. First Fridays in
+      particular has no site of its own and reaches us only here.
+    notes: >-
+      Verified 2026-08-17: /en/things-to-do/festivals-events/ is headed
+      "Festivals & Events", "Cork City Council supports a wide variety of
+      festivals and events throughout the year", listing the programme above,
+      with a dated Latest News block (Glanmire Greenway opening 12 Aug, Cork on
+      a Fork 11 Aug, Heritage Open Day 6 Aug). The obvious /en/whats-on/,
+      /en/events/ and /en/news-and-events/ paths all 404.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: citywide/cork-city-arts-office
+    name: Cork City Arts Office
+    category: citywide
+    kind: listing
+    status: provisional
+    url: https://www.eventbrite.ie/o/cork-city-arts-office-40351989423
+    homepage: https://www.corkcity.ie/en/council-services/services/arts-culture-heritage/arts-office/
+    tags: [official, civic, free, community]
+    cadence: monthly
+    hints: |
+      The council's Arts and Events section — it delivers Culture Night and
+      Cruinniú na nÓg in Cork and funds much of the community arts programme, so
+      it is the origin of a large share of the city's free events.
+      Low yield as a source, for a specific reason: its pages on corkcity.ie are
+      funding, policy and grant announcements with no dated diary of any kind
+      (checked /arts-office/, /arts-office/news/, /arts-office/arts-funding/),
+      and its Eventbrite organiser page — the only dated route it has — was empty
+      of upcoming events on 2026-08-17 and renders client-side, with no JSON-LD
+      and no server payload. Expect it to fill around Culture Night in September
+      and Cruinniú na nÓg in June, and skip it in between.
+      Its programme mostly reaches us elsewhere: through the festival microsites
+      under citywide/cork-city-council, and through citywide/cork-city-libraries,
+      which delivers a good deal of it.
+    notes: >-
+      Verified 2026-08-17: the Eventbrite organiser page exists and is titled
+      "Cork City Arts Office" with Upcoming and Past tabs, but lists nothing
+      upcoming. There is no corkculture.ie — the domain does not resolve — so
+      "Cork Culture" is not a separate source; the Arts Office is the thing that
+      name refers to.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: citywide/cork-city-libraries
+    name: Cork City Libraries
+    category: citywide
+    kind: listing
+    status: provisional
+    url: https://www.corkcitylibraries.ie/en/events/
+    homepage: https://www.corkcitylibraries.ie/
+    tags: [official, civic, free, family, trad]
+    cadence: weekly
+    hints: |
+      The highest-yield civic source in this file and badly under-represented
+      everywhere else: one server-rendered page listing every event across all
+      ten branches — City Library on Grand Parade, Ballincollig, Bishopstown,
+      Blackpool, Blarney, Douglas, Frank O'Connor in Mayfield, Glanmire,
+      Hollyhill and Tory Top — running months ahead. Almost all of it is free.
+      Genuinely varied: trad music sessions, Ceol Mara Irish song groups,
+      sean-nós and ukulele workshops, "Live at the Library" gigs, author events,
+      book launches, local history talks, exhibitions, chess clubs, Lego and
+      toddler sessions, genealogy classes, seed-saving talks.
+      The page is an index of every event, past included — July dates were still
+      listed on 17 August — so filter on the date rather than assuming the list
+      is forward-looking.
+      Many titles carry a DD/MM suffix ("Lego Time 19/08", "Trad Music Session
+      23/08") which is the date, not part of the name: strip it before deriving
+      the event id, or the same weekly session will mint a new id every week.
+      Recurring branch sessions should become one `recurring` occurrence, not
+      fifty singles.
+      /en/what-s-on/events-calendar/ redirects here, so this is the canonical
+      listing; the loxi.io calendar the site also links to serves an empty body
+      and is not worth a route.
+    notes: >-
+      Verified 2026-08-17: "Events - Cork City Libraries", several hundred dated
+      rows from July into September and beyond, including Heritage Week talks
+      ("The Bridges of Cork City: Search-and-Find", "Across the Bridge"), Ceol
+      Mara, Cór Bláth Oráiste choir, and exhibitions ("Speaking Through Stone",
+      "20 Years of Traditional Lacemaking in Ireland"). The guessed
+      /en/whats-on/ path 404s.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: citywide/cork-chamber
+    name: Cork Chamber — events calendar
+    category: citywide
+    kind: listing
+    status: provisional
+    url: https://chamber.corkchamber.ie/events/catgid/1014
+    homepage: https://www.corkchamber.ie/events-overview/
+    tags: [official, community]
+    cadence: monthly
+    hints: |
+      Business events — breakfasts, networking lunches, industry briefings,
+      awards nights, the Annual Dinner, the Golf Classic, the Cork Digital
+      Marketing Awards. Mostly member-only, several explicitly invite-only, and a
+      good share are webinars. Keep only what a member of the public could
+      actually attend and say so; drop the rest rather than filling the site with
+      closed events.
+      The events calendar lives on a separate host from the main site. The
+      corkchamber.ie/events-overview/ page kept as homepage is undated marketing
+      prose describing the event series, not a diary — do not harvest it.
+      Nine dated events on 2026-08-17 with date filters for today / this week /
+      this month / this year; it is server-rendered.
+    notes: >-
+      Verified 2026-08-17: "Events Calendar - Cork Chamber Event", nine rows
+      (Golf Classic 25 Aug marked SOLD OUT, Networking Lunch aboard the Brittany
+      Ferries Pont Aven 12 Sep, Business Breakfast with the AIB Group CEO 29
+      Sep). corkchamber.ie/events/ 301s to /events-overview/; the calendar was
+      reached from that page's own link.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"

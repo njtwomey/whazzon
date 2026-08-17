@@ -241,7 +241,7 @@ sources:
     name: University of Bristol — public events
     category: citywide
     kind: listing
-    status: provisional
+    status: closed
     url: https://www.bristol.ac.uk/events/
     tags: [university, talks, free]
     cadence: weekly
@@ -258,12 +258,15 @@ sources:
       authorized" without the token the embed script mints, so there is no
       unauthenticated route. Needs a JS-capable fetcher.
     notes: >-
-      Checked 2026-08-17: the URL is right and the harvest's "listed nothing" is
-      accurate rather than a miss — the page is a shell around a cookie-gated
-      Timely widget. /university/for-bristol/events/ and /public-engagement/
-      were checked as alternatives and are prose hubs with no dated listings;
-      the only dated pages are per-department (for example /maths/events/public/
-      ), too fragmented to catalogue as one source.
+      Superseded by `education/university-of-bristol`, which carries the same URL
+      and the same findings. Closed rather than renamed: this id appears in the
+      2026-08-16 harvest log, and the log is append-only, so changing the id here
+      would orphan an observation. Closed sources are not harvested, so the
+      university is fetched once rather than twice.
+      The original finding stands and is worth keeping: the URL is right and the
+      harvest recording "listed nothing" was accurate rather than a miss, because
+      the page is a shell around a cookie-gated Timely widget. It produced zero
+      events across its whole history.
     addedAt: "2026-08-16"
 
   - id: citywide/uwe-bristol

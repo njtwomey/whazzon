@@ -1,0 +1,148 @@
+schema: whazzon.catalogue/1
+category: education
+label: Learning & Talks
+description: >-
+  Public lectures, adult education and outreach — the programmes whose purpose
+  is that someone leaves knowing something. A university publishing its own
+  public programme belongs here rather than among the city-wide aggregators,
+  which is why `education/university-of-bristol` was re-homed out of `citywide`.
+  UWE stays there for now: unlike Bristol's, its entry has real harvest history
+  behind it.
+sources:
+  - id: education/university-of-bristol-alumni
+    name: University of Bristol — alumni and public events
+    category: education
+    kind: listing
+    status: provisional
+    url: https://www.bristol.ac.uk/alumni/events/
+    homepage: https://www.bristol.ac.uk/alumni/
+    area: Clifton
+    tags: [university, talks, free]
+    cadence: weekly
+    hints: |
+      This is the only University of Bristol page that actually lists dated
+      events to a plain fetch — ten forward dates on 2026-08-17, server-rendered.
+      Read it as a public-lecture source rather than an alumni-society one: the
+      programme is largely lectures, panels and campus openings that anyone can
+      attend, with the genuinely members-only reunions a minority.
+      There is no feed: /alumni/events/feed/ 404s.
+    notes: >-
+      Added because `education/university-of-bristol` — the university's central
+      /events/ page — carries no dated events at all. That entry is correct and
+      its own notes explain why: the page is a shell around a cookie-gated
+      Timely widget whose API will not answer unauthenticated. This is the
+      readable half of the same institution, so the two are complementary rather
+      than duplicates, and they point at different URLs.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: education/bristol-ideas
+    name: Bristol Ideas
+    category: education
+    kind: organiser
+    status: provisional
+    url: https://www.bristolideas.co.uk/events/
+    homepage: https://www.bristolideas.co.uk/
+    tags: [talks, major, community]
+    cadence: weekly
+    hints: |
+      Formerly Bristol Festival of Ideas. Programmes talks, lectures and
+      discussion into other people's rooms across the city — Watershed, St
+      George's, the Arnolfini, Wills Memorial Building — so expect to set
+      `venue.sourceId` on most events, several of which we catalogue separately.
+      **Bot-walled.** Every path returns 403 to curl and WebFetch alike,
+      including the site root, with a ~1.4 KB body. Needs a JS-capable fetch or a
+      browser; do not read the 403 as a dead site.
+    notes: >-
+      No `verifiedAt`: the organisation is real and the domain answers, but the
+      403 means no page body was read on 2026-08-17, so the path could not be
+      distinguished from a wrong one. Confirm /events/ in a browser before
+      promoting.
+    addedAt: "2026-08-17"
+
+  - id: education/bristol-folk-house
+    name: Bristol Folk House
+    category: education
+    kind: venue
+    status: provisional
+    url: https://www.bristolfolkhouse.co.uk/courses-and-workshops
+    homepage: https://www.bristolfolkhouse.co.uk/
+    area: Old City
+    tags: [independent, courses, community]
+    cadence: monthly
+    hints: |
+      An adult-education institute with a café and a music programme, so its
+      output splits three ways: term-length courses, one-off workshops and gigs.
+      Only the first two belong here.
+      Courses are terms rather than dates — "Tuesdays, 10 weeks from late
+      September" — which is `recurring` with the pattern in words, not ten
+      separate events.
+      /feed/ returns the HTML page rather than RSS (identical byte length to the
+      page itself), so there is no feed route despite the path answering 200.
+    notes: >-
+      Verified 2026-08-17: /courses/ redirects and the real path is
+      /courses-and-workshops, reached from the site's own navigation.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: education/wea-bristol
+    name: WEA — Bristol courses
+    category: education
+    kind: organiser
+    status: provisional
+    url: https://www.wea.org.uk/courses?location%5Bvalue%5D=Bristol&location%5Bdistance%5D%5Bfrom%5D=10
+    homepage: https://www.wea.org.uk/
+    tags: [courses, community, beginners]
+    cadence: weekly
+    hints: |
+      The Workers' Educational Association is national, so the location filter in
+      the url is load-bearing — without it you get the whole country. The
+      parameters are Drupal-style and must stay percent-encoded:
+      `location[value]=Bristol` and `location[distance][from]=10` (miles).
+      A ten-mile radius is wider than this location's 12 km, so drop rows whose
+      venue is outside Bristol after fetching. Venues are borrowed community
+      halls, libraries and church rooms — set `venue.name` from the row rather
+      than assuming a WEA building, because there isn't one.
+      Dates print as `dd/mm/yyyy`, which is day-first.
+    notes: >-
+      Verified 2026-08-17: the filtered page returns 200 with 18 Bristol
+      references. The form exposes further filters (`category`, `sub_category`,
+      per-day checkboxes, `items_per_page`) if a run ever needs narrowing.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: education/university-of-bristol
+    name: University of Bristol — public events
+    category: education
+    kind: listing
+    status: provisional
+    url: https://www.bristol.ac.uk/events/
+    tags: [university, talks, free]
+    cadence: weekly
+    hints: |
+      Public lectures and open research events. Free and open to the public
+      despite looking institutional — worth including.
+      Nothing is server-rendered here. The "Forthcoming events" block is a
+      Timely embed and the page itself says events only appear once cookie
+      preferences are set. The calendar is
+      https://calendar.time.ly/s4f7hatq/list (numeric id 15953078), which is
+      client-rendered — its HTML holds no event data and its sitemap lists only
+      the posterboard view. The underlying API,
+      calendar.time.ly/api/calendars/15953078/events, exists but 403s "not
+      authorized" without the token the embed script mints, so there is no
+      unauthenticated route. Needs a JS-capable fetcher.
+    notes: >-
+      Re-homed from `citywide/university-of-bristol` on 2026-08-17, which is now
+      closed. A university publishing its own public programme is a teaching
+      institution rather than a city-wide listings service, so it belongs here
+      alongside the adult-education providers.
+      Checked 2026-08-17: the URL is right and a harvest recording "listed
+      nothing" is accurate rather than a miss — the page is a shell around a
+      cookie-gated Timely widget, and it produced zero events across the whole
+      2026-08-16 run. /university/for-bristol/events/ and /public-engagement/
+      were checked as alternatives and are prose hubs with no dated listings;
+      the only dated pages are per-department (for example /maths/events/public/),
+      too fragmented to catalogue as one source. Read
+      `education/university-of-bristol-alumni` for the half of this institution
+      that a plain fetch can actually read.
+    addedAt: "2026-08-16"

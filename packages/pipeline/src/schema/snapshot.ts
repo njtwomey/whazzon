@@ -57,6 +57,18 @@ const SnapshotEventV1 = z.strictObject({
   address: PostalAddress.optional(),
 
   url: HttpUrl.optional(),
+  /**
+   * The listing this event came from — the source's own `listings` route.
+   *
+   * The fallback for the very common case of an index that prints a title and a
+   * date with nothing to click. Sending someone to the page that carried the
+   * listing is a worse answer than the event's own page but a much better one
+   * than a dead end, and it is honest: that page is where this came from.
+   *
+   * Optional only because a snapshot compiled before this field existed has no
+   * value for it; `compile` always writes one.
+   */
+  sourceUrl: HttpUrl.optional(),
   image: HttpUrl.optional(),
   price: Price.optional(),
   ageRestriction: z.string().optional(),

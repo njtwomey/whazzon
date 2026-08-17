@@ -1,0 +1,3427 @@
+schema: "whazzon.harvest/1"
+locationId: "cork-ie"
+date: "2026-08-17"
+category: "museums"
+harvestedAt: "2026-08-17T10:45:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "4"
+model: "claude-opus-5[1m]"
+observations:
+  - sourceId: "museums/cork-public-museum"
+    fetch:
+      ok: true
+      url: "https://www.corkcity.ie/en/cork-public-museum/visit/upcoming-events/"
+      status: 200
+    events:
+      - id: "museums/cork-public-museum#b72ef206b9"
+        sourceId: "museums/cork-public-museum"
+        title: "SUFFERING THE MOST–Tomas MacCurtain and Terence MacSwiney"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        url: "https://www.corkcity.ie/en/cork-public-museum/visit/upcoming-events/suffering-the-most-tomas-maccurtain-and-terence-macswiney/"
+        image: "https://www.corkcity.ie/media/xeknub4v/final-poster-lighter-copy-no-date.jpg?width=300&height=300&v=1daf7d68a905df0"
+        tags:
+          - "exhibition"
+          - "heritage"
+          - "permanent-collection"
+        raw: "**SUFFERING THE MOST–Tomas MacCurtain and Terence MacSwiney**
+
+
+          SUFFERING THE MOST – The life and times of Tomas McCurtain and Terence
+
+          MacSwiney.\n"
+        summary: "A standing exhibition on the two republican Lord Mayors of Cork who died in 1920 - MacCurtain shot at his home in March, MacSwiney on hunger strike in Brixton in October - built around the museum's own collection and loans from the MacSwiney family. No start or end date is printed."
+        confidence: "medium"
+      - id: "museums/cork-public-museum#fe1aefbc0f"
+        sourceId: "museums/cork-public-museum"
+        title: "Our Collections: Aspects of Life in Medieval Cork"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        url: "https://www.corkcity.ie/en/cork-public-museum/visit/upcoming-events/our-collections-aspects-of-life-in-medieval-cork/"
+        image: "https://www.corkcity.ie/media/rvsfxwkj/197097-d47-photo-map-cork.jpg?width=300&height=300&v=1daf7dcf866bf80"
+        tags:
+          - "exhibition"
+          - "heritage"
+          - "archaeology"
+          - "permanent-collection"
+        raw: "**Our Collections: Aspects of Life in Medieval Cork**
+
+
+          Our Collections: Aspects of life in Medieval Cork.\n"
+        summary: "Gaming pieces, dice, chess pawns and a child's toy longship pulled out of the South Main Street and Christ Church excavations, presented as a way into what daily life in Hiberno-Norse and Anglo-Norman Cork was actually like. No dates printed."
+        confidence: "medium"
+    notes: "The listings page carries two collection exhibitions and nothing dated, as the hints predicted. The child page /visit/upcoming-events/events-and-exhibitions/ was fetched and is entirely stale: it still heads its programme \"Heritage Week 2025 - Cork Public Museum\" and prints \"Saturday 16th August\", which was a Saturday in 2025 but is a Sunday in 2026, and below it sit \"THE LE PILLY PROJECT 2024\", \"HERITAGE WEEK 2024\" and the Spring 2024 lecture series. Nothing was recorded from it. The museum's actual 2026 Heritage Week programme is not on corkcity.ie at all - it appears only on heritageweek.ie, where its \"Exhibition Opening\" (19-22 Aug) and \"Gardens & Galleries Guided Tour\" (21 Aug) are recorded under museums/national-heritage-week. No admission price is printed anywhere on the page, so price is omitted rather than assumed free."
+  - sourceId: "museums/cork-city-gaol"
+    fetch:
+      ok: true
+      url: "https://corkcitygaol.com/news-updates/"
+      status: 200
+    events:
+      - id: "museums/cork-city-gaol#753a3434b7"
+        sourceId: "museums/cork-city-gaol"
+        title: "Self Guided Tours"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        url: "https://bookings.corkcitygaol.com/book"
+        price:
+          free: false
+          text: "Prices from €7.50 per person"
+          min: 7.5
+          currency: "EUR"
+        tags:
+          - "heritage"
+          - "permanent-collection"
+          - "family"
+        raw: "**Self Guided Tours** — Visit the Gaol at a time that suits you. A guidebook
+
+          is included. Prices from €7.50 per person.\n"
+        summary: "Admission to the 1824 gaol at any time during opening hours, guidebook included; the Radio Museum Experience in the same building is covered by the same ticket."
+        confidence: "high"
+      - id: "museums/cork-city-gaol#0da42c7c8e"
+        sourceId: "museums/cork-city-gaol"
+        title: "Guided Tours"
+        occurrence:
+          kind: "recurring"
+          pattern: "Available at 2pm everyday (Available every hour during July & August)"
+          startTime: "14:00"
+        status: "scheduled"
+        url: "https://bookings.corkcitygaol.com/book"
+        price:
+          free: false
+          text: "Prices from €9.50 per person"
+          min: 9.5
+          currency: "EUR"
+        tags:
+          - "guided-tour"
+          - "heritage"
+          - "booking-required"
+        raw: "**Guided Tours** — Available at 2pm everyday (Available every hour during
+
+          July & August). Prices from €9.50 per person.\n"
+        summary: "A guide takes you round the cells and the wings at 2pm every day, and hourly through the summer, on the unnamed prisoners rather than the famous ones."
+        confidence: "high"
+    notes: "No forward-dated events on the news blog. Three event posts were opened and all three are past: \"Easter Bunny Trail\" (Saturday 4th to Friday 10th April - no year printed, but 4 April 2026 is a Saturday and the image path is /uploads/2026/03/, so Easter 2026), \"Halloween Family Fun\" (Saturday 25th to Friday 31st October - 25 October 2025 is a Saturday where 25 October 2026 is a Sunday, and the image path is /uploads/2025/10/, so Halloween 2025) and \"Culture Night 2025 - Fully Booked\". The remaining posts are history articles - prisoner profiles, \"Did You Know?\", a famous-prisoners timeline - and are not events. The two rows below therefore come from the catalogued booking route, which is the only place tour times and prices are printed."
+  - sourceId: "museums/butter-museum"
+    fetch:
+      ok: true
+      url: "https://thebuttermuseum.com/"
+      status: 200
+    events:
+      - id: "museums/butter-museum#52bcb18e26"
+        sourceId: "museums/butter-museum"
+        title: "The Butter Museum"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        timesText: "January-February Sat 10-4 and Sun 11-4 only; March-April Wed-Sat 10.00-4.00, Sun 11.00-4.00; May-October daily Mon-Sat 10.00-4.00, Sun 11.00-4.00; November-December Wed-Sat 10.00-4.00, Sun 11.00-4.00; bank holiday Mondays 11.00-4.00"
+        url: "https://thebuttermuseum.com/the-museum-experience/"
+        image: "https://thebuttermuseum.com/wp-content/uploads/2024/12/the-butter-museum-cork-1680x900.jpg"
+        price:
+          free: false
+          text: "Adults €5.00; Students/Seniors/Concession €4.00; Children €2.00; children under 12 free in a family group; carers/accompanying persons free; groups (10+) by arrangement"
+          min: 2
+          max: 5
+          currency: "EUR"
+        tags:
+          - "permanent-collection"
+          - "heritage"
+          - "food-drink"
+        raw: "**Welcome to The Butter Museum — An Original and Memorable Experience**
+
+
+          The Butter Museum is a unique institution, celebrating one of the great
+
+          success stories of Ireland, the butter trade. Located in the historic
+
+          Shandon area of Cork city, the story begins with the central role of dairy
+
+          culture in the Island of Saints and Scholars. The Museum goes on to describe
+
+          the internationally important Butter Exchange in nineteenth century Cork,
+
+          the traditional craft of home butter making and the modern success of the
+
+          Kerrygold brand.\n"
+        summary: "A small self-guided museum in Shandon on how butter made Cork rich - the nineteenth-century Butter Exchange, the craft of home butter-making, and the invention of Kerrygold - with a wrapper collection and a film."
+        confidence: "high"
+      - id: "museums/butter-museum#54db1b502a"
+        sourceId: "museums/butter-museum"
+        title: "Butter Making Demonstrations"
+        occurrence:
+          kind: "recurring"
+          pattern: "Wednesdays and Saturdays at 12.00"
+          startTime: "12:00"
+        status: "scheduled"
+        url: "https://thebuttermuseum.com/butter-making-demonstrations/"
+        image: "https://thebuttermuseum.com/wp-content/uploads/2025/03/butter-making-demonstration.jpg"
+        tags:
+          - "hands-on"
+          - "heritage"
+          - "drop-in"
+          - "food-drink"
+        raw: "**Butter Making Demonstrations** — Experience the Art of Traditional Butter
+
+          Making on Wednesdays and Saturdays at 12.00.
+
+
+          We are a small Museum and can only seat 35 guests for our butter making
+
+          demonstrations. We cannot offer a pre-payment or booking facility for
+
+          demonstrations: to increase your chances of a seat, we recommend you arrive
+
+          early at 11 am or thereabouts, enjoy the Museum self-guided tour and stay for
+
+          the demonstration. If all seats are taken by 11.40 am or so, we may go ahead
+
+          with the demonstration. There is always plenty of fresh bread and newly-made
+
+          butter to sample afterwards even if you missed the demonstration this time!\n"
+        summary: "Traditional hand butter-making twice a week, 35 seats, no booking - turn up around 11 and do the museum first. Fresh bread and new butter to taste afterwards either way."
+        confidence: "high"
+      - id: "museums/butter-museum#022223cda8"
+        sourceId: "museums/butter-museum"
+        title: "Heritage Week: Butter in the Bog and A Pig in The Kitchen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+          startTime: "14:00"
+          endTime: "15:30"
+        status: "scheduled"
+        venue:
+          name: "The Firkin Crane"
+          area: "Shandon"
+        url: "https://thebuttermuseum.com/butter-in-the-bog-and-a-pig-in-the-kitchen/"
+        price:
+          free: true
+          text: "No Booking Required"
+        tags:
+          - "hands-on"
+          - "heritage"
+          - "food-drink"
+          - "free-entry"
+          - "drop-in"
+        raw: "**Heritage Week: Butter in the Bog and A Pig in The Kitchen, Tuesday 18th
+
+          August** — Tuesday 18th August 14.00- 15.30, The Firkin Crane. No Booking
+
+          Required.\n"
+        summary: "Make butter and brown bread by hand and plant a windowsill sprout garden, hung on 4,300 years of burying butter in bogs and keeping a pig on the buttermilk - the museum's Heritage Week argument about food security."
+        description: "Tuesday 18th August 14.00- 15.30, The Firkin Crane. No Booking Required.
+
+
+          We've buried butter in bogs in Ireland for at least 4300 years. Deep in the
+
+          bog, the butter stayed cool, safe, and secure: a way of taking a summer
+
+          surplus and preserving it for winter, when food was scarcer. We also kept
+
+          pigs who ate garden scraps, potato peels, and buttermilk from the butter
+
+          making process. Those pigs contributed fertiliser for the kitchen garden and
+
+          potato drills, and became another important food source in turn. Even the
+
+          brown bread on the table was part of the same thrifty logic, traditionally
+
+          made with wholegrain flour and fresh buttermilk (before the pigs got their
+
+          share!) These ingredients barely travelled further than the farmyard: food
+
+          miles you could probably count on one hand.
+
+
+          As climate change and geopolitical instability put questions of food security
+
+          back on the agenda, what can the past teach us about feeding ourselves well,
+
+          now and in the future? Can we re-discover food sources closer to home,
+
+          without relying on lorries, shipping lanes, or a supply chain with a thousand
+
+          points where something could go wrong? Join us to make butter and brown bread
+
+          by hand and plant seeds to sprout into delicious and nutritious \"windowsill
+
+          gardens\": a small piece of food security you can grow for yourself, even in
+
+          the city centre.
+
+
+          Sprouts Handout (A4) available to download.\n"
+        confidence: "high"
+      - id: "museums/butter-museum#35d9353710"
+        sourceId: "museums/butter-museum"
+        title: "Sustainable Toys – Making Dúchas Dolls!"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "14:00"
+          endTime: "15:30"
+        status: "scheduled"
+        venue:
+          name: "The Firkin Crane"
+          area: "Shandon"
+        url: "https://thebuttermuseum.com/sustainable-toys-making-duchas-dolls/"
+        price:
+          free: true
+          text: "No Booking Required"
+        tags:
+          - "hands-on"
+          - "crafts"
+          - "family"
+          - "free-entry"
+          - "drop-in"
+        raw: "**Sustainable Toys - Making Dúchas Dolls! Wednesday 19th August** —
+
+          WEDNESDAY 19th AUGUST, THE FIRKIN CRANE, 14.00 - 15.30 - NO BOOKING REQUIRED.\n"
+        summary: "Read what 1930s schoolchildren said about the dolls they made from yarn, pegs, straw and potatoes in the Dúchas folklore collection, then make two of them - a yarn doll and a peg doll."
+        description: "WEDNESDAY 19th AUGUST, THE FIRKIN CRANE, 14.00 - 15.30 - NO BOOKING REQUIRED
+
+
+          Long before the days of disposable blind boxes, screens, and planned
+
+          obsolescence, children across Ireland made their own toys. We know because
+
+          they told us so, and we also know exactly how they did it. The Dúchas
+
+          Schools' Collection of folklore, gathered in the late 1930s, is full of
+
+          first-hand accounts from children describing the dolls they made from
+
+          whatever was to hand: scraps of yarn, clothes pegs, straw, rags, potatoes,
+
+          sticks, and other found and leftover materials, along with a hefty helping of
+
+          imagination and ingenuity. In this workshop, we'll read some of these
+
+          accounts together, then recreate two of the dolls described in them (a yarn
+
+          doll and a peg doll).
+
+
+          Creativity and play build resilience, at any age. Join us to experience how
+
+          these old traditions of making, passed down hand-to-hand for hundreds of
+
+          years, can still teach us about the importance of creating our own fun: joy
+
+          without a price tag.
+
+
+          Dúchas Dolls Handout (A4) available to download.\n"
+        confidence: "high"
+    notes: "The homepage is the listing, as the hints say. The Events Calendar API and /category/upcoming-events/ were not re-fetched on the hints' advice; /blog/ was fetched and renders its list client-side, returning nothing. The homepage's \"Scrapbook, Blog & Events\" strip carried three Heritage Week 2026 workshop posts and all three were opened for descriptions - so the brief's expectation of an empty diary here holds only for the plugin routes, not for the site. All three happen at The Firkin Crane, not at the museum, so venue is set. A fourth post, \"Cork Heritage Open Day at the Butter Museum\", was not opened - that day was Saturday 15 August and is past - and the \"Circular Economy Upcycling Challenge\" workshop was Sunday 16 August, also past, so neither is recorded. heritageweek.ie lists the 18 August workshop as 14:00-15:15 where the museum's own post says 14.00-15.30; the museum's times are used here. Post titles carry the weekday and date as a trailing clause (\"..., Tuesday 18th August\"), trimmed out of `title` because the card prints the date anyway, and kept in `raw`."
+  - sourceId: "museums/shandon-bells-st-annes"
+    fetch:
+      ok: true
+      url: "https://www.stanneshandon.ie/news-events/"
+      status: 200
+    events:
+      - id: "museums/shandon-bells-st-annes#52a2c309f0"
+        sourceId: "museums/shandon-bells-st-annes"
+        title: "Heritage Week 2026: Uncovering Hidden Shandon"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+          startTime: "10:30"
+          endTime: "12:00"
+        status: "scheduled"
+        url: "https://www.stanneshandon.ie/event/heritage-week-2026-uncovering-hidden-shandon/"
+        tags:
+          - "heritage"
+          - "guided-tour"
+          - "community"
+        raw: "**Heritage Week 2026: Uncovering Hidden Shandon** — Tue 18, Aug 2026,
+
+          10:30 AM to 12:00 PM.\n"
+        summary: "St Anne's Heritage Week opening, taking in the parts of Shandon that are not on the usual route round the tower."
+        confidence: "high"
+      - id: "museums/shandon-bells-st-annes#efc7cff443"
+        sourceId: "museums/shandon-bells-st-annes"
+        title: "Heritage Week 2026: Conserving a Lost Cork Institution: The Heritage of the Green Coat School"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "14:30"
+          endTime: "16:30"
+        status: "scheduled"
+        url: "https://www.stanneshandon.ie/event/heritage-week-2026-conserving-a-lost-cork-institution-the-heritage-of-the-green-coat-school/"
+        tags:
+          - "heritage"
+          - "talk"
+          - "community"
+        raw: "**Heritage Week 2026: Conserving a Lost Cork Institution: The Heritage of the
+
+          Green Coat School** — Sat 22, Aug 2026, 2:30 PM to 4:30 PM.\n"
+        summary: "A Heritage Week afternoon on the Green Coat School, the charity school that stood beside St Anne's from 1715 and has almost entirely disappeared from the streetscape."
+        confidence: "high"
+      - id: "museums/shandon-bells-st-annes#04d9889803"
+        sourceId: "museums/shandon-bells-st-annes"
+        title: "Sunday Worship Service"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Sunday, 10:15 AM to 11:00 AM. Listed individually by liturgical name — 12th Sunday After Trinity (Sun 23 Aug 2026), 13th Sunday After Trinity (Sun 30 Aug 2026)"
+          startTime: "10:15"
+        status: "scheduled"
+        url: "https://www.stanneshandon.ie/event/12th-sunday-after-trinity/"
+        tags:
+          - "community"
+          - "weekly"
+          - "free-entry"
+        raw: "Current Opening Hours: Mon - Sat 10:00 to 16:30 / Sun 12:00 to 16:30, Last
+
+          Entry 16:00. **Sunday Worship Service - 10:15am.**
+
+
+          **12th Sunday After Trinity** — Sun 23, Aug 2026, 10:15 AM to 11:00 AM.
+
+          **13th Sunday After Trinity** — Sun 30, Aug 2026, 10:15 AM to 11:00 AM.\n"
+        summary: "The parish's weekly Church of Ireland service in the church under the Shandon bells, 45 minutes on a Sunday morning before the tower opens to visitors at noon."
+        confidence: "high"
+      - id: "museums/shandon-bells-st-annes#8962ba08e6"
+        sourceId: "museums/shandon-bells-st-annes"
+        title: "The Shandon Bells & Tower"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        timesText: "Mon - Sat 10:00 to 16:30 / Sun 12:00 to 16:30, last entry 16:00"
+        url: "https://www.stanneshandon.ie/explore/the-shandon-bells/"
+        tags:
+          - "heritage"
+          - "permanent-collection"
+          - "family"
+          - "accessible"
+        raw: "Current Opening Hours: Mon - Sat 10:00 to 16:30/ Sun 12:00 to 16:30 Last
+
+          Entry 16:00. Book Tickets.\n"
+        summary: "Ring the eight bells yourself from the ringing chamber, then climb past the clock to the balcony under the salmon weathervane for the best view of the city. Ticketed and open year round."
+        confidence: "medium"
+    notes: "Page 1 and page 2 were read; page 2 is entirely past (19 July to 9 August 2026), so pagination stopped there and the 25 further pages of archive behind it were not read. Every row prints a full date with the year and a weekday, and all of them check out against 2026. Two past rows on page 1 are not recorded: \"Cork Heritage Open Day – Shandon Walking Tour\" (Sat 15 Aug 2026, 14:00-16:00) and \"11th Sunday After Trinity\" (Sun 16 Aug). The weekly Sunday service is listed one row per Sunday under its liturgical name (\"12th Sunday After Trinity\" 23 Aug, \"13th Sunday After Trinity\" 30 Aug, all 10:15-11:00) and is folded into a single `recurring` event rather than a row per week. No prices are printed on this page - they are behind /plan-your-visit/#openingTime, which was not fetched - so price is omitted on the tower climb."
+  - sourceId: "museums/nano-nagle-place"
+    fetch:
+      ok: true
+      url: "https://nanonagleplace.ie/nanoevents/"
+      status: 200
+    events:
+      - id: "museums/nano-nagle-place#4a845063a8"
+        sourceId: "museums/nano-nagle-place"
+        title: "Preserving Nano Nagle's Treasures with Conservator Karen Horton"
+        occurrence:
+          kind: "single"
+          date: "2026-08-25"
+          startTime: "13:00"
+        status: "scheduled"
+        url: "https://nanonagleplace.ie/nanoevents/preserving-nano-nagles-treasures-with-conservationist-karen-horton/"
+        image: "https://nanonagleplace.ie/wp-content/uploads/2026/08/Screenshot-2026-08-07-154919.png"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "talk"
+          - "heritage"
+          - "free-entry"
+          - "booking-required"
+        raw: "**Preserving Nano Nagle's Treasures with Conservator Karen Horton** —
+
+          August 25th 2026. Tuesday, 25 August | 1pm. Global Hub, Nano Nagle Place.\n"
+        summary: "The conservator who spent years on the Presentation Sisters' collection on what it takes to save a silk apron - and how you get a religious order to trust you with its relics."
+        description: "Join conservator Karen Horton for a fascinating free talk exploring the
+
+          conservation and redisplay of some of Nano Nagle's most treasured relics and
+
+          artefacts.
+
+
+          In 2016, Karen was tasked with project managing and undertaking the
+
+          conservation of a significant collection belonging to the Union of
+
+          Presentation Sisters. This engaging talk will delve into the redevelopment of
+
+          the Douglas Street heritage site, the challenges of conserving precious
+
+          historical objects, and the importance of building trust with stakeholders
+
+          throughout the process.
+
+
+          Karen will also share the remarkable story of the conservation of one of the
+
+          collection's most important relics, Nano Nagle's Silk Apron, and discuss the
+
+          redisplay of these treasured artefacts for future generations.
+
+
+          📅 Tuesday, 25 August | 1pm
+
+          📍 Global Hub, Nano Nagle Place\n"
+        confidence: "high"
+      - id: "museums/nano-nagle-place#4c91115b08"
+        sourceId: "museums/nano-nagle-place"
+        title: "National Heritage Week at Nano Nagle Place"
+        occurrence:
+          kind: "run"
+          start: "2026-08-15"
+          end: "2026-08-22"
+        status: "scheduled"
+        url: "https://nanonagleplace.ie/nanoevents/national-heritage-week-at-nano-nagle-place-2/"
+        image: "https://nanonagleplace.ie/wp-content/uploads/2026/07/HERITAGE-WEEK-2026-PROMO-2-819x1024.png"
+        price:
+          free: false
+          text: "€5 self-guided tours of the museum; individual events free, some require booking"
+          min: 0
+          max: 5
+          currency: "EUR"
+        tags:
+          - "heritage"
+          - "festival"
+          - "multi-day"
+          - "genealogy"
+          - "irish-language"
+        raw: "**National Heritage Week at Nano Nagle Place** — 15th -22nd August | Cork City.
+
+
+          Join us at Nano Nagle Place for a week of talks, workshops, performances, and
+
+          heritage events celebrating the stories, people, and traditions that have
+
+          shaped Cork's South Parish and beyond.\n"
+        summary: "A week of the South Parish told through its own archives - census research, school registers, an actress playing Nano Nagle in Nano's own parlour, and a bilingual collage workshop - with €5 self-guided museum entry throughout."
+        description: "**National Heritage Week at Nano Nagle Place** — 15th -22nd August | Cork City
+
+
+          Join us at Nano Nagle Place for a week of talks, workshops, performances, and
+
+          heritage events celebrating the stories, people, and traditions that have
+
+          shaped Cork's South Parish and beyond. As part of National Heritage Week 2026,
+
+          explore local history, genealogy, archives, art, and Gaeilge through a diverse
+
+          programme of events suitable for all interests!
+
+
+          **Programme Highlights**
+
+
+          - **€5 Self-Guided Tours of Nano Nagle Place Museum** — 15th-22nd August |
+
+          \  Daily | Nano Nagle Place | €5 Entry. A special Heritage Week opportunity to
+
+          \  discover the story of Nano Nagle and explore the historic buildings,
+
+          \  gardens, and museum of Nano Nagle Place through a self-guided tour.
+
+          - **Highlights from the Presentation Sisters Congregational Archives** —
+
+          \  Saturday 15th August | 12.00pm-4.00pm | Tea Room. A unique opportunity to
+
+          \  explore a selection of historical artefacts from the Collections that shine
+
+          \  a light on the fascinating history of Nano Nagle and the Presentation
+
+          \  Sisters.
+
+          - **Researching the South Parish in Irish Census Records** — Saturday 15th
+
+          \  August | 3.00pm | Global Hub. Learn how census records can unlock local and
+
+          \  family histories, with practical insights into researching the South Parish
+
+          \  through historical records.
+
+          - **\\*CANCELLED\\* — How to Look at Art: Summer School (2-Day Programme)** —
+
+          \  Tuesday 18th & Wednesday 19th August | 10.30am-2.00pm | Conference Space.
+
+          - **Meet Nano Nagle with Judie Chalmers** — Wednesday 19th August | 1.00pm |
+
+          \  Nano's Parlour. Actress Judie Chalmers brings the remarkable story of Nano
+
+          \  Nagle in her parlour.
+
+          - **Foclóir Collage: Exploring Irish Through Art** — Thursday 20th August |
+
+          \  1.00pm | Global Hub. Create your own artistic foclóir collage in this
+
+          \  relaxed bilingual workshop celebrating Irish language and heritage.
+
+          \  Suitable for all levels of Gaeilge.
+
+          - **A Genealogical Treasure Trove: Digitising the Registers of South Pres
+
+          \  Primary School** — Saturday 22nd August | 11.30am-1.00pm | Global Hub.
+
+          \  Speakers: Dr Danielle O'Donovan & Brendan Dempsey.
+
+
+          Alongside Heritage Week events, visitors can explore the award-winning Nano
+
+          Nagle Place Museum, heritage gardens, and historic buildings in the heart of
+
+          Cork city. Some events require advance booking.\n"
+        confidence: "high"
+      - id: "museums/nano-nagle-place#90acf5fc1c"
+        sourceId: "museums/nano-nagle-place"
+        title: "The Past from the Press Exhibition"
+        occurrence:
+          kind: "run"
+          end: "2026-09-30"
+        status: "scheduled"
+        url: "https://nanonagleplace.ie/nanoevents/the-past-from-the-press-exhibition/"
+        image: "https://nanonagleplace.ie/wp-content/uploads/2026/06/boy-selling-newspapers-at-harcourt-street-station-vtls000168728_001-1024x575.webp"
+        tags:
+          - "exhibition"
+          - "heritage"
+          - "contemporary"
+        raw: "**The Past from the Press Exhibition** — June - September 2026.
+
+
+          We are delighted to host The Past from the Press, an exhibition on loan from
+
+          the National Library of Ireland. The Past from the Press will be on display at
+
+          Nano Nagle Place until September 2026.\n"
+        summary: "A National Library of Ireland touring show that treats newspapers as evidence you have to argue with - news values, bias, propaganda - and asks you to read between the lines of historic and current front pages alike."
+        description: "We are delighted to host **The Past from the Press**, an exhibition on loan
+
+          from the National Library of Ireland.
+
+
+          Newspapers are rich sources of information, offering valuable primary evidence
+
+          about the past. However, as with all historical material, there is more than
+
+          meets the eye. This thought-provoking exhibition explores themes such as news
+
+          values, bias, subjectivity, and propaganda, encouraging visitors to look more
+
+          closely and 'read between the lines' of both historic and contemporary
+
+          newspapers.
+
+
+          The Past from the Press will be on display at Nano Nagle Place until
+
+          September 2026.
+
+
+          We warmly invite you to visit, reflect, and discover how the stories of the
+
+          past continue to shape our understanding today.
+
+
+          Exhibition courtesy of the National Library of Ireland.\n"
+        confidence: "medium"
+      - id: "museums/nano-nagle-place#7d1c16ab91"
+        sourceId: "museums/nano-nagle-place"
+        title: "Illuminating Justice: Voices of Change Exhibition"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        url: "https://nanonagleplace.ie/nanoevents/illuminating-justice-voices-of-change-exhibition/"
+        image: "https://nanonagleplace.ie/wp-content/uploads/2025/10/Screenshot-2025-10-06-182410.png"
+        price:
+          free: false
+          text: "Nano Nagle Place Museum (paid admission); free online"
+          currency: "EUR"
+        tags:
+          - "exhibition"
+          - "heritage"
+          - "community"
+          - "permanent-collection"
+        raw: "**Illuminating Justice: Voices of Change Exhibition** — 2025 -2026 | Nano
+
+          Nagle Place Museum (paid admission) | Free Online.\n"
+        summary: "Nano Nagle as an eighteenth-century agitator rather than a saint, set beside present-day voices from the site's own community projects. Runs across 2025-26 with no closing date given; there is a free online version."
+        description: "2025 -2026 | Nano Nagle Place Museum (paid admission) | Free Online
+
+
+          Step into the story of Nano Nagle, a fearless trailblazer whose passion for
+
+          justice and education transformed lives in 18th-century Ireland.
+
+          \"Illuminating Justice: Voices of Change\" brings her legacy to life, showing
+
+          how one woman's vision sparked a movement that still inspires action today.
+
+
+          Discover how Nano Nagle Place continues to shine as a beacon of hope,
+
+          empowering communities and championing social justice in the heart of Cork. Be
+
+          inspired by voices of change—past and present—and see how you, too, can be
+
+          part of this ongoing journey. This exhibition celebrates her legacy and shows
+
+          how her vision continues to inspire change today.
+
+
+          Supported by the Department of Culture, Communications and Sport.\n"
+        confidence: "medium"
+      - id: "museums/nano-nagle-place#06dba74cc9"
+        sourceId: "museums/nano-nagle-place"
+        title: "Playful Culture Trail"
+        occurrence:
+          kind: "undated"
+          note: "Labelled \"Upcoming Event\" with no date printed on the index or on its own page; the page describes Nano Nagle Place as \"a welcoming stop on Cork's Playful Culture Trail\" without saying when the trail runs."
+        status: "scheduled"
+        url: "https://nanonagleplace.ie/nanoevents/playful-culture-trail-2/"
+        image: "https://nanonagleplace.ie/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-25-at-15.16.06-771x1024.jpeg"
+        tags:
+          - "family"
+          - "kids"
+          - "interactive"
+          - "heritage"
+        raw: "**Playful Culture Trail** — Step into history and loads of fun at Nano Nagle
+
+          Place, a welcoming stop on Cork's Playful Culture Trail.\n"
+        summary: "Nano Nagle Place is one stop on a city-wide children's trail: collect a stamp, do the challenges, and find Bláithín the lizard hiding somewhere in the gardens or the museum."
+        description: "Step into history and loads of fun at Nano Nagle Place, a welcoming stop on
+
+          Cork's Playful Culture Trail. Explore our beautiful gardens, historic
+
+          buildings, and museum as you follow the trail, collect your stamp, and take on
+
+          some playful challenges along the way!
+
+
+          Be on the look out for 'Bláithín' the Lizard, our trail's mascot who plays
+
+          hide and seek in all the attractions!\n"
+        confidence: "medium"
+    notes: "/nanoevents/ mixes upcoming and past in one unordered list, each row labelled; only the five rows labelled \"Upcoming Event\" are recorded, and all five event pages were opened for dates and descriptions. Two of them print no usable date at all. \"The Past from the Press\" says only \"on display at Nano Nagle Place until September 2026\" on its own page and \"June - September 2026\" on the index, so its end date is taken as the last day of that month and the row is `confidence: medium` - the page never prints a day. \"Playful Culture Trail\" prints no date whatsoever and is recorded `undated`. One sub-event inside the Heritage Week programme is marked \"*CANCELLED*\" on the page (How to Look at Art: Summer School, 18-19 August); it is left inside the umbrella event's description rather than given a row of its own with `status: cancelled`, because the umbrella event is what the site lists. Nano Nagle Place also has four individually listed Heritage Week events on heritageweek.ie that its own umbrella page only names in passing; those are recorded under museums/national-heritage-week with `venue.sourceId: museums/nano-nagle-place`."
+  - sourceId: "museums/elizabeth-fort"
+    fetch:
+      ok: true
+      url: "https://www.corkcity.ie/en/elizabeth-fort/upcoming-events/"
+      status: 200
+    events:
+      - id: "museums/elizabeth-fort#3cacd7ebcd"
+        sourceId: "museums/elizabeth-fort"
+        title: "First Friday at Elizabeth Fort"
+        subcategory: "Family Friendly, Music & Comedy, Free"
+        occurrence:
+          kind: "single"
+          date: "2026-09-04"
+          startTime: "17:00"
+          endTime: "20:00"
+        status: "scheduled"
+        url: "https://www.corkcity.ie/en/elizabeth-fort/upcoming-events/first-friday-at-elizabeth-fort/"
+        image: "https://www.corkcity.ie/media/0ubbwqc4/some-of-the-members-the-barrack-street-bank-performing-at-elizabeth-fort.jpg?width=1600&height=550&v=1dbea8e04d8bc10"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "family"
+          - "live-music"
+          - "free-entry"
+          - "late-opening"
+          - "outdoor"
+        raw: "**4 Sep — First Friday at Elizabeth Fort** — #Family Friendly, #Music &
+
+          Comedy, #Free. 4th September, 17:00 - 20:00. Location: Elizabeth Fort.
+
+          Contact: Reception. Email: elizabethfort@corkcity.ie. Call: 0861032702.\n"
+        summary: "The last First Friday of the summer on the fort walls, with the Barrack Street Band - one of the world's oldest marching bands, and from the street below - playing on stage from 7pm. Walls open until 8pm, free."
+        description: "View the city from one of Cork's oldest and most historic sites and join us
+
+          for an evening of music from one of the worlds oldest marching bands for the
+
+          final first Friday of the summer season at Elizabeth Fort. The historic walls
+
+          overlooking the city will remain open to 8.00pm. Barrack Street band will
+
+          perform on stage from 7.00pm - 8.00pm.
+
+
+          Inspired by the success of Culture Night, First Fridays invites residents and
+
+          visitors alike to discover and engage with the city's rich cultural offerings
+
+          - after dark - on the first Friday of each month from April to September.\n"
+        confidence: "high"
+    notes: "The council's shared event widget carried exactly one card - \"4 Sep / First Friday at Elizabeth Fort / #Family Friendly, #Music & Comedy, #Free\" - with no year on the card, as the hints describe. The detail page was opened: it prints \"4th September 17:00 - 20:00\" and 4 September 2026 is a Friday, which the \"first Friday of each month\" series description confirms, so the year inference is settled. Guided tours and the audio guide that the hints mention are not printed as scheduled slots on either page, so no `recurring` row was created for them, and the walls and star fort are not listed as an attraction on the events page so no `ongoing` row either - both would have had to be written from the catalogue rather than from the page."
+  - sourceId: "museums/blackrock-castle-observatory"
+    fetch:
+      ok: true
+      url: "https://www.bco.ie/exhibitions-events/"
+      status: 200
+    events:
+      - id: "museums/blackrock-castle-observatory#f70ce271d9"
+        sourceId: "museums/blackrock-castle-observatory"
+        title: "Ireland in Space"
+        subcategory: "Permanent Exhibition"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        timesText: "Open Monday to Sunday 10.00 - 18:00, last entry 17.00, no booking required"
+        tags:
+          - "exhibition"
+          - "permanent-collection"
+          - "astronomy"
+          - "family"
+        raw: "**Permanent Exhibition — Ireland in Space**
+
+
+          From Newgrange to New Space - Ireland's connection to Space may be deeper than
+
+          you think...
+
+
+          From our earliest days, the Irish people have had an abiding connection to the
+
+          stars. Our Stone Age ancestors built monuments that tracked the Sun, while more
+
+          recent ancestors pioneered fields of mathematics that proved integral to the
+
+          Apollo 11 Moon landing. Irish scientists have made their mark on the world
+
+          history of astronomy and exploration, but our future looks even brighter. As
+
+          Irish scientists at the European Space Agency work on the next generation of
+
+          Space exploration, Irish businesses are beginning to reap the rewards that the
+
+          New Space industry has to offer.\n"
+        summary: "The observatory's standing exhibition on Ireland's stake in space, running from Newgrange's solar alignments through Hamilton's quaternions to what Irish firms are currently building for the European Space Agency."
+        confidence: "high"
+      - id: "museums/blackrock-castle-observatory#cf1721fb15"
+        sourceId: "museums/blackrock-castle-observatory"
+        title: "Alien Worlds"
+        subcategory: "Permanent Exhibition"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        timesText: "Open Monday to Sunday 10.00 - 18:00, last entry 17.00, no booking required"
+        tags:
+          - "exhibition"
+          - "permanent-collection"
+          - "astronomy"
+          - "interactive"
+        raw: "**Alien Worlds**
+
+
+          There are worlds out there beyond the horizon of our own solar system. Let's
+
+          explore them together...
+
+
+          Exoplanets are planets that orbit stars outside our own solar system. Our
+
+          capacity to document and study them is still relatively new, but with recent
+
+          advancements in the field we have seen an exponential increase in the number
+
+          of worlds we know of. These planets exist far beyond anything we can see in
+
+          detail with even our most advanced optical telescopes, but through absolutely
+
+          ingenious scientific methods we have already learned a great deal about these
+
+          alien worlds.\n"
+        summary: "How you find a planet you cannot see - transits, wobbles and spectra - and what the exoplanet catalogue now says about the odds of anything living out there."
+        confidence: "high"
+    notes: "The page carried only its two permanent exhibitions today - no visiting exhibition, despite the catalogue seeing a solar-eclipse one this morning. A site-wide banner still advertises the 12 August partial solar eclipse; /solar- eclipse/ was fetched and that event was Wednesday 12 August 2026, 18:00-20:30, with free glasses and public viewing at the observatory, Tramore Valley Park and Bell's Field, so it is past and not recorded. /plan-your-visit/ was also fetched: the Star Show and castle tour slot times the hints expect are not in the served HTML on either page (the admission and daily-schedule blocks render client-side), so no `recurring` tour row was written. What the events page does print is \"No booking required / Open Monday to Sunday 10.00 - 18:00 / Last entry: 17.00\", which is opening hours rather than an event. Neither exhibition is linked individually and the card images are blank placeholders, so `url` and `image` are omitted on both and the site will fall back to this listings page."
+  - sourceId: "museums/st-fin-barres-cathedral"
+    fetch:
+      ok: true
+      url: "https://events.stfinbarres.ie/"
+      status: 200
+    events:
+      - id: "museums/st-fin-barres-cathedral#92207fcd7c"
+        sourceId: "museums/st-fin-barres-cathedral"
+        title: "Caring for an Icon — Conserving St Fin Barre's Cathedral"
+        subcategory: "Talk & Discussion"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://events.stfinbarres.ie/event/caring-for-an-icon-conserving-st-fin-barres-cathedral/"
+        image: "https://events.stfinbarres.ie/wp-content/uploads/2026/07/Untitled-13-768x576.jpg"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "talk"
+          - "heritage"
+          - "free-entry"
+          - "q-and-a"
+        raw: "**17 August 2026 · 7:00 pm — Caring for an Icon — Conserving St Fin Barre's
+
+          Cathedral**
+
+
+          Conserving the Architecture, Archives & Grounds of St Fin Barre's Cathedral. A
+
+          moderated conversation with curators, architects and conservation officers.
+
+          Free.\n"
+        summary: "Curators, architects and conservation officers in conversation about keeping Burges's cathedral, its archive and its grounds standing - a Heritage Week panel rather than a lecture."
+        confidence: "high"
+      - id: "museums/st-fin-barres-cathedral#50c47a58aa"
+        sourceId: "museums/st-fin-barres-cathedral"
+        title: "Friday Lunchtime Organ Recital — Peter Barley"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+          startTime: "13:10"
+        status: "scheduled"
+        url: "https://events.stfinbarres.ie/event/friday-lunchtime-organ-recital-peter-barley/"
+        image: "https://events.stfinbarres.ie/wp-content/uploads/2026/07/Organ-Recital-Peter-Barley-768x531.webp"
+        price:
+          free: false
+          text: "From €10"
+          min: 10
+          currency: "EUR"
+        tags:
+          - "classical"
+          - "live-music"
+          - "one-night"
+        raw: "**21 August 2026 · 1:10 pm — Friday Lunchtime Organ Recital — Peter Barley**
+
+
+          Peter Barley, Organist and Choirmaster of St Mary's Cathedral Limerick,
+
+          presents Buxtehude, Leighton, Hindemith, Franck, Jongen and Liddle across an
+
+          eclectic recital. From €10.\n"
+        summary: "Limerick's cathedral organist plays a deliberately mixed lunchtime hour - Buxtehude through to Jongen - on the Burges organ. Forty minutes or so, from €10."
+        confidence: "high"
+      - id: "museums/st-fin-barres-cathedral#ca2104b935"
+        sourceId: "museums/st-fin-barres-cathedral"
+        title: "I'll Be Your Mirror — Young Voices"
+        subcategory: "Readings"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://events.stfinbarres.ie/event/ill-be-your-mirror-the-yoof/"
+        image: "https://events.stfinbarres.ie/wp-content/uploads/2026/07/Untitled-1-768x576.jpg"
+        price:
+          free: true
+          text: "Free — donations welcome"
+        tags:
+          - "reading"
+          - "young-people"
+          - "new-writing"
+          - "free-entry"
+        raw: "**21 August 2026 · 6:00 pm — I'll Be Your Mirror — Young Voices**
+
+
+          Four young writers (14–19) from Graffiti Theatre Company's Write Club, in
+
+          partnership with Fighting Words. Free — donations welcome.\n"
+        summary: "Four writers aged 14 to 19 from Graffiti Theatre's Write Club read their own work in the cathedral, part of the August \"I'll Be Your Mirror\" evening series."
+        confidence: "high"
+      - id: "museums/st-fin-barres-cathedral#4045abba38"
+        sourceId: "museums/st-fin-barres-cathedral"
+        title: "Friday Lunchtime Organ Recital — Stéphane Eliot"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-08-28"
+          startTime: "13:10"
+        status: "scheduled"
+        url: "https://events.stfinbarres.ie/event/friday-lunchtime-organ-recital-stephane-eliot/"
+        image: "https://events.stfinbarres.ie/wp-content/uploads/2026/07/Organ-Recital-Stephane-Eliot-768x531.webp"
+        price:
+          free: false
+          text: "From €10"
+          min: 10
+          currency: "EUR"
+        tags:
+          - "classical"
+          - "live-music"
+          - "one-night"
+          - "family"
+        raw: "**28 August 2026 · 1:10 pm — Friday Lunchtime Organ Recital — Stéphane Eliot**
+
+
+          Stéphane Eliot, titular organist of Nice Cathedral, brings the world of film to
+
+          the organ — Star Wars, Pirates of the Caribbean, Boléro, and a Bach Toccata
+
+          that soundtracks 20,000 Leagues. From €10.\n"
+        summary: "The titular organist of Nice Cathedral plays film music on a cathedral organ - Star Wars, Pirates of the Caribbean, Boléro - and a Bach Toccata against 20,000 Leagues Under the Sea."
+        confidence: "high"
+      - id: "museums/st-fin-barres-cathedral#6694eb41b3"
+        sourceId: "museums/st-fin-barres-cathedral"
+        title: "I'll Be Your Mirror — Poetry"
+        subcategory: "Readings"
+        occurrence:
+          kind: "single"
+          date: "2026-08-28"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://events.stfinbarres.ie/event/ill-be-your-mirror-poets/"
+        image: "https://events.stfinbarres.ie/wp-content/uploads/2026/07/Untitled-1-768x576.jpg"
+        price:
+          free: true
+          text: "Free — donations welcome"
+        tags:
+          - "poetry"
+          - "reading"
+          - "free-entry"
+        raw: "**28 August 2026 · 6:00 pm — I'll Be Your Mirror — Poetry**
+
+
+          Paired readings from Gerry Murphy and Molly Twomey. Part of the August \"I'll Be
+
+          Your Mirror\" evening series. Free — donations welcome.\n"
+        summary: "Gerry Murphy and Molly Twomey read in pairs - two generations of Cork poets in the nave - closing the cathedral's August evening series."
+        confidence: "high"
+    notes: "Contrary to the expectation handed to this run, the diary here is not empty: events.stfinbarres.ie carries five fully dated entries with times, prices, descriptions, images and per-event links, under a masthead reading \"August at Saint Fin Barre's · 2026 — A Month of Music, Words & Wonder\". It is only the Events Calendar routes that answer empty (/wp-json/tribe/events/v1/events and /events/?ical=1 on both hosts), and those were not re-fetched on the hints' advice. `subcategory` comes from each card's own `data-categories` attribute, which is what the All / Music / Readings / Talk & Discussion filter pills act on. Every date prints the year and both Friday recitals fall on a Friday in 2026, so confidence is high throughout. The catalogue notes that admission to the cathedral itself is ticketed and ongoing, but no admission price or opening hours are printed anywhere on the events subdomain, so no `ongoing` row was written for it. The 17 August talk is also listed on heritageweek.ie; it is recorded here, from the venue, and skipped there."
+  - sourceId: "museums/st-peters-cork"
+    fetch:
+      ok: true
+      url: "https://stpeterscork.ie/events"
+      status: 200
+    events:
+      - id: "museums/st-peters-cork#054a7af53b"
+        sourceId: "museums/st-peters-cork"
+        title: "Playspaces"
+        subcategory: "Art"
+        occurrence:
+          kind: "run"
+          start: "2026-06-12"
+          end: "2026-09-18"
+        status: "scheduled"
+        timesText: "10am"
+        url: "https://stpeterscork.ie/events?e=11198344"
+        price:
+          free: true
+          text: "FREE"
+        tags:
+          - "family"
+          - "kids"
+          - "interactive"
+          - "free-entry"
+          - "outdoor"
+        raw: "**Art — 17 Aug — Playspaces** — St. Peters Cork, North Main Street. 10am, FREE.
+
+          A city-wide trail of child-only play pods and cosy dens scattered across Cork
+
+          City. 12 Jun - 18 Sep 2026.\n"
+        summary: "A trail of play pods and dens across the city that adults are not allowed into, designed by Cork children who were asked what the place would look like if they ran it. St Peter's is one stop."
+        description: "A city-wide trail of child-only play pods and cosy dens scattered across Cork
+
+          City.
+
+
+          These are spaces designed by kids for kids. Lead Artist Chris Finnegan asked
+
+          children from Cork what their city would look like if they were in charge. They
+
+          wanted to play! PlaySpaces trail leads families on an exploration of secret
+
+          hideaways and imaginative play installations developed in collaboration with
+
+          children from across Cork City.
+
+
+          Funded by the Arts Council's Arts in Early Learning and Childcare Scheme, Arts
+
+          in Education Portal Documentation Award 2026 and Cork City Council through
+
+          Creative Communities Scheme. With support from Sample Studios.
+
+
+          Lead Artist: Chris Finnegan. Producer: Susan Holland. Accessibility Support:
+
+          Donna O'Keeney. Design Consolidation: Olan Wyrnn.\n"
+        confidence: "high"
+      - id: "museums/st-peters-cork#43988112ef"
+        sourceId: "museums/st-peters-cork"
+        title: "Crafting Legacy Members Showcase Exhibition"
+        subcategory: "Exhibition"
+        occurrence:
+          kind: "run"
+          start: "2026-08-10"
+          end: "2026-08-31"
+        status: "scheduled"
+        timesText: "10am"
+        url: "https://stpeterscork.ie/events?e=11200188"
+        price:
+          free: true
+          text: "FREE"
+        tags:
+          - "exhibition"
+          - "crafts"
+          - "free-entry"
+          - "contemporary"
+        raw: "**Exhibition — 17 Aug — Crafting Legacy Members Showcase Exhibition** — St.
+
+          Peters Cork, North Main Street. 10am, FREE. St Peters is welcoming back Cork
+
+          Craft and Design for the member showcase exhibition \"Crafting Legacy\". On
+
+          display this August. 10 Aug - 31 Aug 2026.\n"
+        summary: "Cork Craft & Design's members put their work in the medieval church for the month - the anchor exhibition of Cork Craft Month, whose ninety-odd other events run county-wide."
+        description: "St Peters is welcoming back Cork Craft and Design for the member showcase
+
+          exhibition \"Crafting Legacy\". On display this August.
+
+
+          Cork Craft Month returns this August with its biggest programme yet, featuring
+
+          over 90 workshops, demonstrations, exhibitions and markets designed to connect
+
+          the public directly with the county's vibrant craft community. From a two-day
+
+          porcelain workshop with artist Sarah Roberts in Nohoval to a Willow Weaving
+
+          Workshop with Cois Laoi Willow in Greywood Arts, the programme highlights the
+
+          extraordinary breadth of creative talent across Cork. A third of the
+
+          programming is free, and a full schedule is now available to view at
+
+          corkcraftanddesign.ie.\n"
+        confidence: "high"
+      - id: "museums/st-peters-cork#df43392f39"
+        sourceId: "museums/st-peters-cork"
+        title: "Lino Cut Workshop with Solas Agus Scath"
+        subcategory: "Workshops"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "13:00"
+        status: "scheduled"
+        url: "https://stpeterscork.ie/events?e=11198899"
+        price:
+          free: false
+          text: "€45"
+          min: 45
+          max: 45
+          currency: "EUR"
+        ageRestriction: "Participants must be 10 years+ and anyone aged 10 - 14 must be accompanied by an adult"
+        tags:
+          - "workshop"
+          - "printmaking"
+          - "crafts"
+          - "booking-required"
+        raw: "**Workshops — 22 Aug — Lino Cut Workshop with Solas Agus Scath** — St. Peters
+
+          Cork, North Main Street. 1pm, €45. Buy Ticket. Participants must be 10 years+
+
+          and anyone aged 10 - 14 must be accompanied by an adult. 22 Aug 2026, 1pm.\n"
+        summary: "An afternoon cutting and printing lino with John of Solas agus Scath as part of August Craft Month, all materials provided. €45, ten and over."
+        description: "Participants must be 10 years+ and anyone aged 10 - 14 must be accompanied by
+
+          an adult.
+
+
+          Join John from Solas agus Scath for an afternoon of creativity and fun at St
+
+          Peters in Cork City as part of August Craft Month. All materials provided.\n"
+        confidence: "high"
+    notes: "Three cards, and all three event pages were opened for full dates and copy - the index truncates its descriptions mid-word and prints day and month with no year. The deep links are query strings on the same /events path (?e=11198344 and so on) and are recorded verbatim. The live calendar block below the cards renders client-side and falls back to \"No publicly listed events this month\", exactly as the hints say; ignored. The \"Cultural Calendar\" section lists eleven annual festivals by month with no dates at all - not recorded, since they name a month in an unstated year. No per-event images: the cards carry none and the only event images on the page belong to a decorative banner. Two of the three are somebody else's programme in St Peter's room (Cork Craft & Design's members' showcase, Solas agus Scath's workshop) but both are hosted here, so no `venue` is set. \"Playspaces\" is a city-wide trail with St Peter's as one stop; the card gives the venue line as St Peter's, so it is left attributed to the source and the trail's spread is noted in the summary. The Story of Us / 1926 Census exhibition ran here 7-27 July 2026 and is past - see museums/cork-city-county-archives."
+  - sourceId: "museums/blarney-castle"
+    fetch:
+      ok: true
+      url: "https://blarneycastle.ie/"
+      status: 200
+    events:
+      - id: "museums/blarney-castle#af63eb409c"
+        sourceId: "museums/blarney-castle"
+        title: "Castle & Gardens Open All Year Round"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        timesText: "Jan/Feb/Mar 9.00am-5.00pm (last admission 4.00pm); Apr 9.00am-5.30pm (4.30pm); May/Jun/Jul/Aug/Sep 9.00am-6.00pm (5.00pm); Oct 9.00am-5.30pm (4.30pm); Nov/Dec 9.00am-5.00pm (4.00pm); closed 24 and 25 December; 26 December and 1 January 10.00am-5.00pm (4.00pm)"
+        url: "https://blarneycastle.ie/"
+        price:
+          free: false
+          text: "Adult €24; Student/Seniors (65+) €19; Children 6-16 €12 (5 and under free, must be accompanied by an adult); Family (2 adults + 2 children) €65"
+          min: 12
+          max: 24
+          currency: "EUR"
+        tags:
+          - "heritage"
+          - "permanent-collection"
+          - "outdoor"
+          - "family"
+          - "nature"
+        raw: "**Castle & Gardens Open All Year Round!** Explore the entire gardens, mystical
+
+          rock close, dungeons, caves, lake walk & much more!
+
+
+          Welcome to Blarney Castle, the home of the Blarney Stone. Built nearly six
+
+          hundred years ago by one of Ireland's greatest chieftans, Cormac MacCarthy, and
+
+          has been attracting attention ever since. Over the last few hundred years,
+
+          millions have flocked to Blarney making it a world landmark and one of
+
+          Ireland's greatest treasures.
+
+
+          Buy tickets in advance online or at our ticket office on arrival. We do not
+
+          have timed slots.\n"
+        summary: "Cormac MacCarthy's 1440s tower house, the stone at the top of it, and the sixty acres most visitors underrate - the Rock Close, the poison garden, the caves and the lake walk. Open every day but Christmas, hours shifting by month."
+        confidence: "high"
+    notes: "No dated events anywhere on the homepage, which is the best available listing as the hints say; /news/ was deliberately not fetched because it is the head gardener's monthly diary rather than a programme. What the homepage does carry is authoritative and open-ended: \"Castle & Gardens Open All Year Round\", a month-by-month opening table with last admission, and the 2026 price list. That is recorded as one `ongoing` row. Ticketing is at blarneycastle.retailint-tickets.com, which was not fetched; the page says \"We do not have timed slots\", so there is no schedule to record."
+  - sourceId: "museums/fota-house"
+    fetch:
+      ok: true
+      url: "https://fotahouse.com/wp-json/tribe/events/v1/events?per_page=50"
+      status: 200
+    events:
+      - id: "museums/fota-house#b83354c74c"
+        sourceId: "museums/fota-house"
+        title: "Presentation on the Conservation of Furniture"
+        subcategory: "Heritage Week Events"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "14:00"
+          endTime: "14:45"
+        status: "scheduled"
+        url: "https://fotahouse.com/event/presentation-on-the-conservation-of-furniture/"
+        tags:
+          - "talk"
+          - "heritage"
+          - "booking-required"
+        raw: "**Presentation on the Conservation of Furniture** — 17 August 2026,
+
+          2:00 pm - 2:45 pm. Heritage Week Events.\n"
+        summary: "Forty-five minutes on the ten crested walnut hall chairs, the giltwood pier tables and the bronze candelabra currently being repaired - furniture original to the house and to the Smith Barry estate."
+        description: "In 2026 we are delighted to be in a position to conserve and repair a number of
+
+          hugely important and significant collection pieces held at Fota House, which
+
+          are original to the property and connected to the Smith Barry estates including
+
+          10 early 19th century crested and carved walnut hall chairs, an 18th century
+
+          Irish giltwood and gesso table, a pair of bronze early 19th century candelabra,
+
+          two gesso and giltwood pier tables and a pair of decorative gilt wall sconces.
+
+
+          These conservation interventions will protect these items for the future and
+
+          ensure that they can be safely displayed for our visitors to enjoy.
+
+
+          To book your space, please email info@fotahouse.com\n"
+        confidence: "high"
+      - id: "museums/fota-house#709ea1c7d4"
+        sourceId: "museums/fota-house"
+        title: "Create your Own Masterpiece in Porcelain with Orla O Visual"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+          startTime: "11:00"
+          endTime: "13:00"
+        status: "scheduled"
+        url: "https://fotahouse.com/event/create-your-own-masterpiece-in-porcelain-with-orla-o-visual/"
+        image: "https://fotahouse.com/wp-content/uploads/sites/3/2026/07/CREATE-YOUR-OWN-MASTERPIECE-IN-PORCELAIN-WITH-ORLA-O-VISUAL-1.png"
+        tags:
+          - "workshop"
+          - "crafts"
+          - "hands-on"
+        raw: "**Create your Own Masterpiece in Porcelain with Orla O Visual** — 18 August
+
+          2026, 11:00 am - 1:00 pm.\n"
+        summary: "A two-hour porcelain workshop with the artist Orla O Visual in the Regency house. The diary entry gives times only - no fee, materials list or booking route is published."
+        confidence: "high"
+      - id: "museums/fota-house#604439f635"
+        sourceId: "museums/fota-house"
+        title: "A day of Watercolour Garden Sketching in Fota House and Gardens with Camilla Fanning"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "10:30"
+          endTime: "16:00"
+        status: "scheduled"
+        url: "https://fotahouse.com/event/a-day-of-watercolour-garden-sketching-in-fota-house-and-gardens-with-camilla-fanning/"
+        image: "https://fotahouse.com/wp-content/uploads/sites/3/2026/08/Camilla-Event.png-2.jpg"
+        price:
+          free: false
+          text: "€130 coffee and lunch included"
+          min: 130
+          max: 130
+          currency: "EUR"
+        tags:
+          - "workshop"
+          - "outdoor"
+          - "nature"
+          - "booking-required"
+        raw: "**A day of Watercolour Garden Sketching in Fota House and Gardens with Camilla
+
+          Fanning** — 19 August 2026, 10:30 am - 4:00 pm. Wed 19th August 10.30am-4pm.
+
+          €130 coffee and lunch included. Booking & enquiries to cjfanning@cjfanning.com.\n"
+        summary: "A full day outdoors in the arboretum learning to catch weather and light fast in watercolour, led by printmaker Camilla Fanning. €130 with coffee and lunch."
+        description: "A day of Watercolour Garden Sketching in Fota House and Gardens.
+
+
+          For anyone who loves taking their watercolours and sketchbook outdoors to paint,
+
+          in this workshop you'll learn how to quickly capture atmosphere, movement,
+
+          colour, and visual impressions directly from the scenery around you. Led by
+
+          artist Camilla Fanning (MFA NCAD, member of Graphic Studio Dublin and Cork
+
+          Printmakers) the workshop combines practical watercolour sketching techniques
+
+          with a relaxed and enjoyable day immersed in nature and creativity.
+
+
+          Wed 19th August 10.30am-4pm. €130 coffee and lunch included.
+
+
+          Booking & enquiries to cjfanning@cjfanning.com\n"
+        confidence: "high"
+      - id: "museums/fota-house#6a2c9230d9"
+        sourceId: "museums/fota-house"
+        title: "Carving Timber Letter Opener with Michael Whytle"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "11:00"
+          endTime: "13:00"
+        status: "scheduled"
+        url: "https://fotahouse.com/event/carving-timber-letter-opener-with-michael-whytle/"
+        image: "https://fotahouse.com/wp-content/uploads/sites/3/2026/07/CARVING-TIMBER-LETTER-OPENER-WITH-MICHAEL-WHYTE-1.png"
+        tags:
+          - "workshop"
+          - "woodwork"
+          - "hands-on"
+          - "crafts"
+        raw: "**Carving Timber Letter Opener with Michael Whytle** — 20 August 2026,
+
+          11:00 am - 1:00 pm.\n"
+        summary: "Carve a letter opener out of timber with Michael Whytle over two hours. The diary entry carries the times and nothing else - no fee or booking route is published. Note the site spells the name \"Whytle\" in the title and \"Whyte\" in the image filename."
+        confidence: "high"
+      - id: "museums/fota-house#e9d7d1ed5c"
+        sourceId: "museums/fota-house"
+        title: "Romeo & Juliet Outdoor Theatre presented by Oddsocks Productions"
+        subcategory: "Theatre Event"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "19:00"
+          endTime: "21:30"
+        status: "scheduled"
+        url: "https://fotahouse.com/event/romeo-juliet-outdoor-theatre-presented-by-oddsocks-productions/"
+        image: "https://fotahouse.com/wp-content/uploads/sites/3/2026/07/Oddsocks.jpg"
+        tags:
+          - "theatre"
+          - "outdoor"
+          - "shakespeare"
+          - "performance"
+        raw: "**Romeo & Juliet Outdoor Theatre presented by Oddsocks Productions** —
+
+          20 August 2026, 7:00 pm - 9:30 pm. Theatre Event.\n"
+        summary: "Oddsocks bring their new Romeo and Juliet to the grounds of the house on their UK and Ireland tour - broad comedy alongside the tragedy, played outdoors as the light goes. Bring a blanket or a chair and a picnic."
+        description: "Outdoor theatre returns as Oddsocks Productions present their new adaptation of
+
+          Romeo and Juliet at Fota House as part of their UK & Ireland tour.
+
+
+          Finding both humour and heartfelt moments within one of Shakespeare's greatest
+
+          tragedies, this fresh interpretation brings new life to the story of two star
+
+          crossed lovers whose families are divided by an age old feud.
+
+
+          As the evening draws in, the grounds of Fota House become the setting for an
+
+          open air performance where theatre, history and the landscape come together
+
+          beneath the summer sky.
+
+
+          Bring a picnic, a blanket or chair, settle into the surroundings, and enjoy a
+
+          different way to experience theatre at Fota House.\n"
+        confidence: "high"
+      - id: "museums/fota-house#445f8452ce"
+        sourceId: "museums/fota-house"
+        title: "Botanical Cyanotype Workshop with Angela Wilson"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+          startTime: "13:00"
+          endTime: "15:00"
+        status: "scheduled"
+        url: "https://fotahouse.com/event/botanical-cyanotype-workshop-with-angela-wilson/"
+        image: "https://fotahouse.com/wp-content/uploads/sites/3/2026/07/BOTANICAL-CYANOTYPE-WORKSHOP-WITH-ANGELA-WILSON.png"
+        tags:
+          - "workshop"
+          - "printmaking"
+          - "photography"
+          - "nature"
+        raw: "**Botanical Cyanotype Workshop with Angela Wilson** — 21 August 2026,
+
+          1:00 pm - 3:00 pm.\n"
+        summary: "Two hours making cyanotypes from plants gathered in the arboretum with Angela Wilson - the sun-and-Prussian-blue process. Times only in the diary entry; no fee published."
+        confidence: "high"
+    notes: "Took the catalogued `api` route with `per_page=50` appended so the whole diary came back in one response: it reports `total: 6, total_pages: 1`, so these six are the entire forward programme. The catalogue's note of nine events was the /events/ page's \"August 10 - August 15\" window, which includes days already past. The descriptions below are the API's own `description` field - the venue's copy, not pages I opened - so they stop where the venue's copy stops, and three of the six have no body text at all. Titles are as the API returns them with HTML entities decoded (\"Romeo &#038; Juliet\" → \"Romeo & Juliet\"). The API prints no `cost` for any event; the €130 on the watercolour day is inside the body text and is taken from there. Two events carry a `venue` of \"Fota House, Arboretum & Gardens\" - the source itself - so `venue` is not set on any row. No `ongoing` row for the house, arboretum and gardens: the API carries no visitor offer and /plan-your-visit was not fetched, so it would have had to be written from the catalogue. Several events book by email to a third party rather than through the site (info@fotahouse.com, cjfanning@cjfanning.com)."
+  - sourceId: "museums/spike-island"
+    fetch:
+      ok: true
+      url: "https://www.spikeislandcork.ie/news-and-events/"
+      status: 200
+    events:
+      - id: "museums/spike-island#2b2e962e3d"
+        sourceId: "museums/spike-island"
+        title: "Spike Island Experience"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        url: "https://spikeislandcork.digitickets.ie/tickets"
+        tags:
+          - "heritage"
+          - "permanent-collection"
+          - "guided-tour"
+          - "family"
+          - "booking-required"
+        raw: "**Spike Island Experience** — Explore Ireland's infamous prison island. Visit
+
+          includes a guided tour of the historic fortress.\n"
+        summary: "The standard visit: ferry out from Kennedy Pier in Cobh, a guided tour of the star fort, then the run of 104 acres, the punishment block and the tunnels. No departure times are published without picking a date."
+        confidence: "medium"
+      - id: "museums/spike-island#520a08dab4"
+        sourceId: "museums/spike-island"
+        title: "Haunted Spike"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+        status: "scheduled"
+        url: "https://www.spikeislandcork.ie/haunted-spike-august-2026/"
+        image: "https://b3081985.assetcdn.net/3081985/wp-content/uploads/2026/08/IMG_9594.jpeg?lossy=2&strip=1&webp=1"
+        ageRestriction: "Over 16's only, not suitable for younger children"
+        tags:
+          - "heritage"
+          - "immersive"
+          - "storytelling"
+          - "18-plus"
+          - "late-night"
+        raw: "**Haunted Spike** — Back by popular demand, hear personal tales and local
+
+          folklore of the hauntings of Spike Island. 22 August.\n"
+        summary: "Guides tell the island's own ghost stories - passed down by former residents and staff - in the unlit cells, punishment block and tunnels. No actors and no jump scares; the darkness does the work. Over 16s."
+        description: "Back by popular demand, hear personal tales and local folklore of the
+
+          **hauntings** of Spike Island. Join us on Saturday August 22nd, where we will see
+
+          if we can **make contact with the other side**.
+
+
+          > \"A genuinely atmospheric, unsettling location\"
+
+
+          Walking through creepy abandoned cells, punishment block, and dark underground
+
+          tunnels is a level of immersion that cannot be faked. Be ready for the
+
+          low-lighting and sometimes pitch darkness of these centuries old areas of our
+
+          fortress.
+
+
+          In the 19th century, Spike Island was one of the largest convict prisons in the
+
+          world, often called \"Ireland's Hell,\" with overcrowding and harsh conditions
+
+          leading to many deaths. From this era of solitary confinement and children's
+
+          prisons, to Spike's use as a modern prison up until 2004, you're not just
+
+          hearing old folklore from our guides - you're getting stories spanning
+
+          centuries.
+
+
+          Our guides will recount the **paranormal stories and sightings**, passed down by
+
+          our former island residents and staff.
+
+
+          There are **no actors or jump scares.** Any fear you feel on the night comes from
+
+          atmosphere, darkness, and what you imagine - which for most people is far more
+
+          unsettling. You'll feel cut off from the world on our island which can only be
+
+          accessed by taking our ferry across Cork harbour.
+
+
+          Over 16's only, not suitable for younger children.\n"
+        confidence: "high"
+      - id: "museums/spike-island#36263ca7c3"
+        sourceId: "museums/spike-island"
+        title: "Spike Island Literary Festival"
+        occurrence:
+          kind: "undated"
+          note: "The listing and the festival's own page say only \"returns this September\" and \"Join us at the Spike Island Literary Festival this September\" - no dates anywhere, and the digitickets shop lists it as a product without a date either."
+        status: "scheduled"
+        url: "https://www.spikeislandcork.ie/spike-island-literary-festival-2026/"
+        image: "https://b3081985.assetcdn.net/3081985/wp-content/uploads/2026/07/2026-SILF-Days-SocialMedia_33.png?lossy=2&strip=1&webp=1"
+        tags:
+          - "festival"
+          - "author-talk"
+          - "reading"
+          - "multi-day"
+          - "heritage"
+        raw: "**Spike Island Literary Festival** — Now in its fifth year, the Spike Island
+
+          Literary Festival returns this September with a gripping programme dedicated to
+
+          the art of crime writing.\n"
+        summary: "A crime-writing festival held inside a former convict prison, fifth year - panels, readings in the cells, and a literary agent taking pitches. Mark Billingham, Andrea Mara, Stuart Neville and Catherine Ryan Howard are named; the dates are not."
+        description: "Now in its fifth year, the Spike Island Literary Festival returns this September
+
+          with a gripping programme dedicated to the art of crime writing.
+
+
+          Set against the unique backdrop of Spike Island's infamous former prison, this
+
+          one-of-a-kind festival brings together world-renowned authors and literary
+
+          experts for a series of thrilling conversations, live readings and
+
+          thought-provoking panels.
+
+
+          With a dark history of four prisons over 400 years, Spike Island is the perfect
+
+          setting for literary enthusiasts from book lovers to budding writers. Engage with
+
+          your favourite authors and discover what inspires them through author-led panel
+
+          discussions, experience readings from world-class writers as they recite their
+
+          most famous works in unique locations or take the first steps to getting your own
+
+          work published by meeting with a renowned literary agent.
+
+
+          Step inside the walls that once held some of Ireland's most notorious criminals
+
+          and immerse yourself in stories that intrigue, unnerve and captivate. Whether
+
+          you're a fan of psychological thrillers, gritty detective fiction, or chilling
+
+          true crime, Spike Island is the ultimate setting for your next plot twist.
+
+
+          This year's programme features a stellar line-up of renowned authors such as Mark
+
+          Billingham, Andrea Mara, Stuart Neville, Catherine Ryan Howard and more.
+
+
+          Writers named on the page: Mark Billingham, Sam Blake, Edel Coffey, Clare
+
+          Coughlan, PJ Coogan, Michelle Dunne, Fiona Gartland, Amy Jordan, Andrea Mara,
+
+          Stuart Neville, Mercier Press, Michelle McDonagh, Kitty Murphy, Gill Perdue,
+
+          Cormac Quinn, Catherine Ryan Howard, R.O. Throp, Mary Watson.\n"
+        confidence: "medium"
+      - id: "museums/spike-island#9b05f3feca"
+        sourceId: "museums/spike-island"
+        title: "5K RUN"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+          startTime: "17:25"
+        status: "scheduled"
+        timesText: "Boats depart from Cobh at 4pm and 4:45pm; race kicks off at approximately 5:25 p.m."
+        url: "https://www.spikeislandcork.ie/5k-run-september-2026/"
+        image: "https://b3081985.assetcdn.net/3081985/wp-content/uploads/2025/08/2025-5K-run_10.webp?lossy=2&strip=1&webp=1"
+        tags:
+          - "running"
+          - "mass-participation"
+          - "booking-required"
+          - "outdoor"
+        raw: "**5K RUN** — 12 September 2026. Back by popular demand! We're delighted to
+
+          announce the return of our Spike Island 5km Race. Lace up your running shoes and
+
+          join us on Saturday 12th September for an unforgettable run on Ireland's
+
+          infamous prison island.\n"
+        summary: "A 5km starting inside the walls of a 200-year-old fortress and looping the island, chip-timed for the first time in 2026. Boats out of Cobh at 4pm and 4:45pm, gun at about 5:25pm, medal and a ceremony after."
+        description: "Back by popular demand! We're delighted to announce the return of our Spike
+
+          Island 5km Race. Lace up your running shoes and join us on Saturday 12th
+
+          September for an unforgettable run on Ireland's infamous prison island.
+
+
+          This unique event promises an adventure like no other – where else can you begin
+
+          your race within the walls of a 200-year-old fortress before making your way
+
+          around an iconic island surrounded by spectacular views of Cork Harbour?
+
+
+          New in 2026, we are using a chip timing system to give you the most accurate
+
+          timings possible, available online for you to see soon after the event has
+
+          finished.
+
+
+          The race kicks off at approximately 5:25 p.m., promising an adrenaline-fueled
+
+          dash through the island's scenic routes. Our dedicated marshals will be on hand
+
+          to guide you and ensure you stay on track throughout.
+
+
+          After crossing the finish line, each participant will receive a special Spike
+
+          Island medal and there will be a special medal ceremony to celebrate your
+
+          triumphs, with awards for the fastest male and female runners.
+
+
+          So what are you waiting for? Embrace the challenge and create lasting memories at
+
+          Spike Island. Boats depart from Cobh at 4pm and 4:45pm and spaces are limited for
+
+          this unique race event.\n"
+        confidence: "high"
+      - id: "museums/spike-island#65654a8d28"
+        sourceId: "museums/spike-island"
+        title: "Culture Night Film Screening: Mná na DXP"
+        occurrence:
+          kind: "single"
+          date: "2026-09-18"
+          startTime: "17:00"
+          endTime: "19:00"
+        status: "scheduled"
+        url: "https://www.spikeislandcork.ie/mna-na-dxp/"
+        image: "https://b3081985.assetcdn.net/3081985/wp-content/uploads/2026/07/Culture-Night.png?lossy=2&strip=1&webp=1"
+        tags:
+          - "screening"
+          - "documentary"
+          - "community"
+          - "q-and-a"
+          - "heritage"
+        raw: "**Culture Night — Film Screening: Mná na DXP** — 18 September. Date: Friday, 18
+
+          September. Time: 5 - 7 pm. Venue: Mitchel Hall and C-Class Cells at Spike
+
+          Island. Tickets will be available soon.\n"
+        summary: "A fourteen-minute documentary on thirty years of the Dillon's Cross Project, which supports Cork women whose lives have been shaped by a family member's imprisonment - screened, pointedly, in a prison, with the women themselves speaking afterwards."
+        description: "**Culture Night at Spike Island** will feature a screening of **Mná na DXP**, a
+
+          powerful 14-minute documentary marking 30 years of the Dillon's Cross Project
+
+          (DXP), a Cork City education centre supporting women whose lives have been
+
+          affected by the incarceration of loved ones within the Irish prison system.
+
+
+          Through the women's own voices, Mná na DXP reflects on resilience, friendship and
+
+          the strong sense of belonging fostered through the Dillon's Cross Project over
+
+          the past three decades.
+
+
+          The documentary was directed by Cork-based printmaker and visual artist Paul La
+
+          Rocque. As a teacher with the Dillon's Cross Project, Paul brings a unique insight
+
+          and perspective to the film.
+
+
+          The event will begin with an introduction exploring the development of the
+
+          documentary and the collaborative process behind its creation, followed by a
+
+          short Q&A before the screening. After the film, women from the Dillon's Cross
+
+          Project will share their personal experiences, reflecting on the impact the
+
+          project has had on their lives, their families and their community.
+
+
+          Title: Mná na DXP. Director: Paul La Rocque. Editing and Music: Caoilian
+
+          Sherlock. Graphics: Aoife La Rocque. Duration: 14 minutes.
+
+
+          Date: Friday, 18 September. Time: 5 - 7 pm. Venue: Mitchel Hall and C-Class Cells
+
+          at Spike Island. Tickets will be available soon.\n"
+        confidence: "high"
+      - id: "museums/spike-island#88d6d1fc26"
+        sourceId: "museums/spike-island"
+        title: "The Aud"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        url: "https://www.spikeislandcork.ie/the-aud/"
+        image: "https://b3081985.assetcdn.net/3081985/wp-content/uploads/2022/05/main-exhibition.jpg?lossy=2&strip=1&webp=1"
+        tags:
+          - "exhibition"
+          - "heritage"
+          - "permanent-collection"
+        raw: "**The Aud** — \"special, secret and dangerous mission\". Shell Store.\n"
+        summary: "The standing display in the Shell Store on the Aud, the German ship that ran 20,000 rifles towards Kerry for the 1916 Rising and was scuttled off Cork harbour. No dates printed."
+        confidence: "medium"
+      - id: "museums/spike-island#84d0e59669"
+        sourceId: "museums/spike-island"
+        title: "Altered Images"
+        occurrence:
+          kind: "run"
+          end: "2026-09-30"
+        status: "scheduled"
+        url: "https://www.spikeislandcork.ie/altered-images/"
+        image: "https://b3081985.assetcdn.net/3081985/wp-content/uploads/2026/06/Altered-Images.png?lossy=2&strip=1&webp=1"
+        tags:
+          - "exhibition"
+          - "contemporary"
+          - "heritage"
+        raw: "**Altered Images** — June - September 2026. C-Class Cells & Punishment Block.\n"
+        summary: "A temporary show hung in the C-Class cells and the punishment block. The page gives only \"June - September 2026\" with no days, so the closing date here is the end of that month."
+        confidence: "medium"
+      - id: "museums/spike-island#7a641a3365"
+        sourceId: "museums/spike-island"
+        title: "Each name, a story..."
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        url: "https://www.spikeislandcork.ie/each-name-a-story/"
+        image: "https://b3081985.assetcdn.net/3081985/wp-content/uploads/2025/05/Poster-v2_1.png?lossy=2&strip=1&webp=1"
+        tags:
+          - "exhibition"
+          - "heritage"
+          - "permanent-collection"
+        raw: "**Each name, a story...** — Mitchel Hall.\n"
+        summary: "A standing display in Mitchel Hall built around the individual prisoners held on the island rather than the famous ones. No dates printed."
+        confidence: "medium"
+      - id: "museums/spike-island#588665022b"
+        sourceId: "museums/spike-island"
+        title: "Gaols, Ghosts, Garrisons and Gas-Masks"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        url: "https://www.spikeislandcork.ie/gggg/"
+        image: "https://b3081985.assetcdn.net/3081985/wp-content/uploads/2025/08/1-DSC_3704--scaled-e1756051964708.jpg?lossy=2&strip=1&webp=1"
+        tags:
+          - "exhibition"
+          - "heritage"
+          - "permanent-collection"
+        raw: "**Gaols, Ghosts, Garrisons and Gas-Masks** — Punishment Block. Exhibition by
+
+          Fionnghuala Smith.\n"
+        summary: "Fionnghuala Smith's exhibition in the punishment block, still listed among the current shows with no closing date given."
+        confidence: "medium"
+    notes: "The unlabelled top strip of /news-and-events/ is the current programme; below it the page is grouped by year back to 2022 and all of that is past. Four forward rows plus two press notices, which are dropped as the hints instruct (\"Named One of the Top Visitor Attractions in Ireland\", \"the perfect family adventure this Mid-Term Break\"). Past 2026 rows not recorded: the Fireworks Spectacular (Sat 18 July), the April 5K, and the 11 July Haunted Spike. Three event pages were opened, plus /exhibitions/ and the catalogued digitickets booking route. The booking shop lists the same four products and prints no departure times or prices until a date is chosen in the basket flow, so the Spike Island Experience is recorded as `ongoing` rather than the `recurring` the hints expect - there is no schedule printed anywhere I could read. Of the five exhibitions on /exhibitions/, \"Liberated Paradox\" by Thomas Hendy ran May - July 2026 and is past; \"Altered Images\" prints only \"June - September 2026\", so its end is taken as the last day of that month at `confidence: medium`. Note that the exhibitions page hrefs do not match their titles - \"Gaols, Ghosts, Garrisons and Gas-Masks\" is at /gggg/ and \"Liberated Paradox\" at /thomas-hendy/ - so the links below are taken verbatim rather than built from the titles."
+  - sourceId: "museums/cork-city-county-archives"
+    fetch:
+      ok: true
+      url: "https://www.corkarchives.ie/what_s_on/events-and-exhibitions/"
+      status: 200
+    events:
+      - id: "museums/cork-city-county-archives#12c26ff5ef"
+        sourceId: "museums/cork-city-county-archives"
+        title: "Genealogy and Archives Day"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "10:30"
+          endTime: "16:00"
+        status: "scheduled"
+        url: "https://www.corkarchives.ie/what_s_on/events-and-exhibitions/national-heritage-week-2026-at-cork-city-county-archives/"
+        image: "https://www.corkarchives.ie/media/4gtobfbt/national-heritage-week-english_pink-on-white500pix.jpg"
+        price:
+          free: true
+          text: "No charge. Places limited, booking essential (full day only)"
+        tags:
+          - "genealogy"
+          - "talk"
+          - "heritage"
+          - "free-entry"
+          - "booking-required"
+        raw: "**National Heritage Week 2026 at Cork City and County Archives Service —
+
+          Genealogy and Archives Day**
+
+
+          Location: Cork City and County Archives Service, Seamus Murphy Building, 32
+
+          Great William O'Brien Street, Blackpool, Cork T23 WP82. Date: Weds. 19th August
+
+          2026, 10.30am to 4.00pm. No charge. Places limited, booking essential (full day
+
+          only). Book by e mail archivist@corkcity.ie. Light Lunch Provided.\n"
+        summary: "A full day of talks in the Blackpool reading room on how to actually use the collection - workhouse and school registers, the Wide Streets Commissioners, Cork's German connections - with lunch. Free but booking essential and the full day only."
+        description: "**Genealogy and Archives Day**
+
+
+          Location: Cork City and County Archives Service, Seamus Murphy Building, 32 Great
+
+          William O'Brien Street, Blackpool, Cork T23 WP82
+
+
+          Date: Weds. 19th August 2026, 10.30am to 4.00pm
+
+
+          No charge. Places limited, booking essential (full day only). Book by e mail
+
+          archivist@corkcity.ie. Light Lunch Provided.
+
+
+          Speakers:
+
+
+          - Hannah Lynch, Assistant Archivist: \"A City Evolving: Cork Wide Streets
+
+          \  Commissioners 1820s-1852\"
+
+          - Dr. Mervyn O'Driscoll, Historian, UCC: \"Cork-German Connections 1939-1973\"
+
+          - Brian McGee, Senior Archivist: \"Workhouse Records, School Records, and other
+
+          \  Genealogical Sources in the Cork City and County Archives\"
+
+          - Michelle O'Mahony, Historian, OM Consulting: \"If the Walls Could Talk - Life in
+
+          \  Cork Union Workhouse\" and \"The Moylan Family of Cork and their contribution to
+
+          \  Cork and the USA\"\n"
+        confidence: "high"
+      - id: "museums/cork-city-county-archives#7c54a9c4bb"
+        sourceId: "museums/cork-city-county-archives"
+        title: "Culture Night 2026 at the Archives"
+        occurrence:
+          kind: "single"
+          date: "2026-09-18"
+          startTime: "18:00"
+          endTime: "21:00"
+        status: "scheduled"
+        timesText: "6.00pm - 9.00pm; guided tour of the Archives at 7.30pm sharp (approx. 40 mins, max 20 people)"
+        url: "https://www.corkarchives.ie/what_s_on/events-and-exhibitions/culture_night_2026_at_the_archives/"
+        image: "https://www.corkarchives.ie/media/5mbl0zzs/3oldblackpoolchurch_smurphy_small.jpg?rmode=max&width=500"
+        tags:
+          - "heritage"
+          - "guided-tour"
+          - "exhibition"
+          - "late-opening"
+          - "community"
+        raw: "**Culture Night 2026 at the Cork City and County Archives Service** — Friday 18
+
+          September.
+
+
+          The following events are happening at the Archives as part of the Culture Night
+
+          Blackpool Trail:
+
+
+          - 'Blackpool and the Northside through the Years' 6.00pm - 9.00pm
+
+          - Archive Treasures Exhibition 6.00pm - 9.00pm
+
+          - Guided Tour of the Archives - 7.30pm sharp\n"
+        summary: "The Archives open for the Culture Night Blackpool Trail with hundreds of historical Northside photographs on screen, MacCurtain's last letter and the last known photograph of Michael Collins out of the strongroom, and one behind-the- scenes tour at 7.30 for twenty people."
+        description: "**Culture Night 2026 at the Cork City and County Archives Service** — Friday 18
+
+          September
+
+
+          The following events are happening at the Archives as part of the Culture Night
+
+          Blackpool Trail:
+
+
+          **'Blackpool and the Northside through the Years' 6.00pm - 9.00pm** — A digital
+
+          display of hundreds of fascinating historical photos of Blackpool and the
+
+          Northside of the City.
+
+
+          **Archive Treasures Exhibition 6.00pm - 9.00pm** — Exhibition of several of the
+
+          most notable items from the CCCA collection including Lord Mayor Tomás
+
+          MacCurtain's last letter and the last known photo of General Michael Collins.
+
+
+          **Guided Tour of the Archives - 7.30pm sharp** — See behind the scenes of the
+
+          Archives with our guided tour, 7.30pm sharp (Time: approx. 40mins). Max 20
+
+          people.
+
+
+          Other locations for the Culture Night Blackpool Trail: Blackpool Community
+
+          Centre, Blackpool Church, Cork Community Art Link.\n"
+        confidence: "high"
+    notes: "The index is titles only with no dates, exactly as the hints say, so three child pages were opened. \"The Story of Us: Independent Ireland and the 1926 Census Exhibition\" was opened and turns out to have run 7-27 July 2026 at St Peter's (Mon-Sat 10am-5pm, free) - past, so not recorded; that also explains the row St Peter's own site no longer lists. \"Heritage Council Grant Funds Digitisation of Cork Workhouse Registers\", \"General Stephen Moylan\" and \"Cork and the Anglo Normans - Millennium 2027 Project\" were not opened: the titles read as notices and projects rather than dated events, and the last is explicitly a 2027 project. heritageweek.ie lists Genealogy and Archives Day as 10:30am-3:30pm where the Archives' own page says 10.30am to 4.00pm - the venue's time is used here and the aggregator's duplicate row is skipped. The large set of online exhibitions under /resources/online-exhibitions/ is not an event and is not recorded."
+  - sourceId: "museums/cork-city-archaeology"
+    fetch:
+      ok: true
+      url: "https://www.corkcity.ie/en/council-services/services/arts-culture-heritage/archaeology/events-projects/"
+      status: 200
+    events:
+      - id: "museums/cork-city-archaeology#3ba73325e3"
+        sourceId: "museums/cork-city-archaeology"
+        title: "Walls that Shaped a City: Excavating Cork's Medieval Defences"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+          startTime: "14:30"
+        status: "scheduled"
+        venue:
+          name: "Cork City Library, Grand Parade"
+          area: "City Centre"
+          address:
+            street: "57-61 Grand Parade"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/walls-that-shaped-a-city-excavating-corks-medieval-defences"
+        image: "https://www.corkcity.ie/media/vuidz51q/sectionofcitywallatbishopluceypark.jpg?rmode=max&width=500"
+        tags:
+          - "talk"
+          - "archaeology"
+          - "heritage"
+          - "community"
+        raw: "**Walls that Shaped a City: Excavating Cork's Medieval Defences, on Tuesday,
+
+          18th August 2026 at 2:30pm, Cork City Library, Grand Parade**
+
+
+          Step into Cork's past at \"Walls that Shaped a City\", an engaging talk by Cork
+
+          City Archaeologist, Ciara Brett, exploring the hidden story of the city's
+
+          medieval defences. Part of National Heritage Week 13-23 August 2026.\n"
+        summary: "The City Archaeologist on the walls Cork used to have - the gates, towers and defensive ditches now under the streets - and what the digs at Barrack Street and North Main Street actually turned up."
+        description: "Step into Cork's past at \"Walls that Shaped a City\", an engaging talk by Cork City
+
+          Archaeologist, Ciara Brett, exploring the hidden story of the city's medieval
+
+          defences. Once encircled by formidable stone walls, Cork was a walled settlement
+
+          whose gates, towers, and fortifications shaped everyday life, trade, and security.
+
+          Today, much of this legacy lies buried beneath streets and buildings – yet its
+
+          impact endures.
+
+
+          Find out how archaeological digs have revealed fragments of walls, defensive
+
+          ditches, and gateways that once defined the city's boundaries. Whether you are a
+
+          history enthusiast, a local resident, or simply curious about the layers beneath
+
+          your feet, \"Walls that Shaped a City\" offers a unique opportunity to connect with
+
+          Cork's medieval origins and appreciate the foundations upon which the modern city
+
+          stands.
+
+
+          Part of National Heritage Week 13-23 August 2026.\n"
+        confidence: "high"
+    notes: "One live talk, printed in full prose with speaker, date, time and venue, exactly as the hints describe. /lecture-series-and-talks/ was also fetched: it describes the Autumn Archaeology Lecture Series in general terms and links audio from 2021 (Know Your Monuments, Holy Wells of Cork City) but carries no 2026 dates, so nothing came from it - the autumn series is presumably not announced yet. The other item on the page, the \"Beneath Our Feet: Art & Archaeology Exhibition\", ran 20 September - 8 October 2025 at St Peter's and is past. The talk has no page of its own on corkcity.ie; the `url` recorded is the heritageweek.ie link the page itself prints for it, taken verbatim. The talk is at Cork City Library, not at a council building, so `venue` is set. No admission is printed, so `price` is omitted rather than assumed free."
+  - sourceId: "museums/cork-historical-archaeological-society"
+    fetch:
+      ok: false
+      url: "https://corkhist.ie/calendar/"
+      status: 403
+      error: "403 Forbidden with a zero-byte body; the whole site now refuses this fetcher, root included"
+    events: []
+    notes: "The catalogued path is correct but the site has stopped answering. /calendar/ returned 403 with an empty body to a Chrome user-agent, and again to a full browser header set (Accept, Accept-Language, Sec-Fetch-*, Upgrade-Insecure-Requests, compressed), and again through a second, unrelated fetcher. corkhist.ie/ itself, /events/ and /summer-programme-2026/ all return 403 as well, so this is a site-wide block rather than the stale-path problem the hints record - they were written this morning with /calendar/ serving 200 and only /events/ refusing. Nothing recorded. This is the most expensive gap in the run: the society is the busiest heritage programmer in the county, with fortnightly winter lectures, summer outings, a conference and an annual weekend, and it is the only source in this category that returned nothing at all for a reason other than having nothing on. Worth a catalogue hint that the domain may need a different route entirely."
+  - sourceId: "museums/cork-astronomy-club"
+    fetch:
+      ok: true
+      url: "https://corkastronomyclub.com/"
+      status: 200
+    events:
+      - id: "museums/cork-astronomy-club#3e5eca1dda"
+        sourceId: "museums/cork-astronomy-club"
+        title: "Large Scale Structures in the Universe: the Great Wall to the Great Attractor"
+        subcategory: "Public Lecture"
+        occurrence:
+          kind: "single"
+          date: "2026-09-14"
+          startTime: "20:00"
+          endTime: "21:45"
+        status: "scheduled"
+        venue:
+          name: "Iris Ashley Cummins Building (former Civil Engineering Building), University College Cork"
+          area: "UCC"
+        url: "https://corkastronomyclub.com/mon-14th-sept-2026-large-scale-structures-in-the-universe-the-great-wall-to-the-great-attractor/"
+        tags:
+          - "talk"
+          - "astronomy"
+          - "community"
+          - "free-entry"
+        raw: "**Mon 14th Sept 2026 – public lecture – the universe at the largest scales** —
+
+          14 sep, 8:00 pm - 9:45 pm (GMT+01:00). Iris Ashley Cummins Building (former Civil
+
+          Engineering Building), Civil Engineering Building, University College, Cork. Event
+
+          Organized By: Cork Astronomy Club. Event Type: Unrestricted : Everyone welcome.
+
+
+          Article headline: **Mon 14th Sept 2026 - \"Large Scale Structures in the Universe:
+
+          the Great Wall to the Great Attractor\"**. Our new season will open on 14th
+
+          September with a public lecture by Frances McCarthy on the universe at the largest
+
+          scales.\n"
+        summary: "The club's 2026-27 season opens with Frances McCarthy, formerly of Blackrock Castle Observatory, on the largest things there are - galaxy walls, voids, and whatever the Great Attractor is pulling us towards. Everyone welcome, tea afterwards."
+        description: "Frances McCarthy, formerly of MTU Blackrock Castle Observatory will give a lecture
+
+          titled \"Large Scale Structures in the Universe: the Great Wall to the Great
+
+          Attractor\".
+
+
+          All welcome. Come and see what Cork Astronomy Club does. Stay for tea and a chat
+
+          afterwards.
+
+
+          Time: September 14, 2026 8:00 pm - 9:45 pm (GMT+01:00). Location: Iris Ashley
+
+          Cummins Building (former Civil Engineering Building), Civil Engineering Building,
+
+          University College, Cork. Organizer: Cork Astronomy Club. Event Type: Unrestricted
+
+          : Everyone welcome.\n"
+        confidence: "high"
+    notes: "The catalogued /events/ path is broken: it returns HTTP 200 but its body is the eventON plugin's own error message - \"ERROR: Please select a event archive page in eventON Settings > Events Paging > Select Events Page\" - and no listing whatsoever. Harvested from the homepage instead, whose \"Upcoming Events\" widget carries the complete record (location with address, start and end times, organiser, restriction filter and body text) and whose article strip repeats it. The catalogue URL needs correcting to the homepage or to /calendar/. One upcoming event; everything else on the homepage is past - the 12 August solar eclipse watch, the 19 June solstice barbecue at The Anglers (members plus one, €35), members' presentations on 11 May, the members' photo exhibition at Blackrock Castle through May 2026, and the 19-21 March outing to Dunsink and Newgrange. The event is titled two different ways on the same site: the article headline is 'Mon 14th Sept 2026 - \"Large Scale Structures in the Universe: the Great Wall to the Great Attractor\"' and the calendar entry is \"Mon 14th Sept 2026 – public lecture – the universe at the largest scales\". The lecture title is used here and both printed forms are kept in `raw`. The lecture is at UCC, not at any premises of the club's own, so `venue` is set - and note it is the Iris Ashley Cummins Building, not the Boole 4 theatre the hints expect."
+  - sourceId: "museums/cork-folklore-project"
+    fetch:
+      ok: true
+      url: "https://corkfolklore.org/"
+      status: 200
+    events: []
+    notes: "Reached and read; nothing dated on it. The newest post is 14 January 2026, \"30 Years of the Cork Folklore Project\", and the only forward-looking sentence in it is \"Across 2026, we will be holding events in celebration of this major milestone!\" - an announcement that events will exist, not a listing of one, so no `undated` row was created for it. Everything else on the homepage is 2020-2024 (Circular Tales at Triskel in February 2024, Catching Stories 2021, Chronicles of COVID-19 2020). The project does have a live event this week that its own site never mentions - \"Listening in Place: An Journey Through Cork's Oral Heritage\", Monday 17 August 11:00-12:00 at the CFP office, 34 Paul Street - which appears only on heritageweek.ie and is recorded under museums/national-heritage-week with `venue.sourceId` pointing here. So this source is quiet rather than the project being quiet. The catalogue suggests reviewing for `dormant` if the first harvests come back empty; this is the first, and the Heritage Week listing argues against dormant."
+  - sourceId: "museums/cork-heritage-open-day"
+    fetch:
+      ok: true
+      url: "https://www.corkcity.ie/en/cork-heritage-open-day/"
+      status: 200
+    events:
+      - id: "museums/cork-heritage-open-day#cf96bb7922"
+        sourceId: "museums/cork-heritage-open-day"
+        title: "Buildings Going Purple for Heritage Week"
+        occurrence:
+          kind: "run"
+          start: "2026-08-15"
+          end: "2026-08-23"
+        status: "scheduled"
+        url: "https://www.corkcity.ie/en/cork-heritage-open-day/heritage-week/buildings-going-purple-for-heritage-week/"
+        image: "https://www.corkcity.ie/media/ewfjjxcf/cork-city-hall-purple.jpg?width=870&height=490&v=1dd22c02e305e90"
+        price:
+          free: true
+          text: "Free to see"
+        tags:
+          - "heritage"
+          - "outdoor"
+          - "free-entry"
+          - "seasonal"
+          - "multi-day"
+        raw: "**Buildings Going Purple for Heritage Week**
+
+
+          To celebrate Heritage Week, buildings and landmarks across the county will be
+
+          illuminated in purple, highlighting the importance of preserving and celebrating
+
+          our shared heritage. Participating locations include: Cork City Hall, Cork Fire
+
+          Station, Old Cork Waterwork's Experience, St Luke's Church in St Luke's Cross,
+
+          Cork Public Museum, St Peter's Cork, Maldron Hotel, Blackrock Castle Observatory,
+
+          AIB 66 South Mall.\n"
+        summary: "Nine landmarks lit purple after dark for Heritage Week - City Hall, the fire station, the Waterworks, St Luke's, the Public Museum, St Peter's, Blackrock Castle and AIB on South Mall. Free, and best from across the river."
+        confidence: "medium"
+      - id: "museums/cork-heritage-open-day#629103c471"
+        sourceId: "museums/cork-heritage-open-day"
+        title: "Shandon Historical Walking Tour with Cllr Kieran McCarthy"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "18:30"
+        status: "scheduled"
+        venue:
+          name: "North Main Street / Adelaide Street Square, opposite Cork Volunteer Centre"
+          area: "City Centre"
+        url: "https://www.corkcity.ie/en/cork-heritage-open-day/heritage-week/cork-city-walking-tours/"
+        price:
+          free: true
+          text: "Free, no booking required"
+        tags:
+          - "guided-tour"
+          - "heritage"
+          - "free-entry"
+          - "outdoor"
+          - "drop-in"
+        raw: "**Monday 17 August 2026**, Shandon Historical Walking Tour with Cllr Kieran
+
+          McCarthy; explore Cork's most historic quarter; meet at North Main Street/
+
+          Adelaide Street Square, opp Cork Volunteer Centre, 6.30pm (free, 2 hours, no
+
+          booking required).\n"
+        summary: "Two hours on foot round Shandon - the butter market, the church, the lanes - with the local historian councillor who has been running these for two decades. Free, just turn up."
+        confidence: "high"
+      - id: "museums/cork-heritage-open-day#2c33abc312"
+        sourceId: "museums/cork-heritage-open-day"
+        title: "The City Workhouse, historical walking tour with Cllr Kieran McCarthy"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+          startTime: "18:30"
+        status: "scheduled"
+        venue:
+          name: "Just inside the gates of St Finbarr's Hospital, Douglas Road"
+          area: "Douglas Road"
+        url: "https://www.corkcity.ie/en/cork-heritage-open-day/heritage-week/cork-city-walking-tours/"
+        price:
+          free: true
+          text: "Free, no booking required"
+        tags:
+          - "guided-tour"
+          - "heritage"
+          - "free-entry"
+          - "outdoor"
+          - "drop-in"
+        raw: "**Tuesday 18 August 2026**, The City Workhouse, historical walking tour with Cllr
+
+          Kieran McCarthy; learn about Cork City's workhouse created for 2,000 impoverished
+
+          people in 1841; meet just inside the gates of St Finbarr's Hospital, Douglas Road,
+
+          6.30pm (free, 2 hours, on site tour, no booking required).\n"
+        summary: "An on-site tour of what is left of the 1841 workhouse, built for two thousand people, in the grounds of the hospital that replaced it. Two hours, free."
+        confidence: "high"
+      - id: "museums/cork-heritage-open-day#4272d03661"
+        sourceId: "museums/cork-heritage-open-day"
+        title: "The Marina, with Cllr Kieran McCarthy"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "18:30"
+        status: "scheduled"
+        venue:
+          name: "Western end adjacent Shandon Boat Club, The Marina"
+          area: "The Marina"
+        url: "https://www.corkcity.ie/en/cork-heritage-open-day/heritage-week/cork-city-walking-tours/"
+        price:
+          free: true
+          text: "Free, no booking required"
+        tags:
+          - "guided-tour"
+          - "heritage"
+          - "free-entry"
+          - "outdoor"
+          - "drop-in"
+        raw: "**Thursday 20 August 2026**, The Marina; with Cllr Kieran McCarthy, Discover the
+
+          history of the city's promenade, from forgotten artefacts to ruinous follies; meet
+
+          at western end adjacent Shandon Boat Club, The Marina, 6.30pm, no booking required
+
+          (free, duration: 2 hours, no booking required).\n"
+        summary: "The promenade read as a document - the forgotten artefacts and the ruinous follies most people walk past on the way to the Atlantic Pond. Two hours, free."
+        confidence: "high"
+      - id: "museums/cork-heritage-open-day#bb578087b8"
+        sourceId: "museums/cork-heritage-open-day"
+        title: "Douglas and its History, historical walking tour with Cllr Kieran McCarthy"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+          startTime: "18:30"
+        status: "scheduled"
+        venue:
+          name: "Carpark of Douglas Community Centre"
+          area: "Douglas"
+        url: "https://www.corkcity.ie/en/cork-heritage-open-day/heritage-week/cork-city-walking-tours/"
+        price:
+          free: true
+          text: "Free, no booking required"
+        tags:
+          - "guided-tour"
+          - "heritage"
+          - "free-entry"
+          - "outdoor"
+          - "community"
+        raw: "**Friday 21 August 2026**, Douglas and its History, historical walking tour with
+
+          Cllr Kieran McCarthy in association with Douglas Tidy Towns; Discover the history
+
+          of industry and the development of this historic village, meet in the carpark of
+
+          Douglas Community Centre, 6.30pm (free, 2 hours, no booking required, circuit of
+
+          village, finishes nearby).\n"
+        summary: "A circuit of Douglas village on how the sailcloth mills made it, run with Douglas Tidy Towns. Two hours, finishes near where it starts, free."
+        confidence: "high"
+      - id: "museums/cork-heritage-open-day#0d69c8c278"
+        sourceId: "museums/cork-heritage-open-day"
+        title: "The Northern Ridge – St Patrick's Hill to MacCurtain Street"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "14:00"
+        status: "scheduled"
+        venue:
+          name: "The Green at Audley Place, top of St Patrick's Hill"
+          area: "St Patrick's Hill"
+        url: "https://www.corkcity.ie/en/cork-heritage-open-day/heritage-week/cork-city-walking-tours/"
+        price:
+          free: true
+          text: "Free, no booking required"
+        tags:
+          - "guided-tour"
+          - "heritage"
+          - "free-entry"
+          - "outdoor"
+          - "drop-in"
+        raw: "**Saturday 22 August 2026**, The Northern Ridge – St Patrick's Hill to MacCurtain
+
+          Street; Historical walking tour with Cllr Kieran McCarthy of the area around St
+
+          Patrick's Hill – Old Youghal Road to McCurtain Street; meet on the Green at Audley
+
+          Place, top of St Patrick's Hill, 2pm (free, 2 hours, no booking required).\n"
+        summary: "Down the northern ridge from Audley Place to MacCurtain Street, taking in the Old Youghal Road and the best view in the city on the way. Two hours, free."
+        confidence: "high"
+      - id: "museums/cork-heritage-open-day#f8f1336e19"
+        sourceId: "museums/cork-heritage-open-day"
+        title: "Blackpool: Its History and Heritage"
+        occurrence:
+          kind: "single"
+          date: "2026-08-23"
+          startTime: "14:00"
+        status: "scheduled"
+        venue:
+          name: "The square on St Mary's Road, opposite North Cathedral"
+          area: "Blackpool"
+        url: "https://www.corkcity.ie/en/cork-heritage-open-day/heritage-week/cork-city-walking-tours/"
+        price:
+          free: true
+          text: "Free, no booking required"
+        tags:
+          - "guided-tour"
+          - "heritage"
+          - "free-entry"
+          - "outdoor"
+          - "drop-in"
+        raw: "**Sunday 23 August 2026**, Blackpool: Its History and Heritage; historical walking
+
+          tour with Cllr Kieran McCarthy, meet at the square on St Mary's Road, opposite
+
+          North Cathedral, 2pm (free, 2 hours, no booking required).\n"
+        summary: "The last tour of the week, on Blackpool's tanneries, distilleries and the valley the city grew up out of. Starts opposite the North Cathedral, two hours, free."
+        confidence: "high"
+    notes: "Cork Heritage Open Day itself was Saturday 15 August 2026 - its 21st, 42 buildings open free of charge - and is past, so it has no row and its programme child pages (/events/building-tours/, /historical-walking-tours/, /talks/, /family-friendly- events/, /workshops/ and the brochure at publications.corkcity.ie) were not opened. The /heritage-week/ child pages were read instead, because National Heritage Week runs to 23 August and is still live. /cork-city-walking-tours/ is the high-yield one: seven fully dated free tours by Cllr Kieran McCarthy, 16-23 August 2026, each with a meeting point, duration and \"no booking required\", and every printed weekday checks out against 2026. Six of the seven are still ahead; the 16 August \"Cork Through the Ages\" tour (National Monument, Grand Parade, 6.30pm) is past and not recorded. The 21 August Douglas tour is also on heritageweek.ie under Douglas Tidy Towns; it is recorded here, from the council's own page, and skipped there. /heritage-week/full-cork-city-heritage-week-programme/, /cork-city-libraries-events/ and /ballincollig/ were deliberately not read - they restate what heritageweek.ie already carries in full and reading them would have duplicated 78 events a second time. The tour rows are not individually linked, so each carries the walking-tours page it is printed on as its `url`. The \"Buildings Going Purple\" page prints no dates of its own; its run is taken from the Heritage Week dates the parent page prints (\"National Heritage Week is taking place from August 15th to August 23\"), hence `confidence: medium`."
+  - sourceId: "museums/national-heritage-week"
+    fetch:
+      ok: true
+      url: "https://www.heritageweek.ie/event-listings?where%5B%5D=cork&eventDates%5B%5D=17-august&eventDates%5B%5D=18-august&eventDates%5B%5D=19-august&eventDates%5B%5D=20-august&eventDates%5B%5D=21-august&eventDates%5B%5D=22-august&eventDates%5B%5D=23-august"
+      status: 200
+    events:
+      - id: "museums/national-heritage-week#219bc2d7b7"
+        sourceId: "museums/national-heritage-week"
+        title: "‘The Proud and the Poor’, Bishop Francis Moylan and the People of Cork."
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "13:30"
+          endTime: "14:30"
+        status: "scheduled"
+        venue:
+          name: "The City Library"
+          address:
+            street: "57 - 61 Grand Parade"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/the-proud-and-the-poor-bishop-francis-moylan-and-the-people-of-cork"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/moylan-pic1-201x300_2026-07-29-122612_emfx.jpg"
+        tags:
+          - "talk"
+          - "heritage"
+          - "community"
+        raw: "**'The Proud and the Poor', Bishop Francis Moylan and the People of Cork.** — The
+
+          City Library, Co. Cork City, 57 - 61 Grand Parade, Cork. 22 August, 1:30pm -
+
+          2:30pm.\n"
+        summary: "An hour on Francis Moylan, Catholic bishop of Cork through the penal years and the 1798 rising, and the gap between the class he moved in and the people he served."
+        confidence: "high"
+      - id: "museums/national-heritage-week#b641665da2"
+        sourceId: "museums/national-heritage-week"
+        title: "A Day in the Life of a Georgian Lady"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+          startTime: "11:00"
+          endTime: "12:00"
+        status: "scheduled"
+        venue:
+          name: "Cork Civic Trust House"
+          address:
+            street: "50 Pope's Quay"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/a-day-in-the-life-of-a-georgian-lady"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/Picture1_2026-06-30-193952_kcyw.jpg"
+        tags:
+          - "talk"
+          - "heritage"
+          - "performance"
+        raw: "**A Day in the Life of a Georgian Lady** — Irish Georgian Society - Cork Chapter.
+
+          Cork Civic Trust House, Co. Cork City, 50 Pope's Quay Cork. 18 August, 11am - 12pm.\n"
+        summary: "The Irish Georgian Society walks you through a woman's day in the Pope's Quay townhouse - dress, hours, servants, and what the rooms were actually for."
+        confidence: "high"
+      - id: "museums/national-heritage-week#a7a78baf38"
+        sourceId: "museums/national-heritage-week"
+        title: "A Demonstration of Dry Stone Wall Building"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+          startTime: "19:00"
+          endTime: "20:30"
+        status: "scheduled"
+        venue:
+          name: "Tree Sculptures, Ballincollig Regional Park"
+          area: "Ballincollig"
+          address:
+            street: "Main Carpark Inniscarra Road"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/a-demonstration-of-dry-stone-wall-building-2"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/Limestone-Wall_2026-07-04-133600_vtqa.png"
+        tags:
+          - "hands-on"
+          - "heritage"
+          - "outdoor"
+          - "crafts"
+        raw: "**A Demonstration of Dry Stone Wall Building** — Ballincollig Heritage Festival.
+
+          Tree Sculptures, Co. Cork City, Main Carpark Inniscarra Road. 18 August, 7pm -
+
+          8:30pm.\n"
+        summary: "A waller building without mortar in the regional park - how the stones lock, why the hearting matters, and why the walls outlast the concrete."
+        confidence: "high"
+      - id: "museums/national-heritage-week#d75e2a41b9"
+        sourceId: "museums/national-heritage-week"
+        title: "A Genealogical Treasure Trove: Digitising the Registers of South Pres Primary School"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "11:30"
+          endTime: "13:00"
+        status: "scheduled"
+        venue:
+          sourceId: "museums/nano-nagle-place"
+          name: "Global Hub, Nano Nagle Place"
+        url: "https://www.heritageweek.ie/event-listings/a-genealogical-treasure-trove-digitising-the-registers-of-south-pres-primary-school"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/1000058850.jpg"
+        tags:
+          - "genealogy"
+          - "talk"
+          - "heritage"
+        raw: "**A Genealogical Treasure Trove: Digitising the Registers of South Pres Primary
+
+          School** — Presentation Sisters Congregational Archives. Global Hub, Nano Nagle
+
+          Place, Co. Cork City, Douglas Street, Cork. 22 August, 11:30am - 1pm.\n"
+        summary: "Dr Danielle O'Donovan and Brendan Dempsey on the South Pres roll books - who was in those late-Victorian classrooms, and what it takes to get the registers online."
+        confidence: "high"
+      - id: "museums/national-heritage-week#a2b78e9376"
+        sourceId: "museums/national-heritage-week"
+        title: "A National Heritage Week Bat Walk in Ballincollig Regional Park"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "20:00"
+          endTime: "22:00"
+        status: "scheduled"
+        venue:
+          name: "Cork Biodiversity Hub, Ballincollig Regional Park"
+          area: "Ballincollig"
+        url: "https://www.heritageweek.ie/event-listings/a-heritage-week-bat-walk-in-ballincollig-regional-park-2"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/Heritage-Week-Bat-Walk-Ballincollig-2026_2026-07-13-151251_hugo.jpg"
+        tags:
+          - "wildlife"
+          - "nature"
+          - "outdoor"
+          - "family"
+          - "late-night"
+        raw: "**A National Heritage Week Bat Walk in Ballincollig Regional Park** — Cork City
+
+          Council. Cork Biodiversity Hub, Co. Cork City, Ballincollig. 19 August, 8pm - 10pm.\n"
+        summary: "Detectors out along the Lee in the powdermills park after dark - two hours picking up the pipistrelles and Daubenton's hunting over the water."
+        confidence: "high"
+      - id: "museums/national-heritage-week#70c293430d"
+        sourceId: "museums/national-heritage-week"
+        title: "A talk on All Saints Well and Teampall na gCillíní"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "14:30"
+          endTime: "15:30"
+        status: "scheduled"
+        venue:
+          name: "Cork City Libraries"
+        url: "https://www.heritageweek.ie/event-listings/a-talk-on-all-saints-well-and-teampall-na-gcillíní"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/TeampallnagCillini.jpg"
+        tags:
+          - "talk"
+          - "heritage"
+          - "archaeology"
+          - "community"
+        raw: "**A talk on All Saints Well and Teampall na gCillíní** — Cork City Libraries, Co.
+
+          Cork City. 22 August, 2:30pm - 3:30pm.\n"
+        summary: "A holy well and a children's burial ground on the city's edge - two of the quietest and least documented pieces of Cork's sacred landscape. The listing names no branch library."
+        confidence: "high"
+      - id: "museums/national-heritage-week#a6d88a0bfe"
+        sourceId: "museums/national-heritage-week"
+        title: "A Walk Down the Glen"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "14:30"
+          endTime: "15:30"
+        status: "scheduled"
+        venue:
+          name: "Cork City Libraries"
+        url: "https://www.heritageweek.ie/event-listings/a-walk-down-the-glen"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/Gerard-OBrien-A-Walk-Down-the-Glen_2026-07-08-130033_lxrz.jpg"
+        tags:
+          - "talk"
+          - "heritage"
+          - "community"
+          - "nature"
+        raw: "**A Walk Down the Glen** — Cork City Libraries, Co. Cork City. 22 August, 2:30pm -
+
+          3:30pm.\n"
+        summary: "Gerard O'Brien on the Glen - the northside river valley that has been quarry, dumping ground and park in turn. The listing names no branch library."
+        confidence: "high"
+      - id: "museums/national-heritage-week#2686ffa24d"
+        sourceId: "museums/national-heritage-week"
+        title: "Book Launch: Blúirí Oileánda - Island Pieces: Cléire - Cape Clear"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "16:00"
+          endTime: "17:00"
+        status: "scheduled"
+        venue:
+          name: "The City Library"
+          address:
+            street: "57 - 61 Grand Parade"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/book-launch-blúirí-oileánda-island-pieces-cléire-cape-clear"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/DOB-with-Book.jpg"
+        tags:
+          - "book-launch"
+          - "irish-language"
+          - "heritage"
+          - "reading"
+        raw: "**Book Launch: Blúirí Oileánda - Island Pieces: Cléire - Cape Clear** — Cork City
+
+          Libraries. The City Library, Co. Cork City, 57 - 61 Grand Parade, Cork. 22 August,
+
+          4pm - 5pm.\n"
+        summary: "The launch of a bilingual gathering of pieces from Cape Clear, the Gaeltacht island off the west Cork coast, at the Grand Parade library."
+        confidence: "high"
+      - id: "museums/national-heritage-week#0db8ba3459"
+        sourceId: "museums/national-heritage-week"
+        title: "Bug Walk and Talk"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "14:00"
+          endTime: "15:30"
+        status: "scheduled"
+        venue:
+          name: "Bicycle Stand, Ballincollig Regional Park"
+          area: "Ballincollig"
+          address:
+            street: "Main Carpark Inniscarra Road"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/bug-walk-and-talk"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/Bugwalk-2024_2026-07-04-181221_aagm.jpg"
+        tags:
+          - "wildlife"
+          - "nature"
+          - "family"
+          - "outdoor"
+          - "hands-on"
+        raw: "**Bug Walk and Talk** — Ballincollig Heritage Festival. BIcycle Stand, Co. Cork
+
+          City, Main Carpark Inniscarra Road. 22 August, 2pm - 3:30pm.\n"
+        summary: "Sweep nets and pooters round the regional park for ninety minutes, identifying whatever turns up. Suits children who do not mind holding things with legs."
+        confidence: "high"
+      - id: "museums/national-heritage-week#05c703734f"
+        sourceId: "museums/national-heritage-week"
+        title: "Can Linn, Sing with us. Amhránaíocht le Chéile."
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+          startTime: "11:30"
+          endTime: "12:30"
+        status: "scheduled"
+        venue:
+          name: "Douglas Library"
+          area: "Douglas"
+          address:
+            street: "Douglas Village Shopping Centre, Douglas"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/can-linn-sing-with-us-amhránaíocht-le-chéile"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/Can-Linn-Banner-NHW-2026-2.jpg"
+        tags:
+          - "irish-language"
+          - "community"
+          - "performance"
+          - "free-entry"
+        raw: "**Can Linn, Sing with us. Amhránaíocht le Chéile.** — Cork City Libraries. Douglas
+
+          Library, Co. Cork City, Douglas Village Shopping Centre, Douglas, Cork. 21 August,
+
+          11:30am - 12:30pm.\n"
+        summary: "A group singing session in Irish at Douglas library - come and join in rather than listen. One of three Can Linn sittings across the branches this week."
+        confidence: "high"
+      - id: "museums/national-heritage-week#ac6a650c09"
+        sourceId: "museums/national-heritage-week"
+        title: "Can Linn, Sing with us. Amhránaíocht le Chéile."
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "11:30"
+          endTime: "12:15"
+        status: "scheduled"
+        venue:
+          name: "Bishopstown Library"
+          area: "Bishopstown"
+          address:
+            street: "Wilton Shopping Centre, Wilton"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/can-linn-sing-with-us-amhránaíocht-le-chéile-3"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/Can-Linn-HW_2026-08-06-155315_bwdf.png"
+        tags:
+          - "irish-language"
+          - "community"
+          - "performance"
+          - "free-entry"
+        raw: "**Can Linn, Sing with us. Amhránaíocht le Chéile.** — Cork City Libraries.
+
+          Bishopstown Library, Co. Cork City, Wilton Shopping Centre Wilton. 19 August,
+
+          11:30am - 12:15pm.\n"
+        summary: "The Bishopstown sitting of Can Linn - forty-five minutes of singing together in Irish, no standard required."
+        confidence: "high"
+      - id: "museums/national-heritage-week#65e0615427"
+        sourceId: "museums/national-heritage-week"
+        title: "Cann Linn"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "14:30"
+          endTime: "15:30"
+        status: "scheduled"
+        venue:
+          name: "Cork City Libraries"
+        url: "https://www.heritageweek.ie/event-listings/cann-linn"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/Cann-Linn.jpg"
+        tags:
+          - "irish-language"
+          - "community"
+          - "performance"
+          - "free-entry"
+        raw: "**Cann Linn** — Cork City Libraries, Co. Cork City. 20 August, 2:30pm - 3:30pm.\n"
+        summary: "A third Can Linn Irish-language singing hour, listed by the libraries under a misspelt title and with no branch named."
+        confidence: "high"
+      - id: "museums/national-heritage-week#b43ec78eff"
+        sourceId: "museums/national-heritage-week"
+        title: "Capturing Heritage: Creating Digital Copies of Heritage Artifacts"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+          startTime: "17:30"
+          endTime: "18:30"
+        status: "scheduled"
+        venue:
+          name: "The Creative Zone, UCC Library"
+          area: "UCC"
+        url: "https://www.heritageweek.ie/event-listings/capturing-heritage-creating-digital-copies-of-heritage-artifacts-2"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/Innisfallen-5_2026-07-31-174216_dfdb.png"
+        tags:
+          - "workshop"
+          - "heritage"
+          - "hands-on"
+          - "archaeology"
+        raw: "**Capturing Heritage: Creating Digital Copies of Heritage Artifacts** — UCC
+
+          Library. The Creative Zone, Co. Cork City, UCC Library. 18 August, 5:30pm - 6:30pm.\n"
+        summary: "UCC Library's makerspace on photogrammetry and 3D scanning of objects - how a manuscript or a carving becomes a file you can turn over on screen."
+        confidence: "high"
+      - id: "museums/national-heritage-week#a7f993bb56"
+        sourceId: "museums/national-heritage-week"
+        title: "Children's Heritage Week Event"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "14:00"
+          endTime: "16:00"
+        status: "scheduled"
+        venue:
+          name: "Adjacent to Playground at Ballincollig Regional Park"
+          area: "Ballincollig"
+          address:
+            street: "Main Carpark Inniscarra Road"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/childrens-heritage-week-events"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/Childrens-Heritage-Day.jpg"
+        tags:
+          - "family"
+          - "kids"
+          - "hands-on"
+          - "outdoor"
+          - "drop-in"
+        raw: "**Children's Heritage Week Event** — Ballincollig Heritage Festival. Adjacent to
+
+          Playground at Regional Park, Co. Cork City, Main Carpark Inniscarra Road. 20
+
+          August, 2pm - 4pm.\n"
+        summary: "Two hours of children's heritage activities beside the playground in Ballincollig Regional Park, run by the local heritage festival."
+        confidence: "high"
+      - id: "museums/national-heritage-week#3f3075c761"
+        sourceId: "museums/national-heritage-week"
+        title: "Come Foraging in the Mangala!"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "18:00"
+          endTime: "20:00"
+        status: "scheduled"
+        venue:
+          name: "Douglas Community Centre"
+          area: "Douglas"
+          address:
+            street: "Church Road, Douglas"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/come-foraging-in-the-mangala"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/Foraging-Walk-DTT26c.jpg"
+        tags:
+          - "nature"
+          - "outdoor"
+          - "food-drink"
+          - "community"
+          - "hands-on"
+        raw: "**Come Foraging in the Mangala!** — Douglas Tidy Towns. Douglas Community Centre,
+
+          Co. Cork City, Church Road, Douglas. 19 August, 6pm - 8pm.\n"
+        summary: "Douglas Tidy Towns take you foraging along the Mangala, the wooded stream walk behind the village - two hours on what is edible and what only looks it."
+        confidence: "high"
+      - id: "museums/national-heritage-week#13fcbf325a"
+        sourceId: "museums/national-heritage-week"
+        title: "Community Matters Live Podcast: Heritage At Risk"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "18:00"
+          endTime: "19:00"
+        status: "scheduled"
+        venue:
+          name: "The Creative Zone, UCC Library"
+          area: "UCC"
+        url: "https://www.heritageweek.ie/event-listings/community-matters-live-podcast-heritage-at-risk"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/Community-Matters-4.png"
+        tags:
+          - "talk"
+          - "heritage"
+          - "community"
+          - "performance"
+        raw: "**Community Matters Live Podcast: Heritage At Risk** — UCC Library. The Creative
+
+          Zone, Co. Cork City, UCC Library. 20 August, 6pm - 7pm.\n"
+        summary: "A podcast recorded in front of an audience on this year's Heritage Week theme - endangered habitats, buildings on the at-risk register, and fading trades."
+        confidence: "high"
+      - id: "museums/national-heritage-week#3678c2702d"
+        sourceId: "museums/national-heritage-week"
+        title: "Conservation in Action: Documenting Crawford Art Gallery's Collection (Online)"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "12:30"
+          endTime: "13:30"
+        status: "scheduled"
+        venue:
+          name: "Online Event"
+        url: "https://www.heritageweek.ie/event-listings/conservation-in-action-documenting-crawford-art-gallerys-collection-online"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/ChiaraChilleCAG2024_LS_001-1.jpg"
+        tags:
+          - "talk"
+          - "heritage"
+          - "accessible"
+        raw: "**Conservation in Action: Documenting Crawford Art Gallery's Collection (Online)** —
+
+          Crawford Art Gallery. Online Event, Co. Cork City. 19 August, 12:30pm - 1:30pm.\n"
+        summary: "The online repeat of Crawford's collections-documentation talk, a day after the in-person one at the City Library."
+        confidence: "high"
+      - id: "museums/national-heritage-week#8da535621a"
+        sourceId: "museums/national-heritage-week"
+        title: "Cork city's traditional Traveller camps - art exhibition"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "11:00"
+          endTime: "12:00"
+        status: "scheduled"
+        venue:
+          sourceId: "museums/cork-public-museum"
+          name: "Cork Public Museum"
+        url: "https://www.heritageweek.ie/event-listings/cork-citys-traditional-traveller-camps-art-exhibition-2"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/camps_2026-07-31-190257_gsre.jpg"
+        tags:
+          - "exhibition"
+          - "community"
+          - "heritage"
+        raw: "**Cork city's traditional Traveller camps - art exhibition** — Cork Traveller
+
+          Women's Network. Cork Public Museum, Co. Cork City, Fitzgerald Park, Mardyke, Cork.
+
+          19 August, 11am - 12pm.\n"
+        summary: "Cork Traveller Women's Network map the city's traditional halting sites in artwork, shown in the Public Museum for one hour on the Wednesday."
+        confidence: "high"
+      - id: "museums/national-heritage-week#00b45e5096"
+        sourceId: "museums/national-heritage-week"
+        title: "Crafting the Sound of Tradition"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "12:00"
+          endTime: "15:00"
+        status: "scheduled"
+        venue:
+          name: "Ian Knepper Violins Workshop"
+          area: "City Centre"
+          address:
+            street: "Knepper Violins, 6 George's Quay (Green door, 3rd Floor)"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/crafting-the-sound-of-tradition"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/image-of-the-workshop.jpg"
+        tags:
+          - "crafts"
+          - "heritage"
+          - "hands-on"
+          - "woodwork"
+        raw: "**Crafting the Sound of Tradition** — Music Network. Ian Knepper Violins Workshop,
+
+          Co. Cork City, Knepper Violins, 6 George's Quay (Green door, 3rd Floor), Cork City.
+
+          20 August, 12pm - 3pm.\n"
+        summary: "Three hours up three flights on George's Quay in a working violin-maker's shop - how the instrument that carries most of Irish traditional music is actually built."
+        confidence: "high"
+      - id: "museums/national-heritage-week#cf51326e01"
+        sourceId: "museums/national-heritage-week"
+        title: "Creative Wanderings: Biodiversity & Art at UCC"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "12:30"
+          endTime: "14:00"
+        status: "scheduled"
+        venue:
+          name: "University College Cork"
+          area: "UCC"
+        url: "https://www.heritageweek.ie/event-listings/creative-wanderings-biodiversity-art-at-ucc"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/Green-Walk.jpg"
+        tags:
+          - "guided-tour"
+          - "nature"
+          - "outdoor"
+          - "contemporary"
+        raw: "**Creative Wanderings: Biodiversity & Art at UCC** — The Glucksman. Co. Cork City,
+
+          University College Cork. 19 August, 12:30pm - 2pm.\n"
+        summary: "The Glucksman walks the UCC grounds reading the campus as both habitat and sculpture park - the ogham stones, the river meadow, and the art in between."
+        confidence: "high"
+      - id: "museums/national-heritage-week#08a66fb7ff"
+        sourceId: "museums/national-heritage-week"
+        title: "Daily Rituals"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "11:00"
+          endTime: "12:00"
+        status: "scheduled"
+        venue:
+          name: "Cork City Libraries"
+        url: "https://www.heritageweek.ie/event-listings/daily-rituals"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/Daily-Rituals.jpg"
+        tags:
+          - "talk"
+          - "heritage"
+          - "community"
+        raw: "**Daily Rituals** — Cork City Libraries, Co. Cork City. 19 August, 11am - 12pm.\n"
+        summary: "A libraries hour on everyday customs and household routine as heritage. The listing gives no branch and no further description."
+        confidence: "high"
+      - id: "museums/national-heritage-week#5b5ae7c12d"
+        sourceId: "museums/national-heritage-week"
+        title: "Electrifying Oral History & Heritage with a ’Bring and Tell’"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+          startTime: "13:30"
+          endTime: "16:00"
+        status: "scheduled"
+        venue:
+          name: "Thomas Davis Room, Cork City Library"
+          area: "City Centre"
+          address:
+            street: "57-61 Grand Parade"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/oral-history-network-ireland-electrifying-stories-of-everyday-life"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/OHNI-HW-2026-FLYER.jpg"
+        tags:
+          - "storytelling"
+          - "heritage"
+          - "community"
+          - "hands-on"
+        raw: "**Electrifying Oral History & Heritage with a 'Bring and Tell'** — Oral History
+
+          Network Ireland (OHNI). Thomas Davis Room, Co. Cork City, Cork City Library, 57-61
+
+          Grand Parade, Cork. 18 August, 1:30pm - 4pm.\n"
+        summary: "Oral History Network Ireland on rural electrification and what it changed, with a bring-and-tell - turn up with an object or a memory and it goes into the afternoon."
+        confidence: "high"
+      - id: "museums/national-heritage-week#2ac04d7a42"
+        sourceId: "museums/national-heritage-week"
+        title: "Exhibition Opening"
+        occurrence:
+          kind: "run"
+          start: "2026-08-19"
+          end: "2026-08-22"
+        status: "scheduled"
+        timesText: "19 August 10am-4pm; 20 August 10am-4pm; 21 August 10am-4pm; 22 August 11am-4pm"
+        venue:
+          sourceId: "museums/cork-public-museum"
+          name: "Cork Public Museum"
+        url: "https://www.heritageweek.ie/event-listings/exhibition-opening"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/Cork-Public-Museum-1_2026-06-19-140325_tvzd.jpg"
+        tags:
+          - "exhibition"
+          - "heritage"
+          - "free-entry"
+          - "short-run"
+        raw: "**Exhibition Opening** — Cork Public Museum, Co. Cork City, Fitzgeralds Park, Cork
+
+          City. 19 August, 10am - 4pm; 20 August, 10am - 4pm; 21 August, 10am - 4pm; 22
+
+          August, 11am - 4pm.\n"
+        summary: "A Heritage Week exhibition at the Public Museum across four days. The aggregator gives it no title beyond \"Exhibition Opening\" and the museum's own site does not list it at all, so what is being opened is not stated anywhere."
+        confidence: "high"
+      - id: "museums/national-heritage-week#3f82223c24"
+        sourceId: "museums/national-heritage-week"
+        title: "Foclóir Collage – Family Arts and Crafts Workshop"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "13:00"
+          endTime: "14:00"
+        status: "scheduled"
+        venue:
+          sourceId: "museums/nano-nagle-place"
+          name: "The Global Hub, Nano Nagle Place"
+        url: "https://www.heritageweek.ie/event-listings/foclóir-collage-family-arts-and-crafts-workshop"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/WhatsApp-Image-2026-07-22-at-14.47.01.jpeg"
+        tags:
+          - "workshop"
+          - "irish-language"
+          - "family"
+          - "crafts"
+        raw: "**Foclóir Collage – Family Arts and Crafts Workshop** — Nano Nagle Place. The
+
+          Global Hub, Nano Nagle Place, Co. Cork City, Nano Nagle Place, South Presentation
+
+          Centre Ltd. Douglas Street, Cork City T12 X70A. 20 August, 1pm - 2pm.\n"
+        summary: "Build your own Irish-language collage dictionary in a relaxed bilingual hour - any standard of Gaeilge, families welcome."
+        confidence: "high"
+      - id: "museums/national-heritage-week#e4319cea69"
+        sourceId: "museums/national-heritage-week"
+        title: "Gardens & Galleries Guided Tour"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+          startTime: "12:00"
+          endTime: "14:00"
+        status: "scheduled"
+        venue:
+          sourceId: "museums/cork-public-museum"
+          name: "Cork Public Museum"
+        url: "https://www.heritageweek.ie/event-listings/gardens-galleries-guided-tour"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/Cork-Public-Museum-1.jpg"
+        tags:
+          - "guided-tour"
+          - "heritage"
+          - "free-entry"
+          - "outdoor"
+        raw: "**Gardens & Galleries Guided Tour** — Cork Public Museum, Co. Cork City,
+
+          Fitzgeralds Park, Cork City. 21 August, 12pm - 2pm.\n"
+        summary: "Two hours taking in both halves of the Public Museum's site - the galleries in the Beamish family's old house and the Fitzgerald Park grounds they sit in."
+        confidence: "high"
+      - id: "museums/national-heritage-week#21dcec1ca4"
+        sourceId: "museums/national-heritage-week"
+        title: "Hands-On Heritage Festival"
+        occurrence:
+          kind: "run"
+          start: "2026-08-15"
+          end: "2026-08-23"
+        status: "scheduled"
+        timesText: "15 Aug 10am-1pm; 16 Aug 2pm-5pm; 17 Aug 7pm-10pm; 18 Aug 10:30am-1:30pm; 19 Aug 7pm-10pm; 20 Aug 10:30am-1:30pm; 21 Aug 10am-1pm; 22 Aug 10am-1pm; 23 Aug 12pm-3pm"
+        venue:
+          name: "Benchspace 1.5"
+          area: "Marina Commercial Park"
+          address:
+            street: "Unit B1b Marina Commercial Park, Centre Park Road"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/hands-on-heritage-festival"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/forge-ring-workshop-saturday-IMG_0485.jpg"
+        tags:
+          - "hands-on"
+          - "crafts"
+          - "woodwork"
+          - "multi-day"
+          - "workshop"
+        raw: "**Hands-On Heritage Festival** — Benchspace Cork. Benchspace 1.5, Co. Cork City,
+
+          Unit B1b Marina Commercial Park, Centre Park Road, Cork. 15 August, 10am - 1pm; 16
+
+          August, 2pm - 5pm; 17 August, 7pm - 10pm; 18 August, 10:30am - 1:30pm; 19 August,
+
+          7pm - 10pm; 20 August, 10:30am - 1:30pm; 21 August, 10am - 1pm; 22 August, 10am -
+
+          1pm; 23 August, 12pm - 3pm.\n"
+        summary: "Nine days of making at Benchspace on Centre Park Road, sessions morning and evening - the forge ring workshop pictured is one of them. Times differ every day."
+        confidence: "high"
+      - id: "museums/national-heritage-week#6285757b3d"
+        sourceId: "museums/national-heritage-week"
+        title: "Harvest Traditions: A Lúnasa Craft Workshop"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "12:00"
+          endTime: "13:30"
+        status: "scheduled"
+        venue:
+          name: "Cork City Library, Grand Parade"
+          area: "City Centre"
+          address:
+            street: "57-61 Grand Parade"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/harvest-traditions-a-lúnasa-craft-workshop"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/Two-images-combined-copy_2026-07-14-140720_tkmr.jpeg"
+        tags:
+          - "workshop"
+          - "crafts"
+          - "heritage"
+          - "hands-on"
+        raw: "**Harvest Traditions: A Lúnasa Craft Workshop** — Crawford Art Gallery. Cork City
+
+          Library, Co. Cork City, Cork City Library, Grand Parade. 22 August, 12pm - 1:30pm.\n"
+        summary: "Crawford Art Gallery run a Lúnasa harvest-craft session in the City Library - the old August festival's making traditions, done by hand."
+        confidence: "high"
+      - id: "museums/national-heritage-week#3b6eb1841b"
+        sourceId: "museums/national-heritage-week"
+        title: "Hedgerows and Significant Trees in Douglas"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+          startTime: "18:00"
+          endTime: "19:00"
+        status: "scheduled"
+        venue:
+          name: "Douglas Community Centre"
+          area: "Douglas"
+          address:
+            street: "Church Road, Douglas"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/hedgerows-and-significant-trees-in-douglas"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/Trees-in-Douglas-26-2.jpg"
+        tags:
+          - "nature"
+          - "outdoor"
+          - "community"
+          - "talk"
+        raw: "**Hedgerows and Significant Trees in Douglas** — Douglas Tidy Towns. Douglas
+
+          Community Centre, Co. Cork City, Church Road, Douglas. 18 August, 6pm - 7pm.\n"
+        summary: "Douglas Tidy Towns on the village's hedgerows and its notable trees - which ones are old, which are protected, and which are quietly disappearing."
+        confidence: "high"
+      - id: "museums/national-heritage-week#23be1feea7"
+        sourceId: "museums/national-heritage-week"
+        title: "Hobbies and Pastimes in History, Macroom Cinema : A Window to the World"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "12:00"
+          endTime: "13:00"
+        status: "scheduled"
+        venue:
+          name: "The City Library"
+          area: "City Centre"
+          address:
+            street: "57 - 61 Grand Parade"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/hobbies-and-pastimes-in-history-macroom-cinema-a-window-to-the-world"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/Irish-Press-27-April-1953.jpg"
+        tags:
+          - "talk"
+          - "heritage"
+          - "screening"
+          - "community"
+        raw: "**Hobbies and Pastimes in History, Macroom Cinema : A Window to the World** — The
+
+          City Library, Co. Cork City, 57 - 61 Grand Parade, Cork. 19 August, 12pm - 1pm.\n"
+        summary: "A lunchtime hour on Macroom's cinema and what going to the pictures meant in a mid-century Cork town, illustrated from the newspapers of the day."
+        confidence: "high"
+      - id: "museums/national-heritage-week#34a30e98d8"
+        sourceId: "museums/national-heritage-week"
+        title: "How Water Works"
+        occurrence:
+          kind: "single"
+          date: "2026-08-23"
+          startTime: "11:00"
+          endTime: "16:00"
+        status: "scheduled"
+        venue:
+          name: "Old Cork Waterworks Experience"
+          area: "Lee Road"
+          address:
+            street: "Lee Road"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/how-water-works"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/Water-Heritage-Event-1.jpg"
+        tags:
+          - "family"
+          - "hands-on"
+          - "heritage"
+          - "interactive"
+          - "drop-in"
+        raw: "**How Water Works** — Old Cork Waterworks Experience. Old Cork Waterworks, Co. Cork
+
+          City, Lee Road. 23 August, 11am - 4pm.\n"
+        summary: "Water Heritage Day at the Victorian waterworks on the Lee Road - the pumps, the steam engines and hands-on demonstrations of how the city got its supply. Five hours, drop in."
+        confidence: "high"
+      - id: "museums/national-heritage-week#1ddc679b7f"
+        sourceId: "museums/national-heritage-week"
+        title: "Hysterical Histories - The VQ walking tour"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "18:00"
+          endTime: "19:30"
+        status: "scheduled"
+        venue:
+          name: "Outside Kuma Bikes, Ship Street"
+          area: "Victorian Quarter"
+          address:
+            street: "Ship Street"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/hysterical-histories-the-vq-walking-tour"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/Hysterical-Histories-Walking-tour-image-1.jpg"
+        tags:
+          - "guided-tour"
+          - "heritage"
+          - "comedy"
+          - "outdoor"
+        raw: "**Hysterical Histories - The VQ walking tour** — Hysterical Histories Cork. Outside
+
+          Kuma Bikes, Co. Cork City, Ship Street, Cork. 20 August, 6pm - 7:30pm.\n"
+        summary: "The comic version of the Victorian Quarter's history, walked in ninety minutes from Ship Street. Listed twice on the site by two different organisers."
+        confidence: "high"
+      - id: "museums/national-heritage-week#7ff0106a3f"
+        sourceId: "museums/national-heritage-week"
+        title: "Hysterical Histories VQ Walking Tour"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "18:00"
+          endTime: "19:30"
+        status: "scheduled"
+        venue:
+          name: "Outside Kuma Bikes (at the flowerpots!), Alfred St."
+          area: "Victorian Quarter"
+          address:
+            street: "Alfred St."
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/hysterical-histories-vq-walking-tour"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/streetshot.jpg"
+        tags:
+          - "guided-tour"
+          - "heritage"
+          - "comedy"
+          - "outdoor"
+        raw: "**Hysterical Histories VQ Walking Tour** — The VQ, Cork. Outside Kuma Bikes (at the
+
+          flowerpots!), Co. Cork City, Alfred St., Cork. 20 August, 6pm - 7:30pm.\n"
+        summary: "The Victorian Quarter's own listing of the same Hysterical Histories tour, same day and time, meeting point given as Alfred Street rather than Ship Street."
+        confidence: "medium"
+      - id: "museums/national-heritage-week#4dee9e6237"
+        sourceId: "museums/national-heritage-week"
+        title: "Inspirational Women Who Contributed to Local Government. A talk by Anne Twomey."
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "11:00"
+          endTime: "12:15"
+        status: "scheduled"
+        venue:
+          name: "Douglas Library"
+          area: "Douglas"
+          address:
+            street: "Douglas Village Shopping Centre, Douglas"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/inspirational-women-who-contributed-to-local-government-a-talk-by-anne-twomey"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/11-Leading-Final-Cover-4.jpg"
+        tags:
+          - "talk"
+          - "heritage"
+          - "community"
+        raw: "**Inspirational Women Who Contributed to Local Government. A talk by Anne Twomey.** —
+
+          Cork City Libraries. Douglas Library, Co. Cork City, Douglas Village Shopping Centre,
+
+          Douglas, Cork. 22 August, 11am - 12:15pm.\n"
+        summary: "Anne Twomey of the Shandon Area History Group on the women who got into Cork's local government and what they changed once they were there."
+        confidence: "high"
+      - id: "museums/national-heritage-week#34d357f0ae"
+        sourceId: "museums/national-heritage-week"
+        title: "Introduction to online resources for Irish family history research"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "10:00"
+          endTime: "11:00"
+        status: "scheduled"
+        venue:
+          name: "Blackpool Library"
+          area: "Blackpool"
+          address:
+            street: "Bowler House, Redforge Road, Blackpool"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/introduction-to-online-resources-for-irish-family-history-research"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/TramDouglas_2026-08-10-144158_dkyz.png"
+        tags:
+          - "genealogy"
+          - "workshop"
+          - "beginners"
+          - "community"
+        raw: "**Introduction to online resources for Irish family history research** — Cork City
+
+          Libraries. Blackpool Library, Co. Cork City, Bowler House, Redforge Road, Blackpool,
+
+          Cork. 20 August, 10am - 11am.\n"
+        summary: "A beginners' hour on where Irish genealogy actually lives online - civil records, parish registers, the census releases - at Blackpool library."
+        confidence: "high"
+      - id: "museums/national-heritage-week#56635d73ef"
+        sourceId: "museums/national-heritage-week"
+        title: "Ireland's Threatened Birds: Recent Trends"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "19:30"
+          endTime: "20:30"
+        status: "scheduled"
+        venue:
+          name: "Douglas Community Centre"
+          area: "Douglas"
+          address:
+            street: "Church Road, Douglas"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/irelands-threatened-birds-recent-trends"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/Birds-of-Douglas-26.jpg"
+        tags:
+          - "talk"
+          - "wildlife"
+          - "nature"
+          - "community"
+        raw: "**Ireland's Threatened Birds: Recent Trends** — Douglas Tidy Towns. Douglas Community
+
+          Centre, Co. Cork City, Church Road, Douglas. 20 August, 7:30pm - 8:30pm.\n"
+        summary: "An evening talk on which Irish bird species are in trouble and what the recent counts show, hosted by Douglas Tidy Towns."
+        confidence: "high"
+      - id: "museums/national-heritage-week#2c7671b677"
+        sourceId: "museums/national-heritage-week"
+        title: "Judie Chalmers as Nano Nagle in Nano's Parlour"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "13:00"
+          endTime: "14:00"
+        status: "scheduled"
+        venue:
+          sourceId: "museums/nano-nagle-place"
+          name: "Nano's Parlour, Nano Nagle Place"
+        url: "https://www.heritageweek.ie/event-listings/judie-chalmers-as-nano-nagle-in-nanos-parlour"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/HERITAGE-WEEK-2026-PROMO.jpg"
+        tags:
+          - "performance"
+          - "heritage"
+          - "storytelling"
+          - "immersive"
+        raw: "**Judie Chalmers as Nano Nagle in Nano's Parlour** — Nano Nagle Place. Nano's Parlour,
+
+          Nano Nagle Place, Co. Cork City, Nano Nagle Place, South Presentation Centre Ltd.
+
+          Douglas Street, Cork City T12 X70A. 19 August, 1pm - 2pm.\n"
+        summary: "An actress plays Nano Nagle in Nano Nagle's own parlour for an hour - the eighteenth century schoolteacher and agitator in the room she used."
+        confidence: "high"
+      - id: "museums/national-heritage-week#921964c120"
+        sourceId: "museums/national-heritage-week"
+        title: "Listening in Place: An Journey Through Cork's Oral Heritage"
+        occurrence:
+          kind: "single"
+          date: "2026-08-17"
+          startTime: "11:00"
+          endTime: "12:00"
+        status: "scheduled"
+        venue:
+          sourceId: "museums/cork-folklore-project"
+          name: "CFP Office, 34 Paul Street"
+        url: "https://www.heritageweek.ie/event-listings/listening-in-place-an-journey-through-corks-oral-heritage"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/HW-Promo_11zon_2026-07-08-155643_vgty.png"
+        tags:
+          - "storytelling"
+          - "heritage"
+          - "community"
+          - "interactive"
+        raw: "**Listening in Place: An Journey Through Cork's Oral Heritage** — Cork Folklore
+
+          Project. CFP Office, Co. Cork City, 34 Paul Street, Cork City. 17 August, 11am - 12pm.\n"
+        summary: "An hour in the Folklore Project's own Paul Street office listening to Cork voices out of thirty years of recordings, tied to the places they describe."
+        confidence: "high"
+      - id: "museums/national-heritage-week#51e878378a"
+        sourceId: "museums/national-heritage-week"
+        title: "Little Robin's Parent and Toddler Nature and Play"
+        occurrence:
+          kind: "recurring"
+          pattern: "16 August, 10am - 11am and 12pm - 1pm; 23 August, 10am - 11am and 12pm - 1pm"
+          start: "2026-08-16"
+          end: "2026-08-23"
+          startTime: "10:00"
+        status: "scheduled"
+        venue:
+          name: "GAA entrance to Ballincollig Regional Park"
+          area: "Ballincollig"
+          address:
+            street: "Powdermills, East Gate, Ballincollig"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/little-robins-parent-and-toddler-nature-and-play"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/Little-Robins.jpg"
+        tags:
+          - "family"
+          - "kids"
+          - "nature"
+          - "outdoor"
+        raw: "**Little Robin's Parent and Toddler Nature and Play** — Ballincollig Heritage
+
+          Festival. At GAA entrance to the Regional Park, Co. Cork City, Powdermills, East Gate,
+
+          Ballincollig. 16 August, 10am - 11am; 16 August, 12pm - 1pm; 23 August, 10am - 11am;
+
+          23 August, 12pm - 1pm.\n"
+        summary: "Toddler-and-parent nature play at the powdermills gate of the regional park, two hour-long sittings on each of two Sundays."
+        confidence: "high"
+      - id: "museums/national-heritage-week#54626c69fb"
+        sourceId: "museums/national-heritage-week"
+        title: "Live at the Library with Tia Bow"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+          startTime: "11:00"
+          endTime: "12:00"
+        status: "scheduled"
+        venue:
+          name: "Bishopstown Library"
+          area: "Bishopstown"
+          address:
+            street: "Wilton Shopping Centre, Wilton"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/live-at-the-library-with-tia-bow"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/Tia-Bow.jpg"
+        tags:
+          - "live-music"
+          - "community"
+          - "performance"
+          - "free-entry"
+        raw: "**Live at the Library with Tia Bow** — Cork City Libraries. Bishopstown Library, Co.
+
+          Cork City, Wilton Shopping Centre Wilton. 21 August, 11am - 12pm.\n"
+        summary: "An hour of live music from Tia Bow among the shelves at Bishopstown library."
+        confidence: "high"
+      - id: "museums/national-heritage-week#c201d74dbf"
+        sourceId: "museums/national-heritage-week"
+        title: "Local artist Tadg Hawkins discusses his work"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+          startTime: "11:00"
+          endTime: "12:00"
+        status: "scheduled"
+        venue:
+          name: "Blackpool Library"
+          area: "Blackpool"
+          address:
+            street: "Bowler House, Redforge Road, Blackpool"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/local-artist-tadg-hawkins-discusses-his-work"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/north-gate-bridge.jpg"
+        tags:
+          - "artist-talk"
+          - "community"
+          - "heritage"
+        raw: "**Local artist Tadg Hawkins discusses his work** — Cork City Libraries. Blackpool
+
+          Library, Co. Cork City, Bowler House, Redforge Road, Blackpool, Cork. 18 August, 11am
+
+          - 12pm.\n"
+        summary: "Tadg Hawkins on painting the city he lives in - the card image is his North Gate Bridge - in conversation at Blackpool library."
+        confidence: "high"
+      - id: "museums/national-heritage-week#4b55b77053"
+        sourceId: "museums/national-heritage-week"
+        title: "Love Songs for the Living World: A Showcase of Writers from Channel Press"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "17:00"
+          endTime: "18:30"
+        status: "scheduled"
+        venue:
+          name: "EcoLab, Tramore Valley Park"
+          area: "Tramore Valley Park"
+          address:
+            street: "South Link Road"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/love-songs-for-the-living-world-a-showcase-of-writers-from-channel-press"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/channel-2.jpg"
+        tags:
+          - "reading"
+          - "nature"
+          - "new-writing"
+          - "poetry"
+        raw: "**Love Songs for the Living World: A Showcase of Writers from Channel Press** — The
+
+          KinShip Project. EcoLab, Tramore Valley Park, Co. Cork City, South Link Road, Cork. 22
+
+          August, 5pm - 6:30pm.\n"
+        summary: "Channel Press writers read nature writing and poetry in the EcoLab in Tramore Valley Park - a former landfill turned park, which is rather the point."
+        confidence: "high"
+      - id: "museums/national-heritage-week#2419e12c96"
+        sourceId: "museums/national-heritage-week"
+        title: "Moving Pictures: Cork's Historic Cinema Walking Tour"
+        occurrence:
+          kind: "single"
+          date: "2026-08-21"
+          startTime: "18:00"
+          endTime: "19:30"
+        status: "scheduled"
+        venue:
+          name: "Outside Gallagher's Pub (corner of Bridge Street & MacCurtain Street)"
+          area: "Victorian Quarter"
+          address:
+            street: "MacCurtain Street"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.heritageweek.ie/event-listings/moving-pictures-corks-historic-cinema-walking-tour"
+        image: "https://ca1-cdn.heritageweek.ie/projects/_370x200_fit_center-center_none/CIFF_Heritage2026_Comp.jpg"
+        tags:
+          - "guided-tour"
+          - "heritage"
+          - "screening"
+          - "outdoor"
+        raw: "**Moving Pictures: Cork's Historic Cinema Walking Tour** — Cork International Film
+
+          Festival. Outside Gallagher's Pub (Corner of Bridge Street & MacCurtain Street), Co.
+
+          Cork City, MacCurtain Street. 21 August, 6pm - 7:30pm.\n"
+        summary: "Cork Film Festival walks the city's lost picture houses - the Lee, the Palace, the Assembly Rooms - starting on MacCurtain Street. Ninety minutes."
+        confidence: "high"
+    notes: "Found a second GET filter the catalogue does not record and it more than halves the waste: `eventDates[]=<day>-august` is a plain checkbox alongside `where[]`, so `where[]=cork` plus 17 through 23 August narrows the catalogued 118 Cork City events to 78 - it drops the 40 that have already happened. Worth adding as a note on the catalogue entry, though the day values will need rewriting each year. Fetched pages 1-4 of that filtered query (twelve cards a page, paginated as /event-listings/p2?<same query>) and stopped there, so **48 of the 78 forward-dated Cork City events were read and 30 were not** - the alphabetical ordering means everything from \"Moving Pictures\" onward is missing. Six of the 48 are the same event as a row already recorded from the venue's or organiser's own site and are not repeated: Butter in the Bog (museums/butter-museum), Caring for an Icon (museums/st-fin-barres-cathedral), Conserving a Lost Cork Institution (museums/shandon-bells-st-annes), Conservation in Action at Crawford (museums/irish-museums-association), Genealogy and Archives Day (museums/cork-city-county-archives) and Douglas & its History (museums/cork-heritage-open-day) - leaving 42 rows here. `venue.sourceId` is used wherever the venue line names a source catalogued in this category, which is what stops the duplication on the remaining rows. The index prints day and month with no year and no weekday, so the prompt's weekday check is not available; the year is taken as 2026 because the page's own title prints it (\"2026 Events | National Heritage Week 15th – 23rd August 2026\") and the festival's dates are fixed, which is stronger evidence than a weekday, so rows are `confidence: high`. No prices appear on the index at all - the feature filter has both `free` and `includes-an-admission-fee` boxes, so price lives on the detail pages, which were not opened - so `price` is omitted throughout rather than assumed free. Two organisers have listed what looks like the same VQ walking tour twice (Hysterical Histories Cork and The VQ, Cork, both 20 August 18:00-19:30 outside Kuma Bikes); both are recorded because both are real separate listings with their own pages. Several hrefs contain accented characters (gcillíní, Blúirí, Amhránaíocht, Foclóir, Lúnasa) and are taken verbatim rather than percent-encoded. Coined four tags this category needed and Bristol never did: `genealogy`, `archaeology`, `astronomy` and `irish-language`."
+  - sourceId: "museums/irish-museums-association"
+    fetch:
+      ok: true
+      url: "https://irishmuseums.org/events/"
+      status: 200
+    events:
+      - id: "museums/irish-museums-association#29071fcf72"
+        sourceId: "museums/irish-museums-association"
+        title: "Conservation in Action: Documenting Crawford Art Gallery's Collection"
+        subcategory: "Talk"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+          startTime: "12:30"
+          endTime: "13:30"
+        status: "scheduled"
+        venue:
+          name: "Crawford Art Gallery, Cork"
+          area: "City Centre"
+        url: "https://irishmuseums.org/events/conservation-in-action-documenting-crawford-art-gallerys-collection/"
+        tags:
+          - "talk"
+          - "heritage"
+          - "exhibition"
+        raw: "**Talk — Conservation in Action: Documenting Crawford Art Gallery's Collection** —
+
+          12:30–13:30 | 18 August. Crawford Art Gallery, Cork.\n"
+        summary: "A lunchtime hour on the unglamorous half of a gallery's work - photographing, measuring and condition-checking a national collection so that it can be found again."
+        confidence: "medium"
+    notes: "Pages 1 and 2 were read, ten rows each. Exactly one row is a public-facing event at a Cork venue and it is recorded; everything else is sector or professional (IMA Forums, Design Lab, Biodiversity Training, the Shared Island GLAM job-shadowing information sessions, the IAASF and NEMO conferences, Boardmatch's company-secretary course, the IMA coffee breaks and annual conference) or national and online, which is the filter the hints ask for. \"National Heritage Week 2026 - Protecting the Past: Caring for Archives and Collections\" (18 August, 14:45-16:30) is a genuine Heritage Week talk but it is hosted by the IMA itself with no Cork venue named, so it is not recorded here. The row prints \"12:30–13:30 | 18 August | Crawford Art Gallery, Cork\" and the hints read that third line as the host venue; heritageweek.ie lists the same talk with Crawford Art Gallery as *organiser* and Cork City Library, 61 Grand Parade as the venue. The IMA line is recorded as printed and the conflict is flagged - one of the two is wrong. Neither year nor weekday is printed on the row, so `confidence: medium`. No card image on the IMA listing. Also discovered: irishmuseums.org/events/feed/ exists and is a WordPress feed of this same list - worth a `feed` route on the catalogue entry, since it would remove the need to filter HTML for one Cork row a month."

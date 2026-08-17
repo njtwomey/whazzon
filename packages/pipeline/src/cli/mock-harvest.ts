@@ -5,6 +5,7 @@ import { eventId } from "../lib/eventId.js";
 import { writeArtefact } from "../lib/files.js";
 import { resolveLocations } from "../lib/locations.js";
 import { paths, rel } from "../lib/paths.js";
+import { primaryUrl } from "../lib/routes.js";
 import { HarvestArtefact, type Observation, type Occurrence, type WhazzonEvent } from "../schema/harvest.js";
 
 /**
@@ -418,7 +419,7 @@ for (const locationId of locations) {
         sourceId: source.id,
         fetch: {
           ok: false,
-          url: source.url,
+          url: primaryUrl(source),
           status: pick(rand, [403, 404, 500, 503]),
           error: pick(rand, ["host returned an error page", "request timed out", "blocked by bot protection"]),
         },
@@ -463,7 +464,7 @@ for (const locationId of locations) {
         status: rand() < 0.06 ? "sold-out" : "scheduled",
         timesText: occurrence.kind === "run" ? "Tue–Sat 19:30, Sat matinee 14:30" : undefined,
         venue: elsewhere ? (catalogued ? { sourceId: catalogued.id } : pick(rand, UNCATALOGUED_VENUES)) : undefined,
-        url: source.url,
+        url: primaryUrl(source),
         price: free
           ? { free: true, text: "Free entry" }
           : {
@@ -487,7 +488,7 @@ for (const locationId of locations) {
       });
     }
 
-    observations.push({ sourceId: source.id, fetch: { ok: true, url: source.url, status: 200 }, events });
+    observations.push({ sourceId: source.id, fetch: { ok: true, url: primaryUrl(source), status: 200 }, events });
     eventTotal += events.length;
   }
 

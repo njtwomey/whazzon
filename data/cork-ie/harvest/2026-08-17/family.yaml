@@ -1,0 +1,1500 @@
+schema: "whazzon.harvest/1"
+locationId: "cork-ie"
+date: "2026-08-17"
+category: "family"
+harvestedAt: "2026-08-17T10:35:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "4"
+model: "claude-opus-5[1m]"
+observations:
+  - sourceId: "family/fota-wildlife-park"
+    fetch:
+      ok: true
+      url: "https://www.fotawildlife.ie/blogs/news.atom"
+      status: 200
+    events:
+      - id: "family/fota-wildlife-park#7d59ca08ec"
+        sourceId: "family/fota-wildlife-park"
+        title: "Wildlife Talks"
+        occurrence:
+          kind: "recurring"
+          pattern: "daily until the 23rd of August 2026"
+          end: "2026-08-23"
+        status: "scheduled"
+        timesText: "10:30 Humboldt penguins; 11:30 Asiatic lions; 12:00 Cheetah run; 13:00 Spider monkeys; 13:30 Drill monkeys; 15:00 Sumatran tiger; 15:30 Humboldt penguins; 16:00 Red pandas; 16:30 Grey seal; 17:00 Giraffe crossing"
+        url: "https://www.fotawildlife.ie/pages/wildlife-talks"
+        price:
+          free: false
+          text: "Included with your admission ticket or annual pass"
+        tags:
+          - "animals"
+          - "wildlife"
+          - "talk"
+          - "drop-in"
+        raw: "\"Enhance your visit with an engaging and educational wildlife talk
+
+          presented by our award-winning Education Team. Talks are running daily
+
+          until the 23rd of August 2026 and are included with your admission
+
+          ticket or annual pass.\"\n"
+        summary: "A ten-talk daily timetable given by the park's education team, one species at a time from the penguins at 10:30 to the giraffe crossing at 17:00, included with admission. Running until 23 August."
+        description: "\"Enhance your visit with an engaging and educational wildlife talk
+
+          presented by our award-winning Education Team. Talks are running daily
+
+          until the 23rd of August 2026 and are included with your admission
+
+          ticket or annual pass.\"
+
+
+          - 10:30 – Humboldt penguins
+
+          - 11:30 – Asiatic lions
+
+          - 12:00 – Cheetah run
+
+          - 13:00 – Spider monkeys
+
+          - 13:30 – Drill monkeys
+
+          - 15:00 – Sumatran tiger
+
+          - 15:30 – Humboldt penguins
+
+          - 16:00 – Red pandas
+
+          - 16:30 – Grey seal
+
+          - 17:00 – Giraffe crossing
+
+
+          Fota Wildlife Park is open daily from 9.30 am.\n"
+        confidence: "high"
+      - id: "family/fota-wildlife-park#67d66687ac"
+        sourceId: "family/fota-wildlife-park"
+        title: "Daily Feeding Times"
+        occurrence:
+          kind: "recurring"
+          pattern: "Running Daily from March 14th – Sunday 8th November"
+          start: "2026-03-14"
+          end: "2026-11-08"
+        status: "scheduled"
+        timesText: "10:30 Humboldt Penguins; 12:00 Cheetah Run; 13:00 Spider Monkeys; 13:30 Drill Monkeys; 15:30 Humboldt Penguins; 16:00 Red Panda; 17:00 Giraffe Crossing"
+        url: "https://www.fotawildlife.ie/pages/feeding-times"
+        price:
+          free: false
+          text: "Included with entry/admission/annual pass"
+        tags:
+          - "animals"
+          - "wildlife"
+          - "kids"
+          - "drop-in"
+        raw: "\"**Daily Feeding Times** — Running Daily from March 14th – Sunday 8th
+
+          November\\* … Included with entry/admission/annual pass. Don't miss the
+
+          chance to see some of your favourite animals at feeding time.\"
+
+
+          \\*\"all animal feeding times are subject to change/weather-dependent.\"\n"
+        summary: "Seven keeper feeds a day across the park, from the penguins at 10:30 to the giraffe crossing at 17:00, free with admission and running to the second Sunday in November."
+        description: "\"**Daily Feeding Times** — Running Daily from March 14th – Sunday 8th
+
+          November\\*. Included with entry/admission/annual pass.\"
+
+
+          \"Don't miss the chance to see some of your favourite animals at
+
+          feeding time:\"
+
+
+          - 10:30 – Humboldt Penguins
+
+          - 12:00 – Cheetah Run
+
+          - 13:00 – Spider Monkeys
+
+          - 13:30 – Drill Monkeys
+
+          - 15:30 – Humboldt Penguins
+
+          - 16:00 – Red Panda
+
+          - 17:00 – Giraffe Crossing
+
+
+          \"\\*all animal feeding times are subject to change/weather-dependent.\"\n"
+        confidence: "high"
+      - id: "family/fota-wildlife-park#ad49577268"
+        sourceId: "family/fota-wildlife-park"
+        title: "Panoramic Wheel"
+        occurrence:
+          kind: "ongoing"
+          start: "2026-03-14"
+        status: "scheduled"
+        url: "https://www.fotawildlife.ie/blogs/news/schools-out-summers-here-the-views-are-wild"
+        price:
+          free: false
+          text: "prices starting at €5 per person"
+          min: 5
+          currency: "EUR"
+        tags:
+          - "outdoor"
+          - "family"
+          - "seasonal"
+        raw: "\"Visitors to Fota Wildlife Park have a final opportunity to experience
+
+          the Panoramic Wheel this summer. Due to popular demand, the wheel will
+
+          remain at the Park until it takes its final turn in September.\"
+
+
+          \"Soaring 35 metres high above the Park, the wheel offers a unique
+
+          opportunity to experience Fota Wildlife Park from above… The
+
+          experience is optional and ticketed, with prices starting at €5 per
+
+          person, available from a dedicated ticket booth within the Wildlife
+
+          Park.\"\n"
+        summary: "A 35-metre ferris wheel inside the park giving aerial views over the savannah, the cheetah run and Cork Harbour. Optional and separately ticketed from €5; the park says it takes its final turn in September."
+        description: "\"Visitors to Fota Wildlife Park have a final opportunity to experience
+
+          the Panoramic Wheel this summer. Due to popular demand, the wheel will
+
+          remain at the Park until it takes its final turn in September.\"
+
+
+          \"The Panoramic Wheel offers spectacular views across the wildlife
+
+          habitats in the 100-acre Park and the surrounding heritage landscapes.
+
+          Visitors to Fota Wildlife Park are encouraged to make the most of the
+
+          summer holidays and experience the attraction before it departs.\"
+
+
+          \"Soaring 35 metres high above the Park, the wheel offers a unique
+
+          opportunity to experience Fota Wildlife Park from above. Visitors can
+
+          take in breathtaking views of some of the Park's most iconic
+
+          residents, including giraffes, bison, zebras, meerkats and
+
+          free-roaming wallabies and kangaroos. Aerial views include the famous
+
+          cheetah run and the sweeping savannah, with stunning vistas across
+
+          Cork Harbour, Great Island, Little Island and Fota Island.\"
+
+
+          \"The Panoramic Wheel is operated by an external provider with over 25
+
+          years industry experience… The experience is optional and ticketed,
+
+          with prices starting at €5 per person, available from a dedicated
+
+          ticket booth within the Wildlife Park.\"
+
+
+          Launched on 14 March 2026, per the earlier announcement post.\n"
+        confidence: "medium"
+    notes: "Read the Atom feed as the catalogue advises: 30 entries, each with the full body text, and it is the only diary the park has (/whats-on/ and /pages/events still 404). Almost all of it is animal-birth and conservation news rather than events. The three dated 2026 items in the feed have all passed and are not recorded: International Tiger Day (29 July), and the three summer Educational Weekends announced in the 7 July post — Wild Science Weekend (11 & 12 July), Native Species Weekend with bird-ringing demonstrations (25 & 26 July) and Bug Bonanza Weekend (15 & 16 August, two days ago). Nothing for Halloween 2026 has been announced yet; the equivalent 2025 post appeared on 11 September, so the October run should catch it. Two further fetches to /pages/wildlife-talks and /pages/feeding-times gave the standing daily timetable, which is the only forward-dated programme the park publishes — recorded as two recurring events per the catalogue hint. Both those pages print a real end date, so they will retire themselves."
+  - sourceId: "family/old-cork-waterworks"
+    fetch:
+      ok: true
+      url: "https://www.corkcity.ie/en/old-cork-waterworks-experience/events/"
+      status: 200
+    events:
+      - id: "family/old-cork-waterworks#791e36e6c5"
+        sourceId: "family/old-cork-waterworks"
+        title: "How Water Works ?"
+        subcategory: "Family Friendly, Learning"
+        occurrence:
+          kind: "single"
+          date: "2026-08-23"
+          startTime: "11:00"
+          endTime: "16:00"
+        status: "scheduled"
+        url: "https://www.corkcity.ie/en/old-cork-waterworks-experience/events/how-water-works/"
+        image: "https://www.corkcity.ie/media/icmjkwt1/water_thumbnail.jpg?width=870&height=490&v=1dd1b5b399edf70"
+        price:
+          free: false
+          text: "Included in the price of admission"
+        tags:
+          - "science"
+          - "hands-on"
+          - "kids"
+          - "drop-in"
+          - "heritage"
+        raw: "\"For Water Heritage Day 2026, families and visitors to Old Cork
+
+          Waterworks are invited to learn all about the science of water as you
+
+          marvel at the built heritage at the only Victorian Waterworks in
+
+          Ireland. This drop-in style workshop is included in the price of
+
+          admission.\" 23rd August, 11:00 – 16:00.\n"
+        summary: "A drop-in water-science workshop for Water Heritage Day at the Victorian waterworks on the Lee Road: build a working filter, experiment with the properties of water and meet the creatures that live in it. Included with admission."
+        description: "\"For Water Heritage Day 2026, families and visitors to Old Cork
+
+          Waterworks are invited to learn all about the science of water as you
+
+          marvel at the built heritage at the only Victorian Waterworks in
+
+          Ireland. This drop-in style workshop is included in the price of
+
+          admission.\"
+
+
+          \"Experiment with different properties of water and discover how it
+
+          behaves, build your own working water filter, and learn about some of
+
+          the creatures that call our waters home.\"
+
+
+          \"Celebrate our rich heritage and explore this iconic landmark of the
+
+          city's skyline. Discover Cork City's challenge and solution to provide
+
+          fresh, clean drinking water to an ever-growing population from as far
+
+          back as the 1700's.\"
+
+
+          \"All activities for Water Heritage Open Day are included with general
+
+          admission.\"
+
+
+          \"Water Heritage Day is held in partnership with the Local Authority
+
+          Waters Programme. As an island nation, our history and our heritage
+
+          have been shaped by the sea and the great Irish rivers, lakes and
+
+          wetlands. Water Heritage Day celebrates water throughout Ireland, its
+
+          history and heritage and our connections with it.\"\n"
+        confidence: "high"
+    notes: "The events index is filtered to upcoming items and today lists exactly one event. The twelve /events/<slug>/ pages the catalogue counted are all still linked from the site navigation, but eleven have passed: Victorian Classroom for Cork Heritage Open Day (15 August, two days ago, opened to check), Make a Model Boat, Cork City Citizen Science Workshop, Children's Creative Writing Workshop, Meet The Engineers Family Open Day, Easter Egg Challenge and the Easter (7 & 8 April) and February midterm (19 & 20 February) camps. None recorded, since a past date belongs to the pipeline's retirement logic rather than to this run.
+
+      Correction for the catalogue: the hint says \"How Water Works?\" and \"Summer Science Camp\" carry no date, but the index card and the event page both print 23 August, 11:00–16:00 for \"How Water Works?\" — the undated impression comes from the navigation list, which prints titles only. Opened two event pages for descriptions."
+  - sourceId: "family/piccolo-play-village"
+    fetch:
+      ok: true
+      url: "https://piccoloplayvillage.ie/wp-json/tribe/events/v1/events"
+      status: 200
+    events: []
+    notes: "Took the api route. It answered with valid JSON and `\"total\":0, \"total_pages\":0` for the window 2026-08-17 to 2028-08-17, so the whole forward diary is genuinely empty. Confirmed against the listings route (https://piccoloplayvillage.ie/events/, also 200), which prints \"0 events found\" and \"There are no upcoming events.\" A browser user-agent was needed for both, as the catalogue records. This is the expected result for a venue whose offer is booked play sessions rather than events — not a failure. Third-party classes at this venue do surface elsewhere: Mini Melodies at Piccolo Play Village on 19 August is recorded under family/eventbrite-cork-family with venue.sourceId pointing here. The listings page also advertises .ics and Google Calendar subscription links from The Events Calendar plugin, which would be an `ics` route worth adding to the catalogue if the diary ever fills up."
+  - sourceId: "family/little-rebels-softplay"
+    fetch:
+      ok: true
+      url: "https://littlerebels.ie/"
+      status: 200
+    events: []
+    notes: "Site is live and reached in one fetch; there is nothing dated on it, as the catalogue predicts. The homepage carries the play offer (babies to age eleven), the party packages and a price list — \"Kids – Four to Ten Years: €11.00 per child, Toddlers – Under Four: €9.00 per child, Concessions: €7.50\" — plus a note that peak sessions reach capacity and should be pre-booked. No holiday camps or closures announced. A successful fetch that lists nothing, not a failure."
+  - sourceId: "family/monkey-maze"
+    fetch:
+      ok: true
+      url: "https://www.monkeymaze.ie/"
+      status: 200
+    events: []
+    notes: "Live, and confirms the catalogue: no dated programme anywhere on the site. The only current notice is operational — \"Our opening hours are Friday to Monday inclusive going forward. Booking is not required for play, strictly 2 hour duration… we have a height restriction of 144cm/4ft 9inches\" — and the site's own opening line is 10am–5pm, last admission 3pm, Friday to Monday. Nothing to extract."
+  - sourceId: "family/the-planet-cork"
+    fetch:
+      ok: true
+      url: "https://theplanet.ie/cork/"
+      status: 200
+    events: []
+    notes: "Read the Cork page rather than the group site, per the hint. Nothing date-shaped on it: activities, party packages, a food menu and opening hours (Mon–Sat 11:00–22:00, Sun 11:00–21:00, bank holidays 11:00–22:00). One note for whoever fetches this next — the server only returns readable HTML when the request advertises gzip/brotli; without `--compressed` curl hands back an undecoded body that looks like binary rather than a 200 page."
+  - sourceId: "family/airtastic-cork"
+    fetch:
+      ok: true
+      url: "https://air-tastic.com/locations/cork"
+      status: 200
+    events: []
+    notes: "Reached in one fetch and, as catalogued, there is no diary — only activities, prices and opening hours. Two things on the page are recurring-shaped but are opening-hours variants rather than published events, so nothing is recorded and they are flagged here instead for a human to decide: \"Sunday (Quiet Air) 9:30am – 10:30am\", which reads like a quiet/relaxed session ahead of general opening, and \"Awesome Thursdays\", a discounted Thursday-during-term-time rate. Term-time and holidays/schools-out hours differ, which will matter from late August."
+  - sourceId: "family/cruinniu-na-nog"
+    fetch:
+      ok: true
+      url: "https://www.corkcity.ie/en/cruinniu-na-nog/event-details/"
+      status: 200
+    events: []
+    notes: "Reached, and it is the rich listing the catalogue describes — 39 event pages with times, venues and age ranges. But every one of them belongs to the 2026 edition, which the parent page dates unambiguously to 06 June 2026 (a Saturday), so the whole list has passed. The event pages carry a time of day and no date at all, because everything happens on the single day. Nothing recorded: an undated occurrence would be wrong (these have a date, it is simply behind us) and recording 39 finished events adds nothing to the site. One page even carries the day's weather note — Circus Céilí: \"NOTE: DUE TO HIGH WINDS THIS EVENT HAS BEEN MOVED TO CIRCUS FACTORY T12X856\" — which puts the edition firmly in the past. Expect this page to stay a shell of the 2026 programme until the 2027 edition is built, around April–June, and note for stage 1 that the date lives on /en/cruinniu-na-nog/ rather than on /event-details/."
+  - sourceId: "family/cork-puppetry-festival"
+    fetch:
+      ok: false
+      url: "https://corkpuppetryfestival.com/"
+      status: 522
+      error: "Cloudflare 522 (connection timed out to origin); body is the bare string \"error code: 522\". Retried with a browser user-agent, which made no difference."
+    events: []
+    notes: "Same failure the catalogue recorded this morning, so the origin has been down all day rather than momentarily. Nothing could be read, and no events are attached. /performances/ was not retried separately because the 522 is at the edge and answers identically for every path. A human still needs to establish whether the 2026 edition happened — the festival normally runs late July into early August, which is now behind us, so if the site comes back the programme on it may already be historic."
+  - sourceId: "family/circus-factory-cork"
+    fetch:
+      ok: false
+      url: "https://circusfactorycork.com/for-kids/"
+      status: 202
+      error: "Bot wall: HTTP 202 whose entire body is a captcha meta-refresh to /.well-known/sgcaptcha/. Tried a browser user-agent, an Accept: text/html header and a cookie jar across two requests; the wall answered identically every time."
+    events: []
+    notes: "Confirms the catalogue's assessment — the wall needs JavaScript, not just a plausible user-agent, so this source cannot be harvested by fetch at all. Nothing read and nothing recorded, which is a real loss for this category: the termly youth programme (Thursday Youth Circus 7–11, Circus Gymnastics 8+, Saturday Rebel Circus 10–17) and the monthly \"Cork Circus Guide\" posts are exactly the sort of thing family should carry, and the guides list other organisations' circus events across the city too. Worth a human deciding whether to source this from their social channels instead. One sighting from elsewhere: Cork City Council's Cruinniú na nÓg page records that Circus Céilí was relocated to the Circus Factory at T12 X856, which is the only address for the venue seen anywhere today."
+  - sourceId: "family/cork-community-art-link"
+    fetch:
+      ok: true
+      url: "https://corkcommunityartlink.com/"
+      status: 200
+    events:
+      - id: "family/cork-community-art-link#66db87fed0"
+        sourceId: "family/cork-community-art-link"
+        title: "Blackpool Block Party"
+        occurrence:
+          kind: "single"
+          date: "2026-08-23"
+        status: "scheduled"
+        venue:
+          name: "Great William O'Brien Street"
+          area: "Blackpool"
+          address:
+            street: "Great William O'Brien Street"
+            locality: "Blackpool"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://corkcommunityartlink.com/blackpool-block-party-2026/"
+        image: "https://corkcommunityartlink.com/wp-content/uploads/2026/07/block-party-2026-print_page-0001.jpg"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "community"
+          - "outdoor"
+          - "free-entry"
+          - "family"
+          - "street-food"
+        raw: "\"NEXT BLOCK PARTY : SUNDAY 23rd AUGUST 2026\"
+
+
+          \"The Blackpool Block Party takes place on Sunday 23rd August on Great
+
+          William O'Brien Street, and as part of this years festivities we're
+
+          hosting a free lunch and afternoon tea for everyone, as well as live
+
+          music, dancing on the streets, arts, games, storytelling and plenty of
+
+          giveaways\"\n"
+        summary: "A street closed for the day in Blackpool with five bands on stage, a free lunch cooked from Cork community-garden produce, an afternoon tea baked by residents, and workshops running all afternoon — acrobatics, bike and clothes repair, knitting, flash fiction and a céilí on the road."
+        description: "\"The Blackpool Block Party takes place on Sunday 23rd August on Great
+
+          William O'Brien Street, in Blackpool, Cork, and is a celebration of
+
+          community and everything local. On stage we have Two Time Polka,
+
+          Arundó, The Heppsters Jazz Trio, French folk indie singer, Delta
+
+          Plane, and the Spangle Hill Band, as well as a diverse programme of
+
+          events throughout the afternoon.\"
+
+
+          \"There will be flash fiction workshops with Graffiti Theatre, an art
+
+          installation called 'Hope Has Wings' produced by Cork City
+
+          Partnership, acrobatics workshop by Streetacro extraordinaire Ally
+
+          Futto, DIY bike repair workshops with Cork Community Bikes, DIY
+
+          clothes repair workshops and sustainable fashion related events with
+
+          Cork Environmental Forum and Restyle Ireland, gardening displays from
+
+          Meitheal Follaine and NICHE Community Gardens, smoothie bikes for a
+
+          healthy shake, a repair café where you can learn to fix your broken
+
+          stuff, knitting classes run by the Blackpool Knitting Group, a
+
+          Creative Garden display by Corlann Blackpool, a céilí on the street,
+
+          street games, craft stalls, clothes swaps, and plenty of books and
+
+          bric a brac to be given away.\"
+
+
+          \"And that's not all, we'll be serving a free lunch (yes, there is such
+
+          a thing) cooked by the wonderful Tiger Balm Supper Club, with all the
+
+          ingredients coming from the many fantastic community gardens across
+
+          Cork City. Expect delicious salads, freshly baked breads, homemade
+
+          pickles and sauces followed by an afternoon tea party under our large
+
+          marquee, baked by the residents of Blackpool for the whole community
+
+          to enjoy.\"
+
+
+          \"Best of all, the wonderful gardeners from the Health Action Zone and
+
+          the Blackpool Men's Shed, will be giving away the best seasonal
+
+          produce from our local community gardens, as well as free planters,
+
+          pots, compost and seeds, so you can grow your own at home.\"
+
+
+          \"The Blackpool Block Party is produced by Cork Community Art Link and
+
+          kindly supported by SICAP, Cork City Council, Slaintecare, Safefood,
+
+          Health Action Zone, HSE, Blackpool Community Centre, Cork
+
+          Environmental Forum, Blackpool Credit Union, Cork Volunteer Centre and
+
+          local businesses. The event is also part of the Cork City Council Open
+
+          Streets programme.\"\n"
+        confidence: "high"
+      - id: "family/cork-community-art-link#3d568c6cad"
+        sourceId: "family/cork-community-art-link"
+        title: "In the Heat of the Night"
+        subcategory: "film programme"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+          startTime: "18:30"
+        status: "scheduled"
+        venue:
+          name: "Blackpool Community Centre"
+          area: "Blackpool"
+          address:
+            street: "90 Great William O'Brien Street"
+            locality: "Blackpool"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://corkcommunityartlink.com/in-heat-night-film/"
+        image: "https://corkcommunityartlink.com/wp-content/uploads/2026/07/in-the-heat-of-the-night-print-web-1.png"
+        price:
+          free: true
+          text: "FREE ENTRY"
+        tags:
+          - "screening"
+          - "classic"
+          - "free-entry"
+          - "community"
+        raw: "\"BLACKPOOL COMMUNITY CENTRE · SATURDAY 29TH AUGUST · DOORS AT 6.30PM ·
+
+          FREE ENTRY — IN THE HEAT OF THE NIGHT from 1967\"
+
+
+          \"We're screening 'In the Heat of the Night of the Night' on Saturday
+
+          29th August at 6.30pm, at the Blackpool Community Centre, Cork.
+
+          Starring Sidney Poitier and Rod Steiger, the film was ground breaking
+
+          for its direct approach to the subject of bigotry in an oppressive
+
+          Mississippi town.\"\n"
+        summary: "A free community screening of the 1967 Sidney Poitier film in Blackpool Community Centre, doors at 6.30pm, with a free ticket to be booked in advance."
+        description: "\"Made three years after the introduction of the 1964 Civil Rights Act
+
+          and against the backdrop of continuing racial discrimination in the
+
+          Deep South, In the Heat of the Night, starring Sidney Poitier and Rod
+
+          Steiger, was ground breaking for its direct approach to the subject of
+
+          bigotry in an oppressive Mississippi town.\"
+
+
+          Blackpool Community Centre, 90 Great William O'Brien Street, Cork.
+
+          Free entry, doors 6.30pm; the page links a \"GET YOUR FREE TICKET\"
+
+          booking.
+
+
+          Note: the page's body paragraph is left over from a previous screening
+
+          and reads \"We're screening '12 Angry Men' on Saturday 28th March at
+
+          6.30pm in the Blackpool Community, 90 Great William O'Brien Street,
+
+          Cork.\" The banner, the title and the homepage all say In the Heat of
+
+          the Night on Saturday 29th August.\n"
+        confidence: "medium"
+    notes: "Dated items sit on the homepage exactly as the hint says, under \"LATEST NEWS\" and \"What's on\". Two are forward-looking and both are recorded; opened both event pages for descriptions, which is the whole of this source's diary. The third item on the page is the Dragon of Shandon Samhain parade, 20th edition — no date is printed here and the catalogue defers it to festivals, so it is deliberately not recorded to avoid a duplicate.
+
+      Two cautions. First, the Blackpool Block Party price is recorded as free on the strength of the page's free lunch, free afternoon tea and free produce giveaways and its being a Cork City Council Open Streets event on a public street; no explicit \"free entry\" line is printed. Second, the film page is half-recycled: the banner and the homepage both say \"In the Heat of the Night, Saturday 29th August, doors at 6.30pm, free entry\", but the body paragraph and a stray heading are left over from a previous \"12 Angry Men\" screening dated 28 March. The date is taken from the banner and the homepage, which agree; the row is confidence medium because of it."
+  - sourceId: "family/cork-puppetry-company"
+    fetch:
+      ok: true
+      url: "https://www.corkpuppetrycompany.com/"
+      status: 200
+    events: []
+    notes: "Live, and confirms the catalogue in full: a Wix portfolio with no dated items anywhere. Navigation is Home / Our Services / Workshops / Parades and Walkabouts / Cork Puppetry Festival / Past Projects / Gallery / Contact, all descriptive. The footer still reads \"© 2023 Cork Puppetry Company\" and the page's own document title is the Wix placeholder \"My Site 1\", which is a reasonable signal that the site is not being maintained. The only forward-looking thing on it is the Cork Puppetry Festival page, and the festival's own domain was unreachable today (see family/cork-puppetry-festival). Their puppet work does show up elsewhere: the Rod Puppet Workshop in Glanmire Library on Cruinniú na nÓg was theirs."
+  - sourceId: "family/cork-city-libraries-children"
+    fetch:
+      ok: true
+      url: "https://www.corkcitylibraries.ie/en/what-s-on/events-calendar/"
+      status: 200
+    events:
+      - id: "family/cork-city-libraries-children#eb721b8a05"
+        sourceId: "family/cork-city-libraries-children"
+        title: "Lego Time"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+          startTime: "11:00"
+          endTime: "12:00"
+        status: "scheduled"
+        venue:
+          name: "Frank O'Connor Library, Mayfield"
+          area: "Mayfield"
+        url: "https://www.corkcitylibraries.ie/en/events/lego-time-1808/"
+        image: "https://www.corkcitylibraries.ie/media/4z3b1zhf/mf-july-lego-club.jpg?width=870&height=490&v=1dbdeaee8d7e3a0"
+        tags:
+          - "kids"
+          - "hands-on"
+          - "drop-in"
+        raw: "\"Lego Time 18/08\" — 18th August, 11:00 – 12:00, Frank O'Connor
+
+          Library, Mayfield. \"Lego free play, come along and build, use your
+
+          imagination.\"\n"
+        summary: "An hour of Lego free play in Mayfield library, Tuesday morning. Bricks provided, nothing to bring."
+        description: "\"Lego free play, come along and build, use your imagination.\"
+
+
+          Frank O'Connor Library, Mayfield. 18th August, 11:00 – 12:00.\n"
+        confidence: "high"
+      - id: "family/cork-city-libraries-children#c7b765146c"
+        sourceId: "family/cork-city-libraries-children"
+        title: "Lego Time"
+        occurrence:
+          kind: "single"
+          date: "2026-08-25"
+          startTime: "11:00"
+          endTime: "12:00"
+        status: "scheduled"
+        venue:
+          name: "Frank O'Connor Library, Mayfield"
+          area: "Mayfield"
+        url: "https://www.corkcitylibraries.ie/en/events/lego-time-2508/"
+        image: "https://www.corkcitylibraries.ie/media/4z3b1zhf/mf-july-lego-club.jpg?width=870&height=490&v=1dbdeaee8d7e3a0"
+        tags:
+          - "kids"
+          - "hands-on"
+          - "drop-in"
+        raw: "\"Lego Time 25/08\" — 25th August, Frank O'Connor Library, Mayfield.
+
+          Listed on the library calendar as a second Tuesday session; times
+
+          taken from the 18/08 page, which the calendar prints identically.\n"
+        summary: "The following Tuesday's Lego free-play hour in Mayfield library."
+        confidence: "medium"
+      - id: "family/cork-city-libraries-children#163af6dbed"
+        sourceId: "family/cork-city-libraries-children"
+        title: "Mayfield Teen Reading Circle"
+        occurrence:
+          kind: "recurring"
+          pattern: "Drop in any Tuesday afternoon, all summer long"
+          start: "2026-08-18"
+          end: "2026-08-25"
+          startTime: "14:00"
+        status: "scheduled"
+        venue:
+          name: "Frank O'Connor Library, Mayfield"
+          area: "Mayfield"
+        url: "https://www.corkcitylibraries.ie/en/events/mayfield-teen-reading-circle-1808/"
+        image: "https://www.corkcitylibraries.ie/media/bfwesiqi/0_mayfield-teen-reading-circle.jpg?width=870&height=490&v=1dcf362f1b11090"
+        ageRestriction: "For Teen/Young Adult readers, age 12-16"
+        tags:
+          - "young-people"
+          - "reading"
+          - "drop-in"
+          - "weekly"
+        raw: "\"Mayfield Library's new Teen Reading Circle. Read what you like – No
+
+          assigned reading!\" 14:00 – 15:00. Calendar lists Tuesday 18 and
+
+          Tuesday 25 August.\n"
+        summary: "A quiet hour in Mayfield library for readers of 12 to 16, any book, any format, no assigned reading and no small talk required."
+        description: "\"Mayfield Library's new Teen Reading Circle. Read what you like – No
+
+          assigned reading!\"
+
+
+          \"Drop in any Tuesday afternoon, all summer long. Settle in for some
+
+          quiet time with a book of your choice. No small talk required. Read in
+
+          quiet company, come along on your own, or with friends. For Teen/Young
+
+          Adult readers, age 12-16.\"
+
+
+          \"Whether it's a fantasy novel, one our Teen graphic novels, a book on
+
+          the history of art, or the latest Teen romance, all books and formats
+
+          are welcome.\"
+
+
+          \"Call or email Mayfield Library for more details or pop in on the day.\"\n"
+        confidence: "high"
+      - id: "family/cork-city-libraries-children#ae5b315439"
+        sourceId: "family/cork-city-libraries-children"
+        title: "Duplo Club"
+        occurrence:
+          kind: "recurring"
+          pattern: "weekly on Wednesdays, 11:30 – 12:30; the calendar lists 19 and 26 August and 2, 9, 16, 23 and 30 September 2026"
+          start: "2026-08-19"
+          end: "2026-09-30"
+          startTime: "11:30"
+        status: "scheduled"
+        venue:
+          name: "Douglas Library"
+          area: "Douglas"
+        url: "https://www.corkcitylibraries.ie/en/events/duplo-club-1908/"
+        image: "https://www.corkcitylibraries.ie/media/pgjbj0rr/duplo-morning.jpg?width=870&height=490&v=1dbfd53a2584b90"
+        ageRestriction: "Suitable for toddlers and preschoolers with their parents or guardians"
+        tags:
+          - "kids"
+          - "hands-on"
+          - "weekly"
+          - "drop-in"
+        raw: "\"Enjoy some fun Duplo time with your little one in the library.
+
+          Suitable for toddlers and preschoolers with their parents or
+
+          guardians. The library will provide the Duplo and all are very
+
+          welcome!\" 11:30 – 12:30, Douglas Library. Published as seven separate
+
+          dated pages: 19/08, 26/08, 02/09, 09/09, 16/09, 23/09, 30/09.\n"
+        summary: "A weekly Wednesday-morning Duplo session in Douglas library for toddlers and preschoolers with a grown-up. Bricks supplied, run through to the end of September."
+        description: "\"Enjoy some fun Duplo time with your little one in the library.
+
+          Suitable for toddlers and preschoolers with their parents or
+
+          guardians. The library will provide the Duplo and all are very
+
+          welcome!\"
+
+
+          Douglas Library, 11:30 – 12:30.\n"
+        confidence: "high"
+      - id: "family/cork-city-libraries-children#e7b28c66ea"
+        sourceId: "family/cork-city-libraries-children"
+        title: "Happy Talk : Rhymes, Songs and Stories for all children aged under 6"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "11:00"
+          endTime: "12:00"
+        status: "scheduled"
+        venue:
+          name: "Tory Top Library"
+        url: "https://www.corkcitylibraries.ie/en/events/happy-talk-2008/"
+        image: "https://www.corkcitylibraries.ie/media/tj4kc4ob/happytalk.jpg?width=870&height=490&v=1dba57fc99a64d0"
+        ageRestriction: "All children aged under 6; parent must accompany child for this event"
+        tags:
+          - "kids"
+          - "storytelling"
+          - "community"
+          - "wellbeing"
+        raw: "\"Join the Happy Talk team for rhymes, songs and stories for all
+
+          children aged under 6. Happy Talk is a long-running and successful HSE
+
+          initiative engagingly delivered with an emphasis on fun and
+
+          participation.\" \"All Welcome (Parent must accompany child for this
+
+          event)\". 20th August, 11:00 – 12:00, Tory Top Library.\n"
+        summary: "Rhymes, songs and stories for under-sixes at Tory Top Library, run by the HSE's Happy Talk speech-and-language team. A parent has to stay."
+        description: "\"Join the Happy Talk team for rhymes, songs and stories for all
+
+          children aged under 6. Happy Talk is a long-running and successful HSE
+
+          initiative engagingly delivered with an emphasis on fun and
+
+          participation.\"
+
+
+          \"All Welcome (Parent must accompany child for this event).\"
+
+
+          Tory Top Library, 20th August, 11:00 – 12:00.\n"
+        confidence: "high"
+      - id: "family/cork-city-libraries-children#7299f1c361"
+        sourceId: "family/cork-city-libraries-children"
+        title: "Teen Trad Group"
+        occurrence:
+          kind: "recurring"
+          pattern: "drop in every Friday from 4.00pm to 5.00pm"
+          start: "2026-08-21"
+          end: "2026-08-28"
+          startTime: "16:00"
+        status: "scheduled"
+        venue:
+          name: "Rory Gallagher Music Library, City Library, Grand Parade"
+        url: "https://www.corkcitylibraries.ie/en/events/teen-trad-group-2108/"
+        image: "https://www.corkcitylibraries.ie/media/bahfxk4x/trad-teen.png?width=870&height=490&v=1dd1f4d1b4e1db0"
+        ageRestriction: "open to young people aged 12–17"
+        tags:
+          - "young-people"
+          - "trad"
+          - "live-music"
+          - "weekly"
+          - "drop-in"
+        raw: "\"Join our weekly Young Adult Trad Session at the Rory Gallagher Music
+
+          Library. This relaxed and welcoming session is open to young people
+
+          aged 12–17 who enjoy traditional music and would like to play with
+
+          others in a friendly setting. Bring your own instrument and drop in
+
+          every Friday from 4.00pm to 5.00pm. No booking is required.\" Calendar
+
+          lists Friday 21 and Friday 28 August.\n"
+        summary: "A weekly drop-in trad session for 12- to 17-year-olds in the Rory Gallagher Music Library on Grand Parade. Bring an instrument; no booking."
+        description: "\"Join our weekly Young Adult Trad Session at the Rory Gallagher Music
+
+          Library. This relaxed and welcoming session is open to young people
+
+          aged 12–17 who enjoy traditional music and would like to play with
+
+          others in a friendly setting. Bring your own instrument and drop in
+
+          every Friday from 4.00pm to 5.00pm. No booking is required.\"
+
+
+          \"For more information, contact the Music Library at
+
+          music_library@corkcity.ie or phone 021 4924919.\"\n"
+        confidence: "high"
+      - id: "family/cork-city-libraries-children#71e83417fc"
+        sourceId: "family/cork-city-libraries-children"
+        title: "Spot the Bird!"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "10:00"
+          endTime: "17:00"
+        status: "scheduled"
+        venue:
+          name: "Hollyhill Library"
+          area: "Hollyhill"
+        url: "https://www.corkcitylibraries.ie/en/events/spot-the-bird-2208/"
+        image: "https://www.corkcitylibraries.ie/media/41ijpkpg/birds-hh.jpg?width=870&height=490&v=1dd15ddb77b9bf0"
+        ageRestriction: "Suitable for children aged 5+"
+        tags:
+          - "kids"
+          - "nature"
+          - "drop-in"
+          - "heritage"
+        raw: "\"A flock of native Irish birds are missing in the library. Come along
+
+          for a bird spotting adventure and find them hiding in the stacks.
+
+          Suitable for children aged 5+.\" 22nd August, 10:00 – 17:00, Hollyhill
+
+          Library.\n"
+        summary: "A Heritage Week hide-and-seek through Hollyhill library's shelves for native Irish birds, open all day and suitable from five up."
+        description: "\"A flock of native Irish birds are missing in the library. Come along
+
+          for a bird spotting adventure and find them hiding in the stacks.
+
+          Suitable for children aged 5+.\"
+
+
+          Hollyhill Library, 22nd August, 10:00 – 17:00.\n"
+        confidence: "high"
+      - id: "family/cork-city-libraries-children#8ca709d284"
+        sourceId: "family/cork-city-libraries-children"
+        title: "Children's Storytime"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "14:15"
+          endTime: "14:30"
+        status: "scheduled"
+        venue:
+          name: "Tory Top Library"
+        url: "https://www.corkcitylibraries.ie/en/events/childrens-storytime-2208/"
+        image: "https://www.corkcitylibraries.ie/media/eyzc1dbv/storytime.jpg?width=870&height=490&v=1db9fd739677c70"
+        ageRestriction: "Suitable for ages 3 upwards"
+        tags:
+          - "kids"
+          - "storytelling"
+          - "reading"
+        raw: "\"Children's Storytime 22/08 — Suitable for ages 3 upwards.\" 22nd
+
+          August, 14:15 – 14:30, Tory Top Library.\n"
+        summary: "A short Saturday-afternoon storytime at Tory Top Library for three-year-olds and up, followed straight after by the colouring competition."
+        description: "\"Children's Storytime. Suitable for ages 3 upwards.\"
+
+
+          Tory Top Library, 22nd August, 14:15 – 14:30.\n"
+        confidence: "high"
+      - id: "family/cork-city-libraries-children#286742deed"
+        sourceId: "family/cork-city-libraries-children"
+        title: "Children's Storytime"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+          startTime: "14:15"
+          endTime: "14:30"
+        status: "scheduled"
+        venue:
+          name: "Tory Top Library"
+        url: "https://www.corkcitylibraries.ie/en/events/childrens-storytime-2908/"
+        image: "https://www.corkcitylibraries.ie/media/eyzc1dbv/storytime.jpg?width=870&height=490&v=1db9fd739677c70"
+        ageRestriction: "Suitable for ages 3 upwards"
+        tags:
+          - "kids"
+          - "storytelling"
+          - "reading"
+        raw: "\"Children's Storytime 29/08\" — Tory Top Library. Times taken from the
+
+          22/08 page, which the calendar prints identically.\n"
+        summary: "The following Saturday's storytime at Tory Top Library, for ages three and up."
+        confidence: "medium"
+      - id: "family/cork-city-libraries-children#8f75b52b01"
+        sourceId: "family/cork-city-libraries-children"
+        title: "Children's Colouring Competition"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "14:30"
+          endTime: "15:00"
+        status: "scheduled"
+        venue:
+          name: "Tory Top Library"
+        url: "https://www.corkcitylibraries.ie/en/events/children-s-colouring-competition-2208/"
+        image: "https://www.corkcitylibraries.ie/media/cnce1ncw/kids-colouring.png?width=870&height=490&v=1dbb9ac4886d130"
+        ageRestriction: "Suitable for ages 3-12"
+        tags:
+          - "kids"
+          - "crafts"
+          - "drop-in"
+        raw: "\"Children's Colouring Competition — Suitable for ages 3-12, great
+
+          prizes to be won!!\" 22nd August, 14:30 – 15:00, Tory Top Library.\n"
+        summary: "Half an hour of colouring with prizes at Tory Top Library, for three to twelves, straight after the afternoon storytime."
+        description: "\"Children's Colouring Competition. Suitable for ages 3-12, great
+
+          prizes to be won!!\"
+
+
+          Tory Top Library, 22nd August, 14:30 – 15:00.\n"
+        confidence: "high"
+      - id: "family/cork-city-libraries-children#309ac072ab"
+        sourceId: "family/cork-city-libraries-children"
+        title: "Children's Colouring Competition"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+          startTime: "14:30"
+          endTime: "15:00"
+        status: "scheduled"
+        venue:
+          name: "Tory Top Library"
+        url: "https://www.corkcitylibraries.ie/en/events/children-s-colouring-competition-2908/"
+        image: "https://www.corkcitylibraries.ie/media/cnce1ncw/kids-colouring.png?width=870&height=490&v=1dbb9ac4886d130"
+        ageRestriction: "Suitable for ages 3-12"
+        tags:
+          - "kids"
+          - "crafts"
+          - "drop-in"
+        raw: "\"Children's Colouring Competition 29/08\" — Tory Top Library. Times
+
+          taken from the 22/08 page, which the calendar prints identically.\n"
+        summary: "The following Saturday's colouring competition at Tory Top Library, for three to twelves."
+        confidence: "medium"
+      - id: "family/cork-city-libraries-children#4c6ee4eef2"
+        sourceId: "family/cork-city-libraries-children"
+        title: "Teen Book club"
+        occurrence:
+          kind: "single"
+          date: "2026-09-19"
+          startTime: "15:30"
+          endTime: "16:30"
+        status: "scheduled"
+        venue:
+          name: "Douglas Library"
+          area: "Douglas"
+        url: "https://www.corkcitylibraries.ie/en/events/teen-book-club-1909/"
+        image: "https://www.corkcitylibraries.ie/media/fs1pync4/teen-book-club.jpg?width=870&height=490&v=1dbfd54a8101cb0"
+        ageRestriction: "Are you aged 14+?"
+        tags:
+          - "young-people"
+          - "reading-group"
+          - "reading"
+        raw: "\"Are you aged 14+? Do you have a love for reading and want to chat
+
+          about your favourite books? Douglas library is looking for teenagers
+
+          to join our book club.\" 19th September, 15:30 – 16:30, Douglas
+
+          Library.\n"
+        summary: "Douglas library is recruiting for a book club for over-fourteens — recommendations, new friends and a first meeting on the third Saturday of September."
+        description: "\"Are you aged 14+? Do you have a love for reading and want to chat
+
+          about your favourite books? Douglas library is looking for teenagers to
+
+          join our book club. Teens will have an opportunity to make new
+
+          friends, exchange book recommendations, and enhance your reading
+
+          experience. For more information contact Dougals Library information
+
+          desk on 021 492 4932.\"
+
+
+          Douglas Library, 19th September, 15:30 – 16:30.\n"
+        confidence: "high"
+    notes: "Catalogue correction, and it is the significant one from this run. The catalogued URL — /en/what-s-on/children-and-young-people/ — returns 200 but is a programmes overview, not a diary: its whole body is four annual strands with no dates (Summer Reading Challenge, Spring into Storytime, Children's Book Festival \"every October\", Teen Day within Cork World Book Fest \"every April\"). The hundreds of dated /en/events/ links the catalogue counted are the site-wide mega-navigation, which every page on the site renders. The dated diary lives at /en/what-s-on/events-calendar/, which is what was harvested and what fetch.url records. The four annual strands are not recorded as events — none carries a date, and an undated row would sit on the site indefinitely — but the Children's Book Festival is worth a note for the October run.
+
+      The calendar carries its own warning: \"Notice: Calendar Under Development — Please be patient as we continue to add events. Our new library calendar is currently under development, and not all events have been added yet\", and it points readers at a separate Events Guide (a PDF, currently \"events-guide-for-july-and-august.pdf\"). So this is a partial view by the library's own admission, and the PDF guide is an unexploited route.
+
+      Coverage: the calendar listed 58 dated cards from 18 August to 31 October, the whole library programme with adult items included. Filtered to the children's and teen strands, which is 22 of the 58; the remaining 36 are adult or general (knitting and crochet for adults, 45 Club, Ciorcal Comhrá, book launches, Heritage Week talks and walks, the trad sessions, the neurodivergent and In Other Worlds book clubs, and a Medal Mash-up sports-medal exhibition at Mayfield running 1 August to 30 September).
+
+      Folding: the calendar publishes each week of a weekly session as its own dated page with its own URL. Where the event's own copy states a pattern in words, or where four or more identical instances are listed, they are folded into one recurring event with the listed dates in `raw` and the soonest instance's URL — Teen Reading Circle, Teen Trad Group and Duplo Club. Where only two instances are listed and no pattern is stated they are left as two singles, which is what the library published: Lego Time, Children's Storytime and the Children's Colouring Competition. Recurring rows carry the last date the calendar actually lists as their `end`, so they retire rather than lingering.
+
+      Cards carry no times and no prices, so nine event pages were opened for those and for `description`; the three later instances of the two-instance series were not opened and so carry no `description`. No price is recorded on any of these: the event pages print a Price field only when there is one, and none of the children's items printed anything, so free is not inferred. The branch is the venue in every case and is set as such; the library service itself is the listing.
+
+      One data bug on the site, not a children's item but worth passing on: \"Seed Saving with Wolf Seeds\" at Hollyhill is listed as 20 Aug – 17 Jul, which ends before it starts."
+  - sourceId: "family/ucc-science-week"
+    fetch:
+      ok: true
+      url: "https://www.ucc.ie/en/sefs/science-week/"
+      status: 200
+    events:
+      - id: "family/ucc-science-week#eaad88a61d"
+        sourceId: "family/ucc-science-week"
+        title: "Science Week 2026"
+        occurrence:
+          kind: "run"
+          start: "2026-11-08"
+          end: "2026-11-15"
+        status: "scheduled"
+        url: "https://www.ucc.ie/en/sefs/science-week/"
+        tags:
+          - "science"
+          - "festival"
+          - "multi-day"
+          - "hands-on"
+        raw: "\"Science Week, taking place from 8-15 November 2026, is a national
+
+          celebration of science, technology, engineering and maths, with events
+
+          for people of all ages. This year, Science Week celebrates with the
+
+          theme **Water: From Molecule to Ocean**. Join us as we celebrate the
+
+          wonder of science in our everyday lives. Check this page regularly for
+
+          updates.\"\n"
+        summary: "A week of free public science on the UCC campus, explicitly for all ages, on the theme \"Water: From Molecule to Ocean\". Only one event is confirmed on the page so far; the programme builds through the autumn."
+        confidence: "high"
+      - id: "family/ucc-science-week#a05f20401a"
+        sourceId: "family/ucc-science-week"
+        title: "Chemistry Magic Show and Expo"
+        occurrence:
+          kind: "single"
+          date: "2026-11-09"
+          startTime: "10:00"
+        status: "scheduled"
+        venue:
+          name: "UCC Main Campus"
+          area: "Western Road"
+        url: "https://www.ucc.ie/en/chemistry/"
+        ageRestriction: "for people of all ages"
+        tags:
+          - "science"
+          - "magic"
+          - "kids"
+          - "hands-on"
+        raw: "9 Nov 2026 · 10am · **Chemistry Magic Show and Expo** · \"Discover the
+
+          role of chemistry in everyday life in these fun magic shows. Three
+
+          shows in the week plus an expo running for the week.\" · UCC Main
+
+          Campus · https://www.ucc.ie/en/chemistry/\n"
+        summary: "Chemistry-as-conjuring for a general audience, with an expo alongside it. The table gives 9 November at 10am, though the blurb says there are three shows across Science Week."
+        confidence: "medium"
+    notes: "Reached in one fetch and the page is as the catalogue describes: stamped \"Updated 7 August 2026\" and carrying a single confirmed event in a date/time/event/description/location/more-info table, with the standing instruction to \"Check this page regularly for updates\". Both rows here come from that table and the paragraph above it; the page prints no prices, so none is recorded.
+
+      Two things to flag. The Chemistry Magic Show row gives 9 Nov, 10am but its own description says \"Three shows in the week plus an expo running for the week\", so the single date is the first show rather than the whole thing — hence confidence medium. And the row's only link is https://www.ucc.ie/en/chemistry/, the department's page rather than an event page; it is recorded verbatim because it is what the listing offers, but it is not a booking or detail page. Worth a real look from October, when the rest of the programme lands."
+  - sourceId: "family/yourdaysout-cork"
+    fetch:
+      ok: true
+      url: "https://www.yourdaysout.com/events-on-in-county-cork-ireland"
+      status: 200
+    events:
+      - id: "family/yourdaysout-cork#4f4461254c"
+        sourceId: "family/yourdaysout-cork"
+        title: "Playful Culture Trail"
+        subcategory: "Museums, Interactive Exhibits, Historical Sites, Family Fun"
+        occurrence:
+          kind: "run"
+          start: "2026-06-01"
+          end: "2026-08-31"
+        status: "scheduled"
+        venue:
+          name: "More than 20 museums, heritage sites and outdoor spaces across Cork City"
+          address:
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.yourdaysout.com/events-on-in-county-cork-ireland/20-cork-attractions-one-giant-summer-adventure-playful-culture-trail-6343"
+        image: "https://www.yourdaysout.com/uploads/articleimages/f4/f4c2f8be118053550b8953cf86693e78.jpg"
+        price:
+          free: true
+          text: "Free"
+        ageRestriction: "Suitable for: Under 12"
+        tags:
+          - "family"
+          - "kids"
+          - "free-entry"
+          - "heritage"
+          - "outdoor"
+        raw: "\"20 Cork Attractions, One Giant Summer Adventure: Playful Culture
+
+          Trail\" — Jun 1, 2026 – Aug 31, 2026. Free. \"Suitable for: Under 12.\"
+
+          \"Become a detective this summer with Cork's Playful Culture Trail. Led
+
+          by Detective Bláithín, families can explore …\"\n"
+        summary: "A free summer detective trail across more than twenty Cork City museums, heritage sites and parks — clues to solve and stamps to collect, with maps at playfulculturetrail.com. Ends 31 August."
+        description: "\"Become a detective this summer with Cork's Playful Culture Trail. Led
+
+          by Detective Bláithín, families can explore more than 20 museums,
+
+          heritage sites, cultural attractions and outdoor spaces across Cork
+
+          City while solving clues, collecting stamps and discovering
+
+          fascinating stories along the way. Free to take part and running
+
+          throughout the summer, the trail offers a fun and engaging way for
+
+          children and families to experience Cork through play, creativity and
+
+          exploration.\"
+
+
+          \"For maps and participating venues visit www.playfulculturetrail.com\"
+
+
+          Jun 1, 2026 – Aug 31, 2026. Free. Suitable for: Under 12.\n"
+        confidence: "high"
+      - id: "family/yourdaysout-cork#b9476ecec7"
+        sourceId: "family/yourdaysout-cork"
+        title: "Ken O'Sullivan: Stories from the Sea"
+        subcategory: "Cinema, Talks & Discussion"
+        occurrence:
+          kind: "single"
+          date: "2026-09-26"
+          startTime: "19:30"
+          endTime: "21:10"
+        status: "scheduled"
+        venue:
+          sourceId: "theatre/everyman"
+        url: "https://www.yourdaysout.com/events-on-in-county-cork-ireland/ken-osullivan-stories-from-the-sea-6375"
+        image: "https://www.yourdaysout.com/uploads/articleimages/63/634976c11edffeea6e88982e342f7b03.jpg"
+        price:
+          free: false
+          text: "Adult €25.00 / Child €20.00 / Family €60.00"
+          min: 20
+          max: 60
+          currency: "EUR"
+        ageRestriction: "Suitable for: Under 5, Under 9, Under 12"
+        tags:
+          - "talk"
+          - "nature"
+          - "family"
+          - "screening"
+        raw: "\"Ken O'Sullivan: Stories from the Sea\" — Sep 26, 2026, 7:30 PM –
+
+          9:10 PM, 15 MacCurtain Street, Victorian Quarter, Cork, T23 E094.
+
+          Adult €25.00, Child €20.00, Family €60.00. \"In his new show, Stories
+
+          from the Sea, award-winning filmmaker Ken O'Sullivan brings us on his
+
+          25 year journey exploring the North Atlantic ocean and seas around
+
+          Ireland …\"\n"
+        summary: "The wildlife film-maker's live show on MacCurtain Street: film, stories and 25 years of diving the North Atlantic, from killer whales to blue whales. Family ticket €60."
+        description: "\"In his new show, **Stories from the Sea**, award-winning filmmaker Ken
+
+          O'Sullivan brings us on his 25 year journey exploring the North
+
+          Atlantic ocean and seas around Ireland, with stories, video pieces and
+
+          personal insights into his experiences, from being surrounded by a pod
+
+          of killer whales to swimming with thousands of dolphins and fin and
+
+          blue whales, the largest animals ever to have lived. Ken regales us
+
+          with stories of the beauty of the natural world and our emotional
+
+          connection with it.\"
+
+
+          \"Ken has now produced more than twenty natural history documentaries
+
+          for RTÉ, with his last series North Atlantic acquired by BBC and
+
+          broadcast in over 30 countries. He features alongside David
+
+          Attenborough in BBC Earth's Stunning Underwater Nature Footage, which
+
+          has 7 million views on YouTube.\"
+
+
+          \"The live show is a mix of film and stories from Ken's 20 plus year
+
+          long career. He pays homage to his family's 250-year history on Fenit
+
+          Island, Co. Kerry and our ancient maritime culture. Education and
+
+          conservation have been at the heart of Ken's work since 2005, long
+
+          before it was popular to tell stories of damage and even devastation
+
+          in natural history documentaries. He will talk about some of the great
+
+          challenges facing our marine animals and habitats. Ken has donated his
+
+          documentaries to education, where they now feature on the secondary
+
+          school exam curriculum within the Junior cycle Geography and Business
+
+          Studies courses. His book Stories from the Deep is critically
+
+          acclaimed for its lyrical writing and descriptions of nature and
+
+          animal encounters, as well as Ken's honesty about his life as a film
+
+          maker.\"\n"
+        confidence: "high"
+    notes: "200 to a browser user-agent, as catalogued. The JSON-LD ItemList declares `numberOfItems: 2` and the rendered cards agree — there are only two events on the county Cork page today, the same two the catalogue saw this morning, so this \"family safety net\" is currently very thin rather than truncated by me. Both are inside the radius and both were opened for descriptions, prices and age bands, which the ItemList does not carry.
+
+      One caution on the trail: Your Days Out anchors it to \"Cork City Hall, Ballintemple\" with a city-centre geocode, but the event is a trail across more than twenty attractions, so the venue is recorded as city-wide rather than as City Hall. The other event's printed address, 15 MacCurtain Street, T23 E094, matches the catalogued theatre/everyman exactly, so it is linked by sourceId rather than copied."
+  - sourceId: "family/eventbrite-cork-family"
+    fetch:
+      ok: true
+      url: "https://www.eventbrite.ie/d/ireland--cork/kids-and-family/"
+      status: 200
+    events:
+      - id: "family/eventbrite-cork-family#54c47baaf2"
+        sourceId: "family/eventbrite-cork-family"
+        title: "Mini Melodies Cork Classes at Piccolo Play Village"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+        status: "scheduled"
+        venue:
+          sourceId: "family/piccolo-play-village"
+        url: "https://www.eventbrite.ie/e/mini-melodies-cork-classes-at-piccolo-play-village-tickets-1992506868681"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187579165%2F2983626882732%2F1%2Foriginal.20260624-173412?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f4a0df1da3d91836ffa3b455269947e9"
+        ageRestriction: "Designed for babies between 3 months - 13 months"
+        tags:
+          - "kids"
+          - "live-music"
+          - "booking-required"
+        raw: "\"Mini Melodies Cork Classes at Piccolo Play Village\" — 19 August 2026.
+
+          \"Baby Music & Development Play Class. Designed for babies between 3
+
+          months - 13 months. 20+ years experience in Early Years Education.\"\n"
+        summary: "A baby music and development class for three- to thirteen-month-olds, run into Piccolo Play Village in Ballincollig by Mini Melodies and ticketed through Eventbrite."
+        confidence: "high"
+      - id: "family/eventbrite-cork-family#3c408c09f7"
+        sourceId: "family/eventbrite-cork-family"
+        title: "Cork - Parent In Person Support Group"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+        status: "scheduled"
+        venue:
+          name: "Deaf Association Offices, 5 MacCurtain St"
+          address:
+            street: "5 MacCurtain Street"
+            city: "Cork"
+            postcode: "T23 KD39"
+            country: "Ireland"
+        url: "https://www.eventbrite.ie/e/cork-parent-in-person-support-group-tickets-1991383300057"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186410362%2F51636921832%2F1%2Foriginal.20241205-100931?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=82e640c9a22dce6f3e202e158987e8b0"
+        tags:
+          - "community"
+          - "wellbeing"
+          - "booking-required"
+        raw: "\"Cork - Parent In Person Support Group\" — 20 August 2026, 5 MacCurtain
+
+          St (Deaf Association Offices), Cork T23 KD39. \"Do you have a child
+
+          living with ADHD (or suspected)? Come join our ADHD Parent in-person
+
+          support group in Cork!\"\n"
+        summary: "An in-person support group on MacCurtain Street for parents of children with ADHD, diagnosed or suspected."
+        confidence: "high"
+      - id: "family/eventbrite-cork-family#a248bf9c82"
+        sourceId: "family/eventbrite-cork-family"
+        title: "Senior Pre-Season Clinic 2026"
+        occurrence:
+          kind: "run"
+          start: "2026-08-17"
+          end: "2026-08-18"
+        status: "scheduled"
+        timesText: "9.30-12.30"
+        venue:
+          name: "Garryduff Sports Centre"
+          address:
+            street: "Garryduff Sports Centre"
+            city: "Cork"
+            postcode: "T12 ER22"
+            country: "Ireland"
+        url: "https://www.eventbrite.ie/e/senior-pre-season-clinic-2026-tickets-1980176535322"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F463773089%2F530210812959%2F1%2Foriginal.20230308-113648?w=450&auto=format%2Ccompress&q=75&sharp=10&s=db7074c24b1ed5ca2982447154a522d9"
+        tags:
+          - "young-people"
+          - "school-holidays"
+          - "booking-required"
+        raw: "\"Senior Pre-Season Clinic 2026\" — \"Senior Pre-season Clinic: 17 & 18
+
+          August 2026 (9.30-12.30)\", Garryduff Sports Centre, Cork T12 ER22.\n"
+        summary: "A two-morning pre-season clinic for the older age group at Garryduff Sports Centre, running today and tomorrow before the season starts."
+        confidence: "medium"
+      - id: "family/eventbrite-cork-family#42f1964e34"
+        sourceId: "family/eventbrite-cork-family"
+        title: "The Princess Proms: Cork"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+        status: "scheduled"
+        timesText: "two showings on the day — Eventbrite lists \"The Princess Proms: Cork\" and \"The Princess Proms: Cork (Second Show)\" separately and gives no time for either"
+        venue:
+          name: "Cork City Hall"
+          address:
+            street: "Cork City Hall"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.eventbrite.co.uk/e/the-princess-proms-cork-tickets-1858271312519"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F899693943%2F2198324733003%2F1%2Foriginal.20241115-111408?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=2%2C0%2C936%2C468&s=cb9530c8e9f75308ea385f1f58eea101"
+        tags:
+          - "kids"
+          - "live-music"
+          - "musical"
+          - "family"
+        raw: "\"The Princess Proms: Cork\" and \"The Princess Proms: Cork (Second
+
+          Show)\" — both 18 August 2026, Cork City Hall. \"Calling all Princesses
+
+          for a magical concert singing the enchanting songs from Frozen, Wicked,
+
+          Moana & many more\"\n"
+        summary: "A singalong concert of Frozen, Wicked and Moana numbers in Cork City Hall, dressing up encouraged. Two showings on the day."
+        confidence: "medium"
+      - id: "family/eventbrite-cork-family#37443b184f"
+        sourceId: "family/eventbrite-cork-family"
+        title: "Junior Back-2-School Camp 2026"
+        occurrence:
+          kind: "run"
+          start: "2026-08-19"
+          end: "2026-08-21"
+        status: "scheduled"
+        timesText: "10am-2pm"
+        venue:
+          name: "Garryduff Sports Centre"
+          address:
+            street: "Garryduff Sports Centre"
+            city: "Cork"
+            postcode: "T12 ER22"
+            country: "Ireland"
+        url: "https://www.eventbrite.ie/e/junior-back-2-school-camp-2026-tickets-1980176573436"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1174400907%2F530210812959%2F1%2Foriginal.20240325-125804?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C1258%2C629&s=93877b5c7a278dcc59441be8763173df"
+        tags:
+          - "young-people"
+          - "school-holidays"
+          - "multi-day"
+          - "booking-required"
+        raw: "\"Junior Back-2-School Camp 2026\" — structured data says 19–21 August
+
+          2026; the listing's own blurb says \"Junior Back-2-School Camp: 18-21
+
+          Aug 2026, 10am-2pm\". Garryduff Sports Centre, Cork T12 ER22.\n"
+        summary: "The last camp of the summer at Garryduff Sports Centre, four 10-till-2 mornings aimed at getting juniors back into shape before school returns."
+        confidence: "medium"
+      - id: "family/eventbrite-cork-family#9175b57287"
+        sourceId: "family/eventbrite-cork-family"
+        title: "Make your own puppet (August Craft Month) @ the Civic Trust House"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+        status: "scheduled"
+        venue:
+          name: "Arts at Civic Trust House"
+          address:
+            street: "50 Pope's Quay"
+            city: "Cork"
+            postcode: "T23 R6XC"
+            country: "Ireland"
+        url: "https://www.eventbrite.ie/e/make-your-own-puppet-august-craft-month-the-civic-trust-house-tickets-1992489875855"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187558823%2F1204572180523%2F1%2Foriginal.20260624-132317?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.867&fp-y=0.497&s=f3b7b0069c593086ad78da597cc54a70"
+        ageRestriction: "All ages welcome"
+        tags:
+          - "puppetry"
+          - "crafts"
+          - "workshop"
+          - "kids"
+          - "hands-on"
+        raw: "\"Make your own puppet (August Craft Month) @ the Civic Trust House\" —
+
+          22 August 2026, Arts at Civic Trust House, 50 Pope's Quay, Cork T23
+
+          R6XC. \"♦ Puppet-making craft activity in a friendly and fun
+
+          environment ♦ All ages welcome ♦ All materials provided♦\"\n"
+        summary: "An all-ages puppet-making session on Pope's Quay for August Craft Month, materials provided."
+        confidence: "high"
+      - id: "family/eventbrite-cork-family#2b0f2a60f6"
+        sourceId: "family/eventbrite-cork-family"
+        title: "Culture Night at Tyndall"
+        occurrence:
+          kind: "single"
+          date: "2026-09-18"
+        status: "scheduled"
+        venue:
+          name: "Tyndall National Institute"
+          address:
+            street: "Lee Maltings Complex, Dyke Parade"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.eventbrite.ie/e/culture-night-at-tyndall-tickets-1994784357712"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189377594%2F375697232431%2F1%2Foriginal.20260722-090054?crop=focalpoint&fit=crop&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.352&fp-y=0.265&s=21cdcc1f32a20464e284853e570585f2"
+        tags:
+          - "science"
+          - "open-evening"
+          - "hands-on"
+          - "guided-tour"
+        raw: "\"Culture Night at Tyndall\" — 18 September 2026, Tyndall National
+
+          Institute, Lee Maltings Complex, Dyke Parade, Cork. \"Come and explore
+
+          scientific ideas and future innovation as Tyndall opens its doors for
+
+          Culture Night.\"\n"
+        summary: "The Tyndall National Institute opens its labs on Dyke Parade for Culture Night — the research-and-innovation side of the city that is otherwise closed to visitors."
+        confidence: "high"
+      - id: "family/eventbrite-cork-family#e21cde96c8"
+        sourceId: "family/eventbrite-cork-family"
+        title: "Cushion Concerts at the Library (2 - 5 years)"
+        occurrence:
+          kind: "single"
+          date: "2026-09-19"
+        status: "scheduled"
+        venue:
+          name: "Mayfield Branch Library"
+          area: "Mayfield"
+          address:
+            street: "Old Youghal Road"
+            city: "Cork"
+            country: "Ireland"
+        url: "https://www.eventbrite.ie/e/cushion-concerts-at-the-library-2-5-years-tickets-1996627041228"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1038814803%2F224525395501%2F1%2Foriginal.20250526-074158?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C328%2C3872%2C1936&s=373125dac488acd265a886dd36b0af1f"
+        ageRestriction: "2 - 5 years"
+        tags:
+          - "kids"
+          - "classical"
+          - "live-music"
+          - "booking-required"
+        raw: "\"Cushion Concerts at the Library (2 - 5 years)\" — 19 September 2026,
+
+          Mayfield Branch Library, Old Youghal Road, Cork. \"Join musicians from
+
+          the Irish Baroque Orchestra for another Cushion Concert adventure!\"\n"
+        summary: "Irish Baroque Orchestra players playing at cushion height for two- to five-year-olds in Mayfield library."
+        confidence: "high"
+      - id: "family/eventbrite-cork-family#37159d7753"
+        sourceId: "family/eventbrite-cork-family"
+        title: "Family Day Out 2026 at Fota Wildlife Park"
+        occurrence:
+          kind: "single"
+          date: "2026-09-19"
+        status: "scheduled"
+        venue:
+          sourceId: "family/fota-wildlife-park"
+        url: "https://www.eventbrite.ie/e/family-day-out-2026-at-fota-wildlife-park-tickets-1996783860278"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190697854%2F1496715780193%2F1%2Foriginal.20260810-114717?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.483&fp-y=0.168&s=d30db5f50a1ac2be667649906f8aa791"
+        tags:
+          - "family"
+          - "animals"
+          - "wildlife"
+          - "community"
+        raw: "\"Family Day Out 2026 at Fota Wildlife Park\" — 19 September 2026, Fota
+
+          Wildlife Park, T45 CD93. \"Our Family Day Out is at Fota Wildlife Park
+
+          this year. Come see the animals from the Wildlife Train, and have fun
+
+          with other Dravet families\"\n"
+        summary: "A day at Fota for families living with Dravet syndrome, with the wildlife train laid on — a support-group meet-up rather than a public event, and ticketed accordingly."
+        confidence: "high"
+      - id: "family/eventbrite-cork-family#3cd5400265"
+        sourceId: "family/eventbrite-cork-family"
+        title: "Navigating ADHD: A Supportive Workshop for Parents Cork"
+        occurrence:
+          kind: "single"
+          date: "2026-09-20"
+        status: "scheduled"
+        venue:
+          name: "Clayton Hotel Silver Springs"
+          area: "Tivoli"
+          address:
+            locality: "Tivoli"
+            city: "Cork"
+            postcode: "T23 E244"
+            country: "Ireland"
+        url: "https://www.eventbrite.ie/e/navigating-adhd-a-supportive-workshop-for-parents-cork-tickets-1994836210806"
+        image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189399831%2F2992651430437%2F1%2Foriginal.20260722-153312?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0c525350e4e5c72ba7ff9b60caca1177"
+        tags:
+          - "workshop"
+          - "wellbeing"
+          - "community"
+          - "booking-required"
+        raw: "\"Navigating ADHD: A Supportive Workshop for Parents Cork\" — 20
+
+          September 2026, Clayton Hotel Silver Springs, Tivoli, Cork T23 E244.
+
+          \"A Parent workshop offering understanding and support to help you
+
+          confidently navigating ADHD at the Clayton Silver Springs, Cork\"\n"
+        summary: "A day workshop for parents navigating a child's ADHD, at the Clayton in Tivoli."
+        confidence: "high"
+    notes: "200, and the JSON-LD in the served HTML carried 20 dated events — no execution needed, and no offers or ticket prices in the structured data, so no price is recorded on any of these and none was inferred. This is page one only; pagination was not followed, so the source is truncated at 20 of an unknown total.
+
+      Filtering, with numbers. Of the 20, seven are outside the 12km radius and are dropped: Kid's Pop at the Hibernian Hotel in Mallow (26km), Kids Art Summer Camp at Carrigtwohill Community Centre (about 14km, just outside — worth a human check, since Fota at 11.3km is inside), Kids Pop Concert in Mitchelstown, Mini Melodies at Ballymaloe Grainstore and Ballymaloe Craft Fair in Shanagarry, Transferring the Family Farm Clinics at Fermoy Mart, and researchED at Bandon Grammar School. Two more are inside the radius but are not family events despite the feed's classification and are dropped as well: Chris Kent's stand-up show at The White Horse in Ballincollig, which belongs to comedy, and a Grief Circle at The Hot Box Sauna. That leaves 11 listings, recorded as 10 events.
+
+      The two Princess Proms listings — \"The Princess Proms: Cork\" and \"The Princess Proms: Cork (Second Show)\" — are two showings at Cork City Hall on the same day, so they are folded into one event per the one-day rule. The structured data carries no times for either, so the timesText says so rather than guessing.
+
+      Two events are at venues catalogued here and carry venue.sourceId rather than a copied address: Family Day Out at family/fota-wildlife-park and Mini Melodies at family/piccolo-play-village — the latter exactly the third-party-class case the catalogue's hint predicted, and the only thing on at Piccolo today, since the venue's own calendar is empty. Cushion Concerts is at Mayfield Branch Library, which is a branch of the library service catalogued as a listing rather than as a venue, so it carries a name and address instead.
+
+      The Junior Back-2-School Camp dates disagree with themselves: the structured data says 19–21 August, the blurb says \"18-21 Aug 2026, 10am-2pm\". The structured dates are recorded and the row is confidence medium. Two ADHD parent-support items are kept — they are for parents rather than children, but they are family-service events and the feed's own classification puts them here."

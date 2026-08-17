@@ -7,7 +7,7 @@
     "country": "Ireland",
     "timezone": "Europe/Dublin"
   },
-  "generatedAt": "2026-08-17T12:19:20Z",
+  "generatedAt": "2026-08-17T12:31:01Z",
   "asOf": "2026-08-17",
   "categories": [
     {
@@ -14406,7 +14406,7 @@
       "description": "This talk explores the gallery's Heritage Stewardship Fund 2026 project and will be delivered jointly by the Gallery's Conservator, Dr Chiara Chille, and Curator of Collections and Special Projects, Dr Michael Waldron. It will explore the science, technology and research that underpin the care of our shared cultural heritage.\n",
       "confidence": "high",
       "duplicateOf": "art/crawford-art-gallery#6c123c1f46",
-      "duplicateScore": 1,
+      "duplicateScore": 0.8,
       "firstSeen": "2026-08-17",
       "lastSeen": "2026-08-17"
     },
@@ -22059,15 +22059,13 @@
         "new-writing",
         "poetry",
         "reading",
-        "weekly",
         "young-people"
       ],
       "raw": "**21 August 2026 · 6:00 pm — I'll Be Your Mirror — Young Voices**\n\nFour young writers (14–19) from Graffiti Theatre Company's Write Club, in\npartnership with Fighting Words. Free — donations welcome.\n",
       "summary": "Four writers aged 14 to 19 from Graffiti Theatre's Write Club read their own work in the cathedral, part of the August \"I'll Be Your Mirror\" evening series.",
       "confidence": "high",
       "alsoListedBy": [
-        "citywide/proc-event-guide",
-        "theatre/pure-cork-theatre"
+        "citywide/proc-event-guide"
       ],
       "firstSeen": "2026-08-17",
       "lastSeen": "2026-08-17"
@@ -23168,8 +23166,6 @@
       "raw": "**I'll Be Your Mirror: August Readings At St Fin Barre's Cathedral** — St Fin Barre's Cathedral, Fridays 18:00. Six dated rows, Fri 21 Aug through Fri 25 Sep, tagged Free Entry. Recorded as one recurring event rather than six.\n",
       "summary": "A free weekly Friday-evening reading series in the cathedral, running past the end of the month its title names.",
       "confidence": "high",
-      "duplicateOf": "museums/st-fin-barres-cathedral#ca2104b935",
-      "duplicateScore": 0.65,
       "firstSeen": "2026-08-17",
       "lastSeen": "2026-08-17"
     },
@@ -23652,7 +23648,7 @@
       "description": "Celebrate Lúnasa with artist Seiko Hayase by creating a unique harvest wreath inspired by Irish and Japanese traditions. This workshop is free to attend but must be booked in advance. All materials provided. In association with the Crawford Gallery.\n",
       "confidence": "high",
       "duplicateOf": "art/crawford-art-gallery#623da824b5",
-      "duplicateScore": 1,
+      "duplicateScore": 0.8,
       "firstSeen": "2026-08-17",
       "lastSeen": "2026-08-17"
     },
@@ -24647,7 +24643,7 @@
       "summary": "A three-hour introduction to lino printing with Solas agus Scath in St Peter's, cutting and pulling your own prints. Sold out.",
       "confidence": "high",
       "duplicateOf": "museums/st-peters-cork#df43392f39",
-      "duplicateScore": 1,
+      "duplicateScore": 0.5,
       "firstSeen": "2026-08-17",
       "lastSeen": "2026-08-17"
     },
@@ -30876,7 +30872,7 @@
       "summary": "Two sold-out nights of Pinotphile, the touring show from Ireland's biggest-selling stand-up.",
       "confidence": "high",
       "duplicateOf": "comedy/cork-opera-house#5dbd02473a",
-      "duplicateScore": 1,
+      "duplicateScore": 0.8,
       "firstSeen": "2026-08-17",
       "lastSeen": "2026-08-17"
     },
@@ -38258,7 +38254,7 @@
       "summary": "The political stand-up and broadcaster on tour with a new hour.",
       "confidence": "high",
       "duplicateOf": "comedy/cork-opera-house#8da377159b",
-      "duplicateScore": 1,
+      "duplicateScore": 0.8,
       "firstSeen": "2026-08-17",
       "lastSeen": "2026-08-17"
     },
@@ -48750,7 +48746,7 @@
       "summary": "An Alliance Française de Cork evening of French food and film at the Metropole.",
       "confidence": "high",
       "duplicateOf": "markets/pure-cork-food-drink-events#03d1e8af55",
-      "duplicateScore": 0.8,
+      "duplicateScore": 0.65,
       "firstSeen": "2026-08-17",
       "lastSeen": "2026-08-17"
     },
@@ -49960,7 +49956,7 @@
       "summary": "Alan Davies's first stand-up tour in a decade.",
       "confidence": "high",
       "duplicateOf": "comedy/cork-opera-house#eab1e85551",
-      "duplicateScore": 1,
+      "duplicateScore": 0.8,
       "firstSeen": "2026-08-17",
       "lastSeen": "2026-08-17"
     },
@@ -68998,6 +68994,8 @@
       "raw": "**Sin É** — Coburg St, 9:00 pm.\n\nPrinted in the full gig guide under Mon Aug 17, Tue Aug 18, Fri Aug 21,\nSat Aug 22, Mon Aug 24 and Tue Aug 25.",
       "summary": "Sin É's late session, the one Cork musicians mean when they name the pub.\nThe guide prints it on Mondays, Tuesdays, Fridays and Saturdays but not on\nthe Wednesday or Thursday, where the six o'clock session is listed on its\nown.",
       "confidence": "medium",
+      "duplicateOf": "trad/sin-e#d42b06f2d9",
+      "duplicateScore": 0.65,
       "firstSeen": "2026-08-17",
       "lastSeen": "2026-08-17"
     },

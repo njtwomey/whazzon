@@ -19,6 +19,8 @@ const snapshot = {
     { category: "theatre", label: "Theatre", sourceCount: 3, eventCount: 12 },
     { category: "cinema", label: "Cinema", sourceCount: 2, eventCount: 25 },
   ],
+  // Required by the real type, and the duplicates slider counts over it.
+  events: [],
 } as unknown as Snapshot;
 
 const TAGS = [

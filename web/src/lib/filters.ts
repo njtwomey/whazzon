@@ -1,6 +1,7 @@
 import * as React from "react";
 import { useSearchParams } from "react-router-dom";
-import type { ConfidenceFilter, DuplicateFilter, Facet, Filters, PriceFilter, Sort } from "./filter-events";
+import { DUPLICATE_STRENGTH_DEFAULT } from "./filter-events";
+import type { ConfidenceFilter, Facet, Filters, PriceFilter, Sort } from "./filter-events";
 
 /**
  * Filter state lives in the URL, not in component state, so any view a person
@@ -30,6 +31,14 @@ function writeFacet(search: URLSearchParams, key: string, facet: Facet): void {
   for (const value of facet.exclude) search.append(key, `-${value}`);
 }
 
+/** A hand-edited URL should not be able to produce a nonsense threshold. */
+function clampStrength(raw: string | null): number {
+  if (raw === null) return DUPLICATE_STRENGTH_DEFAULT;
+  const n = Number(raw);
+  if (!Number.isFinite(n)) return DUPLICATE_STRENGTH_DEFAULT;
+  return Math.min(100, Math.max(0, Math.round(n)));
+}
+
 export function useFilters(): [Filters, (patch: Partial<Filters>) => void, () => void] {
   const [params, setParams] = useSearchParams();
 
@@ -49,7 +58,7 @@ export function useFilters(): [Filters, (patch: Partial<Filters>) => void, () =>
       includeFinished: params.get("finished") === "1",
       hasLink: params.get("link") === "1",
       confidence: (params.get("conf") as ConfidenceFilter) ?? "any",
-      duplicates: (params.get("dupes") as DuplicateFilter) ?? "balanced",
+      duplicateStrength: clampStrength(params.get("dupes")),
     }),
     [params],
   );
@@ -72,7 +81,7 @@ export function useFilters(): [Filters, (patch: Partial<Filters>) => void, () =>
       if (next.includeFinished) search.set("finished", "1");
       if (next.hasLink) search.set("link", "1");
       if (next.confidence !== "any") search.set("conf", next.confidence);
-      if (next.duplicates !== "balanced") search.set("dupes", next.duplicates);
+      if (next.duplicateStrength !== DUPLICATE_STRENGTH_DEFAULT) search.set("dupes", String(next.duplicateStrength));
       setParams(search, { replace: true });
     },
     [filters, setParams],

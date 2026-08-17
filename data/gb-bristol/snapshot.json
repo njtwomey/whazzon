@@ -7,7 +7,7 @@
     "country": "United Kingdom",
     "timezone": "Europe/London"
   },
-  "generatedAt": "2026-08-17T12:19:21Z",
+  "generatedAt": "2026-08-17T12:31:02Z",
   "asOf": "2026-08-17",
   "categories": [
     {
@@ -24575,13 +24575,17 @@
         "currency": "GBP"
       },
       "tags": [
+        "beginners",
+        "community",
         "courses",
-        "languages",
-        "community"
+        "languages"
       ],
       "raw": "**Award in ESOL Skills for Life (Speaking and Listening) Level 1**\n\nThis course is funded by the West of England Combined Authority and is only available to residents living within the West of England Combined Authority area.\n\nDevelop confidence to interact with others in English, no matter the situation. This ESOL course teaches you skills to help you communicate verbally in English. It can support you in job interviews, social conversations, or in your studies.\n\nThis ESOL level 1 speaking and listening course builds on skills you learnt at entry 3. Gain tools to help you in conversations and sharpen your listening skills.\n\nDates: Tue 08/09/2026 - Thu 17/12/2026. Times: 12:30pm - 3:00pm. Duration: 39 sessions. Location: WEA York Court (Bristol), 7 York Court, Wilder Street, Bristol BS2 8QH. Tutor: Sasha Novikova. Course code: Q00026422. How you'll learn: In venue. Availability: 3 places remaining. Status: Available. Fee range: Funding available - £780.00.\n",
       "summary": "The highest ESOL speaking and listening level the WEA runs in Bristol this term, aimed at job interviews, study and everyday conversation. Early afternoons at York Court.",
       "confidence": "high",
+      "alsoListedBy": [
+        "education/wea-bristol"
+      ],
       "firstSeen": "2026-08-17",
       "lastSeen": "2026-08-17"
     },
@@ -24722,7 +24726,7 @@
       "raw": "**Award in ESOL Skills for Life (Speaking and Listening) Entry 1**\n\nThis course is funded by the West of England Combined Authority and is only available to residents living within the West of England Combined Authority area.\n\nLearn basic communication skills with this ESOL speaking and listening course. This English course is for speakers of other languages. It will help you learn essential speaking and listening skills to be able to communicate in English.\n\nEntry 1 ESOL courses help people who are just starting to learn English. This course will help you gain confidence to speak about basic topics and understand core words. There are also reading and writing courses at this level.\n\nDates: Tue 08/09/2026 - Thu 17/12/2026. Times: 12:30pm - 3:00pm. Duration: 39 sessions. Location: WEA York Court (Bristol), 7 York Court, Wilder Street, Bristol BS2 8QH. Tutor: TBC T.B.C. Course code: Q00026413. How you'll learn: In venue. Availability: 9 places remaining. Status: Available. Fee range: Funding available - £780.00.\n",
       "summary": "An afternoon cohort of the ESOL Entry 1 speaking and listening award, for people at the very start of learning English. The one with most places left this term.",
       "confidence": "high",
-      "duplicateOf": "education/wea-bristol#7b739a22fa",
+      "duplicateOf": "education/wea-bristol#10977d82c6",
       "duplicateScore": 0.5,
       "firstSeen": "2026-08-17",
       "lastSeen": "2026-08-17"
@@ -55033,6 +55037,8 @@
       "raw": "**Stand Up For The Weekend with DAN TIERNAN — and GUESTS**\n\nSaturday 12 December - Hen & Chicken Studio. 8pm (doors 7.15pm)  - Tickets from £12 to £20\n\nDan Tiernan's comedy is a thrilling collision of anarchic physicality, razor-sharp writing and disarming vulnerability. He storms the stage with explosive, unpredictable energy, turning stories about addiction, neurodiversity, identity and working-class life into relentless laugh generators.",
       "summary": "Dan Tiernan headlines with anarchic physicality and stories of addiction, neurodiversity and working-class life.",
       "confidence": "high",
+      "duplicateOf": "comedy/hen-and-chicken#dd7169d3da",
+      "duplicateScore": 0.65,
       "firstSeen": "2026-08-17",
       "lastSeen": "2026-08-17"
     },
@@ -62220,7 +62226,7 @@
       "summary": "The Friday improvers' aerial hoop course, a separate block from the Wednesday improvers' class.",
       "confidence": "high",
       "duplicateOf": "making/the-island#1fceb5647d",
-      "duplicateScore": 1,
+      "duplicateScore": 0.65,
       "firstSeen": "2026-08-17",
       "lastSeen": "2026-08-17"
     },
@@ -62695,7 +62701,7 @@
       "summary": "The second weekly Bristol Hoop School slot, on Tuesday evenings.",
       "confidence": "medium",
       "duplicateOf": "making/the-island#24ed0bb318",
-      "duplicateScore": 1,
+      "duplicateScore": 0.5,
       "firstSeen": "2026-08-17",
       "lastSeen": "2026-08-17"
     },

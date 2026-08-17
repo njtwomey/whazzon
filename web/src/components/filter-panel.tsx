@@ -9,12 +9,13 @@ import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/component
 import { Field, FieldGroup, FieldLabel } from "@/components/ui/field";
 import { Separator } from "@/components/ui/separator";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
+import { Slider } from "@/components/ui/slider";
 import {
   CONFIDENCE_OPTIONS,
-  DUPLICATE_OPTIONS,
+  DUPLICATE_STRENGTH_DEFAULT,
+  duplicateThreshold,
   PRICE_OPTIONS,
   type ConfidenceFilter,
-  type DuplicateFilter,
   type Filters,
   type PriceFilter,
 } from "@/lib/filters";
@@ -113,13 +114,30 @@ export function FilterPanel({
     [tags],
   );
 
+  /**
+   * How many rows the current threshold hides, counted over the whole snapshot
+   * rather than the filtered set — the question is "what is this control doing",
+   * not "what is left after everything else".
+   */
+  const { hiddenDuplicates, duplicatesAvailable } = React.useMemo(() => {
+    const threshold = duplicateThreshold(filters.duplicateStrength);
+    let hidden = 0;
+    let available = 0;
+    for (const event of snapshot.events) {
+      if (event.duplicateScore === undefined) continue;
+      available += 1;
+      if (event.duplicateScore >= threshold) hidden += 1;
+    }
+    return { hiddenDuplicates: hidden, duplicatesAvailable: available };
+  }, [snapshot.events, filters.duplicateStrength]);
+
   const showCount =
     (filters.price !== "any" ? 1 : 0) +
     (filters.includeCarried ? 0 : 1) +
     (filters.includeFinished ? 1 : 0) +
     (filters.hasLink ? 1 : 0) +
     (filters.confidence !== "any" ? 1 : 0) +
-    (filters.duplicates !== "balanced" ? 1 : 0);
+    (filters.duplicateStrength !== DUPLICATE_STRENGTH_DEFAULT ? 1 : 0);
 
   return (
     <div className="grid gap-3">
@@ -252,24 +270,27 @@ export function FilterPanel({
             ))}
           </ButtonGroup>
 
-          <SubLabel hint="The same event often appears under several sources — a venue's own page and two or three listings sites. Balanced hides the ones we are reasonably sure are repeats, keeping the venue's own listing. Nothing is lost: the kept row absorbs any picture or description only a duplicate had.">
+          <SubLabel hint="The same event often turns up under several sources — a venue's own page and two or three listings sites. Drag right to hide more of the repeats; the one kept is the venue's own listing, and it absorbs any picture or description only a duplicate had, so nothing is lost. Drag to zero to see every listing.">
             Duplicates
           </SubLabel>
-          <ButtonGroup aria-label="Hide duplicates" className="mb-2.5 w-full min-w-0">
-            {DUPLICATE_OPTIONS.map((option) => (
-              <Button
-                key={option.value}
-                variant={filters.duplicates === option.value ? "default" : "outline"}
-                size="sm"
-                className="h-6 min-w-0 flex-1 text-[0.72rem] font-normal"
-                aria-pressed={filters.duplicates === option.value}
-                title={option.hint}
-                onClick={() => update({ duplicates: option.value as DuplicateFilter })}
-              >
-                {option.label}
-              </Button>
-            ))}
-          </ButtonGroup>
+          <div className="mb-3">
+            <Slider
+              value={[filters.duplicateStrength]}
+              onValueChange={([next]) => update({ duplicateStrength: next ?? DUPLICATE_STRENGTH_DEFAULT })}
+              min={0}
+              max={100}
+              step={5}
+              aria-label="How eagerly to hide duplicate listings"
+            />
+            {/* The live count is the point of a slider over presets: you can see
+                what the threshold costs while you are still choosing it. */}
+            <p className="mt-1.5 text-xs text-muted-foreground">
+              {hiddenDuplicates === 0
+                ? "showing every listing"
+                : `hiding ${hiddenDuplicates.toLocaleString()} repeat${hiddenDuplicates === 1 ? "" : "s"}`}
+              {duplicatesAvailable > 0 && ` of ${duplicatesAvailable.toLocaleString()} found`}
+            </p>
+          </div>
 
           <FieldGroup className="gap-2">
             <Field orientation="horizontal">

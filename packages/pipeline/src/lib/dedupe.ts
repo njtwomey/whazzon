@@ -202,28 +202,49 @@ export function annotateDuplicates(
   let marked = 0;
 
   for (const bucket of byDate.values()) {
-    // Greedy clustering on any non-zero score. Stable, because the input order is
-    // already deterministic.
-    const clusters: SnapshotEvent[][] = [];
-    for (const event of bucket) {
-      const found = clusters.find((c) => c.some((member) => duplicateScore(member, event) > 0));
-      if (found) found.push(event);
-      else clusters.push([event]);
+    /**
+     * Precedence, then first-caught-wins. The first row in a cluster is the real
+     * one and every later row scores its best similarity against the rows already
+     * accepted — which is a rule anyone can follow by eye, unlike ranking a
+     * cluster after the fact.
+     *
+     * But "first" has to mean something, and bucket order is really catalogue file
+     * order, which would make the canonical row arbitrary — a gig could end up
+     * filed under "City-wide" rather than "Music" depending on which YAML file
+     * happened to be walked first. So the precedence is set here, once: a venue's
+     * own page before an aggregator's copy of it, then whichever row says more,
+     * then the id so it is deterministic. Ordering is the only preference
+     * expressed; everything after it is mechanical.
+     */
+    const ordered = [...bucket].sort((a, b) => {
+      const ka = KIND_RANK[kindOf(a.sourceId) ?? "aggregator"] ?? 4;
+      const kb = KIND_RANK[kindOf(b.sourceId) ?? "aggregator"] ?? 4;
+      if (ka !== kb) return ka - kb;
+      const byRichness = richness(b) - richness(a);
+      if (byRichness !== 0) return byRichness;
+      return a.id.localeCompare(b.id);
+    });
+
+    const clusters: { members: SnapshotEvent[]; scores: number[] }[] = [];
+    for (const event of ordered) {
+      let joined = false;
+      for (const cluster of clusters) {
+        // Max similarity against the rows already in the cluster, per the rule.
+        const score = Math.max(...cluster.members.map((member) => duplicateScore(member, event)));
+        if (score > 0) {
+          cluster.members.push(event);
+          cluster.scores.push(score);
+          joined = true;
+          break;
+        }
+      }
+      if (!joined) clusters.push({ members: [event], scores: [0] });
     }
 
-    for (const cluster of clusters) {
-      if (cluster.length === 1) continue;
+    for (const { members, scores } of clusters) {
+      if (members.length === 1) continue;
 
-      const ranked = [...cluster].sort((a, b) => {
-        const ka = KIND_RANK[kindOf(a.sourceId) ?? "aggregator"] ?? 4;
-        const kb = KIND_RANK[kindOf(b.sourceId) ?? "aggregator"] ?? 4;
-        if (ka !== kb) return ka - kb;
-        const byRichness = richness(b) - richness(a);
-        if (byRichness !== 0) return byRichness;
-        return a.id.localeCompare(b.id);
-      });
-
-      const [winner, ...losers] = ranked as [SnapshotEvent, ...SnapshotEvent[]];
+      const [winner, ...losers] = members as [SnapshotEvent, ...SnapshotEvent[]];
 
       // The canonical row absorbs what the others knew, so hiding a duplicate
       // never loses an image or a description that only it had.
@@ -243,8 +264,8 @@ export function annotateDuplicates(
           .reverse()[0]!,
       });
 
-      const duplicates = losers.map((event) => {
-        const score = Math.max(...cluster.filter((c) => c.id !== event.id).map((c) => duplicateScore(c, event)));
+      const duplicates = losers.map((event, i) => {
+        const score = scores[i + 1]!;
         annotated.set(event.id, { ...event, duplicateOf: winner.id, duplicateScore: score });
         return { event, score };
       });

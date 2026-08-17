@@ -120,27 +120,33 @@ const CONFIDENCE_RANK: Record<SnapshotEvent["confidence"], number> = { low: 0, m
 const CONFIDENCE_FLOOR: Record<ConfidenceFilter, number> = { any: 0, medium: 1, high: 2 };
 
 /**
- * How eagerly to hide a listing another source already carried.
+ * How eagerly to hide a listing another source already carried, as a strength
+ * from 0 to 100 rather than a set of named presets.
  *
- * `compile` scores duplicates rather than deleting them, so this is where the
- * line actually gets drawn — and it can move without recompiling. The middle
- * setting is the default because duplication genuinely dilutes the thing: seeing
- * one evening three times makes a listing feel like noise. But the aggregators
- * that produce most of the duplication are also the safety net for events no
- * venue site carries, so "all" has to stay reachable.
+ * `compile` scores each suspected duplicate and deletes nothing, so the line is
+ * drawn here — and a slider hands that to the reader instead of us picking three
+ * or four stops we happen to like. Duplication genuinely dilutes the thing (one
+ * evening seen three times reads as noise), but the aggregators causing most of
+ * it are also the safety net for events no venue site carries, so 0 has to keep
+ * everything.
+ *
+ * 0 hides nothing. 100 hides anything with any suspicion against it at all. The
+ * default sits in the middle, which lands just above "one title contained in
+ * another".
  */
-export const DUPLICATE_OPTIONS = [
-  { value: "all", label: "All", threshold: 2, hint: "show every listing, duplicates included" },
-  { value: "exact", label: "Exact", threshold: 1, hint: "hide only an identical title at the same venue" },
-  { value: "balanced", label: "Balanced", threshold: 0.65, hint: "also hide one title contained in another" },
-  { value: "eager", label: "Eager", threshold: 0.3, hint: "hide anything that looks like a duplicate at all" },
-] as const;
+export const DUPLICATE_STRENGTH_DEFAULT = 50;
 
-export type DuplicateFilter = (typeof DUPLICATE_OPTIONS)[number]["value"];
+/** The lowest score any duplicate can carry; below this nothing is ever marked. */
+const WEAKEST_SCORE = 0.3;
 
-const DUPLICATE_THRESHOLD: Record<DuplicateFilter, number> = Object.fromEntries(
-  DUPLICATE_OPTIONS.map((o) => [o.value, o.threshold]),
-) as Record<DuplicateFilter, number>;
+/**
+ * Strength to the score at which a row starts being hidden. At strength 0 this
+ * returns a number above any real score, so nothing matches.
+ */
+export function duplicateThreshold(strength: number): number {
+  if (strength <= 0) return Number.POSITIVE_INFINITY;
+  return 1 - (strength / 100) * (1 - WEAKEST_SCORE);
+}
 
 export interface Filters {
   q: string;
@@ -167,8 +173,8 @@ export interface Filters {
   hasLink: boolean;
   /** Lowest extractor confidence worth showing. */
   confidence: ConfidenceFilter;
-  /** How eagerly to hide a listing another source already carried. */
-  duplicates: DuplicateFilter;
+  /** 0 keeps every duplicate, 100 hides any row with suspicion against it. */
+  duplicateStrength: number;
 }
 
 export const DEFAULT_FILTERS: Filters = {
@@ -184,7 +190,7 @@ export const DEFAULT_FILTERS: Filters = {
   includeFinished: false,
   hasLink: false,
   confidence: "any",
-  duplicates: "balanced",
+  duplicateStrength: DUPLICATE_STRENGTH_DEFAULT,
 };
 
 export function activeFilterCount(filters: Filters): number {
@@ -201,7 +207,7 @@ export function activeFilterCount(filters: Filters): number {
   if (filters.includeFinished) n += 1;
   if (filters.hasLink) n += 1;
   if (filters.confidence !== "any") n += 1;
-  if (filters.duplicates !== "balanced") n += 1;
+  if (filters.duplicateStrength !== DUPLICATE_STRENGTH_DEFAULT) n += 1;
   return n;
 }
 
@@ -258,7 +264,7 @@ export function applyFilters(events: SnapshotEvent[], filters: Filters, asOf: st
     // A scored duplicate, hidden at or above the chosen threshold. The canonical
     // row has already absorbed anything only the duplicate carried, so nothing
     // is lost by hiding it.
-    if (event.duplicateScore !== undefined && event.duplicateScore >= DUPLICATE_THRESHOLD[filters.duplicates]) {
+    if (event.duplicateScore !== undefined && event.duplicateScore >= duplicateThreshold(filters.duplicateStrength)) {
       return false;
     }
 

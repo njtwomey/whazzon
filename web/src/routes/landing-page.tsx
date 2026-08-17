@@ -179,9 +179,9 @@ export function LandingPage() {
         <div className="absolute inset-0">
           <div className="mx-auto flex h-full max-w-5xl flex-col justify-center px-4 sm:px-6 lg:px-8">
             <h1 className="text-5xl font-semibold tracking-tight sm:text-6xl">whazzon</h1>
-            <p className="mt-2 max-w-sm text-lg text-muted-foreground">
-              What&rsquo;s on in a city, from the places putting it on.
-            </p>
+            {/* Says the same thing as a sentence of prose would, in two words, and
+                tells you how the name is meant to sound while it does it. */}
+            <p className="mt-1 text-xl tracking-tight text-muted-foreground sm:text-2xl">wherziton and whenziton</p>
           </div>
         </div>
 

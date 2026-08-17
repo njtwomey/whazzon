@@ -1,6 +1,14 @@
 import { Info, Search, SlidersHorizontal, TriangleAlert } from "lucide-react";
 import * as React from "react";
 import { Link } from "react-router-dom";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
 import { Button } from "@/components/ui/button";
 import { ButtonGroup } from "@/components/ui/button-group";
 import { HoverCard, HoverCardContent, HoverCardTrigger } from "@/components/ui/hover-card";
@@ -17,6 +25,10 @@ import { formatDate } from "@/lib/format";
  * toolbar above the results. Two bars of controls meant looking in two places for
  * the same kind of thing, so they are together now, and the split is by purpose
  * instead — **who and where** on the left, **what you do about it** on the right.
+ *
+ * The left is a breadcrumb: `whazzon / bristol`. One city page looks much like
+ * another, so the bar has to say which one you are on, and the trail gives the way
+ * back out at the same time.
  *
  * The counts moved into a hover card behind an ⓘ. They are worth having and worth
  * nobody's screen space: how many events there are does not change what you click,
@@ -92,17 +104,37 @@ export function SiteHeader({
   return (
     <header className="sticky top-0 z-40 border-b bg-background/85 backdrop-blur-md">
       <div className="flex h-14 w-full items-center gap-2 px-4 sm:px-6 lg:px-8">
-        <Link to="/" className="flex min-w-0 shrink-0 items-center gap-2.5" title="All locations">
-          {locationImageUrl && !markFailed && (
-            <img
-              src={`${import.meta.env.BASE_URL}${locationImageUrl}`}
-              alt=""
-              onError={() => setMarkFailed(true)}
-              className="h-8 w-14 shrink-0 rounded-md object-cover ring-1 ring-border"
-            />
-          )}
-          <span className="text-lg font-semibold lowercase tracking-tight">{locationName}</span>
-        </Link>
+        {/* A trail rather than a name, so the bar says where you are as well as
+            how to leave. The city was on its own for a while and the way back was
+            the name itself — a link you had to guess at.
+
+            A slash, not the default chevron: two crumbs read as a path, and this
+            is the punctuation a URL would use. The city's illustration belongs to
+            the city, so it sits in that crumb rather than in front of the site
+            name, where it would read as a logo it is not. */}
+        <Breadcrumb className="min-w-0 shrink-0">
+          <BreadcrumbList className="gap-1.5 text-base sm:gap-1.5">
+            <BreadcrumbItem>
+              <BreadcrumbLink asChild className="lowercase tracking-tight">
+                <Link to="/">whazzon</Link>
+              </BreadcrumbLink>
+            </BreadcrumbItem>
+            <BreadcrumbSeparator className="text-muted-foreground/50">/</BreadcrumbSeparator>
+            <BreadcrumbItem>
+              <BreadcrumbPage className="flex items-center gap-2 font-semibold lowercase tracking-tight">
+                {locationImageUrl && !markFailed && (
+                  <img
+                    src={`${import.meta.env.BASE_URL}${locationImageUrl}`}
+                    alt=""
+                    onError={() => setMarkFailed(true)}
+                    className="h-8 w-14 shrink-0 rounded-md object-cover ring-1 ring-border"
+                  />
+                )}
+                {locationName}
+              </BreadcrumbPage>
+            </BreadcrumbItem>
+          </BreadcrumbList>
+        </Breadcrumb>
 
         {/* Everything the old toolbar said in prose, on demand. A hover card rather
             than a tooltip because it is a small table, and because the unreachable

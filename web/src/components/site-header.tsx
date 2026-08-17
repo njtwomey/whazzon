@@ -13,6 +13,7 @@ import { Button } from "@/components/ui/button";
 import { ButtonGroup } from "@/components/ui/button-group";
 import { HoverCard, HoverCardContent, HoverCardTrigger } from "@/components/ui/hover-card";
 import { InputGroup, InputGroupAddon, InputGroupInput } from "@/components/ui/input-group";
+import { Separator } from "@/components/ui/separator";
 import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { DENSITY, DENSITY_OPTIONS, type Density } from "@/lib/density";
@@ -104,37 +105,42 @@ export function SiteHeader({
   return (
     <header className="sticky top-0 z-40 border-b bg-background/85 backdrop-blur-md">
       <div className="flex h-14 w-full items-center gap-2 px-4 sm:px-6 lg:px-8">
-        {/* A trail rather than a name, so the bar says where you are as well as
-            how to leave. The city was on its own for a while and the way back was
-            the name itself — a link you had to guess at.
+        {/* city mark | whazzon / city.
 
-            A slash, not the default chevron: two crumbs read as a path, and this
-            is the punctuation a URL would use. The city's illustration belongs to
-            the city, so it sits in that crumb rather than in front of the site
-            name, where it would read as a logo it is not. */}
-        <Breadcrumb className="min-w-0 shrink-0">
-          <BreadcrumbList className="gap-1.5 text-base sm:gap-1.5">
-            <BreadcrumbItem>
-              <BreadcrumbLink asChild className="lowercase tracking-tight">
-                <Link to="/">whazzon</Link>
-              </BreadcrumbLink>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator className="text-muted-foreground/50">/</BreadcrumbSeparator>
-            <BreadcrumbItem>
-              <BreadcrumbPage className="flex items-center gap-2 font-semibold lowercase tracking-tight">
-                {locationImageUrl && !markFailed && (
-                  <img
-                    src={`${import.meta.env.BASE_URL}${locationImageUrl}`}
-                    alt=""
-                    onError={() => setMarkFailed(true)}
-                    className="h-8 w-14 shrink-0 rounded-md object-cover ring-1 ring-border"
-                  />
-                )}
-                {locationName}
-              </BreadcrumbPage>
-            </BreadcrumbItem>
-          </BreadcrumbList>
-        </Breadcrumb>
+            The city's own illustration leads, because it is the fastest way to
+            know which page you are on — you recognise the shape before you read
+            the word. Then a rule, then the trail: the bar had carried the city's
+            name alone, which said where you were but not how to leave, since the
+            way back was that name being a link you had to guess at.
+
+            A slash rather than the default chevron. Two crumbs read as a path,
+            and the slash is the punctuation the URL uses. */}
+        <div className="flex min-w-0 shrink-0 items-center gap-2.5">
+          {locationImageUrl && !markFailed && (
+            <img
+              src={`${import.meta.env.BASE_URL}${locationImageUrl}`}
+              alt=""
+              onError={() => setMarkFailed(true)}
+              className="h-8 w-14 shrink-0 rounded-md object-cover ring-1 ring-border"
+            />
+          )}
+
+          {locationImageUrl && !markFailed && <Separator orientation="vertical" className="h-6" />}
+
+          <Breadcrumb>
+            <BreadcrumbList className="gap-1.5 text-base sm:gap-1.5">
+              <BreadcrumbItem>
+                <BreadcrumbLink asChild className="lowercase tracking-tight">
+                  <Link to="/">whazzon</Link>
+                </BreadcrumbLink>
+              </BreadcrumbItem>
+              <BreadcrumbSeparator className="text-muted-foreground/50">/</BreadcrumbSeparator>
+              <BreadcrumbItem>
+                <BreadcrumbPage className="font-semibold lowercase tracking-tight">{locationName}</BreadcrumbPage>
+              </BreadcrumbItem>
+            </BreadcrumbList>
+          </Breadcrumb>
+        </div>
 
         {/* Everything the old toolbar said in prose, on demand. A hover card rather
             than a tooltip because it is a small table, and because the unreachable

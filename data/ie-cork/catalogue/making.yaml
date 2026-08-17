@@ -39,6 +39,9 @@ sources:
       The lead that produced this entry placed Benchspace at Wandesford Quay. That is wrong — Wandesford Quay is Cork Printmakers and Backwater. Their own contact page gives Unit O15 (wood workshop) and Unit B1b at Marina Commercial Park, Centre Park Road, in the docklands. `address` is omitted rather than guessed: two units with two Eircodes, and the page could not be read directly to settle which is the public one.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
+    address:
+      lat: 51.898584
+      lon: -8.447981
 
   - id: making/cork-printmakers
     name: Cork Printmakers

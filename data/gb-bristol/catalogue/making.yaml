@@ -4,12 +4,7 @@ label: Making & Craft
 description: >-
   Makerspaces, workshops, printmaking, woodwork and craft courses.
 
-  The distinctive problem in this category is that most listings are *courses*,
-  not events — a ten-week evening class is not the same thing as a one-off
-  workshop, and a "what's on" page is much less useful if it fills up with
-  enrolment listings. Prefer one-off and short workshops, open days and public
-  makes; record a recurring course as `occurrence.kind: recurring` with the
-  pattern stated, rather than as a stream of dated events.
+  The distinctive problem in this category is that most listings are *courses*, not events — a ten-week evening class is not the same thing as a one-off workshop, and a "what's on" page is much less useful if it fills up with enrolment listings. Prefer one-off and short workshops, open days and public makes; record a recurring course as `occurrence.kind: recurring` with the pattern stated, rather than as a stream of dated events.
 sources:
   - id: making/bristol-folk-house
     name: Bristol Folk House
@@ -23,7 +18,9 @@ sources:
       street: 40A Park Street
       city: Bristol
       postcode: BS1 5JG
-    tags: [courses, craft, adult-education, music, independent, historic]
+      lat: 51.454473
+      lon: -2.601546
+    tags: [ courses, craft, adult-education, music, independent, historic ]
     cadence: monthly
     hints: |
       Long-running adult education centre: craft, art, woodwork and language
@@ -38,9 +35,7 @@ sources:
       /courses-and-workshops, grouped by subject (crafts, pottery, woodwork)
       rather than dated; the catalogued /courses/ path no longer exists.
     notes: >-
-      Verified 2026-08-17: page carries the "Bristol Folk House Cooperative Ltd"
-      byline and the 40a Park Street BS1 5JG address, with eight dated events
-      from 20 Aug to 5 Sep 2026 including two craft/writing workshops.
+      Verified 2026-08-17: page carries the "Bristol Folk House Cooperative Ltd" byline and the 40a Park Street BS1 5JG address, with eight dated events from 20 Aug to 5 Sep 2026 including two craft/writing workshops.
     addedAt: "2026-08-16"
 
   - id: making/bristol-hackspace
@@ -51,7 +46,7 @@ sources:
     url: https://www.ticketsource.co.uk/bristol-hackspace
     homepage: https://www.bristolhackspace.org/
     area: St Philips
-    tags: [makerspace, electronics, open-evening, community, diy, free]
+    tags: [ makerspace, electronics, open-evening, community, diy, free ]
     cadence: monthly
     hints: |
       Volunteer-run makerspace with regular open evenings anyone can attend —
@@ -65,10 +60,11 @@ sources:
       Sunday), not weekly — take the dates as listed rather than assuming a
       pattern.
     notes: >-
-      Verified 2026-08-17: ticket page titled "Bristol Hackspace event tickets"
-      lists Open Days on 18 Oct and 1 Nov 2026. Own site confirms the org at
-      Unit B, Meridian Studios, Queen Victoria Street BS2 0QR but lists no dates.
+      Verified 2026-08-17: ticket page titled "Bristol Hackspace event tickets" lists Open Days on 18 Oct and 1 Nov 2026. Own site confirms the org at Unit B, Meridian Studios, Queen Victoria Street BS2 0QR but lists no dates.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.452781
+      lon: -2.572975
 
   - id: making/spike-print-studio
     name: Spike Print Studio
@@ -77,7 +73,7 @@ sources:
     status: provisional
     url: https://www.spikeprintstudio.org/courses/
     area: Spike Island
-    tags: [printmaking, courses, workshops, open-access, studio]
+    tags: [ printmaking, courses, workshops, open-access, studio ]
     cadence: monthly
     hints: |
       Open-access printmaking studio — screenprint, etching, letterpress. Runs
@@ -93,7 +89,7 @@ sources:
     url: https://www.bwrp.org.uk/what-to-expect
     homepage: https://www.bwrp.org.uk/
     area: St Philips
-    tags: [woodwork, workshops, social-enterprise, volunteering, reuse]
+    tags: [ woodwork, workshops, social-enterprise, volunteering, reuse ]
     cadence: monthly
     hints: |
       Social enterprise reclaiming timber, running woodworking workshops and
@@ -107,12 +103,11 @@ sources:
       (bespoke items, cutting, machining), not a class; do not record it as an
       event. A "Shedzone" button sits on the homepage with no page behind it.
     notes: >-
-      Verified 2026-08-17: catalogued bristolwoodrecycling.org.uk no longer
-      resolves (DNS ENOTFOUND, with and without www). The project now trades at
-      bwrp.org.uk — page titled "Reclaimed Wood | Bristol Wood Recycling
-      Project" giving Unit 4, William Street, St Philips BS2 0RG, which matches
-      the catalogued area.
+      Verified 2026-08-17: catalogued bristolwoodrecycling.org.uk no longer resolves (DNS ENOTFOUND, with and without www). The project now trades at bwrp.org.uk — page titled "Reclaimed Wood | Bristol Wood Recycling Project" giving Unit 4, William Street, St Philips BS2 0RG, which matches the catalogued area.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.454454
+      lon: -2.57392
 
   - id: making/bristol-bike-project
     name: The Bristol Bike Project
@@ -122,7 +117,7 @@ sources:
     url: https://thebristolbikeproject.org/maintenance/bike-kitchen/
     homepage: https://thebristolbikeproject.org/
     area: Stokes Croft
-    tags: [bikes, diy, workshops, community, repair, volunteering]
+    tags: [ bikes, diy, workshops, community, repair, volunteering ]
     cadence: monthly
     hints: |
       DIY bike maintenance sessions and earn-a-bike programmes. Mostly
@@ -136,11 +131,11 @@ sources:
       page is misleadingly named: it explains the session types and carries no
       dates.
     notes: >-
-      Verified 2026-08-17: page is The Bristol Bike Project CIC, Bike Kitchen
-      section, with the Thursday evening drop-in and prices. Address on the page
-      is 198–200 Stapleton Road BS5 0NY, which contradicts the catalogued
-      area: Stokes Croft — needs a curator's decision, left unchanged.
+      Verified 2026-08-17: page is The Bristol Bike Project CIC, Bike Kitchen section, with the Thursday evening drop-in and prices. Address on the page is 198–200 Stapleton Road BS5 0NY, which contradicts the catalogued area: Stokes Croft — needs a curator's decision, left unchanged.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.464286
+      lon: -2.570405
 
   - id: making/knowle-west-media-centre
     name: Knowle West Media Centre
@@ -149,12 +144,15 @@ sources:
     status: provisional
     url: https://kwmc.org.uk/whats-on/
     area: Knowle West
-    tags: [makerspace, digital, community, workshops, free, youth]
+    tags: [ makerspace, digital, community, workshops, free, youth ]
     cadence: monthly
     hints: |
       Community arts and digital media centre running The Factory, a digital
       fabrication workshop. Strong free and youth programme.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.425458
+      lon: -2.593267
 
   - id: making/bricks-bristol
     name: BRICKS
@@ -163,7 +161,7 @@ sources:
     status: provisional
     url: https://stanneshouse.org/whats-on/
     homepage: https://bricksbristol.org/
-    tags: [artist-led, studios, workshops, community]
+    tags: [ artist-led, studios, workshops, community ]
     cadence: monthly
     hints: |
       Artist-led organisation running studios and a public workshop programme.
@@ -175,11 +173,11 @@ sources:
       open-ended (Art Club Wednesdays, Creative Circle Tuesdays) and belongs as
       recurring; the pottery open and holiday ateliers are dated runs.
     notes: >-
-      Verified 2026-08-17: stanneshouse.org states "Bricks is the charity that
-      set up and runs St Anne's House" (charity 1183118), same Brislington BS4
-      4AB address as bricksbristol.org, and its what's-on carries dated
-      craft/pottery sessions through Jul–Sep 2026.
+      Verified 2026-08-17: stanneshouse.org states "Bricks is the charity that set up and runs St Anne's House" (charity 1183118), same Brislington BS4 4AB address as bricksbristol.org, and its what's-on carries dated craft/pottery sessions through Jul–Sep 2026.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.452756
+      lon: -2.547608
 
   - id: making/bristol-textile-quarter
     name: Bristol Textile Quarter
@@ -188,7 +186,7 @@ sources:
     status: dormant
     url: https://bristoltextilequarter.co.uk/events/
     homepage: https://bristoltextilequarter.co.uk/
-    tags: [textiles, weaving, courses, workshops, sustainable]
+    tags: [ textiles, weaving, courses, workshops, sustainable ]
     cadence: monthly
     hints: |
       Listings are The Events Calendar (WordPress "tribe") at /events/ — that is
@@ -198,10 +196,7 @@ sources:
       block: check the markup for tribe-events-calendar-latest-past before
       recording something as upcoming.
     notes: >-
-      Verified 2026-08-17: still the right organisation — Ground Floor, 1A Barton
-      Road, St Philips BS2 0LF, site live. But /events/ says "There are no
-      upcoming events" and the only entries are past ones ending 19 July 2025,
-      13 months ago, so marked dormant rather than active.
+      Verified 2026-08-17: still the right organisation — Ground Floor, 1A Barton Road, St Philips BS2 0LF, site live. But /events/ says "There are no upcoming events" and the only entries are past ones ending 19 July 2025, 13 months ago, so marked dormant rather than active.
     addedAt: "2026-08-16"
 
   - id: making/bristol-guild
@@ -211,17 +206,10 @@ sources:
     status: closed
     url: https://www.bristolguild.co.uk/
     area: Park Street
-    tags: [craft, gallery, shop, exhibitions, applied-art]
+    tags: [ craft, gallery, shop, exhibitions, applied-art ]
     cadence: monthly
     notes: >-
-      Craft shop and gallery on Park Street with periodic exhibitions. Closed:
-      the Guild shut on 30 May 2024 after 116 years at 68–70 Park Street, and
-      the company went into liquidation. bristolguild.co.uk now serves a
-      "Launching Soon" placeholder with a contact form and no address, business
-      description or listings — the 200 it returns to check-urls means nothing.
-      Verified 2026-08-17; kept as closed so it is not re-proposed. If the
-      placeholder ever becomes a relaunched Guild, this needs re-checking rather
-      than assuming continuity.
+      Craft shop and gallery on Park Street with periodic exhibitions. Closed: the Guild shut on 30 May 2024 after 116 years at 68–70 Park Street, and the company went into liquidation. bristolguild.co.uk now serves a "Launching Soon" placeholder with a contact form and no address, business description or listings — the 200 it returns to check-urls means nothing. Verified 2026-08-17; kept as closed so it is not re-proposed. If the placeholder ever becomes a relaunched Guild, this needs re-checking rather than assuming continuity.
     addedAt: "2026-08-16"
 
   - id: making/the-island
@@ -232,7 +220,7 @@ sources:
     url: https://artspace.uk/events-home/
     homepage: https://artspace.uk/
     area: Old City
-    tags: [artist-led, studios, workshops, events-space, diy]
+    tags: [ artist-led, studios, workshops, events-space, diy ]
     cadence: monthly
     hints: |
       The programme is almost entirely weekly movement classes with fixed
@@ -241,13 +229,7 @@ sources:
       stated, not as a stream of dated instances, or one term of classes becomes
       hundreds of events.
     notes: >-
-      Verified 2026-08-17: artspacelifespace.com now 301s to artspace.uk, same
-      organisation — "Artspace Lifespace" (charity 1168150), venue given as The
-      Island, Nelson Street BS1 2BE, matching the catalogued Old City area. The
-      events page is well populated (20+ classes across the coming fortnight).
-      Note the programme is dance, ballet, aerial circus and wrestling with no
-      making content at all, so this source is in the wrong category — a
-      recategorisation decision for the owner, not changed here.
+      Verified 2026-08-17: artspacelifespace.com now 301s to artspace.uk, same organisation — "Artspace Lifespace" (charity 1168150), venue given as The Island, Nelson Street BS1 2BE, matching the catalogued Old City area. The events page is well populated (20+ classes across the coming fortnight). Note the programme is dance, ballet, aerial circus and wrestling with no making content at all, so this source is in the wrong category — a recategorisation decision for the owner, not changed here.
     addedAt: "2026-08-16"
 
   - id: making/maker-shed
@@ -257,7 +239,7 @@ sources:
     status: provisional
     url: https://themakershed.co.uk/courses/
     homepage: https://themakershed.co.uk/
-    tags: [makerspace, workshops, diy, unverified]
+    tags: [ makerspace, workshops, diy, unverified ]
     cadence: monthly
     hints: |
       Woodworking and furniture-making school, not an open-access makerspace:
@@ -275,13 +257,7 @@ sources:
       date is still running. Record each course as recurring with its session
       pattern, not as one event per session.
     notes: >-
-      Identified 2026-08-17, and it is real: The Makershed, St Paul's Learning
-      Centre, 94 Grosvenor Road, St Pauls BS2 8XJ — a wood workshop running
-      woodwork courses at levels 1–3. Not the hackspace and not a Men's Shed;
-      the previous URL pointing at Bristol Hackspace was a stand-in and is now
-      corrected. Active: course start dates of 14 Jul, 8 Sep and 3 Nov 2026 are
-      published. Catalogued name "Maker Shed" should probably be "The Makershed",
-      and the `unverified` tag no longer applies — both left for the owner.
+      Identified 2026-08-17, and it is real: The Makershed, St Paul's Learning Centre, 94 Grosvenor Road, St Pauls BS2 8XJ — a wood workshop running woodwork courses at levels 1–3. Not the hackspace and not a Men's Shed; the previous URL pointing at Bristol Hackspace was a stand-in and is now corrected. Active: course start dates of 14 Jul, 8 Sep and 3 Nov 2026 are published. Catalogued name "Maker Shed" should probably be "The Makershed", and the `unverified` tag no longer applies — both left for the owner.
     addedAt: "2026-08-16"
 
   - id: making/mens-sheds-bristol
@@ -290,7 +266,7 @@ sources:
     kind: aggregator
     status: provisional
     url: https://menssheds.org.uk/find-a-shed/
-    tags: [woodwork, community, wellbeing, diy, free]
+    tags: [ woodwork, community, wellbeing, diy, free ]
     cadence: quarterly
     hints: |
       National directory of community workshops — filter to the Bristol area.
@@ -309,8 +285,5 @@ sources:
       — a recurring pattern, never a dated event. /sheds/ is prose about sheds
       generally and names none.
     notes: >-
-      Verified 2026-08-17: this is the UK Men's Sheds Association shed finder,
-      right page for a human but unusable to a fetcher. Kept the URL as the
-      human front door and recorded the JSON endpoint that actually carries the
-      data in hints.
+      Verified 2026-08-17: this is the UK Men's Sheds Association shed finder, right page for a human but unusable to a fetcher. Kept the URL as the human front door and recorded the JSON endpoint that actually carries the data in hints.
     addedAt: "2026-08-16"

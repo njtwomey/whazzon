@@ -175,6 +175,8 @@ sources:
     address:
       street: Phoenix Street / Pembroke Street
       city: Cork
+      lat: 51.897567
+      lon: -8.469429
     tags: [ independent, club, historic, free, nightly ]
     cadence: weekly
     hints: |
@@ -388,6 +390,9 @@ sources:
       describes hire terms rather than events.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
+    address:
+      lat: 51.896482
+      lon: -8.465889
 
   - id: music/maureens
     name: Maureen's
@@ -649,6 +654,8 @@ sources:
     address:
       street: Prince's Street
       city: Cork
+      lat: 51.897682
+      lon: -8.473814
     tags: [ classical, community, historic, free ]
     cadence: monthly
     hints: |
@@ -771,6 +778,9 @@ sources:
       different route.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
+    address:
+      lat: 51.89607
+      lon: -8.467929
 
   - id: music/ucc-music
     name: UCC Department of Music
@@ -796,6 +806,9 @@ sources:
       confirmed path rather than a confirmed programme.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
+    address:
+      lat: 51.899618
+      lon: -8.490035
 
   - id: music/live-at-the-marquee
     name: Live at the Marquee
@@ -1091,3 +1104,6 @@ sources:
       misconfigured.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
+    address:
+      lat: 51.89806
+      lon: -8.469902

@@ -2,7 +2,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { parseDocument } from "yaml";
 import { loadCatalogues } from "../lib/catalogue.js";
-import { resolveLocations } from "../lib/locations.js";
+import { loadLocation, resolveLocations } from "../lib/locations.js";
 import { paths, rel } from "../lib/paths.js";
 
 /**
@@ -52,7 +52,27 @@ async function lookup(query: string): Promise<Hit | undefined> {
   return { lat: Number(first.lat), lon: Number(first.lon), display: first.display_name };
 }
 
+/** Great-circle distance in km, for sanity-checking what came back. */
+function distanceKm(aLat: number, aLon: number, bLat: number, bLon: number): number {
+  const toRad = (d: number) => (d * Math.PI) / 180;
+  const dLat = toRad(bLat - aLat);
+  const dLon = toRad(bLon - aLon);
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(toRad(aLat)) * Math.cos(toRad(bLat)) * Math.sin(dLon / 2) ** 2;
+  return 2 * 6371 * Math.asin(Math.sqrt(h));
+}
+
+/**
+ * How far from the configured centre a result may land before it is rejected.
+ *
+ * Generous on purpose — several catalogued sources are deliberately outside the
+ * radius, and Cork Racecourse is 35km out with a note explaining why. This is not
+ * a radius filter; it is here to catch a lookup that answered with the wrong Cork.
+ */
+const SANITY_KM = 45;
+
 for (const locationId of locations) {
+  const location = loadLocation(locationId);
+  const centre = location.centre;
   const cachePath = join(paths.locationDir(locationId), "assets", "geocode-cache.json");
   const cache: Record<string, Hit | null> = existsSync(cachePath)
     ? (JSON.parse(readFileSync(cachePath, "utf8")) as Record<string, Hit | null>)
@@ -78,11 +98,14 @@ for (const locationId of locations) {
 
     for (const [index, source] of catalogue.sources.entries()) {
       if (looked >= limit) break;
-      const address = source.address;
-      if (!address || address.lat !== undefined) continue;
-      // A street is the minimum worth asking about; a bare postcode geocodes to
-      // the centroid of a delivery area, which is the guess we are avoiding.
-      if (!address.street) continue;
+      /**
+       * A missing address is not a reason to skip. Most catalogued sources have no
+       * street line — stage 1 is told not to invent one — but Nominatim knows plenty
+       * of them as named points of interest, and a name lookup is still a lookup. So
+       * the only thing that disqualifies a source is already having coordinates.
+       */
+      const address = source.address ?? {};
+      if (address.lat !== undefined) continue;
 
       /**
        * Name first, then street alone. Including the venue name is worth trying —
@@ -92,11 +115,22 @@ for (const locationId of locations) {
        * own is a worse pin and a far better hit rate, so it is the fallback rather
        * than the first choice.
        */
-      const city = address.city ?? "Cork";
+      // From the config, not hardcoded. The first run of this appended "Ireland"
+      // to every Bristol query and wasted 68 lookups finding nothing.
+      const city = address.city ?? location.name;
+      const country = address.country ?? location.country;
+      /**
+       * Three shapes, most specific first. The last one — the venue's name and the
+       * city, with no street at all — is what reaches the sources that have no
+       * street line, which is most of them. It is still a lookup rather than a
+       * guess: Nominatim either knows the place as a point of interest or it does
+       * not, and a result too far from the configured centre is thrown away below.
+       */
       const queries = [
-        [source.name, address.street, address.locality, city, "Ireland"].filter(Boolean).join(", "),
-        [address.street, address.locality, city, "Ireland"].filter(Boolean).join(", "),
-      ];
+        address.street ? [source.name, address.street, address.locality, city, country].filter(Boolean).join(", ") : "",
+        address.street ? [address.street, address.locality, city, country].filter(Boolean).join(", ") : "",
+        [source.name, city, country].filter(Boolean).join(", "),
+      ].filter(Boolean);
 
       let hit: Hit | null = null;
       for (const query of queries) {
@@ -109,6 +143,11 @@ for (const locationId of locations) {
           await sleep(RATE_MS);
         }
         if (cached) {
+          const away = distanceKm(centre.lat, centre.lon, cached.lat, cached.lon);
+          if (away > SANITY_KM) {
+            console.log(`  far   ${source.id.padEnd(40)} ${away.toFixed(0)}km away — ${cached.display.slice(0, 48)}`);
+            continue;
+          }
           hit = cached;
           break;
         }
@@ -124,6 +163,8 @@ for (const locationId of locations) {
       filled += 1;
       console.log(`  ok    ${source.id.padEnd(40)} ${hit.lat.toFixed(5)}, ${hit.lon.toFixed(5)}`);
       if (!dryRun) {
+        // `{lat, lon}` alone is a valid address: the schema asks for at least one
+        // field and for the pair to arrive together, which this does.
         doc.setIn(["sources", index, "address", "lat"], Number(hit.lat.toFixed(6)));
         doc.setIn(["sources", index, "address", "lon"], Number(hit.lon.toFixed(6)));
         touched = true;

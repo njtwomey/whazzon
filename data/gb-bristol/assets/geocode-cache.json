@@ -1,0 +1,560 @@
+{
+  "Arnolfini, 16 Narrow Quay, Bristol, Ireland": null,
+  "16 Narrow Quay, Bristol, Ireland": null,
+  "Arnolfini, Bristol, Ireland": null,
+  "Spike Island, 133 Cumberland Road, Bristol, Ireland": null,
+  "133 Cumberland Road, Bristol, Ireland": null,
+  "Spike Island, Bristol, Ireland": null,
+  "Royal West of England Academy (RWA), Queens Road, Clifton, Bristol, Ireland": null,
+  "Queens Road, Clifton, Bristol, Ireland": null,
+  "Royal West of England Academy (RWA), Bristol, Ireland": null,
+  "Watershed, 1 Canon's Road, Harbourside, Bristol, Ireland": null,
+  "1 Canon's Road, Harbourside, Bristol, Ireland": null,
+  "Watershed, Bristol, Ireland": null,
+  "The Cube Microplex, 4 Princess Row, Bristol, Ireland": null,
+  "4 Princess Row, Bristol, Ireland": null,
+  "The Cube Microplex, Bristol, Ireland": null,
+  "20th Century Flicks, 19 Christmas Steps, Bristol, Ireland": null,
+  "19 Christmas Steps, Bristol, Ireland": null,
+  "20th Century Flicks, Bristol, Ireland": null,
+  "Bristol Folk House, 40A Park Street, Bristol, Ireland": null,
+  "40A Park Street, Bristol, Ireland": null,
+  "Bristol Folk House, Bristol, Ireland": null,
+  "Bristol Museum & Art Gallery, Queens Road, Clifton, Bristol, Ireland": null,
+  "Bristol Museum & Art Gallery, Bristol, Ireland": null,
+  "M Shed, Princes Wharf, Wapping Road, Bristol, Ireland": null,
+  "Princes Wharf, Wapping Road, Bristol, Ireland": null,
+  "M Shed, Bristol, Ireland": null,
+  "We The Curious, One Millennium Square, Anchor Road, Bristol, Ireland": null,
+  "One Millennium Square, Anchor Road, Bristol, Ireland": null,
+  "We The Curious, Bristol, Ireland": null,
+  "Brunel's SS Great Britain, Great Western Dockyard, Gas Ferry Road, Bristol, Ireland": null,
+  "Great Western Dockyard, Gas Ferry Road, Bristol, Ireland": null,
+  "Brunel's SS Great Britain, Bristol, Ireland": null,
+  "Bristol Beacon, Trenchard Street, Bristol, Ireland": null,
+  "Trenchard Street, Bristol, Ireland": null,
+  "Bristol Beacon, Bristol, Ireland": null,
+  "O2 Academy Bristol, Frogmore Street, Bristol, Ireland": null,
+  "Frogmore Street, Bristol, Ireland": null,
+  "O2 Academy Bristol, Bristol, Ireland": null,
+  "Thekla, The Grove, East Mud Dock, Bristol, Ireland": null,
+  "The Grove, East Mud Dock, Bristol, Ireland": null,
+  "Thekla, Bristol, Ireland": null,
+  "The Fleece, 12 St Thomas Street, Bristol, Ireland": null,
+  "12 St Thomas Street, Bristol, Ireland": null,
+  "The Fleece, Bristol, Ireland": null,
+  "Exchange, 72-73 Old Market Street, Bristol, Ireland": null,
+  "72-73 Old Market Street, Bristol, Ireland": null,
+  "Exchange, Bristol, Ireland": null,
+  "St George's Bristol, Great George Street, Bristol, Ireland": null,
+  "Great George Street, Bristol, Ireland": null,
+  "St George's Bristol, Bristol, Ireland": null,
+  "Motion / The Marble Factory, 74-78 Avon Street, St Philips, Bristol, Ireland": null,
+  "74-78 Avon Street, St Philips, Bristol, Ireland": null,
+  "Motion / The Marble Factory, Bristol, Ireland": null,
+  "Lakota, 6 Upper York Street, Bristol, Ireland": null,
+  "6 Upper York Street, Bristol, Ireland": null,
+  "Lakota, Bristol, Ireland": null,
+  "Bristol Old Vic, King Street, Bristol, Ireland": null,
+  "King Street, Bristol, Ireland": null,
+  "Bristol Old Vic, Bristol, Ireland": null,
+  "Tobacco Factory Theatres, Raleigh Road, Southville, Bristol, Ireland": null,
+  "Raleigh Road, Southville, Bristol, Ireland": null,
+  "Tobacco Factory Theatres, Bristol, Ireland": null,
+  "Bristol Hippodrome, St Augustine's Parade, Bristol, Ireland": null,
+  "St Augustine's Parade, Bristol, Ireland": null,
+  "Bristol Hippodrome, Bristol, Ireland": null,
+  "Trinity Centre, Trinity Road, Bristol, Ireland": null,
+  "Trinity Road, Bristol, Ireland": null,
+  "Trinity Centre, Bristol, Ireland": null,
+  "Arnolfini, 16 Narrow Quay, Bristol, United Kingdom": {
+    "lat": 51.4493185,
+    "lon": -2.5972857,
+    "display": "Arnolfini, 16, Narrow Quay, Wapping Wharf, City Centre, Bristol, City of Bristol, West of England, England, BS1 4QA, United Kingdom"
+  },
+  "Spike Island, 133 Cumberland Road, Bristol, United Kingdom": {
+    "lat": 51.4470783,
+    "lon": -2.6106218,
+    "display": "Spike Island, 133, Cumberland Road, Cliftonwood, Spike Island, Bristol, City of Bristol, West of England, England, BS1 6UX, United Kingdom"
+  },
+  "Royal West of England Academy (RWA), Queens Road, Clifton, Bristol, United Kingdom": null,
+  "Queens Road, Clifton, Bristol, United Kingdom": {
+    "lat": 51.4566379,
+    "lon": -2.6137058,
+    "display": "Queens Road, Clifton Village, Clifton, Bristol, City of Bristol, West of England, England, BS8 1LJ, United Kingdom"
+  },
+  "Watershed, 1 Canon's Road, Harbourside, Bristol, United Kingdom": {
+    "lat": 51.4517753,
+    "lon": -2.598143,
+    "display": "Watershed, 1, Canons Road, Old City, City Centre, Bristol, City of Bristol, West of England, England, BS1 5TX, United Kingdom"
+  },
+  "The Cube Microplex, 4 Princess Row, Bristol, United Kingdom": {
+    "lat": 51.4611317,
+    "lon": -2.5933356,
+    "display": "The Cube, 4, Princess Row, Stokes Croft, Kingsdown, Bristol, City of Bristol, West of England, England, BS2 8NQ, United Kingdom"
+  },
+  "20th Century Flicks, 19 Christmas Steps, Bristol, United Kingdom": {
+    "lat": 51.4561438,
+    "lon": -2.596725,
+    "display": "20th Century Flicks Video Shop, 19, Christmas Steps, Old City, City Centre, Bristol, City of Bristol, West of England, England, BS1 5BS, United Kingdom"
+  },
+  "Bristol Folk House, 40A Park Street, Bristol, United Kingdom": null,
+  "40A Park Street, Bristol, United Kingdom": {
+    "lat": 51.4544734,
+    "lon": -2.6015465,
+    "display": "Folk House, 40a, Park Street, Canon's Marsh, City Centre, Bristol, City of Bristol, West of England, England, BS1 5JG, United Kingdom"
+  },
+  "Bristol Museum & Art Gallery, Queens Road, Clifton, Bristol, United Kingdom": null,
+  "M Shed, Princes Wharf, Wapping Road, Bristol, United Kingdom": {
+    "lat": 51.4474227,
+    "lon": -2.5988691,
+    "display": "M Cafe, Wapping Road, Wapping Wharf, Redcliffe, Bristol, City of Bristol, West of England, England, BS1 4RN, United Kingdom"
+  },
+  "We The Curious, One Millennium Square, Anchor Road, Bristol, United Kingdom": null,
+  "One Millennium Square, Anchor Road, Bristol, United Kingdom": {
+    "lat": 51.4503631,
+    "lon": -2.600511,
+    "display": "We The Curious, Anchor Road, Canon's Marsh, City Centre, Bristol, City of Bristol, West of England, England, BS1 5DB, United Kingdom"
+  },
+  "Brunel's SS Great Britain, Great Western Dockyard, Gas Ferry Road, Bristol, United Kingdom": null,
+  "Great Western Dockyard, Gas Ferry Road, Bristol, United Kingdom": null,
+  "Brunel's SS Great Britain, Bristol, United Kingdom": null,
+  "Bristol Beacon, Trenchard Street, Bristol, United Kingdom": null,
+  "Trenchard Street, Bristol, United Kingdom": {
+    "lat": 51.4553882,
+    "lon": -2.598016,
+    "display": "Trenchard Street, Old City, City Centre, Bristol, City of Bristol, West of England, England, BS1 5AN, United Kingdom"
+  },
+  "O2 Academy Bristol, Frogmore Street, Bristol, United Kingdom": {
+    "lat": 51.4545955,
+    "lon": -2.6003964,
+    "display": "O2 Academy, Frogmore Street, Old City, City Centre, Bristol, City of Bristol, West of England, England, BS1 5NA, United Kingdom"
+  },
+  "Thekla, The Grove, East Mud Dock, Bristol, United Kingdom": null,
+  "The Grove, East Mud Dock, Bristol, United Kingdom": null,
+  "Thekla, Bristol, United Kingdom": {
+    "lat": 51.4489765,
+    "lon": -2.5941839,
+    "display": "Thekla, The Grove, Wapping Wharf, City Centre, Bristol, City of Bristol, West of England, England, BS1 4RB, United Kingdom"
+  },
+  "The Fleece, 12 St Thomas Street, Bristol, United Kingdom": {
+    "lat": 51.4522549,
+    "lon": -2.5894636,
+    "display": "The Fleece, 12, Saint Thomas Street, Finzels Reach, Redcliffe, Bristol, City of Bristol, West of England, England, BS1 6JJ, United Kingdom"
+  },
+  "Exchange, 72-73 Old Market Street, Bristol, United Kingdom": {
+    "lat": 51.4555195,
+    "lon": -2.5827688,
+    "display": "Exchange, 72-73, Old Market Street, Old Market, St Philip's, Bristol, City of Bristol, West of England, England, BS2 0EJ, United Kingdom"
+  },
+  "St George's Bristol, Great George Street, Bristol, United Kingdom": {
+    "lat": 51.4542841,
+    "lon": -2.6038223,
+    "display": "St. George's, Great George Street, Canon's Marsh, City Centre, Bristol, City of Bristol, West of England, England, BS1 5RH, United Kingdom"
+  },
+  "Motion / The Marble Factory, 74-78 Avon Street, St Philips, Bristol, United Kingdom": null,
+  "74-78 Avon Street, St Philips, Bristol, United Kingdom": null,
+  "Motion / The Marble Factory, Bristol, United Kingdom": null,
+  "Lakota, 6 Upper York Street, Bristol, United Kingdom": {
+    "lat": 51.4616219,
+    "lon": -2.5895712,
+    "display": "Lakota, 6, Upper York Street, Stokes Croft, Broadmead, Bristol, City of Bristol, West of England, England, BS2 8QN, United Kingdom"
+  },
+  "Bristol Old Vic, King Street, Bristol, United Kingdom": {
+    "lat": 51.4523105,
+    "lon": -2.5942277,
+    "display": "Bristol Old Vic, King Street, Old City, City Centre, Bristol, City of Bristol, West of England, England, BS1 4ED, United Kingdom"
+  },
+  "Tobacco Factory Theatres, Raleigh Road, Southville, Bristol, United Kingdom": {
+    "lat": 51.4423454,
+    "lon": -2.6132931,
+    "display": "Tobacco Factory Theatre, 278, Raleigh Road, Southville, Bristol, City of Bristol, West of England, England, BS3 1TF, United Kingdom"
+  },
+  "Bristol Hippodrome, St Augustine's Parade, Bristol, United Kingdom": {
+    "lat": 51.453236,
+    "lon": -2.598943,
+    "display": "Bristol Hippodrome, St Augustine's Parade, Old City, City Centre, Bristol, City of Bristol, West of England, England, BS1 4UZ, United Kingdom"
+  },
+  "Trinity Centre, Trinity Road, Bristol, United Kingdom": {
+    "lat": 51.4580518,
+    "lon": -2.5760196,
+    "display": "Trinity, Trinity Road, St Jude's, Easton, Bristol, City of Bristol, West of England, England, BS2 0NW, United Kingdom"
+  },
+  "Martin Parr Foundation, Bristol, United Kingdom": {
+    "lat": 51.4438256,
+    "lon": -2.5647255,
+    "display": "Martin Parr Foundation, 316, Central Road, Paintworks, St Philip's Marsh, Bristol, City of Bristol, West of England, England, BS4 3AR, United Kingdom"
+  },
+  "Centrespace Gallery, Bristol, United Kingdom": null,
+  "Upfest Gallery, Bristol, United Kingdom": null,
+  "People's Republic of Stokes Croft (PRSC), Bristol, United Kingdom": null,
+  "Grant Bradley Gallery, Bristol, United Kingdom": null,
+  "Bristol Cathedral, Bristol, United Kingdom": {
+    "lat": 51.4516837,
+    "lon": -2.6006694,
+    "display": "Bristol Cathedral, College Green, Canon's Marsh, City Centre, Bristol, City of Bristol, West of England, England, BS1 5TJ, United Kingdom"
+  },
+  "St Mary Redcliffe, Bristol, United Kingdom": {
+    "lat": 51.4483207,
+    "lon": -2.5896151,
+    "display": "St Mary Redcliffe, 12, Colston Parade, Temple Quarter, Redcliffe, Bristol, City of Bristol, West of England, England, BS1 6RA, United Kingdom"
+  },
+  "Clifton Cathedral, Bristol, United Kingdom": {
+    "lat": 51.4596938,
+    "lon": -2.6163677,
+    "display": "Clifton Cathedral, Clifton Park, Clifton Village, Clifton, Bristol, City of Bristol, West of England, England, BS8 3BX, United Kingdom"
+  },
+  "The New Room / John Wesley's Chapel, Bristol, United Kingdom": null,
+  "St James' Priory, Bristol, United Kingdom": {
+    "lat": 51.458657,
+    "lon": -2.5930176,
+    "display": "St James' Priory, Whitson Street, Old City, Kingsdown, Bristol, City of Bristol, West of England, England, BS1 3NZ, United Kingdom"
+  },
+  "Everyman Bristol, Bristol, United Kingdom": {
+    "lat": 51.4629861,
+    "lon": -2.6095958,
+    "display": "Everyman, 42, Whiteladies Road, Tyndall's Park, Clifton, Bristol, City of Bristol, West of England, England, BS8 2NH, United Kingdom"
+  },
+  "Showcase Cinema de Lux — Cabot Circus, Bristol, United Kingdom": null,
+  "Vue Bristol — Cribbs Causeway, Bristol, United Kingdom": {
+    "lat": 51.523285,
+    "lon": -2.6046592,
+    "display": "Vue, Merlin Road, Cribbs Causeway, Almondsbury, Bristol, South Gloucestershire, West of England, England, BS10 7SR, United Kingdom"
+  },
+  "ODEON Bristol, Bristol, United Kingdom": {
+    "lat": 51.4566869,
+    "lon": -2.5915284,
+    "display": "Odeon, Union Street, Finzels Reach, City Centre, Bristol, City of Bristol, West of England, England, BS1 2DS, United Kingdom"
+  },
+  "Bristol Film Festival, Bristol, United Kingdom": null,
+  "Bristol Bad Film Club, Bristol, United Kingdom": null,
+  "Visit Bristol, Bristol, United Kingdom": null,
+  "Bristol 24/7, Bristol, United Kingdom": {
+    "lat": 51.4538022,
+    "lon": -2.5972985,
+    "display": "Bristol, City of Bristol, West of England, England, United Kingdom"
+  },
+  "Headfirst Bristol, Bristol, United Kingdom": null,
+  "365 Bristol, Bristol, United Kingdom": {
+    "lat": 51.482768,
+    "lon": -2.5870827,
+    "display": "Billie's, 365, Gloucester Road, Horfield, Bristol, City of Bristol, West of England, England, BS7 8TN, United Kingdom"
+  },
+  "Bristol Live (Bristol Post), Bristol, United Kingdom": null,
+  "Skiddle — Bristol, Bristol, United Kingdom": null,
+  "Resident Advisor — Bristol, Bristol, United Kingdom": null,
+  "Eventbrite — Bristol, Bristol, United Kingdom": null,
+  "Bristol City Council — events, Bristol, United Kingdom": null,
+  "Bristol Libraries, Bristol, United Kingdom": null,
+  "University of Bristol — public events, Bristol, United Kingdom": null,
+  "UWE Bristol — public events, Bristol, United Kingdom": null,
+  "The Comedy Box, Bristol, United Kingdom": {
+    "lat": 51.4407182,
+    "lon": -2.610869,
+    "display": "The Comedy Box, 210, North Street, Bedminster, Bristol, City of Bristol, West of England, England, BS3 1JF, United Kingdom"
+  },
+  "Bristol Improv Theatre — comedy programme, Bristol, United Kingdom": null,
+  "Bristol Comedy Garden, Bristol, United Kingdom": null,
+  "The Hen & Chicken, Bristol, United Kingdom": null,
+  "University of Bristol — alumni and public events, Bristol, United Kingdom": null,
+  "Bristol Ideas, Bristol, United Kingdom": null,
+  "Bristol Folk House, Bristol, United Kingdom": null,
+  "WEA — Bristol courses, Bristol, United Kingdom": null,
+  "Bristol Zoo Project, Bristol, United Kingdom": {
+    "lat": 51.5314907,
+    "lon": -2.6149726,
+    "display": "Bristol Zoo Project, Blackhorse Hill, Cribbs Causeway, Almondsbury, Bristol, South Gloucestershire, West of England, England, BS10 7TP, United Kingdom"
+  },
+  "Windmill Hill City Farm, Bristol, United Kingdom": {
+    "lat": 51.4422182,
+    "lon": -2.5929542,
+    "display": "Windmill Hill City Farm, Bedminster, Bristol, City of Bristol, West of England, England, BS3 4EA, United Kingdom"
+  },
+  "St Werburghs City Farm, Bristol, United Kingdom": {
+    "lat": 51.4738214,
+    "lon": -2.5780449,
+    "display": "St Werburghs City Farm, St Werburgh's, Bristol, City of Bristol, West of England, England, BS2 9YJ, United Kingdom"
+  },
+  "Puppet Place, Bristol, United Kingdom": {
+    "lat": 51.4474561,
+    "lon": -2.6090583,
+    "display": "Puppet Place, Hanover Place, Cliftonwood, Spike Island, Bristol, City of Bristol, West of England, England, BS1 6UT, United Kingdom"
+  },
+  "Bristol Children's Scrapstore, Bristol, United Kingdom": null,
+  "Bristol Harbour Festival, Bristol, United Kingdom": null,
+  "Bristol International Balloon Fiesta, Bristol, United Kingdom": null,
+  "Upfest, Bristol, United Kingdom": {
+    "lat": 51.4404691,
+    "lon": -2.6101742,
+    "display": "Upfest, North Street, Bedminster, Bristol, City of Bristol, West of England, England, BS3 1JF, United Kingdom"
+  },
+  "St Pauls Carnival, Bristol, United Kingdom": null,
+  "Bristol Pride, Bristol, United Kingdom": null,
+  "Love Saves the Day, Bristol, United Kingdom": null,
+  "Forwards Festival, Bristol, United Kingdom": null,
+  "Simple Things Festival, Bristol, United Kingdom": null,
+  "Bristol Light Festival, Bristol, United Kingdom": null,
+  "Encounters Film Festival, Bristol, United Kingdom": null,
+  "Slapstick Festival, Bristol, United Kingdom": null,
+  "Bristol Open Doors, Bristol, United Kingdom": null,
+  "Bedminster Winter Lanterns, Bristol, United Kingdom": null,
+  "The Downs Bristol, Bristol, United Kingdom": {
+    "lat": 51.4648815,
+    "lon": -2.6260755,
+    "display": "Clifton Down, Sneyd Park, Bristol, City of Bristol, West of England, England, United Kingdom"
+  },
+  "Bristol Craft Beer Festival, Bristol, United Kingdom": null,
+  "Wapping Wharf & Cargo, Bristol, United Kingdom": null,
+  "Left Handed Giant Brewpub, Bristol, United Kingdom": {
+    "lat": 51.4544296,
+    "lon": -2.5893912,
+    "display": "Left Handed Giant Brewpub, Hawkins Lane, Finzels Reach, Broadmead, Bristol, City of Bristol, West of England, England, BS1 6EU, United Kingdom"
+  },
+  "Wiper and True Barrel Store, Bristol, United Kingdom": null,
+  "Bristol Beer Factory, Bristol, United Kingdom": {
+    "lat": 51.4426509,
+    "lon": -2.6152632,
+    "display": "Bristol Beer Factory, 291, North Street, Bedminster, Bristol, City of Bristol, West of England, England, BS3 1JP, United Kingdom"
+  },
+  "Bristol Whisky Festival, Bristol, United Kingdom": null,
+  "Bristol Food Connections, Bristol, United Kingdom": null,
+  "University of Bristol Botanic Garden, Bristol, United Kingdom": null,
+  "National Garden Scheme — Bristol area, Bristol, United Kingdom": null,
+  "Grow Wilder, Bristol, United Kingdom": {
+    "lat": 51.4911482,
+    "lon": -2.5385836,
+    "display": "Grow Wilder, Fishponds, Bristol, City of Bristol, West of England, England, BS16 1HB, United Kingdom"
+  },
+  "Avon Wildlife Trust, Bristol, United Kingdom": {
+    "lat": 51.4536342,
+    "lon": -2.6037646,
+    "display": "Avon Wildlife Trust, 17, Great George Street, Canon's Marsh, City Centre, Bristol, City of Bristol, West of England, England, BS1 5QT, United Kingdom"
+  },
+  "Bristol City Council — allotments & community growing, Bristol, United Kingdom": null,
+  "Bristol Naturalists' Society — botany section, Bristol, United Kingdom": null,
+  "The Community Farm, Bristol, United Kingdom": null,
+  "Blaise Plant Nursery, Bristol, United Kingdom": {
+    "lat": 51.502279,
+    "lon": -2.6457496,
+    "display": "Blaise Plant Nursery, Kings Weston Road, Lawrence Weston, Bristol, City of Bristol, West of England, England, BS11 0XF, United Kingdom"
+  },
+  "Waterstones Bristol, Bristol, United Kingdom": {
+    "lat": 51.5241617,
+    "lon": -2.5943704,
+    "display": "Waterstones, Cribbs Causeway, Almondsbury, Bristol, South Gloucestershire, West of England, England, BS34 5GF, United Kingdom"
+  },
+  "Storysmith Books, Bristol, United Kingdom": null,
+  "Gloucester Road Books, Bristol, United Kingdom": {
+    "lat": 51.4783705,
+    "lon": -2.5899142,
+    "display": "Gloucester Road Books, 184, Gloucester Road, Pigsty Hill, Ashley Down, Bristol, City of Bristol, West of England, England, BS7 8NU, United Kingdom"
+  },
+  "Bookhaus, Bristol, United Kingdom": {
+    "lat": 51.4468377,
+    "lon": -2.5985701,
+    "display": "Bookhaus, Unit 4, Rope Walk, Wapping Wharf, Southville, Bristol, City of Bristol, West of England, England, BS1 6ZJ, United Kingdom"
+  },
+  "Max Minerva's Marvellous Books, Bristol, United Kingdom": null,
+  "Lyra — Bristol Poetry Festival, Bristol, United Kingdom": null,
+  "Novel Nights, Bristol, United Kingdom": null,
+  "Bristol Hackspace, Bristol, United Kingdom": {
+    "lat": 51.4527812,
+    "lon": -2.5729753,
+    "display": "Bristol Hackspace, Queen Victoria Street, The Dings, St Philip's, Bristol, City of Bristol, West of England, England, BS2 0QR, United Kingdom"
+  },
+  "Spike Print Studio, Bristol, United Kingdom": null,
+  "Bristol Wood Recycling Project, Bristol, United Kingdom": {
+    "lat": 51.4544539,
+    "lon": -2.5739197,
+    "display": "Bristol Wood Recycling Project, William Street, Newtown, St Philip's, Bristol, City of Bristol, West of England, England, BS2 0RG, United Kingdom"
+  },
+  "The Bristol Bike Project, Bristol, United Kingdom": {
+    "lat": 51.4642863,
+    "lon": -2.570405,
+    "display": "The Bristol Bike Project, 198-200, Stapleton Road, Baptist Mills, Easton, Bristol, City of Bristol, West of England, England, BS5 0NY, United Kingdom"
+  },
+  "Knowle West Media Centre, Bristol, United Kingdom": {
+    "lat": 51.4254585,
+    "lon": -2.593267,
+    "display": "Knowle West Media Centre, Leinster Avenue, Knowle West, Knowle, Bristol, City of Bristol, West of England, England, BS4 1NL, United Kingdom"
+  },
+  "BRICKS, Bristol, United Kingdom": {
+    "lat": 51.4527562,
+    "lon": -2.5476082,
+    "display": "Bricks, Saint Anne's Road, St Anne's, Bristol, City of Bristol, West of England, England, BS4 4AB, United Kingdom"
+  },
+  "Bristol Textile Quarter, Bristol, United Kingdom": null,
+  "Bristol Guild of Applied Art, Bristol, United Kingdom": null,
+  "The Island (Artspace Lifespace), Bristol, United Kingdom": null,
+  "Maker Shed, Bristol, United Kingdom": null,
+  "Men's Sheds — Bristol area, Bristol, United Kingdom": null,
+  "St Nicholas Market, Bristol, United Kingdom": {
+    "lat": 51.4543268,
+    "lon": -2.5930489,
+    "display": "Saint Nicholas Market, High Street, Old City, Broadmead, Bristol, City of Bristol, West of England, England, BS1 2AZ, United Kingdom"
+  },
+  "Tobacco Factory Sunday Market, Bristol, United Kingdom": null,
+  "Bristol Farmers' & Producers Market, Bristol, United Kingdom": null,
+  "Bristol Harbourside Market, Bristol, United Kingdom": null,
+  "Finzels Reach Market, Bristol, United Kingdom": null,
+  "Aerospace Bristol, Bristol, United Kingdom": {
+    "lat": 51.5229444,
+    "lon": -2.5788476,
+    "display": "Aerospace Bristol, Hayes Way, Brabazon, Charlton Hayes, Harry Stoke, Bristol, South Gloucestershire, West of England, England, BS34 5BZ, United Kingdom"
+  },
+  "Georgian House Museum, Bristol, United Kingdom": {
+    "lat": 51.4538637,
+    "lon": -2.6032923,
+    "display": "Georgian House Museum, 7, Great George Street, Canon's Marsh, City Centre, Bristol, City of Bristol, West of England, England, BS1 5RR, United Kingdom"
+  },
+  "Red Lodge Museum, Bristol, United Kingdom": {
+    "lat": 51.455441,
+    "lon": -2.5995615,
+    "display": "The Red Lodge Museum, Park Row, Old City, City Centre, Bristol, City of Bristol, West of England, England, BS1 5LJ, United Kingdom"
+  },
+  "Blaise Museum, Bristol, United Kingdom": {
+    "lat": 51.5070966,
+    "lon": -2.6356699,
+    "display": "Blaise Hamlet, Castle Close, Henbury, Bristol, City of Bristol, West of England, England, BS10 7QU, United Kingdom"
+  },
+  "Clifton Observatory, Bristol, United Kingdom": {
+    "lat": 51.4566289,
+    "lon": -2.6264825,
+    "display": "The Clifton Observatory, Litfield Place, Clifton Village, Clifton, Bristol, City of Bristol, West of England, England, BS8 3LT, United Kingdom"
+  },
+  "Bristol Aquarium, Bristol, United Kingdom": {
+    "lat": 51.4508753,
+    "lon": -2.599203,
+    "display": "Bristol Aquarium, Anchor Road, Canon's Marsh, City Centre, Bristol, City of Bristol, West of England, England, BS1 5TT, United Kingdom"
+  },
+  "The Louisiana, Bristol, United Kingdom": {
+    "lat": 51.4467586,
+    "lon": -2.5964286,
+    "display": "The Louisiana, 1, Bathurst Parade, Wapping Wharf, Southville, Bristol, City of Bristol, West of England, England, BS1 6UA, United Kingdom"
+  },
+  "Strange Brew, Bristol, United Kingdom": {
+    "lat": 51.4563003,
+    "lon": -2.5923474,
+    "display": "Strange Brew, Fairfax Street, Finzels Reach, Broadmead, Bristol, City of Bristol, West of England, England, BS1 3DB, United Kingdom"
+  },
+  "SWX, Bristol, United Kingdom": null,
+  "Rough Trade Bristol, Bristol, United Kingdom": {
+    "lat": 51.4566488,
+    "lon": -2.5936712,
+    "display": "Rough Trade, Nelson Street, Old City, City Centre, Bristol, City of Bristol, West of England, England, BS1 2BA, United Kingdom"
+  },
+  "Crofters Rights, Bristol, United Kingdom": {
+    "lat": 51.4638116,
+    "lon": -2.5900901,
+    "display": "The Croft, 117-119, Stokes Croft, Broadmead, Bristol, City of Bristol, West of England, England, BS1 3RW, United Kingdom"
+  },
+  "The Lanes, Bristol, United Kingdom": {
+    "lat": 51.4563859,
+    "lon": -2.5938281,
+    "display": "The Lanes, 22, Nelson Street, Old City, City Centre, Bristol, City of Bristol, West of England, England, BS1 2LE, United Kingdom"
+  },
+  "Dareshack, Bristol, United Kingdom": {
+    "lat": 51.4560566,
+    "lon": -2.596778,
+    "display": "Dareshack, 4, Christmas Steps, Old City, City Centre, Bristol, City of Bristol, West of England, England, BS1 5BS, United Kingdom"
+  },
+  "The Canteen, Bristol, United Kingdom": {
+    "lat": 51.4629405,
+    "lon": -2.5896689,
+    "display": "The Canteen, 80, Stokes Croft, Broadmead, Bristol, City of Bristol, West of England, England, BS1 3QY, United Kingdom"
+  },
+  "The Gallimaufry, Bristol, United Kingdom": {
+    "lat": 51.4716754,
+    "lon": -2.5926587,
+    "display": "The Gallimaufry, 26-28, Gloucester Road, Bishopston, Bristol, City of Bristol, West of England, England, BS7 8AL, United Kingdom"
+  },
+  "The Old Duke, Bristol, United Kingdom": {
+    "lat": 51.4522023,
+    "lon": -2.5932152,
+    "display": "The Old Duke, 45, King Street, Old City, City Centre, Bristol, City of Bristol, West of England, England, BS1 4ER, United Kingdom"
+  },
+  "The Black Swan, Bristol, United Kingdom": {
+    "lat": 51.4699447,
+    "lon": -2.5653026,
+    "display": "The Black Swan, 438, Stapleton Road, Baptist Mills, Easton, Bristol, City of Bristol, West of England, England, BS5 6NR, United Kingdom"
+  },
+  "Propyard, Bristol, United Kingdom": null,
+  "The Bristol Fringe, Bristol, United Kingdom": {
+    "lat": 51.4545209,
+    "lon": -2.6207496,
+    "display": "The Bristol Fringe, 32, Princess Victoria Street, Clifton Village, Hotwells, Bristol, City of Bristol, West of England, England, BS8 4BZ, United Kingdom"
+  },
+  "Ashton Gate Stadium — concerts, Bristol, United Kingdom": null,
+  "Bristol Sounds, Bristol, United Kingdom": null,
+  "Ashton Court Estate, Bristol, United Kingdom": {
+    "lat": 51.4461303,
+    "lon": -2.6437864,
+    "display": "Ashton Court Estate, Long Ashton, North Somerset, West of England, England, United Kingdom"
+  },
+  "The Downs, Bristol, United Kingdom": {
+    "lat": 51.4648815,
+    "lon": -2.6260755,
+    "display": "Clifton Down, Sneyd Park, Bristol, City of Bristol, West of England, England, United Kingdom"
+  },
+  "Leigh Woods, Bristol, United Kingdom": {
+    "lat": 51.4542078,
+    "lon": -2.639131,
+    "display": "Leigh House, North Road, Leigh Woods, Bristol, North Somerset, England, BS8 3PL, United Kingdom"
+  },
+  "Blaise Castle Estate, Bristol, United Kingdom": {
+    "lat": 51.4991704,
+    "lon": -2.6462623,
+    "display": "Blaise Castle Estate, Coombe Dingle, Bristol, City of Bristol, West of England, England, United Kingdom"
+  },
+  "Avon Gorge & Downs Wildlife Project, Bristol, United Kingdom": null,
+  "Bristol City FC, Bristol, United Kingdom": {
+    "lat": 51.4538022,
+    "lon": -2.5972985,
+    "display": "Bristol, City of Bristol, West of England, England, United Kingdom"
+  },
+  "Bristol Bears Rugby, Bristol, United Kingdom": null,
+  "Bristol Rovers FC, Bristol, United Kingdom": null,
+  "Bristol Flyers Basketball, Bristol, United Kingdom": null,
+  "Gloucestershire Cricket, Bristol, United Kingdom": {
+    "lat": 51.4771826,
+    "lon": -2.5841329,
+    "display": "Gloucestershire Cricket Club Ground, Kennington Avenue, Pigsty Hill, Ashley Down, Bristol, City of Bristol, West of England, England, BS7 9HN, United Kingdom"
+  },
+  "Great Bristol Run (half marathon & 10K), Bristol, United Kingdom": null,
+  "Bristol Marathon, Bristol, United Kingdom": null,
+  "parkrun — Bristol area, Bristol, United Kingdom": null,
+  "Bristol Bikefest, Bristol, United Kingdom": null,
+  "Bristol Grand Prix, Bristol, United Kingdom": null,
+  "Bristol Cycling Campaign, Bristol, United Kingdom": null,
+  "Severn Bridge Half Marathon, Bristol, United Kingdom": null,
+  "The Wardrobe Theatre, Bristol, United Kingdom": {
+    "lat": 51.4570805,
+    "lon": -2.579296,
+    "display": "The Wardrobe Theatre, Bragg's Lane, Old Market, St Philip's, Bristol, City of Bristol, West of England, England, BS2 0DB, United Kingdom"
+  },
+  "Circomedia, Bristol, United Kingdom": {
+    "lat": 51.4612129,
+    "lon": -2.5846461,
+    "display": "Circomedia, Portland Square, Stokes Croft, St Paul's, Bristol, City of Bristol, West of England, England, BS2 8SJ, United Kingdom"
+  },
+  "Bristol Improv Theatre, Bristol, United Kingdom": {
+    "lat": 51.4587554,
+    "lon": -2.611884,
+    "display": "The Bristol Improv Theatre, 50, Saint Pauls Road, Tyndall's Park, Clifton, Bristol, City of Bristol, West of England, England, BS8 1LP, United Kingdom"
+  },
+  "Redgrave Theatre, Bristol, United Kingdom": {
+    "lat": 51.4601334,
+    "lon": -2.6219904,
+    "display": "Redgrave Theatre, 2, Percival Road, Clifton Village, Clifton, Bristol, City of Bristol, West of England, England, BS8 3LE, United Kingdom"
+  },
+  "Alma Tavern Theatre, Bristol, United Kingdom": {
+    "lat": 51.4626339,
+    "lon": -2.6148744,
+    "display": "Alma Tavern Theatre, 18-20, Alma Vale Road, Clifton, Bristol, City of Bristol, West of England, England, BS8 2HY, United Kingdom"
+  },
+  "The Loco Klub, Bristol, United Kingdom": null,
+  "Acta Community Theatre, Bristol, United Kingdom": null,
+  "Travelling Light Theatre Company, Bristol, United Kingdom": null,
+  "Show of Strength Theatre Company, Bristol, United Kingdom": null,
+  "Wickham Theatre (University of Bristol), Bristol, United Kingdom": null
+}

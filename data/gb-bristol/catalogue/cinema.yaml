@@ -15,7 +15,9 @@ sources:
       locality: Harbourside
       city: Bristol
       postcode: BS1 5TX
-    tags: [independent, arthouse, major, cultural-cinema]
+      lat: 51.451775
+      lon: -2.598143
+    tags: [ independent, arthouse, major, cultural-cinema ]
     cadence: daily
     hints: |
       The city's main independent cinema and a cultural centre in its own
@@ -36,7 +38,9 @@ sources:
       street: 4 Princess Row
       city: Bristol
       postcode: BS2 8NQ
-    tags: [independent, volunteer-run, experimental, diy]
+      lat: 51.461132
+      lon: -2.593336
+    tags: [ independent, volunteer-run, experimental, diy ]
     cadence: weekly
     hints: |
       Volunteer-run microplex with a deliberately eclectic programme — film,
@@ -55,7 +59,9 @@ sources:
       street: 19 Christmas Steps
       city: Bristol
       postcode: BS1 5BS
-    tags: [independent, video-shop, micro-cinema, private-hire]
+      lat: 51.456144
+      lon: -2.596725
+    tags: [ independent, video-shop, micro-cinema, private-hire ]
     cadence: monthly
     hints: |
       A video rental shop with two tiny private screening rooms, mostly booked
@@ -66,10 +72,7 @@ sources:
       root. Most of the page is the rental catalogue and the two bookable
       screening rooms, neither of which is an event.
     notes: >-
-      Verified 2026-08-17 with a browser user-agent: page reads "20th Century
-      Flicks", "the longest running video shop in this world", footer address
-      "19 Christmas Steps, Bristol, BS1 5BS" matches exactly. Only dated item
-      was a Cinema Rediscovered '26 note in News. www. 301s to the apex domain.
+      Verified 2026-08-17 with a browser user-agent: page reads "20th Century Flicks", "the longest running video shop in this world", footer address "19 Christmas Steps, Bristol, BS1 5BS" matches exactly. Only dated item was a Cinema Rediscovered '26 note in News. www. 301s to the apex domain.
     addedAt: "2026-08-16"
 
   - id: cinema/everyman-bristol
@@ -80,7 +83,7 @@ sources:
     url: https://www.everymancinema.com/bristol/
     homepage: https://www.everymancinema.com/
     area: Whiteladies Road
-    tags: [commercial, boutique, mainstream]
+    tags: [ commercial, boutique, mainstream ]
     cadence: daily
     hints: |
       Showtimes are loaded client-side and are not in the HTML, so expect no
@@ -91,13 +94,11 @@ sources:
       (35mm, Live Q&A, Silver Screen, Baby Club), and new films and events are
       published every Tuesday morning.
     notes: >-
-      Verified 2026-08-17: /bristol/ 302s to /venues-list/x0x3q-everyman-bristol/
-      and the page reads "Everyman Bristol", "the Whiteladies Picture House and
-      first opened in 1921", "Whiteladies Road, Bristol, BS8 2NH", agreeing with
-      area Whiteladies Road. The catalogued /venues-list/bristol/ is a 404. The
-      short /bristol/ vanity path is recorded in preference to the opaque
-      x0x3q slug, which is likely to churn.
+      Verified 2026-08-17: /bristol/ 302s to /venues-list/x0x3q-everyman-bristol/ and the page reads "Everyman Bristol", "the Whiteladies Picture House and first opened in 1921", "Whiteladies Road, Bristol, BS8 2NH", agreeing with area Whiteladies Road. The catalogued /venues-list/bristol/ is a 404. The short /bristol/ vanity path is recorded in preference to the opaque x0x3q slug, which is likely to churn.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.462986
+      lon: -2.609596
 
   - id: cinema/showcase-cabot-circus
     name: Showcase Cinema de Lux — Cabot Circus
@@ -106,19 +107,13 @@ sources:
     status: closed
     url: https://www.showcasecinemas.co.uk/cinema-listing/BCC/bristol-cabot-circus
     area: Broadmead
-    tags: [multiplex, commercial, mainstream]
+    tags: [ multiplex, commercial, mainstream ]
     cadence: daily
     hints: |
       Closed — kept so it is not re-proposed. The building is now
       cinema/odeon-bristol; that is the entry to harvest.
     notes: >-
-      Verified closed 2026-08-17: the catalogued page is a 404, and Showcase's
-      own /cinemas/ index lists only one Bristol site — Bristol Avonmeads,
-      "Avonmeads, St Philips Causeway, BS2 0SP" — with no Cabot Circus entry
-      anywhere on the domain. Reporting confirms the last film screened
-      30 November 2023 after lease terms could not be agreed; the auditoriums
-      reopened as ODEON Luxe Bristol on 12 February 2026. Retiring this entry
-      against cinema/odeon-bristol is a curation call, not a URL fix.
+      Verified closed 2026-08-17: the catalogued page is a 404, and Showcase's own /cinemas/ index lists only one Bristol site — Bristol Avonmeads, "Avonmeads, St Philips Causeway, BS2 0SP" — with no Cabot Circus entry anywhere on the domain. Reporting confirms the last film screened 30 November 2023 after lease terms could not be agreed; the auditoriums reopened as ODEON Luxe Bristol on 12 February 2026. Retiring this entry against cinema/odeon-bristol is a curation call, not a URL fix.
     addedAt: "2026-08-16"
 
   - id: cinema/vue-cribbs-causeway
@@ -129,7 +124,7 @@ sources:
     url: https://www.myvue.com/cinema/bristol-cribbs-causeway/whats-on
     homepage: https://www.myvue.com/cinema/bristol-cribbs-causeway
     area: Cribbs Causeway
-    tags: [multiplex, commercial, mainstream, out-of-town]
+    tags: [ multiplex, commercial, mainstream, out-of-town ]
     cadence: daily
     hints: |
       The URL is right but the showings are loaded client-side: a plain fetch
@@ -140,11 +135,11 @@ sources:
       Big Screen Events (concerts, sport, opera, theatre) are the part worth
       capturing rather than every showing of every blockbuster.
     notes: >-
-      On the northern edge of the city, at the limit of the configured radius.
-      Verified 2026-08-17: page reads "Vue Bristol Cribbs Causeway", "12 screens
-      - including an EPIC screen", "opposite Cribbs Causeway", reachable from
-      junction 17 of the M5 — identity and area confirmed, URL unchanged.
+      On the northern edge of the city, at the limit of the configured radius. Verified 2026-08-17: page reads "Vue Bristol Cribbs Causeway", "12 screens - including an EPIC screen", "opposite Cribbs Causeway", reachable from junction 17 of the M5 — identity and area confirmed, URL unchanged.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.523285
+      lon: -2.604659
 
   - id: cinema/odeon-bristol
     name: ODEON Bristol
@@ -154,7 +149,7 @@ sources:
     url: https://www.odeon.co.uk/cinemas/bristol/
     homepage: https://www.odeon.co.uk/
     area: City Centre
-    tags: [multiplex, commercial, mainstream]
+    tags: [ multiplex, commercial, mainstream ]
     cadence: daily
     hints: |
       Two walls, both passable. The host sits behind a Queue-It "safetynet" that
@@ -168,15 +163,11 @@ sources:
       confuse it with /cinemas/bristol-union-street/, the closed predecessor,
       which still resolves.
     notes: >-
-      Verified 2026-08-17: this URL is live and is ODEON Luxe Bristol — embedded
-      payload gives "Cabot Circus, Broadmead, Bristol, BS1 3BX", isImax true, and
-      the copy reads "ODEON Luxe Bristol is conveniently located in the Cabot
-      Circus Shopping Centre". It opened 12 February 2026 in the former Showcase
-      Cinema de Lux auditoriums; the old Union Street ODEON closed 11 February
-      2026 after 88 years and survives only as an announcement page. So `area:
-      City Centre` and probably `name` are stale — left for a curator, as is
-      whether cinema/showcase-cabot-circus is retired against this entry.
+      Verified 2026-08-17: this URL is live and is ODEON Luxe Bristol — embedded payload gives "Cabot Circus, Broadmead, Bristol, BS1 3BX", isImax true, and the copy reads "ODEON Luxe Bristol is conveniently located in the Cabot Circus Shopping Centre". It opened 12 February 2026 in the former Showcase Cinema de Lux auditoriums; the old Union Street ODEON closed 11 February 2026 after 88 years and survives only as an announcement page. So `area: City Centre` and probably `name` are stale — left for a curator, as is whether cinema/showcase-cabot-circus is retired against this entry.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.456687
+      lon: -2.591528
 
   - id: cinema/bristol-film-festival
     name: Bristol Film Festival
@@ -184,7 +175,7 @@ sources:
     kind: festival
     status: provisional
     url: https://bristolfilmfestival.com/
-    tags: [festival, site-specific, seasonal]
+    tags: [ festival, site-specific, seasonal ]
     cadence: monthly
     hints: |
       Programmes screenings in unusual locations — caves, ships, chapels —
@@ -203,11 +194,9 @@ sources:
       - role: feed
         url: https://bristolbadfilmclub.co.uk/feed/
         note: >-
-          Real RSS (application/rss+xml). The site is a WordPress blog, so
-          screenings arrive as posts and the feed is the cheapest way to see
-          whether it has restarted.
+          Real RSS (application/rss+xml). The site is a WordPress blog, so screenings arrive as posts and the feed is the cheapest way to see whether it has restarted.
     homepage: https://bristolbadfilmclub.co.uk/
-    tags: [independent, community]
+    tags: [ independent, community ]
     cadence: quarterly
     hints: |
       Screens bad films with live riffing, in borrowed rooms rather than its own
@@ -219,14 +208,6 @@ sources:
       There is no events API: /wp-json/tribe/events/v1/events 404s, /events/
       404s, and ?ical=1 returns the HTML homepage rather than a calendar.
     notes: >-
-      `dormant`, deliberately, rather than omitted. The site is live and answers
-      200, but the most recent item in both the upcoming-screenings category and
-      the RSS feed is January 2025, and nothing is dated forward. Recorded so a
-      future stage 1 run does not re-propose it as a discovery, and so stage 2
-      does not pay to fetch it — `harvestableSources` covers only `active` and
-      `provisional`.
-      Note the domain: `badfilmclub.com` is an unrelated site and
-      `badfilmclub.co.uk` does not resolve. Only `bristolbadfilmclub.co.uk` is
-      this organisation.
+      `dormant`, deliberately, rather than omitted. The site is live and answers 200, but the most recent item in both the upcoming-screenings category and the RSS feed is January 2025, and nothing is dated forward. Recorded so a future stage 1 run does not re-propose it as a discovery, and so stage 2 does not pay to fetch it — `harvestableSources` covers only `active` and `provisional`. Note the domain: `badfilmclub.com` is an unrelated site and `badfilmclub.co.uk` does not resolve. Only `bristolbadfilmclub.co.uk` is this organisation.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"

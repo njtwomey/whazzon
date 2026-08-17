@@ -2,9 +2,7 @@ schema: whazzon.catalogue/1
 category: markets
 label: Markets
 description: >-
-  Street and indoor markets. Almost all are `occurrence.kind: recurring` — a
-  weekly or monthly pattern rather than dated events — which makes them a good
-  test of that part of the schema.
+  Street and indoor markets. Almost all are `occurrence.kind: recurring` — a weekly or monthly pattern rather than dated events — which makes them a good test of that part of the schema.
 sources:
   - id: markets/st-nicholas-market
     name: St Nicholas Market
@@ -13,7 +11,7 @@ sources:
     status: provisional
     url: https://www.bristol.gov.uk/st-nicholas-markets
     area: Old City
-    tags: [indoor, daily, street-food, independent, historic]
+    tags: [ indoor, daily, street-food, independent, historic ]
     cadence: monthly
     hints: |
       Bristol's main covered market, open most days, with themed street markets
@@ -22,13 +20,11 @@ sources:
       all — the days-and-hours statement is the target, and the page itself
       warns that outdoor trading days are subject to change.
     notes: >-
-      Verified 2026-08-17: the catalogued council path returns 404. The market now has its own council subsite,
-      heading "St Nicholas Markets, Bristol - A place to shop, eat and enjoy", which states the indoor market
-      Mon-Sat 9.30am-5pm, Bristol Indies' Market Mon-Sat 10am-5pm and a Street Food Market on the first Friday of
-      the month 11am-2.30pm. Visit Bristol's round-up disagrees on the two outdoor markets (Street Food Tue and
-      Fri, Indies Fri-Sat); the council page is the one this URL points at. No farmers' market is listed here any
-      more.
+      Verified 2026-08-17: the catalogued council path returns 404. The market now has its own council subsite, heading "St Nicholas Markets, Bristol - A place to shop, eat and enjoy", which states the indoor market Mon-Sat 9.30am-5pm, Bristol Indies' Market Mon-Sat 10am-5pm and a Street Food Market on the first Friday of the month 11am-2.30pm. Visit Bristol's round-up disagrees on the two outdoor markets (Street Food Tue and Fri, Indies Fri-Sat); the council page is the one this URL points at. No farmers' market is listed here any more.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.454327
+      lon: -2.593049
 
   - id: markets/tobacco-factory-market
     name: Tobacco Factory Sunday Market
@@ -37,7 +33,7 @@ sources:
     status: provisional
     url: https://tobaccofactory.com/whats-on/sunday-market/
     area: North Street, Bedminster
-    tags: [weekly, sunday, farmers, independent, food]
+    tags: [ weekly, sunday, farmers, independent, food ]
     cadence: monthly
     hints: Every Sunday morning — recurring, not a series of dated events.
     addedAt: "2026-08-16"
@@ -49,7 +45,7 @@ sources:
     status: provisional
     url: https://bristololdcity.co.uk/where-to-go/bristol-farmers%E2%80%99-and-producers%E2%80%99-market
     area: Corn Street
-    tags: [weekly, farmers, food, outdoor]
+    tags: [ weekly, farmers, food, outdoor ]
     cadence: monthly
     hints: |
       Weekly and recurring — there is no event list to read. The page states the
@@ -57,12 +53,7 @@ sources:
       so record this page's own words and keep confidence medium. The "from 7th
       June 2017 onwards" line on it is when the listing began, not an event date.
     notes: >-
-      Verified 2026-08-17: both catalogued council paths return 404 and the council's replacement subsite no longer
-      lists a farmers' market at all, so there is no official page left to point at. The market has no site of its
-      own; this is the Bristol Old City BID listing (site run by Destination Bristol), which names the market and
-      states "every Wednesday", "from 8:00am to 2:30pm", on "Corn Street and Wine Street, around the historic four
-      Nails" — agreeing with the catalogued area. Third-party page, and Visit Bristol gives 9.30am-2.30pm instead,
-      so the hours are contested.
+      Verified 2026-08-17: both catalogued council paths return 404 and the council's replacement subsite no longer lists a farmers' market at all, so there is no official page left to point at. The market has no site of its own; this is the Bristol Old City BID listing (site run by Destination Bristol), which names the market and states "every Wednesday", "from 8:00am to 2:30pm", on "Corn Street and Wine Street, around the historic four Nails" — agreeing with the catalogued area. Third-party page, and Visit Bristol gives 9.30am-2.30pm instead, so the hours are contested.
     addedAt: "2026-08-16"
 
   - id: markets/harbourside-market
@@ -72,7 +63,7 @@ sources:
     status: provisional
     url: https://visitbristol.co.uk/things-to-do/shopping/markets/
     area: Harbourside
-    tags: [weekend, crafts, food, outdoor]
+    tags: [ weekend, crafts, food, outdoor ]
     cadence: monthly
     hints: |
       A round-up page covering eleven Bristol markets — take only the
@@ -81,15 +72,7 @@ sources:
       this market renders its body in JavaScript and is unusable, so the
       round-up is the route in.
     notes: >-
-      Verified 2026-08-17: the catalogued p2436113 page 404s (it 301s to a trailing slash, then 404). Visit
-      Bristol's dedicated page, /things-to-do/the-harbourside-street-food-market-p2014333, does return 200 with the
-      title "The Harbourside Street Food Market" but its body is JavaScript-rendered — about 4KB of navigation and
-      nothing else, even with a browser user-agent — so this round-up is the usable target. It names the market and
-      says "Amazing street-food traders descend on Broad Quay in Bristol city centre throughout the week",
-      Wednesday to Friday 12pm-2.30pm and Saturday to Sunday 11.30am-4pm. Two curation calls for a human, not acted
-      on: it now trades as The Harbourside Street Food Market on Broad Quay, so the name, the area and the crafts
-      tag all look wrong; and the same page lists Temple Quay, Whiteladies Road and Windmill Hill markets, which
-      are not in the catalogue.
+      Verified 2026-08-17: the catalogued p2436113 page 404s (it 301s to a trailing slash, then 404). Visit Bristol's dedicated page, /things-to-do/the-harbourside-street-food-market-p2014333, does return 200 with the title "The Harbourside Street Food Market" but its body is JavaScript-rendered — about 4KB of navigation and nothing else, even with a browser user-agent — so this round-up is the usable target. It names the market and says "Amazing street-food traders descend on Broad Quay in Bristol city centre throughout the week", Wednesday to Friday 12pm-2.30pm and Saturday to Sunday 11.30am-4pm. Two curation calls for a human, not acted on: it now trades as The Harbourside Street Food Market on Broad Quay, so the name, the area and the crafts tag all look wrong; and the same page lists Temple Quay, Whiteladies Road and Windmill Hill markets, which are not in the catalogue.
     addedAt: "2026-08-16"
 
   - id: markets/finzels-reach-market
@@ -99,15 +82,12 @@ sources:
     status: provisional
     url: https://finzelsreachmarket.co.uk/
     area: Finzels Reach
-    tags: [weekly, street-food, lunch]
+    tags: [ weekly, street-food, lunch ]
     cadence: monthly
     hints: |
       Recurring Wednesday and Friday lunch market — the site carries no dated
       events, only the standing pattern plus its Christmas, New Year and Good
       Friday closures. Record as recurring with the pattern in words.
     notes: >-
-      Verified 2026-08-17: the catalogued finzelsreach.co.uk refuses connections entirely, on both the bare and www
-      hosts. The market has its own site, heading "Discover Bristol's Vibrant Finzels Reach Market", stating every
-      Wednesday and Friday 11am-2pm at "Finzels Reach Market, Old Temple Street, Bristol BS1 6BX", opposite Castle
-      Park — agreeing with the catalogued area.
+      Verified 2026-08-17: the catalogued finzelsreach.co.uk refuses connections entirely, on both the bare and www hosts. The market has its own site, heading "Discover Bristol's Vibrant Finzels Reach Market", stating every Wednesday and Friday 11am-2pm at "Finzels Reach Market, Old Temple Street, Bristol BS1 6BX", opposite Castle Park — agreeing with the catalogued area.
     addedAt: "2026-08-16"

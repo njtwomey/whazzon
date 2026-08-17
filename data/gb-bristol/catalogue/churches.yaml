@@ -1,0 +1,132 @@
+schema: whazzon.catalogue/1
+category: churches
+label: Churches & Cathedrals
+description: >-
+  Working churches whose public programme is largely not religious: organ recitals, choral evensong open to anyone, lunchtime concerts, festival performances borrowing the acoustics, heritage openings and civic events.
+
+  A category rather than a corner of `music` because these sources do not fit one: the concerts belong to music, the tower tours to museums, the carol services to neither, and the buildings themselves are the reason people come. Bristol's existing church venues had ended up scattered — `music/st-georges-bristol` is a deconsecrated concert hall and belongs where it is — and the point of this file is the ones still in use as churches, which nothing else claimed.
+sources:
+  - id: churches/bristol-cathedral
+    name: Bristol Cathedral
+    category: churches
+    kind: venue
+    status: provisional
+    url: https://bristol-cathedral.co.uk/whats-on/
+    homepage: https://bristol-cathedral.co.uk/
+    area: College Green
+    tags: [ major, free, classical, heritage ]
+    cadence: weekly
+    hints: |
+      The strongest source in this category: the what-on page carried twenty
+      distinct dates and sixty references to concerts, recitals, organ or choir
+      when catalogued.
+      Read the year on every row — the page mixes forthcoming events with
+      archive items going back to 2023, and some rows print a weekday and a day
+      of the month with no year at all.
+      Much of the programme is free or donation-only: evensong, organ recitals,
+      civic services. Set `price.free` from what the page says rather than
+      assuming a cathedral charges, and do not assume it is free either.
+      Distinguish three things it publishes: ticketed concerts (`single`),
+      regular services (`recurring` — and only worth recording where they are
+      billed as a musical event, not for every said Eucharist), and exhibitions
+      in the cloisters (`run`).
+    notes: >-
+      Verified 2026-08-17: /whats-on/ answers 200 and is the real listing.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+    address:
+      lat: 51.451684
+      lon: -2.600669
+
+  - id: churches/st-mary-redcliffe
+    name: St Mary Redcliffe
+    category: churches
+    kind: venue
+    status: provisional
+    url:
+      - role: listings
+        url: https://www.stmaryredcliffe.co.uk/whats-on
+      - role: listings
+        url: https://www.stmaryredcliffe.co.uk/music
+        note: >-
+          Where the recital and choir programme actually is. Two hundred references to concerts, recitals, organ and choir against seven on the main what-on page — but its dates skew historical, so read the year.
+    homepage: https://www.stmaryredcliffe.co.uk/
+    area: Redcliffe
+    tags: [ major, free, classical, heritage ]
+    cadence: weekly
+    hints: |
+      Two routes for a reason: /whats-on carried a single date when catalogued
+      while /music is dense with programme detail. Sweep both, and expect the
+      music page to need the year working out from context.
+      Famous for its organ and its choral foundation, so the concerts here are
+      the point rather than a sideline.
+    notes: >-
+      Verified 2026-08-17: both routes answer 200. The 968 KB and 1 MB page weights are the site's own, not an error.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+    address:
+      lat: 51.448321
+      lon: -2.589615
+
+  - id: churches/clifton-cathedral
+    name: Clifton Cathedral
+    category: churches
+    kind: venue
+    status: provisional
+    url: https://cliftoncathedral.org.uk/
+    area: Clifton
+    tags: [ major, free, classical, contemporary ]
+    cadence: monthly
+    hints: |
+      A 1970s brutalist cathedral with a real concert and recital programme, and
+      an interior worth the visit on its own.
+      **403 to a plain fetch and to a browser user-agent**, with a 4.5 KB body.
+      The site is real; this needs a JS-capable fetch. Do not read the 403 as a
+      dead venue, and find the listings path once something can see the page.
+    notes: >-
+      No `verifiedAt`: the domain answers but refused every fetch on 2026-08-17, so no page body was read and the listings path is unconfirmed.
+    addedAt: "2026-08-17"
+    address:
+      lat: 51.459694
+      lon: -2.616368
+
+  - id: churches/new-room
+    name: The New Room / John Wesley's Chapel
+    category: churches
+    kind: venue
+    status: provisional
+    url: https://www.newroombristol.org.uk/events/
+    homepage: https://www.newroombristol.org.uk/
+    area: Broadmead
+    tags: [ heritage, talks, free ]
+    cadence: monthly
+    hints: |
+      The oldest Methodist chapel in the world, with a museum above it — so its
+      programme runs to talks, lectures and heritage events as much as music, and
+      it overlaps `museums` by nature.
+      **HTTP 202 with a 177-byte body**: a SiteGround robot challenge that needs
+      JavaScript. Real site, unreadable to a fetcher.
+    notes: >-
+      No `verifiedAt`: 202 captcha shim on 2026-08-17, so /events/ is a reasonable guess rather than a confirmed path.
+    addedAt: "2026-08-17"
+
+  - id: churches/st-james-priory
+    name: St James' Priory
+    category: churches
+    kind: venue
+    status: provisional
+    url: https://www.stjamespriory.org.uk/
+    area: Broadmead
+    tags: [ heritage, free, classical ]
+    cadence: monthly
+    hints: |
+      Bristol's oldest building, and it programmes lunchtime concerts alongside
+      its work as a charity.
+      **HTTP 202, 168-byte body** — the same captcha shim as the New Room. Needs
+      a browser.
+    notes: >-
+      No `verifiedAt`: nothing was read on 2026-08-17. Catalogued at the root rather than at a guessed listings path, since neither could be checked.
+    addedAt: "2026-08-17"
+    address:
+      lat: 51.458657
+      lon: -2.593018

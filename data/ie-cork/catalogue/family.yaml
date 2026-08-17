@@ -23,6 +23,8 @@ sources:
       city: Cork
       postcode: T45 CD93
       country: Ireland
+      lat: 51.892525
+      lon: -8.31324
     tags: [ zoo, animals, outdoor, ticketed ]
     cadence: monthly
     hints: |
@@ -118,6 +120,8 @@ sources:
       city: Cork
       postcode: T12 A9XE
       country: Ireland
+      lat: 51.890731
+      lon: -8.538352
     tags: [ play, ticketed ]
     cadence: monthly
     hints: |

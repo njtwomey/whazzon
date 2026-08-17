@@ -93,6 +93,9 @@ sources:
     notes: >-
       Trading name of Cork Arts Society, founded 1963 — the two names are one organisation, so there is deliberately no separate Cork Arts Society entry. Checked 2026-08-17: not verified by reading the page, because the captcha wall blocks it; the path is taken from the site's own indexed "Upcoming Exhibitions" page title and its programme is independently confirmed by the Visual Artists Ireland Cork listing. `verifiedAt` is deliberately unset. `address` omitted: third-party sources place the gallery at Wandesford Quay, Clarke's Bridge (it moved from Father Mathew Street) but that could not be read off the gallery's own page, and a guessed Eircode would put the map pin in the wrong place.
     addedAt: "2026-08-17"
+    address:
+      lat: 51.896366
+      lon: -8.479383
 
   - id: art/cork-printmakers
     name: Cork Printmakers
@@ -167,6 +170,8 @@ sources:
       locality: Churchfield
       city: Cork
       postcode: T23 XV50
+      lat: 51.913589
+      lon: -8.494248
     tags: [ studios, artist-led, free, contemporary ]
     cadence: monthly
     hints: |
@@ -416,6 +421,9 @@ sources:
       **Outside the configured radius — a human needs to decide on this one.** Measured 13.6 km from the centre in configs/ie-cork.yaml (51.8985, -8.4756) to Cobh, against `radiusKm: 12`. Included because Cork city organisations programme into it rather than because Cobh is in the city: both of Cork Printmakers' currently listed exhibitions ("Oceanic Imaginaries" and "In the Space Between") are at Sirius rather than at Wandesford Quay, and it recurs throughout the Munster–Cork visual arts listings. Drop it if the radius is to be read strictly. Uillinn (West Cork Arts Centre, Skibbereen) was checked against the same rule and excluded — 66.8 km, and its site is behind the same host-level 403 as Lavit's. Verified 2026-08-17: page names Sirius Arts Centre Cobh, gives 021 4813790, and listed Leanne McDonagh: Community & Connection (4 Jul – 12 Sep) and the Irish Georgian Society restoration project (1 Apr 2024 – 31 Dec 2030).
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
+    address:
+      lat: 51.849129
+      lon: -8.297167
 
   - id: art/mayfield-arts
     name: Mayfield Arts

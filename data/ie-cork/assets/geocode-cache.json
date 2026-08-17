@@ -514,5 +514,352 @@
     "lat": 51.8984152,
     "lon": -8.4705902,
     "display": "7, Winthrop Street, Centre A ED, Cork, County Cork, Munster, T12 TD26, Éire / Ireland"
-  }
+  },
+  "Cork Printmakers, Cork, Ireland": null,
+  "Sample-Studios, Cork, Ireland": {
+    "lat": 51.9135885,
+    "lon": -8.494248,
+    "display": "Sample Studios (Former G&K Training Centre), John F Connolly Road, Churchfield Industrial Estate, Knocknabohilly, Knocknaheeny, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "Mayfield Arts, Cork, Ireland": null,
+  "Omniplex Cork — Mahon Point, Cork, Ireland": null,
+  "Cork Cine Club, Cork, Ireland": null,
+  "UCC Department of Film and Screen Media, Cork, Ireland": null,
+  "Fota Wildlife Park, Cork, Ireland": {
+    "lat": 51.8925247,
+    "lon": -8.3132399,
+    "display": "Fota Wildlife Park, R624, Cobh Rural ED, Municipal District of Cobh, County Cork, Munster, Éire / Ireland"
+  },
+  "Little Rebels Softplay, Cork, Ireland": {
+    "lat": 51.8907313,
+    "lon": -8.5383522,
+    "display": "Little Rebels Softplay, Curraheen Walk, Ballygaggin, Victoria Cross, Bishopstown ED A, Cork, County Cork, Munster, T12 A9XE, Éire / Ireland"
+  },
+  "Monkey Maze Activity Centre, Cork, Ireland": null,
+  "Cork Summer Show, Cork, Ireland": null,
+  "Rebel City Distillery, Cork, Ireland": null,
+  "Munster Literature Centre, Cork, Ireland": null,
+  "Rebel Reads, Cork, Ireland": {
+    "lat": 51.8985599,
+    "lon": -8.4507084,
+    "display": "Rebel Reads, Centre Park Road, Marina / Centre Park / Cleve Industrial Area, Docklands, Knockrea B, Cork, County Cork, Munster, T12 VW53, Éire / Ireland"
+  },
+  "Cork Craft & Design, Cork, Ireland": null,
+  "The English Market, Cork, Ireland": {
+    "lat": 51.8978042,
+    "lon": -8.4739628,
+    "display": "The Farmgate Café, English Market, Centre A ED, Cork, County Cork, Munster, T12 NC8Y, Éire / Ireland"
+  },
+  "The Black Market, Cork, Ireland": {
+    "lat": 51.896208,
+    "lon": -8.4433615,
+    "display": "The Black Market, Monahan Road, Marina / Centre Park / Cleve Industrial Area, Docklands, Knockrea B, Cork, County Cork, Munster, T12 NXN1, Éire / Ireland"
+  },
+  "Mahon Point Farmers' Market, Cork, Ireland": null,
+  "Nano Nagle Place, Cork, Ireland": {
+    "lat": 51.8936109,
+    "lon": -8.4717204,
+    "display": "Nano Nagle Place, 50, Douglas Street, South Parish, Evergreen, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "St Peter's Cork, Cork, Ireland": {
+    "lat": 51.8949105,
+    "lon": -8.5585671,
+    "display": "Saint Peter's, Church Hill, Ballincollig, Ballincollig ED, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "Crane Lane Theatre, Cork, Ireland": {
+    "lat": 51.8975668,
+    "lon": -8.4694289,
+    "display": "Crane Lane Theatre, Phoenix Street, Centre A ED, Cork, County Cork, Munster, T12 A218, Éire / Ireland"
+  },
+  "Dali, Cork, Ireland": null,
+  "Unitarian Church Cork, Cork, Ireland": {
+    "lat": 51.8976816,
+    "lon": -8.4738145,
+    "display": "Unitarian Church, 39, Princes Street, Centre A ED, Cork, County Cork, Munster, T12 D785, Éire / Ireland"
+  },
+  "Blarney Castle & Gardens, Cork, Ireland": {
+    "lat": 51.931408,
+    "lon": -8.5682,
+    "display": "Blarney Castle & Gardens, The Square, Monacnapa, Blarney ED, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "Fota Arboretum and Gardens, Cork, Ireland": {
+    "lat": 51.8934832,
+    "lon": -8.3022627,
+    "display": "Fota Arboretum and Gardens, Fota House, Cobh Rural ED, Municipal District of Cobh, County Cork, Munster, Éire / Ireland"
+  },
+  "SuperValu Páirc Uí Chaoimh, Cork, Ireland": {
+    "lat": 51.8997226,
+    "lon": -8.4351879,
+    "display": "SuperValu Páirc Uí Chaoimh, The Marina, Knockrea B, Cork, County Cork, Munster, T12 PF30, Éire / Ireland"
+  },
+  "Virgin Media Park (Musgrave Park), Cork, Ireland": null,
+  "Cork County Cricket Club (The Mardyke), Cork, Ireland": {
+    "lat": 51.8964874,
+    "lon": -8.4919989,
+    "display": "Cork County Cricket Club, Mardyke Walk, Gillabbey, The Mardyke, Mardyke, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "Cork Sports Partnership, Cork, Ireland": null,
+  "Circus Factory, Cork, Ireland": null,
+  "Lavit Gallery, Cork, Ireland": {
+    "lat": 51.8963661,
+    "lon": -8.4793832,
+    "display": "Lavit Gallery, Wandesford Quay, Gillabbey A, Cork, County Cork, Munster, T12 P982, Éire / Ireland"
+  },
+  "Triskel Arts Centre (Visual Art), Cork, Ireland": null,
+  "Visual Artists Ireland — Munster/Cork listings, Cork, Ireland": null,
+  "Cork Zine Fest, Cork, Ireland": null,
+  "Sirius Arts Centre, Cork, Ireland": {
+    "lat": 51.849129,
+    "lon": -8.2971674,
+    "display": "Sirius Arts Centre, Lower Road, Cobh Urban ED, Municipal District of Cobh, County Cork, Munster, Éire / Ireland"
+  },
+  "Honan Chapel, UCC, Cork, Ireland": null,
+  "Cathedral of St Mary and St Anne (the North Cathedral), Cork, Ireland": null,
+  "Access Cinema, Cork, Ireland": null,
+  "CinemaTimes — Cork, Cork, Ireland": null,
+  "entertainment.ie — Cork cinema listings, Cork, Ireland": null,
+  "Cinema World Douglas, Cork, Ireland": null,
+  "Pure Cork, Cork, Ireland": {
+    "lat": 51.8980599,
+    "lon": -8.4699024,
+    "display": "Mahers Pure Coffee, 25, Oliver Plunkett Street, Centre A ED, Cork, County Cork, Munster, T12 YT78, Éire / Ireland"
+  },
+  "People's Republic of Cork — Event Guide, Cork, Ireland": null,
+  "Entertainment.ie — Cork listings, Cork, Ireland": null,
+  "Eventbrite — Cork, Cork, Ireland": null,
+  "Ticketmaster Ireland — Cork, Cork, Ireland": null,
+  "Resident Advisor — Cork, Cork, Ireland": null,
+  "Skiddle — Cork, Cork, Ireland": null,
+  "Bandsintown — Cork, Cork, Ireland": null,
+  "Meetup — Cork, Cork, Ireland": null,
+  "Yay Cork, Cork, Ireland": {
+    "lat": 51.5624521,
+    "lon": -9.4612952,
+    "display": "Yay Burger, Staball Hill, Ballydehob ED, West Cork, County Cork, Munster, P81 CY60, Éire / Ireland"
+  },
+  "The Echo — What's On, Cork, Ireland": null,
+  "CorkBeo — What's On, Cork, Ireland": null,
+  "Cork Independent — What's On, Cork, Ireland": null,
+  "Irish Examiner — Arts & Culture, Cork, Ireland": null,
+  "Discover Ireland — Cork events, Cork, Ireland": null,
+  "Cork City Council — festivals and events, Cork, Ireland": null,
+  "Cork City Arts Office, Cork, Ireland": null,
+  "Cork City Libraries, Cork, Ireland": {
+    "lat": 51.8967078,
+    "lon": -8.4754749,
+    "display": "Cork City Library, Grand Parade, Centre A ED, Cork, County Cork, Munster, T12 H677, Éire / Ireland"
+  },
+  "Cork Chamber — events calendar, Cork, Ireland": null,
+  "Snatch Comedy Improv, Cork, Ireland": null,
+  "The Wonky Donkey Comedy Club (Mardyke Cellar Theatre), Cork, Ireland": null,
+  "Cork Fringe Festival, Cork, Ireland": null,
+  "AllEvents — Cork comedy, Cork, Ireland": null,
+  "Eventbrite — Cork comedy, Cork, Ireland": null,
+  "University College Cork — events, Cork, Ireland": null,
+  "Munster Technological University — events, Cork, Ireland": null,
+  "UCC Adult Continuing Education, Cork, Ireland": null,
+  "Cork Skeptics, Cork, Ireland": null,
+  "Cork Education and Training Board, Cork, Ireland": {
+    "lat": 51.9003821,
+    "lon": -8.4742881,
+    "display": "Cork Education and Training Board, Paul's Lane, Centre B ED, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "Cruinniú na nÓg Cork, Cork, Ireland": null,
+  "Cork Puppetry Festival, Cork, Ireland": null,
+  "Circus Factory Cork, Cork, Ireland": null,
+  "Cork Puppetry Company, Cork, Ireland": null,
+  "Cork City Libraries — Children & Young People, Cork, Ireland": null,
+  "UCC Science Week, Cork, Ireland": null,
+  "Your Days Out — Cork, Cork, Ireland": null,
+  "Eventbrite — Cork Kids & Family, Cork, Ireland": null,
+  "Guinness Cork Jazz Festival, Cork, Ireland": null,
+  "Cork Midsummer Festival, Cork, Ireland": null,
+  "Cork International Film Festival, Cork, Ireland": null,
+  "IndieCork, Cork, Ireland": null,
+  "Cork Folk Festival, Cork, Ireland": null,
+  "Cork International Choral Festival, Cork, Ireland": null,
+  "Sounds from a Safe Harbour, Cork, Ireland": null,
+  "Quarter Block Party, Cork, Ireland": null,
+  "Cork Harbour Festival, Cork, Ireland": null,
+  "Ocean to City — An Rás Mór, Cork, Ireland": null,
+  "Dragon of Shandon, Cork, Ireland": null,
+  "Cork Community Pride, Cork, Ireland": null,
+  "Culture Night Cork, Cork, Ireland": null,
+  "Cork St Patrick's Festival, Cork, Ireland": null,
+  "A Cork Christmas Celebration (Corkmas), Cork, Ireland": null,
+  "Cork Heritage Open Day, Cork, Ireland": null,
+  "Cork Carnival of Science, Cork, Ireland": null,
+  "Cork Science Festival, Cork, Ireland": null,
+  "Cork French Film Festival, Cork, Ireland": null,
+  "Cork Podcast Festival, Cork, Ireland": null,
+  "Cork Lifelong Learning Festival, Cork, Ireland": null,
+  "The Spirit of Mother Jones Festival, Cork, Ireland": null,
+  "Cork Craft Month, Cork, Ireland": null,
+  "Blackpool Block Party, Cork, Ireland": null,
+  "Pure Cork — Festivals, Cork, Ireland": null,
+  "National Heritage Week — Cork, Cork, Ireland": null,
+  "Cork on a Fork Fest, Cork, Ireland": null,
+  "Fab Food Trails — Cork Tasting Trails, Cork, Ireland": null,
+  "Activity Days — Cork food tours, Cork, Ireland": null,
+  "Taste Cork, Cork, Ireland": {
+    "lat": 51.8961761,
+    "lon": -8.4431434,
+    "display": "Taste of Home, Monahan Road, Marina / Centre Park / Cleve Industrial Area, Docklands, Knockrea B, Cork, County Cork, Munster, T12 NXN1, Éire / Ireland"
+  },
+  "Eventbrite — Cork Food & Drink, Cork, Ireland": null,
+  "Cork International Poetry Festival, Cork, Ireland": null,
+  "Cork International Short Story Festival, Cork, Ireland": null,
+  "Cork World Book Fest, Cork, Ireland": null,
+  "Ó Bhéal, Cork, Ireland": null,
+  "Ó Bhéal go Béal, Cork, Ireland": null,
+  "Winter Warmer Poetry Festival, Cork, Ireland": null,
+  "UCC School of English & Digital Humanities, Cork, Ireland": null,
+  "Cork Historical & Archaeological Society, Cork, Ireland": null,
+  "Cork Radical Bookfair, Cork, Ireland": null,
+  "Eason Events, Cork, Ireland": null,
+  "Eventbrite — Cork literary events, Cork, Ireland": null,
+  "Poetry Ireland — What's On, Cork, Ireland": null,
+  "Benchspace Cork, Cork, Ireland": {
+    "lat": 51.8985844,
+    "lon": -8.447981,
+    "display": "ÓRRÓ Goldsmith Studio, Unit B1b, Centre Park Road, Docklands, Knockrea B, Cork, County Cork, Munster, T12 KRH7, Éire / Ireland"
+  },
+  "Cork Textiles Network, Cork, Ireland": null,
+  "Society of Cork Potters, Cork, Ireland": null,
+  "Community Resources Network Ireland — reuse & repair events, Cork, Ireland": null,
+  "Eventbrite — Cork crafts, Cork, Ireland": null,
+  "Cornmarket Street (Coal Quay) Market, Cork, Ireland": null,
+  "Douglas Farmers' Market, Cork, Ireland": null,
+  "Blackrock Village Sunday Market, Cork, Ireland": null,
+  "Ballincollig Farmers' Market, Cork, Ireland": null,
+  "Wilton Farmers' Market, Cork, Ireland": null,
+  "Harley's StrEAT Market, Cork, Ireland": null,
+  "Mother Jones Flea Market, Cork, Ireland": null,
+  "Nano Nagle Place Craft Markets, Cork, Ireland": null,
+  "Corkmas Christmas Market, Cork, Ireland": null,
+  "Cork & Kerry Food Market, Cork, Ireland": null,
+  "Cork City Council Casual Trading Areas, Cork, Ireland": null,
+  "Taste Cork Food Markets, Cork, Ireland": null,
+  "Pure Cork Food & Drink Events, Cork, Ireland": null,
+  "IOMST Cork Markets, Cork, Ireland": null,
+  "Fota House, Arboretum & Gardens, Cork, Ireland": null,
+  "Spike Island, Cork, Ireland": {
+    "lat": 51.8342071,
+    "lon": -8.2857118,
+    "display": "Spike Island, Cobh Rural ED, County Cork, Munster, Éire / Ireland"
+  },
+  "Cork City Council Archaeology, Cork, Ireland": null,
+  "Cork Historical and Archaeological Society, Cork, Ireland": null,
+  "Cork Astronomy Club, Cork, Ireland": null,
+  "Cork Folklore Project, Cork, Ireland": {
+    "lat": 51.9045658,
+    "lon": -8.475779,
+    "display": "Cork Folklore Project, Chapel HIll, Shandon A, Cork, County Cork, Munster, T23 NX76, Éire / Ireland"
+  },
+  "National Heritage Week, Cork, Ireland": null,
+  "Irish Museums Association, Cork, Ireland": null,
+  "Cork City Hall, Cork, Ireland": {
+    "lat": 51.8964817,
+    "lon": -8.4658886,
+    "display": "Cork City Hall, Anglesea Street, City Hall A ED, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "MTU Cork School of Music, Cork, Ireland": {
+    "lat": 51.8960704,
+    "lon": -8.4679286,
+    "display": "MTU Cork School of Music, Union Quay, South Parish, South Gate A, Cork, County Cork, Munster, T12 E9HY, Éire / Ireland"
+  },
+  "UCC Department of Music, Cork, Ireland": {
+    "lat": 51.8996183,
+    "lon": -8.4900355,
+    "display": "UCC Department of Music, Sunday's Well Road, Sunday's Well, Sunday's Well A, Cork, County Cork, Munster, T23 HF50, Éire / Ireland"
+  },
+  "Live at the Marquee, Cork, Ireland": null,
+  "Singular Artists, Cork, Ireland": null,
+  "Aiken Promotions, Cork, Ireland": null,
+  "MCD Promotions, Cork, Ireland": null,
+  "Tom Keating Presents, Cork, Ireland": null,
+  "CorkGigs, Cork, Ireland": null,
+  "Cork Heritage Pubs, Cork, Ireland": null,
+  "Gigs.ie, Cork, Ireland": null,
+  "Cork Gig Guide (low trees), Cork, Ireland": null,
+  "Cork City Council — Cork City Parks, Cork, Ireland": null,
+  "Marina Park, Cork, Ireland": {
+    "lat": 51.8996267,
+    "lon": -8.4290838,
+    "display": "Marina Park, The Marina, Knockrea B, Cork, County Cork, Munster, T12 TX2F, Éire / Ireland"
+  },
+  "Cork City Walks — self-guided trails, Cork, Ireland": null,
+  "Cork Heritage Orienteering Routes, Cork, Ireland": null,
+  "Cork City Council — allotments, Cork, Ireland": null,
+  "Cork City Council — Natural Heritage & Biodiversity, Cork, Ireland": null,
+  "Cork Heritage Open Day — historical walking tours, Cork, Ireland": null,
+  "Kieran's Historical Walking Tours, Cork, Ireland": null,
+  "Free Walking Tours Cork, Cork, Ireland": null,
+  "Cork City Walk Tours, Cork, Ireland": null,
+  "Nature Network Ireland (formerly Cork Nature Network), Cork, Ireland": null,
+  "BirdWatch Ireland — Cork Branch, Cork, Ireland": null,
+  "Cork Cycling Festival, Cork, Ireland": null,
+  "Cork Environmental Forum, Cork, Ireland": null,
+  "National Biodiversity Week, Cork, Ireland": null,
+  "OPW Heritage Ireland — what's on, Cork, Ireland": null,
+  "Pure Cork — Nature & Gardens, Cork, Ireland": null,
+  "Cork GAA (Cork County Board), Cork, Ireland": null,
+  "Munster GAA, Cork, Ireland": null,
+  "GAA fixtures & results (gaa.ie), Cork, Ireland": null,
+  "Nemo Rangers GAA, Cork, Ireland": null,
+  "Blackrock National Hurling Club, Cork, Ireland": null,
+  "Munster Rugby, Cork, Ireland": null,
+  "Cork Constitution FC, Cork, Ireland": null,
+  "Highfield RFC, Cork, Ireland": {
+    "lat": 51.8853421,
+    "lon": -8.5179123,
+    "display": "Highfield RFC, Ballinaspig Beg, Bishopstown ED C, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "Dolphin RFC, Cork, Ireland": {
+    "lat": 51.8815534,
+    "lon": -8.472297,
+    "display": "Dolphin RFC Club House, Pearse Road, Ballyphehane, Ballyphehane B, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "Sundays Well RFC, Cork, Ireland": null,
+  "Munster domestic rugby fixtures, Cork, Ireland": null,
+  "Cork City FC, Cork, Ireland": {
+    "lat": 51.9113154,
+    "lon": -8.4544717,
+    "display": "Cork City Council Depot, Clashnaganniff, The Glen, The Glen A, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "Cork City FC Women, Cork, Ireland": null,
+  "Cork Racecourse Mallow, Cork, Ireland": {
+    "lat": 52.1296062,
+    "lon": -8.6903522,
+    "display": "Cork Racecourse Mallow, Longfield's Bridge, Ballyclogh ED, The Municipal District of Kanturk-Mallow, County Cork, Munster, P51 XV74, Éire / Ireland"
+  },
+  "Cork Athletics (County Board), Cork, Ireland": null,
+  "Cork City Sports, Cork, Ireland": null,
+  "Analog Devices Cork City Marathon, Cork, Ireland": null,
+  "parkrun — Cork area, Cork, Ireland": null,
+  "Lee Rowing Club, Cork, Ireland": {
+    "lat": 51.9009645,
+    "lon": -8.4374123,
+    "display": "Lee Rowing Club, The Marina, Knockrea B, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "Basketball Ireland — Super League fixtures, Cork, Ireland": null,
+  "Cork Harlequins Hockey & Cricket Club, Cork, Ireland": null,
+  "Mardyke Arena UCC, Cork, Ireland": null,
+  "UCC Sport, Cork, Ireland": {
+    "lat": 51.8948645,
+    "lon": -8.4979609,
+    "display": "UCC Department of Sport & Physical Activity, Mardyke Walk, Gillabbey, The Mardyke, Mardyke, Cork, County Cork, Munster, Éire / Ireland"
+  },
+  "UCC Department of Theatre, Cork, Ireland": null,
+  "Cork City Ballet, Cork, Ireland": null,
+  "Gaitkrash Theatre Company, Cork, Ireland": null,
+  "Cyclone Rep, Cork, Ireland": null,
+  "Montfort College of Performing Arts, Cork, Ireland": null,
+  "Pure Cork — Theatre & Comedy, Cork, Ireland": null,
+  "Eventbrite — Cork Performing Arts, Cork, Ireland": null,
+  "The Lee Sessions, Cork, Ireland": null,
+  "The Session — sessions near Cork, Cork, Ireland": null,
+  "Cork Pipers' Club, Cork, Ireland": null,
+  "Douglas Comhaltas, Cork, Ireland": null,
+  "Cork Singers' Club, Cork, Ireland": null
 }

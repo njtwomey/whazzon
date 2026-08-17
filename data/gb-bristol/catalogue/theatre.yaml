@@ -2,8 +2,7 @@ schema: whazzon.catalogue/1
 category: theatre
 label: Theatre
 description: >-
-  Playhouses, studio theatres, circus and physical theatre, and the companies
-  that programme into other people's spaces.
+  Playhouses, studio theatres, circus and physical theatre, and the companies that programme into other people's spaces.
 sources:
   - id: theatre/bristol-old-vic
     name: Bristol Old Vic
@@ -17,7 +16,9 @@ sources:
       street: King Street
       city: Bristol
       postcode: BS1 4ED
-    tags: [producing-house, historic, major]
+      lat: 51.452311
+      lon: -2.594228
+    tags: [ producing-house, historic, major ]
     cadence: weekly
     hints: |
       The oldest continuously working theatre in the English-speaking world.
@@ -39,7 +40,9 @@ sources:
       locality: Southville
       city: Bristol
       postcode: BS3 1TF
-    tags: [independent, studio, in-the-round]
+      lat: 51.442345
+      lon: -2.613293
+    tags: [ independent, studio, in-the-round ]
     cadence: weekly
     hints: |
       Two spaces with quite different programmes — a main in-the-round theatre
@@ -57,7 +60,9 @@ sources:
       street: St Augustine's Parade
       city: Bristol
       postcode: BS1 4UZ
-    tags: [touring, west-end, major, commercial]
+      lat: 51.453236
+      lon: -2.598943
+    tags: [ touring, west-end, major, commercial ]
     cadence: weekly
     hints: |
       Large receiving house for West End tours, musicals and panto, operated by
@@ -72,7 +77,7 @@ sources:
     status: provisional
     url: https://thewardrobetheatre.com/
     area: Old Market
-    tags: [independent, fringe, comedy, new-work]
+    tags: [ independent, fringe, comedy, new-work ]
     cadence: weekly
     hints: |
       Small independent venue above a pub. Heavy crossover with comedy and
@@ -84,10 +89,11 @@ sources:
       — 94KB of chrome with no show links and no dates in it — so do not follow
       the nav there. Individual shows live at /shows/<slug>/.
     notes: >-
-      Verified 2026-08-17: header reads "The Wardrobe Theatre", address given as The Old Market Assembly, 25
-      West Street, Old Market, BS2 0DF, which agrees with area: Old Market. Five dated shows server-rendered on
-      the homepage, e.g. Action Hero: A Song & Dance, Weds 9th – Sat 12th Sept 2026.
+      Verified 2026-08-17: header reads "The Wardrobe Theatre", address given as The Old Market Assembly, 25 West Street, Old Market, BS2 0DF, which agrees with area: Old Market. Five dated shows server-rendered on the homepage, e.g. Action Hero: A Song & Dance, Weds 9th – Sat 12th Sept 2026.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.45708
+      lon: -2.579296
 
   - id: theatre/circomedia
     name: Circomedia
@@ -96,13 +102,16 @@ sources:
     status: provisional
     url: https://circomedia.com/whats-on/
     area: St Pauls
-    tags: [circus, physical-theatre, independent]
+    tags: [ circus, physical-theatre, independent ]
     cadence: weekly
     hints: |
       Circus and physical theatre in a converted church. Part training school,
       part venue — distinguish public performances from courses and classes,
       and only record the former.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.461213
+      lon: -2.584646
 
   - id: theatre/bristol-improv-theatre
     name: Bristol Improv Theatre
@@ -111,7 +120,7 @@ sources:
     status: provisional
     url: https://improvtheatre.co.uk/
     area: Clifton
-    tags: [improv, comedy, independent]
+    tags: [ improv, comedy, independent ]
     cadence: weekly
     hints: |
       Almost all output is improvised comedy — cross-listed under comedy.
@@ -124,11 +133,11 @@ sources:
       months, so record them as `occurrence.kind: recurring` rather than one
       event per date.
     notes: >-
-      Verified 2026-08-17: header reads "Bristol Improv Theatre", address 50 St Paul's Rd, Clifton, BS8 1LP,
-      which agrees with area: Clifton. Dated shows server-rendered, e.g. Fire & Dice Thu 27 Aug and Adventures
-      of the Improvised Sherlock Holmes Fri 11 Sep. The catalogued /whats-on path is a stub, and www redirects
-      to the apex.
+      Verified 2026-08-17: header reads "Bristol Improv Theatre", address 50 St Paul's Rd, Clifton, BS8 1LP, which agrees with area: Clifton. Dated shows server-rendered, e.g. Fire & Dice Thu 27 Aug and Adventures of the Improvised Sherlock Holmes Fri 11 Sep. The catalogued /whats-on path is a stub, and www redirects to the apex.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.458755
+      lon: -2.611884
 
   - id: theatre/redgrave-theatre
     name: Redgrave Theatre
@@ -137,9 +146,12 @@ sources:
     status: provisional
     url: https://www.redgravetheatre.com/whats-on/
     area: Clifton
-    tags: [receiving-house, amateur, community]
+    tags: [ receiving-house, amateur, community ]
     cadence: weekly
     addedAt: "2026-08-16"
+    address:
+      lat: 51.460133
+      lon: -2.62199
 
   - id: theatre/alma-tavern-theatre
     name: Alma Tavern Theatre
@@ -149,7 +161,7 @@ sources:
     url: https://www.tickettailor.com/events/almatheatrecompany
     homepage: https://www.almatavernandtheatre.co.uk/theatre
     area: Clifton
-    tags: [pub-theatre, fringe, independent]
+    tags: [ pub-theatre, fringe, independent ]
     cadence: weekly
     hints: |
       Small pub theatre. Its own site carries no listings at all — the theatre
@@ -167,11 +179,11 @@ sources:
       a long forward horizon and paginate to the end rather than taking the first
       screen.
     notes: >-
-      Verified 2026-08-17: catalogued almataverntheatre.co.uk is the wrong host; the venue is at
-      almatavernandtheatre.co.uk, "ALMA TAVERN & THEATRE, 18-20 ALMA VALE ROAD, BRISTOL, BS8 2HY", agreeing
-      with area: Clifton. That site lists nothing, which is why the harvest found it empty. Its Ticket Tailor
-      box office server-renders a dense dated diary — 52 listings at that venue, 19 Aug 2026 to Nov 2027.
+      Verified 2026-08-17: catalogued almataverntheatre.co.uk is the wrong host; the venue is at almatavernandtheatre.co.uk, "ALMA TAVERN & THEATRE, 18-20 ALMA VALE ROAD, BRISTOL, BS8 2HY", agreeing with area: Clifton. That site lists nothing, which is why the harvest found it empty. Its Ticket Tailor box office server-renders a dense dated diary — 52 listings at that venue, 19 Aug 2026 to Nov 2027.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.462634
+      lon: -2.614874
 
   - id: theatre/the-loco-klub
     name: The Loco Klub
@@ -180,7 +192,7 @@ sources:
     status: provisional
     url: https://www.headfirstbristol.co.uk/whats-on/loco-klub
     area: Temple Meads
-    tags: [immersive, independent, arches]
+    tags: [ immersive, independent, arches ]
     cadence: weekly
     hints: |
       Railway arches used for immersive theatre, art and club events. Output
@@ -191,10 +203,7 @@ sources:
       whoever hired the arches that night, not a house programme, so expect club
       nights and cabaret next to theatre.
     notes: >-
-      Verified 2026-08-17: thelocoklub.co.uk is NXDOMAIN on apex and www — the venue's own domain has lapsed.
-      The venue itself is trading: the Headfirst page describes the Brunel-built railway arches restored by
-      Artspace Lifespace and lists dated events from 22 Aug 2026 to Apoctoberfest on 16–17 Oct 2026. No
-      homepage set because there is no live one; artspace.uk carries only an archived 2016–2017 project page.
+      Verified 2026-08-17: thelocoklub.co.uk is NXDOMAIN on apex and www — the venue's own domain has lapsed. The venue itself is trading: the Headfirst page describes the Brunel-built railway arches restored by Artspace Lifespace and lists dated events from 22 Aug 2026 to Apoctoberfest on 16–17 Oct 2026. No homepage set because there is no live one; artspace.uk carries only an archived 2016–2017 project page.
     addedAt: "2026-08-16"
 
   - id: theatre/trinity-centre
@@ -208,7 +217,9 @@ sources:
       street: Trinity Road
       city: Bristol
       postcode: BS2 0NW
-    tags: [community, arts-centre, music, independent]
+      lat: 51.458052
+      lon: -2.57602
+    tags: [ community, arts-centre, music, independent ]
     cadence: weekly
     hints: |
       Community arts centre in a converted church. Programme is mixed —
@@ -218,10 +229,7 @@ sources:
       February 2027 — so use a long forward horizon rather than the current
       month. Music dominates it; do not assume a Trinity listing is theatre.
     notes: >-
-      Verified 2026-08-17: the catalogued 3ca.org.uk still resolves but 301s to trinitybristol.org.uk, so write
-      the canonical host. Footer confirms Trinity Community Arts, registered charity 1144770, at the catalogued
-      Trinity Road BS2 0NW. Dated events from Bristol Extreme Fest on 29/08/2026 through Tangerine Dream on
-      06/02/2027.
+      Verified 2026-08-17: the catalogued 3ca.org.uk still resolves but 301s to trinitybristol.org.uk, so write the canonical host. Footer confirms Trinity Community Arts, registered charity 1144770, at the catalogued Trinity Road BS2 0NW. Dated events from Bristol Extreme Fest on 29/08/2026 through Tangerine Dream on 06/02/2027.
     addedAt: "2026-08-16"
 
   - id: theatre/acta-community-theatre
@@ -231,7 +239,7 @@ sources:
     status: provisional
     url: https://acta-bristol.com/whats-on/
     area: Bedminster
-    tags: [community, participatory]
+    tags: [ community, participatory ]
     cadence: monthly
     hints: Community theatre company; output is sporadic, so a monthly check is enough.
     addedAt: "2026-08-16"
@@ -244,7 +252,7 @@ sources:
     url: https://www.travellinglighttheatre.org.uk/shows
     homepage: https://www.travellinglighttheatre.org.uk/
     area: Barton Hill
-    tags: [family, young-people, touring]
+    tags: [ family, young-people, touring ]
     cadence: monthly
     hints: |
       Produces for children and young people, touring into other venues rather
@@ -259,10 +267,7 @@ sources:
       date. Actual performance dates appear on the host venues' sites, not here.
       /whats-on is a 404.
     notes: >-
-      Verified 2026-08-17: the catalogued apex 301s to www, so the harvest's "correction" was only the host
-      prefix. Page is titled "Our Shows | Travelling Light Theatre Company"; the company and Barton Hill base
-      are named on the site. Current productions are Wonder Baby (October 2026) and The Forest Door (Autumn
-      2027); no street address is published, so none added.
+      Verified 2026-08-17: the catalogued apex 301s to www, so the harvest's "correction" was only the host prefix. Page is titled "Our Shows | Travelling Light Theatre Company"; the company and Barton Hill base are named on the site. Current productions are Wonder Baby (October 2026) and The Forest Door (Autumn 2027); no street address is published, so none added.
     addedAt: "2026-08-16"
 
   - id: theatre/show-of-strength
@@ -271,7 +276,7 @@ sources:
     kind: organiser
     status: provisional
     url: https://www.showofstrength.org.uk/
-    tags: [independent, site-specific]
+    tags: [ independent, site-specific ]
     cadence: quarterly
     notes: Small company producing intermittently in found spaces; URL unverified.
     addedAt: "2026-08-16"
@@ -284,7 +289,7 @@ sources:
     url: https://www.bristol.ac.uk/theatre/events/
     homepage: https://www.bristol.ac.uk/theatre/
     area: Clifton
-    tags: [university, student, studio]
+    tags: [ university, student, studio ]
     cadence: monthly
     hints: |
       University department theatre with public performances. The department
@@ -293,9 +298,5 @@ sources:
       than hunting for another URL. /theatre/performance/ is about the InterAct
       student society, not a programme.
     notes: >-
-      Verified 2026-08-17: the catalogued /theatre-film-television/ path is now a 404. /theatre/events/ is
-      titled "Events | Department of Theatre | University of Bristol" and names the venue as "Wickham Theatre,
-      Cantocks Close, off Woodland Road, Bristol". It currently reads "There are currently no events scheduled"
-      — mid-August, out of term — which is why the harvest recorded it as reachable but empty. Left provisional
-      rather than dormant: an empty vacation diary is not evidence of a year's silence.
+      Verified 2026-08-17: the catalogued /theatre-film-television/ path is now a 404. /theatre/events/ is titled "Events | Department of Theatre | University of Bristol" and names the venue as "Wickham Theatre, Cantocks Close, off Woodland Road, Bristol". It currently reads "There are currently no events scheduled" — mid-August, out of term — which is why the harvest recorded it as reachable but empty. Left provisional rather than dormant: an empty vacation diary is not evidence of a year's silence.
     addedAt: "2026-08-16"

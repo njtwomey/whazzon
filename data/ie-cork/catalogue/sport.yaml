@@ -62,6 +62,8 @@ sources:
       city: Cork
       postcode: T12 PF30
       country: Ireland
+      lat: 51.899723
+      lon: -8.435188
     tags: [ gaa, hurling, gaelic-football, stadium, major, ticketed, civic ]
     cadence: weekly
     hints: |
@@ -281,6 +283,9 @@ sources:
       Verified 2026-08-17: page titled "Results and Fixtures - Senior", heading "Fixtures ( 2026 - 2027 )", with dated fixtures from Bruff v Highfield, 29/08/2026 2.30pm at Kilballyowen Park and the first home game Highfield v Nenagh Ormond, 26/09/2026 at Woodleigh Park.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
+    address:
+      lat: 51.885342
+      lon: -8.517912
 
   - id: sport/dolphin-rfc
     name: Dolphin RFC
@@ -303,6 +308,9 @@ sources:
       Verified 2026-08-17: page titled "Weekend Fixtures / Results - Dolphin RFC" and names the club throughout, but the fixture table is headers only — Day, Date, Team, Competition, Opponents, Venue, K/O Time — with no rows, and the footer still reads "Copyright 2019". Reachable but empty in mid-August; a human should check once the AIL season starts whether it fills in, and mark it dormant if not.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
+    address:
+      lat: 51.881553
+      lon: -8.472297
 
   - id: sport/sundays-well-rfc
     name: Sundays Well RFC
@@ -391,6 +399,9 @@ sources:
       Verified 2026-08-17: /fixtures/ 301s to the /pages/… path above, titled "Cork City FC Men's First Team - Fixtures and Results". The api route returns 403 unkeyed and 200 with the header, giving nine forthcoming First Division fixtures including Cork City v Wexford at "Munster FA Turner's Cross Stadium", Curragh Road, T12 DY8P. A human should decide whether a hard-coded third-party API key belongs in the catalogue, since check-urls will see the 403.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
+    address:
+      lat: 51.911315
+      lon: -8.454472
 
   - id: sport/cork-city-fc-women
     name: Cork City FC Women
@@ -515,6 +526,9 @@ sources:
       Verified 2026-08-17: site titled "Cork Racecourse Mallow | Horse Racing Cork Ireland", live and trading. The tribe endpoint returns two forthcoming meetings at venue "Cork Racecourse". **Outside the configured 12km radius** — Mallow is about 35km north of the city, on the Killarney Road — but included deliberately: it is the only horse racing anywhere near Cork, it is named for the city, and a Cork "what's on" that omitted it would be wrong. A human should decide whether to keep it or drop it on distance.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
+    address:
+      lat: 52.129606
+      lon: -8.690352
 
   # ---------------------------------------------------------- ATHLETICS ------
   - id: sport/cork-athletics
@@ -736,6 +750,9 @@ sources:
       Verified 2026-08-17: leerowingclub.ie does not resolve; leerowingclub.com does and is titled "Lee Rowing Club", describing itself as "the oldest rowing club in Ireland" with a clubhouse "on the Marina in Cork City". No events, fixtures or calendar link anywhere in the nav — the url is the homepage because there is nothing else. Likely to harvest empty; a human may prefer to mark it dormant.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
+    address:
+      lat: 51.900965
+      lon: -8.437412
 
   - id: sport/shandon-boat-club
     name: Shandon Boat Club
@@ -830,6 +847,8 @@ sources:
       city: Cork
       postcode: T12 YN61
       country: Ireland
+      lat: 51.896487
+      lon: -8.491999
     tags: [ cricket, fixtures, summer ]
     cadence: monthly
     hints: |
@@ -948,3 +967,6 @@ sources:
       Verified 2026-08-17: titled "UCC Sport | University College Cork", live and current — newest news item 31 July 2026. /en/sportsrec/ and /en/mardyke/ both 404. There is no events listing, so this is a low-yield source included for coverage rather than volume; uccrfc.ie and uccrowing.com do not resolve, so UCC's clubs have no reachable sites of their own.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
+    address:
+      lat: 51.894864
+      lon: -8.497961

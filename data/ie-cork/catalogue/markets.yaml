@@ -17,6 +17,8 @@ sources:
       locality: City Centre
       city: Cork
       country: Ireland
+      lat: 51.897804
+      lon: -8.473963
     tags: [ indoor, food, historic, major, civic ]
     cadence: monthly
     hints: |
@@ -115,6 +117,8 @@ sources:
       city: Cork
       postcode: T12 NXN1
       country: Ireland
+      lat: 51.896208
+      lon: -8.443361
     tags: [ indoor, food, street-food, independent ]
     cadence: monthly
     hints: |

@@ -157,6 +157,8 @@ sources:
       city: Cork
       postcode: T12VW53
       country: Ireland
+      lat: 51.89856
+      lon: -8.450708
     tags: [ bookshop, independent, community, free ]
     cadence: weekly
     hints: |

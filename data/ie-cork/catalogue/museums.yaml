@@ -188,6 +188,8 @@ sources:
       city: Cork
       postcode: T12 X70A
       country: Ireland
+      lat: 51.893611
+      lon: -8.47172
     tags: [ heritage, ticketed, community, exhibitions ]
     cadence: monthly
     hints: |
@@ -344,6 +346,8 @@ sources:
       city: Cork
       postcode: T12 RF8D
       country: Ireland
+      lat: 51.894911
+      lon: -8.558567
     tags: [ heritage, free, exhibitions, community ]
     cadence: monthly
     hints: |
@@ -405,6 +409,9 @@ sources:
       address, and Blarney is unambiguous enough for a map pin.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
+    address:
+      lat: 51.931408
+      lon: -8.5682
 
   - id: museums/fota-house
     name: Fota House, Arboretum & Gardens
@@ -490,6 +497,9 @@ sources:
       catalogue owner's confirmation.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
+    address:
+      lat: 51.834207
+      lon: -8.285712
 
   - id: museums/cork-city-county-archives
     name: Cork City and County Archives
@@ -653,6 +663,9 @@ sources:
       first harvests come back empty.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
+    address:
+      lat: 51.904566
+      lon: -8.475779
 
   - id: museums/cork-heritage-open-day
     name: Cork Heritage Open Day

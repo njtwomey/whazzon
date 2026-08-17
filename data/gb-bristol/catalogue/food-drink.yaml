@@ -2,9 +2,7 @@ schema: whazzon.catalogue/1
 category: food-drink
 label: Food & Drink
 description: >-
-  Food halls, breweries and taprooms with public event programmes. Only sources
-  that actually programme events belong here — a restaurant with no events is
-  not a source, however good it is.
+  Food halls, breweries and taprooms with public event programmes. Only sources that actually programme events belong here — a restaurant with no events is not a source, however good it is.
 sources:
   - id: food-drink/wapping-wharf
     name: Wapping Wharf & Cargo
@@ -14,7 +12,7 @@ sources:
     url: https://www.wappingwharf.co.uk/latest-news
     homepage: https://www.wappingwharf.co.uk/
     area: Wapping Wharf
-    tags: [food-hall, independent, harbourside, markets]
+    tags: [ food-hall, independent, harbourside, markets ]
     cadence: weekly
     hints: |
       Container-based independent food and retail quarter. Events are markets,
@@ -27,11 +25,7 @@ sources:
       happened and several print a weekday and day with no year, so check the
       weekday against the year before recording anything.
     notes: >-
-      Verified 2026-08-17: the catalogued wappingwharf.com is parked and for sale (302s to hugedomains.com).
-      wappingwharf.co.uk is the real development, not another squatter — footer address "Wapping Road, Bristol,
-      BS1 4RW" matches the catalogued area, contact is info@wappingwharfbristol.co.uk, socials are @WappingWharfBS1
-      and @wappingwharf, and the copy reads "EAT, DRINK, SHOP, LIVE AT WAPPING WHARF". It has no events page, so
-      /latest-news is the closest thing: it is where the 10th anniversary celebration (Friday 3 July) was announced.
+      Verified 2026-08-17: the catalogued wappingwharf.com is parked and for sale (302s to hugedomains.com). wappingwharf.co.uk is the real development, not another squatter — footer address "Wapping Road, Bristol, BS1 4RW" matches the catalogued area, contact is info@wappingwharfbristol.co.uk, socials are @WappingWharfBS1 and @wappingwharf, and the copy reads "EAT, DRINK, SHOP, LIVE AT WAPPING WHARF". It has no events page, so /latest-news is the closest thing: it is where the 10th anniversary celebration (Friday 3 July) was announced.
     addedAt: "2026-08-16"
 
   - id: food-drink/left-handed-giant
@@ -42,7 +36,7 @@ sources:
     url: https://lefthandedgiant.com/collections/brewery-tours-and-events
     homepage: https://lefthandedgiant.com/
     area: Finzels Reach
-    tags: [brewery, taproom, independent, beer]
+    tags: [ brewery, taproom, independent, beer ]
     cadence: monthly
     hints: |
       The programme is a Shopify collection of ticketed tour products, not a
@@ -52,11 +46,11 @@ sources:
       the tour as undated. Gift cards and vouchers in the collection are not
       events.
     notes: >-
-      Verified 2026-08-17: /collections/brewery-tours-and-events is Left Handed Giant's own Shopify store — footer
-      address "St Philips Brewery, Unit 3 Wadehurst Industrial Estate, St Philips Road, Bristol BS2 0JE". The
-      catalogued homepage carries no listings. The collection held two items: the £17.50 brewpub tour and a
-      sold-out gift card.
+      Verified 2026-08-17: /collections/brewery-tours-and-events is Left Handed Giant's own Shopify store — footer address "St Philips Brewery, Unit 3 Wadehurst Industrial Estate, St Philips Road, Bristol BS2 0JE". The catalogued homepage carries no listings. The collection held two items: the £17.50 brewpub tour and a sold-out gift card.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.45443
+      lon: -2.589391
 
   - id: food-drink/wiper-and-true
     name: Wiper and True Barrel Store
@@ -65,7 +59,7 @@ sources:
     status: provisional
     url: https://www.wiperandtrue.com/pages/events
     area: Old Market
-    tags: [brewery, taproom, independent, beer]
+    tags: [ brewery, taproom, independent, beer ]
     cadence: monthly
     addedAt: "2026-08-16"
 
@@ -77,7 +71,7 @@ sources:
     url: https://bristolbeerfactory.co.uk/collections/tours-tastings
     homepage: https://bristolbeerfactory.co.uk/
     area: Bedminster
-    tags: [brewery, taproom, independent, beer]
+    tags: [ brewery, taproom, independent, beer ]
     cadence: monthly
     hints: |
       A Shopify collection of tour and tasting products rather than a diary. The
@@ -86,11 +80,11 @@ sources:
       membership are not events, and private group tours are arranged by email
       with no published dates.
     notes: >-
-      Verified 2026-08-17: /collections/tours-tastings is Bristol Beer Factory's own Shopify store (tours contact
-      tours@bristolbeerfactory.co.uk). The catalogued homepage carries no listings. The collection held the £25
-      Saturday brewery tour, a gift tour and the £65 beer club membership. No address is printed on this page, so
-      the catalogued area is unconfirmed here.
+      Verified 2026-08-17: /collections/tours-tastings is Bristol Beer Factory's own Shopify store (tours contact tours@bristolbeerfactory.co.uk). The catalogued homepage carries no listings. The collection held the £25 Saturday brewery tour, a gift tour and the £65 beer club membership. No address is printed on this page, so the catalogued area is unconfirmed here.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.442651
+      lon: -2.615263
 
   - id: food-drink/bristol-whisky-festival
     name: Bristol Whisky Festival
@@ -98,7 +92,7 @@ sources:
     kind: festival
     status: provisional
     url: https://www.bristolwhisky.co.uk/
-    tags: [festival, whisky, tastings, ticketed]
+    tags: [ festival, whisky, tastings, ticketed ]
     cadence: quarterly
     hints: |
       Annual whisky festival with a programme of tastings and masterclasses.
@@ -106,16 +100,7 @@ sources:
       a long forward horizon and capture individual sessions, not just the
       festival dates.
     notes: >-
-      URL unfixed as of 2026-08-17, and left as it was because nothing verified replaces it. bristolwhisky.co.uk has
-      no DNS record at all (apex and www both empty from dig), so the catalogued site is gone. The festival itself is
-      not gone: it is run by The Whisky Lounge and the 2025 edition was at Bristol Beacon, which answers the question
-      the original note asked — it sits inside the organiser's site, so kind: organiser is the better model. But
-      thewhiskylounge.com cannot be read by any fetcher: every route, including / and /events, 302s to
-      /age-verification, and that page 302s back to /, so it is an infinite loop unless a form is submitted. Separately
-      there is a differently-named Bristol whisky festival — Exploring Whisky Bristol, run by Spirited with the
-      Discover Whisky team, second edition at Paintworks on 7 February 2026, readable at
-      https://spiritedbristol.com/pages/exploring-whisky-bristol. It is a different event, so it is not a fix for this
-      source; deciding whether the catalogue wants it as well is a human call.
+      URL unfixed as of 2026-08-17, and left as it was because nothing verified replaces it. bristolwhisky.co.uk has no DNS record at all (apex and www both empty from dig), so the catalogued site is gone. The festival itself is not gone: it is run by The Whisky Lounge and the 2025 edition was at Bristol Beacon, which answers the question the original note asked — it sits inside the organiser's site, so kind: organiser is the better model. But thewhiskylounge.com cannot be read by any fetcher: every route, including / and /events, 302s to /age-verification, and that page 302s back to /, so it is an infinite loop unless a form is submitted. Separately there is a differently-named Bristol whisky festival — Exploring Whisky Bristol, run by Spirited with the Discover Whisky team, second edition at Paintworks on 7 February 2026, readable at https://spiritedbristol.com/pages/exploring-whisky-bristol. It is a different event, so it is not a fix for this source; deciding whether the catalogue wants it as well is a human call.
     addedAt: "2026-08-16"
 
   - id: food-drink/bristol-food-connections
@@ -124,15 +109,8 @@ sources:
     kind: festival
     status: closed
     url: https://bristolfoodconnections.com/
-    tags: [festival, food, community]
+    tags: [ festival, food, community ]
     cadence: quarterly
     notes: >-
-      Closed 2026-08-17 — a lapsed domain with no successor site. bristolfoodconnections.com still resolves but
-      301s straight to https://kavarnadecatur.com/, an unrelated US business, so the 200 that check-urls sees is
-      somebody else's page. Bristol Food Network files the festival under past projects and states "Bristol Food
-      Network ran the Bristol Food Connections festival in 2014, 15 & 16. In 2017 a new independent organisation was
-      set up to run the festival, Food Connections CIC", giving no website for that CIC; no later edition is
-      traceable. URL left pointing at the dead domain deliberately: check-urls skips closed sources, so it records
-      what was catalogued without being re-flagged. Bristol Food Fest (Canons Marsh, 6-7 June 2026) is a separate
-      free street-food festival, not this one, and would be a new source rather than a rename.
+      Closed 2026-08-17 — a lapsed domain with no successor site. bristolfoodconnections.com still resolves but 301s straight to https://kavarnadecatur.com/, an unrelated US business, so the 200 that check-urls sees is somebody else's page. Bristol Food Network files the festival under past projects and states "Bristol Food Network ran the Bristol Food Connections festival in 2014, 15 & 16. In 2017 a new independent organisation was set up to run the festival, Food Connections CIC", giving no website for that CIC; no later edition is traceable. URL left pointing at the dead domain deliberately: check-urls skips closed sources, so it records what was catalogued without being re-flagged. Bristol Food Fest (Canons Marsh, 6-7 June 2026) is a separate free street-food festival, not this one, and would be a new source rather than a rename.
     addedAt: "2026-08-16"

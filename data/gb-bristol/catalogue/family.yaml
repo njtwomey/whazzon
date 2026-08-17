@@ -2,8 +2,7 @@ schema: whazzon.catalogue/1
 category: family
 label: Family & Kids
 description: >-
-  City farms, play spaces and companies producing for children. Programmes spike
-  hard in school holidays, which is the main thing to get right here.
+  City farms, play spaces and companies producing for children. Programmes spike hard in school holidays, which is the main thing to get right here.
 sources:
   - id: family/bristol-zoo-project
     name: Bristol Zoo Project
@@ -12,12 +11,14 @@ sources:
     status: provisional
     url: https://bristolzoo.org.uk/whats-on
     area: Cribbs Causeway
-    tags: [zoo, outdoor, ticketed, animals]
+    tags: [ zoo, outdoor, ticketed, animals ]
     cadence: monthly
     notes: >-
-      The Clifton zoo site closed in 2022; this is the successor site at the
-      former Wild Place Project. Confirm the URL resolves to the current site.
+      The Clifton zoo site closed in 2022; this is the successor site at the former Wild Place Project. Confirm the URL resolves to the current site.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.531491
+      lon: -2.614973
 
   - id: family/windmill-hill-city-farm
     name: Windmill Hill City Farm
@@ -27,7 +28,7 @@ sources:
     url: https://windmillhillcityfarm.org.uk/apps/bookthatapp/calendar
     homepage: https://windmillhillcityfarm.org.uk/
     area: Bedminster
-    tags: [city-farm, free, community, outdoor]
+    tags: [ city-farm, free, community, outdoor ]
     cadence: monthly
     hints: |
       Free to visit; events cluster in school holidays. The calendar is a
@@ -36,11 +37,11 @@ sources:
       harvest read the page as empty. Several titles carry a weekday and day with
       no year.
     notes: >-
-      Verified 2026-08-17: the catalogued /whats-on/ path redirects to this
-      apps/bookthatapp/calendar URL. Page heads "Courses & Events Calendar", names
-      Windmill Hill City Farm and gives Philip Street, Bedminster, Bristol BS3 4EA;
-      over 100 courses and sessions listed.
+      Verified 2026-08-17: the catalogued /whats-on/ path redirects to this apps/bookthatapp/calendar URL. Page heads "Courses & Events Calendar", names Windmill Hill City Farm and gives Philip Street, Bedminster, Bristol BS3 4EA; over 100 courses and sessions listed.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.442218
+      lon: -2.592954
 
   - id: family/st-werburghs-city-farm
     name: St Werburghs City Farm
@@ -50,18 +51,18 @@ sources:
     url: https://swcityfarm.co.uk/events/
     homepage: https://swcityfarm.co.uk/
     area: St Werburghs
-    tags: [city-farm, free, community, outdoor]
+    tags: [ city-farm, free, community, outdoor ]
     cadence: monthly
     hints: |
       A calendar of the year's events rather than a rolling diary, so some entries
       are recurring rather than single — a Women's Hearth & Drum Circle on the first
       Tuesday of each month, for instance.
     notes: >-
-      Verified 2026-08-17: the catalogued swcityfarm.org.uk no longer resolves (DNS
-      ENOTFOUND); the farm now uses swcityfarm.co.uk. Events page heads "2026
-      Calendar of Events", gives Watercress Rd, St Werburghs, Bristol BS2 9YJ, and
-      lists the Autumn Fair on 17 Oct 2026 and Winter Fair on 5 Dec 2026.
+      Verified 2026-08-17: the catalogued swcityfarm.org.uk no longer resolves (DNS ENOTFOUND); the farm now uses swcityfarm.co.uk. Events page heads "2026 Calendar of Events", gives Watercress Rd, St Werburghs, Bristol BS2 9YJ, and lists the Autumn Fair on 17 Oct 2026 and Winter Fair on 5 Dec 2026.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.473821
+      lon: -2.578045
 
   - id: family/puppet-place
     name: Puppet Place
@@ -71,20 +72,18 @@ sources:
     url: https://puppetplace.org/whats-on/
     homepage: https://puppetplace.org/
     area: Bedminster
-    tags: [puppetry, workshops, community]
+    tags: [ puppetry, workshops, community ]
     cadence: monthly
     hints: |
       The listing mixes passed events in with upcoming ones (2025 entries sit beside
       2026), so read the year on every item rather than assuming the page is
       forward-only.
     notes: >-
-      Verified 2026-08-17: /whats-on/ is Puppet Place's own page (puppetry charity
-      for the South West) and lists dated items — Open Doors for Bristol Harbour
-      Festival on Sat 18 July 2026, stop-motion puppet making Sat 1-Sun 2 Aug. The
-      footer address is Unit 18 Albion Dockside Estate, Hanover Place, Bristol BS1
-      6UT; "Bedminster" appears nowhere on the page, so the catalogued area looks
-      wrong.
+      Verified 2026-08-17: /whats-on/ is Puppet Place's own page (puppetry charity for the South West) and lists dated items — Open Doors for Bristol Harbour Festival on Sat 18 July 2026, stop-motion puppet making Sat 1-Sun 2 Aug. The footer address is Unit 18 Albion Dockside Estate, Hanover Place, Bristol BS1 6UT; "Bedminster" appears nowhere on the page, so the catalogued area looks wrong.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.447456
+      lon: -2.609058
 
   - id: family/childrens-scrapstore
     name: Bristol Children's Scrapstore
@@ -94,7 +93,7 @@ sources:
     url: https://www.childrensscrapstore.co.uk/free-events
     homepage: https://www.childrensscrapstore.co.uk/
     area: St Werburghs
-    tags: [play, community, workshops, creative]
+    tags: [ play, community, workshops, creative ]
     cadence: monthly
     hints: |
       /free-events is the dated calendar. /events is a separate page holding the paid
@@ -102,9 +101,5 @@ sources:
       are recurring, not single. Each event has its own page with an ?format=ical
       link if a date needs confirming.
     notes: >-
-      Verified 2026-08-17: Squarespace event collection headed "Free Events" for
-      Children's Scrapstore (registered charity 1008788), 21 Sevier Street, Bristol
-      BS2 9LB; Super Saturday on 5 Sept 2026 and Super Sustainable Arts Weekend on
-      3-4 Oct 2026 listed. The bare domain redirects to www, so the www host is
-      catalogued.
+      Verified 2026-08-17: Squarespace event collection headed "Free Events" for Children's Scrapstore (registered charity 1008788), 21 Sevier Street, Bristol BS2 9LB; Super Saturday on 5 Sept 2026 and Super Sustainable Arts Weekend on 3-4 Oct 2026 listed. The bare domain redirects to www, so the www host is catalogued.
     addedAt: "2026-08-16"

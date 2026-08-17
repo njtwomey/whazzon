@@ -2,9 +2,7 @@ schema: whazzon.catalogue/1
 category: festivals
 label: Festivals
 description: >-
-  Annual, mostly venue-less events. The largest things that happen in the city
-  live here, and almost none of them appear on any venue's website.
-  Announcements cluster in winter and spring for a summer that sells out early.
+  Annual, mostly venue-less events. The largest things that happen in the city live here, and almost none of them appear on any venue's website. Announcements cluster in winter and spring for a summer that sells out early.
 sources:
   - id: festivals/bristol-harbour-festival
     name: Bristol Harbour Festival
@@ -14,7 +12,7 @@ sources:
     url: https://www.bristolharbourfestival.co.uk/whats-on/programme-at-a-glance
     homepage: https://www.bristolharbourfestival.co.uk/
     area: Harbourside
-    tags: [free, summer, outdoor, major, citywide]
+    tags: [ free, summer, outdoor, major, citywide ]
     cadence: quarterly
     hints: |
       Huge free three-day festival across the harbour each July. The programme
@@ -24,10 +22,7 @@ sources:
       between editions it empties out and the homepage banner is the only place the
       next dates appear.
     notes: >-
-      Verified 2026-08-17: the catalogued non-www host will not connect (curl exits
-      35), www does. The programme page carries dated sets for the 17-19 July 2026
-      edition — Port of Bristol Shanty Crew, Sat 11:15 at the Amphitheatre, among
-      them. That edition has now passed, so expect it to roll to 2027.
+      Verified 2026-08-17: the catalogued non-www host will not connect (curl exits 35), www does. The programme page carries dated sets for the 17-19 July 2026 edition — Port of Bristol Shanty Crew, Sat 11:15 at the Amphitheatre, among them. That edition has now passed, so expect it to roll to 2027.
     addedAt: "2026-08-16"
 
   - id: festivals/balloon-fiesta
@@ -37,7 +32,7 @@ sources:
     status: provisional
     url: https://bristolballoonfiesta.co.uk/
     area: Ashton Court
-    tags: [free, summer, outdoor, major, family]
+    tags: [ free, summer, outdoor, major, family ]
     cadence: quarterly
     hints: Four days each August at Ashton Court. Free to attend.
     addedAt: "2026-08-16"
@@ -50,7 +45,7 @@ sources:
     url: https://www.upfest.co.uk/festivals/
     homepage: https://www.upfest.co.uk/
     area: Bedminster
-    tags: [street-art, free, summer, outdoor, major]
+    tags: [ street-art, free, summer, outdoor, major ]
     cadence: quarterly
     hints: |
       Europe's largest street art festival, across Bedminster and Southville.
@@ -59,12 +54,11 @@ sources:
       then. The homepage banner carries whichever edition is next, which includes
       Weston Wallz in Weston-super-Mare — outside this location, so do not record it.
     notes: >-
-      Verified 2026-08-17: /festivals/ is Upfest's own (Upfest Ltd, 198 North Street,
-      Bristol BS3 1JF) and names Upfest 2026 and Weston Wallz 2026 alongside archived
-      editions back to 2016, but prints no dates on the page. The 15-31 May 2026
-      dates and the biennial format come from Upfest's own announcement, carried by
-      Visit West in February 2026.
+      Verified 2026-08-17: /festivals/ is Upfest's own (Upfest Ltd, 198 North Street, Bristol BS3 1JF) and names Upfest 2026 and Weston Wallz 2026 alongside archived editions back to 2016, but prints no dates on the page. The 15-31 May 2026 dates and the biennial format come from Upfest's own announcement, carried by Visit West in February 2026.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.440469
+      lon: -2.610174
 
   - id: festivals/st-pauls-carnival
     name: St Pauls Carnival
@@ -73,7 +67,7 @@ sources:
     status: provisional
     url: https://www.stpaulscarnival.net/
     area: St Pauls
-    tags: [free, summer, outdoor, caribbean, community, major]
+    tags: [ free, summer, outdoor, caribbean, community, major ]
     cadence: quarterly
     hints: |
       African-Caribbean carnival, usually early July. Has skipped years for
@@ -87,7 +81,7 @@ sources:
     status: provisional
     url: https://www.bristolpride.co.uk/events/
     homepage: https://www.bristolpride.co.uk/
-    tags: [summer, lgbtq, community, major, citywide]
+    tags: [ summer, lgbtq, community, major, citywide ]
     cadence: quarterly
     hints: |
       A month-long programme of events across the city culminating in the July
@@ -96,10 +90,7 @@ sources:
       page keeps satellite dates outside the festival window too, so it is worth
       crawling year-round rather than only around July.
     notes: >-
-      Verified 2026-08-17: /events/ heads "Bristol Pride 2026 | 27 June - 12 July"
-      (UK charity 1166817) and lists dated entries — Pride Parade and Pride Day on
-      Sat 11 July, the Dragathon on Sun 12 July — plus one still ahead of us, No More
-      All Male Lineups on Thu 20 Aug.
+      Verified 2026-08-17: /events/ heads "Bristol Pride 2026 | 27 June - 12 July" (UK charity 1166817) and lists dated entries — Pride Parade and Pride Day on Sat 11 July, the Dragathon on Sun 12 July — plus one still ahead of us, No More All Male Lineups on Thu 20 Aug.
     addedAt: "2026-08-16"
 
   - id: festivals/love-saves-the-day
@@ -108,7 +99,7 @@ sources:
     kind: festival
     status: provisional
     url: https://www.lovesavestheday.org/
-    tags: [music, summer, outdoor, ticketed, major, electronic]
+    tags: [ music, summer, outdoor, ticketed, major, electronic ]
     cadence: quarterly
     hints: Bristol's largest music festival; lineup announced in stages over winter and spring.
     addedAt: "2026-08-16"
@@ -121,7 +112,7 @@ sources:
     url: https://www.forwardsbristol.co.uk/lineup
     homepage: https://www.forwardsbristol.co.uk/
     area: The Downs
-    tags: [music, summer, outdoor, ticketed, major]
+    tags: [ music, summer, outdoor, ticketed, major ]
     cadence: quarterly
     hints: |
       Two-day ticketed festival on the Downs. The lineup page is split by day but
@@ -129,9 +120,7 @@ sources:
       that way in 2026). Acts only, no set times, so a single event per day is the
       honest record until a stage clash finder appears.
     notes: >-
-      Verified 2026-08-17: homepage reads "FORWARDS RETURNS FOR 2026" at Bristol
-      Downs; /lineup lists acts under Saturday 29 and Sunday 30 August — Tems, Self
-      Esteem, Wet Leg, Little Simz, Amyl and the Sniffers among them.
+      Verified 2026-08-17: homepage reads "FORWARDS RETURNS FOR 2026" at Bristol Downs; /lineup lists acts under Saturday 29 and Sunday 30 August — Tems, Self Esteem, Wet Leg, Little Simz, Amyl and the Sniffers among them.
     addedAt: "2026-08-16"
 
   - id: festivals/simple-things
@@ -140,7 +129,7 @@ sources:
     kind: festival
     status: provisional
     url: https://www.simplethingsfestival.co.uk/
-    tags: [music, autumn, multi-venue, electronic, independent]
+    tags: [ music, autumn, multi-venue, electronic, independent ]
     cadence: quarterly
     hints: |
       Multi-venue day festival across the city centre in autumn — a good source
@@ -154,7 +143,7 @@ sources:
     status: provisional
     url: https://bristollightfestival.org/
     area: City Centre
-    tags: [free, winter, outdoor, art, family]
+    tags: [ free, winter, outdoor, art, family ]
     cadence: quarterly
     hints: |
       Free light art trail across the city centre each February. The host 403s
@@ -163,10 +152,7 @@ sources:
       (/bristol-light-festival-2026/, /blf-2025/), and dates are announced first
       under /news/. Installations are only located and dated close to the event.
     notes: >-
-      Verified 2026-08-17 with a browser user-agent: homepage reads "We're back for
-      2027 from 18-27 February", the seventh edition, Thursday 18 to Saturday 27
-      February 2027, founded by Bristol BID. The catalogued URL was right all along —
-      this was a bot wall, not a bad URL.
+      Verified 2026-08-17 with a browser user-agent: homepage reads "We're back for 2027 from 18-27 February", the seventh edition, Thursday 18 to Saturday 27 February 2027, founded by Bristol BID. The catalogued URL was right all along — this was a bot wall, not a bad URL.
     addedAt: "2026-08-16"
 
   - id: festivals/encounters
@@ -175,7 +161,7 @@ sources:
     kind: festival
     status: provisional
     url: https://encounters.film/
-    tags: [film, autumn, short-film, industry]
+    tags: [ film, autumn, short-film, industry ]
     cadence: quarterly
     hints: International short film festival, largely hosted at Watershed.
     addedAt: "2026-08-16"
@@ -186,7 +172,7 @@ sources:
     kind: festival
     status: provisional
     url: https://slapstick.org.uk/
-    tags: [film, comedy, winter, silent-film]
+    tags: [ film, comedy, winter, silent-film ]
     cadence: quarterly
     hints: Silent and classic comedy film festival each January, across several venues.
     addedAt: "2026-08-16"
@@ -197,7 +183,7 @@ sources:
     kind: festival
     status: dormant
     url: https://bristolopendoors.org.uk/
-    tags: [free, heritage, autumn, architecture, citywide]
+    tags: [ free, heritage, autumn, architecture, citywide ]
     cadence: quarterly
     hints: |
       Free access to buildings normally closed to the public, one weekend each
@@ -206,13 +192,7 @@ sources:
       currently open under the national Heritage Open Days scheme instead (11-20
       September 2026), which this catalogue does not cover.
     notes: >-
-      Checked 2026-08-17: no live 2026 or 2027 page exists. The site still fronts
-      "13 - 15 October 2023" and its /?page_id=250 what's-on lists those 2023 slots;
-      the about page reads "2023 marks 30 years of Bristol Open Doors. This
-      anniversary year will be our next festival as we move to a biennial format".
-      No 2025 edition followed, and the predecessor site bristoldoorsopenday.org.uk
-      is frozen on September 2018. Dormant rather than closed: the site is up and
-      states no closure.
+      Checked 2026-08-17: no live 2026 or 2027 page exists. The site still fronts "13 - 15 October 2023" and its /?page_id=250 what's-on lists those 2023 slots; the about page reads "2023 marks 30 years of Bristol Open Doors. This anniversary year will be our next festival as we move to a biennial format". No 2025 edition followed, and the predecessor site bristoldoorsopenday.org.uk is frozen on September 2018. Dormant rather than closed: the site is up and states no closure.
     addedAt: "2026-08-16"
 
   - id: festivals/winter-lanterns
@@ -222,7 +202,7 @@ sources:
     status: provisional
     url: https://www.lanternparade.org/
     area: Bedminster
-    tags: [winter, family, outdoor, ticketed, light]
+    tags: [ winter, family, outdoor, ticketed, light ]
     cadence: quarterly
     hints: |
       An announcement page rather than a listing: the next parade is a Saturday in
@@ -231,11 +211,7 @@ sources:
       advertised through the preceding autumn, so dated items should show from about
       October.
     notes: >-
-      Verified 2026-08-17: the catalogued winterlanterns.co.uk does not resolve at
-      all (connection fails outright). The live site is lanternparade.org, headed
-      "Bedminster Winter Lantern Parade – returning 2027" and describing itself as the
-      biggest creative community event in South Bristol (BS3). The event's own name is
-      "Bedminster Winter Lantern Parade", longer than the catalogued name.
+      Verified 2026-08-17: the catalogued winterlanterns.co.uk does not resolve at all (connection fails outright). The live site is lanternparade.org, headed "Bedminster Winter Lantern Parade – returning 2027" and describing itself as the biggest creative community event in South Bristol (BS3). The event's own name is "Bedminster Winter Lantern Parade", longer than the catalogued name.
     addedAt: "2026-08-16"
 
   - id: festivals/downs-festival
@@ -245,16 +221,14 @@ sources:
     status: closed
     url: https://www.thedownsbristol.com/
     area: The Downs
-    tags: [music, summer, outdoor, ticketed]
+    tags: [ music, summer, outdoor, ticketed ]
     cadence: quarterly
     notes: >-
-      Checked 2026-08-17: the domain has lapsed. It JS-redirects to /lander, a GoDaddy
-      parking page (window._trfd pushes ap:"parking", assets from
-      img1.wsimg.com/parking-lander) with no content of its own — which is why the
-      harvest saw an empty body. No successor site for the festival exists; the Downs
-      as a site is now used by Forwards (festivals/forwards) and Feast On Bristol.
-      Closed rather than dormant: lapsed domain, no successor.
+      Checked 2026-08-17: the domain has lapsed. It JS-redirects to /lander, a GoDaddy parking page (window._trfd pushes ap:"parking", assets from img1.wsimg.com/parking-lander) with no content of its own — which is why the harvest saw an empty body. No successor site for the festival exists; the Downs as a site is now used by Forwards (festivals/forwards) and Feast On Bristol. Closed rather than dormant: lapsed domain, no successor.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.464881
+      lon: -2.626075
 
   - id: festivals/craft-beer-festival
     name: Bristol Craft Beer Festival
@@ -262,6 +236,6 @@ sources:
     kind: festival
     status: provisional
     url: https://bristolcraftbeerfestival.co.uk/
-    tags: [food-drink, summer, ticketed, beer]
+    tags: [ food-drink, summer, ticketed, beer ]
     cadence: quarterly
     addedAt: "2026-08-16"

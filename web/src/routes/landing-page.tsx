@@ -185,7 +185,9 @@ export function LandingPage() {
             {/* Says what a sentence of prose would in two words, and tells you how
                 the name is meant to sound while it does it. Light and quiet, so it
                 reads as an aside rather than a second headline. */}
-            <p className="mt-1 font-light tracking-wide text-muted-foreground/80 sm:text-lg">wherziton and whenziton</p>
+            <p className="mt-1 font-light tracking-wide text-muted-foreground/80 sm:text-lg">
+              werzziton and whenzziton
+            </p>
           </div>
         </div>
 

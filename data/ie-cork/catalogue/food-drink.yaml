@@ -458,6 +458,9 @@ sources:
       Verified 2026-08-17: real site, correct listings path, but it listed nothing. The most recent example event visible anywhere on the page template was "Cork and Kerry Food Market 2024" and the footer still reads "© 2017 Taste Cork", so a human should judge whether the What's On is abandoned or merely quiet before promoting this past provisional.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
+    address:
+      lat: 51.896176
+      lon: -8.443143
 
   - id: food-drink/eventbrite-cork-food-drink
     name: Eventbrite — Cork Food & Drink

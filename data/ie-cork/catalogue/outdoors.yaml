@@ -60,6 +60,9 @@ sources:
       Verified 2026-08-17: the page is live and is the council's own Marina Park page, 32 hectares from Shandon Boat Club to Blackrock Harbour, which agrees with the catalogued Marina area. It is the only individual Cork park with its own council page. A second page, /en/things-to-do/parks-outdoors/cork-city-parks/marina-park-development/, also exists and covers the same ground; this one is the tidier of the two. Not the same thing as the Marina Market, which is a food hall.
     addedAt: "2026-08-17"
     verifiedAt: "2026-08-17"
+    address:
+      lat: 51.899627
+      lon: -8.429084
 
   - id: outdoors/cork-city-walks
     name: Cork City Walks — self-guided trails
@@ -170,6 +173,8 @@ sources:
       locality: Blarney
       city: Cork
       country: Ireland
+      lat: 51.931408
+      lon: -8.5682
     tags: [ gardens, plants, heritage, tours, major ]
     cadence: quarterly
     hints: |
@@ -206,6 +211,8 @@ sources:
       locality: Carrigtwohill
       postcode: T45 K656
       country: Ireland
+      lat: 51.893483
+      lon: -8.302263
     tags: [ gardens, plants, free, outdoor, tours ]
     cadence: quarterly
     hints: |

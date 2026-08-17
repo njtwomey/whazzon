@@ -2,8 +2,7 @@ schema: whazzon.catalogue/1
 category: music
 label: Music
 description: >-
-  Concert halls, grassroots venues, club spaces and the promoters who programme
-  them. Bristol's densest category by volume.
+  Concert halls, grassroots venues, club spaces and the promoters who programme them. Bristol's densest category by volume.
 sources:
   - id: music/bristol-beacon
     name: Bristol Beacon
@@ -16,7 +15,9 @@ sources:
       street: Trenchard Street
       city: Bristol
       postcode: BS1 5AR
-    tags: [concert-hall, classical, major]
+      lat: 51.455388
+      lon: -2.598016
+    tags: [ concert-hall, classical, major ]
     cadence: weekly
     hints: |
       The city's main concert hall (formerly Colston Hall), reopened after a
@@ -36,7 +37,9 @@ sources:
       street: Frogmore Street
       city: Bristol
       postcode: BS1 5NA
-    tags: [touring, mid-size, commercial]
+      lat: 51.454596
+      lon: -2.600396
+    tags: [ touring, mid-size, commercial ]
     cadence: weekly
     hints: |
       Main mid-size touring venue. Books several months ahead. Gigs are
@@ -60,7 +63,9 @@ sources:
       street: The Grove, East Mud Dock
       city: Bristol
       postcode: BS1 4RB
-    tags: [independent, boat, club, indie]
+      lat: 51.448977
+      lon: -2.594184
+    tags: [ independent, boat, club, indie ]
     cadence: weekly
     hints: |
       A converted cargo ship in the floating harbour — one of the city's
@@ -85,7 +90,9 @@ sources:
       street: 12 St Thomas Street
       city: Bristol
       postcode: BS1 6JJ
-    tags: [independent, rock, grassroots]
+      lat: 51.452255
+      lon: -2.589464
+    tags: [ independent, rock, grassroots ]
     cadence: weekly
     addedAt: "2026-08-16"
 
@@ -101,7 +108,9 @@ sources:
       street: 72-73 Old Market Street
       city: Bristol
       postcode: BS2 0EJ
-    tags: [independent, community-owned, diy, grassroots]
+      lat: 51.45552
+      lon: -2.582769
+    tags: [ independent, community-owned, diy, grassroots ]
     cadence: weekly
     hints: |
       Community-owned DIY venue; strong punk, hardcore and alternative
@@ -123,10 +132,13 @@ sources:
     status: provisional
     url: https://www.thelouisiana.net/
     area: Harbourside
-    tags: [independent, grassroots, new-bands]
+    tags: [ independent, grassroots, new-bands ]
     cadence: weekly
     hints: Small upstairs room with a long history of booking bands before they break.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.446759
+      lon: -2.596429
 
   - id: music/strange-brew
     name: Strange Brew
@@ -136,7 +148,7 @@ sources:
     url: https://www.headfirstbristol.co.uk/whats-on/strange-brew
     homepage: https://www.strangebrewbristol.com/
     area: Old City
-    tags: [independent, club, jazz, electronic]
+    tags: [ independent, club, jazz, electronic ]
     cadence: weekly
     hints: |
       Multi-room DIY art space, music venue and late bar. The URL points at
@@ -149,6 +161,9 @@ sources:
       Cohen).
       The venue's own site confirms the same address but exposes no listings without JavaScript.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.4563
+      lon: -2.592347
 
   - id: music/st-georges-bristol
     name: St George's Bristol
@@ -161,7 +176,9 @@ sources:
       street: Great George Street
       city: Bristol
       postcode: BS1 5RR
-    tags: [classical, jazz, folk, acoustic]
+      lat: 51.454284
+      lon: -2.603822
+    tags: [ classical, jazz, folk, acoustic ]
     cadence: weekly
     hints: |
       Georgian church turned concert hall, prized for acoustics. Classical,
@@ -181,7 +198,7 @@ sources:
       locality: St Philips
       city: Bristol
       postcode: BS2 0PX
-    tags: [club, electronic, warehouse, major]
+    tags: [ club, electronic, warehouse, major ]
     cadence: weekly
     hints: |
       Large warehouse complex with several rooms, central to Bristol's
@@ -210,7 +227,9 @@ sources:
       street: 6 Upper York Street
       city: Bristol
       postcode: BS2 8QN
-    tags: [club, electronic, nightlife, historic]
+      lat: 51.461622
+      lon: -2.589571
+    tags: [ club, electronic, nightlife, historic ]
     cadence: weekly
     hints: |
       Several rooms — Nightclub, The Nest, Moon Club and Gardens — and each
@@ -230,7 +249,7 @@ sources:
     url: https://electricbristol.com/events/
     homepage: https://electricbristol.com/
     area: Broadmead
-    tags: [mid-size, club, commercial]
+    tags: [ mid-size, club, commercial ]
     cadence: weekly
     hints: |
       Rebranded from SWX to Electric Bristol in 2025 under the Electric Group,
@@ -252,7 +271,7 @@ sources:
     url: https://www.roughtrade.com/en-gb/events/bristol
     homepage: https://www.roughtrade.com/en-gb
     area: Broadmead
-    tags: [record-shop, in-store, free]
+    tags: [ record-shop, in-store, free ]
     cadence: weekly
     hints: |
       Record shop with in-store performances and signings, many free. This path
@@ -266,6 +285,9 @@ sources:
       Bristol-scoped path is real — the served payload carries the route parameter ["uid","bristol"] and the nav
       labels it "Rough Trade Bristol". No dates were extractable from the HTML because the page renders client-side.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.456649
+      lon: -2.593671
 
   - id: music/crofters-rights
     name: Crofters Rights
@@ -274,7 +296,7 @@ sources:
     status: provisional
     url: https://www.headfirstbristol.co.uk/whats-on/the-croft
     area: Stokes Croft
-    tags: [independent, grassroots, free, pub]
+    tags: [ independent, grassroots, free, pub ]
     cadence: weekly
     hints: |
       Same venue as The Croft, which is the name it currently trades under —
@@ -290,6 +312,9 @@ sources:
       Croft and Crofters Rights are the same venue and the proposed fix stands; `name` may want to become The Croft, but
       that is an owner's call.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.463812
+      lon: -2.59009
 
   - id: music/the-lanes
     name: The Lanes
@@ -299,7 +324,7 @@ sources:
     url: https://www.headfirstbristol.co.uk/whats-on/the-lanes
     homepage: https://www.thelanesbristol.com/
     area: Old City
-    tags: [independent, club, bowling, diy]
+    tags: [ independent, club, bowling, diy ]
     cadence: weekly
     hints: |
       Bowling, karaoke, club nights, live bands and a late diner in one
@@ -312,6 +337,9 @@ sources:
       gives 22 Nelson Street, BS1 2LE — consistent with area Old City. Dated events from 22 Aug to 10 Oct 2026. The
       venue's own /events page was checked and carries no readable dates.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.456386
+      lon: -2.593828
 
   - id: music/dareshack
     name: Dareshack
@@ -321,7 +349,7 @@ sources:
     url: https://www.headfirstbristol.co.uk/whats-on/dareshack
     homepage: https://dareshack.com/
     area: Old City
-    tags: [independent, listening-bar, electronic]
+    tags: [ independent, listening-bar, electronic ]
     cadence: weekly
     hints: |
       200-capacity creative space with independent and experimental music
@@ -335,6 +363,9 @@ sources:
       matches area Old City — but carried no dated events on the day, and neither did the venue's own site. Reachable
       and correct, genuinely empty rather than mis-crawled.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.456057
+      lon: -2.596778
 
   - id: music/the-canteen
     name: The Canteen
@@ -344,7 +375,7 @@ sources:
     url: https://www.headfirstbristol.co.uk/whats-on/the-canteen
     homepage: https://www.canteenbristol.co.uk/
     area: Stokes Croft
-    tags: [free, grassroots, pub, nightly]
+    tags: [ free, grassroots, pub, nightly ]
     cadence: weekly
     hints: |
       Free live music essentially every night. High volume of small listings —
@@ -358,6 +389,9 @@ sources:
       BS1 3QY", matching area Stokes Croft. Dated events on consecutive nights from 17 Aug 2026 (Heartwood Chorus,
       Crawfish, Blackberry Wood), confirming the nightly cadence.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.462941
+      lon: -2.589669
 
   - id: music/the-gallimaufry
     name: The Gallimaufry
@@ -367,7 +401,7 @@ sources:
     url: https://www.thegallimaufry.co.uk/whatson
     homepage: https://www.thegallimaufry.co.uk/
     area: Gloucester Road
-    tags: [free, jazz, pub, nightly]
+    tags: [ free, jazz, pub, nightly ]
     cadence: weekly
     hints: |
       Free nightly music, heavy on jazz and funk. The path is /whatson with no
@@ -382,6 +416,9 @@ sources:
       Sep, but external listings show the venue open and programming nightly, so this is an unmaintained calendar rather
       than a dormant venue — left as provisional, not marked dormant.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.471675
+      lon: -2.592659
 
   - id: music/the-old-duke
     name: The Old Duke
@@ -391,7 +428,7 @@ sources:
     url: https://www.theoldduke.com/listings
     homepage: https://www.theoldduke.com/
     area: Old City
-    tags: [jazz, free, pub, historic]
+    tags: [ jazz, free, pub, historic ]
     cadence: weekly
     hints: |
       Long-running jazz pub on King Street; free nightly music. The live domain is
@@ -403,6 +440,9 @@ sources:
       night from 17 to 29 Aug 2026 (Severn Jazzmen, Eddie Martin's Open Mic, Medicine Creek), which fits the free
       nightly jazz description.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.452202
+      lon: -2.593215
 
   - id: music/the-black-swan
     name: The Black Swan
@@ -411,7 +451,7 @@ sources:
     status: provisional
     url: https://www.headfirstbristol.co.uk/whats-on/the-black-swan
     area: Easton
-    tags: [club, dub, drum-and-bass, independent]
+    tags: [ club, dub, drum-and-bass, independent ]
     cadence: weekly
     hints: |
       Underground dance music — dub, drum and bass — in a large pub with two club
@@ -426,6 +466,9 @@ sources:
       the right venue: "The Black Swan", 438 Stapleton Rd, BS5 6NR, which matches area Easton. It listed no dates on the
       day, so identity is confirmed but the programme was not observable.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.469945
+      lon: -2.565303
 
   - id: music/propyard
     name: Propyard
@@ -434,7 +477,7 @@ sources:
     status: closed
     url: https://www.headfirstbristol.co.uk/whats-on/propyard
     area: St Philips
-    tags: [warehouse, club, events-space]
+    tags: [ warehouse, club, events-space ]
     cadence: weekly
     hints: |
       Closed — do not harvest. The URL is moved off the lapsed propyard.co.uk
@@ -457,7 +500,7 @@ sources:
     url: https://www.thebristolfringe.co.uk/event-listings
     homepage: https://www.thebristolfringe.co.uk/
     area: Clifton
-    tags: [pub, jazz, folk, free, spoken-word]
+    tags: [ pub, jazz, folk, free, spoken-word ]
     cadence: weekly
     hints: |
       A mixed programme in one small room — jazz jams, comedy, magic and
@@ -468,6 +511,9 @@ sources:
       Verified 2026-08-17: /event-listings gives "32 Princess Victoria Street, Bristol, BS8 4BZ", matching area Clifton,
       and lists an event every night from 17 Aug to 2 Sep 2026 (Jazz Rendezvous Jam, Back Door Comedy, Magic Night).
     addedAt: "2026-08-16"
+    address:
+      lat: 51.454521
+      lon: -2.62075
 
   - id: music/ashton-gate-stadium
     name: Ashton Gate Stadium — concerts
@@ -476,7 +522,7 @@ sources:
     status: provisional
     url: https://www.ashtongatestadium.co.uk/
     area: Ashton Gate
-    tags: [stadium, major, summer]
+    tags: [ stadium, major, summer ]
     cadence: monthly
     hints: |
       Stadium concerts, a handful each summer, announced up to a year ahead.
@@ -499,7 +545,7 @@ sources:
     status: provisional
     url: https://www.bristolsounds.co.uk/
     area: Harbourside
-    tags: [summer, outdoor, concert-series]
+    tags: [ summer, outdoor, concert-series ]
     cadence: monthly
     hints: |
       Outdoor summer concert series at the Amphitheatre. Dormant most of the

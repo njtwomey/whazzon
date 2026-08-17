@@ -2,9 +2,7 @@ schema: whazzon.catalogue/1
 category: sport
 label: Sport
 description: >-
-  Professional clubs and their grounds. Fixtures are published a season at a
-  time and then move for TV, so the value here is in re-checking dates rather
-  than discovering new events.
+  Professional clubs and their grounds. Fixtures are published a season at a time and then move for TV, so the value here is in re-checking dates rather than discovering new events.
 sources:
   - id: sport/bristol-city
     name: Bristol City FC
@@ -13,7 +11,7 @@ sources:
     status: provisional
     url: https://www.bcfc.co.uk/match-centre/teams/bristol-city/fixtures
     area: Ashton Gate
-    tags: [football, fixtures, ticketed]
+    tags: [ football, fixtures, ticketed ]
     cadence: weekly
     hints: |
       Full season fixture list published in summer, but individual kick-off
@@ -24,10 +22,11 @@ sources:
       HTML. Only about the next ten fixtures appear, so this is not the whole
       season — the page is a rolling window, not a season list.
     notes: >-
-      Verified 2026-08-17: /fixtures/ is gone, the club moved to
-      /match-centre/teams/bristol-city/fixtures. Page header reads "Bristol City", and ten dated fixtures are
-      server-rendered, starting Birmingham City v Bristol City, Saturday 22 August 2026, 12:30.
+      Verified 2026-08-17: /fixtures/ is gone, the club moved to /match-centre/teams/bristol-city/fixtures. Page header reads "Bristol City", and ten dated fixtures are server-rendered, starting Birmingham City v Bristol City, Saturday 22 August 2026, 12:30.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.453802
+      lon: -2.597298
 
   - id: sport/bristol-bears
     name: Bristol Bears Rugby
@@ -36,16 +35,14 @@ sources:
     status: provisional
     url: https://www.bristolbearsrugby.com/match-centre/teams/bristol-bears/fixtures
     area: Ashton Gate
-    tags: [rugby, fixtures, ticketed]
+    tags: [ rugby, fixtures, ticketed ]
     cadence: weekly
     hints: |
       Same platform as Bristol City and Bristol Flyers — /match-centre/teams/<slug>/fixtures, server-rendered,
       showing roughly the next ten fixtures rather than the full season. Ground is given per fixture, so away
       matches are easy to exclude.
     notes: >-
-      Verified 2026-08-17: /matches/ is gone, replaced by
-      /match-centre/teams/bristol-bears/fixtures. Page header reads "Bristol Bears", ten dated fixtures
-      server-rendered from Bristol Bears v Gloucester Rugby, Saturday 5 September 2026, 15:00 at Ashton Gate.
+      Verified 2026-08-17: /matches/ is gone, replaced by /match-centre/teams/bristol-bears/fixtures. Page header reads "Bristol Bears", ten dated fixtures server-rendered from Bristol Bears v Gloucester Rugby, Saturday 5 September 2026, 15:00 at Ashton Gate.
     addedAt: "2026-08-16"
 
   - id: sport/bristol-rovers
@@ -55,7 +52,7 @@ sources:
     status: provisional
     url: https://www.bristolrovers.co.uk/fixture/list/34
     area: Horfield
-    tags: [football, fixtures, ticketed]
+    tags: [ football, fixtures, ticketed ]
     cadence: weekly
     hints: |
       Different platform from the other clubs. The numeric segment is the team:
@@ -63,9 +60,7 @@ sources:
       not retry it. Fixtures render server-side as dd/mm/yyyy with the ground
       named, and a competition filter sits above the list.
     notes: >-
-      Verified 2026-08-17: /fixtures/ returns 404. /fixture/list/34 is the page's own rel=canonical, titled
-      "Men's First Team Fixtures | Bristol Rovers FC", with dated fixtures from Bristol Rovers v Newport County,
-      22/08/2026 at the Memorial Stadium — which agrees with area: Horfield.
+      Verified 2026-08-17: /fixtures/ returns 404. /fixture/list/34 is the page's own rel=canonical, titled "Men's First Team Fixtures | Bristol Rovers FC", with dated fixtures from Bristol Rovers v Newport County, 22/08/2026 at the Memorial Stadium — which agrees with area: Horfield.
     addedAt: "2026-08-16"
 
   - id: sport/bristol-flyers
@@ -75,16 +70,13 @@ sources:
     status: provisional
     url: https://www.bristolflyers.co.uk/match-centre/teams/bristol-flyers/fixtures
     area: Stoke Gifford
-    tags: [basketball, fixtures, ticketed]
+    tags: [ basketball, fixtures, ticketed ]
     cadence: weekly
     hints: |
       Same match-centre platform as Bristol City and the Bears. Season tabs on the page reach back to 2017/18;
       take the current season only. Home games are at SGS College Arena.
     notes: >-
-      Verified 2026-08-17: /fixtures/ is gone, replaced by
-      /match-centre/teams/bristol-flyers/fixtures. Page header reads "Bristol Flyers", ten dated fixtures
-      server-rendered from Bristol Flyers v Reading Rockets, Friday 11 September 2026, 19:30 at SGS College
-      Arena — which agrees with area: Stoke Gifford.
+      Verified 2026-08-17: /fixtures/ is gone, replaced by /match-centre/teams/bristol-flyers/fixtures. Page header reads "Bristol Flyers", ten dated fixtures server-rendered from Bristol Flyers v Reading Rockets, Friday 11 September 2026, 19:30 at SGS College Arena — which agrees with area: Stoke Gifford.
     addedAt: "2026-08-16"
 
   - id: sport/gloucestershire-cricket
@@ -95,7 +87,7 @@ sources:
     url: https://api.gloscricket.co.uk/api/frontend/getMatchesData?match_status=forthcoming
     homepage: https://www.gloscricket.co.uk/fixtures
     area: Bishopston
-    tags: [cricket, fixtures, ticketed, summer]
+    tags: [ cricket, fixtures, ticketed, summer ]
     cadence: monthly
     hints: |
       Plays at the county ground in Bishopston. Season runs April to September;
@@ -112,10 +104,11 @@ sources:
       Reddings CC in Cheltenham, for instance). Link events back to the human
       page rather than to the endpoint.
     notes: >-
-      Verified 2026-08-17: https://www.gloscricket.co.uk/fixtures is the right page but is client-rendered and
-      yields no fixtures to a fetcher, with or without a browser user-agent. The API endpoint it calls
-      (discovered in the page's own JS bundle) returns dated forthcoming fixtures as JSON.
+      Verified 2026-08-17: https://www.gloscricket.co.uk/fixtures is the right page but is client-rendered and yields no fixtures to a fetcher, with or without a browser user-agent. The API endpoint it calls (discovered in the page's own JS bundle) returns dated forthcoming fixtures as JSON.
     addedAt: "2026-08-16"
+    address:
+      lat: 51.477183
+      lon: -2.584133
 
   - id: sport/great-bristol-run
     name: Great Bristol Run (half marathon & 10K)
@@ -123,7 +116,7 @@ sources:
     kind: festival
     status: provisional
     url: https://www.greatrun.org/events/great-bristol-run/
-    tags: [running, mass-participation, annual, road-closures, half-marathon, 10k]
+    tags: [ running, mass-participation, annual, road-closures, half-marathon, 10k ]
     cadence: quarterly
     hints: |
       The city's main mass-participation road race, successor to the Bristol
@@ -136,9 +129,7 @@ sources:
       greatrun.org returns 403 to a plain fetcher and 200 to a browser
       user-agent — send one. The next edition's date is in the page <title>.
     notes: >-
-      Verified 2026-08-17: the 403 recorded in the harvest was a bot wall, not a bad URL. With a browser
-      user-agent the catalogued URL returns the live event page, titled "AJ Bell Great Bristol Run | 9 May
-      2027". The 2026 edition ran 10 May 2026.
+      Verified 2026-08-17: the 403 recorded in the harvest was a bot wall, not a bad URL. With a browser user-agent the catalogued URL returns the live event page, titled "AJ Bell Great Bristol Run | 9 May 2027". The 2026 edition ran 10 May 2026.
     addedAt: "2026-08-16"
 
   - id: sport/bristol-marathon
@@ -147,13 +138,10 @@ sources:
     kind: festival
     status: closed
     url: https://www.bristolmarathon.co.uk/
-    tags: [running, mass-participation, annual, marathon, road-closures]
+    tags: [ running, mass-participation, annual, marathon, road-closures ]
     cadence: quarterly
     notes: >-
-      Closed 2026-08-17. bristolmarathon.co.uk is NXDOMAIN on both the apex and www — no successor domain, and
-      no full marathon is staged in Bristol. The city's mass-participation road race is the AJ Bell Great
-      Bristol Run (10K and half marathon), already catalogued as sport/great-bristol-run. Kept so it is not
-      re-proposed.
+      Closed 2026-08-17. bristolmarathon.co.uk is NXDOMAIN on both the apex and www — no successor domain, and no full marathon is staged in Bristol. The city's mass-participation road race is the AJ Bell Great Bristol Run (10K and half marathon), already catalogued as sport/great-bristol-run. Kept so it is not re-proposed.
     addedAt: "2026-08-16"
 
   - id: sport/parkrun-bristol
@@ -163,7 +151,7 @@ sources:
     status: provisional
     url: https://images.parkrun.com/events.json
     homepage: https://www.parkrun.org.uk/events/events/
-    tags: [running, free, weekly, 5k, community, all-abilities]
+    tags: [ running, free, weekly, 5k, community, all-abilities ]
     cadence: monthly
     hints: |
       Free timed 5K runs every Saturday morning at many sites around the city —
@@ -187,11 +175,7 @@ sources:
       eastville-juniors, blaisecastle, pomphreyhill, littlestoke-juniors,
       chippingsodbury.
     notes: >-
-      Verified 2026-08-17: the 403 recorded in the harvest was a bot wall. A browser user-agent gets 200 from
-      parkrun.org.uk, but /events/events/ carries no event names — the list is drawn client-side from
-      images.parkrun.com/events.json, which is public, needs no user-agent trick, and contains all seven
-      Bristol-area events. https://www.parkrun.org.uk/ashtoncourt/ confirms "Every Saturday at 9:00am" at
-      Ashton Court Estate.
+      Verified 2026-08-17: the 403 recorded in the harvest was a bot wall. A browser user-agent gets 200 from parkrun.org.uk, but /events/events/ carries no event names — the list is drawn client-side from images.parkrun.com/events.json, which is public, needs no user-agent trick, and contains all seven Bristol-area events. https://www.parkrun.org.uk/ashtoncourt/ confirms "Every Saturday at 9:00am" at Ashton Court Estate.
     addedAt: "2026-08-16"
 
   - id: sport/bristol-bikefest
@@ -201,16 +185,11 @@ sources:
     status: closed
     url: https://bike-fest.com/event-details/
     area: Ashton Court
-    tags: [cycling, mountain-biking, annual, mass-participation, outdoor]
+    tags: [ cycling, mountain-biking, annual, mass-participation, outdoor ]
     cadence: quarterly
     hints: Mountain bike endurance event at Ashton Court, usually midsummer.
     notes: >-
-      Closed 2026-08-17. The catalogued bikefest.co.uk is a saw.com domain-sale listing, not the event. The
-      real site is bike-fest.com, whose root now redirects to the-ex.co.uk (THE MERIDA EX, the same
-      organiser's three-day stage race, 11–13 September 2026, not at Ashton Court). Only bike-fest.com's inner
-      pages survive, frozen on "the 2019 FENWICK's Bristol Bikefest … 29th June 2019"; no edition has been
-      staged since. url points at that page because it is at least genuine Bikefest content. Kept so it is not
-      re-proposed.
+      Closed 2026-08-17. The catalogued bikefest.co.uk is a saw.com domain-sale listing, not the event. The real site is bike-fest.com, whose root now redirects to the-ex.co.uk (THE MERIDA EX, the same organiser's three-day stage race, 11–13 September 2026, not at Ashton Court). Only bike-fest.com's inner pages survive, frozen on "the 2019 FENWICK's Bristol Bikefest … 29th June 2019"; no edition has been staged since. url points at that page because it is at least genuine Bikefest content. Kept so it is not re-proposed.
     addedAt: "2026-08-16"
 
   - id: sport/bristol-grand-prix
@@ -220,15 +199,10 @@ sources:
     status: closed
     url: https://www.bristolgrandprix.co.uk/
     area: City Centre
-    tags: [cycling, racing, free, spectator, road-closures, annual]
+    tags: [ cycling, racing, free, spectator, road-closures, annual ]
     cadence: quarterly
     notes: >-
-      Closed 2026-08-17. City-centre criterium racing organised by Le Sportif Ltd; ran 2015–2018. The site
-      still resolves but has not been touched since April 2019: the newest item is "Bristol Grand Prix 2019
-      cancelled" (3/04/2019) and the banner still advertises "Sunday 8 July 2018". British Cycling's newest
-      listing for the name is the 2016 edition (event 143142); no 2026 or 2027 edition appears in its event
-      finder and no revival was announced. Kept so it is not re-proposed — downgrade to dormant if the
-      organiser resurfaces.
+      Closed 2026-08-17. City-centre criterium racing organised by Le Sportif Ltd; ran 2015–2018. The site still resolves but has not been touched since April 2019: the newest item is "Bristol Grand Prix 2019 cancelled" (3/04/2019) and the banner still advertises "Sunday 8 July 2018". British Cycling's newest listing for the name is the 2016 edition (event 143142); no 2026 or 2027 edition appears in its event finder and no revival was announced. Kept so it is not re-proposed — downgrade to dormant if the organiser resurfaces.
     addedAt: "2026-08-16"
 
   - id: sport/bristol-cycling-campaign
@@ -237,7 +211,7 @@ sources:
     kind: organiser
     status: provisional
     url: https://bristolcycling.org.uk/diary/
-    tags: [cycling, community, rides, free, campaigning]
+    tags: [ cycling, community, rides, free, campaigning ]
     cadence: monthly
     hints: |
       Community rides and campaign events. Good route into smaller organised
@@ -255,10 +229,7 @@ sources:
       record those as `occurrence.kind: recurring`, not one event per month. One-off
       rides are rare, and the page says 2026 social event dates are still TBC.
     notes: >-
-      Verified 2026-08-17: page is titled "Diary of meetings – Bristol Cycling Campaign" and names the
-      organisation throughout. The ICS feed behind the embedded calendar parses, with 92 recurring meeting
-      rules plus one dated one-off ahead (Bristol Kidical Mass Ride, 19 September 2026) — which is why the
-      harvest recorded this source as reachable but empty.
+      Verified 2026-08-17: page is titled "Diary of meetings – Bristol Cycling Campaign" and names the organisation throughout. The ICS feed behind the embedded calendar parses, with 92 recurring meeting rules plus one dated one-off ahead (Bristol Kidical Mass Ride, 19 September 2026) — which is why the harvest recorded this source as reachable but empty.
     addedAt: "2026-08-16"
 
   - id: sport/severn-bridge-half
@@ -267,13 +238,8 @@ sources:
     kind: festival
     status: closed
     url: https://sites.google.com/site/severnbridgehalfmarathon/home
-    tags: [running, half-marathon, annual, mass-participation]
+    tags: [ running, half-marathon, annual, mass-participation ]
     cadence: quarterly
     notes: >-
-      Closed 2026-08-17. severnbridgehalf.com is NXDOMAIN. The event's surviving official page (url above)
-      states the organiser is winding up SBHM Ltd, having lost the bridge closures and infrastructure the race
-      depended on, and that "the event is unlikely to happen in its usual 'full bridge closure' format again".
-      The half marathon distance is gone. A successor Severn Bridge 10k on the pedestrian accessways is run by
-      Rogue Runs — a different organiser and a different race, so it wants its own source rather than this one
-      being repointed. Also north of the city and outside the configured radius.
+      Closed 2026-08-17. severnbridgehalf.com is NXDOMAIN. The event's surviving official page (url above) states the organiser is winding up SBHM Ltd, having lost the bridge closures and infrastructure the race depended on, and that "the event is unlikely to happen in its usual 'full bridge closure' format again". The half marathon distance is gone. A successor Severn Bridge 10k on the pedestrian accessways is run by Rogue Runs — a different organiser and a different race, so it wants its own source rather than this one being repointed. Also north of the city and outside the configured radius.
     addedAt: "2026-08-16"

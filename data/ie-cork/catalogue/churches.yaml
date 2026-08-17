@@ -1,0 +1,69 @@
+schema: whazzon.catalogue/1
+category: churches
+label: Churches & Cathedrals
+description: >-
+  Working churches whose public programme is largely not religious: recitals,
+  choral performances, festival concerts borrowing the acoustics, heritage
+  openings.
+
+  Deliberately short, and the reason is a finding rather than a gap. Cork's church
+  buildings that matter as venues are already catalogued, because most of them are
+  no longer churches: `music/live-at-st-lukes` and `music/triskel-christchurch` are
+  deconsecrated, `music/unitarian-church` is a working church already earning its
+  place in music, and `museums/st-fin-barres-cathedral` and
+  `museums/shandon-bells-st-annes` are catalogued for their towers and their
+  ticketed visits. None of them is re-homed here: those ids appear in the harvest
+  log, and renaming one would orphan its observations.
+
+  So this file holds what was left — and it is genuinely thin. Cork's sacred-space
+  concert programme runs through the Choral Festival and the deconsecrated rooms,
+  not through the parish churches.
+sources:
+  - id: churches/honan-chapel
+    name: Honan Chapel, UCC
+    category: churches
+    kind: venue
+    status: provisional
+    url: https://www.ucc.ie/en/honan/
+    homepage: https://www.ucc.ie/en/honan/
+    area: Bishopstown
+    tags: [university, classical, heritage, free]
+    cadence: monthly
+    hints: |
+      A small Hiberno-Romanesque revival chapel on the UCC campus, known for its
+      Harry Clarke windows, and used for recitals and the occasional wedding
+      concert rather than a standing programme.
+      Expect little and expect it in term. Four dates were on the page when
+      catalogued, one of them forward (6 September 2026) and one from 2024, so
+      read the year on every row.
+      This is a UCC page, so it sits behind the same T4 CMS as the rest of the
+      university — see `education/university-college-cork` for how thin those
+      central pages are.
+    notes: >-
+      Verified 2026-08-17: 200, and the page is the chapel's own.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"
+
+  - id: churches/north-cathedral
+    name: Cathedral of St Mary and St Anne (the North Cathedral)
+    category: churches
+    kind: venue
+    status: provisional
+    url: https://corkcathedralfop.ie/parishes/the-cathedral
+    area: Shandon
+    tags: [major, free, choral, heritage]
+    cadence: quarterly
+    hints: |
+      Cork's Catholic cathedral, on the north side. A parish site rather than a
+      venue site, so expect mass times and occasional concert notices rather than
+      a diary — a quarterly fetch is honest about that.
+      **The domain trap worth knowing:** `corkcathedral.ie` redirects here, to the
+      *Catholic* cathedral, and is **not** St Fin Barre's, which is Church of
+      Ireland and lives on `events.stfinbarres.ie`. It answers a healthy 200 with
+      mass times, so nothing about the response says you are at the wrong
+      denomination's cathedral. The 2026-08-17 harvest found this the hard way.
+    notes: >-
+      Verified 2026-08-17: reached at 200 via the redirect from corkcathedral.ie.
+      Catalogued at the URL that actually serves, not the one that redirects.
+    addedAt: "2026-08-17"
+    verifiedAt: "2026-08-17"

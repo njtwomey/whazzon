@@ -177,11 +177,15 @@ export function LandingPage() {
         <div className="absolute inset-0 bg-gradient-to-r from-background via-background/85 to-background/20" />
 
         <div className="absolute inset-0">
-          <div className="mx-auto flex h-full max-w-5xl flex-col justify-center px-4 sm:px-6 lg:px-8">
-            <h1 className="text-5xl font-semibold tracking-tight sm:text-6xl">whazzon</h1>
-            {/* Says the same thing as a sentence of prose would, in two words, and
-                tells you how the name is meant to sound while it does it. */}
-            <p className="mt-1 text-xl tracking-tight text-muted-foreground sm:text-2xl">wherziton and whenziton</p>
+          {/* Hard left rather than inside the page's centred column: a banner reads
+              as a banner when the type starts near the edge, and the map is the
+              thing that wants centring. */}
+          <div className="flex h-full flex-col justify-center pl-5 pr-4 sm:pl-8 lg:pl-12">
+            <h1 className="text-6xl font-semibold tracking-tighter sm:text-7xl lg:text-8xl">whazzon</h1>
+            {/* Says what a sentence of prose would in two words, and tells you how
+                the name is meant to sound while it does it. Light and quiet, so it
+                reads as an aside rather than a second headline. */}
+            <p className="mt-1 font-light tracking-wide text-muted-foreground/80 sm:text-lg">wherziton and whenziton</p>
           </div>
         </div>
 

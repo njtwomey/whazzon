@@ -1,4 +1,5 @@
 import { Search, SlidersHorizontal } from "lucide-react";
+import * as React from "react";
 import { Link } from "react-router-dom";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -29,6 +30,25 @@ export function SiteHeader({
   filterSlot: React.ReactNode;
   activeFilterCount: number;
 }) {
+  /**
+   * The field is local and commits to the URL after a pause.
+   *
+   * Filter state lives in the URL, which is right for linkability but means a
+   * keystroke re-renders the whole result set. At a thousand events that made
+   * typing visibly lag. Debouncing keeps the input immediate and does the
+   * expensive work once the person stops typing.
+   */
+  const [draft, setDraft] = React.useState(query);
+
+  // Follow the URL when it changes from elsewhere — Reset, or a shared link.
+  React.useEffect(() => setDraft(query), [query]);
+
+  React.useEffect(() => {
+    if (draft === query) return;
+    const timer = setTimeout(() => onQueryChange(draft), 200);
+    return () => clearTimeout(timer);
+  }, [draft, query, onQueryChange]);
+
   return (
     <header className="sticky top-0 z-40 border-b bg-background/85 backdrop-blur-md">
       <div className="flex h-14 w-full items-center gap-3 px-4 sm:px-6 lg:px-8">
@@ -50,8 +70,8 @@ export function SiteHeader({
             <Search />
           </InputGroupAddon>
           <InputGroupInput
-            value={query}
-            onChange={(event) => onQueryChange(event.target.value)}
+            value={draft}
+            onChange={(event) => setDraft(event.target.value)}
             placeholder="Search events, venues…"
             aria-label="Search"
           />

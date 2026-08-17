@@ -59,7 +59,7 @@ function DateChip({ event, asOf, overlay }: { event: SnapshotEvent; asOf: string
   );
 }
 
-export function EventCard({
+function EventCardImpl({
   event,
   asOf,
   density = "medium",
@@ -134,6 +134,8 @@ export function EventCard({
       }}
       className={cn(
         "group relative cursor-pointer gap-0 overflow-hidden p-0",
+        // Skip layout and paint while off screen — see .card-skip in index.css.
+        "card-skip",
         // A card is a button, so hovering should feel like one: it lifts,
         // takes a real shadow, and picks up a coloured edge. The subtle
         // version read as nothing happening at all.
@@ -264,3 +266,11 @@ export function EventCard({
     </Card>
   );
 }
+
+/**
+ * Memoised because a filter change re-renders the list, and at a thousand cards
+ * that is a thousand pointless re-renders — every prop here is stable across
+ * one: `event` comes from the immutable snapshot, `asOf` and `density` are
+ * primitives, and `onOpen` is a `useState` setter.
+ */
+export const EventCard = React.memo(EventCardImpl);

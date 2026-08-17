@@ -1,3 +1,4 @@
+import * as React from "react";
 import { EventCard } from "@/components/event-card";
 import { Badge } from "@/components/ui/badge";
 import { DENSITY, type Density } from "@/lib/density";
@@ -64,6 +65,54 @@ export function groupEvents(events: SnapshotEvent[], asOf: string): EventGroup[]
   return groups;
 }
 
+/** Rendered in the first pass, and added each time the sentinel comes into view. */
+const PAGE = 60;
+
+/**
+ * How many cards to mount, growing as the reader approaches the end.
+ *
+ * Mounting a thousand cards costs real time even with off-screen paint skipped,
+ * and almost nobody scrolls that far. This renders a screenful or two and
+ * extends before the reader reaches the bottom, so it never reads as pagination.
+ *
+ * Deliberately not full virtualisation: cards live in month sections of varying
+ * height, so a windowing library would need measured offsets for a problem that
+ * a growing cap solves.
+ */
+function useProgressiveCount(total: number, resetKey: string): [number, (node: HTMLDivElement | null) => void] {
+  const [count, setCount] = React.useState(PAGE);
+
+  // A new filter means a new list — start from the top again.
+  React.useEffect(() => setCount(PAGE), [resetKey]);
+
+  const observer = React.useRef<IntersectionObserver | null>(null);
+
+  const sentinelRef = React.useCallback(
+    (node: HTMLDivElement | null) => {
+      observer.current?.disconnect();
+      if (!node) return;
+
+      observer.current = new IntersectionObserver(
+        (entries) => {
+          if (entries.some((entry) => entry.isIntersecting)) {
+            setCount((current) => Math.min(current + PAGE, total));
+          }
+        },
+        // Generous margin so the next batch is mounted before it is needed.
+        // Root is the viewport: the results pane scrolls inside it, so a
+        // sentinel in that pane still crosses the viewport as it moves.
+        { rootMargin: "800px 0px" },
+      );
+      observer.current.observe(node);
+    },
+    [total],
+  );
+
+  React.useEffect(() => () => observer.current?.disconnect(), []);
+
+  return [count, sentinelRef];
+}
+
 export function EventGroups({
   groups,
   asOf,
@@ -75,16 +124,40 @@ export function EventGroups({
   density: Density;
   onOpen: (event: SnapshotEvent) => void;
 }) {
+  const total = React.useMemo(() => groups.reduce((n, group) => n + group.events.length, 0), [groups]);
+  const resetKey = React.useMemo(
+    () => `${total}:${groups.map((g) => g.key).join(",")}:${groups[0]?.events[0]?.id ?? ""}`,
+    [groups, total],
+  );
+  const [count, sentinelRef] = useProgressiveCount(total, resetKey);
+
+  /**
+   * Spend the budget across groups in order, so the cap behaves like scrolling
+   * a single list rather than truncating every section a little.
+   */
+  const visible = React.useMemo(() => {
+    let budget = count;
+    const out: (EventGroup & { total: number })[] = [];
+    for (const group of groups) {
+      if (budget <= 0) break;
+      out.push({ ...group, events: group.events.slice(0, budget), total: group.events.length });
+      budget -= Math.min(budget, group.events.length);
+    }
+    return out;
+  }, [groups, count]);
+
+  const remaining = total - Math.min(count, total);
+
   return (
     <div className="grid gap-10">
-      {groups.map((group) => (
+      {visible.map((group) => (
         <section key={group.key}>
           {/* Sticks to the results pane, not the viewport, since the pane is its
               own scroll container. */}
           <div className="sticky top-0 z-30 -mx-1 bg-background/90 px-1 py-2 backdrop-blur lg:-top-6 lg:pt-6">
             <div className="flex items-baseline gap-2">
               <h2 className="text-lg font-semibold tracking-tight">{group.title}</h2>
-              <Badge variant="secondary">{group.events.length}</Badge>
+              <Badge variant="secondary">{group.total}</Badge>
             </div>
             {group.subtitle && <p className="text-sm text-muted-foreground">{group.subtitle}</p>}
           </div>
@@ -96,6 +169,12 @@ export function EventGroups({
           </div>
         </section>
       ))}
+
+      {remaining > 0 && (
+        <div ref={sentinelRef} className="py-6 text-center text-sm text-muted-foreground">
+          Loading {remaining.toLocaleString()} more…
+        </div>
+      )}
     </div>
   );
 }

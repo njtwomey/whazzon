@@ -131,6 +131,23 @@
  * pulling in a typography plugin.
  */
 @layer components {
+  /*
+   * Let the browser skip layout and paint for cards that are off screen.
+   *
+   * With a thousand-odd cards in the DOM at once, most of the work the browser
+   * does is on things nobody can see. `content-visibility: auto` hands that
+   * decision to the browser — no JavaScript, no virtualisation, no change to
+   * the markup.
+   *
+   * `contain-intrinsic-size` is the placeholder height used while a card is
+   * skipped. It has to be a reasonable guess or the scrollbar jumps as real
+   * heights replace estimates; 22rem is about a medium card with an image.
+   */
+  .card-skip {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 22rem;
+  }
+
   .prose-listing {
     line-height: 1.65;
   }

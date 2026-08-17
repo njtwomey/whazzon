@@ -32,6 +32,9 @@ npm-debug.log*
 # ARE committed — the harvest skill is part of the project.
 .claude/settings.local.json
 
+# Scratch space for notes-in-progress, not part of the project.
+.scratch/
+
 # Secrets
 .env
 .env.*

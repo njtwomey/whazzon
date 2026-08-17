@@ -55,3 +55,56 @@ if (typeof window !== "undefined" && !("ResizeObserver" in globalThis)) {
 if (typeof window !== "undefined" && !Element.prototype.scrollIntoView) {
   Element.prototype.scrollIntoView = () => {};
 }
+
+/**
+ * jsdom has no `IntersectionObserver`, so anything that loads on scroll would
+ * silently never run in tests — the most dangerous shape of gap, because the
+ * code looks covered.
+ *
+ * This stub records observed nodes and lets a test fire an intersection through
+ * `intersectionObserverTrigger()`, so scroll-driven behaviour is assertable
+ * without a real viewport.
+ */
+type ObserverEntry = { callback: IntersectionObserverCallback; nodes: Set<Element> };
+const observers = new Set<ObserverEntry>();
+
+export function intersectionObserverTrigger(): void {
+  for (const { callback, nodes } of observers) {
+    const entries = [...nodes].map(
+      (target) => ({ target, isIntersecting: true, intersectionRatio: 1 }) as IntersectionObserverEntry,
+    );
+    if (entries.length > 0) callback(entries, null as unknown as IntersectionObserver);
+  }
+}
+
+if (typeof window !== "undefined" && !("IntersectionObserver" in globalThis)) {
+  class IntersectionObserverStub {
+    private entry: ObserverEntry;
+    constructor(callback: IntersectionObserverCallback) {
+      this.entry = { callback, nodes: new Set() };
+      observers.add(this.entry);
+    }
+    observe(node: Element) {
+      this.entry.nodes.add(node);
+    }
+    unobserve(node: Element) {
+      this.entry.nodes.delete(node);
+    }
+    disconnect() {
+      observers.delete(this.entry);
+    }
+    takeRecords() {
+      return [];
+    }
+  }
+  Object.defineProperty(globalThis, "IntersectionObserver", {
+    value: IntersectionObserverStub,
+    configurable: true,
+    writable: true,
+  });
+  Object.defineProperty(globalThis, "__triggerIntersection", {
+    value: intersectionObserverTrigger,
+    configurable: true,
+    writable: true,
+  });
+}

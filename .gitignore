@@ -43,3 +43,8 @@ npm-debug.log*
 # NOTE: data/ is deliberately NOT ignored. The catalogue, the harvest log and
 # the compiled snapshot are the project — the deployed site is a static
 # reflection of what is committed here.
+
+# Build caches, not curated data. The OSM extract behind a banner is megabytes and
+# `npm run banner --refresh` fetches it again; the geocode cache is small and worth
+# keeping, since it saves hammering Nominatim.
+data/*/assets/banner-osm.json

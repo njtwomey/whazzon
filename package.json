@@ -27,7 +27,8 @@
     "tags": "tsx packages/pipeline/src/cli/tags.ts",
     "drift": "tsx packages/pipeline/src/cli/drift.ts",
     "dupes": "tsx packages/pipeline/src/cli/dupes.ts",
-    "geocode": "tsx packages/pipeline/src/cli/geocode.ts"
+    "geocode": "tsx packages/pipeline/src/cli/geocode.ts",
+    "banner": "tsx packages/pipeline/src/cli/banner.ts"
   },
   "devDependencies": {
     "@testing-library/react": "^16.3.2",

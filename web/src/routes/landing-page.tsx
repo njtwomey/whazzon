@@ -155,17 +155,44 @@ export function LandingPage() {
 
   return (
     <div className="min-h-dvh">
-      <header className="flex h-14 w-full items-center gap-2.5 px-4 sm:px-6 lg:px-8">
-        <img
-          src={`${import.meta.env.BASE_URL}logo.svg`}
-          alt=""
-          className="size-8 shrink-0 rounded-md ring-1 ring-border"
-        />
+      <header className="flex h-14 w-full items-center px-4 sm:px-6 lg:px-8">
         <span className="text-lg font-semibold tracking-tight">whazzon</span>
       </header>
 
-      <main className="mx-auto w-full max-w-5xl px-4 py-12 sm:px-6 lg:px-8">
-        <h1 className="text-2xl font-semibold tracking-tight">City listing</h1>
+      <main className="mx-auto w-full max-w-5xl px-4 pb-12 sm:px-6 lg:px-8">
+        {/* A title page rather than a bare grid: the mark large, the name, and one
+            paragraph saying what this is. The mark is out of the navbar because it
+            was doing nothing there but shrink — at 32px it is a smudge, and at this
+            size it is legible as what it actually is, a city with things on in it.
+
+            The attribution rides on the mark's tooltip. OpenStreetMap's licence
+            asks for a notice; a visible footer line was more prominent than a
+            timestamped listing page warrants, and this is the common reading. */}
+        <div className="flex flex-col items-start gap-6 py-14">
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <img
+                src={`${import.meta.env.BASE_URL}logo.svg`}
+                alt="whazzon"
+                className="size-24 rounded-2xl ring-1 ring-border sm:size-28"
+              />
+            </TooltipTrigger>
+            <TooltipContent side="right" className="max-w-xs text-pretty">
+              Map data &copy; OpenStreetMap contributors, used under the Open Database Licence.
+            </TooltipContent>
+          </Tooltip>
+
+          <div>
+            <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl">whazzon</h1>
+            <p className="mt-3 max-w-xl text-lg text-muted-foreground">
+              What is actually on in a city, gathered from the venues, festivals and listings sites that publish it —
+              theatre, gigs, markets, trad sessions, talks, workshops. Refreshed regularly, filterable, and honest about
+              where every listing came from.
+            </p>
+          </div>
+        </div>
+
+        <h2 className="text-xl font-semibold tracking-tight">City listing</h2>
 
         {locations.status === "ready" && locations.data.length > 3 && (
           <InputGroup className="mt-8 max-w-sm">
@@ -237,22 +264,6 @@ export function LandingPage() {
         {locations.status === "ready" && visible.length === 0 && (
           <p className="mt-8 text-muted-foreground">No cities match &ldquo;{query}&rdquo;.</p>
         )}
-        {/* Required, not decorative. The mark is a rendered map derived from
-            OpenStreetMap, which under ODbL makes it a Produced Work and obliges
-            us to say so wherever it appears. Cities credit their own hero images
-            through `imageCredit`, on the card. */}
-        <footer className="mt-12 border-t pt-6 text-xs text-muted-foreground">
-          Map data{" "}
-          <a
-            href="https://www.openstreetmap.org/copyright"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="underline underline-offset-2"
-          >
-            &copy; OpenStreetMap contributors
-          </a>
-          , used under the Open Database Licence.
-        </footer>
       </main>
     </div>
   );

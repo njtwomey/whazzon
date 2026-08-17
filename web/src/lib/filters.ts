@@ -38,6 +38,7 @@ export function useFilters(): [Filters, (patch: Partial<Filters>) => void, () =>
       q: params.get("q") ?? "",
       categories: readFacet(params, "category"),
       areas: readFacet(params, "area"),
+      venues: readFacet(params, "venue"),
       tags: readFacet(params, "tag"),
       from: params.get("from") ?? undefined,
       to: params.get("to") ?? undefined,
@@ -57,6 +58,7 @@ export function useFilters(): [Filters, (patch: Partial<Filters>) => void, () =>
       if (next.q) search.set("q", next.q);
       writeFacet(search, "category", next.categories);
       writeFacet(search, "area", next.areas);
+      writeFacet(search, "venue", next.venues);
       writeFacet(search, "tag", next.tags);
       if (next.onNow) search.set("now", "1");
       if (next.from) search.set("from", next.from);

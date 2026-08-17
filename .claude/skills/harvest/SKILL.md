@@ -99,7 +99,7 @@ locationId: <location-id>
 date: "<YYYY-MM-DD>"
 category: <category>
 harvestedAt: "<YYYY-MM-DD>T<HH:MM:SS>Z"
-prompt: { name: stage2-harvest, version: "2" }
+prompt: { name: stage2-harvest, version: "3" }
 model: <the model that did the extraction>
 observations: [...]
 ```

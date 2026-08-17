@@ -1,4 +1,4 @@
-import { ChevronDown, RotateCcw } from "lucide-react";
+import { ChevronDown, FilterX } from "lucide-react";
 import * as React from "react";
 import { FacetSection, type FacetValue } from "@/components/facet-section";
 import { Badge } from "@/components/ui/badge";
@@ -26,6 +26,7 @@ export function FilterPanel({
   reset,
   counts,
   areas,
+  venues,
   tags,
   activeCount,
 }: {
@@ -35,6 +36,7 @@ export function FilterPanel({
   reset: () => void;
   counts: Map<string, number>;
   areas: { name: string; count: number }[];
+  venues: { name: string; count: number }[];
   tags: { name: string; count: number }[];
   activeCount: number;
 }) {
@@ -58,6 +60,11 @@ export function FilterPanel({
     [areas],
   );
 
+  const venueValues: FacetValue[] = React.useMemo(
+    () => venues.map((venue) => ({ value: venue.name, label: venue.name, count: venue.count })),
+    [venues],
+  );
+
   const tagValues: FacetValue[] = React.useMemo(
     () => tags.map((tag) => ({ value: tag.name, label: tag.name.replace(/-/g, " "), count: tag.count })),
     [tags],
@@ -73,9 +80,11 @@ export function FilterPanel({
           Filters
           {activeCount > 0 && <Badge variant="secondary">{activeCount}</Badge>}
         </h2>
+        {/* A filter with a cross, not a rewind arrow: this clears the filters,
+            it does not undo the last thing you did. */}
         {activeCount > 0 && (
           <Button variant="ghost" size="sm" onClick={reset}>
-            <RotateCcw className="size-3.5" /> Reset
+            <FilterX className="size-3.5" /> Clear
           </Button>
         )}
       </div>
@@ -89,16 +98,18 @@ export function FilterPanel({
         onChange={(next) => update({ categories: next })}
       />
 
-      {areaValues.length > 0 && (
+      {venueValues.length > 0 && (
         <>
           <Separator />
+          {/* Alphabetical: a venue is something you come looking for by name,
+              unlike a tag, where the frequent ones are the useful ones. */}
           <FacetSection
-            id="area"
-            title="Area"
-            noun="areas"
-            values={areaValues}
-            facet={filters.areas}
-            onChange={(next) => update({ areas: next })}
+            id="venue"
+            title="Venue"
+            noun="venues"
+            values={venueValues}
+            facet={filters.venues}
+            onChange={(next) => update({ venues: next })}
           />
         </>
       )}
@@ -114,6 +125,20 @@ export function FilterPanel({
             facet={filters.tags}
             onChange={(next) => update({ tags: next })}
             defaultSort="count"
+          />
+        </>
+      )}
+
+      {areaValues.length > 0 && (
+        <>
+          <Separator />
+          <FacetSection
+            id="area"
+            title="Area"
+            noun="areas"
+            values={areaValues}
+            facet={filters.areas}
+            onChange={(next) => update({ areas: next })}
           />
         </>
       )}
@@ -167,14 +192,15 @@ export function FilterPanel({
                 onCheckedChange={(v) => update({ includeFinished: v === true })}
               />
               <FieldLabel htmlFor="finished" className="flex-1 cursor-pointer font-normal">
-                Events that have been and gone
+                Recently finished events
               </FieldLabel>
             </Field>
           </FieldGroup>
 
           <FieldDescription className="mt-2.5">
             Unconfirmed means the venue has stopped listing it but the date has not passed — usually because their page
-            only looks a few months ahead.
+            only looks a few months ahead. Anything that finished more than a fortnight ago is not in the snapshot at
+            all, so it cannot be shown.
           </FieldDescription>
         </CollapsibleContent>
       </Collapsible>

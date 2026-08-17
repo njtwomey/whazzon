@@ -64,6 +64,8 @@ const SnapshotEventV1 = z.strictObject({
 
   raw: Markdown,
   summary: Markdown,
+  /** The event's own page in full, where the harvest opened it. */
+  description: Markdown.optional(),
   confidence: z.enum(["high", "medium", "low"]),
 
   /** Harvest date this event was first observed — the basis of "what's new". */

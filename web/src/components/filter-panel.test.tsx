@@ -40,6 +40,7 @@ function setup(filters: Partial<Filters> = {}, tags = TAGS) {
         reset={vi.fn()}
         counts={new Map([["theatre", 12]])}
         areas={[{ name: "Old City", count: 9 }]}
+        venues={[{ name: "Tobacco Factory Theatres", count: 7 }]}
         tags={tags}
         activeCount={0}
       />
@@ -152,6 +153,19 @@ describe("tag filtering", () => {
     setup({ tags: facet(["live-music", "free-entry"]) });
     const trigger = screen.getByRole("button", { name: /^tags/i });
     expect(within(trigger).getByText("2")).toBeDefined();
+  });
+});
+
+describe("venue filtering", () => {
+  it("renders a Venue section and filters by the name compile denormalised", async () => {
+    const { update, user } = setup();
+
+    await user.click(screen.getByRole("button", { name: /^venue/i }));
+    await user.click(screen.getByRole("button", { name: /tobacco factory theatres, 7 events/i }));
+
+    // The stored value is the venue name itself, since that is what the event
+    // carries — there is no slug to key on.
+    expect(update).toHaveBeenCalledWith({ venues: facet(["Tobacco Factory Theatres"]) });
   });
 });
 

@@ -12,6 +12,7 @@
     "migrate": "tsx packages/pipeline/src/cli/migrate.ts",
     "check-urls": "tsx packages/pipeline/src/cli/check-urls.ts",
     "stale": "tsx packages/pipeline/src/cli/stale.ts",
+    "repointed": "tsx packages/pipeline/src/cli/repointed.ts",
     "mock": "tsx packages/pipeline/src/cli/mock-harvest.ts",
     "compile": "tsx packages/pipeline/src/cli/compile.ts",
     "sync-web": "tsx packages/pipeline/src/cli/sync-web.ts",

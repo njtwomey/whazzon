@@ -97,6 +97,21 @@ export function stateOf(folded: FoldedEvent, lastHarvest: string | undefined, as
 }
 
 /**
+ * A later observation replaces an earlier one — except that silence about
+ * `description` is not a retraction of it.
+ *
+ * Most runs read only the listings index and so carry no description at all.
+ * Without this, one index-only re-harvest would discard every event page a
+ * previous run went and read, and the detail view would quietly empty out. A
+ * run that did read the page and found different copy still wins, because then
+ * the field is present.
+ */
+export function carryDescription(next: WhazzonEvent, previous: WhazzonEvent | undefined): WhazzonEvent {
+  if (next.description !== undefined || previous?.description === undefined) return next;
+  return { ...next, description: previous.description };
+}
+
+/**
  * Read every run file for a location, in date order, and accumulate.
  *
  * Later observations of the same event id replace earlier ones — a venue that
@@ -138,7 +153,7 @@ export function foldHarvests(locationId: string): Fold {
       for (const event of observation.events) {
         const existing = byId.get(event.id);
         byId.set(event.id, {
-          event,
+          event: carryDescription(event, existing?.event),
           firstSeen: existing?.firstSeen ?? run.date,
           lastSeen: run.date,
         });

@@ -1,4 +1,4 @@
-import { CalendarX2, TriangleAlert } from "lucide-react";
+import { CalendarX2, FilterX, TriangleAlert } from "lucide-react";
 import * as React from "react";
 import { useParams } from "react-router-dom";
 import { EventDialog } from "@/components/event-dialog";
@@ -55,8 +55,9 @@ export function LocationPage() {
   const facets = React.useMemo(() => {
     const categories = new Map<string, number>();
     const areas = new Map<string, number>();
+    const venues = new Map<string, number>();
     const tags = new Map<string, number>();
-    if (!snapshot) return { categories, areas, tags };
+    if (!snapshot) return { categories, areas, venues, tags };
 
     for (const event of applyFilters(
       snapshot.events,
@@ -68,10 +69,13 @@ export function LocationPage() {
     for (const event of applyFilters(snapshot.events, { ...effectiveFilters, areas: EMPTY_FACET }, snapshot.asOf)) {
       if (event.area) areas.set(event.area, (areas.get(event.area) ?? 0) + 1);
     }
+    for (const event of applyFilters(snapshot.events, { ...effectiveFilters, venues: EMPTY_FACET }, snapshot.asOf)) {
+      if (event.venueName) venues.set(event.venueName, (venues.get(event.venueName) ?? 0) + 1);
+    }
     for (const event of applyFilters(snapshot.events, { ...effectiveFilters, tags: EMPTY_FACET }, snapshot.asOf)) {
       for (const tag of event.tags) tags.set(tag, (tags.get(tag) ?? 0) + 1);
     }
-    return { categories, areas, tags };
+    return { categories, areas, venues, tags };
   }, [snapshot, effectiveFilters]);
 
   const groups = React.useMemo(() => (snapshot ? groupEvents(visible, snapshot.asOf) : []), [snapshot, visible]);
@@ -122,6 +126,7 @@ export function LocationPage() {
       reset={reset}
       counts={facets.categories}
       areas={byCount(facets.areas)}
+      venues={byCount(facets.venues)}
       tags={byCount(facets.tags)}
       activeCount={active}
     />
@@ -170,7 +175,7 @@ export function LocationPage() {
                 <EmptyDescription>Try widening the date range, or clearing a filter or two.</EmptyDescription>
               </EmptyHeader>
               <Button variant="outline" onClick={reset}>
-                Reset filters
+                <FilterX className="size-4" /> Clear filters
               </Button>
             </Empty>
           ) : (

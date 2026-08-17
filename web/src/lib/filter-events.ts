@@ -100,6 +100,8 @@ export interface Filters {
   q: string;
   categories: Facet;
   areas: Facet;
+  /** Matched against `venueName`, which compile denormalises from the source. */
+  venues: Facet;
   tags: Facet;
   /** Inclusive ISO date bounds. Absent means unbounded on that side. */
   from?: string;
@@ -117,6 +119,7 @@ export const DEFAULT_FILTERS: Filters = {
   q: "",
   categories: EMPTY_FACET,
   areas: EMPTY_FACET,
+  venues: EMPTY_FACET,
   tags: EMPTY_FACET,
   onNow: false,
   sort: "date",
@@ -130,6 +133,7 @@ export function activeFilterCount(filters: Filters): number {
   if (filters.q) n += 1;
   n += facetCount(filters.categories);
   n += facetCount(filters.areas);
+  n += facetCount(filters.venues);
   n += facetCount(filters.tags);
   if (filters.onNow) n += 1;
   if (filters.from || filters.to) n += 1;
@@ -180,6 +184,7 @@ export function applyFilters(events: SnapshotEvent[], filters: Filters, asOf: st
 
     if (!facetPasses([event.category], filters.categories)) return false;
     if (!facetPasses([event.area], filters.areas)) return false;
+    if (!facetPasses([event.venueName], filters.venues)) return false;
     if (!facetPasses(event.tags, filters.tags)) return false;
 
     if (filters.price === "free" && !event.price?.free) return false;

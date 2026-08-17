@@ -78,6 +78,14 @@ function EventCardImpl({
   const showImage = Boolean(event.image) && !imageFailed;
 
   /**
+   * "Now on" and "New" are both statements about currency rather than about
+   * when something is, so they cluster on the right with the price. That leaves
+   * the top-left for a date — and a run already under way has no date to show
+   * there, which is why the chip moves rather than duplicating.
+   */
+  const nowOn = event.occurrence.kind === "run" && (!event.occurrence.start || event.occurrence.start <= asOf);
+
+  /**
    * Pills in priority order. A narrow card cannot show all of them without
    * wrapping into a block, so the most consequential come first and the rest
    * appear on hover or focus. Status leads: whether something is sold out
@@ -158,28 +166,30 @@ function EventCardImpl({
             onError={() => setImageFailed(true)}
             className="size-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"
           />
-          {/* "New" rides at the very top with the date, not down among the
-              category pills. It is the one thing a returning reader scans for,
-              and up here it is visible before the title is even read. */}
+          {/* These ride at the very top, not down among the category pills:
+              they are what a returning reader scans for, and up here they are
+              visible before the title is even read. */}
           <div className="absolute inset-x-0 top-0 flex items-start justify-between gap-2 p-2.5">
             <span className="flex min-w-0 items-center gap-1.5">
-              <DateChip event={event} asOf={asOf} overlay />
-              {isNew && <Badge className="shadow-sm">New</Badge>}
+              {!nowOn && <DateChip event={event} asOf={asOf} overlay />}
             </span>
-            {price && (
-              <Badge variant="secondary" className="shrink-0 bg-background/90 tabular-nums shadow-sm backdrop-blur-sm">
-                {price}
-              </Badge>
-            )}
+            <span className="flex shrink-0 items-center gap-1.5">
+              {nowOn && <DateChip event={event} asOf={asOf} overlay />}
+              {isNew && <Badge className="shadow-sm">New</Badge>}
+              {price && (
+                <Badge variant="secondary" className="bg-background/90 tabular-nums shadow-sm backdrop-blur-sm">
+                  {price}
+                </Badge>
+              )}
+            </span>
           </div>
         </div>
       ) : (
         <div className="flex items-center justify-between gap-2 border-b bg-muted/40 px-4 py-2.5">
-          <span className="flex min-w-0 items-center gap-1.5">
-            <DateChip event={event} asOf={asOf} />
+          <span className="flex min-w-0 items-center gap-1.5">{!nowOn && <DateChip event={event} asOf={asOf} />}</span>
+          <span className="flex shrink-0 items-center gap-1.5">
+            {nowOn && <DateChip event={event} asOf={asOf} />}
             {isNew && <Badge>New</Badge>}
-          </span>
-          <span className="flex shrink-0 items-center gap-2">
             {price && <span className="text-xs font-medium tabular-nums text-muted-foreground">{price}</span>}
             <ImageOff className="size-3.5 text-muted-foreground/50" aria-hidden />
           </span>

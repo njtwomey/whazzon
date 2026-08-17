@@ -23,6 +23,7 @@ import { SnapshotArtefact, type SnapshotEvent } from "../schema/snapshot.js";
  *
  *   npm run compile -- bristol-uk
  *   npm run compile -- bristol-uk --as-of 2026-08-16
+ *   npm run compile -- bristol-uk --keep-finished 0     drop every past event
  */
 
 const { locations, rest } = resolveLocations();
@@ -33,6 +34,34 @@ if (!/^\d{4}-\d{2}-\d{2}$/.test(asOf)) {
   console.error(`--as-of must be YYYY-MM-DD, got "${asOf}"`);
   process.exit(1);
 }
+
+/**
+ * How long a finished event stays in the snapshot before being left out.
+ *
+ * The harvest log grows for ever and most of it will eventually be in the past,
+ * so shipping all of it to a browser is a bill that only goes up. But a hard cut
+ * at today is worse than it sounds: "did I miss it?" is a real question, and the
+ * fortnight just gone is the only part of the past anyone asks about.
+ *
+ * Nothing is deleted — the log is untouched and re-compiling with a longer
+ * window brings it all back.
+ */
+const keepArg = rest.includes("--keep-finished") ? rest[rest.indexOf("--keep-finished") + 1] : undefined;
+const keepFinishedDays = keepArg === undefined ? 14 : Number(keepArg);
+
+if (!Number.isInteger(keepFinishedDays) || keepFinishedDays < 0) {
+  console.error(`--keep-finished must be a whole number of days, got "${keepArg}"`);
+  process.exit(1);
+}
+
+/** Date arithmetic on the given as-of, never on the clock — see above. */
+function shiftDays(date: string, days: number): string {
+  const at = new Date(`${date}T00:00:00Z`);
+  at.setUTCDate(at.getUTCDate() + days);
+  return at.toISOString().slice(0, 10);
+}
+
+const finishedCutoff = shiftDays(asOf, -keepFinishedDays);
 
 // The clock is read once, here, and only for the generatedAt stamp. Every
 // decision about what has finished uses --as-of, so rebuilding an old snapshot
@@ -55,6 +84,10 @@ for (const locationId of locations) {
   const events: SnapshotEvent[] = [];
   const sources: unknown[] = [];
   const categories: unknown[] = [];
+  /** Finished longer ago than the window, and so left out of the snapshot. */
+  let droppedFinished = 0;
+  /** Undated, and no longer listed by a source we successfully read. */
+  let droppedUndated = 0;
 
   for (const { catalogue } of catalogues) {
     let eventCount = 0;
@@ -79,6 +112,38 @@ for (const locationId of locations) {
       for (const entry of folded?.events ?? []) {
         const event = entry.event;
 
+        const state = stateOf(entry, folded?.lastHarvest, asOf);
+        const end = endDateOf(event.occurrence);
+        if (state === "finished" && end !== undefined && end < finishedCutoff) {
+          droppedFinished += 1;
+          continue;
+        }
+
+        /**
+         * An undated event the source has stopped listing is dropped, where a
+         * dated one would be carried.
+         *
+         * `carried` exists so a venue that lists three months ahead does not
+         * lose a show announced a year out — the date is what makes that safe,
+         * because the event eventually finishes and leaves. An undated event has
+         * no date to pass, so it can never become `finished`: carried once,
+         * carried for ever.
+         *
+         * That also mints ghosts. Event ids hash the anchor date, so a listing
+         * recorded `undated` on Monday and dated on Tuesday is two ids, and the
+         * undated one sits beside its dated twin indefinitely. Eighteen of those
+         * appeared in the first re-harvest.
+         *
+         * Absence is the only signal an undated listing ever gives, so it is the
+         * one we use — but only when the source was actually read. A failed
+         * fetch says nothing about what the page holds, and must not retire a
+         * whole venue's announcements.
+         */
+        if (state === "carried" && event.occurrence.kind === "undated" && folded?.lastError === undefined) {
+          droppedUndated += 1;
+          continue;
+        }
+
         // Resolve where this actually happens. Most events omit `venue`
         // entirely and simply happen at their source.
         const hostId = event.venue?.sourceId;
@@ -97,9 +162,9 @@ for (const locationId of locations) {
           title: event.title,
           occurrence: event.occurrence,
           status: event.status,
-          state: stateOf(entry, folded?.lastHarvest, asOf),
+          state,
           sortDate: sortDateOf(event.occurrence, asOf),
-          endDate: endDateOf(event.occurrence),
+          endDate: end,
           timesText: event.timesText,
           venueName,
           area,
@@ -111,6 +176,7 @@ for (const locationId of locations) {
           tags: event.tags,
           raw: event.raw,
           summary: event.summary,
+          description: event.description,
           confidence: event.confidence,
           firstSeen: entry.firstSeen,
           lastSeen: entry.lastSeen,
@@ -172,6 +238,12 @@ for (const locationId of locations) {
       `${fold.runDates.length} run(s) ` +
       `(${Object.entries(byState)
         .map(([k, v]) => `${v} ${k}`)
-        .join(", ")}${failing ? `, ${failing} failing` : ""}) -> ${rel(out)}`,
+        .join(", ")}${failing ? `, ${failing} failing` : ""}) -> ${rel(out)}` +
+      // Said out loud, because a snapshot that silently omits events reads as
+      // a harvest that never found them.
+      (droppedFinished
+        ? `\n  ${droppedFinished} finished before ${finishedCutoff} left out (--keep-finished ${keepFinishedDays})`
+        : "") +
+      (droppedUndated ? `\n  ${droppedUndated} undated event(s) no longer listed left out` : ""),
   );
 }

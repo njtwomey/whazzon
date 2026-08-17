@@ -186,6 +186,17 @@ const EventV1 = z
     summary: Markdown,
 
     /**
+     * The event's own page, in full: the several paragraphs a listings index
+     * never carries. What fills the detail view.
+     *
+     * Optional, and absent for most events — opening 1,095 event pages costs
+     * far more than a run of the indexes, so it is captured only where a
+     * source's programme is small enough to walk. `raw` is what the index
+     * said, and that is enough to draw a card.
+     */
+    description: Markdown.optional(),
+
+    /**
      * How sure the extractor is that this row is correct. `low` means the
      * page was ambiguous — the UI can de-emphasise these rather than
      * discarding information.

@@ -1,6 +1,6 @@
 ---
 name: stage2-harvest
-version: "2"
+version: "3"
 stage: 2
 description: Harvest one category's sources into whazzon.harvest/1 observations.
 ---
@@ -105,9 +105,20 @@ Two things that otherwise cost you a re-fetch:
 
 Good coverage of forty venues beats perfect coverage of one.
 
-- **Do not open each event's own page.** Navigating _to_ the listings is worth
+- **Do not open every event's own page.** Navigating _to_ the listings is worth
   a fetch or two; visiting forty individual events is not. The listings page
   carries enough for a card — deep-link and let the reader go there.
+- **Open a few of them when the index is thin, and only then.** A listings page
+  that gives a title, a date and one clause leaves the detail view with nothing
+  the card did not already say. Where that is true _and_ the source's whole
+  programme is small — a dozen events or fewer — open each event's page and put
+  what it says into `description`. Cap it at a dozen fetches for the source,
+  take the soonest events first, and say in `notes` how many you opened.
+
+  A big venue with sixty gigs does not get this treatment: sixty extra fetches
+  to enrich one card each is the wrong trade. Leave `description` off and let
+  `raw` stand.
+
 - **A multiplex is not worth 200 rows.** Where a source lists the same
   mainstream release forty times, take the special events — previews, Q&As,
   event cinema, festival strands — and leave the routine screenings.
@@ -130,6 +141,12 @@ limit is honest; a silent one is a lie about coverage.
 
 A guessed date is far more damaging than a recorded absence, because it looks
 correct. "Coming autumn 2027" is `undated` with that note — not a date.
+
+**`undated` is for a listing with no date, never for one whose date has passed.**
+State is derived by comparing an end date against today, so an `undated` row can
+never become `finished` — a party from six weeks ago recorded that way would sit
+on the site looking current for ever. A stale listing gets its real past date, or
+it is not recorded at all, and the reason goes in `notes`.
 
 Two rules that follow from how events are identified:
 
@@ -188,11 +205,26 @@ to `venue.name` when it is not.
 
 ## 7. Fields that carry the weight
 
-**`raw` and `summary` are both markdown, and both matter.** `raw` is the listing
-as the venue wrote it — links and emphasis intact, not tidied, not shortened,
-never HTML. `summary` is your own sentence or two: what it is and why someone
-might go. It fills the card, so it must be informative — not a truncation of
-`raw`, not marketing copy echoed back.
+**`raw`, `summary` and `description` are all markdown, and they are three
+different things.**
+
+| field         | is                                             | fills           |
+| ------------- | ---------------------------------------------- | --------------- |
+| `raw`         | the listing as the venue wrote it, untidied    | provenance      |
+| `summary`     | your own sentence or two                       | the card        |
+| `description` | the event's own page in full, when you read it | the detail view |
+
+`raw` keeps links and emphasis intact — not shortened, never HTML. `summary`
+says what it is and why someone might go; it fills the card, so it must be
+informative rather than a truncation of `raw` or marketing copy echoed back.
+
+`description` is optional and usually absent. When the rule in §3 sends you to
+an event's own page, this is where that text goes: the several paragraphs the
+index never carried — who is playing, what the show is about, what is included,
+access notes. Keep it as the page wrote it, in markdown, and do not pad it out
+to look fuller than the page was. **Never write a `description` for a page you
+did not open** — inventing one is worse than leaving the field off, because the
+detail view presents it as what the venue said.
 
 **`tags` describe the event; the category describes the source.** A cinema's
 programme holds a subtitled matinee, a director Q&A and a late-night horror;

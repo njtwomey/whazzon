@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
     <title>whazzon</title>
     <!--
       The tagline, not a description of the tagline. This is what a link preview
@@ -22,6 +23,25 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="whazzon" />
     <meta name="twitter:description" content="werezziton and wenzziton" />
+    <!--
+      The theme, before the first paint.
+
+      React sets this class too, but it cannot run until the bundle has parsed —
+      and a dark-mode reader would get a full white page in the meantime. Blocking
+      and inline is the point: it is a few lines, it runs before the body exists,
+      and it reads the same key `lib/theme.ts` writes.
+    -->
+    <script>
+      try {
+        var stored = localStorage.getItem("whazzon-theme");
+        var dark =
+          stored === "dark" ||
+          ((!stored || stored === "system") && window.matchMedia("(prefers-color-scheme: dark)").matches);
+        document.documentElement.classList.toggle("dark", dark);
+      } catch (e) {
+        /* storage blocked — light it is */
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>

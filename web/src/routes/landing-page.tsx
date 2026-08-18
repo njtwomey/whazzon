@@ -5,6 +5,7 @@ import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Empty, EmptyDescription, EmptyHeader, EmptyMedia, EmptyTitle } from "@/components/ui/empty";
 import { InputGroup, InputGroupAddon, InputGroupInput } from "@/components/ui/input-group";
 import { MapBanner } from "@/components/map-banner";
+import { ThemeToggle } from "@/components/theme-toggle";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { formatDate } from "@/lib/format";
@@ -169,7 +170,12 @@ export function LandingPage() {
       />
 
       <main className="mx-auto w-full max-w-5xl px-4 pb-12 pt-10 sm:px-6 lg:px-8">
-        <h2 className="text-xl font-semibold tracking-tight">City listing</h2>
+        {/* This page has no bar to put it in, so the theme control rides the
+            heading — the only row here that is chrome rather than content. */}
+        <div className="flex items-center justify-between gap-4">
+          <h2 className="text-xl font-semibold tracking-tight">City listing</h2>
+          <ThemeToggle />
+        </div>
 
         {locations.status === "ready" && locations.data.length > 3 && (
           <InputGroup className="mt-8 max-w-sm">

@@ -15,6 +15,7 @@ import { HoverCard, HoverCardContent, HoverCardTrigger } from "@/components/ui/h
 import { InputGroup, InputGroupAddon, InputGroupInput } from "@/components/ui/input-group";
 import { Separator } from "@/components/ui/separator";
 import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
+import { ThemeToggle } from "@/components/theme-toggle";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { DENSITY, DENSITY_OPTIONS, type Density } from "@/lib/density";
 import { formatDate } from "@/lib/format";
@@ -216,6 +217,12 @@ export function SiteHeader({
             );
           })}
         </ButtonGroup>
+
+        {/* Beside card size: both are about how the page looks rather than what
+            it shows, and neither belongs in the filter panel. It survives the
+            small-screen squeeze because a reader in the dark cannot work around
+            its absence the way they can open a sheet. */}
+        <ThemeToggle className="shrink-0" />
 
         {/* Filters live in a sheet on small screens and a sidebar on large ones. */}
         <Sheet>

@@ -33,6 +33,42 @@ const ASPECT = 3.4;
 const HEIGHT = 340;
 const REFRESH = rest.includes("--refresh");
 
+/**
+ * The map's surfaces, per theme.
+ *
+ * Only the ground changes. Pin colours are the same in both, because they are a
+ * vocabulary rather than decoration — a red marker means theatre on every page,
+ * and a palette that shifted with the theme would break that for the sake of
+ * contrast it does not need. A white ring separates the colour from the map at
+ * either end of the scale.
+ *
+ * The dark map is genuinely re-drawn rather than an inverted light one. Inverting
+ * turns a green park brown and blue water orange, which is the giveaway of every
+ * filtered map on the web.
+ */
+const PALETTE = {
+  light: {
+    ground: "#eef0f2",
+    green: "#d3e2cb",
+    buildings: "#e2e5e9",
+    water: "#a9c9dd",
+    casing: "#c7ccd4",
+    road: "#ffffff",
+  },
+  dark: {
+    ground: "#101418",
+    green: "#16251b",
+    buildings: "#1a1f25",
+    water: "#12303f",
+    // Roads read as light lines on a dark ground, so the casing is *darker* than
+    // the road rather than lighter — the same trick as light mode, upside down.
+    casing: "#20262d",
+    road: "#454e59",
+  },
+} as const;
+
+type Theme = keyof typeof PALETTE;
+
 /** Colour per category — the point of a marker is saying what kind of evening. */
 const COLOUR: Record<string, string> = {
   music: "#5b5bd6",
@@ -263,43 +299,58 @@ out geom;`;
   }
 
   const px = (m: number, extra: number) => Math.max(1.1, (m * K) / 111_200 + extra).toFixed(1);
-  let svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${HEIGHT}" role="img" aria-label="${location.name}">
+
+  /** The same geometry, twice over — only the surfaces differ. */
+  const draw = (theme: Theme): string => {
+    const colour = PALETTE[theme];
+    let svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${HEIGHT}" role="img" aria-label="${location.name}">
 <title>whazzon</title>
 <desc>${location.name}, with a marker at each catalogued venue, coloured by what it programmes. Positions are real geocodes. Map data (c) OpenStreetMap contributors, ODbL.</desc>
-<rect width="${W}" height="${HEIGHT}" fill="#eef0f2"/>`;
-  svg += `<g fill="#d3e2cb">${green.map((p) => `<path d="${p}"/>`).join("")}</g>`;
-  svg += `<g fill="#e2e5e9">${buildings.map((p) => `<path d="${p}"/>`).join("")}</g>`;
-  svg += `<g fill="#a9c9dd" stroke="#a9c9dd" stroke-width="5" stroke-linejoin="round">${water
-    .map(([p, c]) => (c ? `<path d="${p}"/>` : `<path d="${p}" fill="none" stroke-width="7"/>`))
-    .join("")}</g>`;
-  for (const [colour, extra] of [
-    ["#c7ccd4", 1.5],
-    ["#ffffff", 0],
-  ] as const) {
-    svg += `<g fill="none" stroke="${colour}" stroke-linecap="round" stroke-linejoin="round">`;
-    for (const [p, m] of [...roads].sort((a, b) => b[1] - a[1]))
-      svg += `<path d="${p}" stroke-width="${px(m, extra)}"/>`;
-    svg += `</g>`;
-  }
-  for (const pin of pins) {
-    const [x, y] = [pin.x.toFixed(0), pin.y.toFixed(0)];
-    svg += `<g><title>${pin.name.replace(/[<>&]/g, "")}</title><circle cx="${x}" cy="${y}" r="17" fill="#fff" opacity=".95"/><circle cx="${x}" cy="${y}" r="14" fill="${COLOUR[pin.category]}"/><g transform="translate(${x} ${y})" fill="#fff">${GLYPH[pin.category]}</g></g>`;
-  }
-  svg += `</svg>\n`;
+<rect width="${W}" height="${HEIGHT}" fill="${colour.ground}"/>`;
+    svg += `<g fill="${colour.green}">${green.map((p) => `<path d="${p}"/>`).join("")}</g>`;
+    svg += `<g fill="${colour.buildings}">${buildings.map((p) => `<path d="${p}"/>`).join("")}</g>`;
+    svg += `<g fill="${colour.water}" stroke="${colour.water}" stroke-width="5" stroke-linejoin="round">${water
+      .map(([p, c]) => (c ? `<path d="${p}"/>` : `<path d="${p}" fill="none" stroke-width="7"/>`))
+      .join("")}</g>`;
+    for (const [stroke, extra] of [
+      [colour.casing, 1.5],
+      [colour.road, 0],
+    ] as const) {
+      svg += `<g fill="none" stroke="${stroke}" stroke-linecap="round" stroke-linejoin="round">`;
+      for (const [p, m] of [...roads].sort((a, b) => b[1] - a[1]))
+        svg += `<path d="${p}" stroke-width="${px(m, extra)}"/>`;
+      svg += `</g>`;
+    }
+    for (const pin of pins) {
+      const [x, y] = [pin.x.toFixed(0), pin.y.toFixed(0)];
+      svg += `<g><title>${pin.name.replace(/[<>&]/g, "")}</title><circle cx="${x}" cy="${y}" r="17" fill="#fff" opacity=".95"/><circle cx="${x}" cy="${y}" r="14" fill="${COLOUR[pin.category]}"/><g transform="translate(${x} ${y})" fill="#fff">${GLYPH[pin.category]}</g></g>`;
+    }
+    return `${svg}</svg>\n`;
+  };
 
   /**
    * Written beside the location's other assets, not into the web app. A banner is
    * location data — derived from that city's own catalogue — so it lives where the
    * hero image does and `sync-web` publishes it. The site-wide banner on the
    * landing page is a separate, committed file.
+   *
+   * Two files: `banner.svg` and `banner-dark.svg`. The app picks one, rather than
+   * loading both and hiding one — each is a third of a megabyte.
    */
-  const out = join(paths.locationDir(locationId), "assets", "banner.svg");
-  writeFileSync(out, svg, "utf8");
+  const written: string[] = [];
+  let bytes = 0;
+  for (const theme of ["light", "dark"] as Theme[]) {
+    const svg = draw(theme);
+    const out = join(paths.locationDir(locationId), "assets", theme === "dark" ? "banner-dark.svg" : "banner.svg");
+    writeFileSync(out, svg, "utf8");
+    written.push(rel(out));
+    bytes += svg.length;
+  }
   const byCategory = [...new Set(pins.map((p) => p.category))].sort();
   console.log(
     `${locationId}: ${W}x${HEIGHT} (${SPAN_M}m, ${mPerPx.toFixed(1)} m/px), ` +
       `${roads.length} roads, ${buildings.length} buildings, ${pins.length} real venues across ${byCategory.length} categories, ` +
-      `${(svg.length / 1024).toFixed(0)} KB -> ${rel(out)}`,
+      `${(bytes / 1024).toFixed(0)} KB -> ${written.join(" + ")}`,
   );
   console.log(`  ${byCategory.join(", ")}`);
 }

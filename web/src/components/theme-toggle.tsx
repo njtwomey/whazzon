@@ -1,51 +1,35 @@
-import { Monitor, Moon, Sun } from "lucide-react";
+import { Moon, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { resolveTheme, THEMES, useTheme, type Theme } from "@/lib/theme";
-
-const ICON = { light: Sun, dark: Moon, system: Monitor } as const;
+import { useResolvedTheme, useTheme } from "@/lib/theme";
 
 /**
- * Light, dark, or follow the machine.
+ * One button: what you are not currently looking at.
  *
- * A menu rather than a two-way switch, because "system" cannot be reached by
- * toggling — and the trigger shows the theme you are *in* rather than the one you
- * chose, so "system" at night is a moon. That is the honest icon: it says what
- * you are looking at, and the menu says why.
+ * It started as a menu of light / dark / system, which is more state than a
+ * one-click decision deserves — nobody opens a menu to change the brightness of a
+ * page. So: **system is the default**, and the first click is an explicit choice
+ * that overrides it from then on.
+ *
+ * The icon is the destination rather than the current state, because that is what
+ * a toggle promises: a moon means "go dark". The label says the same thing for
+ * anyone not looking at it.
  */
 export function ThemeToggle({ className }: { className?: string }) {
-  const [theme, setTheme] = useTheme();
-  const Icon = ICON[resolveTheme(theme)];
+  const [, setTheme] = useTheme();
+  const resolved = useResolvedTheme();
+  const next = resolved === "dark" ? "light" : "dark";
+  const Icon = next === "dark" ? Moon : Sun;
 
   return (
-    <DropdownMenu>
-      <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="icon" className={className} aria-label={`Theme: ${theme}`}>
-          <Icon className="size-4" />
-        </Button>
-      </DropdownMenuTrigger>
-      <DropdownMenuContent align="end">
-        {THEMES.map((option) => {
-          const OptionIcon = ICON[option.value];
-          return (
-            <DropdownMenuItem
-              key={option.value}
-              onSelect={() => setTheme(option.value as Theme)}
-              // A tick would need a column of its own; the current one simply
-              // reads as selected.
-              className={theme === option.value ? "bg-accent text-accent-foreground" : undefined}
-            >
-              <OptionIcon className="size-4" />
-              {option.label}
-            </DropdownMenuItem>
-          );
-        })}
-      </DropdownMenuContent>
-    </DropdownMenu>
+    <Button
+      variant="ghost"
+      size="icon"
+      className={className}
+      aria-label={`Switch to ${next} mode`}
+      title={`Switch to ${next} mode`}
+      onClick={() => setTheme(next)}
+    >
+      <Icon className="size-4" />
+    </Button>
   );
 }

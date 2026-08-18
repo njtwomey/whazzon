@@ -17,12 +17,6 @@ export type Theme = "light" | "dark" | "system";
 
 const STORAGE_KEY = "whazzon-theme";
 
-export const THEMES: { value: Theme; label: string }[] = [
-  { value: "light", label: "Light" },
-  { value: "dark", label: "Dark" },
-  { value: "system", label: "System" },
-];
-
 function isTheme(value: string | null): value is Theme {
   return value === "light" || value === "dark" || value === "system";
 }
@@ -79,4 +73,28 @@ export function useTheme(): [Theme, (next: Theme) => void] {
   }, [theme]);
 
   return [theme, setTheme];
+}
+
+/**
+ * What is actually on screen, as state, so a component re-renders when it
+ * changes.
+ *
+ * `resolveTheme` alone is a snapshot: it answers correctly when called, and says
+ * nothing when the machine flips at sunset. Anything whose *markup* depends on
+ * the theme — a control's icon, a banner's `src` — needs this instead.
+ */
+export function useResolvedTheme(): "light" | "dark" {
+  const [theme] = useTheme();
+  const [resolved, setResolved] = React.useState(() => resolveTheme(theme));
+
+  React.useEffect(() => {
+    setResolved(resolveTheme(theme));
+    if (theme !== "system" || typeof matchMedia !== "function") return;
+    const query = matchMedia("(prefers-color-scheme: dark)");
+    const onChange = () => setResolved(resolveTheme("system"));
+    query.addEventListener("change", onChange);
+    return () => query.removeEventListener("change", onChange);
+  }, [theme]);
+
+  return resolved;
 }

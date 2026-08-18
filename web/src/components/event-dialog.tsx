@@ -205,11 +205,20 @@ export function EventDialog({
                 honest to centre a map on, so the links above do the job. */}
             {embed && (
               <div className="overflow-hidden rounded-lg border">
+                {/* OpenStreetMap's embed renders one set of light tiles, and there
+                    is no dark parameter to ask for. Inverting and rotating the hue
+                    back is the standard trick and holds up here: it darkens the
+                    ground and the buildings while leaving water blue and parks
+                    green, rather than the brown-water look inversion alone gives.
+
+                    The city banners are drawn dark properly, by the generator.
+                    This one is somebody else's raster, so a filter is the whole
+                    of what is available. */}
                 <iframe
                   src={embed}
                   title={`Map showing ${event.venueName}`}
                   loading="lazy"
-                  className="h-56 w-full border-0"
+                  className="h-56 w-full border-0 dark:brightness-95 dark:invert dark:hue-rotate-180"
                   referrerPolicy="no-referrer-when-downgrade"
                 />
               </div>

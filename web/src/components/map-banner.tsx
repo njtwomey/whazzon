@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useResolvedTheme } from "@/lib/theme";
 import { cn } from "@/lib/utils";
 
 /**
@@ -15,28 +16,42 @@ import { cn } from "@/lib/utils";
  */
 export function MapBanner({
   src,
+  srcDark,
   title,
   subtitle,
   className,
   titleClassName,
 }: {
   src: string;
+  /**
+   * The dark drawing of the same map. Optional: a location whose banner predates
+   * dark mode keeps the light one, which is legible either way — an inverted or
+   * missing map would not be.
+   */
+  srcDark?: string;
   title: string;
   subtitle?: React.ReactNode;
   /** Height comes from the caller: a landing hero wants more than a page header. */
   className?: string;
   titleClassName?: string;
 }) {
+  /**
+   * One `src`, chosen — not both with one hidden. Each map is around a third of a
+   * megabyte, so `dark:hidden` would download a file nobody sees.
+   */
+  const resolved = useResolvedTheme();
+  const chosen = resolved === "dark" && srcDark ? srcDark : src;
+
   // One failed asset should leave the page intact rather than a torn box.
   const [failed, setFailed] = React.useState(false);
-  React.useEffect(() => setFailed(false), [src]);
+  React.useEffect(() => setFailed(false), [chosen]);
 
   if (failed) return null;
 
   return (
     <section className="relative isolate w-full overflow-hidden border-b">
       <img
-        src={src}
+        src={chosen}
         alt=""
         aria-hidden
         onError={() => setFailed(true)}

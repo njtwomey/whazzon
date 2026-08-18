@@ -42,6 +42,7 @@ export function LocationPage() {
   const summary = locations.status === "ready" ? locations.data.find((l) => l.id === params.locationId) : undefined;
   const locationImageUrl = summary?.imageUrl;
   const locationBannerUrl = summary?.bannerUrl;
+  const locationBannerDarkUrl = summary?.bannerDarkUrl;
 
   React.useEffect(() => {
     document.title = snapshot ? `whazzon ${snapshot.location.name.toLowerCase()}` : "whazzon";
@@ -157,6 +158,7 @@ export function LocationPage() {
       {locationBannerUrl && (
         <MapBanner
           src={`${import.meta.env.BASE_URL}${locationBannerUrl}`}
+          srcDark={locationBannerDarkUrl && `${import.meta.env.BASE_URL}${locationBannerDarkUrl}`}
           title={snapshot.location.name.toLowerCase()}
           className="h-56 sm:h-64 lg:h-72"
           titleClassName="text-5xl sm:text-6xl"

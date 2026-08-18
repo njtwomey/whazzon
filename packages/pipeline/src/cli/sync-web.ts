@@ -65,18 +65,25 @@ for (const locationId of locations) {
     new Set(values.filter((v): v is string => Boolean(v && v.trim()))).size;
 
   /**
-   * The city's banner, published the same way as its hero image. It is location
-   * data — generated from that city's own catalogue by `npm run banner` — so it
-   * travels with the location rather than living in the web app.
+   * The city's banners, published the same way as its hero image. They are
+   * location data — generated from that city's own catalogue by `npm run banner`
+   * — so they travel with the location rather than living in the web app.
    */
-  let bannerUrl: string | undefined;
-  const banner = join(paths.locationDir(locationId), "assets", "banner.svg");
-  if (existsSync(banner)) {
+  const publishBanner = (file: string): string | undefined => {
+    const source = join(paths.locationDir(locationId), "assets", file);
+    if (!existsSync(source)) return undefined;
     const assetDir = join(paths.root(), "web", "public", "assets", locationId);
     mkdirSync(assetDir, { recursive: true });
-    copyFileSync(banner, join(assetDir, "banner.svg"));
-    bannerUrl = `assets/${locationId}/banner.svg`;
-  }
+    copyFileSync(source, join(assetDir, file));
+    return `assets/${locationId}/${file}`;
+  };
+
+  const bannerUrl = publishBanner("banner.svg");
+  // The dark map is a separate drawing rather than a filtered one, and separate
+  // files rather than one the app hides half of: each is a third of a megabyte,
+  // so the theme decides which is fetched. A location that has not been
+  // regenerated since simply has no dark banner, and the app falls back.
+  const bannerDarkUrl = publishBanner("banner-dark.svg");
 
   index.push({
     id: location.id,
@@ -85,6 +92,7 @@ for (const locationId of locations) {
     country: location.country,
     imageUrl,
     bannerUrl,
+    bannerDarkUrl,
     imageCredit: location.imageCredit,
     asOf: snapshot.asOf,
     eventCount: snapshot.events.length,

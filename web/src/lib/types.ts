@@ -20,6 +20,8 @@ export interface LocationSummary {
    * Optional: a location has one only once it has geocoded venues to plot.
    */
   bannerUrl?: string;
+  /** The same map drawn dark. Absent for a location built before there was one. */
+  bannerDarkUrl?: string;
   imageCredit?: string;
   asOf: string;
   eventCount: number;

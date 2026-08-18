@@ -161,6 +161,7 @@ export function LandingPage() {
           drawn from; every city page shows its own instead. */}
       <MapBanner
         src={`${import.meta.env.BASE_URL}banner.svg`}
+        srcDark={`${import.meta.env.BASE_URL}banner-dark.svg`}
         title="whazzon"
         className="h-52 sm:h-64 lg:h-72"
         titleClassName="text-6xl sm:text-7xl lg:text-8xl"

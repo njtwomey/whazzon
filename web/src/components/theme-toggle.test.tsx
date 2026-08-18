@@ -52,6 +52,38 @@ describe("the theme toggle", () => {
   });
 });
 
+describe("toggling, over and over", () => {
+  /**
+   * The bug this file exists for. Every caller of `useTheme` used to hold its own
+   * `useState`, so the first click worked and nothing after it did: the toggle
+   * computed the next theme from its own stale copy, and the banner — a different
+   * component, a different copy — never heard about any of it.
+   */
+  function Page() {
+    return (
+      <>
+        <ThemeToggle />
+        <MapBanner src="/light.svg" srcDark="/dark.svg" title="cork" />
+      </>
+    );
+  }
+
+  const isDark = () => document.documentElement.classList.contains("dark");
+  const bannerSrc = () => document.querySelector("img")?.getAttribute("src");
+
+  it("keeps flipping, and takes the banner with it", async () => {
+    const user = userEvent.setup();
+    render(<Page />);
+
+    for (const expected of ["dark", "light", "dark", "light"] as const) {
+      await user.click(screen.getByLabelText(`Switch to ${expected} mode`));
+
+      expect(isDark()).toBe(expected === "dark");
+      expect(bannerSrc()).toBe(expected === "dark" ? "/dark.svg" : "/light.svg");
+    }
+  });
+});
+
 describe("which banner is fetched", () => {
   it("takes the dark map when the page is dark", () => {
     systemIsDark(true);

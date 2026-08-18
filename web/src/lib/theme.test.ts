@@ -1,5 +1,5 @@
 /** @vitest-environment jsdom */
-import { act, renderHook } from "@testing-library/react";
+import { act, cleanup, renderHook } from "@testing-library/react";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { resolveTheme, storedTheme, useTheme } from "./theme";
 
@@ -27,7 +27,11 @@ beforeEach(() => {
   systemIsDark(false);
 });
 
-afterEach(() => vi.unstubAllGlobals());
+afterEach(() => {
+  // Unmount, so the store's subscribers do not pile up across tests.
+  cleanup();
+  vi.unstubAllGlobals();
+});
 
 describe("the stored preference", () => {
   it("is system until someone says otherwise", () => {

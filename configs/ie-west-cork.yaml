@@ -16,6 +16,15 @@ centre:
   lon: -9.1200
 radiusKm: 55
 
+# Lives at data/ie-west-cork/assets/bantry.svg. Bantry Bay rather than a map,
+# because this location is a stretch of coast and small towns and there is no
+# centre to draw: Whiddy Island in the bay, the Cahas behind it, the town along
+# the shore, and a stone wall in front. The horse, the bees and the tuxedo cat
+# are there because they were asked for, and they earn their place — this
+# location is about the people making things in these fields, not about a venue.
+image: bantry.svg
+imageCredit: "Original illustration for whazzon: Bantry Bay, Whiddy Island and the Caha mountains"
+
 # This file's name must match `id:` above — configs/<id>.yaml.
 character: |
   Not a city. A hundred kilometres of small towns, harbours, peninsulas and

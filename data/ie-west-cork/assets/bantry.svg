@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Bantry Bay on a late afternoon: the bay and Whiddy Island below the Caha mountains, a horse in a field, bees over the fuchsia, and a tuxedo cat sitting on a stone wall">
+  <title>West Cork</title>
+  <desc>Bantry Bay, with Whiddy Island and the Caha mountains, the town along the shore, a horse grazing above a stone wall, honeybees over the fuchsia and gorse, and a tuxedo cat watching the water.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5b86b5"/>
+      <stop offset="46%" stop-color="#9fb9cf"/>
+      <stop offset="78%" stop-color="#e7c69a"/>
+      <stop offset="100%" stop-color="#f3d9ae"/>
+    </linearGradient>
+    <linearGradient id="bay" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7a9bb0"/>
+      <stop offset="100%" stop-color="#4d7089"/>
+    </linearGradient>
+    <linearGradient id="field" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6f9153"/>
+      <stop offset="100%" stop-color="#4e7440"/>
+    </linearGradient>
+    <linearGradient id="fore" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a6f3d"/>
+      <stop offset="100%" stop-color="#2f4c2e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#sky)"/>
+  <circle cx="905" cy="168" r="52" fill="#fbe6bd" opacity=".85"/>
+
+  <!-- Sheep's Head to the left, the Cahas to the right: two ridges, the far one paler. -->
+  <path d="M0 372 L120 320 L230 348 L330 305 L430 340 L520 300 L640 258 L760 296 L860 250 L960 288 L1070 246 L1200 300 L1200 400 L0 400Z" fill="#8f9fbe" opacity=".85"/>
+  <path d="M0 392 L150 356 L280 384 L400 350 L540 386 L680 344 L820 380 L960 338 L1090 372 L1200 348 L1200 420 L0 420Z" fill="#6d7d9e"/>
+
+  <!-- The bay. -->
+  <rect x="0" y="410" width="1200" height="118" fill="url(#bay)"/>
+
+  <!-- Bantry town along the near shore, west of the pier. -->
+  <g>
+    <rect x="86" y="392" width="24" height="20" fill="#e9dcc8"/><rect x="112" y="386" width="20" height="26" fill="#d8b4a0"/>
+    <rect x="134" y="394" width="26" height="18" fill="#cfd8dc"/><rect x="162" y="384" width="18" height="28" fill="#e2c98f"/>
+    <rect x="182" y="392" width="24" height="20" fill="#e9dcc8"/><rect x="208" y="388" width="18" height="24" fill="#b9c6c9"/>
+    <rect x="228" y="396" width="26" height="16" fill="#dcb9a6"/><rect x="256" y="390" width="20" height="22" fill="#e9dcc8"/>
+    <rect x="278" y="396" width="22" height="16" fill="#c6d2d6"/>
+    <path d="M160 384 L169 372 L178 384Z" fill="#8a7f74"/>
+    <rect x="167" y="352" width="5" height="22" fill="#8a7f74"/>
+  </g>
+
+  <!-- Whiddy Island, low and long in the middle of the bay. -->
+  <path d="M330 452 q60 -22 150 -20 q120 3 210 16 q-70 16 -200 16 q-110 0 -160 -12Z" fill="#5f7b62"/>
+  <path d="M470 438 q40 -8 90 -4 q-30 8 -90 4Z" fill="#7d9a72"/>
+
+  <!-- A mussel barge and a small boat: Bantry Bay's actual traffic. -->
+  <g fill="#2e4150">
+    <path d="M690 470 h74 l-10 14 h-56Z"/><rect x="716" y="456" width="22" height="14"/>
+    <path d="M860 486 h44 l-7 10 h-32Z"/><rect x="878" y="474" width="4" height="12"/>
+    <path d="M882 474 l18 12 h-18Z"/>
+  </g>
+
+  <!-- The near shore and the field above the wall. -->
+  <path d="M0 508 q180 -24 380 -12 q220 14 420 -6 q220 -20 400 -8 L1200 675 L0 675Z" fill="url(#field)"/>
+  <path d="M0 556 q200 -16 400 -4 q230 14 430 -8 q200 -16 370 -6 L1200 675 L0 675Z" fill="url(#fore)"/>
+
+  <!-- Hedge and gorse along the field boundary. -->
+  <g>
+    <ellipse cx="120" cy="536" rx="46" ry="18" fill="#3d5f36"/>
+    <ellipse cx="1080" cy="530" rx="52" ry="20" fill="#3d5f36"/>
+    <g fill="#e7c243">
+      <circle cx="98" cy="530" r="5"/><circle cx="118" cy="524" r="4"/><circle cx="140" cy="532" r="5"/>
+      <circle cx="1058" cy="524" r="5"/><circle cx="1082" cy="518" r="4"/><circle cx="1104" cy="526" r="5"/>
+    </g>
+  </g>
+
+  <!-- The horse, in the field above the wall.
+
+       Built from separate shapes — barrel, neck, head, legs — rather than one
+       clever outline. Same-coloured shapes union visually, and each piece can be
+       got right on its own; a single path had the proportions of a donkey twice
+       over before this. -->
+  <g transform="translate(660 412) scale(1.0)">
+    <g fill="#2e1e14">
+      <path d="M74 84 q-3 32 -3 62 q0 6 -6 6 q-6 0 -6 -6 q0 -32 3 -62Z"/>
+      <path d="M160 84 q3 32 5 62 q0 6 -6 6 q-6 0 -6 -6 q-1 -30 -4 -62Z"/>
+    </g>
+    <g fill="#4a3122">
+      <path d="M66 66 q6 -22 30 -26 q40 -6 72 2 q22 6 24 26 q2 22 -14 30 q-30 10 -66 8 q-32 -2 -42 -14 q-8 -10 -4 -26Z"/>
+      <path d="M74 66 q-10 -24 -22 -38 l24 -16 q16 20 28 44Z"/>
+      <path d="M90 90 q-4 30 -4 60 q0 6 -6 6 q-6 0 -6 -6 q0 -30 4 -60Z"/>
+      <path d="M176 88 q4 30 6 62 q0 6 -6 6 q-6 0 -6 -6 q-2 -30 -6 -62Z"/>
+      <path d="M78 8 q10 6 6 16 l-32 34 q-8 8 -16 2 q-8 -8 0 -18 l30 -30 q4 -6 12 -4Z"/>
+    </g>
+    <g fill="#2e1e14">
+      <path d="M76 6 q-2 -12 2 -18 q8 6 8 18Z"/>
+      <path d="M62 12 q-4 -12 -2 -18 q8 4 10 16Z"/>
+      <path d="M40 44 q-10 4 -12 12 q-2 8 6 10 q8 2 12 -6Z"/>
+      <path d="M78 8 q-14 12 -26 32 q-8 12 -12 26 q-8 -4 -8 -12 q6 -18 16 -32 q10 -14 22 -22Z"/>
+      <path d="M168 46 q24 2 30 24 q7 24 -1 46 q-5 14 -14 18 q9 -22 5 -42 q-4 -24 -20 -32Z"/>
+      <circle cx="60" cy="26" r="2.8"/>
+    </g>
+  </g>
+
+  <!-- The stone wall. -->
+  <g>
+    <rect x="0" y="592" width="1200" height="34" fill="#9aa0a0"/>
+    <g fill="#8b9191" stroke="#7e8484" stroke-width="1.5">
+      <rect x="6" y="596" width="58" height="12" rx="4"/><rect x="70" y="596" width="44" height="12" rx="4"/>
+      <rect x="120" y="596" width="66" height="12" rx="4"/><rect x="192" y="596" width="48" height="12" rx="4"/>
+      <rect x="246" y="596" width="60" height="12" rx="4"/><rect x="312" y="596" width="44" height="12" rx="4"/>
+      <rect x="362" y="596" width="62" height="12" rx="4"/><rect x="430" y="596" width="50" height="12" rx="4"/>
+      <rect x="486" y="596" width="58" height="12" rx="4"/><rect x="550" y="596" width="46" height="12" rx="4"/>
+      <rect x="602" y="596" width="64" height="12" rx="4"/><rect x="672" y="596" width="48" height="12" rx="4"/>
+      <rect x="726" y="596" width="58" height="12" rx="4"/><rect x="790" y="596" width="44" height="12" rx="4"/>
+      <rect x="840" y="596" width="66" height="12" rx="4"/><rect x="912" y="596" width="48" height="12" rx="4"/>
+      <rect x="966" y="596" width="60" height="12" rx="4"/><rect x="1032" y="596" width="44" height="12" rx="4"/>
+      <rect x="1082" y="596" width="62" height="12" rx="4"/><rect x="1150" y="596" width="46" height="12" rx="4"/>
+      <rect x="20" y="612" width="52" height="12" rx="4"/><rect x="78" y="612" width="60" height="12" rx="4"/>
+      <rect x="144" y="612" width="46" height="12" rx="4"/><rect x="196" y="612" width="64" height="12" rx="4"/>
+      <rect x="266" y="612" width="48" height="12" rx="4"/><rect x="320" y="612" width="58" height="12" rx="4"/>
+      <rect x="384" y="612" width="44" height="12" rx="4"/><rect x="434" y="612" width="66" height="12" rx="4"/>
+      <rect x="506" y="612" width="48" height="12" rx="4"/><rect x="560" y="612" width="60" height="12" rx="4"/>
+      <rect x="626" y="612" width="46" height="12" rx="4"/><rect x="678" y="612" width="62" height="12" rx="4"/>
+      <rect x="746" y="612" width="50" height="12" rx="4"/><rect x="802" y="612" width="58" height="12" rx="4"/>
+      <rect x="866" y="612" width="44" height="12" rx="4"/><rect x="916" y="612" width="66" height="12" rx="4"/>
+      <rect x="988" y="612" width="48" height="12" rx="4"/><rect x="1042" y="612" width="60" height="12" rx="4"/>
+      <rect x="1108" y="612" width="46" height="12" rx="4"/><rect x="1160" y="612" width="36" height="12" rx="4"/>
+    </g>
+  </g>
+
+  <!-- The tuxedo cat, sitting on the wall and watching the water. -->
+  <g transform="translate(232 452)">
+    <path d="M64 140 q-16 -30 -14 -62 q2 -34 22 -50 q18 -14 36 -8 q22 8 26 40 q4 34 -6 62 q-4 12 -16 18Z" fill="#161616"/>
+    <path d="M78 66 q-8 24 -6 44 q2 16 10 30 q10 -14 12 -32 q2 -22 -4 -42Z" fill="#f4f2ec"/>
+    <circle cx="104" cy="34" r="30" fill="#161616"/>
+    <path d="M78 16 q-6 -22 -2 -30 q14 4 24 18Z" fill="#161616"/>
+    <path d="M118 6 q10 -18 24 -20 q2 12 -6 30Z" fill="#161616"/>
+    <path d="M92 46 q10 12 24 10 q10 -2 14 -12 q-8 12 -20 12 q-12 0 -18 -10Z" fill="#f4f2ec"/>
+    <circle cx="94" cy="30" r="5" fill="#b9d47a"/><circle cx="118" cy="30" r="5" fill="#b9d47a"/>
+    <ellipse cx="94" cy="30" rx="1.8" ry="5" fill="#1d1d1d"/><ellipse cx="118" cy="30" rx="1.8" ry="5" fill="#1d1d1d"/>
+    <path d="M104 40 l5 4 l-5 4 l-5 -4Z" fill="#d9a3a8"/>
+    <g stroke="#f4f2ec" stroke-width="1.6" opacity=".85">
+      <path d="M88 42 L58 36"/><path d="M88 46 L58 48"/><path d="M120 42 L150 36"/><path d="M120 46 L150 48"/>
+    </g>
+    <path d="M60 140 q-4 -12 6 -16 q10 -4 16 4 q4 8 -4 12Z" fill="#f4f2ec"/>
+    <path d="M92 142 q-4 -12 6 -16 q10 -4 16 4 q4 8 -4 12Z" fill="#f4f2ec"/>
+    <path d="M118 132 q28 4 34 -14 q6 -18 -10 -26 q12 12 6 24 q-6 12 -30 8Z" fill="#161616"/>
+  </g>
+
+  <!-- Fuchsia along the wall, and the bees at work. -->
+  <g>
+    <g stroke="#2f4c2e" stroke-width="3" fill="none">
+      <path d="M470 592 q10 -34 -6 -58"/><path d="M496 592 q-4 -30 10 -50"/>
+      <path d="M980 592 q8 -32 -6 -54"/>
+    </g>
+    <g fill="#b4304e">
+      <circle cx="462" cy="530" r="7"/><circle cx="470" cy="546" r="6"/><circle cx="508" cy="540" r="7"/>
+      <circle cx="974" cy="536" r="7"/><circle cx="982" cy="552" r="6"/>
+    </g>
+    <g fill="#7c3f6f">
+      <circle cx="462" cy="537" r="4"/><circle cx="508" cy="547" r="4"/><circle cx="974" cy="543" r="4"/>
+    </g>
+  </g>
+
+  <!-- A hive at the field's edge, and the bees between it and the flowers. -->
+  <g transform="translate(596 512)">
+    <rect x="0" y="34" width="56" height="12" rx="2" fill="#e6dcc4"/>
+    <rect x="3" y="22" width="50" height="12" rx="2" fill="#efe6d0"/>
+    <rect x="3" y="10" width="50" height="12" rx="2" fill="#e6dcc4"/>
+    <path d="M-4 10 h64 l-8 -12 h-48Z" fill="#c9bb9c"/>
+    <rect x="18" y="44" width="20" height="4" fill="#9d8f74"/>
+  </g>
+  <g>
+    <g stroke="#f3e2b6" stroke-width="2" stroke-dasharray="5 7" fill="none" opacity=".75">
+      <path d="M596 540 q-50 -26 -104 -8"/>
+      <path d="M646 538 q10 -30 20 -38"/>
+      <path d="M624 546 q-10 40 -70 44"/>
+    </g>
+    <g>
+      <g transform="translate(500 520) rotate(-12)">
+        <ellipse rx="9" ry="6" fill="#e8b53c"/><path d="M-9 -2 h18 M-9 2 h18" stroke="#2b2417" stroke-width="2.4"/>
+        <ellipse cx="8" cy="-1" rx="3" ry="3" fill="#2b2417"/>
+        <ellipse cx="-1" cy="-8" rx="7" ry="4" fill="#ffffff" opacity=".62"/>
+      </g>
+      <g transform="translate(668 494) rotate(8)">
+        <ellipse rx="9" ry="6" fill="#e8b53c"/><path d="M-9 -2 h18 M-9 2 h18" stroke="#2b2417" stroke-width="2.4"/>
+        <ellipse cx="8" cy="-1" rx="3" ry="3" fill="#2b2417"/>
+        <ellipse cx="-1" cy="-8" rx="7" ry="4" fill="#ffffff" opacity=".62"/>
+      </g>
+      <g transform="translate(556 592) rotate(-6)">
+        <ellipse rx="10" ry="7" fill="#e8b53c"/><path d="M-10 -2 h20 M-10 2.5 h20" stroke="#2b2417" stroke-width="2.6"/>
+        <ellipse cx="9" cy="-1" rx="3.4" ry="3.4" fill="#2b2417"/>
+        <ellipse cx="-1" cy="-9" rx="8" ry="4.5" fill="#ffffff" opacity=".62"/>
+      </g>
+      <g transform="translate(452 566) rotate(14)">
+        <ellipse rx="8" ry="5.5" fill="#e8b53c"/><path d="M-8 -1.6 h16 M-8 2 h16" stroke="#2b2417" stroke-width="2.2"/>
+        <ellipse cx="7" cy="-1" rx="2.8" ry="2.8" fill="#2b2417"/>
+        <ellipse cx="-1" cy="-7" rx="6.5" ry="3.8" fill="#ffffff" opacity=".62"/>
+      </g>
+      <g transform="translate(880 566) rotate(-16)">
+        <ellipse rx="8" ry="5.5" fill="#e8b53c"/><path d="M-8 -1.6 h16 M-8 2 h16" stroke="#2b2417" stroke-width="2.2"/>
+        <ellipse cx="7" cy="-1" rx="2.8" ry="2.8" fill="#2b2417"/>
+        <ellipse cx="-1" cy="-7" rx="6.5" ry="3.8" fill="#ffffff" opacity=".62"/>
+      </g>
+    </g>
+  </g>
+</svg>

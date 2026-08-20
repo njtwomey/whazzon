@@ -20,6 +20,11 @@ import { paths, rel } from "../lib/paths.js";
  *   npm run geocode -- ie-cork      first, to have anything to plot
  *   npm run banner  -- ie-cork
  *   npm run banner  -- ie-cork --span 6000   metres across, default 6000
+ *   npm run banner  -- ie-munster --centre 51.6811,-9.4534 --span 2600 --sea top
+ *
+ * `--centre` draws somewhere other than the location's own centre, which a region
+ * needs and a city does not. The OSM cache is keyed by location, so changing the
+ * centre means passing `--refresh` to fetch the new bounding box.
  *
  * The OSM response is cached under the location's assets, so re-running to nudge
  * the styling costs nothing and does not hammer a free service.
@@ -27,6 +32,41 @@ import { paths, rel } from "../lib/paths.js";
 
 const { locations, rest } = resolveLocations();
 const spanArg = rest.includes("--span") ? Number(rest[rest.indexOf("--span") + 1]) : undefined;
+
+/**
+ * Draw somewhere other than the location's own centre.
+ *
+ * A city is its centre, so the config's `centre` is the right place to draw one.
+ * A region is not: Munster's centre is a field north of Mallow, and six kilometres
+ * of it would make a banner of hedges. `--centre 51.6811,-9.4534` puts the map on
+ * a town that means something instead, without moving the location itself —
+ * `centre` and `radiusKm` still describe the whole area, which is what stage 1
+ * catalogues against.
+ */
+/**
+ * Which way the sea lies, for a coastal banner: `--sea top|bottom|left|right`.
+ *
+ * OSM maps the sea as open `natural=coastline` ways with land on the left of the
+ * way's direction, so filling it properly means closing every way against the
+ * frame on the correct side — real polygon clipping, and more than this is worth.
+ * Naming the side turns that into two lines: close each shoreline to that edge and
+ * fill. It is a human saying something they can see and the data does not easily
+ * give up, which is the same trade as `hints` in the catalogue.
+ */
+const SEA = ["top", "bottom", "left", "right"].includes(rest[rest.indexOf("--sea") + 1] ?? "")
+  ? (rest[rest.indexOf("--sea") + 1] as "top" | "bottom" | "left" | "right")
+  : undefined;
+
+const centreArg = rest.includes("--centre") ? rest[rest.indexOf("--centre") + 1] : undefined;
+const centreOverride = (() => {
+  if (!centreArg) return undefined;
+  const [lat, lon] = centreArg.split(",").map(Number);
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)) {
+    console.error(`--centre wants "lat,lon", e.g. --centre 51.6811,-9.4534 — got "${centreArg}"`);
+    process.exit(1);
+  }
+  return { lat: lat!, lon: lon! };
+})();
 /** Metres across. Wide enough to read as a city rather than a few blocks. */
 const SPAN_M = Number.isFinite(spanArg) && spanArg! > 500 ? spanArg! : 6000;
 const ASPECT = 3.4;
@@ -191,7 +231,7 @@ async function overpass(queries: string[]): Promise<{ elements: Way[] }> {
 
 for (const locationId of locations) {
   const location = loadLocation(locationId);
-  const { lat: cLat, lon: cLon } = location.centre;
+  const { lat: cLat, lon: cLon } = centreOverride ?? location.centre;
 
   const halfLat = SPAN_M / ASPECT / 2 / 111_200;
   const cos = Math.cos((cLat * Math.PI) / 180);
@@ -200,7 +240,7 @@ for (const locationId of locations) {
 
   const cachePath = join(paths.locationDir(locationId), "assets", "banner-osm.json");
   let osm: { elements: Way[] };
-  if (existsSync(cachePath) && !REFRESH) {
+  if (existsSync(cachePath) && !REFRESH && !centreOverride) {
     osm = JSON.parse(readFileSync(cachePath, "utf8")) as { elements: Way[] };
     console.log(`${locationId}: reusing ${rel(cachePath)} (--refresh to re-fetch)`);
   } else {
@@ -210,6 +250,7 @@ for (const locationId of locations) {
   way["highway"~"^(${classes.join("|")})$"](${bbox});
 ${withBuildings ? `  way["building"](${bbox});\n` : ""}  way["waterway"~"^(river|riverbank)$"](${bbox});
   way["natural"="water"](${bbox});
+  way["natural"="coastline"](${bbox});
   way["leisure"~"^(park|golf_course)$"](${bbox});
 );
 out geom;`;
@@ -262,6 +303,7 @@ out geom;`;
 
   const roads: [string, number][] = [];
   const water: [string, boolean][] = [];
+  const coast: [number, number][][] = [];
   const green: string[] = [];
   const buildings: string[] = [];
   for (const way of osm.elements) {
@@ -276,6 +318,17 @@ out geom;`;
       // under 10px² is dust at this scale and only costs bytes.
       const s2 = simplify(pts, 1.4);
       if (area(s2) >= 10) buildings.push(d(s2, true));
+    } else if (t.natural === "coastline") {
+      /**
+       * The shoreline, drawn as a line rather than filled.
+       *
+       * OSM maps the sea as open `natural=coastline` ways with land on the left of
+       * the way's direction — filling it means closing each way against the frame
+       * on the correct side, which is real polygon clipping and more than a banner
+       * is worth. A stroked shore still says "this town is on the water", which is
+       * the whole job here. Rivers and lakes are areas and do get filled.
+       */
+      coast.push(simplify(pts, 1.2));
     } else if (t.waterway || t.natural === "water") water.push([d(simplify(pts, 1.2), closed), closed]);
     else if (t.leisure) {
       const s = simplify(pts, 2);
@@ -311,6 +364,24 @@ out geom;`;
     svg += `<g fill="${colour.buildings}">${buildings.map((p) => `<path d="${p}"/>`).join("")}</g>`;
     svg += `<g fill="${colour.water}" stroke="${colour.water}" stroke-width="5" stroke-linejoin="round">${water
       .map(([p, c]) => (c ? `<path d="${p}"/>` : `<path d="${p}" fill="none" stroke-width="7"/>`))
+      .join("")}</g>`;
+    // The shore: filled to whichever edge `--sea` names, and stroked either way so
+    // it still reads as a coast when nobody has said which side the water is on.
+    if (SEA) {
+      const edge = (p: [number, number]): [number, number] =>
+        SEA === "top"
+          ? [p[0], -30]
+          : SEA === "bottom"
+            ? [p[0], HEIGHT + 30]
+            : SEA === "left"
+              ? [-30, p[1]]
+              : [W + 30, p[1]];
+      svg += `<g fill="${colour.water}">${coast
+        .map((pts) => `<path d="${d([...pts, edge(pts[pts.length - 1]!), edge(pts[0]!)], true)}"/>`)
+        .join("")}</g>`;
+    }
+    svg += `<g fill="none" stroke="${colour.water}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">${coast
+      .map((pts) => `<path d="${d(pts, false)}"/>`)
       .join("")}</g>`;
     for (const [stroke, extra] of [
       [colour.casing, 1.5],
@@ -349,7 +420,7 @@ out geom;`;
   const byCategory = [...new Set(pins.map((p) => p.category))].sort();
   console.log(
     `${locationId}: ${W}x${HEIGHT} (${SPAN_M}m, ${mPerPx.toFixed(1)} m/px), ` +
-      `${roads.length} roads, ${buildings.length} buildings, ${pins.length} real venues across ${byCategory.length} categories, ` +
+      `${roads.length} roads, ${buildings.length} buildings, ${coast.length} shoreline, ${pins.length} real venues across ${byCategory.length} categories, ` +
       `${(bytes / 1024).toFixed(0)} KB -> ${written.join(" + ")}`,
   );
   console.log(`  ${byCategory.join(", ")}`);

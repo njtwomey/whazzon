@@ -25,6 +25,15 @@ radiusKm: 130
 image: bantry.svg
 imageCredit: "Original illustration for whazzon: Bantry Bay, Whiddy Island and the Caha mountains"
 
+# The page banner is a real map of Bantry rather than of the location's centre,
+# which is a field north of Mallow. Regenerate it with:
+#
+#   npm run banner -- ie-munster --centre 51.6800,-9.4520 --span 2600 --sea top
+#
+# `--sea top` is the human bit: OpenStreetMap maps open sea as unclosed coastline
+# ways, so something has to say which side the water is on. Here it is the top of
+# the frame, and the bay fills properly instead of reading as blank land.
+
 # This file's name must match `id:` above — configs/<id>.yaml.
 character: |
   The six counties of Munster — Cork, Kerry, Limerick, Clare, Tipperary and

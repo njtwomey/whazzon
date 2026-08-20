@@ -114,3 +114,46 @@ Tralee and Waterford that host visiting tutors; and the Midlands Fibre Festival
 in Athlone on 11 October, which is outside the province but is the nearest thing
 to a fibre festival on the island this autumn — a case for a "worth the drive"
 exception rather than for widening the boundary again.
+
+## A second round of sleuthing, county by county
+
+Ran after the harvest, working outward from the principal towns of each county —
+Cork, Tralee and Killarney, Limerick, Ennis and Kilrush, Clonmel and Nenagh,
+Waterford and Dungarvan — and searching the fibre vocabulary against each.
+
+Four sources added, each one traced back from an event rather than guessed at:
+
+- **Tipperary Museum of Hidden History**, Clonmel — three fibre workshops in one
+  week (weaving, knitting, felt-making, all with Leisa Grey). Its diary is a page
+  under `/museum-faqs/` on the county council's site, which is why no amount of
+  searching for a museum website would have found it.
+- **The Common Knowledge Centre**, Kilfenora — fifty acres in the Burren teaching
+  lost skills, and the organiser behind REKINDLE in Lisdoonvarna. One of the few
+  sources here with a real bookable diary.
+- **Bunratty Castle & Folk Park** — spinning at the wheel and drop spindle among
+  the daily demonstrations.
+- **Limerick Lace** — a named tradition with its own body, behind Snáitheanna in
+  King John's Castle.
+
+### What was looked at and rejected, which is the more useful half
+
+- **County library services.** Tipperary's runs The Events Calendar with a JSON
+  API and 530 upcoming events — and searching the whole fibre vocabulary against
+  it returned exactly one thing: a fortnightly crafting club in Nenagh. Clare's
+  has no API. Libraries do storytime and book clubs; the fibre they carry is a
+  standing club, which is what this location has decided not to be about. Not
+  catalogued.
+- **Yarn shops.** Tralee, Killarney, Waterford and Limerick all have one, and none
+  publishes dated one-off events — they sell wool, and their classes are weekly
+  courses. Cork's is already in as `fibre/vibes-and-scribes` for its ticket page.
+  The Knitting Room, which does publish dated classes, is in Dublin.
+- **Blarney Woollen Mills** — a retail brand at `blarney.com`, with no programme
+  beyond the Heritage Week talk it gave this year.
+
+### The gap that remains
+
+**Waterford has nothing.** No guild branch, no mill, no fibre organiser, and
+nothing in the Heritage Week sweep beyond a museum tour that matched on the word
+"lace". Kerry rests on Muckross alone. Both are worth a look during Culture Night
+in September, when the studios open and the people who do this in those counties
+have to put their names somewhere.

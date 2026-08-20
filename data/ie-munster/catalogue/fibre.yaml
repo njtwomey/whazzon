@@ -11,6 +11,12 @@ description: >-
   is a coincidence. The first version of this catalogue was full of arts centres
   and craft fairs; they are gone, and what is left is the handful of places where
   wool is actually the subject.
+
+  Built county by county from a sweep of the Heritage Week programme, on the
+  reasoning that whoever ran a fibre day in August runs them the rest of the year
+  too. That is how Clonmel, Bunratty and Kilfenora got here. **Waterford is still
+  missing**, and it is not for want of looking: nothing in the sweep, no guild
+  branch, no mill.
 sources:
   - id: fibre/duchas-clonakilty
     name: Dúchas Clonakilty Heritage — flax and linen
@@ -83,5 +89,76 @@ sources:
     notes: >-
       Verified 2026-08-20: 200. A shop page rather than a diary, catalogued for
       what it sometimes carries.
+    addedAt: "2026-08-20"
+    verifiedAt: "2026-08-20"
+
+  - id: fibre/tipperary-museum
+    name: Tipperary Museum of Hidden History, Clonmel
+    category: fibre
+    kind: venue
+    status: provisional
+    url: https://www.tipperarycoco.ie/museum-faqs/upcoming-events
+    homepage: https://www.tipperarycoco.ie/museum-faqs
+    area: Clonmel
+    tags: [weaving, knitting, felting, workshop, tipperary]
+    cadence: monthly
+    hints: |
+      The one venue in Munster that ran three fibre workshops in a single week —
+      weaving, knitting and felt-making, all with Leisa Grey, during Heritage Week
+      2026. If a fibre day happens in Tipperary, it is likely to be here.
+      The museum lives inside the county council's site, and its diary is a page
+      buried under `/museum-faqs/`, which is exactly where nobody would look. Most
+      of what is on it is family workshops at €3; take the textile ones.
+      Also worth watching for the same tutor at the Thomas MacDonagh Museum in
+      Cloughjordan, which ran hand weaving on traditional looms the same week and
+      has no site of its own.
+    notes: >-
+      Verified 2026-08-20: 200. Found by working back from the Heritage Week sweep
+      to the organisers who had appeared more than once.
+    addedAt: "2026-08-20"
+    verifiedAt: "2026-08-20"
+
+  - id: fibre/common-knowledge
+    name: The Common Knowledge Centre, Kilfenora
+    category: fibre
+    kind: venue
+    status: provisional
+    url: https://www.ourcommonknowledge.org/full-listings
+    homepage: https://www.ourcommonknowledge.org/
+    area: Kilfenora
+    tags: [workshop, course, traditional-craft, clare, basketry, mending]
+    cadence: monthly
+    hints: |
+      A social enterprise on fifty acres in the Burren, teaching what it calls lost
+      skills: basket weaving, mending, natural building, growing. It also runs
+      REKINDLE, a festival of lost skills in Lisdoonvarna, which surfaced in the
+      Heritage Week sweep.
+      Not purely fibre — take the textile and basketry strands and leave the stone
+      walling and the fermentation. Courses are dated and bookable, which makes
+      this one of the few sources here with a real diary.
+    notes: >-
+      Verified 2026-08-20: 200 at /full-listings.
+    addedAt: "2026-08-20"
+    verifiedAt: "2026-08-20"
+
+  - id: fibre/bunratty-folk-park
+    name: Bunratty Castle & Folk Park
+    category: fibre
+    kind: venue
+    status: provisional
+    url: https://www.bunrattycastle.ie/
+    area: Bunratty
+    tags: [spinning, demonstration, heritage, clare, wool]
+    cadence: quarterly
+    hints: |
+      A living-history folk park with spinning at the wheel and drop spindle among
+      the daily demonstrations, and one-off sessions during Heritage Week.
+      A visitor-attraction site rather than a diary — no /whats-on page — so expect
+      the standing demonstration rather than dated events, and record it as
+      recurring when it is stated as a daily thing.
+      `shannonheritage.com`, the old operator's domain, now redirects to
+      `clarecollection.ie` and loops; use the castle's own domain.
+    notes: >-
+      Verified 2026-08-20: 200 at the root; /whats-on/ is a 404.
     addedAt: "2026-08-20"
     verifiedAt: "2026-08-20"

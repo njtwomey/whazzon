@@ -7,21 +7,21 @@
     "country": "Ireland",
     "timezone": "Europe/Dublin"
   },
-  "generatedAt": "2026-08-20T11:04:42Z",
+  "generatedAt": "2026-08-20T11:51:41Z",
   "asOf": "2026-08-20",
   "categories": [
     {
       "category": "fibre",
       "label": "Fibre & Textile Making",
-      "description": "The places that put on a day of wool: mills with working looms, shops that sell a ticket as well as yarn, and the heritage projects that have taken a fibre strand and run with it.\nShort on purpose. Munster has plenty of craft venues and almost none of them are about fibre — a gallery with a textile show twice a decade is not a source, it is a coincidence. The first version of this catalogue was full of arts centres and craft fairs; they are gone, and what is left is the handful of places where wool is actually the subject.",
-      "sourceCount": 3,
+      "description": "The places that put on a day of wool: mills with working looms, shops that sell a ticket as well as yarn, and the heritage projects that have taken a fibre strand and run with it.\nShort on purpose. Munster has plenty of craft venues and almost none of them are about fibre — a gallery with a textile show twice a decade is not a source, it is a coincidence. The first version of this catalogue was full of arts centres and craft fairs; they are gone, and what is left is the handful of places where wool is actually the subject.\nBuilt county by county from a sweep of the Heritage Week programme, on the reasoning that whoever ran a fibre day in August runs them the rest of the year too. That is how Clonmel, Bunratty and Kilfenora got here. **Waterford is still missing**, and it is not for want of looking: nothing in the sweep, no guild branch, no mill.",
+      "sourceCount": 6,
       "eventCount": 4
     },
     {
       "category": "guilds",
       "label": "Guilds & Networks",
       "description": "The bodies whose whole purpose is this subject: the weavers', spinners' and dyers' guild, the textile networks, the wool council.\nThese matter more than venues here. A one-off fibre day in Munster is usually organised by two people in a guild rather than programmed by a building, and a guild's news page is the closest thing to a diary the subject has. They are also where a visiting tutor gets announced — which is exactly how a Shetland knitting weekend ends up on an island off Cork.",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "eventCount": 2
     },
     {
@@ -85,6 +85,55 @@
       "lastHarvest": "2026-08-20"
     },
     {
+      "id": "fibre/tipperary-museum",
+      "name": "Tipperary Museum of Hidden History, Clonmel",
+      "category": "fibre",
+      "kind": "venue",
+      "status": "provisional",
+      "url": "https://www.tipperarycoco.ie/museum-faqs/upcoming-events",
+      "area": "Clonmel",
+      "tags": [
+        "weaving",
+        "knitting",
+        "felting",
+        "workshop",
+        "tipperary"
+      ]
+    },
+    {
+      "id": "fibre/common-knowledge",
+      "name": "The Common Knowledge Centre, Kilfenora",
+      "category": "fibre",
+      "kind": "venue",
+      "status": "provisional",
+      "url": "https://www.ourcommonknowledge.org/full-listings",
+      "area": "Kilfenora",
+      "tags": [
+        "workshop",
+        "course",
+        "traditional-craft",
+        "clare",
+        "basketry",
+        "mending"
+      ]
+    },
+    {
+      "id": "fibre/bunratty-folk-park",
+      "name": "Bunratty Castle & Folk Park",
+      "category": "fibre",
+      "kind": "venue",
+      "status": "provisional",
+      "url": "https://www.bunrattycastle.ie/",
+      "area": "Bunratty",
+      "tags": [
+        "spinning",
+        "demonstration",
+        "heritage",
+        "clare",
+        "wool"
+      ]
+    },
+    {
       "id": "guilds/weavers-spinners-dyers",
       "name": "The Irish Guild of Weavers, Spinners and Dyers",
       "category": "guilds",
@@ -131,6 +180,22 @@
         "fleece"
       ],
       "lastHarvest": "2026-08-20"
+    },
+    {
+      "id": "guilds/limerick-lace",
+      "name": "Limerick Lace",
+      "category": "guilds",
+      "kind": "organiser",
+      "status": "provisional",
+      "url": "https://limericklace.ie/",
+      "area": "Limerick",
+      "tags": [
+        "lace",
+        "limerick",
+        "heritage",
+        "workshop",
+        "exhibition"
+      ]
     },
     {
       "id": "notices/heritage-week",

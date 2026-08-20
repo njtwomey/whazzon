@@ -79,3 +79,24 @@ sources:
       Verified 2026-08-20: 200. /events/ is a 404; the diary is a page per year.
     addedAt: "2026-08-20"
     verifiedAt: "2026-08-20"
+
+  - id: guilds/limerick-lace
+    name: Limerick Lace
+    category: guilds
+    kind: organiser
+    status: provisional
+    url: https://limericklace.ie/
+    area: Limerick
+    tags: [lace, limerick, heritage, workshop, exhibition]
+    cadence: quarterly
+    hints: |
+      Limerick lace is a named tradition with its own body, and the lacemakers were
+      behind Snáitheanna/Threads in King John's Castle during Heritage Week 2026 —
+      the largest textile gathering the first sweep found in the province.
+      A small site with no /events/ page, so read the front page. Expect a handful
+      of dates a year around exhibitions and the summer festival rather than a
+      programme.
+    notes: >-
+      Verified 2026-08-20: 200 at the root; /events/ is a 404.
+    addedAt: "2026-08-20"
+    verifiedAt: "2026-08-20"

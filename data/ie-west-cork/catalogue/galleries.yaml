@@ -1,0 +1,96 @@
+schema: whazzon.catalogue/1
+category: galleries
+label: Galleries, Studios & Heritage
+description: >-
+  Places with a room and a programme: the region's one substantial arts centre,
+  and the heritage centres and museums that put on exhibitions, talks and open
+  days.
+
+  Kept because exhibitions of local making are in scope and because these are the
+  only sources here that publish a proper diary. They are the easy half of the
+  catalogue; everything hard is in `notices`.
+sources:
+  - id: galleries/uillinn
+    name: Uillinn — West Cork Arts Centre
+    category: galleries
+    kind: venue
+    status: provisional
+    url: https://westcorkartscentre.com/events/
+    homepage: https://westcorkartscentre.com/
+    area: Skibbereen
+    tags: [gallery, exhibition, workshop, major]
+    cadence: weekly
+    hints: |
+      The largest arts venue in West Cork, in Skibbereen, and the only one here
+      with a real events diary. Exhibitions, artist talks, and a steady programme
+      of workshops — the workshops are the part this location most wants.
+      Exhibitions are runs of several weeks. Do not let the film and music strands
+      in: craft, textile, visual art and making only.
+    notes: >-
+      Verified 2026-08-20: 200 at /events/ from a browser, but `check-urls` gets a
+      403 — bot protection, not a dead site. Do not mark it closed on that basis;
+      stage 2 will need a browser-shaped user-agent.
+      /whats-on is a 404; www redirects to the bare domain.
+    addedAt: "2026-08-20"
+    verifiedAt: "2026-08-20"
+
+  - id: galleries/skibbereen-heritage
+    name: Skibbereen Heritage Centre
+    category: galleries
+    kind: venue
+    status: provisional
+    url: https://skibbheritage.com/
+    area: Skibbereen
+    tags: [heritage, exhibition, talk]
+    cadence: monthly
+    hints: |
+      Exhibitions, talks and heritage events, busiest around Heritage Week in
+      August. Seasonal opening — the centre closes for part of the winter, so a
+      quiet page in January is not a broken one.
+    notes: >-
+      Verified 2026-08-20: 200 (www redirects to the bare domain).
+    addedAt: "2026-08-20"
+    verifiedAt: "2026-08-20"
+
+  - id: galleries/michael-collins-house
+    name: Michael Collins House, Clonakilty
+    category: galleries
+    kind: venue
+    status: provisional
+    url: https://www.michaelcollinshouse.ie/
+    area: Clonakilty
+    tags: [museum, heritage, talk, exhibition]
+    cadence: monthly
+    hints: |
+      A town museum that programmes talks, temporary exhibitions and Heritage Week
+      events. In scope when the subject is local history of making — the linen
+      trade in particular, which is Clonakilty's own story and the bicentenary
+      falls this year.
+    notes: >-
+      Verified 2026-08-20: 200 from a browser, 403 to `check-urls`. Bot
+      protection; the site is live.
+    addedAt: "2026-08-20"
+    verifiedAt: "2026-08-20"
+
+  - id: galleries/west-cork-creates
+    name: West Cork Creates
+    category: galleries
+    kind: festival
+    status: provisional
+    url: https://www.westcorkcreates.com/
+    area: Skibbereen
+    tags: [exhibition, craft, design, makers, annual]
+    cadence: quarterly
+    hints: |
+      An annual selling exhibition of West Cork makers, curated by Alison Ospina
+      and held in Skibbereen — the 2026 edition ran 1–16 August under the title
+      "Listen to the Land Speak".
+      One event a year, so quarterly is generous: what matters is catching the
+      dates when they go up in early summer. The site is a Wix build with an
+      artists page per year (`/artists2026`), which is the tell that the dates have
+      been set.
+    notes: >-
+      Verified 2026-08-20: 200. Found through the West Cork People feed during the
+      first harvest, which is exactly what that source is catalogued for.
+    addedAt: "2026-08-20"
+    verifiedAt: "2026-08-20"

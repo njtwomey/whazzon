@@ -1,0 +1,48 @@
+schema: "whazzon.harvest/1"
+locationId: "ie-west-cork"
+date: "2026-08-20"
+category: "craft-fairs"
+harvestedAt: "2026-08-20T11:40:00Z"
+model: "claude-opus-5[1m]"
+observations:
+  - sourceId: "craft-fairs/bantry"
+    fetch:
+      ok: true
+      url: "https://www.bantry.ie/"
+      status: 200
+    events:
+      - id: "craft-fairs/bantry#6f2f0f4864"
+        sourceId: "craft-fairs/bantry"
+        title: "Bantry Market"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Friday on Wolfe Tone Square; November to March, Fridays only, 10am–2pm"
+          startTime: "10:00"
+        status: "scheduled"
+        venue:
+          name: "Wolfe Tone Square"
+          area: "Bantry"
+        tags:
+          - "market"
+          - "craft"
+          - "food-drink"
+          - "weekly"
+          - "free-entry"
+        raw: "Bantry Market, Wolfe Tone Square. Nov–Mar: Fri only, 10am–2pm."
+        summary: "One of the biggest country markets in the county, with craft stalls alongside the food, every Friday on the square."
+        confidence: "medium"
+    notes: "The market is the standing item and is recorded as recurring rather than as a date at a time. The page states winter hours separately, which is why the pattern carries both."
+  - sourceId: "craft-fairs/west-cork-crafts"
+    fetch:
+      ok: true
+      url: "https://www.westcorkcrafts.ie/"
+      status: 200
+    events: []
+    notes: "No dated notices on the front page. There is a Creative Workshops page — /creative_workshops.html — which is worth adding to the catalogue as a second listings route; today it describes the offer rather than naming dates. A Weebly site, so everything is a hand-written page: expect notices, not a diary."
+  - sourceId: "craft-fairs/clonakilty-chamber"
+    fetch:
+      ok: true
+      url: "https://www.clonakilty.ie/events"
+      status: 200
+    events: []
+    notes: "/events exists and is the right route — /whats-on is a 404 and the catalogue should be corrected to point at it. But the listing is rendered by JavaScript: the HTML holds the navigation and nothing else, so a fetch-based harvest reads no events from it. What is visible in the page shell suggests the diary is largely music and festivals, so the craft yield here may be low even once it can be read."

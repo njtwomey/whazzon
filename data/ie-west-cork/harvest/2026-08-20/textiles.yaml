@@ -1,0 +1,140 @@
+schema: "whazzon.harvest/1"
+locationId: "ie-west-cork"
+date: "2026-08-20"
+category: "textiles"
+harvestedAt: "2026-08-20T11:20:00Z"
+model: "claude-opus-5[1m]"
+observations:
+  - sourceId: "textiles/duchas-clonakilty"
+    fetch:
+      ok: true
+      url: "https://duchasclonakiltyheritage.ie/News-and-Events/Heritage-Week-2026/"
+      status: 200
+    events:
+      - id: "textiles/duchas-clonakilty#df5b2b84ea"
+        sourceId: "textiles/duchas-clonakilty"
+        title: "Flax Lín Clonakilty — Growing a Local Heritage: Walk & Flax Demonstration"
+        occurrence:
+          kind: "single"
+          date: "2026-08-20"
+          startTime: "10:00"
+          endTime: "12:00"
+        status: "scheduled"
+        venue:
+          name: "Bennet's Mill Field"
+          area: "Clonakilty"
+        url: "https://www.heritageweek.ie/event-listings/flax-l%C3%ADn-clonakilty-growing-a-local-heritage-walk-flax-demonstration-3"
+        tags:
+          - "flax"
+          - "textiles"
+          - "heritage"
+          - "demonstration"
+          - "outdoor"
+        raw: "Flax Lín Clonakilty – Growing a Local Heritage Walk & Flax Demonstration.
+
+          20 August 2026, 10:00 – 12:00, Bennet's Mill Field. Part of the Dúchas
+
+          Clonakilty Heritage programme for National Heritage Week 2026.\n"
+        summary: "A walk through the growing flax and a demonstration of how it becomes linen, in the fields at Clonakilty."
+        confidence: "high"
+      - id: "textiles/duchas-clonakilty#a3f38610dd"
+        sourceId: "textiles/duchas-clonakilty"
+        title: "Weaving Demonstration with textile artist Louise Deasy"
+        occurrence:
+          kind: "single"
+          date: "2026-08-22"
+          startTime: "10:00"
+          endTime: "16:00"
+        status: "scheduled"
+        venue:
+          name: "Clonakilty Tourist Information Office"
+          area: "Clonakilty"
+        url: "https://www.heritageweek.ie/event-listings/weaving-demonstration-with-textile-artist-louise-deasy-2"
+        tags:
+          - "weaving"
+          - "textiles"
+          - "demonstration"
+          - "heritage"
+        raw: "Weaving Demonstration with textile artist Louise Deasy. 22 August 2026,
+
+          10:00 – 16:00, Clonakilty Tourist Information Office. Part of Dúchas
+
+          Clonakilty Heritage's National Heritage Week 2026 programme.\n"
+        summary: "A day-long weaving demonstration by textile artist Louise Deasy, in the tourist office on Ashe Street."
+        confidence: "high"
+      - id: "textiles/duchas-clonakilty#e5938c89ba"
+        sourceId: "textiles/duchas-clonakilty"
+        title: "Flax — Threads of Time"
+        occurrence:
+          kind: "single"
+          date: "2026-08-18"
+          startTime: "11:00"
+        status: "scheduled"
+        venue:
+          name: "De Barra's"
+          area: "Clonakilty"
+        url: "https://www.heritageweek.ie/event-listings/flax-threads-of-time"
+        tags:
+          - "flax"
+          - "linen"
+          - "textiles"
+          - "exhibition"
+          - "heritage"
+        raw: "Flax Threads of Time. 18 August 2026, 11:00, De Barra's, Clonakilty.
+
+          Listed in Dúchas Clonakilty Heritage's Heritage Week 2026 programme.\n"
+        summary: "Kathy Kirwan's flax and linen project, shown in De Barra's — the strand that has been running through Clonakilty's bicentenary year."
+        confidence: "high"
+      - id: "textiles/duchas-clonakilty#a60162f852"
+        sourceId: "textiles/duchas-clonakilty"
+        title: "The Babóg Project Documentary — Doll Making Workshop"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "13:00"
+          endTime: "14:00"
+        status: "scheduled"
+        venue:
+          name: "Clonakilty Library"
+          area: "Clonakilty"
+        url: "https://www.heritageweek.ie/event-listings/the-bab%C3%B3g-project-doll-making-workshop"
+        tags:
+          - "craft"
+          - "workshop"
+          - "family"
+          - "heritage"
+        raw: "The Babóg Project Documentary - Doll Making Workshop. 19 August 2026,
+
+          13:00 – 14:00, Clonakilty Library. Heritage Week 2026.\n"
+        summary: "A doll-making workshop alongside the Babóg Project documentary, in Clonakilty Library."
+        confidence: "high"
+      - id: "textiles/duchas-clonakilty#0569e4f74f"
+        sourceId: "textiles/duchas-clonakilty"
+        title: "Masters: The Stories Behind the Skills"
+        occurrence:
+          kind: "single"
+          date: "2026-08-19"
+          startTime: "15:00"
+        status: "scheduled"
+        venue:
+          name: "Ballineen Enniskeane Community Centre"
+          area: "Ballineen"
+        url: "https://www.heritageweek.ie/event-listings/masters-the-stories-behind-the-skills"
+        tags:
+          - "craft"
+          - "heritage"
+          - "talk"
+          - "booking-required"
+        raw: "Masters: The Stories Behind the Skills. 19 August 2026, 15:00, Ballineen
+
+          Enniskeane Community Centre. Registration required. Heritage Week 2026.\n"
+        summary: "Traditional makers on the skills they carry, at the community centre in Ballineen. Registration required."
+        confidence: "medium"
+    notes: "The society's News-and-Events index carries only two dated items, both of them posts rather than events; the actual programme is one level down, on the Heritage Week 2026 page. Worth a hint on the source: go to the sub-page, not the index. Only the making strand is recorded. The same programme also holds church and graveyard tours, a documentary screening and a country house tour, which are out of scope for this location."
+  - sourceId: "textiles/cork-textiles-network"
+    fetch:
+      ok: true
+      url: "https://corktextilesnetwork.com/events/"
+      status: 200
+    events: []
+    notes: "Nothing forward. The events page is a retrospective archive — the newest posts are the 2025 annual exhibition and members' workshops from 2024 and 2025, with no dates ahead of today. Most of it is Cork city and much is members-only, so the West Cork yield will always be thin. Suggest dropping the cadence to quarterly. Refused WebFetch with a 403 and answered a browser user-agent, so it is bot-walled rather than dead."

@@ -1,0 +1,685 @@
+{
+  "schema": "whazzon.snapshot/1",
+  "location": {
+    "id": "ie-west-cork",
+    "name": "West Cork",
+    "region": "County Cork",
+    "country": "Ireland",
+    "timezone": "Europe/Dublin"
+  },
+  "generatedAt": "2026-08-20T09:32:59Z",
+  "asOf": "2026-08-20",
+  "categories": [
+    {
+      "category": "craft-fairs",
+      "label": "Craft Fairs & Markets",
+      "description": "Makers' markets, Christmas craft fairs, and the weekly country markets that carry craft stalls alongside the food.\nStrongly seasonal: a handful of dates through the summer, then everything at once from late October to Christmas. The weekly markets are `recurring` rather than fifty-two events — Skibbereen on Saturday, Bantry on Friday, Clonakilty on Friday — and the thing worth catching is the special fair that lands on top of one of them.",
+      "sourceCount": 3,
+      "eventCount": 1
+    },
+    {
+      "category": "galleries",
+      "label": "Galleries, Studios & Heritage",
+      "description": "Places with a room and a programme: the region's one substantial arts centre, and the heritage centres and museums that put on exhibitions, talks and open days.\nKept because exhibitions of local making are in scope and because these are the only sources here that publish a proper diary. They are the easy half of the catalogue; everything hard is in `notices`.",
+      "sourceCount": 4,
+      "eventCount": 6
+    },
+    {
+      "category": "notices",
+      "label": "Local Notices & Listings",
+      "description": "The local papers, the regional tourism site, the island community pages and the national heritage schemes.\n**In a city this would be the safety net. Here it is the main net.** A great deal of what this location exists to catch happens in a parish hall, a community centre or somebody's studio, and the only published trace is a diary column or a scheme's listing. Both of the events that started this — a flax and linen day in Clonakilty, a Shetland knitting weekend on Cape Clear — were that kind of event.\nEverything here needs filtering hard on the way in. Most of what these sources carry is a gig guide, a match report or a festival programme, none of which belongs in this location. Take the making strand and leave the rest.",
+      "sourceCount": 6,
+      "eventCount": 0
+    },
+    {
+      "category": "textiles",
+      "label": "Textiles & Fibre",
+      "description": "Wool, knitting, weaving, spinning, dyeing, felting, stitch — and flax and linen, which West Cork grew and processed until the industry collapsed two centuries ago and is now reviving.\nThis is the anchor category and the thinnest one, which is the finding rather than a gap. Fibre in West Cork is organised by people, not by venues: a network, a heritage society, a handful of makers, and a Facebook page each. Almost none of it has a listings page, so most of what belongs here will be caught by `notices` and only later attributed back to whoever ran it.\nBoth anchor events sit here. The Clonakilty flax day is Dúchas Clonakilty Heritage's, and it does have a site. The Cape Clear knitting weekend has no standing home at all and has to be caught through the island's own page or the local papers.",
+      "sourceCount": 2,
+      "eventCount": 5
+    },
+    {
+      "category": "workshops",
+      "label": "Workshops & Courses",
+      "description": "Hands-on making you can turn up and do: day classes, weekend courses, summer schools, artist-led sessions.\nThe distinction from `craft-fairs` is whether you go to buy or to make. A weekend of Shetland knitting on an island belongs here; a Christmas fair does not.",
+      "sourceCount": 2,
+      "eventCount": 0
+    }
+  ],
+  "sources": [
+    {
+      "id": "craft-fairs/west-cork-crafts",
+      "name": "West Cork Crafts, Skibbereen",
+      "category": "craft-fairs",
+      "kind": "organiser",
+      "status": "provisional",
+      "url": "https://www.westcorkcrafts.ie/",
+      "area": "Skibbereen",
+      "tags": [
+        "makers",
+        "shop",
+        "christmas-fair"
+      ],
+      "lastHarvest": "2026-08-20"
+    },
+    {
+      "id": "craft-fairs/clonakilty-chamber",
+      "name": "Clonakilty Chamber of Commerce",
+      "category": "craft-fairs",
+      "kind": "aggregator",
+      "status": "provisional",
+      "url": "https://www.clonakilty.ie/events",
+      "area": "Clonakilty",
+      "tags": [
+        "town",
+        "market",
+        "christmas-fair",
+        "festival"
+      ],
+      "lastHarvest": "2026-08-20"
+    },
+    {
+      "id": "craft-fairs/bantry",
+      "name": "Bantry.ie",
+      "category": "craft-fairs",
+      "kind": "aggregator",
+      "status": "provisional",
+      "url": "https://www.bantry.ie/",
+      "area": "Bantry",
+      "tags": [
+        "town",
+        "market",
+        "fair"
+      ],
+      "lastHarvest": "2026-08-20"
+    },
+    {
+      "id": "galleries/uillinn",
+      "name": "Uillinn — West Cork Arts Centre",
+      "category": "galleries",
+      "kind": "venue",
+      "status": "provisional",
+      "url": "https://westcorkartscentre.com/events/",
+      "area": "Skibbereen",
+      "tags": [
+        "gallery",
+        "exhibition",
+        "workshop",
+        "major"
+      ],
+      "lastHarvest": "2026-08-20"
+    },
+    {
+      "id": "galleries/skibbereen-heritage",
+      "name": "Skibbereen Heritage Centre",
+      "category": "galleries",
+      "kind": "venue",
+      "status": "provisional",
+      "url": "https://skibbheritage.com/",
+      "area": "Skibbereen",
+      "tags": [
+        "heritage",
+        "exhibition",
+        "talk"
+      ],
+      "lastHarvest": "2026-08-20"
+    },
+    {
+      "id": "galleries/michael-collins-house",
+      "name": "Michael Collins House, Clonakilty",
+      "category": "galleries",
+      "kind": "venue",
+      "status": "provisional",
+      "url": "https://www.michaelcollinshouse.ie/",
+      "area": "Clonakilty",
+      "tags": [
+        "museum",
+        "heritage",
+        "talk",
+        "exhibition"
+      ],
+      "lastHarvest": "2026-08-20"
+    },
+    {
+      "id": "galleries/west-cork-creates",
+      "name": "West Cork Creates",
+      "category": "galleries",
+      "kind": "festival",
+      "status": "provisional",
+      "url": "https://www.westcorkcreates.com/",
+      "area": "Skibbereen",
+      "tags": [
+        "exhibition",
+        "craft",
+        "design",
+        "makers",
+        "annual"
+      ]
+    },
+    {
+      "id": "notices/southern-star",
+      "name": "The Southern Star — Things to See & Do",
+      "category": "notices",
+      "kind": "aggregator",
+      "status": "provisional",
+      "url": "https://www.southernstar.ie/things-to-see-and-do",
+      "tags": [
+        "newspaper",
+        "listings",
+        "west-cork"
+      ],
+      "lastHarvest": "2026-08-20"
+    },
+    {
+      "id": "notices/west-cork-people",
+      "name": "West Cork People — Don't Miss",
+      "category": "notices",
+      "kind": "aggregator",
+      "status": "provisional",
+      "url": "https://westcorkpeople.ie/category/dont-miss/",
+      "tags": [
+        "newspaper",
+        "listings",
+        "free-paper",
+        "west-cork"
+      ],
+      "lastHarvest": "2026-08-20"
+    },
+    {
+      "id": "notices/heritage-week",
+      "name": "National Heritage Week — event listings",
+      "category": "notices",
+      "kind": "listing",
+      "status": "provisional",
+      "url": "https://www.heritageweek.ie/event-listings",
+      "tags": [
+        "national",
+        "heritage",
+        "august",
+        "free"
+      ],
+      "lastHarvest": "2026-08-20"
+    },
+    {
+      "id": "notices/culture-night",
+      "name": "Culture Night / Oíche Chultúir",
+      "category": "notices",
+      "kind": "listing",
+      "status": "provisional",
+      "url": "https://culturenight.ie/",
+      "tags": [
+        "national",
+        "september",
+        "free",
+        "open-studio"
+      ]
+    },
+    {
+      "id": "notices/explore-west-cork",
+      "name": "Explore West Cork — festivals & events",
+      "category": "notices",
+      "kind": "aggregator",
+      "status": "provisional",
+      "url": "https://explorewestcork.ie/festivals-events",
+      "tags": [
+        "tourism",
+        "festival",
+        "regional"
+      ],
+      "lastHarvest": "2026-08-20"
+    },
+    {
+      "id": "notices/cape-clear-island",
+      "name": "Cape Clear Island / Oileán Chléire",
+      "category": "notices",
+      "kind": "aggregator",
+      "status": "provisional",
+      "url": "https://www.cleire.ie/",
+      "area": "Cape Clear",
+      "tags": [
+        "island",
+        "gaeltacht",
+        "community"
+      ],
+      "lastHarvest": "2026-08-20"
+    },
+    {
+      "id": "textiles/cork-textiles-network",
+      "name": "Cork Textiles Network",
+      "category": "textiles",
+      "kind": "organiser",
+      "status": "provisional",
+      "url": "https://corktextilesnetwork.com/events/",
+      "tags": [
+        "textiles",
+        "fibre",
+        "workshop",
+        "exhibition"
+      ],
+      "lastHarvest": "2026-08-20"
+    },
+    {
+      "id": "textiles/duchas-clonakilty",
+      "name": "Dúchas Clonakilty Heritage",
+      "category": "textiles",
+      "kind": "organiser",
+      "status": "provisional",
+      "url": "https://duchasclonakiltyheritage.ie/News-and-Events/",
+      "area": "Clonakilty",
+      "tags": [
+        "flax",
+        "linen",
+        "heritage",
+        "talk",
+        "exhibition"
+      ],
+      "lastHarvest": "2026-08-20"
+    },
+    {
+      "id": "workshops/working-artist-studios",
+      "name": "Working Artist Studios, Ballydehob",
+      "category": "workshops",
+      "kind": "venue",
+      "status": "provisional",
+      "url": "https://workingartiststudios.com/events/",
+      "area": "Ballydehob",
+      "tags": [
+        "studio",
+        "course",
+        "residency",
+        "painting"
+      ],
+      "lastHarvest": "2026-08-20"
+    },
+    {
+      "id": "workshops/design-crafts-council",
+      "name": "Design & Crafts Council Ireland — What's On",
+      "category": "workshops",
+      "kind": "listing",
+      "status": "provisional",
+      "url": "https://www.dcci.ie/whats-on/",
+      "tags": [
+        "national",
+        "craft",
+        "course",
+        "exhibition"
+      ],
+      "lastHarvest": "2026-08-20"
+    }
+  ],
+  "events": [
+    {
+      "id": "galleries/uillinn#3dba17c4b4",
+      "sourceId": "galleries/uillinn",
+      "sourceName": "Uillinn — West Cork Arts Centre",
+      "category": "galleries",
+      "categoryLabel": "Galleries, Studios & Heritage",
+      "title": "Mich Maroney 2026",
+      "occurrence": {
+        "kind": "run",
+        "start": "2026-08-08",
+        "end": "2026-09-12"
+      },
+      "status": "scheduled",
+      "state": "listed",
+      "sortDate": "2026-08-08",
+      "endDate": "2026-09-12",
+      "venueName": "Uillinn — West Cork Arts Centre",
+      "area": "Skibbereen",
+      "url": "https://westcorkartscentre.com/event/mich-maroney-2026/",
+      "sourceUrl": "https://westcorkartscentre.com/events/",
+      "tags": [
+        "exhibition",
+        "visual-art"
+      ],
+      "raw": "Mich Maroney 2026. 8 August – 12 September 2026, Uillinn: West Cork Arts Centre, Skibbereen.",
+      "summary": "A solo exhibition at Uillinn, running into September.",
+      "confidence": "medium",
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-20"
+    },
+    {
+      "id": "galleries/uillinn#49d05d529a",
+      "sourceId": "galleries/uillinn",
+      "sourceName": "Uillinn — West Cork Arts Centre",
+      "category": "galleries",
+      "categoryLabel": "Galleries, Studios & Heritage",
+      "title": "Oran Leong 2026",
+      "occurrence": {
+        "kind": "run",
+        "start": "2026-08-17",
+        "end": "2026-08-27"
+      },
+      "status": "scheduled",
+      "state": "listed",
+      "sortDate": "2026-08-17",
+      "endDate": "2026-08-27",
+      "venueName": "Uillinn — West Cork Arts Centre",
+      "area": "Skibbereen",
+      "url": "https://westcorkartscentre.com/event/oran-leong-2026/",
+      "sourceUrl": "https://westcorkartscentre.com/events/",
+      "tags": [
+        "exhibition",
+        "visual-art"
+      ],
+      "raw": "Oran Leong 2026. 17 – 27 August 2026, Uillinn: West Cork Arts Centre, Skibbereen.",
+      "summary": "A short exhibition run at Uillinn, on now and closing at the end of the month.",
+      "confidence": "medium",
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-20"
+    },
+    {
+      "id": "textiles/duchas-clonakilty#e5938c89ba",
+      "sourceId": "textiles/duchas-clonakilty",
+      "sourceName": "Dúchas Clonakilty Heritage",
+      "category": "textiles",
+      "categoryLabel": "Textiles & Fibre",
+      "title": "Flax — Threads of Time",
+      "occurrence": {
+        "kind": "single",
+        "date": "2026-08-18",
+        "startTime": "11:00"
+      },
+      "status": "scheduled",
+      "state": "finished",
+      "sortDate": "2026-08-18",
+      "endDate": "2026-08-18",
+      "venueName": "De Barra's",
+      "area": "Clonakilty",
+      "url": "https://www.heritageweek.ie/event-listings/flax-threads-of-time",
+      "sourceUrl": "https://duchasclonakiltyheritage.ie/News-and-Events/",
+      "tags": [
+        "flax",
+        "linen",
+        "textiles",
+        "exhibition",
+        "heritage"
+      ],
+      "raw": "Flax Threads of Time. 18 August 2026, 11:00, De Barra's, Clonakilty.\nListed in Dúchas Clonakilty Heritage's Heritage Week 2026 programme.\n",
+      "summary": "Kathy Kirwan's flax and linen project, shown in De Barra's — the strand that has been running through Clonakilty's bicentenary year.",
+      "confidence": "high",
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-20"
+    },
+    {
+      "id": "textiles/duchas-clonakilty#0569e4f74f",
+      "sourceId": "textiles/duchas-clonakilty",
+      "sourceName": "Dúchas Clonakilty Heritage",
+      "category": "textiles",
+      "categoryLabel": "Textiles & Fibre",
+      "title": "Masters: The Stories Behind the Skills",
+      "occurrence": {
+        "kind": "single",
+        "date": "2026-08-19",
+        "startTime": "15:00"
+      },
+      "status": "scheduled",
+      "state": "finished",
+      "sortDate": "2026-08-19",
+      "endDate": "2026-08-19",
+      "venueName": "Ballineen Enniskeane Community Centre",
+      "area": "Ballineen",
+      "url": "https://www.heritageweek.ie/event-listings/masters-the-stories-behind-the-skills",
+      "sourceUrl": "https://duchasclonakiltyheritage.ie/News-and-Events/",
+      "tags": [
+        "craft",
+        "heritage",
+        "talk",
+        "booking-required"
+      ],
+      "raw": "Masters: The Stories Behind the Skills. 19 August 2026, 15:00, Ballineen\nEnniskeane Community Centre. Registration required. Heritage Week 2026.\n",
+      "summary": "Traditional makers on the skills they carry, at the community centre in Ballineen. Registration required.",
+      "confidence": "medium",
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-20"
+    },
+    {
+      "id": "textiles/duchas-clonakilty#a60162f852",
+      "sourceId": "textiles/duchas-clonakilty",
+      "sourceName": "Dúchas Clonakilty Heritage",
+      "category": "textiles",
+      "categoryLabel": "Textiles & Fibre",
+      "title": "The Babóg Project Documentary — Doll Making Workshop",
+      "occurrence": {
+        "kind": "single",
+        "date": "2026-08-19",
+        "startTime": "13:00",
+        "endTime": "14:00"
+      },
+      "status": "scheduled",
+      "state": "finished",
+      "sortDate": "2026-08-19",
+      "endDate": "2026-08-19",
+      "venueName": "Clonakilty Library",
+      "area": "Clonakilty",
+      "url": "https://www.heritageweek.ie/event-listings/the-bab%C3%B3g-project-doll-making-workshop",
+      "sourceUrl": "https://duchasclonakiltyheritage.ie/News-and-Events/",
+      "tags": [
+        "craft",
+        "workshop",
+        "family",
+        "heritage"
+      ],
+      "raw": "The Babóg Project Documentary - Doll Making Workshop. 19 August 2026,\n13:00 – 14:00, Clonakilty Library. Heritage Week 2026.\n",
+      "summary": "A doll-making workshop alongside the Babóg Project documentary, in Clonakilty Library.",
+      "confidence": "high",
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-20"
+    },
+    {
+      "id": "textiles/duchas-clonakilty#df5b2b84ea",
+      "sourceId": "textiles/duchas-clonakilty",
+      "sourceName": "Dúchas Clonakilty Heritage",
+      "category": "textiles",
+      "categoryLabel": "Textiles & Fibre",
+      "title": "Flax Lín Clonakilty — Growing a Local Heritage: Walk & Flax Demonstration",
+      "occurrence": {
+        "kind": "single",
+        "date": "2026-08-20",
+        "startTime": "10:00",
+        "endTime": "12:00"
+      },
+      "status": "scheduled",
+      "state": "listed",
+      "sortDate": "2026-08-20",
+      "endDate": "2026-08-20",
+      "venueName": "Bennet's Mill Field",
+      "area": "Clonakilty",
+      "url": "https://www.heritageweek.ie/event-listings/flax-l%C3%ADn-clonakilty-growing-a-local-heritage-walk-flax-demonstration-3",
+      "sourceUrl": "https://duchasclonakiltyheritage.ie/News-and-Events/",
+      "tags": [
+        "flax",
+        "textiles",
+        "heritage",
+        "demonstration",
+        "outdoor"
+      ],
+      "raw": "Flax Lín Clonakilty – Growing a Local Heritage Walk & Flax Demonstration.\n20 August 2026, 10:00 – 12:00, Bennet's Mill Field. Part of the Dúchas\nClonakilty Heritage programme for National Heritage Week 2026.\n",
+      "summary": "A walk through the growing flax and a demonstration of how it becomes linen, in the fields at Clonakilty.",
+      "confidence": "high",
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-20"
+    },
+    {
+      "id": "textiles/duchas-clonakilty#a3f38610dd",
+      "sourceId": "textiles/duchas-clonakilty",
+      "sourceName": "Dúchas Clonakilty Heritage",
+      "category": "textiles",
+      "categoryLabel": "Textiles & Fibre",
+      "title": "Weaving Demonstration with textile artist Louise Deasy",
+      "occurrence": {
+        "kind": "single",
+        "date": "2026-08-22",
+        "startTime": "10:00",
+        "endTime": "16:00"
+      },
+      "status": "scheduled",
+      "state": "listed",
+      "sortDate": "2026-08-22",
+      "endDate": "2026-08-22",
+      "venueName": "Clonakilty Tourist Information Office",
+      "area": "Clonakilty",
+      "url": "https://www.heritageweek.ie/event-listings/weaving-demonstration-with-textile-artist-louise-deasy-2",
+      "sourceUrl": "https://duchasclonakiltyheritage.ie/News-and-Events/",
+      "tags": [
+        "weaving",
+        "textiles",
+        "demonstration",
+        "heritage"
+      ],
+      "raw": "Weaving Demonstration with textile artist Louise Deasy. 22 August 2026,\n10:00 – 16:00, Clonakilty Tourist Information Office. Part of Dúchas\nClonakilty Heritage's National Heritage Week 2026 programme.\n",
+      "summary": "A day-long weaving demonstration by textile artist Louise Deasy, in the tourist office on Ashe Street.",
+      "confidence": "high",
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-20"
+    },
+    {
+      "id": "galleries/uillinn#a6d641925e",
+      "sourceId": "galleries/uillinn",
+      "sourceName": "Uillinn — West Cork Arts Centre",
+      "category": "galleries",
+      "categoryLabel": "Galleries, Studios & Heritage",
+      "title": "Struàn Bell 2026",
+      "occurrence": {
+        "kind": "run",
+        "start": "2026-09-01",
+        "end": "2026-10-17"
+      },
+      "status": "scheduled",
+      "state": "listed",
+      "sortDate": "2026-09-01",
+      "endDate": "2026-10-17",
+      "venueName": "Uillinn — West Cork Arts Centre",
+      "area": "Skibbereen",
+      "url": "https://westcorkartscentre.com/event/struan-bell/",
+      "sourceUrl": "https://westcorkartscentre.com/events/",
+      "tags": [
+        "exhibition",
+        "visual-art"
+      ],
+      "raw": "Struàn Bell 2026. 1 September – 17 October 2026, Uillinn: West Cork Arts Centre, Skibbereen.",
+      "summary": "Uillinn's autumn solo exhibition.",
+      "confidence": "medium",
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-20"
+    },
+    {
+      "id": "galleries/uillinn#558acc8e06",
+      "sourceId": "galleries/uillinn",
+      "sourceName": "Uillinn — West Cork Arts Centre",
+      "category": "galleries",
+      "categoryLabel": "Galleries, Studios & Heritage",
+      "title": "Leanne McDonagh: Community & Connection",
+      "occurrence": {
+        "kind": "run",
+        "start": "2026-09-26",
+        "end": "2026-10-31"
+      },
+      "status": "scheduled",
+      "state": "listed",
+      "sortDate": "2026-09-26",
+      "endDate": "2026-10-31",
+      "venueName": "Uillinn — West Cork Arts Centre",
+      "area": "Skibbereen",
+      "url": "https://westcorkartscentre.com/event/leanne-mcdonagh/",
+      "sourceUrl": "https://westcorkartscentre.com/events/",
+      "tags": [
+        "exhibition",
+        "visual-art",
+        "community"
+      ],
+      "raw": "Leanne McDonagh: Community & Connection. 26 September – 31 October 2026, Uillinn: West Cork Arts Centre, Skibbereen.",
+      "summary": "Leanne McDonagh at Uillinn, through October.",
+      "confidence": "medium",
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-20"
+    },
+    {
+      "id": "galleries/uillinn#68b9fc1f06",
+      "sourceId": "galleries/uillinn",
+      "sourceName": "Uillinn — West Cork Arts Centre",
+      "category": "galleries",
+      "categoryLabel": "Galleries, Studios & Heritage",
+      "title": "MA Art and Environment Graduate Exhibition",
+      "occurrence": {
+        "kind": "run",
+        "start": "2026-11-21",
+        "end": "2026-12-19"
+      },
+      "status": "scheduled",
+      "state": "listed",
+      "sortDate": "2026-11-21",
+      "endDate": "2026-12-19",
+      "venueName": "Uillinn — West Cork Arts Centre",
+      "area": "Skibbereen",
+      "url": "https://westcorkartscentre.com/event/ma-art-and-environment-graduate-exhibition-2/",
+      "sourceUrl": "https://westcorkartscentre.com/events/",
+      "tags": [
+        "exhibition",
+        "visual-art",
+        "students"
+      ],
+      "raw": "MA Art and Environment Graduate Exhibition. 21 November – 19 December 2026, Uillinn: West Cork Arts Centre, Skibbereen.",
+      "summary": "The MA Art and Environment graduates' show, closing out Uillinn's year.",
+      "confidence": "medium",
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-20"
+    },
+    {
+      "id": "craft-fairs/bantry#6f2f0f4864",
+      "sourceId": "craft-fairs/bantry",
+      "sourceName": "Bantry.ie",
+      "category": "craft-fairs",
+      "categoryLabel": "Craft Fairs & Markets",
+      "title": "Bantry Market",
+      "occurrence": {
+        "kind": "recurring",
+        "pattern": "Every Friday on Wolfe Tone Square; November to March, Fridays only, 10am–2pm",
+        "startTime": "10:00"
+      },
+      "status": "scheduled",
+      "state": "listed",
+      "venueName": "Wolfe Tone Square",
+      "area": "Bantry",
+      "sourceUrl": "https://www.bantry.ie/",
+      "tags": [
+        "market",
+        "craft",
+        "food-drink",
+        "weekly",
+        "free-entry"
+      ],
+      "raw": "Bantry Market, Wolfe Tone Square. Nov–Mar: Fri only, 10am–2pm.",
+      "summary": "One of the biggest country markets in the county, with craft stalls alongside the food, every Friday on the square.",
+      "confidence": "medium",
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-20"
+    },
+    {
+      "id": "galleries/skibbereen-heritage#77e8145c84",
+      "sourceId": "galleries/skibbereen-heritage",
+      "sourceName": "Skibbereen Heritage Centre",
+      "category": "galleries",
+      "categoryLabel": "Galleries, Studios & Heritage",
+      "title": "Skibbereen Famine Exhibition",
+      "occurrence": {
+        "kind": "ongoing"
+      },
+      "status": "scheduled",
+      "state": "listed",
+      "venueName": "Skibbereen Heritage Centre",
+      "area": "Skibbereen",
+      "sourceUrl": "https://skibbheritage.com/",
+      "tags": [
+        "exhibition",
+        "heritage",
+        "permanent"
+      ],
+      "raw": "The Skibbereen Famine Exhibition, the centre's permanent display, alongside the Lough Hyne marine exhibition.",
+      "summary": "The heritage centre's permanent Famine exhibition, open through the season.",
+      "confidence": "medium",
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-20"
+    }
+  ]
+}

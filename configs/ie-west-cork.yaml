@@ -1,0 +1,71 @@
+schema: whazzon.location/1
+
+id: ie-west-cork
+name: West Cork
+region: County Cork
+country: Ireland
+timezone: Europe/Dublin
+language: en-IE
+
+# Dunmanway-ish, which is nobody's idea of the capital of West Cork but is close
+# to the middle of it. The radius is large because the region is: Kinsale to the
+# tip of Beara is the best part of a hundred kilometres, and the things this
+# location is for happen in the small towns rather than in one centre.
+centre:
+  lat: 51.6500
+  lon: -9.1200
+radiusKm: 55
+
+# This file's name must match `id:` above — configs/<id>.yaml.
+character: |
+  Not a city. A hundred kilometres of small towns, harbours, peninsulas and
+  islands, from Kinsale west through Clonakilty, Dunmanway, Skibbereen, Bantry
+  and out along Sheep's Head, Mizen and Beara, plus the inhabited islands —
+  Cape Clear, Sherkin, Bere, Whiddy, Heir.
+
+  **This location is deliberately narrow.** It is not a general what's-on for the
+  region and should not become one. It exists to catch making and the things
+  around it: craft fairs, textile and fibre events, workshops and short courses,
+  open studios, exhibitions of work by people who live here, and the markets and
+  heritage days those things attach themselves to. Music, sport, festivals as
+  festivals, and the tourist calendar are all out of scope unless a craft strand
+  is the point of them.
+
+  Two events that were missed are the anchor for the whole thing, and they are
+  worth stating because they define the standard:
+
+  - a **flax and linen** day in **Clonakilty** — part of a live local revival of
+    an industry the town lost two centuries ago
+  - a **Shetland knitting** weekend on **Cape Clear**
+
+  Neither is a venue's standing programme. Both are one-off, community-run, and
+  announced through a local paper, a Facebook page, or a national heritage
+  scheme's listing rather than anywhere a venue-first catalogue would look. That
+  is the shape of nearly everything worth catching here.
+
+  What follows from that:
+
+  - **The listings sources matter more than the venues.** In a city, venue sites
+    carry most of the programme. Here a great deal happens in a parish hall, a
+    community centre, a shop back room, or somebody's studio, and the only
+    published trace is the local paper's diary column or a heritage-scheme
+    listing.
+  - **The calendar is seasonal and lumpy.** Craft fairs cluster from late
+    October to Christmas. Heritage Week in August and Culture Night in September
+    are when one-off making events surface. Summer is workshops and open
+    studios; winter is fairs and classes.
+  - **Distance is a real filter.** Bantry to Kinsale is an hour and a half.
+    Always record the town, and record the island where it is one — a knitting
+    weekend on Cape Clear means a ferry and probably a night away.
+  - **Irish-language and Gaeltacht listings count.** Cape Clear is a Gaeltacht
+    island; an event may be announced in Irish only.
+
+aggregatorPolicy: |
+  Aggregators are not the safety net here, they are the main net. Catalogue the
+  local papers, the regional tourism site, the island community sites and the
+  national schemes that publish a searchable programme — Heritage Week and
+  Culture Night in particular, because they are where a one-off craft or textile
+  day gets written down.
+
+  Filter hard on the way in. Most of what these sources carry is out of scope for
+  this location; the craft strand is what is wanted, not the gig guide.

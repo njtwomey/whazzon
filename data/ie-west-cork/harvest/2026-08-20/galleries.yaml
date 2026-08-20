@@ -1,0 +1,118 @@
+schema: "whazzon.harvest/1"
+locationId: "ie-west-cork"
+date: "2026-08-20"
+category: "galleries"
+harvestedAt: "2026-08-20T11:30:00Z"
+model: "claude-opus-5[1m]"
+observations:
+  - sourceId: "galleries/uillinn"
+    fetch:
+      ok: true
+      url: "https://westcorkartscentre.com/events/"
+      status: 200
+    events:
+      - id: "galleries/uillinn#3dba17c4b4"
+        sourceId: "galleries/uillinn"
+        title: "Mich Maroney 2026"
+        occurrence:
+          kind: "run"
+          start: "2026-08-08"
+          end: "2026-09-12"
+        status: "scheduled"
+        url: "https://westcorkartscentre.com/event/mich-maroney-2026/"
+        tags:
+          - "exhibition"
+          - "visual-art"
+        raw: "Mich Maroney 2026. 8 August – 12 September 2026, Uillinn: West Cork Arts Centre, Skibbereen."
+        summary: "A solo exhibition at Uillinn, running into September."
+        confidence: "medium"
+      - id: "galleries/uillinn#49d05d529a"
+        sourceId: "galleries/uillinn"
+        title: "Oran Leong 2026"
+        occurrence:
+          kind: "run"
+          start: "2026-08-17"
+          end: "2026-08-27"
+        status: "scheduled"
+        url: "https://westcorkartscentre.com/event/oran-leong-2026/"
+        tags:
+          - "exhibition"
+          - "visual-art"
+        raw: "Oran Leong 2026. 17 – 27 August 2026, Uillinn: West Cork Arts Centre, Skibbereen."
+        summary: "A short exhibition run at Uillinn, on now and closing at the end of the month."
+        confidence: "medium"
+      - id: "galleries/uillinn#a6d641925e"
+        sourceId: "galleries/uillinn"
+        title: "Struàn Bell 2026"
+        occurrence:
+          kind: "run"
+          start: "2026-09-01"
+          end: "2026-10-17"
+        status: "scheduled"
+        url: "https://westcorkartscentre.com/event/struan-bell/"
+        tags:
+          - "exhibition"
+          - "visual-art"
+        raw: "Struàn Bell 2026. 1 September – 17 October 2026, Uillinn: West Cork Arts Centre, Skibbereen."
+        summary: "Uillinn's autumn solo exhibition."
+        confidence: "medium"
+      - id: "galleries/uillinn#558acc8e06"
+        sourceId: "galleries/uillinn"
+        title: "Leanne McDonagh: Community & Connection"
+        occurrence:
+          kind: "run"
+          start: "2026-09-26"
+          end: "2026-10-31"
+        status: "scheduled"
+        url: "https://westcorkartscentre.com/event/leanne-mcdonagh/"
+        tags:
+          - "exhibition"
+          - "visual-art"
+          - "community"
+        raw: "Leanne McDonagh: Community & Connection. 26 September – 31 October 2026, Uillinn: West Cork Arts Centre, Skibbereen."
+        summary: "Leanne McDonagh at Uillinn, through October."
+        confidence: "medium"
+      - id: "galleries/uillinn#68b9fc1f06"
+        sourceId: "galleries/uillinn"
+        title: "MA Art and Environment Graduate Exhibition"
+        occurrence:
+          kind: "run"
+          start: "2026-11-21"
+          end: "2026-12-19"
+        status: "scheduled"
+        url: "https://westcorkartscentre.com/event/ma-art-and-environment-graduate-exhibition-2/"
+        tags:
+          - "exhibition"
+          - "visual-art"
+          - "students"
+        raw: "MA Art and Environment Graduate Exhibition. 21 November – 19 December 2026, Uillinn: West Cork Arts Centre, Skibbereen."
+        summary: "The MA Art and Environment graduates' show, closing out Uillinn's year."
+        confidence: "medium"
+    notes: "A real diary, and the only one in this catalogue. The page also carries a dance series (UDS26) through the autumn, which is not recorded: it is performance rather than making, and out of scope for this location. Times and prices are on the individual event pages rather than the index, so these carry dates only."
+  - sourceId: "galleries/skibbereen-heritage"
+    fetch:
+      ok: true
+      url: "https://skibbheritage.com/"
+      status: 200
+    events:
+      - id: "galleries/skibbereen-heritage#77e8145c84"
+        sourceId: "galleries/skibbereen-heritage"
+        title: "Skibbereen Famine Exhibition"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        tags:
+          - "exhibition"
+          - "heritage"
+          - "permanent"
+        raw: "The Skibbereen Famine Exhibition, the centre's permanent display, alongside the Lough Hyne marine exhibition."
+        summary: "The heritage centre's permanent Famine exhibition, open through the season."
+        confidence: "medium"
+    notes: "The permanent Famine exhibition is on the front page; there is a booking calendar plugin but no dated one-off events visible without JavaScript. Heritage Week events, if any, were not on the page today."
+  - sourceId: "galleries/michael-collins-house"
+    fetch:
+      ok: true
+      url: "https://www.michaelcollinshouse.ie/"
+      status: 200
+    events: []
+    notes: "Museum front page with no dated programme in the HTML — the site is built around admission and shop pages. Nothing to record. It answered a browser user-agent but gives `check-urls` a 403."

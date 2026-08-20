@@ -1,0 +1,60 @@
+schema: whazzon.catalogue/1
+category: workshops
+label: Workshops & Courses
+description: >-
+  Hands-on making you can turn up and do: day classes, weekend courses, summer
+  schools, artist-led sessions.
+
+  The distinction from `craft-fairs` is whether you go to buy or to make. A
+  weekend of Shetland knitting on an island belongs here; a Christmas fair does
+  not.
+sources:
+  - id: workshops/working-artist-studios
+    name: Working Artist Studios, Ballydehob
+    category: workshops
+    kind: venue
+    status: provisional
+    url:
+      - role: listings
+        url: https://workingartiststudios.com/events/
+      - role: api
+        url: https://workingartiststudios.com/wp-json/tribe/events/v1/events
+    homepage: https://workingartiststudios.com/
+    area: Ballydehob
+    tags: [studio, course, residency, painting]
+    cadence: monthly
+    hints: |
+      Studios and courses in Ballydehob, running short residential and non-
+      residential courses through the season. Mostly painting and drawing rather
+      than craft proper, so keep the making strand and let the rest go.
+      Courses are multi-day: record them as `run` with the real start and end, not
+      as a single date.
+      It runs The Events Calendar, so the JSON endpoint is the cheap route and
+      returns the whole diary in one call. That URL is exactly the kind a model
+      invents, so to be clear: it was fetched and returned 200 with a real payload
+      on 2026-08-20 — `total: 0`, because nothing is scheduled forward.
+    notes: >-
+      Verified 2026-08-20: both routes 200 (www redirects to the bare domain,
+      catalogued at the one that serves).
+    addedAt: "2026-08-20"
+    verifiedAt: "2026-08-20"
+
+  - id: workshops/design-crafts-council
+    name: Design & Crafts Council Ireland — What's On
+    category: workshops
+    kind: listing
+    status: provisional
+    url: https://www.dcci.ie/whats-on/
+    homepage: https://www.dcci.ie/
+    tags: [national, craft, course, exhibition]
+    cadence: monthly
+    hints: |
+      The national agency's diary. National in scope, so most of it is irrelevant
+      here — take only what is in West Cork, and be strict about it: Cork city is
+      out of scope for this location.
+      Worth the fetch anyway, because a maker running a weekend course in a village
+      hall will sometimes register it here and nowhere else.
+    notes: >-
+      Verified 2026-08-20: 200 at /whats-on/ (redirects from /whats-on).
+    addedAt: "2026-08-20"
+    verifiedAt: "2026-08-20"

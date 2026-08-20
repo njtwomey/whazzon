@@ -5,7 +5,9 @@ one reason: **the thing it looks for is too rare to fill a calendar in one
 corner of one county.** Widening the geography and narrowing the subject were the
 same decision.
 
-Twelve of thirteen sources visited, seven events recorded.
+Twelve of thirteen sources visited, twenty-seven events recorded — twenty of them
+from one source that had given a plain fetch nothing at all, until it was driven
+in a browser.
 
 ## What changed, and why
 
@@ -28,33 +30,57 @@ Clonakilty were in Limerick and Clare.
 
 ## What was found
 
+Still to come this week, which is the part that matters today:
+
 | date | event | where |
 | --- | --- | --- |
-| 18 Aug | Flax — Threads of Time | De Barra's, Clonakilty |
-| 19 Aug | The Babóg Project — doll making | Clonakilty Library |
-| **20 Aug** | **Flax Lín — walk & flax demonstration** | **Bennet's Mill Field, Clonakilty** |
-| **22 Aug** | **Weaving demonstration, Louise Deasy** | **Clonakilty Tourist Office** |
-| 15 Aug | THREADS — lacemakers, quilters, spinners | King John's Castle, Limerick |
-| 3 Aug | Kilmihil Festival — Memory Lane craft demos | Kilmihil, west Clare |
+| **20 Aug** | Flax Lín — walk & flax demonstration | Bennet's Mill Field, Clonakilty |
+| **20 Aug** | Weaving — An Ancient Craft, with Leisa Grey | Tipperary Museum, Clonmel |
+| **20 Aug** | Material Girls — a quilt and caint workshop | Christ Church, Fermoy |
+| **21 Aug** | Spinning on the wheel and drop spindle | Bunratty Castle & Folk Park, Clare |
+| **21 Aug** | The Magic of Felt-Making, with Leisa Grey | Tipperary Museum, Clonmel |
+| **22 Aug** | Weaving demonstration, Louise Deasy | Clonakilty Tourist Office |
+| **22 Aug** | Weaving with Natural Fibres | Tracton Arts Centre, Minane Bridge |
+| **22 Aug** | Willow weaving with Cois Laoi Willow | Macroom Library |
+| **23 Aug** | Spinning yarn on Scattery Island | Kilrush, Clare |
+| **23 Aug** | Extended museum opening — flax heritage | West Cork Regional Museum, Clonakilty |
+| 17–23 Aug | Irish Lace Exhibition | Kinsale Tourist Office |
 | monthly | IGWSD Clare group — spinning, weaving, dyeing | Ennis and around Clare |
 
-Everything came from **two sources**: Dúchas Clonakilty Heritage and the Irish
-Guild of Weavers, Spinners and Dyers. The other eleven produced nothing today.
-That is worth stating plainly rather than dressing up — this subject has almost
-no infrastructure, which is exactly why the events get missed.
+And fourteen more that have just gone: a wool project on Bere Island, Snáitheanna
+in King John's Castle, súgán rope-twisting in Ballydehob, a knitting clinic in
+Cashel, fleece-to-yarn in Clonmel, the Blarney mill's own story, needle skills in
+Ballycommon, hand weaving at Cloughjordan, Rekindle in Lisdoonvarna.
+
+## How the Heritage Week source was cracked
+
+It was written off in the morning as unreadable: 2,648 events, paginated, and a
+county filter that did nothing. Both true, and both beside the point.
+
+The listing is a JavaScript application. Rendered in headless Chrome
+(`--headless=new --dump-dom --virtual-time-budget=8000`) it comes back complete —
+**and it takes a `?q=` search parameter.** So the route in is not the county
+filter at all: it is one search per word of the vocabulary. Eleven searches —
+wool, weaving, knitting, crochet, spinning, felting, dyeing, flax, textile, quilt,
+lace — returned 33 Munster hits, twenty of them in scope.
+
+That is the whole difference between this location working and not working. It is
+in the catalogue as a hint, and the cadence is now weekly through August.
+
+One caution recorded with it: the search matches organiser and venue as well as
+title, so a storytelling event comes back under "wool" because the same library
+also hosted a spinning talk. Read the title, not the hit.
 
 ## What a human needs to decide
 
-**Cape Clear still cannot be read, and that is the second anchor unsolved.**
-`cleire.ie` answers 200 and is a JavaScript application: the HTML is script tags.
-`capeclearisland.ie` is server-rendered with a stub diary. Until one of the ferry
-company's site, the island co-op, or a browser-based fetch is in place, a knitting
-weekend on the island will be missed again.
-
-**Heritage Week cannot be filtered through its own index.** Every textile event
-found today links to a heritageweek.ie page, and the national listing yielded
-none of them: 2,648 events, paginated, county filter ineffective on the first
-page. The route that worked was the local organiser's own Heritage Week page.
+**Cape Clear: the site is not broken, it is empty.** Rendering `cleire.ie` in the
+same browser settled it — the JavaScript loads fine and the site is one page: a
+welcome in Irish, a map, a newsletter box, the co-op's contact details. No events
+section, no news, no diary, and one internal link (`/pages/map`). The Shetland
+knitting weekend was never there to be scraped, and no amount of better fetching
+would have found it. It will have been announced on social media, on the tutor's
+own site, or through the ferry company. That is a different problem from the one
+we thought we had, and a harder one.
 
 **The guild is the find of this run.** Its "Upcoming Events 2026" block is prose
 on the homepage — not /events/, which redirects, and not /learn/. Corrected in

@@ -17,17 +17,26 @@ sources:
     url: https://www.heritageweek.ie/event-listings
     homepage: https://www.heritageweek.ie/
     tags: [national, heritage, august, free, demonstration]
-    cadence: quarterly
+    cadence: weekly
     hints: |
-      Where a one-off demonstration gets written down, and where the Clonakilty
-      flax day was listed. Wholly seasonal: the programme opens in July, the week
-      itself is mid-to-late August.
-      **The national index resists a single fetch** — 2,600 events, paginated, and
-      the county filter did not narrow the first page in the 2026-08-20 harvest.
-      Going in through a local organiser's own Heritage Week page worked instead.
-      Try the map view, or work out the real query parameter.
+      **The richest source in this catalogue, and it needs a browser.** The listing
+      is a JavaScript application: a plain fetch gets a shell and the unfiltered
+      first page, which is why the first attempt at it found nothing. Rendered — in
+      headless Chrome, `--dump-dom` with a virtual time budget — it works.
+      **Search it, do not browse it.** It takes a `?q=` parameter, so the route is
+      one search per word of the vocabulary rather than paging 2,600 events:
+      `?q=wool`, `?q=weaving`, `?q=knitting`, `?q=crochet`, `?q=spinning`,
+      `?q=felting`, `?q=dyeing`, `?q=flax`, `?q=textile`, `?q=quilt`, `?q=lace`.
+      Eleven searches returned 33 Munster hits on 2026-08-20.
+      The search matches organiser and venue as well as title, so it returns a
+      storytelling event under "wool" when the same library also ran a spinning
+      talk. Read the title before recording.
+      Weekly, not quarterly: the programme is live through August and events three
+      days out are the ones worth having. Outside July–September there is nothing
+      to fetch.
     notes: >-
-      Verified 2026-08-20: 200, listing 2026 events.
+      Verified 2026-08-20: 200, listing 2026 events. Twenty Munster fibre events
+      came out of it once it was rendered and searched rather than fetched.
     addedAt: "2026-08-20"
     verifiedAt: "2026-08-20"
 
@@ -149,12 +158,15 @@ sources:
     hints: |
       **The Shetland knitting weekend was here**, and it is the reason this entry
       exists. A visiting tutor's weekend on the island is announced here or nowhere.
-      **It cannot currently be read.** The site answers 200 but is a JavaScript
-      application: the HTML is script tags and nothing else, so a fetch sees no
-      events. `capeclearisland.ie` is server-rendered but its Diary page is a stub.
-      Until this is solved — a browser fetch, the ferry company's site, or the
-      island co-op — Cape Clear will be missed again. Say so in the run report
-      rather than recording a quiet zero.
+      **Rendering it settled the question, and the answer is worse than a broken
+      fetch: there is nothing there.** Loaded in headless Chrome the site renders
+      fully — and it is a one-page site: a welcome in Irish, a map, a newsletter
+      box and the co-op's contact details. No events section, no news, no diary,
+      and the only internal link is `/pages/map`.
+      So the knitting weekend was never here to be missed. It will have been on
+      social media, or on the tutor's own site, or in the ferry company's listings.
+      Keep this source at a low cadence as the island's front door, and look for the
+      event elsewhere.
     notes: >-
       Verified 2026-08-20: 200, and the page is the island's own — but JS-only.
     addedAt: "2026-08-20"

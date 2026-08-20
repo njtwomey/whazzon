@@ -1,0 +1,439 @@
+{
+  "schema": "whazzon.snapshot/1",
+  "location": {
+    "id": "ie-munster",
+    "name": "Munster",
+    "region": "Ireland's south-west",
+    "country": "Ireland",
+    "timezone": "Europe/Dublin"
+  },
+  "generatedAt": "2026-08-20T10:22:39Z",
+  "asOf": "2026-08-20",
+  "categories": [
+    {
+      "category": "fibre",
+      "label": "Fibre & Textile Making",
+      "description": "The places that put on a day of wool: mills with working looms, shops that sell a ticket as well as yarn, and the heritage projects that have taken a fibre strand and run with it.\nShort on purpose. Munster has plenty of craft venues and almost none of them are about fibre — a gallery with a textile show twice a decade is not a source, it is a coincidence. The first version of this catalogue was full of arts centres and craft fairs; they are gone, and what is left is the handful of places where wool is actually the subject.",
+      "sourceCount": 3,
+      "eventCount": 4
+    },
+    {
+      "category": "guilds",
+      "label": "Guilds & Networks",
+      "description": "The bodies whose whole purpose is this subject: the weavers', spinners' and dyers' guild, the textile networks, the wool council.\nThese matter more than venues here. A one-off fibre day in Munster is usually organised by two people in a guild rather than programmed by a building, and a guild's news page is the closest thing to a diary the subject has. They are also where a visiting tutor gets announced — which is exactly how a Shetland knitting weekend ends up on an island off Cork.",
+      "sourceCount": 3,
+      "eventCount": 2
+    },
+    {
+      "category": "notices",
+      "label": "Listings & Notices",
+      "description": "The nets: national schemes with searchable programmes, the craft agencies, and the two West Cork papers that covered the flax revival when nobody else did.\nA one-off run by two people has no website, so this is where it gets written down — but nearly everything these sources carry is out of scope. They are fetched for the textile strand and nothing else.",
+      "sourceCount": 7,
+      "eventCount": 0
+    }
+  ],
+  "sources": [
+    {
+      "id": "fibre/duchas-clonakilty",
+      "name": "Dúchas Clonakilty Heritage — flax and linen",
+      "category": "fibre",
+      "kind": "organiser",
+      "status": "provisional",
+      "url": "https://duchasclonakiltyheritage.ie/News-and-Events/",
+      "area": "Clonakilty",
+      "tags": [
+        "flax",
+        "linen",
+        "heritage",
+        "demonstration",
+        "weaving"
+      ],
+      "lastHarvest": "2026-08-20"
+    },
+    {
+      "id": "fibre/muckross-craft-centre",
+      "name": "Muckross Craft Centre, Killarney",
+      "category": "fibre",
+      "kind": "venue",
+      "status": "provisional",
+      "url": "https://muckross-house.ie/events/",
+      "area": "Killarney",
+      "tags": [
+        "weaving",
+        "demonstration",
+        "heritage",
+        "kerry",
+        "workshop"
+      ],
+      "lastHarvest": "2026-08-20"
+    },
+    {
+      "id": "fibre/vibes-and-scribes",
+      "name": "Vibes & Scribes, Cork — events",
+      "category": "fibre",
+      "kind": "venue",
+      "status": "provisional",
+      "url": "https://www.vibesandscribes.ie/events/tickets/",
+      "area": "Cork city",
+      "tags": [
+        "knitting",
+        "crochet",
+        "yarn",
+        "workshop",
+        "class"
+      ],
+      "lastHarvest": "2026-08-20"
+    },
+    {
+      "id": "guilds/weavers-spinners-dyers",
+      "name": "The Irish Guild of Weavers, Spinners and Dyers",
+      "category": "guilds",
+      "kind": "organiser",
+      "status": "provisional",
+      "url": "https://weavespindye.ie/",
+      "tags": [
+        "weaving",
+        "spinning",
+        "dyeing",
+        "guild",
+        "workshop",
+        "national"
+      ],
+      "lastHarvest": "2026-08-20"
+    },
+    {
+      "id": "guilds/cork-textiles-network",
+      "name": "Cork Textiles Network",
+      "category": "guilds",
+      "kind": "organiser",
+      "status": "provisional",
+      "url": "https://corktextilesnetwork.com/events/",
+      "tags": [
+        "textiles",
+        "exhibition",
+        "workshop",
+        "members"
+      ],
+      "lastHarvest": "2026-08-20"
+    },
+    {
+      "id": "guilds/irish-grown-wool-council",
+      "name": "Irish Grown Wool Council",
+      "category": "guilds",
+      "kind": "organiser",
+      "status": "provisional",
+      "url": "https://irishgrownwoolcouncil.com/",
+      "tags": [
+        "wool",
+        "farming",
+        "conference",
+        "national",
+        "fleece"
+      ],
+      "lastHarvest": "2026-08-20"
+    },
+    {
+      "id": "notices/heritage-week",
+      "name": "National Heritage Week — event listings",
+      "category": "notices",
+      "kind": "listing",
+      "status": "provisional",
+      "url": "https://www.heritageweek.ie/event-listings",
+      "tags": [
+        "national",
+        "heritage",
+        "august",
+        "free",
+        "demonstration"
+      ],
+      "lastHarvest": "2026-08-20"
+    },
+    {
+      "id": "notices/culture-night",
+      "name": "Culture Night / Oíche Chultúir",
+      "category": "notices",
+      "kind": "listing",
+      "status": "provisional",
+      "url": "https://culturenight.ie/",
+      "tags": [
+        "national",
+        "september",
+        "free",
+        "open-studio",
+        "demonstration"
+      ]
+    },
+    {
+      "id": "notices/design-crafts-council",
+      "name": "Design & Crafts Council Ireland — What's On",
+      "category": "notices",
+      "kind": "listing",
+      "status": "provisional",
+      "url": "https://www.dcci.ie/whats-on/",
+      "tags": [
+        "national",
+        "craft",
+        "course",
+        "exhibition"
+      ],
+      "lastHarvest": "2026-08-20"
+    },
+    {
+      "id": "notices/cork-craft-and-design",
+      "name": "Cork Craft & Design",
+      "category": "notices",
+      "kind": "organiser",
+      "status": "provisional",
+      "url": "https://corkcraftanddesign.ie/",
+      "area": "Cork",
+      "tags": [
+        "craft",
+        "workshop",
+        "august",
+        "cork"
+      ],
+      "lastHarvest": "2026-08-20"
+    },
+    {
+      "id": "notices/southern-star",
+      "name": "The Southern Star — Things to See & Do",
+      "category": "notices",
+      "kind": "aggregator",
+      "status": "provisional",
+      "url": "https://www.southernstar.ie/things-to-see-and-do",
+      "tags": [
+        "newspaper",
+        "listings",
+        "west-cork"
+      ],
+      "lastHarvest": "2026-08-20"
+    },
+    {
+      "id": "notices/west-cork-people",
+      "name": "West Cork People — Don't Miss",
+      "category": "notices",
+      "kind": "aggregator",
+      "status": "provisional",
+      "url": "https://westcorkpeople.ie/category/dont-miss/",
+      "tags": [
+        "newspaper",
+        "listings",
+        "free-paper",
+        "west-cork"
+      ],
+      "lastHarvest": "2026-08-20"
+    },
+    {
+      "id": "notices/cape-clear-island",
+      "name": "Cape Clear Island / Oileán Chléire",
+      "category": "notices",
+      "kind": "aggregator",
+      "status": "provisional",
+      "url": "https://www.cleire.ie/",
+      "area": "Cape Clear",
+      "tags": [
+        "island",
+        "gaeltacht",
+        "community",
+        "knitting"
+      ],
+      "lastHarvest": "2026-08-20"
+    }
+  ],
+  "events": [
+    {
+      "id": "guilds/weavers-spinners-dyers#e84980d335",
+      "sourceId": "guilds/weavers-spinners-dyers",
+      "sourceName": "The Irish Guild of Weavers, Spinners and Dyers",
+      "category": "guilds",
+      "categoryLabel": "Guilds & Networks",
+      "title": "THREADS — Limerick Lacemakers, Limerick Craft Group and Limerick Patchwork Quilt",
+      "occurrence": {
+        "kind": "single",
+        "date": "2026-08-15"
+      },
+      "status": "scheduled",
+      "state": "finished",
+      "sortDate": "2026-08-15",
+      "endDate": "2026-08-15",
+      "venueName": "King John's Castle",
+      "area": "Limerick",
+      "sourceUrl": "https://weavespindye.ie/",
+      "tags": [
+        "lace",
+        "patchwork",
+        "spinning",
+        "weaving",
+        "demonstration",
+        "limerick"
+      ],
+      "raw": "August Craft Month, Limerick event. Saturday 15th August. THREADS is a\njoint event with Limerick Lacemakers, Limerick Craft group, and Limerick\nPatchwork Quilt. Venue King John's Castle in Limerick. More details to\nfollow. Spinners/weavers who would like to join in, please email me so I\nknow how many are coming.\n",
+      "summary": "Four Limerick textile groups together in King John's Castle for a day of lace, patchwork, spinning and weaving.",
+      "confidence": "medium",
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-20"
+    },
+    {
+      "id": "fibre/duchas-clonakilty#b7f59224ae",
+      "sourceId": "fibre/duchas-clonakilty",
+      "sourceName": "Dúchas Clonakilty Heritage — flax and linen",
+      "category": "fibre",
+      "categoryLabel": "Fibre & Textile Making",
+      "title": "Flax — Threads of Time",
+      "occurrence": {
+        "kind": "single",
+        "date": "2026-08-18",
+        "startTime": "11:00"
+      },
+      "status": "scheduled",
+      "state": "finished",
+      "sortDate": "2026-08-18",
+      "endDate": "2026-08-18",
+      "venueName": "De Barra's",
+      "area": "Clonakilty",
+      "url": "https://www.heritageweek.ie/event-listings/flax-threads-of-time",
+      "sourceUrl": "https://duchasclonakiltyheritage.ie/News-and-Events/",
+      "tags": [
+        "flax",
+        "linen",
+        "exhibition",
+        "heritage"
+      ],
+      "raw": "Flax Threads of Time. 18 August 2026, 11:00, De Barra's, Clonakilty.\nListed in Dúchas Clonakilty Heritage's Heritage Week 2026 programme.\n",
+      "summary": "Kathy Kirwan's flax and linen project, shown in De Barra's — the strand running through Clonakilty's linen bicentenary.",
+      "confidence": "high",
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-20"
+    },
+    {
+      "id": "fibre/duchas-clonakilty#3cf0616596",
+      "sourceId": "fibre/duchas-clonakilty",
+      "sourceName": "Dúchas Clonakilty Heritage — flax and linen",
+      "category": "fibre",
+      "categoryLabel": "Fibre & Textile Making",
+      "title": "The Babóg Project Documentary — Doll Making Workshop",
+      "occurrence": {
+        "kind": "single",
+        "date": "2026-08-19",
+        "startTime": "13:00",
+        "endTime": "14:00"
+      },
+      "status": "scheduled",
+      "state": "finished",
+      "sortDate": "2026-08-19",
+      "endDate": "2026-08-19",
+      "venueName": "Clonakilty Library",
+      "area": "Clonakilty",
+      "url": "https://www.heritageweek.ie/event-listings/the-bab%C3%B3g-project-doll-making-workshop",
+      "sourceUrl": "https://duchasclonakiltyheritage.ie/News-and-Events/",
+      "tags": [
+        "stitch",
+        "workshop",
+        "family",
+        "heritage"
+      ],
+      "raw": "The Babóg Project Documentary - Doll Making Workshop. 19 August 2026,\n13:00 – 14:00, Clonakilty Library. Heritage Week 2026.\n",
+      "summary": "Cloth doll making alongside the Babóg Project documentary, in Clonakilty Library.",
+      "confidence": "medium",
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-20"
+    },
+    {
+      "id": "fibre/duchas-clonakilty#451f1038a8",
+      "sourceId": "fibre/duchas-clonakilty",
+      "sourceName": "Dúchas Clonakilty Heritage — flax and linen",
+      "category": "fibre",
+      "categoryLabel": "Fibre & Textile Making",
+      "title": "Flax Lín Clonakilty — Growing a Local Heritage: Walk & Flax Demonstration",
+      "occurrence": {
+        "kind": "single",
+        "date": "2026-08-20",
+        "startTime": "10:00",
+        "endTime": "12:00"
+      },
+      "status": "scheduled",
+      "state": "listed",
+      "sortDate": "2026-08-20",
+      "endDate": "2026-08-20",
+      "venueName": "Bennet's Mill Field",
+      "area": "Clonakilty",
+      "url": "https://www.heritageweek.ie/event-listings/flax-l%C3%ADn-clonakilty-growing-a-local-heritage-walk-flax-demonstration-3",
+      "sourceUrl": "https://duchasclonakiltyheritage.ie/News-and-Events/",
+      "tags": [
+        "flax",
+        "linen",
+        "demonstration",
+        "heritage",
+        "outdoor"
+      ],
+      "raw": "Flax Lín Clonakilty – Growing a Local Heritage Walk & Flax Demonstration.\n20 August 2026, 10:00 – 12:00, Bennet's Mill Field. Part of the Dúchas\nClonakilty Heritage programme for National Heritage Week 2026.\n",
+      "summary": "A walk through the growing flax and a demonstration of how it becomes linen, in the fields at Clonakilty.",
+      "confidence": "high",
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-20"
+    },
+    {
+      "id": "fibre/duchas-clonakilty#faccf1045e",
+      "sourceId": "fibre/duchas-clonakilty",
+      "sourceName": "Dúchas Clonakilty Heritage — flax and linen",
+      "category": "fibre",
+      "categoryLabel": "Fibre & Textile Making",
+      "title": "Weaving Demonstration with textile artist Louise Deasy",
+      "occurrence": {
+        "kind": "single",
+        "date": "2026-08-22",
+        "startTime": "10:00",
+        "endTime": "16:00"
+      },
+      "status": "scheduled",
+      "state": "listed",
+      "sortDate": "2026-08-22",
+      "endDate": "2026-08-22",
+      "venueName": "Clonakilty Tourist Information Office",
+      "area": "Clonakilty",
+      "url": "https://www.heritageweek.ie/event-listings/weaving-demonstration-with-textile-artist-louise-deasy-2",
+      "sourceUrl": "https://duchasclonakiltyheritage.ie/News-and-Events/",
+      "tags": [
+        "weaving",
+        "demonstration",
+        "textiles",
+        "heritage"
+      ],
+      "raw": "Weaving Demonstration with textile artist Louise Deasy. 22 August 2026,\n10:00 – 16:00, Clonakilty Tourist Information Office. Part of Dúchas\nClonakilty Heritage's National Heritage Week 2026 programme.\n",
+      "summary": "A day at the loom with textile artist Louise Deasy, in the tourist office on Ashe Street.",
+      "confidence": "high",
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-20"
+    },
+    {
+      "id": "guilds/weavers-spinners-dyers#720f72abfe",
+      "sourceId": "guilds/weavers-spinners-dyers",
+      "sourceName": "The Irish Guild of Weavers, Spinners and Dyers",
+      "category": "guilds",
+      "categoryLabel": "Guilds & Networks",
+      "title": "IGWSD Clare group — monthly spinning, weaving and dyeing meet",
+      "occurrence": {
+        "kind": "recurring",
+        "pattern": "First Saturday of the month, in Ennis or elsewhere in Co Clare"
+      },
+      "status": "scheduled",
+      "state": "listed",
+      "venueName": "Ennis and around Co Clare",
+      "area": "Clare",
+      "sourceUrl": "https://weavespindye.ie/",
+      "tags": [
+        "spinning",
+        "weaving",
+        "dyeing",
+        "guild",
+        "clare",
+        "meetup"
+      ],
+      "raw": "A vibrant group of spinners, weavers and dyers that meet monthly on the\n1st Saturday of the month in Ennis, or other parts of Co Clare.\n",
+      "summary": "Munster's standing fibre group — spinners, weavers and dyers meeting the first Saturday of every month in Clare.",
+      "confidence": "medium",
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-20"
+    }
+  ]
+}

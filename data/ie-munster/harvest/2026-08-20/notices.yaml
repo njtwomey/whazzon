@@ -1,0 +1,49 @@
+schema: "whazzon.harvest/1"
+locationId: "ie-munster"
+date: "2026-08-20"
+category: "notices"
+harvestedAt: "2026-08-20T13:30:00Z"
+model: "claude-opus-5[1m]"
+observations:
+  - sourceId: "notices/heritage-week"
+    fetch:
+      ok: true
+      url: "https://www.heritageweek.ie/event-listings?county=cork"
+      status: 200
+    events: []
+    notes: "2,648 events nationally, paginated, and the county filter did not narrow the first page — the only Cork item visible was a knitwear display in the city. This zero matters more than it looks. Every textile event recorded today links to a heritageweek.ie page, so the events *are* here; they cannot be reached through this index in one fetch. Going in through the local organiser's own Heritage Week page worked. Try the map view next, or the real county query parameter."
+  - sourceId: "notices/southern-star"
+    fetch:
+      ok: true
+      url: "https://www.southernstar.ie/things-to-see-and-do"
+      status: 200
+    events: []
+    notes: "Articles, not a diary: headlines with publication dates and the event details inside the piece, some of them subscriber-only. Nothing extractable without opening each story. Still the only source that covers the flax revival ahead of time, which is why it survived the narrowing."
+  - sourceId: "notices/west-cork-people"
+    fetch:
+      ok: true
+      url: "https://westcorkpeople.ie/category/dont-miss/feed/"
+      status: 200
+    events: []
+    notes: "The feed works and is cheap. July and August items are profiles and round-ups; the one exhibition it named was visual art rather than textile, so nothing to record under the narrowed scope."
+  - sourceId: "notices/design-crafts-council"
+    fetch:
+      ok: true
+      url: "https://www.dcci.ie/whats-on/"
+      status: 200
+    events: []
+    notes: "National listing, nothing textile in Munster on it today. Kept for the case it exists for: a maker with no website registering a weekend of dyeing."
+  - sourceId: "notices/cork-craft-and-design"
+    fetch:
+      ok: true
+      url: "https://corkcraftanddesign.ie/"
+      status: 200
+    events: []
+    notes: "A Shopify shop, and today the front page is product collections — felting and textiles among them, but as things to buy rather than dates. Cork Craft Month runs in August and its workshops are sold as products, so the dates live on product pages; a later run should go through the collections rather than the front page."
+  - sourceId: "notices/cape-clear-island"
+    fetch:
+      ok: true
+      url: "https://www.cleire.ie/"
+      status: 200
+    events: []
+    notes: "**The one that matters, and the one that failed.** cleire.ie answers 200 but is a JavaScript application: the HTML is script tags and nothing else, so a fetch reads no events at all. This is the site the Shetland knitting weekend would have been announced on. `capeclearisland.ie` is server-rendered but its Diary page is a stub — a heading and a Fastnet exhibition, no dates. So the island has no machine-readable diary. In order of effort: the ferry company's site, which is server-rendered and has reason to list what is on; the island co-op; or a browser-based fetch."

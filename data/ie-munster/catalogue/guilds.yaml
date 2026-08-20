@@ -1,0 +1,81 @@
+schema: whazzon.catalogue/1
+category: guilds
+label: Guilds & Networks
+description: >-
+  The bodies whose whole purpose is this subject: the weavers', spinners' and
+  dyers' guild, the textile networks, the wool council.
+
+  These matter more than venues here. A one-off fibre day in Munster is usually
+  organised by two people in a guild rather than programmed by a building, and a
+  guild's news page is the closest thing to a diary the subject has. They are also
+  where a visiting tutor gets announced — which is exactly how a Shetland knitting
+  weekend ends up on an island off Cork.
+sources:
+  - id: guilds/weavers-spinners-dyers
+    name: The Irish Guild of Weavers, Spinners and Dyers
+    category: guilds
+    kind: organiser
+    status: provisional
+    url: https://weavespindye.ie/
+
+    tags: [weaving, spinning, dyeing, guild, workshop, national]
+    cadence: monthly
+    hints: |
+      The national guild, and the single most likely source of a Munster one-off.
+      Meetings run monthly around the country — Clare is the Munster one — and
+      members teach workshops from their own studios and on the road.
+      **The events are on the homepage**, in a block of prose headed "Upcoming
+      Events 2026" — not on /learn/, and /events/ redirects to the front page. Dates
+      come without times and often without a full venue, so `confidence: medium` is
+      usually right.
+      National and then some: it lists Belfast and Meath as readily as Clare. Filter
+      to Munster, record the county, and note that /group-meetings/ carries the
+      standing groups if the front page runs thin.
+    notes: >-
+      Verified 2026-08-20: 200. Catalogued at the homepage after the first harvest
+      found the diary there; /events/ redirects and /learn/ is a teaching page.
+    addedAt: "2026-08-20"
+    verifiedAt: "2026-08-20"
+
+  - id: guilds/cork-textiles-network
+    name: Cork Textiles Network
+    category: guilds
+    kind: organiser
+    status: provisional
+    url: https://corktextilesnetwork.com/events/
+    homepage: https://corktextilesnetwork.com/
+    tags: [textiles, exhibition, workshop, members]
+    cadence: quarterly
+    hints: |
+      A county-wide network of textile artists with an events page of its own.
+      Much of what it runs is members-only and in the city, and the page is largely
+      retrospective — the annual members' exhibition is the reliable date. Take the
+      exhibitions and anything open to non-members.
+      Bot-walled: it refuses some fetchers with a 403 and answers a browser
+      user-agent.
+    notes: >-
+      Verified 2026-08-20: 200 in a browser. The first harvest found the events
+      page to be an archive with nothing forward, hence quarterly.
+    addedAt: "2026-08-20"
+    verifiedAt: "2026-08-20"
+
+  - id: guilds/irish-grown-wool-council
+    name: Irish Grown Wool Council
+    category: guilds
+    kind: organiser
+    status: provisional
+    url: https://irishgrownwoolcouncil.com/
+    tags: [wool, farming, conference, national, fleece]
+    cadence: quarterly
+    hints: |
+      The body for Irish-grown wool as a material — farming, fleece, processing —
+      and it publishes a "Dates for your Diary" page each year, which is the route
+      to fetch when it exists for the current year (`/dates-for-your-diary-2025/`
+      was the pattern; do not assume the 2026 slug, check it).
+      This is where the trade end of wool surfaces: European Wool Day 2026 was in
+      Tralee in March, which is exactly the kind of thing no arts listing carries.
+      Take events in Munster and anything national that is open to the public.
+    notes: >-
+      Verified 2026-08-20: 200. /events/ is a 404; the diary is a page per year.
+    addedAt: "2026-08-20"
+    verifiedAt: "2026-08-20"

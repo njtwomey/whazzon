@@ -1,0 +1,87 @@
+schema: whazzon.catalogue/1
+category: fibre
+label: Fibre & Textile Making
+description: >-
+  The places that put on a day of wool: mills with working looms, shops that sell
+  a ticket as well as yarn, and the heritage projects that have taken a fibre
+  strand and run with it.
+
+  Short on purpose. Munster has plenty of craft venues and almost none of them are
+  about fibre — a gallery with a textile show twice a decade is not a source, it
+  is a coincidence. The first version of this catalogue was full of arts centres
+  and craft fairs; they are gone, and what is left is the handful of places where
+  wool is actually the subject.
+sources:
+  - id: fibre/duchas-clonakilty
+    name: Dúchas Clonakilty Heritage — flax and linen
+    category: fibre
+    kind: organiser
+    status: provisional
+    url: https://duchasclonakiltyheritage.ie/News-and-Events/
+    homepage: https://duchasclonakiltyheritage.ie/
+    area: Clonakilty
+    tags: [flax, linen, heritage, demonstration, weaving]
+    cadence: monthly
+    hints: |
+      **The source that caught the flax day.** Dúchas runs the Clonakilty end of
+      the flax and linen revival — "Flax – Threads of Time", the Mallow-to-Mizen
+      thread project — and 2026 is the bicentenary of the collapse of the town's
+      linen industry, so the flax programme is unusually heavy this year.
+      **Go to the sub-page, not the index.** The News-and-Events index carries a
+      couple of dated posts; the programme is one level down, and the Heritage
+      Week 2026 page alone held eleven events.
+      Take the fibre strand only. The same society runs graveyard tours, U-boat
+      lectures and country house walks, none of which belong here.
+    notes: >-
+      Verified 2026-08-20: 200, with forward dates.
+    addedAt: "2026-08-20"
+    verifiedAt: "2026-08-20"
+
+  - id: fibre/muckross-craft-centre
+    name: Muckross Craft Centre, Killarney
+    category: fibre
+    kind: venue
+    status: provisional
+    url: https://muckross-house.ie/events/
+    homepage: https://muckross-house.ie/muckross-craft-centre/
+    area: Killarney
+    tags: [weaving, demonstration, heritage, kerry, workshop]
+    cadence: monthly
+    hints: |
+      Weaving on Hattersley looms nearly two centuries old, beside the traditional
+      farms in Killarney National Park. The looms run through the season, which is
+      a standing attraction rather than an event — what this location wants is the
+      workshop programme, which appears around Heritage Week and is announced as a
+      news post rather than in a diary.
+      /events/ is the diary and is what this points at; the craft centre page
+      describes the looms and carries no dates. /news/ is a 404.
+      Ignore the pottery and bookbinding unless a textile strand is in them.
+    notes: >-
+      Verified 2026-08-20: 200, corrected to /events/ after the first harvest found
+      the craft centre page had no dates. Kerry's only real fibre venue here,
+      and the one place in Munster where weaving happens daily.
+    addedAt: "2026-08-20"
+    verifiedAt: "2026-08-20"
+
+  - id: fibre/vibes-and-scribes
+    name: Vibes & Scribes, Cork — events
+    category: fibre
+    kind: venue
+    status: provisional
+    url: https://www.vibesandscribes.ie/events/tickets/
+    homepage: https://www.vibesandscribes.ie/
+    area: Cork city
+    tags: [knitting, crochet, yarn, workshop, class]
+    cadence: monthly
+    hints: |
+      Cork's yarn shop, and the page catalogued here is where it sells tickets to
+      its own events — which is as close to a listings page as a shop gets.
+      Take one-off workshops and visiting tutors. A standing weekly class is not
+      what this location is for, and the shop's stock pages are not events at all:
+      if the extraction starts producing yarn brands, it has wandered into the
+      catalogue.
+    notes: >-
+      Verified 2026-08-20: 200. A shop page rather than a diary, catalogued for
+      what it sometimes carries.
+    addedAt: "2026-08-20"
+    verifiedAt: "2026-08-20"

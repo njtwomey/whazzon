@@ -1,0 +1,102 @@
+schema: "whazzon.harvest/1"
+locationId: "ie-munster"
+date: "2026-08-20"
+category: "guilds"
+harvestedAt: "2026-08-20T13:20:00Z"
+model: "claude-opus-5[1m]"
+observations:
+  - sourceId: "guilds/weavers-spinners-dyers"
+    fetch:
+      ok: true
+      url: "https://weavespindye.ie/"
+      status: 200
+    events:
+      - id: "guilds/weavers-spinners-dyers#e84980d335"
+        sourceId: "guilds/weavers-spinners-dyers"
+        title: "THREADS — Limerick Lacemakers, Limerick Craft Group and Limerick Patchwork Quilt"
+        occurrence:
+          kind: "single"
+          date: "2026-08-15"
+        status: "scheduled"
+        venue:
+          name: "King John's Castle"
+          area: "Limerick"
+        tags:
+          - "lace"
+          - "patchwork"
+          - "spinning"
+          - "weaving"
+          - "demonstration"
+          - "limerick"
+        raw: "August Craft Month, Limerick event. Saturday 15th August. THREADS is a
+
+          joint event with Limerick Lacemakers, Limerick Craft group, and Limerick
+
+          Patchwork Quilt. Venue King John's Castle in Limerick. More details to
+
+          follow. Spinners/weavers who would like to join in, please email me so I
+
+          know how many are coming.\n"
+        summary: "Four Limerick textile groups together in King John's Castle for a day of lace, patchwork, spinning and weaving."
+        confidence: "medium"
+      - id: "guilds/weavers-spinners-dyers#c52d5a8eb1"
+        sourceId: "guilds/weavers-spinners-dyers"
+        title: "Kilmihil Festival of Fun — Memory Lane craft demonstrations"
+        occurrence:
+          kind: "single"
+          date: "2026-08-03"
+        status: "scheduled"
+        venue:
+          name: "Kilmihil"
+          area: "West Clare"
+        tags:
+          - "demonstration"
+          - "traditional-craft"
+          - "festival"
+          - "clare"
+        raw: "Kilmihil Festival of Fun, 3rd August, 2026: an international festival held
+
+          in west Clare over the August bank holiday period are looking for
+
+          traditional crafters to demonstrate their crafts as part of the festival
+
+          Memory Lane event on Monday 3rd August (August bank holiday Monday).\n"
+        summary: "Traditional crafters demonstrating at the west Clare festival's Memory Lane, on the bank holiday Monday."
+        confidence: "medium"
+      - id: "guilds/weavers-spinners-dyers#720f72abfe"
+        sourceId: "guilds/weavers-spinners-dyers"
+        title: "IGWSD Clare group — monthly spinning, weaving and dyeing meet"
+        occurrence:
+          kind: "recurring"
+          pattern: "First Saturday of the month, in Ennis or elsewhere in Co Clare"
+        status: "scheduled"
+        venue:
+          name: "Ennis and around Co Clare"
+          area: "Clare"
+        tags:
+          - "spinning"
+          - "weaving"
+          - "dyeing"
+          - "guild"
+          - "clare"
+          - "meetup"
+        raw: "A vibrant group of spinners, weavers and dyers that meet monthly on the
+
+          1st Saturday of the month in Ennis, or other parts of Co Clare.\n"
+        summary: "Munster's standing fibre group — spinners, weavers and dyers meeting the first Saturday of every month in Clare."
+        confidence: "medium"
+    notes: "**The best source in this catalogue, and it is the homepage rather than /learn/ or /events/** — the catalogue has been corrected. \"Upcoming Events 2026\" is a block of prose on the front page, not a diary, so dates come with no times and often no venue detail. Two Munster events were listed and both have just passed, which is the cost of catalogueing this a week late rather than a fault in the source. Also listed, and deliberately not recorded: the Midlands Fibre Festival in Athlone on 11 October, which is the nearest large fibre event but is outside the province; a tapestry exhibition at Brú na Bóinne; and a Belfast textile exhibition. Worth knowing that this source reaches well beyond Munster. Refuses WebFetch with a 403 and answers a browser user-agent."
+  - sourceId: "guilds/cork-textiles-network"
+    fetch:
+      ok: true
+      url: "https://corktextilesnetwork.com/events/"
+      status: 200
+    events: []
+    notes: "Nothing forward. The events page is a retrospective archive — newest post the 2025 annual exhibition, then members' workshops from 2024 and 2025. Mostly city-based and members-only, hence quarterly."
+  - sourceId: "guilds/irish-grown-wool-council"
+    fetch:
+      ok: true
+      url: "https://irishgrownwoolcouncil.com/"
+      status: 200
+    events: []
+    notes: "Nothing forward today. The newest posts are the European Wool Day 2026 conference — held in Tralee on 28 March, with a free public fringe day of wool crafts and demonstrations — and its recordings. That is the trade end of wool, and it is the reason this source is here: no arts listing in Ireland carried a wool conference in Kerry. The \"Dates for your Diary\" page is per year, so find this year's slug rather than assuming it."

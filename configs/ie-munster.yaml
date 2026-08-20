@@ -1,0 +1,78 @@
+schema: whazzon.location/1
+
+id: ie-munster
+name: Munster
+region: Ireland's south-west
+country: Ireland
+timezone: Europe/Dublin
+language: en-IE
+
+# Roughly the middle of the province, north of Mallow. The radius covers all six
+# counties, which is the point: this location started as West Cork and could not
+# fill a calendar, because the thing it looks for is rare. A knitting weekend or a
+# flax day is worth a drive to Tralee or Ennis, so the net is the province.
+centre:
+  lat: 52.3000
+  lon: -8.6000
+radiusKm: 130
+
+# Lives at data/ie-munster/assets/bantry.svg. Bantry Bay: Whiddy Island, the Cahas
+# behind it, the town along the shore, a stone wall in front. It stays after the
+# widening to the province — Bantry is in Munster, it is where this started, and a
+# province has no skyline to draw anyway. The horse, the bees and the tuxedo cat
+# are there because they were asked for, and they earn their place: this location
+# is about people making things in fields like these, not about venues.
+image: bantry.svg
+imageCredit: "Original illustration for whazzon: Bantry Bay, Whiddy Island and the Caha mountains"
+
+# This file's name must match `id:` above — configs/<id>.yaml.
+character: |
+  The six counties of Munster — Cork, Kerry, Limerick, Clare, Tipperary and
+  Waterford — treated as one place, because the thing this location is for is too
+  rare to fill a calendar in any one of them.
+
+  **This is a fibre and textile location and nothing else.** Wool, knitting,
+  crochet, weaving, spinning, felting, natural dyeing, stitch, quilting and
+  patchwork, and flax and linen. Not art. Not general craft. A ceramics workshop,
+  a painting exhibition or a jewellery fair does not belong here however good it
+  is, and the first version of this catalogue was full of exactly that.
+
+  **And it wants one-off events.** The weekly market, the standing Saturday class,
+  the shop that always has yarn — none of those is the point, and a listing full
+  of them buries the thing that is. What is wanted is the day that happens once:
+  a visiting tutor, a demonstration, a festival, a guild meeting open to
+  non-members, a flax harvest.
+
+  Two events are the anchor, and they define the standard:
+
+  - a **flax and linen** day in **Clonakilty**, part of a live revival of an
+    industry the town lost two centuries ago
+  - a **Shetland knitting** weekend on **Cape Clear**
+
+  Neither was a venue's standing programme. Both were run by one or two people and
+  announced through a local paper, a guild's newsletter or a heritage scheme.
+
+  What follows from that:
+
+  - **Guilds and networks matter more than venues.** The Irish Guild of Weavers,
+    Spinners and Dyers, the textile networks, the wool council: these are the
+    bodies that actually organise a one-off, and their news pages are the closest
+    thing to a diary this subject has.
+  - **Two weeks of the year carry a disproportionate amount** — Heritage Week in
+    August and Culture Night in September, when demonstrations and open studios
+    surface that exist at no other time.
+  - **Distance is a real filter, but a large one.** Someone in West Cork will
+    drive to Killarney or Limerick for a day of spinning. Always record the town
+    and the county so that judgement can be made.
+  - **Wool is farmed here as well as knitted.** Sheep, fleece and the wool trade
+    are in scope when the event is about the fibre; a sheepdog trial is not.
+
+aggregatorPolicy: |
+  The aggregators are the main net, because a one-off run by two people has no
+  site of its own. Catalogue the guilds and the wool bodies first, then the
+  national schemes that publish a searchable programme — Heritage Week and Culture
+  Night above all — and keep the West Cork papers, which are what covered the flax
+  revival when nobody else did.
+
+  Filter savagely on the way in. Nearly everything these sources carry is out of
+  scope: this location wants the textile strand and nothing around it.

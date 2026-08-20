@@ -1,0 +1,161 @@
+schema: whazzon.catalogue/1
+category: notices
+label: Listings & Notices
+description: >-
+  The nets: national schemes with searchable programmes, the craft agencies, and
+  the two West Cork papers that covered the flax revival when nobody else did.
+
+  A one-off run by two people has no website, so this is where it gets written
+  down — but nearly everything these sources carry is out of scope. They are
+  fetched for the textile strand and nothing else.
+sources:
+  - id: notices/heritage-week
+    name: National Heritage Week — event listings
+    category: notices
+    kind: listing
+    status: provisional
+    url: https://www.heritageweek.ie/event-listings
+    homepage: https://www.heritageweek.ie/
+    tags: [national, heritage, august, free, demonstration]
+    cadence: quarterly
+    hints: |
+      Where a one-off demonstration gets written down, and where the Clonakilty
+      flax day was listed. Wholly seasonal: the programme opens in July, the week
+      itself is mid-to-late August.
+      **The national index resists a single fetch** — 2,600 events, paginated, and
+      the county filter did not narrow the first page in the 2026-08-20 harvest.
+      Going in through a local organiser's own Heritage Week page worked instead.
+      Try the map view, or work out the real query parameter.
+    notes: >-
+      Verified 2026-08-20: 200, listing 2026 events.
+    addedAt: "2026-08-20"
+    verifiedAt: "2026-08-20"
+
+  - id: notices/culture-night
+    name: Culture Night / Oíche Chultúir
+    category: notices
+    kind: listing
+    status: provisional
+    url: https://culturenight.ie/
+    tags: [national, september, free, open-studio, demonstration]
+    cadence: quarterly
+    hints: |
+      One night in September, free, and the night weavers and spinners open their
+      studios. The programme goes up a few weeks beforehand and is filterable by
+      county — take the six Munster counties.
+      Nothing to fetch for most of the year. Answers a browser user-agent but gives
+      `check-urls` a 403.
+    notes: >-
+      Verified 2026-08-20: 200 in a browser.
+    addedAt: "2026-08-20"
+    verifiedAt: "2026-08-20"
+
+  - id: notices/design-crafts-council
+    name: Design & Crafts Council Ireland — What's On
+    category: notices
+    kind: listing
+    status: provisional
+    url: https://www.dcci.ie/whats-on/
+    homepage: https://www.dcci.ie/
+    tags: [national, craft, course, exhibition]
+    cadence: monthly
+    hints: |
+      The national agency's diary. Overwhelmingly out of scope — ceramics,
+      jewellery, furniture — so take the textile entries and leave the rest.
+      Worth the fetch because a maker running a weekend of natural dyeing in a
+      village hall will sometimes register it here and nowhere else.
+    notes: >-
+      Verified 2026-08-20: 200.
+    addedAt: "2026-08-20"
+    verifiedAt: "2026-08-20"
+
+  - id: notices/cork-craft-and-design
+    name: Cork Craft & Design
+    category: notices
+    kind: organiser
+    status: provisional
+    url: https://corkcraftanddesign.ie/
+    area: Cork
+    tags: [craft, workshop, august, cork]
+    cadence: monthly
+    hints: |
+      Runs Cork Craft Month every August, which is a fortnight of workshops across
+      the county and reliably includes weaving, felting and natural dyeing among
+      the pottery and silversmithing.
+      A Shopify site: workshops are sold as products, so a date lives on a product
+      page. Take only the textile ones.
+      `corkcraftanddesign.com` redirects here; catalogued at the domain that
+      serves.
+    notes: >-
+      Verified 2026-08-20: 200. The page title reads "Visa" because the payment
+      icons load before the shop name — it is the real Cork Craft & Design shop,
+      not a parked domain.
+    addedAt: "2026-08-20"
+    verifiedAt: "2026-08-20"
+
+  - id: notices/southern-star
+    name: The Southern Star — Things to See & Do
+    category: notices
+    kind: aggregator
+    status: provisional
+    url: https://www.southernstar.ie/things-to-see-and-do
+    homepage: https://www.southernstar.ie/
+    tags: [newspaper, listings, west-cork]
+    cadence: weekly
+    hints: |
+      West Cork's paper of record, and the only source that has covered the flax
+      revival repeatedly and ahead of time. Kept even though this location is now
+      province-wide, because nothing else covers that story.
+      A section of articles rather than a diary: the date is inside the prose and
+      some pieces are subscriber-only. Follow only headlines that name a month or
+      a weekend, and record `undated` with a note rather than guessing.
+    notes: >-
+      Verified 2026-08-20: 200. /whats-on is a 404.
+    addedAt: "2026-08-20"
+    verifiedAt: "2026-08-20"
+
+  - id: notices/west-cork-people
+    name: West Cork People — Don't Miss
+    category: notices
+    kind: aggregator
+    status: provisional
+    url:
+      - role: listings
+        url: https://westcorkpeople.ie/category/dont-miss/
+      - role: feed
+        url: https://westcorkpeople.ie/category/dont-miss/feed/
+    homepage: https://westcorkpeople.ie/
+    tags: [newspaper, listings, free-paper, west-cork]
+    cadence: weekly
+    hints: |
+      The free monthly paper's what's-on column. WordPress underneath, so read the
+      category feed first and open a page only when an item looks textile.
+      Cheap enough to keep despite the widening: it is one fetch and it found an
+      exhibition nobody else listed.
+    notes: >-
+      Verified 2026-08-20: both routes 200, and the feed returns XML.
+    addedAt: "2026-08-20"
+    verifiedAt: "2026-08-20"
+
+  - id: notices/cape-clear-island
+    name: Cape Clear Island / Oileán Chléire
+    category: notices
+    kind: aggregator
+    status: provisional
+    url: https://www.cleire.ie/
+    area: Cape Clear
+    tags: [island, gaeltacht, community, knitting]
+    cadence: monthly
+    hints: |
+      **The Shetland knitting weekend was here**, and it is the reason this entry
+      exists. A visiting tutor's weekend on the island is announced here or nowhere.
+      **It cannot currently be read.** The site answers 200 but is a JavaScript
+      application: the HTML is script tags and nothing else, so a fetch sees no
+      events. `capeclearisland.ie` is server-rendered but its Diary page is a stub.
+      Until this is solved — a browser fetch, the ferry company's site, or the
+      island co-op — Cape Clear will be missed again. Say so in the run report
+      rather than recording a quiet zero.
+    notes: >-
+      Verified 2026-08-20: 200, and the page is the island's own — but JS-only.
+    addedAt: "2026-08-20"
+    verifiedAt: "2026-08-20"

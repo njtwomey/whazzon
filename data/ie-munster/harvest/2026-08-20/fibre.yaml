@@ -1,18 +1,18 @@
 schema: "whazzon.harvest/1"
-locationId: "ie-west-cork"
+locationId: "ie-munster"
 date: "2026-08-20"
-category: "textiles"
-harvestedAt: "2026-08-20T11:20:00Z"
+category: "fibre"
+harvestedAt: "2026-08-20T13:10:00Z"
 model: "claude-opus-5[1m]"
 observations:
-  - sourceId: "textiles/duchas-clonakilty"
+  - sourceId: "fibre/duchas-clonakilty"
     fetch:
       ok: true
       url: "https://duchasclonakiltyheritage.ie/News-and-Events/Heritage-Week-2026/"
       status: 200
     events:
-      - id: "textiles/duchas-clonakilty#df5b2b84ea"
-        sourceId: "textiles/duchas-clonakilty"
+      - id: "fibre/duchas-clonakilty#451f1038a8"
+        sourceId: "fibre/duchas-clonakilty"
         title: "Flax Lín Clonakilty — Growing a Local Heritage: Walk & Flax Demonstration"
         occurrence:
           kind: "single"
@@ -26,9 +26,9 @@ observations:
         url: "https://www.heritageweek.ie/event-listings/flax-l%C3%ADn-clonakilty-growing-a-local-heritage-walk-flax-demonstration-3"
         tags:
           - "flax"
-          - "textiles"
-          - "heritage"
+          - "linen"
           - "demonstration"
+          - "heritage"
           - "outdoor"
         raw: "Flax Lín Clonakilty – Growing a Local Heritage Walk & Flax Demonstration.
 
@@ -37,8 +37,8 @@ observations:
           Clonakilty Heritage programme for National Heritage Week 2026.\n"
         summary: "A walk through the growing flax and a demonstration of how it becomes linen, in the fields at Clonakilty."
         confidence: "high"
-      - id: "textiles/duchas-clonakilty#a3f38610dd"
-        sourceId: "textiles/duchas-clonakilty"
+      - id: "fibre/duchas-clonakilty#faccf1045e"
+        sourceId: "fibre/duchas-clonakilty"
         title: "Weaving Demonstration with textile artist Louise Deasy"
         occurrence:
           kind: "single"
@@ -52,18 +52,18 @@ observations:
         url: "https://www.heritageweek.ie/event-listings/weaving-demonstration-with-textile-artist-louise-deasy-2"
         tags:
           - "weaving"
-          - "textiles"
           - "demonstration"
+          - "textiles"
           - "heritage"
         raw: "Weaving Demonstration with textile artist Louise Deasy. 22 August 2026,
 
           10:00 – 16:00, Clonakilty Tourist Information Office. Part of Dúchas
 
           Clonakilty Heritage's National Heritage Week 2026 programme.\n"
-        summary: "A day-long weaving demonstration by textile artist Louise Deasy, in the tourist office on Ashe Street."
+        summary: "A day at the loom with textile artist Louise Deasy, in the tourist office on Ashe Street."
         confidence: "high"
-      - id: "textiles/duchas-clonakilty#e5938c89ba"
-        sourceId: "textiles/duchas-clonakilty"
+      - id: "fibre/duchas-clonakilty#b7f59224ae"
+        sourceId: "fibre/duchas-clonakilty"
         title: "Flax — Threads of Time"
         occurrence:
           kind: "single"
@@ -77,16 +77,15 @@ observations:
         tags:
           - "flax"
           - "linen"
-          - "textiles"
           - "exhibition"
           - "heritage"
         raw: "Flax Threads of Time. 18 August 2026, 11:00, De Barra's, Clonakilty.
 
           Listed in Dúchas Clonakilty Heritage's Heritage Week 2026 programme.\n"
-        summary: "Kathy Kirwan's flax and linen project, shown in De Barra's — the strand that has been running through Clonakilty's bicentenary year."
+        summary: "Kathy Kirwan's flax and linen project, shown in De Barra's — the strand running through Clonakilty's linen bicentenary."
         confidence: "high"
-      - id: "textiles/duchas-clonakilty#a60162f852"
-        sourceId: "textiles/duchas-clonakilty"
+      - id: "fibre/duchas-clonakilty#3cf0616596"
+        sourceId: "fibre/duchas-clonakilty"
         title: "The Babóg Project Documentary — Doll Making Workshop"
         occurrence:
           kind: "single"
@@ -99,42 +98,27 @@ observations:
           area: "Clonakilty"
         url: "https://www.heritageweek.ie/event-listings/the-bab%C3%B3g-project-doll-making-workshop"
         tags:
-          - "craft"
+          - "stitch"
           - "workshop"
           - "family"
           - "heritage"
         raw: "The Babóg Project Documentary - Doll Making Workshop. 19 August 2026,
 
           13:00 – 14:00, Clonakilty Library. Heritage Week 2026.\n"
-        summary: "A doll-making workshop alongside the Babóg Project documentary, in Clonakilty Library."
-        confidence: "high"
-      - id: "textiles/duchas-clonakilty#0569e4f74f"
-        sourceId: "textiles/duchas-clonakilty"
-        title: "Masters: The Stories Behind the Skills"
-        occurrence:
-          kind: "single"
-          date: "2026-08-19"
-          startTime: "15:00"
-        status: "scheduled"
-        venue:
-          name: "Ballineen Enniskeane Community Centre"
-          area: "Ballineen"
-        url: "https://www.heritageweek.ie/event-listings/masters-the-stories-behind-the-skills"
-        tags:
-          - "craft"
-          - "heritage"
-          - "talk"
-          - "booking-required"
-        raw: "Masters: The Stories Behind the Skills. 19 August 2026, 15:00, Ballineen
-
-          Enniskeane Community Centre. Registration required. Heritage Week 2026.\n"
-        summary: "Traditional makers on the skills they carry, at the community centre in Ballineen. Registration required."
+        summary: "Cloth doll making alongside the Babóg Project documentary, in Clonakilty Library."
         confidence: "medium"
-    notes: "The society's News-and-Events index carries only two dated items, both of them posts rather than events; the actual programme is one level down, on the Heritage Week 2026 page. Worth a hint on the source: go to the sub-page, not the index. Only the making strand is recorded. The same programme also holds church and graveyard tours, a documentary screening and a country house tour, which are out of scope for this location."
-  - sourceId: "textiles/cork-textiles-network"
+    notes: "The programme is on the Heritage Week sub-page, not the News-and-Events index. Only the textile strand is recorded: the same programme holds graveyard tours, a U-boat lecture, a country house tour and a documentary screening, none of which belong in this location."
+  - sourceId: "fibre/muckross-craft-centre"
     fetch:
       ok: true
-      url: "https://corktextilesnetwork.com/events/"
+      url: "https://muckross-house.ie/events/"
       status: 200
     events: []
-    notes: "Nothing forward. The events page is a retrospective archive — the newest posts are the 2025 annual exhibition and members' workshops from 2024 and 2025, with no dates ahead of today. Most of it is Cork city and much is members-only, so the West Cork yield will always be thin. Suggest dropping the cadence to quarterly. Refused WebFetch with a 403 and answered a browser user-agent, so it is bot-walled rather than dead."
+    notes: "/events/ is the real diary and the catalogue has been corrected to it — the craft centre page is a description of the looms rather than a listing. Two events on it, both from February and neither textile: a lecture series on the Easter Rising and a St Brigid's evening. The weaving itself runs daily through the season, which is an attraction rather than an event. The workshop programme that surfaces around Heritage Week was not on the site today; its 2025 post is now a 404."
+  - sourceId: "fibre/vibes-and-scribes"
+    fetch:
+      ok: true
+      url: "https://www.vibesandscribes.ie/events/tickets/"
+      status: 200
+    events: []
+    notes: "A Shopify-style shop category for event tickets, and today it renders as the yarn catalogue with no tickets in it. Kept: when this shop runs a visiting tutor, this is where the ticket appears. Watch that an extraction does not start recording yarn brands as events."

@@ -23,6 +23,15 @@
   </defs>
 
   <rect width="1200" height="675" fill="url(#sky)"/>
+
+  <!-- Everything but the sky sits 92px higher than it was drawn.
+
+       The landing card prints the city's name over the bottom of this image, on a
+       scrim, and the cat, the horse and the bees were all in that band. Lifting
+       the scene leaves the lower quarter as empty field and wall — somewhere for
+       type to go. The sky is a gradient, so cropping 92px off the top of it costs
+       nothing. -->
+  <g transform="translate(0 -92)">
   <circle cx="905" cy="168" r="52" fill="#fbe6bd" opacity=".85"/>
 
   <!-- Sheep's Head to the left, the Cahas to the right: two ridges, the far one paler. -->
@@ -199,4 +208,8 @@
       </g>
     </g>
   </g>
+  </g>
+
+  <!-- The strip the lift exposed, in the foreground gradient's own end colour. -->
+  <rect x="0" y="582" width="1200" height="93" fill="#2f4c2e"/>
 </svg>

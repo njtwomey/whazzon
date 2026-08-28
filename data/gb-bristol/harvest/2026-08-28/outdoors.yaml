@@ -1,0 +1,236 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-08-28"
+category: "outdoors"
+harvestedAt: "2026-08-28T18:40:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "4"
+model: "claude-opus-5"
+observations:
+  - sourceId: "outdoors/ashton-court"
+    fetch:
+      ok: true
+      url: "https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/parks-and-open-spaces/parks-and-estates/ashton-court-estate"
+      status: 200
+    events:
+      - id: "outdoors/ashton-court#60576c389a"
+        sourceId: "outdoors/ashton-court"
+        title: "Ashton Court parkrun"
+        subcategory: "Activities"
+        occurrence:
+          kind: "recurring"
+          pattern: "every Saturday"
+        status: "scheduled"
+        url: "http://www.parkrun.org.uk/ashton-court/"
+        price:
+          free: true
+          text: "free"
+        tags:
+          - "running"
+          - "weekly"
+          - "free-entry"
+          - "mass-participation"
+        raw: "parkrun: a free 5km run every Saturday; register at the [Parkrun website](http://www.parkrun.org.uk/ashton-court/)\n"
+        summary: "A free weekly 5km run around the Ashton Court estate, held every Saturday and open to anyone who has registered with parkrun. The council page states the distance, the weekly pattern and that it is free; it gives no start time or meeting point."
+        confidence: "high"
+    notes: "The hint holds: this page is a location record with no events diary. Its dated content is admission (open daily from 8am, seasonal closing between 5.15pm and 9.15pm, so 9.15pm through August and 8.15pm from September), car park charges of £1–£4, toilet hours, the summer conservation zone on the plateau, and pond, deer and tick safety. Nothing is billed for the bank holiday weekend and no altered hours or closures are printed for 29, 30 or 31 August, so the absence is what the page says rather than a failed crawl.
+
+      One event is recorded this time where the 2026-08-17 run recorded none: the Activities list prints \"parkrun: a free 5km run every Saturday\", which is a pattern in the source's own words and a stated price, so it meets the bar for a `recurring` row rather than a bare outbound link. It covers Saturday 29 August. The other Activities entries are still not recorded because they are standing facilities or outbound links with no stated schedule: golf, FootGolf and disc golf, the Bristol Model Engineers miniature railway, mountain biking, the Tree Tops high ropes course (adventurebristol.co.uk), four downloadable walk and birdwatching PDFs, and the Balloon Fiesta, which is catalogued under festivals.
+
+      Followed the hint's pointer and read https://ashtoncourtmansion.org/whats-on (Bristol Historic Buildings Trust) as a second fetch. It is the only real Ashton Court diary and it is unchanged since 17 August: \"Ashton Court Mansion Wedding Open Day\", 14 September 2026, and \"Christmas Parties at Ashton Court Mansion\", November – December 2026, followed by \"More events will be added as they are confirmed.\" Nothing at all over the bank holiday weekend. Those two are deliberately not recorded under this source id — the mansion is a separate organisation and cataloguing it is a stage 1 decision, and attaching its events here would collide the moment stage 1 adds it. Reported, not acted on, as before."
+  - sourceId: "outdoors/the-downs"
+    fetch:
+      ok: true
+      url: "https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/parks-and-open-spaces/parks-and-estates/the-downs"
+      status: 200
+    events: []
+    notes: "Fetches cleanly and legitimately lists nothing dated, as the hint predicted. Content is admission (\"There is no charge for admission. The Downs is open at all times. Access may be restricted for special events.\"), parking, accessibility, facilities, toilet hours (daily 8am to 5pm), the Site of Nature Conservation Interest and Dark Sky Discovery Site notes, the Downs Committee governance papers, and eleven downloadable trail leaflets — bird, lichen, meadow and tree trails, four seasonal family trails and two history trails.
+
+      An \"Events on the Downs\" heading names three things, each as a bare link to an operator's own site with no date, time, price or programme whatsoever: Adventure Cinema (https://www.adventurecinema.co.uk/), Downs Concerts (https://teamlove.org/) and the Bristol SU Welcome Fair (https://www.bristolsu.org.uk/), followed by \"All events remain subject to site permissions and licensing approval.\" None are recorded, matching the 2026-08-17 decision. Recording them would mean three permanent `undated` rows that can never derive to `finished` and would sit on the site looking current for ever, which is the failure mode §4 warns about; they are pointers to operators, not listings.
+
+      Note for the run assembly: this page does not print the Forwards Festival by name anywhere, on the Downs or otherwise. The nearest thing is the undated \"Downs Concerts\" link to teamlove.org. Nothing was followed from it — the festival is being recorded under festivals/forwards.
+
+      One bank holiday specific line, about an activity rather than an event, so it is here rather than in `timesText`: \"You can ride horses around the football pitches except on Sundays and bank holidays.\" That rules out horse riding on both Sunday 30 and Monday 31 August. No other altered hours or closures are printed for the weekend."
+  - sourceId: "outdoors/leigh-woods"
+    fetch:
+      ok: true
+      url: "https://www.nationaltrust.org.uk/visit/bath-bristol/leigh-woods"
+      status: 200
+    events: []
+    notes: "Readable today, which is a change worth recording. The hint says nationaltrust.org.uk sits behind a Radware challenge that a browser user-agent does not defeat, and that a 200 there is not evidence of a real page. That did not happen on this run: curl with the Chrome user-agent from §2 returned the genuine Leigh Woods place page — opening times calendar, facilities, accessibility statement, travel directions, the 01179731645 phone number and leighwoods@nationaltrust.org.uk, the veteran tree walk and woodland wander trails, and the site's own history and conservation articles. No interstitial, no \"Verifying your browser\". The hint needs relaxing to \"a browser user-agent usually works; a Radware interstitial is intermittent rather than permanent\".
+
+      Two catalogue corrections fall out of that. First, the catalogued URL https://www.nationaltrust.org.uk/visit/bath-bristol/leigh-woods/whats-on now returns a real HTTP 404 (\"404 Page Not Found | National Trust\"), not an interstitial — so the path is genuinely wrong, and the previous run's inability to read it hid that. The `homepage` already recorded in the catalogue, https://www.nationaltrust.org.uk/visit/bath-bristol/leigh-woods, is the one that works and is what was harvested. Second, that place page carries the programme inline under an \"Upcoming events\" heading, so there is no separate what's-on route to point at for this place; the only /whats-on link in the page's navigation is the site-wide https://www.nationaltrust.org.uk/visit/whats-on.
+
+      The result is a real, confident empty: under \"Upcoming events\" the page says, verbatim, \"Sorry, there are no upcoming events at this place.\" This is `ok: true` with no events rather than the failure the hint asks for, because the page was actually read this time.
+
+      Opening times for the bank holiday weekend: the August 2026 calendar marks every day open with no closures, and \"Opening times for 28 August 2026\" gives Leigh Woods as \"Dawn - Dusk\". An important notice adds \"Leigh Woods is open for visitors to access for walks. Camping and lighting fires is not permitted. There is no National Trust parking at Leigh Woods but Forestry England have a pay and display car park at their entrance to Leigh Woods.\""
+  - sourceId: "outdoors/blaise-castle-estate"
+    fetch:
+      ok: true
+      url: "https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/parks-and-open-spaces/parks-and-estates/blaise-castle-estate"
+      status: 200
+    events: []
+    notes: "No diary, as the hint says. The page covers the 650-acre parkland at Kings Weston Road BS10 7QS — \"Blaise Castle Estate is always open. Access may be restricted on major event days. Admission is free.\" — plus travel, two car parks, waiting restrictions, accessibility, facilities, five downloadable walking-route leaflets and the conservation notes. Per the hint the estate's real programme is published by Bristol Museums and harvested under museums/blaise-museum, so it was not crawled from here; doing so would land the same events under two source ids. For castle and dairy garden opening the page only says to check the noticeboards at the estate, which is not something that can be harvested.
+
+      Deliberately not recorded: the Activities list prints \"ParkRun\" linking to https://www.parkrun.org.uk/blaisecastle/, but unlike the Ashton Court page it states no day, no time, no frequency and no price — just the name and the link. Writing \"every Saturday\" into a `recurring` pattern would be inventing the pattern rather than quoting it, so it is left out. Worth a hint for stage 1 if that parkrun should be captured. The same list also names horse riding on a two-mile trail and Bristol Orienteering Klub's course, both standing activities rather than scheduled events.
+
+      One bank holiday line, verbatim, about parking rather than an event: \"Charges apply between 9am and 6pm, Monday to Sunday, including bank holidays.\" No altered hours or closures are printed for 29–31 August; seasonal car park closing is 9.15pm through August."
+  - sourceId: "outdoors/avon-gorge-nature-reserve"
+    fetch:
+      ok: true
+      url: "https://avongorge.org.uk/whats-on/"
+      status: 200
+    events:
+      - id: "outdoors/avon-gorge-nature-reserve#cba1a39c02"
+        sourceId: "outdoors/avon-gorge-nature-reserve"
+        title: "A world of bats – discovery talk & exploration"
+        subcategory: "Upcoming sessions"
+        occurrence:
+          kind: "single"
+          date: "2026-09-10"
+          startTime: "19:00"
+          endTime: "21:00"
+        status: "scheduled"
+        venue:
+          sourceId: "gardens/university-botanic-garden"
+        url: "https://avongorge.org.uk/?event=a-world-of-bats&event_date=2026-09-10"
+        image: "https://avongorge.org.uk/wp-content/uploads/2024/07/Battybeauties241.jpg"
+        price:
+          free: false
+          text: "£18.00"
+          min: 18
+          max: 18
+          currency: "GBP"
+        ageRestriction: "Suitable for adults and children 12+."
+        tags:
+          - "talk"
+          - "wildlife"
+          - "nature"
+          - "booking-required"
+        raw: "**A world of bats – discovery talk & exploration**
+
+
+          10th September 2026 · 7:00 pm · Durdham Down · University of Bristol Botanic Gardens
+
+
+          Discover the secrets of bats in the UK & worldwide & find out what an amazing part they
+
+          play in the world. Following our expert's talk we head up to the Downs to explore
+
+          further, using bat detectors & visual sound waves!\n"
+        summary: "Bat specialist Dr Luke Romaine gives a talk indoors at the Botanic Garden on British and world bats, then leads the group up onto Durdham Down at dusk with detectors and thermal imaging to find the colonies hunting. Two hours, adults and children 12 and over, £18, booked ahead."
+        description: "Meet Dr Luke Romaine, expert in all things bat – related, as he takes us on a whirlwind
+
+          tour of UK and world bats!
+
+
+          Following a fascinating and entertaining talk held inside at the Botanic Gardens, we
+
+          will head up to the Downs together as dusk falls to explore the bat life on-site. Listen
+
+          for a variety of echolocations with our bat detectors and use thermal imagery & screens
+
+          to 'see' our bats & their sounds waves!
+
+
+          Discovery talk and exploration.
+
+
+          Suitable for adults and children 12+.
+
+
+          At the University of Bristol Botanic Garden & on Durdham Down.
+
+
+          Thursday 10th September 7pm- 9pm
+
+
+          £18.00
+
+
+          Booking online – [book here](https://buy.myonlinebooking.co.uk/bristolzooproject/sessions.aspx?tid=233)
+
+
+          Or telephone: 0117 428 5300\n"
+        confidence: "high"
+      - id: "outdoors/avon-gorge-nature-reserve#ecde1f0f40"
+        sourceId: "outdoors/avon-gorge-nature-reserve"
+        title: "Owl Prowl – family fun discovery"
+        subcategory: "Upcoming sessions"
+        occurrence:
+          kind: "single"
+          date: "2026-10-02"
+          startTime: "18:00"
+          endTime: "20:30"
+        status: "scheduled"
+        venue:
+          sourceId: "gardens/university-botanic-garden"
+        url: "https://avongorge.org.uk/?event=owl-prowl-family-discovery-fun&event_date=2026-10-02"
+        image: "https://avongorge.org.uk/wp-content/uploads/2024/10/compressed-owl-prowl-242.jpg"
+        price:
+          free: false
+          text: "Adult + child £24"
+          min: 24
+          max: 24
+          currency: "GBP"
+        ageRestriction: "Suitable for children aged 5 to 10, one child accompanied by one adult aged over 18. Not suitable for under 5."
+        tags:
+          - "family"
+          - "wildlife"
+          - "nature"
+          - "hands-on"
+          - "booking-required"
+        raw: "**Owl Prowl – family fun discovery**
+
+
+          2nd October 2026 · 6:00 pm · Durdham Down · University of Bristol Botanic Gardens
+
+
+          A family fun discovery of British owls with expert Ed Drewitt, who shows us how to
+
+          dissect an owl pellet and look at it through the microscope! Then we're off out to
+
+          Durdham Down to hear our tawny owls calling through the autumn night.\n"
+        summary: "The annual owl evening with naturalist Ed Drewitt: dissect an owl pellet indoors at the Botanic Garden to see what the barn owls have been eating, then head out onto the Downs at dusk to listen for tawny owls. For one child aged 5 to 10 with one adult, £24 the pair."
+        description: "It's the time of year to get involved in our amazing annual Owl Prowl with Ed Drewitt,
+
+          well-known naturalist and author! Expect some extraordinary surprises as we dissect an
+
+          owl pellet to find out what our barn owls have been eating for dinner and discover all
+
+          about our beautiful British owls. Then we'll be off out to the Downs exploring, for an
+
+          unforgettable owl prowl adventure as dusk falls.
+
+
+          Family fun.
+
+
+          At the Botanic Gardens and on the Downs.
+
+
+          Suitable for 1 child accompanied by 1 adult (aged over 18).
+
+
+          Suitable for children aged 5 to 10. Not suitable for under 5.
+
+
+          Friday 2nd October, 6.00pm - 8.30pm.
+
+
+          Adult + child £24
+
+
+          Telephone: 0117 4285300
+
+
+          Online bookings: [click here](https://buy.myonlinebooking.co.uk/bristolzooproject/sessions.aspx?tid=151)\n"
+        confidence: "high"
+    notes: "The whole programme is these two sessions and nothing else. The listings widget's pager was followed to https://avongorge.org.uk/whats-on/page/2/, which renders the same page furniture with an empty grid, so there is no further horizon in either direction and nothing at all over the bank holiday weekend. Both events carry a full four-figure year on the index (\"10th September 2026\", \"2nd October 2026\"), and the printed weekdays on the event pages confirm them — Thursday 10 September and Friday 2 October are both correct for 2026 — so both are `confidence: high` with no year inference needed.
+
+      The programme is two events, which is the thin-index case in §3, so both event pages were opened: two extra fetches, giving the end times, prices, age limits and `description` text that the index does not carry. That corrects the hint's \"the listings do not state prices\" — the index does not, but the event pages do, clearly, so nothing is inferred and the catalogue's `free` tag remains unsupported. Both are firmly not free.
+
+      Both sessions start indoors at the University of Bristol Botanic Garden and finish on Durdham Down, so `venue` points at gardens/university-botanic-garden: this source is an organiser, not a place, and the events do not happen \"at\" it. The Down half of each is on the source's own patch but the meeting point is the Botanic Garden.
+
+      Two partner links appear at the foot of the Owl Prowl page — Forestry England and the National Trust, under \"For events organised by our partners please follow the links below\". Not followed: no dates are stated here and the National Trust half is already covered by outdoors/leigh-woods."

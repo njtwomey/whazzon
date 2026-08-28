@@ -1,0 +1,3343 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-08-28"
+category: "comedy"
+harvestedAt: "2026-08-28T10:40:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "4"
+model: "claude-opus-5"
+observations:
+  - sourceId: "comedy/the-comedy-box"
+    fetch:
+      ok: true
+      url: "https://www.thecomedybox.co.uk/site/index.asp"
+      status: 200
+    events:
+      - id: "comedy/the-comedy-box#771dbbcd10"
+        sourceId: "comedy/the-comedy-box"
+        title: "Tom Cashman: NPC (Nearly Proficient Comedian)"
+        occurrence:
+          kind: "single"
+          date: "2026-09-03"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2590"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2590/thumb/Tom_Cashman_NEW_edit.jpg"
+        price:
+          free: false
+          text: "£18 inc fees"
+          min: 18
+          max: 18
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Thursday 3 September - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets £18 inc fees
+
+
+          **TOM CASHMAN** — *NPC (Nearly Proficient Comedian)*
+
+
+          Tom Cashman is back in the UK with a new hour of stand-up that promises
+
+          to creep ever so close to proficiency. You may know Tom from Taskmaster
+
+          or TikTok or from his show descriptions which usually end very abru...\n"
+        summary: "Australian Taskmaster regular Tom Cashman opens the club's autumn season with an hour about being not-quite-good-at-things."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#34f886b497"
+        sourceId: "comedy/the-comedy-box"
+        title: "Boothby Graffoe & Antonio Forcione: Wot Italian?"
+        occurrence:
+          kind: "single"
+          date: "2026-09-04"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2556"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2556/thumb/WotItalian%20Photo%20Square%20mk8.jpg"
+        price:
+          free: false
+          text: "£25 inc fees"
+          min: 25
+          max: 25
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "live-music"
+          - "one-night"
+        raw: "**Friday 4 September - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets £25 inc fees
+
+
+          **BOOTHBY GRAFFOE & ANTONIO FORCIONE** — *WOT ITALIAN?*
+
+
+          Get ready for an unforgettable evening of music, comedy, and charm as
+
+          award-winning comedian and singer-songwriter Boothby Graffoe teams up
+
+          with internationally acclaimed Italian guitarist Antonio Forcione.\n"
+        summary: "Comic songwriter Boothby Graffoe and virtuoso guitarist Antonio Forcione in a double act that is half gig, half stand-up."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#cf76fd4164"
+        sourceId: "comedy/the-comedy-box"
+        title: "Stand Up For The Weekend with Andrew Bird and Guests"
+        subcategory: "Stand Up For The Weekend"
+        occurrence:
+          kind: "single"
+          date: "2026-09-05"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2574"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2574/thumb/andrew_bird_guests_5-9-26.jpg"
+        price:
+          free: false
+          text: "from £12 to £20"
+          min: 12
+          max: 20
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "weekly"
+        raw: "**Saturday 5 September - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets from £12 to £20
+
+
+          **Stand Up For The Weekend with ANDREW BIRD** — *and GUESTS*
+
+
+          Andrew Bird is a top headline act throughout the UK and Ireland and has
+
+          performed all around the world. He's a nimble storyteller, with a
+
+          relaxed, personable style and simply proves cracking company. He is
+
+          always funny and frequently hilarious.\n"
+        summary: "The club's flagship Saturday mixed bill, headlined this week by circuit veteran Andrew Bird."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#0a8d42a5ca"
+        sourceId: "comedy/the-comedy-box"
+        title: "Zachary Ruane: Comedy"
+        occurrence:
+          kind: "single"
+          date: "2026-09-07"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2565"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2565/thumb/zachary-ruane.jpg"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Monday 7 September - Hen & Chicken Studio** — 8pm (doors 7.15pm)
+
+
+          **ZACHARY RUANE** — *COMEDY*
+
+
+          Multi-hyphenate comedy genius Zachary Ruane (Aunty Donna, Mish & Zach,
+
+          Dungeons & Dragons: Honour Among Thieves*) is finally gifting the world
+
+          with his debut solo show.\n"
+        summary: "Aunty Donna's Zachary Ruane brings his debut solo hour to Bedminster. No price is printed and the row has no booking link; the venue's own site says this one has sold out."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#80249c1eeb"
+        sourceId: "comedy/the-comedy-box"
+        title: "Jamie Hutchinson: Can My Mate Come? He's Sound"
+        occurrence:
+          kind: "single"
+          date: "2026-09-09"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2506"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2506/thumb/Jamie_hutchinson_redux.jpg"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Wednesday 9 September - Hen & Chicken Studio** — 8pm (doors 7.15pm)
+
+
+          **JAMIE HUTCHINSON** — *CAN MY MATE COME? HE'S SOUND*
+
+
+          EXTRA DATE DUE TO POPULAR DEMAND - Following his record-breaking
+
+          Waterslide tour, Jamie Hutchinson is back with Can My Mate Come? He's
+
+          Sound. — a brand-new hour of unfiltered mayhem, questionable logic and
+
+          emotional chaos held together by takeaway boxes and blind optimism.\n"
+        summary: "An added date after the first sold out, from the comedian behind the Waterslide tour."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#1e7175b6d1"
+        sourceId: "comedy/the-comedy-box"
+        title: "Stand Up For The Weekend with Steve Bugeja and Guests"
+        subcategory: "Stand Up For The Weekend"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2575"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2575/thumb/steve_bugeja_guests_12-9-26.jpg"
+        price:
+          free: false
+          text: "from £12 to £20"
+          min: 12
+          max: 20
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "weekly"
+        raw: "**Saturday 12 September - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets from £12 to £20
+
+
+          **Stand Up For The Weekend with STEVE BUGEJA** — *and GUESTS*
+
+
+          Steve Bugeja's comedy blends meticulously crafted jokes with warm,
+
+          narrative storytelling, turning everyday anxieties into. His persona is
+
+          that of the self-aware overthinker—earnest, nerdy and quietly
+
+          self-deprecating smart, relatable observations.\n"
+        summary: "Saturday mixed bill headlined by Steve Bugeja. The listing copy is visibly garbled mid-sentence on the club's own page."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#82a57a3b68"
+        sourceId: "comedy/the-comedy-box"
+        title: "Alfie Brown: The Entertainer"
+        occurrence:
+          kind: "single"
+          date: "2026-09-18"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2555"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2555/thumb/Alfie_Brown-THE_ENTERTAINER_edit.jpg"
+        price:
+          free: false
+          text: "£24 inc fees"
+          min: 24
+          max: 24
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "18-plus"
+        raw: "**Friday 18 September - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets £24 inc fees
+
+
+          **ALFIE BROWN** — *THE ENTERTAINER*
+
+
+          A show so entertaining you can scarcely believe it. Written and
+
+          performed (both!) by a man in crisis, desperate to find meaning in
+
+          life. As technology makes life easier, where do we find value? What is
+
+          stand-up comedy for? Buy a ticket and find out.\n"
+        summary: "Alfie Brown's confrontational hour about value, meaning and what stand-up is even for."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#f9d3981bca"
+        sourceId: "comedy/the-comedy-box"
+        title: "Stand Up For The Weekend with Andrew Maxwell and Guests"
+        subcategory: "Stand Up For The Weekend"
+        occurrence:
+          kind: "single"
+          date: "2026-09-19"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2576"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2576/thumb/andrew_maxwell_guests_19-9-26.jpg"
+        price:
+          free: false
+          text: "from £12 to £20"
+          min: 12
+          max: 20
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "weekly"
+        raw: "**Saturday 19 September - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets from £12 to £20
+
+
+          **Stand Up For The Weekend with ANDREW MAXWELL** — *and GUESTS*
+
+
+          The stupendous Andrew Maxwell headlines for The Comedy Box for the
+
+          first time in decades. We first booked Andrew back in the 90s, then he
+
+          grew a little too big for us. Now he's back and we are proud to offer
+
+          to you one of the best stand ups in the British Isles.\n"
+        summary: "Andrew Maxwell headlines the Saturday bill for the first time since the 1990s, in a room far smaller than he normally plays."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#665ec1e710"
+        sourceId: "comedy/the-comedy-box"
+        title: "Stand Up For The Weekend with Mike Gunn and Guests"
+        subcategory: "Stand Up For The Weekend"
+        occurrence:
+          kind: "single"
+          date: "2026-09-26"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2586"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2586/thumb/mike_gunn_guests_26-9-26.jpg"
+        price:
+          free: false
+          text: "from £12 to £20"
+          min: 12
+          max: 20
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "weekly"
+        raw: "**Saturday 26 September - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets from £12 to £20
+
+
+          **Stand Up For The Weekend with MIKE GUNN** — *and GUESTS*
+
+
+          Widely regarded as one of the UK's finest circuit comedians, Mike Gunn
+
+          blends darkly intelligent observations with a brilliantly understated
+
+          delivery, finding humour in family life, middle age and the everyday
+
+          frustrations we can all relate to.\n"
+        summary: "Saturday mixed bill topped by Mike Gunn's dry, understated take on middle age."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#2250816f30"
+        sourceId: "comedy/the-comedy-box"
+        title: "Ignacio Lopez: Nada"
+        occurrence:
+          kind: "single"
+          date: "2026-09-27"
+          startTime: "19:30"
+        status: "scheduled"
+        timesText: "7.30pm (doors 6.45pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2503"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2503/thumb/ignacio_lopez-nada-2026_edit.jpg"
+        price:
+          free: false
+          text: "£24 inc fees"
+          min: 24
+          max: 24
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Sunday 27 September - Hen & Chicken Studio** — 7.30pm (doors 6.45pm)
+
+          - Tickets £24 inc fees
+
+
+          **IGNACIO LOPEZ** — *NADA*
+
+
+          Star of Live At The Apollo, Have I Got News For You, QI, Richard
+
+          Osman's House of Games & Comedy Central Live; Ignacio Lopez returns
+
+          with perhaps his most ambitious and pretentious project yet.\n"
+        summary: "Ignacio Lopez's new touring hour, on the club's earlier Sunday start time."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#82a606c704"
+        sourceId: "comedy/the-comedy-box"
+        title: "Mark Thomas: 40 in Stand-Up Years"
+        occurrence:
+          kind: "single"
+          date: "2026-09-30"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2559"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2559/thumb/markthomas-40.png"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Wednesday 30 September - Hen & Chicken Studio** — 8pm (doors 7.15pm)
+
+
+          **MARK THOMAS** — *40 IN STAND-UP YEARS*
+
+
+          What?! Mark Thomas has been standing up for 40 years? Impossible!! But
+
+          how old does that make you? Alas it is true; one of our oldest
+
+          surviving alternative comics celebrates 40 years at the mic.\n"
+        summary: "Mark Thomas marks four decades of political stand-up. An extra date was later added on 25 November."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#f7c806545a"
+        sourceId: "comedy/the-comedy-box"
+        title: "Stand Up For The Weekend with Carey Marx and Guests"
+        subcategory: "Stand Up For The Weekend"
+        occurrence:
+          kind: "single"
+          date: "2026-10-03"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2577"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2577/thumb/carey_marx_guests_3-10-26.jpg"
+        price:
+          free: false
+          text: "from £12 to £20"
+          min: 12
+          max: 20
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "weekly"
+          - "18-plus"
+        raw: "**Saturday 3 October - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets from £12 to £20
+
+
+          **Stand Up For The Weekend with CAREY MARX** — *and GUESTS*
+
+
+          Carey Marx is an unapologetic gagsmith. The jokes are short and sharp,
+
+          often uncomfortably so, as any morality is sacrificed on the altar of
+
+          quick laughs. And there's no better way of guaranteeing a reaction than
+
+          storming headlong into decidedly dodgy territory.\n"
+        summary: "Saturday bill headlined by Carey Marx, whose set the club itself flags as heading into dodgy territory."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#85e9354a58"
+        sourceId: "comedy/the-comedy-box"
+        title: "Joe Wells: Daddy Autism"
+        occurrence:
+          kind: "single"
+          date: "2026-10-04"
+          startTime: "19:30"
+        status: "scheduled"
+        timesText: "7.30pm (doors 6.45pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2549"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2549/thumb/joe_wells_2026.jpg"
+        price:
+          free: false
+          text: "£18 inc fees"
+          min: 18
+          max: 18
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Sunday 4 October - Hen & Chicken Studio** — 7.30pm (doors 6.45pm) -
+
+          Tickets £18 inc fees
+
+
+          **JOE WELLS** — *DADDY AUTISM*
+
+
+          Joe and his wife are having a baby. He's autistic so statistically it's
+
+          quite likely the baby will be too. In this new show, critically
+
+          acclaimed comedian Joe Wells explores fatherhood through the lense of
+
+          neurodiversity. Plus, there's a really good joke about a parrot.\n"
+        summary: "Joe Wells on impending fatherhood as an autistic man, plus a parrot joke he is prepared to stake the show on."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#bdfff23318"
+        sourceId: "comedy/the-comedy-box"
+        title: "Thomas Zabras & Andreas Paspatis"
+        occurrence:
+          kind: "single"
+          date: "2026-10-07"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2573"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2573/thumb/Insta-Square---7-Oct---Bristol.jpg"
+        price:
+          free: false
+          text: "£30 plus fees"
+          min: 30
+          max: 30
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Wednesday 7 October - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets £30 plus fees
+
+
+          **THOMAS ZABRAS & ANDREAS PASPATIS**
+
+
+          Η παράσταση που δεν ζήτησε απολύτως κανένας έρχεται αυτή τη φορά στο
+
+          Ηνωμένο Βασίλειο!\n"
+        summary: "A Greek-language double bill on a UK tour; the club's listing copy is entirely in Greek, so this is one for Bristol's Greek speakers."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#12e576c428"
+        sourceId: "comedy/the-comedy-box"
+        title: "Jacob Hawley: Fighting Age Man"
+        occurrence:
+          kind: "run"
+          start: "2026-10-08"
+          end: "2026-10-09"
+        status: "scheduled"
+        timesText: "Thur 8 & Fri 9 October, 8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2532"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2532/thumb/JACOB_HAWLEY_2026_edit.jpg"
+        price:
+          free: false
+          text: "£22 inc fees"
+          min: 22
+          max: 22
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "short-run"
+          - "18-plus"
+        raw: "**Thur 8 & Fri 9 October - Hen & Chicken Studio** — 8pm (doors 7.15pm)
+
+          - Tickets £22 inc fees
+
+
+          **JACOB HAWLEY** — *FIGHTING AGE MAN*
+
+
+          The Screen Rot Podcast's Jacob Hawley presents a bold new hour of
+
+          blistering stand-up, questionable opinions, and stories that most
+
+          people would need waterboarding to admit to. As seen on The Have A Word
+
+          podcast, most of the other podcasts, Talksport, Sky, ITV, The BBC, and
+
+          OnlyFans.\n"
+        summary: "Two nights from podcaster and comedian Jacob Hawley. The club bills both dates as one entry."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#ef4256e3c1"
+        sourceId: "comedy/the-comedy-box"
+        title: "Stand Up For The Weekend with Michael Shafar and Guests"
+        subcategory: "Stand Up For The Weekend"
+        occurrence:
+          kind: "single"
+          date: "2026-10-10"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2578"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2578/thumb/michael_shafar_guests_10-10-26.jpg"
+        price:
+          free: false
+          text: "from £12 to £20"
+          min: 12
+          max: 20
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "weekly"
+        raw: "**Saturday 10 October - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets from £12 to £20
+
+
+          **Stand Up For The Weekend with MICHAEL SHAFAR** — *and GUESTS*
+
+
+          Originally from Melbourne, Michael Schafar is now based in London where
+
+          he has quickly become one of the most exciting new acts on the UK
+
+          comedy circuit. He regularly performs at the country's biggest clubs
+
+          where he gets to mock British people for their awful history and
+
+          terrible food to their faces.\n"
+        summary: "Melbourne-via-London act Michael Shafar heads the Saturday bill. The club spells his surname two ways in the same paragraph."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#41e75f1587"
+        sourceId: "comedy/the-comedy-box"
+        title: "Connor Burns: Flow"
+        occurrence:
+          kind: "single"
+          date: "2026-10-11"
+          startTime: "19:30"
+        status: "scheduled"
+        timesText: "7.30pm (doors 6.45pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2572"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2572/thumb/Connor_Burns_2026.jpg"
+        price:
+          free: false
+          text: "£21 inc fees"
+          min: 21
+          max: 21
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Sunday 11 October - Hen & Chicken Studio** — 7.30pm (doors 6.45pm) -
+
+          Tickets £21 inc fees
+
+
+          **CONNOR BURNS** — *FLOW*
+
+
+          Don't miss the all-new show from Scotland's hilarious new stand-up
+
+          superstar Connor Burns, who is widely hailed as one of the most
+
+          exciting breakthrough artists in the global live comedy scene.\n"
+        summary: "Scottish breakout act Connor Burns on a Sunday night, with the earlier 7.30pm start."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#938b6a6b68"
+        sourceId: "comedy/the-comedy-box"
+        title: "Robert White: 'That' Gay Autistic Keyboard Tanktop Comedy Guy!"
+        occurrence:
+          kind: "single"
+          date: "2026-10-14"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2542"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2542/thumb/robert_white_2026.jpg"
+        tags:
+          - "stand-up"
+          - "musical"
+          - "lgbtq"
+          - "one-night"
+        raw: "**Wednesday 14 October - Hen & Chicken Studio** — 8pm (doors 7.15pm)
+
+
+          **ROBERT WHITE** — *'THAT' GAY AUTISTIC KEYBOARD TANKTOP COMEDY GUY!*
+
+
+          As seen on Britain's Got Talent, Robert White is THAT Gay Autistic
+
+          Keyboard Tanktop Comedy Guy. You'll want to see his mix of songs,
+
+          stories, stand up, gags, props, improvisation, interaction and all
+
+          sorts of other engaging naughty nonsense besides!\n"
+        summary: "Britain's Got Talent runner-up Robert White with songs, props and improvisation at the keyboard."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#f5bf993876"
+        sourceId: "comedy/the-comedy-box"
+        title: "Tom Ward: Post-Millennium Tension"
+        occurrence:
+          kind: "single"
+          date: "2026-10-16"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2541"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2541/thumb/Tom_Ward_2026-edit.jpg"
+        price:
+          free: false
+          text: "£19 inc fees"
+          min: 19
+          max: 19
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Friday 16 October - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets £19 inc fees
+
+
+          **TOM WARD** — *POST-MILLENNIUM TENSION*
+
+
+          Before Tom Ward bails out on the modern world entirely to commit to
+
+          nostalgia full-time, the burner phone using, Discman carrying,
+
+          1988-1995 obsessed freak is giving the present tense one last try.\n"
+        summary: "Tom Ward gives the twenty-first century one final chance before retreating permanently into 1993."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#1527a86b0f"
+        sourceId: "comedy/the-comedy-box"
+        title: "Stand Up For The Weekend with Robin Morgan and Guests"
+        subcategory: "Stand Up For The Weekend"
+        occurrence:
+          kind: "single"
+          date: "2026-10-17"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2579"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2579/thumb/robin_morgan_guests_17-10-26.jpg"
+        price:
+          free: false
+          text: "from £12 to £20"
+          min: 12
+          max: 20
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "weekly"
+        raw: "**Saturday 17 October - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets from £12 to £20
+
+
+          **Stand Up For The Weekend with ROBIN MORGAN** — *and GUESTS*
+
+
+          Robin Morgan's comedy blends sharp observational wit with warm,
+
+          self-deprecating storytelling, uncovering the humour in family life,
+
+          modern masculinity and the awkward contradictions of everyday
+
+          relationships.\n"
+        summary: "Robin Morgan tops the Saturday bill with observational material on family life and modern masculinity."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#fc6527f4d4"
+        sourceId: "comedy/the-comedy-box"
+        title: "Greipur Hjaltason: The Icebreaker UK Tour"
+        occurrence:
+          kind: "single"
+          date: "2026-10-20"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2562"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2562/thumb/Greipur%20Greipjokes%20-%2020%20Oct%20-%20Bristol.jpg"
+        price:
+          free: false
+          text: "£35/ early bird £30"
+          min: 30
+          max: 35
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Tuesday 20 October - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets £35/ early bird £30
+
+
+          **GREIPUR HJALTASON** — *THE ICEBREAKER UK TOUR*
+
+
+          Iceland's Greipur Hjaltason has rapidly become one of the most
+
+          recognisable voices in European stand-up comedy. Now, for the very
+
+          first time, he's taking his unique brand of humour on tour across the
+
+          UK, ready to meet the people who helped propel him to international
+
+          fame.\n"
+        summary: "Iceland's best-known stand-up on his first UK tour — the most expensive ticket in the club's autumn diary."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#271a53ee4b"
+        sourceId: "comedy/the-comedy-box"
+        title: "Dan Tiernan: Quartz and All"
+        occurrence:
+          kind: "single"
+          date: "2026-10-22"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2566"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2566/thumb/DanTiernan_QuartzNAll_600x600.jpg"
+        price:
+          free: false
+          text: "£19.50 inc fees"
+          min: 19.5
+          max: 19.5
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Thursday 22 October - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets £19.50 inc fees
+
+
+          **DAN TIERNAN** — *QUARTZ AND ALL*
+
+
+          With a hat trick of sold-out Edinburgh Festival runs, Dan Tiernan's a
+
+          two-time Edinburgh Comedy Award nominee who has received countless
+
+          five-star reviews. No wonder the Guardian has named him 'one of
+
+          comedy's most distinctive new voices'.\n"
+        summary: "Two-time Edinburgh Comedy Award nominee Dan Tiernan with his new touring hour; he also headlines the Saturday bill on 12 December."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#e181f6ddf9"
+        sourceId: "comedy/the-comedy-box"
+        title: "Rachel Fairburn: Vexy Beasts"
+        occurrence:
+          kind: "single"
+          date: "2026-10-23"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2494"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2494/thumb/Rachel%20Fairburn%20VEXY%20SQ.jpg"
+        price:
+          free: false
+          text: "£22 inc fees"
+          min: 22
+          max: 22
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Friday 23 October 2026 - Hen & Chicken Studio** — 8pm (doors 7.15pm)
+
+          - Tickets £22 inc fees
+
+
+          **RACHEL FAIRBURN** — *VEXY BEASTS*
+
+
+          Hot on the heels of her critically acclaimed 2025 show Side Eye, Rachel
+
+          Fairburn is back with new personalities and some old favourites for you
+
+          to love and hate. Expect nepo babies, middle class rock stars,
+
+          terrifying mothers, biting social commentary and lots of big laughs.\n"
+        summary: "Rachel Fairburn's follow-up to Side Eye, on nepo babies and terrifying mothers. The only row on the page to print its year."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#515df50547"
+        sourceId: "comedy/the-comedy-box"
+        title: "Stand Up For The Weekend with Matt Stellingwerf and Guests"
+        subcategory: "Stand Up For The Weekend"
+        occurrence:
+          kind: "single"
+          date: "2026-10-24"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2580"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2580/thumb/matt_stellingwerf_guests_24-10-26.jpg"
+        price:
+          free: false
+          text: "from £12 to £20"
+          min: 12
+          max: 20
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "weekly"
+        raw: "**Saturday 24 October - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets from £12 to £20
+
+
+          **Stand Up For The Weekend with MATT STELLINGWERF** — *and GUESTS*
+
+
+          Matt Stellingwerf's comedy blends sharp intellect with warm,
+
+          conversational storytelling, drawing on his background in criminology,
+
+          anthropology and life as a New Zealander navigating Britain. His style
+
+          is thoughtful rather than confrontational.\n"
+        summary: "New Zealander Matt Stellingwerf headlines the Saturday bill; he returns for the same slot on 5 December."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#4ab387a5d3"
+        sourceId: "comedy/the-comedy-box"
+        title: "Neil Delamere: Reinventing the Neil"
+        occurrence:
+          kind: "single"
+          date: "2026-10-30"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.30pm)"
+        venue:
+          sourceId: "theatre/redgrave-theatre"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2570"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2570/thumb/Neil_Delamere-2026_square.jpg"
+        price:
+          free: false
+          text: "£25.30 plus fees"
+          min: 25.3
+          max: 25.3
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "headliner"
+        raw: "**Friday 30 October - Redgrave Theatre** — 8pm (doors 7.30pm) -
+
+          Tickets £25.30 plus fees
+
+
+          **NEIL DELAMERE** — *REINVENTING THE NEIL*
+
+
+          Neil Delamere, our comedic adventurer returns with a brand new stand up
+
+          show, packed to the brim of tall tales and hilarious stories. Join the
+
+          star of the Blame Game, Live at the Apollo, QI and Celebrity Chase as
+
+          he ponders the eternal question, if it ain't broke should he fix it?\n"
+        summary: "The only show in the club's whole diary away from the Hen & Chicken — Neil Delamere in the larger Redgrave Theatre in Clifton."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#8ba41bcdea"
+        sourceId: "comedy/the-comedy-box"
+        title: "Stand Up For The Weekend with Chloe Petts and Guests"
+        subcategory: "Stand Up For The Weekend"
+        occurrence:
+          kind: "single"
+          date: "2026-10-31"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2581"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2581/thumb/chloe_petts_guests_31-10-26.jpg"
+        price:
+          free: false
+          text: "from £12 to £20"
+          min: 12
+          max: 20
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "weekly"
+          - "lgbtq"
+        raw: "**Saturday 31 October - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets from £12 to £20
+
+
+          **Stand Up For The Weekend with CHLOE PETTS** — *and GUESTS*
+
+
+          Chloe Petts is one of the sharpest, funniest voices on the UK comedy
+
+          circuit. Armed with razor-sharp observations, effortless charisma and
+
+          an infectious warmth, they transform everyday life into brilliantly
+
+          crafted stand-up.\n"
+        summary: "Chloe Petts headlines the Halloween-night Saturday bill. The listing makes nothing of the date."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#f18f6d8f9c"
+        sourceId: "comedy/the-comedy-box"
+        title: "Nathan Macintosh: I Have Questions"
+        occurrence:
+          kind: "single"
+          date: "2026-11-02"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2569"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2569/thumb/nathan_macintosh.jpg"
+        price:
+          free: false
+          text: "£25/ early bird £20"
+          min: 20
+          max: 25
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Monday 2 November - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets £25/ early bird £20
+
+
+          **NATHAN MACINTOSH** — *I HAVE QUESTIONS*
+
+
+          Energetic, loud and funny, Nathan Macintosh is a comedian and writer
+
+          originally from Halifax, Nova Scotia now living in New York. He has
+
+          performed on The Tonight Show Starring Jimmy Fallon on NBC, The Late
+
+          Show With Stephen Colbert on CBS, and Conan on TBS.\n"
+        summary: "Canadian-American club comic Nathan Macintosh, a US late-night regular, on a Monday night in Bedminster."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#d5acbb9892"
+        sourceId: "comedy/the-comedy-box"
+        title: "Stand Up For The Weekend with Garrett Millerick and Guests"
+        subcategory: "Stand Up For The Weekend"
+        occurrence:
+          kind: "single"
+          date: "2026-11-07"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2582"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2582/thumb/garrett_millerick_guests_7-11-26.jpg"
+        price:
+          free: false
+          text: "from £12 to £20"
+          min: 12
+          max: 20
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "weekly"
+        raw: "**Saturday 7 November - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets from £12 to £20
+
+
+          **Stand Up For The Weekend with GARRETT MILLERICK** — *and GUESTS*
+
+
+          Garrett Millerick's comedy blends fierce, high-energy delivery with
+
+          intelligent social observation, combining righteous indignation,
+
+          mischievous provocation and surprising warmth. His commanding stage
+
+          presence transforms everyday frustrations into expansive,
+
+          thought-provoking routines.\n"
+        summary: "Garrett Millerick's high-volume indignation tops the Saturday bill."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#829c35bc80"
+        sourceId: "comedy/the-comedy-box"
+        title: "Finlay Christie: Champagne Casanova"
+        occurrence:
+          kind: "single"
+          date: "2026-11-13"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2518"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2518/thumb/Finlay_Christie_2026.jpg"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "18-plus"
+        raw: "**Friday 13 November - Hen & Chicken Studio** — 8pm (doors 7.15pm)
+
+
+          **FINLAY CHRISTIE** — *CHAMPAGNE CASANOVA*
+
+
+          Finlay Christie (Live at the Apollo, 8 out of 10 Cats Does Countdown,
+
+          Have I Got News For You) humblebrags for an hour about his fuckboy era
+
+          and his new search for meaningful, authentic connection.\n"
+        summary: "Finlay Christie on leaving his twenties behind. No price is printed and the row carries no booking link."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#bd6ac053c1"
+        sourceId: "comedy/the-comedy-box"
+        title: "Stand Up For The Weekend with Ali Woods and Guests"
+        subcategory: "Stand Up For The Weekend"
+        occurrence:
+          kind: "single"
+          date: "2026-11-14"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2583"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2583/thumb/ali_woods_guests_14-11-26.jpg"
+        price:
+          free: false
+          text: "from £12 to £20"
+          min: 12
+          max: 20
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "weekly"
+        raw: "**Saturday 14 November - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets from £12 to £20
+
+
+          **Stand Up For The Weekend with ALI WOODS** — *and GUESTS*
+
+
+          Ali Woods is a comedian, podcaster and content creator. Ali is a
+
+          refreshing mix of the every man and the modern man, with a wonderful
+
+          blend of comedy with a heart, speaking on topics such as football, the
+
+          environment, and many social causes close to his heart.\n"
+        summary: "Podcaster and comedian Ali Woods heads the Saturday bill."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#4a73f5a18b"
+        sourceId: "comedy/the-comedy-box"
+        title: "The Dark Room with John Robertson"
+        occurrence:
+          kind: "single"
+          date: "2026-11-15"
+          startTime: "19:30"
+        status: "scheduled"
+        timesText: "7.30pm (doors 6.45pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2523"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2523/thumb/Dark_Room_Head_Logo.jpg"
+        price:
+          free: false
+          text: "£17.50 inc fees"
+          min: 17.5
+          max: 17.5
+          currency: "GBP"
+        tags:
+          - "interactive"
+          - "games"
+          - "improv"
+          - "one-night"
+        raw: "**Sunday 15 November - Hen & Chicken Studio** — 7.30pm (doors 6.45pm) -
+
+          Tickets £17.50 inc fees
+
+
+          **THE DARK ROOM** — *with JOHN ROBERTSON*
+
+
+          Welcome to THE DARK ROOM — the legendary interactive comedy show that
+
+          fuses improv, crowdwork and gaming to create an insane live-action
+
+          videogame! Now in its 13th year, this high-octane interactive show is
+
+          the brainchild of comedian & cult leader John Robertson.\n"
+        summary: "The long-running live-action text adventure, in which the audience plays and John Robertson shouts. Thirteen years old and still touring."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#e68aa45c17"
+        sourceId: "comedy/the-comedy-box"
+        title: "Fatiha El-Ghorri: Cockney Stacking Doll"
+        occurrence:
+          kind: "single"
+          date: "2026-11-18"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2560"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2560/thumb/Fatiha_El-Ghorri.jpg"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Wednesday 18 November - Hen & Chicken Studio** — 8pm (doors 7.15pm)
+
+
+          **FATIHA EL-GHORRI** — *COCKNEY STACKING DOLL*
+
+
+          The break-out star of Taskmaster and Mr Bigstuff is only embarking on
+
+          her first ever stand-up tour, isn't she?! Fatiha El-Ghorri's ironed her
+
+          swaggest hijab and she's ready to hit the road to serve up her
+
+          one-of-a-kind and award-winning stand-up.\n"
+        summary: "Taskmaster's Fatiha El-Ghorri on her first national tour. No price is printed on this row."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#475d15d7ae"
+        sourceId: "comedy/the-comedy-box"
+        title: "Tez Ilyas: Tez Things I Hate About You"
+        occurrence:
+          kind: "single"
+          date: "2026-11-19"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2551"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2551/thumb/Tez_Ilyas_2026.jpg"
+        price:
+          free: false
+          text: "£22 inc fees"
+          min: 22
+          max: 22
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Thursday 19 November - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets £22 inc fees
+
+
+          **TEZ ILYAS** — *TEZ THINGS I HATE ABOUT YOU*
+
+
+          Fresh from travelling the world (and smashing it as a top husband and
+
+          bunny-stepdad), Tez Ilyas, the UK's leading de-influencer returns with
+
+          a brand-new stand-up show. Expect fresh jokes, furious rants, and
+
+          ridiculous stories — all delivered with Tez's trademark smart, silly,
+
+          and subversive humour.\n"
+        summary: "Tez Ilyas returns with a new hour of rants and stories."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#bbcd0954e1"
+        sourceId: "comedy/the-comedy-box"
+        title: "Stand Up For The Weekend with Stephen Bailey and Guests"
+        subcategory: "Stand Up For The Weekend"
+        occurrence:
+          kind: "single"
+          date: "2026-11-21"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2584"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2584/thumb/stephen_bailey_guests_21-11-26.jpg"
+        price:
+          free: false
+          text: "from £12 to £20"
+          min: 12
+          max: 20
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "weekly"
+          - "lgbtq"
+        raw: "**Saturday 21 November - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets from £12 to £20
+
+
+          **Stand Up For The Weekend with STEPHEN BAILEY** — *and GUESTS*
+
+
+          Stephen Bailey is one of the UK's most engaging comedy talents—an
+
+          award-winning stand-up, presenter and actor whose razor-sharp wit,
+
+          infectious warmth and brilliantly gossipy storytelling have made him a
+
+          firm favourite with audiences nationwide.\n"
+        summary: "Stephen Bailey's gossipy storytelling tops the Saturday bill."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#7807cbb56d"
+        sourceId: "comedy/the-comedy-box"
+        title: "Mark Thomas: 40 in Stand-Up Years (extra date)"
+        occurrence:
+          kind: "single"
+          date: "2026-11-25"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2591"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2591/thumb/markthomas-40.png"
+        price:
+          free: false
+          text: "£22 inc fees"
+          min: 22
+          max: 22
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Wednesday 25 November - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets £22 inc fees
+
+
+          **MARK THOMAS** — *40 IN STAND-UP YEARS*
+
+
+          EXTRA DATE DUE TO POPULAR DEMAND - What?! Mark Thomas has been standing
+
+          up for 40 years? Impossible!! But how old does that make you? Alas it
+
+          is true; one of our oldest surviving alternative comics celebrates 40
+
+          years at the mic.\n"
+        summary: "A second night of Mark Thomas's fortieth-anniversary show, added after the 30 September date filled. The club prints the same title for both; \"(extra date)\" is appended here only to keep the two rows distinguishable."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#fe14811250"
+        sourceId: "comedy/the-comedy-box"
+        title: "Peter Antoniou: 'Psychic' Comedian"
+        occurrence:
+          kind: "single"
+          date: "2026-11-26"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2546"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2546/thumb/Peter_Antoniou-edit.jpg"
+        tags:
+          - "magic"
+          - "interactive"
+          - "one-night"
+        raw: "**Thursday 26 November - Hen & Chicken Studio** — 8pm (doors 7.15pm)
+
+
+          **PETER ANTONIOU** — *'PSYCHIC' COMEDIAN*
+
+
+          Combining razor-sharp British wit with a stunning ability to know
+
+          exactly what you are thinking, Peter Antoniou's shows are interactive
+
+          and unforgettable. Join him as he reads minds and tickles funny bones,
+
+          telling jokes and fortunes live onstage.\n"
+        summary: "Mentalism played for laughs. Two identical listings run a week apart — this one and 3 December — with no price on either."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#72a315c24b"
+        sourceId: "comedy/the-comedy-box"
+        title: "Milton Jones & Friends"
+        occurrence:
+          kind: "single"
+          date: "2026-11-27"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2593"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2593/thumb/milton_jones_friends.jpg"
+        price:
+          free: false
+          text: "£36 inc fees"
+          min: 36
+          max: 36
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "one-night"
+        raw: "**Friday 27 November - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets £36 inc fees
+
+
+          **MILTON JONES** — *& FRIENDS*
+
+
+          The extended set headliner of this very special night of stand up is
+
+          none other than absurdist one liner, Mock The Week and Live At The
+
+          Apollo superstar, Milton Jones! Milton is one of the nation's favourite
+
+          comedians and his live shows are a mainstay of UK comedy.\n"
+        summary: "Milton Jones plays an extended set in a 200-capacity room, at the club's top price of the season."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#5d6d8503f3"
+        sourceId: "comedy/the-comedy-box"
+        title: "Stand Up For The Weekend with Pierre Novellie and Guests"
+        subcategory: "Stand Up For The Weekend"
+        occurrence:
+          kind: "single"
+          date: "2026-11-28"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2585"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2585/thumb/pierre_novellie_guests_28-11-26.jpg"
+        price:
+          free: false
+          text: "from £12 to £20"
+          min: 12
+          max: 20
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "weekly"
+        raw: "**Saturday 28 November - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets from £12 to £20
+
+
+          **Stand Up For The Weekend with PIERRE NOVELLIE** — *and GUESTS*
+
+
+          Pierre Novellie is one of the UK's most acclaimed live acts. He has
+
+          co-hosted with Frank Skinner on Absolute Radio, had regular appearances
+
+          on satirical comedy shows such as The Mash Report and The Now Show, and
+
+          is a frequent visitor to the Edinburgh Fringe having taken multiple
+
+          successful solo shows.\n"
+        summary: "Pierre Novellie headlines the Saturday bill."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#a0603d39bc"
+        sourceId: "comedy/the-comedy-box"
+        title: "Peter Antoniou: 'Psychic' Comedian (December date)"
+        occurrence:
+          kind: "single"
+          date: "2026-12-03"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2540"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2540/thumb/Peter_Antoniou-edit.jpg"
+        tags:
+          - "magic"
+          - "interactive"
+          - "one-night"
+        raw: "**Thursday 3 December - Hen & Chicken Studio** — 8pm (doors 7.15pm)
+
+
+          **PETER ANTONIOU** — *'PSYCHIC' COMEDIAN*
+
+
+          Combining razor-sharp British wit with a stunning ability to know
+
+          exactly what you are thinking, Peter Antoniou's shows are interactive
+
+          and unforgettable. Join him as he reads minds and tickles funny bones,
+
+          telling jokes and fortunes live onstage.\n"
+        summary: "The second of two identically billed Peter Antoniou nights, a week after the first. \"(December date)\" is appended here only to keep the two rows apart; the club prints the same title for both."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#ba2c04ba1b"
+        sourceId: "comedy/the-comedy-box"
+        title: "Ian Stone is Looking for the Wow"
+        occurrence:
+          kind: "single"
+          date: "2026-12-04"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2537"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2537/thumb/Ian_Stone_2026.jpg"
+        price:
+          free: false
+          text: "£22 inc fees"
+          min: 22
+          max: 22
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Friday 4 December - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets £22 inc fees
+
+
+          **IAN STONE** — *IAN STONE IS LOOKING FOR THE WOW*
+
+
+          EXTRA SHOW DUE TO POPULAR DEMAND - Ian Stone is a \"A masterful exponent
+
+          of self-mocking Jewish humour\" according to The Times, he's been ranked
+
+          one of the top ten comedians in the UK by the The Independent and The
+
+          Guardian said that he's \"Seriously funny.\"\n"
+        summary: "An added date for Ian Stone's touring show."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#d71863f527"
+        sourceId: "comedy/the-comedy-box"
+        title: "Stand Up For The Weekend with Matt Stellingwerf and Guests (December date)"
+        subcategory: "Stand Up For The Weekend"
+        occurrence:
+          kind: "single"
+          date: "2026-12-05"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2587"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2587/thumb/matt_stellingwerf_guests_5-12-26.jpg"
+        price:
+          free: false
+          text: "from £12 to £20"
+          min: 12
+          max: 20
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "weekly"
+        raw: "**Saturday 5 December - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets from £12 to £20
+
+
+          **Stand Up For The Weekend with MATT STELLINGWERF** — *and GUESTS*
+
+
+          Matt Stellingwerf's comedy blends sharp intellect with warm,
+
+          conversational storytelling, drawing on his background in criminology,
+
+          anthropology and life as a New Zealander navigating Britain. His style
+
+          is thoughtful rather than confrontational.\n"
+        summary: "Matt Stellingwerf's second Saturday headline of the season, with the same billing and copy as 24 October."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#a6caf430a9"
+        sourceId: "comedy/the-comedy-box"
+        title: "Ian Bagg: UK Tour"
+        occurrence:
+          kind: "single"
+          date: "2026-12-10"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2567"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2567/thumb/ian_bagg.jpg"
+        price:
+          free: false
+          text: "£22 inc fees"
+          min: 22
+          max: 22
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Thursday 10 December - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets £22 inc fees
+
+
+          **IAN BAGG** — *UK TOUR*
+
+
+          Ian Bagg is a world-touring comedian whose comedy was recently
+
+          described as \"dangerously flawless\" on the JRE. But he is not just a
+
+          comedian, he is also the co-host of the weekly hockey podcast, Enjoying
+
+          Orange Slices with Jeff and Ian.\n"
+        summary: "Canadian crowd-work specialist Ian Bagg on a UK run."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#d1a0f821f0"
+        sourceId: "comedy/the-comedy-box"
+        title: "Stand Up For The Weekend with Dan Tiernan and Guests"
+        subcategory: "Stand Up For The Weekend"
+        occurrence:
+          kind: "single"
+          date: "2026-12-12"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2588"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2588/thumb/dan_tiernan_guests_12-12-26.jpg"
+        price:
+          free: false
+          text: "from £12 to £20"
+          min: 12
+          max: 20
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "weekly"
+        raw: "**Saturday 12 December - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets from £12 to £20
+
+
+          **Stand Up For The Weekend with DAN TIERNAN** — *and GUESTS*
+
+
+          Dan Tiernan's comedy is a thrilling collision of anarchic physicality,
+
+          razor-sharp writing and disarming vulnerability. He storms the stage
+
+          with explosive, unpredictable energy, turning stories about addiction,
+
+          neurodiversity, identity and working-class life into relentless laugh
+
+          generators.\n"
+        summary: "Dan Tiernan returns to headline the Saturday bill, seven weeks after his solo show in the same room."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#f984ae46be"
+        sourceId: "comedy/the-comedy-box"
+        title: "Stand Up For The Weekend with Daliso Chaponda and Guests"
+        subcategory: "Stand Up For The Weekend"
+        occurrence:
+          kind: "single"
+          date: "2026-12-19"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2589"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2589/thumb/daliso_chaponda_guests_19-12-26.jpg"
+        price:
+          free: false
+          text: "from £12 to £20"
+          min: 12
+          max: 20
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "weekly"
+          - "seasonal"
+        raw: "**Saturday 19 December - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets from £12 to £20
+
+
+          **Stand Up For The Weekend with DALISO CHAPONDA** — *and GUESTS*
+
+
+          Daliso Chaponda's comedy blends razor-sharp wit, intelligent social
+
+          commentary and warm, conversational storytelling. Drawing on his
+
+          experiences of growing up between cultures, he tackles race, politics,
+
+          identity and current affairs with playful curiosity.\n"
+        summary: "The last Saturday bill before Christmas, headlined by Daliso Chaponda. The club then goes dark until 15 January."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#b1407d7dac"
+        sourceId: "comedy/the-comedy-box"
+        title: "Mark Simmons & Friends"
+        occurrence:
+          kind: "single"
+          date: "2027-01-15"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2571"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2571/thumb/Mark_Simmons_Friends.jpg"
+        price:
+          free: false
+          text: "£19.50 inc fees"
+          min: 19.5
+          max: 19.5
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "work-in-progress"
+        raw: "**Friday 15 January - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets £19.50 inc fees
+
+
+          **MARK SIMMONS & FRIENDS**
+
+
+          Mock The Week star Mark Simmons, and Dave's Joke of The Fringe Winner,
+
+          is back on the road testing out new material. Settle in for a fully
+
+          loaded night of comedy, supported by three amazing comedians, all
+
+          handpicked by Mark.\n"
+        summary: "One-liner specialist Mark Simmons works in new material with three acts of his own choosing. The first show of the club's 2027 season."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#62b319158f"
+        sourceId: "comedy/the-comedy-box"
+        title: "Carl Hutchinson: Fine Whine"
+        occurrence:
+          kind: "single"
+          date: "2027-01-22"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2512"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2512/thumb/carl_hutchinson_2026.jpg"
+        price:
+          free: false
+          text: "£19 inc fees"
+          min: 19
+          max: 19
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Friday 22 January - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets £19 inc fees
+
+
+          **CARL HUTCHINSON** — *FINE WHINE*
+
+
+          Carl Hutchinson has a unique blend of storytelling and physical comedy,
+
+          with a dash of down-to-earth banter. He's known for his sharp
+
+          characterisations, impeccable timing, and energetic delivery, which has
+
+          earned him a reputation as a \"powerhouse comedian\" on the UK circuit.\n"
+        summary: "Geordie circuit favourite Carl Hutchinson with a new touring hour."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#acabea68f7"
+        sourceId: "comedy/the-comedy-box"
+        title: "Cristina Mariani: UK Tour"
+        occurrence:
+          kind: "single"
+          date: "2027-01-26"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2563"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2563/thumb/Cristina%20Mariani%20cropped.jpg"
+        price:
+          free: false
+          text: "£22 inc fees"
+          min: 22
+          max: 22
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Tuesday 26 January - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets £22 inc fees
+
+
+          **CRISTINA MARIANI** — *UK TOUR*
+
+
+          Cristina Mariani is a rising stand-up comedian, with a quirky, dark
+
+          sense of humour. She performs regularly at her home club The Comedy
+
+          Mothership in Austin, Texas. She has toured with and opened for many of
+
+          the USA's biggest comedy names across the States.\n"
+        summary: "Austin-based Cristina Mariani brings her dark, quirky set to the UK."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#6a65ba4135"
+        sourceId: "comedy/the-comedy-box"
+        title: "Rob Newman: 21st Century Survival Guide"
+        occurrence:
+          kind: "single"
+          date: "2027-01-29"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2568"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2568/thumb/rob%20newman%20edit.jpg"
+        price:
+          free: false
+          text: "£22 inc fees"
+          min: 22
+          max: 22
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "author-talk"
+        raw: "**Friday 29 January - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets £22 inc fees
+
+
+          **ROB NEWMAN** — *21st CENTURY SURVIVAL GUIDE*
+
+
+          Hot on the heels of his new novel, INTELLIGENCE, Rob Newman returns to
+
+          offer a Survival Guide to the 21st Century. In a whistlestop tour of
+
+          new ideas, Newman explores what clues history offers us for when the
+
+          rich and powerful go ape.\n"
+        summary: "Rob Newman's lecture-shaped stand-up, following his novel Intelligence."
+        confidence: "high"
+      - id: "comedy/the-comedy-box#117704c9d5"
+        sourceId: "comedy/the-comedy-box"
+        title: "Andrew Bird: On Edge"
+        occurrence:
+          kind: "single"
+          date: "2027-02-25"
+          startTime: "20:00"
+        status: "scheduled"
+        timesText: "8pm (doors 7.15pm)"
+        venue:
+          sourceId: "comedy/hen-and-chicken"
+        url: "https://www.thecomedybox.co.uk/site/301.asp?catID=2554"
+        image: "https://www.thecomedybox.co.uk/common/files/catalogue/2554/thumb/Andrew_Bird_2027_edit.jpg"
+        price:
+          free: false
+          text: "£18 inc fees"
+          min: 18
+          max: 18
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Thursday 25 February - Hen & Chicken Studio** — 8pm (doors 7.15pm) -
+
+          Tickets £18 inc fees
+
+
+          **ANDREW BIRD** — *ON EDGE*
+
+
+          Back with a brand new show, esteemed stand up Andrew Bird is always
+
+          worried or stressed about something. From global events to finding free
+
+          parking. From a wife hitting the perimenopause combined with two
+
+          teenage kids, to hanging a wine-rack. How can he not be on edge?\n"
+        summary: "Andrew Bird returns with a solo hour, six months after headlining the club's September Saturday bill. The furthest-out date on the listing."
+        confidence: "high"
+    notes: "The catalogued root 302s to /site/index.asp as the hint says, and that page is the full listing — 49 dated shows from 3 September 2026 to 25 February 2027, taken whole with no truncation. /site/301.asp (\"All Listings\") is byte-for-byte the same document, so following it would have been a wasted fetch.
+
+      **Nothing at all over the bank holiday weekend.** The word \"August\" does not appear anywhere on the listing; the club's diary restarts on Thursday 3 September. Neither does \"bank holiday\". The Comedy Box appears to be between seasons — it promotes into Edinburgh over August — so an empty 29–31 August is the honest answer here rather than a coverage gap.
+
+      Every row prints a weekday, and all 49 check out against the inferred year (2026 to 19 December, then 2027 from 15 January), so all are `confidence: high` on date.
+
+      The club is an organiser, not a venue, so `venue.sourceId` is set on every row: comedy/hen-and-chicken for the Hen & Chicken Studio shows and theatre/redgrave-theatre for Neil Delamere at the Redgrave on 30 October. No show in this diary is at Lakota, the Tobacco Factory, the Old Vic or the 1532 — those nav sections are all commented out in the page source.
+
+      One signal deliberately **not** turned into a status: rows whose button reads \"SEE MORE\" rather than \"SEE MORE / BOOK ONLINE\" also carry no ticket price, and at least two of them (Zachary Ruane on 7 September, Jamie Hutchinson on 9 September) are described as sold out on the Hen & Chicken's own site. The correlation looks real but the Comedy Box never prints the words, so every row here stays `scheduled` and the missing price is simply recorded as an absent `price`. Worth a hint for stage 1 to confirm.
+
+      The page is served as ISO-8859-1 and its curly apostrophes and dashes come through as replacement characters in the body copy; they have been restored where the intended character was unambiguous."
+  - sourceId: "comedy/bristol-improv-theatre"
+    fetch:
+      ok: true
+      url: "https://improvtheatre.co.uk/events/?filter=Events"
+      status: 200
+    events:
+      - id: "comedy/bristol-improv-theatre#9fc4014700"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "The Improv Spotlight"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-08-28"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/the-improv-spotlight-3601/the-improv-spotlight-fri-28-aug"
+        image: "https://system.spektrix.com/bristolimprovtheatre/files/d8af80b5-10ea-4d98-a2e0-05713ff4aeee.jpg"
+        tags:
+          - "improv"
+          - "one-night"
+          - "work-in-progress"
+        raw: "**The Improv Spotlight** — Fri 28 Aug, 7:30 PM. *Every other month!*
+
+
+          Proudly showcasing diverse skills of local troupes and artists within
+
+          the Bristol improv community. Featuring unique acts from the vibrant
+
+          world of unscripted comedy, with a focus on up-and-comers, providing a
+
+          stage for fresh, original shows.\n"
+        summary: "Tonight's bill of short sets from Bristol improv troupes, weighted towards new and up-and-coming acts. Runs every other month."
+        confidence: "high"
+      - id: "comedy/bristol-improv-theatre#0531ab51c6"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "The Saboteur"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/the-saboteur-4601/the-saboteur-sat-29-aug"
+        image: "https://system.spektrix.com/bristolimprovtheatre/files/c863c781-b132-4047-a647-0d2e683f37fd.jpg"
+        tags:
+          - "improv"
+          - "games"
+          - "one-night"
+        raw: "**The Saboteur** — Sat 29 Aug, 7:30 PM.
+
+
+          Five performers are all working hard to put on a good improv show.
+
+          Well, almost all of them - one of them is secretly trying to sabotage
+
+          the show without getting caught! Will The Saboteur be unmasked before
+
+          the evening is ruined?
+
+
+          (The homepage carousel dates the run \"Friday, 22 May 2026 - Saturday,
+
+          29 August 2026\".)\n"
+        summary: "A whodunnit built into an improv format: five performers, one of them quietly wrecking the show. The last night of a run that began in May."
+        confidence: "high"
+      - id: "comedy/bristol-improv-theatre#313c0a8922"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "Student Showcase: Approaches to Scenework (Level 4)"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-08-31"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/improv-theatre-school---student-showcases-3401/student-showcase-approaches-to-scenework-level-4-mon-31-aug"
+        image: "https://system.spektrix.com/bristolimprovtheatre/files/fed82744-5167-4d15-8a73-f3ff042aabd2.jpg"
+        price:
+          free: true
+          text: "Free entry with optional supporter tickets"
+        tags:
+          - "improv"
+          - "free-entry"
+          - "work-in-progress"
+        raw: "**Student Showcase: Approaches to Scenework (Level 4)** —
+
+          Mon 31 Aug, 7:30 PM.
+
+
+          Come and see the latest graduates of the BIT's improv courses as they
+
+          share some of the skills they've been building. Free entry with
+
+          optional supporter tickets!\n"
+        summary: "Free graduating showcase from the theatre school's Level 4 scenework class — and the only thing in this category programmed on the bank holiday Monday itself."
+        confidence: "high"
+      - id: "comedy/bristol-improv-theatre#2a74f6209c"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "Student Showcase: Singing Songs (Level 3)"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-09-01"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/improv-theatre-school---student-showcases-3401/student-showcase-singing-songs-level-3-tue-01-sep"
+        image: "https://system.spektrix.com/bristolimprovtheatre/files/fed82744-5167-4d15-8a73-f3ff042aabd2.jpg"
+        price:
+          free: true
+          text: "Free entry with optional supporter tickets"
+        tags:
+          - "improv"
+          - "free-entry"
+          - "musical"
+          - "work-in-progress"
+        raw: "**Student Showcase: Singing Songs (Level 3)** — Tue 1 Sep, 7:30 PM.
+
+
+          Come and see the latest graduates of the BIT's improv courses as they
+
+          share some of the skills they've been building. Free entry with
+
+          optional supporter tickets!\n"
+        summary: "The Level 3 improvised-song class shows what it has learned, free to attend."
+        confidence: "high"
+      - id: "comedy/bristol-improv-theatre#7019961fef"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "The Bish Bosh Bash: The Improvised Game Show"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-09-04"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/the-bish-bosh-bash-the-improvised-game-show-3819/the-bish-bosh-bash-the-improvised-game-show-fri-04-sep"
+        image: "https://system.spektrix.com/bristolimprovtheatre/files/e3791c02-8506-4627-a7ae-7c4178117a39.jpg"
+        tags:
+          - "improv"
+          - "games"
+          - "one-night"
+        raw: "**The Bish Bosh Bash: The Improvised Game Show** — Fri 4 Sep, 7:30 PM.
+
+          *The first Friday of the month!*
+
+
+          Comedy meets competition! Teams Bish and Bosh have been training all
+
+          summer and are ready to go head-to-head to make you laugh in improv
+
+          challenges set by an unstoppable host.\n"
+        summary: "Two teams, one host, a run of improv challenges. The house game show, on the first Friday of each month."
+        confidence: "high"
+      - id: "comedy/bristol-improv-theatre#8972dac32e"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "Improv Jam & Social"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-09-06"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/improv-jam-social-3816/improv-jam-social-sun-06-sep"
+        image: "https://system.spektrix.com/bristolimprovtheatre/files/302690c6-cf3b-49fe-8216-d343c65e96e4.jpg"
+        tags:
+          - "improv"
+          - "drop-in"
+          - "games"
+          - "beginners"
+        raw: "**Improv Jam & Social** — Sun 6 Sep, 7:30 PM.
+
+
+          A friendly and welcoming evening of improv games, silliness,
+
+          socialising and fun.\n"
+        summary: "An open jam rather than a show — turn up, play games, stay for the social. Suits people who have never done it before."
+        confidence: "high"
+      - id: "comedy/bristol-improv-theatre#19431ebecd"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "The Drag Dungeoneers"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-09-10"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/the-drag-dungeoneers-1401/the-drag-dungeoneers-thu-10-sep"
+        image: "https://system.spektrix.com/bristolimprovtheatre/files/fa6a297c-7e06-474d-8582-2fae6c47eb7e.jpg"
+        tags:
+          - "improv"
+          - "drag"
+          - "games"
+          - "lgbtq"
+        raw: "**The Drag Dungeoneers** — Thu 10 Sep, 7:30 PM.
+
+
+          The Drag Dungeoneers is a loose narrative monster-of-the-week style D&D
+
+          live show adventure, featuring some of Bristol's finest drag nerds.\n"
+        summary: "A monster-of-the-week D&D campaign played live in full drag."
+        confidence: "high"
+      - id: "comedy/bristol-improv-theatre#4cf2dd0b33"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "Adventures of the Improvised Sherlock Holmes"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-09-11"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/adventures-of-the-improvised-sherlock-holmes-3877/adventures-of-the-improvised-sherlock-holmes-fri-11-sep"
+        image: "https://system.spektrix.com/bristolimprovtheatre/files/4f41f69d-234d-4690-b8b9-8fb2311abb28.jpg"
+        tags:
+          - "improv"
+          - "storytelling"
+          - "tour"
+        raw: "**Adventures of the Improvised Sherlock Holmes** — Fri 11 Sep, 7:30 PM.
+
+
+          No script, Sherlock! Stars of UK and Australian Fringes take you on an
+
+          award-winning improvised romp through the underworld of Victorian
+
+          Britain packed with shady villains, red herrings and the brilliant
+
+          deductions of London's greatest detective.\n"
+        summary: "An entirely improvised Holmes mystery, made up from an audience suggestion. First of two nights."
+        confidence: "high"
+      - id: "comedy/bristol-improv-theatre#f46fef2b33"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "Adventures of the Improvised Sherlock Holmes (Saturday)"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/adventures-of-the-improvised-sherlock-holmes-3877/adventures-of-the-improvised-sherlock-holmes-sat-12-sep"
+        image: "https://system.spektrix.com/bristolimprovtheatre/files/4f41f69d-234d-4690-b8b9-8fb2311abb28.jpg"
+        tags:
+          - "improv"
+          - "storytelling"
+          - "tour"
+        raw: "**Adventures of the Improvised Sherlock Holmes** — Sat 12 Sep, 7:30 PM.
+
+
+          No script, Sherlock! Stars of UK and Australian Fringes take you on an
+
+          award-winning improvised romp through the underworld of Victorian
+
+          Britain packed with shady villains, red herrings and the brilliant
+
+          deductions of London's greatest detective.\n"
+        summary: "The second of two Sherlock nights, with a different mystery. \"(Saturday)\" is appended only to keep the two rows distinguishable; the site titles both the same."
+        confidence: "high"
+      - id: "comedy/bristol-improv-theatre#acc015fea2"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "This Is Your Musical"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-09-18"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/this-is-your-musical-3823/this-is-your-musical-fri-18-sep"
+        image: "https://system.spektrix.com/bristolimprovtheatre/files/4bf8eeb6-bc12-4800-b232-8521aa761ba5.jpg"
+        tags:
+          - "improv"
+          - "musical"
+          - "one-night"
+        raw: "**This Is Your Musical** — Fri 18 Sep, 8:00 PM. *Once a month*
+
+
+          Bristol's premier improvised musical - wowing audiences for over eight
+
+          years.\n"
+        summary: "A full improvised musical built from one audience suggestion, monthly for the last eight years. Later start than the house norm, at 8pm."
+        confidence: "high"
+      - id: "comedy/bristol-improv-theatre#086fcccda5"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "Rainbow Roadies: Mario Kart With A Live Band"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-09-19"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/rainbow-roadies-mario-kart-with-a-live-band-4120/rainbow-roadies-mario-kart-with-a-live-band-sat-19-sep"
+        image: "https://system.spektrix.com/bristolimprovtheatre/files/a8a54c36-5a79-452a-a484-bbf36ccfda6d.jpg"
+        tags:
+          - "live-music"
+          - "games"
+          - "interactive"
+          - "one-night"
+        raw: "**Rainbow Roadies: Mario Kart With A Live Band** —
+
+          Sat 19 Sep, 7:30 PM.
+
+
+          You race the tracks, we play the tunes. After multiple sell-out shows,
+
+          Mario Kart with a live six-piece band returns to the Improv Theatre -
+
+          they'll play all the tracks, even the countdowns, power-ups and menu
+
+          screens! Let's-a-go!\n"
+        summary: "Audience members race Mario Kart on stage while a six-piece band plays the soundtrack live, menu screens included."
+        confidence: "high"
+      - id: "comedy/bristol-improv-theatre#2e10c24dab"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "Fire & Dice"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-09-24"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/fire-dice-601a/fire-dice-thu-24-sep"
+        image: "https://system.spektrix.com/bristolimprovtheatre/files/a0634a7b-fdb4-41cf-b3ec-5119fd939c01.jpg"
+        tags:
+          - "games"
+          - "interactive"
+          - "improv"
+          - "one-night"
+        raw: "**Fire & Dice** — Thu 24 Sep, 7:30 PM.
+
+
+          Join a live-play Dungeons & Dragons show, featuring a cast of
+
+          comedians, voice actors, and special guests in an interactive
+
+          adventure! Whilst our Dungeon Master welcomes our heroes into an
+
+          immersive world, you will play a critical role in shaping their
+
+          adventure. Later, be entertained by the Bards Against Humanity, who
+
+          will perform improvised songs of your recent misadventures.\n"
+        summary: "Live-play D&D with comedians and voice actors, the audience steering the plot, ending with improvised songs about what just happened."
+        confidence: "high"
+      - id: "comedy/bristol-improv-theatre#9f8f49f926"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "The Bish Bosh Bash: The Improvised Game Show (October)"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-10-02"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/the-bish-bosh-bash-the-improvised-game-show-3819/the-bish-bosh-bash-the-improvised-game-show-fri-02-oct"
+        image: "https://system.spektrix.com/bristolimprovtheatre/files/e3791c02-8506-4627-a7ae-7c4178117a39.jpg"
+        tags:
+          - "improv"
+          - "games"
+          - "one-night"
+        raw: "**The Bish Bosh Bash: The Improvised Game Show** — Fri 2 Oct, 7:30 PM.
+
+          *The first Friday of each month*
+
+
+          Comedy meets competition! Teams Bish and Bosh have been training all
+
+          summer and are ready to go head-to-head to make you laugh in improv
+
+          challenges set by an unstoppable host.\n"
+        summary: "October's edition of the monthly improvised game show. The month is appended to the title here only to keep the four dated rows apart."
+        confidence: "high"
+      - id: "comedy/bristol-improv-theatre#b2df020359"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "Ex Machina: AI, Ethics, and Consciousness"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-10-03"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/ex-machina-ai-ethics-and-consciousness-9401/ex-machina-ai-ethics-and-consciousness-sat-03-oct"
+        image: "https://system.spektrix.com/bristolimprovtheatre/files/16adf125-7c25-4045-a831-2ec1a2854e01.jpg"
+        tags:
+          - "screening"
+          - "q-and-a"
+          - "sci-fi"
+          - "one-night"
+        raw: "**Ex Machina: AI, Ethics, and Consciousness** — Sat 3 Oct, 7:00 PM.
+
+
+          A special film screening of Alex Garland's sci-fi thriller, followed by
+
+          a live post-screening Q&A with Postdoctoral Researcher Huw Day.\n"
+        summary: "Alex Garland's Ex Machina screened with a researcher on hand afterwards to argue about machine consciousness. Part of the venue's Cinema Club strand."
+        confidence: "high"
+      - id: "comedy/bristol-improv-theatre#9880adfce9"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "Improv Jam & Social (October)"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-10-04"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/improv-jam-social-3816/improv-jam-social-sun-04-oct"
+        image: "https://system.spektrix.com/bristolimprovtheatre/files/302690c6-cf3b-49fe-8216-d343c65e96e4.jpg"
+        tags:
+          - "improv"
+          - "drop-in"
+          - "games"
+          - "beginners"
+        raw: "**Improv Jam & Social** — Sun 4 Oct, 7:30 PM.
+
+
+          A friendly and welcoming evening of improv games, silliness,
+
+          socialising and fun.\n"
+        summary: "October's open jam and social, on the first Sunday. The month is appended only to keep the two dated rows apart."
+        confidence: "high"
+      - id: "comedy/bristol-improv-theatre#9719477452"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "The Improv Spotlight (October)"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-10-15"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/the-improv-spotlight-3601/the-improv-spotlight-thu-15-oct"
+        image: "https://system.spektrix.com/bristolimprovtheatre/files/d8af80b5-10ea-4d98-a2e0-05713ff4aeee.jpg"
+        tags:
+          - "improv"
+          - "one-night"
+          - "work-in-progress"
+        raw: "**The Improv Spotlight** — Thu 15 Oct, 7:30 PM. *Every other month!*
+
+
+          Proudly showcasing diverse skills of local troupes and artists within
+
+          the Bristol improv community. Featuring unique acts from the vibrant
+
+          world of unscripted comedy, with a focus on up-and-comers, providing a
+
+          stage for fresh, original shows.\n"
+        summary: "The next Spotlight bill after tonight's, two months on. The month is appended only to keep the two dated rows apart."
+        confidence: "high"
+      - id: "comedy/bristol-improv-theatre#bb011fc501"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "This Is Your Musical (October)"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-10-16"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/this-is-your-musical-3823/this-is-your-musical-fri-16-oct"
+        image: "https://system.spektrix.com/bristolimprovtheatre/files/4bf8eeb6-bc12-4800-b232-8521aa761ba5.jpg"
+        tags:
+          - "improv"
+          - "musical"
+          - "one-night"
+        raw: "**This Is Your Musical** — Fri 16 Oct, 8:00 PM. *Once a month*
+
+
+          Bristol's premier improvised musical - wowing audiences for over eight
+
+          years.\n"
+        summary: "October's improvised musical. The month is appended only to keep the three dated rows apart."
+        confidence: "high"
+      - id: "comedy/bristol-improv-theatre#8aa8994d5b"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "Student Showcase: Telling Stories (Level 3)"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-10-19"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/improv-theatre-school---student-showcases-3401/student-showcase-telling-stories-level-3-mon-19-oct"
+        image: "https://system.spektrix.com/bristolimprovtheatre/files/fed82744-5167-4d15-8a73-f3ff042aabd2.jpg"
+        price:
+          free: true
+          text: "Free entry with optional supporter tickets"
+        tags:
+          - "improv"
+          - "free-entry"
+          - "storytelling"
+          - "work-in-progress"
+        raw: "**Student Showcase: Telling Stories (Level 3)** — Mon 19 Oct, 7:30 PM.
+
+
+          Come and see the latest graduates of the BIT's improv courses as they
+
+          share some of the skills they've been building. Free entry with
+
+          optional supporter tickets!\n"
+        summary: "Free showcase from the Level 3 long-form storytelling class."
+        confidence: "high"
+      - id: "comedy/bristol-improv-theatre#d5baac58d6"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "Student Showcase: Developing Characters (Level 4)"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-10-20"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/improv-theatre-school---student-showcases-3401/student-showcase-developing-characters-level-4-tue-20-oct"
+        image: "https://system.spektrix.com/bristolimprovtheatre/files/fed82744-5167-4d15-8a73-f3ff042aabd2.jpg"
+        price:
+          free: true
+          text: "Free entry with optional supporter tickets"
+        tags:
+          - "improv"
+          - "free-entry"
+          - "work-in-progress"
+        raw: "**Student Showcase: Developing Characters (Level 4)** —
+
+          Tue 20 Oct, 7:30 PM.
+
+
+          Come and see the latest graduates of the BIT's improv courses as they
+
+          share some of the skills they've been building. Free entry with
+
+          optional supporter tickets!\n"
+        summary: "Free showcase from the Level 4 character class, the night after the Level 3 one."
+        confidence: "high"
+      - id: "comedy/bristol-improv-theatre#bd80bc41a2"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "The Noise Next Door: Comedy, Improvised"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-10-23"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/the-noise-next-door-comedy-improvised-7601/the-noise-next-door-comedy-improvised-fri-23-oct"
+        image: "https://system.spektrix.com/bristolimprovtheatre/files/f5f67de9-3b6c-4712-8d1a-1c730efd3f01.jpg"
+        tags:
+          - "improv"
+          - "headliner"
+          - "tour"
+        raw: "**The Noise Next Door: Comedy, Improvised** — Fri 23 Oct, 7:30 PM.
+
+
+          Funny stuff, made up on the spot. No gimmicks, no tricks - just the
+
+          quickest, wittiest improvisers in the UK putting on a show to make you
+
+          laugh like nobody's business. The Noise Next Door are award-winning,
+
+          twelve-time sell-out legends of the Edinburgh Fringe Festival and have
+
+          blown audiences away on BBC One, ITV1, Comedy Central, and in comedy
+
+          clubs and theatres all over the world. Don't miss your chance to see
+
+          them live.\n"
+        summary: "The biggest improv name to play the room this autumn, in the first of two nights."
+        confidence: "high"
+      - id: "comedy/bristol-improv-theatre#89b0165458"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "The Noise Next Door: Comedy, Improvised (Saturday)"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-10-24"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/the-noise-next-door-comedy-improvised-7601/the-noise-next-door-comedy-improvised-sat-24-oct"
+        image: "https://system.spektrix.com/bristolimprovtheatre/files/f5f67de9-3b6c-4712-8d1a-1c730efd3f01.jpg"
+        tags:
+          - "improv"
+          - "headliner"
+          - "tour"
+        raw: "**The Noise Next Door: Comedy, Improvised** — Sat 24 Oct, 7:30 PM.
+
+
+          Funny stuff, made up on the spot. No gimmicks, no tricks - just the
+
+          quickest, wittiest improvisers in the UK putting on a show to make you
+
+          laugh like nobody's business. The Noise Next Door are award-winning,
+
+          twelve-time sell-out legends of the Edinburgh Fringe Festival and have
+
+          blown audiences away on BBC One, ITV1, Comedy Central, and in comedy
+
+          clubs and theatres all over the world. Don't miss your chance to see
+
+          them live.\n"
+        summary: "The second Noise Next Door night. \"(Saturday)\" is appended only to keep the two rows distinguishable; the site titles both the same."
+        confidence: "high"
+      - id: "comedy/bristol-improv-theatre#cb3b464099"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "Halloween Games Night"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-10-29"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/halloween-games-night-9801/halloween-games-night-thu-29-oct"
+        tags:
+          - "games"
+          - "interactive"
+          - "seasonal"
+          - "improv"
+        raw: "**Halloween Games Night** — Thu 29 Oct, 7:30 PM.
+
+
+          Round up your Scooby gang for this special spooky spectacle! Inspired
+
+          by popular improv challenges, this night of gruesome games and
+
+          crypt-ic challenges will leave you howling with laughter as you play
+
+          together against others. Our haunted hosts bring the games so all you
+
+          need to do is turn up and have fun!\n"
+        summary: "A play-along Halloween games night rather than a show to watch. The only card on the listing with no image."
+        confidence: "high"
+      - id: "comedy/bristol-improv-theatre#41193f7f32"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "The Maydays present: Happily Never After"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-10-30"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/the-maydays-present-happily-never-after-4124/the-maydays-present-happily-never-after-fri-30-oct"
+        image: "https://system.spektrix.com/bristolimprovtheatre/files/98db6505-5366-4f81-a96c-bdf8ccf22c5f.jpg"
+        tags:
+          - "improv"
+          - "musical"
+          - "seasonal"
+          - "horror"
+        raw: "**The Maydays present: Happily Never After** — Fri 30 Oct, 7:30 PM.
+
+          *Halloween Special!*
+
+
+          Spend Halloween with award-winning improvisers The Maydays and their
+
+          darkly comedic 5-star sinister musical theatre show.\n"
+        summary: "The Maydays' sinister improvised musical, billed as a Halloween special. First of two nights."
+        confidence: "high"
+      - id: "comedy/bristol-improv-theatre#bbda0bfbfe"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "The Maydays present: Happily Never After (Halloween)"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-10-31"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/the-maydays-present-happily-never-after-4124/the-maydays-present-happily-never-after-sat-31-oct"
+        image: "https://system.spektrix.com/bristolimprovtheatre/files/98db6505-5366-4f81-a96c-bdf8ccf22c5f.jpg"
+        tags:
+          - "improv"
+          - "musical"
+          - "seasonal"
+          - "horror"
+        raw: "**The Maydays present: Happily Never After** — Sat 31 Oct, 7:30 PM.
+
+          *Halloween Special!*
+
+
+          Spend Halloween with award-winning improvisers The Maydays and their
+
+          darkly comedic 5-star sinister musical theatre show.\n"
+        summary: "The Maydays on Halloween night itself. \"(Halloween)\" is appended only to keep the two rows distinguishable; the site titles both the same."
+        confidence: "high"
+      - id: "comedy/bristol-improv-theatre#607e03801f"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "The Bish Bosh Bash: The Improvised Game Show (November)"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-11-06"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/the-bish-bosh-bash-the-improvised-game-show-3819/the-bish-bosh-bash-the-improvised-game-show-fri-06-nov"
+        image: "https://system.spektrix.com/bristolimprovtheatre/files/e3791c02-8506-4627-a7ae-7c4178117a39.jpg"
+        tags:
+          - "improv"
+          - "games"
+          - "one-night"
+        raw: "**The Bish Bosh Bash: The Improvised Game Show** — Fri 6 Nov, 7:30 PM.
+
+          *The first Friday of each month*
+
+
+          Comedy meets competition! Teams Bish and Bosh have been training all
+
+          summer and are ready to go head-to-head to make you laugh in improv
+
+          challenges set by an unstoppable host.\n"
+        summary: "November's edition of the monthly improvised game show."
+        confidence: "high"
+      - id: "comedy/bristol-improv-theatre#91f250b41c"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "This Is Your Musical (November)"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-11-20"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/this-is-your-musical-3823/this-is-your-musical-fri-20-nov"
+        image: "https://system.spektrix.com/bristolimprovtheatre/files/4bf8eeb6-bc12-4800-b232-8521aa761ba5.jpg"
+        tags:
+          - "improv"
+          - "musical"
+          - "one-night"
+        raw: "**This Is Your Musical** — Fri 20 Nov, 8:00 PM. *Once a month*
+
+
+          Bristol's premier improvised musical - wowing audiences for over eight
+
+          years.\n"
+        summary: "November's improvised musical."
+        confidence: "high"
+      - id: "comedy/bristol-improv-theatre#a34be5a86f"
+        sourceId: "comedy/bristol-improv-theatre"
+        title: "The Bish Bosh Bash: The Improvised Game Show (December)"
+        subcategory: "Shows & Events"
+        occurrence:
+          kind: "single"
+          date: "2026-12-04"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://improvtheatre.co.uk/events/the-bish-bosh-bash-the-improvised-game-show-3819/the-bish-bosh-bash-the-improvised-game-show-fri-04-dec"
+        image: "https://system.spektrix.com/bristolimprovtheatre/files/e3791c02-8506-4627-a7ae-7c4178117a39.jpg"
+        tags:
+          - "improv"
+          - "games"
+          - "one-night"
+        raw: "**The Bish Bosh Bash: The Improvised Game Show** — Fri 4 Dec, 7:30 PM.
+
+          *The first Friday of each month*
+
+
+          Comedy meets competition! Teams Bish and Bosh have been training all
+
+          summer and are ready to go head-to-head to make you laugh in improv
+
+          challenges set by an unstoppable host.\n"
+        summary: "December's game show, and the furthest-out date the site currently publishes."
+        confidence: "high"
+    notes: "**The catalogued URL no longer reaches the listings.** The site has been rebuilt on Blazor since the last harvest. https://www.improvtheatre.co.uk/?filter=Events still returns 200 (the www host 301s to the apex improvtheatre.co.uk), but the root is now a homepage: a six-slide carousel of featured shows, not the diary. The full filtered programme has moved to **https://improvtheatre.co.uk/events/?filter=Events**, which is where the homepage's own \"See all upcoming shows\" button points. The `?filter=Events` parameter still works exactly as the hint describes — the \"Shows & Events\" pill is the active one and the theatre-school course listings are excluded. Catalogue URL needs updating to the /events/ path, and to the apex host while stage 1 is in there.
+
+      27 dated shows from tonight to Friday 4 December, taken whole; the page has no pagination or load-more, so that is the site's full forward horizon.
+
+      **Bank holiday weekend: three of these fall inside it** — The Improv Spotlight tonight (Fri 28), The Saboteur on Saturday 29, and a Level 4 Student Showcase on **Monday 31 August**, the bank holiday itself. Nothing is programmed for Sunday 30. Nothing on the site is billed as a bank holiday event and the words do not appear anywhere on the page, so no row carries a `bank-holiday` tag — the Monday show is simply a Monday show that happens to land on it. Recorded here on that basis rather than inferred.
+
+      This source is also catalogued under theatre, deliberately; these rows come from the comedy-side reading of the same programme and are expected to collide with theatre/bristol-improv-theatre at compile time.
+
+      The listing carries a real synopsis per card, so no event pages were opened. It does not print prices — only the Student Showcases state a price at all, in their own copy (\"Free entry with optional supporter tickets\"), so `price` is absent everywhere else rather than guessed. Recurrence chips (\"Every other month!\", \"The first Friday of each month\") describe the series, not this sitting; each card is a dated instance, so each is recorded as a `single` with the chip kept in `raw`. Every card prints a weekday and all 27 check out for 2026."
+  - sourceId: "comedy/hen-and-chicken"
+    fetch:
+      ok: true
+      url: "https://www.henandchicken.com/events/category/comedy/"
+      status: 200
+    events:
+      - id: "comedy/hen-and-chicken#380eef2949"
+        sourceId: "comedy/hen-and-chicken"
+        title: "Tom Cashman NPC (Nearly Proficient Comedian)"
+        occurrence:
+          kind: "single"
+          date: "2026-09-03"
+          startTime: "20:00"
+          endTime: "22:00"
+        status: "scheduled"
+        url: "https://www.henandchicken.com/event/comedy-tom-cashman-npc-nearly-proficient-comedian/"
+        image: "https://www.henandchicken.com/wp-content/uploads/2026/08/Hen-Chicken-Bristol-Live-Events-2026-08-18T123036.053.png"
+        price:
+          free: false
+          min: 18
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Comedy: Tom Cashman NPC (Nearly Proficient Comedian)** —
+
+          Sep 3, 8:00 pm - 10:00 pm, Hen & Chicken Studio.
+
+
+          Tom Cashman is back in the UK with a new hour of stand-up that promises
+
+          to creep ever so close to proficiency. You may know Tom from Taskmaster
+
+          or TikTok or from his show descriptions which usually end very abru...
+
+          ★★★★★ \"A fast-paced, sharp, hilarious hour... like a good fever dream\"
+
+          The Age. ★★★★ \"Nobody gives...\"\n"
+        summary: "Taskmaster Australia's Tom Cashman on a UK run, opening the venue's autumn comedy diary."
+        confidence: "high"
+      - id: "comedy/hen-and-chicken#442902c436"
+        sourceId: "comedy/hen-and-chicken"
+        title: "Stand Up For The Weekend with Andrew Bird & Guests"
+        occurrence:
+          kind: "single"
+          date: "2026-09-05"
+          startTime: "20:00"
+          endTime: "22:00"
+        status: "scheduled"
+        url: "https://www.henandchicken.com/event/comedy-stand-up-for-the-weekend-with-andrew-bird-guests/"
+        image: "https://www.henandchicken.com/wp-content/uploads/2026/07/Hen-Chicken-Bristol-Live-Events-2026-07-30T105226.318.png"
+        price:
+          free: false
+          min: 12
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "weekly"
+        raw: "**Comedy: Stand Up For The Weekend with Andrew Bird & Guests** —
+
+          Sep 5, 8:00 pm - 10:00 pm, Hen & Chicken Studio.
+
+
+          Stand Up For The Weekend with Andrew Bird. Featuring Javier Jarquin &
+
+          compere Ross Smith. Stand Up For The Weekend is our flagship weekly
+
+          show from The Comedy Box featuring top circuit headliners and guest
+
+          acts plus incredibly funny and engaging comperes who host the show. A
+
+          choice of table seats, reserved row seats and...\n"
+        summary: "The venue's flagship Saturday club night, with Andrew Bird headlining, Javier Jarquin supporting and Ross Smith compering. Table and reserved seating both available."
+        confidence: "high"
+      - id: "comedy/hen-and-chicken#d741c393fc"
+        sourceId: "comedy/hen-and-chicken"
+        title: "Zachary Ruane – Comedy"
+        occurrence:
+          kind: "single"
+          date: "2026-09-07"
+          startTime: "20:00"
+          endTime: "22:00"
+        status: "sold-out"
+        url: "https://www.henandchicken.com/event/comedy-zachary-ruane-comedy/"
+        image: "https://www.henandchicken.com/wp-content/uploads/2026/07/Hen-Chicken-Bristol-Live-Events-100.png"
+        price:
+          free: false
+          min: 22
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Comedy: Zachary Ruane – COMEDY** —
+
+          Sep 7, 8:00 pm - 10:00 pm, Hen & Chicken Studio.
+
+
+          Sorry - this show's sold out - Click here to get alerted if more
+
+          tickets become available. Multi-hyphenate comedy genius Zachary Ruane
+
+          (Aunty Donna, Mish & Zach, Dungeons & Dragons: Honour Among Thieves*)
+
+          is finally gifting the world with his debut solo show. Comedy promises
+
+          to be the most important and definitive comedic work of the 21st...\n"
+        summary: "Aunty Donna's Zachary Ruane with his debut solo hour — sold out, with a waiting list open for returns."
+        confidence: "high"
+      - id: "comedy/hen-and-chicken#2f1d8a3a7b"
+        sourceId: "comedy/hen-and-chicken"
+        title: "Wednesday Night Improv"
+        occurrence:
+          kind: "single"
+          date: "2026-09-09"
+          startTime: "19:30"
+          endTime: "21:30"
+        status: "scheduled"
+        timesText: "7:30 pm - 9:30 pm, in the Chicken Shed"
+        url: "https://www.henandchicken.com/event/comedy-wednesday-night-improv-3/"
+        image: "https://www.henandchicken.com/wp-content/uploads/2026/08/Hen-Chicken-Bristol-Live-Events-2026-08-14T114049.167.png"
+        price:
+          free: false
+          min: 6
+          currency: "GBP"
+        tags:
+          - "improv"
+          - "games"
+          - "one-night"
+        raw: "**Comedy: Wednesday Night Improv** —
+
+          Sep 9, 7:30 pm - 9:30 pm, Chicken Shed.
+
+
+          Wednesday Night Improv returns to the Hen & Chicken with two halves of
+
+          unscripted comedy - all made up on the spot, all inspired by your
+
+          suggestions. Expect quick wit, bold characters, and the kind of
+
+          laughter that only happens when nobody knows what's coming next
+
+          (including the performers). ## FIRST HALF ## Comedy Games,...\n"
+        summary: "Two halves of unscripted comedy from audience suggestions, in the pub's smaller Chicken Shed room and the cheapest ticket in the diary at £6."
+        confidence: "high"
+      - id: "comedy/hen-and-chicken#9ad3dc2266"
+        sourceId: "comedy/hen-and-chicken"
+        title: "Jamie Hutchinson – Can My Mate Come? He's Sound"
+        occurrence:
+          kind: "single"
+          date: "2026-09-09"
+          startTime: "20:00"
+          endTime: "22:00"
+        status: "scheduled"
+        url: "https://www.henandchicken.com/event/comedy-jamie-hutchinson-can-my-mate-come-hes-sound-4/"
+        image: "https://www.henandchicken.com/wp-content/uploads/2026/08/Hen-Chicken-Bristol-Live-Events-2026-08-21T122639.149.png"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Comedy: Jamie Hutchinson – CAN MY MATE COME? HE'S SOUND** —
+
+          Sep 9, 8:00 pm - 10:00 pm, Hen & Chicken Studio.
+
+
+          SOLD OUT - EXTRA DATE DUE TO POPULAR DEMAND. Podcasting cult hero.
+
+          Following his record-breaking Waterslide tour, Jamie Hutchinson is back
+
+          with Can My Mate Come? He's Sound. — a brand-new hour of unfiltered
+
+          mayhem, questionable logic and emotional chaos held together by
+
+          takeaway boxes and blind optimism. Waterslide was a \"masterclass in
+
+          self-caricature\" (British Comedy Guide).\n"
+        summary: "Jamie Hutchinson's new hour, on a date the venue added after demand. Its copy opens \"SOLD OUT - EXTRA DATE DUE TO POPULAR DEMAND\", which reads as describing the original date rather than this one, and the row carries no ticket offer either way."
+        confidence: "low"
+      - id: "comedy/hen-and-chicken#e232b6fccf"
+        sourceId: "comedy/hen-and-chicken"
+        title: "Stand Up For The Weekend with Steve Bugeja & Guests"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+          startTime: "20:00"
+          endTime: "22:00"
+        status: "scheduled"
+        url: "https://www.henandchicken.com/event/comedy-stand-up-for-the-weekend-with-steve-bugeja-guests-2/"
+        image: "https://www.henandchicken.com/wp-content/uploads/2026/07/Hen-Chicken-Bristol-Live-Events-2026-07-30T105118.764.png"
+        price:
+          free: false
+          min: 12
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "weekly"
+        raw: "**Comedy: Stand Up For The Weekend with Steve Bugeja & Guests** —
+
+          Sep 12, 8:00 pm - 10:00 pm, Hen & Chicken Studio.\n"
+        summary: "The weekly Saturday club night, headlined by Steve Bugeja."
+        confidence: "high"
+      - id: "comedy/hen-and-chicken#afcd68a05e"
+        sourceId: "comedy/hen-and-chicken"
+        title: "Alfie Brown – The Entertainer"
+        occurrence:
+          kind: "single"
+          date: "2026-09-18"
+          startTime: "20:00"
+          endTime: "22:00"
+        status: "scheduled"
+        url: "https://www.henandchicken.com/event/comedy-alfie-brown-the-entertainer/"
+        image: "https://www.henandchicken.com/wp-content/uploads/2026/04/Hen-Chicken-Bristol-Live-Events-35.png"
+        price:
+          free: false
+          min: 24
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "18-plus"
+        raw: "**Comedy: Alfie Brown – THE ENTERTAINER** —
+
+          Sep 18, 8:00 pm - 10:00 pm, Hen & Chicken Studio.\n"
+        summary: "Alfie Brown's touring hour about meaning, value and the point of stand-up."
+        confidence: "high"
+      - id: "comedy/hen-and-chicken#0089ad2e70"
+        sourceId: "comedy/hen-and-chicken"
+        title: "Stand Up For The Weekend with Andrew Maxwell & Guests"
+        occurrence:
+          kind: "single"
+          date: "2026-09-19"
+          startTime: "20:00"
+          endTime: "22:00"
+        status: "scheduled"
+        url: "https://www.henandchicken.com/event/comedy-stand-up-for-the-weekend-with-andrew-maxwell-guests/"
+        image: "https://www.henandchicken.com/wp-content/uploads/2026/07/Hen-Chicken-Bristol-Live-Events-2026-07-30T104421.689.png"
+        price:
+          free: false
+          min: 12
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "weekly"
+        raw: "**Comedy: Stand Up For The Weekend with Andrew Maxwell & Guests** —
+
+          Sep 19, 8:00 pm - 10:00 pm, Hen & Chicken Studio.\n"
+        summary: "Andrew Maxwell headlines the Saturday club night, his first here in decades."
+        confidence: "high"
+      - id: "comedy/hen-and-chicken#6b2c7b911c"
+        sourceId: "comedy/hen-and-chicken"
+        title: "Stand Up For The Weekend with Mike Gunn & Guests"
+        occurrence:
+          kind: "single"
+          date: "2026-09-26"
+          startTime: "20:00"
+          endTime: "22:00"
+        status: "scheduled"
+        url: "https://www.henandchicken.com/event/comedy-stand-up-for-the-weekend-with-mike-gunn-guests/"
+        image: "https://www.henandchicken.com/wp-content/uploads/2026/08/Hen-Chicken-Bristol-Live-Events-2026-08-04T102435.586.png"
+        price:
+          free: false
+          min: 12
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "weekly"
+        raw: "**Comedy: Stand Up For The Weekend with Mike Gunn & Guests** —
+
+          Sep 26, 8:00 pm - 10:00 pm, Hen & Chicken Studio.\n"
+        summary: "Circuit veteran Mike Gunn heads the Saturday club night."
+        confidence: "high"
+      - id: "comedy/hen-and-chicken#d478961301"
+        sourceId: "comedy/hen-and-chicken"
+        title: "Ignacio Lopez Nada"
+        occurrence:
+          kind: "single"
+          date: "2026-09-27"
+          startTime: "20:00"
+          endTime: "22:30"
+        status: "scheduled"
+        url: "https://www.henandchicken.com/event/comedy-ignacio-lopez-nada/"
+        image: "https://www.henandchicken.com/wp-content/uploads/2025/11/Hen-Chicken-Bristol-Live-Events-2026-08-27T140241.258.png"
+        price:
+          free: false
+          min: 24
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Comedy: IGNACIO LOPEZ NADA** —
+
+          Sep 27, 8:00 pm - 10:30 pm, Hen & Chicken Studio.\n"
+        summary: "Ignacio Lopez's touring show Nada. The venue times this one at 8pm, where the Comedy Box's own listing gives a 7.30pm Sunday start — worth checking before travelling."
+        confidence: "medium"
+      - id: "comedy/hen-and-chicken#1daf92c467"
+        sourceId: "comedy/hen-and-chicken"
+        title: "Mark Thomas – 40 in Stand-Up Years"
+        occurrence:
+          kind: "single"
+          date: "2026-09-30"
+          startTime: "20:00"
+          endTime: "22:00"
+        status: "scheduled"
+        url: "https://www.henandchicken.com/event/copmedy-mark-thomas-40-years-in-stand-up/2026-09-30/"
+        image: "https://www.henandchicken.com/wp-content/uploads/2026/05/Hen-Chicken-Bristol-Live-Events-2026-08-24T103024.643.png"
+        price:
+          free: false
+          min: 22
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Comedy: Mark Thomas – 40 IN STAND-UP YEARS** —
+
+          Sep 30, 8:00 pm - 10:00 pm, Hen & Chicken Studio.\n"
+        summary: "Mark Thomas's fortieth-anniversary show. Its permalink contains a typo the venue has left in place (/copmedy-...), and it is date-scoped, unlike every other row."
+        confidence: "high"
+      - id: "comedy/hen-and-chicken#eac80b2a3c"
+        sourceId: "comedy/hen-and-chicken"
+        title: "Stand Up For The Weekend with Carey Marx & Guests"
+        occurrence:
+          kind: "single"
+          date: "2026-10-03"
+          startTime: "20:00"
+          endTime: "22:00"
+        status: "scheduled"
+        url: "https://www.henandchicken.com/event/comedy-stand-up-for-the-weekend-with-carey-marx-guests/"
+        image: "https://www.henandchicken.com/wp-content/uploads/2026/07/Hen-Chicken-Bristol-Live-Events-2026-07-30T110204.524.png"
+        price:
+          free: false
+          min: 12
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "weekly"
+          - "18-plus"
+        raw: "**Comedy: Stand Up For The Weekend with Carey Marx & Guests** —
+
+          Oct 3, 8:00 pm - 10:00 pm, Hen & Chicken Studio.\n"
+        summary: "Carey Marx headlines the Saturday club night."
+        confidence: "high"
+      - id: "comedy/hen-and-chicken#d35903afe9"
+        sourceId: "comedy/hen-and-chicken"
+        title: "Thomas Zabras & Andreas Paspatis"
+        occurrence:
+          kind: "single"
+          date: "2026-10-07"
+          startTime: "20:00"
+          endTime: "22:00"
+        status: "scheduled"
+        url: "https://www.henandchicken.com/event/comedy-thomas-zabras-andreas-paspatis/"
+        image: "https://www.henandchicken.com/wp-content/uploads/2026/07/Hen-Chicken-Bristol-Live-Events-99.png"
+        price:
+          free: false
+          min: 30
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Comedy: Thomas Zabras & Andreas Paspatis** —
+
+          Oct 7, 8:00 pm - 10:00 pm, Hen & Chicken Studio.\n"
+        summary: "A Greek-language stand-up double bill on a UK tour."
+        confidence: "high"
+      - id: "comedy/hen-and-chicken#d56d24c0d3"
+        sourceId: "comedy/hen-and-chicken"
+        title: "Jacob Hawley – Fighting Age Man"
+        occurrence:
+          kind: "single"
+          date: "2026-10-08"
+          startTime: "20:00"
+          endTime: "22:00"
+        status: "scheduled"
+        url: "https://www.henandchicken.com/event/comedy-jacob-hawley-fighting-age-man-2/"
+        image: "https://www.henandchicken.com/wp-content/uploads/2026/04/Hen-Chicken-Bristol-Live-Events-36.png"
+        price:
+          free: false
+          min: 22
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "18-plus"
+        raw: "**Comedy: Jacob Hawley- FIGHTING AGE MAN** —
+
+          Oct 8, 8:00 pm - 10:00 pm, Hen & Chicken Studio.\n"
+        summary: "The first of Jacob Hawley's two nights. The venue lists the pair as two separate events at two separate permalinks, where the Comedy Box lists them as one entry."
+        confidence: "high"
+      - id: "comedy/hen-and-chicken#82080191ab"
+        sourceId: "comedy/hen-and-chicken"
+        title: "Jacob Hawley – Fighting Age Man (second night)"
+        occurrence:
+          kind: "single"
+          date: "2026-10-09"
+          startTime: "20:00"
+          endTime: "22:30"
+        status: "scheduled"
+        url: "https://www.henandchicken.com/event/comedy-jacob-hawley-fighting-age-man/"
+        image: "https://www.henandchicken.com/wp-content/uploads/2026/02/Hen-Chicken-Bristol-Live-Events-1.png"
+        price:
+          free: false
+          min: 22
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "18-plus"
+        raw: "**Comedy: Jacob Hawley – Fighting Age Man** —
+
+          Oct 9, 8:00 pm - 10:30 pm, Hen & Chicken Studio.\n"
+        summary: "The second Jacob Hawley night, listed separately by the venue with its own image and a later finish. \"(second night)\" is appended only to keep the two rows apart."
+        confidence: "high"
+      - id: "comedy/hen-and-chicken#21bd5c58ad"
+        sourceId: "comedy/hen-and-chicken"
+        title: "Stand Up For The Weekend with Michael Shafar & Guests"
+        occurrence:
+          kind: "single"
+          date: "2026-10-10"
+          startTime: "20:00"
+          endTime: "22:00"
+        status: "scheduled"
+        url: "https://www.henandchicken.com/event/comedy-stand-up-for-the-weekend-with-michael-shafar-guests-2/"
+        image: "https://www.henandchicken.com/wp-content/uploads/2026/07/Hen-Chicken-Bristol-Live-Events-2026-07-30T113359.728.png"
+        price:
+          free: false
+          min: 12
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "weekly"
+        raw: "**Comedy: Stand Up For The Weekend with Michael Shafar & Guests** —
+
+          Oct 10, 8:00 pm - 10:00 pm, Hen & Chicken Studio.\n"
+        summary: "Michael Shafar headlines the Saturday club night."
+        confidence: "high"
+      - id: "comedy/hen-and-chicken#849e0d7697"
+        sourceId: "comedy/hen-and-chicken"
+        title: "Connor Burns – Flow"
+        occurrence:
+          kind: "single"
+          date: "2026-10-11"
+          startTime: "20:00"
+          endTime: "22:00"
+        status: "scheduled"
+        url: "https://www.henandchicken.com/event/comedy-connor-burns-flow/"
+        image: "https://www.henandchicken.com/wp-content/uploads/2026/08/Hen-Chicken-Bristol-Live-Events-2026-08-04T104805.540.png"
+        price:
+          free: false
+          min: 21
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Comedy: Connor Burns – FLOW** —
+
+          Oct 11, 8:00 pm - 10:00 pm, Hen & Chicken Studio.\n"
+        summary: "Connor Burns's new touring hour on a Sunday. The venue times it at 8pm against the Comedy Box's 7.30pm."
+        confidence: "medium"
+      - id: "comedy/hen-and-chicken#46311c5a64"
+        sourceId: "comedy/hen-and-chicken"
+        title: "Wednesday Night Improv (October)"
+        occurrence:
+          kind: "single"
+          date: "2026-10-14"
+          startTime: "19:30"
+          endTime: "21:30"
+        status: "scheduled"
+        timesText: "7:30 pm - 9:30 pm, in the Chicken Shed"
+        url: "https://www.henandchicken.com/event/comedy-wednesday-night-improv-4/"
+        image: "https://www.henandchicken.com/wp-content/uploads/2026/08/Hen-Chicken-Bristol-Live-Events-2026-08-14T123005.264.png"
+        price:
+          free: false
+          min: 6
+          currency: "GBP"
+        tags:
+          - "improv"
+          - "games"
+          - "one-night"
+        raw: "**Comedy: Wednesday Night Improv** —
+
+          Oct 14, 7:30 pm - 9:30 pm, Chicken Shed.\n"
+        summary: "October's Wednesday Night Improv in the Chicken Shed, again at £6. The month is appended only to keep the two dated rows apart."
+        confidence: "high"
+      - id: "comedy/hen-and-chicken#2f81dd0076"
+        sourceId: "comedy/hen-and-chicken"
+        title: "Robert White 'That' Gay Autistic Keyboard Tanktop Comedy Guy!"
+        occurrence:
+          kind: "single"
+          date: "2026-10-14"
+          startTime: "20:00"
+          endTime: "22:00"
+        status: "scheduled"
+        url: "https://www.henandchicken.com/event/comedy-robert-white-that-gay-autistic-keyboard-tanktop-comedy-guy/"
+        image: "https://www.henandchicken.com/wp-content/uploads/2026/03/Hen-Chicken-Bristol-Live-Events-2026-08-04T111900.544.png"
+        price:
+          free: false
+          min: 21
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "musical"
+          - "lgbtq"
+          - "one-night"
+        raw: "**Comedy: Robert White 'That' Gay Autistic Keyboard Tanktop Comedy
+
+          Guy!** — Oct 14, 8:00 pm - 10:00 pm, Hen & Chicken Studio.\n"
+        summary: "Robert White's keyboard comedy in the Studio, the same night as improv next door in the Shed. The Comedy Box's listing prints no price for this one; the venue's does, at £21."
+        confidence: "high"
+      - id: "comedy/hen-and-chicken#367e188a24"
+        sourceId: "comedy/hen-and-chicken"
+        title: "Tom Ward – Post-Millennium Tension"
+        occurrence:
+          kind: "single"
+          date: "2026-10-16"
+          startTime: "20:00"
+          endTime: "22:30"
+        status: "scheduled"
+        url: "https://www.henandchicken.com/event/comedy-tom-ward-post-millennium-tension/"
+        image: "https://www.henandchicken.com/wp-content/uploads/2026/02/Hen-Chicken-Bristol-Live-Events-6.png"
+        price:
+          free: false
+          min: 19
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Comedy: Tom Ward – Post-Millennium Tension** —
+
+          Oct 16, 8:00 pm - 10:30 pm, Hen & Chicken Studio.\n"
+        summary: "Tom Ward's nineties-nostalgia hour."
+        confidence: "high"
+      - id: "comedy/hen-and-chicken#cf5fbbd30b"
+        sourceId: "comedy/hen-and-chicken"
+        title: "Stand Up For The Weekend with Robin Morgan & Guests"
+        occurrence:
+          kind: "single"
+          date: "2026-10-17"
+          startTime: "20:00"
+          endTime: "22:00"
+        status: "scheduled"
+        url: "https://www.henandchicken.com/event/comedy-stand-up-for-the-weekend-with-robin-morgan-guests/"
+        image: "https://www.henandchicken.com/wp-content/uploads/2026/07/Hen-Chicken-Bristol-Live-Events-2026-07-30T120011.883.png"
+        price:
+          free: false
+          min: 12
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "headliner"
+          - "weekly"
+        raw: "**Comedy: Stand Up For The Weekend With Robin Morgan & Guests** —
+
+          Oct 17, 8:00 pm - 10:00 pm, Hen & Chicken Studio.\n"
+        summary: "Robin Morgan headlines the Saturday club night."
+        confidence: "high"
+      - id: "comedy/hen-and-chicken#4e3bd80ffa"
+        sourceId: "comedy/hen-and-chicken"
+        title: "Greipur Hjaltason – The Icebreaker UK Tour"
+        occurrence:
+          kind: "single"
+          date: "2026-10-20"
+          startTime: "20:00"
+          endTime: "22:00"
+        status: "scheduled"
+        url: "https://www.henandchicken.com/event/comedy-greipur-hjaltason-the-icebreaker-uk-tour/"
+        image: "https://www.henandchicken.com/wp-content/uploads/2026/06/Hen-Chicken-Bristol-Live-Events-68.png"
+        price:
+          free: false
+          min: 30
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**COMEDY: GREIPUR HJALTASON – THE ICEBREAKER UK TOUR** —
+
+          Oct 20, 8:00 pm - 10:00 pm, Hen & Chicken Studio.\n"
+        summary: "Icelandic stand-up Greipur Hjaltason's first UK tour. The £30 here is the Comedy Box's early-bird price; its own listing tops out at £35."
+        confidence: "high"
+      - id: "comedy/hen-and-chicken#17682a8bd2"
+        sourceId: "comedy/hen-and-chicken"
+        title: "Dan Tiernan Quartz and All"
+        occurrence:
+          kind: "single"
+          date: "2026-10-22"
+          startTime: "20:00"
+          endTime: "22:00"
+        status: "scheduled"
+        url: "https://www.henandchicken.com/event/comedy-dan-tiernan-quartz-and-all/"
+        image: "https://www.henandchicken.com/wp-content/uploads/2026/07/Hen-Chicken-Bristol-Live-Events-82.png"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Comedy: DAN TIERNAN QUARTZ AND ALL** —
+
+          Oct 22, 8:00 pm - 10:00 pm, Hen & Chicken Studio.\n"
+        summary: "Dan Tiernan's new hour. This row carries no ticket offer in the venue's data; the Comedy Box prices it at £19.50."
+        confidence: "high"
+      - id: "comedy/hen-and-chicken#a4b5da6a57"
+        sourceId: "comedy/hen-and-chicken"
+        title: "Rachel Fairburn – Vexy Beasts"
+        occurrence:
+          kind: "single"
+          date: "2026-10-23"
+          startTime: "20:00"
+          endTime: "22:30"
+        status: "scheduled"
+        url: "https://www.henandchicken.com/event/comedy-rachel-fairburn-vexy-beasts/"
+        image: "https://www.henandchicken.com/wp-content/uploads/2025/10/Website-event-image-template-2025-10-06T111654.948.png"
+        price:
+          free: false
+          min: 22
+          currency: "GBP"
+        tags:
+          - "stand-up"
+          - "tour"
+          - "one-night"
+        raw: "**Comedy: RACHEL FAIRBURN – VEXY BEASTS** —
+
+          Oct 23, 8:00 pm - 10:30 pm, Hen & Chicken Studio.\n"
+        summary: "Rachel Fairburn's Vexy Beasts, and the last event taken from this source in this run."
+        confidence: "high"
+    notes: "A browser user-agent is still required exactly as the hint says — WebFetch gets 403, a Chrome UA gets 200. Harvested from the HTML, whose embedded JSON-LD `Event` blocks carry title, both timestamps, deep link, image and price for every row, so no per-event fetches were needed and no API call was made.
+
+      **Nothing over the bank holiday weekend.** This is a checked negative rather than an assumption: the view's own datepicker is stamped `Now` = `2026-08-28` through `2026-10-03`, so the window does start today, and the first event inside it is Thursday 3 September. Neither page mentions a bank holiday, and the site prints no altered opening hours for the Monday.
+
+      Two pages taken, 24 events, 3 September to 23 October. **Truncated deliberately beyond that** — the diary continues, but every remaining show is also carried by comedy/the-comedy-box, which was taken whole to February 2027 in this same run, so a third page would have bought duplicates rather than coverage. Nothing inside 29–31 August was truncated, because there was nothing there.
+
+      Catalogue correction: the hint says to ignore the `<title>` as a stale plugin artefact reading \"Events from January 4, 2025 – January 21, 2025\". That is no longer true — it now reads \"Events from September 3 – October 3 › Comedy › – Hen & Chicken\" and tracks the view. The hint can be retired.
+
+      Prices come from the JSON-LD `offers` block, whose `priceCurrency` is wrongly `USD` on every row; the venue prices in sterling and The Comedy Box's own listing prints the identical figures with a £ sign, so `currency` is recorded as GBP. The page itself prints no price text in this view, so `price.text` is left off rather than fabricated, and rows with no `offers` block get no `price` at all.
+
+      The \"Comedy:\" genre prefix has been stripped from every title per the hint. Two rows describe themselves as sold out. Zachary Ruane's is unambiguous (\"Sorry - this show's sold out\") and is recorded as `sold-out` even though the JSON-LD still says `inStock`. Jamie Hutchinson's reads \"SOLD OUT - EXTRA DATE DUE TO POPULAR DEMAND\", which most likely means an earlier date sold out and this is the replacement — so it stays `scheduled` at `confidence: low` with the venue's wording kept verbatim in `raw`, rather than guessing either way.
+
+      One row is in the Chicken Shed rather than the Studio; that is a second room in the same building, not a different venue, so it is noted in `timesText` and no `venue` is set."

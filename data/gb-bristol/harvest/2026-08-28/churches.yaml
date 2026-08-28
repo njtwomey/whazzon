@@ -1,0 +1,1370 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-08-28"
+category: "churches"
+harvestedAt: "2026-08-28T20:15:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "4"
+model: "claude-opus-5"
+observations:
+  - sourceId: "churches/bristol-cathedral"
+    fetch:
+      ok: true
+      url: "https://bristol-cathedral.co.uk/whats-on/"
+      status: 200
+    events:
+      - id: "churches/bristol-cathedral#b4b3ccacb4"
+        sourceId: "churches/bristol-cathedral"
+        title: "Bristol's Grenfell Memorial Panel"
+        subcategory: "Community"
+        occurrence:
+          kind: "run"
+          start: "2026-08-17"
+          end: "2026-09-14"
+        status: "scheduled"
+        timesText: "10:00 - 16:00"
+        url: "https://bristol-cathedral.co.uk/event/bristols-grenfell-memorial-panel/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/08/IMG_3815.jpg"
+        price:
+          free: true
+          text: "Free admission. All welcome."
+        tags:
+          - "exhibition"
+          - "textiles"
+          - "community"
+          - "free-entry"
+        raw: "Bristol Cathedral is honoured to display Bristol Star Stitchers'
+
+          contribution to the Grenfell Memorial Quilt, a moving tribute to all those
+
+          affected by the Grenfell Tower disaster.
+
+
+          Bristol Star Stitchers have created a 12ft x 12ft panel honours the 72
+
+          people who died in the fire on 14 June 2017, as well as those who survived,
+
+          were injured, or lost their homes. It forms part of a nationwide memorial
+
+          project inspired by a call from relatives and friends of those affected,
+
+          with around 90 panels created by groups across the UK ahead of the
+
+          disaster's tenth anniversary in 2027.
+
+
+          The Bristol panel is also a story of community. Made from recycled fabrics
+
+          collected from charity shops and other sources, it brought together more
+
+          than 30 people of all ages and levels of sewing experience. What began as
+
+          small gatherings in people's homes grew into a shared endeavour at the
+
+          Vassall Community Hub in Fishponds, where friendships were formed and
+
+          skills, stories and countless hours were shared.
+
+
+          At the heart of the panel are 72 embroidered stars, each bearing the name
+
+          and age of a person who died. Families and loved ones are stitched close
+
+          together, reflecting the lives, relationships and communities behind the
+
+          headlines. Flowers and foliage symbolise hope and renewal, while the tower
+
+          itself stands as a reminder that those affected must not be forgotten.
+
+
+          Visitors are warmly invited to spend time with this remarkable artwork,
+
+          remember those who were lost, and reflect on the power of communities
+
+          coming together in solidarity.
+
+
+          Free admission. All welcome.
+
+
+          Mon 17 Aug | 10:00 - 16:00\n"
+        summary: "Bristol's twelve-foot panel for the national Grenfell Memorial Quilt, on
+
+          free display in the cathedral until mid-September. Stitched by more than
+
+          thirty people from recycled charity-shop fabric, it carries 72 embroidered
+
+          stars, one for each person who died.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#8ba2cbb2d5"
+        sourceId: "churches/bristol-cathedral"
+        title: "All God's Children"
+        subcategory: "Exhibitions"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        timesText: "10:00 - 16:00"
+        url: "https://bristol-cathedral.co.uk/event/all-gods-children-3-2/2026-08-29/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2024/10/007-August-25-2022-All-God_s-Children-full-res-DSC_2776-PULLEN.jpg"
+        tags:
+          - "exhibition"
+          - "heritage"
+        raw: "All God's Children is an exhibition in Bristol Cathedral that explores the
+
+          impact of the slave economy on Cathedral life, past and present.
+
+
+          All God's Children is part of the Cathedral's work to understand its links
+
+          with the transatlantic trade of enslaved people. Research that informed the
+
+          exhibition discovered that between 1670 and 1900, roughly 1,000 people were
+
+          buried or memorialised in the Cathedral and its grounds. Around 200 (20%) of
+
+          them had a close connection to the slavery-based economy.
+
+
+          We hope that the exhibition will inform a wide-ranging conversation about
+
+          the stories we tell in the Cathedral, the ways in which we can repair and
+
+          restore damaged relationships and the ways we can work together for a better
+
+          future for everyone.
+
+
+          Listed daily at 10:00 - 16:00.\n"
+        summary: "A standing exhibition on what the cathedral's own memorials record about
+
+          Bristol's slave economy: of roughly a thousand people buried or
+
+          memorialised here between 1670 and 1900, about a fifth had a close
+
+          connection to it. Open through the bank holiday Monday.\n"
+        confidence: "medium"
+      - id: "churches/bristol-cathedral#2f1152437d"
+        sourceId: "churches/bristol-cathedral"
+        title: "Tower Tour"
+        subcategory: "Guided Tours"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+          startTime: "11:00"
+          endTime: "12:15"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/tower-tour-3-2/2026-08-29/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2025/07/Tower-Tour-2.jpg"
+        tags:
+          - "guided-tour"
+          - "heritage"
+          - "booking-required"
+        raw: "Step behind closed doors and climb the soaring tower of Bristol Cathedral on
+
+          a special guided tour that will take you through 900 years of history and
+
+          architecture.
+
+
+          Climb the 172 steps of Bristol Cathedral's Tower for a guided tour where
+
+          you'll learn how the Cathedral has evolved over time and the engineering
+
+          feats that have made it into the beautiful building you see today.
+
+
+          You will come face to face with some of the finest medieval bells in the
+
+          world, tales of Isambard Kingdom Brunel, and uncover the mysteries of the
+
+          original 12th-century abbey that once dominated College Green.
+
+
+          This tour involves ascending almost 200 steps up a spiral staircase which is
+
+          narrow in places, with low-hanging doorways and pipes along the route. To
+
+          make sure the tour is suitable for you and your group please consult the
+
+          terms and conditions below.
+
+
+          For Carers tickets please email visitorexperience@bristol-cathedral.co.uk
+
+
+          Sat 29 Aug | 11:00 - 12:15\n"
+        summary: "The one tower climb in the bank holiday weekend's diary: 172 steps up the
+
+          spiral staircase past some of the finest medieval bells in the world, with
+
+          900 years of the building's history on the way. Saturday only — the
+
+          cathedral prints no Sunday or Monday tour.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#51760f2a78"
+        sourceId: "churches/bristol-cathedral"
+        title: "Choral Evensong"
+        subcategory: "Services"
+        occurrence:
+          kind: "recurring"
+          pattern: "5.15pm | Mon – Fri, except Thursdays (term-time only). 3.30pm | Sun"
+          startTime: "17:15"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/choral-evensong-2-12-4-2-3-2-2-2-2-2-2-2-3-3-3-2/2026-08-29/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2023/10/Choral-Evensong.jpg"
+        tags:
+          - "classical"
+          - "drop-in"
+        raw: "**Choral Evensong** — 5.15pm | Mon – Fri, except Thursdays (term-time only).
+
+          3.30pm | Sun.
+
+
+          Choral Evensong is usually sung by the Cathedral choir and consists of the
+
+          singing of texts taken from the bible interspersed with prayers and
+
+          readings. This service offers a chance to reflect and immerse yourself in
+
+          the presence of God at the end of the day, through outstanding choral music.
+
+
+          The service is held in the Nave and lasts around 40 minutes. Please check
+
+          the Music List (there is a link at the bottom of this and every page) for
+
+          upcoming details of upcoming services, music, and who is singing.
+
+
+          The events diary also lists Choral Evensong at 17:15 on Sat 29 Aug, which
+
+          the stated pattern does not cover.\n"
+        summary: "Forty minutes of the cathedral choir in the Nave at the end of the day, free
+
+          to walk into and the easiest way to hear the newly restored organ and the
+
+          choral foundation without a ticket. Which day it falls on varies — check the
+
+          music list.\n"
+        confidence: "medium"
+      - id: "churches/bristol-cathedral#dc3f74d062"
+        sourceId: "churches/bristol-cathedral"
+        title: "Michał Szostak"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-09-08"
+          startTime: "13:15"
+          endTime: "14:00"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/michal-szostak/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2023/10/Organ-e1742308226948-500x238.jpg"
+        tags:
+          - "classical"
+          - "live-music"
+        raw: "**Michał Szostak — Organist.** This Week's Recital. Tue 08 Sep | 13:15 - 14:00.
+
+
+          Take a break in the middle of your week and enjoy an inspiring hour of live
+
+          music in the magnificent surroundings of Bristol Cathedral's 19th-century
+
+          Nave. Our popular Tuesday Lunchtime Recital series showcases a diverse
+
+          programme of performances from world-class musicians, rising stars, and
+
+          acclaimed ensembles, offering something to delight every musical taste.\n"
+        summary: "Tuesday lunchtime organ recital in the Nave, with a live video feed from the
+
+          console projected onto a screen so you can watch the playing. Part of the
+
+          year-long celebration of the cathedral organ's restoration.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#54d054a0ba"
+        sourceId: "churches/bristol-cathedral"
+        title: "Fabián Greš"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-09-22"
+          startTime: "13:15"
+          endTime: "14:00"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/fabian-gres/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/02/Organ-8-500x333.jpg"
+        tags:
+          - "classical"
+          - "live-music"
+        raw: "**Fabián Greš — Organist.** This Week's Recital. Tue 22 Sep | 13:15 - 14:00.
+
+
+          Take a break in the middle of your week and enjoy an inspiring hour of live
+
+          music in the magnificent surroundings of Bristol Cathedral's 19th-century
+
+          Nave. Our popular Tuesday Lunchtime Recital series showcases a diverse
+
+          programme of performances from world-class musicians, rising stars, and
+
+          acclaimed ensembles, offering something to delight every musical taste.\n"
+        summary: "An hour of organ music in the Nave on a Tuesday lunchtime, free to sit in
+
+          on, with the console screened live for the audience.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#7d68984675"
+        sourceId: "churches/bristol-cathedral"
+        title: "Simon Hogan"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-10-06"
+          startTime: "13:15"
+          endTime: "14:00"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/simon-hogan/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/07/261006-Simon-Hogan-e1785155918242-484x500.jpg"
+        tags:
+          - "classical"
+          - "live-music"
+        raw: "**Simon Hogan — Organist.** This Week's Recital. Tue 06 Oct | 13:15 - 14:00.
+
+
+          Take a break in the middle of your week and enjoy an inspiring hour of live
+
+          music in the magnificent surroundings of Bristol Cathedral's 19th-century
+
+          Nave. Our popular Tuesday Lunchtime Recital series showcases a diverse
+
+          programme of performances from world-class musicians, rising stars, and
+
+          acclaimed ensembles, offering something to delight every musical taste.\n"
+        summary: "Tuesday lunchtime recital on the restored Harrison organ, an hour in the
+
+          19th-century Nave with the player's hands and feet on screen.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#c3da623930"
+        sourceId: "churches/bristol-cathedral"
+        title: "Carolyn Craig"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-10-13"
+          startTime: "13:15"
+          endTime: "14:00"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/carolyn-craig/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/07/Carolyn-Craig-Hyde-Park-United-Methodist-Church-Cincinnati-OH-Photo-by-Ed-Schweitzer-500x334.jpg"
+        tags:
+          - "classical"
+          - "live-music"
+        raw: "**Carolyn Craig — Organist.** This Week's Recital. Tue 13 Oct | 13:15 - 14:00.
+
+
+          Take a break in the middle of your week and enjoy an inspiring hour of live
+
+          music in the magnificent surroundings of Bristol Cathedral's 19th-century
+
+          Nave. Our popular Tuesday Lunchtime Recital series showcases a diverse
+
+          programme of performances from world-class musicians, rising stars, and
+
+          acclaimed ensembles, offering something to delight every musical taste.\n"
+        summary: "A visiting organist in the Tuesday lunchtime series, an hour of live music
+
+          in the Nave in the middle of the working day.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#57e39f842c"
+        sourceId: "churches/bristol-cathedral"
+        title: "Christopher Jones"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-10-20"
+          startTime: "13:15"
+          endTime: "14:00"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/christopher-jones/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/02/Organ-9-500x333.jpg"
+        tags:
+          - "classical"
+          - "live-music"
+        raw: "**Christopher Jones — Organist.** This Week's Recital. Tue 20 Oct | 13:15 - 14:00.
+
+
+          Take a break in the middle of your week and enjoy an inspiring hour of live
+
+          music in the magnificent surroundings of Bristol Cathedral's 19th-century
+
+          Nave. Our popular Tuesday Lunchtime Recital series showcases a diverse
+
+          programme of performances from world-class musicians, rising stars, and
+
+          acclaimed ensembles, offering something to delight every musical taste.\n"
+        summary: "Another hour on the cathedral organ in the Tuesday lunchtime series, with a
+
+          live camera feed from the console projected for the audience.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#70d9eff65d"
+        sourceId: "churches/bristol-cathedral"
+        title: "WOOFYT: Explore the Science of Music"
+        subcategory: "Family Activities"
+        occurrence:
+          kind: "single"
+          date: "2026-10-28"
+          startTime: "09:30"
+          endTime: "15:30"
+        status: "scheduled"
+        timesText: "Workshop sessions (75 minutes): 9.30am, 10.50am, 1.00pm, 2.20pm"
+        url: "https://bristol-cathedral.co.uk/event/woofyt/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/03/woofyt-1_1-500x288.png"
+        price:
+          free: true
+          text: "Workshop places are free but must be booked in advance."
+        tags:
+          - "family"
+          - "hands-on"
+          - "workshop"
+          - "booking-required"
+          - "festival"
+        raw: "**Build, Play and Discover: The Science of the Organ. Featuring WOOFYT.**
+
+
+          Ever wondered how an organ creates its powerful sound?
+
+
+          Join us for a hands-on family experience exploring the science, technology
+
+          and creativity behind one of the world's most remarkable musical
+
+          instruments. Through WOOFYT, the Wooden One-Octave Organ for Young
+
+          Technologists, children and families can investigate how organ pipes work,
+
+          discover the mechanics behind music, and experiment with sound for
+
+          themselves.
+
+
+          Designed for curious minds of all ages, this interactive activity combines
+
+          music, engineering and discovery in a fun and accessible way.
+
+
+          Alongside the workshop, families can also enjoy [Crafty
+
+          Cathedral](https://bristol-cathedral.co.uk/whats-on/), with free drop-in
+
+          musical arts and crafts activities running throughout the morning. No
+
+          booking is needed for the craft activities.
+
+
+          Workshop sessions (75 minutes): 9.30am / 10.50am / 1.00pm / 2.20pm
+
+
+          Workshop places are free but must be booked in advance.
+
+
+          Part of [The Grand Organ
+
+          Festival](https://bristol-cathedral.co.uk/whats-on/the-grand-organ-festival/),
+
+          celebrating the return of Bristol Cathedral's organ following its major
+
+          restoration.
+
+
+          Wed 28 Oct | 9:30 - 15:30\n"
+        summary: "Half-term family workshop built around WOOFYT, a wooden one-octave organ
+
+          children can take apart and play, to work out how pipes make sound. Four
+
+          free 75-minute sessions through the day, booked in advance, with drop-in
+
+          craft running alongside.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#51e00d0fa9"
+        sourceId: "churches/bristol-cathedral"
+        title: "Jonathan Hope"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-11-03"
+          startTime: "13:15"
+          endTime: "14:00"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/jonathan-hope/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/07/Jonathan-Hope-L1009013-500x366.jpg"
+        tags:
+          - "classical"
+          - "live-music"
+        raw: "**Jonathan Hope — Organist.** This Week's Recital. Tue 03 Nov | 13:15 - 14:00.
+
+
+          Take a break in the middle of your week and enjoy an inspiring hour of live
+
+          music in the magnificent surroundings of Bristol Cathedral's 19th-century
+
+          Nave. Our popular Tuesday Lunchtime Recital series showcases a diverse
+
+          programme of performances from world-class musicians, rising stars, and
+
+          acclaimed ensembles, offering something to delight every musical taste.\n"
+        summary: "Tuesday lunchtime organ recital in the Nave — 45 minutes of live music in
+
+          the middle of the day, with the console screened.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#0c0c81b3e4"
+        sourceId: "churches/bristol-cathedral"
+        title: "Carleton Etherington"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-11-24"
+          startTime: "13:15"
+          endTime: "14:00"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/carleton-etherington/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/02/Organ-12-500x333.jpg"
+        tags:
+          - "classical"
+          - "live-music"
+        raw: "**Carleton Etherington — Organist.** This Week's Recital. Tue 24 Nov | 13:15 - 14:00.
+
+
+          Take a break in the middle of your week and enjoy an inspiring hour of live
+
+          music in the magnificent surroundings of Bristol Cathedral's 19th-century
+
+          Nave. Our popular Tuesday Lunchtime Recital series showcases a diverse
+
+          programme of performances from world-class musicians, rising stars, and
+
+          acclaimed ensembles, offering something to delight every musical taste.\n"
+        summary: "A visiting recitalist on the restored cathedral organ, part of the Tuesday
+
+          lunchtime series that runs through the autumn.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#1d403b74e2"
+        sourceId: "churches/bristol-cathedral"
+        title: "New Bristol Sinfonia"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-11-28"
+          startTime: "19:30"
+          endTime: "21:30"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/new-bristol-sinfonia/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/04/NBS-Poster-artwork-350x500.jpg"
+        tags:
+          - "classical"
+          - "live-music"
+          - "festival"
+        raw: "Join New Bristol Sinfonia and the organists of Bristol Cathedral for a
+
+          spectacular evening celebrating the power, drama and beauty of music for
+
+          organ and orchestra.
+
+
+          Part of The Grand Organ Festival, this concert marks an exciting moment in
+
+          the life of the Cathedral's newly restored organ, bringing together
+
+          musicians from across Bristol for a performance of some of the most
+
+          inspiring works ever written for the instrument.
+
+
+          The evening opens with Widor's much-loved *Toccata*, the final piece played
+
+          on the organ before its restoration began. Audiences will then hear works by
+
+          Bach, Elgar and Poulenc before the concert culminates in Saint-Saëns'
+
+          magnificent *Symphony No. 3*, often known simply as the \"Organ Symphony\".
+
+
+          From moments of quiet reflection to thrilling orchestral grandeur, this
+
+          programme showcases the remarkable partnership between organ and orchestra
+
+          while celebrating the return of an instrument that has been at the heart of
+
+          Cathedral life for generations.
+
+
+          Presented by New Bristol Sinfonia and Bristol Cathedral as part of The Grand
+
+          Organ Festival.
+
+
+          Sat 28 Nov | 19:30 - 21:30\n"
+        summary: "The Grand Organ Festival's centrepiece: New Bristol Sinfonia and the
+
+          cathedral organists together for Widor's Toccata — the last thing played
+
+          before the restoration began — then Bach, Elgar, Poulenc and the Saint-Saëns
+
+          Organ Symphony.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#47eab8b10b"
+        sourceId: "churches/bristol-cathedral"
+        title: "Luke Bond"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-12-15"
+          startTime: "13:15"
+          endTime: "14:00"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/luke-bond/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/02/Organ-13-500x298.jpg"
+        tags:
+          - "classical"
+          - "live-music"
+        raw: "**Luke Bond — Organist.** This Week's Recital. Tue 15 Dec | 13:15 - 14:00.
+
+
+          Take a break in the middle of your week and enjoy an inspiring hour of live
+
+          music in the magnificent surroundings of Bristol Cathedral's 19th-century
+
+          Nave. Our popular Tuesday Lunchtime Recital series showcases a diverse
+
+          programme of performances from world-class musicians, rising stars, and
+
+          acclaimed ensembles, offering something to delight every musical taste.\n"
+        summary: "The last Tuesday lunchtime recital printed for 2026, an hour of organ music
+
+          in the Nave a week and a half before Christmas.\n"
+        confidence: "high"
+    notes: "First harvest of this source, and the catalogue hint holds up: /whats-on/ answers 200 and is the real listing. Four fetches in all — /whats-on/, the .ics export the page itself links, /whats-on/the-grand-organ-festival/ and /worship/daily-services/.
+
+
+      The site runs The Events Calendar (Tribe). The what's-on page prints a \"Subscribe to calendar / Export .ics file\" link to https://bristol-cathedral.co.uk/cathedral-events/list/?shortcode=b5e78f03&ical=1 which returns the forward diary with full body text and image URLs in one fetch. It is capped at 30 VEVENTs, which in practice is only eight days (17 Aug – 4 Sep), so it is a cheap route to the near horizon but not to the whole year. A stage 1 `feed` route plus a hint about the 30-event cap would pay for itself here. There is also a webcal:// form of the same URL.
+
+
+      The diary is dominated by expanded daily-service instances: across 29 Aug – 4 Sep the feed carries roughly twenty rows of Morning Prayer, Lunchtime Eucharist, Evening Prayer, Holy Communion (BCP), Cathedral Eucharist and the Lord Mayor's Chapel Sunday service. Per the run brief I have deliberately not recorded those as events. The one service kept is Choral Evensong, as a single `recurring` row, because it is billed and attended as a musical event and the catalogue hint asks for exactly that. A human may want to settle whether even that belongs.
+
+
+      Note a genuine conflict the cathedral has with itself: /worship/daily-services/ states Choral Evensong is \"5.15pm | Mon – Fri, except Thursdays (term-time only)\" with Evening Prayer on Saturdays, but the diary lists Choral Evensong at 17:15 on Sat 29 Aug. The recurring row carries the stated pattern in the cathedral's own words and is marked `confidence: medium` for that reason.
+
+
+      Bank holiday weekend: nothing here is billed as a bank holiday event, so no `bank-holiday` tag is used. What the diary does print — recorded, not inferred — is that the cathedral keeps All God's Children open 10:00–16:00 on Mon 31 August, that the Tower Tour runs on Sat 29 August only and not on the Sunday or the Monday, and that there is no 10:00–16:00 exhibition row at all on Sun 30 August. Monday 31 August has Evening Prayer at 17:15 rather than Choral Evensong, but Thursday 3 September does too, so that is the choir's ordinary week rather than a bank holiday alteration. No altered opening hours are printed anywhere.
+
+
+      Crafty Cathedral, the free drop-in family craft morning, is listed only on Thu 20 and Thu 27 August, both now past, so it is not recorded. The WOOFYT listing says Crafty Cathedral will run alongside it on 28 October; no intervening dates are printed.
+
+
+      Truncation: the ten Grand Organ Festival rows each repeat the same five-paragraph series blurb verbatim. `raw` carries each row's own lines plus the opening paragraph; the remaining four identical paragraphs are not duplicated into ten events. No individual event pages were opened, so no `description` is set. The far horizon beyond Tue 15 Dec was not pursued."
+  - sourceId: "churches/st-mary-redcliffe"
+    fetch:
+      ok: true
+      url: "https://tockify.com/api/ngevent?calname=stmaryredcliffeevents&startms=1787871600000&endms=1803859200000&max=200"
+      status: 200
+    events:
+      - id: "churches/st-mary-redcliffe#818d4b6fb5"
+        sourceId: "churches/st-mary-redcliffe"
+        title: "Chatterton, Heritage & Decolonisation"
+        subcategory: "Free Exhibition"
+        occurrence:
+          kind: "run"
+          start: "2026-05-15"
+          end: "2027-03-22"
+        status: "scheduled"
+        timesText: "Monday - Saturday 8:00am - 4:00pm / Sunday 12:00noon - 5:00pm"
+        url: "https://www.stmaryredcliffe.co.uk/free-exhibition--chatterton--heritage---decolonisation"
+        tags:
+          - "exhibition"
+          - "free-entry"
+          - "heritage"
+          - "poetry"
+        raw: "**Free Exhibition — Opening Up St Mary Redcliffe: Chatterton, Heritage &
+
+          Decolonisation**
+
+
+          Dates: May 15 2026 - March 22 2027
+
+
+          Times: Monday - Saturday 8:00am - 4:00pm / Sunday 12:00noon - 5:00pm
+
+
+          Entry: Free
+
+
+          Location: St John's Chapel
+
+
+          A free exhibition on the life, times and significance of Thomas Chatterton,
+
+          \"the marvellous boy, / The sleepless soul that perished in his pride.\"\n"
+        summary: "A free display in St John's Chapel on Thomas Chatterton — the teenage poet
+
+          who forged a medieval monk's manuscripts in this church's muniment room and
+
+          died at seventeen — and on what heritage and decolonisation mean for the
+
+          building now. Open every day, and the only thing Redcliffe has listed across
+
+          the bank holiday weekend.\n"
+        confidence: "high"
+      - id: "churches/st-mary-redcliffe#1118b3c51f"
+        sourceId: "churches/st-mary-redcliffe"
+        title: "National Poetry Day: Simon Armitage, Karen Solie, & Rachel Bower"
+        occurrence:
+          kind: "single"
+          date: "2026-10-03"
+          startTime: "19:30"
+          endTime: "22:00"
+        status: "scheduled"
+        price:
+          free: false
+          text: "Advance £20.00 / Restricted view £15.00 / Booking fee applies"
+          min: 15
+          max: 20
+          currency: "GBP"
+        tags:
+          - "poetry"
+          - "reading"
+          - "booking-required"
+        raw: "National Poetry Day: Simon Armitage, Karen Solie, & Rachel Bower
+
+
+          Saturday 3 October 2026. Bristol, St Mary Redcliffe Church.
+
+
+          Tickets are available on ticket source.
+
+
+          Information: Starts 7:30 P.M. Advance £20.00. Restricted view £15.00.
+
+          Booking fee applies.
+
+
+          Come along to a very special event for National Poetry Day with the Poet
+
+          Laureate Simon Armitage, Forward Poetry Prize winner Karen Solie, and the
+
+          exc…\n"
+        summary: "The Poet Laureate reading in the nave for National Poetry Day, with Forward
+
+          Prize winner Karen Solie and Rachel Bower. Restricted-view seats are five
+
+          pounds cheaper, which in a building this shape is worth knowing.\n"
+        confidence: "high"
+      - id: "churches/st-mary-redcliffe#dbcc388105"
+        sourceId: "churches/st-mary-redcliffe"
+        title: "FAUST: Centenary Screening w/ Live Music at St Mary Redcliffe"
+        occurrence:
+          kind: "single"
+          date: "2026-10-21"
+          startTime: "18:15"
+          endTime: "20:45"
+        status: "scheduled"
+        tags:
+          - "screening"
+          - "live-music"
+          - "classic"
+        raw: "Bristol Film Festival are returning to the stunning Gothic surroundings of
+
+          St Mary Redcliffe in October as part of their Halloween season, for a
+
+          special centenary screening of *Faust*. This visually stunning adaptation of
+
+          the legendary tale was directed by F.W. Murnau, the genius behind
+
+          *Nosferatu*, and Faust offers a similarly chilling exploration of morality,
+
+          good versus evil, and the battle for one…
+
+
+          Tockify tags: film-screening, faust, bristol-film-festival, event.\n"
+        summary: "Murnau's 1926 Faust at a hundred, screened in the nave with live music, as
+
+          part of Bristol Film Festival's Halloween season. The building does most of
+
+          the atmospheric work.\n"
+        confidence: "high"
+      - id: "churches/st-mary-redcliffe#befb5150a2"
+        sourceId: "churches/st-mary-redcliffe"
+        title: "Interstellar Plus"
+        occurrence:
+          kind: "single"
+          date: "2026-11-14"
+          startTime: "19:00"
+          endTime: "22:00"
+        status: "scheduled"
+        tags:
+          - "live-music"
+          - "classical"
+          - "sci-fi"
+        raw: "Marking the 10th anniversary of the film *Interstellar*, musician Roger
+
+          Sayer performs music from the film on our world class church organ.
+
+
+          The Original Interstellar Organist, Roger Sayer, performs music from the
+
+          original famous soundtrack together with other iconic Sci-fi music,
+
+          including Star Wars and Thunderbirds. It's been 12 years since the release
+
+          of the groundbreaking Christopher Nolan block…\n"
+        summary: "Roger Sayer, who played the organ on Hans Zimmer's Interstellar score,
+
+          performs it on the 1912 Harrison & Harrison — plus Star Wars and
+
+          Thunderbirds — in the church whose organ is built for exactly this volume.\n"
+        confidence: "high"
+      - id: "churches/st-mary-redcliffe#6709f55f34"
+        sourceId: "churches/st-mary-redcliffe"
+        title: "Nick Heyward 'The 12 Dates of Christmas' Tour"
+        occurrence:
+          kind: "single"
+          date: "2026-11-30"
+          startTime: "19:00"
+          endTime: "21:30"
+        status: "scheduled"
+        tags:
+          - "live-music"
+          - "seasonal"
+          - "tour"
+        raw: "Haircut 100 frontman to bring stripped-back festive shows to historic
+
+          churches and cathedrals.
+
+
+          Tickets go on sale on Friday 15 May at 10am via
+
+          myticket.co.uk/artists/nick-heyward
+
+
+          Nick Heyward has announced a brand-new UK tour for winter 2026, *The 12
+
+          Dates of Christmas* — a unique run of intimate performances set in some of
+
+          the country's most beautiful and atmospheric venues. The 12-date UK tour
+
+          will…\n"
+        summary: "The Haircut 100 frontman playing stripped-back in a Gothic parish church,
+
+          one of twelve such dates on a winter tour built around the buildings rather
+
+          than the venues.\n"
+        confidence: "high"
+      - id: "churches/st-mary-redcliffe#aa1004b397"
+        sourceId: "churches/st-mary-redcliffe"
+        title: "Cinematic Music By Candlelight"
+        occurrence:
+          kind: "single"
+          date: "2026-12-09"
+          startTime: "18:30"
+          endTime: "20:00"
+        status: "scheduled"
+        tags:
+          - "classical"
+          - "live-music"
+          - "seasonal"
+        raw: "Step into a world of magic, nostalgia, and festive wonder with *Cinematic
+
+          Music by Candlelight* — a heartwarming evening of iconic film music and
+
+          festive favourites. From the enchantment of Harry Potter to the romance of
+
+          La La Land, this concert brings together unforgettable movie moments and
+
+          timeless festive tunes in one stunning candlelit setting. Featuring London's
+
+          The Lunar Trio (Piano, Violin &…
+
+
+          Tockify tag: concert.\n"
+        summary: "Film scores and carols by candlelight from London's Lunar Trio — piano,
+
+          violin and a third player the listing cuts off — an early-evening ninety
+
+          minutes rather than a late one.\n"
+        confidence: "high"
+      - id: "churches/st-mary-redcliffe#b4694cbc7b"
+        sourceId: "churches/st-mary-redcliffe"
+        title: "The Christmas Orchestra Concert"
+        occurrence:
+          kind: "single"
+          date: "2026-12-18"
+          startTime: "18:30"
+          endTime: "21:30"
+        status: "scheduled"
+        tags:
+          - "classical"
+          - "live-music"
+          - "seasonal"
+        raw: "The Christmas Orchestra returns for 2026, after a fantastic run of sold-out
+
+          shows in 2024 and 2025! We're thrilled to be bringing our unique concert
+
+          experience to more locations than ever before. Prepare to immerse yourself
+
+          in the magic of the festive season and create lasting memories together!
+
+
+          On 18th December, our tour makes a special stop at St Mary's Redcliffe,
+
+          Bristol, bringing the Christmas…
+
+
+          Tockify tags: concert, christmas-orchestra.\n"
+        summary: "A touring orchestral Christmas show stopping at Redcliffe, on the back of
+
+          sold-out runs in 2024 and 2025. Three hours, so expect an interval.\n"
+        confidence: "high"
+      - id: "churches/st-mary-redcliffe#9244ae02be"
+        sourceId: "churches/st-mary-redcliffe"
+        title: "Christmas at the Musicals with Nadia Eide"
+        occurrence:
+          kind: "single"
+          date: "2026-12-21"
+          startTime: "19:00"
+          endTime: "21:00"
+        status: "scheduled"
+        tags:
+          - "musical"
+          - "live-music"
+          - "seasonal"
+        raw: "Overview: Featuring songs from Phantom of the Opera, Sound of Music, Wizard
+
+          of Oz and more in the ultimate celebration of songs from stage and screen.
+
+
+          Christmas at the Musicals at St Mary Redcliffe. No 1 selling classical
+
+          soprano and star of The Voice UK, Nadia Eide is touring her brand new
+
+          Christmas concert tour *Christmas At The Musicals* in November and December
+
+          2026. Featuring songs from Phantom o…
+
+
+          Tockify tags: concert, christmas, christmas-events, christmas-concert,
+
+          nadia-eide.\n"
+        summary: "Soprano Nadia Eide singing Phantom, Sound of Music and Wizard of Oz on the
+
+          shortest evenings of the year, two days before Christmas.\n"
+        confidence: "high"
+      - id: "churches/st-mary-redcliffe#43b0cf8514"
+        sourceId: "churches/st-mary-redcliffe"
+        title: "Lunchtime at Redcliffe: free Thursday organ recital"
+        occurrence:
+          kind: "recurring"
+          pattern: "Each week we host a free organ recital on Thursday lunchtime"
+        status: "scheduled"
+        price:
+          free: true
+        tags:
+          - "classical"
+          - "live-music"
+          - "free-entry"
+        raw: "Each week we host a free organ recital on Thursday lunchtime, with organists
+
+          from around the country and from further afield. Details of the current
+
+          season can be viewed below. Join us if you can!
+
+
+          You can hear the organ during Sunday services and at our Thursday lunchtime
+
+          recital series.
+
+
+          The same page's news tiles contradict this. \"Lunchtime at Redcliffe\" (dated
+
+          May 5 2020) reads: \"Free Thursday lunchtime organ recitals are currently
+
+          suspended due to Coronavirus\". The most recent recital-season post,
+
+          \"Autumn Recitals\", is dated August 14 2024. No dates or times for a current
+
+          season are printed anywhere on /music.\n"
+        summary: "A free weekly organ recital on the 1912 Harrison & Harrison, one of the
+
+          largest parish church organs in Britain, with visiting players. The music
+
+          page states it runs every Thursday lunchtime but prints no current dates and
+
+          carries an unretracted 2020 notice saying the series is suspended — worth
+
+          checking before setting out.\n"
+        confidence: "low"
+    notes: "First harvest. Both catalogued routes answer 200 but neither prints a forward diary to a fetcher, so `fetch.url` records the endpoint the events actually came from. Five fetches in all: /whats-on, /music, the Tockify API, and /free-exhibition--chatterton--heritage---decolonisation. That is one over the usual budget, spent because the two catalogued routes between them yielded nothing datable.
+
+
+      **Discovered route for stage 1 to curate.** /whats-on is a Duda site whose events are a Tockify widget — `data-tockify-calendar=\"STMARYREDCLIFFEEVENTS\"`, rendered client-side, so the served HTML contains no event text at all. The calendar's public JSON is https://tockify.com/api/ngevent?calname=stmaryredcliffeevents&startms=<ms>&endms=<ms>&max=200 and it returns the whole forward diary with body text, times, prices and venue geocoding in one fetch. That is worth an `api` route on this source. It answered 200 to curl with a browser user-agent.
+
+
+      Two caveats on it: the API carries no per-event page URL and no resolvable image URL (images are referenced by an opaque `imageIdNg`), so every event from it is recorded without `url` and without `image`. Constructing either would be a guess. A reader following one of these cards lands on the listings page, which is honest.
+
+
+      The catalogue hint about /music is exactly right and worth keeping: it is dense with programme detail and almost all of it is historical. Its news tiles are dated 2020–2024, and one of them still says the free Thursday recitals are \"currently suspended due to Coronavirus\" while the page's own main body says \"Each week we host a free organ recital on Thursday lunchtime\". The recital row below records the standing claim at `confidence: low` because of that contradiction; a human should settle it. /music printed no dates for the current season at all.
+
+
+      The music page also states \"three sung Sunday services each week at which one of the church choirs (or a visiting choir) sings\" — Mattins, Eucharist and Evensong — but prints no times for them on either catalogued route. The times live on /worship1af9a00d, which I did not fetch. I have therefore recorded no service pattern for this source rather than a timeless one.
+
+
+      Bank holiday weekend: the Tockify diary is empty until Sat 3 October, so the only thing on here across 29–31 August is the free Chatterton exhibition, whose own page prints its hours. Nothing is billed as a bank holiday event. Note the exhibition's printed Sunday hours (12:00noon – 5:00pm) differ from the rest of the week; that is its ordinary Sunday, not a holiday alteration.
+
+
+      One small correction for stage 1 while it is here: the site's own navigation links \"LUNCHTIME AT REDCLIFFE: FREE RECITALS\" to the malformed path /stmaryredcliffe.co.uk/recitals. That is their bug, not ours, but it means the recital season page cannot be reached from the menu."
+  - sourceId: "churches/clifton-cathedral"
+    fetch:
+      ok: false
+      url: "https://cliftoncathedral.org.uk/"
+      status: 403
+      error: "Cloudflare block. 403 to a plain fetch, 403 to curl with a desktop Chrome user-agent, and a real Chrome browser session was served the Cloudflare \"Sorry, you have been blocked / You are unable to access cliftoncathedral.org.uk\" interstitial (Ray ID a3250017c88eef25)."
+    events: []
+    notes: "First attempted harvest, and it corrects the catalogue hint. The hint says \"403 to a plain fetch and to a browser user-agent... this needs a JS-capable fetch.\" It does not: driving a full Chrome browser at the site reaches the same Cloudflare block page, so this is not a JavaScript problem but an access-control one. Tried three ways, once each, and stopped.
+
+
+      Nothing was read, so no listings path could be confirmed and no events are recorded. The catalogue's lack of a `verifiedAt` on this source remains correct, and its `url` is still the bare domain — there is no evidence yet that any deeper path exists.
+
+
+      For stage 1: this source needs a route that is not a fetch of the site. Whether that is a published feed, a ticketing platform, an aggregator that carries Clifton Cathedral's concerts, or simply demoting it, it will not be harvestable this way, and each further attempt spends requests against a host that has already refused three times."
+  - sourceId: "churches/new-room"
+    fetch:
+      ok: true
+      url: "https://www.newroombristol.org.uk/whats-on/"
+      status: 200
+    events:
+      - id: "churches/new-room#24f564b837"
+        sourceId: "churches/new-room"
+        title: "John Wesley and Mindfulness Museum Display"
+        occurrence:
+          kind: "ongoing"
+          start: "2026-04-08"
+        status: "scheduled"
+        url: "https://www.newroombristol.org.uk/event/mindfulness-exhibition/?event_date=2026-08-28"
+        price:
+          free: false
+          text: "Free with normal Museum admission"
+        tags:
+          - "exhibition"
+          - "heritage"
+          - "wellbeing"
+        raw: "\"Good health of both body and mind for all.\" — John Wesley
+
+
+          John Wesley believed that it was mind, body, and soul that gave somebody
+
+          good health. Following this holistic approach would lead to living a happy
+
+          life.…
+
+
+          8th April, 2026 onwards. Free with normal Museum admission.\n"
+        summary: "A small display drawn from the New Room's collection and archive on Wesley's
+
+          interest in medicine and natural remedies — he ran a free dispensary here,
+
+          and when the money ran out wrote a self-help medical guide that stayed a
+
+          bestseller for a century. Included in museum admission.\n"
+        description: "\"Good health of both body and mind for all.\" John Wesley
+
+
+          John Wesley believed that it was mind, body, and soul that gave somebody
+
+          good health. Following this holistic approach would lead to living a happy
+
+          life.
+
+
+          John was interested in medicine and natural remedies. At The New Room, he
+
+          created a dispensary of free medical care. When John ran out of money to
+
+          continue this, he wrote a self-help guide to medicine. The Primitive Physic:
+
+          or an Easy and Natural Method of Curing Most Diseases was published in
+
+          Bristol in 1747 and became a bestseller for a century.
+
+
+          Explore items from the John Wesley's New Room collection and archive linked
+
+          to health and wellbeing.
+
+
+          8th April, 2026 onwards.
+
+
+          Free with normal Museum admission.
+
+
+          **Visit Our Museum**
+
+
+          The Museum at the New Room tells the incredible history of John and Charles
+
+          Wesley, the early beginnings of Methodism and its relevance today. The
+
+          museum is housed in the original 1748 rooms.
+
+
+          Discover how the New Room played a vital role in providing healthcare and
+
+          education for those in need. Discover the challenges faced by Wesley in his
+
+          fight for social justice and be inspired to continue that work today.
+
+
+          Your ticket entitles you to 12 months free entry to the museum.
+
+
+          This is part of the Care & Repair Festival, organised by Sparks, John
+
+          Wesley's New Room, and Bristol BID. The Care & Repair Festival is a joyful,
+
+          family-friendly celebration of making, mending, and creativity, taking place
+
+          from 7-19 April 2026.\n"
+        confidence: "high"
+      - id: "churches/new-room#10401fc9bd"
+        sourceId: "churches/new-room"
+        title: "FREE CHILD MUSEUM ADMISSION – Georgian Summer Fun and Games"
+        occurrence:
+          kind: "run"
+          start: "2026-07-23"
+          end: "2026-09-02"
+        status: "scheduled"
+        timesText: "John Wesley's New Room is closed on Sundays."
+        url: "https://www.newroombristol.org.uk/event/free-child-museum-admission-georgian-summer-fun-and-games/?event_date=2026-08-28"
+        price:
+          free: false
+          text: "FREE CHILD MUSEUM ADMISSION (Maximum 4 children per visit / 23rd July > 2nd September 2026). Children must be accompanied by an adult. Donations welcome."
+        tags:
+          - "family"
+          - "kids"
+          - "school-holidays"
+          - "hands-on"
+        raw: "This summer, we are inviting families to get playful and join us for
+
+          Georgian Fun and Games at John Wesley's New Room.
+
+
+          Follow the Parlour Game Trail and explore our amazing interactive Museum.
+
+
+          FREE CHILD MUSEUM ADMISSION (Maximum 4 children per visit / 23rd July > 2nd
+
+          September 2026). Children must be accompanied by an adult. Donations
+
+          welcome.
+
+
+          Also, throughout the school holidays – FREE family activities in the Chapel.
+
+
+          John Wesley's New Room is closed on Sundays.\n"
+        summary: "Children go into the museum free for the last week of the summer holidays —
+
+          up to four per visit, with an adult — and follow a Parlour Game Trail
+
+          through the 1748 rooms, with free family activities running in the chapel
+
+          alongside. Runs to 2 September, but the building is shut on Sundays.\n"
+        description: "This summer, we are inviting families to get playful and join us for
+
+          Georgian Fun and Games at John Wesley's New Room.
+
+
+          Follow the Parlour Game Trail and explore our amazing interactive Museum.
+
+
+          FREE CHILD MUSEUM ADMISSION (Maximum 4 children per visit / 23rd July > 2nd
+
+          September 2026).
+
+
+          Children must be accompanied by an adult. Donations welcome.
+
+
+          This visit does not entitle children to 12 months free entry ticket to the
+
+          museum.
+
+
+          Also, throughout the school holidays – FREE family activities in the Chapel.
+
+
+          John Wesley's New Room is closed on Sundays.
+
+
+          More information about visiting John Wesley's New Room, including our Visual
+
+          Story can be found by clicking on this link: Access Information – John
+
+          Wesley's New Room. A quiet and private space is usually available in the
+
+          Chapel Meeting Room.\n"
+        confidence: "high"
+      - id: "churches/new-room#442e398c63"
+        sourceId: "churches/new-room"
+        title: "HERITAGE OPEN DAYS: Everyday 18th Century Life at Charles Wesley's House"
+        occurrence:
+          kind: "single"
+          date: "2026-09-11"
+        status: "scheduled"
+        venue:
+          name: "Charles Wesley's House"
+        url: "https://www.newroombristol.org.uk/event/heritage-open-days-everyday-18th-century-life-at-charles-wesleys-house/?event_date=2026-09-11"
+        price:
+          free: true
+          text: "Book Your Free Visit"
+        tags:
+          - "heritage"
+          - "free-entry"
+          - "booking-required"
+          - "guided-tour"
+        raw: "Book Your Free Visit to Charles Wesley's House – Home of the World's
+
+          Greatest Hymn Writer. This is a rare opportunity to step back in…\n"
+        summary: "Heritage Open Days opens Charles Wesley's house — a separate building from
+
+          the New Room, and rarely accessible — for free bookable visits. The index
+
+          gives no times; book ahead.\n"
+        confidence: "high"
+      - id: "churches/new-room#5d3877936c"
+        sourceId: "churches/new-room"
+        title: "Heritage Open Days: John Wesley's New Room MUSEUM FREE ENTRY"
+        occurrence:
+          kind: "run"
+          start: "2026-09-18"
+          end: "2026-09-19"
+        status: "scheduled"
+        url: "https://www.newroombristol.org.uk/event/heritage-open-days-john-wesleys-new-room-museum-free-entry/?event_date=2026-09-18"
+        price:
+          free: true
+          text: "FREE museum entry on Friday 18th and Saturday 19th September"
+        tags:
+          - "heritage"
+          - "free-entry"
+          - "drop-in"
+        raw: "Celebrate Heritage Open Days 2026 with John Wesley's New Room. FREE museum
+
+          entry on Friday 18th and Saturday 19th September. Explore The Room that
+
+          changed…\n"
+        summary: "Two days of free entry to the museum in the world's oldest Methodist chapel,
+
+          for Heritage Open Days — the twelve original 1748 rooms above the chapel,
+
+          normally ticketed.\n"
+        confidence: "high"
+      - id: "churches/new-room#6c1fb1e327"
+        sourceId: "churches/new-room"
+        title: "[Rescheduled] Live at the New Room: Chris Wood"
+        subcategory: "Live at the New Room"
+        occurrence:
+          kind: "single"
+          date: "2026-11-21"
+        status: "rescheduled"
+        url: "https://www.newroombristol.org.uk/event/live-at-the-new-room-chris-wood/?event_date=2026-11-21"
+        tags:
+          - "live-music"
+          - "one-night"
+        raw: "This event was previously scheduled for March 19 2026, but has rescheduled
+
+          for November 21 2026. All tickets have been transferred automatically.
+
+          Refunds available on…\n"
+        summary: "Chris Wood in the chapel, moved from its cancelled March date to late
+
+          November. Existing tickets carry over automatically.\n"
+        confidence: "high"
+      - id: "churches/new-room#5e5e86ac31"
+        sourceId: "churches/new-room"
+        title: "Live at the New Room: GreenMatthews' Gaudete!"
+        subcategory: "Live at the New Room"
+        occurrence:
+          kind: "single"
+          date: "2026-12-15"
+        status: "scheduled"
+        url: "https://www.newroombristol.org.uk/event/live-at-the-new-room-greenmatthews-gaudete/?event_date=2026-12-15"
+        tags:
+          - "live-music"
+          - "seasonal"
+          - "one-night"
+        raw: "Get ready for a special Christmas show this winter with GreenMatthew's
+
+          GAUDETE! Following on from GreenMatthews' 12 years of successful touring
+
+          Christmas shows, Gaudete!…\n"
+        summary: "GreenMatthews bring their thirteenth touring Christmas show to the New Room
+
+          chapel — early music and midwinter songs in a room built in 1739.\n"
+        confidence: "high"
+      - id: "churches/new-room#a91ba0a7b7"
+        sourceId: "churches/new-room"
+        title: "Friday Communion Service"
+        subcategory: "Regular Events"
+        occurrence:
+          kind: "recurring"
+          pattern: "every Friday at 1pm in the Chapel"
+          startTime: "13:00"
+        status: "scheduled"
+        url: "https://www.newroombristol.org.uk/event/friday-communion-service/?event_date=2026-08-29"
+        tags:
+          - "drop-in"
+          - "weekly"
+        raw: "Friday Communion Service
+
+
+          Join us for our weekly Communion service every Friday at 1pm in the Chapel.
+
+          These are short, reflective services lasting 20-30 minutes…
+
+
+          The site's own listing badges this \"29 AUG\", which is a Saturday.\n"
+        summary: "A twenty-minute midday communion in the 1739 chapel, the one standing weekly
+
+          fixture in the New Room's diary and open to anyone who walks in.\n"
+        confidence: "medium"
+    notes: "First harvest, and the source is now readable. The catalogue hint describes an \"HTTP 202 with a 177-byte body: a SiteGround robot challenge\"; today it is a flat 403 to curl, including with a desktop Chrome user-agent. A real Chrome browser loads it perfectly. Recording that here rather than in the catalogue: this source needs a browser, not a fetcher, and a hint saying so will save the next run rediscovering it.
+
+
+      **Catalogue URL correction.** The catalogued https://www.newroombristol.org.uk/events/ redirects to https://www.newroombristol.org.uk/whats-on/, which is the real listing. Worth updating so the redirect is not paid for every run.
+
+
+      The index is thin — a date badge, a title and one truncated clause — and the whole programme is seven rows, so under §3 I opened event pages, spending them on the two that cover this weekend: the Mindfulness display and the Georgian Fun and Games run. Those two carry `description`. The four September–December rows were not opened and carry only the index's truncated text in `raw`, ellipsis included. Three further fetches went to /plan-your-visit/ for hours and to resolving the Friday Communion link.
+
+
+      Bank holiday weekend: nothing is billed as a bank holiday event, so no `bank-holiday` tag. The hours printed on /plan-your-visit/ are \"General Opening: Monday - Saturday: 10am - 4pm\" and the same for the cafe, with no bank holiday variation stated either way — so I have not inferred a Monday closure. The Georgian Fun and Games listing does print \"John Wesley's New Room is closed on Sundays\", which is carried verbatim in that event's `timesText` and rules out Sunday 30 August.
+
+
+      One inconsistency the site has with itself: the Friday Communion Service is described as \"every Friday at 1pm\" but the site's own badge and link for it read 29 August, which is a Saturday. The recurring row keeps their stated pattern and is marked `confidence: medium`."
+  - sourceId: "churches/st-james-priory"
+    fetch:
+      ok: true
+      url: "https://stjamespriory.org.uk/"
+      status: 200
+    events: []
+    notes: "First harvest. Recorded as a successful fetch with no events, which is the honest result: **this source publishes no public programme at all.**
+
+
+      Access: like the New Room, the catalogue hint's \"HTTP 202, 168-byte body\" captcha shim is now a flat 403 to curl, with or without a desktop Chrome user-agent. A real Chrome browser loads the site fine. Worth a hint saying it needs a browser. Note also that www.stjamespriory.org.uk redirects to stjamespriory.org.uk, so the catalogued URL carries an avoidable redirect.
+
+
+      Navigation checked per §2: the menu is Home, Church, History, Meetings, Wedding Venue, Support, Timetable, News, Cafe, Find us, Contact, Donate. There is no What's On, Events, Programme or Concerts. /timetable/ is not a diary of events — it is a table of the dates Abbot David is celebrating Mass, headed only by month and day with no year printed: September 03rd & 04th, September 17th & 18th, October 01st & 02nd (Father Michael Fitzpatrick), October 15th & 16th (No Mass), October 29th & 30th, November 12th & 13th, November 26th & 27th, December 10th & 11th. /news/ is five history articles plus a quiz night at The Beehive dated Thursday 23rd January 2025, long past.
+
+
+      **The catalogue hint is not borne out.** It says the priory \"programmes lunchtime concerts alongside its work as a charity\". Nothing on the site mentions a concert, a recital or any music programme — the pages are the church, its history, its supported housing charity, meeting-room and wedding hire, and the cafe. Either the concerts have stopped, or they are advertised somewhere other than this domain, or the hint was a guess when the source was catalogued blind. Stage 1 should verify it before this source keeps its `classical` tag.
+
+
+      What the site does publish is a service and opening pattern: \"MASS - EVERY SUNDAY AT 8:00 AM\"; \"The Ordinariate celebrates Mass on Sundays at 9:15am\"; \"Confession 12:30p.m. - Mass 1:05p.m.\"; and \"Eucharistic Adoration is from 10 am – 4 pm Monday – Friday.\" Per the run instruction I have not turned a said Mass into an event: none of it is a public cultural programme, and one recurring row for a Roman Catholic Mass would be filler on a what's-on site. A human may disagree, and the wording is all here to build one from.
+
+
+      **Bank holiday, and the most useful thing this source said today.** The homepage prints, in bold: \"THE CHURCH IS CLOSED ON GOOD FRIDAY AND BANK HOLIDAY MONDAY\". So Bristol's oldest building is shut on Monday 31 August 2026. That is a venue fact rather than an event, so it lives here per the run brief — but it is exactly the kind of thing a reader planning a bank holiday Monday would want, and it may be worth stage 1 or stage 3 finding a home for. Nothing is printed about the Saturday or the Sunday beyond the standing 8am Sunday Mass."

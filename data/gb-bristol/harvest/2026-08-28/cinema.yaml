@@ -1,0 +1,3030 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-08-28"
+category: "cinema"
+harvestedAt: "2026-08-28T18:45:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "4"
+model: "claude-opus-5"
+observations:
+  - sourceId: "cinema/watershed"
+    fetch:
+      ok: true
+      url: "https://www.watershed.co.uk/whatson/"
+      status: 200
+    events:
+      - id: "cinema/watershed#a774570723"
+        sourceId: "cinema/watershed"
+        title: "SENTIENTS: An Immersive VR & Video Game Exhibition"
+        occurrence:
+          kind: "run"
+          end: "2026-09-13"
+        status: "scheduled"
+        timesText: "Sat 29 Aug 11:00, 12:30, 14:00, 15:30, 17:00, 18:30; Sun 30 Aug 11:00, 12:30, 14:00, 15:30, 17:00; Mon 31 Aug to Thu 3 Sept 12:30, 14:00, 15:30, 17:00, 18:30"
+        url: "https://www.watershed.co.uk/whatson/14147/sentients"
+        image: "https://apps.watershed.co.uk/shared/imagecache/appimages/9857/default/2-3/744/26/07/su-29.jpg"
+        ageRestriction: "12"
+        tags:
+          - "exhibition"
+          - "immersive"
+          - "games"
+          - "interactive"
+        raw: "**SENTIENTS: An Immersive VR & Video Game Exhibition** — until Sun 13 Sept, 12.
+
+          \"An immersive exhibition of groundbreaking video games & virtual reality\", in the Undershed Gallery.\n"
+        summary: "Bookable timed sessions in the Undershed Gallery playing through a curated set of virtual reality works and video games, running to mid-September."
+        confidence: "high"
+      - id: "cinema/watershed#d12ff92337"
+        sourceId: "cinema/watershed"
+        title: "Kiki's Delivery Service"
+        occurrence:
+          kind: "run"
+          end: "2026-09-03"
+        status: "scheduled"
+        timesText: "Sat 29 Aug 15:10 (dubbed); Sun 30 Aug 11:30 (dubbed), 19:10 (subtitled); Mon 31 Aug 20:30 (dubbed); Tue 1 Sept 18:00 (subtitled); Wed 2 Sept 14:50 (dubbed); Thu 3 Sept 11:40 (dubbed), 17:50 (subtitled)"
+        url: "https://www.watershed.co.uk/whatson/14217/kikis-delivery-service"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/kikis_delivery_service_2700x4000.jpg"
+        ageRestriction: "U"
+        tags:
+          - "animation"
+          - "family"
+          - "classic"
+          - "school-holidays"
+          - "subtitled"
+        raw: "**Kiki's Delivery Service** (U) — until Thu 3 Sept. Subtitled and dubbed screenings.
+
+          \"Celebrate this beloved coming-of-age 1989 story from Studio Ghibli about a resourceful young witch\".\n"
+        summary: "Studio Ghibli's 1989 coming-of-age film about a young witch setting up a flying delivery service, in both dubbed and subtitled screenings through the last week of the school holidays."
+        confidence: "high"
+      - id: "cinema/watershed#1f5935d329"
+        sourceId: "cinema/watershed"
+        title: "I Want Your Sex"
+        occurrence:
+          kind: "run"
+          start: "2026-08-28"
+          end: "2026-09-03"
+        status: "scheduled"
+        timesText: "Sat 29 Aug 20:30; Sun 30 Aug 17:10; Mon 31 Aug 20:20; Tue 1 Sept 17:50, 20:10; Thu 3 Sept 18:10. Audio described."
+        url: "https://www.watershed.co.uk/whatson/14218/i-want-your-sex"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/0946_iwys_1_sheet_aw.jpg"
+        ageRestriction: "18"
+        tags:
+          - "new-release"
+          - "18-plus"
+          - "drama"
+          - "accessible"
+        raw: "**I Want Your Sex** (18) — Fri 28 Aug to Thu 3 Sept.
+
+          \"A darkly funny erotic satire\" directed by Gregg Araki.\n"
+        summary: "Gregg Araki's erotic satire, on a week's run and audio described at most showings."
+        confidence: "high"
+      - id: "cinema/watershed#b94ab8bff2"
+        sourceId: "cinema/watershed"
+        title: "Teenage Sex and Death at Camp Miasma"
+        occurrence:
+          kind: "run"
+          end: "2026-09-03"
+        status: "scheduled"
+        timesText: "Sat 29 Aug 17:50, 20:40 (35mm); Sun 30 Aug 17:30 (audio described), 20:10 (35mm); Mon 31 Aug 17:40, 20:40 (35mm); Tue 1 Sept 17:40, 20:20; Wed 2 Sept 18:00, 20:40; Thu 3 Sept 14:50, 20:30"
+        url: "https://www.watershed.co.uk/whatson/14228/teenage-sex-and-death-at-camp-miasma"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/08/cm_key-art_en-uk_digi_os_incinemasaugust21.jpg"
+        ageRestriction: "15"
+        tags:
+          - "horror"
+          - "new-release"
+          - "lgbtq"
+          - "accessible"
+        raw: "**Teenage Sex and Death at Camp Miasma** (15) — until Thu 3 Sept. Several screenings on 35mm.
+
+          \"A new kind of horror remake... starring Hannah Einbinder and Gillian Anderson\".\n"
+        summary: "Jane Schoenbrun's slasher-about-slashers with Hannah Einbinder and Gillian Anderson, several of the evening screenings projected on 35mm."
+        confidence: "high"
+      - id: "cinema/watershed#863c72553d"
+        sourceId: "cinema/watershed"
+        title: "Chicken Run: Dawn of the Nugget"
+        subcategory: "Cracking Films, Gromit!: 50 Years of Aardman"
+        occurrence:
+          kind: "run"
+          end: "2026-08-29"
+        status: "scheduled"
+        timesText: "Sat 29 Aug 11:00"
+        url: "https://www.watershed.co.uk/whatson/14197/chicken-run-dawn-of-the-nugget"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/450334-chicken-run-dawn-of-the-nugget-0-1000-0-1500-crop.jpg"
+        ageRestriction: "PG"
+        tags:
+          - "animation"
+          - "family"
+          - "school-holidays"
+          - "matinee"
+        raw: "**Chicken Run: Dawn of the Nugget** (PG) — until Sat 29 Aug. Part of *Cracking Films, Gromit!: 50 Years of Aardman*.
+
+          \"The sequel to the highest-grossing stop-motion animated film of all time\" from local Aardman studio.\n"
+        summary: "Aardman's Chicken Run sequel, in the Watershed's fiftieth-anniversary Aardman season, with a final morning screening on the Saturday of the bank holiday weekend."
+        confidence: "high"
+      - id: "cinema/watershed#080646b449"
+        sourceId: "cinema/watershed"
+        title: "Coyote vs. ACME"
+        occurrence:
+          kind: "run"
+          end: "2026-09-01"
+        status: "scheduled"
+        timesText: "Sat 29 Aug 11:30 (audio described); Sun 30 Aug 11:40 (audio described); Mon 31 Aug 15:00 (audio described); Tue 1 Sept 15:00 (audio described, descriptive subtitles)"
+        url: "https://www.watershed.co.uk/whatson/14229/coyote-vs-acme"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/08/cva_1sheet_uk_lr.jpg"
+        ageRestriction: "PG"
+        tags:
+          - "animation"
+          - "family"
+          - "school-holidays"
+          - "accessible"
+        raw: "**Coyote vs. ACME** (PG) — until Tue 1 Sept. Audio described; Tue 1 Sept also has descriptive subtitles.
+
+          Wile E. Coyote \"teams up with lawyer Kevin Avery to fight back\" against ACME.\n"
+        summary: "The Looney Tunes courtroom comedy, playing late-morning through the bank holiday weekend with audio description on every screening."
+        confidence: "high"
+      - id: "cinema/watershed#643621fe92"
+        sourceId: "cinema/watershed"
+        title: "Bitter Christmas"
+        occurrence:
+          kind: "run"
+          end: "2026-09-03"
+        status: "scheduled"
+        timesText: "Sat 29 Aug 11:50, 14:40, 17:40; Sun 30 Aug 14:10, 19:30; Mon 31 Aug 14:40, 17:50; Tue 1 Sept 14:40 (relaxed visit), 20:30; Wed 2 Sept 14:10, 17:50; Thu 3 Sept 11:30, 20:40"
+        url: "https://www.watershed.co.uk/whatson/14216/bitter-christmas"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/bitterchristmas_teaser_curzon-70x100.jpg"
+        ageRestriction: "15"
+        tags:
+          - "new-release"
+          - "drama"
+          - "subtitled"
+          - "relaxed-performance"
+        raw: "**Bitter Christmas** (15) — until Thu 3 Sept. Subtitled screenings; Tue 1 Sept 14:40 is a Relaxed Visit.
+
+          \"A filmmaker draws desperate inspiration from his closest relationships\" in this Almodóvar melodrama.\n"
+        summary: "Almodóvar's melodrama about a film-maker mining his own relationships, the widest-played title of the week and with a relaxed screening on the Tuesday."
+        confidence: "high"
+      - id: "cinema/watershed#1ed1829984"
+        sourceId: "cinema/watershed"
+        title: "Ish"
+        occurrence:
+          kind: "run"
+          end: "2026-08-29"
+        status: "scheduled"
+        timesText: "Sat 29 Aug 14:50 (audio described)"
+        url: "https://www.watershed.co.uk/whatson/14181/ish"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/1374127-ish-2025-0-1000-0-1500-crop.jpg"
+        ageRestriction: "15"
+        tags:
+          - "drama"
+          - "indie"
+          - "accessible"
+        raw: "**Ish** (15) — until Sat 29 Aug. Audio described.
+
+          \"Set and filmed in Luton\", following \"12-year-old best friends\" navigating friendship after a police encounter.\n"
+        summary: "A Luton-set drama about two twelve-year-old friends after an encounter with the police, with one last audio-described screening on the Saturday."
+        confidence: "high"
+      - id: "cinema/watershed#dfeb95cdea"
+        sourceId: "cinema/watershed"
+        title: "The Invite"
+        occurrence:
+          kind: "run"
+          end: "2026-09-03"
+        status: "scheduled"
+        timesText: "Sat 29 Aug 17:30 (audio described); Sun 30 Aug 14:30 (audio described); Wed 2 Sept 20:20 (audio described); Thu 3 Sept 15:20 (audio described, masked and socially distanced)"
+        url: "https://www.watershed.co.uk/whatson/14137/the-invite"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/06/0940_the_invite_1_sheet_aw_lr.jpg"
+        ageRestriction: "15"
+        tags:
+          - "drama"
+          - "arthouse"
+          - "accessible"
+        raw: "**The Invite** (15) — until Thu 3 Sept. Audio described; Thu 3 Sept 15:20 is a masked and socially distanced screening.
+
+          \"When they invite their enigmatic upstairs neighbours for dinner, the night spirals into unexpected places\".\n"
+        summary: "A dinner with the upstairs neighbours goes strange, with an audio-described screening every time it plays and a masked, socially distanced screening on the Thursday."
+        confidence: "high"
+      - id: "cinema/watershed#bab4a3f9ad"
+        sourceId: "cinema/watershed"
+        title: "Tony"
+        occurrence:
+          kind: "run"
+          end: "2026-09-03"
+        status: "scheduled"
+        timesText: "Sat 29 Aug 20:20; Sun 30 Aug 16:50; Mon 31 Aug 17:30; Wed 2 Sept 15:00, 17:40; Thu 3 Sept 15:10, 20:20. Audio described."
+        url: "https://www.watershed.co.uk/whatson/14213/tony"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/ton_97_digital_final_uk_2025x3000_v9.0_copy-1.jpeg"
+        ageRestriction: "15"
+        tags:
+          - "drama"
+          - "new-release"
+          - "accessible"
+        raw: "**Tony** (15) — until Thu 3 Sept. Audio described.
+
+          \"A 19-year-old Anthony Bourdain travels to Provincetown and stumbles into the chaotic world of a restaurant kitchen\".\n"
+        summary: "The young Anthony Bourdain falls into a Provincetown restaurant kitchen, playing daily with audio description."
+        confidence: "high"
+      - id: "cinema/watershed#458a9e7dc5"
+        sourceId: "cinema/watershed"
+        title: "Wallace and Gromit: Vengeance Most Fowl"
+        subcategory: "Cracking Films, Gromit!: 50 Years of Aardman"
+        occurrence:
+          kind: "run"
+          end: "2026-08-30"
+        status: "scheduled"
+        timesText: "Sun 30 Aug 11:00"
+        url: "https://www.watershed.co.uk/whatson/14200/wallace-and-gromit-vengeance-most-fowl"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/834561-wallace-gromit-vengeance-most-fowl-0-1000-0-1500-crop-1.jpg"
+        ageRestriction: "U"
+        tags:
+          - "animation"
+          - "family"
+          - "school-holidays"
+          - "matinee"
+        raw: "**Wallace and Gromit: Vengeance Most Fowl** (U) — until Sun 30 Aug. Part of *Cracking Films, Gromit!: 50 Years of Aardman*.
+
+          \"Feathers McGraw returns with a vengeance\" in the second Wallace and Gromit feature film.\n"
+        summary: "Feathers McGraw's return, in the Aardman anniversary season, with a last Sunday-morning screening over the bank holiday weekend."
+        confidence: "high"
+      - id: "cinema/watershed#277c5bb191"
+        sourceId: "cinema/watershed"
+        title: "Stalker"
+        subcategory: "The Films of Andrei Tarkovsky"
+        occurrence:
+          kind: "single"
+          date: "2026-08-30"
+          startTime: "14:00"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14206/stalker"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/51062-stalker-0-1000-0-1500-crop.jpg"
+        ageRestriction: "PG"
+        tags:
+          - "classic"
+          - "arthouse"
+          - "sci-fi"
+          - "subtitled"
+        raw: "**Stalker** (PG) — Sun 30 Aug & Wed 2 Sept. Subtitled. Part of *The Films of Andrei Tarkovsky*.
+
+          \"This genre-defying portrait of a decayed post-industrial society muses on human desires\".\n"
+        summary: "Tarkovsky's journey into the Zone, in the Watershed's Tarkovsky season, with a Sunday-afternoon subtitled screening over the long weekend."
+        confidence: "high"
+      - id: "cinema/watershed#1b2789b2ac"
+        sourceId: "cinema/watershed"
+        title: "Stalker"
+        subcategory: "The Films of Andrei Tarkovsky"
+        occurrence:
+          kind: "single"
+          date: "2026-09-02"
+        status: "scheduled"
+        timesText: "11:00 and 11:20 as printed on the week-ahead page; billed as a Baby screening"
+        url: "https://www.watershed.co.uk/whatson/14206/stalker"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/51062-stalker-0-1000-0-1500-crop.jpg"
+        ageRestriction: "PG"
+        tags:
+          - "classic"
+          - "arthouse"
+          - "sci-fi"
+          - "subtitled"
+        raw: "**Stalker** (PG) — Sun 30 Aug & Wed 2 Sept. Subtitled, Baby screening. Part of *The Films of Andrei Tarkovsky*.\n"
+        summary: "The second Tarkovsky season screening of Stalker, billed as a Baby screening for parents and carers with infants."
+        confidence: "medium"
+      - id: "cinema/watershed#e59f9d585e"
+        sourceId: "cinema/watershed"
+        title: "Early Man"
+        subcategory: "Cracking Films, Gromit!: 50 Years of Aardman"
+        occurrence:
+          kind: "run"
+          end: "2026-08-31"
+        status: "scheduled"
+        timesText: "Mon 31 Aug 14:30"
+        url: "https://www.watershed.co.uk/whatson/14179/early-man"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/07/322341-early-man-0-1000-0-1500-crop.jpg"
+        ageRestriction: "PG"
+        tags:
+          - "animation"
+          - "family"
+          - "school-holidays"
+          - "matinee"
+        raw: "**Early Man** (PG) — until Mon 31 Aug. Part of *Cracking Films, Gromit!: 50 Years of Aardman*.
+
+          \"Takes us on an extraordinary journey into an exciting new world\" with an \"all-star British cast\".\n"
+        summary: "Aardman's stone-age football comedy, in the anniversary season, with its final screening on bank holiday Monday afternoon."
+        confidence: "high"
+      - id: "cinema/watershed#e46b43ba31"
+        sourceId: "cinema/watershed"
+        title: "Wallace and Gromit: A Grand Day Out & The Wrong Trousers"
+        subcategory: "Cracking Films, Gromit!: 50 Years of Aardman"
+        occurrence:
+          kind: "run"
+          end: "2026-09-01"
+        status: "scheduled"
+        timesText: "Tue 1 Sept 14:30"
+        url: "https://www.watershed.co.uk/whatson/14173/a-grand-day-out-the-wrong-trousers"
+        image: "https://apps.watershed.co.uk/shared/imagecache/appimages/9821/default/2-3/744/26/07/twt_nsg_7_t_0_copy.jpg"
+        ageRestriction: "U"
+        tags:
+          - "animation"
+          - "family"
+          - "school-holidays"
+          - "short-film"
+        raw: "**Wallace and Gromit: A Grand Day Out & The Wrong Trousers** (U) — until Tue 1 Sept. Part of *Cracking Films, Gromit!: 50 Years of Aardman*.
+
+          \"A double bill of the first outings of Bristol's favourite animated duo Wallace & Gromit\".\n"
+        summary: "The first two Wallace and Gromit shorts as a double bill, part of the fiftieth-anniversary Aardman season."
+        confidence: "high"
+      - id: "cinema/watershed#d48c6bf1bf"
+        sourceId: "cinema/watershed"
+        title: "Make Shift - Come Unstuck Sessions"
+        subcategory: "Make Shift"
+        occurrence:
+          kind: "single"
+          date: "2026-09-01"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14295/make-shift-come-unstuck-sessions"
+        image: "https://apps.watershed.co.uk/shared/imagecache/appimages/9910/default/2-3/744/26/08/make_shift_nov_4.jpeg"
+        tags:
+          - "drop-in"
+          - "community"
+          - "hands-on"
+        raw: "**Make Shift - Come Unstuck Sessions** — Tue 1 Sept, 18:00.
+
+          \"A very friendly, informal meet up\" for \"Make Shifters\" and residents.\n"
+        summary: "An informal evening meet-up for makers in the Watershed's Make Shift programme, open to residents and anyone else who is stuck on something."
+        confidence: "high"
+      - id: "cinema/watershed#4e5281ac21"
+        sourceId: "cinema/watershed"
+        title: "Wallace and Gromit: A Close Shave & A Matter of Loaf and Death"
+        subcategory: "Cracking Films, Gromit!: 50 Years of Aardman"
+        occurrence:
+          kind: "run"
+          end: "2026-09-02"
+        status: "scheduled"
+        timesText: "Wed 2 Sept 11:10"
+        url: "https://www.watershed.co.uk/whatson/14178/a-close-shave-a-matter-of-loaf-and"
+        image: "https://apps.watershed.co.uk/shared/imagecache/appimages/9828/default/2-3/744/26/07/sg_cs5_0_copy.jpg"
+        ageRestriction: "PG"
+        tags:
+          - "animation"
+          - "family"
+          - "school-holidays"
+          - "short-film"
+        raw: "**Wallace and Gromit: A Close Shave & A Matter of Loaf and Death** (PG) — until Wed 2 Sept. Part of *Cracking Films, Gromit!: 50 Years of Aardman*.
+
+          \"A double bill of the third and fourth short outings\" of Wallace & Gromit.\n"
+        summary: "The third and fourth Wallace and Gromit shorts as a morning double bill, closing out the Aardman season's short-film strand."
+        confidence: "high"
+      - id: "cinema/watershed#1920ab3836"
+        sourceId: "cinema/watershed"
+        title: "Spike Island x Watershed: Selected 16"
+        occurrence:
+          kind: "single"
+          date: "2026-09-03"
+          startTime: "18:30"
+        status: "scheduled"
+        timesText: "18:30, with an introductory talk"
+        url: "https://www.watershed.co.uk/whatson/14199/spike-island-x-watershed-selected-16"
+        image: "https://apps.watershed.co.uk/shared/imagecache/appimages/9839/default/2-3/744/26/07/chanthila_phaophanit_beneath_the_shell_of_sound_2025.png"
+        ageRestriction: "18 (CTBA)"
+        tags:
+          - "short-film"
+          - "experimental"
+          - "artist-talk"
+          - "one-night"
+        raw: "**Spike Island x Watershed: Selected 16** (18, CTBA) — Thu 3 Sept, 18:30, with an introductory talk.
+
+          \"A vibrant collection of new short films by some of the most exciting early-career artists\".\n"
+        summary: "Spike Island and the Watershed present a programme of new artists' short films, introduced from the stage."
+        confidence: "high"
+      - id: "cinema/watershed#cf030dfe22"
+        sourceId: "cinema/watershed"
+        title: "The Incomer"
+        occurrence:
+          kind: "run"
+          start: "2026-09-04"
+          end: "2026-09-10"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14252/the-incomer"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/08/theincomer_pos_digi_ncw_1sheet_art1.jpg"
+        ageRestriction: "12A"
+        tags:
+          - "new-release"
+          - "drama"
+          - "arthouse"
+        raw: "**The Incomer** (12A) — Fri 4 to Thu 10 Sept.
+
+          \"A nervy council official attempt[s] to evict two siblings who have never had any human contact\".\n"
+        summary: "A council official is sent to evict two siblings who have never met another person, opening the week after the bank holiday."
+        confidence: "high"
+      - id: "cinema/watershed#e4cf990f05"
+        sourceId: "cinema/watershed"
+        title: "Super Nature"
+        occurrence:
+          kind: "run"
+          start: "2026-09-04"
+          end: "2026-09-10"
+        status: "scheduled"
+        timesText: "Partially subtitled"
+        url: "https://www.watershed.co.uk/whatson/14251/super-nature"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/08/supernature_master_1944x2880px-1.jpg"
+        ageRestriction: "PG"
+        tags:
+          - "documentary"
+          - "nature"
+          - "new-release"
+          - "subtitled"
+        raw: "**Super Nature** (PG) — Fri 4 to Thu 10 Sept. Partially subtitled screening.
+
+          \"A love letter to nature filmed exclusively on Super 8\" journeying \"across 25 different countries\".\n"
+        summary: "A nature documentary shot entirely on Super 8 across twenty-five countries."
+        confidence: "high"
+      - id: "cinema/watershed#c5c718114d"
+        sourceId: "cinema/watershed"
+        title: "First Friday"
+        occurrence:
+          kind: "single"
+          date: "2026-09-04"
+          startTime: "17:00"
+          endTime: "19:00"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14296/first-friday"
+        image: "https://apps.watershed.co.uk/shared/imagecache/appimages/9911/default/2-3/744/26/08/goblin_-_51.jpeg"
+        tags:
+          - "community"
+          - "talk"
+          - "drop-in"
+        raw: "**First Friday** — Fri 4 Sept, 17:00-19:00.
+
+          \"A monthly social and showcasing event open to anyone\" in the Pervasive Media Studio.\n"
+        summary: "The Pervasive Media Studio's monthly open social, where residents show what they have been working on."
+        confidence: "high"
+      - id: "cinema/watershed#3ecc315a7f"
+        sourceId: "cinema/watershed"
+        title: "Leviticus"
+        occurrence:
+          kind: "run"
+          start: "2026-09-04"
+          end: "2026-09-10"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14248/leviticus"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/08/leviticus_1_sheet.jpg"
+        ageRestriction: "15"
+        tags:
+          - "horror"
+          - "lgbtq"
+          - "new-release"
+        raw: "**Leviticus** (15) — Fri 4 to Thu 10 Sept.
+
+          \"A chilling sensation in queer horror\" following \"two lovestruck teenage boys\" facing supernatural evil.\n"
+        summary: "Adrian Chiarella's queer horror debut about two teenage boys and something supernatural."
+        confidence: "high"
+      - id: "cinema/watershed#b5731a5222"
+        sourceId: "cinema/watershed"
+        title: "Ali Plumb's Untitled Film Quiz Project: A Brand New Movie Quiz"
+        occurrence:
+          kind: "single"
+          date: "2026-09-05"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14210/a-brand-new-movie-quiz"
+        image: "https://apps.watershed.co.uk/shared/imagecache/appimages/9830/default/2-3/744/26/07/quiz_311024_jd5_5076.jpg"
+        tags:
+          - "quiz"
+          - "one-night"
+          - "comedy"
+        raw: "**Ali Plumb's Untitled Film Quiz Project: A Brand New Movie Quiz** — Sat 5 Sept, 19:30.
+
+          \"Ali Plumb... is taking his delightfully nerdy film quiz on the road again\".\n"
+        summary: "The BBC film critic brings his touring film quiz to the Watershed for one night."
+        confidence: "high"
+      - id: "cinema/watershed#174cfdb544"
+        sourceId: "cinema/watershed"
+        title: "Attack the Block"
+        subcategory: "The Sleepover Season"
+        occurrence:
+          kind: "single"
+          date: "2026-09-06"
+          startTime: "14:00"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14238/attack-the-block"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/08/n2qlb5upj0skunlzkthp30wm0g2-0-1000-0-1500-crop.jpg"
+        ageRestriction: "15"
+        tags:
+          - "classic"
+          - "sci-fi"
+          - "comedy"
+          - "matinee"
+        raw: "**Attack the Block** (15) — Sun 6 Sept, 14:00. Part of *The Sleepover Season*.
+
+          \"British-humoured slapstick adventure to a South London housing block\" with alien encounters.\n"
+        summary: "Joe Cornish's South London alien-invasion comedy, revived for the Watershed's Sleepover Season."
+        confidence: "high"
+      - id: "cinema/watershed#bf002e8a4f"
+        sourceId: "cinema/watershed"
+        title: "Preview: Bad Apples"
+        occurrence:
+          kind: "single"
+          date: "2026-09-06"
+          startTime: "16:00"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14288/preview-bad-apples"
+        image: "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/08/badapples_1sheet_s.jpg"
+        ageRestriction: "15"
+        tags:
+          - "preview"
+          - "drama"
+          - "one-night"
+        raw: "**Preview: Bad Apples** (15) — Sun 6 Sept, 16:00.
+
+          \"A struggling primary school teacher begins to make some questionable decisions\".\n"
+        summary: "An advance preview screening of Bad Apples, about a primary school teacher whose judgement starts to slip."
+        confidence: "high"
+      - id: "cinema/watershed#5ed8b73684"
+        sourceId: "cinema/watershed"
+        title: "Book Launch: Father Alberto and the Flying Girl"
+        occurrence:
+          kind: "single"
+          date: "2026-09-10"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://www.watershed.co.uk/whatson/14010/father-alberto-and-the-flying-girl-timothy-x"
+        image: "https://apps.watershed.co.uk/shared/imagecache/appimages/9574/default/2-3/744/26/05/father_alberto_and_the_flying_girl_landscape_edit-1.jpg"
+        tags:
+          - "book-launch"
+          - "author-talk"
+          - "one-night"
+        raw: "**Book Launch: Father Alberto and the Flying Girl** — Thu 10 Sept, 19:00.
+
+          \"The launch of the vibrant debut novel by Timothy X Atack\", a playwright and Pervasive Media Studio resident.\n"
+        summary: "Launch night for Timothy X Atack's debut novel, by a playwright and long-standing Pervasive Media Studio resident."
+        confidence: "high"
+    notes: "Whole forward programme taken, nothing truncated. Two pages read: the catalogued /whatson/ for the diary, and /whatson/week-ahead for the day-by-day showtimes, which are what timesText carries — the index itself prints only date ranges. Neither page prints a per-film ticket price, so price is omitted throughout; the only pricing on the site is \"Club Shed members get 15% off tickets\" and \"Club Shed members, young people (24 and under) and concession ticket holders get £6 tickets on all Monday screenings\", which is a standing Monday offer rather than bank holiday pricing. Nothing on the site is billed as a bank holiday event, so no event carries the bank-holiday tag; the only Monday 31 August notice is \"Scheduled maintenance to online ticketing system\" from 01:00 to 04:00. Films running across several days are recorded as one `run` each with the per-day times in timesText, rather than one row per screening. The Aardman titles carry the venue's own season name in subcategory. /whatson/week-ahead and /whatson/calendar are useful routes a future run should know about."
+  - sourceId: "cinema/the-cube"
+    fetch:
+      ok: true
+      url: "https://www.cubecinema.com/programme/"
+      status: 200
+    events:
+      - id: "cinema/the-cube#aa17887afe"
+        sourceId: "cinema/the-cube"
+        title: "Annie Gardiner - 'Sleeping Dogs' Album Launch"
+        subcategory: "music"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/annie-gardiner-sleeping-dogs-album-launch/15751/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/e157352_i343050_s5.jpg.600x0_q45.jpg"
+        price:
+          free: false
+          text: "£12.50 or £30 with Vinyl"
+          min: 12.5
+          max: 30
+          currency: "GBP"
+        tags:
+          - "live-music"
+          - "experimental"
+          - "one-night"
+        raw: "**Annie Gardiner - 'Sleeping Dogs' Album Launch** — Sat 29 August // 19:30.
+
+          Celebrate the album launch party for Annie Gardiner's second solo album 'Sleeping Dogs'. Special guests to be announced.\n"
+        summary: "Bristol songwriter and producer Annie Gardiner launches her second solo album on Crystal Fuzz Records, with support still to be announced."
+        description: "On this day Annie Gardiner celebrates the birth of second solo album 'Sleeping Dogs' on Crystal Fuzz Records. Released back in February, the follow up to 2021's 'Bloodletting' was met with critical acclaim.
+
+
+          Critically acclaimed artist, songwriter and producer Annie Gardiner celebrated the release of her second solo album, 'Sleeping Dogs', in 2025. Her music has been championed by BBC 6 Music, featured on the Freak Zone playlist, Adam Walton's BBC Radio Wales show, BBC Introducing and numerous other radio programmes nationally and internationally.
+
+
+          A Welsh-Scottish-Italian artist based in Bristol, Gardiner has built a diverse career spanning experimental songwriting, noise-rock, jazz-not-jazz, improvisation and electronic music. She gained a UK-wide underground following as the front person and bassist of noise-rock band Hysterical Injury, was one-third of Human Worth's post-rock outfit Olanza, and co-wrote and performed vocals on Run Logan Run's 2022 album 'Nature Will Take Care of You'. Singles from the album received airplay on BBC 6 Music, Jamie Cullum's BBC Radio 2 show and Verity Sharpe's 'Late Junction' on BBC Radio 3. In 2023, she joined Run Logan Run as a guest vocalist for their appearance on the BBC Introducing Stage at Glastonbury Festival.
+
+
+          A sought-after collaborator and improviser, Gardiner has performed on vocals, electronics and bass with various artists and ensembles. Alongside her artistic practice, Gardiner works as a music producer at Studio B in J&J Studios, Bristol, and is a Senior Lecturer in Songwriting at BIMM University.\n"
+        confidence: "high"
+      - id: "cinema/the-cube#3dcf9cd89d"
+        sourceId: "cinema/the-cube"
+        title: "Skydaddy + Mia Wilson + Nile Robinson"
+        subcategory: "music"
+        occurrence:
+          kind: "single"
+          date: "2026-08-31"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/skydaddy-mia-wilson-nile-robinson/15780/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/skydaddy-mia-wilson-scanned-high-res.jpg.600x0_q45.jpg"
+        tags:
+          - "live-music"
+          - "indie"
+          - "folk"
+          - "one-night"
+        raw: "**Skydaddy + Mia Wilson + Nile Robinson** — Mon 31 August // 19:00.
+
+          Virtuoso songwriting from far and near. FFO: Cameron Winter, Weyes Blood, BCNR, Rundgren, Nilsson.\n"
+        summary: "A bank holiday Monday triple bill of songwriters — London's Skydaddy midway through a run supporting Geese, Californian Mia Wilson making her UK debut, and Bristol-based Nile Robinson."
+        description: "the song has no ending present
+
+
+          Virtuoso songwriting from far and near FFO: Cameron Winter, Weyes Blood, BCNR, Rundgren, Nilsson
+
+
+          Skydaddy is the moniker of London-born Lebanese/Grenadian songwriter-producer/artist, Rachid Fakhre. He has released two mini-albums through his own label Bathtime Sounds as well as albums of his former project, Spang Sisters. This year he will be releasing his debut solo album and will be supporting Geese on their UK shows in the run-up. He (and his band) will be stopping off at The Cube for a very special show midway.
+
+
+          Southern California singer-songwriter Mia Wilson (and band) will be gracing the cube with her debut UK performance before going on to play End of the Road Festival. Mia's self titled LP - Produced by Tim Ramsey (Vetiver, Little Wings, Kacey Johansing) - blends piano and guitar based compositions with lush orchestral arrangements to create a backdrop for her introspective lyrics and captivating mezzo-soprano vocals. The album recalls the golden glow of late 60's & early 70's LA records like Carole King's Tapestry, Judee Sill's Heart Food, and Jackson Browne's Late For the Sky.
+
+
+          North Yorkshire born folk-songwriter Nile Robinson began performing live music after moving to Bristol in 2023. His work blends influences of American Primitive, Anti-Folk & Glock-Rock across an eclectic array of instrumentation.\n"
+        confidence: "high"
+      - id: "cinema/the-cube#de81907ef0"
+        sourceId: "cinema/the-cube"
+        title: "The Traveler"
+        subcategory: "film"
+        occurrence:
+          kind: "single"
+          date: "2026-09-01"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/the-traveler/15605/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/29514id_010_w1600.jpg.600x0_q45.jpg"
+        tags:
+          - "classic"
+          - "arthouse"
+          - "one-night"
+        raw: "**The Traveler** — Tue 01 September // 20:00.
+
+          The debut feature by all-time great Abbas Kiarostami is a wondrous ode to cinema.\n"
+        summary: "Kiarostami's 1974 debut feature, about a boy scheming his way to a football match in Tehran."
+        confidence: "high"
+      - id: "cinema/the-cube#d732e0376c"
+        sourceId: "cinema/the-cube"
+        title: "Nadja"
+        subcategory: "film"
+        occurrence:
+          kind: "single"
+          date: "2026-09-02"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/nadja/15606/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/nadja_001.png.600x0_q45.png"
+        tags:
+          - "classic"
+          - "horror"
+          - "experimental"
+          - "one-night"
+        raw: "**Nadja** — Wed 02 September // 20:00.
+
+          Fusing shimmering black-and-white 35mm with hallucinatory Pixelvision video, Michael Almereyda's acclaimed cult film follows a young vampire.\n"
+        summary: "Michael Almereyda's cult 1994 vampire film, shot on black-and-white 35mm cut with Pixelvision video."
+        confidence: "high"
+      - id: "cinema/the-cube#bd032383fa"
+        sourceId: "cinema/the-cube"
+        title: "Bristol Documentary Film Festival - Day 1"
+        subcategory: "film"
+        occurrence:
+          kind: "single"
+          date: "2026-09-04"
+          startTime: "17:45"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/bristol-documentary-film-festival-day-1/15400/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/1000073097.png.600x0_q45.jpg"
+        tags:
+          - "festival"
+          - "documentary"
+        raw: "**Bristol Documentary Film Festival - Day 1** — Fri 04 September // 17:45. New for 2026.
+
+          South West's new home for bold, creative documentaries lands at The Cube for its debut outing.\n"
+        summary: "Opening day of a new Bristol documentary festival, running its debut edition over two days at the Cube."
+        confidence: "high"
+      - id: "cinema/the-cube#cd68c8f0a9"
+        sourceId: "cinema/the-cube"
+        title: "Bristol Documentary Film Festival - Day 2"
+        subcategory: "film"
+        occurrence:
+          kind: "single"
+          date: "2026-09-05"
+          startTime: "13:30"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/bristol-documentary-film-festival-day-2/15401/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/1000073097_gFPwq1K.png.600x0_q45.jpg"
+        tags:
+          - "festival"
+          - "documentary"
+        raw: "**Bristol Documentary Film Festival - Day 2** — Sat 05 September // 13:30. New for 2026.
+
+          South West's new home for bold, creative documentaries lands at The Cube for its debut outing.\n"
+        summary: "The second and longer day of the new Bristol Documentary Film Festival, starting early afternoon."
+        confidence: "high"
+      - id: "cinema/the-cube#f6d3b9d922"
+        sourceId: "cinema/the-cube"
+        title: "Bouchra"
+        subcategory: "film"
+        occurrence:
+          kind: "single"
+          date: "2026-09-07"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/bouchra/15607/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/11116.jpg.600x0_q45.jpg"
+        tags:
+          - "documentary"
+          - "lgbtq"
+          - "arthouse"
+          - "one-night"
+        raw: "**Bouchra** — Mon 07 September // 20:00.
+
+          A singular portrait about a 35-year-old queer Moroccan coyote living in NYC, wrestling with writer's block.\n"
+        summary: "A portrait of a queer Moroccan writer in New York, stuck mid-book."
+        confidence: "high"
+      - id: "cinema/the-cube#3ead549698"
+        sourceId: "cinema/the-cube"
+        title: "The Finder and The Moon: Real UFOs captured on film Mark Pilkington"
+        subcategory: "film"
+        occurrence:
+          kind: "single"
+          date: "2026-09-08"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/the-finder-and-the-moon-real-ufos-captured-on-film-mark-pilkington/15729/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/ufo_talk.jpg.600x0_q45.jpg"
+        tags:
+          - "talk"
+          - "documentary"
+          - "experimental"
+          - "one-night"
+        raw: "**The Finder and The Moon: Real UFOs captured on film Mark Pilkington** — Tue 08 September // 20:00.
+
+          Mark Pilkington, author of UFO meta-conspiracy classic Mirage Men, presents a curated selection of his work.\n"
+        summary: "The author of Mirage Men presents an evening of UFO footage with live commentary."
+        confidence: "high"
+      - id: "cinema/the-cube#5db2ed2ff5"
+        sourceId: "cinema/the-cube"
+        title: "Minimum Wage Immanence Unit x Luigi Marino, Shuiqingqing He, Laura Phillips x Oliver Brouwer"
+        subcategory: "music"
+        occurrence:
+          kind: "single"
+          date: "2026-09-11"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/minimum-wage-immanence-unit-x-luigi-marino-shuiqingqing-he-laura-phillips-x-oliver-brouwer/15511/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/000036.jpg.600x0_q45.jpg"
+        tags:
+          - "live-music"
+          - "experimental"
+          - "improv"
+          - "performance"
+        raw: "**Minimum Wage Immanence Unit x Luigi Marino, Shuiqingqing He, Laura Phillips x Oliver Brouwer** — Fri 11 September // 19:00.
+
+          An evening of improvisation where free music, Chinese opera, and electronics coexist.\n"
+        summary: "A night of free improvisation bringing together electronics, Chinese opera and expanded cinema."
+        confidence: "high"
+      - id: "cinema/the-cube#1ca76e1f96"
+        sourceId: "cinema/the-cube"
+        title: "Kiki's Delivery Service"
+        subcategory: "film"
+        occurrence:
+          kind: "single"
+          date: "2026-09-13"
+          startTime: "17:00"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/kikis-delivery-service/15806/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/majo_m03_190805_fp_026.jpg.600x0_q45.jpg"
+        tags:
+          - "animation"
+          - "family"
+          - "classic"
+          - "matinee"
+        raw: "**Kiki's Delivery Service** — Sun 13 September // 17:00.
+
+          Celebrate becoming yourself and finding your way with the coolest little witch, Kiki! First released in 1989.\n"
+        summary: "A Sunday-teatime screening of the Ghibli classic, one of two Bristol cinemas showing it this fortnight."
+        confidence: "high"
+      - id: "cinema/the-cube#ef41f70e07"
+        sourceId: "cinema/the-cube"
+        title: "Everyone to Kenmure Street - Film and fundraiser for refugees"
+        subcategory: "film"
+        occurrence:
+          kind: "single"
+          date: "2026-09-15"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/everyone-to-kenmure-street-film-and-fundraiser-for-refugees/15168/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/everyone_to_kenmure_street_poster.jpg.600x0_q45.jpg"
+        tags:
+          - "documentary"
+          - "fundraiser"
+          - "community"
+          - "one-night"
+        raw: "**Everyone to Kenmure Street - Film and fundraiser for refugees** — Tue 15 September // 19:30.
+
+          In May 2021, a UK Home Office dawn raid triggers one of the most spontaneous community responses.\n"
+        summary: "A documentary about the Glasgow street that blocked a Home Office raid, screened as a fundraiser for refugee support."
+        confidence: "high"
+      - id: "cinema/the-cube#ed09f2fdc8"
+        sourceId: "cinema/the-cube"
+        title: "LUCY LILL: DOOM SCROLLS: THE NEVER-ENDING PROPHECIES OF THE SIBYLS"
+        occurrence:
+          kind: "single"
+          date: "2026-09-17"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/lucy-lill-doom-scrolls-the-never-ending-prophecies-of-the-sibyls/15773/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/Lucy_Lill.15651.jpg.600x0_q45.jpg"
+        tags:
+          - "storytelling"
+          - "performance"
+          - "one-night"
+        raw: "**LUCY LILL: DOOM SCROLLS: THE NEVER-ENDING PROPHECIES OF THE SIBYLS** — Thu 17 September // 20:00.
+
+          \"Delightful and charismatic\" performance storyteller Lucy Lill tells tales of prophetesses.\n"
+        summary: "A spoken performance about the sibyls and their prophecies, from storyteller Lucy Lill."
+        confidence: "high"
+      - id: "cinema/the-cube#df2cd118ab"
+        sourceId: "cinema/the-cube"
+        title: "Lebanon on Screen"
+        subcategory: "film"
+        occurrence:
+          kind: "single"
+          date: "2026-09-18"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/lebanon-on-screen/15756/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/e159620_i353207_s3.jpg.600x0_q45.jpg"
+        tags:
+          - "fundraiser"
+          - "food-drink"
+          - "community"
+          - "one-night"
+        raw: "**Lebanon on Screen** — Fri 18 September // 18:00.
+
+          An evening of film, food and conversation, fundraising for Lebanon.\n"
+        summary: "Film, Lebanese food and conversation across one evening, raising money for Lebanon."
+        confidence: "high"
+      - id: "cinema/the-cube#62e58a0fdd"
+        sourceId: "cinema/the-cube"
+        title: "Toilet Fest 5"
+        subcategory: "music"
+        occurrence:
+          kind: "single"
+          date: "2026-09-19"
+          startTime: "14:00"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/toilet-fest-5/15526/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/image_gyFhhLv.jpeg.600x0_q45.jpg"
+        tags:
+          - "live-music"
+          - "festival"
+          - "fundraiser"
+          - "punk"
+        raw: "**Toilet Fest 5** — Sat 19 September // 14:00.
+
+          TF returns raising funds for SLEEC.\n"
+        summary: "An all-day DIY music festival in the Cube, in its fifth year, raising money for SLEEC."
+        confidence: "high"
+      - id: "cinema/the-cube#7250de0b4b"
+        sourceId: "cinema/the-cube"
+        title: "Sherman's March"
+        subcategory: "film"
+        occurrence:
+          kind: "single"
+          date: "2026-09-20"
+          startTime: "17:00"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/shermans-march/15845/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/SHERMANS-MARCH_Still-2_72dpi.jpg.600x0_q45.jpg"
+        tags:
+          - "documentary"
+          - "classic"
+          - "arthouse"
+        raw: "**Sherman's March** — Sun 20 September // 17:00.
+
+          Originally intended as a documentary on General Sherman's Civil War legacy, Ross McElwee's film evolves into something personal.\n"
+        summary: "Ross McElwee's 1985 documentary, which sets out to trace Sherman's march and turns into an account of his own love life."
+        confidence: "high"
+      - id: "cinema/the-cube#c11d8db78a"
+        sourceId: "cinema/the-cube"
+        title: "Kelly Moran (Warp Records)"
+        subcategory: "music"
+        occurrence:
+          kind: "single"
+          date: "2026-09-22"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/kelly-moran-warp-records/15512/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/KM_Pianos.png.600x0_q45.png"
+        tags:
+          - "live-music"
+          - "electronic"
+          - "experimental"
+          - "headliner"
+        raw: "**Kelly Moran (Warp Records)** — Tue 22 September // 20:00.
+
+          Support from Minor Conflict & Maes Y Circles.\n"
+        summary: "The Warp Records pianist and composer plays the Cube, with two support acts."
+        confidence: "high"
+      - id: "cinema/the-cube#c2dded526f"
+        sourceId: "cinema/the-cube"
+        title: "A Tale of Autumn"
+        subcategory: "film"
+        occurrence:
+          kind: "single"
+          date: "2026-09-23"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/a-tale-of-autumn/15539/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/11142.jpg.600x0_q45.jpg"
+        tags:
+          - "classic"
+          - "arthouse"
+          - "seasonal"
+        raw: "**A Tale of Autumn** — Wed 23 September // 20:00.
+
+          We continue our year long journey through Éric Rohmer's Tales of the Four Seasons.\n"
+        summary: "The autumn instalment of the Cube's year-long run through Rohmer's Tales of the Four Seasons."
+        confidence: "high"
+      - id: "cinema/the-cube#a4fc6344aa"
+        sourceId: "cinema/the-cube"
+        title: "Suzan Peeters + Augustė Vickunaitė + Jon Collin + Gris Marguerite"
+        subcategory: "music"
+        occurrence:
+          kind: "single"
+          date: "2026-09-25"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/suzan-peeters-auguste-vickunaite-jon-collin-gris-marguerite/15500/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/Suzan_Final_PSD.jpg.600x0_q45.jpg"
+        tags:
+          - "live-music"
+          - "experimental"
+          - "folk"
+        raw: "**Suzan Peeters + Augustė Vickunaitė + Jon Collin + Gris Marguerite** — Fri 25 September // 19:00.
+
+          Three international artists and a fourth act from the North.\n"
+        summary: "A four-act bill of experimental and folk-leaning performers, three from abroad and one from the north of England."
+        confidence: "high"
+      - id: "cinema/the-cube#caecbdac95"
+        sourceId: "cinema/the-cube"
+        title: "Absurdist A/V JUMBLE SAIL"
+        occurrence:
+          kind: "single"
+          date: "2026-09-26"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/absurdist-av-jumble-sail-with-mr_hopkinson-paul-hanson-steve-davis-utopia-strong-and-matt-davies-beef-speed-archer-simon-fuggcast-the-return-of-baron-marcus-darcus-bleep-cord-snoozie-beef-mr_stoloff-oil-experts-and-more/15855/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/JUMBLE_SAIL_SEPTRMBER_26_2026_5xzLHtV.jpg.600x0_q45.jpg"
+        tags:
+          - "experimental"
+          - "performance"
+          - "late-night"
+          - "party"
+        raw: "**Absurdist A/V JUMBLE SAIL** — Sat 26 September // 20:00.
+
+          If new to Bristol, or to the Absurdist A/V Jumble: ASK FRIENDS FOR DETAILS.\n"
+        summary: "The Cube's long-running audio-visual jumble night, with a bill too long to print and deliberately little explanation."
+        confidence: "high"
+      - id: "cinema/the-cube#025cd06822"
+        sourceId: "cinema/the-cube"
+        title: "Teenage Sex And Death At Camp Miasma"
+        subcategory: "film"
+        occurrence:
+          kind: "single"
+          date: "2026-09-27"
+          startTime: "17:00"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/teenage-sex-and-death-at-camp-miasma/15631/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/10693.jpg.600x0_q45.jpg"
+        tags:
+          - "horror"
+          - "lgbtq"
+          - "new-release"
+        raw: "**Teenage Sex And Death At Camp Miasma** — Sun 27 September // 17:00.
+
+          Hannah Einbinder and Gillian Anderson star in a psychosexual horror two-hander directed by Jane Schoenbrun.\n"
+        summary: "Jane Schoenbrun's slasher two-hander, reaching the Cube a month after its Watershed run."
+        confidence: "high"
+      - id: "cinema/the-cube#d9d2530ccf"
+        sourceId: "cinema/the-cube"
+        title: "Teenage Sex And Death At Camp Miasma"
+        subcategory: "film"
+        occurrence:
+          kind: "single"
+          date: "2026-09-28"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/teenage-sex-and-death-at-camp-miasma/15631/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/10693.jpg.600x0_q45.jpg"
+        tags:
+          - "horror"
+          - "lgbtq"
+          - "new-release"
+        raw: "**Teenage Sex And Death At Camp Miasma** — Mon 28 September // 20:00.
+
+          Hannah Einbinder and Gillian Anderson star in a psychosexual horror two-hander directed by Jane Schoenbrun.\n"
+        summary: "The second of the Cube's two screenings of Jane Schoenbrun's slasher two-hander, on the Monday evening."
+        confidence: "high"
+      - id: "cinema/the-cube#de3911642d"
+        sourceId: "cinema/the-cube"
+        title: "I Want Your Sex"
+        subcategory: "film"
+        occurrence:
+          kind: "single"
+          date: "2026-09-29"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/i-want-your-sex/15612/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/56633f96c56a024994ddaa7a239c8368e93f92ab-2048x1107.jpg.600x0_q45.jpg"
+        tags:
+          - "new-release"
+          - "18-plus"
+          - "drama"
+        raw: "**I Want Your Sex** — Tue 29 September // 20:00.
+
+          The latest film from longtime Cube favourite Gregg Araki! When ambitious young artist Elliot becomes...\n"
+        summary: "Gregg Araki's erotic satire, brought back by a venue that has shown his films for years."
+        confidence: "high"
+      - id: "cinema/the-cube#2d5d1c9405"
+        sourceId: "cinema/the-cube"
+        title: "BLUESCREEN"
+        subcategory: "film"
+        occurrence:
+          kind: "single"
+          date: "2026-09-30"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/bluescreen/15044/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/Bluescreen_default_pic_XjKVj1D.jpg.600x0_q45.jpg"
+        tags:
+          - "short-film"
+          - "open-mic"
+          - "community"
+          - "experimental"
+        raw: "**BLUESCREEN** — Wed 30 September // 19:30.
+
+          Welcome to Bluescreen: Screening YOUR Short Films! Come along and enjoy the best in local short film.\n"
+        summary: "The Cube's open-submission short film night, where local film-makers show what they have made."
+        confidence: "high"
+      - id: "cinema/the-cube#71a08f1aca"
+        sourceId: "cinema/the-cube"
+        title: "Leviticus"
+        subcategory: "film"
+        occurrence:
+          kind: "single"
+          date: "2026-10-01"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/leviticus/15613/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/CGULAciQ.jpeg.600x0_q45.jpg"
+        tags:
+          - "horror"
+          - "lgbtq"
+          - "new-release"
+        raw: "**Leviticus** — Thu 01 October // 20:00.
+
+          LEVITICUS is the striking feature debut from writer-director Adrian Chiarella, telling the story of two teenage...\n"
+        summary: "Adrian Chiarella's queer horror debut, a few weeks after its Watershed run."
+        confidence: "high"
+      - id: "cinema/the-cube#3f695f3a31"
+        sourceId: "cinema/the-cube"
+        title: "SHIFT plays the CUBE"
+        subcategory: "music"
+        occurrence:
+          kind: "single"
+          date: "2026-10-02"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/shift-plays-the-cube/15297/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/1_gOq2Zvm.png.600x0_q45.jpg"
+        tags:
+          - "live-music"
+          - "experimental"
+          - "performance"
+        raw: "**SHIFT plays the CUBE** — Fri 02 October // 19:00.
+
+          The similarities and tenuous connections between SHIFT and THE CUBE have long been apparent.\n"
+        summary: "The SHIFT collective takes over the Cube for a night of experimental music and happenings."
+        confidence: "high"
+      - id: "cinema/the-cube#d1a0dd1c18"
+        sourceId: "cinema/the-cube"
+        title: "Remake"
+        subcategory: "film"
+        occurrence:
+          kind: "single"
+          date: "2026-10-04"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/remake/15846/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/Untitled-1440-x-810-px-9.jpg.600x0_q45.jpg"
+        tags:
+          - "documentary"
+          - "arthouse"
+        raw: "**Remake** — Sun 04 October // 18:00.
+
+          Filmmaker Ross McElwee reflects on time, memory and loss through his relationship with his son, Adrian.\n"
+        summary: "The companion piece to Sherman's March, in which McElwee turns the camera on his son."
+        confidence: "high"
+      - id: "cinema/the-cube#cee0ad1273"
+        sourceId: "cinema/the-cube"
+        title: "Dagmar Zuniga + Support"
+        subcategory: "music"
+        occurrence:
+          kind: "single"
+          date: "2026-10-05"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/dagmar-zuniga-support/15715/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/dagmar.jpg.600x0_q45.jpg"
+        tags:
+          - "live-music"
+          - "indie"
+          - "one-night"
+        raw: "**Dagmar Zuniga + Support** — Mon 05 October // 19:00.
+
+          LN003: Liner Notes & Fantome present Dagmar Zuniga - Nicaraguan-American artist makes music that feels...\n"
+        summary: "Nicaraguan-American songwriter Dagmar Zuniga, presented by Liner Notes and Fantome."
+        confidence: "high"
+      - id: "cinema/the-cube#88eb6f7f54"
+        sourceId: "cinema/the-cube"
+        title: "EMILY HENNESSEY/SHEEMA MUKHERJEE: THE GIRL WHO DIDN'T DIE"
+        occurrence:
+          kind: "single"
+          date: "2026-10-15"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/emily-hennesseysheema-mukherjee-the-girl-who-didnt-die/15775/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/The_Girl_Who_Didnt_Die.HDFST.IMG.jpg.600x0_q45.jpg"
+        tags:
+          - "storytelling"
+          - "live-music"
+          - "performance"
+        raw: "**EMILY HENNESSEY/SHEEMA MUKHERJEE: THE GIRL WHO DIDN'T DIE** — Thu 15 October // 20:00.
+
+          Dynamic storyteller Emily Hennessey and singular sitar player and composer Sheema Mukherjee perform.\n"
+        summary: "Storytelling and live sitar, from Emily Hennessey and Sheema Mukherjee."
+        confidence: "high"
+      - id: "cinema/the-cube#f8e3c446b6"
+        sourceId: "cinema/the-cube"
+        title: "Colin Wilson: His Life and Work - 6 Part Film"
+        subcategory: "film"
+        occurrence:
+          kind: "single"
+          date: "2026-10-18"
+          startTime: "12:30"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/colin-wilson-his-life-and-work-6-part-film/15632/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/Colin_wilson_poster.jpg.600x0_q45.jpg"
+        tags:
+          - "documentary"
+          - "multi-day"
+          - "talk"
+        raw: "**Colin Wilson: His Life and Work - 6 Part Film** — Sun 18 October // 12:30.
+
+          A rare chance to see in full Colin Wilson: His Life and Work - a new six-part film.\n"
+        summary: "A full-day sitting of a new six-part documentary on the writer Colin Wilson, starting at lunchtime."
+        confidence: "high"
+      - id: "cinema/the-cube#70090bae6b"
+        sourceId: "cinema/the-cube"
+        title: "Kavus Torabi"
+        subcategory: "music"
+        occurrence:
+          kind: "single"
+          date: "2026-10-21"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/kavus-torabi/15683/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/IMG_2292.jpeg.600x0_q45.jpg"
+        tags:
+          - "live-music"
+          - "experimental"
+          - "rock"
+        raw: "**Kavus Torabi** — Wed 21 October // 20:00.
+
+          Support from Arch Garrison.\n"
+        summary: "The Gong and Knifeworld musician plays solo, with Arch Garrison supporting."
+        confidence: "high"
+      - id: "cinema/the-cube#b7545e5156"
+        sourceId: "cinema/the-cube"
+        title: "Robin & Bina Williamson + Rosie Brownhill + Fohn"
+        subcategory: "music"
+        occurrence:
+          kind: "single"
+          date: "2026-10-23"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/robin-bina-williamson-rosie-brownhill-fohn/15311/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/robin-and-bina-poster-fin-a3.jpg.600x0_q45.jpg"
+        tags:
+          - "live-music"
+          - "folk"
+          - "headliner"
+        raw: "**Robin & Bina Williamson + Rosie Brownhill + Fohn** — Fri 23 October // 19:00.
+
+          Visionary folk duo alongside innovative traditional instrumentalists.\n"
+        summary: "The Incredible String Band's Robin Williamson and Bina Williamson, with two supporting folk acts."
+        confidence: "high"
+      - id: "cinema/the-cube#1386493a49"
+        sourceId: "cinema/the-cube"
+        title: "SARAH LIISA WILKINSON: HOW (NOT) TO DIE LONG AGO IN FINLAND"
+        occurrence:
+          kind: "single"
+          date: "2026-11-12"
+          startTime: "20:00"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/sarah-liisa-wilkinson-how-not-to-die-long-ago-in-finland/15777/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/Sarah_Liisa_Wilkinson.HDFST.IMG.jpg.600x0_q45.jpg"
+        tags:
+          - "storytelling"
+          - "performance"
+          - "one-night"
+        raw: "**SARAH LIISA WILKINSON: HOW (NOT) TO DIE LONG AGO IN FINLAND** — Thu 12 November // 20:00.
+
+          Half-English and half-Finnish, storyteller Sarah Lisa Wilkinson is one of the brightest new talents to emerge.\n"
+        summary: "Finnish-English storyteller Sarah Liisa Wilkinson, in the third of the Cube's autumn storytelling nights."
+        confidence: "high"
+      - id: "cinema/the-cube#a0ec3a4a20"
+        sourceId: "cinema/the-cube"
+        title: "The Knights Of Magic"
+        occurrence:
+          kind: "single"
+          date: "2026-11-19"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/the-knights-of-magic/14892/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/2026.11.19-20_BSoM_Knights_Of_Magic.HDFST.IMG.01.jpg.600x0_q45.jpg"
+        tags:
+          - "magic"
+          - "cabaret"
+          - "comedy"
+        raw: "**The Knights Of Magic** — Thu 19 November // 19:30.
+
+          With increasing levels of flabbergast, the Bristol Society Of Magic's most seasoned stage magic supremos blitz...\n"
+        summary: "The Bristol Society of Magic's stage magic showcase, first of two nights."
+        confidence: "high"
+      - id: "cinema/the-cube#3f35ffb12d"
+        sourceId: "cinema/the-cube"
+        title: "The Knights Of Magic"
+        occurrence:
+          kind: "single"
+          date: "2026-11-20"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/the-knights-of-magic/15593/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/2026.11.19-20_BSoM_Knights_Of_Magic.HDFST.IMG.02.jpg.600x0_q45.jpg"
+        tags:
+          - "magic"
+          - "cabaret"
+          - "comedy"
+        raw: "**The Knights Of Magic** — Fri 20 November // 19:30.
+
+          With increasing levels of flabbergast, the Bristol Society Of Magic's most seasoned stage magic supremos blitz...\n"
+        summary: "The second night of the Bristol Society of Magic's stage magic showcase, listed as its own event with its own booking page."
+        confidence: "high"
+      - id: "cinema/the-cube#9fb755c6a5"
+        sourceId: "cinema/the-cube"
+        title: "BLUESCREEN"
+        subcategory: "film"
+        occurrence:
+          kind: "single"
+          date: "2026-11-25"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://www.cubecinema.com/programme/event/bluescreen/15045/"
+        image: "https://www.cubecinema.com/media/diary/thumbnails/Bluescreen_default_pic_aU7I9rs.jpg.600x0_q45.jpg"
+        tags:
+          - "short-film"
+          - "open-mic"
+          - "community"
+          - "experimental"
+        raw: "**BLUESCREEN** — Wed 25 November // 19:30.
+
+          Welcome to Bluescreen: Screening YOUR Short Films! Come along and enjoy the best in local short film.\n"
+        summary: "The November edition of the Cube's open-submission local short film night."
+        confidence: "high"
+    notes: "Whole diary taken — all 34 entries the programme page lists, from Sat 29 August to Wed 25 November — nothing truncated. The programme mixes film, live music, performance and talks, so each row is tagged by what it actually is rather than assumed to be a film; the venue's own one-word label (\"film\", \"music\") is carried in subcategory where it prints one. The index prints no prices at all, so price is omitted except where an event page was opened. Two event pages were opened, both for this bank holiday weekend, per the run brief: Annie Gardiner (Sat 29 Aug) and Skydaddy (Mon 31 Aug); their full body text is in description and the Annie Gardiner page is the only one of the two that prints a price. The rest of the programme is more than the dozen-event cap allows opening, so the other 32 rows carry the index line in raw and no description. Nothing on the site is billed as a bank holiday event — the Cube simply has a gig on the Saturday and another on the Monday — so no event carries the bank-holiday tag. Note for stage 1: the programme page offers an RSS route at https://www.cubecinema.com/programme/rss/ which is not in the catalogue and would be the cheaper route next time. Event hrefs are relative and have been resolved against https://www.cubecinema.com."
+  - sourceId: "cinema/everyman-bristol"
+    fetch:
+      ok: true
+      url: "https://www.everymancinema.com/venues-list/x0x3q-everyman-bristol/?date=2026-08-28&date=2026-09-04"
+      status: 200
+    events:
+      - id: "cinema/everyman-bristol#586f98afff"
+        sourceId: "cinema/everyman-bristol"
+        title: "Toddler Club: Minions & Monsters"
+        subcategory: "Toddler Club"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+          startTime: "09:15"
+        status: "scheduled"
+        url: "https://www.everymancinema.com/film-listing/1000048324-toddler-club-minions-and-monsters/"
+        ageRestriction: "U"
+        tags:
+          - "family"
+          - "kids"
+          - "school-holidays"
+          - "relaxed-performance"
+          - "animation"
+        raw: "**Toddler Club: Minions & Monsters** (U, 1h 29m) — Sat 29 August, 09:15.\n"
+        summary: "The Everyman's toddler screening — lights up, sound down, no one minding the noise — with the new Minions film on the Saturday of the bank holiday weekend."
+        confidence: "high"
+      - id: "cinema/everyman-bristol#08ab0847d8"
+        sourceId: "cinema/everyman-bristol"
+        title: "Toddler Club: Minions & Monsters"
+        subcategory: "Toddler Club"
+        occurrence:
+          kind: "single"
+          date: "2026-08-30"
+          startTime: "09:30"
+        status: "scheduled"
+        url: "https://www.everymancinema.com/film-listing/1000048324-toddler-club-minions-and-monsters/"
+        ageRestriction: "U"
+        tags:
+          - "family"
+          - "kids"
+          - "school-holidays"
+          - "relaxed-performance"
+          - "animation"
+        raw: "**Toddler Club: Minions & Monsters** (U, 1h 29m) — Sunday 30 August, 09:30.\n"
+        summary: "The Sunday morning Toddler Club screening of Minions & Monsters, twenty minutes later than the Saturday one."
+        confidence: "high"
+      - id: "cinema/everyman-bristol#c1225f61ec"
+        sourceId: "cinema/everyman-bristol"
+        title: "Throwback: The Lord of the Rings: The Return of the King (Extended Edition)"
+        subcategory: "Throwback"
+        occurrence:
+          kind: "single"
+          date: "2026-08-30"
+          startTime: "18:30"
+        status: "scheduled"
+        url: "https://www.everymancinema.com/film-listing/1000006801-throwback-the-lord-of-the-rings-the-return-of-the-king-extended-edition/"
+        ageRestriction: "12A"
+        tags:
+          - "classic"
+          - "drama"
+          - "one-night"
+        raw: "**Throwback: The Lord of the Rings: The Return of the King (Extended Edition)** (12A, 4h 13m) — Sunday 30 August, 18:30.\n"
+        summary: "A four-hour-plus extended cut of Return of the King in the Everyman's Throwback strand, filling the Sunday evening of the long weekend."
+        confidence: "high"
+      - id: "cinema/everyman-bristol#8a34bd7fb8"
+        sourceId: "cinema/everyman-bristol"
+        title: "Throwback: The Lord of the Rings: The Return of the King (Extended Edition)"
+        subcategory: "Throwback"
+        occurrence:
+          kind: "single"
+          date: "2026-09-02"
+          startTime: "18:45"
+        status: "scheduled"
+        url: "https://www.everymancinema.com/film-listing/1000006801-throwback-the-lord-of-the-rings-the-return-of-the-king-extended-edition/"
+        ageRestriction: "12A"
+        tags:
+          - "classic"
+          - "drama"
+          - "one-night"
+        raw: "**Throwback: The Lord of the Rings: The Return of the King (Extended Edition)** (12A, 4h 13m) — Wednesday 2 September, 18:45.\n"
+        summary: "The second Throwback screening of the extended Return of the King, on the Wednesday after the bank holiday."
+        confidence: "high"
+      - id: "cinema/everyman-bristol#2a534ec6b6"
+        sourceId: "cinema/everyman-bristol"
+        title: "Family Film Club: Finding Nemo"
+        subcategory: "Family Film Club"
+        occurrence:
+          kind: "single"
+          date: "2026-09-01"
+          startTime: "12:00"
+        status: "scheduled"
+        url: "https://www.everymancinema.com/film-listing/1000040924-family-film-club-finding-nemo/"
+        ageRestriction: "U"
+        tags:
+          - "family"
+          - "kids"
+          - "animation"
+          - "school-holidays"
+          - "matinee"
+        raw: "**Family Film Club: Finding Nemo** (U, 1h 41m) — Tuesday 1 September, 12:00.
+
+          Enjoy more adventures together with family ticket bundles and half-price child tickets, available Monday to Friday.\n"
+        summary: "Finding Nemo in the Everyman's Family Film Club strand, in the last week of the summer holidays and with half-price child tickets on weekdays."
+        confidence: "high"
+      - id: "cinema/everyman-bristol#28008e0891"
+        sourceId: "cinema/everyman-bristol"
+        title: "Family Film Club: Finding Nemo"
+        subcategory: "Family Film Club"
+        occurrence:
+          kind: "single"
+          date: "2026-09-03"
+          startTime: "15:00"
+        status: "scheduled"
+        url: "https://www.everymancinema.com/film-listing/1000040924-family-film-club-finding-nemo/"
+        ageRestriction: "U"
+        tags:
+          - "family"
+          - "kids"
+          - "animation"
+          - "school-holidays"
+          - "matinee"
+        raw: "**Family Film Club: Finding Nemo** (U, 1h 41m) — Thursday 3 September, 15:00.
+
+          Enjoy more adventures together with family ticket bundles and half-price child tickets, available Monday to Friday.\n"
+        summary: "The second Family Film Club screening of Finding Nemo, mid-afternoon on the Thursday."
+        confidence: "high"
+      - id: "cinema/everyman-bristol#cb06db3707"
+        sourceId: "cinema/everyman-bristol"
+        title: "The Dog Stars"
+        occurrence:
+          kind: "run"
+          start: "2026-08-28"
+          end: "2026-09-03"
+        status: "scheduled"
+        timesText: "Fri 28 Aug 20:45; Sat 29 Aug 14:15, 20:30; Sun 30 Aug 15:15, 20:30; Mon 31 Aug 17:15, 20:30; Tue 1 Sept 13:15, 20:15; Wed 2 Sept 12:45 and 17:30 (Captioned); Thu 3 Sept 13:00, 20:30"
+        url: "https://www.everymancinema.com/film-listing/1000014969-the-dog-stars/"
+        ageRestriction: "15"
+        tags:
+          - "new-release"
+          - "drama"
+          - "sci-fi"
+        raw: "**The Dog Stars** (15, 1h 59m).
+
+          Survivors of a deadly pandemic traverse a post-apocalyptic landscape to find the origin of a mysterious radio transmission.\n"
+        summary: "A post-pandemic survival drama, playing twice a day through the bank holiday weekend with a captioned screening on the Wednesday."
+        confidence: "medium"
+      - id: "cinema/everyman-bristol#f81dcb1a7b"
+        sourceId: "cinema/everyman-bristol"
+        title: "One Night Only"
+        occurrence:
+          kind: "run"
+          start: "2026-08-28"
+          end: "2026-09-03"
+        status: "scheduled"
+        timesText: "Fri 28 Aug 18:15; Sat 29 Aug 12:15, 21:00; Sun 30 Aug 18:00; Mon 31 Aug 18:00; Tue 1 Sept 14:00 (Captioned, almost full), 19:45; Wed 2 Sept 18:15; Thu 3 Sept 09:45, 18:00"
+        url: "https://www.everymancinema.com/film-listing/1000019899-one-night-only/"
+        ageRestriction: "15"
+        tags:
+          - "new-release"
+          - "comedy"
+          - "drama"
+        raw: "**One Night Only** (15, 1h 42m).
+
+          Monica Barbaro and Callum Turner star as Allie and Owen, two love-starved strangers who crash into each other in an ever-so-slightly fictionalized New York City on the one night of the year when single people are allowed to have sex.\n"
+        summary: "A New York romantic comedy with Monica Barbaro and Callum Turner, with a captioned screening on the Tuesday afternoon."
+        confidence: "medium"
+      - id: "cinema/everyman-bristol#89b8ff0868"
+        sourceId: "cinema/everyman-bristol"
+        title: "Tony"
+        occurrence:
+          kind: "run"
+          start: "2026-08-28"
+          end: "2026-09-03"
+        status: "scheduled"
+        timesText: "Fri 28 Aug 17:45; Sat 29 Aug 18:15; Sun 30 Aug 13:15; Mon 31 Aug 14:45; Tue 1 Sept 17:45; Thu 3 Sept 16:15"
+        url: "https://www.everymancinema.com/film-listing/1000009107-tony/"
+        ageRestriction: "15"
+        tags:
+          - "new-release"
+          - "drama"
+        raw: "**Tony** (15, 1h 46m).\n"
+        summary: "The young Anthony Bourdain drama, on a once-a-day run at the Everyman."
+        confidence: "medium"
+      - id: "cinema/everyman-bristol#15f80b7d7f"
+        sourceId: "cinema/everyman-bristol"
+        title: "Spa Weekend"
+        occurrence:
+          kind: "run"
+          start: "2026-08-29"
+          end: "2026-09-03"
+        status: "scheduled"
+        timesText: "Sat 29 Aug 12:45; Sun 30 Aug 16:40; Mon 31 Aug 13:00; Wed 2 Sept 11:45; Thu 3 Sept 12:15 (Captioned)"
+        url: "https://www.everymancinema.com/film-listing/1000019386-spa-weekend/"
+        ageRestriction: "15"
+        tags:
+          - "new-release"
+          - "comedy"
+        raw: "**Spa Weekend** (15, 1h 33m).\n"
+        summary: "A comedy playing daytime slots across the long weekend, captioned on the Thursday."
+        confidence: "medium"
+      - id: "cinema/everyman-bristol#7f6c49ddc7"
+        sourceId: "cinema/everyman-bristol"
+        title: "Teenage Sex and Death at Camp Miasma"
+        occurrence:
+          kind: "run"
+          start: "2026-08-28"
+          end: "2026-09-03"
+        status: "scheduled"
+        timesText: "Fri 28 Aug 18:45 (almost full); Sat 29 Aug 16:15; Sun 30 Aug 14:00; Mon 31 Aug 21:15; Tue 1 Sept 21:00; Wed 2 Sept 15:30; Thu 3 Sept 13:30"
+        url: "https://www.everymancinema.com/film-listing/1000024260-teenage-sex-and-death-at-camp-miasma/"
+        ageRestriction: "15"
+        tags:
+          - "horror"
+          - "new-release"
+          - "lgbtq"
+        raw: "**Teenage Sex and Death at Camp Miasma** (15, 1h 52m).\n"
+        summary: "Jane Schoenbrun's slasher two-hander, on at all three Bristol chains this week and playing once a day here."
+        confidence: "medium"
+      - id: "cinema/everyman-bristol#234c7a2a62"
+        sourceId: "cinema/everyman-bristol"
+        title: "Spider-Man: Brand New Day"
+        occurrence:
+          kind: "run"
+          start: "2026-08-28"
+          end: "2026-09-03"
+        status: "scheduled"
+        timesText: "Fri 28 Aug 20:15; Sat 29 Aug 14:45, 17:15; Sun 30 Aug 12:00, 16:00; Mon 31 Aug 15:30, 20:00; Tue 1 Sept 10:30 (almost full), 14:30, 16:30; Wed 2 Sept 14:15, 20:15; Thu 3 Sept 10:15, 15:45, 20:00"
+        url: "https://www.everymancinema.com/film-listing/276608-spider-man-brand-new-day/"
+        ageRestriction: "12A"
+        tags:
+          - "new-release"
+          - "family"
+          - "school-holidays"
+        raw: "**Spider-Man: Brand New Day** (12A, 2h 25m).
+
+          It's a BRAND NEW DAY for Peter Parker. Fighting crime full-time as Spider-Man in a world that doesn't remember him sparks a change he may not have the power to control.\n"
+        summary: "The summer's biggest release, on two or three times a day across the bank holiday weekend."
+        confidence: "medium"
+      - id: "cinema/everyman-bristol#ce5506a35d"
+        sourceId: "cinema/everyman-bristol"
+        title: "The End of Oak Street"
+        occurrence:
+          kind: "run"
+          start: "2026-08-29"
+          end: "2026-09-03"
+        status: "scheduled"
+        timesText: "Sat 29 Aug 11:45; Sun 30 Aug 11:30; Mon 31 Aug 13:45; Tue 1 Sept 10:45; Wed 2 Sept 12:30; Thu 3 Sept 17:30"
+        url: "https://www.everymancinema.com/film-listing/314503-the-end-of-oak-street/"
+        ageRestriction: "12A"
+        tags:
+          - "new-release"
+          - "drama"
+        raw: "**The End of Oak Street** (12A, 1h 40m).\n"
+        summary: "A single daily screening, mostly late morning, through the long weekend."
+        confidence: "medium"
+      - id: "cinema/everyman-bristol#c69384650b"
+        sourceId: "cinema/everyman-bristol"
+        title: "The Odyssey"
+        occurrence:
+          kind: "run"
+          start: "2026-08-28"
+          end: "2026-09-03"
+        status: "scheduled"
+        timesText: "Fri 28 Aug 15:00, 19:30; Sat 29 Aug 15:30, 19:30; Sun 30 Aug 14:45, 19:30; Mon 31 Aug 14:15, 19:00; Tue 1 Sept 15:15, 19:00; Wed 2 Sept 15:00, 19:30; Thu 3 Sept 14:15, 19:15"
+        url: "https://www.everymancinema.com/film-listing/1000013045-the-odyssey/"
+        ageRestriction: "15"
+        tags:
+          - "new-release"
+          - "drama"
+          - "headliner"
+        raw: "**The Odyssey** (15, 2h 53m).
+
+          Christopher Nolan's next film, The Odyssey, is a mythic action epic shot across the world using brand new IMAX film technology.\n"
+        summary: "Nolan's Odyssey, on twice daily at a near-three-hour running time."
+        confidence: "medium"
+      - id: "cinema/everyman-bristol#deb88655f8"
+        sourceId: "cinema/everyman-bristol"
+        title: "Paw Patrol: The Dino Movie"
+        occurrence:
+          kind: "run"
+          start: "2026-08-29"
+          end: "2026-09-03"
+        status: "scheduled"
+        timesText: "Sat 29 Aug 09:45; Sun 30 Aug 12:30; Mon 31 Aug 09:15; Tue 1 Sept 12:45; Wed 2 Sept 09:30; Thu 3 Sept 10:45"
+        url: "https://www.everymancinema.com/film-listing/320681-paw-patrol-the-dino-movie/"
+        ageRestriction: "U"
+        tags:
+          - "family"
+          - "kids"
+          - "animation"
+          - "school-holidays"
+        raw: "**Paw Patrol: The Dino Movie** (U, 1h 28m).
+
+          Enjoy more adventures together with family ticket bundles and half-price child tickets, available Monday to Friday.\n"
+        summary: "A morning family slot every day of the long weekend, with weekday family bundles and half-price child tickets."
+        confidence: "medium"
+      - id: "cinema/everyman-bristol#2365fd7079"
+        sourceId: "cinema/everyman-bristol"
+        title: "Toy Story 5"
+        occurrence:
+          kind: "run"
+          start: "2026-08-29"
+          end: "2026-08-31"
+        status: "scheduled"
+        timesText: "Sat 29 Aug 10:15; Sun 30 Aug 10:30; Mon 31 Aug 11:30"
+        url: "https://www.everymancinema.com/film-listing/313256-toy-story-5/"
+        ageRestriction: "PG"
+        tags:
+          - "family"
+          - "kids"
+          - "animation"
+          - "school-holidays"
+        raw: "**Toy Story 5** (PG, 1h 42m).
+
+          The toys are back in Disney and Pixar's \"Toy Story 5,\" and this time around it's Toy meets Tech.
+
+          Enjoy more adventures together with family ticket bundles and half-price child tickets, available Monday to Friday.\n"
+        summary: "A morning screening on each of the three bank holiday weekend days, and none after the Monday in this window."
+        confidence: "medium"
+      - id: "cinema/everyman-bristol#69a54ee94e"
+        sourceId: "cinema/everyman-bristol"
+        title: "Minions & Monsters"
+        occurrence:
+          kind: "run"
+          start: "2026-08-31"
+          end: "2026-09-03"
+        status: "scheduled"
+        timesText: "Mon 31 Aug 10:30; Tue 1 Sept 09:30; Thu 3 Sept 09:15"
+        url: "https://www.everymancinema.com/film-listing/315380-minions-and-monsters/"
+        ageRestriction: "U"
+        tags:
+          - "family"
+          - "kids"
+          - "animation"
+          - "school-holidays"
+        raw: "**Minions & Monsters** (U, 1h 29m).
+
+          But after unleashing monsters upon an unsuspecting world, The Minions must band together to save the day.
+
+          Enjoy more adventures together with family ticket bundles and half-price child tickets, available Monday to Friday.\n"
+        summary: "Morning family screenings starting on bank holiday Monday, separate from the venue's Toddler Club showings of the same film."
+        confidence: "medium"
+      - id: "cinema/everyman-bristol#7e6d4757c0"
+        sourceId: "cinema/everyman-bristol"
+        title: "Moana"
+        occurrence:
+          kind: "run"
+          start: "2026-08-31"
+          end: "2026-09-02"
+        status: "scheduled"
+        timesText: "Mon 31 Aug 11:00; Wed 2 Sept 09:45"
+        url: "https://www.everymancinema.com/film-listing/314942-moana/"
+        ageRestriction: "PG"
+        tags:
+          - "family"
+          - "kids"
+          - "school-holidays"
+        raw: "**Moana** (PG, 1h 56m).
+
+          Live-action adaptation of the 2016 Disney animated film 'Moana'.
+
+          Enjoy more adventures together with family ticket bundles and half-price child tickets, available Monday to Friday.\n"
+        summary: "The live-action Moana, with a bank holiday Monday morning screening and one more on the Wednesday."
+        confidence: "medium"
+      - id: "cinema/everyman-bristol#45509ed0f8"
+        sourceId: "cinema/everyman-bristol"
+        title: "Coyote vs Acme"
+        occurrence:
+          kind: "run"
+          start: "2026-08-29"
+          end: "2026-09-03"
+        status: "scheduled"
+        timesText: "Sat 29 Aug 11:15; Sun 30 Aug 10:00; Mon 31 Aug 09:45; Tue 1 Sept 10:00; Wed 2 Sept 10:15; Thu 3 Sept 11:45 (Captioned)"
+        url: "https://www.everymancinema.com/film-listing/267335-coyote-vs-acme/"
+        ageRestriction: "PG"
+        tags:
+          - "family"
+          - "animation"
+          - "school-holidays"
+          - "accessible"
+        raw: "**Coyote vs Acme** (PG, 1h 43m).
+
+          Enjoy more adventures together with family ticket bundles and half-price child tickets, available Monday to Friday.\n"
+        summary: "A morning family slot every day of the window, captioned on the Thursday."
+        confidence: "medium"
+      - id: "cinema/everyman-bristol#34f67e135b"
+        sourceId: "cinema/everyman-bristol"
+        title: "I Want Your Sex"
+        occurrence:
+          kind: "run"
+          start: "2026-08-28"
+          end: "2026-09-03"
+        status: "scheduled"
+        timesText: "Fri 28 Aug 21:30; Sat 29 Aug 19:00; Sun 30 Aug 19:00; Mon 31 Aug 16:15; Tue 1 Sept 16:00; Wed 2 Sept 20:45; Thu 3 Sept 18:45"
+        url: "https://www.everymancinema.com/film-listing/1000003998-i-want-your-sex/"
+        ageRestriction: "18"
+        tags:
+          - "new-release"
+          - "18-plus"
+          - "drama"
+        raw: "**I Want Your Sex** (18, 1h 30m).\n"
+        summary: "Gregg Araki's erotic satire, once a day and mostly in the evening."
+        confidence: "medium"
+      - id: "cinema/everyman-bristol#4911e87c55"
+        sourceId: "cinema/everyman-bristol"
+        title: "Colony"
+        occurrence:
+          kind: "run"
+          start: "2026-08-28"
+          end: "2026-09-03"
+        status: "scheduled"
+        timesText: "Fri 28 Aug 16:30; Sat 29 Aug 21:30; Sun 30 Aug 21:15; Mon 31 Aug 18:30; Tue 1 Sept 18:15; Wed 2 Sept 16:30; Thu 3 Sept 21:00"
+        url: "https://www.everymancinema.com/film-listing/1000021055-colony/"
+        ageRestriction: "15"
+        tags:
+          - "new-release"
+          - "drama"
+          - "subtitled"
+        raw: "**Colony** (15, 2h 2m).
+
+          Colony is presented in Korean language with English subtitles.\n"
+        summary: "A Korean-language release with English subtitles, on once a day through the long weekend."
+        confidence: "medium"
+      - id: "cinema/everyman-bristol#73be553032"
+        sourceId: "cinema/everyman-bristol"
+        title: "The Invite"
+        occurrence:
+          kind: "run"
+          start: "2026-08-29"
+          end: "2026-08-31"
+        status: "scheduled"
+        timesText: "Sat 29 Aug 13:45; Mon 31 Aug 12:15"
+        url: "https://www.everymancinema.com/film-listing/317219-the-invite/"
+        ageRestriction: "15"
+        tags:
+          - "drama"
+          - "arthouse"
+        raw: "**The Invite** (15, 1h 47m).\n"
+        summary: "Two afternoon screenings over the bank holiday weekend, and nothing after the Monday in this window."
+        confidence: "medium"
+    notes: "The catalogued hint is still right about a plain fetch: curl with a browser user-agent gets 200 from /bristol/ (which 302s to /venues-list/x0x3q-everyman-bristol/) but the HTML carries no showtimes at all, and the chain-wide /events/ page lists strands with no dates and no venue attribution. Showtimes only appear once JavaScript runs, so this source was harvested in a real browser; the URL recorded is the one the site's own \"Next 7 days\" control produced. A future run needs that route recording as a hint. **Coverage limit, stated plainly:** the venue's listing shows a rolling seven days only, so every `run` here ends on 2026-09-03 because that is the last date the page prints, not because the film stops then — hence confidence: medium on the run rows. The dated singles are exact. Everything in the window is recorded, including all of 29-31 August. Prices are not printed against showtimes; the only pricing copy is \"family ticket bundles and half-price child tickets, available Monday to Friday\", shown against the family titles, so price is omitted throughout. Nothing is billed as a bank holiday event, so no bank-holiday tag. Three named strands run in the window — Throwback, Family Film Club and Toddler Club — and are recorded as their own dated rows; captioned screenings are noted in each film's timesText. Film links are relative and resolved against https://www.everymancinema.com."
+  - sourceId: "cinema/vue-cribbs-causeway"
+    fetch:
+      ok: true
+      url: "https://www.myvue.com/cinema/bristol-cribbs-causeway/whats-on"
+      status: 200
+    events:
+      - id: "cinema/vue-cribbs-causeway#53ea0006fa"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "The Fast and the Furious (25th Anniversary)"
+        subcategory: "Movie Milestones"
+        occurrence:
+          kind: "run"
+          start: "2026-08-28"
+          end: "2026-08-31"
+        status: "scheduled"
+        timesText: "Fri 28 Aug 20:00 and 22:40 (over 18s); Mon 31 Aug 19:00"
+        url: "https://www.myvue.com/film/the-fast-and-the-furious-25th-anniversary"
+        image: "https://www.myvue.com/-/media/vuecinemas/img/import/ed04da13-5cac-4143-b26a-def9489d7e88_the-fast-and-the-furious-25th-anniversary_posters_ff25_intl_ann.jpg"
+        price:
+          free: false
+          text: "£8.99"
+          min: 8.99
+          currency: "GBP"
+        tags:
+          - "classic"
+          - "one-night"
+        raw: "**The Fast and the Furious (25th Anniversary)** — Movie Milestones.
+
+          Los Angeles police officer Brian O'Conner must decide where his loyalty really lies when he becomes enamored with the street racing world he has been sent undercover to destroy.\n"
+        summary: "The first Fast and the Furious back for its twenty-fifth anniversary, in Vue's Movie Milestones strand, with a late over-18s screening on the Friday and one on bank holiday Monday."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#75822553c8"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "Animal Farm"
+        subcategory: "Mighty Mornings"
+        occurrence:
+          kind: "run"
+          start: "2026-08-29"
+          end: "2026-08-31"
+        status: "scheduled"
+        timesText: "Sat 29 Aug 09:50; Sun 30 Aug 09:50; Mon 31 Aug 10:00"
+        url: "https://www.myvue.com/film/animal-farm"
+        image: "https://www.myvue.com/-/media/vuecinemas/img/import/a55ef06e-34c7-45b8-870f-0806bb72456c_animal-farm_posters_animal_farm_1sheet_nopreviews_sml_712px.jpg"
+        price:
+          free: false
+          text: "£2.49"
+          min: 2.49
+          currency: "GBP"
+        tags:
+          - "family"
+          - "kids"
+          - "school-holidays"
+          - "animation"
+        raw: "**Animal Farm** (PG) — Mighty Mornings.
+
+          All animals are created equal… but some are more equal than others. From director Andy Serkis comes a cautionary tale about teamwork.\n"
+        summary: "Andy Serkis's Animal Farm in Vue's £2.49 Mighty Mornings kids' club, on each morning of the bank holiday weekend at the end of the summer holidays."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#5ed6fa6844"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "GHOST: 2 Big To Rig"
+        subcategory: "Big Screen Music"
+        occurrence:
+          kind: "run"
+          start: "2026-08-29"
+          end: "2026-08-30"
+        status: "scheduled"
+        timesText: "Sat 29 Aug 19:30; Sun 30 Aug 15:00"
+        url: "https://www.myvue.com/film/ghost-2-big-to-rig"
+        image: "https://www.myvue.com/-/media/vuecinemas/img/import/995db575-1142-4608-bedc-55da91fb40aa_ghost-2-big-to-rig_posters_ghost-2btr_one-sheet-artwork-english.jpg"
+        price:
+          free: false
+          text: "£14.99"
+          min: 14.99
+          currency: "GBP"
+        tags:
+          - "live-music"
+          - "metal"
+          - "one-night"
+        raw: "**GHOST: 2 Big To Rig** (15) — Big Screen Music, Event.
+
+          Captured live over the course of GHOST's two sold-out shows in Mexico City last year, 2 BIG TO RIG is the definitive document of the band's SKELETOUR.\n"
+        summary: "Ghost's Mexico City shows as a concert film, in Vue's Big Screen Music strand, on the Saturday night and Sunday afternoon of the long weekend."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#a6d7e0a09b"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "La La Land (10th Anniversary)"
+        subcategory: "Movie Milestones"
+        occurrence:
+          kind: "run"
+          start: "2026-08-29"
+          end: "2026-09-02"
+        status: "scheduled"
+        timesText: "Sat 29 Aug 18:20; Mon 31 Aug 18:20; Tue 1 Sept 09:00; Wed 2 Sept 19:20"
+        url: "https://www.myvue.com/film/la-la-land"
+        image: "https://www.myvue.com/-/media/vuecinemas/film-and-events/jul-2026/la-la-land-poster_712px.jpg"
+        price:
+          free: false
+          text: "£8.99"
+          min: 8.99
+          currency: "GBP"
+        tags:
+          - "classic"
+          - "musical"
+          - "matinee"
+        raw: "**La La Land (10th Anniversary)** (12a) — Movie Milestones.
+
+          While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations.\n"
+        summary: "La La Land back for its tenth anniversary in the Movie Milestones strand, including a nine-in-the-morning screening on the Tuesday."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#a5e472fa85"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "The Dog Stars"
+        occurrence:
+          kind: "run"
+          start: "2026-08-29"
+          end: "2026-09-01"
+        status: "scheduled"
+        timesText: "Sat 29 Aug 11:50 (Open Captioned); Tue 1 Sept 19:00 (Open Captioned)"
+        url: "https://www.myvue.com/film/the-dog-stars"
+        image: "https://www.myvue.com/-/media/vuecinemas/img/import/83846586-4a1a-450e-8285-a887f169eca8_the-dog-stars_posters_tds_teaser_posters_united-kingdom_712px.jpg"
+        price:
+          free: false
+          text: "£8.99"
+          min: 8.99
+          currency: "GBP"
+        tags:
+          - "subtitled"
+          - "accessible"
+          - "new-release"
+          - "sci-fi"
+        raw: "**The Dog Stars** (15) — Open Captioned screenings.
+
+          In a post-apocalyptic world, a virus wipes out humanity. Survivors face roaming scavengers called Reapers. Protagonist Hig, a pilot, survived the flu but lost his wife.\n"
+        summary: "The two open-captioned screenings of The Dog Stars — the rest of its run is ordinary and not recorded here."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#e46087a4b0"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "Paw Patrol: The Dino Movie"
+        occurrence:
+          kind: "single"
+          date: "2026-08-30"
+          startTime: "10:30"
+        status: "scheduled"
+        timesText: "10:30, Autism Friendly"
+        url: "https://www.myvue.com/film/paw-patrol-3-the-dino-movie"
+        image: "https://www.myvue.com/-/media/vuecinemas/film-and-events/jul-2026/ppdmpayoff1sheets-1712px.jpg"
+        price:
+          free: false
+          text: "£2.49"
+          min: 2.49
+          currency: "GBP"
+        tags:
+          - "family"
+          - "kids"
+          - "accessible"
+          - "relaxed-performance"
+          - "animation"
+        raw: "**Paw Patrol: The Dino Movie** (U) — Autism Friendly screening.
+
+          After their ship gets caught in a mysterious storm, the PAW Patrol pups crash land on an uncharted tropical island filled with dinosaurs.\n"
+        summary: "The autism-friendly screening of the new Paw Patrol — lights raised, sound lowered — on the Sunday morning of the bank holiday weekend, at kids' club pricing."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#40d60fb230"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "Minions & Monsters"
+        occurrence:
+          kind: "single"
+          date: "2026-08-30"
+          startTime: "14:15"
+        status: "scheduled"
+        timesText: "14:15, Open Captioned"
+        url: "https://www.myvue.com/film/minions-3"
+        image: "https://www.myvue.com/-/media/vuecinemas/img/import/5a37acca-67a2-4192-9e04-b43aedf4efe8_minions-3_posters_rgb_ms3_crtdigital1sheet_crnuncomfortablejame.jpg"
+        price:
+          free: false
+          text: "£8.99"
+          min: 8.99
+          currency: "GBP"
+        tags:
+          - "family"
+          - "animation"
+          - "subtitled"
+          - "accessible"
+          - "school-holidays"
+        raw: "**Minions & Monsters** (U) — Open Captioned screening.
+
+          Fresh off the worldwide blockbuster success of summer 2024's funniest comedy, Despicable Me 4, Illumination expands its joyful animated world.\n"
+        summary: "The open-captioned screening of the new Minions film, on the Sunday of the long weekend."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#6184dad4ac"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "Kiki's Delivery Service (1998)"
+        occurrence:
+          kind: "run"
+          start: "2026-08-30"
+          end: "2026-09-03"
+        status: "scheduled"
+        timesText: "Sun 30 Aug 13:00; Tue 1 Sept 14:15; Wed 2 Sept 19:40; Thu 3 Sept 17:10. All subtitled."
+        url: "https://www.myvue.com/film/kikis-delivery-service-re2026"
+        image: "https://www.myvue.com/-/media/vuecinemas/film-and-events/jul-2026/kikis_delivery_service_2700x4000_712px.jpg"
+        price:
+          free: false
+          text: "£8.99"
+          min: 8.99
+          currency: "GBP"
+        tags:
+          - "animation"
+          - "family"
+          - "classic"
+          - "subtitled"
+          - "school-holidays"
+        raw: "**Kiki's Delivery Service (1998)** — subtitled screenings.
+
+          Along with her black cat Jiji, Kiki settles in a seaside town and starts a high-flying delivery service.\n"
+        summary: "The subtitled screenings of the Ghibli re-release, starting on the Sunday of the bank holiday weekend."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#bbd84fb996"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "I Want Your Sex"
+        occurrence:
+          kind: "run"
+          start: "2026-08-31"
+          end: "2026-09-03"
+        status: "scheduled"
+        timesText: "Mon 31 Aug 18:10 (Open Captioned); Thu 3 Sept 16:30 (Open Captioned)"
+        url: "https://www.myvue.com/film/i-want-your-sex"
+        image: "https://www.myvue.com/-/media/vuecinemas/img/import/b01d9cae-609f-48fd-a2ff-ead68af82b8e_i-want-your-sex_posters_0946-iwys-1-sheet-aw_712px.jpg"
+        price:
+          free: false
+          text: "£8.99"
+          min: 8.99
+          currency: "GBP"
+        tags:
+          - "subtitled"
+          - "accessible"
+          - "18-plus"
+          - "new-release"
+        raw: "**I Want Your Sex** (18) — Open Captioned screenings.
+
+          I WANT YOUR SEX tells the story of Elliot (Cooper Hoffman), a kind-hearted if unmotivated twentysomething whose fantasies quickly take over.\n"
+        summary: "The two open-captioned screenings of Gregg Araki's satire, the first on bank holiday Monday evening."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#74efa9eeb9"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "Moana"
+        occurrence:
+          kind: "single"
+          date: "2026-09-02"
+          startTime: "14:10"
+        status: "scheduled"
+        timesText: "14:10, Open Captioned"
+        url: "https://www.myvue.com/film/moana"
+        image: "https://www.myvue.com/-/media/vuecinemas/img/import/e30f3349-bd3d-4ab5-a955-de49137996d2_moana-live-action_posters_moana_la_payoff_1sht_uke_712px.jpg"
+        price:
+          free: false
+          text: "£8.99"
+          min: 8.99
+          currency: "GBP"
+        tags:
+          - "family"
+          - "subtitled"
+          - "accessible"
+          - "school-holidays"
+        raw: "**Moana** (PG) — Open Captioned screening.
+
+          In Disney's live-action adaptation of the beloved Oscar-nominated animated adventure, Moana answers the Ocean's call.\n"
+        summary: "The open-captioned screening of the live-action Moana."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#92fa2ab868"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "Katy Perry: The Lifetimes Tour - Live From Paris"
+        subcategory: "Big Screen Music"
+        occurrence:
+          kind: "run"
+          start: "2026-09-02"
+          end: "2026-09-04"
+        status: "scheduled"
+        timesText: "Wed 2 Sept 19:00 (EPIC screen); Fri 4 Sept 18:30"
+        url: "https://www.myvue.com/film/katy-perry-the-lifetimes-tour---live-from-paris"
+        image: "https://www.myvue.com/-/media/vuecinemas/img/import/d7b9a2b1-496c-4258-9c57-e8df01422007_katy-perry-the-lifetimes-tour---live-from-paris_posters_katy-pe.jpg"
+        price:
+          free: false
+          text: "£18.99"
+          min: 18.99
+          currency: "GBP"
+        tags:
+          - "live-music"
+          - "one-night"
+          - "headliner"
+        raw: "**Katy Perry: The Lifetimes Tour - Live From Paris** — Big Screen Music, Event.
+
+          This is recorded live. Katy Perry: The Lifetimes Tour – Live From Paris captures one of pop music's most spectacular live productions.\n"
+        summary: "The Lifetimes Tour filmed in Paris, on Vue's EPIC screen for the first of its two dates."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#a40add5b59"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "André Rieu's 2026 Summer Concert: Viva Maastricht!"
+        subcategory: "Big Screen Music"
+        occurrence:
+          kind: "run"
+          start: "2026-09-07"
+          end: "2026-09-08"
+        status: "scheduled"
+        timesText: "Mon 7 Sept 18:30; Tue 8 Sept 14:00"
+        url: "https://www.myvue.com/film/andre-rieus-2026-summer-concert-viva-maastricht"
+        price:
+          free: false
+          text: "£19.99"
+          min: 19.99
+          currency: "GBP"
+        tags:
+          - "live-music"
+          - "classical"
+          - "matinee"
+        raw: "**André Rieu's 2026 Summer Concert: Viva Maastricht!** — Big Screen Music.\n"
+        summary: "The annual Maastricht square concert relayed to cinemas, with an evening showing and a matinee."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#73b139d1b5"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "Lomu"
+        subcategory: "Big Screen Sports"
+        occurrence:
+          kind: "single"
+          date: "2026-09-07"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://www.myvue.com/film/lomu"
+        price:
+          free: false
+          text: "£9.99"
+          min: 9.99
+          currency: "GBP"
+        tags:
+          - "documentary"
+          - "rugby"
+          - "one-night"
+        raw: "**Lomu** — Big Screen Sports.\n"
+        summary: "A one-night documentary about Jonah Lomu, in Vue's Big Screen Sports strand."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#930166f77e"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "Star Trek IV: The Voyage Home (40th Anniversary)"
+        subcategory: "Movie Milestones"
+        occurrence:
+          kind: "single"
+          date: "2026-09-08"
+          startTime: "19:30"
+        status: "scheduled"
+        url: "https://www.myvue.com/film/star-trek-iv-the-voyage-home"
+        price:
+          free: false
+          text: "£8.99"
+          min: 8.99
+          currency: "GBP"
+        tags:
+          - "classic"
+          - "sci-fi"
+          - "one-night"
+        raw: "**Star Trek IV: The Voyage Home (40th Anniversary)** — Movie Milestones.\n"
+        summary: "The whale one, back for its fortieth anniversary, for one night."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#a6ef173265"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "Don't Look Back In Anger"
+        subcategory: "Big Screen Music"
+        occurrence:
+          kind: "run"
+          start: "2026-09-09"
+          end: "2026-09-20"
+        status: "scheduled"
+        timesText: "Wed 9 and Thu 10 Sept 08:00, 11:00, 12:30, 14:00, 15:30, 17:00, 18:30, 19:15, 20:00, 22:10, 23:00; Fri 11 to Sun 13 Sept 13:00, 16:00, 17:00, 19:00, 20:00; Mon 14 to Wed 16 Sept 13:00, 16:00, 19:00, 20:00; Thu 17 Sept 19:00, 20:00; Fri 18 to Sun 20 Sept 20:00"
+        url: "https://www.myvue.com/film/oasis-dont-look-back-in-anger"
+        price:
+          free: false
+          text: "£13.99 opening days, £9.99 thereafter"
+          min: 9.99
+          max: 13.99
+          currency: "GBP"
+        tags:
+          - "live-music"
+          - "documentary"
+          - "rock"
+        raw: "**Don't Look Back In Anger** — Big Screen Music.\n"
+        summary: "The Oasis film, opening with an eleven-showing day and thinning to one evening screening a fortnight later."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#18ba12da31"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "The Transformers: The Movie (40th Anniversary)"
+        subcategory: "Movie Milestones"
+        occurrence:
+          kind: "single"
+          date: "2026-09-17"
+          startTime: "19:15"
+        status: "scheduled"
+        url: "https://www.myvue.com/film/the-transformers-the-movie-40th-anniversary"
+        price:
+          free: false
+          text: "£8.99"
+          min: 8.99
+          currency: "GBP"
+        tags:
+          - "classic"
+          - "animation"
+          - "one-night"
+        raw: "**The Transformers: The Movie (40th Anniversary)** — Movie Milestones.\n"
+        summary: "The 1986 animated Transformers film back for one night at forty."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#8b060045bf"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "NCT 127 5TH TOUR 'NEO CITY : SEOUL - THE REDLINE' in CINEMAS"
+        subcategory: "Big Screen Music"
+        occurrence:
+          kind: "single"
+          date: "2026-09-20"
+          startTime: "16:30"
+        status: "scheduled"
+        url: "https://www.myvue.com/film/nct-127-5th-tour-neo-city--seoul---the-redline-in-cinemas"
+        price:
+          free: false
+          text: "£14.99"
+          min: 14.99
+          currency: "GBP"
+        tags:
+          - "live-music"
+          - "one-night"
+          - "headliner"
+        raw: "**NCT 127 5TH TOUR 'NEO CITY : SEOUL - THE REDLINE' in CINEMAS** (12a) — Big Screen Music.\n"
+        summary: "The K-pop group's Seoul tour finale in cinemas for a single Sunday afternoon showing."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#d0d3d0e302"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "National Theatre Live: The Misanthrope"
+        subcategory: "Big Screen Theatre"
+        occurrence:
+          kind: "run"
+          start: "2026-09-22"
+          end: "2026-09-30"
+        status: "scheduled"
+        timesText: "Tue 22 Sept 14:00, 19:00; Wed 23 Sept 13:00; Thu 24 Sept 19:00; Sat 26 Sept 18:30; Sun 27 Sept 14:00; Tue 29 Sept 19:00; Wed 30 Sept 14:30"
+        url: "https://www.myvue.com/film/national-theatre-live-the-misanthrope"
+        price:
+          free: false
+          text: "£19.99"
+          min: 19.99
+          currency: "GBP"
+        tags:
+          - "theatre"
+          - "play"
+          - "classic"
+        raw: "**National Theatre Live: The Misanthrope** — Big Screen Theatre.\n"
+        summary: "NT Live's Misanthrope broadcast and encores, spread across nine days."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#8e3a364805"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "LINKIN PARK: UNSHATTER"
+        subcategory: "Big Screen Music"
+        occurrence:
+          kind: "run"
+          start: "2026-09-30"
+          end: "2026-10-03"
+        status: "scheduled"
+        timesText: "Wed 30 Sept 19:00 (£18.99); Sat 3 Oct 15:00 (£14.99)"
+        url: "https://www.myvue.com/film/linkin-park-unshatter"
+        price:
+          free: false
+          text: "£18.99 premiere, £14.99 encore"
+          min: 14.99
+          max: 18.99
+          currency: "GBP"
+        tags:
+          - "live-music"
+          - "rock"
+          - "one-night"
+        raw: "**LINKIN PARK: UNSHATTER** — Big Screen Music.\n"
+        summary: "A Linkin Park concert film, premiere night then a weekend encore."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#1c21dada4c"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "Queen Budapest"
+        subcategory: "Big Screen Music"
+        occurrence:
+          kind: "run"
+          start: "2026-10-07"
+          end: "2026-10-10"
+        status: "scheduled"
+        timesText: "Wed 7 Oct 19:00 (£18.99); Sat 10 Oct 14:30 (£14.99)"
+        url: "https://www.myvue.com/film/queen-budapest"
+        price:
+          free: false
+          text: "£18.99 premiere, £14.99 encore"
+          min: 14.99
+          max: 18.99
+          currency: "GBP"
+        tags:
+          - "live-music"
+          - "rock"
+          - "classic"
+        raw: "**Queen Budapest** — Big Screen Music.\n"
+        summary: "Queen's 1986 Budapest concert film, premiere then encore matinee."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#174959b87d"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "Hadestown: The Musical"
+        subcategory: "Big Screen Musicals"
+        occurrence:
+          kind: "run"
+          start: "2026-10-13"
+          end: "2026-10-21"
+        status: "scheduled"
+        timesText: "Tue 13 Oct 14:45, 18:00, 19:30; Wed 14 Oct 13:30, 19:00; Thu 15 Oct 18:30; Fri 16 Oct 19:15; Sun 18 Oct 14:00; Wed 21 Oct 19:30"
+        url: "https://www.myvue.com/film/hadestown-the-musical"
+        price:
+          free: false
+          text: "£17.49"
+          min: 17.49
+          currency: "GBP"
+        tags:
+          - "musical"
+          - "theatre"
+          - "live-music"
+        raw: "**Hadestown: The Musical** — Big Screen Musicals.\n"
+        summary: "The Broadway staging of Hadestown filmed for cinemas, on across nine days."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#f38978f45b"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "RBO Cinema Season 2026-27: Macbeth"
+        subcategory: "Big Screen Opera"
+        occurrence:
+          kind: "single"
+          date: "2026-10-20"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://www.myvue.com/film/rbo-cinema-season-2026-27-macbeth"
+        price:
+          free: false
+          text: "£19.99"
+          min: 19.99
+          currency: "GBP"
+        tags:
+          - "opera"
+          - "classical"
+          - "shakespeare"
+        raw: "**RBO Cinema Season 2026-27: Macbeth** — Big Screen Opera.\n"
+        summary: "Verdi's Macbeth live from the Royal Opera House, opening Vue's 2026-27 RBO season."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#7b9e68c3d0"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "Fallen Angels by Noël Coward"
+        subcategory: "Big Screen Theatre"
+        occurrence:
+          kind: "run"
+          start: "2026-10-22"
+          end: "2026-10-25"
+        status: "scheduled"
+        timesText: "Thu 22 Oct 19:00; Sun 25 Oct 14:00"
+        url: "https://www.myvue.com/film/fallen-angels-by-noel-coward"
+        price:
+          free: false
+          text: "£17.49"
+          min: 17.49
+          currency: "GBP"
+        tags:
+          - "theatre"
+          - "play"
+          - "comedy"
+        raw: "**Fallen Angels by Noël Coward** — Big Screen Theatre.\n"
+        summary: "A stage production of Coward's Fallen Angels relayed to cinemas, with an evening broadcast and a Sunday encore."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#d30a0a874f"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "RBO Cinema Season 2026-27: Manon"
+        subcategory: "Big Screen Dance"
+        occurrence:
+          kind: "run"
+          start: "2026-10-27"
+          end: "2026-11-01"
+        status: "scheduled"
+        timesText: "Tue 27 Oct 19:15; Sun 1 Nov 14:00"
+        url: "https://www.myvue.com/film/rbo-cinema-season-2026-27-manon"
+        price:
+          free: false
+          text: "£19.99"
+          min: 19.99
+          currency: "GBP"
+        tags:
+          - "dance"
+          - "classical"
+        raw: "**RBO Cinema Season 2026-27: Manon** — Big Screen Dance.\n"
+        summary: "MacMillan's Manon from the Royal Ballet, live then encore."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#93ba3833cd"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "National Theatre Live: Golden Boy"
+        subcategory: "Big Screen Theatre"
+        occurrence:
+          kind: "run"
+          start: "2026-11-05"
+          end: "2026-11-18"
+        status: "scheduled"
+        timesText: "Thu 5 Nov 14:00, 19:00; Sat 14 Nov 13:30; Mon 16 Nov 19:00; Wed 18 Nov 14:00"
+        url: "https://www.myvue.com/film/nt-live-golden-boy"
+        price:
+          free: false
+          text: "£19.99"
+          min: 19.99
+          currency: "GBP"
+        tags:
+          - "theatre"
+          - "play"
+          - "drama"
+        raw: "**National Theatre Live: Golden Boy** — Big Screen Theatre.\n"
+        summary: "NT Live's Golden Boy, broadcast in early November with encores through the month."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#f0f75d7bf0"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "RBO Cinema Season 2026-27: Carmen"
+        subcategory: "Big Screen Opera"
+        occurrence:
+          kind: "single"
+          date: "2026-11-10"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://www.myvue.com/film/rbo-cinema-season-2026-27-carmen"
+        price:
+          free: false
+          text: "£19.99"
+          min: 19.99
+          currency: "GBP"
+        tags:
+          - "opera"
+          - "classical"
+        raw: "**RBO Cinema Season 2026-27: Carmen** — Big Screen Opera.\n"
+        summary: "Bizet's Carmen live from Covent Garden for one night."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#64dd2dc51f"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "GIANT – The Play"
+        subcategory: "Big Screen Theatre"
+        occurrence:
+          kind: "run"
+          start: "2026-11-19"
+          end: "2026-11-22"
+        status: "scheduled"
+        timesText: "Thu 19 Nov 19:00; Sun 22 Nov 14:00"
+        url: "https://www.myvue.com/film/giant--the-play"
+        price:
+          free: false
+          text: "£19.99"
+          min: 19.99
+          currency: "GBP"
+        tags:
+          - "theatre"
+          - "play"
+          - "drama"
+        raw: "**GIANT – The Play** — Big Screen Theatre.\n"
+        summary: "The stage play Giant relayed to cinemas, broadcast then Sunday encore."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#2f3e090d2d"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "RBO Cinema Season 2026-27: The Nutcracker"
+        subcategory: "Big Screen Dance"
+        occurrence:
+          kind: "run"
+          start: "2026-12-01"
+          end: "2026-12-13"
+        status: "scheduled"
+        timesText: "Tue 1 Dec 19:15; Sun 13 Dec 14:00"
+        url: "https://www.myvue.com/film/rbo-cinema-season-2026-27-the-nutcracker"
+        price:
+          free: false
+          text: "£19.99"
+          min: 19.99
+          currency: "GBP"
+        tags:
+          - "dance"
+          - "classical"
+          - "seasonal"
+        raw: "**RBO Cinema Season 2026-27: The Nutcracker** — Big Screen Dance.\n"
+        summary: "The Royal Ballet's Nutcracker live in December, with an encore a fortnight later."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#03d233462f"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "Andre Rieu's 2026 Christmas Concert: Let It Snow"
+        subcategory: "Big Screen Music"
+        occurrence:
+          kind: "run"
+          start: "2026-12-05"
+          end: "2026-12-09"
+        status: "scheduled"
+        timesText: "Sat 5 Dec 18:30; Sun 6 Dec 14:00; Mon 7 Dec 19:00; Wed 9 Dec 14:00"
+        url: "https://www.myvue.com/film/andre-rieus-2026-christmas-concert-let-it-snow"
+        price:
+          free: false
+          text: "£19.99"
+          min: 19.99
+          currency: "GBP"
+        tags:
+          - "live-music"
+          - "classical"
+          - "seasonal"
+        raw: "**Andre Rieu's 2026 Christmas Concert: Let It Snow** — Big Screen Music.\n"
+        summary: "The André Rieu Christmas concert in cinemas across four December dates."
+        confidence: "high"
+      - id: "cinema/vue-cribbs-causeway#cfa14c4162"
+        sourceId: "cinema/vue-cribbs-causeway"
+        title: "Met Opera 2026-27: Samson et Dalila"
+        subcategory: "Big Screen Opera"
+        occurrence:
+          kind: "single"
+          date: "2026-12-08"
+          startTime: "17:00"
+        status: "scheduled"
+        url: "https://www.myvue.com/film/met-opera-2026-27-samson-et-dalila"
+        price:
+          free: false
+          text: "£19.99"
+          min: 19.99
+          currency: "GBP"
+        tags:
+          - "opera"
+          - "classical"
+        raw: "**Met Opera 2026-27: Samson et Dalila** — Big Screen Opera.\n"
+        summary: "Saint-Saëns from the Metropolitan Opera, one showing in December."
+        confidence: "high"
+    notes: "The catalogued hint is confirmed: a plain fetch of this URL returns the empty state (\"there's currently no showings that match your request\"), so it was harvested in a real browser. Behind the page the site calls its own JSON at /api/microservice/showings/showingDates and /api/microservice/showings/cinemas/10018/films (siteId 10018 is Cribbs Causeway); those return 401/302 to an outside fetcher but work from the page, and are what produced these rows. That is a discovery for stage 1 to curate, not something written into the catalogue here. The site lists 77 dates with showings, running to June 2027. **The multiplex rule applied:** 81 films are on sale and the routine programme is several hundred screenings a week; none of that is recorded. What is here is the special strands the venue itself labels — Mighty Mornings (the £2.49 kids' club), Movie Milestones anniversary re-releases, Big Screen Music/Sports/Theatre/Musicals/Opera/Dance event cinema — plus autism-friendly, subtitled and open-captioned screenings. Every one of those on 29, 30 and 31 August is here in full; the routine blockbuster programme on those days is deliberately absent. **Truncated:** the far future only. Ten further Royal Ballet and Opera and Met Opera broadcasts are on sale from 26 January to 8 June 2027 and are not recorded; the horizon here stops at 13 December 2026. One row per title rather than one per screening, since several of these run on scattered dates: exact dates and times are in timesText, and the occurrence spans first to last. Prices are the \"from\" price the site prints against each showing. Nothing is billed as a bank holiday event."
+  - sourceId: "cinema/odeon-bristol"
+    fetch:
+      ok: true
+      url: "https://www.odeon.co.uk/cinemas/bristol/"
+      status: 200
+    events:
+      - id: "cinema/odeon-bristol#9aedc1a293"
+        sourceId: "cinema/odeon-bristol"
+        title: "The Super Mario Galaxy Movie"
+        subcategory: "ODEON Kids"
+        occurrence:
+          kind: "run"
+          start: "2026-08-29"
+          end: "2026-09-03"
+        status: "scheduled"
+        timesText: "Sat 29, Sun 30 and Mon 31 Aug 09:20; Tue 1 Sept 09:00; Wed 2 Sept 09:10; Thu 3 Sept 09:00"
+        url: "https://www.odeon.co.uk/films/the-super-mario-galaxy-movie/HO00008216/"
+        tags:
+          - "family"
+          - "kids"
+          - "school-holidays"
+          - "animation"
+        raw: "**The Super Mario Galaxy Movie** — ODEON Kids.
+
+          An animated film based on the world of Super Mario Bros., following The Super Mario Bros. Movie.\n"
+        summary: "The kids' club screening every morning of the bank holiday weekend and on through the last days of the school holidays, at ODEON Kids prices."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#793ad40051"
+        sourceId: "cinema/odeon-bristol"
+        title: "GHOST: 2 Big To Rig"
+        subcategory: "Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+          startTime: "19:50"
+        status: "scheduled"
+        url: "https://www.odeon.co.uk/films/ghost-2-big-to-rig/HO00009219/"
+        tags:
+          - "live-music"
+          - "metal"
+          - "one-night"
+        raw: "**GHOST: 2 Big To Rig** — Event Cinema.
+
+          Captured live over the course of GHOST's two sold-out shows in Mexico City last year, 2 BIG TO RIG is the definitive document of the band's SKELETOUR.\n"
+        summary: "The Ghost concert film as a one-night event screening on the Saturday of the long weekend."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#091f56008b"
+        sourceId: "cinema/odeon-bristol"
+        title: "Moana"
+        occurrence:
+          kind: "single"
+          date: "2026-08-30"
+          startTime: "09:40"
+        status: "scheduled"
+        timesText: "09:40, Autism Friendly"
+        url: "https://www.odeon.co.uk/films/moana/HO00008415/"
+        tags:
+          - "family"
+          - "kids"
+          - "accessible"
+          - "relaxed-performance"
+          - "school-holidays"
+        raw: "**Moana** — Autism Friendly screening.
+
+          In Disney's live-action adaptation of the beloved Oscar-nominated animated adventure, Moana answers the Ocean's call.\n"
+        summary: "The autism-friendly screening of the live-action Moana, on the Sunday morning of the bank holiday weekend."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#3cb35366ee"
+        sourceId: "cinema/odeon-bristol"
+        title: "Kiki's Delivery Service (Sub)"
+        occurrence:
+          kind: "run"
+          start: "2026-08-30"
+          end: "2026-08-31"
+        status: "scheduled"
+        timesText: "Sun 30 Aug 11:30; Mon 31 Aug 10:00. Japanese audio with English subtitles."
+        url: "https://www.odeon.co.uk/films/kikis-delivery-service-sub/HO00009202/"
+        tags:
+          - "animation"
+          - "family"
+          - "classic"
+          - "subtitled"
+          - "school-holidays"
+        raw: "**Kiki's Delivery Service (Sub)** — Japanese audio, English subtitles.
+
+          A resourceful young witch uses her broom to create a delivery service, only to lose her gift of flight in a moment of self-doubt.\n"
+        summary: "The subtitled Japanese-language print of the Ghibli classic, listed separately from the dubbed version, on the Sunday and bank holiday Monday."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#ca9b233e78"
+        sourceId: "cinema/odeon-bristol"
+        title: "Make Zhonghe Great Again (Mandarin)"
+        occurrence:
+          kind: "run"
+          start: "2026-08-30"
+          end: "2026-09-02"
+        status: "scheduled"
+        timesText: "Sun 30 Aug 11:40; Mon 31 Aug 14:00; Wed 2 Sept 16:30. Mandarin audio with English subtitles."
+        url: "https://www.odeon.co.uk/films/make-zhonghe-great-again-mandarin/HO00009374/"
+        tags:
+          - "subtitled"
+          - "comedy"
+          - "new-release"
+        raw: "**Make Zhonghe Great Again (Mandarin)** — Mandarin audio, English subtitles.
+
+          When Liu Ben crosses paths with an unexpected partner, Ma Jie, the two unlikely underdogs join forces to navigate the challenges of the modern workplace.\n"
+        summary: "A Mandarin-language comedy with English subtitles, in three screenings over the long weekend and the following Wednesday."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#6e922e45ff"
+        sourceId: "cinema/odeon-bristol"
+        title: "Coyote vs. ACME"
+        occurrence:
+          kind: "single"
+          date: "2026-08-30"
+          startTime: "12:10"
+        status: "scheduled"
+        timesText: "12:10, Open Captioned"
+        url: "https://www.odeon.co.uk/films/coyote-vs-acme/HO00009141/"
+        tags:
+          - "family"
+          - "animation"
+          - "subtitled"
+          - "accessible"
+          - "school-holidays"
+        raw: "**Coyote vs. ACME** — Open Captioned screening.\n"
+        summary: "The open-captioned screening of Coyote vs. ACME, midday on the Sunday of the bank holiday weekend."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#a0bf32f4ee"
+        sourceId: "cinema/odeon-bristol"
+        title: "Insidious: Out of the Further"
+        occurrence:
+          kind: "single"
+          date: "2026-08-30"
+          startTime: "20:40"
+        status: "scheduled"
+        timesText: "20:40, Open Captioned"
+        url: "https://www.odeon.co.uk/films/insidious-out-of-the-further/HO00008899/"
+        tags:
+          - "horror"
+          - "subtitled"
+          - "accessible"
+          - "new-release"
+        raw: "**Insidious: Out of the Further** — Open Captioned screening.
+
+          Amelia Eve stars as Gemma, a young mother raising her daughter in the house she grew up in, who discovers she can travel into The Further.\n"
+        summary: "The open-captioned screening of the new Insidious, late on the Sunday."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#ca65bd16cd"
+        sourceId: "cinema/odeon-bristol"
+        title: "Harry Potter & the Philosopher's Stone 25th Ann"
+        occurrence:
+          kind: "single"
+          date: "2026-08-31"
+          startTime: "16:50"
+        status: "scheduled"
+        url: "https://www.odeon.co.uk/films/harry-potter-the-philosophers-stone-25th-ann/HO00009258/"
+        tags:
+          - "classic"
+          - "family"
+          - "school-holidays"
+        raw: "**Harry Potter & the Philosopher's Stone 25th Ann** — Mon 31 Aug, 16:50.\n"
+        summary: "The first Harry Potter film back for its twenty-fifth anniversary, on bank holiday Monday afternoon."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#82cc191051"
+        sourceId: "cinema/odeon-bristol"
+        title: "La La Land (10th Anniversary Re-Release)"
+        occurrence:
+          kind: "single"
+          date: "2026-08-31"
+        status: "scheduled"
+        timesText: "12:50, 17:00"
+        url: "https://www.odeon.co.uk/films/la-la-land-10th-anniversary-re-release/HO00009215/"
+        tags:
+          - "classic"
+          - "musical"
+          - "matinee"
+        raw: "**La La Land (10th Anniversary Re-Release)** — Mon 31 Aug, 12:50 and 17:00.\n"
+        summary: "Two bank holiday Monday screenings of the La La Land tenth-anniversary re-release."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#d3cfa6314c"
+        sourceId: "cinema/odeon-bristol"
+        title: "The Fast and the Furious (25th Anniversary)"
+        occurrence:
+          kind: "run"
+          start: "2026-08-28"
+          end: "2026-08-31"
+        status: "scheduled"
+        timesText: "Fri 28 Aug 18:30; Mon 31 Aug 19:50"
+        url: "https://www.odeon.co.uk/films/the-fast-and-the-furious-25th-anniversary/HO00009113/"
+        tags:
+          - "classic"
+          - "one-night"
+        raw: "**The Fast and the Furious (25th Anniversary)** — Fri 28 Aug 18:30, Mon 31 Aug 19:50.
+
+          Los Angeles police officer Brian O'Conner must decide where his loyalty really lies when he becomes enamored with the street racing world he has been sent undercover to destroy.\n"
+        summary: "The twenty-fifth anniversary re-release, playing at all three Bristol chains this weekend, with an ODEON screening on bank holiday Monday evening."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#f0c79c24f1"
+        sourceId: "cinema/odeon-bristol"
+        title: "The Dog Stars"
+        occurrence:
+          kind: "run"
+          start: "2026-08-31"
+          end: "2026-09-02"
+        status: "scheduled"
+        timesText: "Mon 31 Aug 20:30; Tue 1 Sept 20:30; Wed 2 Sept 17:00, 20:30. All Open Captioned."
+        url: "https://www.odeon.co.uk/films/the-dog-stars/HO00008910/"
+        tags:
+          - "subtitled"
+          - "accessible"
+          - "new-release"
+          - "sci-fi"
+        raw: "**The Dog Stars** — Open Captioned screenings.
+
+          In a post-apocalyptic world, a virus wipes out humanity. Survivors face roaming scavengers called Reapers.\n"
+        summary: "The open-captioned screenings of The Dog Stars, starting on bank holiday Monday evening."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#37c7162ef8"
+        sourceId: "cinema/odeon-bristol"
+        title: "Spider-Man: Brand New Day"
+        occurrence:
+          kind: "single"
+          date: "2026-09-01"
+          startTime: "11:00"
+        status: "scheduled"
+        timesText: "11:00, Open Captioned"
+        url: "https://www.odeon.co.uk/films/spider-man-brand-new-day/HO00008728/"
+        tags:
+          - "subtitled"
+          - "accessible"
+          - "new-release"
+          - "family"
+        raw: "**Spider-Man: Brand New Day** — Open Captioned screening.
+
+          It's a BRAND NEW DAY for Peter Parker. Fighting crime full-time as Spider-Man in a world that doesn't remember him sparks a change he may not have the power to control.\n"
+        summary: "The open-captioned screening of the new Spider-Man, the only one in the window."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#ecbf20fad9"
+        sourceId: "cinema/odeon-bristol"
+        title: "One Night Only"
+        occurrence:
+          kind: "single"
+          date: "2026-09-03"
+          startTime: "19:20"
+        status: "scheduled"
+        timesText: "19:20, Open Captioned"
+        url: "https://www.odeon.co.uk/films/one-night-only/HO00008901/"
+        tags:
+          - "subtitled"
+          - "accessible"
+          - "comedy"
+          - "new-release"
+        raw: "**One Night Only** — Open Captioned screening.
+
+          What if one messy night turns out to be the best thing that ever happened to you?\n"
+        summary: "The open-captioned screening of One Night Only."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#52cc8b8453"
+        sourceId: "cinema/odeon-bristol"
+        title: "I'm Game (Malayalam)"
+        occurrence:
+          kind: "single"
+          date: "2026-09-03"
+          startTime: "20:40"
+        status: "scheduled"
+        timesText: "20:40. Malayalam audio with English subtitles."
+        tags:
+          - "subtitled"
+          - "new-release"
+        raw: "**I'm Game (Malayalam)** — Malayalam audio, English subtitles. Thu 3 Sept, 20:40.\n"
+        summary: "A Malayalam-language release with English subtitles, one screening."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#6c4b4b6a99"
+        sourceId: "cinema/odeon-bristol"
+        title: "Terminator 2: Judgment Day (35th Anniversary)"
+        occurrence:
+          kind: "run"
+          start: "2026-09-04"
+          end: "2026-09-07"
+        status: "scheduled"
+        timesText: "Fri 4 Sept 17:00; Mon 7 Sept 20:00. iSense 3D."
+        tags:
+          - "classic"
+          - "sci-fi"
+          - "one-night"
+        raw: "**Terminator 2: Judgment Day (35th Anniversary)** — iSense 3D.\n"
+        summary: "Terminator 2 at thirty-five, in 3D on the iSense screen, twice."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#ed3cc164fb"
+        sourceId: "cinema/odeon-bristol"
+        title: "Lomu"
+        subcategory: "Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2026-09-07"
+          startTime: "19:00"
+        status: "scheduled"
+        tags:
+          - "documentary"
+          - "rugby"
+          - "one-night"
+        raw: "**Lomu** — Event Cinema. Mon 7 Sept, 19:00.\n"
+        summary: "The Jonah Lomu documentary as a one-night event screening."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#b0c9dfff12"
+        sourceId: "cinema/odeon-bristol"
+        title: "Harry Potter and the Chamber of Secrets"
+        occurrence:
+          kind: "single"
+          date: "2026-09-08"
+          startTime: "16:30"
+        status: "scheduled"
+        timesText: "16:30, English subtitles"
+        tags:
+          - "classic"
+          - "family"
+          - "subtitled"
+        raw: "**Harry Potter and the Chamber of Secrets** — English subtitled screening. Tue 8 Sept, 16:30.\n"
+        summary: "A subtitled screening of the second Harry Potter film, part of the anniversary run."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#2c2c4b1122"
+        sourceId: "cinema/odeon-bristol"
+        title: "The Passion of the Christ (2026)"
+        occurrence:
+          kind: "single"
+          date: "2026-09-10"
+        status: "scheduled"
+        timesText: "15:00, 17:50. Hebrew audio with English subtitles."
+        tags:
+          - "subtitled"
+          - "drama"
+          - "new-release"
+        raw: "**The Passion of the Christ (2026)** — Hebrew audio, English subtitles. Thu 10 Sept, 15:00 and 17:50.\n"
+        summary: "The 2026 Passion of the Christ, in Hebrew with English subtitles, two screenings on the Thursday."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#6030a6c6c9"
+        sourceId: "cinema/odeon-bristol"
+        title: "Pressure"
+        occurrence:
+          kind: "single"
+          date: "2026-09-14"
+        status: "scheduled"
+        timesText: "15:00, 17:30, 20:00. Open Captioned."
+        tags:
+          - "subtitled"
+          - "accessible"
+          - "drama"
+          - "new-release"
+        raw: "**Pressure** — Open Captioned. Mon 14 Sept, 15:00, 17:30 and 20:00.\n"
+        summary: "An open-captioned day for Pressure, three screenings on the Monday."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#82596d1a85"
+        sourceId: "cinema/odeon-bristol"
+        title: "Raiders of the Lost Ark (45th Anniversary)"
+        occurrence:
+          kind: "single"
+          date: "2026-09-14"
+          startTime: "18:50"
+        status: "scheduled"
+        tags:
+          - "classic"
+          - "one-night"
+        raw: "**Raiders of the Lost Ark (45th Anniversary)** — Mon 14 Sept, 18:50.\n"
+        summary: "Raiders back for its forty-fifth anniversary, one screening."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#6cd4f5029e"
+        sourceId: "cinema/odeon-bristol"
+        title: "ODEON Pride Nights - Polarized"
+        subcategory: "ODEON Pride Nights"
+        occurrence:
+          kind: "single"
+          date: "2026-09-14"
+          startTime: "19:20"
+        status: "scheduled"
+        tags:
+          - "lgbtq"
+          - "one-night"
+          - "drama"
+        raw: "**ODEON Pride Nights - Polarized** — Mon 14 Sept, 19:20.\n"
+        summary: "Polarized in ODEON's monthly Pride Nights strand."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#80f6ac0926"
+        sourceId: "cinema/odeon-bristol"
+        title: "Whisper of the Heart (Sub)"
+        occurrence:
+          kind: "single"
+          date: "2026-09-16"
+          startTime: "19:00"
+        status: "scheduled"
+        timesText: "19:00. Japanese audio with English subtitles."
+        tags:
+          - "animation"
+          - "classic"
+          - "subtitled"
+        raw: "**Whisper of the Heart (Sub)** — Japanese audio, English subtitles. Wed 16 Sept, 19:00.\n"
+        summary: "A subtitled Ghibli screening, one night in mid-September."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#398106fe14"
+        sourceId: "cinema/odeon-bristol"
+        title: "NCT 127 - 'NEO CITY : SEOUL - THE REDLINE'"
+        subcategory: "Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2026-09-20"
+          startTime: "16:30"
+        status: "scheduled"
+        timesText: "16:30. Korean audio with English subtitles."
+        tags:
+          - "live-music"
+          - "one-night"
+          - "subtitled"
+        raw: "**NCT 127 - 'NEO CITY : SEOUL - THE REDLINE'** — Event Cinema, Korean audio with English subtitles. Sun 20 Sept, 16:30.\n"
+        summary: "The NCT 127 Seoul concert film, subtitled, one Sunday afternoon."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#521e02011b"
+        sourceId: "cinema/odeon-bristol"
+        title: "National Theatre Live: The Misanthrope"
+        subcategory: "Event Cinema"
+        occurrence:
+          kind: "run"
+          start: "2026-09-22"
+          end: "2026-09-28"
+        status: "scheduled"
+        timesText: "Tue 22 Sept 15:15, 19:00; Mon 28 Sept 16:15 and 19:15 (Open Captioned)"
+        tags:
+          - "theatre"
+          - "play"
+          - "classic"
+        raw: "**National Theatre Live: The Misanthrope** — Event Cinema; the 28 September screenings are Open Captioned.\n"
+        summary: "NT Live's Misanthrope, broadcast and encore, with open-captioned screenings on the Monday."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#b77b0c1af0"
+        sourceId: "cinema/odeon-bristol"
+        title: "Avengers - Endgame Encore"
+        occurrence:
+          kind: "run"
+          start: "2026-09-25"
+          end: "2026-10-01"
+        status: "scheduled"
+        timesText: "Fri 25 to Sun 27 Sept 11:15, 15:15, 19:15 (and 23:15 on Fri and Sat); Mon 28 Sept to Thu 1 Oct 11:00, 15:00, 19:00. Infinity Vision, with 3D screenings on 27, 28 and 30 Sept."
+        tags:
+          - "classic"
+          - "sci-fi"
+          - "short-run"
+        raw: "**Avengers: Endgame Encore** — Infinity Vision; iSense 3D on some dates.\n"
+        summary: "A week-long Endgame re-release in ODEON's Infinity Vision format, with late-night showings on the first weekend."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#4500193a27"
+        sourceId: "cinema/odeon-bristol"
+        title: "LINKIN PARK: UNSHATTER"
+        subcategory: "Event Cinema"
+        occurrence:
+          kind: "run"
+          start: "2026-09-30"
+          end: "2026-10-03"
+        status: "scheduled"
+        timesText: "Wed 30 Sept 19:15; Sat 3 Oct 14:15"
+        tags:
+          - "live-music"
+          - "rock"
+          - "one-night"
+        raw: "**LINKIN PARK: UNSHATTER** — Event Cinema.\n"
+        summary: "The Linkin Park concert film, premiere then weekend encore."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#01f2b09bfb"
+        sourceId: "cinema/odeon-bristol"
+        title: "Queen Budapest"
+        subcategory: "Event Cinema"
+        occurrence:
+          kind: "run"
+          start: "2026-10-07"
+          end: "2026-10-10"
+        status: "scheduled"
+        timesText: "Wed 7 Oct 19:00; Sat 10 Oct 16:00"
+        tags:
+          - "live-music"
+          - "rock"
+          - "classic"
+        raw: "**Queen Budapest** — Event Cinema.\n"
+        summary: "Queen's Budapest concert film, broadcast then Saturday encore."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#0eca61ec68"
+        sourceId: "cinema/odeon-bristol"
+        title: "Harry Potter and the Deathly Hallows"
+        occurrence:
+          kind: "single"
+          date: "2026-10-12"
+          startTime: "16:50"
+        status: "scheduled"
+        tags:
+          - "classic"
+          - "family"
+        raw: "**Harry Potter and the Deathly Hallows** — Mon 12 Oct, 16:50.\n"
+        summary: "The Harry Potter anniversary run reaching Deathly Hallows in October."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#9f721f3da8"
+        sourceId: "cinema/odeon-bristol"
+        title: "ODEON Pride Nights - Rains Over Babel"
+        subcategory: "ODEON Pride Nights"
+        occurrence:
+          kind: "single"
+          date: "2026-10-12"
+          startTime: "19:20"
+        status: "scheduled"
+        timesText: "19:20. Spanish audio with English subtitles."
+        tags:
+          - "lgbtq"
+          - "subtitled"
+          - "one-night"
+          - "drama"
+        raw: "**ODEON Pride Nights - Rains Over Babel** — Spanish audio, English subtitles. Mon 12 Oct, 19:20.\n"
+        summary: "Rains Over Babel in the Pride Nights strand, in Spanish with English subtitles."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#8405669d31"
+        sourceId: "cinema/odeon-bristol"
+        title: "Hadestown: The Musical"
+        subcategory: "Event Cinema"
+        occurrence:
+          kind: "run"
+          start: "2026-10-13"
+          end: "2026-10-18"
+        status: "scheduled"
+        timesText: "Tue 13 Oct 19:15; Wed 14 Oct 16:00, 19:15; Sun 18 Oct 14:15"
+        tags:
+          - "musical"
+          - "theatre"
+          - "live-music"
+        raw: "**Hadestown: The Musical** — Event Cinema.\n"
+        summary: "The filmed Hadestown, broadcast and encores across six days."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#acf96977f4"
+        sourceId: "cinema/odeon-bristol"
+        title: "Met Opera 2026-27: Macbeth"
+        subcategory: "Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2026-10-19"
+          startTime: "18:00"
+        status: "scheduled"
+        timesText: "18:00. With English subtitles."
+        tags:
+          - "opera"
+          - "classical"
+          - "shakespeare"
+        raw: "**Met Opera 2026-27: Macbeth** — Event Cinema, English subtitles. Mon 19 Oct, 18:00.\n"
+        summary: "Verdi's Macbeth from the Met, one evening in October."
+        confidence: "high"
+      - id: "cinema/odeon-bristol#1c0617c8f9"
+        sourceId: "cinema/odeon-bristol"
+        title: "RBO Cinema Season 2026-27: Manon"
+        subcategory: "Event Cinema"
+        occurrence:
+          kind: "single"
+          date: "2026-10-27"
+          startTime: "19:15"
+        status: "scheduled"
+        tags:
+          - "dance"
+          - "classical"
+        raw: "**RBO Cinema Season 2026-27: Manon** — Event Cinema. Tue 27 Oct, 19:15.\n"
+        summary: "The Royal Ballet's Manon live from Covent Garden."
+        confidence: "high"
+    notes: "Both walls in the catalogued hint are still there — the Queue-It redirect is passable with a cookie jar, but behind it the body is JavaScript-only and, as the hint says, showtimes are not in the HTML at all. Harvested in a real browser instead. The page's own showtimes come from a Vista OCAPI endpoint at vwc.odeon.co.uk (site id 315 is ODEON Luxe Bristol), which needs a JWT the page holds and returns 401 to anything else; that is a discovery for stage 1 to weigh up, not a catalogue edit made here. The date picker runs to 23 February 2027; this harvest swept 28 August to 31 October. **The multiplex rule applied:** eight screens, dozens of showings a day, and none of the routine programme is recorded. What is here is the strands ODEON labels — ODEON Kids, Event Cinema, Autism Friendly, Open Captioned, subtitled and foreign-language screenings, anniversary re-releases and ODEON Pride Nights. Everything so labelled on 29, 30 and 31 August is here in full. **Truncated:** the horizon stops at 31 October 2026; whatever is on sale from November to February 2027 was not swept. Two things worth a human's eye. First, **the whole Monday 31 August programme carries a \"Saver\" pricing attribute** — but so do Monday 7 September, Monday 14 September and Monday 12 October, so it is ODEON's standing Monday pricing and not bank holiday pricing; no event is tagged bank-holiday on the strength of it. Second, \"Audio Described\" and \"Watchword\" are set on most showings as film-level capability flags rather than marking a particular screening, so they are not treated as special here — only Open Captioned and the subtitled/foreign-language attributes are. Prices are not recorded per row: the page prints a per-film \"Adult price from\" that ranges £7.95 to £12.95 and is not tied to a screening. A standing offer runs to 1 September — \"Enjoy more family cinema trips with a little ticket tax break on our child and family tickets from 25 June to 01 September\" — and a One Night Only competition closes 30 August. Catalogue note, unchanged from the last run: this site is ODEON Luxe Bristol in Cabot Circus, so `area: City Centre` and the plain `ODEON Bristol` name are still stale. Links are relative and resolved against https://www.odeon.co.uk."

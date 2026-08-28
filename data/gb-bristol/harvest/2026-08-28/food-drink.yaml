@@ -1,0 +1,1332 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-08-28"
+category: "food-drink"
+harvestedAt: "2026-08-28T18:30:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "4"
+model: "claude-opus-5"
+observations:
+  - sourceId: "food-drink/wapping-wharf"
+    fetch:
+      ok: true
+      url: "https://www.wappingwharf.co.uk/latest-news"
+      status: 200
+    events: []
+    notes: "Catalogued URL is correct and served the news feed first time (200). Nothing has changed since the 2026-08-17 run: the feed still holds the same 20 posts, the newest is still \"Wapping Wharf to host 10 year anniversary celebration this July\" dated Jun 17, and there is nothing upcoming. Specifically for this bank holiday run — the string \"bank holiday\" does not appear anywhere in the raw HTML of /latest-news (0 matches), and it does not appear on /plan-your-visit either, which is the only other page that could carry altered hours; that page prints car park tariffs and travel directions and no opening hours at all. So there is nothing to record about bank holiday programming or altered hours here, and nothing has been inferred. The hint is confirmed again: no What's On, Events, Markets or Diary page exists, and posts are not retired once they have happened. 2 fetches for this source. Repeating last run's handover for stage 1: a weekly cadence is spending fetches on a news feed that changes every few months — this is the second consecutive run to return zero events from an unchanged feed, and monthly would fit what the site actually does."
+  - sourceId: "food-drink/left-handed-giant"
+    fetch:
+      ok: true
+      url: "https://lefthandedgiant.com/collections/brewery-tours-and-events"
+      status: 200
+    events:
+      - id: "food-drink/left-handed-giant#8ff1b023f6"
+        sourceId: "food-drink/left-handed-giant"
+        title: "September 2026 : LHG Brewpub Brewery Tour"
+        occurrence:
+          kind: "recurring"
+          pattern: "Sessions run at the following times: Wednesday: 19:00 - 20:30 Saturday: 12:30 - 14:00"
+          start: "2026-09-02"
+          end: "2026-09-30"
+        status: "scheduled"
+        timesText: "Wednesday: 19:00 - 20:30; Saturday: 12:30 - 14:00. September 2026 sessions: 02, 05, 09, 16, 19, 23, 26 and 30 September."
+        url: "https://lefthandedgiant.com/products/september-2026-lhg-brewpub-brewery-tour"
+        image: "https://cdn.shopify.com/s/files/1/0034/9919/6483/files/119057903_3364576000270805_2912355569396650642_n_a0ea6cb3-e46a-40f5-a9c3-0469168c8215.jpg?v=1730308769"
+        price:
+          free: false
+          text: "£17.50 GBP"
+          min: 17.5
+          currency: "GBP"
+        ageRestriction: "No Children, Glass or Dogs on the brew floor"
+        tags:
+          - "brewery"
+          - "guided-tour"
+          - "tasting"
+          - "booking-required"
+        raw: "**September 2026 : LHG Brewpub Brewery Tour** — £17.50 GBP.
+
+
+          > One of our knowledgeable staff will take you on a tour through the
+
+          > brewery and show you how we do things here at the Brewpub. We'll
+
+          > share some of the rich history of our building before taking you
+
+          > upstairs to lead you on a guided tasting flight featuring four of
+
+          > our beers. Tour time will be around 45 minutes, with a further
+
+          > tasting session of around 30 minutes. Max number of attendees per
+
+          > tour is 12 people.
+
+          >
+
+          > Sessions run at the following times:
+
+          > Wednesday: 19:00 - 20:30
+
+          > Saturday: 12:30 - 14:00
+
+
+          Dates offered: 02, 05, 09, 16, 19, 23, 26, 30 September 2026.\n"
+        summary: "Left Handed Giant's monthly ticket for guided tours of the Brewpub brewery — about 45 minutes on the brew floor and a 30-minute tasting flight of four beers, capped at twelve people. September runs Wednesday evenings and Saturday lunchtimes, eight dates in all."
+        description: "One of our knowledgeable staff will take you on a tour through the
+
+          brewery and show you how we do things here at the Brewpub. We'll
+
+          share some of the rich history of our building before taking you
+
+          upstairs to lead you on a guided tasting flight featuring four of our
+
+          beers. Tour time will be around 45 minutes, with a further tasting
+
+          session of around 30 minutes. Max number of attendees per tour is 12
+
+          people.
+
+
+          Sessions run at the following times:
+
+
+          - Wednesday: 19:00 - 20:30
+
+          - Saturday: 12:30 - 14:00
+
+
+          Any questions please email brewpub@lefthandedgiant.com
+
+
+          \\*\\*\\*No Children, Glass or Dogs on the brew floor.
+
+
+          \\*\\*\\*We reserve the right to refuse entry to intoxicated guests.
+
+
+          This booking is for LHG Brewpub, located in the City Centre, NOT our
+
+          St Phillips Taproom.\n"
+        confidence: "high"
+    notes: "Catalogued URL is correct and served the collection first time (200). The collection now holds two items: the September tour and \"Brewery Tour Gift Card\" (£17.50, sold out), which is a voucher and not an event, so it is not recorded. The August product recorded on 2026-08-17 has been retired from the collection now that August is over — the shop carries one product per month, so the tour's title and id will change every month by design. Following the hint I opened the product page (1 fetch) for the real dates. It differs from last month in a way worth flagging: instead of a single remaining date, the September product's date selector holds eight sessions — 02, 05, 09, 16, 19, 23, 26 and 30 September 2026 — and the body text states the pattern in the brewery's own words (\"Sessions run at the following times: Wednesday: 19:00 - 20:30 Saturday: 12:30 - 14:00\"). The dates check out against that pattern (02, 09, 16, 23, 30 September 2026 are Wednesdays; 05, 19, 26 are Saturdays; 12 September, a Saturday, is not offered), so this is recorded as one recurring event rather than eight rows. All eight variants report available, so it is scheduled rather than sold out — note that reading the rendered page can mislead here, since Shopify prints \"Variant sold out or unavailable\" as a placeholder on every unselected variant; the availability above is from the product's own JSON, which reports available true throughout. Nothing bank-holiday-related anywhere on this source: \"bank holiday\" appears zero times on the collection, the homepage, /pages/custom-pages/lhg-brewpub-bristol and /pages/custom-pages/lhg-taproom-bristol, and no tour session falls on 29, 30 or 31 August. For stage 1, two things from those venue pages, neither written to the catalogue: the taproom page says \"We're always putting on big events, festivals and markets - 2026 is packed full of fun things for you! Check out our Instagram for details\", so LHG's non-tour programme is not published on the website at all and this source will only ever yield tours; and the product page states \"This booking is for LHG Brewpub, located in the City Centre, NOT our St Phillips Taproom\", while the catalogue's note records the Shopify footer address as St Philips — the catalogued area \"Finzels Reach\" matches the Brewpub the tours are actually at, so the area is right and the note's address is the shop's registered one. Route discovered, for stage 1 to decide on rather than for me to write in: the Shopify product JSON at https://lefthandedgiant.com/products/<handle>.js returns title, price, availability, the full description and every date variant in one fetch, which is a cheaper and more reliable read than the rendered page."
+  - sourceId: "food-drink/wiper-and-true"
+    fetch:
+      ok: true
+      url: "https://www.wiperandtrue.com/pages/events"
+      status: 200
+    events:
+      - id: "food-drink/wiper-and-true#2d76353ef4"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Summer Sessions with Felix Joy, Kasia, Nathan Worm"
+        occurrence:
+          kind: "single"
+          date: "2026-08-28"
+          startTime: "17:00"
+          endTime: "23:00"
+        status: "scheduled"
+        timesText: "Friday 28th August, 5pm - 11pm"
+        url: "https://www.wiperandtrue.com/products/summer-sessions-with-felix-joy-kasia-nathan-worm"
+        image: "https://wiperandtrue.com/cdn/shop/files/PXL_20240716_164929891_2_1_1.jpg"
+        price:
+          free: true
+          text: "Free entry, fundraising tickets available thorugh Headfirst, raising money for Caring in Bristol."
+        tags:
+          - "dj"
+          - "free-entry"
+          - "outdoor"
+          - "party"
+          - "fundraiser"
+        raw: "**28 Aug — Summer Sessions with Felix Joy, Kasia, Nathan Worm**
+
+          The Taproom, Old Market
+
+
+          > Wiper and True present Summer Sessions - free Friday parties all
+
+          > summer long with top DJs, curated by Worm Disco Club and powered by
+
+          > Minirig.
+
+
+          Date & Time: Friday 28th August, 5pm - 11pm.
+
+          Ticket Information: Free entry, fundraising tickets available thorugh
+
+          Headfirst, raising money for Caring in Bristol.\n"
+        summary: "Tonight's instalment of the taproom's free Friday DJ series in the Old Market beer garden, curated by Worm Disco Club: Felix Joy on house and boogie, Kasia on broken beat and soulful house, and Worm Disco Club founder Nathan Worm digging through his record shop's collection."
+        description: "We've teamed up with Bristol legends Worm Disco Club to bring you
+
+          Summer Sessions — a three-month run of free Friday parties in our
+
+          sunny Old Market beer garden, powered by the Minirig Doppler
+
+          Soundsystem.
+
+
+          **Felix Joy** — One of Bristol's best, renowned for his morning show
+
+          on SWU.FM and his role in the seminal Sip the Juice DJ Collective,
+
+          Felix Joy will be bringing his usual eclectic mix of house, boogie,
+
+          break beats, and everything in-between.
+
+
+          **Kasia** — Kasia blends broken beat and soulful house with reggae,
+
+          rare groove and funk, weaving together deep rhythms and uplifting
+
+          energy.
+
+
+          **Nathan Worm** — Founder of Worm Disco Club and owner of Hot Wax
+
+          Records, Nathan's passion for collecting and sharing music runs deep.
+
+          Having played a pivotal role in some of the city's most iconic nights
+
+          out, he now curates a diverse vinyl selection at his record shop in
+
+          Bishopston. Nathan's ever-growing collection touches all corners of
+
+          the globe, resulting in expertly crafted DJ sets that span a vast
+
+          array of genres. Whether you're a seasoned crate-digger or just
+
+          looking for a great groove, there's something for everyone in his
+
+          selection.
+
+
+          Ticket Information: Free entry, fundraising tickets available thorugh
+
+          Headfirst, raising money for Caring in Bristol. 100% of the proceeds
+
+          of fundraising tickets will go to Wiper and True's charity partner for
+
+          2025, supporting their work in homelessness prevention in Bristol.
+
+
+          Photography Notice: Wiper and True may be taking photos and videos at
+
+          this event. If you prefer not to be included in any content, it is
+
+          your responsibility to speak to a member of the Wiper and True team at
+
+          the event to let them know.\n"
+        confidence: "high"
+      - id: "food-drink/wiper-and-true#aa00ecd695"
+        sourceId: "food-drink/wiper-and-true"
+        title: "East Bristol Brewery Trail"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+          startTime: "14:00"
+          endTime: "22:00"
+        status: "scheduled"
+        timesText: "Saturday 29th August, 2pm - 10pm"
+        url: "https://www.wiperandtrue.com/products/east-bristol-brewery-trail"
+        image: "https://wiperandtrue.com/cdn/shop/files/EBBTSOCIALSQAURE.jpg"
+        price:
+          free: true
+          text: "Free Entry"
+        tags:
+          - "beer"
+          - "brewery"
+          - "free-entry"
+          - "outdoor"
+        raw: "**29 Aug — East Bristol Brewery Trail**
+
+          The Taproom, Old Market
+
+
+          > THE EAST BRISTOL BREWERY TRAIL IS BACK!
+
+          >
+
+          > The celebrations aren't over yet.. our 10th anniversary continues
+
+          > this **Saturday 29th & Sunday 30th August**!
+
+          >
+
+          > Spend the weekend exploring East Bristol's best independent
+
+          > breweries, discovering fresh beers, catching up with friends, and
+
+          > celebrating 10 years of the Brewery Trail with us 🍻
+
+
+          Date & Time: Saturday 29th August, 2pm - 10pm.
+
+          Ticket Information: Free Entry.\n"
+        summary: "Day one of the East Bristol Brewery Trail's tenth-anniversary weekend, with the Wiper and True taproom open as one stop on a self-guided crawl of the area's independent breweries. Free to turn up; eight hours from early afternoon."
+        description: "THE EAST BRISTOL BREWERY TRAIL IS BACK!
+
+
+          The celebrations aren't over yet.. our 10th anniversary continues this
+
+          **Saturday 29th & Sunday 30th August**!
+
+
+          Spend the weekend exploring East Bristol's best independent breweries,
+
+          discovering fresh beers, catching up with friends, and celebrating 10
+
+          years of the Brewery Trail with us 🍻
+
+
+          Date & Time: Saturday 29th August, 2pm - 10pm.
+
+
+          Ticket Information: Free Entry.
+
+
+          Event address: The Taproom, Unit 11, City Business Park, Easton Road,
+
+          Bristol, BS5 0SP.
+
+
+          Photography Notice: Wiper and True may be taking photos and videos at
+
+          this event. If you prefer not to be included in any content, it is
+
+          your responsibility to speak to a member of the Wiper and True team at
+
+          the event to let them know.\n"
+        confidence: "high"
+      - id: "food-drink/wiper-and-true#0a9c2de08d"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Downbeat Melody Soundsystem"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+          startTime: "14:00"
+          endTime: "22:00"
+        status: "scheduled"
+        timesText: "Saturday 29th August, 2pm - 10pm"
+        url: "https://www.wiperandtrue.com/products/downbeat-melody-soundsystem"
+        image: "https://wiperandtrue.com/cdn/shop/files/Downbeat_Melody_Soundsystem.jpg"
+        price:
+          free: true
+          text: "Free Entry"
+        tags:
+          - "dj"
+          - "reggae"
+          - "free-entry"
+          - "outdoor"
+          - "bank-holiday"
+        raw: "**29 Aug — Downbeat Melody Soundsystem**
+
+          The Taproom, Old Market
+
+
+          > Celebrate the Bank Holiday with global grooves, vintage vinyl, great
+
+          > beer and good vibes at the Wiper and True Taproom.
+
+
+          Date & Time: Saturday 29th August, 2pm - 10pm.
+
+          Ticket Information: Free Entry.\n"
+        summary: "A free bank holiday afternoon and evening in the Old Market beer garden with the Downbeat Melody Sound System — Steve Rice, John Stapleton and Boom Operator playing afrobeat, reggae, latin, cumbia, funk and soul off original vintage vinyl."
+        description: "Join us at the Wiper and True Taproom in Old Market for a Bank Holiday
+
+          weekend celebration as part of the East Bristol Brewery Trail. Soak up
+
+          the summer atmosphere in the beer garden with the legendary Downbeat
+
+          Melody Sound System bringing the vibes. DJs Steve Rice, John
+
+          Stapleton, and Boom Operator will be spinning an eclectic mix of
+
+          afrobeat, reggae, latin, cumbia, funk, and soul — all from original
+
+          vintage vinyl collected from around the world.
+
+
+          Expect a soundtrack of rare gems and timeless classics, complemented
+
+          by Beautiful Beer brewed on site and mouth-watering food to keep you
+
+          fuelled. A laid-back day of top-quality music, drinks and sunshine —
+
+          not to be missed.
+
+
+          Date & Time: Saturday 29th August, 2pm - 10pm.
+
+
+          Ticket Information: Free Entry.
+
+
+          Event address: The Taproom, Unit 11, City Business Park, Easton Road,
+
+          Bristol, BS5 0SP.\n"
+        confidence: "high"
+      - id: "food-drink/wiper-and-true#643a5160e3"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Live Music: City of Bristol Brass Band"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+          startTime: "19:00"
+          endTime: "21:00"
+        status: "scheduled"
+        timesText: "Saturday 29th August, 7pm - 9pm"
+        url: "https://www.wiperandtrue.com/products/live-music-morna"
+        image: "https://wiperandtrue.com/cdn/shop/files/cobbb-90_orig.jpg"
+        price:
+          free: true
+          text: "Free Entry"
+        tags:
+          - "live-music"
+          - "classical"
+          - "free-entry"
+          - "outdoor"
+          - "bank-holiday"
+        raw: "**29 Aug — Live Music: City of Bristol Brass Band**
+
+          The Barrel Store, St Werburghs
+
+
+          > Experience the raw power and rich tradition of the City of Bristol
+
+          > Brass Band live.
+
+
+          Date & Time: Saturday 29th August, 7pm - 9pm.
+
+          Ticket Information: Free Entry.\n"
+        summary: "A free early-evening brass band set in the Barrel Store's St Werburghs beer garden over the bank holiday weekend — film scores, classical transcriptions and traditional brass repertoire from one of the South West's longest-established bands."
+        description: "Join us on the bank holiday weekend for a an early evening of soaring
+
+          melodies and triumphant harmony with the City of Bristol Brass Band,
+
+          live from The Barrel Store beer garden.
+
+
+          Renowned for their dynamic range and polished musicianship, this
+
+          exceptional ensemble brings the vibrant, century-old heritage of
+
+          British brass band culture straight to the stage.
+
+
+          Whether sweeping through thrilling film scores, executing intricate
+
+          classical transcriptions, or celebrating timeless traditional brass
+
+          classics, the performance offers something for every music lover.
+
+          Expect a captivating program packed with brilliant soloists, deep
+
+          resonant tubas, and blazing fanfares that will resonate long after the
+
+          final note. Don't miss the opportunity to hear one of the Southwest's
+
+          finest brass bands deliver a rich, evocative sonic experience live.
+
+
+          Date & Time: Saturday 29th August, 7pm - 9pm.
+
+
+          Ticket Information: Free Entry.
+
+
+          Event address: The Barrel Store, 2-8 York Street, St Werburghs,
+
+          BS2 9XT.\n"
+        confidence: "medium"
+      - id: "food-drink/wiper-and-true#60bf42cb60"
+        sourceId: "food-drink/wiper-and-true"
+        title: "East Bristol Brewery Trail"
+        occurrence:
+          kind: "single"
+          date: "2026-08-30"
+          startTime: "14:00"
+          endTime: "22:00"
+        status: "scheduled"
+        timesText: "Sunday 30th August, 2pm - 10pm"
+        url: "https://www.wiperandtrue.com/products/east-bristol-brewery-trail-1"
+        image: "https://wiperandtrue.com/cdn/shop/files/EBBTSOCIALSQAURE.jpg"
+        price:
+          free: true
+          text: "Free Entry"
+        tags:
+          - "beer"
+          - "brewery"
+          - "free-entry"
+          - "outdoor"
+        raw: "**30 Aug — East Bristol Brewery Trail**
+
+          The Taproom, Old Market
+
+
+          > THE EAST BRISTOL BREWERY TRAIL IS BACK!
+
+          >
+
+          > The celebrations aren't over yet.. our 10th anniversary continues
+
+          > this **Saturday 29th & Sunday 30th August**!
+
+          >
+
+          > Spend the weekend exploring East Bristol's best independent
+
+          > breweries, discovering fresh beers, catching up with friends, and
+
+          > celebrating 10 years of the Brewery Trail with us 🍻
+
+
+          Date & Time: Sunday 30th August, 2pm - 10pm.
+
+          Ticket Information: Free Entry.\n"
+        summary: "Day two of the East Bristol Brewery Trail's tenth-anniversary weekend, the taproom again open as one stop on the crawl. Free entry, 2pm until 10pm."
+        description: "THE EAST BRISTOL BREWERY TRAIL IS BACK!
+
+
+          The celebrations aren't over yet.. our 10th anniversary continues this
+
+          **Saturday 29th & Sunday 30th August**!
+
+
+          Spend the weekend exploring East Bristol's best independent breweries,
+
+          discovering fresh beers, catching up with friends, and celebrating 10
+
+          years of the Brewery Trail with us 🍻
+
+
+          Date & Time: Sunday 30th August, 2pm - 10pm.
+
+
+          Ticket Information: Free Entry.
+
+
+          Event address: The Taproom, Unit 11, City Business Park, Easton Road,
+
+          Bristol, BS5 0SP.\n"
+        confidence: "high"
+      - id: "food-drink/wiper-and-true#64414c1ef3"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Roots Society"
+        occurrence:
+          kind: "single"
+          date: "2026-08-30"
+          startTime: "14:00"
+          endTime: "22:00"
+        status: "scheduled"
+        timesText: "Sunday 30th August, 2pm - 10pm"
+        url: "https://www.wiperandtrue.com/products/roots-society"
+        image: "https://wiperandtrue.com/cdn/shop/files/roots_ig.jpg"
+        price:
+          free: true
+          text: "Free Entry"
+        tags:
+          - "dj"
+          - "reggae"
+          - "free-entry"
+          - "outdoor"
+          - "party"
+        raw: "**30 Aug — Roots Society**
+
+          The Taproom, Old Market
+
+
+          > Wiper and True welcome back Roots Society for another Roots and Dub
+
+          > all-dayer.
+
+
+          Date & Time: Sunday 30th August, 2pm - 10pm.
+
+          Ticket Information: Free Entry.\n"
+        summary: "A free eight-hour roots and dub all-dayer at the Old Market taproom with Roots Society, the Easton-based sound system, running from early afternoon into the evening of the long weekend's Sunday."
+        description: "Established in 2020, Roots Society have been gaining momentum as one
+
+          of Bristol's finest systems. The focus on sound quality, fine-tuning
+
+          and enhancing their system after each event, paired with a meticulous
+
+          selection, makes them a powerhouse in the Roots and Dub scene.
+
+
+          Their repertoire encompasses a diverse selection, spanning from Roots
+
+          and Modern Roots to Instrumental and 90s Dubwise and Steppers,
+
+          characterised by its uplifting nature and powerful basslines. Through
+
+          their dedication to quality and continuous improvement, they have
+
+          garnered a following for their inclusive approach to dub and roots
+
+          music, evident in their series of community events in Easton.
+
+
+          Date & Time: Sunday 30th August, 2pm - 10pm.
+
+
+          Ticket Information: Free Entry.
+
+
+          Event address: The Taproom, Unit 11, City Business Park, Easton Road,
+
+          Bristol, BS5 0SP.\n"
+        confidence: "high"
+      - id: "food-drink/wiper-and-true#d9ac10fdf6"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Brewery Tours"
+        occurrence:
+          kind: "recurring"
+          pattern: "Brewery tours run on alternate Friday nights and Saturday daytimes, and last approximately one hour."
+        status: "scheduled"
+        timesText: "Friday: 6.30pm - 7.30pm; Saturday: 2pm - 3pm."
+        url: "https://www.wiperandtrue.com/products/brewery-tours"
+        image: "https://wiperandtrue.com/cdn/shop/files/BreweryTour.jpg"
+        price:
+          free: false
+          text: "Tickets cost £20 plus booking fee"
+          min: 20
+          currency: "GBP"
+        tags:
+          - "brewery"
+          - "guided-tour"
+          - "beer"
+          - "booking-required"
+        raw: "**Fridays & Saturdays — Brewery Tours**
+
+          The Taproom, Old Market
+
+
+          > A beer lover's perfect day out.
+
+
+          Date & Time: Brewery tours run on alternate Friday nights and Saturday
+
+          daytimes, and last approximately one hour. Friday: 6.30pm - 7.30pm.
+
+          Saturday: 2pm - 3pm.
+
+
+          Ticket Information: Tickets cost £20 plus booking fee. Booking is via
+
+          [Eventbrite](https://www.wiperandtrue.com/products/brewery-tours).\n"
+        summary: "An hour behind the taproom bar and into the working Old Market brewery, guided by the brewing team, from raw ingredients through to packaging, and finishing with a fresh pint at source. Alternate Friday evenings and Saturday afternoons, booked ahead through Eventbrite."
+        description: "A Wiper and True brewery tour is the beer lover's perfect day out.
+
+
+          Step through the taproom and into our brewery to explore the
+
+          behind-the-scenes magic of the Wiper and True beers you know and love.
+
+          Guided by our friendly, knowledgeable team you'll get all the insider
+
+          information on how we design, brew and package our beautiful beer from
+
+          raw ingredients, right through to the finished product.
+
+
+          To round off the tour, you'll enjoy a super-fresh pint, direct from
+
+          the source. You'll find our brewery tucked away in Old Market, a
+
+          vibrant suburb of one the UK's most creative cities.
+
+
+          Date & Time: Brewery tours run on alternate Friday nights and Saturday
+
+          daytimes, and last approximately one hour. Friday: 6.30pm - 7.30pm.
+
+          Saturday: 2pm - 3pm.
+
+
+          Ticket Information: Tickets cost £20 plus booking fee. Booking is via
+
+          Eventbrite. Spaces are limited, so booking is essential. When you
+
+          arrive, head to the taproom bar and let our team know you're here for
+
+          the tour.
+
+
+          Brewery tours are fully wheelchair-accessible, with level access
+
+          throughout the building including into the brewery itself. To discuss
+
+          accessibility before or after booking, email bookings@wiperandtrue.com
+
+          or call 0117 9412 501.
+
+
+          Event address: The Taproom, Unit 11, City Business Park, Easton Road,
+
+          Bristol, BS5 0SP.\n"
+        confidence: "medium"
+      - id: "food-drink/wiper-and-true#32a375cc84"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Questionable Quizzes Pub Quiz"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Tuesday, 7pm"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://www.wiperandtrue.com/products/questionable-quizzes"
+        image: "https://wiperandtrue.com/cdn/shop/files/QuizIcon_2524544b-5d95-4705-92e2-32d3cfe80128.jpg"
+        price:
+          free: false
+          text: "Entry to the pub quiz cost £1 per person, all entries go towards a cash prize that can be won on the night"
+          min: 1
+          currency: "GBP"
+        tags:
+          - "quiz"
+          - "weekly"
+          - "drop-in"
+        raw: "**Every Tuesday — Questionable Quizzes Pub Quiz**
+
+          The Taproom, Old Market
+
+
+          > Join Questionable Quizzes for a night of high-stakes trivia and
+
+          > low-brow banter! Whether you're a walking encyclopedia or just here
+
+          > for the beer, we've got a round for you.
+
+
+          Date & Time: Every Tuesday, 7pm.
+
+          Ticket Information: Entry to the pub quiz cost £1 per person, all
+
+          entries go towards a cash prize that can be won on the night.\n"
+        summary: "The taproom's weekly Tuesday quiz, run by Questionable Quizzes: pop culture, odd history and picture rounds, £1 a head, with a £50 bar tab for the winners and a cash jackpot that rolls over each week it goes unclaimed. Book a table or just turn up."
+        description: "Prepare your brain cells for a workout as Questionable Quizzes takes
+
+          over The Taproom for the ultimate weekly showdown. We don't do boring,
+
+          dry trivia — expect a mix of niche pop culture, weird history, picture
+
+          rounds, and maybe a few questions that make you question why you know
+
+          the answer.
+
+
+          We aren't just playing for pride. We've got some serious skin in the
+
+          game:
+
+
+          - **The Main Event:** The winning team walks away with a £50 Bar Tab
+
+          \  to fuel your next victory (or drown your sorrows).
+
+          - **The Big One:** Our Rolling Cash Jackpot — bonus round each week
+
+          \  for a cash prize. If no one gets it, the money rolls over, and the
+
+          \  prize gets bigger every single week.
+
+
+          30% discount for hospitality staff every Monday & Tuesday, show us
+
+          your payslip once and we'll give your discount card at the bar.
+
+
+          Date & Time: Every Tuesday, 7pm.
+
+
+          Ticket Information: Entry to the pub quiz cost £1 per person, all
+
+          entries go towards a cash prize that can be won on the night. Email
+
+          bookings@wiperandtrue.com to enter your team, or just show up on the
+
+          night!
+
+
+          Event address: The Taproom, Unit 11, City Business Park, Easton Road,
+
+          Bristol, BS5 0SP.\n"
+        confidence: "high"
+      - id: "food-drink/wiper-and-true#48dc0f41f4"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Board Games Night"
+        occurrence:
+          kind: "recurring"
+          pattern: "Games Night happens every first, second and third Friday of the month. The event starts at 7pm, and runs until we close the Barrel Store."
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://www.wiperandtrue.com/products/board-games-night-1"
+        image: "https://wiperandtrue.com/cdn/shop/files/SwimDeepCharityT-Shirt-10.jpg"
+        price:
+          free: false
+          text: "It costs £3 to play for as long as you like, payable on the night - no booking needed"
+          min: 3
+          currency: "GBP"
+        tags:
+          - "games"
+          - "drop-in"
+          - "beginners"
+        raw: "**Every Friday — Board Games Night**
+
+          The Barrel Store, St Werburghs
+
+
+          > Settle in for a cosy night of board games, hosted in collaboration
+
+          > with North Street Games.
+
+
+          Date & Time: Games Night happens every first, second and third Friday
+
+          of the month. The event starts at 7pm, and runs until we close the
+
+          Barrel Store.
+
+
+          Ticket Information: It costs £3 to play for as long as you like,
+
+          payable on the night - no booking needed.\n"
+        summary: "North Street Games bring thirty-odd games from a five-hundred-strong library to the Barrel Store on the first three Fridays of each month, with staff on hand to teach them. £3 on the door for the whole evening, which also gets 10% off the bar."
+        description: "Settle in for a cosy night of beer and board games, hosted in
+
+          collaboration with North Street Games.
+
+
+          Perfect for individuals as well as groups of any size, our board games
+
+          night is suitable for beginners and pro-gamers alike. The North Street
+
+          Games team are on hand at the start of the night with recommendations,
+
+          advice, tips and tricks to get you gaming as soon as possible with a
+
+          table of like-minded folks.
+
+
+          The North Street Games team bring down an ever-changing selection of
+
+          over 30 games each session, hand-selected from a library of over 500
+
+          (!) games. Game-play costs just £3 to play as many of these games as
+
+          you like, for as long as you like. That £3 also includes an exclusive
+
+          10% off Wiper and True beers all night long, 10% off food from the
+
+          food truck and entry into a prize draw to win a 4 pack of Wiper and
+
+          True beer.
+
+
+          Date & Time: Games Night happens every first, second and third Friday
+
+          of the month. The event starts at 7pm, and runs until we close the
+
+          Barrel Store.
+
+
+          Ticket Information: It costs £3 to play for as long as you like,
+
+          payable on the night - no booking needed. As part of your £3, you'll
+
+          also get 10% off the bar all night.
+
+
+          Event address: The Barrel Store, 2-8 York Street, St Werburghs,
+
+          BS2 9XT.\n"
+        confidence: "high"
+      - id: "food-drink/wiper-and-true#50356e0d15"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Friday Night DJ: Black Wax Solution"
+        occurrence:
+          kind: "single"
+          date: "2026-09-04"
+        status: "scheduled"
+        url: "https://www.wiperandtrue.com/products/summer-sessions-with-felix-joy-kasia-nathan-worm-copy"
+        image: "https://wiperandtrue.com/cdn/shop/files/BLACK_wax.jpg"
+        tags:
+          - "dj"
+          - "party"
+        raw: "**04 Sep — Friday Night DJ: Black Wax Solution**
+
+          The Taproom, Old Market
+
+
+          > Black Wax Solutions: Curated sounds, fresh pours. A rotation of
+
+          > local DJs setting the backdrop for your Friday night\n"
+        summary: "Black Wax Solution take the Friday night DJ slot at the Old Market taproom, part of a rotating series of local selectors. No time or price given on the listings index."
+        confidence: "high"
+      - id: "food-drink/wiper-and-true#5e5ef19e75"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Dog Life Drawing"
+        occurrence:
+          kind: "single"
+          date: "2026-09-06"
+        status: "scheduled"
+        url: "https://www.wiperandtrue.com/products/dog-life-drawing-copy"
+        image: "https://wiperandtrue.com/cdn/shop/files/dog.jpg"
+        tags:
+          - "drawing"
+          - "workshop"
+          - "animals"
+        raw: "**06 Sep — Dog Life Drawing**
+
+          The Taproom, Old Market
+
+
+          > Join this art class and get to know your fluffy models with a tail
+
+          > who love scratches, pets and treats.\n"
+        summary: "A life drawing class at the taproom where the models are dogs. No time or price given on the listings index."
+        confidence: "medium"
+      - id: "food-drink/wiper-and-true#2b12ca29de"
+        sourceId: "food-drink/wiper-and-true"
+        title: "RWA Figure Drawing"
+        occurrence:
+          kind: "single"
+          date: "2026-09-08"
+        status: "scheduled"
+        url: "https://www.wiperandtrue.com/products/rwa-figure-drawing-copy"
+        image: "https://wiperandtrue.com/cdn/shop/files/Alastair_Brookes_-_KoLAB_Studios___RWA_-_Wiper_True_Drawing_School___2026___028_1500x_fea18ef1-82c7-4424-844d-f8530007a369.webp"
+        tags:
+          - "drawing"
+          - "drop-in"
+          - "workshop"
+        raw: "**08 Sep — RWA Figure Drawing**
+
+          The Taproom, Old Market
+
+
+          > A relaxed drop-in drawing session with a life model, hosted at Wiper
+
+          > and True's Taproom.\n"
+        summary: "A drop-in life drawing session with the Royal West of England Academy, held in the taproom. No time or price given on the listings index."
+        confidence: "medium"
+      - id: "food-drink/wiper-and-true#b382590347"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Pottery & Pints: Oil Burner workshop"
+        occurrence:
+          kind: "single"
+          date: "2026-09-09"
+        status: "scheduled"
+        url: "https://www.wiperandtrue.com/products/pottery-pints-pasta-bowl-workshop-copy"
+        image: "https://wiperandtrue.com/cdn/shop/files/Oil.jpg"
+        tags:
+          - "crafts"
+          - "workshop"
+          - "beginners"
+          - "hands-on"
+        raw: "**09 Sep — Pottery & Pints:Oil Burner workshop**
+
+          The Barrel Store, St Werburghs
+
+
+          > Craft your own Oil burner, beginner-friendly workshop.\n"
+        summary: "A beginner-friendly pottery session at the Barrel Store making an oil burner, with a pint alongside. No time or price given on the listings index."
+        confidence: "medium"
+      - id: "food-drink/wiper-and-true#79b8ecc8d4"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Friday Night DJ: Flip"
+        occurrence:
+          kind: "single"
+          date: "2026-09-11"
+        status: "scheduled"
+        url: "https://www.wiperandtrue.com/products/friday-night-djs-black-wax-solution-draft-copy"
+        image: "https://wiperandtrue.com/cdn/shop/files/WhatsApp_Image_2026-07-31_at_10.05.24.jpg"
+        tags:
+          - "dj"
+          - "party"
+        raw: "**11 Sep — Friday Night DJ: Flip**
+
+          The Taproom, Old Market
+
+
+          > Flip: Curated sounds, fresh pours. A rotation of local DJs setting
+
+          > the backdrop for your Friday night\n"
+        summary: "Flip takes the taproom's rotating Friday night DJ slot. No time or price given on the listings index."
+        confidence: "high"
+      - id: "food-drink/wiper-and-true#402a9f2c72"
+        sourceId: "food-drink/wiper-and-true"
+        title: "More Soup Presents: An End Of Summer Day Party ft. Gallegos"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+        status: "scheduled"
+        url: "https://www.wiperandtrue.com/products/more-soup-presents-an-end-of-summer-day-party-ft-gallegos"
+        image: "https://wiperandtrue.com/cdn/shop/files/FINALSOUP.jpg"
+        tags:
+          - "dj"
+          - "party"
+          - "seasonal"
+        raw: "**12 Sep — More Soup Presents: An End Of Summer Day Party ft. Gallegos**
+
+          The Taproom, Old Market
+
+
+          > More Soup returns to Wiper & True for an end-of-summer day party,
+
+          > bringing a special lineup to mark their return to party-starting
+
+          > shenanigans.\n"
+        summary: "Bristol crew More Soup return to the taproom for a daytime end-of-summer party with Gallegos on the bill. No time or price given on the listings index."
+        confidence: "medium"
+      - id: "food-drink/wiper-and-true#029dd6aee8"
+        sourceId: "food-drink/wiper-and-true"
+        title: "BURP: Make Your Own Hot Sauce Fermentation Class"
+        occurrence:
+          kind: "single"
+          date: "2026-09-16"
+        status: "scheduled"
+        url: "https://www.wiperandtrue.com/products/burp-make-your-own-hot-sauce-fermentation-class-copy-2"
+        image: "https://wiperandtrue.com/cdn/shop/files/Yuup-Burp-37.jpg"
+        tags:
+          - "workshop"
+          - "hands-on"
+          - "beginners"
+        raw: "**16 Sep — BURP: Make Your Own Hot Sauce Fermentation Class**
+
+          The Taproom, Old Market
+
+
+          > Learn the basics of making your own fermented hot sauce\n"
+        summary: "A fermentation class at the taproom run by BURP, covering the basics of making hot sauce at home. No time or price given on the listings index."
+        confidence: "medium"
+      - id: "food-drink/wiper-and-true#68ba014663"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Pottery & Pints: Make a travel cup"
+        occurrence:
+          kind: "single"
+          date: "2026-09-16"
+        status: "scheduled"
+        url: "https://www.wiperandtrue.com/products/pottery-pints-make-a-ceramic-cocktail-cup-at-wiper-true-copy-1"
+        image: "https://wiperandtrue.com/cdn/shop/files/PottyMouthatWiperandTrue-25_4e8400ec-5f7e-4028-8335-19ca695cb572.jpg"
+        tags:
+          - "crafts"
+          - "workshop"
+          - "beginners"
+          - "hands-on"
+        raw: "**16 Sep — Pottery & Pints: Make a travel cup**
+
+          The Taproom, Old Market
+
+
+          > Beginner-friendly ceramic travel Cup workshop.\n"
+        summary: "A beginner-friendly ceramics session at the taproom making a travel cup, beer included in the format. No time or price given on the listings index."
+        confidence: "medium"
+      - id: "food-drink/wiper-and-true#4311eceb8d"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Friday Night DJ: Netham Trax"
+        occurrence:
+          kind: "single"
+          date: "2026-09-18"
+        status: "scheduled"
+        url: "https://www.wiperandtrue.com/products/friday-night-djs-black-wax-solution-draft-copy-1"
+        image: "https://wiperandtrue.com/cdn/shop/files/Nathan_Trax.jpg"
+        tags:
+          - "dj"
+          - "party"
+        raw: "**18 Sep — Friday Night DJ: Netham Trax**
+
+          The Taproom, Old Market
+
+
+          > Netham Trax: Curated sounds, fresh pours. A rotation of local DJs
+
+          > setting the backdrop for your Friday night\n"
+        summary: "Netham Trax take the taproom's rotating Friday night DJ slot. No time or price given on the listings index."
+        confidence: "high"
+      - id: "food-drink/wiper-and-true#9af597e26e"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Jack Bessant & The Wolfpack 'Spider Hair' Album Launch"
+        occurrence:
+          kind: "single"
+          date: "2026-09-19"
+        status: "scheduled"
+        url: "https://www.wiperandtrue.com/products/jack-bessant-the-wolfpack-spider-hair-album-launch"
+        image: "https://wiperandtrue.com/cdn/shop/files/e155881_i338387_s5.jpg"
+        tags:
+          - "live-music"
+          - "headliner"
+        raw: "**19 Sep — Jack Bessant & The Wolfpack 'Spider Hair' Album Launch**
+
+          The Taproom, Old Market
+
+
+          > Wiper and True are delighted to be joined by Jack Bessant,
+
+          > celebrating the release of the forthcoming album Spider Hair.\n"
+        summary: "Jack Bessant and The Wolfpack launch their album Spider Hair with a live set at the Old Market taproom. Promoted to its own slot in the site's main navigation. No time or price given on the listings index."
+        confidence: "medium"
+      - id: "food-drink/wiper-and-true#6b6955556e"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Wine Glass or Vase Painting Workshop"
+        occurrence:
+          kind: "single"
+          date: "2026-09-21"
+        status: "scheduled"
+        url: "https://www.wiperandtrue.com/products/candle-painting-workshop-copy"
+        image: "https://wiperandtrue.com/cdn/shop/files/wine-glass-painting-workshop-bristol-review-165444-600.jpg"
+        tags:
+          - "painting"
+          - "workshop"
+          - "crafts"
+          - "hands-on"
+        raw: "**21 Sep — Wine Glass or Vase Painting Workshop**
+
+          The Taproom, Old Market
+
+
+          > Design and decorate your very own statement wine glass or vase with
+
+          > Clare\n"
+        summary: "A guided glass-painting evening at the taproom, decorating a wine glass or a vase to take home. No time or price given on the listings index."
+        confidence: "medium"
+      - id: "food-drink/wiper-and-true#3025861952"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Wax & Wine"
+        occurrence:
+          kind: "single"
+          date: "2026-09-24"
+        status: "scheduled"
+        url: "https://www.wiperandtrue.com/products/wax-wine-draft-copy"
+        image: "https://wiperandtrue.com/cdn/shop/files/Screenshot_2026-04-23_124858.png"
+        tags:
+          - "crafts"
+          - "workshop"
+          - "hands-on"
+        raw: "**24 Sep — Wax & Wine**
+
+          The Taproom, Old Market
+
+
+          > Unwind with a creative, cosy evening at your favorite local taproom.\n"
+        summary: "A candle-making and wine evening at the taproom. The listing gives no more detail than that, and no time or price."
+        confidence: "medium"
+      - id: "food-drink/wiper-and-true#d2f1b69df0"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Wonky Line DnD night"
+        occurrence:
+          kind: "single"
+          date: "2026-09-27"
+        status: "scheduled"
+        url: "https://www.wiperandtrue.com/products/wonky-line-dnd-night-copy"
+        image: "https://wiperandtrue.com/cdn/shop/files/e151590_i324953_s4.jpg"
+        tags:
+          - "games"
+          - "beginners"
+        raw: "**27 Sep — Wonky Line DnD night**
+
+          The Taproom, Old Market
+
+
+          > Your official invitation into the wonderful world of Dungeons &
+
+          > Dragons!\n"
+        summary: "An introductory Dungeons & Dragons night at the taproom hosted by Wonky Line. No time or price given on the listings index."
+        confidence: "medium"
+      - id: "food-drink/wiper-and-true#e0164fab5d"
+        sourceId: "food-drink/wiper-and-true"
+        title: "Parlez Sample Sale"
+        occurrence:
+          kind: "single"
+          date: "2026-10-25"
+        status: "scheduled"
+        url: "https://www.wiperandtrue.com/products/parlez-sample-sale-copy"
+        image: "https://wiperandtrue.com/cdn/shop/files/SAMPLE-SALE-OCT-25-MAIN-FEED-POST_600x600_fcfa6781-eea1-4816-83b8-99350ab1d356.webp"
+        tags:
+          - "market"
+          - "drop-in"
+        raw: "**25 Oct — Parlez Sample Sale**
+
+          The Taproom, Old Market
+
+
+          > Bristol streetwear legends Parlez Clothing return for another epic
+
+          > sample sale at The Taproom in Old Market.\n"
+        summary: "Bristol clothing label Parlez bring their sample sale back to the taproom. The furthest-ahead event on the site's diary. No time or price given on the listings index."
+        confidence: "medium"
+    notes: "Catalogued URL is correct and served the events index first time (200); page 2 of 2 was followed for the rest of the horizon. The whole programme is recorded — 23 events, which is what the page's own \"Showing 23 products\" counter claims — so nothing is truncated in either direction. The index is thin (title, day and month, venue, one clause, no time and no price at all), so per §3 I opened event pages, spending them on this weekend first as the brief directs: the five events dated 29-30 August, tonight's Summer Session, and the three standing recurring events, nine pages in total. Those nine carry a `description` and exact times; the fourteen events from 04 September onwards are recorded from the index alone and therefore have no time, no price and no description — that is the limit on this observation's coverage.
+
+      **Bank holiday.** Five events fall on 29-30 August and all five are recorded in full. Nothing at all is listed for Monday 31 August. Only two are billed by the venue as bank holiday events and only those two carry the `bank-holiday` tag: Downbeat Melody Soundsystem (\"Celebrate the Bank Holiday with global grooves...\", \"a Bank Holiday weekend celebration as part of the East Bristol Brewery Trail\") and the City of Bristol Brass Band (\"Join us on the bank holiday weekend for a an early evening of...\" — the doubled article is theirs). The two East Bristol Brewery Trail days and Roots Society sit inside the weekend but neither listing mentions the bank holiday, so per the brief they are untagged.
+
+      **Altered hours, as printed, not inferred.** Both venue pages print a bank holiday block above their normal hours. The Taproom, Old Market (/pages/the-wiper-and-true-taproom-old-market-bristol) prints \"Opening Hours / Bank Holiday Monday / Monday: 12pm - 10.30pm\" against a normal Monday of \"4pm - 10.30pm\" — four hours earlier — and separately lists \"Planned Closure Dates: Monday 7th September; Sunday 11th October from 5pm\". The Barrel Store, St Werburghs (/pages/barrel-store) prints \"Opening Hours / August Bank Holiday Opening Hours / Monday: 3pm - 9.30pm\", and its normal week starts on Wednesday, so it is opening on a Monday it is otherwise shut. Neither page ties the wording to a specific date beyond \"Bank Holiday Monday\" / \"August Bank Holiday\", and neither is an event, so both are recorded here rather than as rows. Two fetches.
+
+      **For stage 1 — the catalogued identity of this source is wrong, and it matters for every event above.** The source is catalogued as \"Wiper and True Barrel Store\" with `area: Old Market`, but the site runs two separate venues and labels every listing with which one it is at: \"The Taproom, Old Market\" at Unit 11, City Business Park, Easton Road, BS5 0SP (19 of the 23 events, and the site's own filter agrees: \"The Taproom, Old Market (19)\"), and \"The Barrel Store, St Werburghs\" at 2-8 York Street, BS2 9XT (the other 4: Board Games Night, the Brass Band, and the two Pottery & Pints workshops — the filter says \"The Barrel Store, St Werburghs (3)\", counting only the three then-future ones). The catalogued name and the catalogued area therefore name different buildings, and the Taproom's postcode is Easton rather than Old Market despite its name. I have deliberately left `venue` off every event rather than guess which of the two the source is meant to be — setting it would assert the answer — and the printed venue line is kept in each event's `raw` instead. Whichever way stage 1 resolves it, this probably wants to be two sources.
+
+      Two smaller handovers, both from pages I opened: the standing Brewery Tours page still says \"2025 dates live now\" and sends booking to Eventbrite, which is a stale line on an otherwise current page; and the Board Games Night index card says \"Every Friday\" while its own detail page says \"every first, second and third Friday of the month\" — the detail page's wording is the one recorded. Route discovered, not written to the catalogue: https://www.wiperandtrue.com/products/<handle>.js returns each event's price, availability and images as JSON, though its `description` field comes back empty because the body text lives in metafields, so the rendered page is still needed for times and copy. Note also that the whole site sits behind an age-verification interstitial that a browser user-agent passes straight through."
+  - sourceId: "food-drink/bristol-beer-factory"
+    fetch:
+      ok: true
+      url: "https://bristolbeerfactory.co.uk/collections/tours-tastings"
+      status: 200
+    events:
+      - id: "food-drink/bristol-beer-factory#c77ef15242"
+        sourceId: "food-drink/bristol-beer-factory"
+        title: "BBF Brewery Tour"
+        occurrence:
+          kind: "recurring"
+          pattern: "every Saturday at 2pm"
+          startTime: "14:00"
+        status: "scheduled"
+        timesText: "Saturdays at 2pm; a 2 hour visit. Dates offered run 29 August to 28 November 2026, of which 29 August and 12 September show as Sold out."
+        url: "https://bristolbeerfactory.co.uk/collections/tours-tastings/products/brewery-tour"
+        image: "https://www.bristolbeerfactory.co.uk/cdn/shop/products/BBF_Brewery_Tours.jpg"
+        price:
+          free: false
+          text: "£25.00"
+          min: 25
+          currency: "GBP"
+        tags:
+          - "brewery"
+          - "guided-tour"
+          - "tasting"
+          - "booking-required"
+        raw: "**BBF Brewery Tour** — £25.00
+
+
+          > Public brewery tours will be held every Saturday throughout the
+
+          > year, with some exceptions over holiday dates and additional weekday
+
+          > nights available.
+
+
+          What's included: \"2 hour visit including tour of the Brewery\"; \"3
+
+          gluten free pints from freshly racked kegs\"; \"1x free pint and 10% off
+
+          BBF products thereafter at the North Street Tap Room\".
+
+
+          Date selector: Saturdays from 29 August to 28 November 2026, all 2pm.
+
+          29 August and 12 September are marked Sold out.\n"
+        summary: "Bristol Beer Factory's weekly public tour of its new Ashton Vale brewery — two hours on the brew floor with three pints poured from freshly racked kegs, plus a free pint and a discount afterwards at the North Street tap room. Every Saturday at 2pm; this bank holiday Saturday is already sold out."
+        description: "We're proud of our beer and proud of the brewery in which we make it,
+
+          and gladly welcome groups into our \"office\" on guided tours of Bristol
+
+          Beer Factory.
+
+
+          It's a pleasure to open our doors again to reveal our BRAND NEW
+
+          BREWERY! After 20 years on North Street, we have simply outgrown our
+
+          tanks and are excited to brew in a sustainably focused site within the
+
+          same postcode. Our new brewery is located in the Ashton Gate Trading
+
+          Estate, the same distance to Ashton Gate Stadium as the Tap Room is,
+
+          just in the other direction! The address of our new brewery is 50-52
+
+          Ashton Vale Road, BS3 2HQ.
+
+
+          **About brewery tours.** Public brewery tours will be held every
+
+          Saturday throughout the year, with some exceptions over holiday dates
+
+          and additional weekday nights available. These tours are a great way
+
+          to learn about the brewing process and give an opportunity to answer
+
+          those burning questions you have about how your favourite drink is
+
+          made.
+
+
+          **What's included in the tour**
+
+
+          - 2 hour visit including tour of the Brewery
+
+          - 3 gluten free pints from freshly racked kegs
+
+          - 1x free pint and 10% off BBF products thereafter at the North Street
+
+          \  Tap Room — head over after the tour to sample more beers or buy
+
+          \  merch, cans, mini tins or growlers to take home.
+
+
+          **Private brewery tours.** We offer large groups (10+) the option to
+
+          have a private tour of the brewery. These are flexible and can be on
+
+          weeknight evenings or Saturdays at 12pm. Prices start from £300. Email
+
+          tours@bristolbeerfactory.co.uk to enquire.
+
+
+          **Vouchers.** There is no expiry date on the vouchers. If you have an
+
+          existing voucher for a tour or tasting bought before tours at the new
+
+          site were possible, get in touch to upgrade your ticket.
+
+
+          **Cancellations and rebooking.** Brewery tour tickets are
+
+          non-refundable, unless there are exceptional circumstances. Please let
+
+          us know at least 24 hours in advance if you are unable to attend your
+
+          booking and we will be happy to help you rebook for another date.
+
+          Tickets cannot be rescheduled with less than 24 hours notice.\n"
+        confidence: "high"
+      - id: "food-drink/bristol-beer-factory#24e6da6e72"
+        sourceId: "food-drink/bristol-beer-factory"
+        title: "Quiz Night"
+        occurrence:
+          kind: "single"
+          date: "2026-09-17"
+          startTime: "18:30"
+        status: "scheduled"
+        url: "https://bristolbeerfactory.co.uk/pages/the-bbf-tap-room"
+        price:
+          free: false
+          text: "£5 entry per team (5 people max)"
+          min: 5
+          currency: "GBP"
+        tags:
+          - "quiz"
+          - "booking-required"
+          - "beer"
+        raw: "**QUIZ NIGHT**
+
+          THURSDAY 17th SEPTEMBER @ 6:30pm
+
+
+          > Test your knowledge & win!
+
+          > Plenty of beery prizes available.
+
+          > £5 entry per team (5 people max)
+
+          > Contact the Tap Room to book your table.\n"
+        summary: "A quiz night at the BBF Tap Room on North Street, teams of up to five for £5, with beer prizes. Tables are booked by contacting the tap room. The only dated event the site advertises outside the tours collection."
+        confidence: "high"
+    notes: "Catalogued URL is correct and served the collection first time (200). The collection is unchanged since 2026-08-17: three products, of which only the Saturday brewery tour is an event — \"Gift A Brewery Tour\" (£25.00) is a voucher and \"Bristol Beer Club Membership\" (£65.00) is a subscription, and private group tours are arranged by email with no published dates, so none of them is recorded. Per the hint the Saturday tour stays one recurring event rather than a row per Saturday. I re-opened the tour product page (1 fetch) so the description is what the page says today rather than a copy of an earlier run's.
+
+      **Bank holiday.** Nothing is billed as a bank holiday event, so no event carries the tag, and nothing was inferred. Two facts from the date selector are worth a reader's attention: this Saturday, 29 August, is **Sold out**, as is Saturday 12 September; every other date from 5 September to 28 November is available at £25.00. Because those are variants of one recurring event rather than separate events, the recurring row's `status` stays `scheduled` — the tour as a programme is running — and the sold-out weekend is recorded here instead. The selector's horizon has moved on since the last run, which saw 15 August to 28 November; it now starts at 29 August, so dates are retired as they pass and the \"throughout the year\" claim in the body text is still not contradicted by an end date. I did not record a start or end on the occurrence for that reason.
+
+      **A second event, from a page the catalogue does not point at.** The tap room page (/pages/the-bbf-tap-room) prints a dated quiz night — \"QUIZ NIGHT / THURSDAY 17th SEPTEMBER @ 6:30pm\" — which the tours collection does not carry. 17 September 2026 is a Thursday, so the year checks out. That page also prints the tap room's weekly opening times (Monday 12-9pm, Tuesday to Wednesday 12-10pm, Thursday and Friday 12-11pm, Saturday 10.30am-11pm, Sunday 12-7pm) with **no bank holiday variation stated at all** — the standard Monday hours are the only Monday hours printed, and I have not inferred anything from that either way. Its live sport listing is explicitly not published on the site: \"Follow us on Instagram for what we're showing, schedule updated weekly\", so those screenings cannot be harvested here.
+
+      **For stage 1.** The area question from the last run is still open and now has a second data point: the tap room's printed address is \"291 North Street, Southville, Bristol, BS3 1JP\" (Southville, not the catalogued Bedminster), while the tour's address is \"50-52 Ashton Vale Road, BS3 2HQ\" in the Ashton Gate Trading Estate. The tour page states the brewery has moved — \"It's a pleasure to open our doors again to reveal our BRAND NEW BREWERY! After 20 years on North Street, we have simply outgrown our tanks\" — so the two premises are a brewery in Ashton Vale and a tap room on North Street, and one catalogued area cannot describe both. Also worth adding as a route or a hint rather than being rediscovered each run: /pages/the-bbf-tap-room is where dated tap room events appear, and the catalogued /collections/tours-tastings will never show them. 4 fetches for this source (collection, homepage, tap room page, tour product)."
+  - sourceId: "food-drink/bristol-whisky-festival"
+    fetch:
+      ok: false
+      url: "https://www.bristolwhisky.co.uk/"
+      error: "DNS lookup failed: getaddrinfo ENOTFOUND www.bristolwhisky.co.uk — the host has no DNS record, so no connection was attempted and there was no HTTP status"
+    events: []
+    notes: "Unchanged from the 2026-08-17 finding, and nothing new was tried: the catalogued domain simply does not resolve, so there was no 403 to work around and no browser user-agent retry to make. This is a dead host rather than a blocked one. The catalogue's own note already records the full investigation — the festival is run by The Whisky Lounge, whose site cannot be read by any fetcher because every route redirects into an age-verification loop, and the separately-named Exploring Whisky Bristol at Paintworks is a different event rather than a fix. I have deliberately not repeated that research: it was a human call last time and it still is, and re-running it would spend fetches to reach the same conclusion. For stage 1, the decision this source is waiting on is whether to remodel it as `kind: organiser` pointing at The Whisky Lounge, or to close it the way bristol-food-connections was closed. Until then it will fail identically on every run, which is worth weighing against its quarterly cadence."

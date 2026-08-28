@@ -1,0 +1,1864 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-08-28"
+category: "family"
+harvestedAt: "2026-08-28T17:45:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "4"
+model: "claude-opus-5"
+observations:
+  - sourceId: "family/bristol-zoo-project"
+    fetch:
+      ok: true
+      url: "https://bristolzooproject.org.uk/"
+      status: 200
+    events:
+      - id: "family/bristol-zoo-project#99c2a863a5"
+        sourceId: "family/bristol-zoo-project"
+        title: "Aardman Summer Special"
+        occurrence:
+          kind: "run"
+          start: "2026-08-28"
+          end: "2026-08-31"
+        status: "scheduled"
+        timesText: "Shaun will be at the zoo every day between 28-31 August inclusive, making appearances at regular intervals throughout the day. Claystation workshops run in pre-booked timeslots at Bear Wood Classroom."
+        url: "https://bristolzooproject.org.uk/events/aardman-summer-special-2026"
+        image: "https://a.storyblok.com/f/233702/1831x840/c5c213dbf7/summer-aardman-2026-landing-page-1830x839-new.jpg"
+        price:
+          free: false
+          text: "All activities FREE with entry; Claystation workshops must be booked online alongside a same-day entry ticket"
+          currency: "GBP"
+        tags:
+          - "bank-holiday"
+          - "school-holidays"
+          - "family"
+          - "kids"
+          - "hands-on"
+        raw: "**Aardman Summer Special** — 28-31 August.
+
+
+          \"Shaun the Sheep is coming to Bristol Zoo Project for Aardman's 50th Anniversary!\"
+
+
+          \"This August Bank Holiday ONLY, Shaun the Sheep will be joining us for a weekend of
+
+          fun at our Aardman Summer Special! Meet Shaun the Sheep, take part in Shaun's
+
+          Wildlife Mission trail, make your very own clay model of Shaun or get creative with
+
+          our fun activity pack! All FREE at Bristol Zoo Project in celebration of Aardman's
+
+          50th Anniversary.\"\n"
+        summary: "Four days of Shaun the Sheep for Aardman's 50th: character meet-and-greets at regular intervals, a bookable clay-modelling Claystation in Bear Wood, a stamp-collecting Wildlife Mission trail and a free activity pack on entry. Free with zoo admission, and the last big thing on before term starts."
+        description: "Shaun the Sheep is coming to Bristol Zoo Project for Aardman's 50th Anniversary!
+
+
+          This August Bank Holiday ONLY, Shaun the Sheep will be joining us for a weekend of
+
+          fun at our Aardman Summer Special!
+
+
+          Meet Shaun the Sheep, take part in Shaun's Wildlife Mission trail, make your very
+
+          own clay model of Shaun or get creative with our fun activity pack! All FREE at
+
+          Bristol Zoo Project in celebration of Aardman's 50th Anniversary.
+
+
+          **Meet Shaun the Sheep!** Shaun will be at the zoo every day between 28-31 August
+
+          inclusive, making appearances at regular intervals throughout the day. So remember
+
+          to bring your camera when you visit!
+
+
+          **Join a Claystation.** Make your own Shaun the Sheep at our Aardman Claystation in
+
+          Bear Wood. Book your place online with your ticket.
+
+
+          **Complete your Wildlife Mission.** Join Shaun on a Wildlife Mission with Friends —
+
+          solve the challenges, collect the stamps and complete the mission!
+
+
+          **Activity packs.** Get your FREE activity pack on entry! Filled with baa-rilliant
+
+          crafts, puzzles and colouring.
+
+
+          All activities are FREE with entry!
+
+
+          More info: Aardman Claystations are free with a Bristol Zoo Project ticket or
+
+          membership; workshops must be booked online with your entry ticket. One booked slot
+
+          qualifies for one attendee. Carers must remain with children at all times during the
+
+          workshop. Head to Bear Wood Classroom for your timeslot. A self-led activity, guided
+
+          by an instruction sheet and a member of our team. You can take your model home with
+
+          you, a bag will be provided. Please note, animation is not part of the activity.
+
+          Recommended for ages 6+.
+
+
+          Shaun will be making regular appearances throughout the day; meeting him is free
+
+          with entry. Due to his popularity there will likely be a wait. Meet and greet takes
+
+          place at the picnic area opposite the Wilder gorilla sculpture and timings are
+
+          displayed on the area board. Activity packs can be collected at the entrance.
+
+
+          From the event terms: \"There is no entry fee for the Claystation or Shaun the Sheep
+
+          Meet and Greet. However, it is only available to visitors to Bristol Zoo Project
+
+          between Friday 28 and Monday 31 August 2026.\"\n"
+        confidence: "high"
+      - id: "family/bristol-zoo-project#8f8c7bab00"
+        sourceId: "family/bristol-zoo-project"
+        title: "Wild Lights"
+        occurrence:
+          kind: "run"
+          start: "2026-11-27"
+          end: "2026-12-23"
+        status: "scheduled"
+        timesText: "Every evening from 27 November to 23 December; first entrance slot 4.30pm; Wild Lights finishes 1.5 hours after the end of the last time slot"
+        url: "https://bristolzooproject.org.uk/events/wild-lights"
+        image: "https://a.storyblok.com/f/233702/1831x840/ab5e9df7d8/wild-lights-landing-page-1830x839-new-2026.jpg"
+        price:
+          free: false
+          text: "Ticketed, pre-booking required; no price printed on the page. Society members get 20% off on the first three nights only."
+          currency: "GBP"
+        tags:
+          - "seasonal"
+          - "family"
+          - "outdoor"
+          - "multi-day"
+          - "booking-required"
+        raw: "**Wild Lights at Bristol Zoo Project** — 27 November to 23 December.
+
+
+          \"Brand new for 2026, Wild Lights will bring to life the beautiful features of Bristol
+
+          Zoo Project through an awe-inspiring display of light and sound.\"\n"
+        summary: "A new after-dark winter lights trail through the zoo grounds, running nightly through Advent. Timed entry from 4.30pm, animals off show, hot drinks and festive food along the route."
+        description: "Brand new for 2026, Wild Lights will bring to life the beautiful features of Bristol
+
+          Zoo Project through an awe-inspiring display of light and sound.
+
+
+          Just 30 minutes from central Bristol, with easy access from the M5, meet friends and
+
+          family for a festive experience you won't forget.
+
+
+          Every evening from 27 November to 23 December, the zoo will transform into an
+
+          immersive winter lights experience to delight all ages. Follow the trail through
+
+          towering trees and along winding pathways, uncovering new surprises at every turn.
+
+          With bright spectacles, interactive elements and plenty of surprises, Wild Lights
+
+          offers something for everyone.
+
+
+          As you explore, enjoy warming drinks and festive treats, including black forest hot
+
+          chocolates, burgers and sausage rolls (veggie and vegan options available). Every
+
+          ticket sold supports our vital conservation work in the UK and around the world.
+
+
+          **Know before you go.** Please pre-book to guarantee entry and arrive no more than 15
+
+          minutes prior to your booked timeslot. We are a natural, outdoor site — some paths
+
+          are uneven and can get muddy in winter. Wild Lights is a winter lights trail rather
+
+          than a normal zoo visit: for animal welfare reasons the animals will be off show and
+
+          away from the lights, so to see them please book a standard day ticket in addition.
+
+          The first Wild Lights entrance slot is at 4.30pm and the trail finishes 1.5 hours
+
+          after the end of the last time slot. The trail is fully accessible, with wheelchairs
+
+          and mobility scooters available to borrow if booked in advance.
+
+
+          Bristol Zoological Society members are entitled to 20% off tickets on the first three
+
+          nights only. (The page states this twice and disagrees with itself on the weekdays —
+
+          \"Friday 27, Saturday 28, and Sunday 29 November\" in the body, \"Thursday 27, Friday 28,
+
+          and Saturday 29 November\" in the FAQ. 27 November 2026 is a Friday.)\n"
+        confidence: "high"
+    notes: "The catalogued https://bristolzoo.org.uk/whats-on returns 307 to \"/\" — so does https://bristolzooproject.org.uk/whats-on and https://bristolzooproject.org.uk/events. There is no listings index on this site at all: the whole programme is two cards on the homepage, linking to /events/<slug> pages. bristolzoo.org.uk serves the same Next.js app but every internal link is written to bristolzooproject.org.uk, which looks like the host the catalogue should carry. Programme is tiny (2 events), so §3 applies and I opened both event pages plus /visit — 3 event-page fetches, the bank holiday one first. Opening hours as printed on /visit: \"Open daily 10am - 5pm. Last entry to Bristol Zoo Project and Bear Wood is 4pm.\" No altered hours and no Monday closure printed anywhere for the bank holiday weekend."
+  - sourceId: "family/windmill-hill-city-farm"
+    fetch:
+      ok: true
+      url: "https://windmill-hill-city-farm-bristol.bookthatapp.com/availability/schedule.json?start=2026-08-28&end=2027-06-30&calendar=true"
+      status: 200
+    events:
+      - id: "family/windmill-hill-city-farm#389cf475d6"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Beginner Pottery Throwing with Pottymouth Studio"
+        subcategory: "Arts & Crafts"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Saturday, 10:00-12:00"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/beginner-pottery-throwing-with-pottymouth-studio"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/Pottymouth_beginners_pottery.png?v=1765281159"
+        price:
+          free: false
+          text: "£50.00"
+          min: 50
+          max: 50
+          currency: "GBP"
+        tags:
+          - "workshop"
+          - "crafts"
+          - "beginners"
+          - "hands-on"
+          - "booking-required"
+        raw: "**Beginner Pottery Throwing with Pottymouth Studio** — every Saturday, 10:00-12:00.
+
+          Next session Saturday 29 August 2026. £50.
+
+
+          \"Join our Beginner Pottery Throwing Workshop! Explore the process of pottery wheel
+
+          throwing in a hands-on session designed for beginners or anyone returning to clay
+
+          after a break.\"\n"
+        summary: "Two-hour Saturday-morning wheel-throwing taster with Pottymouth Studio, aimed at absolute beginners and anyone coming back to clay. Running on the Saturday of the bank holiday weekend."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#f6f3e961d7"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Pottery Painting with Glazed & Confused"
+        subcategory: "Arts & Crafts"
+        occurrence:
+          kind: "recurring"
+          pattern: "Fortnightly on Sundays, 10:00-16:00 — book a two-hour slot; drop-ins welcome. The calendar lists 30 Aug, 13 and 27 Sep, 11 and 25 Oct, 8 and 22 Nov and 6 Dec 2026."
+          start: "2026-08-30"
+          end: "2026-12-06"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/pottery-painting-with-glazed-confused"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/Websitesquareimages_7.png?v=1784811138"
+        price:
+          free: false
+          text: "£15.00"
+          min: 15
+          max: 15
+          currency: "GBP"
+        tags:
+          - "drop-in"
+          - "crafts"
+          - "family"
+          - "hands-on"
+        raw: "**Pottery Painting with Glazed & Confused** — fortnightly Sundays, 10:00-16:00.
+
+          Next session Sunday 30 August 2026. £15.
+
+
+          \"Join Glazed & Confused for pottery painting in our Barn Terrace. Book a two-hour
+
+          slot, choose a piece, and paint it however you like. We do the rest: we glaze it,
+
+          fire it at a nearby Bristol kiln, and have it ready for you to collect at the next
+
+          session. Drop-ins welcome!\"\n"
+        summary: "Paint-a-pot on the Barn Terrace in two-hour slots, with the firing and glazing done for you and collection at the next session. Drop-ins welcome, so an easy one for the Sunday of the long weekend."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#c72f3a67e4"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Team Brave Football Training Sunday"
+        subcategory: "Health & Well-Being"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Sunday, 16:00-17:00"
+          startTime: "16:00"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/team-brave-football-training-copy"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/Graphics-2025-09-22T122003.387.png?v=1758540026"
+        price:
+          free: true
+          text: "Free"
+          currency: "GBP"
+        tags:
+          - "football"
+          - "free-entry"
+          - "community"
+          - "outdoor"
+        raw: "**Team Brave Football Training Sunday** — every Sunday, 16:00-17:00. Free.
+
+          Next session Sunday 30 August 2026.
+
+
+          \"Team Brave Football offer free, fun, friendly football sessions. Our main focus is
+
+          on enhancing self-esteem & confidence, supporting UN Global Goal 3: Good Health &
+
+          Well-being.\"\n"
+        summary: "Free Sunday-afternoon football on the farm, run for confidence and wellbeing rather than competition. The Sunday session runs on the bank holiday weekend."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#98e4125d24"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Pilates"
+        subcategory: "Health & Well-Being"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Monday, 09:30-10:30"
+          startTime: "09:30"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/pilates"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/pilates.png?v=1765288882"
+        price:
+          free: false
+          text: "£9.00"
+          min: 9
+          max: 9
+          currency: "GBP"
+        tags:
+          - "wellbeing"
+          - "beginners"
+          - "weekly"
+        raw: "**Pilates** — every Monday, 09:30-10:30. £9. The booking calendar lists a session on
+
+          Monday 31 August 2026, the bank holiday.
+
+
+          \"Pilates classes for mixed abilities and beginners. Join our friendly and inclusive
+
+          classes and come away feeling rejuvenated, squared up, a little taller, straighter,
+
+          stronger and like you've really worked your body, but without feeling as if you've
+
+          overdone it.\"\n"
+        summary: "Mixed-ability Monday-morning Pilates in the farm's studio, still bookable on the bank holiday Monday."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#c809ec1d82"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Martial Arts: Bristol Shorinji Kempo Dojo"
+        subcategory: "Health & Well-Being"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Monday, 18:00-19:00"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/martial-arts-bristol-shorinji-kempo-dojo"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/martial_arts.png?v=1765289244"
+        price:
+          free: false
+          text: "£9.00"
+          min: 9
+          max: 9
+          currency: "GBP"
+        tags:
+          - "wellbeing"
+          - "beginners"
+          - "weekly"
+        raw: "**Martial Arts: Bristol Shorinji Kempo Dojo** — every Monday, 18:00-19:00. £9.
+
+          The booking calendar lists a session on Monday 31 August 2026, the bank holiday.
+
+
+          \"Join our group classes to learn the Japanese martial art of Shorinji Kempo. This art
+
+          focuses on the benefits of a healthy mind, body, and self-defence. Shorinji Kempo
+
+          includes striking and grappling techniques, philosophy, meditation, and restorative
+
+          massage.\"\n"
+        summary: "Weekly Shorinji Kempo class covering striking, grappling, philosophy and meditation, scheduled as normal on the bank holiday Monday evening."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#8ca69bbfc0"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "I Know a Place: Poetry & Prose Pop-up Show"
+        subcategory: "Music & performance"
+        occurrence:
+          kind: "single"
+          date: "2026-08-28"
+          startTime: "18:30"
+          endTime: "19:30"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/i-know-a-place-poetry-prose-pop-up-show"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/Iknowaplace.jpg?v=1787736117"
+        price:
+          free: false
+          text: "£7.00"
+          min: 7
+          max: 7
+          currency: "GBP"
+        tags:
+          - "poetry"
+          - "one-night"
+          - "reading"
+        raw: "**I Know a Place: Poetry & Prose Pop-up Show** — Friday 28 August 2026, 18:30-19:30.
+
+          £7.
+
+
+          \"Our aim with I Know a Place has always been simple: Beautiful words in beautiful
+
+          places. We aim to bring the best of Bristol's writers to some of the most unusual
+
+          locations in the city.\"\n"
+        summary: "A one-hour pop-up of Bristol writers reading poetry and prose on the farm, part of a series that stages readings in unusual buildings around the city."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#8b7f2748ba"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Windmill Hill City Farm's 50th Anniversary Fayre!"
+        subcategory: "Arts & Crafts, Food & Drink, Health & Well-Being, Music & performance"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/windmill-hill-city-farms-50th-anniversary-fayre"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/Website_square_images_2.png?v=1777888411"
+        tags:
+          - "festival"
+          - "community"
+          - "family"
+          - "live-music"
+          - "outdoor"
+        raw: "**Windmill Hill City Farm's 50th Anniversary Fayre!** — Saturday 12 September 2026,
+
+          all day.
+
+
+          \"On the 12th of September we will be celebrating our 50th anniversary with a huge
+
+          community event - and you are invited! What to expect: Live music & performances,
+
+          Games & Stalls, Crafts & workshops, A BBQ by @thecityfarmcafe, Kid's activities,
+
+          Craft beer, General merriment! We will be announcing more details as we get closer
+
+          to the big day.\"\n"
+        summary: "The farm's fiftieth birthday party: an all-day community fayre with live music, stalls, craft workshops, a BBQ and children's activities. Listed at £0.00 on the booking system, but the page does not say free."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#a2340e006f"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Bruhaha Tap Sessions"
+        subcategory: "Food & Drink, Music & performance"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/bruhaha-tap-sessions"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/IMG-20260826-WA0003.jpg?v=1787751707"
+        tags:
+          - "folk"
+          - "live-music"
+          - "one-night"
+          - "food-drink"
+        raw: "**Bruhaha Tap Sessions** — Saturday 12 September 2026, from 18:00.
+
+
+          \"Head to The Garden Theatre for an evening of authentic modern folk music. Featuring
+
+          The Feildcaps and Joe Blow, with Cowboy Robby hosting.\"\n"
+        summary: "Modern folk in the farm's Garden Theatre with The Feildcaps and Joe Blow, hosted by Cowboy Robby — the evening half of the 50th anniversary Saturday."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#d89669ee15"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "East Street Community Partnership"
+        subcategory: "Health & Well-Being"
+        occurrence:
+          kind: "single"
+          date: "2026-09-15"
+          startTime: "18:30"
+          endTime: "20:30"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/east-street-community-partnership"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/Websitesquareimages_7_52975e75-4179-4c34-864b-c3926e4c3add.png?v=1787221645"
+        tags:
+          - "community"
+          - "talk"
+          - "one-night"
+        raw: "**East Street Community Partnership** — Tuesday 15 September 2026, 18:30-20:30.
+
+
+          \"Come along and get involved in shaping the future of East Street! The East Street
+
+          Community Partnership is a resident-led group working to make the East Street area
+
+          safer, more welcoming and better connected. This is your chance to hear what's
+
+          happened since our launch back in July and to have your say on what comes next.\"\n"
+        summary: "Open meeting of the resident-led partnership working on East Street in Bedminster, reporting back on progress since its July launch."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#9b6ad6508a"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Butterdish & Slip Stencilling Pottymouth Workshop"
+        subcategory: "Arts & Crafts"
+        occurrence:
+          kind: "single"
+          date: "2026-09-26"
+          startTime: "10:30"
+          endTime: "16:30"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/butterdish-slip-stencilling-pottymouth-workshop"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/Websitesquareimages_7_copy.png?v=1787216033"
+        price:
+          free: false
+          text: "£70.00"
+          min: 70
+          max: 70
+          currency: "GBP"
+        tags:
+          - "workshop"
+          - "crafts"
+          - "hands-on"
+          - "booking-required"
+        raw: "**Butterdish & Slip Stencilling Pottymouth Workshop** — Saturday 26 September 2026,
+
+          10:30-16:30. £70.
+
+
+          \"Join us for a relaxed, creative ceramic butter dish making workshop where you'll
+
+          design and build your own functional piece using a slab-rolling hand building
+
+          technique. This pottery workshop is suitable for beginners, though some prior
+
+          introduction to working with clay will be helpful.\"\n"
+        summary: "Day-long hand-building workshop making a slab-built butter dish with slip stencilling, for people who have handled clay at least once before."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#b7678d78ff"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Screening + Discussion: Woman Grows Jeans"
+        subcategory: "Arts & Crafts"
+        occurrence:
+          kind: "single"
+          date: "2026-09-29"
+          startTime: "18:45"
+          endTime: "20:45"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/screening-discussion-woman-grows-jeans"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/Websitesquareimages_7_b4729568-5f0e-4e62-86d8-d3b90b3bc8ad.png?v=1787058026"
+        tags:
+          - "screening"
+          - "documentary"
+          - "talk"
+          - "textiles"
+        raw: "**Screening + Discussion: Woman Grows Jeans** — Tuesday 29 September 2026,
+
+          18:45-20:45.
+
+
+          \"Join Making Mends and Labour Behind the Label to watch and discuss slow fashion
+
+          documentary, Woman Grows Jeans as part of Sustainable Fashion Week. In a country
+
+          buying 70 million pairs a year, Woman Grows Jeans journeys into our resilient
+
+          ancestry to reclaim the care and agency that's key to regeneration.\"\n"
+        summary: "Sustainable Fashion Week screening of the slow-fashion documentary Woman Grows Jeans, followed by discussion with Making Mends and Labour Behind the Label."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#8f68a04093"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Botanical Cyanotype Workshop"
+        subcategory: "Arts & Crafts"
+        occurrence:
+          kind: "single"
+          date: "2026-09-06"
+          startTime: "10:30"
+          endTime: "12:30"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/botanical-cyanotype-workshop"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/Websitesquareimages_6.png?v=1779959116"
+        price:
+          free: false
+          text: "£35.00"
+          min: 35
+          max: 35
+          currency: "GBP"
+        tags:
+          - "workshop"
+          - "printmaking"
+          - "hands-on"
+          - "booking-required"
+        raw: "**Botanical Cyanotype Workshop** — Sunday 6 September 2026, 10:30-12:30. £35.
+
+
+          \"Discover the magic of cyanotype; a beautiful photographic process that uses sunlight
+
+          to create stunning Prussian blue images. Enjoy access to Fiona's dried flower and leaf
+
+          collection to create your very own botanical artworks.\"\n"
+        summary: "Two-hour sunlight-printing session making Prussian-blue botanical cyanotypes from a dried flower and leaf collection."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#8d0c82d6c0"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Botanical Cyanotype Workshop"
+        subcategory: "Arts & Crafts"
+        occurrence:
+          kind: "single"
+          date: "2026-10-18"
+          startTime: "10:30"
+          endTime: "12:30"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/botanical-cyanotype-workshop"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/Websitesquareimages_6.png?v=1779959116"
+        price:
+          free: false
+          text: "£35.00"
+          min: 35
+          max: 35
+          currency: "GBP"
+        tags:
+          - "workshop"
+          - "printmaking"
+          - "hands-on"
+          - "booking-required"
+        raw: "**Botanical Cyanotype Workshop** — Sunday 18 October 2026, 10:30-12:30. £35.
+
+
+          \"Join us for a relaxed, experimental 2-hour session where you'll hear a little of the
+
+          history of cyanotypes, follow a step-by-step demonstration of the process, and then
+
+          have plenty of time to create your own cyanotypes.\"\n"
+        summary: "The October repeat of the farm's cyanotype session: history, demonstration, then time to make your own botanical sun prints."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#09ccb0d3d3"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Supper Club"
+        subcategory: "Food & Drink"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Tuesday evening from 5-7pm. Supper Club only runs during term-time."
+          start: "2026-09-22"
+          startTime: "17:00"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/supper-club"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/Screenshot2025-10-30at14.29.57.png?v=1761834629"
+        tags:
+          - "food-drink"
+          - "community"
+          - "weekly"
+        raw: "**Supper Club** — \"Every Tuesday evening from 5- 7pm, we serve a hot, nutritious,
+
+          home-cooked meal in the café. Whether you're looking for a warm bite to eat, a night
+
+          off from cooking, or a place to meet with friends, we've got you covered. Please
+
+          note: Supper Club only runs during term-time.\"
+
+
+          The booking calendar currently shows only one slot, Tuesday 22 September 2026,
+
+          17:00-19:00.\n"
+        summary: "A cheap hot home-cooked meal in the farm café on term-time Tuesday evenings; only one date is presently open for booking."
+        confidence: "medium"
+      - id: "family/windmill-hill-city-farm#927745dfba"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Compost Cafe – Quiz & Open Mic"
+        subcategory: "Music & performance"
+        occurrence:
+          kind: "recurring"
+          pattern: "every first Friday of the month from 5.30 PM – 9 PM"
+          start: "2026-08-28"
+          end: "2027-06-04"
+          startTime: "17:30"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/compost-cafe-quiz-open-mic"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/OpenMic.png?v=1765280471"
+        tags:
+          - "open-mic"
+          - "poetry"
+          - "live-music"
+          - "community"
+        raw: "**Compost Cafe – Quiz & Open Mic** — \"Join us for Compost Cafe: An evening of poetry,
+
+          storytelling, acoustic music and spoken word. Hosted at The City Farm Cafe every first
+
+          Friday of the month from 5.30 PM – 9 PM, our intimate venue is the perfect place to
+
+          share what you're working on and enjoy new music and poetry from the local community.\"
+
+
+          The booking calendar disagrees with the copy: it lists 28 Aug, 25 Sep, 23 Oct, 20 Nov
+
+          and 18 Dec 2026 — the last Friday of the month, not the first.\n"
+        summary: "Monthly open mic in the City Farm Cafe for poetry, storytelling, spoken word and acoustic sets, tonight and then roughly every four weeks."
+        confidence: "medium"
+      - id: "family/windmill-hill-city-farm#d7cec3cd31"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "FREE Monthly Bike Mechanic Drop-In"
+        subcategory: "Health & Well-Being"
+        occurrence:
+          kind: "recurring"
+          pattern: "Monthly on a Thursday, 11:00-15:00 — the calendar lists 24 Sep, 8 Oct and 12 Nov 2026"
+          start: "2026-09-24"
+          end: "2026-11-12"
+          startTime: "11:00"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/free-monthly-bike-mechanic-drop-in"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/Websitesquareimagescopy5.png?v=1770896452"
+        price:
+          free: true
+          text: "FREE"
+          currency: "GBP"
+        tags:
+          - "drop-in"
+          - "cycling"
+          - "repair"
+          - "free-entry"
+        raw: "**FREE Monthly Bike Mechanic Drop-In** — monthly on a Thursday, 11:00-15:00.
+
+
+          \"Want to feel more confident looking after your bike? Join us for our monthly Bike
+
+          Mechanic Drop-In, run in partnership with Bike Bristol. These relaxed, welcoming
+
+          sessions are open to everyone, whether you're a daily commuter, weekend rider, or
+
+          haven't been on your bike in years.\"\n"
+        summary: "Free monthly bike-maintenance drop-in run with Bike Bristol, for anyone who wants help keeping a bike on the road."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#2cf0cdc04c"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Scribble & Sketch - FREE Family Art Workshop with the RWA"
+        subcategory: "Health & Well-Being"
+        occurrence:
+          kind: "recurring"
+          pattern: "Saturdays once a month, 10:30 AM - 12:30 PM — the calendar lists Sun 20 Sep, then Sat 17 Oct, 21 Nov and 19 Dec 2026"
+          start: "2026-09-20"
+          end: "2026-12-19"
+          startTime: "10:30"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/scribble-and-sketch-free-family-art-workshop-with-the-rwa"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/Websitesquareimagescopy4_331f4c94-edc3-4711-8546-c0905f0f5fac.png?v=1773314741"
+        price:
+          free: true
+          text: "Admission is free. No pre-booking required."
+          currency: "GBP"
+        tags:
+          - "family"
+          - "free-entry"
+          - "drawing"
+          - "drop-in"
+          - "kids"
+        raw: "**Scribble & Sketch - FREE Family Art Workshop with the RWA** — \"Join our Scribble and
+
+          Sketch artists at locations across the city on Saturdays once a month for FREE family
+
+          workshops. 10:30 AM - 12:30 PM. These sessions are open to everyone and provide access
+
+          to materials for families seeking support to create art. Both children and adults are
+
+          warmly invited to join. Admission is free. No pre-booking required. Suitable for all
+
+          ages, children must be supervised.\"
+
+
+          The first date in the calendar is a Sunday (20 September 2026) despite the copy
+
+          saying Saturdays.\n"
+        summary: "Free monthly drop-in art workshop run with the Royal West of England Academy, with materials provided and no booking needed. All ages, children supervised."
+        confidence: "medium"
+      - id: "family/windmill-hill-city-farm#d19a603010"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Rock Out Baby – Music sessions for mini Rock and Rollers"
+        subcategory: "Music & performance"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Friday, 10:00-10:55"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/rock-out-baby-music-sessions-for-mini-rock-and-rollers"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/Graphics-2025-09-22T114636.886.png?v=1758538022"
+        price:
+          free: false
+          text: "£8.00"
+          min: 8
+          max: 8
+          currency: "GBP"
+        tags:
+          - "kids"
+          - "family"
+          - "live-music"
+          - "weekly"
+        raw: "**Rock Out Baby – Music sessions for mini Rock and Rollers** — every Friday,
+
+          10:00-10:55. £8.
+
+
+          \"Rock Out Baby is a fun, interactive music class for babies and toddlers to nourish
+
+          their creativity and awaken their inner rock stars!\"\n"
+        summary: "Weekly Friday music class for babies and toddlers, loud and interactive."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#916769d10a"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Parent & Child Yoga Class: Yoga Tots"
+        subcategory: "Health & Well-Being"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Thursday, 09:15-10:15"
+          startTime: "09:15"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/parent-child-yoga-class-yoga-tots"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/yoga_tots.png?v=1765292218"
+        price:
+          free: false
+          text: "£10.00"
+          min: 10
+          max: 10
+          currency: "GBP"
+        tags:
+          - "kids"
+          - "family"
+          - "wellbeing"
+          - "weekly"
+        raw: "**Parent & Child Yoga Class: Yoga Tots** — every Thursday, 09:15-10:15. £10.
+
+
+          \"Yoga Tots is a parent & child yoga class, its an active class for you and your
+
+          little ones.\"\n"
+        summary: "Active Thursday-morning yoga class for a parent and small child together."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#db8eac7db5"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Baby Massage (6 week course)"
+        subcategory: "Health & Well-Being"
+        occurrence:
+          kind: "recurring"
+          pattern: "Tuesdays, 10:00-11:15 — a 6 week course"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/baby-massage"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/baby_massage.png?v=1765295555"
+        price:
+          free: false
+          text: "£80.00"
+          min: 80
+          max: 80
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "wellbeing"
+          - "family"
+        raw: "**Baby Massage (6 week course)** — Tuesdays, 10:00-11:15. £80 for the course.
+
+
+          \"Baby Massage is one of the easiest and most pleasant methods of providing early
+
+          positive interaction through bonding, fun, trust and relief.\"\n"
+        summary: "Six-week Tuesday-morning baby massage course for early bonding and settling."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#c57d3c701b"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Pregnancy Yoga (6 week course)"
+        subcategory: "Health & Well-Being"
+        occurrence:
+          kind: "recurring"
+          pattern: "Thursdays, 18:15-19:30 — a six-week series"
+          startTime: "18:15"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/pregnancy-yoga"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/pregnancy_yoga_1ebbd7e0-54a1-442d-89b2-a4aaf34a5310.png?v=1765292817"
+        price:
+          free: false
+          text: "£90.00"
+          min: 90
+          max: 90
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "wellbeing"
+        raw: "**Pregnancy Yoga (6 week course)** — Thursdays, 18:15-19:30. £90.
+
+
+          \"A pause from the 'push on regardless' culture, this six-week series moves in rhythm
+
+          with nature rather than productivity.\"\n"
+        summary: "Six-week Thursday-evening pregnancy yoga series taken at a deliberately unhurried pace."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#b00f9226f4"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Team Brave Football Training"
+        subcategory: "Health & Well-Being"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Wednesday, 18:00-19:00"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/team-brave-football-training"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/Graphics-2025-09-22T122003.387.png?v=1758540026"
+        price:
+          free: true
+          text: "Free"
+          currency: "GBP"
+        tags:
+          - "football"
+          - "free-entry"
+          - "community"
+          - "outdoor"
+        raw: "**Team Brave Football Training** — every Wednesday, 18:00-19:00. Free.
+
+
+          \"Team Brave Football offer free, fun, friendly football sessions. Our main focus is on
+
+          enhancing self-esteem & confidence, supporting UN Global Goal 3: Good Health &
+
+          Well-being.\"
+
+
+          Since the 17 August run this has split into two listings: the Wednesday session has
+
+          moved to 18:00, and the Sunday 16:00 session is now its own product.\n"
+        summary: "Free Wednesday-evening football on the farm, run for confidence and wellbeing rather than competition."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#f03efa58fc"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Migrateful Cookery Classes"
+        subcategory: "Food & Drink"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Tuesday and Thursday, 18:15-20:15"
+          startTime: "18:15"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/migrateful-cookery-classes"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/mirgrateful_cooking_classes.png?v=1765287533"
+        price:
+          free: false
+          text: "£45.00"
+          min: 45
+          max: 45
+          currency: "GBP"
+        tags:
+          - "food-drink"
+          - "hands-on"
+          - "community"
+          - "booking-required"
+        raw: "**Migrateful Cookery Classes** — every Tuesday and Thursday, 18:15-20:15. £45.
+
+
+          \"Migrateful supports migrants and refugees on their journey to integration by enabling
+
+          them to teach cookery classes to the general public.\"\n"
+        summary: "Twice-weekly evening cookery classes taught by migrant and refugee chefs, cooking the food of their home countries."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#008ab149bc"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Songs for the Soul: Wellbeing Choir"
+        subcategory: "Music & performance"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Friday, 13:00-14:00"
+          startTime: "13:00"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/songs-for-the-soul-wellbeing-choir"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/choir.png?v=1765293097"
+        price:
+          free: false
+          text: "£10.00"
+          min: 10
+          max: 10
+          currency: "GBP"
+        tags:
+          - "wellbeing"
+          - "beginners"
+          - "weekly"
+        raw: "**Songs for the Soul: Wellbeing Choir** — every Friday, 13:00-14:00. £10.
+
+
+          \"Songs for the Soul a choir aimed at improving wellbeing through singing. It is a safe
+
+          space to experience singing in a group without the pressure of learning pieces, making
+
+          a 'perfect' sound, or performing.\"\n"
+        summary: "Friday-lunchtime singing group with no repertoire to learn and nothing to perform — group singing purely for wellbeing."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#652de2b61b"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "The Farm Tap Room"
+        subcategory: "Food & Drink"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Friday, from 16:00"
+          startTime: "16:00"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/the-farm-tap-room"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/Screenshot2026-02-22at20.50.22.png?v=1771793455"
+        tags:
+          - "food-drink"
+          - "beer"
+          - "outdoor"
+          - "weekly"
+        raw: "**The Farm Tap Room** — every Friday, from 16:00.
+
+
+          \"Tucked away in the farm's beautiful front gardens, The Tap Room is one of Bristol's
+
+          best-kept secrets. Surrounded by greenery and the gentle rhythm of farm life, The Farm
+
+          Tap offers a relaxed, welcoming space to enjoy exceptional local drinks right at the
+
+          heart of the community.\"\n"
+        summary: "The farm's Friday-evening bar in the front gardens, pouring local drinks. Open today, the Friday of the long weekend."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#dc4fb88268"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Gentle Yoga"
+        subcategory: "Health & Well-Being"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Tuesday, 10:30-11:30"
+          startTime: "10:30"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/gentle-yoga"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/Websitesquareimages_4.png?v=1777970783"
+        price:
+          free: false
+          text: "£13.00"
+          min: 13
+          max: 13
+          currency: "GBP"
+        tags:
+          - "wellbeing"
+          - "beginners"
+          - "weekly"
+        raw: "**Gentle Yoga** — every Tuesday, 10:30-11:30. £13.
+
+
+          \"Join Laurie for a calming, beginner-friendly yoga class designed to help you slow
+
+          down, stretch gently, and reconnect with your breath, body and mind within the
+
+          peaceful surroundings of the farm. Beginner Friendly. Slow, Gentle & Restorative.
+
+          Small, friendly class sizes.\"\n"
+        summary: "Slow, restorative Tuesday-morning yoga in small classes, aimed squarely at beginners."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#0d2e103f44"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Tuesday Evening Vinyasa Yoga"
+        subcategory: "Health & Well-Being"
+        occurrence:
+          kind: "recurring"
+          pattern: "every Tuesday evening"
+          startTime: "18:00"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/tuesday-evening-vinyasa-yoga"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/Websitesquareimages_6_copy.png?v=1779962832"
+        price:
+          free: false
+          text: "£9.60"
+          min: 9.6
+          max: 9.6
+          currency: "GBP"
+        tags:
+          - "wellbeing"
+          - "weekly"
+        raw: "**Tuesday Evening Vinyasa Yoga** — every Tuesday, 18:00-19:00. £9.60.
+
+
+          \"Unwind and flow into your week with a energising Vinyasa yoga session every Tuesday
+
+          evening in person!\"\n"
+        summary: "Hour-long energising Vinyasa flow on Tuesday evenings."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#277e4bf268"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Yin Yoga: Stretch and Restore"
+        subcategory: "Health & Well-Being"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Friday, 12:30-13:30"
+          startTime: "12:30"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/yin-yoga-stretch-restore"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/yin_yoga.png?v=1764856096"
+        price:
+          free: false
+          text: "£15.00"
+          min: 15
+          max: 15
+          currency: "GBP"
+        tags:
+          - "wellbeing"
+          - "weekly"
+        raw: "**Yin Yoga: Stretch and Restore** — every Friday, 12:30-13:30. £15.
+
+
+          \"Join Sophie for weekday Yin Yoga classes in The Studio. Slow, supported and deeply
+
+          restful, Yin Yoga offers you an escape from the hustle and bustle of daily life by
+
+          softening into stillness.\"\n"
+        summary: "Floor-based Friday-lunchtime Yin class of long held poses, working on connective tissue and the nervous system."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#576254d8b2"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Iyengar Yoga"
+        subcategory: "Health & Well-Being"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Wednesday, 09:30-11:00"
+          startTime: "09:30"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/iyengar-yoga"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/iyengar_yoga.png?v=1765290282"
+        price:
+          free: false
+          text: "£12.00"
+          min: 12
+          max: 12
+          currency: "GBP"
+        tags:
+          - "wellbeing"
+          - "weekly"
+        raw: "**Iyengar Yoga** — every Wednesday, 09:30-11:00. £12.
+
+
+          \"Iyengar Yoga focuses on alignment & finding ways into yoga asana that work for you &
+
+          your body.\"\n"
+        summary: "Ninety-minute Wednesday-morning Iyengar class working on alignment and adapting poses to the body you have."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#474fa78252"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Hula Hooping Course with Hooponauts"
+        subcategory: "Health & Well-Being, Music & performance"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Thursday, 19:00-20:00"
+          startTime: "19:00"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/6-week-beginner-hula-hooping-course-with-hooponauts"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/Websitesquareimages_5_copy_c61ec15a-1033-4263-83fb-a96a7ed92de7.png?v=1779453089"
+        price:
+          free: false
+          text: "£50.00"
+          min: 50
+          max: 50
+          currency: "GBP"
+        ageRestriction: "Ages 14+"
+        tags:
+          - "courses"
+          - "beginners"
+          - "dance"
+          - "wellbeing"
+        raw: "**Hula Hooping Course with Hooponauts** — every Thursday, 19:00-20:00. £50 for the
+
+          six-week course.
+
+
+          \"Adult hula-hoop classes for ages 14+. Come and learn the joy of hooping in a relaxed,
+
+          welcoming class designed for complete beginners and improvers alike. Hoops are
+
+          provided, feel-good music is guaranteed.\"\n"
+        summary: "Six-week beginners' and improvers' hula-hoop course for ages 14 and up, hoops provided."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#452db10dab"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Wellness at The Orchard Sauna"
+        subcategory: "Health & Well-Being"
+        occurrence:
+          kind: "recurring"
+          pattern: "Each Tuesday at the Orchard Sauna"
+          startTime: "18:30"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/tuesday-wellness-at-the-orchard-sauna"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/Websitesquareimages_6_copy2_962da3dc-7ff2-4545-89e3-fb913e4116b3.png?v=1783591366"
+        price:
+          free: false
+          text: "£25.00"
+          min: 25
+          max: 25
+          currency: "GBP"
+        tags:
+          - "wellbeing"
+          - "weekly"
+          - "outdoor"
+        raw: "**Wellness at The Orchard Sauna** — every Tuesday, 18:30-20:30. £25.
+
+
+          \"Each Tuesday at the Orchard Sauna: Tuesday Wellness! Come and join one of our
+
+          experience practitioners for some movement and relaxation in the newly renovated
+
+          Orchard Lodge space, and then enjoy a Sauna & Cold Plunge.\"\n"
+        summary: "Guided movement and relaxation in Orchard Lodge followed by a sauna and cold plunge, on Tuesday evenings."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#b97db8ae53"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Best Life Care Group"
+        subcategory: "Health & Well-Being"
+        occurrence:
+          kind: "recurring"
+          pattern: "Every Tuesday, 10:30-12:30"
+          startTime: "10:30"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/best-life-dementia-day-care"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/Dementiadayclub.png?v=1765295682"
+        price:
+          free: false
+          text: "£79.99"
+          min: 79.99
+          max: 79.99
+          currency: "GBP"
+        tags:
+          - "wellbeing"
+          - "community"
+          - "accessible"
+        raw: "**Best Life Care Group** — every Tuesday, 10:30-12:30. £79.99.
+
+
+          \"Best Life provides specialist day care for older people, especially those with a
+
+          cognitive impairment such as dementia. Activities include games, hobbies, arts and
+
+          craft, low-impact sports, singing, chair-based exercise, guest speakers, carer respite
+
+          and live music.\"\n"
+        summary: "Specialist Tuesday day care on the farm for older people, particularly those living with dementia, with carer respite built in."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#032b683d06"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Animal Care & Maintenance for Well-being"
+        subcategory: "Health & Well-Being"
+        occurrence:
+          kind: "recurring"
+          pattern: "Weekly on Tuesdays, 10:00-12:30 — a free 6-week course. The calendar lists 1, 8, 22 and 29 Sep and 6, 13, 20 and 27 Oct 2026."
+          start: "2026-09-01"
+          end: "2026-10-27"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/animal-care-maintenance-for-well-being"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/2_f36871b4-f909-418c-bfb3-21b0eeb07dc7.png?v=1773313348"
+        price:
+          free: true
+          text: "Free 6-week course"
+          currency: "GBP"
+        ageRestriction: "18+"
+        tags:
+          - "courses"
+          - "wellbeing"
+          - "animals"
+          - "free-entry"
+        raw: "**Animal Care & Maintenance for Well-being** — Tuesdays, 10:00-12:30.
+
+
+          \"Animal care and maintenance for well-being is a free 6-week course for anyone who
+
+          identifies as having mild to moderate mental health challenges and wishes to improve
+
+          their well-being through gardening in a social setting. Suitable for those aged 18
+
+          years or older.\"\n"
+        summary: "Free six-week Tuesday course working with the farm's animals, for adults managing mild to moderate mental health difficulties."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#0a2dc7fa00"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Animal Care for Well-being"
+        subcategory: "Health & Well-Being"
+        occurrence:
+          kind: "recurring"
+          pattern: "Weekly on Fridays, 12:00-14:30 — a free 6-week course; the calendar also holds one Tuesday slot on 1 September at 10:00."
+          start: "2026-09-01"
+          end: "2026-10-23"
+          startTime: "12:00"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/animal-care-for-well-being"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/3_4a482cf9-a3b1-4260-882f-05e2b41da4d5.png?v=1773313121"
+        price:
+          free: true
+          text: "Free 6-week course"
+          currency: "GBP"
+        ageRestriction: "18+"
+        tags:
+          - "courses"
+          - "wellbeing"
+          - "animals"
+          - "free-entry"
+        raw: "**Animal Care for Well-being** — Fridays, 12:00-14:30 (the run has moved off Tuesdays
+
+          since the 17 August harvest, bar one remaining Tuesday slot on 1 September).
+
+
+          \"Animal care for well-being is a free 6-week course for anyone who identifies as
+
+          having mild to moderate mental health challenges and wishes to improve their
+
+          well-being through gardening in a social setting. Suitable for those aged 18 years or
+
+          older.\"\n"
+        summary: "Free six-week course caring for the farm's animals, now running on Friday afternoons, for adults managing mild to moderate mental health difficulties."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#f64895e3f7"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Cooking for Well-being"
+        subcategory: "Health & Well-Being"
+        occurrence:
+          kind: "recurring"
+          pattern: "Weekly on Fridays — a free 6-week course, two groups at 10:00-13:00 and 12:00-15:00"
+          start: "2026-09-11"
+          end: "2026-10-16"
+          startTime: "10:00"
+        status: "scheduled"
+        timesText: "Two groups each Friday: 10:00-13:00 and 12:00-15:00"
+        url: "https://windmillhillcityfarm.org.uk/products/cooking-for-well-being"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/4_8bf591fa-cfb4-47af-93f0-07db78622407.png?v=1773313394"
+        price:
+          free: true
+          text: "Free 6-week course"
+          currency: "GBP"
+        ageRestriction: "18+"
+        tags:
+          - "courses"
+          - "wellbeing"
+          - "food-drink"
+          - "free-entry"
+        raw: "**Cooking for Well-being** — Fridays, two groups at 10:00-13:00 and 12:00-15:00.
+
+
+          \"Cooking for well-being is a free 6-week course for anyone who identifies as having
+
+          mild to moderate mental health challenges and wishes to improve their well-being
+
+          through cooking in a social setting. Suitable for those aged 18 years or older.\"\n"
+        summary: "Free six-week Friday cookery course in the farm kitchen for adults managing mild to moderate mental health difficulties, in two overlapping groups."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#3b81a05a63"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Gardening for Well-being"
+        subcategory: "Health & Well-Being"
+        occurrence:
+          kind: "recurring"
+          pattern: "Weekly on Wednesdays, 09:30-11:30 — a free 6-week course. The calendar lists 2, 9, 16 and 23 Sep 2026."
+          start: "2026-09-02"
+          end: "2026-09-23"
+          startTime: "09:30"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/gardening-for-well-being"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/1_0664454d-ebbc-4712-95d4-2bd67031188e.png?v=1773313867"
+        price:
+          free: true
+          text: "Free 6-week course"
+          currency: "GBP"
+        ageRestriction: "18+"
+        tags:
+          - "courses"
+          - "wellbeing"
+          - "nature"
+          - "free-entry"
+        raw: "**Gardening for Well-being** — Wednesdays, 09:30-11:30.
+
+
+          \"Gardening for well-being is a free 6-week course for individuals who identify as
+
+          having mild to moderate mental health challenges and wish to improve their well-being
+
+          through gardening in a social setting. Suitable for those aged 18 years or older.\"\n"
+        summary: "Free six-week Wednesday-morning gardening course for adults managing mild to moderate mental health difficulties."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#c1555ea087"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Gardening for Well-being (Tuesday Group)"
+        subcategory: "Health & Well-Being"
+        occurrence:
+          kind: "recurring"
+          pattern: "Weekly on Tuesdays, 13:30-15:30 — a free 6-week course. The calendar lists 15, 22 and 29 Sep and 6, 13 and 20 Oct 2026."
+          start: "2026-09-15"
+          end: "2026-10-20"
+          startTime: "13:30"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/gardening-for-well-being-tuesday-group"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/Website_square_images_3_758bd450-9610-48a0-ab23-bda22f32559a.png?v=1776177988"
+        price:
+          free: true
+          text: "Free 6-week course"
+          currency: "GBP"
+        ageRestriction: "18+"
+        tags:
+          - "courses"
+          - "wellbeing"
+          - "nature"
+          - "free-entry"
+        raw: "**Gardening for Well-being (Tuesday Group)** — Tuesdays, 13:30-15:30.
+
+
+          \"Gardening for well-being is a free 6-week course for individuals who identify as
+
+          having mild to moderate mental health challenges and wish to improve their well-being
+
+          through gardening in a social setting. Suitable for those aged 18 years or older.\"\n"
+        summary: "The Tuesday-afternoon cohort of the farm's free six-week gardening-for-wellbeing course."
+        confidence: "high"
+      - id: "family/windmill-hill-city-farm#ac2394a572"
+        sourceId: "family/windmill-hill-city-farm"
+        title: "Woodwork for Well-being"
+        subcategory: "Health & Well-Being"
+        occurrence:
+          kind: "recurring"
+          pattern: "Weekly on Thursdays, 10:00-13:00 — a free 6-week course. The calendar lists 3, 10, 17 and 24 Sep, 22 and 29 Oct and 5, 12, 19 and 26 Nov 2026."
+          start: "2026-09-03"
+          end: "2026-11-26"
+          startTime: "10:00"
+        status: "scheduled"
+        url: "https://windmillhillcityfarm.org.uk/products/woodwork-for-well-being"
+        image: "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/Websitesquareimagescopy3_3c538e9f-d1d0-4d3b-a388-29d9a9ec114c.png?v=1773314210"
+        price:
+          free: true
+          text: "Free 6-week course"
+          currency: "GBP"
+        ageRestriction: "18+"
+        tags:
+          - "courses"
+          - "wellbeing"
+          - "woodwork"
+          - "free-entry"
+        raw: "**Woodwork for Well-being** — Thursdays, 10:00-13:00.
+
+
+          \"Woodwork for well-being is a free 6-week course for anyone who identifies as having
+
+          mild to moderate mental health challenges and wishes to improve their well-being
+
+          through woodworking in a social setting. Suitable for those aged 18 years or older.\"\n"
+        summary: "Free six-week Thursday woodworking course in the farm workshop for adults managing mild to moderate mental health difficulties."
+        confidence: "high"
+    notes: "Read through the BookThatApp schedule endpoint the calendar widget calls, as the hint describes: 956 bookable slots across 37 programmes to 30 June 2027. Slots are grouped into one row per programme and recurrences are not expanded. Prices, body text, images and the farm's own category tags came from https://windmillhillcityfarm.org.uk/products.json?limit=250, a second discovered route worth adding as an `api` route alongside the schedule one — it carries the description text the calendar never shows. Nothing here is billed as a bank holiday event and no altered hours are printed anywhere, but the booking calendar does show five sessions running across 29-31 August, including both Monday classes on the bank holiday itself: Pilates 09:30 and Shorinji Kempo 18:00. \"Farm Club\", the Monday summer-holiday session the 17 August run recorded, has no slots after 24 August — the holiday programme has finished. Two rows where the copy and the calendar disagree are marked `confidence: medium`: Compost Cafe says \"first Friday of the month\" but is scheduled on the last Friday, and Scribble & Sketch says \"Saturdays once a month\" but its next date is a Sunday. Where a £0.00 booking product carries no wording about being free, `price` is omitted rather than guessed."
+  - sourceId: "family/st-werburghs-city-farm"
+    fetch:
+      ok: true
+      url: "https://swcityfarm.co.uk/events/"
+      status: 200
+    events:
+      - id: "family/st-werburghs-city-farm#261b99445d"
+        sourceId: "family/st-werburghs-city-farm"
+        title: "Women's Hearth & Drum Circle with Starshine Roots"
+        occurrence:
+          kind: "recurring"
+          pattern: "First Tuesday of every month"
+        status: "scheduled"
+        url: "https://starshineroots.org/events/womens-hearth-drum-circle"
+        tags:
+          - "wellbeing"
+          - "community"
+          - "workshop"
+        raw: "**First Tuesday of every month** – Women's Hearth & Drum Circle with Starshine Roots.
+
+          [Tickets](https://starshineroots.org/events/womens-hearth-drum-circle)\n"
+        summary: "A monthly women's drum circle held at the farm by Starshine Roots, on the first Tuesday of each month. The farm prints no time or price; tickets are handled on the organiser's own site."
+        confidence: "medium"
+      - id: "family/st-werburghs-city-farm#5dbe24b195"
+        sourceId: "family/st-werburghs-city-farm"
+        title: "Autumn Fair"
+        occurrence:
+          kind: "single"
+          date: "2026-10-17"
+        status: "scheduled"
+        tags:
+          - "community"
+          - "family"
+          - "seasonal"
+        raw: "**Autumn Fair – 17th October 2026.** \"More information on these to follow…\"
+
+
+          Listed under \"DON'T MISS OUR FABULOUS SEASONAL fairs\".\n"
+        summary: "The farm's autumn seasonal fair. The date is fixed but nothing else has been published yet, and the entry carries no link of its own."
+        confidence: "high"
+      - id: "family/st-werburghs-city-farm#bc7546b2ba"
+        sourceId: "family/st-werburghs-city-farm"
+        title: "Winter Fair"
+        occurrence:
+          kind: "single"
+          date: "2026-12-05"
+        status: "scheduled"
+        tags:
+          - "community"
+          - "family"
+          - "seasonal"
+        raw: "**Winter Fair – 5th December 2026.** \"More information on these to follow…\"
+
+
+          Listed under \"DON'T MISS OUR FABULOUS SEASONAL fairs\".\n"
+        summary: "The farm's winter seasonal fair, dated but not yet detailed, and with no link of its own on the page."
+        confidence: "high"
+    notes: "Nothing at all for the bank holiday weekend: the page is a year calendar (\"2026 Calendar of Events\") with four entries, and its next dated item is the Autumn Fair on 17 October. The top item under \"Upcoming Events\" is still The Handlebards' As You Like It at Boiling Wells on Sunday 21 June 2026, which has passed — not recorded here, since recording a finished show as undated would leave it looking current forever. Checked two further pages for bank holiday programming and altered hours and found neither: /courses-workshops/ carries only online gardening courses with no dated sessions, and /directions-opening-times/ prints \"Open to the public 7 days a week: 9AM - 5PM During Summer, 9AM - 4PM During Winter\" with closures listed only for the festive period, plus \"The Cafe is open Thursday to Monday from 9.30-3.30. It's closed on Tuesdays and Wednesdays.\" No bank holiday variation is printed, so none is inferred. Entry is free with \"a £5 donation ... encouraged every time you visit\"."
+  - sourceId: "family/puppet-place"
+    fetch:
+      ok: true
+      url: "https://puppetplace.org/whats-on/"
+      status: 200
+    events: []
+    notes: "Fetched and read in full, and there is genuinely nothing upcoming: every item on /whats-on/ sits under the page's \"PAST EVENTS\" heading, the most recent being \"Introduction to stop motion puppet making, Saturday 1 & Sunday 2 August\" (2026 — 1 August 2026 was a Saturday), which had already passed at the 17 August harvest and is still the newest thing on the page. No bank holiday programming, no altered hours, and no events section above the archive. The page's own answer is that it does not use this page: \"The best way to keep up-to-date with What's On at Puppet Place is to follow us on our social media channels: Instagram & Facebook.\" Worth a `hints` entry for stage 1 that this source may simply not be a listings page, and that its Instagram is where the programme lives. Access note printed on the page: the building \"is not currently suitable for wheelchair users or for people who are unsteady on their feet as the floors are uneven ... and we do not have a wheelchair accessible toilet or baby changing facilities on site.\""
+  - sourceId: "family/childrens-scrapstore"
+    fetch:
+      ok: true
+      url: "https://www.childrensscrapstore.co.uk/free-events?format=json-pretty"
+      status: 200
+    events:
+      - id: "family/childrens-scrapstore#03ad591fde"
+        sourceId: "family/childrens-scrapstore"
+        title: "Messy Play"
+        subcategory: "Paid Events"
+        occurrence:
+          kind: "recurring"
+          pattern: "every Tuesday & Wednesday, from 10:15am - 11:30am"
+          startTime: "10:15"
+        status: "scheduled"
+        url: "https://www.childrensscrapstore.co.uk/messy-play"
+        image: "https://images.squarespace-cdn.com/content/v1/59e76da12aeba56dc7e75c2b/1776765941404-VEYLWQR0QO4D1TGTVX5T/ES+Green+Shirt+with+Suns+Paint+Wall+01.JPG"
+        price:
+          free: false
+          currency: "GBP"
+        tags:
+          - "kids"
+          - "family"
+          - "hands-on"
+          - "weekly"
+          - "booking-required"
+        raw: "**Under 5s Messy Play** — \"Come and explore the world through different messy and
+
+          sensory activities with us every **Tuesday & Wednesday**, from **10:15am - 11:30am**!
+
+          Tuesdays are taste safe and have no small parts, Wednesdays are maximum mess with
+
+          paint, glue, scissors & some small parts. Older siblings always welcome at messy play!
+
+
+          All bookings include one-day membership to the Scrapstore Warehouse, where you can
+
+          collect up to a basket of scrap for a donation of £7 (less if the basket isn't full).
+
+          Booking in advance is recommended to guarantee a place.\"\n"
+        summary: "Child-led sensory play for under-fives twice a week, with Tuesdays taste-safe and small-part-free and Wednesdays the messy one. Booking includes a day's warehouse membership."
+        confidence: "high"
+      - id: "family/childrens-scrapstore#6bdb1f9dfb"
+        sourceId: "family/childrens-scrapstore"
+        title: "Friday Craft"
+        subcategory: "Paid Events"
+        occurrence:
+          kind: "recurring"
+          pattern: "weekly, every Friday, from 10:15am - 11:30am"
+          startTime: "10:15"
+        status: "scheduled"
+        url: "https://www.childrensscrapstore.co.uk/friday-craft-session"
+        image: "https://images.squarespace-cdn.com/content/v1/59e76da12aeba56dc7e75c2b/1776765082324-XSZY693NET0FHX2T4FVC/AJ+Brown+Stripey+Jumper+Sticky+Wall+06.JPG"
+        price:
+          free: false
+          currency: "GBP"
+        tags:
+          - "kids"
+          - "crafts"
+          - "family"
+          - "weekly"
+          - "booking-required"
+        raw: "**Weekly Friday Craft Session** — \"Welcome to our Friday Craft session, which runs
+
+          **weekly** from **10:15am - 11:30am**! Every Friday, we will provide a selection of
+
+          sustainable craft ideas for you and your child to explore. All our sessions are open
+
+          ended and child led.
+
+
+          Please note: These sessions are aimed at children aged 3+. Younger siblings are
+
+          welcome, especially in school holidays, but please be aware that activities offered
+
+          are generally table-based craft activities. There will be scissors, glue, paint, tape
+
+          and small pieces, and we sometimes use glue guns.
+
+
+          All bookings include one-day membership to the Scrapstore Warehouse.\"\n"
+        summary: "Open-ended Friday craft session for children aged three and up, with scrap materials and prompts laid out in the Playroom. Includes a day's warehouse membership."
+        confidence: "high"
+      - id: "family/childrens-scrapstore#9871ac86e7"
+        sourceId: "family/childrens-scrapstore"
+        title: "Super Saturday! September 2026"
+        subcategory: "Free Events"
+        occurrence:
+          kind: "single"
+          date: "2026-09-05"
+          startTime: "10:00"
+          endTime: "11:30"
+        status: "scheduled"
+        url: "https://www.childrensscrapstore.co.uk/free-events/super-saturday-september-2026"
+        image: "https://images.squarespace-cdn.com/content/v1/59e76da12aeba56dc7e75c2b/1743771195705-H4SGWKBW9CPP1ES38PJ1/Super+Saturday+Website+Event+Image.png"
+        price:
+          free: true
+          text: "FREE"
+          currency: "GBP"
+        tags:
+          - "family"
+          - "kids"
+          - "crafts"
+          - "free-entry"
+          - "drop-in"
+        raw: "**Super Saturday! September 2026** — Saturday 5 September 2026, 10:00 - 11:30.
+
+
+          \"Welcome to Super Saturday! Check out what FREE family activities are running on the
+
+          1st Saturday of every month.\"\n"
+        summary: "The Scrapstore's monthly free drop-in craft morning at Scrapstore House in St Werburghs, on the first Saturday of the month."
+        confidence: "high"
+      - id: "family/childrens-scrapstore#c3052b9ea4"
+        sourceId: "family/childrens-scrapstore"
+        title: "Picnic in the Park"
+        subcategory: "Free Events"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+          startTime: "14:00"
+          endTime: "17:30"
+        status: "scheduled"
+        venue:
+          name: "Picnic in the Park, St Werburghs"
+          area: "St Werburghs"
+        url: "https://www.childrensscrapstore.co.uk/free-events/2026/9/12/picnic-in-the-park"
+        image: "https://images.squarespace-cdn.com/content/v1/59e76da12aeba56dc7e75c2b/1784033148944-DV8YXCW5ZFLYFIA2N33O/Picnic+in+the+Park+Website.jpg"
+        price:
+          free: true
+          text: "FREE"
+          currency: "GBP"
+        tags:
+          - "family"
+          - "kids"
+          - "crafts"
+          - "outdoor"
+          - "free-entry"
+        raw: "**Picnic in the Park** — Saturday 12 September 2026, 14:00 - 17:30.
+
+
+          \"Join us for some fun free crafting at Picnic in the Park in St Werburghs from 2:00pm
+
+          - 5:30pm! There'll be lots of great activities on during the community mini festival,
+
+          with Children's Scrapstore running a scrap hat making sessions so you can enjoy the
+
+          festival in scrappy style! These sessions are drop-in on a first come, first served
+
+          basis. No unaccompanied children.\"\n"
+        summary: "Scrapstore takes free scrap hat making to the Picnic in the Park community mini festival in St Werburghs. Drop-in, first come first served."
+        confidence: "high"
+      - id: "family/childrens-scrapstore#6f1cf82711"
+        sourceId: "family/childrens-scrapstore"
+        title: "Super Scrap Costume Crafts! Saturday Morning October 2026"
+        subcategory: "Free Events"
+        occurrence:
+          kind: "single"
+          date: "2026-10-03"
+          startTime: "10:00"
+          endTime: "11:30"
+        status: "scheduled"
+        url: "https://www.childrensscrapstore.co.uk/free-events/super-scrap-costume-crafts-saturday-morning"
+        image: "https://images.squarespace-cdn.com/content/v1/59e76da12aeba56dc7e75c2b/1787927340286-E9YMONFFO3G9S7YYE5FC/Super+Scrap+Costume+Crafts%21+Website+Event+Image.png"
+        price:
+          free: true
+          text: "FREE"
+          currency: "GBP"
+        tags:
+          - "family"
+          - "kids"
+          - "crafts"
+          - "free-entry"
+          - "drop-in"
+        raw: "**Super Scrap Costume Crafts! Saturday Morning October 2026** — Saturday 3 October
+
+          2026, 10:00 - 11:30. FREE.
+
+
+          \"As part of being a hub for Sustainable Fashion Week, we will be decorating white
+
+          gauze scarves saved from waste with scrap fabrics, pens and sticky back to create an
+
+          unique outfit that you can wear over your normal clothes! This free drop-in activity
+
+          is aimed at primary school aged children and their families. No unaccompanied
+
+          children. This activity is drop-in on a first-come, first-served basis. There is no
+
+          guarantee of a place when extremely busy. Children's Scrapstore will also be a host
+
+          venue for St Werburghs Arts Trail this weekend.\"\n"
+        summary: "Free Sustainable Fashion Week drop-in for primary-aged children, decorating waste-saved gauze scarves into wearable costumes. One of four sessions across the Arts Trail weekend."
+        confidence: "high"
+      - id: "family/childrens-scrapstore#8fc6befb75"
+        sourceId: "family/childrens-scrapstore"
+        title: "Super Scrap Costume Crafts! Saturday Afternoon October 2026"
+        subcategory: "Free Events"
+        occurrence:
+          kind: "single"
+          date: "2026-10-03"
+          startTime: "14:00"
+          endTime: "15:30"
+        status: "scheduled"
+        url: "https://www.childrensscrapstore.co.uk/free-events/super-scrap-costume-crafts-saturday-noon"
+        image: "https://images.squarespace-cdn.com/content/v1/59e76da12aeba56dc7e75c2b/1787927511738-GKO6S5024D1EIZ7XTQ3P/Super+Scrap+Costume+Crafts%21+Website+Event+Image.png"
+        price:
+          free: true
+          text: "FREE"
+          currency: "GBP"
+        tags:
+          - "family"
+          - "kids"
+          - "crafts"
+          - "free-entry"
+          - "drop-in"
+        raw: "**Super Scrap Costume Crafts! Saturday Afternoon October 2026** — Saturday 3 October
+
+          2026, 14:00 - 15:30. FREE.
+
+
+          \"As part of being a hub for Sustainable Fashion Week, we will be decorating white
+
+          gauze scarves saved from waste with scrap fabrics, pens and sticky back to create an
+
+          unique outfit that you can wear over your normal clothes! This free drop-in activity
+
+          is aimed at primary school aged children and their families.\"\n"
+        summary: "The Saturday afternoon repeat of the free costume-crafting drop-in for Sustainable Fashion Week."
+        confidence: "high"
+      - id: "family/childrens-scrapstore#c1f8e31f5f"
+        sourceId: "family/childrens-scrapstore"
+        title: "Super Scrap Costume Crafts! Sunday Morning October 2026"
+        subcategory: "Free Events"
+        occurrence:
+          kind: "single"
+          date: "2026-10-04"
+          startTime: "10:00"
+          endTime: "11:30"
+        status: "scheduled"
+        url: "https://www.childrensscrapstore.co.uk/free-events/super-scrap-costume-crafts-sunday-morning"
+        image: "https://images.squarespace-cdn.com/content/v1/59e76da12aeba56dc7e75c2b/1787927546061-4FV3IVX5Y5NSE65F87WN/Super+Scrap+Costume+Crafts%21+Website+Event+Image.png"
+        price:
+          free: true
+          text: "FREE"
+          currency: "GBP"
+        tags:
+          - "family"
+          - "kids"
+          - "crafts"
+          - "free-entry"
+          - "drop-in"
+        raw: "**Super Scrap Costume Crafts! Sunday Morning October 2026** — Sunday 4 October 2026,
+
+          10:00 - 11:30. FREE.
+
+
+          \"As part of being a hub for Sustainable Fashion Week, we will be decorating white
+
+          gauze scarves saved from waste with scrap fabrics, pens and sticky back to create an
+
+          unique outfit that you can wear over your normal clothes!\"\n"
+        summary: "Sunday morning session of the free Sustainable Fashion Week costume drop-in, on the second day of the St Werburghs Arts Trail weekend."
+        confidence: "high"
+      - id: "family/childrens-scrapstore#cd8ba08914"
+        sourceId: "family/childrens-scrapstore"
+        title: "Super Scrap Costume Crafts! Sunday Afternoon October 2026"
+        subcategory: "Free Events"
+        occurrence:
+          kind: "single"
+          date: "2026-10-04"
+          startTime: "14:00"
+          endTime: "15:30"
+        status: "scheduled"
+        url: "https://www.childrensscrapstore.co.uk/free-events/super-scrap-costume-crafts-sunday-noon"
+        image: "https://images.squarespace-cdn.com/content/v1/59e76da12aeba56dc7e75c2b/1787927620786-HMOE5BMJDSBBA862TAFN/Super+Scrap+Costume+Crafts%21+Website+Event+Image.png"
+        price:
+          free: true
+          text: "FREE"
+          currency: "GBP"
+        tags:
+          - "family"
+          - "kids"
+          - "crafts"
+          - "free-entry"
+          - "drop-in"
+        raw: "**Super Scrap Costume Crafts! Sunday Afternoon October 2026** — Sunday 4 October 2026,
+
+          14:00 - 15:30. FREE.
+
+
+          \"Afternoon sessions enabling families to craft sustainable fashion items ... decorating
+
+          white gauze scarves saved from waste with scrap fabrics, pens and sticky back.\"\n"
+        summary: "The last of the four free costume-crafting drop-ins across the Sustainable Fashion Week and Arts Trail weekend."
+        confidence: "high"
+      - id: "family/childrens-scrapstore#01befc270e"
+        sourceId: "family/childrens-scrapstore"
+        title: "Super Saturday! November 2026"
+        subcategory: "Free Events"
+        occurrence:
+          kind: "single"
+          date: "2026-11-07"
+          startTime: "10:00"
+          endTime: "11:30"
+        status: "scheduled"
+        url: "https://www.childrensscrapstore.co.uk/free-events/super-saturday-november-2026"
+        image: "https://images.squarespace-cdn.com/content/v1/59e76da12aeba56dc7e75c2b/1743771195705-H4SGWKBW9CPP1ES38PJ1/Super+Saturday+Website+Event+Image.png"
+        price:
+          free: true
+          text: "FREE"
+          currency: "GBP"
+        tags:
+          - "family"
+          - "kids"
+          - "crafts"
+          - "free-entry"
+          - "drop-in"
+        raw: "**Super Saturday! November 2026** — Saturday 7 November 2026, 10:00 - 11:30.
+
+
+          \"Welcome to Super Saturday! Check out what FREE family activities are running on the
+
+          1st Saturday of every month.\"\n"
+        summary: "November's free first-Saturday family craft morning at Scrapstore House."
+        confidence: "high"
+      - id: "family/childrens-scrapstore#a6f9723fd5"
+        sourceId: "family/childrens-scrapstore"
+        title: "Super Saturday! December 2026"
+        subcategory: "Free Events"
+        occurrence:
+          kind: "single"
+          date: "2026-12-05"
+          startTime: "10:00"
+          endTime: "11:30"
+        status: "scheduled"
+        url: "https://www.childrensscrapstore.co.uk/free-events/super-saturday-december-2026"
+        image: "https://images.squarespace-cdn.com/content/v1/59e76da12aeba56dc7e75c2b/1743771195705-H4SGWKBW9CPP1ES38PJ1/Super+Saturday+Website+Event+Image.png"
+        price:
+          free: true
+          text: "FREE"
+          currency: "GBP"
+        tags:
+          - "family"
+          - "kids"
+          - "crafts"
+          - "free-entry"
+          - "drop-in"
+        raw: "**Super Saturday! December 2026** — Saturday 5 December 2026, 10:00 - 11:30.
+
+
+          \"Welcome to Super Saturday! Check out what FREE family activities are running on the
+
+          1st Saturday of every month.\"\n"
+        summary: "December's free first-Saturday family craft morning at Scrapstore House."
+        confidence: "high"
+    notes: "Nothing free is on over 29-31 August. The summer-holiday programme has finished: the most recent past entries are Super Saturday! August (1 Aug), Scrapstore Fun at M Shed (4 Aug) and Playday 2026 (5 Aug), and the next free event is Super Saturday! on 5 September. No bank holiday opening statement appears on either page. Read the catalogued /free-events through Squarespace's `?format=json-pretty` view, which returns the whole collection — upcoming and past, with each event's full body text, image and canonical URL — in a single fetch; a good `api` route for stage 1 to add. Then /events for the paid weekly sessions per the hint, plus /messy-play and /friday-craft-session for their times and terms (4 pages in total). Neither weekly page prints a price; the /events page heads them \"Paid Events\", so `price.free` is false with no text rather than a guessed figure. Two upcoming rows share a date and differ only by session, and the four October costume craft sessions are separate listings on the site rather than one event, so they are kept apart here as the source keeps them apart."

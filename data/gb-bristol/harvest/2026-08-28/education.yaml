@@ -1,0 +1,593 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-08-28"
+category: "education"
+harvestedAt: "2026-08-28T17:20:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "4"
+model: "claude-opus-5"
+observations:
+  - sourceId: "education/university-of-bristol"
+    fetch:
+      ok: true
+      url: "https://www.bristol.ac.uk/events/"
+      status: 200
+    events: []
+    notes: "Still nothing server-rendered, exactly as the catalogue hint predicts. The \"Forthcoming events\" block is followed only by the sentence \"If no events appear, you need to update your cookie preferences\" — the Timely embed never runs for a fetcher, so a genuine zero rather than a miss. One navigation fetch was spent on https://www.bristol.ac.uk/university/150-years/events/ , linked from the alumni page as the University's 150th-anniversary public programme. It returns 200 but its <main> element is empty (305 bytes of markup, no text), so that page is client-rendered too. For stage 1: the 150-years events path is the most promising public-programme URL on this domain, but it needs a JS-capable fetcher just as /events/ does. Nothing on 29-31 August."
+  - sourceId: "education/university-of-bristol-alumni"
+    fetch:
+      ok: true
+      url: "https://www.bristol.ac.uk/alumni/events/"
+      status: 200
+    events:
+      - id: "education/university-of-bristol-alumni#da9c132b76"
+        sourceId: "education/university-of-bristol-alumni"
+        title: "Bristol and the Brain - 150th Celebration: Alumni Research Lecture"
+        occurrence:
+          kind: "single"
+          date: "2026-10-09"
+          startTime: "18:30"
+          endTime: "22:00"
+        status: "scheduled"
+        timesText: "6.30 pm - 10.00 pm; registration 6:30, discussion 7:00-8:30, networking and food 8:30-9:30"
+        venue:
+          name: "Bill Brown Theatre, Sloane Robinson Building"
+          area: "Temple Quarter"
+          address:
+            street: "Sloane Robinson Building, Temple Quarter Enterprise Campus"
+            city: "Bristol"
+            postcode: "BS1 6BX"
+        url: "https://www.bristol.ac.uk/alumni/events/2026/bristol-and-the-brain---150th-celebration-alumni-research-lecture-oct-2026.html"
+        price:
+          free: true
+          text: "Free for all alumni; register via Eventbrite"
+        tags:
+          - "talk"
+          - "free-entry"
+          - "booking-required"
+        raw: "**Bristol and the Brain - 150th Celebration: Alumni Research Lecture**
+
+
+          9 October 2026, 6.30 PM - 9 October 2026, 10.00 PM
+
+
+          Bill Brown Theatre, Sloane Robinson Building, Temple Quarter Enterprise
+
+          Campus, BS1 6BX\n"
+        summary: "Neuroscience and psychology researchers on 150 years of brain research at Bristol, held on the eve of the University's 150th birthday and doubling as a first look inside the new Temple Quarter Enterprise Campus. Free, with refreshments afterwards."
+        description: "Join us for an exclusive evening celebrating 150 years of pioneering brain
+
+          research at the University of Bristol. Held on the eve of the University's
+
+          150th birthday, this special event offers alumni and supporters the chance
+
+          to be among the first to experience the new Temple Quarter Enterprise
+
+          Campus.
+
+
+          Hear from leading academics as they explore exciting advances in
+
+          Neuroscience and Psychology, from memory to movement, and discuss the
+
+          discoveries shaping the future of human health and wellbeing. Afterwards,
+
+          enjoy refreshments, reconnect with fellow alumni and explore Bristol's
+
+          newest campus.
+
+
+          As an alumnus, you are an important part of Bristol's story of innovation,
+
+          ambition and hope. Join us to celebrate the past and future of research on
+
+          campus.
+
+
+          This event showcasing the best of Bristol research has been made possible
+
+          with generous funding from the Bristol Collegiate Research Society.
+
+
+          **Schedule**
+
+
+          - 6:30 pm - 7:00 pm: Registration opens
+
+          - 7:00 pm - 08:30 pm: Bristol and the Brain discussion begins
+
+          - 8:30 pm - 9:30 pm: Networking and Food
+
+          - 10:00 pm: Event close
+
+
+          **Register.** This event is free for all alumni. Register via Eventbrite.\n"
+        confidence: "high"
+      - id: "education/university-of-bristol-alumni#0c4cedff81"
+        sourceId: "education/university-of-bristol-alumni"
+        title: "150 years young"
+        occurrence:
+          kind: "single"
+          date: "2026-10-10"
+        status: "scheduled"
+        url: "https://www.bristol.ac.uk/university/150-years/events/"
+        tags:
+          - "community"
+          - "heritage"
+        raw: "**150 years young**
+
+
+          Join us on Saturday 10 October for a public programme of events
+
+          celebrating 150 years of the University of Bristol and the opening of
+
+          Temple Quarter Enterprise Campus (TQEC).\n"
+        summary: "A one-day public programme marking the University of Bristol's 150th anniversary and the opening of the Temple Quarter Enterprise Campus. The alumni page announces the date; the linked programme page lists nothing a fetcher can read, so what is actually on is not yet known."
+        confidence: "medium"
+      - id: "education/university-of-bristol-alumni#35020e54fc"
+        sourceId: "education/university-of-bristol-alumni"
+        title: "Film and Television Alumni Networking Event, Bristol"
+        occurrence:
+          kind: "single"
+          date: "2026-11-21"
+          startTime: "14:00"
+          endTime: "17:00"
+        status: "scheduled"
+        venue:
+          name: "Richmond Building, 5th and 6th floors"
+          area: "Clifton"
+          address:
+            street: "105-115 Queens Road"
+            city: "Bristol"
+            postcode: "BS8 1LN"
+        url: "https://www.bristol.ac.uk/alumni/events/2026/partnership-event-film-and-television-alumni-networking-event-nov-2026.html"
+        price:
+          free: true
+          text: "Free place, reserved via a booking form"
+        tags:
+          - "talk"
+          - "free-entry"
+          - "booking-required"
+          - "young-people"
+        raw: "**Film and Television Alumni Networking Event, Bristol**
+
+
+          21 November 2026, 2.00 PM - 21 November 2026, 5.00 PM
+
+
+          5th and 6th Floor of the Richmond Building, 105-115 Queens Road, Bristol
+
+          BS8 1LN\n"
+        summary: "Film and Television graduates return to the Richmond Building to meet final-year and MA students over drinks, with a panel on career routes into the industry. Aimed at department alumni rather than the general public."
+        description: "Alumni of the Department of Film and Television are invited to their alumni
+
+          networking event.
+
+
+          This event has been organised primarily for their current third-year
+
+          undergraduate and MA students, providing them with the opportunity to
+
+          connect with alumni working across the film and television industry, gain
+
+          valuable insights, and explore potential career pathways.
+
+
+          Don't miss this fantastic opportunity to reconnect with fellow graduates,
+
+          share your experiences since leaving the University of Bristol, and expand
+
+          your professional network in an informal setting over drinks and nibbles.
+
+
+          The Department are looking for a small number of alumni to take part in a
+
+          panel discussion during the event, sharing their career journeys,
+
+          experiences of working in the industry, and advice for students preparing
+
+          to enter the profession. If you are interested in joining the panel, they
+
+          would love to hear from you.
+
+
+          **Booking.** To reserve your free place, sign up via the booking form.\n"
+        confidence: "high"
+      - id: "education/university-of-bristol-alumni#c4ac77f89f"
+        sourceId: "education/university-of-bristol-alumni"
+        title: "Celebrating 20 years of Widening Participation, Bristol"
+        occurrence:
+          kind: "single"
+          date: "2026-12-02"
+          startTime: "16:00"
+          endTime: "18:00"
+        status: "scheduled"
+        venue:
+          name: "Wills Memorial Building"
+          area: "Clifton"
+          address:
+            street: "Queen's Road"
+            city: "Bristol"
+            postcode: "BS8 1RJ"
+        url: "https://www.bristol.ac.uk/alumni/events/2026/partnership-event-celebrating-20-years-of-widening-participation-dec-2026.html"
+        price:
+          free: true
+          text: "Free to attend; sign up via Eventbrite with the code 'Alumni'"
+        tags:
+          - "free-entry"
+          - "booking-required"
+          - "community"
+        raw: "**Celebrating 20 years of Widening Participation, Bristol**
+
+
+          2 December 2026, 4.00 PM - 2 December 2026, 6.00 PM
+
+
+          Wills Memorial Building, Queen's Road, Bristol BS8 1RJ\n"
+        summary: "Twenty years of Access to Bristol and ten of Bristol Scholars marked with stories from staff, school partners and past participants at the Wills Memorial Building. Restricted: open only to alumni of those two programmes."
+        description: "**From access to achievement: Celebrating 20 years of Access to Bristol and
+
+          10 years of Bristol Scholars**
+
+
+          Join us as we celebrate a milestone year for widening participation at the
+
+          University of Bristol.
+
+
+          Marking 20 years since the launch of Access to Bristol and 10 years of the
+
+          Bristol Scholars programme — alongside the University's 150th anniversary —
+
+          this special event brings together colleagues, partners, and students past
+
+          and present to reflect on impact, share stories, and look ahead to the
+
+          future.
+
+
+          We warmly invite university staff, school and college partners, current
+
+          participants, and alumni of these programmes who have progressed to study or
+
+          graduate from Bristol and beyond.
+
+
+          Enjoy light refreshments while connecting with the community that has helped
+
+          shape two decades of opportunity and achievement.
+
+
+          Please note, this event is exclusively for alumni that completed either
+
+          Access to Bristol or Bristol Scholars.
+
+
+          **Booking.** This event is free to attend. Sign up via Eventbrite and enter
+
+          the code 'Alumni'.\n"
+        confidence: "high"
+    notes: "Nine dated events listed, server-rendered as the hint says, with full dates including the year — no year inference was needed. Five were dropped as out-of-area: Welcome to Mumbai Enterprise Campus (10 Sep), Alumni Meet-up in Accra, Ghana (18 Sep), 150th Celebration Bristol Alumni Lunch in Melbourne (4 Oct), Delhi Global Gathering (10 Oct) and Badock Hall and Wills Hall London Reception at the House of Lords (22 Oct). A sixth, \"2026 Global Gatherings - 150th Celebration\" (6 Sep - 29 Oct), was also dropped: the page gives its location as \"Cities around the world\", so it is not a Bristol listing, though a human may want it as the umbrella for the 150th strand. The index carries only title, date and address, so per §3 the three Bristol event pages were opened for `description` — three fetches, all of the Bristol programme. The fourth event here is the \"150 years young\" promotional block on this same page, which prints a date (\"Saturday 10 October\") and links to /university/150-years/events/; that linked page renders nothing, so it is recorded at medium confidence with no description. Nothing at all on 29-31 August — this source is quiet over the bank holiday, which is a real result. Its earliest date is 9 October."
+  - sourceId: "education/bristol-ideas"
+    fetch:
+      ok: false
+      url: "https://www.bristolideas.co.uk/events/"
+      status: 403
+      error: "Cloudflare bot interstitial — a 1,395-byte 'Just a moment...' page with a spinner and a noscript refresh to ?ki-cf-botcl=1, served to a browser user-agent as well as a plain fetch"
+    events: []
+    notes: "The catalogue hint's 403 was reproduced exactly, and the browser user-agent retry described in §2 produced the same 1.4 KB interstitial rather than real HTML, so this is a genuine wall and was not retried further. Two handovers for stage 1, and the second matters more than the first: (1) this source is very likely dead. The literature catalogue carries `literature/bristol-ideas` at the same domain with `status: closed` and a note recording the organisation's own homepage text, \"Bristol Ideas closed 30 April 2024\". `education/bristol-ideas` points at the same host and is still `provisional`, so the two entries contradict each other and the education one should probably be closed to match. Its `notes` already ask for a browser confirmation before promoting; the literature entry is that confirmation. (2) if the organisation really did close in 2024, the \"autumn festival of ideas season\" this run went looking for does not exist, and the strand that continues — the Festival of Economics — is under the University of Bristol's Economics Observatory, which the literature notes flag as a separate source worth cataloguing."
+  - sourceId: "education/wea-bristol"
+    fetch:
+      ok: true
+      url: "https://www.wea.org.uk/courses?location%5Bvalue%5D=Bristol&location%5Bdistance%5D%5Bfrom%5D=10"
+      status: 200
+    events:
+      - id: "education/wea-bristol#d23d079f20"
+        sourceId: "education/wea-bristol"
+        title: "Award in ESOL Skills for Life (Speaking and Listening) Entry 1"
+        subcategory: "ESOL"
+        occurrence:
+          kind: "run"
+          start: "2026-09-07"
+          end: "2026-12-16"
+        status: "sold-out"
+        timesText: "Mon 07/09/2026 - Wed 16/12/2026, 9:30am - 12:00pm, 39 sessions"
+        venue:
+          name: "WEA York Court (Bristol)"
+          address:
+            street: "7 York Court, Wilder Street"
+            city: "Bristol"
+            postcode: "BS2 8QH"
+        url: "https://www.wea.org.uk/courses/esol/7-september-award-esol-skills-life-speaking-and-listening-entry-1"
+        price:
+          free: false
+          text: "Funding available - £780.00"
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "languages"
+          - "beginners"
+        raw: "**Award in ESOL Skills for Life (Speaking and Listening) Entry 1**
+
+
+          This course is funded by the West of England Combined Authority and is only
+
+          available to residents living within the West of England Combined Authority
+
+          area.
+
+
+          Learn basic communication skills with this ESOL speaking and listening
+
+          course. This English course is for speakers of other languages. It will help
+
+          you learn essential speaking and listening skills to be able to communicate
+
+          in English.
+
+
+          Entry 1 ESOL courses help people who are just starting to learn English.
+
+          This course will help you gain confidence to speak about basic topics and
+
+          understand core words. There are also reading and writing courses at this
+
+          level.
+
+
+          Dates: Mon 07/09/2026 - Wed 16/12/2026 · Times: 9:30am - 12:00pm ·
+
+          Duration: 39 sessions · Tutor: Sasha Novikova · Course code: Q00026411 ·
+
+          In venue · 0 places remaining · Status: Waiting list ·
+
+          Fee range: Funding available - £780.00\n"
+        summary: "Daytime beginners' English for speakers of other languages, running three mornings a week from early September to mid-December at WEA's York Court centre. Currently full, with a waiting list; WECA funding covers the fee for residents."
+        confidence: "high"
+      - id: "education/wea-bristol#e99d3a1134"
+        sourceId: "education/wea-bristol"
+        title: "Award in ESOL Skills for Life (Speaking and Listening) Entry 1"
+        subcategory: "ESOL"
+        occurrence:
+          kind: "run"
+          start: "2026-09-08"
+          end: "2026-12-17"
+        status: "scheduled"
+        timesText: "Tue 08/09/2026 - Thu 17/12/2026, 7:00pm - 9:30pm, 39 sessions"
+        venue:
+          name: "WEA York Court (Bristol)"
+          address:
+            street: "7 York Court, Wilder Street"
+            city: "Bristol"
+            postcode: "BS2 8QH"
+        url: "https://www.wea.org.uk/courses/esol/8-september-award-esol-skills-life-speaking-and-listening-entry-1"
+        price:
+          free: false
+          text: "Funding available - £780.00"
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "languages"
+          - "beginners"
+        raw: "**Award in ESOL Skills for Life (Speaking and Listening) Entry 1**
+
+
+          This course is funded by the West of England Combined Authority and is only
+
+          available to residents living within the West of England Combined Authority
+
+          area.
+
+
+          Learn basic communication skills with this ESOL speaking and listening
+
+          course. This English course is for speakers of other languages. It will help
+
+          you learn essential speaking and listening skills to be able to communicate
+
+          in English.
+
+
+          Entry 1 ESOL courses help people who are just starting to learn English.
+
+          This course will help you gain confidence to speak about basic topics and
+
+          understand core words. There are also reading and writing courses at this
+
+          level.
+
+
+          Dates: Tue 08/09/2026 - Thu 17/12/2026 · Times: 7:00pm - 9:30pm ·
+
+          Duration: 39 sessions · Tutor: TBC · Course code: Q00026413 · In venue ·
+
+          6 places remaining · Status: Available ·
+
+          Fee range: Funding available - £780.00\n"
+        summary: "The evening run of WEA's beginners' ESOL speaking and listening course, starting 8 September and ending just before Christmas. Six places were left at the time of harvesting."
+        confidence: "high"
+      - id: "education/wea-bristol#80f5b81dc0"
+        sourceId: "education/wea-bristol"
+        title: "Award in ESOL Skills for Life (Speaking and Listening) Entry 2"
+        subcategory: "ESOL"
+        occurrence:
+          kind: "run"
+          start: "2026-09-08"
+          end: "2026-12-17"
+        status: "scheduled"
+        timesText: "Tue 08/09/2026 - Thu 17/12/2026, 39 sessions. Two sittings listed separately by WEA: 9:30am - 12:00pm (course Q00026414, 0 places remaining, waiting list) and 12:30pm - 3:00pm (course Q00026415, 9 places remaining, available)"
+        venue:
+          name: "WEA York Court (Bristol)"
+          address:
+            street: "7 York Court, Wilder Street"
+            city: "Bristol"
+            postcode: "BS2 8QH"
+        url: "https://www.wea.org.uk/courses/esol/8-september-award-esol-skills-life-speaking-and-listening-entry-2-0"
+        price:
+          free: false
+          text: "Funding available - £780.00"
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "languages"
+          - "beginners"
+        raw: "**Award in ESOL Skills for Life (Speaking and Listening) Entry 2**
+
+
+          This course is funded by the West of England Combined Authority and is only
+
+          available to residents living within the West of England Combined Authority
+
+          area.
+
+
+          Build on your communication skills with this ESOL speaking and listening
+
+          course. This English course for adults is aimed at speakers of other
+
+          languages. It will help you improve your speaking and listening skills to
+
+          communicate better in English.
+
+
+          Entry 2 ESOL courses are right for you if you have basic speaking and
+
+          listening skills in English. This course will help you gain confidence to
+
+          speak about everyday topics and improve your comprehension. There are also
+
+          reading and writing courses at this level.
+
+
+          Listed twice by WEA, same dates:
+
+          — Dates: Tue 08/09/2026 - Thu 17/12/2026 · Times: 9:30am - 12:00pm ·
+
+          \  39 sessions · Course code: Q00026414 · 0 places remaining · Waiting list
+
+          — Dates: Tue 08/09/2026 - Thu 17/12/2026 · Times: 12:30pm - 3:00pm ·
+
+          \  39 sessions · Course code: Q00026415 · 9 places remaining · Available
+
+
+          Fee range: Funding available - £780.00\n"
+        summary: "Second-step ESOL speaking and listening, running from 8 September to 17 December at York Court. WEA offers it as a morning group, now full, and an afternoon group that still had places."
+        confidence: "high"
+      - id: "education/wea-bristol#10977d82c6"
+        sourceId: "education/wea-bristol"
+        title: "Award in ESOL Skills for Life (Speaking and Listening) Level 1"
+        subcategory: "ESOL"
+        occurrence:
+          kind: "run"
+          start: "2026-09-08"
+          end: "2026-12-17"
+        status: "scheduled"
+        timesText: "Tue 08/09/2026 - Thu 17/12/2026, 12:30pm - 3:00pm, 39 sessions"
+        venue:
+          name: "WEA York Court (Bristol)"
+          address:
+            street: "7 York Court, Wilder Street"
+            city: "Bristol"
+            postcode: "BS2 8QH"
+        url: "https://www.wea.org.uk/courses/esol/8-september-award-esol-skills-life-speaking-and-listening-level-1"
+        price:
+          free: false
+          text: "Funding available - £780.00"
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "languages"
+        raw: "**Award in ESOL Skills for Life (Speaking and Listening) Level 1**
+
+
+          This course is funded by the West of England Combined Authority and is only
+
+          available to residents living within the West of England Combined Authority
+
+          area.
+
+
+          Develop confidence to interact with others in English, no matter the
+
+          situation. This ESOL course teaches you skills to help you communicate
+
+          verbally in English. It can support you in job interviews, social
+
+          conversations, or in your studies.
+
+
+          This ESOL level 1 speaking and listening course builds on skills you learnt
+
+          at entry 3. Gain tools to help you in conversations and sharpen your
+
+          listening skills.
+
+
+          Dates: Tue 08/09/2026 - Thu 17/12/2026 · Times: 12:30pm - 3:00pm ·
+
+          Duration: 39 sessions · Tutor: Sasha Novikova · Course code: Q00026422 ·
+
+          In venue · 10+ places remaining · Status: Available ·
+
+          Fee range: Funding available - £780.00\n"
+        summary: "The most advanced of WEA Bristol's autumn ESOL speaking and listening courses, for learners who have finished Entry 3 and want English for interviews, study and everyday conversation. Plenty of places left."
+        confidence: "high"
+      - id: "education/wea-bristol#4e02811f40"
+        sourceId: "education/wea-bristol"
+        title: "Award in ESOL Skills for Life (Speaking and Listening) Entry 3"
+        subcategory: "ESOL"
+        occurrence:
+          kind: "run"
+          start: "2026-09-10"
+          end: "2026-12-18"
+        status: "sold-out"
+        timesText: "Thu 10/09/2026 - Fri 18/12/2026, 12:30pm - 3:00pm, 38 sessions"
+        venue:
+          name: "WEA York Court (Bristol)"
+          address:
+            street: "7 York Court, Wilder Street"
+            city: "Bristol"
+            postcode: "BS2 8QH"
+        url: "https://www.wea.org.uk/courses/esol/10-september-award-esol-skills-life-speaking-and-listening-entry-3-0"
+        price:
+          free: false
+          text: "Funding available - £780.00"
+          currency: "GBP"
+        tags:
+          - "courses"
+          - "languages"
+        raw: "**Award in ESOL Skills for Life (Speaking and Listening) Entry 3**
+
+
+          This course is funded by the West of England Combined Authority and is only
+
+          available to residents living within the West of England Combined Authority
+
+          area.
+
+
+          Take your speaking and listening skills to the next level with this ESOL
+
+          course. Improving your communication skills will make you feel more
+
+          confident interacting with others in the UK.
+
+
+          ESOL entry 3 courses build on skills you learnt at entry 2. Gain confidence
+
+          speaking in new and familiar situations and learn tools for effective
+
+          communication.
+
+
+          Dates: Thu 10/09/2026 - Fri 18/12/2026 · Times: 12:30pm - 3:00pm ·
+
+          Duration: 38 sessions · Tutor: Sasha Novikova · Course code: Q00026416 ·
+
+          In venue · 0 places remaining · Status: Waiting list ·
+
+          Fee range: Funding available - £780.00\n"
+        summary: "Third-step ESOL speaking and listening across the autumn term, 38 afternoon sessions from 10 September. Full at the time of harvesting, with a waiting list."
+        confidence: "high"
+    notes: "\"Displaying 1 - 6 of 6\" — the Bristol filter is much thinner than the 18 references the catalogue recorded on 2026-08-17, and everything now showing is autumn-term ESOL at WEA York Court. All six are inside Bristol, so no row was dropped for the ten-mile radius the hint warns about. Dates are dd/mm/yyyy as the hint says, and every printed weekday checks out against 2026 (Mon 07/09, Tue 08/09, Thu 10/09, Wed 16/12, Thu 17/12, Fri 18/12), so the whole batch is high confidence. Six rows became five events: the two \"Entry 2\" courses both start Tue 08/09/2026 and would collide on a content-derived id, so they are recorded as one event with both sittings in `timesText` — 9:30am (course Q00026414, full, waiting list) and 12:30pm (course Q00026415, 9 places). The two Entry 1 courses start on different days and stay separate. No event pages were opened: this index already carries each course's full body text, times, venue, tutor, code, availability and fee, so a detail fetch would have added nothing. `description` is therefore left off throughout. Nothing on 29-31 August — WEA's autumn term starts on 7 September, so the bank holiday weekend is genuinely empty here. The listing exposes an availability filter (Available / In progress / Waiting list) and month/year filters, which would let a future run split full courses from open ones without extra fetches."

@@ -1,0 +1,1118 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-08-28"
+category: "art"
+harvestedAt: "2026-08-28T09:20:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "4"
+model: "claude-opus-5"
+observations:
+  - sourceId: "art/arnolfini"
+    fetch:
+      ok: true
+      url: "https://arnolfini.org.uk/whatson/"
+      status: 200
+    events:
+      - id: "art/arnolfini#36481dc234"
+        sourceId: "art/arnolfini"
+        title: "We Are Family | Arnold Art Cart"
+        subcategory: "Family"
+        occurrence:
+          kind: "ongoing"
+          start: "2024-07-22"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/arnold-art-cart/"
+        image: "https://arnolfini.org.uk/app/uploads/2021/08/ArtCartArnolfiniLisaWhitingPhoto-12-640x427.jpg"
+        tags:
+          - "family"
+          - "drop-in"
+          - "hands-on"
+          - "kids"
+        raw: "**Family** — From 22 July 2024
+
+
+          We Are Family | Arnold Art Cart\n"
+        summary: "A make-and-do trolley that lives in the building — open-ended family drop-in activity rather than a dated event."
+        confidence: "high"
+      - id: "art/arnolfini#246d797406"
+        sourceId: "art/arnolfini"
+        title: "Latinas in Bristol"
+        subcategory: "Workshops"
+        occurrence:
+          kind: "run"
+          start: "2025-12-09"
+          end: "2026-12-15"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/latinasinbristol-2/"
+        image: "https://arnolfini.org.uk/app/uploads/2024/06/2024-10-13_EatingStoriesWorkshop_RigoLuchi_115-06-640x427.jpg"
+        tags:
+          - "workshop"
+          - "community"
+          - "multi-day"
+        raw: "**Workshops** — 09 December 2025 - 15 December 2026
+
+
+          Latinas in Bristol\n"
+        summary: "A year-long strand of workshops with Bristol's Latin American women's community, running through to December."
+        confidence: "high"
+      - id: "art/arnolfini#95fb670e46"
+        sourceId: "art/arnolfini"
+        title: "Women’s Craft Club"
+        subcategory: "Workshops"
+        occurrence:
+          kind: "run"
+          start: "2026-01-01"
+          end: "2027-01-01"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/womenscraftclub-3/"
+        image: "https://arnolfini.org.uk/app/uploads/2022/06/Womens-Craft-Club-at-Arnolfini.-Image-by-Alice-Hendy-Photography-for-Arnolfini-all-rights-reserved-46-2-640x446.jpg"
+        tags:
+          - "crafts"
+          - "workshop"
+          - "community"
+        raw: "**Workshops** — 01 January 2026 - 01 January 2027
+
+
+          Women’s Craft Club\n"
+        summary: "A women's making group that runs across the whole year; the index gives the span but not the individual session dates."
+        confidence: "high"
+      - id: "art/arnolfini#16155bbef3"
+        sourceId: "art/arnolfini"
+        title: "Creative Wellbeing Workshops"
+        subcategory: "Wellbeing"
+        occurrence:
+          kind: "run"
+          start: "2026-01-29"
+          end: "2026-11-26"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/creativeshift/"
+        image: "https://arnolfini.org.uk/app/uploads/2021/07/creativeShift-wellbeing-workshop-at-Arnolfini.-Image-courtesy-of-creativeShift.-All-rights-reserved-13-480x640.jpg"
+        tags:
+          - "wellbeing"
+          - "workshop"
+          - "hands-on"
+        raw: "**Wellbeing** — 29 January - 26 November 2026
+
+
+          Creative Wellbeing Workshops\n"
+        summary: "creativeShift's making-for-wellbeing sessions, spread across most of the year."
+        confidence: "high"
+      - id: "art/arnolfini#b6a1d68188"
+        sourceId: "art/arnolfini"
+        title: "Portrait Club"
+        subcategory: "Workshops"
+        occurrence:
+          kind: "run"
+          start: "2026-02-22"
+          end: "2026-12-20"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/adultportraitdrawing/"
+        image: "https://arnolfini.org.uk/app/uploads/2024/04/Adult-Portrait-Club.-Image-by-Alice-Hendy-Photography-for-Arnolfini.-All-rights-reserved-18-640x427.jpg"
+        tags:
+          - "drawing"
+          - "workshop"
+          - "hands-on"
+        raw: "**Workshops** — 22 February - 20 December 2026
+
+
+          Portrait Club\n"
+        summary: "Adult portrait drawing sessions running through the year. The listings row links to /adultportraitdrawing/ despite the shorter public title."
+        confidence: "high"
+      - id: "art/arnolfini#4c2f9a679e"
+        sourceId: "art/arnolfini"
+        title: "FVU New Takes – film programme"
+        subcategory: "Exhibitions"
+        occurrence:
+          kind: "run"
+          start: "2026-02-28"
+          end: "2026-10-04"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/fvunewtakes/"
+        image: "https://arnolfini.org.uk/app/uploads/2025/12/Jameisha-Prescod-Ill-Still-Be-Here-When-You-Return-2026.-Film-still.-Courtesy-the-artist.3-640x360.jpg"
+        tags:
+          - "exhibition"
+          - "screening"
+          - "contemporary"
+          - "free-entry"
+        raw: "**Exhibitions** — 28 February - 04 October 2026
+
+
+          FVU New Takes – film programme\n"
+        summary: "A rolling Film and Video Umbrella programme of artists' moving image, showing in the building until October."
+        confidence: "high"
+      - id: "art/arnolfini#c022eaa088"
+        sourceId: "art/arnolfini"
+        title: "Something to Hold and Hug: Community Workshop Activity"
+        subcategory: "Family, workshops, community"
+        occurrence:
+          kind: "run"
+          start: "2026-06-26"
+          end: "2026-09-27"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/communityworkshopactivity-2/"
+        image: "https://arnolfini.org.uk/app/uploads/2025/06/Arnolfini-MouniraAlSolh-RM-1962-640x427.jpg"
+        tags:
+          - "workshop"
+          - "community"
+          - "hands-on"
+          - "family"
+        raw: "**Family, workshops, community** — 26 June - 27 September 2026
+
+
+          Something to Hold and Hug: Community Workshop Activity\n"
+        summary: "A drop-in making activity tied to the summer exhibitions, running alongside them until late September."
+        confidence: "high"
+      - id: "art/arnolfini#38c56f73a6"
+        sourceId: "art/arnolfini"
+        title: "Hold a Gathering at Arnolfini"
+        subcategory: "Workshops"
+        occurrence:
+          kind: "run"
+          start: "2026-06-27"
+          end: "2026-12-31"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/gatheringsprogramme/"
+        image: "https://arnolfini.org.uk/app/uploads/2025/11/Arnolfini-mediation-Jan-640x426.jpg"
+        tags:
+          - "community"
+          - "workshop"
+          - "booking-required"
+        raw: "**Workshops** — 27 June - 31 December 2026
+
+
+          Hold a Gathering at Arnolfini\n"
+        summary: "An open invitation for groups to convene in the building rather than a show to turn up to; listed as an event but really a standing offer."
+        confidence: "medium"
+      - id: "art/arnolfini#8af264cd77"
+        sourceId: "art/arnolfini"
+        title: "Jonathan Baldock: Held"
+        subcategory: "Exhibitions"
+        occurrence:
+          kind: "run"
+          start: "2026-06-27"
+          end: "2026-09-27"
+        status: "scheduled"
+        timesText: "11:00 - 18:00; first floor galleries"
+        url: "https://arnolfini.org.uk/whatson/jonathan-baldock-held/"
+        image: "https://arnolfini.org.uk/app/uploads/2025/12/Jonathan-Baldock-Held-2026-Installation-View-at-Arnolfini.-Courtesy-of-the-artist-and-Arnolfini.-Photography-by-Dan-Weill-640x427.jpg"
+        price:
+          free: true
+          text: "FREE, (donations welcome)"
+        tags:
+          - "exhibition"
+          - "contemporary"
+          - "free-entry"
+          - "sculpture"
+          - "immersive"
+        raw: "**Exhibitions** — 27 June - 27 September 2026, 11:00 - 18:00.
+
+          First floor galleries. FREE, (donations welcome).
+
+
+          Jonathan Baldock: Held — *Arnolfini transforms into a colourful,
+
+          immersive wilderness of nature and folklore this summer.*\n"
+        summary: "Baldock's ceramics, textiles and sound turn the first floor into a folkloric garden, built around a monumental wild bear commissioned for the show and made to be held. Free, and up all bank holiday weekend."
+        description: "Known for his striking installations, Jonathan Baldock combines
+
+          ceramics, textiles and sound to create environments that are both
+
+          playful and thought-provoking. His work draws on folklore, traditional
+
+          craft and personal history, shaped by skills passed down through
+
+          generations of making.
+
+
+          *Held* features a monumental wild bear sculpture, commissioned by
+
+          Arnolfini. It invites visitors into a direct physical encounter — not
+
+          to be held, but to hold us.
+
+
+          > \"The English artist has created a tense world of folkloric
+
+          > psychedelia and pagan aesthetics that is weird, threatening — and
+
+          > utterly compelling\" — Eddy Frankel, *The Guardian* (5-star review)
+
+
+          At Arnolfini, the galleries become a colourful, sensory landscape
+
+          inspired by the natural world, somewhere between a garden and a
+
+          wilderness. *Aether* — a work formed from beeswax, ceramic and glass —
+
+          hovers overhead, evoking a space between worlds. At the entrance,
+
+          visitors are welcomed by *The Caretakers*, ceremonial costumes adorned
+
+          with hand-stitched plant motifs, setting the tone for a space rooted in
+
+          care. Beyond, a vivid array of ceramic and wall-based textile
+
+          sculptures unfolds: flowers with faces emerging from petals, trailing
+
+          roots and body parts, creating a cultivated wilderness that blurs
+
+          boundaries between the human and the natural.
+
+
+          Sound by artist Luke Barton and a custom scent by Lora Hemy fill the
+
+          space, adding to the exhibition's immersive and intimate atmosphere.
+
+
+          The bear itself draws on a long cultural history, from ancient myth to
+
+          the familiar comfort of childhood toys. Over the course of the
+
+          exhibition, its surface will become worn through use, carrying the
+
+          marks of the thousands of people who encounter it. Its face, modelled
+
+          on a scan of the artist's mother, adds a deeply personal dimension.
+
+
+          In an age increasingly defined by loneliness, accelerated by the rise
+
+          of AI and a gradual loss of communal spaces, *Held* proposes physical
+
+          closeness as a radical and necessary gesture.
+
+
+          This exhibition has been generously supported by the Henry Moore
+
+          Foundation. A monograph published to coincide with the show is
+
+          available from the Arnolfini Bookshop.\n"
+        confidence: "high"
+      - id: "art/arnolfini#2398f43b04"
+        sourceId: "art/arnolfini"
+        title: "Polly Braden: Against the Tide"
+        subcategory: "Exhibitions"
+        occurrence:
+          kind: "run"
+          start: "2026-06-27"
+          end: "2026-09-27"
+        status: "scheduled"
+        timesText: "11:00 - 18:00; ground floor galleries"
+        url: "https://arnolfini.org.uk/whatson/polly-braden-against-the-tide/"
+        image: "https://arnolfini.org.uk/app/uploads/2025/12/Polly-Braden_Against-the-Tide_2026_Cohen-in-Grimsby-e1777560955663.jpg"
+        price:
+          free: true
+          text: "FREE, donations welcome"
+        tags:
+          - "exhibition"
+          - "photography"
+          - "free-entry"
+          - "documentary"
+          - "young-people"
+        raw: "**Exhibitions** — 27 June - 27 September 2026, 11:00 - 18:00.
+
+          Ground floor galleries. FREE, donations welcome.
+
+
+          Polly Braden: Against the Tide — *An exhibition by documentary
+
+          photographer Polly Braden in collaboration with young people in coastal
+
+          towns across England.*\n"
+        summary: "Documentary portraits and testimony from 16–25-year-olds in nine coastal towns, made with Polly Braden over a year for the Guardian's Seascape series. Free, ground floor."
+        description: "This summer, Arnolfini presents *Against the Tide*, a new exhibition by
+
+          documentary photographer Polly Braden, created in collaboration with
+
+          young people growing up in some of the most deprived and often
+
+          forgotten places across England.
+
+
+          Known for her intimate, long-term collaborations, Polly Braden's work
+
+          focuses on overlooked communities and social issues, and her
+
+          distinctive style combines quiet observation with deep empathy.
+
+
+          *Against the Tide* is a project led by Braden in collaboration with
+
+          journalist Lisa Bachelor as part of *The Guardian*'s Seascape series.
+
+          The pair have spent more than a year visiting coastal locations,
+
+          talking to young people about their lives and what matters to them. The
+
+          result is a layered picture of coastal England today that goes beyond
+
+          the usual, negative portrayals and which shines a light on the hope
+
+          that is sometimes hidden from public view.
+
+
+          Across intimate portraits and first-hand testimony, *Against the Tide*
+
+          brings audiences face-to-face with a generation navigating life at the
+
+          sharp edge of inequality, while also imagining something different.
+
+          Alongside accounts of isolation and lack of opportunity are expressions
+
+          of resilience, ambition and hope, and a clear message: coastal towns
+
+          are not just sites of decline, but places of creativity and
+
+          possibility.
+
+
+          Spanning places that include Weston-super-Mare, Scarborough, Grimsby,
+
+          Southend, Portsmouth, Whitehaven, Tendring, Rhyl and Blackpool, the
+
+          work reveals a side of coastal Britain rarely seen in national
+
+          narratives. It was developed over a year through sustained
+
+          collaboration with 16–25-year-olds across these towns.
+
+
+          Supported by Arts Council England, the Guardian's Seascape series, the
+
+          University of Lancaster and UCL.\n"
+        confidence: "high"
+      - id: "art/arnolfini#3a221dcd14"
+        sourceId: "art/arnolfini"
+        title: "Besides the Sea"
+        occurrence:
+          kind: "run"
+          start: "2026-08-01"
+          end: "2026-10-25"
+        status: "scheduled"
+        timesText: "11:00 - 18:00"
+        url: "https://arnolfini.org.uk/whatson/besides-the-sea/"
+        image: "https://arnolfini.org.uk/app/uploads/2026/06/will-640x352.jpeg"
+        tags:
+          - "exhibition"
+          - "photography"
+          - "young-people"
+          - "poetry"
+        raw: "**Besides the Sea** — 01 August - 25 October 2026, 11:00 - 18:00.
+
+
+          *What does living in Weston, and in similar coastal towns, mean for
+
+          young people trying to build creative lives today?*\n"
+        summary: "Six young photographers from Bristol and Weston on place, identity and growing up by the sea, with a collaborative poem by Beth Calverley. A companion piece to Against the Tide."
+        description: "*Besides the Sea* celebrates the many ways creativity shapes life in
+
+          Weston: how it brings people together, enriches everyday experiences,
+
+          amplifies new voices and helps us imagine new possibilities.
+
+
+          The exhibition brings together work by six young artists based in
+
+          Bristol and Weston. The work was developed through workshops led by
+
+          artist Jamie Dormer-Durling, connected to *Against the Tide* (27 June –
+
+          27 September 2026), a project developed by photographer Polly Braden in
+
+          collaboration with journalist Lisa Bachelor for *The Guardian*'s
+
+          Seascape series.
+
+
+          Inside the gallery, photographs by Bayan Alahmad, Archie Byron, Braden
+
+          Evans, Siobhan Evans, Jess May Long and Will Shergold explore place,
+
+          identity and creativity through their personal experiences of growing
+
+          up in Weston. Their work weaves together everyday moments, memories,
+
+          dreams and nostalgia, the textures of the natural environment, and the
+
+          rhythms of working-class culture — revealing the quiet beauty found
+
+          within Weston's streets, shorelines and communities. The exhibition
+
+          also features a collaborative poem written by the young people with
+
+          poet Beth Calverley.
+
+
+          Along the corridor walls, Weston's creative landscape — nurtured over
+
+          the years by residents and organisations such as Super Culture and
+
+          Common Waves CIC — unfolds through vibrant snapshots of gatherings,
+
+          public artworks and interventions, with Calverley's words woven
+
+          throughout.
+
+
+          Once a small fishing village, then a Victorian seaside resort, and now
+
+          a regenerated coastal town with a growing arts scene, Weston provides
+
+          the backdrop for this exploration of how creativity can shape a place
+
+          and the people who call it home.\n"
+        confidence: "high"
+      - id: "art/arnolfini#51e611f170"
+        sourceId: "art/arnolfini"
+        title: "Life Drawing Fundamentals"
+        subcategory: "Family, workshops, community"
+        occurrence:
+          kind: "recurring"
+          pattern: "8, 15, 22 and 29th August"
+          start: "2026-08-08"
+          end: "2026-08-29"
+          startTime: "11:00"
+        status: "scheduled"
+        timesText: "11.00am – 2.30pm (lunch break: 1 – 1.30pm)"
+        url: "https://arnolfini.org.uk/whatson/life-drawing-fundamentals/"
+        image: "https://arnolfini.org.uk/app/uploads/2026/06/life-drawing-fundamentals-1-473x640.jpeg"
+        price:
+          free: false
+          text: "£35 per session or £120 for all four sessions"
+          min: 35
+          max: 120
+          currency: "GBP"
+        tags:
+          - "drawing"
+          - "workshop"
+          - "beginners"
+          - "booking-required"
+        raw: "**Family, workshops, community** — 08 August - 29 August 2026,
+
+          11:00 - 14:30. £35 per session or £120 for all four sessions.
+
+
+          *A 4-week series introducing the foundational techniques of life
+
+          drawing.* 8, 15, 22 and 29th August. Time: 11.00am – 2.30pm (lunch
+
+          break: 1 – 1.30pm).\n"
+        summary: "Stuart Cranfield's four-Saturday introduction to drawing the figure — proportion, tone, line, then longer poses. The final session falls on Saturday 29 August, and single sessions can be booked."
+        description: "Ever wanted to build confidence in life drawing? This informal
+
+          four-week course with artist Stuart Cranfield offers a welcoming
+
+          introduction to the fundamentals of drawing the figure. Through
+
+          practical exercises and guided tuition, you'll develop the core skills
+
+          needed to approach life drawing with greater confidence and
+
+          understanding.
+
+
+          Each session focuses on a different aspect of foundational life
+
+          drawing, with a maximum of 20 participants to allow for individual
+
+          attention and a supportive learning environment. The sessions take
+
+          place in the new Light Studio on the second floor.
+
+
+          Across the four sessions we cover:
+
+
+          - **Proportion** — methods for constructing a drawing and understanding
+
+          \  the figure's underlying structure.
+
+          - **Tone** — ways of simplifying form and capturing light and shadow,
+
+          \  and exploring colour.
+
+          - **Line** — exploring the language, quality and expressive potential
+
+          \  of line.
+
+          - **Putting it together** — an opportunity to bring these elements
+
+          \  together through longer poses, with more one-to-one support.
+
+
+          All materials are provided. Book all four sessions for £120 (click on
+
+          the 8th August and select the full series ticket); individual sessions
+
+          are £35.\n"
+        confidence: "high"
+      - id: "art/arnolfini#202f62297b"
+        sourceId: "art/arnolfini"
+        title: "Diverse Artists Network: Artist Gatherings"
+        subcategory: "Talks"
+        occurrence:
+          kind: "run"
+          start: "2026-08-26"
+          end: "2027-08-25"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/diverseartistsnetworkartistgatherings/"
+        image: "https://arnolfini.org.uk/app/uploads/2025/10/Diverse-Artist-Network_Credit-Siddique-Media_LOW-RES-2-640x427.jpg"
+        tags:
+          - "artist-talk"
+          - "community"
+          - "multi-day"
+        raw: "**Talks** — 26 August 2026 - 25 August 2027
+
+
+          Diverse Artists Network: Artist Gatherings\n"
+        summary: "A year of gatherings for the Diverse Artists Network, opened two days before the bank holiday weekend. The index gives the span, not the individual meeting dates."
+        confidence: "high"
+      - id: "art/arnolfini#5886094a37"
+        sourceId: "art/arnolfini"
+        title: "Threads: Movement Workshop"
+        subcategory: "Workshops"
+        occurrence:
+          kind: "single"
+          date: "2026-09-10"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/movementworkshop/"
+        image: "https://arnolfini.org.uk/app/uploads/2026/07/Screenshot-2026-07-21-152841-640x355.png"
+        tags:
+          - "dance"
+          - "workshop"
+          - "hands-on"
+        raw: "**Workshops** — 10 September 2026
+
+
+          Threads: Movement Workshop\n"
+        summary: "A one-off movement workshop in the Threads strand. No start time is printed on the listings index."
+        confidence: "high"
+      - id: "art/arnolfini#bcc3b682f3"
+        sourceId: "art/arnolfini"
+        title: "1947"
+        subcategory: "Performance"
+        occurrence:
+          kind: "run"
+          start: "2026-09-10"
+          end: "2026-09-12"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/1947-workingtheatre/"
+        image: "https://arnolfini.org.uk/app/uploads/2026/07/BlankLandscape-pdf.jpg"
+        tags:
+          - "theatre"
+          - "performance"
+          - "short-run"
+        raw: "**Performance** — 10 September - 12 September 2026
+
+
+          1947\n"
+        summary: "A three-night theatre piece in the live programme. The card carries no synopsis; the link goes to /1947-workingtheatre/."
+        confidence: "high"
+      - id: "art/arnolfini#dc805e49aa"
+        sourceId: "art/arnolfini"
+        title: "QiGong in the Gallery"
+        subcategory: "Wellbeing"
+        occurrence:
+          kind: "single"
+          date: "2026-09-11"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/qigonginthegallery/"
+        image: "https://arnolfini.org.uk/app/uploads/2025/11/image00011-640x555.jpeg"
+        tags:
+          - "wellbeing"
+          - "beginners"
+          - "one-night"
+        raw: "**Wellbeing** — 11 September 2026
+
+
+          QiGong in the Gallery\n"
+        summary: "A qigong session held among the exhibitions rather than in a studio. No time is given on the index."
+        confidence: "high"
+      - id: "art/arnolfini#47a3c864d1"
+        sourceId: "art/arnolfini"
+        title: "Let’s Talk About Loss at Arnolfini"
+        subcategory: "Wellbeing"
+        occurrence:
+          kind: "single"
+          date: "2026-09-15"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/letstalkaboutloss/"
+        image: "https://arnolfini.org.uk/app/uploads/2026/02/IMG_4451-640x427.jpeg"
+        tags:
+          - "wellbeing"
+          - "community"
+          - "young-people"
+        raw: "**Wellbeing** — 15 September 2026
+
+
+          Let’s Talk About Loss at Arnolfini\n"
+        summary: "A meet-up of the bereavement support group Let's Talk About Loss, hosted in the building."
+        confidence: "high"
+      - id: "art/arnolfini#a3c94bde27"
+        sourceId: "art/arnolfini"
+        title: "Jonathan Baldock Exhibition Tour"
+        subcategory: "Talks"
+        occurrence:
+          kind: "single"
+          date: "2026-09-16"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/jonathan-baldock-exhibition-tour/"
+        image: "https://arnolfini.org.uk/app/uploads/2026/07/Polly-Braden-and-Jonathan-Baldock-2026.-Photography-by-Dan-Weill-29-640x427.jpg"
+        tags:
+          - "guided-tour"
+          - "exhibition"
+          - "talk"
+        raw: "**Talks** — 16 September 2026
+
+
+          Jonathan Baldock Exhibition Tour\n"
+        summary: "A guided walk through Held in its closing fortnight."
+        confidence: "high"
+      - id: "art/arnolfini#72cea74f53"
+        sourceId: "art/arnolfini"
+        title: "FVU New Takes – Artists’ Talk"
+        subcategory: "Talks"
+        occurrence:
+          kind: "single"
+          date: "2026-09-17"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/fvu-new-takes-artists-talk/"
+        image: "https://arnolfini.org.uk/app/uploads/2026/08/Arnolfini-Baldock-Braden_26.06.26_Dan-Weill-Photography-431-640x427.jpg"
+        tags:
+          - "artist-talk"
+          - "screening"
+          - "contemporary"
+        raw: "**Talks** — 17 September 2026
+
+
+          FVU New Takes – Artists’ Talk\n"
+        summary: "The artists behind the Film and Video Umbrella New Takes programme in conversation."
+        confidence: "high"
+      - id: "art/arnolfini#a291bb3ee3"
+        sourceId: "art/arnolfini"
+        title: "Home Ed Creative Studio with Let’s Make Art"
+        subcategory: "Family"
+        occurrence:
+          kind: "run"
+          start: "2026-09-18"
+          end: "2026-12-11"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/home-ed-creative-studio-with-lets-make-art/"
+        image: "https://arnolfini.org.uk/app/uploads/2026/07/IMG_2282-640x480.jpeg"
+        tags:
+          - "family"
+          - "workshop"
+          - "kids"
+          - "hands-on"
+        raw: "**Family** — 18 September - 11 December 2026
+
+
+          Home Ed Creative Studio with Let’s Make Art\n"
+        summary: "A term's worth of daytime art sessions aimed at home-educating families, run with Let's Make Art."
+        confidence: "high"
+      - id: "art/arnolfini#9ce8b22837"
+        sourceId: "art/arnolfini"
+        title: "Life Drawing"
+        subcategory: "Workshops"
+        occurrence:
+          kind: "run"
+          start: "2026-09-22"
+          end: "2027-05-18"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/adultlifedrawing/"
+        image: "https://arnolfini.org.uk/app/uploads/2021/09/0-2-1-640x460.jpg"
+        tags:
+          - "drawing"
+          - "workshop"
+          - "hands-on"
+        raw: "**Workshops** — 22 September 2026 - 18 May 2027
+
+
+          Life Drawing\n"
+        summary: "The regular untutored life drawing sessions, booked as a season running to next May. Linked as /adultlifedrawing/, and distinct from the four-week Fundamentals course."
+        confidence: "high"
+      - id: "art/arnolfini#cbe855a5d4"
+        sourceId: "art/arnolfini"
+        title: "In conversation: Polly Braden and Lisa Bachelor"
+        occurrence:
+          kind: "single"
+          date: "2026-09-25"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/in-conversation-polly-braden-lisa-bachelor-against-the-tide/"
+        image: "https://arnolfini.org.uk/app/uploads/2026/04/Polly-Braden-and-Jonathan-Baldock-2026.-Photography-by-Dan-Weill-14-640x427.jpg"
+        tags:
+          - "artist-talk"
+          - "photography"
+          - "documentary"
+        raw: "**In conversation: Polly Braden and Lisa Bachelor** — 25 September 2026\n"
+        summary: "The photographer and the Guardian journalist behind Against the Tide discuss the project, two days before the show closes."
+        confidence: "high"
+      - id: "art/arnolfini#212ffad7cb"
+        sourceId: "art/arnolfini"
+        title: "Audio Described Tours | Jonathan Baldock & Polly Braden"
+        subcategory: "Tours"
+        occurrence:
+          kind: "single"
+          date: "2026-09-26"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/adtourspollybradenjonathanbaldock/"
+        image: "https://arnolfini.org.uk/app/uploads/2025/09/Audio-Described-Tour-of-Garry-Fabian-Millers-Adore-at-Arnolfini.-Image-by-Alice-Hendy-Photography-for-Arnolfini.-All-rights-reserved-1-640x427.jpg"
+        tags:
+          - "guided-tour"
+          - "accessible"
+          - "exhibition"
+        raw: "**Tours** — 26 September 2026
+
+
+          Audio Described Tours | Jonathan Baldock & Polly Braden\n"
+        summary: "Audio described tours of both summer exhibitions on their closing weekend."
+        confidence: "high"
+      - id: "art/arnolfini#67f1ff19a8"
+        sourceId: "art/arnolfini"
+        title: "Deep Listening workshops"
+        subcategory: "Workshops"
+        occurrence:
+          kind: "run"
+          start: "2026-09-26"
+          end: "2026-12-05"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/deeplisteningworkshops/"
+        image: "https://arnolfini.org.uk/app/uploads/2025/08/e119646_i229890_s5-640x427.jpg"
+        tags:
+          - "workshop"
+          - "wellbeing"
+          - "experimental"
+        raw: "**Workshops** — 26 September - 05 December 2026
+
+
+          Deep Listening workshops\n"
+        summary: "A series of Pauline Oliveros-style deep listening sessions running through the autumn; the card is tagged music, wellbeing and workshops."
+        confidence: "high"
+      - id: "art/arnolfini#5f1d0966ab"
+        sourceId: "art/arnolfini"
+        title: "Creative Space for 18-25 year olds"
+        subcategory: "Workshops"
+        occurrence:
+          kind: "run"
+          start: "2026-10-01"
+          end: "2027-12-02"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/creativespace/"
+        image: "https://arnolfini.org.uk/app/uploads/2025/12/YOUTHARNOLFINI-7-640x427.jpg"
+        tags:
+          - "young-people"
+          - "workshop"
+          - "free-entry"
+          - "multi-day"
+        raw: "**Workshops** — 01 October 2026 - 02 December 2027
+
+
+          Creative Space for 18-25 year olds\n"
+        summary: "Arnolfini's youth programme for 18–25s, listed as a fourteen-month span. Free-entry tag taken from the card's programme framing, not a printed price."
+        confidence: "medium"
+      - id: "art/arnolfini#3c9d5cb3bc"
+        sourceId: "art/arnolfini"
+        title: "The Hound of the Baskervilles"
+        subcategory: "Performance"
+        occurrence:
+          kind: "run"
+          start: "2026-10-01"
+          end: "2026-10-03"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/the-hound-of-the-baskervilles/"
+        image: "https://arnolfini.org.uk/app/uploads/2026/08/HOTB_260823_Landscape_003-640x360.jpg"
+        tags:
+          - "theatre"
+          - "performance"
+          - "short-run"
+        raw: "**Performance** — 01 October - 03 October 2026
+
+
+          The Hound of the Baskervilles\n"
+        summary: "A three-night touring production of the Conan Doyle story in the live programme."
+        confidence: "high"
+      - id: "art/arnolfini#8d64577c22"
+        sourceId: "art/arnolfini"
+        title: "Jamie Hamilton and Phaedra Ensemble: A Mouth In Search Of A Voice"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-10-10"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/jamie-hamilton-and-phaedra-ensemble-a-mouth-in-search-of-a-voice/"
+        image: "https://arnolfini.org.uk/app/uploads/2026/06/AMISOAV-website-blue-640x427.png"
+        tags:
+          - "live-music"
+          - "experimental"
+          - "performance"
+          - "one-night"
+        raw: "**Music** — 10 October 2026
+
+
+          Jamie Hamilton and Phaedra Ensemble: A Mouth In Search Of A Voice\n"
+        summary: "A one-night contemporary music and performance piece; the card is tagged live, music, performance and spoken word."
+        confidence: "high"
+      - id: "art/arnolfini#b22895a6b0"
+        sourceId: "art/arnolfini"
+        title: "Joy Gregory: Catching Flies with Honey"
+        subcategory: "Exhibitions"
+        occurrence:
+          kind: "run"
+          start: "2026-10-17"
+          end: "2027-02-07"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/joygregory/"
+        image: "https://arnolfini.org.uk/app/uploads/2025/12/Picture1-640x427.jpg"
+        tags:
+          - "exhibition"
+          - "photography"
+          - "contemporary"
+        raw: "**Exhibitions** — 17 October 2026 - 07 February 2027
+
+
+          Joy Gregory: Catching Flies with Honey\n"
+        summary: "The autumn–winter show, following the summer pair. Linked simply as /joygregory/."
+        confidence: "high"
+      - id: "art/arnolfini#8aaece7479"
+        sourceId: "art/arnolfini"
+        title: "WACK (Jennifer Walshe and Neil Luck) x lovemusic"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-10-31"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/wack-jennifer-walshe-and-neil-luck-x-lovemusic/"
+        image: "https://arnolfini.org.uk/app/uploads/2026/06/3.Love_.music_.wack_-640x384.jpg"
+        tags:
+          - "live-music"
+          - "experimental"
+          - "performance"
+          - "one-night"
+        raw: "**Music** — 31 October 2026
+
+
+          WACK (Jennifer Walshe and Neil Luck) x lovemusic\n"
+        summary: "Experimental composers Jennifer Walshe and Neil Luck with the lovemusic ensemble, on Halloween night."
+        confidence: "high"
+      - id: "art/arnolfini#7073462efa"
+        sourceId: "art/arnolfini"
+        title: "Bodies in Flight: Third Nature – a Sci-fi"
+        subcategory: "Live Programme"
+        occurrence:
+          kind: "single"
+          date: "2026-11-07"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/bodies-in-flight-third-nature-a-sci-fi/"
+        image: "https://arnolfini.org.uk/app/uploads/2026/06/bif-centre-blank-640x419.jpg"
+        tags:
+          - "performance"
+          - "sci-fi"
+          - "physical-theatre"
+          - "one-night"
+        raw: "**Live Programme** — 07 November 2026
+
+
+          Bodies in Flight: Third Nature – a Sci-fi\n"
+        summary: "A one-night performance from the long-running Bodies in Flight company."
+        confidence: "high"
+      - id: "art/arnolfini#87bb6bf3f6"
+        sourceId: "art/arnolfini"
+        title: "Scoring Warnings: Touch, Textures and Other Translations"
+        subcategory: "Live Programme"
+        occurrence:
+          kind: "run"
+          start: "2026-11-20"
+          end: "2026-11-21"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/scoring-warnings-touch-textures-and-other-translations/"
+        image: "https://arnolfini.org.uk/app/uploads/2026/07/Preemptive-Listening-still1-jpeg-640x360.jpeg"
+        tags:
+          - "performance"
+          - "experimental"
+          - "short-run"
+        raw: "**Live Programme** — 20 November - 21 November 2026
+
+
+          Scoring Warnings: Touch, Textures and Other Translations\n"
+        summary: "A two-day live programme strand built around scores, touch and translation."
+        confidence: "high"
+      - id: "art/arnolfini#d2906c4df2"
+        sourceId: "art/arnolfini"
+        title: "Michaela Yearwood-Dan: The Practice of Liberation"
+        occurrence:
+          kind: "run"
+          start: "2027-02-27"
+          end: "2027-05-23"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/michaela-yearwood-dan-the-practice-of-liberation/"
+        image: "https://arnolfini.org.uk/app/uploads/2026/03/Passio_DenizGuzel_web--635x640.jpg"
+        tags:
+          - "exhibition"
+          - "contemporary"
+          - "painting"
+        raw: "**Michaela Yearwood-Dan: The Practice of Liberation** —
+
+          27 February - 23 May 2027\n"
+        summary: "Next spring's main exhibition, already dated on the index."
+        confidence: "high"
+      - id: "art/arnolfini#9d563c180e"
+        sourceId: "art/arnolfini"
+        title: "British Art Show 10: A Chorus of Strangers"
+        occurrence:
+          kind: "run"
+          start: "2027-06-19"
+          end: "2027-09-19"
+        status: "scheduled"
+        url: "https://arnolfini.org.uk/whatson/british-art-show-10-a-chorus-of-strangers/"
+        image: "https://arnolfini.org.uk/app/uploads/2026/04/Hannah-Quinlan-Rosie-Hastings-Angelus-Novus-2024.-Courtesy-the-Artist-and-Arcadia-Missa-London.-Photography_-Tom-Carter-640x427.jpeg"
+        tags:
+          - "exhibition"
+          - "contemporary"
+          - "tour"
+          - "multi-day"
+        raw: "**British Art Show 10: A Chorus of Strangers** —
+
+          19 June - 19 September 2027\n"
+        summary: "The touring British Art Show lands in Bristol in summer 2027 — the furthest-out thing on the index, and already dated."
+        confidence: "high"
+    notes: "33 events across two pages of /whatson/ (page 2 at https://arnolfini.org.uk/whatson/page/2/; there is no page 3). Every row's href was taken verbatim from the card markup rather than derived from the title — the odd suffixes are real (/whatson/latinasinbristol-2/, /whatson/womenscraftclub-3/, /whatson/communityworkshopactivity-2/, /whatson/1947-workingtheatre/, /whatson/adultportraitdrawing/ for \"Portrait Club\", /whatson/adultlifedrawing/ for \"Life Drawing\"). All 33 rows carry a link and all 33 are recorded with one.
+
+      Bank holiday: nothing on the site ties anything to the August bank holiday. \"Bank holiday\" appears nowhere on either listings page. No one-off event is dated 29, 30 or 31 August; what is live across the weekend is the standing exhibition programme plus the final session of Life Drawing Fundamentals on Saturday 29 August.
+
+      Opening hours: /plan-your-visit/ is a hub of links, not the hours — the hours live at /visiting-information/, which states \"Galleries are open Tuesday to Sunday, 11am to 6pm\" and prints no bank holiday variation. The only special-hours block on that page is a stale festive one (Sat 21 Dec – Thu 2 Jan) left over from a previous year. Whether the galleries open on Monday 31 August is therefore not stated anywhere on the site, and has not been inferred here. That page also still carries a Covid-19 social distancing notice and says the Café Bar is \"closed for now… getting ready for summer\", both of which read as long out of date.
+
+      The index is thin — category, date line and title only, no excerpt — but the programme is 33 events, so §3's walk-the-whole-programme rule does not apply. Four event pages were opened, spent on this weekend per the run brief: the two headline exhibitions, Besides the Sea and Life Drawing Fundamentals. Those four carry a `description`; the other 29 do not, and none has been invented. No start times are printed on the index, so the single-date rows carry no `startTime`.
+
+      Every row prints an explicit year, so no year was inferred and no weekday check was needed."
+  - sourceId: "art/centrespace"
+    fetch:
+      ok: true
+      url: "https://www.centrespace.org.uk/whats-on"
+      status: 200
+    events:
+      - id: "art/centrespace#b847656a04"
+        sourceId: "art/centrespace"
+        title: "Searching for the Future - A decade of reportage illustration"
+        occurrence:
+          kind: "run"
+          start: "2026-09-01"
+          end: "2026-09-08"
+        status: "scheduled"
+        timesText: "Daily 11:00 - 18:00; private view Friday 4 September 18:00 - 21:00"
+        url: "https://www.centrespace.org.uk/whats-on/searching-for-the-future-a-decade-of-reportage-illustration"
+        image: "https://images.squarespace-cdn.com/content/v1/61bb2fa139eeb56cdf341168/1783873973533-TAEUHJ7VE678ROMY852Z/NIKIGROOMbanner.jpeg"
+        tags:
+          - "exhibition"
+          - "illustration"
+          - "short-run"
+          - "community"
+        raw: "**Searching for the Future - A decade of reportage illustration** —
+
+          Tue, 1 Sept 2026 10:00 – Tue, 8 Sept 2026 18:00.
+
+          Centrespace Gallery & Studios, 6 Leonard Lane, Bristol BS1 1EA.
+
+
+          For the duration of *Searching for the Future: A decade of reportage
+
+          illustration*, artist Niki Groom will be transforming Centrespace
+
+          Gallery into a giant sketchbook. The illustrated stories of people
+
+          she's met will adorn the walls, resulting in a colourful display of
+
+          community.
+
+
+          **Exhibition Dates:** Tuesday 1st September - Tuesday 8th September
+
+          **PV:** Friday 4th September, 6:00 - 9:00 pm
+
+          **Opening Hours:** Daily, 11:00 am - 6:00 pm\n"
+        summary: "Ten years of Niki Groom's reportage illustration, hung as if the gallery were one enormous sketchbook of the people she has drawn. The first show after the bank holiday gap."
+        confidence: "high"
+      - id: "art/centrespace#d6f1bf6751"
+        sourceId: "art/centrespace"
+        title: "Crossing: A journey across water, memory and belonging"
+        occurrence:
+          kind: "run"
+          start: "2026-09-11"
+          end: "2026-09-16"
+        status: "scheduled"
+        timesText: "Exhibition dates Saturday 12 September - Wednesday 16 September, daily 11:00 - 18:00; private view Friday 11 September 18:00 - 21:00"
+        url: "https://www.centrespace.org.uk/whats-on/crossing-a-journey-across-water-memory-and-belonging"
+        image: "https://images.squarespace-cdn.com/content/v1/61bb2fa139eeb56cdf341168/1787761446418-8F92LPZIQRKA688XL89Y/Crossings3.jpg"
+        tags:
+          - "exhibition"
+          - "short-run"
+          - "contemporary"
+        raw: "**Crossing: A journey across water, memory and belonging** —
+
+          Fri, 11 Sept 2026 18:00 – Wed, 16 Sept 2026 18:00.
+
+          Centrespace Gallery & Studios, 6 Leonard Lane, Bristol BS1 1EA.
+
+
+          *Crossings: A journey across water, memory and belonging* is a group
+
+          exhibition by three artists who each explore how movement across water
+
+          shapes memory, identity and culture.
+
+
+          **Exhibition Dates:** Saturday 12th September - Wednesday 16th
+
+          September
+
+          **PV:** Friday 11th September, 6:00 - 9:00 pm
+
+          **Opening Hours:** Daily, 11:00 am - 6:00 pm\n"
+        summary: "Three artists on migration by sea and what it does to memory and identity. The Friday is the private view; general opening starts the Saturday."
+        confidence: "high"
+      - id: "art/centrespace#8badd833ba"
+        sourceId: "art/centrespace"
+        title: "Connections Through Wood"
+        occurrence:
+          kind: "run"
+          start: "2026-09-18"
+          end: "2026-09-30"
+        status: "scheduled"
+        timesText: "Exhibition dates Saturday 19 September - Wednesday 30 September, daily 10:00 - 18:00; private view Friday 18 September 18:00 - 21:00"
+        url: "https://www.centrespace.org.uk/whats-on/connections-through-wood-1"
+        image: "https://images.squarespace-cdn.com/content/v1/61bb2fa139eeb56cdf341168/1787763707385-SFWZJ2PS8U6J199QGMB1/Untitled+design-8.png"
+        tags:
+          - "exhibition"
+          - "woodwork"
+          - "crafts"
+          - "short-run"
+        raw: "**Connections Through Wood** —
+
+          Fri, 18 Sept 2026 18:00 – Wed, 30 Sept 2026 18:00.
+
+          Centrespace Gallery & Studios, 6 Leonard Lane, Bristol BS1 1EA.
+
+
+          Showing what's possible when an artistic eye meets traditional skill,
+
+          *Connections Through Wood* brings together a wide range of talents
+
+          united by their appreciation of the wooden object.
+
+
+          **Exhibition Dates:** Saturday 19th September - Wednesday 30th
+
+          September
+
+          **PV:** Friday 18th September, 6:00 - 9:00 pm
+
+          **Opening Hours:** Daily, 10:00 am - 6:00 pm\n"
+        summary: "Makers and artists working in wood, in an unusually long hire for this gallery — nearly two weeks rather than the customary one. Linked as /connections-through-wood-1."
+        confidence: "high"
+    notes: "Squarespace events page, no pagination — 33 event blocks in total, of which the site itself marks 30 as past and 3 as upcoming. All three upcoming shows are recorded here.
+
+      Nothing at all is on over the bank holiday weekend. The gallery's week-long hires run back to back, and the sequence has a gap exactly across it: Yokai closed on Wednesday 26 August and the next hire, Searching for the Future, opens on Tuesday 1 September. So 27–31 August is genuinely dark, not a coverage failure. The site prints no bank holiday notice of any kind.
+
+      Each listing carries its own opening hours and private view time, and these do not always agree with the block's structured dates: Crossing is stamped 11–16 September but its own copy says \"Exhibition Dates: Saturday 12th September - Wednesday 16th September, PV: Friday 11th September\", and Connections Through Wood is stamped 18–30 September against copy reading \"Saturday 19th September - Wednesday 30th September, PV: Friday 18th September\". The structured dates are recorded as the run (they include the private view evening) and the venue's own wording is kept verbatim in `timesText` and `raw`.
+
+      The index carries a full excerpt per show, so no event pages were opened. Every date prints a weekday and all of them check out for 2026."

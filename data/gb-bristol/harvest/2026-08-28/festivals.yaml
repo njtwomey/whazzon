@@ -1,0 +1,789 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-08-28"
+category: "festivals"
+harvestedAt: "2026-08-28T18:40:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "4"
+model: "claude-opus-5"
+observations:
+  - sourceId: "festivals/bristol-harbour-festival"
+    fetch:
+      ok: true
+      url: "https://www.bristolharbourfestival.co.uk/whats-on/programme-at-a-glance"
+      status: 200
+    events: []
+    notes: "Two fetches, both on the www host (the catalogued non-www still does not connect). Nothing has changed since 2026-08-17. The programme page still serves the complete 17-19 July 2026 running order by stage, labelled by weekday and clock time with no calendar dates and no per-act links; the homepage hero still reads \"Bristol Harbour Festival 17-19 July 2026\" with the same \"reimagined footprint\" copy, and lower down the page still carries the stale 2024 line \"Friday 19th - Sunday 21st July 2024\". No 2027 dates anywhere, no news items, and — checked specifically for this run — no bank-holiday satellite event, no August programming of any kind. The 17-19 July 2026 edition is finished and was already recorded with its real dates on 2026-08-17, so it is deliberately not re-recorded here: re-stating a finished run would replace a richer row (it carried the festival map image) with a thinner one for no new information. Nothing on 29-31 August."
+  - sourceId: "festivals/balloon-fiesta"
+    fetch:
+      ok: true
+      url: "https://bristolballoonfiesta.co.uk/"
+      status: 200
+    events:
+      - id: "festivals/balloon-fiesta#292adc5c4d"
+        sourceId: "festivals/balloon-fiesta"
+        title: "Bristol International Balloon Fiesta 2027"
+        occurrence:
+          kind: "run"
+          start: "2027-08-13"
+          end: "2027-08-15"
+        status: "scheduled"
+        url: "https://bristolballoonfiesta.co.uk/"
+        price:
+          free: true
+          text: "Free to attend; car parking, hospitality and trade space are paid"
+        tags:
+          - "festival"
+          - "outdoor"
+          - "family"
+          - "free-entry"
+          - "multi-day"
+        raw: "**Thank you! See you next year — Friday 13th to Sunday 15th August 2027.**
+
+
+          \"As a not-for-profit event it takes an incredible amount of year-round
+
+          dedication by a small team of predominately volunteers to host this
+
+          world-renowned event. We are incredibly proud that for the last 46 years
+
+          we've stayed true to our constitution, to keep this event free for the
+
+          people of Bristol.\"
+
+
+          \"Thank you to everyone who supports us by purchasing car parking tickets,
+
+          enhancing their visit with our hospitality offer, taking exhibition and
+
+          trade space or sponsoring the event.\"\n"
+        summary: "Next year's Balloon Fiesta at Ashton Court, already dated: four mass ascents and night glows over a free three-day weekend that the organisers have kept free for 46 years. No programme yet — the site is currently a thank-you page for the edition that has just finished."
+        confidence: "high"
+    notes: "One fetch. The site is now a post-event thank-you page: the hero reads \"Thank you! / See you next year / Friday 13th to Sunday 15th August 2027\" above \"Friday 7th to Sunday 9th August 2026\", the edition that ran three weeks ago. Both weekday-date pairs check out for their stated years, so the 2027 row is high confidence. The just-finished 2026 edition is not recorded — it has passed and nothing on the page adds to it. No programme, no ticket page, no news items and nothing on 29-31 August; the fiesta has no bank-holiday satellite. The only image on the page is the site's open-graph logo, so no `image` is set."
+  - sourceId: "festivals/upfest"
+    fetch:
+      ok: true
+      url: "https://www.upfest.co.uk/festivals/"
+      status: 200
+    events:
+      - id: "festivals/upfest#99d437ea9c"
+        sourceId: "festivals/upfest"
+        title: "Upfest"
+        occurrence:
+          kind: "undated"
+          note: "The festivals index still prints no dates at all. \"Upfest 2026\" is listed under Upcoming alongside \"Weston Wallz 2026\", above archived editions back to 2016; no 2027 or 2028 edition is named anywhere on the page, and there is no \"dates to be announced\" wording."
+        status: "scheduled"
+        url: "https://www.upfest.co.uk/festival/upfest-2026/"
+        tags:
+          - "festival"
+          - "street-art"
+          - "outdoor"
+          - "multi-day"
+          - "community"
+        raw: "Upfest's festival index lists two editions as **Upcoming** — **Weston Wallz
+
+          2026** and **[Upfest 2026](https://www.upfest.co.uk/festival/upfest-2026/)**
+
+          — above an archive of earlier editions back to 2016.
+
+
+          No dates appear anywhere on the page.\n"
+        summary: "Europe's largest street art festival, which repaints Bedminster and Southville over a multi-week programme of live walls, workshops, tours and talks. It runs in alternate years, and the index still names no edition after 2026, so nothing is currently scheduled in Bristol."
+        confidence: "medium"
+    notes: "One fetch, and the page is unchanged since 2026-08-17: two editions under a stale \"Upcoming\" heading, both of which have already happened, and no dates printed anywhere. Weston Wallz is in Weston-super-Mare, outside this location, so it is not recorded. Nothing on 29-31 August and no bank-holiday event — Upfest is biennial and the next Bristol edition is expected in 2028, which the site does not name, so this stays `undated` rather than a guessed 2028 run."
+  - sourceId: "festivals/st-pauls-carnival"
+    fetch:
+      ok: true
+      url: "https://www.stpaulscarnival.net/"
+      status: 200
+    events:
+      - id: "festivals/st-pauls-carnival#8fbaba6c63"
+        sourceId: "festivals/st-pauls-carnival"
+        title: "St Pauls Carnival"
+        occurrence:
+          kind: "undated"
+          note: "No date is printed anywhere. The site's news items say the organisation is \"working towards the return of the procession and further carnival activity such as Mandela's hideaway and the Elders Brunch in 2027\" — a year, with no month, weekend or date."
+        status: "scheduled"
+        url: "https://www.stpaulscarnival.net/news/carnival-in-numbers"
+        tags:
+          - "festival"
+          - "carnival"
+          - "outdoor"
+          - "community"
+          - "free-entry"
+        raw: "\"We are St. Pauls Carnival\" — \"We are Carnival, 365 days of the year\".
+
+
+          \"As we work towards the return of the procession and further carnival
+
+          activity such as Mandela's hideaway and the Elders Brunch in 2027…\"
+
+
+          Recent news: **Share your thoughts for carnival's future** (28 August 2026),
+
+          **Carnival in numbers: outlining the investment, infrastructure and impact
+
+          behind carnival** (21 August 2026), **Bristol Sonics & St Pauls 3x3
+
+          Basketball Tournament** (15 July 2026).\n"
+        summary: "Bristol's African-Caribbean carnival, whose full street procession is being rebuilt for 2027 after several years without one. The organisation runs year-round community work in the meantime, but no date for the next carnival has been published."
+        confidence: "medium"
+    notes: "One fetch. The site is a news feed rather than a listings page and carries no dated events at all — the three most recent items are a community research survey posted today (28 August 2026), a \"carnival in numbers\" piece on 21 August and a basketball tournament write-up from 15 July. The 2027 return is stated as a year only, so `undated` with the wording is the honest record. Nothing on 29-31 August; there is no bank-holiday event and no carnival-adjacent satellite. The page's only open-graph image is the organisation's logo, so no `image` is set."
+  - sourceId: "festivals/bristol-pride"
+    fetch:
+      ok: true
+      url: "https://www.bristolpride.co.uk/events/"
+      status: 200
+    events: []
+    notes: "One fetch. The events page is unchanged since 2026-08-17: it still heads \"Bristol Pride 2026 | 27 June - 12 July\" and lists the same ten entries — Pride Parade March and Pride Day on Sat 11 July, five afterparties that night (O2 Academy Bristol, Basement 45, Lakota, Cider Box Tap Room, Lost Horizon), the Dragathon and Pride Sunday at Bristol Bear Bar on Sun 12 July, and No More All Male Lineups at St George's on Thu 20 August. Every one of those has now passed; the 20 August show was recorded in full on 2026-08-17 and is not re-recorded, and the other nine were finished then too. Nothing new has been added. Despite the hint that this source keeps satellite dates outside the festival window, there is **nothing on 29-31 August and no bank-holiday event** — which for a source whose whole point is city-wide satellites is the notable result. No Bristol Pride 2027 dates are published."
+  - sourceId: "festivals/love-saves-the-day"
+    fetch:
+      ok: true
+      url: "https://www.lovesavestheday.org/"
+      status: 200
+    events:
+      - id: "festivals/love-saves-the-day#14ca188ac0"
+        sourceId: "festivals/love-saves-the-day"
+        title: "Love Saves the Day 2027"
+        occurrence:
+          kind: "undated"
+          note: "The site names the next edition — the sign-up block is headed \"LOVE SAVES THE DAY 2027\" — but prints no date, month or venue for it. The only dates on the page are the finished 2026 edition's, \"SAT 23 & SUN 24 MAY 2026, ASHTON COURT, BRISTOL\"."
+        status: "scheduled"
+        url: "https://www.lovesavestheday.org/"
+        tags:
+          - "festival"
+          - "live-music"
+          - "outdoor"
+          - "electronic"
+          - "multi-day"
+        raw: "**LOVE SAVES THE DAY 2027**
+
+
+          \"Sign up for first access to tickets & Lineup News.\"
+
+
+          \"It's not a party without you. Sign up to be first in line for exclusive
+
+          news, special offers, early lineup reveals and more.\"
+
+
+          The hero still carries the finished edition: **LOVE SAVES THE DAY / SAT 23 &
+
+          SUN 24 MAY 2026 / ASHTON COURT, BRISTOL**, with \"THANK YOU!\" beneath it.\n"
+        summary: "Bristol's largest music festival, two days at Ashton Court over the late-May weekend. A 2027 edition is confirmed by name on the sign-up page but has no announced date, venue or lineup yet — the site is otherwise still the thank-you page for May 2026."
+        confidence: "medium"
+    notes: "One fetch. The homepage is a two-state page: the hero holds the finished 2026 edition (\"SAT 23 & SUN 24 MAY 2026, ASHTON COURT, BRISTOL\", with \"THANK YOU!\"), and the sign-up block below it is headed \"LOVE SAVES THE DAY 2027\". That heading is what makes the 2027 edition a real listing rather than an inference, but no date is attached to it, so it is `undated`. The finished May 2026 edition is not recorded — it has passed and adds nothing. Nothing on 29-31 August, no bank-holiday event. The site has only two pages (home and gallery); there is no listings or lineup page to follow, and no open-graph image."
+  - sourceId: "festivals/forwards"
+    fetch:
+      ok: true
+      url: "https://www.forwardsbristol.co.uk/lineup"
+      status: 200
+    events:
+      - id: "festivals/forwards#833eea5a8c"
+        sourceId: "festivals/forwards"
+        title: "Forwards Festival 2026"
+        occurrence:
+          kind: "run"
+          start: "2026-08-29"
+          end: "2026-08-30"
+        status: "scheduled"
+        timesText: "Doors open: 12:00 · Last Entry: 20:00 · Close: 23:00 (both days)"
+        url: "https://www.forwardsbristol.co.uk/"
+        image: "https://cdn.prod.website-files.com/68b702cccff3664ee890de7d/6a870044b8424e3aab841441_Web.png"
+        price:
+          free: false
+          text: "Weekend from £134.30+BF · Saturday from £74.90+BF · Sunday from £71.90+BF"
+          min: 71.9
+          max: 134.3
+          currency: "GBP"
+        ageRestriction: "All ages. Under-4s free with registration; 5-12 need a kids ticket and 13-17 a teen ticket; anyone under 18 must be accompanied by a responsible adult (18+)."
+        tags:
+          - "festival"
+          - "live-music"
+          - "outdoor"
+          - "multi-day"
+          - "headliner"
+        raw: "**FORWARDS RETURNS FOR 2026** — \"A Music Festival in Bristol, For The Future\".
+
+
+          The FAQs give the dates in full: **\"Saturday 29th & Sunday 30th August 2026\"**,
+
+          at **Durdham Down, Circular Rd, Clifton, Bristol BS9 1NE**.
+
+
+          \"Doors open: 12:00. Last Entry: 20:00. Close: 23:00.\"
+
+
+          Tickets via AXS: **Weekend TICKETS FROM £134.30+BF**, **Saturday TICKETS FROM
+
+          £74.90+BF**, **Sunday TICKETS FROM £71.90+BF**, with group deals and payment
+
+          plans. Two days only — no Monday.
+
+
+          Alongside the music: THE INFORMATION STAGE, THE INTERACTIVE, an audio archive,
+
+          a KIDS AREA, and food and drink.\n"
+        summary: "The two-day festival on Durdham Down, this weekend: Tems, Maribou State, Self Esteem and Wet Leg on the Saturday, Little Simz, Amyl and The Sniffers and Dijon on the Sunday, with The Information stage of talks and a kids area alongside. Gates at noon both days, last entry 20:00, off the Downs by 23:00. It does not run into the bank holiday Monday."
+        confidence: "high"
+      - id: "festivals/forwards#04600ab47b"
+        sourceId: "festivals/forwards"
+        title: "Forwards Festival 2026 – Saturday"
+        occurrence:
+          kind: "single"
+          date: "2026-08-29"
+          startTime: "12:00"
+          endTime: "23:00"
+        status: "scheduled"
+        url: "https://www.forwardsbristol.co.uk/lineup"
+        price:
+          free: false
+          text: "Saturday TICKETS FROM £74.90+BF"
+          min: 74.9
+          currency: "GBP"
+        tags:
+          - "festival"
+          - "live-music"
+          - "outdoor"
+          - "headliner"
+          - "dj"
+        raw: "**Sat. Aug 29.**
+
+
+          Maribou State · Self Esteem · Tems · Wet Leg · 1-800 Girls · Amber · Crazy P
+
+          (DJ) · Erika De Casier · Goldie (Live) · Joy Crookes · Mitch Sanders ·
+
+          Paraorchestra - Kraftwerk Re:werk · Rubii · The Itch · Tricky · Xanadu\n"
+        summary: "Day one on the Downs: Tems, Maribou State, Self Esteem and Wet Leg at the top of the bill, with Goldie live, Bristol's own Tricky, Erika De Casier, Joy Crookes and Paraorchestra's Kraftwerk rework. Sixteen acts, unchanged since the bill was last read; set times are published only through the festival's phone app."
+        confidence: "high"
+      - id: "festivals/forwards#43b6fd2e00"
+        sourceId: "festivals/forwards"
+        title: "Forwards Festival 2026 – Sunday"
+        occurrence:
+          kind: "single"
+          date: "2026-08-30"
+          startTime: "12:00"
+          endTime: "23:00"
+        status: "scheduled"
+        url: "https://www.forwardsbristol.co.uk/lineup"
+        price:
+          free: false
+          text: "Sunday TICKETS FROM £71.90+BF"
+          min: 71.9
+          currency: "GBP"
+        tags:
+          - "festival"
+          - "live-music"
+          - "outdoor"
+          - "headliner"
+          - "dj"
+        raw: "**Sun. Aug. 30**
+
+
+          Amyl and The Sniffers · Dijon · Little Simz · Anaiis · Gena feat Liv.e &
+
+          Karriem Riggins · Jamz Supernova · Jean Dawson · Ledbyher · Liim · O'Flynn ·
+
+          Oklou · Princess Nokia · Viagra Boys · Wesley Joseph · YHWH Nailgun\n"
+        summary: "Day two on the Downs: Little Simz, Amyl and The Sniffers, Dijon and Viagra Boys lead a bill that also takes in Princess Nokia, Oklou, Wesley Joseph and Jamz Supernova. Fifteen acts — one fewer than a fortnight ago, with Jim Legxacy no longer printed."
+        confidence: "high"
+      - id: "festivals/forwards#1ee8673db9"
+        sourceId: "festivals/forwards"
+        title: "FORWARDS Presents: Lorde"
+        occurrence:
+          kind: "undated"
+          note: "Still billed in the header and footer of every Forwards page and still given its own site at lordebristol.co.uk, which prints no date, no start time, no venue and no price — only Buy Tickets, Set Times and \"Sign up for first access to news & tickets\". Lorde appears in neither day's festival lineup."
+        status: "scheduled"
+        url: "https://www.lordebristol.co.uk/"
+        tags:
+          - "live-music"
+          - "headliner"
+        raw: "**forwards presents: lorde** — carried across the Forwards site and on its own
+
+          site at [lordebristol.co.uk](https://www.lordebristol.co.uk/).
+
+
+          \"Sign up for first access to news & tickets: Name / Email / WhatsApp / Phone
+
+          Number. Input either your email or WhatsApp, or both, to ensure you get the
+
+          presale link reliably and first.\"
+
+
+          No date, time, venue, support act or price is given. The page now also carries
+
+          a Set Times link, which resolves to the same app-only page as the festival's.\n"
+        summary: "A Lorde show presented by Forwards, still being promoted across the festival's site and still with no announced date, venue or price. It sits outside both published day lineups, so it is not part of this weekend on any evidence the site gives."
+        confidence: "low"
+    notes: "Six fetches on the most important source in the run, and the headline answer is that **the dates stand and no Monday has been added**. /lineup prints \"Sat. Aug 29.\" and \"Sun. Aug. 30\" with no year, exactly as before; the FAQs page settles it outright with \"Saturday 29th & Sunday 30th August 2026\" and gives the address as Durdham Down, Circular Rd, Clifton, Bristol BS9 1NE. 29 and 30 August do fall on a Saturday and Sunday in 2026, so every dated row here is high confidence. There is no third day: no Monday 31 August appears on the lineup, the FAQs, the homepage or the ticket page, and the bank holiday is not mentioned anywhere on the site — which is why **no row carries the `bank-holiday` tag**. Following the hint, the bill is recorded as one row per day rather than one per act, since no set times or stages are published on the web at all.
+
+      Two things have changed since 2026-08-17. **Prices are now published**: /buyticketsaxs lists Weekend from £134.30+BF, Saturday from £74.90+BF and Sunday from £71.90+BF, with group deals and payment plans, all selling through AXS. And **Sunday's bill has lost an act** — Jim Legxacy was printed on 17 August and is not printed today; the rest of both days is unchanged, leaving 16 acts on Saturday and 15 on Sunday. No cancellation or change notice is posted, so no `status` is set on that basis.
+
+      Set times exist but are not on the web: the SET TIMES link goes to forwards.app.amplify.one, which serves only an install prompt for a native iOS/Android app (\"Get the Forwards app… Download on the App Store / Get it on Google Play\"). There is no HTML programme behind it, so nothing time-resolved could be harvested for this weekend. For stage 1: that is worth a hint recording, so a future run does not spend a fetch rediscovering it, and /faqs is worth recording as the page that actually prints the dates, gate times and age policy — the catalogued /lineup does not.
+
+      \"FORWARDS Presents: Lorde\" is unchanged and stays `undated` at low confidence: lordebristol.co.uk still prints no date, time or venue, and the show is in neither day's lineup, so it must not be assumed to be part of this weekend."
+  - sourceId: "festivals/simple-things"
+    fetch:
+      ok: true
+      url: "https://www.simplethingsfestival.co.uk/"
+      status: 200
+    events:
+      - id: "festivals/simple-things#5df97f0038"
+        sourceId: "festivals/simple-things"
+        title: "Simple Things 2026"
+        occurrence:
+          kind: "single"
+          date: "2026-11-07"
+        status: "scheduled"
+        url: "https://www.simplethingsfestival.co.uk/"
+        image: "https://images.bristolbeacon.org/uploads/2026/03/2000x1225-1-scaled.jpg"
+        price:
+          free: false
+          text: "£67.50 - £77.50 incl. booking fee (Pre-sale and Tier 1 sold out, Tier 2 on sale; open concession option with £5 off, voluntary £10 donation option)"
+          min: 67.5
+          max: 77.5
+          currency: "GBP"
+        tags:
+          - "festival"
+          - "live-music"
+          - "electronic"
+          - "headliner"
+          - "indie"
+        raw: "**Simple Things 2026 — Sat 7 Nov 2026**, across **Bristol Beacon, Strange Brew,
+
+          Rough Trade, Sportsmans and Shredenhams**.
+
+
+          \"Boundary-pushing music and contemporary culture.\" Created by Crack Magazine,
+
+          Bristol Beacon and Team Love, with guest curators **Squid**, **Shabaka**,
+
+          **Jeremy Deller** and **Cobrah**.
+
+
+          Very Special Guest: **The Avalanches**. Also on the bill: Hannah Diamond,
+
+          Alewya, Panda Bear & Sonic Boom, Moor Mother, Nathan Fake, caroline, Chanel
+
+          Beads, Cloud Nothings, Lord Spikeheart, Mykki Blanco and forty more.
+
+
+          Ticket tiers listed on the festival site: **Pre-sale – Sold Out**, **Tier 1 –
+
+          Sold Out**, **Tier 2 – Book Now**, Tier 3, Final Tier, Payment Plan Ticket.
+
+          [Book](https://bristolbeacon.org/whats-on/simple-things-2026/)\n"
+        summary: "The one-day multi-venue festival returns in November, spread across Bristol Beacon, Strange Brew, Rough Trade, Sportsmans and Shredenhams, with The Avalanches as very special guest and strands curated by Squid, Shabaka, Jeremy Deller and Cobrah. Two ticket tiers have already sold out."
+        confidence: "high"
+    notes: "Three fetches. **The festival's own site prints no date anywhere** — not on the homepage, not on /tickets/, not in the nav; /tickets/ lists only tier names and sold-out flags. The date, venues, lineup, price and image all came from the BOOK link the site itself points at, https://bristolbeacon.org/whats-on/simple-things-2026/, which gives \"Sat 7 Nov 2026\" — and 7 November 2026 is a Saturday, so the row is high confidence. For stage 1: that Bristol Beacon page is the source's real listings route and is worth catalogueing as one, because the festival site on its own is unharvestable. Note the overlap the hint warns about — four of the five venues (Bristol Beacon, Strange Brew, Rough Trade, and Sportsmans) are or may be catalogued separately, so expect this to appear again from `music`. No single `venue` is set on the event because it runs across five of them. Nothing on 29-31 August and no bank-holiday event."
+  - sourceId: "festivals/bristol-light-festival"
+    fetch:
+      ok: true
+      url: "https://bristollightfestival.org/"
+      status: 200
+    events:
+      - id: "festivals/bristol-light-festival#ed6954008e"
+        sourceId: "festivals/bristol-light-festival"
+        title: "Bristol Light Festival 2027"
+        occurrence:
+          kind: "run"
+          start: "2027-02-18"
+          end: "2027-02-27"
+        status: "scheduled"
+        url: "https://bristollightfestival.org/news/bristol-light-festival-announces-dates-for-2027/"
+        image: "https://bristollightfestival.org/wp-content/uploads/2026/02/Our-Colour-resized-1024x683.png"
+        price:
+          free: true
+          text: "Free, city-wide"
+        tags:
+          - "festival"
+          - "outdoor"
+          - "free-entry"
+          - "immersive"
+          - "family"
+        raw: "**We're back for 2027 from 18-27 February.**
+
+
+          \"The seventh edition will illuminate the city from Thursday 18 - Saturday 27th
+
+          February 2027*.\"
+
+
+          \"Showcasing the city at its brightest, Bristol Light Festival brings light, fun
+
+          and colour to the city centre across a free, city-wide celebration.\"
+
+
+          \"Bristol Light Festival is a firm fixture on the Bristol event calendar, where
+
+          2025 saw over 200,000 visitors across 10 dazzling evenings.\"
+
+
+          Founded by [Bristol BID](https://www.bristolbid.co.uk/).\n"
+        summary: "The free light-art trail returns for a seventh edition, ten evenings of installations across the city centre in late February. Artists and locations are not announced until much closer to the event; the dates are all that is fixed."
+        confidence: "high"
+    notes: "One fetch, and the hint holds exactly: WebFetch is refused, a browser user-agent gets a clean 200. Content is unchanged since 2026-08-17 — \"We're back for 2027 from 18-27 February\", the seventh edition, Thursday 18 to Saturday 27 February 2027. Both printed weekdays check out for 2027, so the row is high confidence. One thing worth a human's eye: the date line ends in an asterisk (\"Saturday 27th February 2027*\") whose footnote appears nowhere on the homepage, so the dates may yet be qualified. The dedicated news post at /news/bristol-light-festival-announces-dates-for-2027/ is used as the event URL. Nothing on 29-31 August; a February festival has no bank-holiday programming."
+  - sourceId: "festivals/encounters"
+    fetch:
+      ok: true
+      url: "https://2026.encounters.film/"
+      status: 200
+    events:
+      - id: "festivals/encounters#3ad672bd10"
+        sourceId: "festivals/encounters"
+        title: "Encounters Film Festival 2026"
+        occurrence:
+          kind: "run"
+          start: "2026-09-23"
+          end: "2026-09-27"
+        status: "scheduled"
+        url: "https://2026.encounters.film/"
+        tags:
+          - "festival"
+          - "short-film"
+          - "screening"
+          - "multi-day"
+          - "contemporary"
+        raw: "**23-27 September 2026.**
+
+
+          \"Short Films. Big Stories. Bold Ideas.\"
+
+
+          **2026 Official Selection announcement** — \"Discover 142 exceptional films from
+
+          around the world that make up the 2026 Encounters Film Festival Official
+
+          Selection. **71 premieres**, including **17 world premieres**, **7
+
+          international premieres** and **47 UK premieres**, with new work drawn from **39
+
+          countries**, from Afghanistan and Cambodia to Mexico, Palestine, Taiwan and
+
+          Ukraine.\"
+
+
+          \"Highlights include the UK premiere of *Paper Plane*, the directorial debut of
+
+          four-time Oscar nominee **Saoirse Ronan**, alongside new films from Oscar winner
+
+          **Aneil Karia** (*Vote Gavin Lyle*), Oscar nominees **Joshua Oppenheimer** (*The
+
+          Revolution Against Death*, UK premiere), **Don Hertzfeldt** (*Paper Trail*),
+
+          **Bill Morrison** (*Sawyer Avenue, Sunday Afternoon*, UK premiere) and **Jérémy
+
+          Comte** (*Brute*, UK premiere), plus **Jamie Hewlett and Max Taylor**'s Gorillaz
+
+          film *The Mountain, The Moon Cave & The Sad God*.\"\n"
+        summary: "Bristol's international short film festival, five days of competition strands, feature premieres, talks and masterclasses. This year's selection runs to 142 films from 39 countries, among them Saoirse Ronan's directorial debut and a Gorillaz film by Jamie Hewlett."
+        confidence: "high"
+      - id: "festivals/encounters#06d469a901"
+        sourceId: "festivals/encounters"
+        title: "Brief Encounters 1"
+        occurrence:
+          kind: "single"
+          date: "2026-09-23"
+          startTime: "10:30"
+        status: "scheduled"
+        url: "https://2026.encounters.film/events/brief-encounters-1-2026-09-23"
+        tags:
+          - "short-film"
+          - "screening"
+          - "contemporary"
+        raw: "**Brief Encounters 1** — Wed 23 Sept, 10:30. Cinema 1.\n"
+        summary: "The first of the festival's live-action short film competition programmes, opening the 2026 edition on its first morning."
+        confidence: "high"
+      - id: "festivals/encounters#af3aa63933"
+        sourceId: "festivals/encounters"
+        title: "Animated Encounters 1"
+        occurrence:
+          kind: "single"
+          date: "2026-09-23"
+          startTime: "12:30"
+        status: "scheduled"
+        url: "https://2026.encounters.film/events/animated-encounters-1-2026-09-23"
+        tags:
+          - "short-film"
+          - "animation"
+          - "screening"
+        raw: "**Animated Encounters 1** — Wed 23 Sept, 12:30.\n"
+        summary: "The first animated short film competition programme of the 2026 festival."
+        confidence: "high"
+      - id: "festivals/encounters#c687617b7d"
+        sourceId: "festivals/encounters"
+        title: "Brief Encounters 2"
+        occurrence:
+          kind: "single"
+          date: "2026-09-23"
+          startTime: "14:30"
+        status: "scheduled"
+        url: "https://2026.encounters.film/events/brief-encounters-2-2026-09-23"
+        tags:
+          - "short-film"
+          - "screening"
+          - "contemporary"
+        raw: "**Brief Encounters 2** — Wed 23 Sept, 14:30.\n"
+        summary: "The second live-action short film competition programme of the 2026 festival."
+        confidence: "high"
+      - id: "festivals/encounters#444ce4cf9f"
+        sourceId: "festivals/encounters"
+        title: "Animated Encounters 2"
+        occurrence:
+          kind: "single"
+          date: "2026-09-23"
+          startTime: "16:30"
+        status: "scheduled"
+        url: "https://2026.encounters.film/events/animated-encounters-2-2026-09-23"
+        tags:
+          - "short-film"
+          - "animation"
+          - "screening"
+        raw: "**Animated Encounters 2** — Wed 23 Sept, 16:30.\n"
+        summary: "The second animated short film competition programme of the 2026 festival."
+        confidence: "high"
+      - id: "festivals/encounters#9375b430a2"
+        sourceId: "festivals/encounters"
+        title: "Brief Encounters 3"
+        occurrence:
+          kind: "single"
+          date: "2026-09-23"
+          startTime: "18:30"
+        status: "scheduled"
+        url: "https://2026.encounters.film/events/brief-encounters-3-2026-09-23"
+        tags:
+          - "short-film"
+          - "screening"
+          - "contemporary"
+        raw: "**Brief Encounters 3** — Wed 23 Sept, 18:30.\n"
+        summary: "The third live-action short film competition programme of the 2026 festival."
+        confidence: "high"
+      - id: "festivals/encounters#024172e588"
+        sourceId: "festivals/encounters"
+        title: "South West Showcase"
+        occurrence:
+          kind: "single"
+          date: "2026-09-23"
+          startTime: "20:30"
+        status: "scheduled"
+        url: "https://2026.encounters.film/events/south-west-showcase-2026-09-23"
+        tags:
+          - "short-film"
+          - "screening"
+          - "contemporary"
+        raw: "**South West Showcase** — Wed 23 Sept, 20:30.\n"
+        summary: "A programme of new short films from the South West, closing the festival's opening day."
+        confidence: "high"
+      - id: "festivals/encounters#a9403d480a"
+        sourceId: "festivals/encounters"
+        title: "Underscore 003: SIRĀT LIVE"
+        occurrence:
+          kind: "single"
+          date: "2026-09-24"
+          startTime: "19:30"
+        status: "scheduled"
+        venue:
+          name: "The Prospect Building"
+        url: "https://2026.encounters.film/events/underscore-003-sirat-live-2026-09-24"
+        tags:
+          - "live-music"
+          - "electronic"
+          - "immersive"
+          - "documentary"
+          - "screening"
+        raw: "**Underscore 003: SIRĀT LIVE** — Thu 24 Sept, 19:30, The Prospect Building,
+
+          Bristol.
+
+
+          \"We are delighted to announce that Oliver Laxe and Kangding Ray will join us at
+
+          the festival in Bristol this September. Feel the world of *Sirāt* like never
+
+          before with a special soundsystem-driven AV event combining live performance
+
+          from Kangding Ray and largely unseen material shot on set by Oliver Laxe.\"
+
+
+          \"Presented by Encounters as part of MUBI and Crack's ongoing Underscore event
+
+          series, with support of the BFI Film Audience Network, awarding funds from the
+
+          National Lottery.\"\n"
+        summary: "A soundsystem-driven audiovisual show built around Oliver Laxe's *Sirāt*: Kangding Ray performing live against unseen footage shot on set, in the Prospect Building rather than a cinema."
+        confidence: "high"
+    notes: "Three fetches. The catalogued encounters.film is a news homepage, not a diary: it announces the selection and says the festival is \"this September\" without dating it. **The programme lives on a separate host, https://2026.encounters.film/**, reached from the site's own \"Festival\" nav link, and that is where \"23-27 September 2026\" is printed and where every event has its own page under a dated route (/events/<slug>-YYYY-MM-DD). For stage 1: that host is the real listings route and is worth adding — it is a per-edition subdomain, so it will move to 2027.encounters.film in due course.
+
+      **Truncated, and deliberately.** The official selection is 142 films across five days; recorded here are the festival run itself and the eight individually dated items the programme index put in front of me, all on the opening Wednesday and Thursday. The rest of the diary was not walked — it is a month away, and this run's coverage rule puts the bank-holiday weekend first. Venue is set only on SIRĀT LIVE, which is at The Prospect Building; the competition strands name only screen numbers, so no venue is claimed for them even though the hint says the festival is largely at Watershed. No prices are published anywhere yet — passes go through tickets.encounters.film. Nothing on 29-31 August and no bank-holiday event."
+  - sourceId: "festivals/slapstick"
+    fetch:
+      ok: true
+      url: "https://slapstick.org.uk/"
+      status: 200
+    events:
+      - id: "festivals/slapstick#a2b230fd98"
+        sourceId: "festivals/slapstick"
+        title: "Slapstick Conversations"
+        occurrence:
+          kind: "single"
+          date: "2026-10-04"
+        status: "scheduled"
+        venue:
+          sourceId: "music/st-georges-bristol"
+        url: "https://slapstick.org.uk/"
+        tags:
+          - "comedy"
+          - "talk"
+          - "fundraiser"
+          - "classic"
+        raw: "\"In our build-up to Slapstick 2027 we have a number of exciting events,
+
+          beginning with three very special up close and personal events. So join us at
+
+          **St George's Bristol on Sunday 4 October** for **Slapstick Conversations** – a
+
+          series of special fundraising events bringing together some of Britain's most
+
+          admired performers and creative voices.\"
+
+
+          \"Throughout the day, audiences will enjoy a programme of unique, live
+
+          conversations celebrating remarkable careers, unforgettable collaborations and a
+
+          lifetime of entertaining millions. Warm, insightful and often very funny, these
+
+          events offer a rare opportunity to hear directly from some of the people who
+
+          have helped shape British comedy, music and popular culture.\"
+
+
+          \"Every ticket sold helps support the work of Slapstick Festival, ensuring we can
+
+          continue celebrating the rich heritage of screen and visual comedy through
+
+          festival events and special projects.\"\n"
+        summary: "A day of three on-stage interviews at St George's, raising funds for the festival: career-spanning conversations with figures from British comedy, music and popular culture. Guests are not yet named on the site, though its banner images point to a Graeme and a Rick."
+        confidence: "medium"
+      - id: "festivals/slapstick#2f30489a98"
+        sourceId: "festivals/slapstick"
+        title: "Slapstick Festival 2027"
+        occurrence:
+          kind: "run"
+          start: "2027-02-10"
+          end: "2027-02-14"
+        status: "scheduled"
+        url: "https://slapstick.org.uk/"
+        image: "https://slapstick.org.uk/wp-content/uploads/2025/11/Slapstick2026_Slapstick_Website_Banner.jpg"
+        tags:
+          - "festival"
+          - "screening"
+          - "comedy"
+          - "classic"
+          - "multi-day"
+        raw: "\"Planning is already well underway for **Slapstick Festival 2027**, which
+
+          returns to Bristol **from 10–14 February** with another magnificent five-day
+
+          celebration of screen comedy across five venues.\"
+
+
+          \"It's a little too early to reveal the programme, but I promise it'll be worth
+
+          the wait. We'll begin lifting the curtain in September, when we'll announce our
+
+          first events and give you a taste of what's in store.\"
+
+
+          \"Before then, though, we have plenty to look forward to. Our autumn fundraiser
+
+          stand-up for Slapstick and our spectacular Silent Comedy Gala are both important
+
+          milestones on the road to February's programme.\"
+
+
+          — Chris Daniels, Founder & Festival Director\n"
+        summary: "Five days of silent and classic screen comedy across five Bristol venues, with the programme due to start appearing from September. The dates are fixed; nothing else is announced yet."
+        confidence: "high"
+    notes: "Four fetches. Two forward-dated things exist and both come off the homepage. **Slapstick Festival 2027, 10-14 February**, is stated with its year in the heading, so the run is high confidence even though no weekdays are printed. **Slapstick Conversations at St George's on \"Sunday 4 October\"** prints no year; 4 October 2026 is a Sunday, and the page frames it as part of the build-up to February 2027, so 2026 is the only reading that fits — but the weekday only confirms the year rather than being printed alongside it, and the event has no page or ticket link of its own, so it is recorded at medium confidence with the homepage as its URL. Banner filenames on the homepage (\"Conversations Website Banner Graeme\", \"…Rick\", \"…RickGriff\") suggest the guests are named somewhere, but no names appear in the page's text.
+
+      **Catalogue handover:** the listings page is https://slapstick.org.uk/all-events/, which the catalogue does not record — the catalogued URL is the homepage. It is also currently misleading: it lists the whole finished February 2026 programme (30 events, 4-8 February 2026) with no \"past\" flag, plus a Big Comedy Bash on 22 April 2026 at the Hexagon in **Reading**, outside this location. None of those are recorded here — they have all passed, and the Reading one would not belong in a Bristol harvest in any case. Slapstick Conversations is not on /all-events/ at all, which is why the homepage is the fetch of record. Nothing on 29-31 August, no bank-holiday event."
+  - sourceId: "festivals/bristol-open-doors"
+    fetch:
+      ok: true
+      url: "https://bristolopendoors.org.uk/"
+      status: 200
+    events: []
+    notes: "One fetch, and the picture is unchanged from 2026-08-17: the site is up and answers 200, but still fronts \"EXPLORE THE CITY / 13 - 15 October 2023\" and still lists that year's slots (Royal West of England Academy, King Street, One Portwall Square, PYTCHAir, Wapping Wharf, The Mount Without, Assembly Bristol, and several marked fully booked). No 2026 or 2027 edition is announced, and there is no \"returning\" wording to record as `undated` — the page names no future festival at all, which is why this observation is a successful fetch with no events rather than an undated row. Dormant, as the catalogue has it. Nothing on 29-31 August; had an edition been revived for the bank holiday this is where it would show, and it does not."
+  - sourceId: "festivals/winter-lanterns"
+    fetch:
+      ok: true
+      url: "https://www.lanternparade.org/"
+      status: 200
+    events:
+      - id: "festivals/winter-lanterns#c675488c5e"
+        sourceId: "festivals/winter-lanterns"
+        title: "Bedminster Winter Lantern Parade"
+        occurrence:
+          kind: "undated"
+          note: "\"Subject to funding, the parade will go ahead on a Saturday in January 2027.\" The site's heading still reads \"Bedminster Winter Lantern Parade – returning 2027\". No specific date is given, and no autumn workshop dates are published yet."
+        status: "scheduled"
+        url: "https://www.lanternparade.org/"
+        tags:
+          - "festival"
+          - "community"
+          - "outdoor"
+          - "family"
+          - "seasonal"
+        raw: "**Bedminster Winter Lantern Parade – returning 2027.** \"Celebrating creativity,
+
+          inclusiveness and the magical spirit of BS3.\"
+
+
+          \"Subject to funding, the parade will go ahead on a Saturday in January 2027.\"
+
+
+          \"Donate now and bring the magic back. All donations, big and small, are very
+
+          much appreciated.\"\n"
+        summary: "A procession of handmade lanterns through Bedminster, preceded by community lantern-making workshops each autumn. Organisers still expect a Saturday in January 2027 if the funding lands, but no date is fixed and no workshops are dated yet."
+        confidence: "medium"
+    notes: "One fetch. Unchanged since 2026-08-17 — same heading, same \"Subject to funding, the parade will go ahead on a Saturday in January 2027\", same donation appeal. The hint says lantern-making workshops are advertised through the preceding autumn and should start appearing from about October; as of today none are dated, which is worth knowing before the next run. Nothing on 29-31 August and no bank-holiday event. The site's only open-graph image is its logo, so no `image` is set."
+  - sourceId: "festivals/craft-beer-festival"
+    fetch:
+      ok: true
+      url: "https://bristolcraftbeerfestival.co.uk/"
+      status: 200
+    events:
+      - id: "festivals/craft-beer-festival#0c9fd9993e"
+        sourceId: "festivals/craft-beer-festival"
+        title: "Bristol Craft Beer Festival"
+        occurrence:
+          kind: "undated"
+          note: "The page announces a 2027 edition only as \"Sign up for our mailing list to be the first to hear about tickets for 2027\", with no date, month or on-sale date attached. The only dates printed are the finished 2026 edition's, \"12th — 13th June 2026, Harbourside, Bristol\"."
+        status: "scheduled"
+        url: "https://bristolcraftbeerfestival.co.uk/"
+        image: "https://bristolcraftbeerfestival.co.uk/wp-content/uploads/2026/03/2.jpg"
+        tags:
+          - "festival"
+          - "food-drink"
+          - "beer"
+          - "tasting"
+          - "outdoor"
+        raw: "**Thanks for coming!** \"Sign up for our mailing list to be the first to hear
+
+          about tickets for 2027.\"
+
+
+          The hero still carries the finished edition: **12th — 13th June 2026,
+
+          Harbourside, Bristol**. \"The best beer festival ever. All your beer included
+
+          with your ticket. Sample 300+ beers from over 50 breweries. Join 5,000 people.
+
+          Loads more food, drinks & music.\"\n"
+        summary: "A two-day harbourside beer festival where the ticket covers the beer — 300-plus beers from over 50 breweries across four sessions, with food and music. A 2027 edition is promised through the mailing list, but no dates are published."
+        confidence: "medium"
+    notes: "One fetch. The site has flipped to post-event mode: \"Thanks for coming!\" above a mailing-list sign-up \"to be the first to hear about tickets for 2027\", with the finished 12-13 June 2026 edition still in the hero (both printed weekdays check out for 2026). The 2026 line-up page and ticket pages are still linked and still live, but describe an edition that has passed, so nothing dated is recorded from them. The 2027 edition is named but not dated, hence `undated`. Nothing on 29-31 August and no bank-holiday event — the festival has no satellite programme."

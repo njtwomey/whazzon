@@ -1,0 +1,1480 @@
+schema: "whazzon.mail/1"
+locationId: "gb-bristol"
+date: "2026-09-11"
+category: "theatre"
+pulledAt: "2026-09-11T17:56:30Z"
+mailbox: "INBOX"
+messages:
+  - messageId: "<20260829101136.f00291039ece260f@boxoffice.bristololdvic.org.uk>"
+    receivedAt: "2026-08-29T10:11:36Z"
+    from:
+      address: "tickets@boxoffice.bristololdvic.org.uk"
+    subject: "New Account"
+    sourceId: "theatre/bristol-old-vic"
+    matchedBy: "from:*@*.bristololdvic.org.uk"
+    body: "Dear Whazzon Harvest,
+
+
+      Your new account with Bristol Old Vic has been set up.
+
+
+      The registered e-mail address is [recipient]."
+    truncated: false
+  - messageId: "<30010842.20260829110239.6a92bc4fed64a6.39529532@mail21.mcsignup.com>"
+    receivedAt: "2026-08-29T11:02:39Z"
+    from:
+      name: "acta - Bristol"
+      address: "helen@acta-bristol.com"
+    subject: "acta Contacts: Subscription Confirmed"
+    sourceId: "theatre/acta-community-theatre"
+    matchedBy: "from:*@acta-bristol.com"
+    body: "OPT IN TO ACTA MAILING LIST
+
+
+      Your subscription to our list has been confirmed.
+
+
+      For your records, here is a copy of the information you submitted to us...
+
+
+      \ * Email Address: [recipient]
+
+      \ * First Name: Whazzon
+
+      \ * Last Name: Harvest
+
+      \ * Town:
+
+      \ * Marketing Permissions:
+
+
+      If at any time you wish to stop receiving our emails, you can:
+
+      unsubscribe here <https://acta-bristol.us5.list-manage.com/unsubscribe?u=6a1a2cf87cf3ba1955b69f360&id=95693fed7a>
+
+
+      You may also contact us at:
+
+      info@acta-bristol.com
+
+
+      https://login.mailchimp.com/signup/email-referral/?aid=6a1a2cf87cf3ba1955b69f360"
+    truncated: false
+  - messageId: "<30010842.20260829110259.6a92bc63351fb1.22224225@mail14.mcsignup.com>"
+    receivedAt: "2026-08-29T11:02:59Z"
+    from:
+      name: "Travelling Light Theatre Company"
+      address: "marketing@travellinglighttheatre.org.uk"
+    subject: "Travelling Light Theatre Company List: Please Confirm Subscription"
+    sourceId: "theatre/travelling-light"
+    matchedBy: "from:*@travellinglighttheatre.org.uk"
+    body: "PLEASE CONFIRM SUBSCRIPTION
+
+
+      Yes, subscribe me to this list. <https://pixillionserver.us1.list-manage.com/subscribe/confirm?u=c388cdb24d5f107b8c398ef58&id=132fc61d95>
+
+
+      If you received this email by mistake, simply delete it. You won't be subscribed if you don't click the confirmation link above.
+
+
+      For questions about this list, please contact::
+
+      marketing@travellinglighttheatre.org.uk
+
+
+      https://login.mailchimp.com/signup/email-referral/?aid=c388cdb24d5f107b8c398ef58"
+    truncated: false
+  - messageId: "<30010842.20260829110350.6a92bc960bebf3.93340015@mail18.mcsignup.com>"
+    receivedAt: "2026-08-29T11:03:50Z"
+    from:
+      name: "Travelling Light Theatre Company"
+      address: "marketing@travellinglighttheatre.org.uk"
+    subject: "Travelling Light Theatre Company List: Subscription Confirmed"
+    sourceId: "theatre/travelling-light"
+    matchedBy: "from:*@travellinglighttheatre.org.uk"
+    body: "Your subscription to our list has been confirmed.
+
+
+      For your records, here is a copy of the information you submitted to us...
+
+
+      \ * Email Address: [recipient]
+
+      \ * First Name: Whazzon
+
+      \ * Last Name: Harvest
+
+      \ * City:
+
+      \ * Postcode:
+
+      \ * How did you find out about us?:
+
+      \ * Saw show at:
+
+      \ * I'm interested in receiving:
+
+      \ * Marketing Permissions:
+
+
+      If at any time you wish to stop receiving our emails, you can:
+
+      unsubscribe here <https://pixillionserver.us1.list-manage.com/unsubscribe?u=c388cdb24d5f107b8c398ef58&id=132fc61d95>
+
+
+      You may also contact us at:
+
+      marketing@travellinglighttheatre.org.uk
+
+
+      https://login.mailchimp.com/signup/email-referral/?aid=c388cdb24d5f107b8c398ef58"
+    truncated: false
+  - messageId: "<c388cdb24d5f107b8c398ef58.baab74520c.20260829130410.0784f6abc3.a0aedb96@mail161.suw12.mcsv.net>"
+    receivedAt: "2026-08-29T13:04:15Z"
+    from:
+      name: "Travelling Light Theatre Company"
+      address: "marketing@travellinglighttheatre.org.uk"
+    subject: "Whazzon, thanks for signing up"
+    listId: "c388cdb24d5f107b8c398ef58.379654.list-id.mcsv.net"
+    webVersion: "https://us1.campaign-archive.com/?u=c388cdb24d5f107b8c398ef58&id=0784f6abc3"
+    sourceId: "theatre/travelling-light"
+    matchedBy: "from:*@travellinglighttheatre.org.uk"
+    body: "We look forward to keeping in touch. In the meantime, you can read some of our latest stories and explore what we offer on our website.
+
+      View this email in your browser <https://us1.campaign-archive.com/?u=c388cdb24d5f107b8c398ef58&id=0784f6abc3>
+
+
+      *|FNAME|*, thanks for signing up
+
+      to our mailing list.
+
+
+      We are children's charity that creates theatre with and for children and young people, lighting up imaginations and sparking creativity.
+
+
+      It's great to have you with us and we look forward to keeping in touch. We promise not to send you too many emails - we usually send a bi-monthly newsletter and occasional event specific emails.
+
+
+      In the meantime, you can read some of our latest stories, explore what we offer and read more about our impact on our website. Please do get in touch if you have any questions.
+
+
+      Read our latest stories <https://pixillionserver.us1.list-manage.com/track/click?u=c388cdb24d5f107b8c398ef58&id=c7f4db14f7>
+
+
+      Explore what we offer <https://pixillionserver.us1.list-manage.com/track/click?u=c388cdb24d5f107b8c398ef58&id=c179e89eb9>
+
+
+      Read about our impact <https://pixillionserver.us1.list-manage.com/track/click?u=c388cdb24d5f107b8c398ef58&id=dfae0be291>
+
+
+      Have a friend who might also be interested in our work? Forward them this email via the links below and encourage them to sign up to our mailing lis <https://pixillionserver.us1.list-manage.com/track/click?u=c388cdb24d5f107b8c398ef58&id=ca11abebc9>t <https://pixillionserver.us1.list-manage.com/track/click?u=c388cdb24d5f107b8c398ef58&id=ca11abebc9>.
+
+
+      https://pixillionserver.us1.list-manage.com/track/click?u=c388cdb24d5f107b8c398ef58&id=42064d0750 Share <https://pixillionserver.us1.list-manage.com/track/click?u=c388cdb24d5f107b8c398ef58&id=42064d0750>
+
+
+      https://us1.forward-to-friend.com/forward?u=c388cdb24d5f107b8c398ef58&id=0784f6abc3&e=baab74520c Forward <https://us1.forward-to-friend.com/forward?u=c388cdb24d5f107b8c398ef58&id=0784f6abc3&e=baab74520c>
+
+
+      https://pixillionserver.us1.list-manage.com/track/click?u=c388cdb24d5f107b8c398ef58&id=199b4cfe57 Share <https://pixillionserver.us1.list-manage.com/track/click?u=c388cdb24d5f107b8c398ef58&id=199b4cfe57>
+
+
+      Copyright © 2026 Travelling Light Theatre Company, All rights reserved.
+
+      You are receiving this message because you have signed up to receive Travelling Light's Newsletter via email.
+
+
+      Our mailing address is:
+
+
+      Travelling Light Theatre Company
+
+      Wellspring Settlement
+
+      43 Ducie Road
+
+      Bristol, BS5 0AX
+
+      United Kingdom
+
+
+      Add us to your address book <https://pixillionserver.us1.list-manage.com/vcard?u=c388cdb24d5f107b8c398ef58&id=132fc61d95>
+
+
+      Want to change how you receive these emails?
+
+      You can update your preferences <https://pixillionserver.us1.list-manage.com/profile?u=c388cdb24d5f107b8c398ef58&id=132fc61d95&c=0784f6abc3> or unsubscribe from this list <https://pixillionserver.us1.list-manage.com/unsubscribe?u=c388cdb24d5f107b8c398ef58&id=132fc61d95&t=b&c=0784f6abc3>."
+    truncated: false
+  - messageId: "<1KNW.9AK3K.B4F7C3945A46D622EKQUVT2E4F924ECA855A2D.bb26bad0-acb1-4b2e-9c60-42cb528e4325@arts-mail.co.uk>"
+    receivedAt: "2026-08-30T09:02:12Z"
+    from:
+      name: "Bristol Old Vic"
+      address: "bristol.old.vic@arts-mail.co.uk"
+    subject: "Welcome to Bristol Old Vic! 🎭"
+    webVersion: "https://arts-mail.co.uk/cr/AQjcvQQQwNq4BxjZ1aKkAzDK3OZCx5Xb6yzFTEwqDrdb2AVDA0CpqMAxBl_KOlnq6g0UDiw?campaignkw=View%20in%20browser"
+    sourceId: "theatre/bristol-old-vic"
+    matchedBy: "from:bristol.old.vic@arts-mail.co.uk"
+    body: "https://arts-mail.co.uk/c/AQjcvQQQwNq4BxjZ1aKkAyDZwc-vASjK3OZCXp5-XVAj2X7IoNiKM4__tztC3as3CX3fvnenXq9KAT0
+
+
+      Hi Whazzon,
+
+
+      Welcome to Bristol Old Vic – or BOV for short; we don’t mind.
+
+
+      So pleased to have you with us.
+
+
+      If you didn’t know already, we’re all about three important things:
+
+
+      https://arts-mail.co.uk/c/AQjcvQQQwNq4BxjZ1aKkAyDawc-vASjK3OZCGkaSE3_JSAVEZ0p_9f1BuPT5yA_y4mIuQV6EZCXTFfk
+
+
+      EXCELLENT
+
+      THEATRE
+
+
+      Enjoy a jam-packed programme of world-class theatre in both our main Georgian auditorium and The Weston Studio.
+
+
+      WHAT’S ON <https://arts-mail.co.uk/c/AQjcvQQQwNq4BxjZ1aKkAyDbwc-vASjK3OZCnlJ6Lg4R8YkPPTr4k0t3GI9xwx3DFkiiVr_9eFNBkP0>
+
+
+      https://arts-mail.co.uk/c/AQjcvQQQwNq4BxjZ1aKkAyDcwc-vASjK3OZCPsDXBvBYX7rj6JiXXoQDLK7qtDy2dGVRv9GMh_E4k_I
+
+
+      OPPORTUNITY
+
+      FOR ALL
+
+
+      There’s something for everyone, on or off stage, no matter your age or experience. Get ready to explore.
+
+
+      TAKE PART <https://arts-mail.co.uk/c/AQjcvQQQwNq4BxjZ1aKkAyDdwc-vASjK3OZCSWUUE8lNNu1_uW15QuUw2lu_ghi9765GzhkR1R4776E>
+
+
+      https://arts-mail.co.uk/c/AQjcvQQQwNq4BxjZ1aKkAyDewc-vASjK3OZC1Wq72Ckun6kwXsHXO8GdY556hG6FEqSENpbvuKkBIhg
+
+
+      ARTIST
+
+      DEVELOPMENT
+
+
+      We are committed to supporting new writing, local artists and the vibrant creative ecology of the South West.
+
+
+      READ MORE <https://arts-mail.co.uk/c/AQjcvQQQwNq4BxjZ1aKkAyDfwc-vASjK3OZCnkWsWINYBll-PUiDR1Z5BqKHX-aS201DVA0Uqj3KpZg>
+
+
+      https://arts-mail.co.uk/c/AQjcvQQQwNq4BxjZ1aKkAyDgwc-vASjK3OZCDK9s2p2i9A44r6M7Kj9ywmDxNRV1nluJSph4RBG4rQM
+
+
+      PAY WHAT YOU CHOOSE
+
+
+      Did you know we’ve introduced flexible Pay What You Choose pricing?
+
+
+      On selected shows, you’ll be given a choice of different price brackets:
+
+
+      \ * Open Concession – Use it if you need it, no need to show ID.
+
+
+      \ * Standard – Please book this rate if you can.
+
+
+      \ * Pay It Forward – Each Pay It Forward ticket subsidises two Concession tickets. Thank you for choosing this price if you can.
+
+
+      Just select the price that best suits your budget and continue to checkout.
+
+
+      What’s more, our Ticket Subscriptions <https://arts-mail.co.uk/c/AQjcvQQQwNq4BxjZ1aKkAyDhwc-vASjK3OZC8-CEvVg2WFPRNTW10LxXE-U1TG5mbjk-ZmiDaksMnKs> and Groups Offer <https://arts-mail.co.uk/c/AQjcvQQQwNq4BxjZ1aKkAyDiwc-vASjK3OZCUJxPKIdfyBueaYu8Cx0zQGn5HZANHA9frouWzzvNVkE> give you even greater savings, and Members <https://arts-mail.co.uk/c/AQjcvQQQwNq4BxjZ1aKkAyDjwc-vASjK3OZCcaeQUwZwkFf8bVPCb4jFRhZmA6e6rSPVqfmZdexeUYs> (from just £5 per month) enjoy discounts and priority booking.
+
+
+      FIND OUT MORE <https://arts-mail.co.uk/c/AQjcvQQQwNq4BxjZ1aKkAyDkwc-vASjK3OZCbDG5FmJ5H1-qOOkwP1m6IiaheeP8uOIkQCd-XME0HYw>
+
+
+      ALSO, WE’VE GOT...
+
+
+      https://arts-mail.co.uk/c/AQjcvQQQwNq4BxjZ1aKkAyDlwc-vASjK3OZCBn8pcg5RrDVOfRFA7VvEpU6f188EktyKAX7n1NCuqlg
+
+
+      GREAT
+
+      FOOD & DRINK
+
+
+      Excellent coffee, freshly baked cakes and pastries, and a fab drinks offer at our Café Bar, plus free WiFi. Open Mon–Sat.
+
+
+      MORE ABOUT THE CAFE BAR <https://arts-mail.co.uk/c/AQjcvQQQwNq4BxjZ1aKkAyDmwc-vASjK3OZChFtMIEfBm9HL2ovBNPgzopG03-nvxWN5k6VksKYYBgk>
+
+
+      https://arts-mail.co.uk/c/AQjcvQQQwNq4BxjZ1aKkAyDnwc-vASjK3OZCwoLcq9lsQ7j0v_zQkghvIvMT90HTmqq5cj0wl0FTJ2o
+
+
+      260 YEARS
+
+      OF HISTORY
+
+
+      Go behind the scenes on a tour, see amazing artefacts in our free exhibitions, dive into the past with AR and more.
+
+
+      EXPLORE OUR HERITAGE <https://arts-mail.co.uk/c/AQjcvQQQwNq4BxjZ1aKkAyDowc-vASjK3OZC-knfAtijAuFj8qrBLg1Y4KK9r2-K5O1Fnx4UTbFZvOc>
+
+
+      https://arts-mail.co.uk/c/AQjcvQQQwNq4BxjZ1aKkAyDpwc-vASjK3OZCK4IdzixtxJ0_X15BqJX12nDK5Rf8li5h6yOh3Ii2iwY
+
+
+      FAMILY
+
+      ACTIVITIES
+
+
+      Enjoy dressing up in Sarah’s Den, embark on an interactive trail around the Theatre and discover our pushchair tour.
+
+
+      FUN WITH THE WHOLE GANG <https://arts-mail.co.uk/c/AQjcvQQQwNq4BxjZ1aKkAyDqwc-vASjK3OZCoo5rnV-h8Nfy2g-_nRwCk99LBqw32ngrj0Qjmvl70c0>
+
+
+      Everyone’s welcome at Bristol Old Vic. Come on in.
+
+
+      0117 987 7877
+
+      bristololdvic.org.uk
+
+
+      https://arts-mail.co.uk/c/AQjcvQQQwNq4BxjZ1aKkAyDrwc-vASjK3OZCkHtBQaeTF71hsI-A0PBy5bDKVJk_2N7xXzYAWKT56Pchttps://arts-mail.co.uk/c/AQjcvQQQwNq4BxjZ1aKkAyDswc-vASjK3OZC5z1dknBUB9FZ6umWw9OQYJDsw-KwtqXEb-6OoSSZswshttps://arts-mail.co.uk/c/AQjcvQQQwNq4BxjZ1aKkAyDtwc-vASjK3OZCdMIX4w4ZGyZhqGEqXosPE5JfjwM9UUU7XWLIMoHD5H4
+
+
+      Copyright © 2026 Bristol Old Vic and Theatre Royal Trust, all rights reserved. View this email in your browser <https://arts-mail.co.uk/cr/AQjcvQQQwNq4BxjZ1aKkAzDK3OZCx5Xb6yzFTEwqDrdb2AVDA0CpqMAxBl_KOlnq6g0UDiw?campaignkw=View%20in%20browser>.
+
+
+      You are receiving this email because you have created a Bristol Old Vic account. You can change your contact preferences within your Customer Account <https://arts-mail.co.uk/c/AQjcvQQQwNq4BxjZ1aKkAyDuwc-vASjK3OZChAWJGaxTzSt5Gn_vSkuGXd56B87VwnZ67sKYTaP15z0> at any time, or you can click Unsubscribe <https://arts-mail.co.uk/uns/AQjcvQQQwNq4BxjZ1aKkAyDK3OZCPOoDWQ0SL_UIkLu-yuOguU68I6zgsQoHsgGuGf41EXc>. Find out more about our Privacy Policy <https://arts-mail.co.uk/c/AQjcvQQQwNq4BxjZ1aKkAyDvwc-vASjK3OZCv1qnSxPvh_qgK2Pd6km5__rGtoa7CWsG3deQ4v3HJLA>."
+    truncated: false
+  - messageId: "<1TXN.9AFUZ.3FB8571E2203A4BAEKQUWE3BB607A29245E393.f0944b40-9bd9-4c67-8017-7c6c7ca32e61@arts-mail.co.uk>"
+    receivedAt: "2026-08-30T20:21:46Z"
+    from:
+      name: "Tobacco Factory Theatres"
+      address: "tobaccofactorytheatre@arts-mail.co.uk"
+    subject: "The Acts: a genre-defying showcase of new writing from some of the UK’s boldest emerging disabled theatremakers."
+    webVersion: "https://arts-mail.co.uk/cr/AQjLmwUQy6-4Bxju1aKkAyABMND-5kLWcxOogkUJCl-ML9UJLYGd16oxIk_NHBRNrn3TfQEtbA"
+    sourceId: "theatre/tobacco-factory"
+    matchedBy: "from:tobaccofactorytheatre@arts-mail.co.uk"
+    body: "20% discount on tickets for 3rd & 4th September ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌
+
+
+      View in browser <https://arts-mail.co.uk/cr/AQjLmwUQy6-4Bxju1aKkAyABMND-5kLWcxOogkUJCl-ML9UJLYGd16oxIk_NHBRNrn3TfQEtbA> | Forward <https://arts-mail.co.uk/c/AQjLmwUQy6-4Bxju1aKkAyCFnsOvASjQ_uZCznZgc5gsqUIUAPpgjnNKzWCCReFNMkIjMmcHcpMOYHw>email <https://arts-mail.co.uk/c/AQjLmwUQy6-4Bxju1aKkAyCFnsOvASjQ_uZCznZgc5gsqUIUAPpgjnNKzWCCReFNMkIjMmcHcpMOYHw>
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQy6-4Bxju1aKkAyCFnsOvASjQ_uZCznZgc5gsqUIUAPpgjnNKzWCCReFNMkIjMmcHcpMOYHw
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQy6-4Bxju1aKkAyCF7c-vASjQ_uZChVpbiYX33tP28sqwr5CMp4ikX0hdbPlIKDs3jTt-WrI
+
+
+      CRIPtic Arts returns with a genre-defying showcase of new writing from some of the UK’s boldest emerging theatre makers, directed by OFFIE winner Jamie Hale.
+
+
+      THE ACTS <https://arts-mail.co.uk/c/AQjLmwUQy6-4Bxju1aKkAyCF7c-vASjQ_uZChVpbiYX33tP28sqwr5CMp4ikX0hdbPlIKDs3jTt-WrI>
+
+
+      3rd – 4th September 2026
+
+
+      The Acts is a showcase of performances, where myth meets mischief, honesty meets absurdity, and nothing is what you expect. Urgent, inventive, and unapologetically original, it’s an invitation to witness disabled artists not in the neat boxes we’re expected to be in, but as we choose to be.
+
+
+      Introducing The Acts 2026:
+
+
+      Fran Bushe blazes onto the stage with 'HOT COLD', a riotous, and unflinchingly honest dive into the chaos of perimenopause, where heat, humour, and vulnerability collide; Hannah Finn & Morgan Barbour summon 'The Double Draw' – a dazzling fusion of acrobatics and archery set beneath the watchful gaze of the goddess Artemis; Jordan Charles’s 'Ride the Wind' weaves Yoruba mythology, puppetry and West African dance to enchant in this original Afro-fantasy musical; and Kat Bond takes on the impossible with 'The Making of The Eye Show', a satire of the diagnosis show that spirals through every thought ever had about eyes, blending clowning, stand-up, and absurdity into a gleefully chaotic spectacle.
+
+
+      Use code THEACTS20 for 20% off tickets.
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjLmwUQy6-4Bxju1aKkAyCF7c-vASjQ_uZChVpbiYX33tP28sqwr5CMp4ikX0hdbPlIKDs3jTt-WrI>
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQy6-4Bxju1aKkAyCF7c-vASjQ_uZChVpbiYX33tP28sqwr5CMp4ikX0hdbPlIKDs3jTt-WrI
+
+
+      HOT COLD
+
+
+      Grace has a lot on her plate: Her husband is keeping a sex diary, her mother keeps flashing the nurses … and Grace is pretty sure she is turning into a giant lizard. A funny and raw exploration of perimenopause, being part of the sandwich generation and not recognising your own body.
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQy6-4Bxju1aKkAyCF7c-vASjQ_uZChVpbiYX33tP28sqwr5CMp4ikX0hdbPlIKDs3jTt-WrI
+
+
+      THE DOUBLE DRAW
+
+
+      Two rival sister huntresses, one craving control, one craving freedom, compete beneath the goddess Artemis’ watch.
+
+
+      A circus show blending archery, duo acrobatics, physical theatre, contemporary dance and contortion.
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQy6-4Bxju1aKkAyCF7c-vASjQ_uZChVpbiYX33tP28sqwr5CMp4ikX0hdbPlIKDs3jTt-WrI
+
+
+      RIDE THE WIND
+
+
+      Weaving Yoruba mythology, puppetry and West African dance to induce a state of enchantment, this original Afro-fantasy musical reaches across the vastness of history and through the artificial veil of colonial disenfranchisement. When an ostracised, disabled boy is granted the power of flight by a Storm Goddess, will he use it in vengeance or heroism?
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQy6-4Bxju1aKkAyCF7c-vASjQ_uZChVpbiYX33tP28sqwr5CMp4ikX0hdbPlIKDs3jTt-WrI
+
+
+      THE MAKING OF THE EYE SHOW
+
+
+      Everything anyone’s ever thought about eyes, visual impairment and able anxiety. A bold, funny and awkward satire of the diagnosis show, in reaction to Kat’s own impulse post diagnosis of a degenerative eye condition to make a pity party piece. Featuring clowning, stand up and storytelling.
+
+
+      Show Information
+
+
+      1hr 40 (inc interval)
+
+
+      Age guidance: Recommended 16+
+
+
+      Tickets from £14
+
+
+      (Get 20% off with the code THEACTS20)
+
+
+      All performances are relaxed and have integrated audio description, BSL-interpretation and captioning.
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjLmwUQy6-4Bxju1aKkAyCF7c-vASjQ_uZChVpbiYX33tP28sqwr5CMp4ikX0hdbPlIKDs3jTt-WrI>
+
+
+      ACCESSIBLE PERFORMANCES AT TFT
+
+
+      Take a look at the upcoming shows with BSL interpreted performances, captioned performances, audio described performances or relaxed performances.
+
+
+      BSL Interpreted Performances
+
+
+      \ * The Acts: Thursday 3rd September 7:30pm and Friday 4th September, 7:30pm
+
+
+      \ * Pieces of My Life: Friday 11th September 8pm (Interpreter Sherrie Eugene-Hart) There will also be a BSL interpreted post-show discussion.
+
+
+      \ * Don Giovanni: Tuesday 29th September 7:30pm (Interpreter Adrian Bailey)
+
+
+      \ * How Soon Is Now: Friday 23rd October 7:30pm (Interpreter Kate Neill)
+
+
+      \ * Romeo & Juliet: Friday 6th November 7:30pm (Interpreter Sherrie Eugene-Hart)
+
+
+      \ * A Christmas Carol: Friday 18th December 7pm and Saturday 19th December 2pm (Interpreter Kate Neill)
+
+
+      Captioned Performances
+
+
+      \ * A Christmas Carol: Wednesday 6th January 1pm and 7pm
+
+
+      \ * The Acts: Thursday 3rd September 7:30pm and Friday 4th September 7:30pm
+
+
+      Audio Described Performances
+
+
+      \ * The Acts: Thursday 3rd September 7:30pm and Friday 4th September, 7:30pm
+
+
+      \ * How Soon Is Now: Thursday 22nd October 7:30pm, Friday 23rd October 7:30pm, and Saturday 24th October 7:30pm
+
+
+      Relaxed Performances
+
+
+      \ * A Message To The Future: All performances
+
+
+      \ * Little Snowy Hare: All performances
+
+
+      \ * A Christmas Carol: Saturday 2nd January 2pm
+
+
+      Tickets for all shows <https://arts-mail.co.uk/c/AQjLmwUQy6-4Bxju1aKkAyCMnsOvASjQ_uZCCp1BpYXXKyNpqX55qkykTxkELifDa7oM2wQilRCpi6g>
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQy6-4Bxju1aKkAyCInsOvASjQ_uZCbGe_NuK6f9qFqYDwE5DCnIKzJz5w0tI5iEFLnpTWLQAhttps://arts-mail.co.uk/c/AQjLmwUQy6-4Bxju1aKkAyCKnsOvASjQ_uZCKC_vk0fzVdu59H0F1naob2foh7IWsxpuP2ZQReRZsW4https://arts-mail.co.uk/c/AQjLmwUQy6-4Bxju1aKkAyCLnsOvASjQ_uZCY_alqaauQ3t-CdGBcWl3VU2Bh5YU93Dfbf6SS7zVW8E
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQy6-4Bxju1aKkAyCMnsOvASjQ_uZCCp1BpYXXKyNpqX55qkykTxkELifDa7oM2wQilRCpi6g
+
+
+      You're receiving this email because you attended an event at Tobacco Factory Theatres. If you would no longer like to receive emails like this, please log in to your account to amend your contact preferences. <https://arts-mail.co.uk/c/AQjLmwUQy6-4Bxju1aKkAyCNnsOvASjQ_uZC8PfXTEDSKGNG2s69VXIB-COvvsHXSIAxjl7reVVrfjU> Or, to stop receiving all emails about upcoming events, news and ways you can support us, click unsubscribe <https://arts-mail.co.uk/uns/AQjLmwUQy6-4Bxju1aKkAyDQ_uZCZ7-DyrgOWFLhT7Cw3wn3j5ps3FLD1I5yYzy7GCyicbQ>. You will still receive emails regarding any bookings or memberships you have with us. Reg. Company Tobacco Factory Arts Trust  No. 04536120 / Reg. Charity No. 1097542"
+    truncated: false
+  - messageId: "<1TXN.9AL5M.3FB8571E2203A4BAEKQUWE3BB607A29245E393.9ca93116-6da6-4b0f-a4ec-d4811a2bf1f0@arts-mail.co.uk>"
+    receivedAt: "2026-09-03T12:01:43Z"
+    from:
+      name: "Tobacco Factory Theatres"
+      address: "tobaccofactorytheatre@arts-mail.co.uk"
+    subject: "Original music, raw vulnerability and powerful storytelling: ‘Pieces Of My Life’ opens in Bristol this month"
+    webVersion: "https://arts-mail.co.uk/cr/AQjLmwUQmuW4Bxju1aKkAyABMLj450J9GB3qkBhobPYr2UzNiAifqTacWuIsKVXvCunBtQITJg"
+    sourceId: "theatre/tobacco-factory"
+    matchedBy: "from:tobaccofactorytheatre@arts-mail.co.uk"
+    body: "Written and performed by Bristol-based artist Kirris Rivere and produced by Ad Infinitum. ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌
+
+
+      View in browser <https://arts-mail.co.uk/cr/AQjLmwUQmuW4Bxju1aKkAyABMLj450J9GB3qkBhobPYr2UzNiAifqTacWuIsKVXvCunBtQITJg> | Forward <https://arts-mail.co.uk/c/AQjLmwUQmuW4Bxju1aKkAyDerNKvASi4-OdCXEYWJMe8OsGaXg8qW7LbjJkjHmgST-uBfMCy1LdlH8Y>email <https://arts-mail.co.uk/c/AQjLmwUQmuW4Bxju1aKkAyDerNKvASi4-OdCXEYWJMe8OsGaXg8qW7LbjJkjHmgST-uBfMCy1LdlH8Y>
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQmuW4Bxju1aKkAyDerNKvASi4-OdCXEYWJMe8OsGaXg8qW7LbjJkjHmgST-uBfMCy1LdlH8Y
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQmuW4Bxju1aKkAyCIzNKvASi4-OdCLySkeNEPxB6otokRyvjrtKSRZ1og1Y6-myTHA65-NuA
+
+
+      Join us for the hometown premiere of this powerful new play from Bristol-based artist Kirris Rivere.
+
+
+      PIECES OF MY LIFE <https://arts-mail.co.uk/c/AQjLmwUQmuW4Bxju1aKkAyCIzNKvASi4-OdCLySkeNEPxB6otokRyvjrtKSRZ1og1Y6-myTHA65-NuA>https://arts-mail.co.uk/c/AQjLmwUQmuW4Bxju1aKkAyCIzNKvASi4-OdCLySkeNEPxB6otokRyvjrtKSRZ1og1Y6-myTHA65-NuA
+
+
+      Written and performed by Kirris Rivere, produced by Ad Infinitum.
+
+
+      An autobiographical story of love, loss and resilience.
+
+
+      Facing a two-week eviction notice just days after his mum’s death, Kirris sets up a makeshift podcast studio in his childhood council flat, recording the story of his life before he has to leave.
+
+
+      Weaving memories, music and fragments from his journal, he brings to life the experiences that have shaped him, confronting identity, grief and the lifelong struggle with systemic racism.
+
+
+      At the heart of the show is his fiercely optimistic mum, whose love, humour and creativity continue to guide him.
+
+
+      With original music, raw vulnerability and powerful storytelling, Pieces of My Life is a deeply human exploration of defiance, family and home.
+
+
+      Suitable for ages 12+
+
+
+      This show contains themes of racism against black people, racial abuse, and mental health challenges. Contains strong language including one very strong racial slur.
+
+
+      The performance on Friday 11 September will be BSL-interpreted by Sherrie Eugene-Hart.
+
+
+      You can learn more about the show on the Ad Infinitum website. <https://arts-mail.co.uk/c/AQjLmwUQmuW4Bxju1aKkAyCg5NKvASi4-OdCJIHJ5ZG8dkuHhzH11oeuv4KbwZvHMxvOXk3ICTuYC2w>
+
+
+      Pieces of My Life <https://arts-mail.co.uk/c/AQjLmwUQmuW4Bxju1aKkAyCIzNKvASi4-OdCLySkeNEPxB6otokRyvjrtKSRZ1og1Y6-myTHA65-NuA>
+
+
+      Tobacco Factory Theatres
+
+
+      8th – 11th September
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjLmwUQmuW4Bxju1aKkAyCIzNKvASi4-OdCLySkeNEPxB6otokRyvjrtKSRZ1og1Y6-myTHA65-NuA>
+
+
+      BEHIND THE SCENES WITH KIRRIS RIVIERE
+
+
+      In rehearsal for Pieces of My Life, written and performed by TV and theatre actor Kirris Riviere (Hollyoaks, The Sandman) and produced by award-winning theatre company Ad Infinitum (Last Rites, Beautiful Evil Things).
+
+
+      Kirris Riviere is a Bristol-born storyteller, performer, writer, and musician bringing truth to the stage, screen, and classroom. From powerful one-man shows to blues-fuelled gigs and scripts rooted in justice, Kirris creates work that challenges, and connects.
+
+
+      His most recent screen credits include the feature film Bad Apples alongside Saoirse Ronan and the upcoming TV drama Falling starring Keeley Hawes, set for release in 2026.
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjLmwUQmuW4Bxju1aKkAyCIzNKvASi4-OdCLySkeNEPxB6otokRyvjrtKSRZ1og1Y6-myTHA65-NuA>
+
+
+      What's On <https://arts-mail.co.uk/c/AQjLmwUQmuW4Bxju1aKkAyDlrNKvASi4-OdCZRiuBWXFQ_hJKeEambMhBmXyuLmte-aIOz-JDuuvhI4>
+
+
+      Take a look at some of the inspiring new shows coming to TFT this autumn – and get your tickets before they're gone!
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQmuW4Bxju1aKkAyDn69KvASi4-OdCh4ZHIN7YKb_QooVOLMdpelFEeM-MUqiPOqj_C6WMiAE
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQmuW4Bxju1aKkAyDo69KvASi4-OdCJtPmJIrovng2p66YPSjZIUXCNbji0cguGtPkjXi6JVg
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQmuW4Bxju1aKkAyDp69KvASi4-OdC2hQ_4RTpP0-Zu8BplEG_tTpIDBHVdS2o_p-Dt8d13c0
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQmuW4Bxju1aKkAyDq69KvASi4-OdCiAYiXhmKi_I9QEWgr12aZs5097_JfOOCsMnAs11Xlrk
+
+
+      Autumn at TFT <https://arts-mail.co.uk/c/AQjLmwUQmuW4Bxju1aKkAyDY8dKvASi4-OdCdAzhVbnWa2Lo0yl0XINrkx4zMe2jdbw0ao5DsqktKhE>
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQmuW4Bxju1aKkAyDhrNKvASi4-OdCdigZ0WyMNVYq9rPz_pDgpHB-JhYNTLmJEyc50M0FG7Ihttps://arts-mail.co.uk/c/AQjLmwUQmuW4Bxju1aKkAyDirNKvASi4-OdCDbedriD2CLZnsDj_0Wn4ZcO366bRNwU1YP9b990YHqUhttps://arts-mail.co.uk/c/AQjLmwUQmuW4Bxju1aKkAyDjrNKvASi4-OdCZh53acK6FMI_YNdjkihH2ejQ-cmjpE4hqrN0aojCHIohttps://arts-mail.co.uk/c/AQjLmwUQmuW4Bxju1aKkAyDkrNKvASi4-OdCE2QCM7Na_T_lievKkLwRZvo-RJOgCb3vlG31e8fhQ4g
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQmuW4Bxju1aKkAyDlrNKvASi4-OdCZRiuBWXFQ_hJKeEambMhBmXyuLmte-aIOz-JDuuvhI4
+
+
+      You're receiving this email because you attended an event at Tobacco Factory Theatres. If you would no longer like to receive emails like this, please log in to your account to amend your contact preferences. <https://arts-mail.co.uk/c/AQjLmwUQmuW4Bxju1aKkAyDmrNKvASi4-OdCSgetpNCufiPQL1Bz3vd4HRX-ksXk85C97JAsOOltNGE> Or, to stop receiving all emails about upcoming events, news and ways you can support us, click unsubscribe <https://arts-mail.co.uk/uns/AQjLmwUQmuW4Bxju1aKkAyC4-OdC_lGG4kjegF6HroBzg4xEOkgknesd3UALsv6pp6vLx3k>. You will still receive emails regarding any bookings or memberships you have with us. Reg. Company Tobacco Factory Arts Trust  No. 04536120 / Reg. Charity No. 1097542"
+    truncated: false
+  - messageId: "<1KNW.9ANFZ.B4F7C3945A46D622EKQUVT2E4F924ECA855A2D.3188a3c4-4d89-40f1-89a8-0b96ea6bd01f@arts-mail.co.uk>"
+    receivedAt: "2026-09-04T17:01:01Z"
+    from:
+      name: "Bristol Old Vic"
+      address: "bristol.old.vic@arts-mail.co.uk"
+    subject: "New perspectives 🍂 | OffScript, September Edition 59"
+    webVersion: "https://arts-mail.co.uk/cr/AQjcvQQQr_y4BxjZ1aKkAzCm9vRCnT1oMGJxzbhyOv-2f7cmIxZepaH1dmj0vDkZj0_semU"
+    sourceId: "theatre/bristol-old-vic"
+    matchedBy: "from:bristol.old.vic@arts-mail.co.uk"
+    body: "https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyCpyt-vASim9vRCga-A-4QfCGrUZtZeYVOux9rEketzOJccVeU4VMvhwYM
+
+
+      WELCOME TO THE SEPTEMBER NEWSLETTER
+
+
+      It's 'Back to School' season and here at Bristol Old Vic we are jumping into a bunch of new starts of our own! We are delighted to announce our cast for the world premiere of Lanny, based on the book by Max Porter and adapted by Bea Roberts. Get to know the people behind the characters <https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyDeut2vASim9vRCbC4pY-qxrrKBz5W8xSUsY-uk8iXAQw-X27njHyy6P08> in our announcement.
+
+
+      We have already begun to enjoy the first of our September Comedy Season. If you've never been to any of our comedy nights (or even if you have), Troy has all the details for you in his helpful breakdown, 'What i reckon <https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyDfut2vASim9vRC-_USbAhYJXPCmcKcah9oMkBAFuCbxOe9py2ajsY1lms>'.
+
+
+      In The Weston Studio, our Young SixSix company are right in the middle of their production of Macbeth - a new take on the classic play. Read all about them <https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyDgut2vASim9vRCb8dd4ZFRKQwhQwjcUUQYmiS031-enhCCwMkMYm9Znuc> and their work in our article. Similarly, we have been chatting to the cast of Juliet & Romeo, which will be coming to our main stage this month. You can read our Q&A with Emily and John <https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyC0wd2vASim9vRCq8aunbQSoNaDLABzw4Wmjxyp6CcapAT1dAd2eKFPtsQ> on the blog.
+
+
+      Finally, we are very pleased to introduce you to our Associate Artists and Companies for 2026-28. We can't wait to work closely with these talented people, you can find out more about them in this announcement. <https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyDiut2vASim9vRCU9bPryE99VHKgWHaroju3qROT5hrNbbi-8-d_L_6j9E>
+
+
+      Wishing you all a wonderful month - whether you are jumping into new things, enjoying some rest, or waiting to see what the season has to offer!
+
+
+      Best wishes,
+
+
+      Bristol Old Vic
+
+
+      https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyCT9dyvASim9vRCR5CJxJmo20vuARajQwP4pRfjdxM9I5_5MwXBMrz7f44
+
+
+      CAST ANNOUNCED FOR WORLD PREMIERE OF MAX PORTER'S \"LANNY\"
+
+
+      READ MORE <https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyCU9dyvASim9vRCDRUaDdMOhbHapzTyjPj6EmG36OWuQNfKSZrG4t6PU9Y>
+
+
+      https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyCV9dyvASim9vRCAoDyncvA5VV1cg2D1GIgOGAu96bAMVwmLGZm-zJ-5A8
+
+
+      September Comedy Season: What I reckon... with Troy Orchard
+
+
+      READ MORE <https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyCW9dyvASim9vRCOlB76S3vRw5n21sTF7-dwCnj5WVIOcelsXS_edRohTg>
+
+
+      https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyCX9dyvASim9vRC58UPgPZmuh92ephb64KE3zFa4Wxp68MnIItt91j6VEg
+
+
+      Passing it on: How Young SixSix is building a new generation of theatre makers
+
+
+      READ MORE <https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyCY9dyvASim9vRCh_L3oVIXVjbmZ2PEhv7hEuALKmZjDdXrFYplrQ88xBk>
+
+
+      https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyCZ9dyvASim9vRCdGeDPBJKb09Hu04RnWJeVYQbB93pvRYN13i9VtLu-KU
+
+
+      Juliet & Romeo | Q&A with performers Emily Terndrup & John Kendal
+
+
+      READ MORE <https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyCa9dyvASim9vRCocYg55T-Vu0TZzuDn8fQVdWc2wMqLxlMiDAHvAFtf0g>
+
+
+      https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyDB_dyvASim9vRC47RMBY26PC1mIh9g_xpbeOlidixLy3TJxp5n05Vylsk
+
+
+      Bristol Old Vic announces new Associate Artists and Companies for 2026-28
+
+
+      READ MORE <https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyDC_dyvASim9vRCUZ2ixF2E_77zeh6xzyhd9R_bbZCIkqi_Zyl_xhAY4MA>
+
+
+      IN CASE YOU MISSED IT...
+
+
+      Comedian Stuart Goldsmith explores sustainability at BOV >> <https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyDHhd2vASim9vRC1uYsU8LoSjodYAchmT3wBJB6LfDezUrwR55oDRylK-8>
+
+
+      Blaze FM drop their new trailer >> <https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyDIhd2vASim9vRCTXZgVFgyxIRR2EfR6j0uez0-cInL2eyUHV0U4yezllw>
+
+
+      Badgers | Official Trailer >> <https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyDJhd2vASim9vRCYfA5e7-_1g4rcU3aZxvsZPQPVqJWANXIbOHFkhMoLt8>
+
+
+      ACCESS PERFORMANCES THIS MONTH...
+
+
+      BSL In <https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyC599ivASim9vRCJHSS53wr18ZR6yng4-43gdQMG4h9Qlavv9X01B8nC00>terpreted
+
+
+      https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyC599ivASim9vRCJHSS53wr18ZR6yng4-43gdQMG4h9Qlavv9X01B8nC00
+
+
+      https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyC599ivASim9vRCJHSS53wr18ZR6yng4-43gdQMG4h9Qlavv9X01B8nC00Juliet & Romeo <https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyC699ivASim9vRCuhl4I41KWKxewf8qhxlRvCh8RXoE1rvAKGQRHOhgySI> Wed 23 Sep 7:30pm, BSL-interpreted by Clare Edwards
+
+
+      Audio Described
+
+
+      Juliet & Romeo <https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyC699ivASim9vRCuhl4I41KWKxewf8qhxlRvCh8RXoE1rvAKGQRHOhgySI> Fri 25 Sep 7:30pm, Audio Describer Lost Dog Co-founder Raquel Meseguer Zafe
+
+
+      UPCOMING ACCESS
+
+
+      PERFORMANCES
+
+      <https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyC799ivASim9vRCtzaeZofrdaD3dHdnPLYebjfTe5kT3oZmU_ct3gVvEPw>
+
+
+      ACCESS
+
+
+      INFORMATION
+
+      <https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyC899ivASim9vRCReGJtv9d6m8BZxy0Vzxm0JMRbsCyYfu6IW54l9mR95w>
+
+
+      FROM OUR BRISTOL PALS...
+
+
+      Adventures of the Improvised Sherlock Holmes | Bristol Improv Theatre >> <https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyDKhd2vASim9vRCZIGuUk-k31koGeL-knxoWSVh_GataIhDSyhEzCG6Dgo>
+
+
+      Pieces of My Life | The Tobacco Factory >> <https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyDLhd2vASim9vRCPfCJ7UTQRodJVmUEGT37BdChkPGJRT-LIADZjbdfM84>
+
+
+      Hope Hunt and the Ascension into Lazarus | The Mount Without >> <https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyDMhd2vASim9vRC5KL4TZKZo1ktfjcOx_B9uAg1mz1uKM68SsAH-ytXGAs>
+
+
+      0117 987 7877
+
+
+      bristololdvic.org.uk <https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyDB99ivASim9vRCLW5EHLk9zrya7pO3O9Hd5YhKbKeoHY-cmrGRqzdMxYQ>
+
+
+      https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyDC99ivASim9vRCii34__ZiMASLftV426hZuxotEcK69372ditI5Ys3xxMhttps://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyDD99ivASim9vRCimTwwqsdcOC3l9JOyyQiawFzArUACFhdo64C6i6swgwhttps://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyDE99ivASim9vRCldcUKByKHDAPNA3uvhVpWy58HNRUIvR4G7TZR2s-uEkhttps://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyDF99ivASim9vRCcdrfOiBAViXpl9vdm20vXWDgc611IQMKrGhQ3ZJkCrUhttps://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyDG99ivASim9vRCQL-5VOVgTeQo8tk2LNCCCw7hSUBb8863IRqz7JUqSP0
+
+
+      Copyright © 2026 Bristol Old Vic Trust, all rights reserved. View in browser <https://arts-mail.co.uk/cr/AQjcvQQQr_y4BxjZ1aKkAzCm9vRCnT1oMGJxzbhyOv-2f7cmIxZepaH1dmj0vDkZj0_semU>
+
+
+      https://arts-mail.co.uk/uns/AQjcvQQQr_y4BxjZ1aKkAyCm9vRCwGCtI89StTdNWVT_-DOcqjWux6Fxeex7FpupRE8SnGg
+
+
+      When you register for an account or sign up to our newsletter, we will keep in touch with you with information about upcoming shows, events and news. You can change your preferences within your Customer Account <https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyDH99ivASim9vRCJGXW7Eg5egLSRVxINu6hnx5BDUjhTIeFIHiU8LJhtrU> at any time, or you can click on the Unsubscribe <https://arts-mail.co.uk/uns/AQjcvQQQr_y4BxjZ1aKkAyCm9vRCwGCtI89StTdNWVT_-DOcqjWux6Fxeex7FpupRE8SnGg> link in this email. Read our full Privacy Notice <https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyDI99ivASim9vRCYMa4ORAF_g4nFW3ewqAL-hTk7KCjtjO4qEGR3YszuvI> or Contact Us <https://arts-mail.co.uk/c/AQjcvQQQr_y4BxjZ1aKkAyDJ99ivASim9vRCKziXdd69958PLJyNRCF7hXY0wwShoge9JnQhhih3kMw> if you have any further questions."
+    truncated: false
+  - messageId: "<7PG0.30B6P.464CD9B7EB31A4867NC2MYFCDF512D71086C2E.ad5733a5-8f1a-4519-843d-96efa4d66f8e@mail.thewardrobetheatre.com>"
+    receivedAt: "2026-09-05T11:02:07Z"
+    from:
+      name: "The Wardrobe Theatre"
+      address: "hello@mail.thewardrobetheatre.com"
+    subject: "World’s Longest Improvised Soap Opera Is Back!"
+    sourceId: "theatre/wardrobe-theatre"
+    matchedBy: "from:*@*.thewardrobetheatre.com"
+    body: "Closer Each Day:
+
+
+      World’s Longest Improvised Story Continues
+
+
+      Beginning Mon 14th Sept & Every Other Monday
+
+
+      7:30pm | £14 (£8 Closer Each Day Patron Members)
+
+
+      Nothing is more Bristol than this anarchic and joyful on-going live comedy soap opera. We are delighted to announce that are returning to Bristol Legends’ Best Performing Arts Venue 2026, The Wardrobe Theatre, this September to continue their 15th birthday celebrations!
+
+
+      https://mail.thewardrobetheatre.com/c/AQiQ-RUQobe0AhjalsLcASCMz9MXKLfH-wm9mMr8fr-AO2dqTRdSFnW1jINOIzVzLXaULWg_2s0i1g
+
+
+      Book Now → <https://mail.thewardrobetheatre.com/c/AQiQ-RUQobe0AhjalsLcASCMz9MXKLfH-wm9mMr8fr-AO2dqTRdSFnW1jINOIzVzLXaULWg_2s0i1g>
+
+
+      Set in the fictional location of Newtown, Closer Each Day has run fortnightly at The Wardrobe Theatre for over 15 years and almost 300 episodes. It is the longest running theatre show outside of London and the UK’s only live soap opera!
+
+
+      Closer brings you all the drama, romance, and intrigue of a traditional soap, but with side-splitting comedy and the excitement of an unscripted live show. And anything can happen; an illicit affair, a joyful wedding, a nail-biting cliff-hanger or even a murder!
+
+
+      Don’t worry if you’re a newcomer – we’ll catch you up on the action and you’ll be totally immersed from the very first scene. So, whether it’s your first time, you’re a binge-watcher or a life-long fan, come and find out what happens next!
+
+
+      FINALIST – Bristol Life Awards 2026 and 2023
+
+
+      “Truly brilliant.”
+
+      ★★★★★ Epigram
+
+
+      “Fun and uplifting.”
+
+      Backstage Bristol
+
+
+      “As deft as any script you’ve heard.”
+
+      Bristol 24/7
+
+
+      “Funny, inventive, fast-paced and sparkling. Loved it!”
+
+      David Lloyd, BBC Screenwriter
+
+
+      “Quick-witted, very watchable ensemble, razor-sharp in timing and delivery.”
+
+      ★★★★ Stage Talk
+
+
+      “So consistently gripping it’s incredible to think it’s created off the cuff.”
+
+      Visit Bristol
+
+
+      https://mail.thewardrobetheatre.com/c/AQiQ-RUQobe0AhjalsLcASCOz9MXKLfH-wmt_u1TEzSMxEguj5UFsemtAQWd1QzeMmJZBl33Rd_cyw
+
+
+      https://mail.thewardrobetheatre.com/c/AQiQ-RUQobe0AhjalsLcASCPz9MXKLfH-wncpWYFCfQ1bPqE1UCmovNCJkCEnDW3qV63CXjr7sRYKA
+
+
+      https://mail.thewardrobetheatre.com/c/AQiQ-RUQobe0AhjalsLcASCQz9MXKLfH-wnH5TlD44rvBSJf_GFCwWHreqcw1tISq00n2Vw6H5h-2w
+
+
+      https://mail.thewardrobetheatre.com/c/AQiQ-RUQobe0AhjalsLcASCRz9MXKLfH-wl1wDN9H03xqZu5aa36ml-87YPnYzkRBKhUxcL_l1FWoghttps://mail.thewardrobetheatre.com/c/AQiQ-RUQobe0AhjalsLcASCSz9MXKLfH-wkyiQNvFnT1PaSjtmH7EXpidbMh3sxF-hAjkq8mOHIiQghttps://mail.thewardrobetheatre.com/c/AQiQ-RUQobe0AhjalsLcASCTz9MXKLfH-wkTEViu_CFLQQQCf4QnbKgXE3uRbUXnwt2z_0YdH2yVQA
+
+
+      www.thewardrobetheatre.com <https://mail.thewardrobetheatre.com/c/AQiQ-RUQobe0AhjalsLcASCUz9MXKLfH-wmRZ3Jh-8ZiHCQHG9vz42k88EQRuWCKdRqDKc550eo_eQ>
+
+
+      The Wardrobe Theatre, The Old Market Assembly, 25 West Street, Old Market, Bristol, BS2 0DF
+
+
+      The Wardrobe Theatre is a registered charity (no. 1177812)
+
+
+      Click here to unsubscribe <https://mail.thewardrobetheatre.com/uns/AQiQ-RUQobe0AhjalsLcASC3x_sJ1SGLSiAcEQ2t6tCjncMaHWyn99Sb-8cdWWhIX_oo6eg>"
+    truncated: false
+  - messageId: "<1TXN.9AR9S.3FB8571E2203A4BAEKQUWE3BB607A29245E393.8fad827a-509d-46fd-98a7-cefc21af8024@arts-mail.co.uk>"
+    receivedAt: "2026-09-07T16:53:48Z"
+    from:
+      name: "Tobacco Factory Theatres"
+      address: "tobaccofactorytheatre@arts-mail.co.uk"
+    subject: "What's On at Tobacco Factory Theatres this autumn!"
+    webVersion: "https://arts-mail.co.uk/cr/AQjLmwUQkKO5Bxju1aKkAzC5mPpCPIi1m5Nd76AIRRbZZw6jBxTC8R0L03YEJkP7uCVl3x0"
+    sourceId: "theatre/tobacco-factory"
+    matchedBy: "from:tobaccofactorytheatre@arts-mail.co.uk"
+    body: "It's all happening at Tobacco Factory Theatres this season. ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌ ͏⠀‌
+
+
+      View in browser <https://arts-mail.co.uk/cr/AQjLmwUQkKO5Bxju1aKkAzC5mPpCPIi1m5Nd76AIRRbZZw6jBxTC8R0L03YEJkP7uCVl3x0> | Forward <https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyD-zOOvASi5mPpC4yN1mPz_68-bWdbnzc1VfnVkG3xLVdfB4bxX9Mz3tUo>email <https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyD-zOOvASi5mPpC4yN1mPz_68-bWdbnzc1VfnVkG3xLVdfB4bxX9Mz3tUo>
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyD-zOOvASi5mPpC4yN1mPz_68-bWdbnzc1VfnVkG3xLVdfB4bxX9Mz3tUo
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyDI-uOvASi5mPpCCMDZOO5EcocNL0XQbBTJFNEp1sYknhC-ZtQEukNXoVA
+
+
+      Hi Whazzon
+
+
+      Take a look at the brilliant shows coming to the stage this autumn. Dramas, musicals, comedy, opera and shows for little ones – it's all happening at Tobacco Factory Theatres this season!
+
+
+      AUTUMN AT THE THEATRE
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyDw8eOvASi5mPpCpniSFDwnZcOFuAfJt5V5gpOFtvOku9lm012gskD2BOU
+
+
+      PIECES OF MY LIFE
+
+
+      8-11 September
+
+
+      An autobiographical story of love, loss and resilience with original music, raw vulnerability and powerful storytelling, written and performed by Bristol's own Kirris Riviere ('Hollyoaks', 'The Sandman') and produced by award-winning theatre company Ad Infinitum.
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyDw8eOvASi5mPpCpniSFDwnZcOFuAfJt5V5gpOFtvOku9lm012gskD2BOU>
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyDx8eOvASi5mPpCnq4jWIgKlWaBWqleXna_iSPxPb4MuznVSlTZvyZSAn4
+
+
+      WIDDERSHINS
+
+
+      12 September
+
+
+      Welcome to Widdershins, a forgotten village buried deep in a dark, wild corner of Cornwall. Stories told with a sting, poetry cracked and darkly comic, physical theatre, wit and silliness. Widdershins was written specifically for actor David Mynne by renowned Cornish playwright Written by Carl Grose – who is also writing our 2026 Christmas production of 'A Christmas Carol'!
+
+
+      You can read a Q&A with Carl on our blog. <https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyCC-uOvASi5mPpC-cWklJ1bJIrhUqKLVD2o7KmGG0z4RiqWKsSOXsFwTjU>
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyDx8eOvASi5mPpCnq4jWIgKlWaBWqleXna_iSPxPb4MuznVSlTZvyZSAn4>
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyDy8eOvASi5mPpCpulBDQinr8ny0UIKUkuiDQg0saE0XXnXR3hnGbuJhJY
+
+
+      A MESSAGE FOR THE FUTURE
+
+
+      15 September
+
+
+      A multi-sensory art installation theatre experience designed for little ones aged 0-3 and their grown ups. Explore your magical future garden where you’ll meet a punk poet Dandelion, a rock n' roll minibeast, and an operatic super herb.
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyDy8eOvASi5mPpCpulBDQinr8ny0UIKUkuiDQg0saE0XXnXR3hnGbuJhJY>
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyDz8eOvASi5mPpCOflJhKxQI7jYPBLV2wUFjavRdPCoT-OS2-O9nlGniLA
+
+
+      DON GIOVANNI
+
+
+      23 September - 3 October
+
+
+      Opera Project and Tobacco Factory Theatres complete Mozart and Da Ponte’s trilogy with their thrilling masterpiece, Don Giovanni. Directed by Richard Studer, conducted by Jonathan Lyness.
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyDz8eOvASi5mPpCOflJhKxQI7jYPBLV2wUFjavRdPCoT-OS2-O9nlGniLA>
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyD08eOvASi5mPpCUQs1UhXhgJQmHJusBEe7RyoJiUQaiaLyxU5a6VOcxAM
+
+
+      AFTERMIRTH
+
+
+      28 September
+
+
+      The journey of parenthood is a magical and maddening one so what better way to cope with it than through stand-up comedy! Aftermirth is an adult comedy club that you can bring your baby to.
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyD08eOvASi5mPpCUQs1UhXhgJQmHJusBEe7RyoJiUQaiaLyxU5a6VOcxAM>
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyD18eOvASi5mPpCMu-zLEqFGcV3kpAFdnmquH73G-A_lwzLCt5NJRYzChU
+
+
+      JORVIK
+
+
+      6-8 October
+
+
+      An interactive, immersive play – inspired by the Viking sagas and the great tradition of communal storytelling. Expect celebration, song, combat, larger than life characters and plenty of toasting!
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyD18eOvASi5mPpCMu-zLEqFGcV3kpAFdnmquH73G-A_lwzLCt5NJRYzChU>
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyD28eOvASi5mPpCoT-QsgwPglxBPUAB0yK2M0xS4sF4Apty3j3mSv6gylw
+
+
+      THE HIGHGATE VAMPIRE
+
+
+      8-10 October
+
+
+      A new dark comedy from critically acclaimed Bag of Beard Theatre that asks you to imagine… What if The Woman in Black had been performed by The Mighty Boosh?
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyD28eOvASi5mPpCoT-QsgwPglxBPUAB0yK2M0xS4sF4Apty3j3mSv6gylw>
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyD38eOvASi5mPpCFVuGaPX4axBvuEigVfsUwrsBQO2aTHyLNuyF1qqnHng
+
+
+      THE KATE BUSH SONG BOOK
+
+
+      12 October
+
+
+      Since embarking on their musical journey back in 2012, Cloudbusting have been touring theatres and music venues across the UK and Europe, exploring the intricacies and nuance of Kate’s stunning albums.
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyD38eOvASi5mPpCFVuGaPX4axBvuEigVfsUwrsBQO2aTHyLNuyF1qqnHng>
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyD48eOvASi5mPpCATxWbiaG7zCir4PlaJheGB68Mzc6X6V4OvS6hbflMVw
+
+
+      WWG: GURTMANIA
+
+
+      14-17 October
+
+
+      Following their sell-out smash-hit Gurt Haunted – GURT Productions are back with a brand new show ‘WWG: GURTMania’ – a love letter to the world of professional wrestling, told in their chaotic trademark comedy style.
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyD48eOvASi5mPpCATxWbiaG7zCir4PlaJheGB68Mzc6X6V4OvS6hbflMVw>
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyCZ-OOvASi5mPpCrhzO9qgk5uqTz4pQteWtOf3qeFa_5ExAtzTrN8eRqv0
+
+
+      APPLES & PEARS SCRATCH NIGHT
+
+
+      17 October
+
+
+      Owl on the Roof’s scratch night showcasing works in progress from a variety of artists. Every edition brings a hand-picked mix of short pieces; some funny, some moving, some wonderfully unpredictable, all at different stages of development.
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyCGzeOvASi5mPpCmJ-NHgSGFUN3EgEJ5jSNge5otBoanw3neGsfZqFtfZo>
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyD58eOvASi5mPpCQzh3hCW6SCPZBlbNas34Eh3qDlsmhppvKsxKG7Kj0Dc
+
+
+      NIPLASH
+
+
+      20 October
+
+
+      Niplash is painful, absurd, heartbreaking, heartwarming, and full of love, a lot like feeding. It’s a highly physical and visual lactivist call to arms. Expect to see milk.
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyD58eOvASi5mPpCQzh3hCW6SCPZBlbNas34Eh3qDlsmhppvKsxKG7Kj0Dc>
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyCa-OOvASi5mPpC7P8nNdfpp2jTZOGuYIkw6XcO94E2eQHHn0VZ3LkTxfw
+
+
+      HOW SOON IS NOW
+
+
+      22-24 October
+
+
+      Award-winning theatre company Box of Tricks presents ‘How Soon is Now?’ a brand-new indie musical by acclaimed playwright Siân Owen. Set to a live soundtrack of 90’s classics, How Soon is Now? is an indie musical about mates, music and magic – finding your place and finding yourself.
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyCHzeOvASi5mPpCEbd_b2E9d4UNhFqch91qiXCSL4zVFN4lZLjUKHCFcfo>
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyD68eOvASi5mPpCfy5kCopF8VIY_F64q89AX8gCPqQCobSqXr5azSnSsQM
+
+
+      ONE MAN POE
+
+
+      30-31 October
+
+
+      Internationally acclaimed, with sell-out performances across the UK and at Edinburgh Fringe, One Man Poe uses Poe’s original 1840s texts to create a gripping evening of gothic theatre. “The quintessential stage adaptation” of Poe’s work.
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyD68eOvASi5mPpCfy5kCopF8VIY_F64q89AX8gCPqQCobSqXr5azSnSsQM>
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyD78eOvASi5mPpCtbQxFKsdB9oYpqwMTCq_4DjHxCpeIbkxxnRSGvw8dTw
+
+
+      ROMEO AND JULIET
+
+
+      31 October - 7 November
+
+
+      The fantastic Bristol Old Vic Theatre School final year BA Professional Acting students will be performing Shakespeare’s timeless tale of love, conflict and heartbreak at Tobacco Factory Theatres this autumn.
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyD78eOvASi5mPpCtbQxFKsdB9oYpqwMTCq_4DjHxCpeIbkxxnRSGvw8dTw>
+
+
+      Elsewhere in Bristol
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyCb-OOvASi5mPpCpxsV6nb3KINegJMVKQrG8jb4vzMc_C7FpNvsNlP-xDs
+
+
+      Action Hero: Song and Dance at The Wardrobe Theatre
+
+
+      Bristol’s legendary, bold, endlessly inventive and genre-defying theatre company, Action Hero (The Talent, Oh Europa, Watch Me Fall) bring 'Action Hero: Song and Dance' to our friends over at The Wardrobe Theatre this week! Performances are from Wednesday 9th - Saturday 12th September and you can book tickets on their website. <https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyCb-OOvASi5mPpCpxsV6nb3KINegJMVKQrG8jb4vzMc_C7FpNvsNlP-xDs>
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyCKzeOvASi5mPpCjQdCj2yJQrw8Izm7nn-s4kGkJIPfAPaUxpQ4UdNH0jQ
+
+
+      https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyCLzeOvASi5mPpC513xniVUraeMbn2RIVA5b15GsHmms0dBlv1FjHxzs4khttps://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyCMzeOvASi5mPpCIIFpuutm_0Q7erfJ3-NUWQnhahrRlPA90YB2j3Lf6sshttps://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyCNzeOvASi5mPpCczmup-N7yhZ2cBlchpElNtnG4N_QDpcikdag6cd6vp8
+
+
+      You're receiving this email because you attended an event at Tobacco Factory Theatres. If you would no longer like to receive emails like this, please log in to your account to amend your contact preferences. <https://arts-mail.co.uk/c/AQjLmwUQkKO5Bxju1aKkAyCOzeOvASi5mPpCdVe-Leq8hpjs91Uqznkotu26GYKba9D6OygWBvH3UAg> Or, to stop receiving all emails about upcoming events, news and ways you can support us, click unsubscribe <https://arts-mail.co.uk/uns/AQjLmwUQkKO5Bxju1aKkAyC5mPpCOj5-aStV-3MekJCH-8oTJYhXEE8tU2FFsf6QEXAY9lM>. You will still receive emails regarding any bookings or memberships you have with us. Reg. Company Tobacco Factory Arts Trust  No. 04536120 / Reg. Charity No. 1097542"
+    truncated: false
+  - messageId: "<6a1a2cf87cf3ba1955b69f360.7026194924.20260908140037.5b75a8cc68.8de0a069@mail47.atl71.mcdlv.net>"
+    receivedAt: "2026-09-08T14:00:59Z"
+    from:
+      name: "acta Community Theatre"
+      address: "info@acta-bristol.com"
+    subject: "September at acta: Come along to our Christmas show!"
+    listId: "6a1a2cf87cf3ba1955b69f360.12637.list-id.mcsv.net"
+    sourceId: "theatre/acta-community-theatre"
+    matchedBy: "from:*@acta-bristol.com"
+    body: "Plus: Places left on Babbers, and Elevate
+
+
+      https://us.list-manage.com/F2hlEZ6jY7x?c2id=178ee8babe3db6d0c3bd9d9141602d5e
+
+
+      Hello and welcome to acta's September 2026 newsletter.
+
+
+      September has come back around again - and for us this often feels like a new beginning as we start new projects and meet new people. We're really excited to see stories take shape and to present them to you, too.
+
+
+      You can now book tickets to our ever-popular Christmas show! This year presented by Phoenix Theatre, our Young Adults group, 'The Star Catchers' will be performed in December and we are excited to offer two weekend matinee showings. There is more information below - book now to secure your spot!
+
+
+      We're also very excited to announce more school holiday drama club activity!
+
+
+      https://us.list-manage.com/c4rbL5vhHLO?c2id=178ee8babe3db6d0c3bd9d9141602d5e
+
+
+      Ocean of Dark
+
+      By acta's Young Carers
+
+      Thursday 29th October, 6.30pm
+
+
+      Legend tells of a beautiful sapphire created eternities ago that gives its wearer total power. It was thought it had been lost to history, but it has resurfaced and sparked a sea-faring power struggle like no other.
+
+
+      An infamous pirate throws a party onboard her ship and invites all: queens, princesses, mermaids, and vampires alike. But is one of her wicked schemes brewing? Will all our revellers make it to the last dance?
+
+
+      acta’s Young Carers’ Ocean of Dark is an exciting adventure, exploring the endless search for power and the consequences of it. This unique and thrilling horror will be spooky and dark, with some laughter along the way.
+
+
+      Book your free place for Ocean of Dark <https://us.list-manage.com/snE5FNQ1hUt?c2id=178ee8babe3db6d0c3bd9d9141602d5e>
+
+
+      https://us.list-manage.com/zOX8a5wR8OB?c2id=178ee8babe3db6d0c3bd9d9141602d5e
+
+
+      The Star Catchers
+
+      By Phoenix Theatre
+
+      Various dates and times between 5th and 11th December
+
+
+      Something strange is happening in the night sky…
+
+
+      The stars are disappearing — and without them, the magic of Christmas is beginning to fade. In a quiet corner of the woods, an unlikely discovery sets a curious adventure in motion, while elsewhere a festive hotel is losing its sparkle and, in fairyland, the fairies are finding their magic mysteriously slipping away.
+
+
+      Could it all be connected?
+
+
+      As the worlds collide, a daring quest begins to uncover who — or what — is behind the missing stars.
+
+
+      Join us for a thrilling festive adventure full of mystery, magic and, of course, stars!
+
+
+      Book your tickets for The Star Catchers <https://us.list-manage.com/gTTEtEyhL0e?c2id=178ee8babe3db6d0c3bd9d9141602d5e>
+
+
+      https://us.list-manage.com/11CmFyK0n1c?c2id=178ee8babe3db6d0c3bd9d9141602d5e
+
+
+      September in Elevate: Creative Facilitaiton
+
+      Games, exercises, group dynamics, planning
+
+
+      Wednesday 16th September sees the very first Elevate session. There is still space for you to book on and join the session.
+
+
+      what will I do in this workshop?
+
+      • You’ll learn a range of games and exercises
+
+      • You’ll learn how to adapt games to the needs of the groups
+
+      • You will understand when to use a game and how it can benefit you
+
+      • Learn how to plan and structure a workshop
+
+      • Learn the benefits of this work
+
+
+      This workshop will benefit anybody who facilitates groups as part of their work – not just for creative practitioners.
+
+
+      Tickets are £20 full price, £10 concessionary. This year we are offering a full term ticket – this will give you entry to every workshop in the series, at a 25% discount.
+
+
+      Book today <https://us.list-manage.com/asbP9GSuAkV?c2id=178ee8babe3db6d0c3bd9d9141602d5e>
+
+
+      https://us.list-manage.com/132Iydz111r?c2id=178ee8babe3db6d0c3bd9d9141602d5e
+
+
+      Babbers! - New term starting September
+
+      Mondays, 10am & 11am
+
+
+      Babbers has just started for another term!
+
+
+      Ever popular, our 11am slot is very nearly sold out with just one space left! This term runs up to the end of November. You can save £3 a session if you book for the remaining term - although you can book a single drop-in session to try it out.
+
+
+      Book the full term here <https://us.list-manage.com/R2ViS7GYsOA?c2id=178ee8babe3db6d0c3bd9d9141602d5e>
+
+
+      https://us.list-manage.com/LugHS79U2Pq?c2id=178ee8babe3db6d0c3bd9d9141602d5e
+
+
+      Become an acta Friend today
+
+      From £5 a month you can help us strengthen our foundation
+
+      Help us to continue creating new plays that platform real people and real stories. We’re a registered charity, and we rely on the generous support of donors to continue our important work year on year.
+
+
+      Read more information and sign up today <https://us.list-manage.com/MGzglzZ17MP?c2id=178ee8babe3db6d0c3bd9d9141602d5e>
+
+
+      https://us.list-manage.com/Epz8HjdIf6u?c2id=178ee8babe3db6d0c3bd9d9141602d5e
+
+
+      Just announced: October Half Term Drama Club!
+
+      Monday 26th and Tuesday 27th October, 10am - 3pm
+
+      For ages 8-12
+
+
+      Come and join us in the October half term holidays for two days of creative theatre play! In just two days you’ll create a never-before-seen play which you can then perform to family and friends. We’ll combine your ideas (weird and wacky ones encouraged!) to create something truly unique.
+
+
+      Places cost £50.00 per day, and are booked in blocks of two days. We are able to offer three half price places for low-income families – if you would like one of these, please email info@acta-bristol.com
+
+
+      More information and book a place on Eequ <https://us.list-manage.com/xgWIPSDc6Ip?c2id=178ee8babe3db6d0c3bd9d9141602d5e>
+
+
+      Heritage Open Days
+
+      Led by local residents, supported by local services
+
+      Heritage Open Days is England's largest community led festival of history and culture, involving thousands of local volunteers and organisations. Every year in September it brings people together to celebrate their heritage, community and history. Stories are told, traditions explored, and histories brought to life. It’s your chance to see hidden places and try out new experiences – and it’s all free!
+
+       See the full list of participating organisations here  <https://us.list-manage.com/zx4ALbBuJFt?c2id=178ee8babe3db6d0c3bd9d9141602d5e>
+
+
+      South Bristol Arts Trail
+
+      Annual weekend event celebrating creativity in the communities of Southville, Bedminster & Ashton
+
+      The South Bristol Arts Trail is a free event, open to everyone, and takes place once a year in venues across Southville, Bedminster and Ashton. Each year over 100 local artists exhibit in venues across BS3. Artists open their homes and studio spaces, as well as exhibiting in community venues from schools and shops to cafes and community centres. Wander through South Bristol and discover new artists, favourite local venues and creatives that might just surprise you. Taking place on the 19th and 20th September 2026 <https://us.list-manage.com/RhN3qBnPHIM?c2id=178ee8babe3db6d0c3bd9d9141602d5e>
+
+
+      QiGong in the Gallery
+
+      A free, guided, movement session at Arnolfini
+
+      This 60-minute QiGong session is suitable for all levels and designed to help restore and reset your body, mind, and soul. This session provides a nurturing space to reconnect with yourself and find balance. Take time to tune into your body through mindful, conscious movement. Friday 11 September, 12 – 1pm. No booking required, first come first serve, bring your own yoga mat. More information on Arnolfini's website <https://us.list-manage.com/154U4MA7Fjd?c2id=178ee8babe3db6d0c3bd9d9141602d5e>
+
+
+      https://us.list-manage.com/19SoLOgwi0S?c2id=178ee8babe3db6d0c3bd9d9141602d5e Facebook <https://us.list-manage.com/Xze73op8AjD?c2id=178ee8babe3db6d0c3bd9d9141602d5e>
+
+
+      https://us.list-manage.com/WoZnutp0Q1l?c2id=178ee8babe3db6d0c3bd9d9141602d5e Twitter <https://us.list-manage.com/_dKDqFHjmgT?c2id=178ee8babe3db6d0c3bd9d9141602d5e>
+
+
+      https://us.list-manage.com/kiX8Aiu6gaF?c2id=178ee8babe3db6d0c3bd9d9141602d5e Website <https://us.list-manage.com/eDflwLncMAz?c2id=178ee8babe3db6d0c3bd9d9141602d5e>
+
+
+      https://us.list-manage.com/DJ0xofrggTH?c2id=178ee8babe3db6d0c3bd9d9141602d5e Instagram <https://us.list-manage.com/Oq9L1neMnFd?c2id=178ee8babe3db6d0c3bd9d9141602d5e>
+
+
+      https://us.list-manage.com/iWpUjj90ZLn?c2id=178ee8babe3db6d0c3bd9d9141602d5e LinkedIn <https://us.list-manage.com/bwbbK4tx4OS?c2id=178ee8babe3db6d0c3bd9d9141602d5e>
+
+
+      For any feedback, comments or questions, please email:
+
+      rosa@acta-bristol.com
+
+
+      Copyright © 2026 acta - Bristol, All rights reserved.
+
+      You were subscribed to the newsletter from acta - Bristol
+
+
+      Our mailing address is:
+
+
+      acta - Bristol
+
+      Gladstone Street
+
+      Bristol, * BS3 3AY
+
+      United Kingdom
+
+
+      Add us to your address book <https://acta-bristol.us5.list-manage.com/vcard?u=6a1a2cf87cf3ba1955b69f360&id=95693fed7a>
+
+
+      Want to change how you receive these emails?
+
+      You can update your preferences <https://acta-bristol.us5.list-manage.com/profile?u=6a1a2cf87cf3ba1955b69f360&id=95693fed7a&c=5b75a8cc68> or unsubscribe from this list <https://acta-bristol.us5.list-manage.com/unsubscribe?u=6a1a2cf87cf3ba1955b69f360&id=95693fed7a&t=b&c=5b75a8cc68>.
+
+
+      https://login.mailchimp.com/signup/email-referral/?aid=6a1a2cf87cf3ba1955b69f360"
+    truncated: false
+  - messageId: "<7PG0.30EJD.464CD9B7EB31A4867NC2MYFCDF512D71086C2E.03bbd023-e2c0-4b8f-980e-b97632266fef@mail.thewardrobetheatre.com>"
+    receivedAt: "2026-09-10T08:00:34Z"
+    from:
+      name: "The Wardrobe Theatre"
+      address: "hello@mail.thewardrobetheatre.com"
+    subject: "Catch The Inspirational Story Of This Irish Clan Chief Legend"
+    sourceId: "theatre/wardrobe-theatre"
+    matchedBy: "from:*@*.thewardrobetheatre.com"
+    body: "Dauntless: Grace O’Malley Pirate Queen
+
+
+      Thurs 24th - Sat 26th Sept
+
+
+      7:30pm | £14
+
+
+      Award-winning storyteller, Debs Newbold (as heard on The Blindboy Podcast), gleefully delivers the boisterous, remarkable and inspirational story of her hero, Grainne ni Mhaille, aka Grace O’Malley, the legendary Irish clan chief and queen of the sea.
+
+
+      https://mail.thewardrobetheatre.com/c/AQiQ-RUQmdm0AhjalsLcASD2zdoXKISD_wlU_6gdp28v6jRD2sjwilme4POv1SRi21-jQDv9GvHWJg
+
+
+      https://mail.thewardrobetheatre.com/c/AQiQ-RUQmdm0AhjalsLcASD2zdoXKISD_wlU_6gdp28v6jRD2sjwilme4POv1SRi21-jQDv9GvHWJg
+
+
+      Book Now → <https://mail.thewardrobetheatre.com/c/AQiQ-RUQmdm0AhjalsLcASDmzNoXKISD_wn_LO0wZbId_CuHwrXWHNO-0X5qVzY0sE2K09Wo0-Jnxg>
+
+
+      Stowing away aboard her father’s ship aged 8, Grace became a 16th century force of nature. A multilingual, seafaring weapons expert, leader of 2000 men, rebel, politician, kingmaker and slayer, prodigious lover, avenging hero and notorious pirate. Best of all, she was real.
+
+
+      From the west of Ireland to the court of Elizabeth I, from wild youth to even wilder old age, Dauntless is an epic celebration of uproarious storytelling, high drama and one fascinating 16th century feminist. No knights in shining armour need apply.
+
+
+      “She is amazing… magnificent, interesting, talented, passionate.”
+
+      Blindboy
+
+
+      “A sublime performer. Utterly mesmerising to watch.”
+
+      Shappi Khorsandi
+
+
+      “Energising and entrancing.”
+
+      ★★★★ eFestivals
+
+
+      “Sensational… A superb storyteller.”
+
+      Crick Crack Club
+
+
+      “Newbold is a master of words and space.”
+
+      StageTalk Magazine
+
+
+      “Incredible… By the end if she’d asked us to rise up and destroy the patriarchy, we would have.”
+
+      Audience Member on Dauntless
+
+
+      https://mail.thewardrobetheatre.com/c/AQiQ-RUQmdm0AhjalsLcASDVpdoXKISD_wm6jNexvYTad4RG2LImNkrh3mgWyAEIKwUuKumkSOxMvw
+
+
+      https://mail.thewardrobetheatre.com/c/AQiQ-RUQmdm0AhjalsLcASDWpdoXKISD_wmK4te19hE7aQsHWOKNaIraE82TWKC_MFdIujdcOvFWRw
+
+
+      https://mail.thewardrobetheatre.com/c/AQiQ-RUQmdm0AhjalsLcASDXpdoXKISD_wlxrCoS-HQy-FTIN82dKmwpeHJxXYtnpHE9vxtBFm3m-w
+
+
+      https://mail.thewardrobetheatre.com/c/AQiQ-RUQmdm0AhjalsLcASDYpdoXKISD_wm_eEDRVfRApQndapdgmUNaD8LCbUygjG1aDebMdATIswhttps://mail.thewardrobetheatre.com/c/AQiQ-RUQmdm0AhjalsLcASDZpdoXKISD_wlg-YkXYtUvxf7UCQdCFDLNxC9LilE7FoVzs_486BE3Nwhttps://mail.thewardrobetheatre.com/c/AQiQ-RUQmdm0AhjalsLcASDapdoXKISD_wkk_8mAE5vqAS-ACofZHS1dO3tTqFzJxRn7f-2NvFvhng
+
+
+      www.thewardrobetheatre.com <https://mail.thewardrobetheatre.com/c/AQiQ-RUQmdm0AhjalsLcASDbpdoXKISD_wnUot15M5wSQ9gt8Xd1tjKYssAo8p8oIYtr3Qr_k46XJg>
+
+
+      The Wardrobe Theatre, The Old Market Assembly, 25 West Street, Old Market, Bristol, BS2 0DF
+
+
+      The Wardrobe Theatre is a registered charity (no. 1177812)
+
+
+      Click here to unsubscribe <https://mail.thewardrobetheatre.com/uns/AQiQ-RUQmdm0AhjalsLcASCEg_8JQItGkREYcYA9Ilc8OZE5n_54JbZFzXogTfH_--_J7CQ>"
+    truncated: false

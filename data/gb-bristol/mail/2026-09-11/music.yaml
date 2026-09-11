@@ -1,0 +1,2169 @@
+schema: "whazzon.mail/1"
+locationId: "gb-bristol"
+date: "2026-09-11"
+category: "music"
+pulledAt: "2026-09-11T17:56:30Z"
+mailbox: "INBOX"
+messages:
+  - messageId: "<20260829101614.61768f5539e54332@boxoffice.stgeorgesbristol.co.uk>"
+    receivedAt: "2026-08-29T10:16:14Z"
+    from:
+      address: "boxoffice@boxoffice.stgeorgesbristol.co.uk"
+    subject: "St George's Bristol"
+    sourceId: "music/st-georges-bristol"
+    matchedBy: "from:*@*.stgeorgesbristol.co.uk"
+    body: "Dear Whazzon Harvest,
+
+
+      Thank you for your interest in St George's Bristol.
+
+
+      E-Newsletter: if you've signed up for our e-newsletter, you don't need to take any further action.
+
+
+      New Account Set-up: If you've set up an account and will be purchasing tickets online please click here to set a password <https://tickets.stgeorgesbristol.co.uk/stgeorgesbristol/website/secure/setpassword.aspx?spektrixPasswordToken=BXJHDZLMWTYQVGHWMNZW&domain=www.stgeorgesbristol.co.uk>. This link expires in 2 hours.
+
+
+      Website: Please go to the website stgeorgesbristol.co.uk for full details of our classical, jazz, folk, world and jazz concerts, plus family and spoken word events.
+
+
+      With best wishes
+
+
+      The St George's Bristol Team"
+    truncated: false
+  - messageId: "<30010842.20260829105838.6a92bb5e9c8819.25529537@mail22.mcsignup.com>"
+    receivedAt: "2026-08-29T10:58:38Z"
+    from:
+      name: "The Fleece"
+      address: "mailinglist@thefleece.co.uk"
+    subject: "Fleece Mailinglist: Subscription Confirmed"
+    sourceId: "music/the-fleece"
+    matchedBy: "from:*@thefleece.co.uk"
+    body: "Your subscription to our list has been confirmed.
+
+
+      For your records, here is a copy of the information you submitted to us...
+
+
+      \ * Email Address: [recipient]
+
+      \ * First Name: Whazzon
+
+      \ * Surname:
+
+      \ * Marketing Permissions:
+
+
+      If at any time you wish to stop receiving our emails, you can:
+
+      unsubscribe here <https://thefleece.us4.list-manage.com/unsubscribe?u=bc14350a810c70a94a93f7120&id=74c936acc5>
+
+
+      You may also contact us at:
+
+      chris@thefleece.co.uk"
+    truncated: false
+  - messageId: "<35809bf0ed51354826947ada4.d1504c1ecc.20260829105919.c769b6c1ef.3fa542e4@mail24.suw11.mcdlv.net>"
+    receivedAt: "2026-08-29T10:59:23Z"
+    from:
+      name: "Motion Bristol"
+      address: "info@motionbristol.com"
+    subject: "*|MMERGE2|* - welcome to the party!"
+    listId: "35809bf0ed51354826947ada4.341741.list-id.mcsv.net"
+    webVersion: "https://us2.campaign-archive.com/?i=62b327f3c1&u=35809bf0ed51354826947ada4&id=c769b6c1ef"
+    sourceId: "music/motion"
+    matchedBy: "from:*@motionbristol.com"
+    body: "Thanks for subscribing to Motion Bristol's newsletter
+
+
+      View this email in your browser <https://us2.campaign-archive.com/?i=62b327f3c1&u=35809bf0ed51354826947ada4&id=c769b6c1ef>
+
+
+      THANKS FOR SUBSCRIBING
+
+
+      Hi *|MMERGE2|*,
+
+
+      Welcome to Motion's mailing list, we're so glad you’ve joined the party! 🎉
+
+
+      As you have signed up for our newsletter, you will be the first to know about new event announcements and will have VIP access to presales, offers, and discounts.
+
+
+      We will be also sharing exclusive content with you, such as playlists, artist features, and a behind-the-scenes look at what goes on at Motion.
+
+
+      To make sure you don't miss out on anything, be sure to add us to your address book.
+
+
+      And remember, this is a two-way street. If you have any questions or just want to share something with us, please do! We’d love to hear from you.
+
+
+      Until next time,
+
+
+      Motion x
+
+
+      https://us.list-manage.com/ITYp1Yikq5V?c2id=614c93d9846475bde264b908ce9b7504&i=62b327f3c1
+
+
+      https://us.list-manage.com/jc-nH1eEex9?c2id=614c93d9846475bde264b908ce9b7504&i=62b327f3c1
+
+
+      https://us.list-manage.com/aazwMeLQKIe?c2id=614c93d9846475bde264b908ce9b7504&i=62b327f3c1
+
+
+      https://us.list-manage.com/PTMqgtWEJ2A?c2id=614c93d9846475bde264b908ce9b7504&i=62b327f3c1
+
+
+      Copyright © 2026 Motion Events Ltd, All rights reserved.
+
+      Ahoy! This is not intended as spam. You are receiving this email because you are part of the Motion email list. If you don't wish to receive these emails anymore, please simply unsubscribe by following the unsubscribe link below. Much love x Motion.
+
+
+      Our mailing address is:
+
+
+      Motion Events Ltd
+
+      30-64 Pennywell Road
+
+      Bristol, England BS5 0TL
+
+      United Kingdom
+
+
+      Add us to your address book <https://motionbristol.us2.list-manage.com/vcard?u=35809bf0ed51354826947ada4&id=af353b5499>
+
+
+      Want to change how you receive these emails?
+
+      You can update your preferences <https://motionbristol.us2.list-manage.com/profile?u=35809bf0ed51354826947ada4&id=af353b5499&c=c769b6c1ef> or unsubscribe from this list <https://motionbristol.us2.list-manage.com/unsubscribe?u=35809bf0ed51354826947ada4&id=af353b5499&t=b&c=c769b6c1ef&i=62b327f3c1>.
+
+
+      https://login.mailchimp.com/signup/email-referral/?aid=35809bf0ed51354826947ada4"
+    truncated: false
+  - messageId: "<CANApqfn1dvw8x=TCpNAYqQ2akCVL9F8Gb+NC6FDV7aHQ-NDcrA@mail.gmail.com>"
+    receivedAt: "2026-08-30T20:45:50Z"
+    from:
+      name: "The Gallimaufry"
+      address: "info@thegallimaufry.co.uk"
+    subject: "Galli booking"
+    sourceId: "music/the-gallimaufry"
+    matchedBy: "from:*@thegallimaufry.co.uk"
+    body: "Hi there
+
+
+      We had a booking enquiry form submission via our website from this email address, but it didn't contain any party details; can I confirm if you meant to / would like to make a booking?
+
+
+      Thanks
+
+      Sarah
+
+
+      The Gallimaufry
+
+      26-28 Gloucester Road
+
+      Bristol
+
+      BS7 8AL"
+    truncated: false
+  - messageId: "<4YPU.16PPH.2366B49FDF4B45077G7JM6A6AEFE6C80A17B98.3d392469-9d6d-4e9b-b953-d54e41598ff3@bristolbeacon-mail.org>"
+    receivedAt: "2026-09-02T16:34:14Z"
+    from:
+      name: "Bristol Beacon"
+      address: "enews@bristolbeacon-mail.org"
+    subject: "Supergrass, Jake Bugg, The Amol Rajan Connection, Sheherazaad and more announced this week"
+    webVersion: "https://bristolbeacon-mail.org/cr/AQjCkQ4QpdF5GI7W59YBMPX45xT_mv89ioUX149cokvrAE4STMrqHMTS6GyClE5QGAvNbg"
+    sourceId: "music/bristol-beacon"
+    matchedBy: "from:*@bristolbeacon-mail.org"
+    body: "Plus, our 2026 Festival and Carnival Lab cohort showcases the skills they’ve developed over the past year
+
+
+      Email not displaying correctly? View in your browser <https://bristolbeacon-mail.org/cr/AQjCkQ4QpdF5GI7W59YBMPX45xT_mv89ioUX149cokvrAE4STMrqHMTS6GyClE5QGAvNbg>
+
+
+      Weekly eNews
+
+
+      Wed 2 Sep 2026
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIPODqyQo9fjnFPG8M0l9zL10YIgc-upOvbGMS_70sJyhow2MeDZyRbbs
+
+
+      Just announced: Festival & Carnival Lab presents Afro Link-up
+
+
+      with Da Fuchaman & His Fire Blaze Band and more
+
+
+      Tue 22 Sep
+
+
+      Lantern Hall
+
+
+      Come together for an evening of music, creativity and connection as the Festival & Carnival Lab <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBILeDqyQo9fjnFNvkIYevExOWPjJ4O-3ZGlGClrATaQjMRSxUdvetBGql> cohort takes over Lantern Hall.
+
+
+      After weeks of expert-led sessions, mentoring and practical placements at major festivals including Boomtown, Shambala and Love Saves the Day, the 2026 cohort will showcase what they’ve learnt through live performances and an evening of celebration.
+
+
+      Featuring cohort members and local artists Naughty Nate, Azumei, Aadvark9 and Mercy’s Cartel, with Da Fuchaman & His Fire Blaze Band headlining.
+
+
+      On sale now
+
+
+      Book Tickets <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIPODqyQo9fjnFPG8M0l9zL10YIgc-upOvbGMS_70sJyhow2MeDZyRbbs>
+
+
+      ALSO ANNOUNCED
+
+
+      See all events <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIIn-oCQo9fjnFA5vl96v2pmA4AtDSjx0hhAUfW99OI7Ee-UuLvmie8fr>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBII2OqyQo9fjnFO8con-kuV-05tONLMZjL7ZFwyogncN6t7DSAn4-jqhE
+
+
+      Elouise Eftos
+
+
+      Australia’s First Attractive Comedian
+
+
+      Sat 10 Oct
+
+
+      Lantern Hall
+
+
+      The Edinburgh Comedy Award-nominated comedian brings her critically acclaimed smash-hit show back to the UK!
+
+
+      After sold-out seasons across Australia, London and Edinburgh, Elouise turns feminism, attractiveness and self-worth on their heads in an award-winning hour of comedy that proves self-deprecation is officially dead.
+
+
+      On sale now
+
+
+      Book Tickets <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBII2OqyQo9fjnFO8con-kuV-05tONLMZjL7ZFwyogncN6t7DSAn4-jqhE>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBINuPqyQo9fjnFE5jAmBF0KkfZD5EsOLvR2k7BLSEwubrOubLB32y9POb
+
+
+      Sheherazaad
+
+
+      Mon 25 Jan 2027
+
+
+      Lantern Hall
+
+
+      Sheherazaad brings her cinematic blend of dystopic folk-noir and experimental pop to Bristol Beacon.
+
+
+      Drawing on Hindustani, Turkish, Arabic and Carnatic traditions, her richly poetic music blends traditional instruments with atmospheric recordings and intimate vocals.
+
+
+      On sale now
+
+
+      Book Tickets <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBINuPqyQo9fjnFE5jAmBF0KkfZD5EsOLvR2k7BLSEwubrOubLB32y9POb>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJuQqyQo9fjnFOKpNBsYOZnIbbDMd4xP750z2A-kYx4GSz9lr6PKI1H6
+
+
+      Jake Bugg
+
+
+      Alamo UK & European Tour
+
+
+      Sun 21 Feb 2027
+
+
+      Beacon Hall
+
+
+      Jake Bugg returns with his seventh studio album, Alamo. Expect heartfelt songwriting, rootsy arrangements and the unmistakable voice that first made him a household name.
+
+
+      Nearly 15 years on from his breakthrough, his latest songs explore love, loneliness, trust and growing up, alongside career favourites in an honest night of British folk and rock.
+
+
+      Members' pre-sale: Thu 10 Sep
+
+
+      General sale: Fri 11 Sep
+
+
+      Book Tickets <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJuQqyQo9fjnFOKpNBsYOZnIbbDMd4xP750z2A-kYx4GSz9lr6PKI1H6>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJWsoSQo9fjnFO4_pYTqPvc1Mp2vg0DWdR0t62yGi0k4JBqay_U8BRWE
+
+
+      The Amol Rajan Connection: Live
+
+
+      Mon 8 Mar 2027
+
+
+      Beacon Hall
+
+
+      Amol Rajan brings The Amol Rajan Connection: Live on tour, exploring the forces shaping our modern world.
+
+
+      Expect lively conversation, audience questions and fresh perspectives on everything from politics to The Celebrity Traitors, as Amol cuts through the noise, asks the questions that matter and tackles topics with no rehearsed answers.
+
+
+      Members' pre-sale: On sale now
+
+
+      General sale: Fri 11 Sep
+
+
+      Book Tickets <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJWsoSQo9fjnFO4_pYTqPvc1Mp2vg0DWdR0t62yGi0k4JBqay_U8BRWE>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJ2SqyQo9fjnFHZSrge55xOU3NlS56MoMzjq5TZU8_8P6NheW7Giz2AS
+
+
+      Mahler Symphony No. 2 ‘Resurrection’ Anniversary Gala Concert
+
+
+      Sat 24 Apr 2027
+
+
+      Beacon Hall
+
+
+      Bristol Sinfonia celebrates its 30th anniversary in Beacon Hall alongside City of Bristol Choir and Cardiff Polyphonic Choir.
+
+
+      The programme brings together two powerful works: Poulenc’s vibrant Gloria, with its rich orchestration and lyrical soprano solos, and Mahler’s monumental Symphony No. 2 (Resurrection), exploring life, death and rebirth before a triumphant choral finale.
+
+
+      On sale now
+
+
+      Book Tickets <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJ2SqyQo9fjnFHZSrge55xOU3NlS56MoMzjq5TZU8_8P6NheW7Giz2AS>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBINySqyQo9fjnFC1EMHbFrY9qWV7XeQwpOAboDU6p_JQTQWln9CaQkwxb
+
+
+      Supergrass
+
+
+      Tue 11 May 2027
+
+
+      Beacon Hall
+
+
+      Get ready for an evening of Britpop classics as Supergrass bring their infectious energy to Bristol Beacon in 2027.
+
+
+      From Alright and Caught By The Fuzz to Going Out and Pumping On Your Stereo, expect sharp songwriting, indie rock favourites and deeper cuts from one of the UK’s most beloved bands.
+
+
+      Members' pre-sale: Thu 3 Sep
+
+
+      General sale: Fri 4 Sep
+
+
+      Book Tickets <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBINySqyQo9fjnFC1EMHbFrY9qWV7XeQwpOAboDU6p_JQTQWln9CaQkwxb>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIMqTqyQo9fjnFKnNDF70sIqTTwvggEVnuRoCYuY6j7f6xCsuRfdOoapk
+
+
+      Denouement An Improvised Mystery
+
+
+      Tue 1 Jun 2027
+
+
+      Beacon Hall
+
+
+      There’s been a murder – and a brand-new detective is on the case!
+
+
+      Following a sold-out Los Angeles run, Siobhan Thompson (Dimension 20) brings her hilarious murder-mystery improv show to the UK for the first time. Expect outrageous characters, ridiculous premises and plenty of twists, performed by improvisers from Dropout, Smosh and SNL.
+
+
+      Members' pre-sale: On sale now
+
+
+      General sale: Fri 4 Sep
+
+
+      Book Tickets <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIMqTqyQo9fjnFKnNDF70sIqTTwvggEVnuRoCYuY6j7f6xCsuRfdOoapk>
+
+
+      ONE WEEK TO GO UNTIL OUR 2026/27 ORCHESTRAL SEASON BEGINS
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJL-oCQo9fjnFGHMpxJd85BP10nuh_S3OLA6fE_lt1A1A5MLQdQq90um
+
+
+      Víkingur Ólafsson: Piano Recital
+
+
+      Tue 8 Sep
+
+
+      Beacon Hall
+
+
+      Celebrated pianist Víkingur Ólafsson returns to Bristol Beacon with Opus 109, a recital centred on Beethoven’s Piano Sonata No. 30. Music by Schubert and J.S. Bach completes a programme that brings together the works and influences behind one of Beethoven’s greatest piano masterpieces.
+
+
+      With over one billion streams and a 2025 Grammy to his name, Ólafsson is one of today’s most acclaimed classical artists.
+
+
+      £16 Saver Seats are now on sale with limited availability.
+
+
+      Book Tickets <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJL-oCQo9fjnFGHMpxJd85BP10nuh_S3OLA6fE_lt1A1A5MLQdQq90um>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIKyVqyQo9fjnFBm5Cp7o6zB4340u7VyPDYkDo-v9SHdMLiZ3sHYEHc9U
+
+
+      Bournemouth Symphony Orchestra
+
+
+      with Mark Wigglesworth
+
+
+      Thu 1 Oct
+
+
+      Beacon Hall
+
+
+      Step into Beethoven’s forward-looking First Symphony, alongside Henk de Vlieger’s thrilling orchestral arrangement of Wagner’s Ring Cycle.
+
+
+      Bringing together its most recognisable moments, from the Ride of the Valkyries to Siegfried’s Funeral Music, the programme traces the epic journey towards the Twilight of the Gods.
+
+
+      Book Tickets <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIKyVqyQo9fjnFBm5Cp7o6zB4340u7VyPDYkDo-v9SHdMLiZ3sHYEHc9U>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIOLeqyQo9fjnFDTvpvuBhRFxwZH3MECWn7vN3kiUOeoyuVld6GlLvTxC
+
+
+      Online Teacher Training launched around free primary music curriculum
+
+
+      Wed 24 Sep 2026 - Thu 4 May 2027
+
+
+      Online
+
+
+      Created by Bristol Beacon and Cathedral Schools Trust, the free Oak National Academy Primary Music Curriculum launched in 2025, helping bring inclusive, joyful music education to primary schools across the country.
+
+
+      Now, the team behind it is offering free online training for primary teachers, packed with practical ideas to help make music teaching easier, more engaging and more enjoyable.
+
+
+      Whether you're looking to build your confidence or simply find fresh ways to bring music into the classroom, the training is designed to fit around busy school life.
+
+
+      Sign up <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIOLeqyQo9fjnFDTvpvuBhRFxwZH3MECWn7vN3kiUOeoyuVld6GlLvTxC>
+
+
+      COMING UP
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJn-oCQo9fjnFE1Qq-wqIxx6a9dKCPwxfNLNcTzHTMpQjmkDvqTDigiH
+
+
+      Jazz Sabbath
+
+
+      with 2026 Grammy Award Winner Adam Wakeman
+
+
+      Wed 30 Sep
+
+
+      Lantern Hall
+
+
+      Jazz Sabbath bring their inventive instrumental jazz to Lantern Hall, transforming Black Sabbath classics with virtuosic musicianship, swing and playful energy.
+
+
+      Book Tickets <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJn-oCQo9fjnFE1Qq-wqIxx6a9dKCPwxfNLNcTzHTMpQjmkDvqTDigiH>
+
+
+      Wed 9 Sep
+
+
+      The Courettes
+
+      <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIKeYqyQo9fjnFBnlCgQocrWdQmg8oxxdPGGWPeBEKOrN5ALbPxervLs_>Plus Billy Whizz <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIKeYqyQo9fjnFBnlCgQocrWdQmg8oxxdPGGWPeBEKOrN5ALbPxervLs_>https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIKeYqyQo9fjnFBnlCgQocrWdQmg8oxxdPGGWPeBEKOrN5ALbPxervLs_
+
+
+      Exchange
+
+
+      Thu 10 Sep
+
+
+      Todd Rundgren <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJP-oCQo9fjnFNjjL2LKnOnOjVJ22FVHAXvLN9nO-XCdK8P7rhsm5MA9>
+
+
+      Beacon Hall
+
+
+      Thu 10 Sep
+
+
+      James Morton Groove Den
+
+      <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJT-oCQo9fjnFCnXqp3YWxUjvG-WcgA-HYSU2OiUmryrTXdwQR2AXO9m>feat. Dennis Rollins <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJT-oCQo9fjnFCnXqp3YWxUjvG-WcgA-HYSU2OiUmryrTXdwQR2AXO9m>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJX-oCQo9fjnFKw0J9tcB_9brctlvDQhYJLd9wEGUuDvplgtfdM1IBB5
+
+
+      Lantern Hall
+
+
+      Sun 13 Sep
+
+
+      Kuribo Jams
+
+      <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIKiYqyQo9fjnFDSE31rL7yk9lOMVGGeVTxlJQozAVmeoz1Q3v-e4Viwd>https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIKiYqyQo9fjnFDSE31rL7yk9lOMVGGeVTxlJQozAVmeoz1Q3v-e4ViwdWhere live music meets cypher culture <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIKiYqyQo9fjnFDSE31rL7yk9lOMVGGeVTxlJQozAVmeoz1Q3v-e4Viwd>
+
+
+      Lantern Hall
+
+
+      Sun 20 Sep
+
+
+      Gilad Atzmon 'Organology' Trio <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBILKYqyQo9fjnFL8WkPGTgZ9Krf8aMUufuVqSYyBvrvgdOs8KbnSkdQ3G>
+
+
+      Lantern Hall
+
+
+      Tue 22 Sep
+
+
+      Mull Historical Society <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBILOYqyQo9fjnFCcQRvSa52mk349RvhWMJsCeIs4FhH2LXun3CXXLsF4X>
+
+
+      The Wardrobe Theatre
+
+
+      Fri 25 Sep
+
+
+      Jazz Emu
+
+      <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBILSYqyQo9fjnFFii6MYvVkxMF4XM-C9cO-bFIONy60WuxXXp9ZKRDa0A>https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBILSYqyQo9fjnFFii6MYvVkxMF4XM-C9cO-bFIONy60WuxXXp9ZKRDa0AThe Pleasure is All Yours <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBILSYqyQo9fjnFFii6MYvVkxMF4XM-C9cO-bFIONy60WuxXXp9ZKRDa0A>https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBILSYqyQo9fjnFFii6MYvVkxMF4XM-C9cO-bFIONy60WuxXXp9ZKRDa0Ahttps://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBILSYqyQo9fjnFFii6MYvVkxMF4XM-C9cO-bFIONy60WuxXXp9ZKRDa0A
+
+
+      Lantern Hall
+
+
+      Sun 27 Sep
+
+
+      Raise the Bar: UK Poetry  <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJj-oCQo9fjnFPy5GnRBDrkSmeUQaB2fIBEbrLC3de668EPM3gWsp3P8>
+
+
+      All-Stars <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJj-oCQo9fjnFPy5GnRBDrkSmeUQaB2fIBEbrLC3de668EPM3gWsp3P8>https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJj-oCQo9fjnFPy5GnRBDrkSmeUQaB2fIBEbrLC3de668EPM3gWsp3P8
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJX-oCQo9fjnFKw0J9tcB_9brctlvDQhYJLd9wEGUuDvplgtfdM1IBB5
+
+
+      Beacon Hall
+
+
+      Mon 28 Sep
+
+
+      Freya Ridings <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBILCbqyQo9fjnFGdKxbK87JKQvJZ3pFbYBDf412q0l3Fkd-nQ498d4yzQ>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJX-oCQo9fjnFKw0J9tcB_9brctlvDQhYJLd9wEGUuDvplgtfdM1IBB5
+
+
+      Beacon Hall
+
+
+      MUSIC FOR EVERYONE
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIPOBqyQo9fjnFJlpItkyV1GHSDLh_0t7VGOcRMlpAclSuFUzaC434DmB
+
+
+      Give your child the chance to make music this school year!
+
+
+      With a brand new term kicking off this week - why not take up an instrument or join one of our fun, friendly music groups?
+
+
+      For ages 6–25, there’s something for everyone, from DJ lessons and choirs to double bass and jazz. Build skills, confidence and friendships while playing the music you love.
+
+
+      More info <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIPOBqyQo9fjnFJlpItkyV1GHSDLh_0t7VGOcRMlpAclSuFUzaC434DmB>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIKWCqyQo9fjnFAKM9e_tTnI6A2POTJe-DlDcdxFwFURqLdOZnD99XOc6
+
+
+      Sunday Jam
+
+
+      Sun 13 Sep 2026 - Sun 25 Apr 2027
+
+
+      Lantern Hall
+
+
+      Sunday Jam is our music and movement club for disabled young people aged 25 and under, alongside families and/or personal assistants.
+
+
+      Join us to experiment with instruments and technology, play musical games, create songs, sing, move and dance together. These welcoming monthly sessions take place on Sunday mornings in our fully accessible Lantern Hall.
+
+
+      Sign up <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIKWCqyQo9fjnFAKM9e_tTnI6A2POTJe-DlDcdxFwFURqLdOZnD99XOc6>
+
+
+      Work with us
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJmdqyQo9fjnFPVU08bzsm7B-GZxVOedayiDwOzTXa57cJSKyhRlOgupFacilities Assistant <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJmdqyQo9fjnFPVU08bzsm7B-GZxVOedayiDwOzTXa57cJSKyhRlOgup>https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJmdqyQo9fjnFPVU08bzsm7B-GZxVOedayiDwOzTXa57cJSKyhRlOguphttps://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJmdqyQo9fjnFPVU08bzsm7B-GZxVOedayiDwOzTXa57cJSKyhRlOguphttps://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJmdqyQo9fjnFPVU08bzsm7B-GZxVOedayiDwOzTXa57cJSKyhRlOgup
+
+
+      Full-Time, 37 hours
+
+
+      Salary: £26,526 per annum
+
+
+      Closing date: Mon 14 Sep, 9.00am
+
+
+      Assistant House Manager <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIOmcqyQo9fjnFHNF2aNncfsyFW7HpNZrh-w_tvAzF_VjBlP1LwRBRyRM>
+
+
+      Full-Time, 37 hours
+
+
+      Salary: £29,706.00 per annum
+
+
+      Closing date: Mon 14 Sep, 9.00am
+
+
+      View vacancies <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJudqyQo9fjnFE-ITC8GlrHIbNZ-0lyahVAU9GYsUgNA1RQm61npshQk>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIKD-oCQo9fjnFHJytOR5Xb3yv0EHQGv2HjIr3TqaUy7weMjQV5bo9et9
+
+
+      Colonnade
+
+
+      Opening Times
+
+
+      Lunch
+
+
+      Tue – Sun
+
+
+      12:00 – 15:00
+
+
+      (last kitchen orders 15.30)
+
+
+      Evening
+
+
+      Mon – Sat
+
+
+      16:30 – 23:00
+
+
+      Sun
+
+
+      16:30 - 21:00
+
+
+      Book a table <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIKD-oCQo9fjnFHJytOR5Xb3yv0EHQGv2HjIr3TqaUy7weMjQV5bo9et9>
+
+
+      Summer Flavours, Served At Colonnade
+
+
+      Experience summer at Colonnade Bristol with a menu celebrating peak season produce, crisp cocktails and relaxed pre show dining beside Bristol Beacon.
+
+
+      Our chefs serve refined yet welcoming plates that highlight the best of the season, whether you’re joining us for sunshine on the terrace or a bite before a performance.
+
+
+      Plus, guests heading to a show can enjoy 10% off food when dining before their event.
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJ33qiQo9fjnFGKdXiy-1FUz7rFYYdElQnJjs7WfWfg_5H8U7tj26ZmH
+
+
+      Become a Member
+
+
+      Access priority booking on your favourite shows with Bristol Beacon Membership!
+
+
+      You'll also get discounts at our bars and restaurants, member e-updates with perks and offers, and you'll be supporting our work delivering transformative music education, community programmes and support for emerging artists all year round.
+
+
+      Join now <https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIJ33qiQo9fjnFGKdXiy-1FUz7rFYYdElQnJjs7WfWfg_5H8U7tj26ZmH>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIKL-oCQo9fjnFH_IeLTUj69wW9SAO3Zdfvw3NznzsXEgyMkqRRzJXil-https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIKP-oCQo9fjnFAi0z72Q5SCzxU3cit_8goX-hhRYM_E48iFztRSeh638https://bristolbeacon-mail.org/c/AQjCkQ4QpdF5GI7W59YBIKT-oCQo9fjnFPXs5xQvYAad1j0Q-_vV9v_LNkdvoj14AC-c7ps9U7uN
+
+
+      bristolbeacon.org
+
+
+      Bristol Beacon
+
+
+      For ticket and event enquiries
+
+
+      Box Office: 0117 203 4040 | hello@bristolbeacon.orghello@bristolbeacon.org
+
+
+      Bristol Beacon, Trenchard Street, Bristol, BS1 5AR
+
+
+      Beacon Music Centre
+
+
+      For music education enquiries
+
+
+      Reception: 0117 204 7140 | info@bristolbeacon.org
+
+
+      Beacon Music Centre, Stanton Road, Bristol, BS10 5SJ
+
+
+      Bristol Music Trust is a charity registered in England & Wales (no. 1140898)
+
+
+      You are receiving this email because you have previously purchased tickets for an event or activity from Bristol Beacon, or have signed up to receive information.
+
+
+      Want to change how you receive these emails? Update your preferences or unsubscribe <https://bristolbeacon-mail.org/uns/AQjCkQ4QpdF5GI7W59YBIPX45xSZffHH1LpC_a4KP4QBPPWqVg01k2fgi_FNIQLYhcjV_Q>"
+    truncated: false
+  - messageId: "<4YPU.16S6A.2366B49FDF4B45077G7JM6A6AEFE6C80A17B98.aa59a6b6-b297-4e49-911e-a332e8b675b8@bristolbeacon-mail.org>"
+    receivedAt: "2026-09-03T16:48:10Z"
+    from:
+      name: "Bristol Beacon"
+      address: "enews@bristolbeacon-mail.org"
+    subject: "Raise a glass to our new Brewing Partner 🍻"
+    webVersion: "https://bristolbeacon-mail.org/cr/AQjCkQ4Qoup5GI7W59YBMNm86BTkRjvlyJK3qpckN1hQnnAIdKgtRDzd9mgLmRAtBG9YHA"
+    sourceId: "music/bristol-beacon"
+    matchedBy: "from:*@bristolbeacon-mail.org"
+    body: "Bristol Beer Factory now on tap at Bristol Beacon
+
+
+      Email not displaying correctly? View in your browser <https://bristolbeacon-mail.org/cr/AQjCkQ4Qoup5GI7W59YBMNm86BTkRjvlyJK3qpckN1hQnnAIdKgtRDzd9mgLmRAtBG9YHA>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4Qoup5GI7W59YBIMTDqyQo2bzoFASgU0sJvPpK8HEXyVZ04cYt-6etUyyNuqw98nHeYBdf
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4Qoup5GI7W59YBIMTDqyQo2bzoFASgU0sJvPpK8HEXyVZ04cYt-6etUyyNuqw98nHeYBdf
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4Qoup5GI7W59YBIOCbrSQo2bzoFOsNzBpUsJzOpO8C8Zx05KgqALkz-RLBLIDeM_EcqJmY
+
+
+      Raise a glass to our new Brewing Partner
+
+
+      Today we’re delighted to announce a new partnership with Bristol Beer Factory, who are now our official Brewing Partner.
+
+
+      You’ve been asking us for more local drinks products on our bars, and we’ve heard you loud and clear.
+
+
+      From this week, you’ll find a selection of Bristol Beer Factory beers across our bars and in the Colonnade restaurant – including Laser Juice Session IPA, Gravity Pils Lager and North Street Cider, alongside a range of cans including Clear Head 0.5% alcohol-free IPA.
+
+
+      But there’s another reason we’re particularly pleased to be working with Bristol Beer Factory.
+
+
+      Through their Brewed to Give programme, Bristol Beer Factory donates 2% of its turnover to local charities, community organisations and CICs. So when you enjoy a Bristol Beer Factory beer at Bristol Beacon, you’re also helping good things to happen in the city.
+
+
+      It’s a partnership that as a not-for-profit organisation ourselves, we feel very proud of - two independent organisations, rooted in Bristol, working to bring people together and make a positive contribution to the communities around us.
+
+
+      So next time you’re here for a gig, concert or event, raise a glass to great local beer – and to doing a little bit of good at the same time.
+
+
+      Cheers, Bristol! 🍻
+
+
+      Read more <https://bristolbeacon-mail.org/c/AQjCkQ4Qoup5GI7W59YBIOCbrSQo2bzoFOsNzBpUsJzOpO8C8Zx05KgqALkz-RLBLIDeM_EcqJmY>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4Qoup5GI7W59YBIOCbrSQo2bzoFOsNzBpUsJzOpO8C8Zx05KgqALkz-RLBLIDeM_EcqJmY
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4Qoup5GI7W59YBIOCbrSQo2bzoFOsNzBpUsJzOpO8C8Zx05KgqALkz-RLBLIDeM_EcqJmY
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4Qoup5GI7W59YBIOCbrSQo2bzoFOsNzBpUsJzOpO8C8Zx05KgqALkz-RLBLIDeM_EcqJmY
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4Qoup5GI7W59YBIMrDqyQo2bzoFL-CiMtu6NjJ6uXb05LocYW1QX9j7pAhtjVG5m8zYJL5https://bristolbeacon-mail.org/c/AQjCkQ4Qoup5GI7W59YBIMzDqyQo2bzoFGz-qSjstC_0wAgBwCdbyNCLBUyJ8pDEKIWp4NfZy-gWhttps://bristolbeacon-mail.org/c/AQjCkQ4Qoup5GI7W59YBIO-mrSQo2bzoFJx8W2J68w8w4jI1Wl1LHjNoJ5pVGpf_0iWkhRozYvMY
+
+
+      bristolbeacon.org
+
+
+      Bristol Beacon
+
+
+      For ticket and event enquiries
+
+
+      Box Office: 0117 203 4040 | hello@bristolbeacon.orghello@bristolbeacon.org
+
+
+      Bristol Beacon, Trenchard Street, Bristol, BS1 5AR
+
+
+      Beacon Music Centre
+
+
+      For music education enquiries
+
+
+      Reception: 0117 204 7140 | info@bristolbeacon.org
+
+
+      Beacon Music Centre, Stanton Road, Bristol, BS10 5SJ
+
+
+      Bristol Music Trust is a charity registered in England & Wales (no. 1140898)
+
+
+      \\You are receiving this email because you have previously purchased tickets for an event or activity from Bristol Beacon, or have signed up to receive information. Want to change how you receive these emails? Update your preferences or unsubscribe <https://bristolbeacon-mail.org/uns/AQjCkQ4Qoup5GI7W59YBINm86BTHQ9q1BIBKvMc0NTotRwY9glIPO4ldJ4J3lSJTVRYWYQ>"
+    truncated: false
+  - messageId: "<bc14350a810c70a94a93f7120.a774a8fce0.20260903173247.44b4a0e0fc.3d30c646@mail55.suw131.mcsv.net>"
+    receivedAt: "2026-09-03T17:33:00Z"
+    from:
+      name: "The Fleece"
+      address: "mailinglist@thefleece.co.uk"
+    subject: "NEW AT THE FLEECE:  Emma Ruth Rundle / Teddy Sings / Love Distraction & more"
+    listId: "bc14350a810c70a94a93f7120.26581.list-id.mcsv.net"
+    webVersion: "https://mailchi.mp/265fac4264ef/new-at-the-fleece-stereo-mcs-bad-manners-monuments-more-10144562"
+    sourceId: "music/the-fleece"
+    matchedBy: "from:*@thefleece.co.uk"
+    body: "New shows & What's on this week at The Fleece
+
+
+      View this email in your browser <https://mailchi.mp/265fac4264ef/new-at-the-fleece-stereo-mcs-bad-manners-monuments-more-10144562>
+
+
+      https://us.list-manage.com/fscJvtjqYRu?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=or2sRQo6CBAz1Y5Gff39v_inKDtdtB8RYNd4I3m2oJd3NI-SBp6QTidEixgN
+
+
+      https://us.list-manage.com/xIjKQmYA8Dv?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=Y5CFLMUJqpPiinhFGA3ml66wKoTgAKwDd3CCadpsarQerasXot5MycHkv66e
+
+
+      https://us.list-manage.com/GL8vc85qZn5?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=XZLQVEo4EEPj1QjqOozBKZtaWivUcNXN7DFzBWwMm9F7FQBTS9Ocw_rtcuiw
+
+
+      https://us.list-manage.com/yCkc6sgi7_P?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=gVmFYqTMj3ItOMxmXlNh_CL6JVDuDGXC6UQggXSmLHn4Ht5tiWn1JjHaa6_E
+
+
+      https://us.list-manage.com/spWxvsQQeR8?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=UCsxpRWf7eXm5Npi-SbaPRp2k4VwpofFWKvLI6-qhbAZLSErZ0g6DCAdhKHc
+
+
+      https://us.list-manage.com/WLBLYOzjy3d?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=CS3Hcwi9S-wl9GPLSKvVYdu2n2dOi4tyvlCOYGD40XY6N95T67kO_eRgjr1p
+
+
+      https://us.list-manage.com/uHm39_UupSe?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=Otq2Bda3VSm2a3eEcL7H3n_uG6LmQ-BX1_V0ybIPdC6BrBztmTny9MUaWqXX
+
+
+      https://us.list-manage.com/18hK8ocCyAJ?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=6KeECwA38j-D5GDznm_CC3D4T8gTFuSmh7oNMXp7jYy_e274NLy0u1sfQcAa
+
+
+      https://us.list-manage.com/e7YT3F1tLKe?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=Pn8zysTesJaKWhs0iXYtmslnkqKJfp4_gpojKwS0UKklfnb4lsZB9DzRAJjW
+
+
+      https://us.list-manage.com/gjpBvBtFqCB?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=HhinovuQfdbibWi0jYJGKmUv7fPc2DH4VibNfNjurO_E6SDmy5Y4PZ-QsNXi
+
+
+      https://us.list-manage.com/mFsC5S0N33u?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=X9Qp6IvC78ZvtVV1fk_Vf4wVjzOo3HCcpgHRrXLvvywRGCJs9j-RYeb2vSkw
+
+
+      https://us.list-manage.com/14tBpZkNu5S?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=o4SpSWaa46RBGjFdJOWGOAA6wsRBzQovqI37MiC_zRpZzm-xw5x2Hwi9n_VG
+
+
+      https://us.list-manage.com/8kiUjPNG2Zn?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=2apez4BAx2QbCmsSs4QZnQw3dqHD6Fr0ibFLOmOdeNfdcDT_qeRWMveLdTYE
+
+
+      https://us.list-manage.com/K5kmivh2HxX?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=whlnRNGcNtCAqqzAATiCideRRNLdFai_GqoNX9GHVRV1GafITnjY0-sX47aJ
+
+
+      https://us.list-manage.com/644EPbYq87T?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=jWv5-X1PtOG6N2itljrW0hGafTYC282Mhg2W-5HJ9dkR2h1EE_rmNFavnabs
+
+
+      https://us.list-manage.com/8cr79X5MXNq?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=SHKVwBxNLAK_jz07TRbIDBvTFOplGoqeo5Et3b1amlZEvTLS8iZnk3bE-_8R
+
+
+      https://us.list-manage.com/VPaJ4lOhFbI?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=d2sz85VR2zDXt-__28a7saOUaG1PX58ff56sPIImtfS-4AKlexc8d0c3PNPa
+
+
+      https://us.list-manage.com/y2_COvX_yJY?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=wOJkL6bSffuP3HlaGrjW8Nr8tMfgvZmHQ0M9UB6LIdGr-6B9UJikO733kFZq
+
+
+      https://us.list-manage.com/UnykHm7nceQ?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=IwvMr32MDlqTN5oBZX2F45fUhyrt5U94xwNY2ab1Jryr6p7uZer1XARmUVd7
+
+
+      https://us.list-manage.com/148FHkUTUCY?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=C5qlyN1gmlbGwGEgbDEcEuB3vbYkZqqXHJmi4scKx5KBDoA0OwsKk7wRWgUm
+
+
+      https://us.list-manage.com/mzb2Ufy03RC?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=CXcXcdMLCo0xC2AEpAyMueNjuDAqBrZo0NniNARksv9IdhJ2RA5I15Dsqm5T
+
+
+      https://us.list-manage.com/11XQqIx7rIT?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=Hrx__1v2MUC4eg3V_LFMkUQhFvfA0NCV02iYug1Wm79iurBToPNufDAX48Da Facebook <https://us.list-manage.com/qE5Ig4KGuxn?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=7vhOGHmAnRcANSSWGocou9Qn58XUc0YMY0JS4WJ15PoHqjWy_DZhjyfV_I-Y>
+
+
+      https://us.list-manage.com/u4c27lnjB0x?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=ZU2yqkOM7t-uZaK3GzQUVNgJmZIvJQhjUFCp0U2gJxTqQAS1Wp5jnWVnmFDg Twitter <https://us.list-manage.com/yvAgnE9TuPa?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=iJWimoMooKGom3_VlWpyX5oGx_uBaunTa5DA6xdlsHkFZlqkJXkXE3WMaZI3>
+
+
+      https://us.list-manage.com/3kU1pbJ6ROT?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=yfS4gDNZbm1EsrtvsPnVw--RJ1qZpp9K1Cw9Y8ojB_Iv6O7Gz23-kp6_VIYb Instagram <https://us.list-manage.com/EiFZEaknI9D?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=V3jIQ2WH9mw2QYvyYj0LinTvj-goyqT01dXyRn5V_0L5v2d54XhP7htTpMEc>
+
+
+      Copyright © 2026 Aerofleece Ltd, All rights reserved.
+
+      You are receiving this because you signed up via our website, or purchased a ticket.
+
+
+      Our mailing address is:
+
+
+      Aerofleece Ltd
+
+      The Fleece
+
+      12 St. Thomas Street
+
+      Bristol, BS1 6JJ
+
+      United Kingdom
+
+
+      Add us to your address book <https://thefleece.us4.list-manage.com/vcard?u=bc14350a810c70a94a93f7120&id=74c936acc5>
+
+
+      unsubscribe from this list <https://thefleece.us4.list-manage.com/unsubscribe?u=bc14350a810c70a94a93f7120&id=74c936acc5&t=b&c=44b4a0e0fc>    update subscription preferences <https://thefleece.us4.list-manage.com/profile?u=bc14350a810c70a94a93f7120&id=74c936acc5&c=44b4a0e0fc>"
+    truncated: false
+  - messageId: "<1WPM.9AP6A.CBB127F3FFA3FF3CEKQV0CF697023E27D353F5.64c298d5-ff82-4bc3-8ef7-37cacc460979@arts-mail.co.uk>"
+    receivedAt: "2026-09-05T08:01:36Z"
+    from:
+      name: "St George's Bristol"
+      address: "stgeorgesbristol@arts-mail.co.uk"
+    subject: "🎄 This Christmas at St George's Bristol! Feel Festive and Find Out More! ❄️🎁"
+    webVersion: "https://arts-mail.co.uk/cr/AQjatwUQ8o25Bxj81qKkAzC07vRCWS-F_1VgQ9orWZngdZMy-pcknTbhnJIbL3w0VAI_Z5k"
+    sourceId: "music/st-georges-bristol"
+    matchedBy: "from:stgeorgesbristol@arts-mail.co.uk"
+    body: "https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyCn8N2vASi07vRCu5PFT8frgI6vCGPP-wio2igumTidUlOInAeH_dloyHk
+
+
+      We're delighted to welcome you to our Christmas 2026 Season! We're sure you'll find something you love - whether you're indulging in the sheer beauty of festive music, treating yourself to a winter warmer in our Café Bar, or bringing your whole family along to one of our special carol concerts.
+
+
+      And, scroll down for the perfect Christmas Gift - a priceless memento for your loved ones to cherish forever...
+
+
+      D O N ' T   M I S S
+
+
+      https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyCo8N2vASi07vRCp-DhsDKYet63u3C7D7K0UlWZ3LseNjjEczjeN5cHufI
+
+
+      The singing continues with a Christmas ‘mini’ Sing for Happiness this autumn!
+
+
+      Our Christmas ‘mini’ Sing for Happiness returns this autumn – with two sessions learning favourite festive tunes, and a final performance at St George’s. We want to know: can singing together can help ease your stress levels and improve your mood during the busy Christmas period?
+
+
+      Various dates & times | £40
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyCo8N2vASi07vRCp-DhsDKYet63u3C7D7K0UlWZ3LseNjjEczjeN5cHufI>
+
+
+      https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyCLkN-vASi07vRCsIyYO9OUp8DhW9Muw6pEARoWK8mM8nAFiTzbfvjQasw
+
+
+      Connaught Brass with Zeynep Ozsuca:
+
+
+      Christmas Special
+
+
+      Mon 14 Dec, 7.30pm | From only £10
+
+
+      Connaught Brass’s 2025 Christmas concert was so good – so uplifting and delightfully Christmassy – we’ve invited them back for more gorgeous seasonal brass, this time with the additional musical warmth of Zeynep Özsuca on piano.
+
+
+      Programme
+
+
+      Gale Opening to a Connaught Christmas
+
+
+      Liszt Selections from Weihnachtsbaum
+
+
+      Trad arr Roberts Ding Dong Merrily On High
+
+
+      Fauré arr Foster Cantique de Jean Racine
+
+
+      Trad arr Roberts Come Landlord Fill The Flowing Bowl
+
+
+      Holst arr Blaskowski Venus from The Planets
+
+
+      J S Bach arr Foster Excerpts from Christmas Oratorio
+
+
+      Trad arr Harvey Sussex Carol
+
+
+      Darke In The Bleak Midwinter
+
+
+      Simone/Trad arr Latto Little Girl Blue / O Come Emmanuel
+
+
+      Prokofiev arr Foster Troika
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyCLkN-vASi07vRCsIyYO9OUp8DhW9Muw6pEARoWK8mM8nAFiTzbfvjQasw>
+
+
+      https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyCJkN-vASi07vRC-vyxwNybLtE0tVm9fgoH-D_QnR7IF0lBQVYXKuOhr_k
+
+
+      Carols by Candlelight
+
+
+      Tue 15 Dec, 7.30pm | From only £10
+
+
+      After sell-out performances of their popular Carols by Candlelight concerts for the past three years, the Fitzhardinge Consort make a welcome return in a concert of seasonal music from across the ages. Come and enjoy the festive ambience, the beautiful voices and St George’s special acoustics with this wide-ranging programme that will include audience favourites alongside lesser-known festive works.
+
+
+      Audiences who came to last year’s Carols by Candlelight concert said:
+
+
+      “Amazing music – such a lovely evening and great atmosphere.”
+
+
+      “It was a wonderful evening – the choir were incredible and the atmosphere was very festive!”
+
+
+      “Stunning and uplifting!”
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyCKkN-vASi07vRCcR02nOebr-T9PJy7FniBS8QOUr5V6Y0DvoYLBkzsYLQ>
+
+
+      F E S T I V E   T R E A T S   G A L O R E
+
+
+      Renewal Choir: Sounds Like Christmas
+
+
+      Renewal Choir returns to the magnificent and acoustically renowned St George’s Bristol for Sounds Like Christmas — an uplifting end-of-year Advent and Christmas concert filled with warmth, soul and festive celebration.
+
+
+      Sat 28 Nov, 7pm | From £12
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyCMkN-vASi07vRCFcF2Iqpn4OF3zOX39IJLtnvY5BbEnOzROeNmg3oeyYk>
+
+
+      Rebecca Ferguson: The Hits at Christmas
+
+
+      Rebecca will perform songs from across her five solo albums, with audiences being treated to performances of her biggest hits, plus a few interpretations of some of her favourite Christmas songs.
+
+
+      Wed 2 Dec, 7.30pm | From £34
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyCNkN-vASi07vRCWbjTOt1HKCv0962UlvhefIBrZnqE-S4eDrZU17kBXTw>
+
+
+      Sing for Happiness Christmas 2026 Final Performance
+
+
+      Join us and this season’s participants in the beautiful main hall here at St George’s Bristol for an experience you’ll never forget and discover the powerful impact of singing.
+
+
+      Sat 5 Dec, 12pm | £5
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyCOkN-vASi07vRCL342_gsa3694fp8M9Qmi2Y0Pxk8hu5fpqCV_n7SBgpo>
+
+
+      City of Bristol Brass Band: The Snowman
+
+
+      Watch the beloved film on the big screen while a 30-piece brass band performs the soundtrack live alongside it, bringing the magic of the story to life in an unforgettable festive experience.
+
+
+      Sun 6 Dec, 11am & 2pm | From £13
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyCPkN-vASi07vRC7BQdReY1bj5iUCEgN_EHPxEMvN5iEavvcEzWJY0at7o>
+
+
+      Awake Arise
+
+
+      In an unmissable collaboration, five of the English folk scene’s most inventive artists celebrate the riches of our varied winter traditions, reflecting upon the hope and resilience in music and song that can bring joy to us all in the darkest season.
+
+
+      Wed 9 Dec, 8pm | From £10
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyCQkN-vASi07vRCmq3T2ZhW2p8ATxGvu_HQCPhskub2FQhv-tgEn7sqoA8>
+
+
+      Bristol Bach Choir: Spirit of Christmas
+
+
+      Joined by the beautiful sounds of Bristol Ensemble String Quartet, the programme will include wonderful festive music both old and new, familiar and novel, and readings and carols for all to join in.
+
+
+      Sat 12 Dec, 7.30pm | From £12
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyCRkN-vASi07vRCTZeDa8IOElWs-cSCc3lxShe_8hih0IMT6QUlw53vtMk>
+
+
+      Connaught Brass with Zeynep Ozsuca: Christmas Special
+
+
+      Connaught Brass’s 2025 Christmas concert was so good – so uplifting and delightfully Christmassy – we’ve invited them back for more gorgeous seasonal brass, this time with the additional musical warmth of Zeynep Özsuca on piano.
+
+
+      Mon 14 Dec, 7.30pm | From £10
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyCSkN-vASi07vRCr5sTBAzyGhsKA8tB_theqSSDH__xUQ4Mgrt8alh0wac>
+
+
+      Carols by Candlelight
+
+
+      After sell-out performances of their popular Carols by Candlelight concerts for the past three years, the Fitzhardinge Consort make a welcome return in a concert of seasonal music from across the ages. Come and enjoy the festive ambience, the beautiful voices and St George’s special acoustics with this wide-ranging programme.
+
+
+      Tue 15 Dec, 7.30pm | From £10
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyCKkN-vASi07vRCcR02nOebr-T9PJy7FniBS8QOUr5V6Y0DvoYLBkzsYLQ>
+
+
+      Christmas Spectacular
+
+
+      The 100 voices of City of Bristol Choir and professional orchestra Bristol Ensemble join forces to bring Christmas cheer and festivities to the St George’s Bristol stage.
+
+
+      Thu 17 Dec, 7.30pm | From £17
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyCTkN-vASi07vRCOUw0_IWAr03lY0WDWOPw6vBmQU0vqm0aJqtdahB0OXQ>
+
+
+      Christmas Spectacular
+
+
+      Bristol Ensemble and Exultate Singers perform their annual feast of beautiful Christmas music, combining lighthearted joyfulness with atmospheric and moving carols and orchestral music.
+
+
+      Fri 18 Dec, 7.30pm | From £17
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyCUkN-vASi07vRCHfkRfpYaU6dMYyo8i0kw5r9KPrzD41rm9uIuwfQpNqM>
+
+
+      Festive Fiesta
+
+
+      Join in with the 100 voices of City of Bristol Choir to sing some of your favourite carols, accompanied by professional orchestra the Bristol Ensemble.
+
+
+      Sat 19 Dec, 7.30pm | From £17
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyCVkN-vASi07vRClVBUD0tycmiY_3OnwaiBLQ8OyU7Vtg4nIDZMyUkBcCE>
+
+
+      Children's Christmas Carnival: The Nutcracker
+
+
+      Bristol Ensemble brings its wholesome and interactive Children’s Christmas Carnival to St George’s Bristol for a magical festive adventure the whole family will enjoy!
+
+
+      Sun 20 Dec, 2pm & 4pm | From £11
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyCWkN-vASi07vRCYIMBMMyf6hz3C3IgGihyHVGvIEkeDA4W9C8RBKct7g0>
+
+
+      Christmas Brass
+
+
+      From majestic fanfares and beloved Christmas carols to sparkling seasonal favourites, this uplifting programme showcases the rich sonorities and thrilling brilliance of the professional brass players of the Bristol Ensemble.
+
+
+      Mon 21 Dec, 7.30pm | From £17
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyCXkN-vASi07vRCgcFVykcvBAO-yjgoZ6NYk934v7Ww8RMjVYVZmEIdTIM>
+
+
+      A Baroque Christmas by Candlelight
+
+
+      Immerse yourself in the glowing warmth of the most beloved music of the Baroque this Christmas for an evening of timeless seasonal masterpieces. A truly atmospheric celebration perfect for the festive period.
+
+
+      Tue 22 Dec, 7.30pm | From £17
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyCYkN-vASi07vRCmyL7GEtmL-s1uckHeLAleDq_HS3axLL7hw3A2ewFSDo>
+
+
+      P R E - S H O W   F E S T I V E   F O O D
+
+
+      Enjoy delicious drinks and seasonal light bites from our Café Bar ahead of the event.
+
+
+      Available to pre-order when booking your tickets, you can choose from a selection of house drinks on arrival, including mulled wine, accompanied by a board of bread, olives and dips and special festive treats (all Vegetarian). Just select which option - for one or two people - you would like, before checkout.
+
+
+      Your pre-ordered food and drink will be available to collect from the Café Bar from 60 minutes before the event. It's the perfect way to begin your event experience at St George's!
+
+
+      T H I N K I N G   A H E A D
+
+
+      https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyC_8N2vASi07vRCcc3vLVhh2_iZekdNP7WOm58cT-CLUg97bfFpfV_YXaA
+
+
+      Our memberships help create magical musical experiences for over 100,000 people per year, as well as helping to ensure the future of St George's—from creative opportunities for young people through to caring for our beautiful building.
+
+
+      Plus, members enjoy a whole host of special perks and priority booking to our events!
+
+
+      Simply select 'Gift Membership' when signing up!
+
+
+      Find Out More & Gift A Membership <https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyC_8N2vASi07vRCcc3vLVhh2_iZekdNP7WOm58cT-CLUg97bfFpfV_YXaA>
+
+
+      https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyDA8N2vASi07vRCQc8HdcCWvWYFkMbt9twZSBcfeQkOTIfAoqXlqjc6-MY
+
+
+      Spoiled for choice?
+
+
+      Our gift vouchers are the ideal surprise treat for an amazing and memorable experience. Valid for 12 months and redeemable against any St George's live event tickets, our gift vouchers start at just £1.
+
+
+      You can purchase via our Box Office, or instantly online (perfect for last minute shoppers!)
+
+
+      Purchase a Gift Voucher <https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyDA8N2vASi07vRCQc8HdcCWvWYFkMbt9twZSBcfeQkOTIfAoqXlqjc6-MY>
+
+
+      https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyDB8N2vASi07vRCtIl_-ysxv7AE2IE83dN2ekmk0uO-WWocfNFZTtCsTQU
+
+
+      https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyDC8N2vASi07vRCVsJne_YMxHOjucdDZkeoPa00fAm9ifORAS9VNQ_L6pQ
+
+
+      Book now
+
+      stgeorgesbristol.co.uk <https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyDD8N2vASi07vRCK4AjqasM3UXyq6QMNlQGE_Jsj-qvucMHdlN61g-12zI>
+
+
+      Follow us
+
+
+      @stgeorgesbris
+
+
+      St George's Bristol - Reg Charity No 295178
+
+
+      Privacy Policy <https://arts-mail.co.uk/c/AQjatwUQ8o25Bxj81qKkAyDE8N2vASi07vRCYpkm05cFps5MwTlrjp1zGjMfy7PERO1B4w1SjbHozRI>
+
+
+      Unsubscribe <https://arts-mail.co.uk/uns/AQjatwUQ8o25Bxj81qKkAyC07vRClrK8UUwwFTmxXkw7puPCffzpj4mh3qGPxelZoZ5Ge4A>
+
+
+      View in your browser <https://arts-mail.co.uk/cr/AQjatwUQ8o25Bxj81qKkAzC07vRCWS-F_1VgQ9orWZngdZMy-pcknTbhnJIbL3w0VAI_Z5k>"
+    truncated: false
+  - messageId: "<4YPU.16UTC.2366B49FDF4B45077G7JM6A6AEFE6C80A17B98.beb981d6-a0ff-4133-b2fa-668e134691fa@bristolbeacon-mail.org>"
+    receivedAt: "2026-09-09T16:55:20Z"
+    from:
+      name: "Bristol Beacon"
+      address: "enews@bristolbeacon-mail.org"
+    subject: "This is The Kit, Los Bitchos and Transatlantic Sessions announced this week"
+    webVersion: "https://bristolbeacon-mail.org/cr/AQjCkQ4QgIV6GI7W59YBMPzr7BTSorbgvS-BcK1u6rZBG4x0GXTGztWwFwlbEBesZNinqw"
+    sourceId: "music/bristol-beacon"
+    matchedBy: "from:*@bristolbeacon-mail.org"
+    body: "Plus, your guide to folk, roots and Americana this autumn
+
+
+      Email not displaying correctly? View in your browser <https://bristolbeacon-mail.org/cr/AQjCkQ4QgIV6GI7W59YBMPzr7BTSorbgvS-BcK1u6rZBG4x0GXTGztWwFwlbEBesZNinqw>
+
+
+      Weekly eNews
+
+
+      Wed 9 Sep 2026
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIOW-tyQo_OvsFE7ylRIsGC13tuD8Kq7pTGrEqm2T4CzMbI1pkikAeuX5
+
+
+      Your guide to folk, roots and Americana this autumn
+
+
+      Autumn is made for good boots and getting lost in live music. For thoughtful songwriting, captivating musicianship and stories that transport you.
+
+
+      Over the next few months, we’re welcoming some of the most exciting names in folk, roots and Americana to Bristol Beacon, from the legendary songwriting of James McMurtry, to the beautifully crafted folk of Stornoway and the undiscovered gem that is Clara Mann, to name just a few.
+
+
+      Come and discover your next favourite artist.
+
+
+      Discover more <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIOW-tyQo_OvsFE7ylRIsGC13tuD8Kq7pTGrEqm2T4CzMbI1pkikAeuX5>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIKartiQo_OvsFMY7U_5HDkUzsc9CGBadskoojQrF1vZwi7hNWPKXQjbL
+
+
+      Green Gig just announced: This Is The Kit
+
+
+      Sat 30 Jan 2027
+
+
+      Beacon Hall
+
+
+      This Is The Kit comes to Bristol Beacon for an evening of intimate, richly textured folk music, as part of our Green Gig <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIKertiQo_OvsFLWbUKZtrmEzuqq7A3Pn5u9kN5IIbYU01-MJzP9p6Yr0> series.
+
+
+      Led by songwriter Kate Stables, the band’s thoughtful songs and warm arrangements invite you to listen closely. With Rozi Plain on bass, Jamie Whitby-Coles on drums and Neil Smith on guitar, expect a live set that shifts between tenderness and intensity.
+
+
+      Alongside the music, the show will put greener ways of working in live music into practice, from production and catering to encouraging more sustainable ways for audiences to travel.
+
+
+      Members' pre-sale: Thu 10 Sep
+
+
+      General sale: Fri 11 Sep
+
+
+      Book Tickets <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIKartiQo_OvsFMY7U_5HDkUzsc9CGBadskoojQrF1vZwi7hNWPKXQjbL>
+
+
+      ALSO ANNOUNCED
+
+
+      See all events <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIMKmtiQo_OvsFAfvkVXz6d5rT_INKRVsEOwdRQZFr1Sw0cosHE7c9rIr>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIMevtiQo_OvsFP-KlgDQvFky3Sfd5fpIdEs-6KrsVf1hyrneQ_h-D5Kq
+
+
+      Los Bitchos & Friends
+
+
+      Plus Sinkane
+
+
+      Thu 4 Feb 2027
+
+
+      Lantern Hall
+
+
+      Los Bitchos bring their colourful, rhythm-heavy sound to the stage, where cumbia, surf rock, Turkish psychedelia, Latin rhythms and disco collide.
+
+
+      The London four-piece have built a global following with their electrifying live shows, packed with hypnotic grooves, swirling guitars and playful melodies. A joyful, dancefloor-ready night of instrumental music.
+
+
+      Members' pre-sale: Thu 10 Sep
+
+
+      General sale: Fri 11 Sep
+
+
+      Book Tickets <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIMevtiQo_OvsFP-KlgDQvFky3Sfd5fpIdEs-6KrsVf1hyrneQ_h-D5Kq>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBINuwtiQo_OvsFMrEnuJN7bgDUxinebcKHRI0vh2Q-6gpXaha4_C7OPP0
+
+
+      Transatlantic Sessions
+
+
+      Thu 4 Feb 2027
+
+
+      Beacon Hall
+
+
+      Some of the finest musicians in Scottish, Irish and American roots music come together for Transatlantic Sessions in 2027.
+
+
+      Guided by Aly Bain and Jerry Douglas, the legendary house band includes John Doyle, Michael McGoldrick, Tatiana Hargreaves and more, for an evening of virtuosic playing, spontaneous collaboration and rich acoustic music.
+
+
+      Members' pre-sale: Thu 10 Sep
+
+
+      General sale: Fri 11 Sep
+
+
+      Book Tickets <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBINuwtiQo_OvsFMrEnuJN7bgDUxinebcKHRI0vh2Q-6gpXaha4_C7OPP0>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIMumtiQo_OvsFMbjQbqxij7hrbxZmbPQ_YuNzrwZac4-fITdTz3EDIMR
+
+
+      Our new Orchestral Season is underway!
+
+
+      Our 2026/27 Orchestral Season got off to a flying start last night as superstar pianist Víkingur Ólafsson gave a thrillingly virtuosic recital of his ‘Opus 109’ programme, placing Beethoven’s Piano Sonata No. 30 Op. 109 in an illuminating musical dialogue with Schubert and J.S. Bach. It was such a treat for one of the world's most celebrated classical artists to open our new season.
+
+
+      Our first orchestral concert is just around the corner - Bournemouth Symphony Orchestra return to Beacon Hall on Thu 1 Oct to start their Road to Joy series, marking Beethoven's bicentenary in 2027. Spanning two seasons, the BSO will follow a chronological journey through all of Beethoven's symphonies with Principal Conductor Mark Wigglesworth.
+
+
+      Book Tickets <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIMumtiQo_OvsFMbjQbqxij7hrbxZmbPQ_YuNzrwZac4-fITdTz3EDIMR>
+
+
+      Alongside their performances, the BSO will host three immersive afternoons - Beethoven Now - exploring the composer’s universal relevance through discussion and debate. The first of these events is on Sun 1 Nov in Lantern Hall and includes talks and readings from John Suchet, Samuel West and Dame Evelyn Glennie.
+
+
+      Book Tickets <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIN_wtyQo_OvsFIfWWaPrlqRfsYJboN-hM_uIMhoFMidWkv0rtaGShoF_>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBINmxtiQo_OvsFMsNZXuP-uFoa-guZXKPhNt5UOplik7h7CxoL5UCNlL8
+
+
+      Continuous Professional Development & Training for Teachers
+
+
+      It's a new school year and we're pleased to announce a jam-packed calendar of CPD workshops and training events for teachers throughout the year ahead.
+
+
+      Designed for Primary and Secondary teachers, courses range from Development Support for New and Established Music Subject Leads, to Music for the Neurodiverse Classroom.
+
+
+      These are in addition to our online teacher training courses for the Oak National Academy Primary Music Curriculum.
+
+
+      More info <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBINmxtiQo_OvsFMsNZXuP-uFoa-guZXKPhNt5UOplik7h7CxoL5UCNlL8>
+
+
+      COMING UP
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBINamtiQo_OvsFAnQ_wKj7qt_BX7jTUQ-eyQT0niWuiJPn_wTa5c_RheD
+
+
+      Raise the Bar: UK Poetry All-Stars
+
+
+      Sun 27 Sep
+
+
+      Beacon Hall
+
+
+      The UK’s biggest poetry night returns with headline poets Harry Baker, Hollie McNish, Grace Nichols, Travis Alabanza and more.
+
+
+      Expect raucous, energetic and life-affirming poetry, storytelling and spoken word, hosted by Danny Carlo Pandolfi, with resident DJ NGAIO on the decks.
+
+
+      Book Tickets <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBINamtiQo_OvsFAnQ_wKj7qt_BX7jTUQ-eyQT0niWuiJPn_wTa5c_RheD>
+
+
+      Thu 10 Sep
+
+
+      James Morton Groove Den
+
+      <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBINCmtiQo_OvsFCL27XNJBpA2dgOCe6yI8GYaO8HccS0ZTUoWH3uyD6G8>feat. Dennis Rollins <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBINCmtiQo_OvsFCL27XNJBpA2dgOCe6yI8GYaO8HccS0ZTUoWH3uyD6G8>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBINGmtiQo_OvsFH3qaXHbSBd_NKiZC5YlI7430B7etDSI9Ki_yF2lbRJM
+
+
+      Lantern Hall
+
+
+      Sun 13 Sep
+
+
+      Kuribo Jams
+
+      <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBINKmtiQo_OvsFNOMz9VeUrdxDu_47qKc4spa_cwXTwahRPTAJ6i-Hhvw>https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBINKmtiQo_OvsFNOMz9VeUrdxDu_47qKc4spa_cwXTwahRPTAJ6i-HhvwWhere live music meets cypher culture <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBINKmtiQo_OvsFNOMz9VeUrdxDu_47qKc4spa_cwXTwahRPTAJ6i-Hhvw>
+
+
+      Lantern Hall
+
+
+      Tue 22 Sep
+
+
+      Festival & Carnival Lab presents Afro Link-up
+
+      <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIMCmtiQo_OvsFCzjq-tXXIphvDFqzn79_srAXoNxHwW8JE1Wy65LWrGK>with Da Fuchaman & His Fire Blaze Band, Naughty Nate, Azumei, Aadvark9 and Mercy’s Cartel <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIMCmtiQo_OvsFCzjq-tXXIphvDFqzn79_srAXoNxHwW8JE1Wy65LWrGK>
+
+
+      Lantern Hall
+
+
+      Wed 23 Sep
+
+
+      Michael Ball
+
+      <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIIy1tiQo_OvsFJtbbFOnPJpthxYW0t29T1E6BBp9jV-YuqaxbfYFkswu>Plus Liss Jones <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIIy1tiQo_OvsFJtbbFOnPJpthxYW0t29T1E6BBp9jV-YuqaxbfYFkswu>
+
+
+      Beacon Hall
+
+
+      Thu 24 - Sat 26 Sep
+
+
+      Stewart Lee
+
+      <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIPC1tiQo_OvsFKYpBpy3hO9LP9dLkmab4kqkfxuRolfWPR5Mn14niCUd>Stewart Lee vs The Man-Wulf (2026) <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIPC1tiQo_OvsFKYpBpy3hO9LP9dLkmab4kqkfxuRolfWPR5Mn14niCUd>
+
+
+      Beacon Hall
+
+
+      Mon 28 Sep
+
+
+      Freya Ridings <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBINemtiQo_OvsFJuKEbFxk1DpoP3HEcPFbghBRYCRlkezNWLtLh2Xs1Ay>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBINGmtiQo_OvsFH3qaXHbSBd_NKiZC5YlI7430B7etDSI9Ki_yF2lbRJM
+
+
+      Beacon Hall
+
+
+      Wed 30 Sep
+
+
+      Jazz Sabbath
+
+      <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIM2mtiQo_OvsFI0VknnV6WcSUigV8joreDju0MpnbG0rRrIDlkDvSCzm>https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIM2mtiQo_OvsFI0VknnV6WcSUigV8joreDju0MpnbG0rRrIDlkDvSCzmwith Adam Wakeman <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIM2mtiQo_OvsFI0VknnV6WcSUigV8joreDju0MpnbG0rRrIDlkDvSCzm>https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIM2mtiQo_OvsFI0VknnV6WcSUigV8joreDju0MpnbG0rRrIDlkDvSCzmhttps://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIM2mtiQo_OvsFI0VknnV6WcSUigV8joreDju0MpnbG0rRrIDlkDvSCzm
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBINGmtiQo_OvsFH3qaXHbSBd_NKiZC5YlI7430B7etDSI9Ki_yF2lbRJM
+
+
+      Lantern Hall
+
+
+      Fri 2 Oct
+
+
+      Ibibio Sound Machine
+
+      <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIPq1tiQo_OvsFIpUJWQ0AtOhY3uPSMPn--Zub-ssuIis94w7JAPp5Ml6>Plus Ziyad <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIPq1tiQo_OvsFIpUJWQ0AtOhY3uPSMPn--Zub-ssuIis94w7JAPp5Ml6>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBINGmtiQo_OvsFH3qaXHbSBd_NKiZC5YlI7430B7etDSI9Ki_yF2lbRJM
+
+
+      Lantern Hall
+
+
+      Fri 2 Oct
+
+
+      Megan Dixon Hood x Ålesund <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIIq2tiQo_OvsFEK1nWX1cPk7e0syV19apXXEMoEyWiNphwE0IETWlQ_6>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBINGmtiQo_OvsFH3qaXHbSBd_NKiZC5YlI7430B7etDSI9Ki_yF2lbRJM
+
+
+      Weston Stage
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBILu2tiQo_OvsFKEcmrtXM49gFvw37g7izZr2mykZlwdlt_6Yvd0icujG
+
+
+      Music for everyone: Freaky Family Gig
+
+
+      Sat 31 Oct
+
+
+      Lantern Hall
+
+
+      Get spooky this Halloween with a Family Gig in Lantern Hall! Monster mashes, potions, jack-o-lanterns and big tunes await, with the Beacon House Band leading 45 minutes of singalongs, jamming, chair dancing, audience waves and plenty of chances to join in.
+
+
+      Costumes are encouraged, so come dressed for some Halloween fun!
+
+
+      Book Tickets <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBILu2tiQo_OvsFKEcmrtXM49gFvw37g7izZr2mykZlwdlt_6Yvd0icujG>
+
+
+      Work with us
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBINqmtiQo_OvsFDrQTbfHB-Fb0iOTXtXtshAuq4ZUGGUEVh1OAe0llenCFacilities Assistant <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBINqmtiQo_OvsFDrQTbfHB-Fb0iOTXtXtshAuq4ZUGGUEVh1OAe0llenC>https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBINqmtiQo_OvsFDrQTbfHB-Fb0iOTXtXtshAuq4ZUGGUEVh1OAe0llenChttps://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBINqmtiQo_OvsFDrQTbfHB-Fb0iOTXtXtshAuq4ZUGGUEVh1OAe0llenChttps://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBINqmtiQo_OvsFDrQTbfHB-Fb0iOTXtXtshAuq4ZUGGUEVh1OAe0llenC
+
+
+      Full-Time, 37 hours
+
+
+      Salary: £26,526 per annum
+
+
+      Closing date: Mon 14 Sep, 9.00am
+
+
+      Assistant House Manager <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBINumtiQo_OvsFLdGn6Manvzi4K2_t_q6Qk_dU_mESUCEnchilNbmUPCG>
+
+
+      Full-Time, 37 hours
+
+
+      Salary: £29,706.00 per annum
+
+
+      Closing date: Mon 14 Sep, 9.00am
+
+
+      View vacancies <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBINymtiQo_OvsFO-hz0TFagqYIwlB2u_gCwLB3X_xluZ9t8G2KkkKmZ5Y>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIN2mtiQo_OvsFMZ79yga_SZ3ibKnsAkieuM_tZSLdGC_dG58167ag5aM
+
+
+      Colonnade
+
+
+      Opening Times
+
+
+      Lunch
+
+
+      Tue – Sun
+
+
+      12:00 – 15:00
+
+
+      (last kitchen orders 15.30)
+
+
+      Evening
+
+
+      Mon – Sat
+
+
+      16:30 – 23:00
+
+
+      Sun
+
+
+      16:30 - 21:00
+
+
+      Book a table <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIN2mtiQo_OvsFMZ79yga_SZ3ibKnsAkieuM_tZSLdGC_dG58167ag5aM>
+
+
+      The last taste of summer
+
+
+      Summer is drawing to a close at Colonnade, and our seasonal menu will soon make way for autumn’s new flavours. It’s your last chance to enjoy the bright, fresh dishes that defined the season.
+
+
+      If you’re joining us for a performance, remember you’ll receive 10% off food when dining before the show.
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIMzvtyQo_OvsFClifTzL3f9DfQAAiqmlq1SjotVC6j3kideqZqQP188X
+
+
+      Make your next event one to remember
+
+
+      From conferences and meetings to parties and large-scale events, Bristol Beacon has a space to suit. With versatile rooms for 2 to 2,000 guests, expert in-house production, catering and event support, our team can create a bespoke experience around your needs.
+
+
+      Planning your next event? Find out more about below.
+
+
+      More info <https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIMzvtyQo_OvsFClifTzL3f9DfQAAiqmlq1SjotVC6j3kideqZqQP188X>
+
+
+      https://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIN-mtiQo_OvsFJwbRmcbfGFPPuHuYtPgvpZ3AQ8OwB72TCUr3T_JZxDWhttps://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIOCmtiQo_OvsFI8Dmu1ucXejIhDPkbGKXetTPOxL0t8t16BwbVI97uouhttps://bristolbeacon-mail.org/c/AQjCkQ4QgIV6GI7W59YBIOGmtiQo_OvsFDmynyGIhCSUGIlC6qtRsbj-0Ac3P_7KmI8qBOQkOu8i
+
+
+      bristolbeacon.org
+
+
+      Bristol Beacon
+
+
+      For ticket and event enquiries
+
+
+      Box Office: 0117 203 4040 | hello@bristolbeacon.orghello@bristolbeacon.org
+
+
+      Bristol Beacon, Trenchard Street, Bristol, BS1 5AR
+
+
+      Beacon Music Centre
+
+
+      For music education enquiries
+
+
+      Reception: 0117 204 7140 | info@bristolbeacon.org
+
+
+      Beacon Music Centre, Stanton Road, Bristol, BS10 5SJ
+
+
+      Bristol Music Trust is a charity registered in England & Wales (no. 1140898)
+
+
+      You are receiving this email because you have previously purchased tickets for an event or activity from Bristol Beacon, or have signed up to receive information.
+
+
+      Want to change how you receive these emails? Update your preferences or unsubscribe <https://bristolbeacon-mail.org/uns/AQjCkQ4QgIV6GI7W59YBIPzr7BQ-WYyUxfUCphpaM5NvDI26yFN9awlRj42Ms61lnKeEEA>"
+    truncated: false
+  - messageId: "<bc14350a810c70a94a93f7120.a774a8fce0.20260910160217.1c3d4b6c4a.9ba8404d@mail55.suw131.mcsv.net>"
+    receivedAt: "2026-09-10T16:03:31Z"
+    from:
+      name: "The Fleece"
+      address: "mailinglist@thefleece.co.uk"
+    subject: "NEW AT THE FLEECE:  Hard Fi / Samurai Pizza Cats / Signs Of The Swarm & more"
+    listId: "bc14350a810c70a94a93f7120.26581.list-id.mcsv.net"
+    webVersion: "https://mailchi.mp/78b3ca653fbc/new-at-the-fleece-stereo-mcs-bad-manners-monuments-more-10144580"
+    sourceId: "music/the-fleece"
+    matchedBy: "from:*@thefleece.co.uk"
+    body: "New shows & What's on this week at The Fleece
+
+
+      View this email in your browser <https://mailchi.mp/78b3ca653fbc/new-at-the-fleece-stereo-mcs-bad-manners-monuments-more-10144580>
+
+
+      https://us.list-manage.com/2hbMr1ijsO5?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=b7PZ5fFlYGV8dFD-E1C-z99RX_Ixgjte3WL1Ei-dro7_b_d5JWyZA-Pj3FzP
+
+
+      https://us.list-manage.com/rZlEhVx6xmO?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=yd5m-x3l1lXTX0bFvRRGk5183vbldByn9gfNjwgclpiXipmH3rnacaUkgZK8
+
+
+      https://us.list-manage.com/10ZoFAEOvrr?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=fPFI6CoCD7Vy4BRwQBQPtK37sIecZgCQJEW34KI13tMLNUBMHqAjgAxm1f7P
+
+
+      https://us.list-manage.com/xAtdxrMAcO2?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=9t5n_9cuNfDWBgyxx5O-1qClI4LotvLk9gBN-SPGSi96ZdnHIiBGxig586uh
+
+
+      https://us.list-manage.com/VMgaV3O1hnp?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=HJ7MWoDjU4W-qkOP4hJUl-CS2ls2EcvSr4FL9aYj_233bJusf22V1F2hQcwv
+
+
+      https://us.list-manage.com/1BSPKqIC1xZ?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=qbV18xSdk7Wv2OyesjhTzNLnO3UX7W3THTgKSwqGVfOzAY5HxKDyCWqtUEzD
+
+
+      https://us.list-manage.com/1AvhZKnmDKT?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=sEXInjz3xm8Ss2JbGhs6HgpUUKSWKnfATYC_tSE1apWBcoLW3TZOguf0VKZi
+
+
+      https://us.list-manage.com/16WmTUkNWhq?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=3RsNMRfgHeBO8c8J357gPawoc4FOUbwo16Sq-l7jZo_451ZxzLuBNLAiggqx
+
+
+      https://us.list-manage.com/26j9CVe1nru?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=wxX52rXQXLiaVNksS9lXGsNYN4aClohwOOD9LK2FIBzB1DpoP0Ac1ymzJNSo
+
+
+      https://us.list-manage.com/V4Ea5uDZ3Uv?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=0_cXXbAfPEZXmFkOaSfyiI_VNUbuDQLSBq-mG04bn-Oyp4I3hqJrxKkaNVNF
+
+
+      https://us.list-manage.com/1BrgfWRyZAp?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=0mt4VR_rDycpGTSE7-H8NrbUam3N9NLm4lLST6kiCnZ3MjKhXlRSEV6m2vds
+
+
+      https://us.list-manage.com/LRDSYnmUo5W?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=s9XQH_aNZIVaKpb8E5lAGmyRKbu-Ixulw2PxK3PYdPAghTKlHoCW0lV9yrqu
+
+
+      https://us.list-manage.com/ABz2MXuLrGF?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=OfkghMH6AGxJEc6dvjdBXJv8V-ftl84tcWziKBFAaL8lpJqqCTHbKPNnuFdc
+
+
+      https://us.list-manage.com/H3wqzyHcFnA?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=XwauO-LSsTjc8X8Po2hilv82D2fQyhd60DwCVE0fzXUKn3Vh0arVRRV0HJFw
+
+
+      https://us.list-manage.com/LGTX0I9bzYX?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=3XVVam2FYOqS9Tr-qR0Z9E6C9rbp_KcW67aqMdStywygsp_5SMacp7zdhLgj
+
+
+      https://us.list-manage.com/yTYn10DlYk9?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=uVGBXTbTSPwZs6YkqdCxuTfiSWNRLvgrW-EDHcNAEyXtnB2qZ0pouzPaMQmZ
+
+
+      https://us.list-manage.com/bON5iy_vIFv?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=uht-Ccq0jA0PWQaOeZgMQQt2jHcZsz1M2tG9yuCoo1rHLPwIxzcB8g-vLur6
+
+
+      https://us.list-manage.com/IPDwR8M0uEn?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=EQivf-NsJNUFWx9mjd9h6qiaUPmswwyQH2RFgbtg9yDumv5n_8cD3CHjkABo
+
+
+      https://us.list-manage.com/JRK2m4JIeMo?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=5qm7NNyAWFEgzFEEl9L0akPQXuM3dAeZG9p3tife8sbs52MQl9fNm_lkGum5
+
+
+      https://us.list-manage.com/35ID554HuHZ?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=O1R0ZMRg98TcmnM-MmU0Zo02-sMp_BMHvw7C8m3vwjPyBXgoghzWnbqr-AAl
+
+
+      https://us.list-manage.com/2cF_firxivh?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=ulIyOvtDkSxflyav75PqXtEwQaLJ_NKNVB-n8D9dFtjdnyn_7V2hNfQxfpEe
+
+
+      https://us.list-manage.com/F5TiTR2UDBk?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=fbNpnliNjBe5V-UYvBmgs2Td5bUjfLg082072l-V0ucyrPRQAK6HBD-OOF-W
+
+
+      https://us.list-manage.com/8ipQTtILLb4?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=E95XCBNPMeuOgL8d1xm2MtLdAxjN3fZuO3XccZaNY0qke1Llu3mRU9XB0UqQ
+
+
+      https://us.list-manage.com/11rdyzXPu4v?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=I3m6y_-WfsNyuM3cW36nHMPC-SmJRxMJUlEBuhp0gttbUy0Q-qGggK9Ku-kY
+
+
+      https://us.list-manage.com/rpViP6yE5J5?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=F6xulz5H1Vfv1EVqfKK8LE9dlMKnx3rDY_MP7HSo10YvBDdc78nJjmgIVbLd
+
+
+      https://us.list-manage.com/McqVr1uYAKP?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=Qxh8LKAe6nI5u7xy5u5CQmqqJaUbljLvn5jGeYOpqlh__CIPu_S4WHCPz_JI
+
+
+      https://us.list-manage.com/19ytFhcvolC?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=qFswlpDaQUy9RJ02CjKM865a7wi2fOXNsi6NJ5cH7Ib6nPfSpA3hQxOflQ56
+
+
+      https://us.list-manage.com/MjAJafmM5t2?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=_q2RatBz8DdKjMqx3vfaCQX-kdZ58X5vm8JBgaM8YIE4R6I_aQXz_c1qh1az Facebook <https://us.list-manage.com/15PJL7e95aD?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=0HiB-ItiPjWamxw60HSBHI4LrZmZ3VyFRFqLevREyBWSk9n0ho3x2zM8QQV8>
+
+
+      https://us.list-manage.com/e5e8cpuRXDy?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=_4SKrU8Rnlt-1dpIWMzUyIhdNV62oT_1GqMSDbm_4ekSS4EiBxNUiKUquHFu Twitter <https://us.list-manage.com/jkbPu9OP4T3?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=Rl8TNuB3MNeJnhH0F9Dt6z_WMrv_9FMo3u7npnLFjpcor0vE6bVsqGutBYmQ>
+
+
+      https://us.list-manage.com/7R2zihXA5pT?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=kDPFaMXyOsBgx3rc0oI2SWAQYRQhwFKFrQZangzsQ5kKRNSkEgzLXEZREbwn Instagram <https://us.list-manage.com/15cBYVx2raH?c2id=87c8d8a38bc80f9e4e179d4f13cb36fa&m=_ET0wHAHA7KDClq2B5TojqCutIgwsaD9sau624jQPNqwx5JGzt-lBIfnjdiN>
+
+
+      Copyright © 2026 Aerofleece Ltd, All rights reserved.
+
+      You are receiving this because you signed up via our website, or purchased a ticket.
+
+
+      Our mailing address is:
+
+
+      Aerofleece Ltd
+
+      The Fleece
+
+      12 St. Thomas Street
+
+      Bristol, BS1 6JJ
+
+      United Kingdom
+
+
+      Add us to your address book <https://thefleece.us4.list-manage.com/vcard?u=bc14350a810c70a94a93f7120&id=74c936acc5>
+
+
+      unsubscribe from this list <https://thefleece.us4.list-manage.com/unsubscribe?u=bc14350a810c70a94a93f7120&id=74c936acc5&t=b&c=1c3d4b6c4a>    update subscription preferences <https://thefleece.us4.list-manage.com/profile?u=bc14350a810c70a94a93f7120&id=74c936acc5&c=1c3d4b6c4a>"
+    truncated: false
+  - messageId: "<1WPM.9AUZ5.CBB127F3FFA3FF3CEKQV0CF697023E27D353F5.98acb888-c9d3-47a7-a70e-35b5ce25306d@arts-mail.co.uk>"
+    receivedAt: "2026-09-10T17:01:17Z"
+    from:
+      name: "St George's Bristol"
+      address: "stgeorgesbristol@arts-mail.co.uk"
+    subject: "Just announced at St George's Bristol | More from our Autumn Winter season and looking ahead to Spring!"
+    webVersion: "https://arts-mail.co.uk/cr/AQjatwUQ0ci5Bxj81qKkAzCOooBDfkaPf3FvMa681DoecZCd034AXdnVtSmL7xd4-wzdCdc"
+    sourceId: "music/st-georges-bristol"
+    matchedBy: "from:stgeorgesbristol@arts-mail.co.uk"
+    body: "WHAT'S ON <https://arts-mail.co.uk/c/AQjatwUQ0ci5Bxj81qKkAyDvpe6vASiOooBDLcVzW6B1yTOLJYycVqncIdC-Fdnqsk4eT27fCovBmpw>      DISCOVER <https://arts-mail.co.uk/c/AQjatwUQ0ci5Bxj81qKkAyDwpe6vASiOooBDYkJ3tzDCnnAyhsOBYFGU9IWovhhu9GsrJWGLnYS8jHM>      CAFÉ BAR <https://arts-mail.co.uk/c/AQjatwUQ0ci5Bxj81qKkAyDxpe6vASiOooBDqXe1QdJyXxmL2Y2Ro3v8pR33YsmEO76D83790tclQv8>      YOUR VISIT <https://arts-mail.co.uk/c/AQjatwUQ0ci5Bxj81qKkAyCDpu6vASiOooBDBSKlqhTHcgus3Y59w2iSYoqS74EUbCUVumUsOn2N9MU>
+
+
+      https://arts-mail.co.uk/c/AQjatwUQ0ci5Bxj81qKkAyDzpe6vASiOooBDmkwSaix5HaH9Ua1kIxon9vQTjZNRyV1TWyJFIEvuxAI
+
+
+      This week we're delighted to announce two stand-out shows from our upcoming Spring programme!
+
+
+      With booking open tomorrow, scroll down for more.
+
+
+      JUST ANNOUNCED...
+
+
+      https://arts-mail.co.uk/c/AQjatwUQ0ci5Bxj81qKkAyD0pe6vASiOooBDF1kASqbcv1c4kEHBPyOaBQhNJvGagjmniBGaAZ7zAfE
+
+
+      BEAT FREQUENCIES II: BALINESE GAMELAN IN BRISTOL
+
+
+      SAT 20 FEB '27, 7.30PM  |  FROM £10
+
+
+      Beat Frequencies II takes you on a journey through traditional gamelan music and its cross-pollination into Western percussion, featuring traditional repertoire from the Balinese canon, alongside chamber music for marimba, vibes and gamelan, and contemporary pieces for gamelan (more details soon). This is a wonderfully unique opportunity to take a sonic voyage connecting two contrasting archipelagos: the British Isles and Indonesia.
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjatwUQ0ci5Bxj81qKkAyD1pe6vASiOooBDQLlhYFApNZy0KDZIZrsxUVZ7kwY0QO1NBjGjUY6YRv0>
+
+
+      https://arts-mail.co.uk/c/AQjatwUQ0ci5Bxj81qKkAyD2pe6vASiOooBD5AzaxYzYuUkDYrAumYjooMDi-FSymCI_JgD3wgCaeb4
+
+
+      JONATHAN AGNEW
+
+
+      MY TEN MOMENTS THAT SHAPED MODERN CRICKET
+
+
+      TUE 27 APR '27, 7.30PM  |  FROM £31
+
+
+      Jonathan Agnew has spent his professional life at extremely close quarters to cricket’s tumultuous developments. Now, to mark the publication of his new book, Aggers brings his own countdown to the stage for the first time. He’ll share the biggest moments that redefined the sport from the only man on the planet who was there, in person, for every single one. Expect the stories the scorecards left out—dressing-room confessions, commentary-box secrets, and the “leg over” moment voted the greatest in sporting history—with the chance to put your own questions to the man behind the microphone.
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjatwUQ0ci5Bxj81qKkAyD3pe6vASiOooBD5YrpNan9gKLKhqVh7Y2OeqiFED7p-9mSTApRBUMuTdg>
+
+
+      COMING SOON...
+
+
+      Chinese Folk Music Concert: A Panorama of Hunan
+
+
+      Sun 13 Sep, 7.30pm | From £15
+
+
+      Audiences will encounter the expressive depth and virtuosity of instruments such as the erhu, pipa and sheng, brought to life by nationally renowned, award-winning soloists.
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjatwUQ0ci5Bxj81qKkAyD4pe6vASiOooBDEQr8i75Tk0BfBzGpHVdvZFAd1LirmaF00HdF0zHChfA>
+
+
+      Nikesh Shukla: The Good Immigrant
+
+
+      Tue 15 Sep, 7.30pm | From £25
+
+
+      To mark the book’s 10th anniversary, editor Nikesh Shukla chairs a live panel bringing together original contributors to The Good Immigrant, to reflect on what’s changed in Britain in the decade since publication, what hasn’t.
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjatwUQ0ci5Bxj81qKkAyD5pe6vASiOooBD9zouGaLIq8fpJg0s42GnCJerOMr6Fny4stj5pnfLEG4>
+
+
+      Lunchtime Jazz: Jon Lloyd & John Law
+
+
+      Thu 18 Sep, 1pm | £9.50
+
+
+      As part of his PPianissimo series pianist John Law explores sound, space and silence in the beautiful acoustic of St George’s with his long-time collaborator, saxophonist Jon Lloyd. Contemporary jazz.
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjatwUQ0ci5Bxj81qKkAyD6pe6vASiOooBDNd1g85BTqf3bu6VYqOMqEcVQfFw-AQfqjA3dbjK3Gs0>
+
+
+      Philosophical Times with Rebecca Buxton
+
+
+      Sun 20 Sep, 10.30am | £8
+
+
+      Join the philosopher Rebecca Buxton as she explores some of the big ideas that connect with and emerge from this week’s news stories.
+
+
+      Book Now <https://arts-mail.co.uk/c/AQjatwUQ0ci5Bxj81qKkAyD7pe6vASiOooBDvLN19AY8L_4ubS44nyycjzpmdqvxq2_pBKYPZdjjYZ4>
+
+
+      Robert Harris Live in Conversation
+
+
+      Sun 20 Sep, 2pm | From £30
+
+
+      When it comes to power, does friendship exist at all? Robert Harris plunges us into the birth of the Roman Empire, the assassination of Julius Caesar and the rise of Augustus.
+
+
+      Last Tickets <https://arts-mail.co.uk/c/AQjatwUQ0ci5Bxj81qKkAyD8pe6vASiOooBDSM5B7wAexwzZRDa3sPejmgLpFV3yb746q35cBbZbEi4>
+
+
+      Craig Crofton & Marvin Muoneké Celebrate the Music of John Coltrane and Johnny Hartman
+
+
+      Mon 21 Sep, 7.30pm | £15
+
+
+      As part of his ongoing John Coltrane Centenary Tour, Bristol saxophonist Craig Crofton is delighted to present a special evening celebrating one of the most beautiful collaborations in jazz history: John Coltrane and Johnny Hartman.
+
+
+      Last Tickets <https://arts-mail.co.uk/c/AQjatwUQ0ci5Bxj81qKkAyD9pe6vASiOooBDcreVt-mIVSaMZUdIzv5ta01NYvrYri_CClsRH0KBbP4>
+
+
+      The Drifters
+
+
+      Wed 23 Sep, 7.30pm | From £27
+
+
+      The Drifters are back on tour in the UK performing all their classic hits.
+
+
+      Last Tickets <https://arts-mail.co.uk/c/AQjatwUQ0ci5Bxj81qKkAyD-pe6vASiOooBD-EX5qHR5Au5aPdXCdUoJjRwk62HYGGUQWuz77RjtmU4>
+
+
+      Craig Crofton Quartet presents: John Coltrane Centenary Celebration
+
+
+      Wed 23 Sep, 7.30pm | £15
+
+
+      Saxophonist Craig Crofton returns to the Glass Studio for a very special centenary celebration honouring one of the most influential and spiritually profound artists of the twentieth century.
+
+
+      Last Tickets <https://arts-mail.co.uk/c/AQjatwUQ0ci5Bxj81qKkAyD_pe6vASiOooBDqZeFfvBrBZWSWt8rX9omd-pLHXjFpmvdHHLoMfk6oWs>
+
+
+      View our full Autumn Winter programme <https://arts-mail.co.uk/c/AQjatwUQ0ci5Bxj81qKkAyCApu6vASiOooBDYW49jzYYa1i1w-778-Zr6PlXH7T421IPTIaPLWNnQxc>
+
+
+      FROM OUR FRIENDS AT BRISTOL VENUE NETWORK
+
+
+      WHAT ARE YOUR CHRISTMAS PARTY PLANS FOR 2026?
+
+
+      JOIN THE BRISTOL VENUE NETWORK AT THEIR CHRISTMAS SHOWCASE (IN SEPTEMBER!) TO DISCOVER BRISTOL’S TOP VENUES AND GET AHEAD ON PLANNING YOUR FESTIVE CELEBRATIONS.
+
+
+      FROM CHRISTMAS PARTIES AND END-OF-YEAR CELEBRATIONS TO AWARDS NIGHTS AND WINTER DINNERS, THIS IS YOUR OPPORTUNITY TO EXPLORE THE VERY BEST EVENT SPACES BRISTOL HAS TO OFFER — ALL IN ONE PLACE.
+
+
+      ✨ BEAT THE RUSH AND SECURE THE PERFECT VENUE EARLY
+
+
+      🥂 GET A TASTE OF FESTIVE FOOD, DRINK, AND ATMOSPHERE
+
+
+      🎄 GATHER INSPIRATION FOR UNFORGETTABLE CHRISTMAS EVENTS
+
+
+      CHRISTMAS SHOWCASE EVENT
+
+
+      TUE 15 SEP, 4PM - 6.30PM
+
+
+      LOCATION: DOUBLETREE BY HILTON BRISTOL CITY CENTRE
+
+
+      Book your tickets now <https://arts-mail.co.uk/c/AQjatwUQ0ci5Bxj81qKkAyDpqu6vASiOooBDQit0Ok5xJieopeNL1mvrbOv84h3mG9qIhRLfaK7U9ME>
+
+
+      https://arts-mail.co.uk/c/AQjatwUQ0ci5Bxj81qKkAyCDpu6vASiOooBDBSKlqhTHcgus3Y59w2iSYoqS74EUbCUVumUsOn2N9MU
+
+
+      https://arts-mail.co.uk/c/AQjatwUQ0ci5Bxj81qKkAyCEpu6vASiOooBD0rOkgSuZxvJzEWV95-t2QDD9vJw5zWyfU0bGC5ykzsQ
+
+
+      Book now
+
+      stgeorgesbristol.co.uk <https://arts-mail.co.uk/c/AQjatwUQ0ci5Bxj81qKkAyCFpu6vASiOooBDAu2QBJ_5P3l8K6DuabpZZl5yDlRZI8bx7Zd0hJGG2RY>
+
+
+      Follow us
+
+
+      @stgeorgesbris
+
+
+      St George's Bristol - Reg Charity No 295178
+
+
+      Privacy Policy <https://arts-mail.co.uk/c/AQjatwUQ0ci5Bxj81qKkAyCGpu6vASiOooBDH9G2SFotuzFU4-jAR4lO7JZ32lDWKeI7LMHRxAg5uAc>
+
+
+      Unsubscribe <https://arts-mail.co.uk/uns/AQjatwUQ0ci5Bxj81qKkAyCOooBDuwuqtIO2wjGxfKsgi1SO5bcksMh3Q3MjFCjEWIKHB1g>
+
+
+      View in your browser <https://arts-mail.co.uk/cr/AQjatwUQ0ci5Bxj81qKkAzCOooBDfkaPf3FvMa681DoecZCd034AXdnVtSmL7xd4-wzdCdc>"
+    truncated: false

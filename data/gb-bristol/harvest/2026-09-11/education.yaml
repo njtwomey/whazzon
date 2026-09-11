@@ -1,0 +1,680 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-09-11"
+category: "education"
+harvestedAt: "2026-09-11T17:32:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "5"
+model: "claude-opus-5"
+observations:
+  - sourceId: "education/university-of-bristol"
+    fetch:
+      ok: true
+      url: "https://calendar.time.ly/s4f7hatq/list"
+      status: 200
+    events:
+      - id: "education/university-of-bristol#5f61f83174"
+        sourceId: "education/university-of-bristol"
+        title: "FUTURES 2026: Discovery Day"
+        subcategory: "Hands-on/Interactive"
+        occurrence:
+          kind: "single"
+          date: "2026-09-26"
+          startTime: "10:00"
+          endTime: "16:00"
+        status: "scheduled"
+        timesText: "10:00am - 4:00pm; ticketed as a morning session (10-12:30) or an afternoon session (1:30-4:00)"
+        venue:
+          sourceId: "museums/we-the-curious"
+        url: "https://calendar.time.ly/s4f7hatq/event/futures-2026-discovery-day?instance_id=20260926100000"
+        image: "https://timelyapp-prod.s3.us-west-2.amazonaws.com/images/15953078/FUTURES%20Branded%20ERN%20posters%20various%20-%20discovery%20day_VMiy.jpg"
+        price:
+          free: true
+          text: "Free; book a morning or afternoon session ticket"
+        tags:
+          - "hands-on"
+          - "family"
+          - "free-entry"
+          - "booking-required"
+        raw: "**FUTURES 2026: Discovery Day** @ We the Curious — Sat, 26 Sep @ 10:00am
+
+
+          Hands-on/Interactive
+
+
+          What will you find out at Discovery Day in Bristol? Join us for this free event and experience cutting-edge research brought to life through amazing hands-on activities and incredible conversations.\n"
+        summary: "The FUTURES research festival's free day at We the Curious: dozens of hands-on stalls from University of Bristol and Bath researchers — quantum science, climate, solar power, dark matter, animal emotions, AI — plus short Discovery Talks through the day. Book a morning or afternoon session; the ticket does not include the museum's exhibition floors."
+        description: "What will you find out at Discovery Day in Bristol? Join us for this free event and experience cutting-edge research brought to life through amazing hands-on activities and incredible conversations.
+
+
+          You'll find **dozens of interactive stalls and activities** from researchers at the Universities of Bristol and Bath, where you can ignite your curiosity and explore everything from **quantum science to climate change, solar power to superconductors, germs to dark matter, and animal emotions to artificial intelligence**.
+
+
+          Alongside the stalls, enjoy a programme of short **Discovery Talks** throughout the day.
+
+
+          **Want to come?** [Book a ticket](https://www.eventbrite.co.uk/e/futures-discovery-day-tickets-1994832626084) to either the morning Discovery Day session (10-12:30) or the afternoon Discovery Day session (1:30-4:00). Your ticket will also give you access to any of the talks (but not to the permanent exhibition floors at We The Curious).
+
+
+          **[Tickets and more information can be found here.](https://futuresnight.co.uk/events/discovery-day-bristol/)**
+
+
+          Organiser: Public Engagement Team, cpe-info@bristol.ac.uk, https://www.bristol.ac.uk/public-engagement/\n"
+        confidence: "high"
+      - id: "education/university-of-bristol#1e453fc4f1"
+        sourceId: "education/university-of-bristol"
+        title: "Introducing Public Art at Temple Quarter Enterprise Campus"
+        subcategory: "Lecture/Talk"
+        occurrence:
+          kind: "single"
+          date: "2026-10-06"
+          startTime: "18:00"
+          endTime: "20:15"
+        status: "scheduled"
+        timesText: "6 pm - 7 pm view the artworks and drinks reception; 7 pm - 8:15 pm screening and panel discussion"
+        venue:
+          name: "Sloane Robinson Building, Temple Quarter Enterprise Campus"
+          area: "Temple Quarter"
+          address:
+            street: "Cattle Market Road"
+            city: "Bristol"
+        url: "https://calendar.time.ly/s4f7hatq/event/introducing-public-art-at-temple-quarter-enterprisecampus?instance_id=20261006180000"
+        image: "https://timelyapp-prod.s3.us-west-2.amazonaws.com/images/15953078/brnw_WKvR.ch21x4TFU%201"
+        tags:
+          - "talk"
+          - "artist-talk"
+          - "screening"
+          - "booking-required"
+          - "contemporary"
+        raw: "**Introducing Public Art at Temple Quarter Enterprise Campus** @ Temple Quarter Enterprise Campus — Tue, 6 Oct @ 6:00pm
+
+
+          Lecture/Talk
+
+
+          Join us for an evening of celebration as we unveil three new public artworks by John Wood and Paul Harrison, Ellie Shipman, and Room 13 Hareclive. The new commissions include two permanent installations on the ground floor of the Sloane Robinson Building, alongside a newly commissioned short film.\n"
+        summary: "Unveiling of three new public artworks at the Temple Quarter campus — by John Wood and Paul Harrison, Ellie Shipman and Room 13 Hareclive — with a drinks reception, a screening of Room 13's short film and a panel with the artists chaired by Beth Williamson. Opens the Autumn Art Lecture Series; book via Eventbrite."
+        description: "Join us for an evening of celebration as we unveil three new public artworks by John Wood and Paul Harrison, Ellie Shipman, and Room 13 Hareclive. The new commissions include two permanent installations on the ground floor of the Sloane Robinson Building, alongside a newly commissioned short film.
+
+
+          [Click here to book your place via Eventbrite.](https://www.eventbrite.co.uk/e/introducing-public-art-at-temple-quarter-enterprise-campus-tickets-1997967803484)
+
+
+          The evening will include an opportunity to experience the artworks, followed by a panel discussion exploring the ideas, collaborations, and creative processes behind the commissions.
+
+
+          - 6 pm - 7 pm - View the Artworks and Enjoy a Drinks Reception
+
+          - 7 pm - 8:15 pm - Screening and Panel Discussion
+
+
+          Professor Beth Williamson will be in conversation with artists John Wood and Paul Harrison, Shani Ali of Room 13 Hareclive, and Ellie Shipman, alongside Megan O'Shea, Contemporary Art Society Consultancy.
+
+
+          This talk forms part of the [Autumn Art Lecture Series](https://www.bristol.ac.uk/arts-law-social-sciences/research/autumn-art-lectures/), which explores the public art programme for the Temple Quarter Enterprise Campus.
+
+
+          Watch Rivers - A Race Against Time, a newly commissioned short film by Room 13 Hareclive: [Wild Spaces – Public art at the University of Bristol](https://public-art.bristol.ac.uk/public-art-at-temple-quarter/wild-spaces/rivers-a-race-against-time/).
+
+
+          Wood and Harrison Image Credit: Martin Parr.
+
+
+          Organiser: Faculty of Arts, Law & Social Sciences.\n"
+        confidence: "high"
+      - id: "education/university-of-bristol#5d66b2918e"
+        sourceId: "education/university-of-bristol"
+        title: "Manuscripts, Monks, and the Merit of Incremental Knowledge - Inaugural Lecture of Professor Benjamin Pohl"
+        subcategory: "Inaugural lecture"
+        occurrence:
+          kind: "single"
+          date: "2026-10-07"
+          startTime: "16:00"
+          endTime: "18:30"
+        status: "scheduled"
+        timesText: "Doors 3:45 pm for a 4:00 pm start; drinks reception 5:00 to 6:30 pm"
+        venue:
+          name: "B.H05 Lecture Theatre, 7 Woodland Road"
+          area: "Clifton"
+          address:
+            street: "7 Woodland Road"
+            city: "Bristol"
+        url: "https://calendar.time.ly/s4f7hatq/event/manuscripts-monks-and-the-merit-of-incremental-knowledge-inaugural-lecture-of-professor-benjamin-pohl?instance_id=20261007160000"
+        image: "https://timelyapp-prod.s3.us-west-2.amazonaws.com/images/15953078/Photo_Prof_B_Pohl_SI6g.jpeg"
+        price:
+          free: true
+          text: "Free but ticketed; registration via Eventbrite essential, in person or online"
+        tags:
+          - "talk"
+          - "free-entry"
+          - "booking-required"
+        raw: "**Manuscripts, Monks, and the Merit of Incremental Knowledge - Inaugural Lecture of Professor Benjamin Pohl** @ Clifton campus — Wed, 7 Oct @ 4:00pm
+
+
+          Inaugural lecture
+
+
+          We are pleased to invite you to the inaugural lecture of Benjamin Pohl, Professor of Medieval History, being held in B.H05 Lecture Theatre, 7 Woodland Road. Doors will open from 3:45 pm for a prompt start.\n"
+        summary: "Benjamin Pohl's inaugural lecture as Professor of Medieval History: a career in manuscript culture retraced from Germany to Bristol, and a case for knowledge built incrementally by forensic detective work. Free and open to the public, in person or livestreamed, followed by a drinks reception; Eventbrite registration is essential."
+        description: "We are pleased to invite you to the inaugural lecture of **Benjamin Pohl, Professor of Medieval History**, being held in **B.H05 Lecture Theatre**, 7 Woodland Road. Doors will open from 3:45 pm for a prompt start.
+
+
+          In his lecture, **Manuscripts, Monks, and the Merit of Incremental Knowledge**, Benjamin reflects on an academic career driven by curiosity, passion for detail, and a fascination for the unknown. Re-tracing his journey from his native Germany to the UK in pursuit of historical research on the Middle Ages and its manuscript culture, he discusses personal highlights and turning points in his path to a professorship. The discoveries presented in this inaugural lecture urge us to embrace the incremental way in which our knowledge about the past is generated through forensic detective work and skills that are built over time, allowing us to stand on the shoulders of giants.
+
+
+          The lecture will be followed by a **drinks reception, from 5:00 to 6:30 pm**, providing an opportunity to celebrate the occasion and meet with colleagues and guests.
+
+
+          For those unable to join in person, the lecture will be **livestreamed via MS Teams (link via Eventbrite confirmation)**. Please note that the lecture will be recorded.
+
+
+          If you are attending in person and have any accessibility requirements (e.g. use of mobility aids, sight or hearing impairment, etc.), please let us know so that we can put in place the necessary arrangements.
+
+
+          **IMPORTANT: This is a free but ticketed event. Registration via Eventbrite is essential for all attendees, whether joining in person or online.**
+
+
+          **[Tickets via Eventbrite](https://www.eventbrite.co.uk/e/inaugural-lecture-of-professor-benjamin-pohl-in-person-and-online-tickets-1991367382447?aff=oddtdtcreator)**
+
+
+          Your attendance and support at this event are greatly appreciated, and we hope you will be able to join us in marking this important milestone in Benjamin's career.
+
+
+          Inaugural lectures are an opportunity for academics to share their achievements in research, innovation, engagement and teaching activities before an audience of members of the University community and the general public.
+
+
+          Organiser: School of Humanities.\n"
+        confidence: "high"
+      - id: "education/university-of-bristol#b811b8b98c"
+        sourceId: "education/university-of-bristol"
+        title: "150 years young: Opening the doors to Clifton and TQEC for a day of celebrations and activities"
+        subcategory: "Lecture/Talk, Conference, Hands-on/Interactive, Showcase, Workshop"
+        occurrence:
+          kind: "single"
+          date: "2026-10-10"
+          startTime: "09:00"
+          endTime: "17:00"
+        status: "scheduled"
+        venue:
+          name: "Clifton campus and Temple Quarter Enterprise Campus"
+          address:
+            city: "Bristol"
+        url: "https://calendar.time.ly/s4f7hatq/event/150-years-young?instance_id=20261010090000"
+        image: "https://timelyapp-prod.s3.us-west-2.amazonaws.com/images/15953078/150_O34E.jpg"
+        price:
+          free: true
+          text: "Free programme; some events ticketed, others drop-in"
+        tags:
+          - "community"
+          - "heritage"
+          - "family"
+          - "free-entry"
+          - "hands-on"
+        raw: "**150 years young: Opening the doors to Clifton and TQEC for a day of celebrations and activities** @ Clifton campus — Sat, 10 Oct @ 9:00am
+
+
+          Lecture/Talk · Conference · Hands-on/Interactive · Showcase · Workshop
+
+
+          The University of Bristol is opening its doors on Saturday 10 October for a public programme of events, in celebration of our 150th year and the opening of the new Temple Quarter Enterprise Campus. We would love to see you there.\n"
+        summary: "The University opens both its Clifton and Temple Quarter campuses for a day: walking tours, exploration zones, debates and family activities showing the research going on behind the scenes, marking its 150th year and the new campus. Free and for all ages; some strands are ticketed, the rest drop-in, with the programme still emerging on the University's 150-years page."
+        description: "The University of Bristol is opening its doors on Saturday 10 October for a public programme of events, in celebration of our 150th year and the opening of the new Temple Quarter Enterprise Campus. We would love to see you there.
+
+
+          **Discover** the weird and wonderful research, innovation and creativity happening behind the scenes, told from the perspective of academics, students and community partners.
+
+
+          **Explore** the University's Clifton and TQEC campuses as they come alive with walking tours, exploration zones, lively conversations and debates, and interactive, family-friendly activities.
+
+
+          **Celebrate** with friends, family, neighbours, Bristol residents and our University community. Everyone is welcome; the more the merrier!
+
+
+          Curious about our new campus? Excited by research? Interested to know what student life looks like today? This is an amazing opportunity to go behind the scenes of the University of Bristol, learn something new, and see how this new campus is the start of a wider regeneration project in the heart of our city.
+
+
+          This is a free programme of events and is suitable for all ages.
+
+
+          Some events are ticketed, and others are drop-in. The ticketed events are signposted on the website - please do RSVP to any ticketed events you wish to join to guarantee your place.
+
+
+          [You can see the emerging programme of events here](https://www.bristol.ac.uk/university/150-years/events/).\n"
+        confidence: "high"
+      - id: "education/university-of-bristol#354b0e7005"
+        sourceId: "education/university-of-bristol"
+        title: "IEEE Public Event: Flexible Electronics in Healthcare"
+        subcategory: "Workshop"
+        occurrence:
+          kind: "single"
+          date: "2026-10-15"
+          startTime: "18:30"
+          endTime: "21:00"
+        status: "scheduled"
+        timesText: "Registration 6:30 pm; talks from 6:45 pm; panel 7:10 - 8:30 pm; networking and posters 8:30 - 9 pm"
+        venue:
+          name: "The Sloane Robinson Building"
+          area: "Temple Quarter"
+          address:
+            street: "Cattle Market Road"
+            city: "Bristol"
+            postcode: "BS1 6AZ"
+        url: "https://calendar.time.ly/s4f7hatq/event/ieee-public-event-flexible-electronics-in-healthcare?instance_id=20261015183000"
+        image: "https://timelyapp-prod.s3.us-west-2.amazonaws.com/images/15953078/Screenshot%202026-08-26%20at%2008_1bMe.48"
+        tags:
+          - "talk"
+          - "booking-required"
+        raw: "**IEEE Public Event: Flexible Electronics in Healthcare** @ The Sloane Robinson Building — Thu, 15 Oct @ 6:30pm
+
+
+          Workshop
+
+
+          Agenda: 6:30 pm – 6:40 pm: Registration (Open to all IEEE and non-IEEE Members); 6:45 pm – 6:50 pm: Welcome by Dr Faezeh Arab Hassani, Senior Lecturer, School of Electrical, Electronic, and Mechanical …\n"
+        summary: "An evening panel on how wearable, implantable and skin-mounted electronics could change diagnosis, monitoring and NHS care, with speakers from academia, industry and clinical practice, followed by posters, canapés and drinks. Open to non-members of the IEEE; register via the online form."
+        description: "**Agenda**
+
+
+          - **6:30 pm – 6:40 pm**: [Registration](https://forms.cloud.microsoft/pages/responsepage.aspx?id=MH_ksn3NTkql2rGM8aQVG2fD-ThcxFhBuJ6J0Cb32r5UN1A0UzRLTUpXQlE5SkUyM0NVM1NIM1JXNi4u&route=shorturl) (Open to all IEEE and non-IEEE Members)
+
+          - **6:45 pm – 6:50 pm**: Welcome by Dr Faezeh Arab Hassani, Senior Lecturer, School of Electrical, Electronic, and Mechanical Engineering, University of Bristol
+
+          - **6:50 pm – 7 pm**: Introduction to research at the University of Bristol by Prof. Annela Seddon, Associate Pro Vice Chancellor (Research & Innovation) for the Faculty of Science and Engineering, University of Bristol
+
+          - **7 pm – 7:10 pm**: Introduction to the IEEE UK and Ireland Section activities by Prof. Nagham Saeed, Chair of the IEEE UK and Ireland Section, University of West London
+
+          - **7:10 pm – 8:30 pm**: Panel: Flexible electronics in healthcare
+
+          - **8:30 pm – 9 pm**: Networking and posters (Canapés and drinks)
+
+
+          **Panel: Flexible electronics in healthcare**
+
+
+          In this panel, we will discuss how flexible electronics can transform healthcare by enabling next-generation wearable, implantable, and skin-mounted medical technologies.
+
+
+          The conversation will explore how these devices can support continuous monitoring, early diagnosis, personalised treatment, and remote patient care. Panellists from academia, industry, and clinical practice will share perspectives on the scientific advances, clinical needs, and commercial opportunities driving the field.
+
+
+          The panel will also examine key challenges, including device reliability, patient comfort, data interpretation, regulation, and NHS adoption. Overall, the discussion will highlight what is needed to move flexible electronics from research prototypes into real-world healthcare solutions.
+
+
+          **[Click here to register.](https://forms.cloud.microsoft/pages/responsepage.aspx?id=MH_ksn3NTkql2rGM8aQVG2fD-ThcxFhBuJ6J0Cb32r5UN1A0UzRLTUpXQlE5SkUyM0NVM1NIM1JXNi4u&route=shorturl)**
+
+
+          Organiser: IEEE UK and Ireland Nanotchnology Council Chapter.\n"
+        confidence: "high"
+      - id: "education/university-of-bristol#b9e1cbce89"
+        sourceId: "education/university-of-bristol"
+        title: "Festival of Economics"
+        subcategory: "Lecture/Talk, Debate"
+        occurrence:
+          kind: "run"
+          start: "2026-11-13"
+          end: "2026-11-20"
+        status: "scheduled"
+        venue:
+          name: "Multiple venues across Bristol city centre"
+          address:
+            city: "Bristol"
+        url: "https://calendar.time.ly/s4f7hatq/event/festival-of-economics-2?instance_id=20261113000000"
+        image: "https://timelyapp-prod.s3.us-west-2.amazonaws.com/images/15953078/flyer_main_email_RGB_OqxQ.png"
+        tags:
+          - "festival"
+          - "talk"
+          - "multi-day"
+        raw: "**Festival of Economics** @ City centre — Fri, 13 Nov — Fri, 20 Nov
+
+
+          Lecture/Talk · Debate
+
+
+          The 15th edition of the Festival of Economics arrives at a time when artificial intelligence, geopolitical instability and rising costs of living have shifted the global economic mood away from hope a…\n"
+        summary: "The fifteenth Festival of Economics, a week of talks and debates with economists, policymakers and journalists at venues across the city centre, asking whether AI, instability and the cost of living are growing pains or the start of a dystopia. Full programme and tickets on the festival's own website; the University is a supporter."
+        description: "The 15th edition of the Festival of Economics arrives at a time when artificial intelligence, geopolitical instability and rising costs of living have shifted the global economic mood away from hope and toward cynicism.
+
+
+          This year, we will examine whether these are growing pains that are necessary to achieving resilience and a stronger future, or signs that we are quietly transitioning into a 'Brave New World'-style dystopia.
+
+
+          Join world-class economists, policymakers, journalists and thinkers in November to share your perspective on the state of today's economy, learn from and challenge the experts, and contribute towards a vision for renewed economic prosperity.
+
+
+          The Festival of Economics takes place 13-20 November 2026 at multiple venues across Bristol.
+
+
+          **Full programme and tickets are available at: [www.economicsfestival.co.uk](http://www.economicsfestival.co.uk/)**
+
+
+          Proudly supported by the University of Bristol.
+
+
+          Organiser: Festival of Economics, info@economicsfestival.co.uk.\n"
+        confidence: "high"
+      - id: "education/university-of-bristol#306fc25e9f"
+        sourceId: "education/university-of-bristol"
+        title: "Festival of Economics: Marshall Paley Lecture with Alan Manning ('Why Immigration Policy Is Hard: And How to Make It Better')"
+        subcategory: "Lecture/Talk"
+        occurrence:
+          kind: "single"
+          date: "2026-11-17"
+          startTime: "18:30"
+          endTime: "20:00"
+        status: "scheduled"
+        venue:
+          name: "Temple Quarter Enterprise Campus"
+          area: "Temple Quarter"
+          address:
+            street: "Cattle Market Road"
+            city: "Bristol"
+        url: "https://calendar.time.ly/s4f7hatq/event/festival-of-economics-marshall-paley-lecture-with-alan-manning-why-immigration-policy-is-hard-and-how-to-make-it-better?instance_id=20261117183000"
+        image: "https://timelyapp-prod.s3.us-west-2.amazonaws.com/images/15953078/noentry_OLB5.png"
+        price:
+          free: true
+          text: "Tickets will be free of charge; registration opens in the autumn via the Festival of Economics website"
+        tags:
+          - "talk"
+          - "festival"
+          - "free-entry"
+          - "booking-required"
+        raw: "**Festival of Economics: Marshall Paley Lecture with Alan Manning ('Why Immigration Policy Is Hard: And How to Make It Better')** @ Temple Quarter Enterprise Campus — Tue, 17 Nov @ 6:30pm
+
+
+          Lecture/Talk
+
+
+          Join us for the 2026 Marshall Paley Lecture which will be delivered by Alan Manning. This lecture is based on the newly published book, Why Immigration Policy Is Hard.\n"
+        summary: "LSE labour economist and former Migration Advisory Committee chair Alan Manning gives the 2026 Marshall Paley Lecture on why immigration policy is so hard to get right, drawing on his new book, hosted by Bristol's Toman Barsbai. Part of the Festival of Economics; free, with registration opening in the autumn."
+        description: "Join us for the 2026 Marshall Paley Lecture which will be delivered by Alan Manning. This lecture is based on the newly published book, Why Immigration Policy Is Hard.
+
+
+          In this lecture Professor Manning examines why immigration policy is hard and why we make such a mess of it. This session will be hosted by Toman Barsbai (University of Bristol).
+
+
+          This year's Marshall Paley lecture is kindly sponsored by the School of Economics, University of Bristol.
+
+
+          Alan Manning is Professor of Economics at LSE and is director of the Centre for Economic Performance's labour programme. From 2009-2012 he was Head of the Economics Department at LSE; from 2004 to 2011 he was a member of the NHS Pay Review Body and from 2016-2020 the Chair of the Migration Advisory Committee.
+
+
+          Toman Barsbai is a Professor of Economics at the University of Bristol. His research focuses on the causes and consequences of international migration, with a particular emphasis on migrants and their countries of origin. His research has informed migration policies in the Philippines, and he is currently evaluating the use of income share agreements for international educational migration.
+
+
+          **Registration for this event will open in the autumn - visit the Festival of Economics [website](https://www.economicsfestival.co.uk) for updates.** Tickets will be free of charge.
+
+
+          Artwork by [Alys Jones Illustration](https://www.alysjonesillustration.com/).
+
+
+          Organiser: Festival of Economics, info@economicsfestival.co.uk.\n"
+        confidence: "high"
+      - id: "education/university-of-bristol#3d4ec18841"
+        sourceId: "education/university-of-bristol"
+        title: "Festival of Economics: The new economics of the left"
+        subcategory: "Lecture/Talk"
+        occurrence:
+          kind: "single"
+          date: "2026-11-18"
+          startTime: "18:30"
+          endTime: "20:00"
+        status: "scheduled"
+        venue:
+          name: "Temple Quarter Enterprise Campus"
+          area: "Temple Quarter"
+          address:
+            street: "Cattle Market Road"
+            city: "Bristol"
+        url: "https://calendar.time.ly/s4f7hatq/event/festival-of-economics-the-new-economics-of-the-left?instance_id=20261118183000"
+        image: "https://timelyapp-prod.s3.us-west-2.amazonaws.com/images/15953078/people_4xT4.png"
+        tags:
+          - "talk"
+          - "festival"
+          - "booking-required"
+        raw: "**Festival of Economics: The new economics of the left** @ Temple Quarter Enterprise Campus — Wed, 18 Nov @ 6:30pm
+
+
+          Lecture/Talk
+
+
+          The election in 2024 of the first Labour government in a generation was followed by higher spending, increases in taxation and a loosening of fiscal rules. Workers rights were strengthened, parts of t…\n"
+        summary: "A Festival of Economics panel on whether the left has a coherent economic strategy after Labour's first years back in power — Eshe Nelson of the New York Times, Adrienne Buller, David Klemperer and former McDonnell adviser James Meadway. Tickets via the festival website."
+        description: "The election in 2024 of the first Labour government in a generation was followed by higher spending, increases in taxation and a loosening of fiscal rules. Workers rights were strengthened, parts of the rail system were nationalised and a state-owned energy company, GB Energy, created.
+
+
+          Despite this, the government has lost support on the left while the Greens have surged under the leadership of Zack Polanski. Politicians, commentators and thinktanks on the left have made proposals for how a social democratic government could go further on economic policy, despite the constraints imposed by high interest rates and public debt.
+
+
+          This panel brings together leading commentators to discuss whether a coherent economic strategy of the left is possible, the barriers to implementing such a strategy, and the likely economic consequences — for growth, living standards and inequality — of the choices the government has made and those it has yet to face.
+
+
+          **Tickets are now available via [the Festival of Economics website.](https://economicsfestival.co.uk/)**
+
+
+          **Speakers:**
+
+
+          - **Eshe Nelson (The New York Times)** — A business and economics reporter for The New York Times in London. Before joining The New York Times, she was a global economics and markets reporter for Quartz and a currency and bond markets reporter for Bloomberg News. In 2020, she completed the Knight-Bagehot Fellowship in Economics and Business Journalism at Columbia University.
+
+          - **Adrienne Buller (The BREAK-DOWN)** — The Founding Editor of The BREAK—DOWN, a new media initiative focused on the political economy of climate and ecological crisis. She is the author, with Mathew Lawrence, of Owning the Future (Verso, 2022) and The Value of a Whale (Manchester University Press, 2022), which won the 2024 Eric Zencey Prize in Ecological Economics. She is an Associate Fellow at Common Wealth.
+
+          - **David Klemperer (RENEWAL)** — Co-editor of RENEWAL: A Journal of Social Democracy, and a researcher within the Institute for Policy Research at the University of Bath. He specialises in political economy, the history of social democracy and constitutional reform, and has held previous research roles at the Constitution Society and Institute for Government (IfG).
+
+          - **James Meadway (Verdant Thinking)** — Director of Verdant Thinking, a progressive think tank. He was formerly a political advisor to Shadow Chancellor John McDonnell, and Chief Economist at the New Economics Foundation. He has taught in economics at SOAS, Cambridge, Sussex and City Universities, and has published widely on economic policy and theory in the New Statesman, Guardian, Jacobin, Tribune, and Novara.
+
+
+          Artwork by [Alys Jones Illustration](https://www.alysjonesillustration.com/).
+
+
+          Organiser: Festival of Economics, info@economicsfestival.co.uk.\n"
+        confidence: "high"
+    notes: "The catalogued https://www.bristol.ac.uk/events/ was fetched first (200, 69 KB) and still renders nothing but the \"If no events appear, you need to update your cookie preferences\" line, exactly as the hint says. This run then rendered the Timely calendar the hint names, https://calendar.time.ly/s4f7hatq/list, in headless Chrome (--headless=new --dump-dom --virtual-time-budget=10000), and it drew ten forward events, so fetch.url is the calendar rather than the catalogued page and drift will report the difference — for stage 1 that is the handover: the source is harvestable, but only through a JS-capable render of the calendar, and the hint should say so. The rendered list carries no anchors; each card has an id of the form timely-event-list-<eventId>-<instance>, and https://calendar.time.ly/s4f7hatq/event/<eventId>/<instance> is a real server-rendered route (title, JSON-LD Event with address and UTC times, a canonical link), so each event's own page was rendered too — ten fetches, the whole programme, as the index gives only a truncated sentence per event. The url on each row is the canonical the page declares (/event/<slug>?instance_id=...), which was checked to return 200. Two of the ten were dropped as out-of-area: the Barbara Weaver memorial lecture (16 Sep) is at the Langford campus, BS40 5DU, some 18 km from the centre, and FUTURES 2026: Up Late at the Museum (25 Sep) is at the Museum of Bath at Work. Weekdays are printed on every card and all eight check out against 2026, and the JSON-LD UTC times agree with the printed local times, so the batch is high confidence. Events are at named University buildings and the catalogue entry has no address, so venue is set on every row; Discovery Day is at We the Curious, which is catalogued, so it carries venue.sourceId. Prices are omitted where the page names a ticket link but no price (public art, IEEE, the umbrella festival, the 18 Nov panel). One oddity on the Pohl inaugural page: its first Eventbrite link points at the public-art event's tickets, and only the second (\"Tickets via Eventbrite\") is the lecture's own — kept as the page wrote it. The 150 years young entry here is the same day as the block on the alumni page, recorded there too under its own title. Nothing before 26 September."
+  - sourceId: "education/university-of-bristol-alumni"
+    fetch:
+      ok: true
+      url: "https://www.bristol.ac.uk/alumni/events/"
+      status: 200
+    events:
+      - id: "education/university-of-bristol-alumni#da9c132b76"
+        sourceId: "education/university-of-bristol-alumni"
+        title: "Bristol and the Brain - 150th Celebration: Alumni Research Lecture"
+        occurrence:
+          kind: "single"
+          date: "2026-10-09"
+          startTime: "18:30"
+          endTime: "22:00"
+        status: "scheduled"
+        timesText: "6.30 PM - 10.00 PM; registration 6:30, discussion 7:00-8:30, networking and food 8:30-9:30, close 10:00"
+        venue:
+          name: "Bill Brown Theatre, Sloane Robinson Building"
+          area: "Temple Quarter"
+          address:
+            street: "Sloane Robinson Building, Temple Quarter Enterprise Campus"
+            city: "Bristol"
+            postcode: "BS1 6BX"
+        url: "https://www.bristol.ac.uk/alumni/events/2026/bristol-and-the-brain---150th-celebration-alumni-research-lecture-oct-2026.html"
+        price:
+          free: true
+          text: "Free for all alumni; register via Eventbrite"
+        tags:
+          - "talk"
+          - "free-entry"
+          - "booking-required"
+        raw: "**Bristol and the Brain - 150th Celebration: Alumni Research Lecture**
+
+
+          9 October 2026, 6.30 PM - 9 October 2026, 10.00 PM
+
+
+          Bill Brown Theatre, Sloane Robinson Building, Temple Quarter Enterprise Campus, BS1 6BX\n"
+        summary: "Neuroscience and psychology researchers on 150 years of brain research at Bristol, held on the eve of the University's 150th birthday and doubling as a first look inside the new Temple Quarter Enterprise Campus. Free, with refreshments and networking afterwards; register via Eventbrite."
+        description: "Join us for an exclusive evening celebrating 150 years of pioneering brain research at the University of Bristol. Held on the eve of the University's 150th birthday, this special event offers alumni and supporters the chance to be among the first to experience the new Temple Quarter Enterprise Campus.
+
+
+          Hear from leading academics as they explore exciting advances in Neuroscience and Psychology, from memory to movement, and discuss the discoveries shaping the future of human health and wellbeing. Afterwards, enjoy refreshments, reconnect with fellow alumni and explore Bristol's newest campus.
+
+
+          As an alumnus, you are an important part of Bristol's story of innovation, ambition and hope. Join us to celebrate the past and future of research on campus.
+
+
+          **Schedule**
+
+
+          - 6:30 pm - 7:00 pm: Registration opens
+
+          - 7:00 pm - 08:30 pm: Bristol and the Brain discussion begins
+
+          - 8:30 pm - 9:30 pm: Networking and Food
+
+          - 10:00 pm: Event close
+
+
+          **Register.** This event is free for all alumni. [Click here to register via Eventbrite.](https://www.eventbrite.co.uk/e/bristol-and-the-brain-150th-celebration-alumni-research-lecture-tickets-1992117273391?aff=oddtdtcreator&keep_tld=true)
+
+
+          **Contact.** If you have any questions about this event, please email alumni-events@bristol.ac.uk.
+
+
+          This event showcasing the best of Bristol research has been made possible with generous funding from the [Bristol Collegiate Research Society](https://www.bristol.ac.uk/alumni/boards-and-committees/bristol-collegiate-research-society/).\n"
+        confidence: "high"
+      - id: "education/university-of-bristol-alumni#0c4cedff81"
+        sourceId: "education/university-of-bristol-alumni"
+        title: "150 years young"
+        occurrence:
+          kind: "single"
+          date: "2026-10-10"
+        status: "scheduled"
+        url: "https://www.bristol.ac.uk/university/150-years/events/"
+        tags:
+          - "community"
+          - "heritage"
+          - "family"
+          - "free-entry"
+        raw: "**150 years young**
+
+
+          Join us on Saturday 10 October for a public programme of events celebrating 150 years of the University of Bristol and the opening of Temple Quarter Enterprise Campus (TQEC).\n"
+        summary: "A one-day public programme marking the University of Bristol's 150th anniversary and the opening of the Temple Quarter Enterprise Campus. This page gives only the date and a link; the University's own events calendar lists the same day in full (recorded under education/university-of-bristol in this run)."
+        confidence: "high"
+      - id: "education/university-of-bristol-alumni#35020e54fc"
+        sourceId: "education/university-of-bristol-alumni"
+        title: "Film and Television Alumni Networking Event, Bristol"
+        occurrence:
+          kind: "single"
+          date: "2026-11-21"
+          startTime: "14:00"
+          endTime: "17:00"
+        status: "scheduled"
+        venue:
+          name: "Richmond Building, 5th and 6th floors"
+          area: "Clifton"
+          address:
+            street: "105-115 Queens Road"
+            city: "Bristol"
+            postcode: "BS8 1LN"
+        url: "https://www.bristol.ac.uk/alumni/events/2026/partnership-event-film-and-television-alumni-networking-event-nov-2026.html"
+        price:
+          free: true
+          text: "Free place, reserved via a booking form"
+        tags:
+          - "talk"
+          - "free-entry"
+          - "booking-required"
+          - "young-people"
+        raw: "**Film and Television Alumni Networking Event, Bristol**
+
+
+          21 November 2026, 2.00 PM - 21 November 2026, 5.00 PM
+
+
+          5th and 6th Floor of the Richmond Building, 105-115 Queens Road, Bristol BS8 1LN\n"
+        summary: "Film and Television graduates return to the Richmond Building to meet final-year and MA students over drinks, with a panel on career routes into the industry. Aimed at department alumni rather than the general public."
+        description: "Alumni of the Department of Film and Television are invited to their alumni networking event.
+
+
+          This event has been organised primarily for their current third-year undergraduate and MA students, providing them with the opportunity to connect with alumni working across the film and television industry, gain valuable insights, and explore potential career pathways.
+
+
+          Don't miss this fantastic opportunity to reconnect with fellow graduates, share your experiences since leaving the University of Bristol, and expand your professional network in an informal setting over drinks and nibbles.
+
+
+          The Department are looking for a small number of alumni to take part in a panel discussion during the event, sharing their career journeys, experiences of working in the industry, and advice for students preparing to enter the profession. If you are interested in joining the panel, they would love to hear from you.
+
+
+          **Booking.** To reserve your free place, [click here to sign up via the booking form](https://forms.office.com/pages/responsepage.aspx?id=MH_ksn3NTkql2rGM8aQVG4VU87ed0hRFqqlrDhNr7j5UODk2SVZGWFNWOThGSVNUVllMVVBYV01LUC4u&route=shorturl).
+
+
+          **Contact.** If you have any questions or would like to find out more, please do not hesitate to get in touch directly by emailing piers.leigh@bristol.ac.uk.\n"
+        confidence: "high"
+      - id: "education/university-of-bristol-alumni#c4ac77f89f"
+        sourceId: "education/university-of-bristol-alumni"
+        title: "Celebrating 20 years of Widening Participation, Bristol"
+        occurrence:
+          kind: "single"
+          date: "2026-12-02"
+          startTime: "16:00"
+          endTime: "18:00"
+        status: "scheduled"
+        venue:
+          name: "Wills Memorial Building"
+          area: "Clifton"
+          address:
+            street: "Queen's Road"
+            city: "Bristol"
+            postcode: "BS8 1RJ"
+        url: "https://www.bristol.ac.uk/alumni/events/2026/partnership-event-celebrating-20-years-of-widening-participation-dec-2026.html"
+        price:
+          free: true
+          text: "Free to attend; sign up via Eventbrite with the code 'Alumni'"
+        tags:
+          - "free-entry"
+          - "booking-required"
+          - "community"
+        raw: "**Celebrating 20 years of Widening Participation, Bristol**
+
+
+          2 December 2026, 4.00 PM - 2 December 2026, 6.00 PM
+
+
+          Wills Memorial Building, Queen's Road, Bristol BS8 1RJ\n"
+        summary: "Twenty years of Access to Bristol and ten of Bristol Scholars marked with stories from staff, school partners and past participants at the Wills Memorial Building. Restricted: open only to alumni of those two programmes."
+        description: "**From access to achievement: Celebrating 20 years of Access to Bristol and 10 years of Bristol Scholars**
+
+
+          Join us as we celebrate a milestone year for widening participation at the University of Bristol.
+
+
+          Marking 20 years since the launch of Access to Bristol and 10 years of the Bristol Scholars programme - alongside the University's 150th anniversary - this special event brings together colleagues, partners, and students past and present to reflect on impact, share stories, and look ahead to the future.
+
+
+          We warmly invite university staff, school and college partners, current participants, and alumni of these programmes who have progressed to study or graduate from Bristol and beyond.
+
+
+          Enjoy light refreshments while connecting with the community that has helped shape two decades of opportunity and achievement.
+
+
+          **Please note, this event is exclusively for alumni that completed either Access to Bristol or Bristol Scholars.**
+
+
+          **Booking.** This event is free to attend. **[Click here to sign up via Eventbrite](https://www.eventbrite.co.uk/e/celebrating-20-years-of-widening-participation-tickets-1987512252650)**. Enter the code 'Alumni' when you sign up via the Eventbrite page.
+
+
+          **Contact.** If you have any questions, please email uob-outreach-projects@bristol.ac.uk.\n"
+        confidence: "high"
+    notes: "Seven distinct dated events listed, server-rendered with full dates including the year, so no inference was needed; Bristol and the Brain appears twice (as the featured item and again in the list) and is recorded once. Four were dropped as out-of-area: Alumni Meet-up in Accra, Ghana (18 Sep), 150th Celebration Bristol Alumni Lunch in Melbourne (4 Oct), Delhi Global Gathering (10 Oct, Gurugram) and Badock Hall and Wills Hall London Reception at the House of Lords (22 Oct). Gone since the 28 Aug run: Welcome to Mumbai Enterprise Campus (10 Sep, passed) and the \"2026 Global Gatherings\" umbrella. The index gives only title, date and address, so per section 4 the three Bristol event pages were opened for description — three fetches, four in all for this source. The fourth row is the \"150 years young\" promotional block on this page, which prints \"Saturday 10 October\" (10 Oct 2026 is a Saturday) and links to /university/150-years/events/; that page was not opened this run, so it has no description, but the University's own calendar now lists the day in full and it is recorded there under education/university-of-bristol. The page also prints \"There are currently no events scheduled\" beneath the list, which reads as an empty alumni-organised section rather than a contradiction. Nothing before 9 October; the two December and November events are members-only in practice."
+  - sourceId: "education/wea-bristol"
+    fetch:
+      ok: true
+      url: "https://www.wea.org.uk/courses?location%5Bvalue%5D=Bristol&location%5Bdistance%5D%5Bfrom%5D=10"
+      status: 200
+    events: []
+    notes: "Two things changed since 28 Aug. First, a plain fetch of the catalogued URL now gets a Cloudflare challenge (403, a 5.7 KB \"Just a moment...\" page with _cf_chl_opt), and the one browser-user-agent retry got the real page (200, 143 KB) — so the source wants a hint that it needs a browser user-agent, and the observation above is from that retry. Second, the Bristol search now returns \"We're sorry, we couldn't find a course for you.\" Two more fetches checked that this is not a filter artefact: one with all four availability states ticked (Available, In progress, Waiting list, Full) and 25 results per page, and one with the York Court postcode BS2 8QH in place of the town name; both came back empty too, four fetches in all. The six autumn-term ESOL courses recorded on 28 Aug all started on 7 or 8 September and have dropped off the listing, and nothing has replaced them, so this is a genuine zero rather than a missed page. The hint's advice to drop out-of-Bristol rows had nothing to act on."
+  - sourceId: "education/bristol-ideas"
+    fetch:
+      ok: false
+      url: "https://www.bristolideas.co.uk/events/"
+      status: 403
+      error: "Bot wall: a plain fetch gets a bare 103-byte '403 Forbidden' page and the browser-user-agent retry gets the same 1,395-byte 'Checking your browser...' interstitial as on 28 Aug, with a noscript refresh to ?ki-cf-botcl=1"
+    events: []
+    notes: "Same result as the last two runs, not retried further. The case for closing this entry is now stronger than the literature catalogue's note alone: the Festival of Economics — the strand that outlived Bristol Ideas — is listed this run by the University of Bristol's calendar (three rows under education/university-of-bristol), with info@economicsfestival.co.uk as organiser, and its own site economicsfestival.co.uk is the URL to catalogue if a dedicated source is wanted. Nothing this run supports keeping education/bristol-ideas provisional."

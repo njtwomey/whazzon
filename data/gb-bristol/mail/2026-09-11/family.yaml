@@ -1,0 +1,197 @@
+schema: "whazzon.mail/1"
+locationId: "gb-bristol"
+date: "2026-09-11"
+category: "family"
+pulledAt: "2026-09-11T17:56:30Z"
+mailbox: "INBOX"
+messages:
+  - messageId: "<199fe9c03a0b3b4b8c516e1dd.b354becfee.20260904200550.84ab6c2b45.7c17df96@mail41.suw17.mcsv.net>"
+    receivedAt: "2026-09-04T20:06:10Z"
+    from:
+      name: "Children's Scrapstore"
+      address: "events@childrensscrapstore.co.uk"
+    subject: "Find out about upcoming free family activities for Sustainable Fashion Week, our involvement in Picnic in the Park, St Werburgh's Arts Trail, & More!"
+    listId: "199fe9c03a0b3b4b8c516e1dd.55257.list-id.mcsv.net"
+    webVersion: "https://us12.campaign-archive.com/?u=199fe9c03a0b3b4b8c516e1dd&id=84ab6c2b45"
+    sourceId: "family/childrens-scrapstore"
+    matchedBy: "from:*@childrensscrapstore.co.uk"
+    body: "Join us at the Scrapstore this Autumn for ever changing scrap, term time play sessions, St Werburghs Arts Trail and free family craft activities
+
+      ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌    ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­
+
+
+      https://us.list-manage.com/_rgiJ11SeKI?c2id=189f808a56f9b99c0adb21d5d841853d
+
+
+      WHAT’S HAPPENING THIS AUTUMN AT CHILDREN’S SCRAPSTORE!
+
+
+      This newsletter find out about what our charity has been up to lately, scrap access for the new academic year, deep clean week dates,
+
+
+      the return of term time Messy Play, St Werburgh’s Community Centre’s Picnic in the Park, upcoming free events (including making scrap costumes for Sustainable Fashion Week in October), as well as our Saturday AND Sunday opening hours for St Werburghs Arts Trail!
+
+
+      https://us.list-manage.com/61EnprWpF_z?c2id=189f808a56f9b99c0adb21d5d841853d
+
+
+      https://us.list-manage.com/Zz0DuMtE9bo?c2id=189f808a56f9b99c0adb21d5d841853d
+
+
+      https://us.list-manage.com/d6EqRJPxQ8L?c2id=189f808a56f9b99c0adb21d5d841853d
+
+
+      Find us on social media!
+
+
+      WHAT’S BEEN HAPPENING AT THE SCRAPSTORE?
+
+
+      Our charity kept busy in the summer while navigating heatwaves, running a successful Playday 2026 at The Ardagh with over 1,000 attendees, monthly free Super Saturdays, a booked Summer Holiday Programme of craft sessions and our Play Ranger’s Holiday Community Play Sessions across Bristol.
+
+
+      There was a lot of busyness and buzz across the ArtShop and Scrapstore Warehouse this summer, with lots of lovely comments left in our visitor book!
+
+
+      BACK TO SCHOOL SCRAP, STUDENT MEMBERSHIP,
+
+
+      PLUS ARTSHOP SKETCHBOOKS & STATIONARY
+
+
+      It’s September, which means students are heading back to school and university. Our Scrapstore Warehouse <https://us.list-manage.com/6_iOl_DT19A?c2id=189f808a56f9b99c0adb21d5d841853d> has a whole stationary section full of fantastic folders, paper, and art supplies saved from waste ready for you to reuse.
+
+
+      We also have post 16 Student Memberships <https://us.list-manage.com/1BvUl6tGES3?c2id=189f808a56f9b99c0adb21d5d841853d> for £14, which are a great way to sustainable source fabrics, fine art supplies, and unique materials at a low cost!
+
+
+      If you can’t find what you are seeking in scrap, our not-for-profit ArtShop <https://us.list-manage.com/xqwyxQqJ3gz?c2id=189f808a56f9b99c0adb21d5d841853d> is open to the public and full of stationary, sketchbooks and crafts.
+
+
+      As you prepare for this academic term, have a look about our Scrapstore before buying new and see if you can source what you need from us! It’s cheaper, more sustainable, plus what you spend goes back into our charity!
+
+
+      https://us.list-manage.com/10Qo6vZ57y2?c2id=189f808a56f9b99c0adb21d5d841853d
+
+
+      DEEP CLEAN WEEK (8TH-11TH OF SEPTEMBER)
+
+
+      There will be NO Playroom sessions this week.
+
+
+      We’re doing a deep clean to reset after the holiday’s crafting chaos from Tuesday 8th - Friday 11th of September.
+
+
+      Our term time sessions will resume the following week, so see you back in our squeaky clean Playroom then!
+
+
+      TERM TIME MESSY PLAY RETURNS
+
+
+      Our term time Messy Play sessions where under 5s can explore different sensory activities are returning from the 15th of September.
+
+
+      Tuesdays are taste safe and have no small parts, while Wednesdays are maximum mess with paint, glue, scissors & some small parts.
+
+
+      Older siblings always welcome at messy play!
+
+
+      You can find out more on our website linked here <https://us.list-manage.com/15EgRQxEUAO?c2id=189f808a56f9b99c0adb21d5d841853d>.
+
+
+      All profits made from our paid events directly go back into our charity and allow us to continue our mission of diverting reusable materials away from waste and towards play, art and educational opportunities.
+
+
+      https://us.list-manage.com/11w7LRmCJdb?c2id=189f808a56f9b99c0adb21d5d841853d
+
+
+      FROM OUR FRIENDS:
+
+
+      ST WERBURGHS COMMUNITY CENTRE
+
+
+      Children’s Scrapstore will be in the Kids Zone at Picnic in the Park <https://us.list-manage.com/mGx0AJxHZtR?c2id=189f808a56f9b99c0adb21d5d841853d> in Mina Road Park for some free scrap hat making from 2pm - 5pm!
+
+
+      St Werburghs Community Centre are running this free mini community festival  with a range of music, workshops and activities from 2pm - 6pm on Saturday 12th September.
+
+
+      https://us.list-manage.com/Ab_zTMoAjcH?c2id=189f808a56f9b99c0adb21d5d841853d
+
+
+      FREE SUPER SCRAP COSTUME CRAFTS
+
+
+      FOR SUSTAINABLE FASHION WEEK
+
+
+      As part of being a hub for Sustainable Fashion Week <https://us.list-manage.com/uekCh3Kdh1X?c2id=189f808a56f9b99c0adb21d5d841853d>, on Saturday 3rd & Sunday 4th of October, we will be decorating white gauze scarves saved from waste with scrap fabrics, pens and sticky back to create an unique outfit that you can wear over your normal clothes!
+
+
+      This free drop-in activity is aimed at primary school aged children and their families. No unaccompanied children.
+
+
+      These sessions run from 10:00am - 12:00pm Saturday 3rd & 11:00am - 1:00pm Sunday 4th of October, as well as 2:00pm - 4:00pm on both days.
+
+
+      Find out more about this activity and our other upcoming free events on our website here <https://us.list-manage.com/9AIbcIhqWAF?c2id=189f808a56f9b99c0adb21d5d841853d>.
+
+
+      https://us.list-manage.com/BHeXMbxqWJk?c2id=189f808a56f9b99c0adb21d5d841853d
+
+
+      ST WERBURGHS ARTS TRAIL 4TH & 5TH OCTOBER
+
+
+      Children’s Scrapstore will also be a host venue for St Werburghs Arts Trail <https://us.list-manage.com/pBvdFp8UVJm?c2id=189f808a56f9b99c0adb21d5d841853d>, the same weekend as our free craft sessions for Sustainable Fashion Week.
+
+
+      Visit our Scrapstore Warehouse over the weekend to check out the fantastic local artist stalls. Our building will be open from 10am-5pm Saturday 3rd (arts trail begins at 11am) and 11am-5pm Sunday 4th of October.
+
+
+      https://us.list-manage.com/adWHkKBjG4x?c2id=189f808a56f9b99c0adb21d5d841853d
+
+
+      HELP FUNDRAISE FOR OUR CHARITY
+
+
+      AS PART OF YOUR REGULAR SHOPPING
+
+
+      A reminder you can support our charity in a huge way for free by installing easyfundraising <https://us.list-manage.com/1CjzAb6m8oK?c2id=189f808a56f9b99c0adb21d5d841853d> as a website extension, which will donate a percentage of what you spend online to our charity without costing you anything extra!
+
+
+      You can also support our Play Rangers sessions at your local Tesco in Bristol by putting a blue token into our voting box. 🔵
+
+
+      Every little helps our charity continue to provide our reuse and play services!
+
+
+      https://us.list-manage.com/dHXG7bF9AEy?c2id=189f808a56f9b99c0adb21d5d841853d
+
+
+      SEE YOU IN THE SCRAPSTORE SOON!
+
+
+      Children’s Scrapstore
+
+
+      Copyright (C) *2026* *Children’s Scrapstore*. All rights reserved.
+
+      Want to change how you receive these emails?
+
+
+      You can update your preferences <https://childrensscrapstore.us12.list-manage.com/profile?u=199fe9c03a0b3b4b8c516e1dd&id=b604b1e6a8&c=84ab6c2b45> or unsubscribe <https://childrensscrapstore.us12.list-manage.com/unsubscribe?u=199fe9c03a0b3b4b8c516e1dd&id=b604b1e6a8&t=b&c=84ab6c2b45>
+
+
+      View in browser <https://us12.campaign-archive.com/?u=199fe9c03a0b3b4b8c516e1dd&id=84ab6c2b45>
+
+
+      Children's Scrapstore · 21 Sevier Street · St Werburghs · Bristol, BS2 9LB · United Kingdom
+
+
+      https://us.list-manage.com/10EjdzFCZxD?c2id=189f808a56f9b99c0adb21d5d841853d"
+    truncated: false

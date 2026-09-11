@@ -1,0 +1,18 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-09-11"
+category: "museums"
+harvestedAt: "2026-09-11T17:25:34Z"
+prompt:
+  name: "stage2-harvest"
+  version: "5"
+model: "claude-opus-5"
+observations:
+  - sourceId: "museums/aerospace-bristol"
+    fetch:
+      ok: true
+      url: "https://cmemailmarketing.co.uk/A2E373161-CMP10407CON1460-RCP0-4-Z-1-Z-Z-0-0-Z-Z-11-1-8-0"
+      via: "mail"
+      mailFile: "data/gb-bristol/mail/2026-09-11/museums.yaml"
+    events: []
+    notes: "Mail-only run; the website was not fetched. The only message from this source is the \"Welcome aboard\" subscription confirmation received 2026-08-29 (Campaign Monitor, from welcome@e.aerospacebristol.org, matched on from:*@*.aerospacebristol.org). It carries no listings, dates or programme at all: a welcome line, links to the museum's social accounts and the Bloomberg Connects app, and a 10% discount for booking online. Empty events here means the message said nothing, not that the venue has nothing on; the 2026-08-16 web harvest of /whats-on still holds four events that had not passed by today (Rowland White Concorde Talk on 12 Sep, Flight Simulator UK LIVE 10-11 Oct, and two undated strands). The binding works, so the next real newsletter should land here."

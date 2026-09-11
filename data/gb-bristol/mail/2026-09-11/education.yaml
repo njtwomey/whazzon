@@ -1,0 +1,63 @@
+schema: "whazzon.mail/1"
+locationId: "gb-bristol"
+date: "2026-09-11"
+category: "education"
+pulledAt: "2026-09-11T17:56:30Z"
+mailbox: "INBOX"
+messages:
+  - messageId: "<30010842.20260829105935.6a92bb97ee0b88.17520254@mail22.mcsignup.com>"
+    receivedAt: "2026-08-29T10:59:35Z"
+    from:
+      name: "Bristol Folk House"
+      address: "admin@bristolfolkhouse.co.uk"
+    subject: "Courses and Workshops Mailing List: Please Confirm Subscription"
+    sourceId: "education/bristol-folk-house"
+    matchedBy: "from:*@bristolfolkhouse.co.uk"
+    body: "BRISTOL FOLK HOUSE
+
+      COURSES AND WORKSHOPS MAILING LIST
+
+
+      PLEASE CONFIRM SUBSCRIPTION
+
+
+      Yes, subscribe me to this list. <https://bristolfolkhouse.us1.list-manage.com/subscribe/confirm?u=bbcf01f641178df03f8efc39c&id=1a4274ac57>
+
+
+      If you received this email by mistake, simply delete it. You won't be subscribed if you don't click the confirmation link above.
+
+
+      For questions about this list, please contact:
+
+      admin@bristolfolkhouse.co.uk
+
+
+      https://login.mailchimp.com/signup/email-referral/?aid=bbcf01f641178df03f8efc39c"
+    truncated: false
+  - messageId: "<30010842.20260829105936.6a92bb988ed871.38067863@mail17.mcsignup.com>"
+    receivedAt: "2026-08-29T10:59:36Z"
+    from:
+      name: "Bristol Folk House"
+      address: "admin@bristolfolkhouse.co.uk"
+    subject: "Folk House Music: Please Confirm Subscription"
+    sourceId: "education/bristol-folk-house"
+    matchedBy: "from:*@bristolfolkhouse.co.uk"
+    body: "FOLK HOUSE MUSIC
+
+
+      PLEASE CONFIRM SUBSCRIPTION
+
+
+      Yes, subscribe me to this list. <https://bristolfolkhouse.us1.list-manage.com/subscribe/confirm?u=bbcf01f641178df03f8efc39c&id=85897d2f3c>
+
+
+      If you received this email by mistake, simply delete it. You won't be subscribed if you don't click the confirmation link above.
+
+
+      For questions about this list, please contact:
+
+      admin@bristolfolkhouse.co.uk
+
+
+      https://login.mailchimp.com/signup/email-referral/?aid=bbcf01f641178df03f8efc39c"
+    truncated: false

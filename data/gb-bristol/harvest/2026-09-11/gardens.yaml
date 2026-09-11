@@ -1,0 +1,516 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-09-11"
+category: "gardens"
+harvestedAt: "2026-09-11T17:26:15Z"
+prompt:
+  name: "stage2-harvest"
+  version: "5"
+model: "claude-opus-5"
+observations:
+  - sourceId: "gardens/avon-wildlife-trust"
+    fetch:
+      ok: true
+      url: "https://www.avonwildlifetrust.org.uk/events"
+      status: 200
+    events:
+      - id: "gardens/avon-wildlife-trust#3683abb131"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Portishead Local Group - From Aepyornis egg to Burchell's Zebra"
+        occurrence:
+          kind: "single"
+          date: "2026-09-25"
+          startTime: "19:30"
+          endTime: "21:00"
+        status: "scheduled"
+        timesText: "7:30pm - 9:00pm"
+        venue:
+          name: "Portishead Town Council Folk Hall"
+          area: "Portishead"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-09-25-portishead-local-group-aepyornis-egg-burchells-zebra"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2026-01/Equus_quagga_burchellii_-_Etosha%2C_2014.jpg?h=2e9dacb4&itok=W_gu3ghP"
+        tags:
+          - "talk"
+          - "wildlife"
+          - "heritage"
+        raw: "**Portishead Local Group - From Aepyornis egg to Burchell's Zebra** — Friday 25 September 2026, 7:30pm - 9:00pm, Portishead Town Council Folk Hall.
+
+
+          \"An illustrated talk by Ray Barnett. A selection from the amazing biology collections of Bristol Museum and Art Gallery, their stories and collectors.\"\n"
+        summary: "Ray Barnett opens the drawers of Bristol Museum and Art Gallery's biology collection — an elephant bird's egg, a Burchell's zebra — and tells the stories of the specimens and the collectors who brought them back."
+        confidence: "high"
+      - id: "gardens/avon-wildlife-trust#d8ae8495f3"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Keynsham Local Group - Pond dipping for under 7s"
+        occurrence:
+          kind: "single"
+          date: "2026-09-26"
+          startTime: "14:00"
+          endTime: "17:30"
+        status: "scheduled"
+        timesText: "2:00pm - 5:30pm"
+        venue:
+          name: "Wellsway School"
+          area: "Keynsham"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-09-26-keynsham-local-group-pond-dipping-under-7s"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2023-04/river%20dipping2.jpg?h=c23330e9&itok=MGgpVhaF"
+        tags:
+          - "family"
+          - "kids"
+          - "wildlife"
+          - "hands-on"
+          - "outdoor"
+        raw: "**Keynsham Local Group - Pond dipping for under 7s** — Saturday 26 September 2026, 2:00pm - 5:30pm, Wellsway School.
+
+
+          \"One hour sessions for younger children accompanied by a responsible adult.\"\n"
+        summary: "Nets and trays at the school pond, in hour-long sessions through the afternoon for children under seven with an adult alongside. The gentler sibling of the river dipping the same group runs the next day."
+        confidence: "high"
+      - id: "gardens/avon-wildlife-trust#3b8b2e5d20"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Keynsham Local Group - River dipping for children aged 7 and over"
+        occurrence:
+          kind: "single"
+          date: "2026-09-27"
+          startTime: "14:00"
+          endTime: "16:15"
+        status: "scheduled"
+        timesText: "2:00pm - 4:15pm"
+        venue:
+          name: "Bridge over River Chew"
+          area: "Keynsham"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-09-27-keynsham-local-group-river-dipping-children-aged-7-and-over"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2023-04/river%20dipping.jpg?h=edda74c6&itok=QmmK8388"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "family"
+          - "kids"
+          - "wildlife"
+          - "free-entry"
+          - "outdoor"
+        raw: "**Keynsham Local Group - River dipping for children aged 7 and over** — Sunday 27 September 2026, 2:00pm - 4:15pm, Bridge over River Chew.
+
+
+          \"Free river dipping events with our chair, Dave Sage, at Dapps Hill Bridge in Keynsham - for older children.\"\n"
+        summary: "Free river dipping in the Chew at Dapps Hill Bridge with the Keynsham group's chair, for children of seven and up who can handle a net in moving water."
+        confidence: "high"
+      - id: "gardens/avon-wildlife-trust#76d8de3d55"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Keynsham Local Group - It's time to talk eels: An evening with the Somerset Eel Recovery Project"
+        occurrence:
+          kind: "single"
+          date: "2026-10-09"
+          startTime: "19:30"
+          endTime: "21:00"
+        status: "scheduled"
+        timesText: "7:30pm - 9:00pm"
+        venue:
+          name: "Baptist Church Hall, Keynsham"
+          area: "Keynsham"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-10-09-keynsham-local-group-its-time-talk-eels-evening-somerset-eel-recovery-project"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2026-05/European%20eel%20%28c%29%20Vaughn%20Matthews_1.JPG?h=5ee84a46&itok=C52KSMEi"
+        tags:
+          - "talk"
+          - "wildlife"
+          - "nature"
+        raw: "**Keynsham Local Group - It's time to talk eels: An evening with the Somerset Eel Recovery Project** — Friday 9 October 2026, 7:30pm - 9:00pm, Baptist Church Hall, Keynsham.
+
+
+          \"Join us for a fascinating evening with Vanessa Becker-Hughes, co-founder of the Somerset Eel Recovery Project (SERP).\"\n"
+        summary: "Vanessa Becker-Hughes on the European eel — one of the strangest and most steeply declining animals in British rivers — and what the Somerset Eel Recovery Project is doing to get them back up the Levels."
+        confidence: "high"
+      - id: "gardens/avon-wildlife-trust#a2fa774bfa"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Wildlife Filmmaking Workshops with Wildscreen"
+        occurrence:
+          kind: "single"
+          date: "2026-10-14"
+          startTime: "18:00"
+          endTime: "19:30"
+        status: "scheduled"
+        timesText: "6:00pm - 7:30pm"
+        venue:
+          sourceId: "gardens/grow-wilder"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-10-14-wildlife-filmmaking-workshops-wildscreen"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2026-09/1.jpg?h=e54883e8&itok=wqCvNoJa"
+        price:
+          free: true
+          text: "FREE wildlife filmmaking workshops"
+        ageRestriction: "16-25 year olds"
+        tags:
+          - "workshop"
+          - "young-people"
+          - "free-entry"
+          - "booking-required"
+          - "wildlife"
+        raw: "**Wildlife Filmmaking Workshops with Wildscreen** — Wednesday 14 October 2026, 6:00pm - 7:30pm.
+
+
+          \"Book on to a taster session to find out more about some FREE wildlife filmmaking workshops running this autumn and winter for 16-25yr olds\"\n"
+        summary: "An introduction evening at Grow Wilder with filmmaker and journalist Izzy A'isha, for 16 to 25-year-olds thinking about Wildscreen's free nine-session wildlife filmmaking course that follows on Wednesday evenings from November. This booking is for the taster only; the course itself is by interest form."
+        description: "**Location:** [Grow Wilder](https://www.avonwildlifetrust.org.uk/nature-reserves/grow-wilder), 181 Frenchay Park Road, Bristol, BS16 1EL
+
+
+          Outdoor Activity · Volunteering · Young People
+
+
+          Book on to a taster session to find out more about some FREE wildlife filmmaking workshops running this autumn and winter for 16-25yr olds
+
+
+          **Date:** Wednesday 14 October 2026
+
+          **Time:** 6:00pm - 7:30pm
+
+
+          **About the event**
+
+
+          Please note this booking is for the introduction session only. To attend the workshops, we ask you complete an interest form and we will be in touch.
+
+
+          Come to Grow Wilder on Tuesday 14 October to meet Izzy A'isha, filmmaker and journalist and find out more about our upcoming workshops....
+
+
+          We're excited to be hosting Wildscreen, who will be facilitating free wildlife filmmaking workshops for 16-25-year-olds this autumn and winter. Each session will be based at Grow Wilder from 6pm-7.30pm on the following dates:
+
+
+          - 4 November
+
+          - 11 November
+
+          - 18 November
+
+          - 25 November
+
+          - 2 December
+
+          - 9 December
+
+          - 16 December
+
+          - 13 January
+
+          - 20 January
+
+
+          These workshops will be an opportunity to:
+
+
+          - Learn techniques in storytelling
+
+          - Understand how to engage different audiences
+
+          - Use and try high quality hands-on equipment
+
+          - Learn and use editing and film production techniques
+
+          - Explore wildlife filmmaking career options through meeting and hearing from experts in the industry
+
+
+          If you're interested in attending the workshops please fill out this form: [Wildlife Filmmaking Workshops with Wildscreen [Nature Story] – Fill out form](https://forms.cloud.microsoft/e/sgm1s8ahpn)
+
+
+          **How to get here**
+
+
+          Grow Wilder (181 Frenchay Park Rd, Bristol, BS16 1EL) is well connected to walking, cycling and bus routes. If you're coming by bike, there are bike racks as you come in the main entrance of the site.
+
+
+          If travelling by car, Begbrook Social Club has kindly offered space in their car park which is located nearby - less than a five-minute walk away. If you have any accessibility needs, please let me know and we can get you access to park on site.
+
+
+          If coming by bus from central Bristol the m1, m3 and m4 metrobuses run regularly, and stop at Begbrook, which is located at the back entrance of Grow Wilder.
+
+
+          **Booking:** Email [youngpeople@avonwildlifetrust.org.uk](mailto:youngpeople@avonwildlifetrust.org.uk)
+
+
+          **Know before you go:** Assistance dogs only. Facilities: toilets, picnic area, accessible toilet, baby changing facilities.\n"
+        confidence: "medium"
+      - id: "gardens/avon-wildlife-trust#4356d0c5ee"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Wildlife Filmmaking Workshops with Wildscreen — workshop series"
+        occurrence:
+          kind: "recurring"
+          pattern: "Wednesday evenings 6pm-7.30pm on 4, 11, 18 and 25 November, 2, 9 and 16 December, 13 and 20 January"
+          start: "2026-11-04"
+          end: "2027-01-20"
+          startTime: "18:00"
+        status: "scheduled"
+        timesText: "6pm-7.30pm"
+        venue:
+          sourceId: "gardens/grow-wilder"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-10-14-wildlife-filmmaking-workshops-wildscreen"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2026-09/1.jpg?h=e54883e8&itok=wqCvNoJa"
+        price:
+          free: true
+          text: "free wildlife filmmaking workshops for 16-25-year-olds"
+        ageRestriction: "16-25 year olds"
+        tags:
+          - "workshop"
+          - "courses"
+          - "young-people"
+          - "free-entry"
+          - "wildlife"
+        raw: "\"We're excited to be hosting Wildscreen, who will be facilitating free wildlife filmmaking workshops for 16-25-year-olds this autumn and winter. Each session will be based at Grow Wilder from 6pm-7.30pm on the following dates: 4 November, 11 November, 18 November, 25 November, 2 December, 9 December, 16 December, 13 January, 20 January.\"
+
+
+          \"If you're interested in attending the workshops please fill out this form: [Wildlife Filmmaking Workshops with Wildscreen [Nature Story] – Fill out form](https://forms.cloud.microsoft/e/sgm1s8ahpn)\"\n"
+        summary: "Nine free Wednesday-evening sessions at Grow Wilder run by Wildscreen for 16 to 25-year-olds: storytelling, working a camera and editing kit, and meeting people who make wildlife films for a living. Places are by an interest form rather than open booking; the 14 October taster is the way in."
+        confidence: "medium"
+      - id: "gardens/avon-wildlife-trust#2ed18c174a"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Chew Valley Local Group: 'The Secret Lives of Garden Bees' with Jean Vernon"
+        occurrence:
+          kind: "single"
+          date: "2026-10-22"
+          startTime: "19:45"
+          endTime: "21:00"
+        status: "scheduled"
+        timesText: "7:45pm - 9:00pm"
+        venue:
+          name: "Chew Magna Old School Room"
+          area: "Chew Magna"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-10-22-chew-valley-local-group-secret-lives-garden-bees-jean-vernon"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2018-04/IMG_8531%20copy.jpg?h=20ffac7b&itok=o4ftLxm1"
+        tags:
+          - "talk"
+          - "wildlife"
+          - "nature"
+        raw: "**Chew Valley Local Group: 'The Secret Lives of Garden Bees' with Jean Vernon** — Thursday 22 October 2026, 7:45pm - 9:00pm, Chew Magna Old School Room.
+
+
+          \"The Secret Lives of Garden Bees, and illustrated talk by Jean Vernon. Jean introduces us to the familiar and unfamiliar bees in our gardens.\"\n"
+        summary: "Garden writer Jean Vernon on the bees most people never notice — the solitary and bumble species alongside the honeybee — and what a garden can do for them. An illustrated talk for the Chew Valley group."
+        confidence: "high"
+      - id: "gardens/avon-wildlife-trust#e9eaf1b3a9"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Portishead Local Group - Flora and Fauna of Portishead Open Space: The story so far"
+        occurrence:
+          kind: "single"
+          date: "2026-10-23"
+          startTime: "19:30"
+          endTime: "21:00"
+        status: "scheduled"
+        timesText: "7:30pm - 9:00pm"
+        venue:
+          name: "Portishead Town Council Folk Hall"
+          area: "Portishead"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-10-23-portishead-local-group-flora-and-fauna-portishead-open-space-story-so-far"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2026-01/Portishead%2C%20Kilkenny%20Fields%20%28C%29%20Lewis%20Clarke.jpg?h=790be497&itok=JvHoVB9j"
+        tags:
+          - "talk"
+          - "wildlife"
+          - "nature"
+        raw: "**Portishead Local Group - Flora and Fauna of Portishead Open Space: The story so far** — Friday 23 October 2026, 7:30pm - 9:00pm, Portishead Town Council Folk Hall.
+
+
+          \"An illustrated talk by Christopher Robinson.\"\n"
+        summary: "Christopher Robinson reports on what has been recorded so far across Portishead's open spaces — the plants and animals turning up on the town's own patch."
+        confidence: "high"
+      - id: "gardens/avon-wildlife-trust#5a0bea1bb6"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Portishead Local Group - Autumn Fair"
+        occurrence:
+          kind: "single"
+          date: "2026-10-31"
+          startTime: "10:00"
+          endTime: "13:00"
+        status: "scheduled"
+        timesText: "10:00am - 1:00pm"
+        venue:
+          name: "Portishead Town Council Folk Hall"
+          area: "Portishead"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-10-31-portishead-local-group-autumn-fair"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2024-08/World%20Photo%20Day%20%282%29.jpg?h=57024e64&itok=-mOE4T__"
+        tags:
+          - "fundraiser"
+          - "community"
+          - "market"
+          - "crafts"
+          - "food-drink"
+        raw: "**Portishead Local Group - Autumn Fair** — Saturday 31 October 2026, 10:00am - 1:00pm, Portishead Town Council Folk Hall.
+
+
+          \"Homemade cakes, plants, books, crafts, tombola, white elephant stalls and refreshments available.\"\n"
+        summary: "The Portishead group's Saturday-morning fundraiser at the Folk Hall: cake, plant and book stalls, crafts, a tombola and a white elephant table, with refreshments."
+        confidence: "high"
+      - id: "gardens/avon-wildlife-trust#597e9437dd"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Keynsham Local Group - The weird and wonderful world of moths, Bristol and beyond!"
+        occurrence:
+          kind: "single"
+          date: "2026-11-13"
+          startTime: "19:30"
+          endTime: "21:00"
+        status: "scheduled"
+        timesText: "7:30pm - 9:00pm"
+        venue:
+          name: "Baptist Church Hall, Keynsham"
+          area: "Keynsham"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-11-13-keynsham-local-group-weird-and-wonderful-world-moths-bristol-and-beyond"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2026-07/51995776425_Elephant%20Hawkmoth.jpg?h=58c8a5e7&itok=6U7fwypB"
+        tags:
+          - "talk"
+          - "wildlife"
+          - "nature"
+        raw: "**Keynsham Local Group - The weird and wonderful world of moths, Bristol and beyond!** — Friday 13 November 2026, 7:30pm - 9:00pm, Baptist Church Hall, Keynsham.
+
+
+          \"A talk with Charlie Tallis from the BS3 Moth Club\"\n"
+        summary: "Charlie Tallis of the BS3 Moth Club on the moths of Bristol and further afield — the hawkmoths, the migrants and the oddities a garden trap turns up."
+        confidence: "high"
+      - id: "gardens/avon-wildlife-trust#6f9f29a15a"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Portishead Local Group - The South African Wildlife of Ecuador and Columbia"
+        occurrence:
+          kind: "single"
+          date: "2026-11-27"
+          startTime: "19:30"
+          endTime: "21:00"
+        status: "scheduled"
+        timesText: "7:30pm - 9:00pm"
+        venue:
+          name: "Portishead Town Council Folk Hall"
+          area: "Portishead"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-11-27-portishead-local-group-south-african-wildlife-ecuador-and-columbia"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2026-01/Tapirus_pinchaque_133820375.jpg?h=f4845582&itok=BJSaIFvs"
+        tags:
+          - "talk"
+          - "wildlife"
+          - "nature"
+        raw: "**Portishead Local Group - The South African Wildlife of Ecuador and Columbia** — Friday 27 November 2026, 7:30pm - 9:00pm, Portishead Town Council Folk Hall.
+
+
+          \"An illustrated talk by Helen Mugridge.\"\n"
+        summary: "Helen Mugridge's illustrated travel talk on the wildlife of Ecuador and Colombia, billed under the title the group printed. The card image is a mountain tapir."
+        confidence: "high"
+      - id: "gardens/avon-wildlife-trust#60e42bc3a8"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Keynsham Local Group - Yuletide and the wildside!"
+        occurrence:
+          kind: "single"
+          date: "2026-12-11"
+          startTime: "19:30"
+          endTime: "21:00"
+        status: "scheduled"
+        timesText: "7:30pm - 9:00pm"
+        venue:
+          name: "Baptist Church Hall, Keynsham"
+          area: "Keynsham"
+        url: "https://www.avonwildlifetrust.org.uk/events/2026-12-11-keynsham-local-group-yuletide-and-wildside"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2021-09/Stag.jpg?h=5e404636&itok=cSE2N2Xu"
+        tags:
+          - "community"
+          - "quiz"
+          - "seasonal"
+          - "talk"
+        raw: "**Keynsham Local Group - Yuletide and the wildside!** — Friday 11 December 2026, 7:30pm - 9:00pm, Baptist Church Hall, Keynsham.
+
+
+          \"Our members evening, open to all, with short talks, a wildlife quiz and festive refreshments.\"\n"
+        summary: "The Keynsham group's Christmas social, open to non-members: a few short talks, a wildlife quiz and festive refreshments."
+        confidence: "high"
+      - id: "gardens/avon-wildlife-trust#c9d9e7b02f"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Keynsham Local Group - The secret lives of Somerset birds"
+        occurrence:
+          kind: "single"
+          date: "2027-01-08"
+          startTime: "19:30"
+          endTime: "21:00"
+        status: "scheduled"
+        timesText: "7:30pm - 9:00pm"
+        venue:
+          name: "Baptist Church Hall, Keynsham"
+          area: "Keynsham"
+        url: "https://www.avonwildlifetrust.org.uk/events/2027-01-08-keynsham-local-group-secret-lives-somerset-birds"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2017-12/Cetti%27s%20warbler%20%28c%29%20Amy%20Lewis.jpg?h=01a3feb8&itok=3zLd4adv"
+        tags:
+          - "talk"
+          - "wildlife"
+          - "nature"
+        raw: "**Keynsham Local Group - The secret lives of Somerset birds** — Friday 8 January 2027, 7:30pm - 9:00pm, Baptist Church Hall, Keynsham.
+
+
+          \"A talk with Nick Patel, nature guide and conservationist.\"\n"
+        summary: "Nature guide and conservationist Nick Patel on the birds of Somerset and what they get up to when nobody is watching."
+        confidence: "high"
+      - id: "gardens/avon-wildlife-trust#7f4a044dfe"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Keynsham Local Group - Sea and sky: Wildlife stories from the South West"
+        occurrence:
+          kind: "single"
+          date: "2027-02-12"
+          startTime: "19:30"
+          endTime: "21:00"
+        status: "scheduled"
+        timesText: "7:30pm - 9:00pm"
+        venue:
+          name: "Baptist Church Hall, Keynsham"
+          area: "Keynsham"
+        url: "https://www.avonwildlifetrust.org.uk/events/2027-02-12-keynsham-local-group-sea-and-sky-wildlife-stories-south-west"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2020-12/Bluefin%20tuna%20cropped%20%C2%A9%20Joe%20Pender.jpg?h=3c7fc03b&itok=-DbqWZfT"
+        tags:
+          - "talk"
+          - "wildlife"
+          - "nature"
+        raw: "**Keynsham Local Group - Sea and sky: Wildlife stories from the South West** — Friday 12 February 2027, 7:30pm - 9:00pm, Baptist Church Hall, Keynsham.
+
+
+          \"A talk with Henry Kirkwood, wildlife filmaker\"\n"
+        summary: "Wildlife filmmaker Henry Kirkwood with stories from filming the South West's coast and skies."
+        confidence: "high"
+      - id: "gardens/avon-wildlife-trust#c4297a01ae"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Keynsham Local Group - Life below the surface: Exploring the relationship between river water quality and wildlife behaviour"
+        occurrence:
+          kind: "single"
+          date: "2027-03-12"
+          startTime: "19:30"
+          endTime: "21:00"
+        status: "scheduled"
+        timesText: "7:30pm - 9:00pm"
+        venue:
+          name: "Baptist Church Hall, Keynsham"
+          area: "Keynsham"
+        url: "https://www.avonwildlifetrust.org.uk/events/2027-03-12-keynsham-local-group-life-below-surface-exploring-relationship-between-river"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2025-05/beaver_0.jpg?h=5f29f7b4&itok=EUM-OEgE"
+        tags:
+          - "talk"
+          - "wildlife"
+          - "nature"
+        raw: "**Keynsham Local Group - Life below the surface: Exploring the relationship between river water quality and wildlife behaviour** — Friday 12 March 2027, 7:30pm - 9:00pm, Baptist Church Hall, Keynsham.
+
+
+          \"A talk with Aleks Domanski, wildlife filmmaker\"\n"
+        summary: "Wildlife filmmaker Aleks Domanski on what river water quality does to the animals living in and around it, filmed from below the surface."
+        confidence: "high"
+      - id: "gardens/avon-wildlife-trust#a451ff1de4"
+        sourceId: "gardens/avon-wildlife-trust"
+        title: "Keynsham Local Group - Patagonia: Ice, peaks and predators"
+        occurrence:
+          kind: "single"
+          date: "2027-04-09"
+          startTime: "19:30"
+          endTime: "21:00"
+        status: "scheduled"
+        timesText: "7:30pm - 9:00pm"
+        venue:
+          name: "Baptist Church Hall, Keynsham"
+          area: "Keynsham"
+        url: "https://www.avonwildlifetrust.org.uk/events/2027-04-09-keynsham-local-group-patagonia-ice-peaks-and-predators"
+        image: "https://www.avonwildlifetrust.org.uk/sites/default/files/styles/grid_teaser/public/2026-08/Ainsworth_bay_and_Marinelli_Glacier.jpg?h=d74d88d4&itok=l2htzJga"
+        tags:
+          - "talk"
+          - "wildlife"
+          - "nature"
+        raw: "**Keynsham Local Group - Patagonia: Ice, peaks and predators** — Friday 9 April 2027, 7:30pm - 9:00pm, Baptist Church Hall, Keynsham.
+
+
+          \"A talk by Kathy Farrell, vice chair of Keynsham Local Group\"\n"
+        summary: "Kathy Farrell, the Keynsham group's vice chair, on Patagonia's glaciers, mountains and the pumas and condors that hunt among them."
+        confidence: "high"
+    notes: "Four fetches. The default page and ?page=1 (behind the Load More control) together carry the whole forward diary, nineteen rows to 9 April 2027, and there is no further page; nothing is truncated. Four of the nineteen are Grow Wilder's and are left out here as that source's hints instruct — confirmed by one fetch of ?tags=661 rather than by location text alone, because two of them (Youth Community Gathering 27 Oct, hedgelaying 12 Dec–31 Jan) print no location on the index: the other two are the bat walk (12 Sep) and moth trapping (25 Sep). For stage 1: the Wildscreen filmmaking taster (14 Oct) is also at Grow Wilder — its page gives 181 Frenchay Park Road and the card's coordinates are the site's — but it is NOT in the ?tags=661 feed, so the Grow Wilder tag is not applied consistently and that source's feed can miss its own events. Recorded here with venue.sourceId gardens/grow-wilder so it is not lost. Its page was the fourth fetch, opened because the index printed no venue for it; the page also lists the nine-session workshop series the taster introduces, recorded as a second, recurring row. That page's body copy says \"Tuesday 14 October\" while its date field says Wednesday 14 October 2026 — Wednesday is right for 2026, so the ISO date stands and the row is confidence medium. New since the 28 August run: the Wildscreen rows and a Chew Valley Local Group talk on 22 October, the first time that group has appeared on the feed. No price is printed on the index for anything but the river dipping (\"Free\"); the Wildscreen rows say \"FREE\" on their own page. Everything else is unchanged: local-group indoor talks in Portishead, Keynsham and now Chew Magna, all outside the 12 km radius. Every row carries a venue because the Trust programmes across sites, not one address."

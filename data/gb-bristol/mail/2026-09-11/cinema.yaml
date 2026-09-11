@@ -1,0 +1,1627 @@
+schema: "whazzon.mail/1"
+locationId: "gb-bristol"
+date: "2026-09-11"
+category: "cinema"
+pulledAt: "2026-09-11T17:56:30Z"
+mailbox: "INBOX"
+messages:
+  - messageId: "<30010842.20260829101328.6a92b0c864c428.00027634@mail21.mcsignup.com>"
+    receivedAt: "2026-08-29T10:13:28Z"
+    from:
+      name: "Watershed"
+      address: "bulletin@watershed.co.uk"
+    subject: "Watershed: Please Confirm Subscription"
+    sourceId: "cinema/watershed"
+    matchedBy: "from:*@watershed.co.uk"
+    body: "WATERSHED MAILING LIST
+
+
+      ADD ME TO THIS LIST <https://watershed.us9.list-manage.com/subscribe/confirm?u=9e55bbb0ee00abce7a4355c97&id=3698a6a502>
+
+
+      YOU HAVE OPTED IN TO RECEIVE:
+
+
+      \ * What's On Weekly
+
+      \ * What's On for Families
+
+      \ * Accessible Programme
+
+
+      If you received this email by mistake, simply delete it. You won't be subscribed if you don't click the confirmation link above.
+
+
+      For questions about this list, please contact:
+
+      bulletin@watershed.co.uk
+
+
+      Watershed
+
+      1 Canons Road
+
+      Harbourside
+
+      Bristol
+
+      BS1 5TX <https://www.google.co.uk/maps/place/Watershed/@51.451623,-2.598196,17z/>
+
+
+      info@watershed.co.uk
+
+
+      watershed.co.uk <https://www.watershed.co.uk/>
+
+      Facebook <https://facebook.com/wshed>
+
+      Instagram <https://instagram.com/w_shed>
+
+
+      Privacy <https://www.watershed.co.uk/privacy/>
+
+
+      http://www.artscouncil.org.uk/      http://www.bfi.org.uk/
+
+      https://www.bristolclimatehub.org/just-transition/"
+    truncated: false
+  - messageId: "<30010842.20260829102614.6a92b3c68dcc03.50665587@mail14.mcsignup.com>"
+    receivedAt: "2026-08-29T10:26:14Z"
+    from:
+      name: "Watershed"
+      address: "bulletin@watershed.co.uk"
+    subject: "Watershed mailing list: Subscription Confirmed"
+    sourceId: "cinema/watershed"
+    matchedBy: "from:*@watershed.co.uk"
+    body: "WATERSHED MAILING LIST
+
+
+      THANK YOU
+
+
+      Your subscription has been confirmed.
+
+
+      For your records, here’s a copy of the infomation you submitted to us:
+
+
+      \ * Email: [recipient]
+
+      \ * First name: Whazzon
+
+      \ * Last name: Harvest
+
+
+      And you opted-in to the following:
+
+
+      \ * What's On Weekly
+
+      \ * What's On for Families
+
+      \ * Accessible Programme
+
+
+      Add us to your address book
+
+      To ensure Watershed's newsletter and communications emails are not marked as spam and you get the emails you have asked for, please add bulletin@watershed.co.uk to your address book/contacts or safe sender list.
+
+
+      If at any time you wish to change your mind on your subscription choices, the information we hold about you, or if you wish to unsubscribe, you can update your preferences here <https://www.watershed.co.uk/mailing-list/update-your-preferences?uid=775f406f81> or use the links found at the bottom of every email we send you.
+
+
+      You may also contact us at:
+
+      bulletin@watershed.co.uk
+
+
+      Watershed
+
+      1 Canons Road
+
+      Harbourside
+
+      Bristol
+
+      BS1 5TX <https://www.google.co.uk/maps/place/Watershed/@51.451623,-2.598196,17z/>
+
+
+      info@watershed.co.uk
+
+
+      watershed.co.uk <https://www.watershed.co.uk/>
+
+      Facebook <https://facebook.com/wshed>
+
+      Instagram <https://instagram.com/w_shed>
+
+
+      Privacy <https://www.watershed.co.uk/privacy/>
+
+      Update Preferences <https://www.watershed.co.uk/mailing-list/update-your-preferences?uid=775f406f81>
+
+
+      http://www.artscouncil.org.uk/      http://www.bfi.org.uk/
+
+      https://www.bristolclimatehub.org/just-transition/"
+    truncated: false
+  - messageId: "<c01dcaf2a39e11f1b2022e3448191b33@info.everyman-cinema.co.uk>"
+    receivedAt: "2026-08-29T11:42:45Z"
+    from:
+      name: "EVERYMAN"
+      address: "noreply@info.everyman-cinema.co.uk"
+    subject: "Welcome to Everyman! ⭐ "
+    sourceId: "cinema/everyman-bristol"
+    matchedBy: "from:*@*.everyman-cinema.co.uk"
+    body: "Your sofa awaits...
+
+      ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌
+
+
+      Thanks for joining us 💙
+
+
+      We'll be in touch from time to time to keep you in the loop about what's happening at Everyman.
+
+
+      Expect all the news on highly-anticipated film releases, upcoming special events, updates on our fab selection of cocktails, sharing platters, and everything in between; you'll be the first to know all about our efforts to transform the cinema experience.
+
+
+      We can't wait to see you at your local Everyman!
+
+
+      What's On
+
+
+      <https://www.info.everyman-cinema.co.uk/r/lk/eyJMaW5rIjoiaHR0cHM6Ly93d3cuZXZlcnltYW5jaW5lbWEuY29tL2ZpbG0tbGlzdGluZy8_dXRtX3NvdXJjZT1lbWFpbFx1MDAyNnV0bV9tZWRpdW09am91cm5leVx1MDAyNnV0bV9pZD1uZXdfbWVtYmVyc18yMDI2XHUwMDI2dXRtX2NhbXBhaWduPW5ld19tZW1iZXJzIiwiTGlua0lEIjoiZDhkYmM2YzQtMGQ2YS00Yzg1LWE0MTQtMWQyOTE0ZThkODVkIiwiUmVxdWVzdFVVSUQiOiJjMDFkY2FmMi1hMzllLTExZjEtYjIwMi0yZTM0NDgxOTFiMzMiLCJFeGVjdXRpb25VVUlEIjoiNThlN2RlZTUtOTEwYy00ZDA5LWE3MzItNTI1ZjQxMjc5YjhjIiwiRXhlY3V0aW9uVGltZXN0YW1wIjoiMjAyNi0wOC0yOVQxMTo0Mjo0NS4yNDcxNzQ5NloiLCJDb250YWN0SUQiOjYyNzI4ODE1NywiVHlwZSI6ImpvdXJuZXkiLCJTaWduYXR1cmUiOiJjKzduZlpzK2JXYzlaRzR4R2FqUUtROUNQTHpSTVlpUEhDRTQzTWJYRGFSTE5WYmlZeVBFMi9COHI4cTgyVFYvZVcwSmRDODJqOEFFN2QzejJXUmFEall5TnpJNE9ERTFOeTFvZEhSd2N6b3ZMM2QzZHk1bGRtVnllVzFoYm1OcGJtVnRZUzVqYjIwdlptbHNiUzFzYVhOMGFXNW5MejkxZEcxZmMyOTFjbU5sUFdWdFlXbHNKblYwYlY5dFpXUnBkVzA5YW05MWNtNWxlU1oxZEcxZmFXUTlibVYzWDIxbGJXSmxjbk5mTWpBeU5pWjFkRzFmWTJGdGNHRnBaMjQ5Ym1WM1gyMWxiV0psY25NPSJ9>
+
+
+      Where will you begin?
+
+
+      https://www.info.everyman-cinema.co.uk/r/lk/eyJMaW5rIjoiaHR0cHM6Ly93d3cuZXZlcnltYW5jaW5lbWEuY29tL2ZpbG0tbGlzdGluZy8xMDAwMDQ2MjA2LXRoZS1vZHlzc2V5LTM1bW0vP3V0bV9zb3VyY2U9ZW1haWxcdTAwMjZ1dG1fbWVkaXVtPWpvdXJuZXlcdTAwMjZ1dG1faWQ9bmV3X21lbWJlcnNfMjAyNlx1MDAyNnV0bV9jYW1wYWlnbj1uZXdfbWVtYmVycyIsIkxpbmtJRCI6ImIyZDBlNzczLWQwZDktNGM5NC1hNGExLWUzZTJlYjMzNTE1MiIsIlJlcXVlc3RVVUlEIjoiYzAxZGNhZjItYTM5ZS0xMWYxLWIyMDItMmUzNDQ4MTkxYjMzIiwiRXhlY3V0aW9uVVVJRCI6IjU4ZTdkZWU1LTkxMGMtNGQwOS1hNzMyLTUyNWY0MTI3OWI4YyIsIkV4ZWN1dGlvblRpbWVzdGFtcCI6IjIwMjYtMDgtMjlUMTE6NDI6NDUuMjQ3MTc0OTZaIiwiQ29udGFjdElEIjo2MjcyODgxNTcsIlR5cGUiOiJqb3VybmV5IiwiU2lnbmF0dXJlIjoiU1p5cTcvSkc2YS9DZ3JKTExGQ1ZjQ2cyTjZKcEZIbDhJZDFLMnFJai9Rb3BLcXduYTF4UjBkUkpyRTVHOUF0WHM5UWpLREM3NzdGdnozK0xaVzIwQmpZeU56STRPREUxTnkxb2RIUndjem92TDNkM2R5NWxkbVZ5ZVcxaGJtTnBibVZ0WVM1amIyMHZabWxzYlMxc2FYTjBhVzVuTHpFd01EQXdORFl5TURZdGRHaGxMVzlrZVhOelpYa3RNelZ0YlM4L2RYUnRYM052ZFhKalpUMWxiV0ZwYkNaMWRHMWZiV1ZrYVhWdFBXcHZkWEp1WlhrbWRYUnRYMmxrUFc1bGQxOXRaVzFpWlhKelh6SXdNalltZFhSdFgyTmhiWEJoYVdkdVBXNWxkMTl0WlcxaVpYSnoifQ==
+
+
+      THE ODYSSEY
+
+
+      https://www.info.everyman-cinema.co.uk/r/lk/eyJMaW5rIjoiaHR0cHM6Ly93d3cuZXZlcnltYW5jaW5lbWEuY29tL2ZpbG0tbGlzdGluZy8yNzY2MDgtc3BpZGVyLW1hbi1icmFuZC1uZXctZGF5Lz91dG1fc291cmNlPWVtYWlsXHUwMDI2dXRtX21lZGl1bT1qb3VybmV5XHUwMDI2dXRtX2lkPW5ld19tZW1iZXJzXzIwMjZcdTAwMjZ1dG1fY2FtcGFpZ249bmV3X21lbWJlcnMiLCJMaW5rSUQiOiI4NDg0ZjQ1ZC0zMjVmLTRkZmYtOWYzNy00M2E2Mzk2NjJiMzAiLCJSZXF1ZXN0VVVJRCI6ImMwMWRjYWYyLWEzOWUtMTFmMS1iMjAyLTJlMzQ0ODE5MWIzMyIsIkV4ZWN1dGlvblVVSUQiOiI1OGU3ZGVlNS05MTBjLTRkMDktYTczMi01MjVmNDEyNzliOGMiLCJFeGVjdXRpb25UaW1lc3RhbXAiOiIyMDI2LTA4LTI5VDExOjQyOjQ1LjI0NzE3NDk2WiIsIkNvbnRhY3RJRCI6NjI3Mjg4MTU3LCJUeXBlIjoiam91cm5leSIsIlNpZ25hdHVyZSI6InZDaTZwTG5HT3FrcDVpRFZFRXV3UTBwNmcvY1pMUS94NTNhVklwenprRUQ0UEpHQ0NITEJRNk5KSTBNQjlIUnNtYTB2YkY5SkxuZU9wOTlwVnVHN0NUWXlOekk0T0RFMU55MW9kSFJ3Y3pvdkwzZDNkeTVsZG1WeWVXMWhibU5wYm1WdFlTNWpiMjB2Wm1sc2JTMXNhWE4wYVc1bkx6STNOall3T0MxemNHbGtaWEl0YldGdUxXSnlZVzVrTFc1bGR5MWtZWGt2UDNWMGJWOXpiM1Z5WTJVOVpXMWhhV3dtZFhSdFgyMWxaR2wxYlQxcWIzVnlibVY1Sm5WMGJWOXBaRDF1WlhkZmJXVnRZbVZ5YzE4eU1ESTJKblYwYlY5allXMXdZV2xuYmoxdVpYZGZiV1Z0WW1WeWN3PT0ifQ==
+
+
+      SPIDER-MAN: BRAND NEW DAY
+
+
+      https://www.info.everyman-cinema.co.uk/r/lk/eyJMaW5rIjoiaHR0cHM6Ly93d3cuZXZlcnltYW5jaW5lbWEuY29tL2ZpbG0tbGlzdGluZy8zMTMyNTYtdG95LXN0b3J5LTUvP3V0bV9zb3VyY2U9ZW1haWxcdTAwMjZ1dG1fbWVkaXVtPWpvdXJuZXlcdTAwMjZ1dG1faWQ9bmV3X21lbWJlcnNfMjAyNlx1MDAyNnV0bV9jYW1wYWlnbj1uZXdfbWVtYmVycyIsIkxpbmtJRCI6IjE2M2UxZGRiLTQ4NjctNDg0OC1hMjliLWZhNGUwZDZlMjc0OCIsIlJlcXVlc3RVVUlEIjoiYzAxZGNhZjItYTM5ZS0xMWYxLWIyMDItMmUzNDQ4MTkxYjMzIiwiRXhlY3V0aW9uVVVJRCI6IjU4ZTdkZWU1LTkxMGMtNGQwOS1hNzMyLTUyNWY0MTI3OWI4YyIsIkV4ZWN1dGlvblRpbWVzdGFtcCI6IjIwMjYtMDgtMjlUMTE6NDI6NDUuMjQ3MTc0OTZaIiwiQ29udGFjdElEIjo2MjcyODgxNTcsIlR5cGUiOiJqb3VybmV5IiwiU2lnbmF0dXJlIjoiN1dCNUtnR1NQTHBxMmFMay9XVlhLTWJ4R2xnYWJzeTJ6MDM2bFR1QjR4QmxDelByQW03L2VBNytZelRTVE82blUybE1WbktsbGNlaGI1WFdmNDdORHpZeU56STRPREUxTnkxb2RIUndjem92TDNkM2R5NWxkbVZ5ZVcxaGJtTnBibVZ0WVM1amIyMHZabWxzYlMxc2FYTjBhVzVuTHpNeE16STFOaTEwYjNrdGMzUnZjbmt0TlM4L2RYUnRYM052ZFhKalpUMWxiV0ZwYkNaMWRHMWZiV1ZrYVhWdFBXcHZkWEp1WlhrbWRYUnRYMmxrUFc1bGQxOXRaVzFpWlhKelh6SXdNalltZFhSdFgyTmhiWEJoYVdkdVBXNWxkMTl0WlcxaVpYSnoifQ==
+
+
+      TOY STORY 5
+
+
+      Love at first sight?
+
+
+      https://www.info.everyman-cinema.co.uk/r/lk/eyJMaW5rIjoiaHR0cHM6Ly93d3cuZXZlcnltYW5jaW5lbWEuY29tL21lbWJlcnNoaXAvbWVtYmVyP3V0bV9zb3VyY2U9ZW1haWxcdTAwMjZ1dG1fbWVkaXVtPWpvdXJuZXlcdTAwMjZ1dG1faWQ9bmV3X21lbWJlcnNfMjAyNlx1MDAyNnV0bV9jYW1wYWlnbj1uZXdfbWVtYmVycyIsIkxpbmtJRCI6IjFkZDhmMTUwLWM3NjUtNDFiMC04ZjhiLTAyMGI3YzQ1NDFlYSIsIlJlcXVlc3RVVUlEIjoiYzAxZGNhZjItYTM5ZS0xMWYxLWIyMDItMmUzNDQ4MTkxYjMzIiwiRXhlY3V0aW9uVVVJRCI6IjU4ZTdkZWU1LTkxMGMtNGQwOS1hNzMyLTUyNWY0MTI3OWI4YyIsIkV4ZWN1dGlvblRpbWVzdGFtcCI6IjIwMjYtMDgtMjlUMTE6NDI6NDUuMjQ3MTc0OTZaIiwiQ29udGFjdElEIjo2MjcyODgxNTcsIlR5cGUiOiJqb3VybmV5IiwiU2lnbmF0dXJlIjoiYUUzTWpkUGxndEJQS2VSVW9HTkdibVZQNVo0N3dQVTV5eHhZZkNUVWlMTXlQb1B3QXZsUHNIU2xidC9JUXdhQXhDNUJtd2pOVVVUUWxtQVRsR0lmQ1RZeU56STRPREUxTnkxb2RIUndjem92TDNkM2R5NWxkbVZ5ZVcxaGJtTnBibVZ0WVM1amIyMHZiV1Z0WW1WeWMyaHBjQzl0WlcxaVpYSS9kWFJ0WDNOdmRYSmpaVDFsYldGcGJDWjFkRzFmYldWa2FYVnRQV3B2ZFhKdVpYa21kWFJ0WDJsa1BXNWxkMTl0WlcxaVpYSnpYekl3TWpZbWRYUnRYMk5oYlhCaGFXZHVQVzVsZDE5dFpXMWlaWEp6In0=
+
+
+      EVERYMAN MEMBERSHIP
+
+
+      Like us?
+
+      6 tickets and bring a guest for free on Mondays.
+
+
+      JOIN <https://www.info.everyman-cinema.co.uk/r/lk/eyJMaW5rIjoiaHR0cHM6Ly93d3cuZXZlcnltYW5jaW5lbWEuY29tL21lbWJlcnNoaXAvbWVtYmVyP3V0bV9zb3VyY2U9ZW1haWxcdTAwMjZ1dG1fbWVkaXVtPWpvdXJuZXlcdTAwMjZ1dG1faWQ9bmV3X21lbWJlcnNfMjAyNlx1MDAyNnV0bV9jYW1wYWlnbj1uZXdfbWVtYmVycyIsIkxpbmtJRCI6ImFjMzdhZDVjLWQwNWYtNGJlZS05YTBiLWI4OGJkNTdkZWQwYyIsIlJlcXVlc3RVVUlEIjoiYzAxZGNhZjItYTM5ZS0xMWYxLWIyMDItMmUzNDQ4MTkxYjMzIiwiRXhlY3V0aW9uVVVJRCI6IjU4ZTdkZWU1LTkxMGMtNGQwOS1hNzMyLTUyNWY0MTI3OWI4YyIsIkV4ZWN1dGlvblRpbWVzdGFtcCI6IjIwMjYtMDgtMjlUMTE6NDI6NDUuMjQ3MTc0OTZaIiwiQ29udGFjdElEIjo2MjcyODgxNTcsIlR5cGUiOiJqb3VybmV5IiwiU2lnbmF0dXJlIjoiYUUzTWpkUGxndEJQS2VSVW9HTkdibVZQNVo0N3dQVTV5eHhZZkNUVWlMTXlQb1B3QXZsUHNIU2xidC9JUXdhQXhDNUJtd2pOVVVUUWxtQVRsR0lmQ1RZeU56STRPREUxTnkxb2RIUndjem92TDNkM2R5NWxkbVZ5ZVcxaGJtTnBibVZ0WVM1amIyMHZiV1Z0WW1WeWMyaHBjQzl0WlcxaVpYSS9kWFJ0WDNOdmRYSmpaVDFsYldGcGJDWjFkRzFmYldWa2FYVnRQV3B2ZFhKdVpYa21kWFJ0WDJsa1BXNWxkMTl0WlcxaVpYSnpYekl3TWpZbWRYUnRYMk5oYlhCaGFXZHVQVzVsZDE5dFpXMWlaWEp6In0=>
+
+
+      https://www.info.everyman-cinema.co.uk/r/lk/eyJMaW5rIjoiaHR0cHM6Ly93d3cuZXZlcnltYW5jaW5lbWEuY29tL21lbWJlcnNoaXAvbWVtYmVyP3V0bV9zb3VyY2U9ZW1haWxcdTAwMjZ1dG1fbWVkaXVtPWpvdXJuZXlcdTAwMjZ1dG1faWQ9bmV3X21lbWJlcnNfMjAyNlx1MDAyNnV0bV9jYW1wYWlnbj1uZXdfbWVtYmVycyIsIkxpbmtJRCI6IjY5N2IwNDBiLTYzODUtNDgzOC1hNWNhLTljMTZlOTNiZjc5MSIsIlJlcXVlc3RVVUlEIjoiYzAxZGNhZjItYTM5ZS0xMWYxLWIyMDItMmUzNDQ4MTkxYjMzIiwiRXhlY3V0aW9uVVVJRCI6IjU4ZTdkZWU1LTkxMGMtNGQwOS1hNzMyLTUyNWY0MTI3OWI4YyIsIkV4ZWN1dGlvblRpbWVzdGFtcCI6IjIwMjYtMDgtMjlUMTE6NDI6NDUuMjQ3MTc0OTZaIiwiQ29udGFjdElEIjo2MjcyODgxNTcsIlR5cGUiOiJqb3VybmV5IiwiU2lnbmF0dXJlIjoiYUUzTWpkUGxndEJQS2VSVW9HTkdibVZQNVo0N3dQVTV5eHhZZkNUVWlMTXlQb1B3QXZsUHNIU2xidC9JUXdhQXhDNUJtd2pOVVVUUWxtQVRsR0lmQ1RZeU56STRPREUxTnkxb2RIUndjem92TDNkM2R5NWxkbVZ5ZVcxaGJtTnBibVZ0WVM1amIyMHZiV1Z0WW1WeWMyaHBjQzl0WlcxaVpYSS9kWFJ0WDNOdmRYSmpaVDFsYldGcGJDWjFkRzFmYldWa2FYVnRQV3B2ZFhKdVpYa21kWFJ0WDJsa1BXNWxkMTl0WlcxaVpYSnpYekl3TWpZbWRYUnRYMk5oYlhCaGFXZHVQVzVsZDE5dFpXMWlaWEp6In0=
+
+
+      EVERYICON MEMBERSHIP
+
+
+      Love us?
+
+      24 tickets and bring a guest for free on Mondays.
+
+
+      JOIN <https://www.info.everyman-cinema.co.uk/r/lk/eyJMaW5rIjoiaHR0cHM6Ly93d3cuZXZlcnltYW5jaW5lbWEuY29tL21lbWJlcnNoaXAvbWVtYmVyP3V0bV9zb3VyY2U9ZW1haWxcdTAwMjZ1dG1fbWVkaXVtPWpvdXJuZXlcdTAwMjZ1dG1faWQ9bmV3X21lbWJlcnNfMjAyNlx1MDAyNnV0bV9jYW1wYWlnbj1uZXdfbWVtYmVycyIsIkxpbmtJRCI6ImM3NTBlMmViLWYxNGYtNGI3My05ZDg0LTljNjUzYzVjZDIyOCIsIlJlcXVlc3RVVUlEIjoiYzAxZGNhZjItYTM5ZS0xMWYxLWIyMDItMmUzNDQ4MTkxYjMzIiwiRXhlY3V0aW9uVVVJRCI6IjU4ZTdkZWU1LTkxMGMtNGQwOS1hNzMyLTUyNWY0MTI3OWI4YyIsIkV4ZWN1dGlvblRpbWVzdGFtcCI6IjIwMjYtMDgtMjlUMTE6NDI6NDUuMjQ3MTc0OTZaIiwiQ29udGFjdElEIjo2MjcyODgxNTcsIlR5cGUiOiJqb3VybmV5IiwiU2lnbmF0dXJlIjoiYUUzTWpkUGxndEJQS2VSVW9HTkdibVZQNVo0N3dQVTV5eHhZZkNUVWlMTXlQb1B3QXZsUHNIU2xidC9JUXdhQXhDNUJtd2pOVVVUUWxtQVRsR0lmQ1RZeU56STRPREUxTnkxb2RIUndjem92TDNkM2R5NWxkbVZ5ZVcxaGJtTnBibVZ0WVM1amIyMHZiV1Z0WW1WeWMyaHBjQzl0WlcxaVpYSS9kWFJ0WDNOdmRYSmpaVDFsYldGcGJDWjFkRzFmYldWa2FYVnRQV3B2ZFhKdVpYa21kWFJ0WDJsa1BXNWxkMTl0WlcxaVpYSnpYekl3TWpZbWRYUnRYMk5oYlhCaGFXZHVQVzVsZDE5dFpXMWlaWEp6In0=>
+
+
+      https://www.info.everyman-cinema.co.uk/r/lk/eyJMaW5rIjoiaHR0cHM6Ly93d3cuZXZlcnltYW5jaW5lbWEuY29tL21lbWJlcnNoaXAvbWVtYmVyP3V0bV9zb3VyY2U9ZW1haWxcdTAwMjZ1dG1fbWVkaXVtPWpvdXJuZXlcdTAwMjZ1dG1faWQ9bmV3X21lbWJlcnNfMjAyNlx1MDAyNnV0bV9jYW1wYWlnbj1uZXdfbWVtYmVycyIsIkxpbmtJRCI6ImJiYzc0YWIwLTU5ZDQtNDk5Ny1iZGY1LTY2ZmZkMWMwNjE0MSIsIlJlcXVlc3RVVUlEIjoiYzAxZGNhZjItYTM5ZS0xMWYxLWIyMDItMmUzNDQ4MTkxYjMzIiwiRXhlY3V0aW9uVVVJRCI6IjU4ZTdkZWU1LTkxMGMtNGQwOS1hNzMyLTUyNWY0MTI3OWI4YyIsIkV4ZWN1dGlvblRpbWVzdGFtcCI6IjIwMjYtMDgtMjlUMTE6NDI6NDUuMjQ3MTc0OTZaIiwiQ29udGFjdElEIjo2MjcyODgxNTcsIlR5cGUiOiJqb3VybmV5IiwiU2lnbmF0dXJlIjoiYUUzTWpkUGxndEJQS2VSVW9HTkdibVZQNVo0N3dQVTV5eHhZZkNUVWlMTXlQb1B3QXZsUHNIU2xidC9JUXdhQXhDNUJtd2pOVVVUUWxtQVRsR0lmQ1RZeU56STRPREUxTnkxb2RIUndjem92TDNkM2R5NWxkbVZ5ZVcxaGJtTnBibVZ0WVM1amIyMHZiV1Z0WW1WeWMyaHBjQzl0WlcxaVpYSS9kWFJ0WDNOdmRYSmpaVDFsYldGcGJDWjFkRzFmYldWa2FYVnRQV3B2ZFhKdVpYa21kWFJ0WDJsa1BXNWxkMTl0WlcxaVpYSnpYekl3TWpZbWRYUnRYMk5oYlhCaGFXZHVQVzVsZDE5dFpXMWlaWEp6In0=
+
+
+      EVERYWHERE MEMBERSHIP
+
+
+      Adore us?
+
+      An unlimited year for you and a guest.
+
+
+      JOIN <https://www.info.everyman-cinema.co.uk/r/lk/eyJMaW5rIjoiaHR0cHM6Ly93d3cuZXZlcnltYW5jaW5lbWEuY29tL21lbWJlcnNoaXAvbWVtYmVyP3V0bV9zb3VyY2U9ZW1haWxcdTAwMjZ1dG1fbWVkaXVtPWpvdXJuZXlcdTAwMjZ1dG1faWQ9bmV3X21lbWJlcnNfMjAyNlx1MDAyNnV0bV9jYW1wYWlnbj1uZXdfbWVtYmVycyIsIkxpbmtJRCI6ImE2M2ZjYmFhLTA2ZTUtNDBlZS1hZjc5LTc0MWZjNmYxMjMyNSIsIlJlcXVlc3RVVUlEIjoiYzAxZGNhZjItYTM5ZS0xMWYxLWIyMDItMmUzNDQ4MTkxYjMzIiwiRXhlY3V0aW9uVVVJRCI6IjU4ZTdkZWU1LTkxMGMtNGQwOS1hNzMyLTUyNWY0MTI3OWI4YyIsIkV4ZWN1dGlvblRpbWVzdGFtcCI6IjIwMjYtMDgtMjlUMTE6NDI6NDUuMjQ3MTc0OTZaIiwiQ29udGFjdElEIjo2MjcyODgxNTcsIlR5cGUiOiJqb3VybmV5IiwiU2lnbmF0dXJlIjoiYUUzTWpkUGxndEJQS2VSVW9HTkdibVZQNVo0N3dQVTV5eHhZZkNUVWlMTXlQb1B3QXZsUHNIU2xidC9JUXdhQXhDNUJtd2pOVVVUUWxtQVRsR0lmQ1RZeU56STRPREUxTnkxb2RIUndjem92TDNkM2R5NWxkbVZ5ZVcxaGJtTnBibVZ0WVM1amIyMHZiV1Z0WW1WeWMyaHBjQzl0WlcxaVpYSS9kWFJ0WDNOdmRYSmpaVDFsYldGcGJDWjFkRzFmYldWa2FYVnRQV3B2ZFhKdVpYa21kWFJ0WDJsa1BXNWxkMTl0WlcxaVpYSnpYekl3TWpZbWRYUnRYMk5oYlhCaGFXZHVQVzVsZDE5dFpXMWlaWEp6In0=>
+
+
+      See you soon...
+
+      Love Everyman
+
+
+      https://www.info.everyman-cinema.co.uk/r/lk/eyJMaW5rIjoiaHR0cHM6Ly90d2l0dGVyLmNvbS9ldmVyeW1hbmNpbmVtYT91dG1fc291cmNlPWVtYWlsXHUwMDI2dXRtX21lZGl1bT1qb3VybmV5XHUwMDI2dXRtX2lkPW5ld19tZW1iZXJzXzIwMjZcdTAwMjZ1dG1fY2FtcGFpZ249bmV3X21lbWJlcnMiLCJMaW5rSUQiOiI1ZTc1MzM5NC1iZjQ4LTQ3MzQtYmYxNC01YTJhYzBhNzlhYzgiLCJSZXF1ZXN0VVVJRCI6ImMwMWRjYWYyLWEzOWUtMTFmMS1iMjAyLTJlMzQ0ODE5MWIzMyIsIkV4ZWN1dGlvblVVSUQiOiI1OGU3ZGVlNS05MTBjLTRkMDktYTczMi01MjVmNDEyNzliOGMiLCJFeGVjdXRpb25UaW1lc3RhbXAiOiIyMDI2LTA4LTI5VDExOjQyOjQ1LjI0NzE3NDk2WiIsIkNvbnRhY3RJRCI6NjI3Mjg4MTU3LCJUeXBlIjoiam91cm5leSIsIlNpZ25hdHVyZSI6ImttUHZPY3p2UFBuZzlydjN1MldLL1hrYmJSOElvZWNmWDBNVzk2eGdIa251cGVhOWt0RnQxRHUxdlNBaC9XRU4zbkt1U0h5c1ppN0FldlZUSUlvZEJqWXlOekk0T0RFMU55MW9kSFJ3Y3pvdkwzUjNhWFIwWlhJdVkyOXRMMlYyWlhKNWJXRnVZMmx1WlcxaFAzVjBiVjl6YjNWeVkyVTlaVzFoYVd3bWRYUnRYMjFsWkdsMWJUMXFiM1Z5Ym1WNUpuVjBiVjlwWkQxdVpYZGZiV1Z0WW1WeWMxOHlNREkySm5WMGJWOWpZVzF3WVdsbmJqMXVaWGRmYldWdFltVnljdz09In0=
+
+
+      https://www.info.everyman-cinema.co.uk/r/lk/eyJMaW5rIjoiaHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL0V2ZXJ5bWFuQ2luZW1hcz91dG1fc291cmNlPWVtYWlsXHUwMDI2dXRtX21lZGl1bT1qb3VybmV5XHUwMDI2dXRtX2lkPW5ld19tZW1iZXJzXzIwMjZcdTAwMjZ1dG1fY2FtcGFpZ249bmV3X21lbWJlcnMiLCJMaW5rSUQiOiI5MTFlMWY5ZS1mNmRlLTRmZDAtODIyMy00MzhjYTcwMzI5ZmUiLCJSZXF1ZXN0VVVJRCI6ImMwMWRjYWYyLWEzOWUtMTFmMS1iMjAyLTJlMzQ0ODE5MWIzMyIsIkV4ZWN1dGlvblVVSUQiOiI1OGU3ZGVlNS05MTBjLTRkMDktYTczMi01MjVmNDEyNzliOGMiLCJFeGVjdXRpb25UaW1lc3RhbXAiOiIyMDI2LTA4LTI5VDExOjQyOjQ1LjI0NzE3NDk2WiIsIkNvbnRhY3RJRCI6NjI3Mjg4MTU3LCJUeXBlIjoiam91cm5leSIsIlNpZ25hdHVyZSI6Ik83U0F2NW5IUlpzVS91cmQ2aWM4QmNvTkc5K2tWWXgrN3Z0a0Z5YmdrMjkrTGtySHNXQXFpWUk0TjJxSTlEN25CVHZrSC85b1NsL1NZMlh3VDMvN0R6WXlOekk0T0RFMU55MW9kSFJ3Y3pvdkwzZDNkeTVtWVdObFltOXZheTVqYjIwdlJYWmxjbmx0WVc1RGFXNWxiV0Z6UDNWMGJWOXpiM1Z5WTJVOVpXMWhhV3dtZFhSdFgyMWxaR2wxYlQxcWIzVnlibVY1Sm5WMGJWOXBaRDF1WlhkZmJXVnRZbVZ5YzE4eU1ESTJKblYwYlY5allXMXdZV2xuYmoxdVpYZGZiV1Z0WW1WeWN3PT0ifQ==
+
+
+      https://www.info.everyman-cinema.co.uk/r/lk/eyJMaW5rIjoiaHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ldmVyeW1hbmNpbmVtYS8_dXRtX3NvdXJjZT1lbWFpbFx1MDAyNnV0bV9tZWRpdW09am91cm5leVx1MDAyNnV0bV9pZD1uZXdfbWVtYmVyc18yMDI2XHUwMDI2dXRtX2NhbXBhaWduPW5ld19tZW1iZXJzIiwiTGlua0lEIjoiNzJjZGY3Y2QtZWYxYy00MmQwLWFmMzEtN2JlNDM0YTA1M2M1IiwiUmVxdWVzdFVVSUQiOiJjMDFkY2FmMi1hMzllLTExZjEtYjIwMi0yZTM0NDgxOTFiMzMiLCJFeGVjdXRpb25VVUlEIjoiNThlN2RlZTUtOTEwYy00ZDA5LWE3MzItNTI1ZjQxMjc5YjhjIiwiRXhlY3V0aW9uVGltZXN0YW1wIjoiMjAyNi0wOC0yOVQxMTo0Mjo0NS4yNDcxNzQ5NloiLCJDb250YWN0SUQiOjYyNzI4ODE1NywiVHlwZSI6ImpvdXJuZXkiLCJTaWduYXR1cmUiOiIzQ2d1WE81Yzk2UnFHYVkwWmVXQ05KNUNEWlQxSGFnS1VNYm9Sa1hrZ3FmMFNqWWkyM3E2ZVNPdVBHVitnK0piWW03ZkdBVkoxeTFDVFdFVDd5L2VCall5TnpJNE9ERTFOeTFvZEhSd2N6b3ZMM2QzZHk1cGJuTjBZV2R5WVcwdVkyOXRMMlYyWlhKNWJXRnVZMmx1WlcxaEx6OTFkRzFmYzI5MWNtTmxQV1Z0WVdsc0puVjBiVjl0WldScGRXMDlhbTkxY201bGVTWjFkRzFmYVdROWJtVjNYMjFsYldKbGNuTmZNakF5TmlaMWRHMWZZMkZ0Y0dGcFoyNDlibVYzWDIxbGJXSmxjbk09In0=
+
+
+      https://www.info.everyman-cinema.co.uk/r/lk/eyJMaW5rIjoiaHR0cHM6Ly9hcHBsZS5jby8yWFpieXRsP3V0bV9zb3VyY2U9ZW1haWxcdTAwMjZ1dG1fbWVkaXVtPWpvdXJuZXlcdTAwMjZ1dG1faWQ9bmV3X21lbWJlcnNfMjAyNlx1MDAyNnV0bV9jYW1wYWlnbj1uZXdfbWVtYmVycyIsIkxpbmtJRCI6ImI5YjUzNjc2LWNlZjAtNDZjNy1iNDllLThlNWU1OGE2NTI1MiIsIlJlcXVlc3RVVUlEIjoiYzAxZGNhZjItYTM5ZS0xMWYxLWIyMDItMmUzNDQ4MTkxYjMzIiwiRXhlY3V0aW9uVVVJRCI6IjU4ZTdkZWU1LTkxMGMtNGQwOS1hNzMyLTUyNWY0MTI3OWI4YyIsIkV4ZWN1dGlvblRpbWVzdGFtcCI6IjIwMjYtMDgtMjlUMTE6NDI6NDUuMjQ3MTc0OTZaIiwiQ29udGFjdElEIjo2MjcyODgxNTcsIlR5cGUiOiJqb3VybmV5IiwiU2lnbmF0dXJlIjoiSmdwRnZRcDRmN3FJT01tWUVVWTJYY3ZUa3EwSUgzSWRaSXhpc0t4MTNqSnl0WVNSOUs2REpIWExNRUxaa21KaFY0NW9xZHU1S0FZc3RramF4cGhpQ1RZeU56STRPREUxTnkxb2RIUndjem92TDJGd2NHeGxMbU52THpKWVdtSjVkR3cvZFhSdFgzTnZkWEpqWlQxbGJXRnBiQ1oxZEcxZmJXVmthWFZ0UFdwdmRYSnVaWGttZFhSdFgybGtQVzVsZDE5dFpXMWlaWEp6WHpJd01qWW1kWFJ0WDJOaGJYQmhhV2R1UFc1bGQxOXRaVzFpWlhKeiJ9
+
+
+      https://www.info.everyman-cinema.co.uk/r/lk/eyJMaW5rIjoiaHR0cHM6Ly9hcHBsZS5jby8yWFFPWW1CP3V0bV9zb3VyY2U9ZW1haWxcdTAwMjZ1dG1fbWVkaXVtPWpvdXJuZXlcdTAwMjZ1dG1faWQ9bmV3X21lbWJlcnNfMjAyNlx1MDAyNnV0bV9jYW1wYWlnbj1uZXdfbWVtYmVycyIsIkxpbmtJRCI6ImVjYjcxNDI3LWE0MWItNDZlMC1iMzk4LWI2ZDM2N2YyMWZhYSIsIlJlcXVlc3RVVUlEIjoiYzAxZGNhZjItYTM5ZS0xMWYxLWIyMDItMmUzNDQ4MTkxYjMzIiwiRXhlY3V0aW9uVVVJRCI6IjU4ZTdkZWU1LTkxMGMtNGQwOS1hNzMyLTUyNWY0MTI3OWI4YyIsIkV4ZWN1dGlvblRpbWVzdGFtcCI6IjIwMjYtMDgtMjlUMTE6NDI6NDUuMjQ3MTc0OTZaIiwiQ29udGFjdElEIjo2MjcyODgxNTcsIlR5cGUiOiJqb3VybmV5IiwiU2lnbmF0dXJlIjoiKzVEZHNqVnc3cjZjOU94ZjdmNU0yRUJWK3EyL3h1WFVEbURLWHM0ckFlTk1acnFWQlZTTEFiaTU1bTdhbmxoMm5DSTgwM2Y0MXNVVnV3bm5VeDduRFRZeU56STRPREUxTnkxb2RIUndjem92TDJGd2NHeGxMbU52THpKWVVVOVpiVUkvZFhSdFgzTnZkWEpqWlQxbGJXRnBiQ1oxZEcxZmJXVmthWFZ0UFdwdmRYSnVaWGttZFhSdFgybGtQVzVsZDE5dFpXMWlaWEp6WHpJd01qWW1kWFJ0WDJOaGJYQmhhV2R1UFc1bGQxOXRaVzFpWlhKeiJ9
+
+
+      If you wish to unsubscribe, click here. <https://www.info.everyman-cinema.co.uk/u/eq/list/eyJTdWJzY3JpcHRpb25DYXRlZ29yeUlEIjo4MywiQ29udGFjdElEIjo2MjcyODgxNTcsIkV4ZWN1dGlvblVVSUQiOiI1OGU3ZGVlNS05MTBjLTRkMDktYTczMi01MjVmNDEyNzliOGMiLCJUeXBlIjoiam91cm5leSIsIlNpZ25hdHVyZSI6ImhoOEpuZzVCUTFFdUZqZGNZNlBPaVh4Y0NYNEdwVGJ0cXJkNDNBbkVqZzBaSHZKeWpkZHVrRFJRWi9vNVU0ajhTMmpLWlBKRm5VajArMlFlaGdDVkRUWXlOekk0T0RFMU53PT0iLCJUZW5hbnQiOiJldmVyeW1hbnVrIn0=> Please note that it may take a few days for the unsubscription process to complete. For further info visit our website <https://www.info.everyman-cinema.co.uk/r/lk/eyJMaW5rIjoiaHR0cHM6Ly93d3cuZXZlcnltYW5jaW5lbWEuY29tLz91dG1fc291cmNlPWVtYWlsXHUwMDI2dXRtX21lZGl1bT1qb3VybmV5XHUwMDI2dXRtX2lkPW5ld19tZW1iZXJzXzIwMjZcdTAwMjZ1dG1fY2FtcGFpZ249bmV3X21lbWJlcnMiLCJMaW5rSUQiOiIxYWNiMTg5ZC1kMGIyLTRjNzMtOTA1My1kOGMwMTExMWJiNWUiLCJSZXF1ZXN0VVVJRCI6ImMwMWRjYWYyLWEzOWUtMTFmMS1iMjAyLTJlMzQ0ODE5MWIzMyIsIkV4ZWN1dGlvblVVSUQiOiI1OGU3ZGVlNS05MTBjLTRkMDktYTczMi01MjVmNDEyNzliOGMiLCJFeGVjdXRpb25UaW1lc3RhbXAiOiIyMDI2LTA4LTI5VDExOjQyOjQ1LjI0NzE3NDk2WiIsIkNvbnRhY3RJRCI6NjI3Mjg4MTU3LCJUeXBlIjoiam91cm5leSIsIlNpZ25hdHVyZSI6IkRGTGRnV21NRVgySk5sa045dWowMS9iUWJkdW9FZWdwU096OFEvaGRzalBnQi9CaVlQdzVwaWs2WDJGRVg3VUxtdGZKZ3pTbVRoU1luK3Z2RzZGTkRUWXlOekk0T0RFMU55MW9kSFJ3Y3pvdkwzZDNkeTVsZG1WeWVXMWhibU5wYm1WdFlTNWpiMjB2UDNWMGJWOXpiM1Z5WTJVOVpXMWhhV3dtZFhSdFgyMWxaR2wxYlQxcWIzVnlibVY1Sm5WMGJWOXBaRDF1WlhkZmJXVnRZbVZ5YzE4eU1ESTJKblYwYlY5allXMXdZV2xuYmoxdVpYZGZiV1Z0WW1WeWN3PT0ifQ==>.
+
+      Everyman Media Group PLC. 2 Downshire Hill, London. NW3 1NR"
+    truncated: false
+  - messageId: "<9e55bbb0ee00abce7a4355c97.775f406f81.20260901171407.67fbac8579.e2ced647@mail23.atl91.mcsv.net>"
+    receivedAt: "2026-09-01T17:14:53Z"
+    from:
+      name: "Watershed"
+      address: "bulletin@watershed.co.uk"
+    subject: "Weekly Newsletter: Fri 4 - Thu 10 Sept"
+    listId: "9e55bbb0ee00abce7a4355c97.502077.list-id.mcsv.net"
+    webVersion: "https://mailchi.mp/75273427fa4c/weekly-newsletter-fri-4-thu-10-sept"
+    sourceId: "cinema/watershed"
+    matchedBy: "from:*@watershed.co.uk"
+    body: "Did someone say £4 cinema tickets?
+
+
+      View email in your browser <https://mailchi.mp/75273427fa4c/weekly-newsletter-fri-4-thu-10-sept>
+
+
+      WEEKLY NEWSLETTER: FRI 4 - THU 10 SEPT
+
+
+      £4 CINEMA TICKETS ALL WEEKEND? ABSOLUTE CINEMA!
+
+
+      Join us on Sat 5 and Sun 6 Sept 2026, when cinemas across the UK will come together for National Cinema Weekend.
+
+
+      Hi everyone,
+
+
+      September has barely had time to settle in and already we’ve got a very good excuse to head to the cinema: National Cinema Weekend <https://us.list-manage.com/UszbE53bdAH?c2id=944927b628e367996f6a53da7340e920&m=ZXk13StE6pm1b5YuNYiwvVx6Qj08ZJ23EUrWbwl9nDnGWF4Hqn_UBr0KCm3D> is coming to Watershed, with every ticket just £4 all weekend! And whether you’re in the mood for aliens, apples or anime, we’ve got something for you.
+
+
+      New in our cinemas this Friday are three very different films: The Incomer <https://us.list-manage.com/kJztcdOJ9FH?c2id=944927b628e367996f6a53da7340e920&m=LgBcOPryCj2ir_Lrrwuj94tr4t6CrVvTIrXuWbcHHC17qL3mPka24_8iyD3E>, Louis Paxton’s warm, surreal debut about two oddball siblings whose remote Scottish island life is upended by a nervous council official; Leviticus <https://us.list-manage.com/1AUKJGv0sQ4?c2id=944927b628e367996f6a53da7340e920&m=kGidorlrYoYjOecH6EoOGDZUyLluCLw86gzTEYSn2w5lulC1xZQnxv2nkXHn>, Adrian Chiarella’s chilling queer horror about forbidden teenage love and a supernatural force that knows exactly where to find its victims; and Super Nature <https://us.list-manage.com/vpGGQMondqf?c2id=944927b628e367996f6a53da7340e920&m=k6rOr3MnO1CAIMJ9aWSwHDYyBSkx9PRZ_3id7HCjT-Wtt1_Ii7H0R2XQncad>, Ed Sayer’s beautiful, beguiling journey across 25 countries, filmed entirely on Super 8 and exploring our connection to the natural world.
+
+
+      Then Sunday brings a double dose of special screenings. Our brand-new Sleepover Season <https://us.list-manage.com/iDTSiqzBM8l?c2id=944927b628e367996f6a53da7340e920&m=KApy9LtrAdiladJwtV5i4qAgWi0m9lYIIdifxPgpEiSagcK6NkFFuVOLfsrP> kicks off with Attack the Block <https://us.list-manage.com/SHysMcaY5N0?c2id=944927b628e367996f6a53da7340e920&m=7s4SlOxgS7mPMXPkqp6Ayi9leEnYx4_YELfVGu5tbhgipyLhRd2IOlLuxGCm>, introduced by guest co-curator Reba Martin and starring a very young John Boyega. Later that day, there’s a preview of Bad Apples <https://us.list-manage.com/leeqqQ6vy3K?c2id=944927b628e367996f6a53da7340e920&m=OETjBF7cQm5USSbzLn4cnAmCDCHlDmg8g0zhUc2NQy0vdX0yt4QUQehuaDlM>, starring four-time Oscar® nominee Saoirse Ronan as a primary school teacher whose attempts to deal with one particularly chaotic pupil take a very unexpected turn. Filmed at The Bottle Yard Studios <https://us.list-manage.com/n68ayTm7qeV?c2id=944927b628e367996f6a53da7340e920&m=QWMpV0KEuxlMJ9r4sJ9UvlYJJxYvoVJhCk3k29yPmWoBxxv3N-AiRJz6BGaW> and on location in the South West, this special preview screening will be introduced by local actors Amy Mason and Alice Lamb, who both appear in the film.
+
+
+      And did we mention £4 tickets? For National Cinema Weekend, Sat 5 – Sun 6 Sept, every ticket at Watershed is just £4 – any ticket type, any film, any time. That means you can catch all of the above, plus Teenage Sex and Death at Camp Miasma <https://us.list-manage.com/KTJV4XlS4FX?c2id=944927b628e367996f6a53da7340e920&m=8YL74o_vV36S4xWFOcYFIpB-mdUw9wz22m2ZRqqCUn50NUm5iBadLnD2tIpd>, Bitter Christmas <https://us.list-manage.com/UKjAw4QDQyE?c2id=944927b628e367996f6a53da7340e920&m=vAxyDdRIB9L6FPpETQgq3vf3i4riAz2Gq3PdXfN0HuwWyH45Tg0yawaACPM6>, I Want Your Sex <https://us.list-manage.com/_ZdYxwar6ey?c2id=944927b628e367996f6a53da7340e920&m=2ClA9DDbIEMfUTN0rn9ECcyW0dnaj73DxsbSs9ounw9ivob-4Mozp7EDfuAG>, Tony <https://us.list-manage.com/MNzXn0SNI36?c2id=944927b628e367996f6a53da7340e920&m=RA2UOUDyb_DiGhhgTCJsaueKdVeXk14uOGkrAflr2nvgX8b_4AozS450ESqF> and Kiki’s Delivery Service <https://us.list-manage.com/MaHt6ctAsP8?c2id=944927b628e367996f6a53da7340e920&m=2IpwQ-x-cK94DG4HFv0M7Y5F2v-X4LAhHMTPxnR_wiZ1N41VFX3rqplXrtea> for the price of a coffee!
+
+
+      Speaking of celebrating cinema, Ali Plumb is bringing his much-loved Untitled Film Quiz Project <https://us.list-manage.com/UlYK5kWVOCm?c2id=944927b628e367996f6a53da7340e920&m=Njr2r-6daVKBp8vqerbBCeo26oKAoLelldP1gI75SSwJTWQUe3dduNLob46u> to Watershed this Sat 5 Sept. The self-proclaimed “movie bloke off the internet with the interviews, specs and beard” is bringing his delightfully nerdy quiz to an actual cinema, complete with big-screen rounds, silly questions, spot prizes and enough film trivia to make you either very smug or spectacularly humbled.
+
+
+      Read on for everything else coming up this week – including the return of First Friday <https://us.list-manage.com/SW5i_mUpyaD?c2id=944927b628e367996f6a53da7340e920&m=fz84z8dq8N6Ox_m2A7RHim0cIq3UzjxHKkvPzxP_z21WrGzfs8VxerRgzs9-> after its August hiatus, plus the launch of Timothy X Atack’s debut novel Father Alberto and the Flying Girl <https://us.list-manage.com/P0s9G_DTefK?c2id=944927b628e367996f6a53da7340e920&m=3sy7xWRoPyJ2rW94szQq9WTtEMV35EwcEt-HYt2L4zg-fBd_wd4L4lVMU2eL>.
+
+
+      With love,
+
+      Team Watershed x
+
+
+      FIRST FRIDAY
+
+
+      Fri 4 Sept 17:00
+
+
+      First Friday is a monthly social and showcasing event open to anyone. It takes place in the Pervasive Media Studio.
+
+
+      Read more <https://us.list-manage.com/11qjIfHDvLh?c2id=944927b628e367996f6a53da7340e920&m=lRHAb5OLZ8yFnGc3PdL4kF1U942reLVQ3tXsYZLuwsbEL2RwLaAK6lJ_Twz7>
+
+
+      LUNCHTIME TALK: PLEASURE, LEGACY AND DISCRIMINATION
+
+
+      Fri 4 Sept 13:00
+
+
+      In this Lunchtime Talk, Writer, Director and Access Consultant Jane Gauntlett discusses her most recent work, Legacy, and her experience dealing with burn-out and discrimination - and how her journey’s led her to build her new company, Tech, Paper, Scissors.
+
+
+      Lunchtime Talks <https://us.list-manage.com/Tvdq9EbMFHz?c2id=944927b628e367996f6a53da7340e920&m=mLVPg6QiiDK073hvQF0HxvXroAMpODpL-wGpApo_69SYLjfkipy_XrgNZnx8> are a series of informal presentations at Watershed’s Pervasive Media Studio <https://us.list-manage.com/p051BYfYUB_?c2id=944927b628e367996f6a53da7340e920&m=h2B1s994YmF-rd_A10KweGHtuQGg_2dq-10kU6cyDAVcPVXTHJy-IjdJDeTw>. They take place at 13:00 on a Friday and are free and open to everyone.
+
+
+      Read more <https://us.list-manage.com/rP4v8hUB6fR?c2id=944927b628e367996f6a53da7340e920&m=EdBvP4hnk6_aDBlU7xkiOquTjXGLoQfCQHBx5QcyO9Ce6Cv_wi0qpv-jZayG>   Buy tickets <https://us.list-manage.com/UBtC3oJVzyH?c2id=944927b628e367996f6a53da7340e920&m=Dli2IkTI5hJSc2lMyTvZD5pzvdI4QlQSWxLWlYaq5lDp3rBaqaL97sqENHH8>
+
+
+      LEVITICUS 15
+
+
+      Dir: Adrian Chiarella, Australia, English, 2026, 1hr 28mins
+
+      Fri 4 Sept for at least one week
+
+
+      Move over Heartstopper... this haunting debut has some teeth to it! A chilling sensation in queer horror from director Adrian Chiarella, Leviticus follows two lovestruck teenage boys who face off against supernatural evil in the wake of harrowing 'deliverance healing'.
+
+
+      \ * All screenings until Thu 10 Sept feature Audio Description.
+
+      \ * The Tue 8 Sept 20:30 screening features Descriptive Subtitles.
+
+
+      Read more <https://us.list-manage.com/z3K0EzsbZBn?c2id=944927b628e367996f6a53da7340e920&m=fTH_DkiEoQq62asBvTkXDqpcdSJU4TUNk1jlkPnSjs2tgIMav3dBpA3L9Foo>   Buy tickets <https://us.list-manage.com/Q9E5da2thiO?c2id=944927b628e367996f6a53da7340e920&m=wXzax42_kCi7LtJkV6zSecErd3UGb48e2qPBrx-kxiFrba_8FslX2Rg18Tqz>
+
+
+      SUPER NATURE PG (PS)
+
+
+      Dir: Ed Sayers, UK, English, Dutch, 2025, 1hr 22mins
+
+      Fri 4 Sept for at least one week
+
+
+      A love letter to nature filmed exclusively on Super 8, Super Nature proposes a new way of seeing. A celebration of all we have and reflecting on all we have to lose, this global co-creation project journeys across 25 different countries, creating a visceral, poetic and personal meditation on the natural world.
+
+
+      WATERSHED RECOMMENDS
+
+      \"The director describes watching Super 8 footage as almost like having your memories water-coloured for you. I couldn't agree more. Super 8 gives such a depth to the footage and you get to see nature like you haven't experienced it before.\"
+
+      Gavin Sunderland, Environment Group Coordinator
+
+
+      \ * The Sat 5 Sept 14:40 and Wed 9 Sept 20:40 screenings feature Descriptive Subtitles.
+
+      \ * The Wed 9 Sept 11:00 screening is a Cinébabies Screening <https://us.list-manage.com/LeXRzHMzOnT?c2id=944927b628e367996f6a53da7340e920&m=yd5vnVx3OkaG3nl_02UTNOpNYjxxrgFTiuG9CWhquhcUpXQ4UGptX923urPJ>.
+
+
+      Read more <https://us.list-manage.com/dsVV_xRHtPC?c2id=944927b628e367996f6a53da7340e920&m=SBpdEIacm1HAL8MHo63IQzdh8wKUOIXhu0efhAzco1yx-bL5MCsf9UzbBTGC>   Buy tickets <https://us.list-manage.com/oO8qeOPLZyL?c2id=944927b628e367996f6a53da7340e920&m=U8log1LYui5FMgdMudxQfMk-4l0wXjgkAPaf5isKNRWCYOlpulfi9FbMXaZH>
+
+
+      THE INCOMER 12A
+
+
+      Dir: Louis Paxton, Ireland, English, 2026, 1hr 42mins
+
+      Fri 4 Sept for at least one week
+
+
+      Writer-director Louis Paxton's debut feature sees a nervy council official attempt to evict two siblings who have never had any human contact from their outside world.
+
+
+      \ * All screenings until Thu 10 Sept feature Audio Description.
+
+      \ * The Fri 4 Sept 11:00 screening is an Elevenses Screening <https://us.list-manage.com/Du6K32NQ23x?c2id=944927b628e367996f6a53da7340e920&m=XaDxzNFReGDDXPpVOiYiH0oh0Zx6ytIOKBYdOZtsp0vYpcrTvPVkNQarcUE9> and features Descriptive Subtitles.
+
+      \ * The Sun 6 Sept 11:20 screening is a Relaxed Screening <https://us.list-manage.com/VEL6TYW66Ul?c2id=944927b628e367996f6a53da7340e920&m=1t33Yyx6D2gq8GwfDw2-XisPNzQemwpszp_iSXeNlT8vViyKueNtkIx9m7pJ> and features Descriptive Subtitles.
+
+      \ * The Mon 7 Sept 17:50 screening features Descriptive Subtitles.
+
+
+      Read more <https://us.list-manage.com/13hKjT2UQ0f?c2id=944927b628e367996f6a53da7340e920&m=pzghttnwmZcgI-4e9PnV9P3YiSinX9_r1qj5u-ZNvDAh6oPIvSkQWnYXFq7Z>   Buy tickets <https://us.list-manage.com/akMJLjKHCPz?c2id=944927b628e367996f6a53da7340e920&m=7iqkkPTqn28r8eYRuLXL3l2GlYSr3SG3Sh3NV8zuId3qhJk88TZUK604Gsr6>
+
+
+      ALI PLUMB'S UNTITLED FILM QUIZ PROJECT: A BRAND NEW MOVIE QUIZ
+
+
+      Sat 5 Sept 19:30
+
+
+      Ali Plumb – that movie bloke off the internet with the interviews and the specs and the beard – is taking his delightfully nerdy film quiz on the road again… and you should definitely come.
+
+
+      Read more <https://us.list-manage.com/17MAebhEgQD?c2id=944927b628e367996f6a53da7340e920&m=Wy68XGzzVY-noxbiyjPZNR-WipX_JBcD-7HfB-ixnopfLs3tdOBtnOC4YQOu>   Buy tickets <https://us.list-manage.com/B3jvtNz2bPq?c2id=944927b628e367996f6a53da7340e920&m=JMZ-8XpTCOzR-yXw0bmcDHL9E_RFYzvr47qV-39X0NNBGB8pyx-MACysYHdr>
+
+
+      PREVIEW: BAD APPLES 15
+
+
+      Dir: Jonathan Etzler, UK, English, 2025, 1hr 41mins
+
+      Sun 6 Sept 16:00
+
+
+      A struggling primary school teacher begins to make some questionable decisions after one of her students is injured.
+
+
+      \ * Introduced by local comedian and actor Amy Mason and actor Alice Lamb, who both appear in the film.
+
+      \ * This screening features Audio Description.
+
+      \ * Bad Apples <https://us.list-manage.com/TiChYcvrWY3?c2id=944927b628e367996f6a53da7340e920&m=7pvQiEAQJ40MlY02miTH6pWTFu-xM9NResceUg9QJf2uZmitcstms0dQD5VB> then opens Fri 18 Sept.
+
+
+      Read more <https://us.list-manage.com/I4fZkAucmOO?c2id=944927b628e367996f6a53da7340e920&m=JipplkB1y0geaYAY5ocxg0OgnXChl3HWwSs7epUEkg-3Dshy-Onu4v1-Tg9w>   Buy tickets <https://us.list-manage.com/GCrIaRDcMV2?c2id=944927b628e367996f6a53da7340e920&m=lfFwHu7_lkPF5ngx0R_3R-1OCE5fnH1Lr8XmWQqVQy71njwuDwAH5nBsxsv3>
+
+
+      ATTACK THE BLOCK 15
+
+
+      Dir: Joe Cornish, UK, English, 2011, 1hr 28mins
+
+      Sun 6 Sept 14:00
+
+
+      What's a good sleepover without a bit of a scare? And what's a good fright without a good laugh? Attack the Block brings British-humoured slapstick adventure to a South London housing block, where endlessly hostile encounters are never quite what they seem.
+
+
+      \ * Introduced by season guest co-curator Reba Martin.
+
+
+      Part of The Sleepover Season <https://us.list-manage.com/10RI6tfvwYM?c2id=944927b628e367996f6a53da7340e920&m=eBByyoQSYDHjPpRM-c8NIAB-HHd9pTAa6LXlPfh0ZQtAt6wSlYaWidGhncQ7>: This September, we’re bringing back British coming-of-age favourites and sleepover classics on Sundays.
+
+
+      Read more <https://us.list-manage.com/17MQwA0Anp5?c2id=944927b628e367996f6a53da7340e920&m=Z-bFkXRlsrGh9eTM4iIFrPdnI3DmSJIssh3ZgUjbkLpEsv0Dp9NXOFQJC9hn>   Buy tickets <https://us.list-manage.com/opDiKyoXxsU?c2id=944927b628e367996f6a53da7340e920&m=gRcDmgVbd2uYO8R5JRGIQagRGA-_GlrNCgHdLukNsatLlTxUEUAQZIh41UR_>
+
+
+      What's on <https://us.list-manage.com/a7NNioEILjR?c2id=944927b628e367996f6a53da7340e920&m=g0aBeUuAHpWbmoM2NajTXlAHnZv2Y2n7_WwceT2WcGHvi7kokppxYTaJqGfi> Week ahead <https://us.list-manage.com/DkQBljm7zBx?c2id=944927b628e367996f6a53da7340e920&m=4JF12zaMYOt4hnymj2rxgoIOKJUmq_nMBBT4Nim3q3nkXeb1nRKMrdH5tcy9> Calendar <https://us.list-manage.com/18Em9gUMpKY?c2id=944927b628e367996f6a53da7340e920&m=al5M31dEEMFOpT04SU9dJKV24LNTkNae234PgHtfnYWeiUS0LTM_BCkMwnws> Coming soon <https://us.list-manage.com/txf9a7lQndY?c2id=944927b628e367996f6a53da7340e920&m=zVhM6RyKjjUTnNTgADfF6Yc-YOuYS9_PbuIZmekShs-FIwLIN9mzUU2uTAum>
+
+
+      https://us.list-manage.com/9StO6ivEAG8?c2id=944927b628e367996f6a53da7340e920&m=R9eWE2mwMsR88rKREonRkqHpjZs0vX3rMilSgXhdDpU4nVl-U89FTKtiVJOq
+
+
+      Join us on Sat 5 and Sun 6 Sept 2026, when cinemas across the UK will come together for National Cinema Weekend <https://us.list-manage.com/1AR3K0o5C7G?c2id=944927b628e367996f6a53da7340e920&m=BNDbqgkovXjtFY8oie48EW3YWb0faFz2F2Um3I5LLQkvshkkFVzGmo2yLzG2>, when all cinema tickets are just £4!
+
+
+      SENTIENTS: AN IMMERSIVE VR & VIDEO GAME EXHIBITION 12
+
+
+      1hr 30mins
+
+      Until at least Sun 13 Sept
+
+
+      Open your animal eyes. An immersive exhibition of groundbreaking video games & virtual reality. A must-do this summer in Bristol's Undershed Gallery.
+
+
+      Read more <https://us.list-manage.com/19VD34Ab8z_?c2id=944927b628e367996f6a53da7340e920&m=q8bTEEsF7XqkWGWVnv8s2euNpoH9r6sRiqbizLgVed2XUkv5ImElFIiyLcw3>   Buy tickets <https://us.list-manage.com/ZjfOAFRAZXE?c2id=944927b628e367996f6a53da7340e920&m=dwvFQUfqffZr7z1fF0E8tlliAgY9roCPIC2GYKNNUz5YQIM8c43ErEge-B2y>
+
+
+      BOOK LAUNCH: FATHER ALBERTO AND THE FLYING GIRL – TIMOTHY X ATACK IN CONVERSATION WITH RACHEL SEIFFERT
+
+
+      Thu 10 Sept 19:00
+
+
+      Join us for the launch of the vibrant debut novel by Timothy X Atack, award-winning playwright and composer, and Pervasive Media Studio resident.
+
+
+      Read more <https://us.list-manage.com/hKv4dptFOeK?c2id=944927b628e367996f6a53da7340e920&m=UMcc49PDm6bFizkEZo6g7NSR3ECigMg-4be51sFddsDJphoaF48fqMYf5y3H>   Buy tickets <https://us.list-manage.com/18doTiFyfqa?c2id=944927b628e367996f6a53da7340e920&m=P7BW55k2AngIPjqnXM9hrHEeeV0HPd_DPj28hK5SDnYXNVT6EtTss2C1FbWf>
+
+
+      BITTER CHRISTMAS 15 (S)
+
+
+      Dir: Pedro Almodóvar, Spain, Spanish, 2026, 1hr 51mins
+
+      Until at least Thu 10 Sept
+
+
+      To break his writer's block, a filmmaker draws desperate inspiration from his closest relationships in this rich Almodóvar melodrama.
+
+
+      \ * All screenings until Thu 10 Sept feature Audio Description.
+
+      \ * The Sun 6 Sept 13:20 and Tue 8 Sept 17:40 screenings feature Descriptive Subtitles.
+
+      \ * The Thu 10 Sept 14:40 screening is a Masked and Socially Distanced Screening.
+
+
+      Read more <https://us.list-manage.com/11fKLlfUcii?c2id=944927b628e367996f6a53da7340e920&m=HH1Zkhy6cAh9481H17Jdu5L_0Cx7hGzXVogsGFHFQFlo0LNyE5oLMs4E5F0p>   Buy tickets <https://us.list-manage.com/4zealJ6OYCU?c2id=944927b628e367996f6a53da7340e920&m=RrOv7zf9TBRXRFcSL4RSLTJySpvV-1NbNL45E0254t7oA2zAicFCQuQEnV4G>
+
+
+      TEENAGE SEX AND DEATH AT CAMP MIASMA 15
+
+
+      Dir: Jane Schoenbrun, USA, English, 2026, 1hr 52mins
+
+      Until at least Thu 10 Sept
+
+
+      Teenage Sex and Death at Camp Miasma is a new kind of horror remake from one of the most exciting new voices in cinema, starring Hannah Einbinder and Gillian Anderson.
+
+
+      \ * All screenings until Thu 10 Sept feature Audio Description.
+
+
+      Read more <https://us.list-manage.com/LPNhAw2ZAZl?c2id=944927b628e367996f6a53da7340e920&m=8cV_-H0pGvRlTsP6TLoX4nHjZGu_UvWP2WLP92BAqgHEid5aTGypmepSVxNb>   Buy tickets <https://us.list-manage.com/5nHsQeYLl9m?c2id=944927b628e367996f6a53da7340e920&m=36rYszWjYboDIFHUJNBssZLtzBW1NGv_6bMQ_SUEqdMMetRFz1hgv_4ibMOz>
+
+
+      I WANT YOUR SEX 18
+
+
+      Dir: Gregg Araki, USA, English, 2026, 1hr 30mins
+
+      Until at least Thu 10 Sept
+
+
+      Directed by Gregg Araki (whose 2007 comedy Smiley Face inspired the Brat album cover don't you know!) and written by Araki and Karley Sciortino (of Slutever fame), I Want Your Sex is a darkly funny erotic satire.
+
+
+      \ * All screenings until Thu 10 Sept feature Audio Description and include a pre-recorded introduction from the film's director Gregg Araki.
+
+
+      Read more <https://us.list-manage.com/1AvbHneqZBD?c2id=944927b628e367996f6a53da7340e920&m=GXpmeRGsABNONlJ7OTl3--I9OxLRomMR37CY7_vcONtjgefH17EabzMGiY05>   Buy tickets <https://us.list-manage.com/1tDZ_6g7NJx?c2id=944927b628e367996f6a53da7340e920&m=BNPPqQRXX76ln8oglvu9G0UScpeZSlS9XTTw1_3YXRnPUS6kXLQE4tbIE_go>
+
+
+      KIKI'S DELIVERY SERVICE U (S)
+
+
+      Dir: Hayao Miyazaki, Japan, Japanese, 1989, 1hr 43mins
+
+      Until at least Thu 10 Sept
+
+
+      Celebrate this beloved coming-of-age 1989 story from the legendary Studio Ghibli about a resourceful young witch who uses her broom to create a delivery service, only to lose her gift of flight in a moment of self-doubt.
+
+
+      WATERSHED RECOMMENDS
+
+      \"This is probably one of my top 5 favourite films of all time. The wholesomeness, the earnestness and also the beauty of a Studio Ghibli film made in the 1980s. Kiki always makes me feel better when I’m poorly.\"
+
+      Stef Graham, Communications Coordinator
+
+
+      We'll be screening this film in the original Japanese language with Subtitles (S), as well as with English Dubbing (D). Check the website for more information.
+
+
+      Read more <https://us.list-manage.com/wGURvQSlzB5?c2id=944927b628e367996f6a53da7340e920&m=GVl-4GnKudUiw26AZerDq177ppfChL103SqBUsEtaRUa8PKqKUPGA0qg_jJf>   Buy tickets <https://us.list-manage.com/CxoscLXKHg9?c2id=944927b628e367996f6a53da7340e920&m=Z_lQVtPOAxq7_soi1LywxV_CQDt6wtkT7BN8eGxFpNGQSGl2aXcR2bzVfYri>
+
+
+      SAVE IN THE CAFÉ & BAR WITH CLUB SHED
+
+
+      Among all the perks that Club Shed <https://us.list-manage.com/rc2LubBOcV_?c2id=944927b628e367996f6a53da7340e920&m=caukAk6jkKrEhMjwaXo0IufaP3yhZhSqcHeHaLNJ93igCgFYeRrCnGcR78hU>, our very own membership scheme offers, did you know you can also get access to great discounts in our Café & Bar <https://us.list-manage.com/ZwCzbpA2N5C?c2id=944927b628e367996f6a53da7340e920&m=EO7nV3fjGeLIwXJaz5Fgqm68wu6hFG7zpKNQN-3Vbi1ghF4tfbhbgkpL364J>?
+
+
+      On Saver Mondays, you can get 30% off Small Plates with a cinema ticket, and on Tuesdays you can get  30% off any main meal with a cinema ticket with our Cinébites <https://us.list-manage.com/LvoRuX8BVt1?c2id=944927b628e367996f6a53da7340e920&m=Tx6uxzEMzAdRnliUqr8HIxqeeoRPi5E1efeO_rrGLPsW7eqKHYa6KIRJy2Yj> offer.
+
+
+      Read more <https://us.list-manage.com/tksH97fe2pP?c2id=944927b628e367996f6a53da7340e920&m=5bjlOA73_A53GvMaFPoKjP4ADgamuP4JQ6dxcUqGUzj1ygQAAzMinEdQqyZW>
+
+
+      STILL SCREENING AND COMING SOON
+
+
+      https://us.list-manage.com/1AtlV9Hppvq?c2id=944927b628e367996f6a53da7340e920&m=A7DCsmw7VPuVs0ybsjE6VXEsVilsqx34ZCK5LviGbYJLsp4h4VsAYdUojlCK https://us.list-manage.com/JKfFh4bJtJS?c2id=944927b628e367996f6a53da7340e920&m=yKw3_Z_5IyuszT84pp6KJtns14xu7h7an5LEmkvu-VC8FLHlovyF6D6mRaf3 https://us.list-manage.com/gDOirBa2X3j?c2id=944927b628e367996f6a53da7340e920&m=YrUBcrdpu_8eCaD7orwhIZyex-W5UGMsSjO1h5Haan_FProfRhjLupap2gc9
+
+
+      WHAT’S ON AT WATERSHED
+
+
+      What's on <https://us.list-manage.com/AQzggpNDrPt?c2id=944927b628e367996f6a53da7340e920&m=rD4IiO5WgVbl5fmNBvaTgsNbPHZaY0qR6GzVCM9NMewUlbXue5ksoLJHJmeE> Week ahead <https://us.list-manage.com/awtqbUf6BGf?c2id=944927b628e367996f6a53da7340e920&m=KmhyzQVKwRYzlpe984YE9sI5mYh9aykURij7eCrL7Vmc_1gbOYzD3_w7_AM4> Calendar <https://us.list-manage.com/xBzt7TXvoh5?c2id=944927b628e367996f6a53da7340e920&m=EHoplJypch7OCjtxRaEyQdBt8dPIC7LRi9nAfsU4sRcRobf8I2fgzneDKRZB> Coming soon <https://us.list-manage.com/uG_3kH2nI0S?c2id=944927b628e367996f6a53da7340e920&m=-hGmTM_xAdrozJScU6kYhgDp-uDppJYDlDvOUy34QDyQ9E0y9iXSgQKSYHPS>
+
+
+      tel:01179275100
+
+
+      Watershed
+
+      1 Canons Road
+
+      Harbourside
+
+      Bristol
+
+      BS1 5TX <https://us.list-manage.com/F99s5xtF0yR?c2id=944927b628e367996f6a53da7340e920&m=sIXsFckBWpOsfAkpyKcHzRzlC7s93JDJeHqd0KoWFJP6T-obEd27rTuDitPN>
+
+
+      bulletin@watershed.co.uk
+
+
+      watershed.co.uk <https://us.list-manage.com/gDc7PwtIEbu?c2id=944927b628e367996f6a53da7340e920&m=j"
+    truncated: true
+  - messageId: "<9e55bbb0ee00abce7a4355c97.775f406f81.20260903140047.9ccde4be66.95c7d469@mail200.suw241.rsgsv.net>"
+    receivedAt: "2026-09-03T14:02:19Z"
+    from:
+      name: "Watershed"
+      address: "bulletin@watershed.co.uk"
+    subject: "Accessible Screenings and Events coming up at Watershed"
+    listId: "9e55bbb0ee00abce7a4355c97.502077.list-id.mcsv.net"
+    webVersion: "https://mailchi.mp/1efa279de685/accessible-screenings-and-events-in-august-and-september-4827013"
+    sourceId: "cinema/watershed"
+    matchedBy: "from:*@watershed.co.uk"
+    body: "View email in your browser <https://mailchi.mp/1efa279de685/accessible-screenings-and-events-in-august-and-september-4827013>
+
+
+      UPCOMING ACCESSIBLE PROGRAMME
+
+
+      CONFIRMED SO FAR
+
+
+      Please read on to find out about our forthcoming accessible screenings and events...
+
+
+      SIGN UP TO OUR  <https://us.list-manage.com/YmExk8GsnbE?c2id=944927b628e367996f6a53da7340e920&m=u98HsksQYjpk_N_fv_r_Y9IRIr4GVAXup7py0jRX5BaIucZTp3YXxBjV7D7o>ACCESS REGISTER <https://us.list-manage.com/VzFWzMbbC9e?c2id=944927b628e367996f6a53da7340e920&m=8aEPaTPl6JdiaKqIyFWrDefm-f0WZ0vgFDLCQD63UGJ0YoRg6D5rBOm7fjuD>
+
+
+      The aim of our Access Register is to deliver the best possible experience for you when you visit.
+
+
+      You can find out more <https://us.list-manage.com/z4Ac4xMhqZD?c2id=944927b628e367996f6a53da7340e920&m=gMZuqHKL7M5LC2L6Z5eTWh_PwYyfc2WbotfyLIF4n8L6fBNRcmwax08ZGFc9> about this and you can also sign up in person at Box Office or by calling us on (0117) 927 5100 <tel:01179275100>.
+
+
+      We would love to know what you think. Drop us an email <communications@watershed.co.uk?subject=Access%20register> and let us know.
+
+
+      RELAXED SCREENINGS
+
+
+      Our next Relaxed <https://us.list-manage.com/bfM6vdQEAsD?c2id=944927b628e367996f6a53da7340e920&m=XgUgi8AGGEjNeTdJMANtMtseZqIcL0z_wHUWveFh0F8-j8s1QTpPzZVSZIkn> screenings are:
+
+
+      \ * The Incomer <https://us.list-manage.com/15m1glFTGW9?c2id=944927b628e367996f6a53da7340e920&m=E58cp5cXpzdEixkVC83KJxr4mePmFo9kzimuuvMCHhTgDT01O8Au3ZfaRXa5> Sun 6 Sept 11:20
+
+
+      AUDIO DESCRIPTION, DESCRIPTIVE SUBTITLES, BSL INTERPRETATION AND MASKED AND SOCIALLY-DISTANCED SCREENINGS
+
+
+      TONY <https://us.list-manage.com/13F31LCGxXG?c2id=944927b628e367996f6a53da7340e920&m=6CP-VYmFWWMZwYOdWZwRv29AEbB0nqSrU2k32vwQoHgmHef2uCBjT3ru4SkC> (15)
+
+
+      A 19-year-old Anthony Bourdain travels to Provincetown and stumbles into the chaotic world of a restaurant kitchen, setting off a summer that will shape the course of his life.
+
+
+      \ * All screenings until Thu 10 Sept feature Audio Description.
+
+
+      TEENAGE SEX AND DEATH AT CAMP MIASMA <https://us.list-manage.com/EZTTC2aaKaU?c2id=944927b628e367996f6a53da7340e920&m=fpLXuBUqh_HCiXPzGYM4XF3jMPECaTwk2oqj9H8avSIhkQOfqvJzp3qXbaY8> (15)
+
+
+      Teenage Sex and Death at Camp Miasma is a new kind of horror remake from one of the most exciting new voices in cinema, starring Hannah Einbinder and Gillian Anderson.
+
+
+      \ * All screenings until Thu 10 Sept feature Audio Description.
+
+
+      I WANT YOUR SEX <https://us.list-manage.com/Nken2jj5Y24?c2id=944927b628e367996f6a53da7340e920&m=BTSsZKyJtQ_ZCwbJUDQkVgsGWBFcITqIjkhEHga8ukmEFtz_eDh-SrlwN23N> (18)
+
+
+      Directed by Gregg Araki (whose 2007 comedy Smiley Face inspired the Brat album cover don't you know!) and written by Araki and Karley Sciortino (of Slutever fame), I Want Your Sex is a darkly funny erotic satire.
+
+
+      \ * All screenings until Thu 10 Sept feature Audio Description.
+
+
+      THE INCOMER <https://us.list-manage.com/EI1OI1M_ZLf?c2id=944927b628e367996f6a53da7340e920&m=Ekz-P9kRo1mSVLuxxt0707MyTPKcQs1PBjHFfM6C4_SYBgIdBU7UAI3xbaKH> (12A)
+
+
+      Writer-director Louis Paxton's debut feature sees a nervy council official attempt to evict two siblings who have never had any human contact from their outside world.
+
+
+      \ * All screenings until Thu 10 Sept feature Audio Description.
+
+      \ * The Fri 4 Sept 11:00 screening is an Elevenses Screening <https://us.list-manage.com/mRR2cKXQwHU?c2id=944927b628e367996f6a53da7340e920&m=TUPaiuKxRQswc9_D5XlsqZZQlLgJGMuzl3Qw6kLtU2Hs6xnMpcPcFN9w4IRM> and features Descriptive Subtitles.
+
+      \ * The Sun 6 Sept 11:20 screening is a Relaxed Screening and features Descriptive Subtitles.
+
+      \ * The Mon 7 Sept 17:50 screening features Descriptive Subtitles.
+
+
+      LEVITICUS <https://us.list-manage.com/hMIufeFFI20?c2id=944927b628e367996f6a53da7340e920&m=hC73wlcwK90si7r-tjb7ihkDE4MRgNiGANAtVmPc6d-NA_x2_js6HCpryqVS> (15)
+
+
+      Move over Heartstopper... this haunting debut has some teeth to it!  A chilling sensation in queer horror from director Adrian Chiarella, Leviticus follows two lovestruck teenage boys who face off against supernatural evil in the wake of harrowing 'deliverance healing'.
+
+
+      \ * All screenings until Thu 10 Sept feature Audio Description.
+
+      \ * The Tue 8 Sept 20:30 screening features Descriptive Subtitles.
+
+
+      BITTER CHRISTMAS <https://us.list-manage.com/w9S4n4CSgqT?c2id=944927b628e367996f6a53da7340e920&m=68GStA-PeUzEDXEWmVoagckmaKFyv_k1bN7JiODZsTk9T3ivMBW8UV1hDrwG> (15) S
+
+
+      To break his writer's block, a filmmaker draws desperate inspiration from his closest relationships in this rich Almodóvar melodrama.
+
+
+      \ * All screenings until Thu 10 Sept feature Audio Description.
+
+      \ * The Sun 6 Sept 13:20 and Tue 8 Sept 17:40 screenings feature Descriptive Subtitles.
+
+      \ * The Thu 10 Sept 14:40 screening is a Masked and Socially Distanced Screening.
+
+
+      SUPER NATURE <https://us.list-manage.com/73Hk2D6VSVF?c2id=944927b628e367996f6a53da7340e920&m=0xBeEmHPkpbDFmJV0iFrkuXhb_civcaNyn3MKll0pNKqNPrsqEZ9wUpsGC4Z> (PG) PS
+
+
+      A love letter to nature filmed exclusively on Super 8, Super Nature proposes a new way of seeing. A celebration of all we have and reflecting on all we have to lose, this global co-creation project journeys across 25 different countries, creating a visceral, poetic and personal meditation on the natural world.
+
+
+      \ * The Sat 5 Sept 14:40 and Wed 9 Sept 20:40 screenings feature Descriptive Subtitles.
+
+
+      BAD APPLES <https://us.list-manage.com/kaXsDK6aYIE?c2id=944927b628e367996f6a53da7340e920&m=EkDkd2vaJ0ioYLvzjHyloPHsal6olR6L-KnrKnykGTfXCWmHRorkKaYgYYFx> (15)
+
+
+      A struggling primary school teacher begins to make some questionable decisions after one of her students is injured.
+
+
+      \ * The preview screening <https://us.list-manage.com/6oq3PmWwYCf?c2id=944927b628e367996f6a53da7340e920&m=5tJyzGnFAome0CRGaWTz6sEJR3Uo-zCzWfs-Sb5hhTfxqlljJdg-vDHNPnYA> on Sun 6 Sept 16:00 features Audio Description.
+
+      \ * All screenings Fri 18 - Tue 29 Sept feature Audio Description.
+
+      \ * The Sun 20 Sept 17:20, Tue 22 Sept 17:50 and Mon 28 Sept 20:30 screenings feature Descriptive Subtitles.
+
+
+      EVERYBODY DIGS BILL EVANS <https://us.list-manage.com/19dcaF6z1eH?c2id=944927b628e367996f6a53da7340e920&m=I3lkG1g4RxL1txNDKy5XDmFXKpxVfBrXCc6ovOda8W9ku1YHPCOz237BoC_o> (15)
+
+
+      Winner of the Silver Bear for Best Director at the 2026 Berlin Film Festival, Everybody Digs Bill Evans is a biographical drama film about the famous jazz pianist and composer Bill Evans.
+
+
+      \ * All screenings Fri 11 - Thu 17 Sept feature Audio Description.
+
+
+      THE CYCLE OF LOVE <https://us.list-manage.com/iz3Voe2xmdO?c2id=944927b628e367996f6a53da7340e920&m=a-ZD-4XiCeS7zBQN4A65GLNUpYssuG8Le-vK-BFirbmUK9uMIORvrw0clfWK> (12A) S
+
+
+      A love story like no other, The Cycle of Love is an inspiring, heart-warming, epic true-life adventure about self-belief, destiny and the courage to risk everything for love, traversing continents in a journey spanning Delhi to Sweden.
+
+
+      \ * The Fri 18 Sept 11:00 screening is an Elevenses Screening <https://us.list-manage.com/5vjjEZrcs25?c2id=944927b628e367996f6a53da7340e920&m=jZILWE5yHwABynVhyMAK2IksoZbzPbzcpwU5559simSa4w2A8GmYcqD0_ZEr> and features Descriptive Subtitles.
+
+      \ * The Mon 21 Sept 18:00 screening features Descriptive Subtitles and is followed by Deaf Conversations about Cinema <https://us.list-manage.com/pOPx8DJTSfp?c2id=944927b628e367996f6a53da7340e920&m=yHZjDANB9tcQXiiEKgyLjQqGOn-W7tiKTcqqfZRH7Chgz9tdcP6NmFXZDdsh>, which features BSL interpretation.
+
+
+      HOW DEEP IS YOUR LOVE <https://us.list-manage.com/E01_YuvEAQT?c2id=944927b628e367996f6a53da7340e920&m=prIc5EQhwYz7N9FGYEADVgfZxpiXOBLFMziT44OZYyrPBMzwcm8dYNJbV9Wb> (12A)
+
+
+      How Deep Is Your Love follows a group of marine biologists trying to understand life in this unknown world, while grappling with the question of whether their presence risks harming what they seek to protect. A visually hypnotic and deeply absorbing journey in which every discovery reshapes our understanding of the planet.
+
+
+      \ * The Tue 6 Oct 18:00 Q&A screening features Audio Description.
+
+
+      WHAT IS AUDIO DESCRIPTION?
+
+
+      Audio Description (AD) is a service for partially sighted or blind people. The film's main soundtrack plays through the cinema speakers in the usual manner. But AD users listen to a specially recorded narrator through a set of headphones. The recording details what's happening on the screen. The service is like listening to a football or cricket match on the radio.
+
+
+      The AD headphones are available to collect from Box Office. You can pick up your headphones when you pick up your tickets before the film screening.
+
+
+      Please check our calendar for our latest AD screenings <https://us.list-manage.com/12C_IltzsVC?c2id=944927b628e367996f6a53da7340e920&m=hJK_fN1jBITIsG_07SW5NKK1X0KvIbwYLgYX_vnuLXqVZe8TpAwlYBOI0ecu>
+
+
+      WHAT IS DESCRIPTIVE SUBTITLING?
+
+
+      Descriptive Subtitling (DS) is a service for our Deaf and hard of hearing customers. It displays extra auditory information on the screen.
+
+
+      As well as showing the dialogue, DS provides information about other significant sounds. For example: when something is being sung; when a phone rings; or when a door slams. This allows customers using the subtitles to access the film more fully.
+
+
+      Please check our calendar for our latest DS screenings <https://us.list-manage.com/2hFTuipT_H9?c2id=944927b628e367996f6a53da7340e920&m=Uq3AkgYlm0bsLn725-7v7lsXbHRNYzsM9DWxx_68t1xwWBih5HjVyZyVSJ3M>
+
+
+      WHAT IS A RELAXED SCREENING?
+
+
+      We have designed Relaxed Screenings (RV) to benefit our customers with extra needs. They could be for those living with dementia, autism, or other neurodivergent people. It is also for their personal assistants, friends and family. Anyone who wants to enjoy a film in a more relaxed environment is welcome.
+
+
+      Here's what you can expect at a Relaxed Screening:
+
+
+      \ * The capacity for the cinema will be set at 60% to ensure there's enough room between audience members.
+
+      \ * The cinema doors will open 20 minutes before the screening start time.
+
+      \ * We won't show any trailers or adverts and the film will start at its advertised start time.
+
+      \ * The lights will be up a little.
+
+      \ * The sound will be down a little.
+
+      \ * You are welcome to move around the cinema, to talk and make noise, and to exit and enter the cinema as you please.
+
+      \ * There will be lots of space in the cinema so you can spread out or lie down if you choose. It is very informal and yoga mats and beanbags will be available.
+
+      \ * We will screen films with Descriptive Subtitles whenever they are available.
+
+      \ * We will provide a separate quiet space where you can chill out if you need to.
+
+      \ * Our staff will be around to help with whatever you need.
+
+
+      Please check our calendar for our latest Relaxed Visits and Screenings <https://us.list-manage.com/iiyBMTsx31z?c2id=944927b628e367996f6a53da7340e920&m=ePxqumgkuEgwpk5zpJ9mJCDGvaugwbpmOdVT0V14Tm505tmU7XaPdtA5fBK7>
+
+
+      WHAT IS HORIZONTAL CINEMA?
+
+
+      Many people need to rest in public if they are to be part of our community. We have worked with disabled artist Raquel Meseguer Zafe to create Horizontal Cinema. This means you can request a bean bag or a yoga mat and cushion to watch any screening of any film.
+
+
+      Here’s how:
+
+
+      \ * Call the Box Office on 0117 927 5100 <tel:01179275100>.
+
+      \ * Ask to do Horizontal Cinema and specify whether you’d like a yoga mat or a bean bag.
+
+
+      WHAT ARE MASKED AND SOCIALLY DISTANCED SCREENINGS?
+
+
+      We designed Masked and Socially-Distanced (MSD) Screenings for our most vulnerable audience members.
+
+
+      In the cinemas, we sell MSD Screenings at 25% capacity and they have every other row of seats blocked off. If you attend one of these screenings wearing a mask is mandatory. Our Box Office and Front of House staff will also be wearing mask at these screenings.
+
+
+      HOW DO I BOOK TICKETS?
+
+
+      To book tickets call Box Office on (0117) 927 5100 <tel:01179275100> or book online <https://us.list-manage.com/Qx_Z9WIRn7M?c2id=944927b628e367996f6a53da7340e920&m=VAye2gQjTkYmExJHj3Ab5tCFTGSwyq8hifh_7wkMRe-0LrsUMYIEL-ODjnxT>.
+
+
+      SUGGESTIONS
+
+
+      If you have any suggestions or ideas on how best to deliver these services we would love for you to get in touch.
+
+
+      You can email us <communications@watershed.co.uk?subject=Accessible%20Programme>.
+
+
+      Write to us at: Communications Dept, Watershed, 1 Canons Road, Bristol, BS1 5TX.
+
+
+      For the latest information on our accessible programme please visit our website <https://us.list-manage.com/13Y5KEvdLu6?c2id=944927b628e367996f6a53da7340e920&m=ScureWP215i8xoMlZb9lf5AqxZ2nJzPI1MPHC8J4RX7p4bozfiG9fAgtDIgo>.
+
+
+      Watershed
+
+      1 Canons Road
+
+      Harbourside
+
+      Bristol
+
+      BS1 5TX <https://us.list-manage.com/XhEHjN5o_qA?c2id=944927b628e367996f6a53da7340e920&m=pvolCwijV4MT0VpMj4gHDAw8ZQ-mSnr7VcxflaKAZOxrmjLjA3SjSFNN_U17>
+
+
+      info@watershed.co.uk
+
+
+      watershed.co.uk <https://us.list-manage.com/14j1j7f8YZ_?c2id=944927b628e367996f6a53da7340e920&m=o-GX7HTZWebVas80siPgGk3vVjOtLAfuTPuXEo_vpPHTVBdMHzizh6G3Sr5S>
+
+      Facebook <https://us.list-manage.com/A_8KsPPRirv?c2id=944927b628e367996f6a53da7340e920&m=7NFiWe4RJXz-hmR3Pde5Z5UuOB2nqjbcE681v_KZcdXqr9o8rJznA-xMxCZK>
+
+      Instagram <https://us.list-manage.com/4Gj59dMcaVV?c2id=944927b628e367996f6a53da7340e920&m=X_wfEzPaMhuNpoL6Pv-JIY1vRkS2St5yoVd5SrsNfuT8TSqhom7sMJWtTrNg>
+
+
+      Update your mailing list preferences <https://us.list-manage.com/jWkheM56s52?c2id=944927b628e367996f6a53da7340e920&m=esZ__q-f_vB8Ii4URAlsQl8FBZaN7uU7jnfkZ8wDGnkqq8UFUt39811bUxKP9GiulAFoo0X011CU7jwAvKgqll3JDcRssBYgdCgMH-2VwurJxYzUP0IQVHaNt_0dKqkGa2F5JX3g0dazCZAIZBg%3D> or unsubscribe <https://watershed.us9.list-manage.com/unsubscribe?u=9e55bbb0ee00abce7a4355c97&id=3698a6a502&t=b&c=9ccde4be66> all mailing lists.
+
+
+      Privacy <https://us.list-manage.com/YeO8WsUml0D?c2id=944927b628e367996f6a53da7340e920&m=b0GpFgxrSsbPv_HBoCynQUrZJcas7mnhuIvootwhgDhKnhdr27VR1knQU8Cb>
+
+      Statement of Commitments <https://us.list-manage.com/15pQ1AkHW5y?c2id=944927b628e367996f6a53da7340e920&m=Gnjs3GBFwQT3kF_4mU5Z0BD1z1TAZjY36QZzDMQRLNmVqC_8zlnKDvFo49ri>
+
+
+      https://us.list-manage.com/dEn7VONpXme?c2id=944927b628e367996f6a53da7340e920&m=qxONFKXlyI2AWXlTn15Z4QergXs0JAQco8l4jX-5tYG8cSnRvIQR_mhY2wDs      https://us.list-manage.com/rrBJqj6PKEu?c2id=944927b628e367996f6a53da7340e920&m=zk8nprsVcgZheEVkVy5hj1059h-XVuCFon3ITFcCkdt7_LM7bR5GhbtK23rP https://us.list-manage.com/vKGC5eAJ6zb?c2id=944927b628e367996f6a53da7340e920&m=ALYE6QaA1iZnBsu7IfHa5NoWKid4GP_UNAPAgQX3T1K--8ukiY1AxDRklmAg      https://us.list-manage.com/15pMcsK7suS?c2id=944927b628e367996f6a53da7340e920&m=_7yJPQD2mJCQaR2AOO2mo2xlwRfvj_S8lyF19hp7XGETGF7wYUJJqblm_TTB
+
+
+      Watershed is a Registered Charity No. 284188."
+    truncated: false
+  - messageId: "<9e55bbb0ee00abce7a4355c97.775f406f81.20260908163619.d927fbbb5a.e7f0718d@mail23.atl91.mcsv.net>"
+    receivedAt: "2026-09-08T16:36:48Z"
+    from:
+      name: "Watershed"
+      address: "bulletin@watershed.co.uk"
+    subject: "Watershed What's On -  Fri 11 - Thu 17 Sept"
+    listId: "9e55bbb0ee00abce7a4355c97.502077.list-id.mcsv.net"
+    webVersion: "https://mailchi.mp/a4e43b7eb41e/watershed-whats-on-fri-11-thu-17-sept"
+    sourceId: "cinema/watershed"
+    matchedBy: "from:*@watershed.co.uk"
+    body: "Just An Illusion, Everybody Digs Bill Evans, The Republic and more...
+
+
+      View email in your browser <https://mailchi.mp/a4e43b7eb41e/watershed-whats-on-fri-11-thu-17-sept>
+
+
+      WHAT’S ON - FRI 11 - THU 17 SEPT
+
+
+      https://us.list-manage.com/JDtyFa0SZrE?c2id=944927b628e367996f6a53da7340e920&m=2c0sF9Ymx8a0P22YXoYBf9vEvUjftoN_Orch9PMf_DRMQtfj1ES93QULMApk
+
+
+      IT WAS ACCEPTABLE IN THE 80S...
+
+
+      Just An Illusion opens Fri 11 Sept
+
+
+      Hi everyone,
+
+
+      This week we’re travelling from Parisian suburbs to Patagonia, with a little murder, music and marital misery thrown in for good measure.
+
+
+      New in the cinema this Friday is Just An Illusion <https://us.list-manage.com/GyOYdnCL688?c2id=944927b628e367996f6a53da7340e920&m=-O6prTWddlVa7OTFVfnIjBJqZKezr9MmeAmMlsYVdGmhfzKd-NXbR4QDFW94>, a funny and tender coming-of-age story set in 1985 Paris, following almost-13-year-old Vincent as he navigates first crushes, family arguments, friendship and his North African Jewish identity.
+
+
+      Also new is Everybody Digs Bill Evans <https://us.list-manage.com/48c3KWJhsnH?c2id=944927b628e367996f6a53da7340e920&m=7RUtdoXxygvZ1LTKeIJ3LOs-BUdSAuXem6fBbzq3cUhD33FZRLgwT71QvHFW>, the acclaimed biographical drama about the legendary jazz pianist, played by Anders Danielsen Lie. And following its sold-out Q&A last month, The Republic <https://us.list-manage.com/eKTUhHzWi1h?c2id=944927b628e367996f6a53da7340e920&m=mZGFAChRgCHL4mfs7zzxmYqt7x_HklBVD-ZgSguu9oQclOgkXeQ3h2Al7pBD> returns for more screenings, telling the story of Stokes Croft, its fiercely independent community and the ongoing fight to retain a sense of place in the face of development and globalisation.
+
+
+      On Friday night, there’s a one-off chance to catch the gloriously out there Survive Style 5+ <https://us.list-manage.com/EQoFZYGlDZK?c2id=944927b628e367996f6a53da7340e920&m=X06zgH8gkxCesNerWkB20cWqZjU84FZ7hsM8Jl8ny8v1HNpbJx3QLpH0vmi9>, a 4K restoration of the Japanese cult classic. And on Tuesday, Bristol Surf Cinema brings The Road to Patagonia <https://us.list-manage.com/EmKXK9AKVlw?c2id=944927b628e367996f6a53da7340e920&m=-SeKx5NwtMXCX4PETVu2V-MyNGbNhCdl_cVSUVWYPjv-Si23utpPL9mwcAsm> to the big screen, following one man’s 50,000km surfing odyssey from Alaska to Patagonia.
+
+
+      Then on Wednesday, the BFI National Archive takes us back to the 1950s and 60s with Living for Kicks <https://us.list-manage.com/b2kDQzApb3a?c2id=944927b628e367996f6a53da7340e920&m=0hxwkkE3ZZbzRjCULQN3CffwrvDwS7USB1sft47QMLXBk1OSr4Sx8Vqe9z0B>, a vibrant collection of television footage charting the rise of the teenager, Teddy Boys, coffee bars and pop music.
+
+
+      Our Claude Chabrol: Elements of Crime <https://us.list-manage.com/V5ozJBoMg_u?c2id=944927b628e367996f6a53da7340e920&m=-swJlTe8WcxAFfgziyvxV1imiD-YvRvtVnuCexT44N7pHItdPdQRmM5aZNj0> season also continues this week with La Femme infidèle <https://us.list-manage.com/1Acds1gckY5?c2id=944927b628e367996f6a53da7340e920&m=GYcL8AUG3kpvj8T9pEnOUNgd3EDXXFXWLkyjq2VJXNOKx_6VFfqCMgljxED2>. While on Sunday, the next instalment of our Sleepover Season <https://us.list-manage.com/QA61KpobdTS?c2id=944927b628e367996f6a53da7340e920&m=fI29rcCxSOWKnnQcSjj7b7PNcJgqZn_ojXQR77l3ycxBDc_e_epGQ35NOavH> sees Bend It Like Beckham <https://us.list-manage.com/L_f6e4lBCgZ?c2id=944927b628e367996f6a53da7340e920&m=TKbbEv6di85NreQ13IkgC5ZAoKl6XJutF1JfVaTr1SBBMZIkPb5IW1I49-Dx> take over the big screen. Bring your mates and your finest football fits for this much-loved classic, introduced by guest curator Ella McDonald and filmmaker Somina ‘Mena’ Fombo, and preceded by Mena’s short No Rucks Given!.
+
+
+      Read on for everything else coming up this week, including a Lunchtime Talk <https://us.list-manage.com/1CufTs4uyVP?c2id=944927b628e367996f6a53da7340e920&m=R1hJYk2mnJyypxIzbkVT74WW57W7qA-K9uDUMGgS88bg-Zb2b7qJnHDvV5Fv> exploring what responsible, appropriately scaled AI might look like within planetary boundaries – plus your last chance to experience SENTIENTS <https://us.list-manage.com/o0LtucelkeO?c2id=944927b628e367996f6a53da7340e920&m=_THmFtPrql6yHYtOvnt95ertZlye0wxIj9fmDl8w7njccNXMHFKyKi_4qu3g>, the immersive exhibition in Undershed <https://us.list-manage.com/fgl0Fk0by6L?c2id=944927b628e367996f6a53da7340e920&m=VfB8u7LTFcyb0u5EclpgkS7KWT8zOnU4QAbUfKj-blpnGVOVDZwiGMkIR4Ry>, before it closes this Sunday.
+
+
+      With love,
+
+      Team Watershed x
+
+
+      JUST AN ILLUSION 12A (S)
+
+
+      Dir: Eric Toledano, Olivier Nakache, France, French, 2026, 1hr 56mins
+
+      Fri 11 Sept for at least one week
+
+
+      It's 1985. Vincent, almost 13, fumbles through life's big questions: identity, friendship, family, first crushes... and why adults don’t seem to have things figured out either.
+
+
+      \ * The Fri 11 Sept 11:00 screening is an Elevenses Screening <https://us.list-manage.com/NDKnFE5I3lK?c2id=944927b628e367996f6a53da7340e920&m=l8RlTQsbaQ2J8fgS8ruL1IjdHZ1w7bhxtDo6GdUgY612zzIEgBY-MNtkZnE->.
+
+      \ * The Wed 16 Sept 11:00 screening is a Cinébabies Screening <https://us.list-manage.com/JXTvAFtjHp2?c2id=944927b628e367996f6a53da7340e920&m=pqE5mcDnaG1DiHvRgg7MT41bGbRoUzUPaGyiNEZ8NJp-_sRigeIe9NXdau9t>.
+
+
+      Read more <https://us.list-manage.com/18k8ogX3fWb?c2id=944927b628e367996f6a53da7340e920&m=U70daMABLqVJHiW-v0OHYaAyWaUAvoyT9kBLpeiWdDmBXCdcJ4EcN6eeBNIN>   Buy tickets <https://us.list-manage.com/TpLr8_eengc?c2id=944927b628e367996f6a53da7340e920&m=lExLyA8uWEVTn8Nk0_kSNuJ5dbcfzUhQQH3GrdltlY7f7pf-Qx6_B13e0RK3>
+
+
+      LUNCHTIME TALK: \"JUST ENOUGH\" AI
+
+
+      Fri 11 Sept 13:00
+
+
+      In this talk, Matt Dowse and Mary Stevens from the Centre for Sociodigital Future (CenSoF) will present the ideas behind their upcoming project Just Enough AI: Developing Demonstrators For Responsible, Appropriate Scale A.I. Within Planetary Boundaries.
+
+
+      Lunchtime Talks <https://us.list-manage.com/JScbRHsQZ85?c2id=944927b628e367996f6a53da7340e920&m=aGOa_euD_a9avoQHklfJZmob2gtEwG7qnMQGhIQP0mm8yGwHeConlizW3peO> are a series of informal presentations at Watershed’s Pervasive Media Studio <https://us.list-manage.com/YYWWqlD8soH?c2id=944927b628e367996f6a53da7340e920&m=DYHevC3AjpgqKZ_pOWighDJqBYlRURGa_nti8AqGOcxG4ELGmHoF2SDiKEkl>. They take place at 13:00 on a Friday and are free and open to everyone.
+
+
+      Read more <https://us.list-manage.com/A1OUB1UoJ1x?c2id=944927b628e367996f6a53da7340e920&m=E1JO9bW9Q5l10KxY-skl_RLE5-wAHNJsuLmQHpu-qM1BgamTSv3FIkhierEH>   reserve free tickets <https://us.list-manage.com/11AYK5VcDKd?c2id=944927b628e367996f6a53da7340e920&m=6bwhcL9cnCgDCnrfkVPyhZC4MubF783sWtlFnVyYX4naa-jZrNc7I-AUMREW>
+
+
+      THE REPUBLIC 15
+
+
+      Dir: Quincy Andrews, UK, English, 2026, 1hr 21mins
+
+      Fri 11 Sept for at least one week
+
+
+      The Republic documents the story of Stokes Croft, portraying a diverse community that dares to defy the cold winds of corporate power and globalisation. But their greatest challenge looms as developers target this quarter and ready their wrecking balls.
+
+
+      Read more <https://us.list-manage.com/Vif0_zIahxF?c2id=944927b628e367996f6a53da7340e920&m=GUpV4ABig8962lPOuaWBZ9w36A3fWxvZvOY4MvBcR_tUaDH0ZC-ejA9T6Kfe>   Buy tickets <https://us.list-manage.com/_z10LXzxzhT?c2id=944927b628e367996f6a53da7340e920&m=DK0Qz6shn7qP-LTpZPxIrqIqNykP7iYcoECRD-pa8wa76D1b1XiyhPLJiJ-B>
+
+
+      LA FEMME INFIDÈLE 15 (S)
+
+
+      Dir: Claude Chabrol, France, French, 1969, 1hr 38mins
+
+      Fri 11 - Sun 13 Sept
+
+
+      Chabrol’s ice cold tale of infidelity, passion and violence – an unmissable Hitchcockian thriller set against a backdrop of bourgeois respectability in late 1960’s Versailles which inspired Andrey Zvyagintsev's Cannes 2026 Grand Prix winner Minotaur.
+
+
+      Claude Chabrol: Elements of Crime <https://us.list-manage.com/c0aeeEwwAeE?c2id=944927b628e367996f6a53da7340e920&m=WV29PODDYVhVLMWoCHr-_SgH-BAGw8Xr8EwiHg9h0bI_SdRS5yR50h46jjP7> is a selection of newly restored films allowing us to experience again Chabrol’s elegant and thrilling cinema.
+
+
+      Read more <https://us.list-manage.com/ZTNPRQHmn7u?c2id=944927b628e367996f6a53da7340e920&m=trqQLMyqFkLEqTsj7gsPJotGg3fviHohnVfMiNQvlxlpgcFYgL0jD-W6B-nL>   Buy tickets <https://us.list-manage.com/oZMYNspC02r?c2id=944927b628e367996f6a53da7340e920&m=2bT7gqMlUkm_8wyb9jhOUZoIc95nb5jcKoKo5dZjyxkmXsfg1WqTPzQhEqOw>
+
+
+      EVERYBODY DIGS BILL EVANS 15
+
+
+      Dir: Grant Gee, Ireland, UK, English, 2026, 1hr 42mins
+
+      Fri 11 Sept for at least one week
+
+
+      Winner of the Silver Bear for Best Director at the 2026 Berlin Film Festival, Everybody Digs Bill Evans is a biographical drama film about the famous jazz pianist and composer Bill Evans.
+
+
+      WATERSHED RECOMMENDS
+
+      \"Grant Gee evocatively captures the world of 1950s NY jazz with all its seductive experimentations and addictions (extraordinary when you know it was filmed in Ireland!). Norwegian actor (and musician) Anders Danielson Lie inhabits Evans’ internal slide to depression, recovery and back again.\"
+
+      Mark Cosgrove, Cinema Curator
+
+
+      \ * All screenings until Thu 17 Sept feature Audio Description.
+
+
+      Read more <https://us.list-manage.com/R53W4u1lZqI?c2id=944927b628e367996f6a53da7340e920&m=y0KctDS0XF0t_Wn88BQ3b3zgjgGeVMqP8VueooAopK7b6teRBqGIz1D_O4lU>   Buy tickets <https://us.list-manage.com/ACqAwfTnSN9?c2id=944927b628e367996f6a53da7340e920&m=MaQHcsVpjlQW-d6cVMG0YSGNPGndZEgj_Op9UiWsIzhj37ASqyMttuy5Gwu_>
+
+
+      SURVIVE STYLE 5+ 15
+
+
+      Dir: Gen Sekiguchi, Japan, Japanese, 2004, 2hrs 0mins
+
+      Fri 11 Sept 20:30
+
+
+      In this new 4K restoration of one of Japan's most loved cult films Survive Style 5+, five bizarre stories with no apparent connection to one another eventually become intertwined, resulting in surreal circumstances.
+
+
+      Read more <https://us.list-manage.com/HsubbkgCVD0?c2id=944927b628e367996f6a53da7340e920&m=tBuFNt8Cj0jMpcQjQ8Tzcylg1fEd0BspgRm-DQLXgmcZ1EYKi_lZcORlKK39>   Buy tickets <https://us.list-manage.com/AnMbKqqW_E9?c2id=944927b628e367996f6a53da7340e920&m=GI6DPhyQJn83riAi6nUaSerscI-EMDda88ca1RlMTGNdt4cjpzorUVN_lG11>
+
+
+      WELFARE 18 (CTBA)
+
+
+      Dir: Frederick Wiseman, USA, English, Spanish, 1975, 2hrs 47mins
+
+      Sat 12 & Mon 21 Sept
+
+
+      Welfare shows the nature and complexity of the welfare system in sequences illustrating the staggering diversity of problems that constitute welfare.
+
+
+      Part of Wiseman of the Month <https://us.list-manage.com/15uSUbHSsvg?c2id=944927b628e367996f6a53da7340e920&m=5iDTpIUH8gAQCu6hUsBOMYjVxGOcBb5L0-tW404ldOSstezIFqTsY5lDFiy_>: We celebrate Frederick Wiseman's groundbreaking career spanning seven decades with this year-long season.
+
+
+      The Four Wisemen: get 20% off the regular ticket price when you book four or more tickets for screenings in our Wiseman of the Month season.
+
+
+      Read more <https://us.list-manage.com/h79iFXhoI6J?c2id=944927b628e367996f6a53da7340e920&m=MIN97MVMeRmVH-W5G9wHGjTCrr-nILzZLBsgufooJLU2BA14OXF2vwE4sOkl>   Buy tickets <https://us.list-manage.com/XrTaOI1btEd?c2id=944927b628e367996f6a53da7340e920&m=ISK-nTwXXpA7hZ-jbc6mHTWAX7FD8oxpA-xq_jlftTvgNJIE4KGxPJUalI-_>
+
+
+      BEND IT LIKE BECKHAM 12A
+
+
+      Dir: Gurinder Chadha, UK, English, 2002, 1hr 52mins
+
+      Sun 13 Sept 14:00
+
+
+      Gurinder Chadha’s beloved Bend It Like Beckham returns, starring Parminder Nagra and Keira Knightley.
+
+
+      \ * Introduced by season guest curator Ella McDonald and filmmaker Somina 'Mena' Fombo.
+
+      \ * The feature film will be preceded by a screening of short film No Rucks Given! by Somina 'Mena' Fombo.
+
+
+      Part of The Sleepover Season <https://us.list-manage.com/15valqXjbry?c2id=944927b628e367996f6a53da7340e920&m=ANNd753NV7npyuvmkN3aAvlC-Rnh_dcmHpVUPpGAeZywXwFzU01MzXuC0jQT>: This September, we’re bringing back British coming-of-age favourites and sleepover classics on Sundays.
+
+
+      Read more <https://us.list-manage.com/fOYlI49MAWp?c2id=944927b628e367996f6a53da7340e920&m=cwE7kBABwB8YN6I9U9bhPnihMPLBqobjFhWKsuMF1-A2eMPo4umMewu-xpLp>   Buy tickets <https://us.list-manage.com/l__GGUHddyt?c2id=944927b628e367996f6a53da7340e920&m=ate8CnyDSnZzSP-Xl5VvpEHB9c7ZWjPWPJMNj5a8cSDSm-TpLXH-Of21NSTf>
+
+
+      BRISTOL SURF CINEMA: THE ROAD TO PATAGONIA 15
+
+
+      Dir: Matty Hannon, Australia, English, French, 2025, 1hr 31mins
+
+      Tue 15 Sept 18:30
+
+
+      The Road to Patagonia follows ecologist Matty Hannon on an incredible solo adventure surfing his way along the west coast of the Americas.
+
+
+      \ * The screening will kick off with a short intro from the Bristol Surf Cinema team. Stick around after the screening for drinks and conversation in the Café & Bar <https://us.list-manage.com/wpS_zdoJkan?c2id=944927b628e367996f6a53da7340e920&m=qCkVmWE0Jo4LWlzaXCU5h_zOCeKpIpQO-JJXNC3QJGtW9aBdy4JJfSMZsbz5> with fellow surf and film lovers.
+
+
+      Read more <https://us.list-manage.com/16TksPMom1u?c2id=944927b628e367996f6a53da7340e920&m=0usoZEPvmpjnyvanCiYMErvrI5oSnN8h1-5JZ4gAyeVGjx7csGvfp28gcwaA>   Buy tickets <https://us.list-manage.com/n4ptIlrv5Zz?c2id=944927b628e367996f6a53da7340e920&m=ORzdUDCgC0WiPOVuMu2l9uululyaKJk8htpyPRP29Z9F50o3MJQrDdWGH9Qf>
+
+
+      BFI NATIONAL ARCHIVE PRESENTS: LIVING FOR KICKS 12A
+
+
+      1hr 5mins
+
+      Wed 16 Sept 10:30
+
+
+      Step into the burgeoning British youth culture of the 1950s and 60s with this selection of excerpts from the BFI National Archive’s Associated-Rediffusion collection.
+
+
+      \ * Introduced by Claire Simmons, Freelance Youth and Heritage Engagement Producer and Lisa Kerrigan, Senior Curator of Television at the BFI National Archive.
+
+      \ * Ticket holders are invited to join us afterwards in the Café & Bar to chat about the films with free tea and coffee.
+
+
+      Read more <https://us.list-manage.com/kHrvQkgXvVR?c2id=944927b628e367996f6a53da7340e920&m=nVCJ_68AbKkceCUMZF4NO2_TciMUuZwNCS0qnZDCejdYuhVt7eAtV0kKvwxa>   Buy tickets <https://us.list-manage.com/1Bdvi2Rts2S?c2id=944927b628e367996f6a53da7340e920&m=Ogn3ef2_JmyT8fbCIVqiZQtsWr1_XZlnyGlaI84D3HwGMdbmIqsTj7VQT1-z>
+
+
+      What's on <https://us.list-manage.com/5KgAM32L0pV?c2id=944927b628e367996f6a53da7340e920&m=cgPN6hIr58e_-m7Dkst8ebcfzGTi_eK2b4U1hm7m_2SKwsP93zeUoLCmckjs> Week ahead <https://us.list-manage.com/HnbjhiwonSu?c2id=944927b628e367996f6a53da7340e920&m=k2M7sGs0g6kQaC60ugdZs945SY-CD-Ou-VRbPDTNmoY8gFmQ-AYZSaLJDAy9> Calendar <https://us.list-manage.com/L7eOEG39coN?c2id=944927b628e367996f6a53da7340e920&m=gGj7Lv8KlcEOFCM0Lr9sXOn1jTzopEPqmCHpUs7QjqwqA5XxmIbaom6grJuY> Coming soon <https://us.list-manage.com/ykLIlPXGqeT?c2id=944927b628e367996f6a53da7340e920&m=Gkb4Hxd29RC3g_RQ35f4IyYvVytgpVrQchuyc8d0X5t6Bc6o_7IPzKnxTgry>
+
+
+      https://us.list-manage.com/GaOSXZ1XyEY?c2id=944927b628e367996f6a53da7340e920&m=o0XH1h_p8_ydLAoFzbgBzsjUvH-3q_13XTRnJXROthfddkV79-8QkoJZLadi
+
+
+      What happens when local people are given the opportunity to shape the future of culture?
+
+
+      In this mini-documentary <https://us.list-manage.com/63qF7oSeJM1?c2id=944927b628e367996f6a53da7340e920&m=SW74eQQRdAiP_1pqYEMYIhVmRUzj3n9u7l3yaukDaLbLICh42GvOddjcD0Ms>, assembly members share why they chose to take part in Citizens for Culture and why culture matters to them.
+
+
+      LAST CHANCE TO SEE SENTIENTS!
+
+
+      CLOSING SUN 13 SEPT
+
+
+      Our immersive exhibition of groundbreaking video games and virtual reality in Undershed is cloing its doors this Sunday. Come on down and explore if you haven't already!
+
+
+      Read more <https://us.list-manage.com/17myTMZwFUm?c2id=944927b628e367996f6a53da7340e920&m=LN_8kKsfRslzbOlAp3MMTEo9oC2nqvwLj0IbYWrxpRTDECujUeZ2mzS-6K-n>
+
+
+      BITTER CHRISTMAS 15 (S)
+
+
+      Dir: Pedro Almodóvar, Spain, Spanish, 2026, 1hr 51mins
+
+      Until at least Thu 17 Sept
+
+
+      To break his writer's block, a filmmaker draws desperate inspiration from his closest relationships in this rich Almodóvar melodrama.
+
+
+      \ * All screenings until Thu 17 Sept feature Audio Description.
+
+      \ * The Tue 15 Sept 17:50 screening features Descriptive Subtitles.
+
+
+      Read more <https://us.list-manage.com/fXhJCaDDNYk?c2id=944927b628e367996f6a53da7340e920&m=czu0x9WikGPXQ1p8To0wMUP43iTSl0oOYKBui-OxDv8Wr_YuWaVKL6-fnHIn>   Buy tickets <https://us.list-manage.com/mzFiSKyTMY7?c2id=944927b628e367996f6a53da7340e920&m=7Cdsds5-_WJuW5gexri6UC3E32TxVqPy_GVhBQ_8OcQVKWGQzgX8Gm-S_NIe>
+
+
+      SENTIENTS: AN IMMERSIVE VR & VIDEO GAME EXHIBITION 12
+
+
+      Until Sun 13 Sept
+
+
+      Open your animal eyes. An immersive exhibition of groundbreaking video games & virtual reality. A must-do this summer in Bristol's Undershed Gallery.
+
+
+      Read more <https://us.list-manage.com/OqaVT0zQZ6C?c2id=944927b628e367996f6a53da7340e920&m=mAq9IQk8M_AsVZ_gXKIT1Armtiyt0rf3xLi3IAssuQcUMFhUEpdQy0-JnEp_>   Buy tickets <https://us.list-manage.com/iU8T7bf7FJg?c2id=944927b628e367996f6a53da7340e920&m=CasLX_rHdnLVuIxQnYC7z-npalUEypQGvC3MydW64q_vlNVnTFHdUy-SsNE4>
+
+
+      SUPER NATURE PG (PS)
+
+
+      Dir: Ed Sayers, UK, English, Dutch, 2025, 1hr 22mins
+
+      Until at least Thu 17 Sept
+
+
+      A love letter to nature filmed exclusively on Super 8, Super Nature proposes a new way of seeing.
+
+
+      WATERSHED RECOMMENDS
+
+      \"The director describes watching Super 8 footage as almost like having your memories water-coloured for you. I couldn't agree more.\"
+
+      Gavin Sunderland, Environment Group Coordinator
+
+
+      \ * The Wed 9 Sept 20:40 screening features Descriptive Subtitles.
+
+
+      Read more <https://us.list-manage.com/4WnzPgE3rIR?c2id=944927b628e367996f6a53da7340e920&m=fbuhfPuDPZAufFVFQnoy3-iVx95aMp-hRJ_uBlmgy91Pcd1be4wDZlrF9piZ>   Buy tickets <https://us.list-manage.com/vL5LmAtYc6J?c2id=944927b628e367996f6a53da7340e920&m=Dpg_8iP3mYm5RObUW0U4gu4F3gLUbVqLi_Vi1dFhmFDa6vOQxe5dCO_tm7oP>
+
+
+      THE INCOMER 12A
+
+
+      Dir: Louis Paxton, Ireland, English, 2026, 1hr 42mins
+
+      Until at least Thu 17 Sept
+
+
+      Writer-director Louis Paxton's debut feature sees a nervy council official attempt to evict two siblings who have never had any human contact from their outside world.
+
+
+      \ * All screenings until Thu 17 Sept feature Audio Description.
+
+      \ * The Wed 16 Sept 14:40 screening is a Relaxed Screening <https://us.list-manage.com/9y3LLkyJAQp?c2id=944927b628e367996f6a53da7340e920&m=Hp4HN39pYij68L2Qjh2hkr3qFLfg3FB1gxiQRPpWrY3gAvNkILXH_4aVF1OJ> and features Descriptive Subtitles.
+
+      \ * The Thu 17 Sept 12:00 screening is a Masked and Socially Distanced Screening <https://us.list-manage.com/LsjaQ4nO5jq?c2id=944927b628e367996f6a53da7340e920&m=YNiNIFYB5Tkti48prMVlZUO4dhUZkqsLmCYCMoaIhvjEFDM2Lo6jDi_RwwWM> and features Descriptive Subtitles.
+
+
+      Read more <https://us.list-manage.com/D_7lbEpwFIO?c2id=944927b628e367996f6a53da7340e920&m=QhhMj8ldiimygUlRiepL7DbFGcjPRjbx3lAhjMZnEXSJbMZ3VzR-tdj6hJsC>   Buy tickets <https://us.list-manage.com/tXofHBbsen4?c2id=944927b628e367996f6a53da7340e920&m=6GfgQITug9nt3Gr_r30Od19DX5M8CBYspH5Vs42CrbK-CeC7_B9hVwairCtF>
+
+
+      TEENAGE SEX AND DEATH AT CAMP MIASMA 15
+
+
+      Dir: Jane Schoenbrun, USA, English, 2026, 1hr 52mins
+
+      Until at least Wed 16 Sept
+
+
+      Teenage Sex and Death at Camp Miasma is a new kind of horror remake from one of the most exciting new voices in cinema, starring Hannah Einbinder and Gillian Anderson.
+
+
+      \ * All screenings until Wed 16 Sept feature Audio Description.
+
+
+      Read more <https://us.list-manage.com/u_iHVliCcCL?c2id=944927b628e367996f6a53da7340e920&m=yhM0bAr06jNH8NvI5vb97VHFsCoAchMQkDMAX30UExdkdi6Pm68OBbC2lX2B>   Buy tickets <https://us.list-manage.com/TWeSkvoVMHA?c2id=944927b628e367996f6a53da7340e920&m=TIzA0HcXuJQwI3TLL7BqYs3ZgzsXntZ3YxcESTnsXx6fNmPKte5yeQ54OZ6A>
+
+
+      LEVITICUS 15
+
+
+      Dir: Adrian Chiarella, Australia, English, 2026, 1hr 28mins
+
+      Until at least Thu 17 Sept
+
+
+      A chilling sensation in queer horror from director Adrian Chiarella, Leviticus follows two lovestruck teenage boys who face off against supernatural evil in the wake of harrowing 'deliverance healing'.
+
+
+      \ * All screenings until Thu 17 Sept feature Audio Description.
+
+
+      Read more <https://us.list-manage.com/eQln7TXRsNb?c2id=944927b628e367996f6a53da7340e920&m=r_u1hUMbMMWeBI03lAtrdP4mpcJgBbyN3XpZhyV7iDl70JoCNcFLEV-69UFE>   Buy tickets <https://us.list-manage.com/CmGlnLCjKyg?c2id=944927b628e367996f6a53da7340e920&m=7Z2XUK6HxIhGEprtl7Bo5KpeGlnVagRohf5UGEtgJH5Ms0tTBAUYiiC3EfLw>
+
+
+      TONY 15
+
+
+      Dir: Matt Johnson, USA, English, 2026, 1hr 46mins
+
+      Until at least Thu 17 Sept
+
+
+      A 19-year-old Anthony Bourdain travels to Provincetown and stumbles into the chaotic world of a restaurant kitchen, setting off a summer that will shape the course of his life.
+
+
+      WATERSHED RECOMMENDS
+
+      \"Tony is great, Dominic Sessa was fantastic in his debut The Holdovers, and he brings that same fun energy to this film.\"
+
+      Lewis Benbow, Kitchen Porter
+
+
+      \ * All screenings until Thu 17 Sept feature Audio Description.
+
+
+      Read more <https://us.list-manage.com/QjaPu97qXyM?c2id=944927b628e367996f6a53da7340e920&m=Bez8W5L8cIga6958AalnSUA3jbs08wSFYBmnKW1pTtVnjjFk"
+    truncated: true
+  - messageId: "<9e55bbb0ee00abce7a4355c97.775f406f81.20260910093903.1a3ccc2cef.f15b2a1a@mail23.atl91.mcsv.net>"
+    receivedAt: "2026-09-10T09:39:09Z"
+    from:
+      name: "Watershed"
+      address: "bulletin@watershed.co.uk"
+    subject: "Accessible Screenings and Events coming up at Watershed"
+    listId: "9e55bbb0ee00abce7a4355c97.502077.list-id.mcsv.net"
+    webVersion: "https://mailchi.mp/c21e6615c136/accessible-screenings-and-events-in-august-and-september-4827028"
+    sourceId: "cinema/watershed"
+    matchedBy: "from:*@watershed.co.uk"
+    body: "View email in your browser <https://mailchi.mp/c21e6615c136/accessible-screenings-and-events-in-august-and-september-4827028>
+
+
+      UPCOMING ACCESSIBLE PROGRAMME
+
+
+      CONFIRMED SO FAR
+
+
+      Please read on to find out about our forthcoming accessible screenings and events...
+
+
+      SIGN UP TO OUR  <https://us.list-manage.com/w6x4Up1mnHC?c2id=944927b628e367996f6a53da7340e920&m=EAxA6dp9gDqsKHWFvOKd3LIOaA_n1oNvDPLp-yHOedcaXVLV3Ta5MfFzA9dQ>ACCESS REGISTER <https://us.list-manage.com/ooi8H4Yz1Ry?c2id=944927b628e367996f6a53da7340e920&m=yy0R6__rCKM_ssUbNdir2j_hn5_pcc2VnCLlmesHp2VTXAa0Q3NvEc1HsNqs>
+
+
+      The aim of our Access Register is to deliver the best possible experience for you when you visit.
+
+
+      You can find out more <https://us.list-manage.com/CqK0B6DHjD9?c2id=944927b628e367996f6a53da7340e920&m=FYzGdICmw7dq2j1FgO7Oo4qfwgaPYazj1UqN13k3-G9_IZBJgIQMBbtOcrkA> about this and you can also sign up in person at Box Office or by calling us on (0117) 927 5100 <tel:01179275100>.
+
+
+      We would love to know what you think. Drop us an email <communications@watershed.co.uk?subject=Access%20register> and let us know.
+
+
+      RELAXED SCREENINGS
+
+
+      Our next Relaxed <https://us.list-manage.com/x43smG5vIUo?c2id=944927b628e367996f6a53da7340e920&m=fWmoF_fDJ_6jWSX1knkQJP9vUZTruVVlNyUvaW1Lsxy2R_XzTcIqlqmgb5sz> screenings are:
+
+
+      \ * The Incomer <https://us.list-manage.com/ZwH1CcJa9L4?c2id=944927b628e367996f6a53da7340e920&m=SbfY3hS2Tq19emLRhcn_Eg6V_7US1QnfavhNcdONd5R0wlIzqlKgpGIMWIDC> Wed 16 Sept 14:40
+
+      \ * Shaun the Sheep: The Beast of Mossy Bottom <https://us.list-manage.com/u14P8eOz5Dd?c2id=944927b628e367996f6a53da7340e920&m=lGPuO_lZCkoOCW_Ns6pdHEfQQgNgcTZQIRRtlbpOjJwlRxfiffvikLA7kPLR> Sat 19 Sept 13:10
+
+
+      AUDIO DESCRIPTION, DESCRIPTIVE SUBTITLES, BSL INTERPRETATION AND MASKED AND SOCIALLY-DISTANCED SCREENINGS
+
+
+      TONY <https://us.list-manage.com/9h_p2wX581e?c2id=944927b628e367996f6a53da7340e920&m=lmJ_CGnsWc_-UmLAV3UNxq8RdSh88GqfiB3ikY5k5SVd9FPgfUo16dTWGCZA> (15)
+
+
+      A 19-year-old Anthony Bourdain travels to Provincetown and stumbles into the chaotic world of a restaurant kitchen, setting off a summer that will shape the course of his life.
+
+
+      \ * All screenings until Thu 17 Sept feature Audio Description.
+
+
+      TEENAGE SEX AND DEATH AT CAMP MIASMA <https://us.list-manage.com/_YrPKHNq3sf?c2id=944927b628e367996f6a53da7340e920&m=4iZiDjviXLfeofGQPtV8BuWG6apmRYZfBwE9svGfKAzW0hsmiSKCzZ8P4Eeu> (15)
+
+
+      Teenage Sex and Death at Camp Miasma is a new kind of horror remake from one of the most exciting new voices in cinema, starring Hannah Einbinder and Gillian Anderson.
+
+
+      \ * All screenings until Thu 17 Sept feature Audio Description.
+
+
+      THE INCOMER <https://us.list-manage.com/WXmacu03QQJ?c2id=944927b628e367996f6a53da7340e920&m=G_R2uDS70-cjSMu82MnrRB-rjvbhZcP9PaJaRXTIPAhHjSeooInI0AcoN2Ld> (12A)
+
+
+      Writer-director Louis Paxton's debut feature sees a nervy council official attempt to evict two siblings who have never had any human contact from their outside world.
+
+
+      \ * All screenings until Thu 17 Sept feature Audio Description.
+
+      \ * The Wed 16 Sept 14:40 screening features Descriptive Subtitles and is a Relaxed Screening.
+
+      \ * The Thu 17 Sept 12:00 screening is a Masked and Socially Distanced Screening and features Descriptive Subtitles.
+
+
+      LEVITICUS <https://us.list-manage.com/1BKulvQDD9T?c2id=944927b628e367996f6a53da7340e920&m=g97DHR22C9eLCwIU_1qX7IPo-g6d0Q7ZxCjWkeuOjGnSnpx3ZcrHdrLrpix1> (15)
+
+
+      Move over Heartstopper... this haunting debut has some teeth to it!  A chilling sensation in queer horror from director Adrian Chiarella, Leviticus follows two lovestruck teenage boys who face off against supernatural evil in the wake of harrowing 'deliverance healing'.
+
+
+      \ * All screenings until Thu 17 Sept feature Audio Description.
+
+
+      BITTER CHRISTMAS <https://us.list-manage.com/kUKnGjWysqA?c2id=944927b628e367996f6a53da7340e920&m=mLsk9gl4zOpXa06hJSeZeF4WO8qLNKWLVro6Hn4lvzKfhpBZfRTJgOfl0vLd> (15) S
+
+
+      To break his writer's block, a filmmaker draws desperate inspiration from his closest relationships in this rich Almodóvar melodrama.
+
+
+      \ * All screenings until Thu 17 Sept feature Audio Description.
+
+      \ * The Thu 10 Sept 14:40 screening is a Masked and Socially Distanced Screening.
+
+      \ * The Thu 15 Sept 17:50 screening features Descriptive Subtitles.
+
+
+      SUPER NATURE <https://us.list-manage.com/s7bIVERlMH3?c2id=944927b628e367996f6a53da7340e920&m=ArYziZmzlNTwJM43fMwldwaugKyYiNR6YI_lU29cUofwSB-zKQzeW0AIxW3U> (PG) PS
+
+
+      A love letter to nature filmed exclusively on Super 8, Super Nature proposes a new way of seeing. A celebration of all we have and reflecting on all we have to lose, this global co-creation project journeys across 25 different countries, creating a visceral, poetic and personal meditation on the natural world.
+
+
+      \ * The Mon 14 Sept 15:10 screening features Descriptive Subtitles.
+
+
+      BAD APPLES <https://us.list-manage.com/vkau4mzqTqt?c2id=944927b628e367996f6a53da7340e920&m=_13M9n3nJSzoRV_SF1OLDOtz9XJ0HgEVjJ6ne9gVhmzwAluS3VkuuBNUVtPR> (15)
+
+
+      A struggling primary school teacher begins to make some questionable decisions after one of her students is injured.
+
+
+      \ * All screenings Fri 18 - Tue 29 Sept feature Audio Description.
+
+      \ * The Sun 20 Sept 17:20, Tue 22 Sept 17:50 and Mon 28 Sept 20:30 screenings feature Descriptive Subtitles.
+
+
+      EVERYBODY DIGS BILL EVANS <https://us.list-manage.com/C4I7Mxy5PmX?c2id=944927b628e367996f6a53da7340e920&m=b33cYhXtQKrl9M0zrTvSlkFHThYmT7EPsXkcY9VSwVWNfUep6tRsj-uJJH1Z> (15)
+
+
+      Winner of the Silver Bear for Best Director at the 2026 Berlin Film Festival, Everybody Digs Bill Evans is a biographical drama film about the famous jazz pianist and composer Bill Evans.
+
+
+      \ * All screenings until Thu 17 Sept feature Audio Description.
+
+
+      THE CYCLE OF LOVE <https://us.list-manage.com/txQp9gv0Zk5?c2id=944927b628e367996f6a53da7340e920&m=lyhG9EFZY--5nUZpTjgMbqZFLKYoEpBItVaURsY0PKa8Q3ujHiscrHV_FZ5h> (12A) S
+
+
+      A love story like no other, The Cycle of Love is an inspiring, heart-warming, epic true-life adventure about self-belief, destiny and the courage to risk everything for love, traversing continents in a journey spanning Delhi to Sweden.
+
+
+      \ * The Fri 18 Sept 11:00 screening is an Elevenses Screening <https://us.list-manage.com/111OzYQ7mPt?c2id=944927b628e367996f6a53da7340e920&m=Z_SLicr7Wnh79_1NdtBmEtSmk652b2aDbTGEyvJt_uHiGCbCCxYHtfEyUnxb> and features Descriptive Subtitles.
+
+      \ * The Mon 21 Sept 18:00 screening features Descriptive Subtitles and is followed by Deaf Conversations about Cinema <https://us.list-manage.com/68EG84mxShl?c2id=944927b628e367996f6a53da7340e920&m=AWL2qj4Iz54QwzvPKBuFIqXlatbFHnXssQbkE1XN7rlZ_whRjH0a6gZeZO2z>, which features BSL interpretation.
+
+
+      SHAUN THE SHEEP: THE BEAST OF MOSSY BOTTOM <https://us.list-manage.com/KTEpZAa_2Kh?c2id=944927b628e367996f6a53da7340e920&m=WFoB8oPa--M59O7na4jdEeWti5qeQN_YVagVvh9MMVlqWEjV6xOoIEMdYjJZ> (U)
+
+
+      Shaun the Sheep: The Beast of Mossy Bottom sees the residents of Mossy Bottom Farm looking forward to Halloween – until the clumsy Farmer trashes the Flock’s beloved pumpkin patch!
+
+
+      \ * All screenings Fri 18 - Sat 26 Sept feature Audio Description.
+
+      \ * The Sat 19 Sept 13:10 features Descriptive Subtitles and is a Relaxed Screening.
+
+      \ * The Mon 21 Sept 14:50 screening features Descriptive Subtitles.
+
+
+      LUNCHTIME TALK: MY DEAF ARTISTIC JOURNEY <https://us.list-manage.com/B7adMkGR2Uv?c2id=944927b628e367996f6a53da7340e920&m=oSZexMOVDFAbwopz_fMzh373O9mnk7ZnGkmyFLlnIOZqFW93HTqm_4x0Di8O>
+
+
+      In this Lunchtime Talk, Jonny Cotsen <https://us.list-manage.com/1CcQLxY9Euw?c2id=944927b628e367996f6a53da7340e920&m=-jle5VymJ4GBmuRDzXC0OpDZYSCBaLCWbJ5jrvadvsZyai82adW3rX38xuDr> will share his artistic journey as a Deaf artist, performer and creative practitioner.
+
+
+      He will talk about where his creative journey began (at Pervasive Media Studio <https://us.list-manage.com/xzklYabCYPN?c2id=944927b628e367996f6a53da7340e920&m=-oLMvSjFrfU2t5TRxPdLobBCDkt9eydCNXc353ZjoQ7kPtnOjAOlJ4mHmync>), the experiences that shaped him, and how being Deaf has influenced the way he sees, makes and experiences art.
+
+
+      \ * This talk on Fri 26 Sept 13:00 features BSL interpretation.
+
+
+      HOW DEEP IS YOUR LOVE <https://us.list-manage.com/PxXvkz38evH?c2id=944927b628e367996f6a53da7340e920&m=GesUL0L-ti08hLPVRHbEnRSDeP1MrN8_ejpRqLVc6BOFbtXe2PNh5-WKItBP> (12A)
+
+
+      How Deep Is Your Love follows a group of marine biologists trying to understand life in this unknown world, while grappling with the question of whether their presence risks harming what they seek to protect. A visually hypnotic and deeply absorbing journey in which every discovery reshapes our understanding of the planet.
+
+
+      \ * The Tue 6 Oct 18:00 Q&A screening features Audio Description.
+
+
+      WHAT IS AUDIO DESCRIPTION?
+
+
+      Audio Description (AD) is a service for partially sighted or blind people. The film's main soundtrack plays through the cinema speakers in the usual manner. But AD users listen to a specially recorded narrator through a set of headphones. The recording details what's happening on the screen. The service is like listening to a football or cricket match on the radio.
+
+
+      The AD headphones are available to collect from Box Office. You can pick up your headphones when you pick up your tickets before the film screening.
+
+
+      Please check our calendar for our latest AD screenings <https://us.list-manage.com/1AZk2fxkzBK?c2id=944927b628e367996f6a53da7340e920&m=EYBrVZ5KlgVIECmCn706tI8khUyi6WIwMdNC9DtsUct5v8xvoJvBhuD8rUES>
+
+
+      WHAT IS DESCRIPTIVE SUBTITLING?
+
+
+      Descriptive Subtitling (DS) is a service for our Deaf and hard of hearing customers. It displays extra auditory information on the screen.
+
+
+      As well as showing the dialogue, DS provides information about other significant sounds. For example: when something is being sung; when a phone rings; or when a door slams. This allows customers using the subtitles to access the film more fully.
+
+
+      Please check our calendar for our latest DS screenings <https://us.list-manage.com/jWSZtto4ngF?c2id=944927b628e367996f6a53da7340e920&m=CMUgX4JJ2wBX-oBkNyCwmS-sErv7Uo6lJseeFn4ZBaY9Fm6VtbyD7-MHyotu>
+
+
+      WHAT IS A RELAXED SCREENING?
+
+
+      We have designed Relaxed Screenings (RV) to benefit our customers with extra needs. They could be for those living with dementia, autism, or other neurodivergent people. It is also for their personal assistants, friends and family. Anyone who wants to enjoy a film in a more relaxed environment is welcome.
+
+
+      Here's what you can expect at a Relaxed Screening:
+
+
+      \ * The capacity for the cinema will be set at 60% to ensure there's enough room between audience members.
+
+      \ * The cinema doors will open 20 minutes before the screening start time.
+
+      \ * We won't show any trailers or adverts and the film will start at its advertised start time.
+
+      \ * The lights will be up a little.
+
+      \ * The sound will be down a little.
+
+      \ * You are welcome to move around the cinema, to talk and make noise, and to exit and enter the cinema as you please.
+
+      \ * There will be lots of space in the cinema so you can spread out or lie down if you choose. It is very informal and yoga mats and beanbags will be available.
+
+      \ * We will screen films with Descriptive Subtitles whenever they are available.
+
+      \ * We will provide a separate quiet space where you can chill out if you need to.
+
+      \ * Our staff will be around to help with whatever you need.
+
+
+      Please check our calendar for our latest Relaxed Visits and Screenings <https://us.list-manage.com/1CJxFoTOzYr?c2id=944927b628e367996f6a53da7340e920&m=kNivr5fgNz-Khvbb8oRADiwLLDebgitPYUy-Wu_Hch5VHjWBSaNURYgC1iAi>
+
+
+      WHAT IS HORIZONTAL CINEMA?
+
+
+      Many people need to rest in public if they are to be part of our community. We have worked with disabled artist Raquel Meseguer Zafe to create Horizontal Cinema. This means you can request a bean bag or a yoga mat and cushion to watch any screening of any film.
+
+
+      Here’s how:
+
+
+      \ * Call the Box Office on 0117 927 5100 <tel:01179275100>.
+
+      \ * Ask to do Horizontal Cinema and specify whether you’d like a yoga mat or a bean bag.
+
+
+      WHAT ARE MASKED AND SOCIALLY DISTANCED SCREENINGS?
+
+
+      We designed Masked and Socially-Distanced (MSD) Screenings for our most vulnerable audience members.
+
+
+      In the cinemas, we sell MSD Screenings at 25% capacity and they have every other row of seats blocked off. If you attend one of these screenings wearing a mask is mandatory. Our Box Office and Front of House staff will also be wearing mask at these screenings.
+
+
+      HOW DO I BOOK TICKETS?
+
+
+      To book tickets call Box Office on (0117) 927 5100 <tel:01179275100> or book online <https://us.list-manage.com/a441yIKWIvW?c2id=944927b628e367996f6a53da7340e920&m=Cb2WBNjPgrgD-HS4Byf2lRI6fFO0r4_9GE4O9ulTU8FYvBaW3e24SJzqq1P6>.
+
+
+      SUGGESTIONS
+
+
+      If you have any suggestions or ideas on how best to deliver these services we would love for you to get in touch.
+
+
+      You can email us <communications@watershed.co.uk?subject=Accessible%20Programme>.
+
+
+      Write to us at: Communications Dept, Watershed, 1 Canons Road, Bristol, BS1 5TX.
+
+
+      For the latest information on our accessible programme please visit our website <https://us.list-manage.com/3rkYAe6uzPT?c2id=944927b628e367996f6a53da7340e920&m=LHXzWwyugt7BcHoKji77ZG4WLOr7z-8pg1M7LETFVqP_QHlHasBLXxpuRdFY>.
+
+
+      Watershed
+
+      1 Canons Road
+
+      Harbourside
+
+      Bristol
+
+      BS1 5TX <https://us.list-manage.com/tjMW8WGYGR4?c2id=944927b628e367996f6a53da7340e920&m=3p0J657G9DT3jNOAA8gX30XFzabpZQV8mqMqaTUY82QdrwYHzgeqkPt-fXDo>
+
+
+      info@watershed.co.uk
+
+
+      watershed.co.uk <https://us.list-manage.com/_SWUlyWFhqm?c2id=944927b628e367996f6a53da7340e920&m=QNy9Shw7tLFzmona4hIV1thlui4L41WeaIGXi2oIVBMQnOJGjRbKAzNpzl0t>
+
+      Facebook <https://us.list-manage.com/19dqS88AvDF?c2id=944927b628e367996f6a53da7340e920&m=XUaBYeBq_eSNLWTO2rvHhnrtroxI7n-TFouoza897T07EMFs71fnhWtH5Nex>
+
+      Instagram <https://us.list-manage.com/CAn5JzbC6vw?c2id=944927b628e367996f6a53da7340e920&m=tNE-TF4lr9RBf2OfDGJYw49VNjRfOEyktkIdmopDBrr5yzXG-RWOafJ5Bk66>
+
+
+      Update your mailing list preferences <https://us.list-manage.com/10Bx5BeGeSJ?c2id=944927b628e367996f6a53da7340e920&m=8dJGp-ptdmNRMVHEt11oeiwiUbAjf4bOgdHMaKFxOQIg56KW_x-k10pw7fFNYUnUWTrjWPSlKefolsSx1M84qyyDI4keLpyswhqQcyfyRNzV8uC-xp8I7J9nb0nUwYYDYDrEIWXd4UdHMWD_aIY%3D> or unsubscribe <https://watershed.us9.list-manage.com/unsubscribe?u=9e55bbb0ee00abce7a4355c97&id=3698a6a502&t=b&c=1a3ccc2cef> all mailing lists.
+
+
+      Privacy <https://us.list-manage.com/BWQCnayzgus?c2id=944927b628e367996f6a53da7340e920&m=PaEHjdjLM3MtCZy7PLQriel5yCBkKTgbTtr27n1TCkLS8BCDkmClsTQIFkF6>
+
+      Statement of Commitments <https://us.list-manage.com/12_SypS1ox9?c2id=944927b628e367996f6a53da7340e920&m=SuEpX5jyVeSl06VzNyNLozvl3_1R3LK5wzmbSfS5V6Z0sX3nqdI4XP9UBzSS>
+
+
+      https://us.list-manage.com/J3flHq4k_hq?c2id=944927b628e367996f6a53da7340e920&m=uY2jRwbI0YMiQvHMnCV_2mJTiSugnL2WbZ7ECzOdjbzyl8wUvttHsm6IdgSV      https://us.list-manage.com/tGjlCXlJGwy?c2id=944927b628e367996f6a53da7340e920&m=gEs77ozh-51dGlEYDfutjOogSmrHUPhr2kSUI1XxyRbyA3OUsF8-exvq0Gz7 https://us.list-manage.com/N8OaJgK3VmL?c2id=944927b628e367996f6a53da7340e920&m=xRmzkcAQaeFPrD_5LHgk8Z969RImzun7wjWHj24dMc_dsabRMPui3aXQqcuT      https://us.list-manage.com/1CIFKBEuGCO?c2id=944927b628e367996f6a53da7340e920&m=0KGPN9Txu2PumZawGKruHwgPI4OCIvXbOP1bmjIM-WlUxN1ndDiaWFKTyDNw
+
+
+      Watershed is a Registered Charity No. 284188."
+    truncated: false

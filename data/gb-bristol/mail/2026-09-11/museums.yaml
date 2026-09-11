@@ -1,0 +1,67 @@
+schema: "whazzon.mail/1"
+locationId: "gb-bristol"
+date: "2026-09-11"
+category: "museums"
+pulledAt: "2026-09-11T17:56:30Z"
+mailbox: "INBOX"
+messages:
+  - messageId: "<cmukref.A2E373161.EB2622471.CMP10407CON1460.9.Z.RCP0.0.0.11.1.8.0.Z.202608291145122741040749698.1@e.aerospacebristol.org>"
+    receivedAt: "2026-08-29T10:45:12Z"
+    from:
+      name: "Aerospace Bristol"
+      address: "welcome@e.aerospacebristol.org"
+    subject: "Welcome aboard"
+    listId: "Z"
+    webVersion: "https://cmemailmarketing.co.uk/A2E373161-CMP10407CON1460-RCP0-4-Z-1-Z-Z-0-0-Z-Z-11-1-8-0"
+    sourceId: "museums/aerospace-bristol"
+    matchedBy: "from:*@*.aerospacebristol.org"
+    body: "Your next e-newsletter is waiting in departures...
+
+
+      View Online <https://cmemailmarketing.co.uk/A2E373161-CMP10407CON1460-RCP0-4-Z-1-Z-Z-0-0-Z-Z-11-1-8-0> | Forward to a Friend <https://cmemailmarketing.co.uk/A2E373161-CMP10407CON1460-RCP0-6-Z-1-Z-Z-1-0-Z-Z-11-1-8-0> | Add to Safe Senders <http://www.addtosenders.com/>
+
+
+      Hi Whazzon welcome aboard!
+
+
+      We’re excited to share our news, updates and events with you so sit back, relax, fasten your seatbelt and prepare for us to land in your inbox.
+
+
+      CAN'T WAIT?
+
+
+      Check out our socials for live Aerospace Bristol updates. Don't be shy, get involved and leave us a like, share or say hi in the comments!
+
+
+      https://www.facebook.com/aerospacebristolhttps://www.linkedin.com/company/bristol-aero-collectionhttps://www.instagram.com/aerospacebristol/?hl=enhttps://www.tiktok.com/@aerospacebristol
+
+
+      https://cmemailmarketing.co.uk/A2E373161-CMP10407CON1460-RCP0-1-TRK4463ENT10407-1-Z-Z-0-0-Z-Z-11-1-8-0
+
+
+      Take a peek at the Bloomberg Connects App <https://cmemailmarketing.co.uk/A2E373161-CMP10407CON1460-RCP0-1-TRK4464ENT10407-1-Z-Z-0-0-Z-Z-11-1-8-0> to look inside the museum... 👀
+
+
+      READY FOR TAKE-OFF?
+
+
+      We're very happy to tell you that when you book your tickets online you can get 10% off! Click the link below to start your adventure for less.
+
+
+      Book Tickets <https://cmemailmarketing.co.uk/A2E373161-CMP10407CON1460-RCP0-1-TRK4465ENT10407-1-Z-Z-0-0-Z-Z-11-1-8-0>
+
+
+      https://cmemailmarketing.co.uk/A2E373161-CMP10407CON1460-RCP0-1-TRK4466ENT10407-1-Z-Z-0-0-Z-Z-11-1-8-0
+
+
+      Thank you for joining us ✈️
+
+
+      The Aerospace Bristol Team
+
+
+      www.aerospacebristol.org <https://cmemailmarketing.co.uk/A2E373161-CMP10407CON1460-RCP0-1-TRK4467ENT10407-1-Z-Z-0-0-Z-Z-11-1-8-0>
+
+
+      Unsubscribe <https://cmemailmarketing.co.uk/A2E373161-CMP10407CON1460-RCP0-9-Z-1-Z-Z-0-0-Z-Z-11-1-8-0>"
+    truncated: false

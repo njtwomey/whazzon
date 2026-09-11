@@ -1,0 +1,17 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-09-11"
+category: "food-drink"
+harvestedAt: "2026-09-11T17:24:42Z"
+prompt:
+  name: "stage2-harvest"
+  version: "5"
+model: "claude-opus-5"
+observations:
+  - sourceId: "food-drink/wapping-wharf"
+    fetch:
+      ok: true
+      url: "https://www.wappingwharf.co.uk/latest-news"
+      status: 200
+    events: []
+    notes: "Nothing on. The news feed (Wix, 20 posts, no pagination) has no post newer than 17 June; the only event it carries is the 10-year anniversary celebration, and its post body dates it \"Friday 3rd July, 5pm\" — a Friday in 2026, so it has passed and is not recorded. Every other post is a trader opening announcement or a 2023–2024 Christmas guide. Two fetches: the feed and the anniversary post."

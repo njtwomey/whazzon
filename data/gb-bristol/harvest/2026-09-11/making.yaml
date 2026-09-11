@@ -1,0 +1,225 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-09-11"
+category: "making"
+harvestedAt: "2026-09-11T17:27:30Z"
+prompt:
+  name: "stage2-harvest"
+  version: "5"
+model: "claude-opus-5"
+observations:
+  - sourceId: "making/the-island"
+    fetch:
+      ok: true
+      url: "https://mailchi.mp/artspace/2026-21073056"
+      via: "mail"
+      mailFile: "data/gb-bristol/mail/2026-09-11/making.yaml"
+    events:
+      - id: "making/the-island#9f12393ddb"
+        sourceId: "making/the-island"
+        title: "The Liberties"
+        occurrence:
+          kind: "run"
+          start: "2026-09-17"
+          end: "2026-09-20"
+        status: "scheduled"
+        timesText: "12:00–18:00"
+        price:
+          free: true
+          text: "Free and open to the public"
+        tags:
+          - "exhibition"
+          - "painting"
+          - "free-entry"
+        raw: "**THE LIBERTIES EXHIBITION**
+
+
+          The Liberties, is a deeply personal reflection by artist Gearoid Simms on growing up in Dublin's historic Liberties area.
+
+
+          Simms possesses a unique ability to recount memories with striking clarity, and has channelled this gift into a body of work that captures both the vibrancy and the complexity of his hometown.
+
+
+          \"The Liberties was, and still is, a great place to grow up. Its streets were full of life, both commercial and domestic. The people were talkative and witty. Yet many of its children suffered through heroin, and today the area is no longer a market and trading hub but one defined by digital and technology culture.\"
+
+
+          Simms invites the public to look deeply into these paintings and, through them, to reflect on their own past.
+
+
+          Free and open to the public 17th - 20th September, 12 - 6pm.
+
+
+          [The Island Gallery](https://us.list-manage.com/QgfUm5r2nG1?c2id=5d93719d43fa326bdad19fdd9203ff9a), Bridewell Street, Bristol. BS1 2QD\n"
+        summary: "Four days of paintings by Gearoid Simms recalling a childhood in Dublin's Liberties — its street life and wit, and the heroin years that followed — in The Island Gallery on Bridewell Street. Free, no booking."
+        confidence: "high"
+      - id: "making/the-island#faf820320f"
+        sourceId: "making/the-island"
+        title: "Aerial Loop Straps Class"
+        occurrence:
+          kind: "recurring"
+          pattern: "Wednesdays 6.30-7.30pm"
+          startTime: "18:30"
+        status: "scheduled"
+        url: "https://us.list-manage.com/7pTK5zeB59l?c2id=5d93719d43fa326bdad19fdd9203ff9a"
+        price:
+          free: false
+          text: "£16, book via bookaby"
+          min: 16
+          max: 16
+          currency: "GBP"
+        tags:
+          - "circus"
+          - "weekly"
+          - "booking-required"
+        raw: "**AERIAL LOOP STRAPS CLASS**
+
+
+          Led by experienced aerialist Molly Whitehouse this new Aerial Circus class for adults uses the apparatus Loop Straps. It's a fun and exciting way to build strength, fitness and flexibility.
+
+
+          Cost is £16, [book via bookaby](https://us.list-manage.com/7pTK5zeB59l?c2id=5d93719d43fa326bdad19fdd9203ff9a)
+
+
+          Wednesdays 6.30-7.30pm
+
+
+          [The Island Circus Training Space](https://us.list-manage.com/m5mRfhScPdi?c2id=5d93719d43fa326bdad19fdd9203ff9a), Nelson Street, BS1 2LE.\n"
+        summary: "A new weekly aerial circus class for adults on loop straps, led by aerialist Molly Whitehouse in The Island's circus training space on Nelson Street. £16 a session, booked through Bookaby."
+        confidence: "high"
+      - id: "making/the-island#a75b8679f1"
+        sourceId: "making/the-island"
+        title: "Fish Tank"
+        occurrence:
+          kind: "recurring"
+          pattern: "The first Wednesday of every month, 7 - 10pm (launching September 2026)"
+          startTime: "19:00"
+        status: "scheduled"
+        price:
+          free: true
+          text: "Drop in, no fee"
+        tags:
+          - "open-mic"
+          - "poetry"
+          - "experimental"
+          - "free-entry"
+          - "drop-in"
+        raw: "**FISH TANK**
+
+
+          If you've ever wanted a space to just try your work outside the confines of your mind and to share it with an open and welcoming audience, this is your chance.
+
+
+          Fish Tank is a monthly open mic night for the unpolished, newly crafted and the experimental. Launching in September, every first Wednesday of the month, The Island Gallery will make space for Bristol's creatives.
+
+
+          Open to spoken word, song, poetry, experimental sounds, and anything new.
+
+
+          This is a trial run for this series, and if successful or a community forms, we can continue holding space for it!
+
+
+          Drop in, no fee.
+
+
+          The first Wednesday of every month, 7 - 10pm
+
+
+          [The Island Gallery](https://us.list-manage.com/1C_gripcdBl?c2id=5d93719d43fa326bdad19fdd9203ff9a), Bridewell Street, Bristol. BS1 2QD\n"
+        summary: "A monthly open mic in The Island Gallery for spoken word, song, poetry and experimental sound — unpolished and new work welcome. First Wednesday of the month, drop in, free; the venue calls it a trial run."
+        confidence: "high"
+      - id: "making/the-island#f88ef04df6"
+        sourceId: "making/the-island"
+        title: "Kinship"
+        occurrence:
+          kind: "run"
+          start: "2026-09-22"
+          end: "2026-09-27"
+        status: "scheduled"
+        timesText: "Opening night Tue 22 Sep 18:00–21:00; then Wed 23–Sun 27 Sep 09:00–16:00"
+        price:
+          free: true
+          text: "Free and open to the public"
+        tags:
+          - "exhibition"
+          - "photography"
+          - "free-entry"
+        raw: "**KINSHIP**
+
+
+          Kinship brings together the work of seven Photographic artists, whose work seeks to understand the world around us. Through varied perspectives and approaches, the works shown explore connections between people, place, objects and lived experience.
+
+
+          Opening night, 22nd September 6-9pm
+
+
+          Free and open to the public 23-27th September, 9am-4pm
+
+
+          [The Island Gallery](https://us.list-manage.com/KQE67yIVQTo?c2id=5d93719d43fa326bdad19fdd9203ff9a), Bridewell Street, Bristol. BS1 2QD\n"
+        summary: "Seven photographers on the ties between people, place and objects, in The Island Gallery for a week — an evening opening on the Tuesday, then free daytime viewing through the Sunday."
+        confidence: "high"
+      - id: "making/the-island#190d53602b"
+        sourceId: "making/the-island"
+        title: "The Island Open Studios"
+        occurrence:
+          kind: "run"
+          start: "2026-10-16"
+          end: "2026-10-18"
+        status: "scheduled"
+        timesText: "Artists' Exhibition Fri 16 Oct 12:00–17:00; Open Studios Sat 17 Oct 12:00–17:00 and Sun 18 Oct 12:00–16:00"
+        tags:
+          - "open-studios"
+          - "exhibition"
+          - "tour"
+          - "multi-day"
+        raw: "**THE ISLAND OPEN STUDIOS - SAVE THE DATE**
+
+
+          Your annual chance to see all the hidden areas of The Island is just around the corner.
+
+
+          Join in a taster dance class, see the creative spaces of musicians and artists and marvel at the skills of our Circus Space members, take a tour of the building culminating in the impressive Island Studio Holders' art exhibition.
+
+
+          Artists' Exhibition, 16th October, 12-5pm
+
+
+          Open Studios, 17th 12-5pm & 18th 12-4pm
+
+
+          [The Island](https://us.list-manage.com/ci2n83K6P0Q?c2id=5d93719d43fa326bdad19fdd9203ff9a), Nelson Street, Bristol. BS1 2LE\n"
+        summary: "The Island's annual open weekend: a studio-holders' art exhibition on the Friday, then two afternoons of open studios with building tours, a taster dance class and the circus space in action. Announced as a save-the-date; no booking details yet."
+        confidence: "medium"
+      - id: "making/the-island#0f0cd710d8"
+        sourceId: "making/the-island"
+        title: "Shared Lives, Shared Futures"
+        occurrence:
+          kind: "run"
+          start: "2026-09-02"
+          end: "2026-10-11"
+        status: "scheduled"
+        venue:
+          name: "Sparks Bristol"
+          address:
+            street: "78 Broadmead"
+            city: "Bristol"
+            postcode: "BS1 3JA"
+        tags:
+          - "exhibition"
+          - "photography"
+        raw: "**SHARED LIVES, SHARED FUTURES**
+
+
+          Sparks Bristol has been chosen to host a photography exhibition celebrating The United Nations 80th anniversary.
+
+
+          'Shared Lives, Shared Futures' brings together over 200 inspiring stories from around the world, showcasing how the UN shapes our daily lives—from peace and security to humanitarian action and sustainable development. Bristol will be showcasing 35 curated panels.
+
+
+          Ground floor exhibition area, 2nd September - 11th October
+
+
+          [Sparks Bristol](https://us.list-manage.com/8n8MRwr6Rqh?c2id=5d93719d43fa326bdad19fdd9203ff9a), 78 Broadmead, Bristol. BS1 3JA\n"
+        summary: "A touring photography exhibition for the UN's 80th anniversary — 35 panels from a set of 200 stories on peace, humanitarian work and sustainable development — on the ground floor of Sparks Bristol in Broadmead until 11 October. No opening hours or price given."
+        confidence: "high"
+    notes: "Mail-only observation: the source was not due a web fetch and artspace.uk was not visited this run. All 6 events are from the Artspace Lifespace September newsletter (sent 1 Sep 2026). The mail file's other message, a Mailchimp \"please confirm subscription\" request of 29 Aug from marketing@artspace.uk, carries no events; the newsletter that followed shows the subscription took. Not recorded: the Vocal Practice Workshop (2 Sep, already past), and the closing \"Elsewhere in Bristol\" paragraph of one-line pointers to other organisations (Invisible Circus at Prospect Building, the Lost Paintings Project at Bristol Museum, Kidical Mass on the 19th, Jamaica Street Studios open, Centrespace Gallery), which belong to their own sources. The regular weekly class programme in the catalogue hints is not in the newsletter and is left to carry from the 17 Aug web observation. Every link in the message is a Mailchimp redirect (us.list-manage.com/...) whose destination could not be checked without a fetch, so `url` is set only on the Loop Straps class, where the message names the link as its booking link. Shared Lives, Shared Futures is at Sparks Bristol, 78 Broadmead — another Artspace Lifespace venue, not catalogued — and carries a venue. The Liberties, Fish Tank and Kinship are in The Island Gallery, whose printed address is Bridewell Street BS1 2QD rather than the catalogued Nelson Street; same building, no venue set. Tag coined: open-studios."

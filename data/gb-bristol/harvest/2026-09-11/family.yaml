@@ -1,0 +1,177 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-09-11"
+category: "family"
+harvestedAt: "2026-09-11T17:27:17Z"
+prompt:
+  name: "stage2-harvest"
+  version: "5"
+model: "claude-opus-5"
+observations:
+  - sourceId: "family/childrens-scrapstore"
+    fetch:
+      ok: true
+      url: "https://us12.campaign-archive.com/?u=199fe9c03a0b3b4b8c516e1dd&id=84ab6c2b45"
+      via: "mail"
+      mailFile: "data/gb-bristol/mail/2026-09-11/family.yaml"
+    events:
+      - id: "family/childrens-scrapstore#c3052b9ea4"
+        sourceId: "family/childrens-scrapstore"
+        title: "Picnic in the Park"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+          startTime: "14:00"
+          endTime: "17:00"
+        status: "scheduled"
+        timesText: "Scrapstore scrap hat making 2pm - 5pm; the festival runs 2pm - 6pm"
+        venue:
+          name: "Mina Road Park"
+          area: "St Werburghs"
+        url: "https://us.list-manage.com/mGx0AJxHZtR?c2id=189f808a56f9b99c0adb21d5d841853d"
+        price:
+          free: true
+          text: "free"
+          currency: "GBP"
+        tags:
+          - "family"
+          - "kids"
+          - "crafts"
+          - "outdoor"
+          - "free-entry"
+        raw: "**ST WERBURGHS COMMUNITY CENTRE**
+
+
+          Children's Scrapstore will be in the Kids Zone at [Picnic in the Park](https://us.list-manage.com/mGx0AJxHZtR?c2id=189f808a56f9b99c0adb21d5d841853d) in Mina Road Park for some free scrap hat making from 2pm - 5pm!
+
+
+          St Werburghs Community Centre are running this free mini community festival with a range of music, workshops and activities from 2pm - 6pm on Saturday 12th September.\n"
+        summary: "Free scrap hat making from the Scrapstore in the Kids Zone of St Werburghs Community Centre's Picnic in the Park, a free mini festival of music, workshops and activities in Mina Road Park."
+        confidence: "high"
+      - id: "family/childrens-scrapstore#91052a1b9b"
+        sourceId: "family/childrens-scrapstore"
+        title: "Messy Play"
+        occurrence:
+          kind: "recurring"
+          pattern: "term time Tuesdays and Wednesdays, returning from the 15th of September"
+          start: "2026-09-15"
+        status: "scheduled"
+        url: "https://us.list-manage.com/15EgRQxEUAO?c2id=189f808a56f9b99c0adb21d5d841853d"
+        price:
+          free: false
+          currency: "GBP"
+        tags:
+          - "kids"
+          - "family"
+          - "hands-on"
+          - "weekly"
+        raw: "**TERM TIME MESSY PLAY RETURNS**
+
+
+          Our term time Messy Play sessions where under 5s can explore different sensory activities are returning from the 15th of September.
+
+
+          Tuesdays are taste safe and have no small parts, while Wednesdays are maximum mess with paint, glue, scissors & some small parts.
+
+
+          Older siblings always welcome at messy play!
+
+
+          You can find out more on our website [linked here](https://us.list-manage.com/15EgRQxEUAO?c2id=189f808a56f9b99c0adb21d5d841853d).
+
+
+          All profits made from our paid events directly go back into our charity and allow us to continue our mission of diverting reusable materials away from waste and towards play, art and educational opportunities.\n"
+        summary: "Under-fives sensory play returns for the term on Tuesdays and Wednesdays from 15 September: Tuesdays taste-safe with no small parts, Wednesdays maximum mess with paint, glue and scissors. A paid session; older siblings welcome."
+        confidence: "high"
+      - id: "family/childrens-scrapstore#67b595940e"
+        sourceId: "family/childrens-scrapstore"
+        title: "Super Scrap Costume Crafts for Sustainable Fashion Week"
+        occurrence:
+          kind: "single"
+          date: "2026-10-03"
+          startTime: "10:00"
+        status: "scheduled"
+        timesText: "10:00am - 12:00pm and 2:00pm - 4:00pm"
+        url: "https://us.list-manage.com/9AIbcIhqWAF?c2id=189f808a56f9b99c0adb21d5d841853d"
+        price:
+          free: true
+          text: "free"
+          currency: "GBP"
+        tags:
+          - "family"
+          - "kids"
+          - "crafts"
+          - "free-entry"
+          - "drop-in"
+        raw: "**FREE SUPER SCRAP COSTUME CRAFTS FOR SUSTAINABLE FASHION WEEK**
+
+
+          As part of being a hub for [Sustainable Fashion Week](https://us.list-manage.com/uekCh3Kdh1X?c2id=189f808a56f9b99c0adb21d5d841853d), on Saturday 3rd & Sunday 4th of October, we will be decorating white gauze scarves saved from waste with scrap fabrics, pens and sticky back to create an unique outfit that you can wear over your normal clothes!
+
+
+          This free drop-in activity is aimed at primary school aged children and their families. No unaccompanied children.
+
+
+          These sessions run from 10:00am - 12:00pm Saturday 3rd & 11:00am - 1:00pm Sunday 4th of October, as well as 2:00pm - 4:00pm on both days.
+
+
+          Find out more about this activity and our other upcoming free events on our website [here](https://us.list-manage.com/9AIbcIhqWAF?c2id=189f808a56f9b99c0adb21d5d841853d).\n"
+        summary: "Saturday of the Scrapstore's free Sustainable Fashion Week drop-in: primary-aged children and their families decorate waste-saved gauze scarves with scrap fabric into an outfit to wear over their clothes. Two sessions, morning and afternoon."
+        confidence: "high"
+      - id: "family/childrens-scrapstore#5bb0bf5fe1"
+        sourceId: "family/childrens-scrapstore"
+        title: "Super Scrap Costume Crafts for Sustainable Fashion Week"
+        occurrence:
+          kind: "single"
+          date: "2026-10-04"
+          startTime: "11:00"
+        status: "scheduled"
+        timesText: "11:00am - 1:00pm and 2:00pm - 4:00pm"
+        url: "https://us.list-manage.com/9AIbcIhqWAF?c2id=189f808a56f9b99c0adb21d5d841853d"
+        price:
+          free: true
+          text: "free"
+          currency: "GBP"
+        tags:
+          - "family"
+          - "kids"
+          - "crafts"
+          - "free-entry"
+          - "drop-in"
+        raw: "**FREE SUPER SCRAP COSTUME CRAFTS FOR SUSTAINABLE FASHION WEEK**
+
+
+          As part of being a hub for [Sustainable Fashion Week](https://us.list-manage.com/uekCh3Kdh1X?c2id=189f808a56f9b99c0adb21d5d841853d), on Saturday 3rd & Sunday 4th of October, we will be decorating white gauze scarves saved from waste with scrap fabrics, pens and sticky back to create an unique outfit that you can wear over your normal clothes!
+
+
+          This free drop-in activity is aimed at primary school aged children and their families. No unaccompanied children.
+
+
+          These sessions run from 10:00am - 12:00pm Saturday 3rd & 11:00am - 1:00pm Sunday 4th of October, as well as 2:00pm - 4:00pm on both days.\n"
+        summary: "Sunday of the Scrapstore's free Sustainable Fashion Week drop-in, decorating waste-saved gauze scarves into wearable scrap outfits. Two sessions, late morning and afternoon, on the second day of the St Werburghs Arts Trail weekend."
+        confidence: "high"
+      - id: "family/childrens-scrapstore#06ecb6cf0b"
+        sourceId: "family/childrens-scrapstore"
+        title: "St Werburghs Arts Trail"
+        occurrence:
+          kind: "run"
+          start: "2026-10-03"
+          end: "2026-10-04"
+        status: "scheduled"
+        timesText: "10am-5pm Saturday 3rd (arts trail begins at 11am) and 11am-5pm Sunday 4th of October"
+        url: "https://us.list-manage.com/pBvdFp8UVJm?c2id=189f808a56f9b99c0adb21d5d841853d"
+        tags:
+          - "exhibition"
+          - "market"
+          - "community"
+          - "family"
+        raw: "**ST WERBURGHS ARTS TRAIL 4TH & 5TH OCTOBER**
+
+
+          Children's Scrapstore will also be a host venue for [St Werburghs Arts Trail](https://us.list-manage.com/pBvdFp8UVJm?c2id=189f808a56f9b99c0adb21d5d841853d), the same weekend as our free craft sessions for Sustainable Fashion Week.
+
+
+          Visit our Scrapstore Warehouse over the weekend to check out the fantastic local artist stalls. Our building will be open from 10am-5pm Saturday 3rd (arts trail begins at 11am) and 11am-5pm Sunday 4th of October.\n"
+        summary: "The Scrapstore Warehouse hosts local artist stalls as a venue on the St Werburghs Arts Trail, the same weekend as its costume craft drop-ins. The newsletter's heading says 4-5 October but its body and the weekday say Saturday 3 and Sunday 4."
+        confidence: "medium"
+    notes: "All 5 of these are from the autumn newsletter sent 4 September; the website was not fetched this run (source not due). The newsletter is a selection, so the website's other rows from the 28 Aug run (Friday Craft, Super Saturday November and December, and the four separately-listed costume craft sessions) are simply absent here, not withdrawn. Three things for the reviewer. (1) Picnic in the Park keeps the same title and date as the 28 Aug web row so it folds onto the same id; the newsletter gives the Scrapstore's hat-making slot as 2pm - 5pm where the website said 2:00pm - 5:30pm on 28 Aug, and the newsletter is the older statement, so the website should be believed if they still disagree. (2) The costume craft sessions are recorded as one event per day with both sessions in timesText, as §5 asks, so they get new ids beside the website's four per-session rows; the newsletter also prints different times from the website (Sat 10:00-12:00 and Sun 11:00-13:00, plus 14:00-16:00 both days, against the website's 10:00-11:30 and 14:00-15:30 each day). Which is current needs a web fetch. (3) The Arts Trail section is headed \"4th & 5th October\" but its body says Saturday 3rd and Sunday 4th, which the weekday check and the costume-craft weekend both confirm, so 3-4 October is recorded at confidence medium. Messy Play gets a start date the website never printed (term-time sessions resume 15 September), which also gives it a new id beside the website's undated recurring row. Event links are the newsletter's own Mailchimp click-redirects, taken verbatim; the 28 Aug run recorded the destination pages directly. The newsletter carries no image URLs, so none are recorded. Not recorded: the deep clean closure of 8-11 September (no Playroom sessions; ends today), and the mentions of monthly Super Saturdays and the summer programme, which are retrospective and give no forward date."

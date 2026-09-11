@@ -1,0 +1,26 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-09-11"
+category: "festivals"
+harvestedAt: "2026-09-11T17:25:47Z"
+prompt:
+  name: "stage2-harvest"
+  version: "5"
+model: "claude-opus-5"
+observations:
+  - sourceId: "festivals/love-saves-the-day"
+    fetch:
+      ok: true
+      url: "https://sendy.teamlove.org/w/hS20BWUYyu6cQpB326IyQQ"
+      via: "mail"
+      mailFile: "data/gb-bristol/mail/2026-09-11/festivals.yaml"
+    events: []
+    notes: "Mail only; the website was not due this run and was not fetched. One message, \"Your Super-Earlybird Ticket Link...\" (received 2026-08-29, matched on from:*@lovesavestheday.org): super-earlybird weekend tickets for Love Saves The Day 2027 went on sale at 10:00 that day, by a £20 deposit on a payment plan or a one-off payment, at https://tickets.lovesavestheday.org/events/95955/love-saves-the-day-2027/ — and \"See you back in Ashton Court...\", which is the first statement of the 2027 venue anywhere on the log. The mail gives no date, month or lineup for the 2027 edition, so there is no dated event to take. The 2027 edition already stands as an undated row from the 2026-08-28 web harvest and is deliberately not re-recorded from this mail: an undated id hashes its note, so a second undated row with a different note would fork one festival into two cards. For stage 1: the mail links a ticket shop on tickets.lovesavestheday.org, a candidate booking route to verify rather than a guessed one; the next web harvest should check the site for the 2027 date."
+  - sourceId: "festivals/forwards"
+    fetch:
+      ok: true
+      url: "https://www.forwardsbristol.co.uk/lineup"
+      via: "mail"
+      mailFile: "data/gb-bristol/mail/2026-09-11/festivals.yaml"
+    events: []
+    notes: "Mail only; the website was not due this run and was not fetched. The message carries no view-in-browser link, so fetch.url is the catalogued lineup page. One message, \"Your Pre Sale ticket link...\" (received 2026-08-29, matched on from:*@teamlove.org): tickets for \"this years\" festival going back on sale at 10:00 — the AXS series behind the link is titled forwards-bristol-2026 — with a new wave of artists named: Erika de Casier, Ledbyher, Wesley Joseph, Crazy P (DJ), Jamz Supernova, 1-800 GIRLS, YHWH Nailgun and Liim, across the West & East Stage, The Arches and The Information By Night. Forwards 2026 ran Sat 29 - Sun 30 August and has finished; it is on the log with its real dates from the 08-16, 08-17 and 08-28 web runs, so nothing in this mail is dated today or later and no event is taken. The mail itself prints no date. No 2027 dates, on-sale or announcement of any kind. The binding is Team Love's shared promoter address rather than a Forwards-specific one, so a later mail matched this way may concern another Team Love event; worth a List-Id binding if the campaigns carry one."

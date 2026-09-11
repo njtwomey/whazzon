@@ -1,0 +1,1429 @@
+schema: "whazzon.harvest/1"
+locationId: "gb-bristol"
+date: "2026-09-11"
+category: "churches"
+harvestedAt: "2026-09-11T17:31:00Z"
+prompt:
+  name: "stage2-harvest"
+  version: "5"
+model: "claude-opus-5"
+observations:
+  - sourceId: "churches/bristol-cathedral"
+    fetch:
+      ok: true
+      url: "https://bristol-cathedral.co.uk/whats-on/"
+      status: 200
+    events:
+      - id: "churches/bristol-cathedral#b4b3ccacb4"
+        sourceId: "churches/bristol-cathedral"
+        title: "Bristol's Grenfell Memorial Panel"
+        subcategory: "Community"
+        occurrence:
+          kind: "run"
+          start: "2026-08-17"
+          end: "2026-09-14"
+        status: "scheduled"
+        timesText: "10:00 - 16:00"
+        url: "https://bristol-cathedral.co.uk/event/bristols-grenfell-memorial-panel/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/08/IMG_3815.jpg"
+        price:
+          free: true
+          text: "Free admission. All welcome."
+        tags:
+          - "exhibition"
+          - "textiles"
+          - "community"
+          - "free-entry"
+        raw: "**Bristol's Grenfell Memorial Panel** — Mon 17 Aug | 10:00 – 16:00, to Mon 14 Sep.
+
+
+          Bristol Cathedral is honoured to display Bristol Star Stitchers' contribution to the Grenfell Memorial Quilt, a moving tribute to all those affected by the Grenfell Tower disaster.
+
+
+          Bristol Star Stitchers have created a 12ft x 12ft panel honours the 72 people who died in the fire on 14 June 2017, as well as those who survived, were injured, or lost their homes. It forms part of a nationwide memorial project inspired by a call from relatives and friends of those affected, with around 90 panels created by groups across the UK ahead of the disaster's tenth anniversary in 2027.
+
+
+          At the heart of the panel are 72 embroidered stars, each bearing the name and age of a person who died. Families and loved ones are stitched close together, reflecting the lives, relationships and communities behind the headlines.
+
+
+          Free admission. All welcome.\n"
+        summary: "Last three days of Bristol's twelve-foot panel for the national Grenfell Memorial Quilt, stitched by more than thirty people from recycled charity-shop fabric and carrying 72 embroidered stars, one for each person who died. Free, in the cathedral until Monday 14 September.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#8ba2cbb2d5"
+        sourceId: "churches/bristol-cathedral"
+        title: "All God's Children"
+        subcategory: "Exhibitions"
+        occurrence:
+          kind: "ongoing"
+        status: "scheduled"
+        timesText: "10:00 - 16:00"
+        url: "https://bristol-cathedral.co.uk/event/all-gods-children-3-2/2026-09-12/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2024/10/007-August-25-2022-All-God_s-Children-full-res-DSC_2776-PULLEN.jpg"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "exhibition"
+          - "heritage"
+          - "free-entry"
+        raw: "All God's Children is an exhibition in Bristol Cathedral that explores the impact of the slave economy on Cathedral life, past and present.
+
+
+          All God's Children is part of the Cathedral's work to understand its links with the transatlantic trade of enslaved people. Research that informed the exhibition discovered that between 1670 and 1900, roughly 1,000 people were buried or memorialised in the Cathedral and its grounds. Around 200 (20%) of them had a close connection to the slavery-based economy.
+
+
+          This exhibition presents the first findings of a research project into Bristol Cathedral's connections with slavery as revealed through its memorials and grave-markers. We hope that it will help to inform a wide-ranging conversation about the stories we tell, the ways in which we can repair and restore damaged relationships and the ways we can work together for a better future for everyone.
+
+
+          The exhibition is available whenever the Cathedral is open.
+
+
+          Listed daily, 10:00 - 16:00. Free.\n"
+        summary: "A standing exhibition on what the cathedral's own memorials record about Bristol's slave economy: of roughly a thousand people buried or memorialised here between 1670 and 1900, about a fifth had a close connection to it. Free, and open whenever the cathedral is.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#51760f2a78"
+        sourceId: "churches/bristol-cathedral"
+        title: "Choral Evensong"
+        subcategory: "Services"
+        occurrence:
+          kind: "recurring"
+          pattern: "5.15pm | Mon – Fri, except Thursdays (term-time only). 3.30pm | Sun"
+        status: "scheduled"
+        timesText: "17:15 Mon, Tue, Wed and Fri; 15:30 Sun. Evening Prayer (spoken) on Thu and Sat."
+        url: "https://bristol-cathedral.co.uk/worship/daily-services/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2023/10/Choral-Evensong.jpg"
+        tags:
+          - "classical"
+          - "free-entry"
+          - "weekly"
+        raw: "**Choral Evensong** — 5.15pm | Mon – Fri, except Thursdays (term-time only). 3.30pm | Sun.
+
+
+          Choral Evensong is usually sung by the Cathedral choir and consists of the singing of texts taken from the bible interspersed with prayers and readings. This service offers a chance to reflect and immerse yourself in the presence of God at the end of the day, through outstanding choral music.
+
+
+          The service is held in the Nave and lasts around 40 minutes. Please check the Music List (there is a link at the bottom of this and every page) for upcoming details of upcoming services, music, and who is singing.
+
+
+          **Evening Prayer** — 5.15pm | Thu. 5.15pm | Sat (and other days when there is no choir).
+
+
+          The diary for the week of 12–18 September lists Choral Evensong at 17:15 on Fri 11, Mon 14, Tue 15 and Wed 16 September, Choral Evensong on Sunday at 15:30 on Sun 13, and Evening Prayer at 17:15 on Sat 12 and Thu 17.\n"
+        summary: "The cathedral choir sings evensong in the Nave most weekday afternoons at 17:15 and on Sundays at 15:30 — forty minutes of choral music that anyone can sit in on. Thursdays and Saturdays are spoken Evening Prayer instead, and the weekday pattern is term-time only.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#e4293071ab"
+        sourceId: "churches/bristol-cathedral"
+        title: "An Evening of Kate Bush"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-09-12"
+          startTime: "19:30"
+          endTime: "22:30"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/an-evening-of-kate-bush/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2025/11/image-3.webp"
+        tags:
+          - "live-music"
+          - "tribute"
+          - "one-night"
+        raw: "**An Evening of Kate Bush** — Sat 12 Sep | 19:30 – 22:30.
+
+
+          Performed live by a full band, vocalists and string quartet in the ethereal surroundings of the UK's most stunning Cathedrals and Minsters.
+
+
+          **Let Me In** are _back_ with a brand new show, exploring the evocative music of Kate Bush, on a UK Cathedral tour in late 2026. After three years of sell out productions, including _An Evening of Radiohead_ and _An Evening of Pink Floyd_, Let Me In Presents are proud to announce a brand new show, featuring a 10 piece band, accompanied by the ever-present Mike Nowland String Quartet.
+
+
+          The show will move through **Kate Bush's** music chronologically, starting with the groundbreaking debut album – _The Kick Inside_ – and delving deep into classics such as _Hounds of Love_ and _Never For Ever_, until we reach the maternal warmth of 2005's multi-award winning comeback record – _Aerial_, touching on everything in between. Expect the classics – _Running Up That Hill_, _Cloudbusting_, _Wuthering Heights_, but also some rarities and hidden gems, including _The Ninth Wave_ suite, from _Hounds of Love_, in it's entirety.
+
+
+          Your band for the evening will be fronted by the sensational Lydia Gardiner, alongside Eleanor Kinsey, Amelia Harrison, Lucia Carmignani, Colleen Curran, Alfie Woods, Bruce Higgs, Daniel Anketell, Josh Semans & Musical Director – Ewan Steady.
+
+
+          _Please note: this event is presented by an external organiser and hosted at Bristol Cathedral. This event is organised by Let Me In Presents._ Tickets are available from the event organisers.\n"
+        summary: "Let Me In's ten-piece band and string quartet play Kate Bush's catalogue in order, from The Kick Inside to Aerial, with the whole Ninth Wave suite included. Tomorrow night, tickets from the promoter rather than the cathedral.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#ba20d1bd9b"
+        sourceId: "churches/bristol-cathedral"
+        title: "The Sanctus Project"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-09-15"
+          startTime: "13:15"
+          endTime: "14:00"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/the-sanctus-project/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2023/10/Lunchtime-Rectials.png"
+        tags:
+          - "live-music"
+          - "experimental"
+          - "electronic"
+        raw: "**The Sanctus Project** — This Week's Recital. Tue 15 Sep | 13:15 – 14:00. Tuesday Lunchtime Recital series.
+
+
+          Sanctus was the brainchild of saxophonist and session musician, Ian Close. Ian transcribed the vocal lines from early sacred music of the 12th and 13th centuries and then Dominic Beeton accompanied these sublime instrumental lines with harmonium, shruti box, and synthesisers. The result is a profoundly spiritual experience which is ideally suited for cathedrals, churches, abbeys and sacred spaces.
+
+
+          Take a break in the middle of your week and enjoy an inspiring hour of live music in the magnificent surroundings of Bristol Cathedral's 19th-century Nave. Our popular Tuesday Lunchtime Recital series showcases a diverse programme of performances from world-class musicians, rising stars, and acclaimed ensembles.\n"
+        summary: "Twelfth- and thirteenth-century sacred vocal lines transcribed for saxophone and set against harmonium, shruti box and synthesisers — the Tuesday lunchtime recital, in the Nave for three quarters of an hour.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#54d054a0ba"
+        sourceId: "churches/bristol-cathedral"
+        title: "Fabián Greš"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-09-22"
+          startTime: "13:15"
+          endTime: "14:00"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/fabian-gres/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/02/Organ-8.jpg"
+        tags:
+          - "classical"
+          - "live-music"
+          - "festival"
+        raw: "**Fabián Greš – Organist.** This Week's Recital. Tue 22 Sep | 13:15 – 14:00. Tuesday Lunchtime Recital series; part of The Grand Organ Festival.
+
+
+          This year's series has a special significance as we celebrate the return of Bristol Cathedral's historic organ following 18 months of meticulous restoration. Throughout 2026, our **Grand Organ Festival** is marking this remarkable achievement with a year-long programme of music, craftsmanship, and discovery. For organ recitals, a live video feed from the console will be projected onto a screen, allowing audiences a unique view of the performer's artistry and technique as they bring the Cathedral organ to life.\n"
+        summary: "A Tuesday lunchtime organ recital on the newly restored cathedral organ, with the console screened live so the audience can watch the player's hands and feet. Part of the year-long Grand Organ Festival.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#5c162745cd"
+        sourceId: "churches/bristol-cathedral"
+        title: "Paul Gunn Cello Trio"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-09-29"
+          startTime: "13:15"
+          endTime: "14:00"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/paul-gunn-cello-trio/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/07/Paul-Gunn-Cello-Trio--e1785155062496.jpeg"
+        tags:
+          - "live-music"
+          - "classical"
+        raw: "**Paul Gunn Cello Trio** — This Week's Recital. Tue 29 Sep | 13:15 – 14:00. Tuesday Lunchtime Recital series.
+
+
+          Piano: Paul Gunn. Cello: Yvonne Marie Parsons. Percussion: Jansen Santana.
+
+
+          Take a break in the middle of your week and enjoy an inspiring hour of live music in the magnificent surroundings of Bristol Cathedral's 19th-century Nave.\n"
+        summary: "Piano, cello and percussion trio for the Tuesday lunchtime recital in the Nave. The listing names the players and nothing about the programme.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#ddcd9caca9"
+        sourceId: "churches/bristol-cathedral"
+        title: "A Night at the Opera"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-10-03"
+          startTime: "19:30"
+          endTime: "21:30"
+        status: "scheduled"
+        timesText: "Doors 18:45, concert 19:30, approximately 2 hours including a short interval"
+        url: "https://bristol-cathedral.co.uk/event/a-night-at-the-opera/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2025/06/ANATO-Claire1-2023.jpg"
+        tags:
+          - "opera"
+          - "classical"
+          - "live-music"
+        raw: "**A Night at the Opera** — Sat 3 Oct | 19:30 – 21:30. Doors Open: **6:45 pm**. Concert Begins: **7:30 pm**. Duration: **Approximately 2 hours including a short interval**.
+
+
+          PROGRAMME: to include a selection of the absolute stand-outs from the world of opera, featuring the sublime 'Soave sia il vento' from Mozart's _Così fan tutte_, Puccini's 'Nessun dorma', and the iconic 'Habanera' from _Carmen_, alongside much-loved favourites such as Rossini's 'Largo al factotum', Verdi's 'La donna è mobile', and Puccini's soaring 'O mio babbino caro'.
+
+
+          ARTISTS: Rhonda Browne (Soprano), Dominick Felix (Mezzo-soprano), Philip Smith (Tenor), Baritone.
+
+
+          _A Night at the Opera_ is one of London Concertante's most popular shows. Featuring four soloists, each singing solo arias as well as duets, trios and quartets, accompanied by a live orchestra, this programme takes you on a journey through some of opera's greatest showstoppers.
+
+
+          _Please note: this event is presented by an external organiser and hosted at Bristol Cathedral._\n"
+        summary: "London Concertante's touring opera-highlights night: four soloists and a live orchestra through Nessun dorma, the Habanera, Largo al factotum and O mio babbino caro, with ensemble numbers from Così and Rigoletto. Two hours with an interval.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#7d68984675"
+        sourceId: "churches/bristol-cathedral"
+        title: "Simon Hogan"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-10-06"
+          startTime: "13:15"
+          endTime: "14:00"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/simon-hogan/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/07/261006-Simon-Hogan-e1785155918242.jpg"
+        tags:
+          - "classical"
+          - "live-music"
+          - "festival"
+        raw: "**Simon Hogan – Organist.** This Week's Recital. Tue 06 Oct | 13:15 – 14:00. Tuesday Lunchtime Recital series; part of The Grand Organ Festival.
+
+
+          For organ recitals, a live video feed from the console will be projected onto a screen, allowing audiences a unique view of the performer's artistry and technique as they bring the Cathedral organ to life.\n"
+        summary: "Tuesday lunchtime organ recital on the restored cathedral organ, console screened live. Part of the Grand Organ Festival.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#c3da623930"
+        sourceId: "churches/bristol-cathedral"
+        title: "Carolyn Craig"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-10-13"
+          startTime: "13:15"
+          endTime: "14:00"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/carolyn-craig/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/07/Carolyn-Craig-Hyde-Park-United-Methodist-Church-Cincinnati-OH-Photo-by-Ed-Schweitzer.jpg"
+        tags:
+          - "classical"
+          - "live-music"
+          - "festival"
+        raw: "**Carolyn Craig – Organist.** This Week's Recital. Tue 13 Oct | 13:15 – 14:00. Tuesday Lunchtime Recital series; part of The Grand Organ Festival.
+
+
+          For organ recitals, a live video feed from the console will be projected onto a screen, allowing audiences a unique view of the performer's artistry and technique as they bring the Cathedral organ to life.\n"
+        summary: "Tuesday lunchtime organ recital on the restored cathedral organ, console screened live. Part of the Grand Organ Festival.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#becfb3acfa"
+        sourceId: "churches/bristol-cathedral"
+        title: "The Music of Adele"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-10-15"
+          startTime: "19:30"
+          endTime: "21:45"
+        status: "scheduled"
+        timesText: "Doors 18:30 | Show 19:30–21:45 | Last entry 19:15"
+        url: "https://bristol-cathedral.co.uk/event/the-music-of-adele/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/06/xyn5j79oul4pp4jf3het.jpg"
+        tags:
+          - "live-music"
+          - "tribute"
+          - "soul"
+        raw: "**The Music of Adele** — Thu 15 Oct | 19:30 – 21:45. Doors: 6:30pm | Show: 7:30pm–9:45pm | Last entry: 7:15pm.
+
+
+          Bristol Cathedral welcomes Xperience Live for an evening celebrating the music of Adele, performed by candlelight in one of Bristol's most atmospheric settings.
+
+
+          Naomi Johnson — internationally acclaimed vocalist and finalist on The Voice — leads the evening, bringing powerhouse vocals and emotional depth to Adele's most loved songs. Backed by a live band, the performance moves through hits including Someone Like You, Rolling in the Deep, Hello, Set Fire to the Rain, Make You Feel My Love, and When We Were Young, among others.
+
+
+          _This event is organised by Xperience Live. Please note: this event is presented by an external organiser and hosted at Bristol Cathedral._\n"
+        summary: "A candlelit Adele tribute fronted by Voice finalist Naomi Johnson with a live band — Someone Like You, Rolling in the Deep, Hello and the rest. Promoted by Xperience Live; last entry a quarter of an hour before the show.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#57e39f842c"
+        sourceId: "churches/bristol-cathedral"
+        title: "Christopher Jones"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-10-20"
+          startTime: "13:15"
+          endTime: "14:00"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/christopher-jones/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/02/Organ-9.jpg"
+        tags:
+          - "classical"
+          - "live-music"
+          - "festival"
+        raw: "**Christopher Jones – Organist.** This Week's Recital. Tue 20 Oct | 13:15 – 14:00. Tuesday Lunchtime Recital series; part of The Grand Organ Festival.
+
+
+          For organ recitals, a live video feed from the console will be projected onto a screen, allowing audiences a unique view of the performer's artistry and technique as they bring the Cathedral organ to life.\n"
+        summary: "Tuesday lunchtime organ recital on the restored cathedral organ, console screened live. Part of the Grand Organ Festival.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#381478dbf3"
+        sourceId: "churches/bristol-cathedral"
+        title: "Highlights Tour"
+        subcategory: "Guided Tours"
+        occurrence:
+          kind: "single"
+          date: "2026-10-22"
+          startTime: "17:30"
+          endTime: "18:00"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/highlights-tour-2-2/2026-10-22/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2024/10/Here-with-you-yesterday-photo-option-2.jpg"
+        tags:
+          - "guided-tour"
+          - "heritage"
+          - "booking-required"
+        raw: "**Highlights Tour** — Thu 22 Oct | 17:30 – 18:00.
+
+
+          Join one of Bristol Cathedral's dedicated tour guides as they take you on a journey spanning 900 years of history, heritage, and architecture at the extraordinary Bristol Cathedral! From the tale of St Jordan of Bristol (yes, Bristol has a saint!) through to the ordination of the first women priests in 1994, joining a Bristol Cathedral Highlights Tour is the best and most fascinating way to get to know one of the grandest buildings in the city of Bristol!
+
+
+          The tours last between 45-60 minutes, and your guide will meet you inside the Cathedral at the Welcome Area.
+
+
+          _The entrance to Bristol Cathedral is level access. However, some areas of the Cathedral included in the highlights tours involve uneven floors and steps, particularly when accessing the Norman Chapter House. Sensible footwear is advised. If you have any accessibility requests or concerns and you would like to go on a highlights tour please contact Bristol Cathedral at visitor.experience@bristol-cathedral.co.uk before booking your tickets._
+
+
+          **Cream Tea Add-On.** A freshly baked scone with clotted cream and jam, served with a pot of tea by Pinkmans Café in our cloister. The perfect way to round off your tour.\n"
+        summary: "A guided walk through 900 years of the building, from St Jordan to the first women priests, meeting at the welcome desk; forty-five minutes to an hour, with a cream tea in the cloister as an optional extra. The only tour date in the forward diary.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#f600884731"
+        sourceId: "churches/bristol-cathedral"
+        title: "Arnos Vocale"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-10-27"
+          startTime: "13:15"
+          endTime: "14:00"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/arnos-vocale/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2023/10/Lunchtime-Rectials.png"
+        tags:
+          - "classical"
+          - "live-music"
+        raw: "**Arnos Vocale – Choral.** This Week's Recital. Tue 27 Oct | 13:15 – 14:00. Tuesday Lunchtime Recital series.
+
+
+          Take a break in the middle of your week and enjoy an inspiring hour of live music in the magnificent surroundings of Bristol Cathedral's 19th-century Nave.\n"
+        summary: "A choral Tuesday lunchtime recital from the ensemble Arnos Vocale, in the Nave. The listing gives no programme and says nothing more about the group.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#70d9eff65d"
+        sourceId: "churches/bristol-cathedral"
+        title: "WOOFYT: Explore the Science of Music"
+        subcategory: "Family Activities"
+        occurrence:
+          kind: "single"
+          date: "2026-10-28"
+          startTime: "09:30"
+          endTime: "15:30"
+        status: "scheduled"
+        timesText: "Workshop sessions (75 minutes): 9.30am, 10.50am, 1.00pm, 2.20pm; Crafty Cathedral drop-in crafts throughout the morning"
+        url: "https://bristol-cathedral.co.uk/event/woofyt/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/03/woofyt-1_1.png"
+        price:
+          free: true
+          text: "Workshop places are free but must be booked in advance."
+        tags:
+          - "family"
+          - "hands-on"
+          - "workshop"
+          - "booking-required"
+          - "festival"
+        raw: "**WOOFYT: Explore the Science of Music** — Wed 28 Oct | 9:30 – 15:30.
+
+
+          Build, Play and Discover: The Science of the Organ. _Featuring WOOFYT._
+
+
+          Ever wondered how an organ creates its powerful sound? Join us for a hands-on family experience exploring the science, technology and creativity behind one of the world's most remarkable musical instruments. Through WOOFYT, the Wooden One-Octave Organ for Young Technologists, children and families can investigate how organ pipes work, discover the mechanics behind music, and experiment with sound for themselves.
+
+
+          Alongside the workshop, families can also enjoy **Crafty Cathedral**, with free drop-in musical arts and crafts activities running throughout the morning. No booking is needed for the craft activities.
+
+
+          **Workshop sessions (75 minutes):** 9.30am, 10.50am, 1.00pm, 2.20pm. Workshop places are free but must be booked in advance.
+
+
+          Part of **The Grand Organ Festival**, celebrating the return of Bristol Cathedral's organ following its major restoration. [Discover the full programme of events.](https://bristol-cathedral.co.uk/whats-on/the-grand-organ-festival/)\n"
+        summary: "Children build and play a wooden one-octave organ to find out how pipes make sound, in free 75-minute sessions through the day, booked in advance, with drop-in musical crafts running alongside all morning. Part of the Grand Organ Festival.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#ac484c7409"
+        sourceId: "churches/bristol-cathedral"
+        title: "in the dark: HUSH"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-10-29"
+          startTime: "21:00"
+          endTime: "22:30"
+        status: "scheduled"
+        timesText: "Doors 20:30, performance 21:00"
+        url: "https://bristol-cathedral.co.uk/event/in-the-dark-hush/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/02/Applause.jpg"
+        tags:
+          - "live-music"
+          - "immersive"
+          - "experimental"
+          - "late-night"
+        raw: "**in the dark: HUSH** — Thu 29 Oct | 21:00 – 22:30. **Doors open: 8.30pm. Performance begins: 9pm.**
+
+
+          Bristol Cathedral will host **in the dark: HUSH**, an immersive music experience that reimagines how live performance is heard and experienced.
+
+
+          Rather than performing from a stage, musicians move through and around the audience, creating an evolving soundscape that surrounds listeners throughout the performance. The result is a distinctive musical experience where sound, space and movement combine in unexpected ways.
+
+
+          Tickets are available from the event organisers. _Please note: this event is presented by an external organiser and hosted at Bristol Cathedral._\n"
+        summary: "A late-evening performance in which the musicians move through the darkened cathedral around the audience rather than playing from a stage. Doors at half past eight; tickets through the organiser.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#71ff7737ad"
+        sourceId: "churches/bristol-cathedral"
+        title: "All Souls' Requiem"
+        subcategory: "Special Services"
+        occurrence:
+          kind: "single"
+          date: "2026-11-02"
+          startTime: "18:00"
+          endTime: "19:30"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/all-souls/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2025/10/DSC_1398.jpg"
+        tags:
+          - "classical"
+          - "community"
+          - "seasonal"
+        raw: "**All Souls' Requiem** — Mon 2 Nov | 18:00 – 19:30.
+
+
+          Join us for a gentle and reflective service as we remember those we love who have died.
+
+
+          Through music, readings, prayers and hymns, we will give thanks for the lives of those we hold in our hearts and pray for all who grieve. Whether your loss is recent or many years ago, you are warmly invited to come and spend time in remembrance and reflection.
+
+
+          During the service, there will be an opportunity to light a candle in memory of a loved one and to join with others in a shared act of hope and remembrance. Everyone is welcome.\n"
+        summary: "The cathedral's All Souls' evening service of remembrance, sung as a requiem, with a chance to light a candle for someone who has died. Open to anyone; no price is printed.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#51e00d0fa9"
+        sourceId: "churches/bristol-cathedral"
+        title: "Jonathan Hope"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-11-03"
+          startTime: "13:15"
+          endTime: "14:00"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/jonathan-hope/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/07/Jonathan-Hope-L1009013.jpg"
+        tags:
+          - "classical"
+          - "live-music"
+          - "festival"
+        raw: "**Jonathan Hope – Organist.** This Week's Recital. Tue 3 Nov | 13:15 – 14:00. Tuesday Lunchtime Recital series; part of The Grand Organ Festival.
+
+
+          For organ recitals, a live video feed from the console will be projected onto a screen, allowing audiences a unique view of the performer's artistry and technique as they bring the Cathedral organ to life.\n"
+        summary: "Tuesday lunchtime organ recital on the restored cathedral organ, console screened live. Part of the Grand Organ Festival.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#9ac8d8e91b"
+        sourceId: "churches/bristol-cathedral"
+        title: "The Four Seasons & The Lark Ascending"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-11-07"
+          startTime: "19:30"
+          endTime: "21:30"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/the-four-seasons-the-lark-ascending/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/06/London-Concertante-Four-Seasons.jpg"
+        tags:
+          - "classical"
+          - "live-music"
+        raw: "**The Four Seasons & The Lark Ascending** — Sat 7 Nov | 19:30 – 21:30.
+
+
+          **PROGRAMME** to include: **Mozart** – Overture to The Marriage of Figaro; **Vaughan Williams** – The Lark Ascending; **Mozart** – Flute Quartet in D; **Vivaldi** – The Four Seasons.
+
+
+          Experience breathtaking music by some of classical music's greatest composers, performed by some of the country's finest classical musicians, all presented in stunning candlelight.
+
+
+          At the heart of the concert is Antonio Vivaldi's The Four Seasons, the most recorded work in classical music and a defining showpiece for solo violin. Alongside this, Vaughan Williams' _The Lark Ascending_, composed on the eve of the First World War, offers a more reflective perspective.
+
+
+          _Please note: this event is presented by an external organiser and hosted at Bristol Cathedral._\n"
+        summary: "London Concertante by candlelight: the Figaro overture, The Lark Ascending, a Mozart flute quartet and all four of Vivaldi's Seasons. An external promotion hosted in the cathedral.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#50e2697200"
+        sourceId: "churches/bristol-cathedral"
+        title: "Remembrance Sunday"
+        subcategory: "Special Services"
+        occurrence:
+          kind: "single"
+          date: "2026-11-08"
+          startTime: "09:30"
+          endTime: "10:30"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/remembrance-sunday/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2025/09/DSC_0957.jpg"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "community"
+          - "free-entry"
+          - "classical"
+        raw: "**Remembrance Sunday** — Sun 8 Nov | 9:30 – 10:30. Free.
+
+
+          Join us at Bristol Cathedral this Remembrance Sunday as we gather to remember and give thanks for all those who have served in the Armed Forces, and especially those who gave their lives in war and conflict.
+
+
+          Our Sung Eucharist offers an opportunity to come together in prayer, reflection and remembrance. Through music, scripture, hymns and silence, we will honour the courage, sacrifice and service of generations past, while holding in our hearts all those affected by conflict today.
+
+
+          Following the service, we join people from across Bristol at the Cenotaph for the Act of Remembrance and the two-minute silence, standing together to honour those who have served our nation. **Everyone is welcome.**\n"
+        summary: "The cathedral's Remembrance Sunday sung Eucharist, at 9:30 rather than the usual 10:00, after which the congregation joins the city at the Cenotaph for the Act of Remembrance and the two-minute silence. Free, everyone welcome.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#42c266f156"
+        sourceId: "churches/bristol-cathedral"
+        title: "The Music of Bruce Springsteen"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-11-11"
+          startTime: "19:30"
+          endTime: "21:45"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/the-music-of-bruce-springsteen/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/06/yqw5ogx3hmnwc12vwk1f.jpg"
+        tags:
+          - "live-music"
+          - "tribute"
+          - "rock"
+        raw: "**The Music of Bruce Springsteen** — Wed 11 Nov | 19:30 – 21:45.
+
+
+          Get ready for a night that brings the spirit, sound and stories of The Boss to life like never before. Performed by the outstanding live band 'The Sound of Springsteen', this show is a full-scale tribute to one of rock's greatest icons, all set against the warm glow of candlelight.
+
+
+          Expect to hear all the classics that defined generations. From the drive of Born to Run and the anthems of Born in the U.S.A. and Glory Days, to the soul of The River and Streets of Philadelphia. Sing along to Dancing in the Dark, lose yourself in Thunder Road, and feel the pulse of Hungry Heart.
+
+
+          _Please note: this event is presented by an external organiser and hosted at Bristol Cathedral._\n"
+        summary: "The Sound of Springsteen play a candlelit set of the Boss's catalogue — Born to Run, Thunder Road, Dancing in the Dark, The River — under the cathedral vault. An external promotion.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#5ae49366b6"
+        sourceId: "churches/bristol-cathedral"
+        title: "G4 Christmas"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-11-12"
+          startTime: "19:30"
+          endTime: "21:30"
+        status: "scheduled"
+        timesText: "Pre-show Meet and Greet at 18:00 (separate ticket)"
+        url: "https://bristol-cathedral.co.uk/event/g4-christmas/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/06/G4-Christmas-1920x820_c.jpg"
+        tags:
+          - "live-music"
+          - "seasonal"
+          - "classical"
+        raw: "**G4 Christmas** — Thu 12 Nov | 19:30 – 21:30.
+
+
+          Gather to celebrate the most wonderful time of the year as G4 bring glad tidings of great joy this festive season, with the return of their 'G4 Christmas' tour in the most awe-inspiring cathedrals, priories, minsters, halls and abbeys across the UK.
+
+
+          Nourish your soul with their extraordinary and unique renditions of traditional carols, sacred contemplations, classical favourites and modern festive hits including Silent Night, O Holy Night, All I Want for Christmas, Walking in the Air, When a Child is Born, The 12 Days of Christmas and many, many more.
+
+
+          **Pre-show 'Meet and Greet' tickets are available at all venues, taking place at 6pm, unless otherwise stated, and includes a welcome drink, plus the opportunity to meet G4 and have photographs with them and items signed by them.**
+
+
+          _Please note: this event is presented by an external organiser and hosted at Bristol Cathedral._\n"
+        summary: "Vocal harmony group G4 on their annual cathedral Christmas tour — carols, classical favourites and festive pop in four-part harmony, with a paid meet-and-greet at six for those who want it. Mid-November, so an early start to the season.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#1dd8f891f7"
+        sourceId: "churches/bristol-cathedral"
+        title: "Tribute to Fleetwood Mac"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-11-13"
+          startTime: "19:00"
+          endTime: "20:00"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/tribute-to-fleetwood-mac/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2025/11/571766-Candlelight_MEDIAKIT_GENERIC_2023_05_19_Masonic-Memorial-Centre-Freemasons-Queensland_BRISBANE_AU_09-d5cd22-original-1737470750.jpg"
+        tags:
+          - "live-music"
+          - "tribute"
+          - "classical"
+        raw: "**Tribute to Fleetwood Mac** — Fri 13 Nov | 19:00 – 20:00. Duration: approximately 60 minutes.
+
+
+          Experience the music of Fleetwood Mac in the atmospheric surroundings of Bristol Cathedral as part of the popular Candlelight concert series.
+
+
+          Performed by a live string quartet and illuminated by candlelight, this tribute concert reimagines some of Fleetwood Mac's most loved songs, including _Everywhere_, _Go Your Own Way_, _Landslide_, _The Chain_ and _Rhiannon_. citeturn5view2
+
+
+          **Programme highlights include:** Everywhere; Gypsy; Don't Stop; Landslide; Little Lies; Songbird; Rhiannon; The Chain.
+
+
+          Tickets are available through the event organiser. _Please note: this event is presented by an external promoter and hosted at Bristol Cathedral. This is a tribute concert and is not affiliated with, endorsed by, or sponsored by Fleetwood Mac, their estate, or official representatives._\n"
+        summary: "A Candlelight-series string quartet plays an hour of Fleetwood Mac — The Chain, Rhiannon, Landslide, Go Your Own Way — by candlelight in the nave. Tickets through the promoter, not the cathedral.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#c904366862"
+        sourceId: "churches/bristol-cathedral"
+        title: "Lucie Tenet & Anna Harris"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-11-17"
+          startTime: "13:15"
+          endTime: "14:00"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/lucie-tenet-anna-harris/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2023/10/Lunchtime-Recitals-Header-scaled.jpg"
+        tags:
+          - "classical"
+          - "live-music"
+        raw: "**Lucie Tenet – Voice. Anna Harris – Clarinet.** This Week's Recital. Tue 17 Nov | 13:15 – 14:00. Tuesday Lunchtime Recital series.
+
+
+          Take a break in the middle of your week and enjoy an inspiring hour of live music in the magnificent surroundings of Bristol Cathedral's 19th-century Nave.\n"
+        summary: "Voice and clarinet for the Tuesday lunchtime recital in the Nave. No programme is printed.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#468ebb6076"
+        sourceId: "churches/bristol-cathedral"
+        title: "Day Sessions"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-11-21"
+          startTime: "18:30"
+          endTime: "22:30"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/day-sessions-2/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/03/image-4.webp"
+        ageRestriction: "Over 18s only"
+        tags:
+          - "party"
+          - "dj"
+          - "18-plus"
+        raw: "**Day Sessions** — Sat 21 Nov | 18:30 – 22:30.
+
+
+          Experience a Silent Disco in the unique surroundings of Bristol Cathedral.
+
+
+          Hosted by Day Sessions, this evening event invites guests to dance beneath the Cathedral's historic vaulted ceilings while listening through wireless LED headphones. With three music channels available throughout the night, you can switch between genres and choose the soundtrack that suits you best. From classic hits and nostalgic favourites to contemporary chart music and dance anthems, there's something for every taste. Bars will be available throughout the event.
+
+
+          **Please note:** Over 18s only. This event may include strobe lighting, flashing lights and laser effects.
+
+
+          Tickets are available through the event organiser. _This event is presented by Day Sessions and hosted at Bristol Cathedral._\n"
+        summary: "A three-channel silent disco under the cathedral vault, with bars, run by Day Sessions on a Saturday evening. Over-18s only; strobe and laser warning; tickets from the organiser.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#0c0c81b3e4"
+        sourceId: "churches/bristol-cathedral"
+        title: "Carleton Etherington"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-11-24"
+          startTime: "13:15"
+          endTime: "14:00"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/carleton-etherington/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/02/Organ-12.jpg"
+        tags:
+          - "classical"
+          - "live-music"
+          - "festival"
+        raw: "**Carleton Etherington – Organist.** This Week's Recital. Tue 24 Nov | 13:15 – 14:00. Tuesday Lunchtime Recital series; part of The Grand Organ Festival.
+
+
+          For organ recitals, a live video feed from the console will be projected onto a screen, allowing audiences a unique view of the performer's artistry and technique as they bring the Cathedral organ to life.\n"
+        summary: "Tuesday lunchtime organ recital on the restored cathedral organ, console screened live. Part of the Grand Organ Festival.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#032161c2ef"
+        sourceId: "churches/bristol-cathedral"
+        title: "Vivaldi Four Seasons at Christmas"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-11-26"
+          startTime: "19:30"
+          endTime: "21:15"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/rhapsody-in-blue-at-christmas/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/08/PiccadillySinfonietta_XMAS_bySuziCorker2-s.jpeg"
+        tags:
+          - "classical"
+          - "live-music"
+          - "seasonal"
+        raw: "**Vivaldi Four Seasons at Christmas** — Thu 26 Nov | 19:30 – 21:15.
+
+
+          Enjoy an exceptional candlelit concert this Christmas in the stunning setting of the **Bristol Cathedral.** Celebrate the season with **Vivaldi's iconic masterpiece The Four Seasons**, brought to life as you've never heard it before, while a carefully chosen programme of festive favourites and classical masterpieces creates the perfect soundtrack for a magical winter evening.
+
+
+          Performed by the acclaimed **Piccadilly Sinfonietta** and a leading violin soloist to be announced.
+
+
+          Programme: Pachelbel – _Canon in D_; Corelli – _Christmas Concerto_; Elgar – _Nimrod from Enigma Variations_; Tchaikovsky – _Sleeping Beauty Waltz_; Strauss – _The Blue Danube_; Vivaldi – _The Four Seasons_.
+
+
+          _Please note: this event is presented by an external promoter and hosted at Bristol Cathedral._\n"
+        summary: "The Piccadilly Sinfonietta's candlelit Christmas programme: Pachelbel's Canon, Corelli's Christmas Concerto, Nimrod, the Blue Danube and the complete Four Seasons, soloist still to be named. Note the event's own URL still carries a Rhapsody in Blue slug.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#1d403b74e2"
+        sourceId: "churches/bristol-cathedral"
+        title: "New Bristol Sinfonia"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-11-28"
+          startTime: "19:30"
+          endTime: "21:30"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/new-bristol-sinfonia/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/04/NBS-Poster-artwork.jpg"
+        tags:
+          - "classical"
+          - "live-music"
+          - "festival"
+        raw: "**New Bristol Sinfonia** — Sat 28 Nov | 19:30 – 21:30.
+
+
+          Join New Bristol Sinfonia and the organists of Bristol Cathedral for a spectacular evening celebrating the power, drama and beauty of music for organ and orchestra.
+
+
+          Part of The Grand Organ Festival, this concert marks an exciting moment in the life of the Cathedral's newly restored organ, bringing together musicians from across Bristol for a performance of some of the most inspiring works ever written for the instrument.
+
+
+          The evening opens with Widor's much-loved _Toccata_, the final piece played on the organ before its restoration began. Audiences will then hear works by Bach, Elgar and Poulenc before the concert culminates in Saint-Saëns' magnificent _Symphony No. 3_, often known simply as the \"Organ Symphony\".
+
+
+          Presented by New Bristol Sinfonia and Bristol Cathedral as part of **The Grand Organ Festival**. [Click here to find out more](https://bristol-cathedral.co.uk/whats-on/the-grand-organ-festival/)\n"
+        summary: "The Grand Organ Festival's orchestral centrepiece: New Bristol Sinfonia and the cathedral organists open with the Widor Toccata that was the last thing played before the restoration, then Bach, Elgar and Poulenc, ending with Saint-Saëns's Organ Symphony.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#bf9170363a"
+        sourceId: "churches/bristol-cathedral"
+        title: "The Advent Procession"
+        subcategory: "Special Services"
+        occurrence:
+          kind: "single"
+          date: "2026-11-29"
+          startTime: "18:00"
+          endTime: "19:30"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/the-advent-procession/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2023/11/20231203-Bristol-Cathedral-@JonCraig_Photos-77.jpg"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "classical"
+          - "seasonal"
+          - "free-entry"
+        raw: "**The Advent Procession** — Sun 29 Nov | 18:00 – 19:30. Free.
+
+
+          **Begin Advent with one of Bristol Cathedral's most powerful and atmospheric services.**
+
+
+          Beginning in complete darkness, the Advent Procession follows a journey from darkness into light. The voices of the Cathedral Choir are first heard from the far end of the Cathedral before the procession begins. As the choir and vergers move through the building, candles are gradually lit throughout the congregation, transforming the Cathedral with light. Through music, scripture and prayer, the service unfolds the story of God's promises and the hope of Christ's coming into the world.
+
+
+          Rich in symbolism, music and beauty, the Advent Procession marks the beginning of the Church's year and the start of the journey towards Christmas.\n"
+        summary: "The cathedral choir's Advent Sunday procession, which starts in total darkness and lights the building candle by candle as the choir moves through it. Free, and the most theatrical service of the cathedral's year.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#688e479aca"
+        sourceId: "churches/bristol-cathedral"
+        title: "Mabelle Young-Eun Park"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-12-01"
+          startTime: "13:15"
+          endTime: "14:00"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/mabelle-young-eun-park/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2023/10/Lunchtime-Recitals-Header-scaled.jpg"
+        tags:
+          - "classical"
+          - "live-music"
+        raw: "**Mabelle Young-Eun Park – Violin.** This Week's Recital. Tue 1 Dec | 13:15 – 14:00. Tuesday Lunchtime Recital series.
+
+
+          Take a break in the middle of your week and enjoy an inspiring hour of live music in the magnificent surroundings of Bristol Cathedral's 19th-century Nave.\n"
+        summary: "A violin recital for the Tuesday lunchtime series in the Nave. No programme is printed.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#b8a02c0c99"
+        sourceId: "churches/bristol-cathedral"
+        title: "Advent Quiet Day"
+        subcategory: "Special Services"
+        occurrence:
+          kind: "single"
+          date: "2026-12-05"
+        status: "scheduled"
+        timesText: "All day; times not yet published"
+        url: "https://bristol-cathedral.co.uk/event/advent-quiet-day-2/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2025/10/DSC_1398.jpg"
+        tags:
+          - "wellbeing"
+          - "seasonal"
+        raw: "**Advent Quiet Day** — Sat 5 Dec, all day.
+
+
+          **Save the date for our Advent Quiet Day.**
+
+
+          As Advent begins, join us for a day of prayer, reflection and stillness as we prepare for the journey to Christmas.
+
+
+          We're currently finalising the programme and guest leader, with full details to be announced soon. For now, we invite you to reserve the date in your diary and look forward to a day that will offer space to pause, reflect and engage more deeply with the themes of Advent: hope, expectation, waiting and renewal.
+
+
+          **Further details and booking information will be published shortly.**\n"
+        summary: "A save-the-date for a day of prayer, reflection and stillness at the start of Advent. Programme, leader, times and booking are all still to be announced.\n"
+        confidence: "medium"
+      - id: "churches/bristol-cathedral#1879802659"
+        sourceId: "churches/bristol-cathedral"
+        title: "The Best of Bublé"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-12-10"
+          startTime: "19:30"
+          endTime: "21:45"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/the-best-of-buble/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/08/rsw-1280h-670.webp"
+        tags:
+          - "live-music"
+          - "tribute"
+          - "seasonal"
+          - "jazz"
+        raw: "**The Best of Bublé** — Thu 10 Dec | 19:30 – 21:45.
+
+
+          Enjoy an evening of live music celebrating the timeless songs of Michael Bublé in the magnificent surroundings of Bristol Cathedral.
+
+
+          Featuring acclaimed vocalist **Josh Hindle** and his live band, _The Best of Bublé: The Cathedral Experience_ brings together some of Bublé's best-loved hits, including _Home_, _Feeling Good_, _Haven't Met You Yet_, _Everything_, _It's a Beautiful Day_, _Cry Me a River_ and _Sway_.
+
+
+          For performances during the festive season, the concert also includes a selection of Michael Bublé's popular Christmas songs, adding an extra touch of seasonal sparkle to the evening.
+
+
+          **Tickets are available through the event organiser.** _Please note: this event is presented by an external promoter and hosted at Bristol Cathedral._\n"
+        summary: "Josh Hindle and band do Michael Bublé's songbook — Home, Feeling Good, Sway, Cry Me a River — with his Christmas numbers added for the December date. Tickets through the promoter.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#07f511c7fd"
+        sourceId: "churches/bristol-cathedral"
+        title: "Carols by Candlelight"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-12-11"
+          startTime: "19:30"
+          endTime: "21:15"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/carols-by-candlelight-friday/2026-12-11/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2025/10/20251213-Cathedral-Carols-@JonCraig_Photos-78.jpg"
+        tags:
+          - "seasonal"
+          - "classical"
+          - "live-music"
+          - "booking-required"
+        raw: "**Carols by Candlelight** — Fri 11 Dec | 19:30 – 21:15. Save the Date.
+
+
+          Step into the glow of candlelight and share in one of Bristol Cathedral's most cherished Christmas traditions.
+
+
+          Each year, thousands of people gather beneath the Cathedral's vaulted ceilings for **Carols by Candlelight**, a festive evening of music, readings and congregational carol singing. Performed by the Cathedral Choir, the programme weaves together much-loved Christmas favourites with beautiful choral music old and new, creating a memorable start to the Christmas season.
+
+
+          **Tickets are not yet on sale.** This concert sells out each year, so we encourage you to sign up to our newsletter to be among the first to hear when tickets become available. [Sign up to our Newsletter](https://bristol-cathedral.co.uk/newsletter-sign-up/)\n"
+        summary: "The cathedral choir's own candlelit carol concert, the Friday of two nights: carols for everyone to sing plus choral pieces old and new. It sells out every year and tickets are not yet on sale — the newsletter is how the cathedral says it will announce them.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#c4e73ab993"
+        sourceId: "churches/bristol-cathedral"
+        title: "Carols by Candlelight"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-12-12"
+          startTime: "19:30"
+          endTime: "21:15"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/carols-by-candlelight-friday/2026-12-12/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2025/10/20251213-Cathedral-Carols-@JonCraig_Photos-78.jpg"
+        tags:
+          - "seasonal"
+          - "classical"
+          - "live-music"
+          - "booking-required"
+        raw: "**Carols by Candlelight** — Sat 12 Dec | 19:30 – 21:15. Save the Date.
+
+
+          Step into the glow of candlelight and share in one of Bristol Cathedral's most cherished Christmas traditions.
+
+
+          Each year, thousands of people gather beneath the Cathedral's vaulted ceilings for **Carols by Candlelight**, a festive evening of music, readings and congregational carol singing. Performed by the Cathedral Choir, the programme weaves together much-loved Christmas favourites with beautiful choral music old and new, creating a memorable start to the Christmas season.
+
+
+          **Tickets are not yet on sale.** This concert sells out each year, so we encourage you to sign up to our newsletter to be among the first to hear when tickets become available. [Sign up to our Newsletter](https://bristol-cathedral.co.uk/newsletter-sign-up/)\n"
+        summary: "The Saturday night of the cathedral choir's candlelit carol concert: congregational carols and choral music old and new. Sells out every year; tickets not yet on sale, announced through the newsletter.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#f79eed0e16"
+        sourceId: "churches/bristol-cathedral"
+        title: "Pride Carol Service"
+        subcategory: "Special Services"
+        occurrence:
+          kind: "single"
+          date: "2026-12-14"
+          startTime: "17:30"
+          endTime: "18:30"
+        status: "scheduled"
+        venue:
+          name: "The Lord Mayor's Chapel"
+          area: "College Green"
+        url: "https://bristol-cathedral.co.uk/event/pride-carol-service/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2023/12/063-March-30-2023-Lord-Mayor_s-Chapel-web-res-DSC_9704-HDR-PULLEN.jpg"
+        tags:
+          - "lgbtq"
+          - "seasonal"
+          - "community"
+        raw: "**Pride Carol Service** — Mon 14 Dec | 17:30 – 18:30. The Lord Mayor's Chapel.
+
+
+          Join us for a Pride Carol Service at the historic Lord Mayor's Chapel.
+
+
+          Hosted in partnership with Christians at Bristol Pride, this joyful and inclusive Christmas celebration brings together LGBTQ+ people, their families, friends and allies to share the hope, music and community of the season.
+
+
+          Through carols, readings and reflection, we'll celebrate Christmas in a space where everyone is welcome and everyone belongs. Whether faith is an important part of your life, you're exploring spirituality, or you're simply looking for a place to celebrate Christmas with others, we'd love to welcome you. **Everyone is welcome.**\n"
+        summary: "A carol service for LGBTQ+ people, families and allies, run with Christians at Bristol Pride — held not in the cathedral but across College Green in the Lord Mayor's Chapel, which the cathedral looks after. Everyone welcome; no price printed.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#47eab8b10b"
+        sourceId: "churches/bristol-cathedral"
+        title: "Luke Bond"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-12-15"
+          startTime: "13:15"
+          endTime: "14:00"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/luke-bond/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2026/02/Organ-13.jpg"
+        tags:
+          - "classical"
+          - "live-music"
+          - "festival"
+        raw: "**Luke Bond – Organist.** This Week's Recital. Tue 15 Dec | 13:15 – 14:00. Tuesday Lunchtime Recital series; part of The Grand Organ Festival.
+
+
+          For organ recitals, a live video feed from the console will be projected onto a screen, allowing audiences a unique view of the performer's artistry and technique as they bring the Cathedral organ to life.\n"
+        summary: "The last Tuesday lunchtime organ recital of the year on the restored cathedral organ, console screened live. Part of the Grand Organ Festival.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#c29bb6e994"
+        sourceId: "churches/bristol-cathedral"
+        title: "Christmas Classics"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-12-18"
+          startTime: "19:00"
+        status: "scheduled"
+        timesText: "Two performances: 19:00 – 20:00 and 21:00 – 22:00"
+        url: "https://bristol-cathedral.co.uk/event/christmas-classics/2026-12-18/1/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2025/01/571770-Candlelight_MEDIAKIT_GENERIC_2024_01_28_Sala-Fernando-De-Rojas-del-Circulo-de-Bellas-Artes_MADRID_SP_43-e7b075-original-1737470763.jpg"
+        tags:
+          - "classical"
+          - "seasonal"
+          - "live-music"
+        raw: "**Christmas Classics** — Fri 18 Dec | 19:00 – 20:00, and again 21:00 – 22:00.
+
+
+          Celebrate the sounds of the season with a festive candlelit concert at Bristol Cathedral.
+
+
+          Part of the popular Candlelight series, this special Christmas programme brings together classical favourites, traditional carols and modern festive hits, performed live by a string quartet in the glow of candlelight. Audiences can enjoy music ranging from Tchaikovsky's _Dance of the Sugar Plum Fairy_ and _Carol of the Bells_ to festive favourites including _Let It Snow!_, _Last Christmas_ and _All I Want for Christmas Is You_.
+
+
+          Tickets are available through the event organiser. _Please note: this event is presented by the Candlelight concert series and hosted at Bristol Cathedral. This is a tribute concert experience and is not affiliated with, endorsed by, or sponsored by any featured artists or rights holders._\n"
+        summary: "The Candlelight series' Christmas string-quartet hour — Sugar Plum Fairy, Carol of the Bells, Last Christmas — played twice on the same Friday evening, at seven and at nine. Tickets from the promoter.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#91a69662d5"
+        sourceId: "churches/bristol-cathedral"
+        title: "Viennese Christmas"
+        subcategory: "Music"
+        occurrence:
+          kind: "single"
+          date: "2026-12-22"
+          startTime: "19:30"
+          endTime: "21:00"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/viennese-christmas/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2025/01/London-Concertante-at-Bristol-Cathedral.jpg"
+        tags:
+          - "classical"
+          - "seasonal"
+          - "live-music"
+        raw: "**Viennese Christmas** — Tue 22 Dec | 19:30 – 21:00.
+
+
+          Celebrate the festive season with an evening of live classical music in the candlelit surroundings of Bristol Cathedral.
+
+
+          Performed by **London Concertante**, this seasonal concert features a programme inspired by the music of Vienna, bringing together some of the most beloved works by Strauss, Tchaikovsky, Brahms and Schubert. Audiences can enjoy favourites including _The Blue Danube Waltz_, selections from Tchaikovsky's _Nutcracker Suite_, _Hungarian Dance No. 5_ and _Tales from the Vienna Woods_.
+
+
+          Tickets are available through the event organiser. _Please note: this event is presented by London Concertante and hosted at Bristol Cathedral._\n"
+        summary: "London Concertante's candlelit Viennese programme three days before Christmas: Blue Danube, Nutcracker selections, Brahms's Hungarian Dance No. 5 and Tales from the Vienna Woods.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#0ae568a699"
+        sourceId: "churches/bristol-cathedral"
+        title: "Chorister for the Day"
+        subcategory: "Family Activities"
+        occurrence:
+          kind: "single"
+          date: "2027-02-27"
+          startTime: "10:00"
+          endTime: "15:00"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/chorister-for-the-day/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2023/10/Join-the-Choir.jpg"
+        tags:
+          - "kids"
+          - "workshop"
+          - "family"
+          - "classical"
+        raw: "**Chorister for the Day** — Sat 27 Feb 2027 | 10:00 – 15:00. Booking coming soon.
+
+
+          **Be a Chorister for the Day – Explore Life as a Chorister at Bristol Cathedral.** Is your child in Year 4 and passionate about singing? _Chorister for the Day_ is a unique opportunity for children and their families to experience what it's like to be part of the renowned Cathedral Choir.
+
+
+          Throughout the day, your child will participate in a fun and interactive singing workshop, try on chorister robes, and gain an understanding of what life as a chorister involves. They will also learn about Evensong and the musical traditions of the Cathedral. Parents will have the chance to meet and chat with chorister families over coffee, learning about the commitment, rewards, and opportunities that come with being a chorister.
+
+
+          Choristers receive free vocal lessons, funding for instrumental lessons, and perform in prestigious events, including appearances on national TV, radio, and international tours. All of our choristers are educated at Bristol Cathedral Choir School.
+
+
+          For more information contact William Forrest, Music Assistant, 0117 946 8173, William.forrest@bristol-cathedral.co.uk. [Click here to find out more about the choir](https://bristol-cathedral.co.uk/worship/choir/)\n"
+        summary: "A taster day for Year 4 children thinking about joining the cathedral choir — a singing workshop, robes to try on, an introduction to Evensong — while parents meet current chorister families over coffee. Booking not yet open.\n"
+        confidence: "high"
+      - id: "churches/bristol-cathedral#c5981d6077"
+        sourceId: "churches/bristol-cathedral"
+        title: "Trinity Sunday Eucharist"
+        subcategory: "Special Services"
+        occurrence:
+          kind: "single"
+          date: "2027-05-23"
+          startTime: "10:00"
+          endTime: "11:15"
+        status: "scheduled"
+        url: "https://bristol-cathedral.co.uk/event/trinity-sunday/"
+        image: "https://bristol-cathedral.co.uk/wp-content/uploads/2023/10/Cathedral-Eucharist-scaled.jpg"
+        price:
+          free: true
+          text: "Free; retiring collection for the Choir Tour Fund after the recital"
+        tags:
+          - "classical"
+          - "free-entry"
+          - "family"
+        raw: "**Trinity Sunday Eucharist** — Sun 23 May 2027 | 10:00 – 11:15. Free.
+
+
+          Bristol Cathedral is formally known as The Cathedral Church of the Holy and Undivided Trinity. We celebrate Trinity Sunday, our Feast of Title, with a joyful Eucharist sung by the full Cathedral Choir. This will be followed by an instrumental; recital given by the Cathedral Choristers, with a retiring collection going towards the Choir Tour Fund.
+
+
+          **Children of all ages are also invited to join us for prayers, bible readings, teaching and fun activities in a safe, playful, and prayerful environment during the 10.00am Eucharist in term time.**\n"
+        summary: "The cathedral's patronal festival: a Eucharist sung by the full choir, followed by an instrumental recital from the choristers with a collection for their tour fund. Far ahead — the only 2027 date in the diary beyond February.\n"
+        confidence: "high"
+    notes: "Second harvest. /whats-on/ answers 200 and is still the real listing, but it paginates twelve rows at a time with five daily services per day, so the forward diary was read through the site's Tribe REST API instead: /wp-json/tribe/events/v1/categories (eight categories, counts included), then /wp-json/tribe/events/v1/events?per_page=50&start_date=2026-09-11&end_date=2027-09-30&categories=music (32 rows, one page, full body text and image URLs) and the same with categories=community,family-activities,guided-tours,special-services,talks-workshops (9 rows). Both answered 200 to a browser user-agent. That pair is the whole non-service diary through May 2027 in two fetches and is worth an `api` route in the catalogue, with the hint that `categories=` filters by slug and that leaving `services` out is what makes it usable. The .ics export noted last run was also read (30-event cap, 12–18 Sep only) along with /worship/lunchtime-recitals/ and /worship/daily-services/. Eight fetches in all, over budget; the two large ones were the catalogued page and the ics, the rest were small JSON or short pages.
+
+
+      Choral Evensong is carried again as one `recurring` row with the pattern in the exact words of /worship/daily-services/, re-read today and unchanged since 28 August, so the row keeps its id. This week's diary matches it: Choral Evensong 17:15 on Fri 11, Mon 14, Tue 15, Wed 16 Sep; 15:30 on Sun 13; Evening Prayer on Sat 12 and Thu 17. No other daily service is recorded, per the catalogue hint. The one-off Special Services category is recorded (All Souls' Requiem, Remembrance Sunday, Advent Procession, Advent Quiet Day, Pride Carol Service, Trinity Sunday) because each is a dated public event billed with music, not a regular said service; a human may want to settle whether Remembrance Sunday and Trinity Sunday belong.
+
+
+      Price: the API's cost field is empty for every concert and recital and says \"Free\" only for All God's Children, Remembrance Sunday, the Advent Procession and Trinity Sunday, so `price` is set only on those and on WOOFYT, whose text says it. Nothing on /worship/lunchtime-recitals/ or any recital row states a price, so the twelve Tuesday recitals carry no `price` — the previous run's summaries called them free without a source for it, and that is not repeated. Thirteen of the 40 events are external promotions \"hosted at Bristol Cathedral\" with tickets sold by the organiser; the cathedral prints no ticket link for them, so `url` is the cathedral's own event page in every case.
+
+
+      Since 28 August: Michał Szostak (8 Sep) has passed; the Tower Tour is no longer in the forward diary (only a 22 Oct Highlights Tour is); new are An Evening of Kate Bush, The Sanctus Project, Paul Gunn Cello Trio, A Night at the Opera, The Music of Adele, Arnos Vocale, in the dark: HUSH, The Four Seasons & The Lark Ascending, Springsteen, G4, Fleetwood Mac, Lucie Tenet & Anna Harris, Day Sessions, Vivaldi at Christmas, Mabelle Young-Eun Park, Bublé, both Carols by Candlelight nights, Christmas Classics, Viennese Christmas, Chorister for the Day, the six special services and the Highlights Tour. Carols by Candlelight is two rows because it is two nights; Christmas Classics is one row with both performances in `timesText`. Pride Carol Service sets `venue` because it is in the Lord Mayor's Chapel, not the cathedral. The Grenfell panel is in its last three days. Crafty Cathedral is listed only for 20 and 27 August, both past, and is not recorded.
+
+
+      Oddities kept as printed: the Vivaldi concert's URL slug is /rhapsody-in-blue-at-christmas/; the Fleetwood Mac blurb contains a stray \"citeturn5view2\" token, which is the cathedral's copy, not ours; the recital rows' currency_code carries a \"\\t\\t\\t\\t\\t\\t\\tclass=\" suffix, a template bug on their side. The ten organ-recital and concert rows that repeat the same four-paragraph series blurb carry only the first of it in `raw`. No `description` is set anywhere: the index text is the event page text on this site, so there was nothing more to open.
+
+
+      Mail: four messages from info@bristol-cathedral.co.uk were in the mail file (two subscription welcomes on 3 Sep, \"News & Notes\" on 4 and 11 Sep). None lists an event: the weekly News & Notes is two tracked list-manage links to a PDF notice sheet and the Sunday order of service, which were not followed. Nothing here came from the mailbox. The seasonal \"Bristol Cathedral Newsletter\" that the second welcome describes is the one that will carry a programme when it arrives."
+  - sourceId: "churches/st-mary-redcliffe"
+    fetch:
+      ok: true
+      url: "https://tockify.com/api/ngevent?calname=stmaryredcliffeevents&startms=1789084800000&endms=1822262400000&max=200"
+      status: 200
+    events:
+      - id: "churches/st-mary-redcliffe#818d4b6fb5"
+        sourceId: "churches/st-mary-redcliffe"
+        title: "Chatterton, Heritage & Decolonisation"
+        subcategory: "Free Exhibition"
+        occurrence:
+          kind: "run"
+          start: "2026-05-15"
+          end: "2027-03-22"
+        status: "scheduled"
+        timesText: "Monday - Saturday 8:00am - 4:00pm / Sunday 12:00noon - 5:00pm"
+        url: "https://www.stmaryredcliffe.co.uk/free-exhibition--chatterton--heritage---decolonisation"
+        price:
+          free: true
+          text: "Entry: Free"
+        tags:
+          - "exhibition"
+          - "free-entry"
+          - "heritage"
+          - "poetry"
+        raw: "**Free Exhibition — Opening Up St Mary Redcliffe: Chatterton, Heritage & Decolonisation**
+
+
+          Dates: May 15 2026 - March 22 2027
+
+
+          Monday - Saturday 8:00am - 4:00pm / Sunday 12:00noon - 5:00pm
+
+
+          Entry: Free
+
+
+          St John's Chapel
+
+
+          A free exhibition on the life, times and significance of Thomas Chatterton, \"the marvellous boy, / The sleepless soul that perished in his pride.\"\n"
+        summary: "A free display in St John's Chapel on Thomas Chatterton — the teenage poet who forged a medieval monk's manuscripts in this church's muniment room — and on what heritage and decolonisation mean for the building now. Open every day until March 2027.\n"
+        confidence: "high"
+      - id: "churches/st-mary-redcliffe#43b0cf8514"
+        sourceId: "churches/st-mary-redcliffe"
+        title: "Lunchtime at Redcliffe: free Thursday organ recital"
+        occurrence:
+          kind: "recurring"
+          pattern: "Each week we host a free organ recital on Thursday lunchtime"
+        status: "scheduled"
+        url: "https://www.stmaryredcliffe.co.uk/music"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "classical"
+          - "live-music"
+          - "free-entry"
+          - "weekly"
+        raw: "Each week we host a free organ recital on Thursday lunchtime, with organists from around the country and from further afield. Details of the current season can be viewed below. Join us if you can!
+
+
+          You can hear the organ during Sunday services and at our Thursday lunchtime recital series.
+
+
+          The same page's news tiles still contradict this: \"Lunchtime at Redcliffe\" (dated May 5 2020) reads \"Free Thursday lunchtime organ recitals are currently suspended due to Coronavirus\", and the most recent recital-season post, \"Autumn Recitals\", is dated August 14 2024. The events diary, however, now lists a dated Autumn 2026 season (see the separate row).\n"
+        summary: "The church's standing weekly free organ recital on the 1912 Harrison & Harrison, one of the largest parish church organs in Britain, with visiting players on Thursday lunchtimes. The music page still carries a 2020 \"suspended\" notice it never retracted, but the events diary now dates an autumn 2026 season from 17 September, so the series is running.\n"
+        confidence: "high"
+      - id: "churches/st-mary-redcliffe#dd0de87651"
+        sourceId: "churches/st-mary-redcliffe"
+        title: "Lunchtime at Redcliffe: Autumn Season"
+        occurrence:
+          kind: "recurring"
+          pattern: "Thursdays 13:00 – 14:00, 17 September to 19 November 2026 (ten weekly dates)"
+          start: "2026-09-17"
+          end: "2026-11-19"
+          startTime: "13:00"
+        status: "scheduled"
+        timesText: "Thu 17 Sep, 24 Sep, 1 Oct, 8 Oct, 15 Oct, 22 Oct, 29 Oct, 5 Nov, 12 Nov, 19 Nov; 13:00 – 14:00"
+        url: "https://tockify.com/stmaryredcliffeevents/detail/45/1789646400000"
+        image: "https://d3flpus5evl89n.cloudfront.net/56efbf8ddf82fe24811a7eb6/6a9e986c18db9687ebce22f0/scaled_1024.jpg"
+        price:
+          free: true
+          text: "Free"
+        tags:
+          - "classical"
+          - "live-music"
+          - "free-entry"
+          - "weekly"
+        raw: "**Lunchtime at Redcliffe: Autumn Season** — Thursdays 13:00 – 14:00, 17 September – 19 November 2026. St Mary Redcliffe Church. Tagged: Lunchtime-at-Redcliffe, Music, Event, Recital, Free, Musician, Organ, Organist.
+
+
+          Lunchtime at Redcliffe: Autumn 2026 Programme. 17 September – Yiming Guo. Yiming Guo is an Ash Music Scholar at Imperial College London, where he studies Electrical and Electronic Engineering. He is an accompanist to the Imperial College Chamber Choir whilst studying organ at the Royal College of Music. Yiming's programme includes music by Arakelyan, Bach, Campbell, Hensel, Ireland, and Stanford. 24…
+
+
+          (The diary's description is cut at 400 characters by the calendar API; the remaining nine recitalists are listed on the event's own page.)\n"
+        summary: "The autumn run of the free Thursday lunchtime organ recitals, ten weeks from 17 September to 19 November, opening with Royal College of Music organ student Yiming Guo playing Bach, Stanford, Ireland, Hensel, Campbell and Arakelyan. Later players are on the event page; the diary cuts the list off after the first.\n"
+        confidence: "high"
+      - id: "churches/st-mary-redcliffe#1118b3c51f"
+        sourceId: "churches/st-mary-redcliffe"
+        title: "National Poetry Day: Simon Armitage, Karen Solie, & Rachel Bower"
+        occurrence:
+          kind: "single"
+          date: "2026-10-03"
+          startTime: "19:30"
+          endTime: "22:00"
+        status: "scheduled"
+        url: "https://tockify.com/stmaryredcliffeevents/detail/36/1791052200000"
+        image: "https://d3flpus5evl89n.cloudfront.net/56efbf8ddf82fe24811a7eb6/69ef43d6af02bda0e731ff37/scaled_1024.jpg"
+        price:
+          free: false
+          text: "Advance £20.00 / Restricted view £15.00 / Booking fee applies"
+          min: 15
+          max: 20
+          currency: "GBP"
+        tags:
+          - "poetry"
+          - "reading"
+          - "booking-required"
+        raw: "**National Poetry Day: Simon Armitage, Karen Solie, & Rachel Bower** — Saturday 3 October 2026, 19:30 – 22:00. Bristol, St Mary Redcliffe Church.
+
+
+          Tickets are available on ticket source. Information: Starts 7:30 P.M. Advance £20.00. Restricted view £15.00. Booking fee applies.
+
+
+          Come along to a very special event for National Poetry Day with the Poet Laureate Simon Armitage, Forward Poetry Prize winner Karen Solie, and the exc…\n"
+        summary: "The Poet Laureate reading in the nave for National Poetry Day, with Forward Prize winner Karen Solie and Rachel Bower. Restricted-view seats are five pounds cheaper, which in a building this shape is worth knowing.\n"
+        confidence: "high"
+      - id: "churches/st-mary-redcliffe#dbcc388105"
+        sourceId: "churches/st-mary-redcliffe"
+        title: "FAUST: Centenary Screening w/ Live Music at St Mary Redcliffe"
+        occurrence:
+          kind: "single"
+          date: "2026-10-21"
+          startTime: "18:15"
+          endTime: "20:45"
+        status: "scheduled"
+        url: "https://tockify.com/stmaryredcliffeevents/detail/42/1792602900000"
+        tags:
+          - "screening"
+          - "live-music"
+          - "classic"
+          - "festival"
+        raw: "**FAUST: Centenary Screening w/ Live Music at St Mary Redcliffe** — Wednesday 21 October 2026, 18:15 – 20:45. Tagged: film-screening, faust, bristol-film-festival, event.
+
+
+          Bristol Film Festival are returning to the stunning Gothic surroundings of St Mary Redcliffe in October as part of their Halloween season, for a special centenary screening of Faust. This visually stunning adaptation of the legendary tale was directed by F.W. Murnau, the genius behind Nosferatu, and Faust offers a similarly chilling exploration of morality, good versus evil, and the battle for one…\n"
+        summary: "Bristol Film Festival's Halloween-season screening of Murnau's 1926 Faust with live musical accompaniment, in the Gothic nave a hundred years after the film's release. Price not printed in the diary.\n"
+        confidence: "high"
+      - id: "churches/st-mary-redcliffe#befb5150a2"
+        sourceId: "churches/st-mary-redcliffe"
+        title: "Interstellar Plus"
+        occurrence:
+          kind: "single"
+          date: "2026-11-14"
+          startTime: "19:00"
+          endTime: "22:00"
+        status: "scheduled"
+        url: "https://tockify.com/stmaryredcliffeevents/detail/44/1794682800000"
+        image: "https://d3flpus5evl89n.cloudfront.net/56efbf8ddf82fe24811a7eb6/6a885315558fb1b2fd4b565e/scaled_1024.jpg"
+        tags:
+          - "live-music"
+          - "sci-fi"
+          - "classical"
+        raw: "**Interstellar Plus** — Saturday 14 November 2026, 19:00 – 22:00. St Mary Redcliffe Church. Tagged: Interstellar, Music, Concert, Live-Event.
+
+
+          Marking the 10th anniversary of the film Interstellar, musician Roger Sayer performs music from the film on our world class church organ. The Original Interstellar Organist, Roger Sayer, performs music from the original famous soundtrack together with other iconic Sci-fi music, including Star Wars and Thunderbirds. It's been 12 years since the release of the groundbreaking Christopher Nolan block…\n"
+        summary: "Roger Sayer, the organist on Hans Zimmer's Interstellar soundtrack, plays it on Redcliffe's Harrison & Harrison along with Star Wars, Thunderbirds and other science-fiction scores. The blurb cannot decide whether it is the film's tenth or twelfth anniversary.\n"
+        confidence: "high"
+      - id: "churches/st-mary-redcliffe#6709f55f34"
+        sourceId: "churches/st-mary-redcliffe"
+        title: "Nick Heyward 'The 12 Dates of Christmas' Tour"
+        occurrence:
+          kind: "single"
+          date: "2026-11-30"
+          startTime: "19:00"
+          endTime: "21:30"
+        status: "scheduled"
+        url: "https://tockify.com/stmaryredcliffeevents/detail/39/1796065200000"
+        image: "https://d3flpus5evl89n.cloudfront.net/56efbf8ddf82fe24811a7eb6/6a05943f64f49cafac187261/scaled_1024.jpg"
+        tags:
+          - "live-music"
+          - "seasonal"
+          - "tour"
+        raw: "**Nick Heyward 'The 12 Dates of Christmas' Tour** — Monday 30 November 2026, 19:00 – 21:30. St Mary Redcliffe Church.
+
+
+          Haircut 100 frontman to bring stripped-back festive shows to historic churches and cathedrals. Tickets go on sale on Friday 15 May at 10am via myticket.co.uk/artists/nick-heyward. Nick Heyward has announced a brand-new UK tour for winter 2026, The 12 Dates of Christmas — a unique run of intimate performances set in some of the country's most beautiful and atmospheric venues. The 12-date UK tour will…\n"
+        summary: "Haircut 100's Nick Heyward in stripped-back festive mode, one of twelve church and cathedral dates on his winter tour. Tickets went on sale in May through myticket.\n"
+        confidence: "high"
+      - id: "churches/st-mary-redcliffe#aa1004b397"
+        sourceId: "churches/st-mary-redcliffe"
+        title: "Cinematic Music By Candlelight"
+        occurrence:
+          kind: "single"
+          date: "2026-12-09"
+          startTime: "18:30"
+          endTime: "20:00"
+        status: "scheduled"
+        url: "https://tockify.com/stmaryredcliffeevents/detail/35/1796841000000"
+        image: "https://d3flpus5evl89n.cloudfront.net/56efbf8ddf82fe24811a7eb6/69e8a6fa5f82b9dab7f299e1/scaled_1024.jpg"
+        tags:
+          - "live-music"
+          - "classical"
+          - "seasonal"
+        raw: "**Cinematic Music By Candlelight** — Wednesday 9 December 2026, 18:30 – 20:00. St Mary Redcliffe Church. Tagged: concert.
+
+
+          Step into a world of magic, nostalgia, and festive wonder with Cinematic Music by Candlelight - a heartwarming evening of iconic film music and festive favourites. From the enchantment of Harry Potter to the romance of La La Land, this concert brings together unforgettable movie moments and timeless festive tunes in one stunning candlelit setting. Featuring London's The Lunar Trio (Piano, Violin &…\n"
+        summary: "The Lunar Trio — piano, violin and a third instrument the diary cuts off — play film themes from Harry Potter to La La Land plus festive pieces by candlelight, an hour and a half on a Wednesday evening.\n"
+        confidence: "high"
+      - id: "churches/st-mary-redcliffe#b4694cbc7b"
+        sourceId: "churches/st-mary-redcliffe"
+        title: "The Christmas Orchestra Concert"
+        occurrence:
+          kind: "single"
+          date: "2026-12-18"
+          startTime: "18:30"
+          endTime: "21:30"
+        status: "scheduled"
+        url: "https://tockify.com/stmaryredcliffeevents/detail/33/1797618600000"
+        image: "https://d3flpus5evl89n.cloudfront.net/56efbf8ddf82fe24811a7eb6/69bbba1eb5a6eb2d37868d34/scaled_1024.jpg"
+        tags:
+          - "live-music"
+          - "classical"
+          - "seasonal"
+        raw: "**The Christmas Orchestra Concert** — Friday 18 December 2026, 18:30 – 21:30. Tagged: concert, christmas-orchestra.
+
+
+          The Christmas Orchestra returns for 2026, after a fantastic run of sold-out shows in 2024 and 2025! We're thrilled to be bringing our unique concert experience to more locations than ever before. Prepare to immerse yourself in the magic of the festive season and create lasting memories together! On 18th December, our tour makes a special stop at St Mary's Redcliffe, Bristol, bringing the Christmas…\n"
+        summary: "A touring festive orchestra's Bristol date, a week before Christmas, after sold-out runs the past two years. The diary gives no programme or price.\n"
+        confidence: "high"
+      - id: "churches/st-mary-redcliffe#9244ae02be"
+        sourceId: "churches/st-mary-redcliffe"
+        title: "Christmas at the Musicals with Nadia Eide"
+        occurrence:
+          kind: "single"
+          date: "2026-12-21"
+          startTime: "19:00"
+          endTime: "21:00"
+        status: "scheduled"
+        url: "https://tockify.com/stmaryredcliffeevents/detail/32/1797879600000"
+        image: "https://d3flpus5evl89n.cloudfront.net/56efbf8ddf82fe24811a7eb6/69a047a6b2de589cfe6a618c/scaled_1024.jpg"
+        tags:
+          - "live-music"
+          - "musical"
+          - "seasonal"
+        raw: "**Christmas at the Musicals with Nadia Eide** — Monday 21 December 2026, 19:00 – 21:00. Tagged: concert, christmas, christmas-events, christmas-concert, nadia-eide.
+
+
+          Overview: Featuring songs from Phantom of the Opera, Sound of Music, Wizard of Oz and more in the ultimate celebration of songs from stage and screen. Christmas at the Musicals at St Mary Redcliffe. No 1 selling classical soprano and star of The Voice UK, Nadia Eide is touring her brand new Christmas concert tour Christmas At The Musicals in November and December 2026. Featuring songs from Phantom o…\n"
+        summary: "Soprano Nadia Eide's touring Christmas show of musical-theatre numbers — Phantom, The Sound of Music, The Wizard of Oz — in the nave on the Monday before Christmas.\n"
+        confidence: "high"
+    notes: "Second harvest, and the picture from 28 August holds: both catalogued routes answer 200 (968 KB and 1 MB) and neither prints a forward diary to a fetcher. /whats-on is a Duda page whose only content is the Tockify widget (data-tockify-calendar=\"STMARYREDCLIFFEEVENTS\") and the line \"Join us for a concert, film screening or talk\"; /music is the same historical page as before, news tiles dated 2020–2024. `fetch.url` is therefore the Tockify public API again, which returned the whole forward diary (17 rows, 8 distinct events) in one fetch to a browser user-agent. **The `api` route handover stands**: https://tockify.com/api/ngevent?calname=stmaryredcliffeevents&startms=<ms>&endms=<ms>&max=200 belongs in the catalogue.
+
+
+      Two things this run adds to that handover. First, every event has a real page at https://tockify.com/stmaryredcliffeevents/detail/<uid>/<tid>, built from the `eid.uid` and `eid.tid` the API returns; one was fetched in full (200, with a JSON-LD Event block confirming the title, date and an image URL) and the other seven were checked with a request each and all answered 200, so `url` is now set on every diary row. Second, the API's `imageSets[].ownerId` plus `imageIdNg` give a resolvable image at https://d3flpus5evl89n.cloudfront.net/<ownerId>/<imageIdNg>/scaled_1024.jpg; each was HEAD-checked and seven of eight answer 200 (FAUST's returns 403, so that row has no image). Five page fetches — /whats-on, /music, the API, one detail page, the Chatterton page — plus fourteen HEAD/status checks on the CDN and detail URLs; one over budget, as last time, and spent for the same reason.
+
+
+      The API caps `description.text` at 400 characters, so every `raw` ends where the diary's own text does, marked with an ellipsis; a second call with `noDetail=false` returned the same truncation. No `description` is set anywhere because no event page's full text was readable: the detail pages are client-rendered and carry only the same 400 characters in their JSON-LD.
+
+
+      New since 28 August: \"Lunchtime at Redcliffe: Autumn Season\", ten Thursday 13:00 dates from 17 September to 19 November, recorded as one `recurring` row with the dates in `timesText` rather than ten singles. It settles the question the last run left open — the free Thursday recitals are running — so the standing \"free Thursday organ recital\" row from /music is re-recorded with the same title and pattern (unchanged on the page today) and its confidence raised from low to high; the two rows describe the same series, one as the standing claim and one as this season's dates, and a human may prefer to retire the generic one. The Chatterton exhibition page was re-fetched and is unchanged. The seven concert rows are unchanged in date and time.
+
+
+      Still no service pattern recorded: /music says \"three sung Sunday services each week\" without times, and /worship1af9a00d was not fetched. The nav still links \"LUNCHTIME AT REDCLIFFE: FREE RECITALS\" to the malformed path /stmaryredcliffe.co.uk/recitals. No mail for this source; it has no `mail:` binding in the catalogue."

@@ -1,0 +1,866 @@
+schema: "whazzon.mail/1"
+locationId: "gb-bristol"
+date: "2026-09-11"
+category: "art"
+pulledAt: "2026-09-11T17:56:30Z"
+mailbox: "INBOX"
+messages:
+  - messageId: "<5a0ef62fa3b29e49913534f5f.97301a1975.20260829101515.98e35cf62e.1f3cade9@mail239.suw12.mcsv.net>"
+    receivedAt: "2026-08-29T10:15:20Z"
+    from:
+      name: "Arnolfini"
+      address: "info@arnolfini.org.uk"
+    subject: "Welcome to Arnolfini"
+    listId: "5a0ef62fa3b29e49913534f5f.533965.list-id.mcsv.net"
+    webVersion: "https://us1.campaign-archive.com/?i=e576e7d06d&u=5a0ef62fa3b29e49913534f5f&id=98e35cf62e"
+    sourceId: "art/arnolfini"
+    matchedBy: "from:*@arnolfini.org.uk"
+    body: "Thanks for signing up!
+
+      ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌    ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­
+
+
+      https://arnolfini.us1.list-manage.com/track/click?u=5a0ef62fa3b29e49913534f5f&id=eec897ba0d&i=e576e7d06d
+
+
+      WELCOME TO ARNOLFINI
+
+
+      WELCOME,
+
+
+      Thanks for signing up to our newsletter.
+
+
+      We’re delighted to have you with us.
+
+
+      Explore what’s on <https://arnolfini.us1.list-manage.com/track/click?u=5a0ef62fa3b29e49913534f5f&id=3b1f1694e7&i=e576e7d06d>
+
+
+      https://arnolfini.us1.list-manage.com/track/click?u=5a0ef62fa3b29e49913534f5f&id=44f0801e27&i=e576e7d06d
+
+
+      info@arnolfini.org.uk
+
+
+      https://arnolfini.us1.list-manage.com/track/click?u=5a0ef62fa3b29e49913534f5f&id=691d9414eb&i=e576e7d06d
+
+
+      https://arnolfini.us1.list-manage.com/track/click?u=5a0ef62fa3b29e49913534f5f&id=43fa08d2e0&i=e576e7d06d
+
+
+      https://arnolfini.us1.list-manage.com/track/click?u=5a0ef62fa3b29e49913534f5f&id=a1f343b8ef&i=e576e7d06d
+
+
+      https://arnolfini.us1.list-manage.com/track/click?u=5a0ef62fa3b29e49913534f5f&id=40e75515ee&i=e576e7d06d
+
+
+      Copyright (C) 2026 Arnolfini. All rights reserved.
+
+      You are receiving this email because you have signed up to receive information from Arnolfini.
+
+
+      Our mailing address is:
+
+      Arnolfini 16 Narrow Quay Bristol, BS1 4QA United Kingdom
+
+
+      Want to change how you receive these emails?
+
+      You can update your preferences <https://arnolfini.us1.list-manage.com/profile?u=5a0ef62fa3b29e49913534f5f&id=62c968b764&c=98e35cf62e> or unsubscribe <https://arnolfini.us1.list-manage.com/unsubscribe?u=5a0ef62fa3b29e49913534f5f&id=62c968b764&t=b&c=98e35cf62e&i=e576e7d06d>
+
+
+      View this email in your browser <https://us1.campaign-archive.com/?i=e576e7d06d&u=5a0ef62fa3b29e49913534f5f&id=98e35cf62e>"
+    truncated: false
+  - messageId: "<30010842.20260829101916.6a92b224479d17.58462321@mail20.mcsignup.com>"
+    receivedAt: "2026-08-29T10:19:16Z"
+    from:
+      name: "Spike Island"
+      address: "admin@spikeisland.org.uk"
+    subject: "Mailing List: Please Confirm Subscription"
+    sourceId: "art/spike-island"
+    matchedBy: "from:*@spikeisland.org.uk"
+    body: "PLEASE CONFIRM SUBSCRIPTION
+
+
+      Yes, subscribe me to this list. <https://spikeisland.us11.list-manage.com/subscribe/confirm?u=9ce9f594fd252b2924d15d845&id=7a8540c8f9>
+
+
+      If you received this email by mistake, simply delete it. You won't be subscribed if you don't click the confirmation link above.
+
+
+      For questions about this list, please contact:
+
+      rebecca.simpson@spikeisland.org.uk
+
+
+      https://login.mailchimp.com/signup/email-referral/?aid=9ce9f594fd252b2924d15d845"
+    truncated: false
+  - messageId: "<2b310c9def4b590f5b3d7f489.99302fa65b.20260829111315.a9a25ec7f5.9ad01914@mail232.suw12.mcsv.net>"
+    receivedAt: "2026-08-29T11:13:20Z"
+    from:
+      name: "Royal West of England Academy, Bristol"
+      address: "info@rwa.org.uk"
+    subject: "Hello from RWA  🎨"
+    listId: "2b310c9def4b590f5b3d7f489.231797.list-id.mcsv.net"
+    sourceId: "art/rwa"
+    matchedBy: "from:*@rwa.org.uk"
+    body: "Thanks for signing up to our e-news
+
+
+      INSIDE YOUR MONTHLY UPDATE:
+
+
+      Stay connected with the RWA
+
+
+      Each month, we bring the gallery to your inbox. Expect a curated mix events, artist interviews, behind-the-scenes insights, and first looks at our upcoming exhibitions.
+
+
+      Want to customise your feed? From hearing about our newest Drawing School Courses to events for families you can customise your experience by using the 'Update your preferences' link below to tell us exactly what you want to hear about.
+
+
+      Plus, follow us on Facebook <https://rwa.us1.list-manage.com/track/click?u=2b310c9def4b590f5b3d7f489&id=7dbef2f662&i=6dd301ce5d>, Instagram <https://rwa.us1.list-manage.com/track/click?u=2b310c9def4b590f5b3d7f489&id=7509faf38b&i=6dd301ce5d> and LinkedIn  <https://rwa.us1.list-manage.com/track/click?u=2b310c9def4b590f5b3d7f489&id=0a3e603b80&i=6dd301ce5d>or see all of our upcoming events on our website <https://rwa.us1.list-manage.com/track/click?u=2b310c9def4b590f5b3d7f489&id=7843bfff5f&i=6dd301ce5d>.
+
+
+      https://rwa.us1.list-manage.com/track/click?u=2b310c9def4b590f5b3d7f489&id=ab7f3ff395&i=6dd301ce5d
+
+
+      https://rwa.us1.list-manage.com/track/click?u=2b310c9def4b590f5b3d7f489&id=cc8588857a&i=6dd301ce5d
+
+
+      https://rwa.us1.list-manage.com/track/click?u=2b310c9def4b590f5b3d7f489&id=058627c64b&i=6dd301ce5d
+
+
+      Copyright © 2026, Royal West of England Academy, All rights reserved.
+
+      Queen’s Road, Clifton Bristol BS8 1PX • +44 (0)117 973 5129 • info@rwa.org.uk <info@rwa.org.uk?subject=Hello%20RWA> • rwa.org.uk <https://rwa.us1.list-manage.com/track/click?u=2b310c9def4b590f5b3d7f489&id=6287655613&i=6dd301ce5d>
+
+      Charity no. 1070163
+
+      You are receiving this email as you have signed up receive marketing information.
+
+      Please note that unsubscribing from this list may not unsubscribe you from all emails from the RWA. Please contact us to be removed from all our e-mail lists.
+
+      Want to change how you receive these emails?
+
+      You can update your preferences <https://rwa.us1.list-manage.com/track/click?u=2b310c9def4b590f5b3d7f489&id=db56824ed3&i=6dd301ce5d> or unsubscribe from this list <https://rwa.us1.list-manage.com/track/click?u=2b310c9def4b590f5b3d7f489&id=3237b0c1ca&i=6dd301ce5d>
+
+
+      This email was sent to [recipient]
+
+      why did I get this? <https://rwa.us1.list-manage.com/about?u=2b310c9def4b590f5b3d7f489&id=773b990198&c=a9a25ec7f5>    unsubscribe from this list <https://rwa.us1.list-manage.com/unsubscribe?u=2b310c9def4b590f5b3d7f489&id=773b990198&t=b&c=a9a25ec7f5&i=6dd301ce5d>    update subscription preferences <https://rwa.us1.list-manage.com/profile?u=2b310c9def4b590f5b3d7f489&id=773b990198&c=a9a25ec7f5>
+
+      The Royal West of England Academy · Queen's Road · Bristol, Bristol BS8 1PX · United Kingdom"
+    truncated: false
+  - messageId: "<30010842.20260829113532.6a92c404e6b973.52591042@mail17.mcsignup.com>"
+    receivedAt: "2026-08-29T11:35:32Z"
+    from:
+      name: "Centrespace Gallery"
+      address: "info@centrespacegallery.com"
+    subject: "Gallery Newsletter Subscribers: Please Confirm Subscription"
+    sourceId: "art/centrespace"
+    matchedBy: "from:*@centrespacegallery.com"
+    body: "GALLERY NEWSLETTER SUBSCRIBERS
+
+
+      PLEASE CONFIRM SUBSCRIPTION
+
+
+      Yes, subscribe me to this list. <https://centrespacegallery.us1.list-manage.com/subscribe/confirm?u=0f09d0e589a23ad546a06b115&id=9751b3abc1>
+
+
+      If you received this email by mistake, simply delete it. You won't be subscribed if you don't click the confirmation link above.
+
+
+      For questions about this list, please contact:
+
+      info@centrespacegallery.com
+
+
+      https://login.mailchimp.com/signup/email-referral/?aid=0f09d0e589a23ad546a06b115"
+    truncated: false
+  - messageId: "<30010842.20260829121138.6a92cc7a22bff2.46978181@mail21.mcsignup.com>"
+    receivedAt: "2026-08-29T12:11:38Z"
+    from:
+      name: "Centrespace Gallery"
+      address: "info@centrespacegallery.com"
+    subject: "Gallery Newsletter Subscribers: Subscription Confirmed"
+    sourceId: "art/centrespace"
+    matchedBy: "from:*@centrespacegallery.com"
+    body: "GALLERY NEWSLETTER SUBSCRIBERS
+
+
+      Your subscription to our list has been confirmed.
+
+
+      For your records, here is a copy of the information you submitted to us...
+
+
+      \ * Email Address: [recipient]
+
+      \ * First Name:
+
+      \ * Last Name:
+
+      \ * Marketing Permissions:
+
+
+      If at any time you wish to stop receiving our emails, you can:
+
+      unsubscribe here <https://centrespacegallery.us1.list-manage.com/unsubscribe?u=0f09d0e589a23ad546a06b115&id=9751b3abc1>
+
+
+      You may also contact us at:
+
+      info@centrespacegallery.com
+
+
+      https://login.mailchimp.com/signup/email-referral/?aid=0f09d0e589a23ad546a06b115"
+    truncated: false
+  - messageId: "<9ce9f594fd252b2924d15d845.68c095d105.20260901140304.007b7e9de7.14ad1236@mail34.sea172.mcdlv.net>"
+    receivedAt: "2026-09-01T14:04:54Z"
+    from:
+      name: "Spike Island"
+      address: "admin@spikeisland.org.uk"
+    subject: "Your September guide to Spike Island 🌖"
+    listId: "9ce9f594fd252b2924d15d845.129265.list-id.mcsv.net"
+    webVersion: "https://mailchi.mp/spikeisland/september-2026-newsletter"
+    sourceId: "art/spike-island"
+    matchedBy: "from:*@spikeisland.org.uk"
+    body: "50th anniversary Summer Party, new exhibitions launching, events for all the family and more ✨
+
+      Spike Island, September 2026
+
+
+      View this email in your browser <https://mailchi.mp/spikeisland/september-2026-newsletter>
+
+
+      https://us.list-manage.com/QTIJBR6iPEV?c2id=a7c541d1d2eca54a095703c2afcca581&m=r419FBTMB1VCPEpc-NC7a7sG-HWSLTk0H4FKIZSoHf2ZsnE7YPRD1Osvq7_z
+
+
+      EXHIBITIONS
+
+
+      https://us.list-manage.com/RsV2kMKQqwR?c2id=a7c541d1d2eca54a095703c2afcca581&m=Xnz7V6l1-nDLGIyMWuffbO4AUQ-r5IuItU-mXutX7PA0EXHidspG4SnuZLBl Nancy Lupo, The Repository (2026). 22 ceramic soap dishes and soaps. Installation view, Several Chickens Later, Spike Island, Bristol. Photograph by Rob Harris
+
+
+      ⭐ LAST CHANCE TO SEE ⭐
+
+
+      NANCY LUPO
+
+      SEVERAL CHICKENS LATER
+
+      until Sunday 6 September 2026
+
+      Nancy Lupo's largest UK exhibition to date features new sculptures that probe aspirations, ambiguities and material culture. She often describes her work as being scripted or held together through a thin thread of narrative which she explores through writing in her first novel, Meow Meow Real Estate.
+
+      Learn more <https://us.list-manage.com/a9XbQnL21l5?c2id=a7c541d1d2eca54a095703c2afcca581&m=39Amx9w7J0iAh1_kDyrPArpJMe724bDXZa_yVH3umEk4d4_gTDBw5cofv_-G>
+
+
+      TOHÉ COMMARET
+
+      MIJITAS
+
+      until Sunday 6 September 2026
+
+      Mijitas is the first exhibition in the UK by Franco-Chilean artist Tohé Commaret, featuring two new moving image commissions, Rosa and Can you hear me? (both 2026). Commaret’s enigmatic short films move between documentary and fiction, approaching social realities through magical realism.
+
+      Learn more <https://us.list-manage.com/cPjJiz5EVD_?c2id=a7c541d1d2eca54a095703c2afcca581&m=pDXfHNgWHTwWpLqejOXttpQSNXQ6UF5YlDIZ_ZwgA3YMCeKLxeb64xWWAjra>
+
+
+      https://us.list-manage.com/svvAWHiHbzY?c2id=a7c541d1d2eca54a095703c2afcca581&m=7Ojf3DRs8zFJVDWq7gf7aUHpyNr5DmKS03DM7fP6GaN-duynwl3W-T3TUuJ7 Beverly Buchanan, photo of Marsh Ruins (1981). © The Estate of Beverly Buchanan / Andrew Edlin Gallery, New York
+
+
+      UPCOMING EXHIBITION
+
+
+      BEVERLY BUCHANAN
+
+      WEATHERING
+
+      Saturday 26 September to Sunday 31 January 2026
+
+      Spike Island presents the first European survey exhibition of the work of Beverly Buchanan (b.1940; d.2015), bringing together five decades of sculpture, painting, drawing, earthworks, artists’ books and rarely-seen archival material. Rooted in the landscapes and histories of the American Southeast, Buchanan developed a singular practice shaped by memory, materiality and place, exploring the enduring legacies of slavery through the histories embedded in architecture, landscape and everyday materials.
+
+      Learn more <https://us.list-manage.com/19mzSaN2052?c2id=a7c541d1d2eca54a095703c2afcca581&m=Ofk4H2umnqTZU3bw0cowJnC6hl9WEm36d5j1ZEnrk8H2rDA3zGboWaEGzB54>
+
+
+      SPIKE ISLAND 50
+
+
+      https://us.list-manage.com/SUxb4TdsjMd?c2id=a7c541d1d2eca54a095703c2afcca581&m=1GUOpiQYB99X9ZS2DFOKUF2oKX9mnSyn6nm9WSWKZ6o9HRQkLJLf6j3b8lXG Poster by Iodo
+
+
+      SPIKE ISLAND 50 SUMMER PARTY
+
+      Saturday 5 September 2026, 5pm–3am
+
+      Join us this weekend for the Spike Island 50 Summer Party; a one-night celebration marking 50 years of artist-led creativity, experimentation and community.
+
+
+      FULL LINEUP
+
+
+      5–9pm: Live art programme guest-produced by Perpetually Stew
+
+      Eleanor Duffin
+
+      Hats Aston
+
+      Johnny Morgan-Jones
+
+      Samuel Fordham
+
+
+      7–7.30pm: Birthday Cake and Speeches
+
+
+      Performances:
+
+      6–6.50pm: Tohé Commaret & Ariane Kiks
+
+      7.40–8.10pm: Mary Hurrell
+
+      8.20–8.50pm: Sarahsson
+
+
+      DJs:
+
+      9–10pm: Alexis Over-Papatzaneteas
+
+      10–11pm: Jo Lathwood
+
+      11pm–midnight: Al Cameron
+
+      midnight–1am: Casa Delirium
+
+      1–2am: KEM KEM (Olukemi Lijadu)
+
+      2–3am: Ashley Holmes
+
+
+      Whether you've been part of Spike Island for decades or are discovering us for the first time, this is an invitation to come together, celebrate our past and help shape our future. As a registered charity, every ticket sold supports Spike Island's exhibitions, artist studios, commissions and public programmes, helping to ensure the next 50 years of artist-led experimentation can thrive.
+
+
+      Tickets from £15, with community and concession tickets available
+
+      Book your place today <https://us.list-manage.com/Vo0AoMBx4JC?c2id=a7c541d1d2eca54a095703c2afcca581&m=nnEYczxeH6MxbQJ3jJEK8JfUXtSXX_gakbXHlJAVNd_614lBc4TstunUlV8c>
+
+
+      EVENTS
+
+
+      https://us.list-manage.com/l1uuvLGP8Ok?c2id=a7c541d1d2eca54a095703c2afcca581&m=XS4CeqRU9Ah65QZ3g4IqlUfoxydZrE-idHhLFsHgjLw05NJi-6t1w-iGJ-J3 Che Applewhaite, I AM THE WORLD. Film still (2022). Courtesy of videoclub
+
+
+      SPIKE ISLAND X WATERSHED: SELECTED 16
+
+      Thursday 3 September 2026, 6.30–7.30pm
+
+      Selected 16 presents a vibrant collection of new short films by some of the most exciting early-career artists working today, nominated by artists shortlisted for the Film London Jarman Award 2025.
+
+      Learn more <https://us.list-manage.com/12LzG3FvbKj?c2id=a7c541d1d2eca54a095703c2afcca581&m=0NS5kw0uPgi2oCwuclM4NDdIpGnL9DOHJ9GFSWjQWNDQiFW4mM-JgJdsxqzP>
+
+
+      KIDS ART CLUB
+
+      with Adele Lippiatt
+
+      Workshop (0–5 years old and carers)
+
+      Friday 4 September, 10–11am
+
+      Kids Art Club is a monthly story and art session for little creatives and their carers, run by local artist and art tutor Adele Lippiatt.
+
+      Learn more <https://us.list-manage.com/34Gh2nPE4Gj?c2id=a7c541d1d2eca54a095703c2afcca581&m=Q_fHp5cqBJLK0oDsK0hZ5K22ENgBg89M8d1qYypw-YrU3-1DPKI2R8cnSXWe>
+
+
+      SPIKE ISLAND 50 SUMMER PARTY
+
+      Saturday 5 September, 5pm–late
+
+      Celebrating 50 years of Spike Island. Our building comes alive with an evening of live art performance, music, DJs and food, marking five decades of artist-led experimentation and community.
+
+      Learn more <https://us.list-manage.com/M6dPTzjivok?c2id=a7c541d1d2eca54a095703c2afcca581&m=XW0a56smjzO6s5pwEovUbk5mqjOYrsUhDnKHPY33wByCi9yMZ4qE2taB3zyW>
+
+
+      READING GROUP WITH EAST BRISTOL BOOKS:
+
+      Chiquitita by Pedro Carmona-Alvarez
+
+      Tuesday 8 September, 6–7.30pm
+
+      Join Spike Island and East Bristol Books for an informal reading group on Pedro Carmona-Alvarez’s novel, Chiquitita. Recieve a 10% discount from East Bristol Books when purchasing for the reading group.
+
+      Learn more <https://us.list-manage.com/ELMbyjtUHGX?c2id=a7c541d1d2eca54a095703c2afcca581&m=I4gQ9xhv92B09RX4KeDdX0qG7QfrIXj6H3W-PL0Y6t6Xw7pjdG5DYFd1GSVJ>
+
+
+      I AM MAKING ART: PARALLEL IMPRINTS
+
+      Saturday 12 September, 11am–1pm
+
+      Join a playful, hands-on workshop exploring 3D making through processes of making and remaking objects that examine how collective fantasies and emotions become embedded in form.
+
+      Learn more <https://us.list-manage.com/pe02twSH3Kj?c2id=a7c541d1d2eca54a095703c2afcca581&m=51R8xSyXUZPXSqJgPBxYBROTVl1QqPiFPC0QZojrkR-jRnZgIqusEmYxHabY>
+
+
+      BEHIND THE SCENES: BUILDING TOUR AND STUDIO VISITS
+
+      with Asmaa Jama and Veronica Vickery
+
+      Saturday 19 September, 11am–12.30pm
+
+      Join us for a behind the scenes tour as part of Heritage Open Days, where artists Asmaa Jama and Veronica Vickery open their studios to the public.
+
+      Learn more <https://us.list-manage.com/blgNjbhVK_H?c2id=a7c541d1d2eca54a095703c2afcca581&m=42_G6HksA95KbewPFAqDWhTnuljPIXaa70vvcLlV8YRM8LrDpDNDdTRfhoLJ>
+
+
+      EXHIBITION LAUNCH
+
+      BEVERLY BUCHANAN: WEATHERING
+
+      Friday 25 September, 6–11pm
+
+      Join us to launch our autumn season exhibition, Beverly Buchanan: Weathering <https://us.list-manage.com/166ScAViYxt?c2id=a7c541d1d2eca54a095703c2afcca581&m=qFy6u7rThOhC9HJJRqAf9D1jom5wLgo26_cgMzPThySwN-3PAS_EOulB55-8>. Discover the largest European survey exhibition of Beverly Buchanan (b.1940; d.2015), bringing together five decades of sculpture, painting, drawing, earthworks, artists’ books and rarely-seen archival material.
+
+      Learn more <https://us.list-manage.com/uK6YhOCfQVI?c2id=a7c541d1d2eca54a095703c2afcca581&m=DuwU96KKFCt0ivtONiffn6Y7rvVNq31GyLjDWzqyzfZAyy2WTSg8TLONUb03>
+
+
+      SHOP
+
+
+      https://us.list-manage.com/1AwsN_K2Liw?c2id=a7c541d1d2eca54a095703c2afcca581&m=gvOSG0MNvWMPyObpwXUaTFB3lq-ADRmA7DjG3qH3Kz_64UUTIVoQI2SfKJ6K
+
+
+      SPIKE ISLAND SHOP
+
+      Explore our curated selection of artist books, exhibition publications, limited-edition prints, zines, postcards and exclusive Spike Island merchandise. With works by international artists alongside publications from independent presses and galleries, there’s always something new to discover.
+
+      Explore today <https://us.list-manage.com/13YrzzoK2bM?c2id=a7c541d1d2eca54a095703c2afcca581&m=-xxmyhePZtiTP15InB7fNde-y-QV3HLb9oO4UNPhGlf_ui6gjfnACQaSLHMa>
+
+
+      NEWS AND OPPORTUNITIES
+
+
+      https://us.list-manage.com/bWvP60JZH21?c2id=a7c541d1d2eca54a095703c2afcca581&m=Gh7NpZC7iEQDsrMTEKlGK_lOdVWPnYO1GKuogkH3_I8BwItlIvlptogozvBc Spike Island Open Studios (2026). Install view of Beltane: Fired. Photography by Lisa Whiting
+
+
+      VASW: MAKE SPACE INITIATIVE FOR ARTISTS
+
+      Applications are open for Make Space, a new initiative giving artists dedicated time and space to set up, test and reflect on their work. Through the programme, artists can use Spike Island's residency space to install work, critically review progress, document work professionally, and invite feedback from peers.
+
+      Learn more <https://us.list-manage.com/OUPOFl1XrMS?c2id=a7c541d1d2eca54a095703c2afcca581&m=hcr2XqzDQ_qyS-0-JxYnulXc2m5rUizWxPZVlkPFOaCDZDblwhgfiSgwocWB>
+
+
+      OFFICE SPACE FOR RENT: UNIT 52
+
+      Spike Island is seeking a creative business, organisation or collective to occupy a bright and flexible 860 sq ft first-floor workspace within our thriving arts and creative community in the heart of Bristol. Offering an open-plan layout with excellent natural light, you can adapt the space to suit your needs as a studio, office, collaborative workspace or creative production hub.
+
+      Arrange a viewing today <https://us.list-manage.com/r3dGXWFrixg?c2id=a7c541d1d2eca54a095703c2afcca581&m=0j9wkRIfwnkQfAXPw5CaST7-u7shxvjXYW0GbHijuUfTB1XK5O3ikGrADFyg>
+
+
+      SPIKE ISLAND ASSOCIATES
+
+
+      https://us.list-manage.com/19PZSoJ4fcN?c2id=a7c541d1d2eca54a095703c2afcca581&m=01m28rQTJ5M2NuRvrMLuJbnZmnWngU4Ne3BJKWHsv9XOTiCIzCaksLeybX_D Image courtesy Neuk Collective
+
+
+      ONE-TO-ONES, GROUP CRITS AND MORE THIS SEPTEMBER
+
+      This month, as Spike Island Associates re-enter the art world after a much needed summer break, we're encouraging a gentle re-introduction to creative practice. We've got one-to-ones with international curator of modern and contemporary art, Laura Barlow; a group crit with film critic, performer and cinema consultant Tara Judah; and a workshop on access riders with Neuk Collective – a community of and for neurodivergent artists in Scotland.
+
+      Join Spike Island Associates from £9 a month <https://us.list-manage.com/3kFakFuCq_R?c2id=a7c541d1d2eca54a095703c2afcca581&m=ZqAnl2WBRI9WlXHDr3ylh8KTE1tJCRuXQ9hSpcyFRPtRuThKK4RgQNhJyttw>
+
+
+      SPIKE ISLAND RECOMMENDS
+
+
+      https://us.list-manage.com/2KZwgFFikmZ?c2id=a7c541d1d2eca54a095703c2afcca581&m=OetnDLOrFZDRs-OkDONbJx4YjzaR--tZRFM_47prSsWZxmQTF5AhPJwSwmJl Elisa Giardina Papa, A Naked-Eye Blue: Cotisso (2026). Installation view at ICA, London. Photography by Rob Harris
+
+
+      ELISA GIARDINA PAPA: SHE FLICKERED IN AND OUT OF HISTORY
+
+      Institute of Contemporary Arts (ICA), London
+
+      until Sunday 6 September 2026
+
+      An immersive video and glass installation that tells the story of a Mediterranean island that emerged from the sea, sparked a colonial scramble, and vanished before anyone could claim it. This latest work by Giardina Papa is the second chapter in an ongoing trilogy of video installations, following U Scantu: A Disorderly Tale (2022), which premiered at the 59th Venice Biennale, exploring overlooked Mediterranean histories.
+
+      Learn more <https://us.list-manage.com/1D4fHdMTSa8?c2id=a7c541d1d2eca54a095703c2afcca581&m=X-eff1HJgGm3K-4Ba2h32HLrAAkc2E_d8XweT3xOM-gtcDqs5brZ28tjChnd>
+
+
+      https://us.list-manage.com/E6Zwts8Su0H?c2id=a7c541d1d2eca54a095703c2afcca581&m=TLt8Vx80MfV0ZHa16NW1TsKcNqqW88I7jxE1gKYcfjf0Pl14aRjNjySUMtw1
+
+
+      Unsubscribe from this list <https://spikeisland.us11.list-manage.com/unsubscribe?u=9ce9f594fd252b2924d15d845&id=7a8540c8f9&t=b&c=007b7e9de7>
+
+      U <https://us.list-manage.com/136ukOOYe_H?c2id=a7c541d1d2eca54a095703c2afcca581&m=IVIPYpgEmJkLPdR29j9OZpm_joVNwWoGG9rF_KEFCJ9H3Xq69eeIMT340eLV>pdate your subscription preferences <https://us.list-manage.com/1533fpA5f2N?c2id=a7c541d1d2eca54a095703c2afcca581&m=IfIrJc67b6HUjZzLiOtW-1S0SdpPTuFXAVhTKFCqAdF3r7p28p2ZKzF_BKpQ>"
+    truncated: false
+  - messageId: "<5a0ef62fa3b29e49913534f5f.97301a1975.20260902162741.d88792e039.e1353d0d@mail13.atl71.mcdlv.net>"
+    receivedAt: "2026-09-02T16:27:46Z"
+    from:
+      name: "Arnolfini"
+      address: "info@arnolfini.org.uk"
+    subject: "September at Arnolfini"
+    listId: "5a0ef62fa3b29e49913534f5f.533965.list-id.mcsv.net"
+    webVersion: "https://us.list-manage.com/rvGkE20s6Nw?c2id=f72c0baeff5443160e506a2cebfddff2"
+    sourceId: "art/arnolfini"
+    matchedBy: "from:*@arnolfini.org.uk"
+    body: "Catch the final month of Against the Tide and Held, discover new FVU film, and explore a programme of creative workshops, talks and performances.
+
+      ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌    ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­
+
+
+      https://us.list-manage.com/xP9c3ROBe_o?c2id=f72c0baeff5443160e506a2cebfddff2
+
+
+      https://us.list-manage.com/yCeU_0kuQjv?c2id=f72c0baeff5443160e506a2cebfddff2
+
+
+      This September marks the final month to experience our major exhibitions, Polly Braden: Against the Tide <https://us.list-manage.com/11X1ETPl9GJ?c2id=f72c0baeff5443160e506a2cebfddff2> and Jonathan Baldock: Held <https://us.list-manage.com/v_o5Ujr0Na8?c2id=f72c0baeff5443160e506a2cebfddff2>, alongside the continuation of Besides the Sea <https://us.list-manage.com/qO8vLnUuM_M?c2id=f72c0baeff5443160e506a2cebfddff2> in Gallery 5.
+
+
+      From 8 September, the FVU film programme concludes in the Dark Studio with Mahdy Abo Bahat: The Wretched of the Clouds <https://us.list-manage.com/95Bazc86y_S?c2id=f72c0baeff5443160e506a2cebfddff2>, an evocative film exploring memory, loss and erasure in post-revolution Egypt.
+
+
+      Alongside our exhibitions and film programme, September brings a rich programme of creative workshops, artist talks and performances, offering plenty of opportunities to make, discover and connect at Arnolfini.
+
+
+      Plan your visit <https://us.list-manage.com/LTwxMaXWCxw?c2id=f72c0baeff5443160e506a2cebfddff2>
+
+
+      LAST MONTH TO SEE…
+
+
+      https://us.list-manage.com/iZQRDGA3ms7?c2id=f72c0baeff5443160e506a2cebfddff2
+
+
+      JONATHAN BALDOCK: HELD <https://us.list-manage.com/YIM5e9z52Gf?c2id=f72c0baeff5443160e506a2cebfddff2>
+
+
+      https://us.list-manage.com/4tFtdBAvy5C?c2id=f72c0baeff5443160e506a2cebfddff2
+
+
+      POLLY BRADEN: AGAINST THE TIDE <https://us.list-manage.com/n4vedxVuxGf?c2id=f72c0baeff5443160e506a2cebfddff2>
+
+
+      https://us.list-manage.com/ARDSeUVv0mf?c2id=f72c0baeff5443160e506a2cebfddff2
+
+
+      JONATHAN BALDOCK EXHIBITION TOUR <https://us.list-manage.com/Db5hWGSQLrq?c2id=f72c0baeff5443160e506a2cebfddff2>
+
+
+      Wednesday 16 September, 6 – 7pm <https://us.list-manage.com/4tiR2m0pWX5?c2id=f72c0baeff5443160e506a2cebfddff2>
+
+
+      Join artist Jonathan Baldock for an intimate tour of Held at Arnolfini, exploring craft, materiality, the body and world-building
+
+
+      Book here <https://us.list-manage.com/XaMpDKX6pZt?c2id=f72c0baeff5443160e506a2cebfddff2>
+
+
+      https://us.list-manage.com/5oBF58AAJVO?c2id=f72c0baeff5443160e506a2cebfddff2
+
+
+      IN CONVERSATION: POLLY BRADEN AND LISA BACHELOR <https://us.list-manage.com/Nha8Cm18qkW?c2id=f72c0baeff5443160e506a2cebfddff2>
+
+
+      Friday 25 September, 6 – 7.30pm <https://us.list-manage.com/WkfYwI891Bf?c2id=f72c0baeff5443160e506a2cebfddff2>
+
+
+      Photographer Polly Braden joins Guardian journalist Lisa Bachelor for a conversation exploring Against the Tide, the people and places encountered through the project, and the intersection of photography and journalism in telling stories of coastal communities.
+
+
+      Book here <https://us.list-manage.com/ivgV5XPx73Z?c2id=f72c0baeff5443160e506a2cebfddff2>
+
+
+      https://us.list-manage.com/ZkukpywCUnu?c2id=f72c0baeff5443160e506a2cebfddff2
+
+
+      FVU NEW TAKES: ARTIST TALK <https://us.list-manage.com/19B3mDqzLTS?c2id=f72c0baeff5443160e506a2cebfddff2>
+
+
+      Thursday 17 September, 6.30 – 7.30pm <https://us.list-manage.com/1CMSjPEvTeq?c2id=f72c0baeff5443160e506a2cebfddff2>
+
+
+      Join the six early-career artists from FVU New Takes for a conversation about their newly commissioned films and the ideas behind their work.
+
+
+      Presented by Film and Video Umbrella in partnership with Arnolfini, the programme explores themes including climate crisis, body politics, state violence, archival memory and contemporary trans+ culture.
+
+
+      Book here <https://us.list-manage.com/aI5OM9xJ7TB?c2id=f72c0baeff5443160e506a2cebfddff2>
+
+
+      GET CREATIVE
+
+
+      https://us.list-manage.com/oxUwekGUrTQ?c2id=f72c0baeff5443160e506a2cebfddff2
+
+
+      HOME ED CREATIVE STUDIO WITH LET’S MAKE ART <https://us.list-manage.com/6Z0W9aPXAeu?c2id=f72c0baeff5443160e506a2cebfddff2>
+
+
+      Fridays, 18 September – 11 December 2026, 1pm – 2.30pm <https://us.list-manage.com/C09uFQb3ZVP?c2id=f72c0baeff5443160e506a2cebfddff2>
+
+
+      This September, Let’s Make Art launches Home Ed Creative Studio, a 12-week, term-time art course for home-educated children and young people aged 7+ in Bristol.
+
+
+      Book here <https://us.list-manage.com/IDdOhIM_xGN?c2id=f72c0baeff5443160e506a2cebfddff2>
+
+
+      https://us.list-manage.com/xdpxFhB97qY?c2id=f72c0baeff5443160e506a2cebfddff2
+
+
+      DEEP LISTENING WORKSHOP <https://us.list-manage.com/QtDFvCDxsAw?c2id=f72c0baeff5443160e506a2cebfddff2>
+
+
+      Saturday 26 September, 2pm – 4pm <https://us.list-manage.com/EUw3E4H7irG?c2id=f72c0baeff5443160e506a2cebfddff2>
+
+
+      Explore sound, movement and connection through a relaxed, accessible Deep Listening workshop inspired by the practice of Pauline Oliveros. No previous experience is needed, and both newcomers and experienced participants are welcome.
+
+
+      Book here <https://us.list-manage.com/IlelIleXrfG?c2id=f72c0baeff5443160e506a2cebfddff2>
+
+
+      https://us.list-manage.com/Jrq4RCeOOsm?c2id=f72c0baeff5443160e506a2cebfddff2
+
+
+      CREATIVE WELLBEING WORKSHOP <https://us.list-manage.com/7Qy9ztd7Jls?c2id=f72c0baeff5443160e506a2cebfddff2>
+
+
+      Thursday 24 September, 1pm – 3pm <https://us.list-manage.com/hGK46GU1Mdf?c2id=f72c0baeff5443160e506a2cebfddff2>
+
+
+      Explore sound, movement and connection through a relaxed, accessible Deep Listening workshop inspired by the practice of Pauline Oliveros. No previous experience is needed, and both newcomers and experienced participants are welcome.
+
+
+      Book here <https://us.list-manage.com/GqXmk0DXEGV?c2id=f72c0baeff5443160e506a2cebfddff2>
+
+
+      THEATRE
+
+
+      https://us.list-manage.com/bKyPu9FbnZq?c2id=f72c0baeff5443160e506a2cebfddff2
+
+
+      1947: A NEW PLAY BY ZAHID FAYYAZ <https://us.list-manage.com/6azd89pa6H9?c2id=f72c0baeff5443160e506a2cebfddff2>
+
+
+      Thursday, Friday, Saturday, 10 – 12 September <https://us.list-manage.com/ZVcUVRWEYIt?c2id=f72c0baeff5443160e506a2cebfddff2>
+
+
+      1947 follows a British Pakistani family as a long-held promise finally comes due, bringing buried tensions around inheritance, obligation and belonging to the surface.
+
+
+      Set in Bristol, this first public staging offers a preview of the play ahead of its full production.
+
+
+      Book here <https://us.list-manage.com/7_D731PkWQn?c2id=f72c0baeff5443160e506a2cebfddff2>
+
+
+      Image credits:
+
+
+      Jonathan Baldock 'Held' 2026 (Installation View) at Arnolfini. Courtesy of the artist and Arnolfini. Photography by Dan Weill., Polly Braden 'Against the Tide' 2026 (Installation View) at Arnolfini. Courtesy of the artist and Arnolfini. Photography by Dan Weill.
+
+
+      https://us.list-manage.com/16phokVV9G_?c2id=f72c0baeff5443160e506a2cebfddff2
+
+
+      https://us.list-manage.com/12DRASGthjA?c2id=f72c0baeff5443160e506a2cebfddff2
+
+
+      https://us.list-manage.com/Qq0CNeCQfY_?c2id=f72c0baeff5443160e506a2cebfddff2
+
+
+      https://us.list-manage.com/V0XDY418_3t?c2id=f72c0baeff5443160e506a2cebfddff2
+
+
+      https://us.list-manage.com/19eLQjQdmwF?c2id=f72c0baeff5443160e506a2cebfddff2
+
+
+      Copyright (C) 2026 Arnolfini. All rights reserved.
+
+      You are receiving this email because you have signed up to receive information from Arnolfini.
+
+
+      Our mailing address is:
+
+      Arnolfini 16 Narrow Quay Bristol, BS1 4QA United Kingdom
+
+
+      Want to change how you receive these emails?
+
+
+      You can update your preferences <https://arnolfini.us1.list-manage.com/profile?u=5a0ef62fa3b29e49913534f5f&id=62c968b764&c=d88792e039> or unsubscribe <https://arnolfini.us1.list-manage.com/unsubscribe?u=5a0ef62fa3b29e49913534f5f&id=62c968b764&t=b&c=d88792e039>
+
+
+      View in browser <https://us.list-manage.com/rvGkE20s6Nw?c2id=f72c0baeff5443160e506a2cebfddff2>"
+    truncated: false
+  - messageId: "<9ce9f594fd252b2924d15d845.68c095d105.20260908120148.6841454ab1.5c1f2a10@mail42.use2001.mcdlv.net>"
+    receivedAt: "2026-09-08T12:02:53Z"
+    from:
+      name: "Spike Island"
+      address: "admin@spikeisland.org.uk"
+    subject: "🎉 INVITE: New Exhibition Launch Party, Beverly Buchanan"
+    listId: "9ce9f594fd252b2924d15d845.129265.list-id.mcsv.net"
+    sourceId: "art/spike-island"
+    matchedBy: "from:*@spikeisland.org.uk"
+    body: "Celebrate the opening of our new exhibition on Friday 25 September, 6–11pm 🥂
+
+
+      https://us.list-manage.com/KxVodBCmJwo?c2id=a7c541d1d2eca54a095703c2afcca581&m=wXA3SPwiJQB7h3HpFUrPYklwjSM5H3qZr082ozW5veEuGzl9XADaqAHhDcXJ
+
+
+      https://us.list-manage.com/sOJco9AZ5El?c2id=a7c541d1d2eca54a095703c2afcca581&m=txAymGOvdiyp2bfZSZ_Q3LGcU4rr5sB7jzfG49IiIO44DCiVLj0PU7B70ejH
+
+
+      Unsubscribe from this list <https://spikeisland.us11.list-manage.com/unsubscribe?u=9ce9f594fd252b2924d15d845&id=7a8540c8f9&t=b&c=6841454ab1>
+
+      U <https://spikeisland.us11.list-manage.com/profile?u=9ce9f594fd252b2924d15d845&id=7a8540c8f9&c=6841454ab1>pdate your subscription preferences <https://spikeisland.us11.list-manage.com/profile?u=9ce9f594fd252b2924d15d845&id=7a8540c8f9&c=6841454ab1>"
+    truncated: false
+  - messageId: "<2b310c9def4b590f5b3d7f489.99302fa65b.20260908180159.757c842dde.c17a4ed2@mail180.suw18.rsgsv.net>"
+    receivedAt: "2026-09-08T18:02:22Z"
+    from:
+      name: "RWA (Royal West of England Academy)"
+      address: "info@rwa.org.uk"
+    subject: "You'll want to get these dates in your diary Whazzon ✨"
+    listId: "2b310c9def4b590f5b3d7f489.231797.list-id.mcsv.net"
+    sourceId: "art/rwa"
+    matchedBy: "from:*@rwa.org.uk"
+    body: "Plus a new opportunity for artists, coming up this September
+
+      ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌    ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­
+
+
+      EXPLORE OVER 500 WORKS OF CONTEMPORARY ART THIS AUTUMN
+
+
+      We open the doors to the 173 Annual Open Exhibition <https://us.list-manage.com/lppOUiczI4c?c2id=cc7a0efe922030ce1961c714c401bb38&m=0KXNbInPmhqDvnd-mfRbNJ6TInM8_5F4zBLrbs8g6hSkPk3eRkXoJgkJL6n8> on Saturday 12th September. With over 500 artworks by 381 artists, ranging from sculpture to video, to ceramics to print - and everything in between - this is our largest event of the year.
+
+
+      The Annual Open is as much about enjoying art as it is about celebrating the artists, so we're bringing you exciting new opportunities to make the most of your visit to the exhibition.
+
+
+      Explore the galleries after normal hours with our Tuesday Late Opens <https://us.list-manage.com/9URTI5rBEUA?c2id=cc7a0efe922030ce1961c714c401bb38&m=TRFnhOrM-kKJoN7cVATCYU-ykdwNfdcqmpdGk-O_FidBUAOlE0KuV3qpQWpU>, and Meet the Artists <https://us.list-manage.com/10Pfy9z_An7?c2id=cc7a0efe922030ce1961c714c401bb38&m=BlsNNzTuHZDWNRU-y7M5KXr3RyjPDV32zmANRCpN3VgI7NP-Bsk0uGJy5bwF> behind some of the work. Choose from six different kinds of exhibition tour <https://us.list-manage.com/FMS14Uf4zqo?c2id=cc7a0efe922030ce1961c714c401bb38&m=CuqTjhYY0ZXBhQuCGgxPxPiGuD-iAC8eNp1O5vuoSmubY17SyeRC7e9n_cH-> depending on what works for you.
+
+
+      Planning to visit a few times? An Annual Art Pass <https://us.list-manage.com/MAFR_4xZRzI?c2id=cc7a0efe922030ce1961c714c401bb38&m=Vln64w00JIPX_9vhGxbJl3eyPBgFqZO3XOxU1_Y1mH5zuunLqofOnRDPVa8K> gives you unlimited entry to our exhibitions for a whole year.
+
+
+      Explore 173 Annual Open Events <https://us.list-manage.com/cRzG4RBMAZg?c2id=cc7a0efe922030ce1961c714c401bb38&m=k_MYYzvsSPa293O4EAUrlwdcfTWVmTT2u480unkfDUHBuXMkJRBoOaXdo0R4>
+
+
+      NEW FOR THE 173 ANNUAL OPEN
+
+
+      INTRODUCTION TO COLLECTING ART
+
+
+      19 September | 11am
+
+
+      Find out more about starting or building your art collection with RWA Academicians Ione Parkin, Sara Dudman and Pennie Elfick, and Curator and Art Historian, James Russell. They'll offer advice from choosing art to fit within your home or office, to looking at art as an investment.
+
+
+      Find out more about Intro to Collecting <https://us.list-manage.com/52obUetATxd?c2id=cc7a0efe922030ce1961c714c401bb38&m=0Wnqa560_-9f_JYH3pq0PH7T7mJr7P4fralmN9qpWJ2MnInB7K6PLMc8XvXW>
+
+
+      TUESDAY LATE OPENS
+
+
+      Every Tuesday | 5 - 8pm
+
+
+      Do something a little different after work and explore the 173 Annual Open Exhibition. Open every Tuesday evening until 2027, with one-off events throughout the year.
+
+
+      Find out more about Tuesday Late Opens <https://us.list-manage.com/12iOguve9WL?c2id=cc7a0efe922030ce1961c714c401bb38&m=uDX0PqFcN7f9v-Ni09yC7TasVt05LAVp5bfidSHFfXV7S2QciVC6eAsciHl_>
+
+
+      EXPLORE THE EXHIBITION YOUR WAY
+
+
+      BRITISH SIGN LANGUAGE GALLERY TOUR
+
+
+      3 October | 1.30 - 3pm
+
+
+      Led by Emily Rose, from a Deaf perspective, this exhibition tour of the 173 Annual Open Exhibition will be delivered in British Sign Language (BSL). Emily will bring the exhibition to life by selecting and exploring a variety of artworks.
+
+
+      Find out more about BSL Gallery Tour <https://us.list-manage.com/a5wWmrnQm_b?c2id=cc7a0efe922030ce1961c714c401bb38&m=BHAXP8VUmlWSukW36yRPQ1DX4jZXeReIpb0L2c_ogGrfhLh04TsrzcpmopF8>
+
+
+      FIRST SATURDAY EXHIBITION TALKS
+
+
+      3 October | 11am
+
+
+      Join us on the first Saturday of the month for a relaxed, artist-led session exploring works in our Annual Open Exhibition. The first session will be led by RWA Academicians Alice Kettle and Jemma Appleby and Jessica Lloyd-Smith from Modern ArtBuyer.
+
+
+      Find out more about Saturday Talks <https://us.list-manage.com/HguzRiYgBEh?c2id=cc7a0efe922030ce1961c714c401bb38&m=pF_tROB1jhqzDCwuyy9x_RGU7n9Ofecp4cdwQmVlFEfAN87UldpZG05L-qyd>
+
+
+      LIVING STORIES: LANDSCAPES OF BELONGING
+
+
+      Across three workshops through walking, planting and creative writing, you will explore Bristol as a living landscape shaped by nature, migration, heritage and community, adding your own voice to its evolving story.
+
+
+      7, 9 & 30 September
+
+
+      Book Living Stories workshops <https://us.list-manage.com/15MiidY2xE7?c2id=cc7a0efe922030ce1961c714c401bb38&m=Z3dTWF5ibkXKD4-0RxkaDPGEQOfeyMxdj5aY93_C8C5c1wSMCadYo7eTK8ru>
+
+
+      RWA NEWS
+
+
+      SPOTLIGHT: MOHAMMAD BARRANGI, INVITED ARTIST
+
+
+      5 March | 6.30-8.30pm
+
+
+      Internationally acclaimed artist and former Paralympian Mohammad Barrangi is this year's Invited Artist. He will be showcasing new work '1001 Nights' in the 173rd Annual Open, his first exhibition in Bristol.
+
+
+      Find out more about the Invited Artist <https://us.list-manage.com/KMVj6xzzR8t?c2id=cc7a0efe922030ce1961c714c401bb38&m=Gu2ZMtOUqymLMChfkF2cXlmhRSPiZbCJ4XKJtZZuv5sCpJ80LtE2dJjm0V-N>
+
+
+      CALL TO ARTISTS FOR RWA BIENNIAL: PAINT
+
+
+      19 March | 6.30-8.30pm
+
+
+      A showcase of the expressive possibilities of paint as an artistic medium and subject, inspired by the RWA's upcoming major exhibition of recent works by Sir Frank Bowling OBE RA RWA (Hon). This is an opportunity to present fresh and compelling approaches to the theme in all its forms. Submission open on Monday 7 September.
+
+
+      Find out more about Paint <https://us.list-manage.com/kr6mg_3HFBU?c2id=cc7a0efe922030ce1961c714c401bb38&m=f1J_D1EEHquofQl5C5qE_OYhrzv1lfqIApuIFTtKkM1QfQ-brAI-v4HY434u>
+
+
+      https://us.list-manage.com/bkKjuqDy4Qy?c2id=cc7a0efe922030ce1961c714c401bb38&m=VbU9yzgPCiKV7_iN_q9Nm-QkjcNHC5N_rU0xrc0nP5Vf-8BeSbPw1QUaYnN3
+
+
+      Copyright © 2026, Royal West Of England Academy, All rights reserved.
+
+      Image credit: Alastair Brookes and Khali Ackford/KoLAB Studios, Martin Edwards, Hajnal Vegh, Sinag Yuson
+
+      Royal West Of England Academy Queens Road Clifton Bristol, Avon BS8 1PX United Kingdom • +44 117 973 5129 • info@rwa.org.uk <info@rwa.org.uk?subject=&body=> • rwa.org.uk <https://us.list-manage.com/VZH7Vi1XNdx?c2id=cc7a0efe922030ce1961c714c401bb38&m=K3uB5BwLzgrpeJpBQRMhp1M5WnumW46CH3UGEZLRQ5fre_ujoF-0GQO_yq56> • Charity no. 1070163
+
+
+      Want to change how you receive these emails?
+
+      You can update your preferences <https://rwa.us1.list-manage.com/profile?u=2b310c9def4b590f5b3d7f489&id=773b990198&c=757c842dde> or unsubscribe <https://rwa.us1.list-manage.com/unsubscribe?u=2b310c9def4b590f5b3d7f489&id=773b990198&t=b&c=757c842dde> from this list"
+    truncated: false

@@ -80,4 +80,25 @@ describe("state", () => {
     // show announced a year out, and it must not vanish from the site.
     expect(stateOf(folded("2026-08-16"), "2026-08-17", "2026-08-17")).toBe("carried");
   });
+
+  it("is listed when a newsletter refreshed it after the last web harvest", () => {
+    // Mail observations do not move `lastHarvest`, so an event a newsletter
+    // mentioned on the 11th is newer than a web harvest on the 28th of the
+    // month before. It is at least as current as anything that harvest saw.
+    const upcoming = {
+      event: event({ occurrence: { kind: "single", date: "2026-10-01" } }),
+      firstSeen: "2026-09-11",
+      lastSeen: "2026-09-11",
+    };
+    expect(stateOf(upcoming, "2026-08-28", "2026-09-11")).toBe("listed");
+  });
+
+  it("is listed when the source has only ever been seen through the mailbox", () => {
+    const upcoming = {
+      event: event({ occurrence: { kind: "single", date: "2026-10-01" } }),
+      firstSeen: "2026-09-11",
+      lastSeen: "2026-09-11",
+    };
+    expect(stateOf(upcoming, undefined, "2026-09-11")).toBe("listed");
+  });
 });

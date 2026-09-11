@@ -6,6 +6,7 @@ import { paths, rel, walk } from "../lib/paths.js";
 import { routesOf } from "../lib/routes.js";
 import { CatalogueArtefact } from "../schema/catalogue.js";
 import { HarvestArtefact } from "../schema/harvest.js";
+import { MailArtefact } from "../schema/mail.js";
 import type { Source } from "../schema/catalogue.js";
 import type { VersionedArtefact } from "../schema/versioning.js";
 import { SchemaError } from "../schema/versioning.js";
@@ -175,6 +176,49 @@ for (const locationId of locations) {
     }
   }
 
+  // --- mail ---------------------------------------------------------------
+
+  const mailFiles = walk(paths.mailDir(locationId), ".yaml");
+  let messages = 0;
+
+  for (const path of mailFiles) {
+    const pull = check(MailArtefact, path);
+    if (!pull) continue;
+
+    messages += pull.messages.length;
+
+    const category = basename(path, ".yaml");
+    const day = basename(dirname(path));
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(day)) {
+      errors.push({
+        path: rel(path),
+        message: `mail files live in a date directory: mail/YYYY-MM-DD/<category>.yaml`,
+      });
+    } else if (pull.date !== day) {
+      errors.push({ path: rel(path), message: `declares date "${pull.date}" but the directory says "${day}"` });
+    }
+    if (pull.category !== category) {
+      errors.push({
+        path: rel(path),
+        message: `declares category "${pull.category}" but the filename says "${category}"`,
+      });
+    }
+    if (pull.locationId !== locationId) {
+      errors.push({
+        path: rel(path),
+        message: `declares locationId "${pull.locationId}" but sits under "${locationId}"`,
+      });
+    }
+    for (const message of pull.messages) {
+      if (message.sourceId && !sourcesById.has(message.sourceId)) {
+        errors.push({
+          path: rel(path),
+          message: `files post against "${message.sourceId}", which is not in this location's catalogue`,
+        });
+      }
+    }
+  }
+
   const byStatus = new Map<string, number>();
   for (const source of allSources) {
     byStatus.set(source.status, (byStatus.get(source.status) ?? 0) + 1);
@@ -183,7 +227,8 @@ for (const locationId of locations) {
   console.log(
     `${catalogueFiles.length} categories, ${allSources.length} sources` +
       (byStatus.size ? ` (${[...byStatus].map(([status, n]) => `${n} ${status}`).join(", ")})` : "") +
-      `, ${harvestFiles.length} harvest file(s), ${observations} observations, ${events} events`,
+      `, ${harvestFiles.length} harvest file(s), ${observations} observations, ${events} events` +
+      (mailFiles.length ? `, ${mailFiles.length} mail file(s), ${messages} messages` : ""),
   );
 }
 

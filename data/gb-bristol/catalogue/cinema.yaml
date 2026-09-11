@@ -9,6 +9,9 @@ sources:
     kind: venue
     status: provisional
     url: https://www.watershed.co.uk/whatson/
+    mail:
+      from:
+      - "*@watershed.co.uk"
     area: Harbourside
     address:
       street: 1 Canon's Road
@@ -81,6 +84,10 @@ sources:
     kind: venue
     status: provisional
     url: https://www.everymancinema.com/bristol/
+    mail:
+      from:
+      - "*@everyman-cinema.co.uk"
+      - "*@*.everyman-cinema.co.uk"
     homepage: https://www.everymancinema.com/
     area: Whiteladies Road
     tags: [ commercial, boutique, mainstream ]

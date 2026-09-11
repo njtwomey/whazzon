@@ -21,7 +21,7 @@ The single most important architectural constraint: **stage 1, stage 2, and stag
 ```
 
 - **Stage 1 (catalogue)** is slow-moving taxonomy. Hand-reviewable YAML that a human curates. A re-run must _merge_, never clobber human edits.
-- **Stage 2 (harvest)** is the expensive, high-churn part. It visits sources via WebFetch and appends one run file.
+- **Stage 2 (harvest)** is the expensive, high-churn part. It visits sources via WebFetch and appends one run file. It has a second input channel — see "The harvest mailbox" below.
 - **Stage 3 (render)** is a pure function of committed data. **No network calls, no LLM calls.** If the page needs something, it must already be in the snapshot.
 
 Violating the separation (fetching a venue page from the React app, letting the harvester decide layout) is the main thing to catch in review.
@@ -35,6 +35,7 @@ configs/<location-id>.yaml                the place; the only location-specific 
 data/<location-id>/catalogue/*.yaml       stage 1 output — one file per category
 data/<location-id>/harvest/<date>/<category>.yaml   stage 2 — one file per category per run
 data/<location-id>/harvest/<date>/REPORT.md         what that run found, for a human
+data/<location-id>/mail/<date>/<category>.yaml      stage 2 — the mailbox pull, one file per category
 data/<location-id>/snapshot.json          compiled for stage 3, served at /<location-id>/
 prompts/                                  versioned prompt templates
 packages/pipeline/                        schemas (zod) and CLIs
@@ -52,6 +53,48 @@ One file per _run_, not per source and not one file forever. A partial harvest o
 **The harvest log is normalised.** An event knows its `sourceId` and little else; venue name, area and address live in the catalogue. `venue` is set on an event _only_ when it happens somewhere other than the source that listed it (an aggregator advertising a gig across town). Denormalisation happens in `compile` and nowhere else — a copy of a venue's address inside a thousand events goes stale the moment the catalogue is corrected.
 
 Format rule: **YAML for what humans curate** (config, catalogue), **JSONL for what the machine appends** (harvest — pending, currently YAML), **JSON for what the app reads** (snapshot).
+
+## The harvest mailbox
+
+Stage 2 has two input channels. Alongside fetching pages, whazzon subscribes one
+dedicated address to venue and promoter mailing lists, and `npm run mail` pulls
+that mailbox into `data/<location-id>/mail/<date>/<category>.yaml` — the same
+per-category shape as a harvest run, so a category subagent reads one mail file
+and writes one harvest file.
+
+**The pull is deterministic and runs no model.** IMAP, MIME, redaction, matching
+against the catalogue, done. Deciding what in a newsletter is an event is the
+fan-out's job, from the committed files — which keeps the expensive judgement in
+one place and makes the pull re-runnable for nothing. It is idempotent by
+`Message-Id`, so an overlapping `--since` window costs one connection.
+
+A source is subscribed by giving it a `mail:` binding in the catalogue, matched
+on the `From:` address or, better, on `List-Id`, which survives a venue moving
+from `news@` to `hello@`. Mail matching no binding is not dropped: it goes to
+`unmatched.yaml` and is reported, because a promoter's newsletter arrives there
+long before that promoter turns up in a catalogue sweep. Writing the binding is
+stage 1's work, exactly like a corrected URL.
+
+**The message text is committed, unlike a fetched page.** A web page cited in
+`fetch.url` can be opened by anyone reviewing the harvest later; a newsletter
+delivered once to a private mailbox cannot, so without the store the log would
+assert things no reviewer could check. That is why the pull redacts before it
+writes — the recipient address and per-recipient tracking parameters, each of
+which is a working unsubscribe link for the mailbox. `lib/mail.test.ts` is where
+that is held down.
+
+An observation read from the mailbox sets `fetch.via: mail` and names its
+`mailFile`. The marker is load-bearing: `drift` skips those observations,
+because a campaign's view-in-browser URL says nothing about whether the
+catalogued listings page still works, and without it every subscribed venue
+would be reported as moved on every run. `status` is omitted for the same
+family of reasons — a message has no HTTP status, and writing `200` to fill the
+field is the habit these schemas exist to prevent.
+
+The credential lives in `.env` (gitignored, mode 600; `.env.example` is the
+template). It is the project's only secret, and `cli/mail.ts` is the only thing
+that reads it — everything else runs off committed files and public pages, which
+is what lets anyone who clones the repo re-run the pipeline.
 
 ## Deriving state — the fold
 
@@ -123,6 +166,8 @@ make dev                       # sync snapshots and run the web app
 make build                     # static site into web/dist
 make refresh-bristol           # validate, recompile, sync one location
 make stale                     # the stage 2 worklist
+make mail                      # pull the harvest mailbox (network, needs .env)
+make mail-dry                  # what the pull would file, filing nothing
 make check-urls                # are catalogued URLs still real? (network)
 make mock                      # regenerate mock harvest data
 make <target> LOCATION=<id>    # any target, another location

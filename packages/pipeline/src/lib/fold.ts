@@ -92,7 +92,13 @@ export type EventState = "listed" | "carried" | "finished";
 export function stateOf(folded: FoldedEvent, lastHarvest: string | undefined, asOf: string): EventState {
   const end = endDateOf(folded.event.occurrence);
   if (end !== undefined && end < asOf) return "finished";
-  if (lastHarvest !== undefined && folded.lastSeen === lastHarvest) return "listed";
+  // `>=` rather than `===`: an event a newsletter refreshed after the last web
+  // harvest is at least as current as one that harvest listed. Without this a
+  // mail-sourced event could never be `listed` at all.
+  if (lastHarvest !== undefined && folded.lastSeen >= lastHarvest) return "listed";
+  // Seen only through the mailbox, never on a listings page. It is current,
+  // and the site should say so.
+  if (lastHarvest === undefined) return "listed";
   return "carried";
 }
 
@@ -146,8 +152,16 @@ export function foldHarvests(locationId: string): Fold {
         sources.set(observation.sourceId, folded);
       }
 
-      folded.lastHarvest = run.date;
-      folded.lastError = observation.fetch.ok ? undefined : observation.fetch.error;
+      // A newsletter is a partial view of a source's programme, not a visit to
+      // its listings page. Letting it set `lastHarvest` would flip everything
+      // the last web harvest saw — and the newsletter happened not to mention —
+      // to `carried`, on the strength of a welcome email. Mail observations
+      // still contribute their events below; they just do not stand in for a
+      // look at the whole programme.
+      if (observation.fetch.via !== "mail") {
+        folded.lastHarvest = run.date;
+        folded.lastError = observation.fetch.ok ? undefined : observation.fetch.error;
+      }
 
       const byId = new Map(folded.events.map((e) => [e.event.id, e]));
       for (const event of observation.events) {

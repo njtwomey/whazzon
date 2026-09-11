@@ -10,6 +10,11 @@ sources:
     kind: venue
     status: provisional
     url: https://bristololdvic.org.uk/whats-on
+    mail:
+      from:
+      - "*@bristololdvic.org.uk"
+      - "*@*.bristololdvic.org.uk"
+      - "bristol.old.vic@arts-mail.co.uk"
     homepage: https://bristololdvic.org.uk/
     area: Old City
     address:
@@ -34,6 +39,10 @@ sources:
     kind: venue
     status: provisional
     url: https://tobaccofactorytheatres.com/whats-on/
+    mail:
+      from:
+      - "tobaccofactorytheatre@arts-mail.co.uk"
+      note: sends via arts-mail.co.uk; exact address because the domain is shared
     area: Southville
     address:
       street: Raleigh Road
@@ -76,6 +85,10 @@ sources:
     kind: venue
     status: provisional
     url: https://thewardrobetheatre.com/
+    mail:
+      from:
+      - "*@thewardrobetheatre.com"
+      - "*@*.thewardrobetheatre.com"
     area: Old Market
     tags: [ independent, fringe, comedy, new-work ]
     cadence: weekly
@@ -238,6 +251,9 @@ sources:
     kind: organiser
     status: provisional
     url: https://acta-bristol.com/whats-on/
+    mail:
+      from:
+      - "*@acta-bristol.com"
     area: Bedminster
     tags: [ community, participatory ]
     cadence: monthly
@@ -250,6 +266,9 @@ sources:
     kind: organiser
     status: provisional
     url: https://www.travellinglighttheatre.org.uk/shows
+    mail:
+      from:
+      - "*@travellinglighttheatre.org.uk"
     homepage: https://www.travellinglighttheatre.org.uk/
     area: Barton Hill
     tags: [ family, young-people, touring ]

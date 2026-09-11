@@ -10,6 +10,7 @@ import { fileURLToPath } from "node:url";
  *   configs/gb-bristol.yaml                        the place
  *   data/gb-bristol/catalogue/<category>.yaml      stage 1
  *   data/gb-bristol/harvest/<date>/<category>.yaml stage 2
+ *   data/gb-bristol/mail/<date>/<category>.yaml    stage 2's mailbox pull
  *   data/gb-bristol/snapshot.json                  compiled for stage 3
  *
  * No path in the project may reach into another location's data.
@@ -38,6 +39,11 @@ export const paths = {
   harvestRunDir: (locationId: string, date: string) => join(repoRoot(), "data", locationId, "harvest", date),
   harvestFile: (locationId: string, date: string, category: string) =>
     join(repoRoot(), "data", locationId, "harvest", date, `${category}.yaml`),
+  mailDir: (locationId: string) => join(repoRoot(), "data", locationId, "mail"),
+  /** One directory per pull date, holding one file per category. */
+  mailRunDir: (locationId: string, date: string) => join(repoRoot(), "data", locationId, "mail", date),
+  mailFile: (locationId: string, date: string, category: string) =>
+    join(repoRoot(), "data", locationId, "mail", date, `${category}.yaml`),
   snapshot: (locationId: string) => join(repoRoot(), "data", locationId, "snapshot.json"),
   promptsDir: () => join(repoRoot(), "prompts"),
 };

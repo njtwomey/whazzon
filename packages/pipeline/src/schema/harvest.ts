@@ -240,27 +240,74 @@ const EventV1 = z
 
 export type WhazzonEvent = z.infer<typeof EventV1>;
 
+/**
+ * Which channel an observation came through.
+ *
+ * `web` is the default and stays implicit, so every file written before mail
+ * existed is still valid — this is the additive case, edited into
+ * `whazzon.harvest/1` rather than minting a v2.
+ *
+ * `mail` matters because `fetch.url` then points at a campaign's "view in
+ * browser" page rather than the catalogued listings page. Without the marker,
+ * `drift` would report every subscribed venue as having moved, every run, and
+ * bury the corrections that are real.
+ */
+const FetchVia = z.enum(["web", "mail"]);
+
 /** Outcome of the fetch itself, recorded whether or not it worked. */
-const FetchResultV1 = z.discriminatedUnion("ok", [
-  z.strictObject({
-    ok: z.literal(true),
-    url: HttpUrl,
-    status: z.number().int(),
-    /** Hash of the fetched text, to skip re-extraction when nothing changed. */
-    contentHash: z.string().optional(),
-  }),
-  z.strictObject({
-    ok: z.literal(false),
-    url: HttpUrl,
-    status: z.number().int().optional(),
-    /**
-     * Why it failed. A failed fetch is still recorded: a silent gap in the
-     * data is worse than a recorded failure, because it looks identical to
-     * "this venue has nothing on".
-     */
-    error: z.string().min(1),
-  }),
-]);
+const FetchResultV1 = z
+  .discriminatedUnion("ok", [
+    z.strictObject({
+      ok: z.literal(true),
+      url: HttpUrl,
+      /**
+       * HTTP status. Optional only so that `via: mail` does not have to invent
+       * one — a message read out of a mailbox has no status, and writing `200`
+       * to satisfy the schema is the exact habit this schema exists to prevent.
+       * Still required for a web fetch; see the refinement below.
+       */
+      status: z.number().int().optional(),
+      via: FetchVia.optional(),
+      /**
+       * The mail file this was read from, relative to the repo root, when
+       * `via: mail`. The message is not retrievable at a URL, so this is what
+       * makes the observation checkable by a reviewer.
+       */
+      mailFile: z.string().min(1).optional(),
+      /** Hash of the fetched text, to skip re-extraction when nothing changed. */
+      contentHash: z.string().optional(),
+    }),
+    z.strictObject({
+      ok: z.literal(false),
+      url: HttpUrl,
+      status: z.number().int().optional(),
+      via: FetchVia.optional(),
+      /**
+       * Why it failed. A failed fetch is still recorded: a silent gap in the
+       * data is worse than a recorded failure, because it looks identical to
+       * "this venue has nothing on".
+       */
+      error: z.string().min(1),
+    }),
+  ])
+  .superRefine((fetch, ctx) => {
+    if (fetch.ok && fetch.via !== "mail" && fetch.status === undefined) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        path: ["status"],
+        message: "a web fetch records the HTTP status it got",
+      });
+    }
+    if (fetch.via === "mail" && fetch.ok && !fetch.mailFile) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        path: ["mailFile"],
+        message:
+          "an observation read from the mailbox must name the mail file it came from — " +
+          "a newsletter is not retrievable at a URL, so this is the only citable evidence",
+      });
+    }
+  });
 
 /** One source, visited once. The unit of work in a harvest run. */
 const ObservationV1 = z

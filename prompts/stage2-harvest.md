@@ -1,6 +1,6 @@
 ---
 name: stage2-harvest
-version: "4"
+version: "5"
 stage: 2
 description: Harvest one category's sources into whazzon.harvest/1 observations.
 ---
@@ -124,7 +124,67 @@ Two things that otherwise cost you a re-fetch:
   year. Where no weekday is printed, the inference stands unverified and the row
   is `confidence: medium`.
 
-## 3. How deep to go
+## 3. A source whose post you already have
+
+whazzon subscribes a dedicated address to venue and promoter mailing lists, and
+`npm run mail` pulls that mailbox and files it by category before the fan-out
+starts. So before fetching anything, look for:
+
+```
+data/<location-id>/mail/<YYYY-MM-DD>/<category>.yaml
+```
+
+**If it exists, read it first.** It is already on disk, so it costs no fetch,
+and it routinely carries what a listings page does not: a show added after the
+season was printed, a members' preview, a support act, a cancellation.
+
+Each message gives you `sourceId` — which catalogue source it is from —
+`subject`, `body` (the campaign as text, links intact) and usually
+`webVersion`, the "view in browser" link, which is the only URL a newsletter
+has.
+
+**Mail supplements a fetch; it does not replace one.** A newsletter is one
+month's selection, not a programme. Harvest the listings page as usual, then
+add what the post had and the page did not. Where the two disagree on a date or
+a price, the page is current and the newsletter is what was true when it was
+sent: take the page, and say so in `notes`.
+
+Two ways to record it, depending on whether you also fetched the source:
+
+- **You fetched it too.** Fold the newsletter's extra events into that one
+  observation and note where they came from. `fetch` stays as the web fetch —
+  one source, one observation per run.
+- **It was not due, or could not be reached.** Write a separate observation
+  marked as coming from the mailbox:
+
+  ```yaml
+  - sourceId: art/arnolfini
+    fetch:
+      ok: true
+      via: mail
+      url: https://mailchi.mp/arnolfini/september-2026
+      mailFile: data/gb-bristol/mail/2026-08-29/art.yaml
+    notes: From the September newsletter; the website was not fetched this run.
+  ```
+
+  `via: mail` is not decoration. `drift` reads it to know this observation says
+  nothing about whether the catalogued URL still works — without it, every
+  subscribed venue is reported as having moved, every single run, and the real
+  corrections are buried. `mailFile` is required alongside it, and `status` is
+  omitted: a message has no HTTP status, and writing `200` to fill the field is
+  the exact habit this schema exists to prevent. Where a message has no
+  `webVersion`, use the source's catalogued listings URL.
+
+Nothing else changes. Same event schema, same rule against inventing a date,
+same rule against inventing a URL. A newsletter saying "more dates announced
+soon" is `undated` with that note, exactly as a web page would be — and a "last
+few tickets" line is not `sold-out`.
+
+**Do not harvest from `unmatched.yaml`.** It holds post from senders the
+catalogue has never heard of, which is stage 1's work: a source to add, or a
+binding to write. `npm run mail` reports them already.
+
+## 4. How deep to go
 
 Good coverage of forty venues beats perfect coverage of one.
 
@@ -150,7 +210,7 @@ Good coverage of forty venues beats perfect coverage of one.
 Whatever you skip or truncate, say so in that observation's `notes`. A recorded
 limit is honest; a silent one is a lie about coverage.
 
-## 4. Never invent a date
+## 5. Never invent a date
 
 `occurrence` is a discriminated union precisely so you never have to:
 
@@ -183,7 +243,7 @@ Times are local wall-clock as printed: `19:30`, never `7.30pm`, never UTC.
 Times that vary across a run go in `timesText` verbatim — parsing them reliably
 is not worth the wrong answers.
 
-## 5. Record failures
+## 6. Record failures
 
 ```yaml
 - sourceId: theatre/example
@@ -215,7 +275,7 @@ notes: >-
 Do not fix the catalogue yourself — stage 1 is curated, and stage 2 writing to
 it would break the separation. The note is the handover.
 
-## 6. Do not copy the catalogue into the event
+## 7. Do not copy the catalogue into the event
 
 The event knows its `sourceId`. Venue name, area and address live in the
 catalogue and are joined on at compile time; a copy inside a thousand events
@@ -226,7 +286,7 @@ listed it — an aggregator advertising a gig across town, a festival in borrowe
 spaces. Prefer `venue.sourceId` when that venue is itself catalogued; fall back
 to `venue.name` when it is not.
 
-## 7. Fields that carry the weight
+## 8. Fields that carry the weight
 
 **`raw`, `summary` and `description` are all markdown, and they are three
 different things.**
@@ -241,7 +301,7 @@ different things.**
 says what it is and why someone might go; it fills the card, so it must be
 informative rather than a truncation of `raw` or marketing copy echoed back.
 
-`description` is optional and usually absent. When the rule in §3 sends you to
+`description` is optional and usually absent. When the rule in §4 sends you to
 an event's own page, this is where that text goes: the several paragraphs the
 index never carried — who is playing, what the show is about, what is included,
 access notes. Keep it as the page wrote it, in markdown, and do not pad it out
@@ -294,7 +354,7 @@ concessions" carries more than a number. **`confidence: low`** is a legitimate
 and useful answer when the page was ambiguous; silently guessing instead is the
 one thing you must not do.
 
-## 8. Output
+## 9. Output
 
 Return a list of `observations` — one per source you visited:
 
@@ -327,19 +387,25 @@ Return a list of `observations` — one per source you visited:
 
 Omit `id` — it is a hash of source, title and anchor date, filled in afterwards.
 
-**Do not write the run file yourself.** There is one file per run,
-`data/<location-id>/harvest/<YYYY-MM-DD>.yaml`, and category agents run in
-parallel; concurrent writers would clobber each other. Return your observations
-and let the orchestrator assemble them.
+**Write your own category's file, and only that one.**
 
-## 9. Assembling a run
+```
+data/<location-id>/harvest/<YYYY-MM-DD>/<category>.yaml
+```
+
+One file per category per run is what makes the fan-out work: agents write
+directly instead of funnelling every event back through the orchestrator's
+context, and the schema enforces that a file holds only its own category's
+sources. Never write into another category's file, and never edit a run file
+from a previous date — the log is append-only.
+
+## 10. Assembling a run
 
 Sources are independent and nothing about one venue informs another, so a full
 harvest is naturally **one agent per category**. Once every category has
 returned, the orchestrator:
 
 ```bash
-# 1. writes all observations into the single run file for the date, then
 npm run assign-ids -- <location-id> --date <YYYY-MM-DD>
 npm run validate  -- <location-id>
 npm run tags      -- <location-id>   # check the vocabulary has not drifted

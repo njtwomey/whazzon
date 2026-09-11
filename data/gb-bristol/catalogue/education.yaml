@@ -66,6 +66,9 @@ sources:
     kind: venue
     status: provisional
     url: https://www.bristolfolkhouse.co.uk/courses-and-workshops
+    mail:
+      from:
+      - "*@bristolfolkhouse.co.uk"
     homepage: https://www.bristolfolkhouse.co.uk/
     area: Old City
     tags: [independent, courses, community]

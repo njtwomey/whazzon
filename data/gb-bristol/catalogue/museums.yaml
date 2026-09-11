@@ -108,6 +108,10 @@ sources:
     kind: venue
     status: provisional
     url: https://aerospacebristol.org/whats-on
+    mail:
+      from:
+      - "*@aerospacebristol.org"
+      - "*@*.aerospacebristol.org"
     area: Filton
     tags: [ heritage, aviation, family, ticketed ]
     cadence: monthly

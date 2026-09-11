@@ -7,3 +7,9 @@ package-lock.json
 # scalars and comment placement are deliberate, and the harvest log is an
 # append-only record — neither should be reflowed by a formatter.
 data/
+
+# Environment templates. `.env` is gitignored; `.env.example` is committed and
+# is shell-ish key=value with a long comment header, which prettier has no
+# parser for and would reject rather than skip.
+.env
+.env.example

@@ -12,6 +12,9 @@ sources:
     kind: venue
     status: provisional
     url: https://bristol-cathedral.co.uk/whats-on/
+    mail:
+      from:
+      - "*@bristol-cathedral.co.uk"
     homepage: https://bristol-cathedral.co.uk/
     area: College Green
     tags: [ major, free, classical, heritage ]

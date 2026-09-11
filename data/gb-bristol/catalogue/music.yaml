@@ -10,6 +10,9 @@ sources:
     kind: venue
     status: provisional
     url: https://bristolbeacon.org/whats-on/
+    mail:
+      from:
+      - "*@bristolbeacon-mail.org"
     area: City Centre
     address:
       street: Trenchard Street
@@ -85,6 +88,9 @@ sources:
     kind: venue
     status: provisional
     url: https://www.thefleece.co.uk/events/
+    mail:
+      from:
+      - "*@thefleece.co.uk"
     area: Old City
     address:
       street: 12 St Thomas Street
@@ -171,6 +177,11 @@ sources:
     kind: venue
     status: provisional
     url: https://www.stgeorgesbristol.co.uk/whats-on/
+    mail:
+      from:
+      - "*@stgeorgesbristol.co.uk"
+      - "*@*.stgeorgesbristol.co.uk"
+      - "stgeorgesbristol@arts-mail.co.uk"
     area: Brandon Hill
     address:
       street: Great George Street
@@ -191,6 +202,9 @@ sources:
     kind: venue
     status: provisional
     url: https://motion-bristol.com/whats-on/
+    mail:
+      from:
+      - "*@motionbristol.com"
     homepage: https://motion-bristol.com/
     area: St Philips
     address:
@@ -399,6 +413,9 @@ sources:
     kind: venue
     status: provisional
     url: https://www.thegallimaufry.co.uk/whatson
+    mail:
+      from:
+      - "*@thegallimaufry.co.uk"
     homepage: https://www.thegallimaufry.co.uk/
     area: Gloucester Road
     tags: [ free, jazz, pub, nightly ]

@@ -218,6 +218,11 @@ sources:
     kind: venue
     status: provisional
     url: https://artspace.uk/events-home/
+    mail:
+      from:
+      - "*@artspace.uk"
+      - "*@artspacelifespace.com"
+      note: Artspace Lifespace, which runs The Island
     homepage: https://artspace.uk/
     area: Old City
     tags: [ artist-led, studios, workshops, events-space, diy ]

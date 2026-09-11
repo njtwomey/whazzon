@@ -26,6 +26,9 @@ sources:
     kind: aggregator
     status: provisional
     url: https://www.bristol247.com/guides/
+    mail:
+      from:
+      - "*@bristol247.com"
     homepage: https://www.bristol247.com/
     tags: [ independent, editorial, news ]
     cadence: daily

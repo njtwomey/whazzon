@@ -9,7 +9,7 @@ TODAY := $(shell date +%F)
 
 .DEFAULT_GOAL := help
 .PHONY: help install check test typecheck format format-check validate check-urls stale \
-        mock remock compile sync dev build build-pages preflight preview clean distclean refresh \
+        mail mail-dry mock remock compile sync dev build build-pages preflight preview clean distclean refresh \
         refresh-all refresh-bristol refresh-cork ci
 
 ## ---------------------------------------------------------------- meta
@@ -59,6 +59,12 @@ stale: ## What is due a harvest, given each source's cadence
 
 stale-ids: ## Bare source ids that are due, for scripting
 	@npm run --silent stale -- $(LOCATION) --ids
+
+mail: ## Pull the harvest mailbox into data/<location>/mail/ (network, needs .env)
+	npm run mail -- $(LOCATION)
+
+mail-dry: ## What the mailbox pull would file, filing nothing
+	npm run mail -- $(LOCATION) --dry-run --verbose
 
 mock: ## Regenerate mock harvest data (scaffolding — not a real harvest)
 	npm run mock -- $(LOCATION) --date $(TODAY)

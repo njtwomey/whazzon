@@ -53,6 +53,41 @@ than coining parallel ones:
 npm run tags -- <location-id> --list
 ```
 
+## 2b. Pull the mailbox
+
+```bash
+npm run mail -- <location-id>
+```
+
+Stage 2 has two input channels. The other one is a dedicated address subscribed
+to venue and promoter mailing lists, and this pulls it into
+
+```
+data/<location-id>/mail/<YYYY-MM-DD>/<category>.yaml
+```
+
+one file per category, mirroring the harvest layout. It is deterministic — IMAP,
+MIME, redaction, matching against the catalogue — and no model runs in it.
+Deciding what in a newsletter is an event is the fan-out's job, from these
+files.
+
+Run it **before** the fan-out, so the files exist when the subagents look. It is
+cheap and idempotent: messages already filed are recognised by `Message-Id` and
+skipped, so a re-run costs one connection.
+
+Two things it tells you that belong in the report:
+
+- **senders it could not attribute** — post from someone the catalogue has never
+  heard of, filed in `unmatched.yaml`. That is stage 1's work: a source to add,
+  or a `mail:` binding to write on one that already exists. Never write the
+  binding yourself; it is a catalogue edit.
+- **messages matching more than one source** — a shared sending domain, which
+  wants a `listId` to disambiguate.
+
+If `.env` is not set up, it says so and stops. That is not a reason to abandon
+the harvest: mail is a supplement, and the fan-out runs perfectly well without
+it. Say in the report that the mailbox was not read.
+
 ## 3. Fan out — one subagent per category
 
 Sources are independent and nothing about one venue informs another, so
@@ -67,6 +102,10 @@ Each subagent gets:
   `url` may be a list of roled routes rather than one URL; pass all of them, with
   their roles and notes — an `api` or `ics` route is usually the whole diary in
   one fetch and is the reason the source has more than one.
+- the path to its mail file, when the pull produced one:
+  `data/<location-id>/mail/<YYYY-MM-DD>/<category>.yaml`. Tell it to read that
+  first — the file is already on disk, so it costs no fetch, and a newsletter
+  routinely carries what the listings page does not.
 - the current tag vocabulary
 - today's date, so it can resolve "08 Mar" to a real year
 
@@ -138,6 +177,9 @@ Cover what a human has to act on:
   should not be fetched monthly)
 - tag drift, from `npm run tags`
 - anything deliberately truncated
+- **senders in `unmatched.yaml`**, with what they appear to be. This is the
+  mailbox's other product: a promoter's newsletter arrives there long before
+  the source turns up in a catalogue sweep.
 
 Then say the same thing back to the person, briefly:
 
@@ -154,7 +196,8 @@ than one that covered half and said so.
 
 - **Never edit the catalogue from here.** Stage 1 is curated by hand; a broken
   URL is reported in `notes`, not fixed in place. Keeping the stages separate is
-  the project's core constraint.
+  the project's core constraint. A `mail:` binding is a catalogue edit like any
+  other: report the unattributed sender, never bind it yourself.
 - **Never overwrite an existing run file.** The harvest log is append-only —
   that is what lets the fold be rebuilt from scratch.
 

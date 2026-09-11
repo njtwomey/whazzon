@@ -30,7 +30,7 @@ interface RawRun {
   date: string;
   observations: {
     sourceId: string;
-    fetch: { ok: boolean; url: string; error?: string };
+    fetch: { ok: boolean; url: string; error?: string; via?: string };
     events?: unknown[];
     notes?: string;
   }[];
@@ -71,6 +71,11 @@ for (const locationId of locations) {
     for (const observation of run.observations) {
       const source = catalogued.get(observation.sourceId);
       if (!source) continue;
+      // An observation read out of the mailbox says nothing about whether the
+      // catalogued URL still works: its `fetch.url` is a campaign's
+      // view-in-browser page. Counting it would report every subscribed venue
+      // as moved, every run, and bury the corrections that are real.
+      if (observation.fetch.via === "mail") continue;
 
       const routes = routesOf(source);
       const base = {

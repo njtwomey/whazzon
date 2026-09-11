@@ -12,6 +12,7 @@
     "migrate": "tsx packages/pipeline/src/cli/migrate.ts",
     "check-urls": "tsx packages/pipeline/src/cli/check-urls.ts",
     "stale": "tsx packages/pipeline/src/cli/stale.ts",
+    "mail": "tsx packages/pipeline/src/cli/mail.ts",
     "repointed": "tsx packages/pipeline/src/cli/repointed.ts",
     "mock": "tsx packages/pipeline/src/cli/mock-harvest.ts",
     "compile": "tsx packages/pipeline/src/cli/compile.ts",
@@ -33,6 +34,7 @@
   "devDependencies": {
     "@testing-library/react": "^16.3.2",
     "@testing-library/user-event": "^14.6.4",
+    "@types/html-to-text": "^9.0.4",
     "@types/node": "^22.10.0",
     "jsdom": "^30.0.1",
     "prettier": "^3.4.0",
@@ -43,6 +45,10 @@
     "vitest": "^3.2.0"
   },
   "dependencies": {
+    "@types/mailparser": "^3.4.6",
+    "html-to-text": "^10.0.1",
+    "imapflow": "^1.7.6",
+    "mailparser": "^3.9.17",
     "yaml": "^2.6.0",
     "zod": "^3.24.0"
   }

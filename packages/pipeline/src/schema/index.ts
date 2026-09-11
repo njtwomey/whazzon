@@ -1,6 +1,7 @@
 import { CatalogueArtefact } from "./catalogue.js";
 import { HarvestArtefact } from "./harvest.js";
 import { LocationArtefact } from "./location.js";
+import { MailArtefact } from "./mail.js";
 import { SnapshotArtefact } from "./snapshot.js";
 import type { VersionedArtefact } from "./versioning.js";
 
@@ -9,6 +10,7 @@ export * from "./versioning.js";
 export * from "./location.js";
 export * from "./catalogue.js";
 export * from "./harvest.js";
+export * from "./mail.js";
 export * from "./snapshot.js";
 
 /**
@@ -20,5 +22,6 @@ export const ARTEFACTS: Record<string, VersionedArtefact<any>> = {
   [LocationArtefact.kind]: LocationArtefact,
   [CatalogueArtefact.kind]: CatalogueArtefact,
   [HarvestArtefact.kind]: HarvestArtefact,
+  [MailArtefact.kind]: MailArtefact,
   [SnapshotArtefact.kind]: SnapshotArtefact,
 };

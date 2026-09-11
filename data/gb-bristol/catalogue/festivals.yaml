@@ -99,6 +99,9 @@ sources:
     kind: festival
     status: provisional
     url: https://www.lovesavestheday.org/
+    mail:
+      from:
+      - "*@lovesavestheday.org"
     tags: [ music, summer, outdoor, ticketed, major, electronic ]
     cadence: quarterly
     hints: Bristol's largest music festival; lineup announced in stages over winter and spring.
@@ -110,6 +113,10 @@ sources:
     kind: festival
     status: provisional
     url: https://www.forwardsbristol.co.uk/lineup
+    mail:
+      from:
+      - "*@teamlove.org"
+      note: Team Love run Forwards; Love Saves the Day mails from its own domain
     homepage: https://www.forwardsbristol.co.uk/
     area: The Downs
     tags: [ music, summer, outdoor, ticketed, major ]

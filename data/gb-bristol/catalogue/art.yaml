@@ -10,6 +10,9 @@ sources:
     kind: venue
     status: provisional
     url: https://arnolfini.org.uk/whatson/
+    mail:
+      from:
+      - "*@arnolfini.org.uk"
     area: Harbourside
     address:
       street: 16 Narrow Quay
@@ -31,6 +34,9 @@ sources:
     kind: venue
     status: provisional
     url: https://www.spikeisland.org.uk/programme/
+    mail:
+      from:
+      - "*@spikeisland.org.uk"
     area: Spike Island
     address:
       street: 133 Cumberland Road
@@ -49,6 +55,9 @@ sources:
     kind: venue
     status: provisional
     url: https://www.rwa.org.uk/collections/events
+    mail:
+      from:
+      - "*@rwa.org.uk"
     homepage: https://www.rwa.org.uk/
     area: Clifton
     address:
@@ -97,6 +106,10 @@ sources:
     kind: venue
     status: provisional
     url: https://www.centrespace.org.uk/whats-on
+    mail:
+      from:
+      - "*@centrespacegallery.com"
+      note: gallery mails from centrespacegallery.com, not centrespace.org.uk
     homepage: https://www.centrespace.org.uk/
     area: Old City
     tags: [ independent, artist-led, short-run ]

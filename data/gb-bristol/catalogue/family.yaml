@@ -91,6 +91,9 @@ sources:
     kind: venue
     status: provisional
     url: https://www.childrensscrapstore.co.uk/free-events
+    mail:
+      from:
+      - "*@childrensscrapstore.co.uk"
     homepage: https://www.childrensscrapstore.co.uk/
     area: St Werburghs
     tags: [ play, community, workshops, creative ]

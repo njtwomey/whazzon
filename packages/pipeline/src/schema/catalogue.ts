@@ -124,6 +124,39 @@ const SourceUrl = z.union([
     }),
 ]);
 
+/**
+ * How this source's post is recognised in the harvest mailbox.
+ *
+ * whazzon subscribes one dedicated address to venue and promoter mailing
+ * lists, and `npm run mail` files what arrives against the catalogue. This is
+ * the only thing that lets it do so: without a binding here, a newsletter is
+ * post from a stranger.
+ *
+ * Present only on sources actually subscribed to. It is not a route — a route
+ * is somewhere a harvest goes, and this is somewhere a listing comes from, so
+ * it does not belong in `url` and never becomes the link under an event.
+ *
+ *   mail:
+ *     from: ["*@arnolfini.org.uk"]
+ *
+ * Patterns are globs over the whole address, matched case-insensitively, where
+ * `*` stands for any run of characters. An exact address is a pattern with no
+ * `*` in it. Prefer the sending domain over one exact address: campaigns move
+ * between `news@`, `hello@` and `noreply@` without telling anyone.
+ */
+const MailBinding = z.strictObject({
+  /** Address globs matched against the `From:` header. */
+  from: z.array(z.string().min(1)).min(1, "a mail binding needs at least one address pattern"),
+  /**
+   * Globs matched against `List-Id`. Worth setting where a venue sends through
+   * a platform: the list id survives a change of sending address, and it is
+   * what distinguishes two venues sharing one Mailchimp account.
+   */
+  listId: z.array(z.string().min(1)).optional(),
+  /** Which list this is, for the human curating it: "members' preview only". */
+  note: z.string().min(1).optional(),
+});
+
 const SourceV1 = z.strictObject({
   /** `<category>/<slug>`. Stable forever — this key joins every stage. */
   id: SourceId,
@@ -140,6 +173,12 @@ const SourceV1 = z.strictObject({
   url: SourceUrl,
   /** Front door, when it differs from the listings page. */
   homepage: HttpUrl.optional(),
+
+  /**
+   * Set when this source is subscribed to in the harvest mailbox — see
+   * `MailBinding`. Absent for the great majority, which are only ever fetched.
+   */
+  mail: MailBinding.optional(),
   /** Logo or emblem shown on the card. */
   icon: HttpUrl.optional(),
 

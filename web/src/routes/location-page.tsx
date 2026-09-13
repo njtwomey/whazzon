@@ -12,6 +12,7 @@ import { Empty, EmptyDescription, EmptyHeader, EmptyMedia, EmptyTitle } from "@/
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Skeleton } from "@/components/ui/skeleton";
 import { useDensity } from "@/lib/density";
+import { todayIso } from "@/lib/format";
 import { activeFilterCount, applyFilters, EMPTY_FACET, useFilters } from "@/lib/filters";
 import { useLocations, useSnapshot } from "@/lib/snapshot";
 import type { SnapshotEvent } from "@/lib/types";
@@ -31,6 +32,10 @@ export function LocationPage() {
   const [density, setDensity] = useDensity();
 
   const snapshot = snapshotState.status === "ready" ? snapshotState.data : undefined;
+  // What is on is judged against the reader's clock, not the compile date the
+  // snapshot carries — see `todayIso`. The header still shows `snapshot.asOf`,
+  // because "last updated" is a fact about the data, not about today.
+  const today = React.useMemo(() => todayIso(), []);
 
   /**
    * The city's illustration for the header mark. It lives in the locations index
@@ -56,7 +61,7 @@ export function LocationPage() {
   );
 
   const visible = React.useMemo(
-    () => (snapshot ? applyFilters(snapshot.events, effectiveFilters, snapshot.asOf) : []),
+    () => (snapshot ? applyFilters(snapshot.events, effectiveFilters, today) : []),
     [snapshot, effectiveFilters],
   );
 
@@ -72,26 +77,22 @@ export function LocationPage() {
     const tags = new Map<string, number>();
     if (!snapshot) return { categories, areas, venues, tags };
 
-    for (const event of applyFilters(
-      snapshot.events,
-      { ...effectiveFilters, categories: EMPTY_FACET },
-      snapshot.asOf,
-    )) {
+    for (const event of applyFilters(snapshot.events, { ...effectiveFilters, categories: EMPTY_FACET }, today)) {
       categories.set(event.category, (categories.get(event.category) ?? 0) + 1);
     }
-    for (const event of applyFilters(snapshot.events, { ...effectiveFilters, areas: EMPTY_FACET }, snapshot.asOf)) {
+    for (const event of applyFilters(snapshot.events, { ...effectiveFilters, areas: EMPTY_FACET }, today)) {
       if (event.area) areas.set(event.area, (areas.get(event.area) ?? 0) + 1);
     }
-    for (const event of applyFilters(snapshot.events, { ...effectiveFilters, venues: EMPTY_FACET }, snapshot.asOf)) {
+    for (const event of applyFilters(snapshot.events, { ...effectiveFilters, venues: EMPTY_FACET }, today)) {
       if (event.venueName) venues.set(event.venueName, (venues.get(event.venueName) ?? 0) + 1);
     }
-    for (const event of applyFilters(snapshot.events, { ...effectiveFilters, tags: EMPTY_FACET }, snapshot.asOf)) {
+    for (const event of applyFilters(snapshot.events, { ...effectiveFilters, tags: EMPTY_FACET }, today)) {
       for (const tag of event.tags) tags.set(tag, (tags.get(tag) ?? 0) + 1);
     }
     return { categories, areas, venues, tags };
   }, [snapshot, effectiveFilters]);
 
-  const groups = React.useMemo(() => (snapshot ? groupEvents(visible, snapshot.asOf) : []), [snapshot, visible]);
+  const groups = React.useMemo(() => (snapshot ? groupEvents(visible, today) : []), [snapshot, visible]);
 
   if (snapshotState.status === "error") {
     return (
@@ -227,12 +228,12 @@ export function LocationPage() {
               </Button>
             </Empty>
           ) : (
-            <EventGroups groups={groups} asOf={snapshot.asOf} density={density} onOpen={setSelected} />
+            <EventGroups groups={groups} asOf={today} density={density} onOpen={setSelected} />
           )}
         </div>
       </main>
 
-      <EventDialog event={selected} asOf={snapshot.asOf} onClose={() => setSelected(null)} />
+      <EventDialog event={selected} asOf={today} onClose={() => setSelected(null)} />
     </div>
   );
 }

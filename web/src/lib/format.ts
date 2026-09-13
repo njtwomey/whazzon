@@ -18,6 +18,23 @@ function parse(date: string): Date {
   return new Date(`${date}T12:00:00Z`);
 }
 
+/**
+ * Today as an ISO date in the reader's own time zone.
+ *
+ * The snapshot carries `asOf`, the day it was compiled, and every state in it
+ * was derived against that day. A site built on Thursday and read on Saturday
+ * would still call Thursday's gigs current. So "what is on" is decided
+ * against the clock in the browser, and `asOf` is kept only for saying when
+ * the data was last updated.
+ */
+export function todayIso(): string {
+  const now = new Date();
+  const y = now.getFullYear();
+  const m = String(now.getMonth() + 1).padStart(2, "0");
+  const d = String(now.getDate()).padStart(2, "0");
+  return `${y}-${m}-${d}`;
+}
+
 export function formatDay(date: string): string {
   return DAY.format(parse(date));
 }

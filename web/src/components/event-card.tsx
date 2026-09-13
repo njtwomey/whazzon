@@ -3,6 +3,7 @@ import * as React from "react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
+import { isFinished } from "@/lib/filter-events";
 import { bucketOf, formatDate, formatDay, occurrenceLabel, occurrenceTime, priceLabel } from "@/lib/format";
 import { DENSITY, type Density } from "@/lib/density";
 import type { SnapshotEvent } from "@/lib/types";
@@ -107,7 +108,8 @@ function EventCardImpl({
       </Badge>
     ),
   });
-  if (event.state === "carried")
+  const finished = isFinished(event, asOf);
+  if (event.state === "carried" && !finished)
     pills.push({
       key: "carried",
       label: "Unconfirmed",
@@ -117,8 +119,7 @@ function EventCardImpl({
         </Badge>
       ),
     });
-  if (event.state === "finished")
-    pills.push({ key: "finished", label: "Finished", node: <Badge variant="outline">Finished</Badge> });
+  if (finished) pills.push({ key: "finished", label: "Finished", node: <Badge variant="outline">Finished</Badge> });
   if (event.ageRestriction)
     pills.push({
       key: "age",
@@ -166,7 +167,7 @@ function EventCardImpl({
         "active:translate-y-0 active:shadow-md",
         // Respect a reduced-motion preference: keep the shadow, drop the lift.
         "motion-reduce:transition-none motion-reduce:hover:translate-y-0",
-        event.state === "finished" && "opacity-60",
+        finished && "opacity-60",
       )}
     >
       {showImage ? (

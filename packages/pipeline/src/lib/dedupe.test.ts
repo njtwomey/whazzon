@@ -1,6 +1,14 @@
 import { describe, expect, it } from "vitest";
 import type { SnapshotEvent } from "../schema/snapshot.js";
-import { annotateDuplicates, DUP_SCORE, duplicateScore, editDistance, normaliseTitle } from "./dedupe.js";
+import {
+  annotateDuplicates,
+  dropExactDuplicates,
+  DUP_SCORE,
+  duplicateScore,
+  editDistance,
+  normaliseTitle,
+  normaliseUrl,
+} from "./dedupe.js";
 
 /**
  * The cases here are the ones that were measured on real data, not invented.
@@ -181,5 +189,123 @@ describe("annotating, not deleting", () => {
     const result = annotateDuplicates([only], kinds());
     expect(result.events).toEqual([only]);
     expect(result.marked).toBe(0);
+  });
+});
+
+describe("dropping rows that share an event page", () => {
+  const PAGE = "https://venue.example/whats-on/badgers";
+  const notListings = () => false;
+
+  it("keeps one row when two sources link the same page on the same day, preferring the venue", () => {
+    const venue = event({ id: "theatre/v#1", sourceId: "theatre/v", title: "Badgers", url: PAGE });
+    const agg = event({
+      id: "citywide/a#1",
+      sourceId: "citywide/a",
+      title: "Badgers",
+      url: `${PAGE}?utm_source=x`,
+      image: "https://img.example/b.jpg",
+    });
+    const { events, dropped } = dropExactDuplicates([agg, venue], kinds({ "citywide/a": "aggregator" }), notListings);
+    expect(dropped).toBe(1);
+    expect(events.map((e) => e.id)).toEqual(["theatre/v#1"]);
+    // The survivor absorbs what only the duplicate carried, and records who else listed it.
+    expect(events[0]!.image).toBe("https://img.example/b.jpg");
+    expect(events[0]!.alsoListedBy).toEqual(["citywide/a"]);
+  });
+
+  it("promotes a carried venue row that absorbs a listed aggregator row", () => {
+    // The aggregator simply visited more recently; the event is current, and
+    // the row that survives must say so or the site hides it.
+    const venue = event({ id: "theatre/v#1", sourceId: "theatre/v", title: "Badgers", url: PAGE, state: "carried" });
+    const agg = event({ id: "citywide/a#1", sourceId: "citywide/a", title: "Badgers", url: PAGE, state: "listed" });
+    const { events } = dropExactDuplicates([agg, venue], kinds({ "citywide/a": "aggregator" }), notListings);
+    expect(events.map((e) => e.id)).toEqual(["theatre/v#1"]);
+    expect(events[0]!.state).toBe("listed");
+  });
+
+  it("keeps two screenings that share a film page on different days", () => {
+    // Vue's Spider-Man page: an autism-friendly screening on the 13th and an
+    // open-captioned one on the 16th. One page, two evenings.
+    const a = event({
+      id: "cinema/v#1",
+      sourceId: "cinema/v",
+      title: "Spider-Man (autism friendly)",
+      url: PAGE,
+      sortDate: "2026-09-13",
+    });
+    const b = event({
+      id: "cinema/v#2",
+      sourceId: "cinema/v",
+      title: "Spider-Man (open captioned)",
+      url: PAGE,
+      sortDate: "2026-09-16",
+    });
+    expect(dropExactDuplicates([a, b], kinds(), notListings).dropped).toBe(0);
+  });
+
+  it("keeps two strands on the same page and day whose titles do not agree", () => {
+    // Everyman's Pressure page: Baby Club and a captioned screening, both on
+    // the 15th. Same URL, same date, different things to go to.
+    const a = event({ id: "cinema/e#1", sourceId: "cinema/e", title: "Baby Club: Pressure", url: PAGE });
+    const b = event({ id: "cinema/e#2", sourceId: "cinema/e", title: "Pressure (captioned screening)", url: PAGE });
+    expect(dropExactDuplicates([a, b], kinds(), notListings).dropped).toBe(0);
+  });
+
+  it("drops a source's stranded row when it re-lists the same page under a tweaked title", () => {
+    // Visit Bristol every run: the title gains "at Bristol Museum", the id
+    // changes, and the fold carries the old row beside the new one.
+    const old = event({
+      id: "citywide/vb#1",
+      sourceId: "citywide/vb",
+      title: "Dinosaurs Tour",
+      url: PAGE,
+      state: "carried",
+      sortDate: "2025-06-01",
+    });
+    const now = event({
+      id: "citywide/vb#2",
+      sourceId: "citywide/vb",
+      title: "Dinosaurs Tour at Bristol Museum",
+      url: PAGE,
+      state: "listed",
+      sortDate: "2026-09-11",
+    });
+    const { events } = dropExactDuplicates([old, now], kinds(), notListings);
+    expect(events.map((e) => e.id)).toEqual(["citywide/vb#2"]);
+  });
+
+  it("keeps a carried row with the identical title on another date — it is another occurrence", () => {
+    // A comedian's two dates on one show page; three fixtures on one page.
+    const feb = event({
+      id: "theatre/t#1",
+      sourceId: "theatre/t",
+      title: "Ahir Shah: Golden",
+      url: PAGE,
+      state: "carried",
+      sortDate: "2027-02-14",
+    });
+    const oct = event({
+      id: "theatre/t#2",
+      sourceId: "theatre/t",
+      title: "Ahir Shah: Golden",
+      url: PAGE,
+      state: "listed",
+      sortDate: "2026-10-10",
+    });
+    expect(dropExactDuplicates([feb, oct], kinds(), notListings).dropped).toBe(0);
+  });
+
+  it("leaves rows alone when the shared URL is a catalogued listings page", () => {
+    // An agent that found no deep link and fell back to the what's-on page
+    // has not produced forty duplicates.
+    const a = event({ id: "music/m#1", sourceId: "music/m", title: "Gig A", url: "https://venue.example/whats-on/" });
+    const b = event({ id: "music/m#2", sourceId: "music/m", title: "Gig A", url: "https://venue.example/whats-on/" });
+    const isListings = (u: string) => u === normaliseUrl("https://venue.example/whats-on/");
+    expect(dropExactDuplicates([a, b], kinds(), isListings).dropped).toBe(0);
+  });
+
+  it("compares URLs the way a reader would", () => {
+    expect(normaliseUrl("https://Venue.Example/x/?utm_source=a&id=1")).toBe("https://venue.example/x?id=1");
+    expect(normaliseUrl("https://venue.example/x/")).toBe("https://venue.example/x");
   });
 });

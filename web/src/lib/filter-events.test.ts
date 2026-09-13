@@ -4,6 +4,7 @@ import {
   withState,
   DEFAULT_FILTERS,
   EMPTY_FACET,
+  isFinished,
   isOnNow,
   matchedPreset,
   stateOfValue,
@@ -217,5 +218,27 @@ describe("narrowing by how good the listing is", () => {
     const all = [event({ id: "high" }), middling, vague];
     expect(ids(applyFilters(all, filters({ confidence: "medium" }), ASOF)).sort()).toEqual(["high", "middling"]);
     expect(ids(applyFilters(all, filters({ confidence: "high" }), ASOF))).toEqual(["high"]);
+  });
+});
+
+describe("finished is judged against today, not the compile date", () => {
+  // A snapshot built on the 11th says a gig on the 12th is `listed`. Read on
+  // the 13th, that gig has happened, whatever the snapshot says.
+  const stale = event({ id: "a", state: "listed", sortDate: "2026-09-12", endDate: "2026-09-12" });
+  const current = event({ id: "b", state: "listed", sortDate: "2026-09-14", endDate: "2026-09-14" });
+
+  it("treats an event whose end date has passed as finished", () => {
+    expect(isFinished(stale, "2026-09-13")).toBe(true);
+    expect(isFinished(current, "2026-09-13")).toBe(false);
+  });
+
+  it("hides it by default and shows it again with the finished toggle", () => {
+    expect(ids(applyFilters([stale, current], filters(), "2026-09-13"))).toEqual(["b"]);
+    expect(ids(applyFilters([stale, current], filters({ includeFinished: true }), "2026-09-13"))).toEqual(["a", "b"]);
+  });
+
+  it("still honours the snapshot's own finished state", () => {
+    const baked = event({ id: "c", state: "finished", sortDate: "2026-09-01", endDate: "2026-09-01" });
+    expect(isFinished(baked, "2026-09-13")).toBe(true);
   });
 });

@@ -1,11 +1,11 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 import { loadCatalogues } from "../lib/catalogue.js";
-import { annotateDuplicates } from "../lib/dedupe.js";
+import { annotateDuplicates, dropExactDuplicates, normaliseUrl } from "../lib/dedupe.js";
 import { endDateOf, foldHarvests, sortDateOf, stateOf } from "../lib/fold.js";
 import { loadLocation, resolveLocations } from "../lib/locations.js";
 import { paths, rel } from "../lib/paths.js";
-import { primaryUrl } from "../lib/routes.js";
+import { primaryUrl, routesOf } from "../lib/routes.js";
 import type { Source } from "../schema/catalogue.js";
 import { SnapshotArtefact, type SnapshotEvent } from "../schema/snapshot.js";
 
@@ -221,7 +221,20 @@ for (const locationId of locations) {
    * After the fold and before the sort: matching needs `sortDate` resolved, and
    * the sort has to run over what ships.
    */
-  const dupes = annotateDuplicates(events, (sourceId) => catalogueById.get(sourceId)?.source.kind);
+  const kindOf = (sourceId: string) => catalogueById.get(sourceId)?.source.kind;
+
+  // Two rows pointing at the same event page are not a guess, so they go here
+  // rather than to the scorer — except where that page is a catalogued
+  // listings route, which an agent falls back to when it finds no deep link.
+  const listingsUrls = new Set<string>();
+  for (const { source } of catalogueById.values()) {
+    for (const route of routesOf(source)) listingsUrls.add(normaliseUrl(route.url));
+  }
+  const exact = dropExactDuplicates(events, kindOf, (url) => listingsUrls.has(url));
+  events.length = 0;
+  events.push(...exact.events);
+
+  const dupes = annotateDuplicates(events, kindOf);
   events.length = 0;
   events.push(...dupes.events);
 
@@ -276,6 +289,9 @@ for (const locationId of locations) {
         ? `\n  ${droppedFinished} finished before ${finishedCutoff} left out (--keep-finished ${keepFinishedDays})`
         : "") +
       (droppedUndated ? `\n  ${droppedUndated} undated event(s) no longer listed left out` : "") +
+      (exact.dropped
+        ? `\n  ${exact.dropped} row(s) sharing an event page with another row dropped (${exact.groups} page(s))`
+        : "") +
       (dupes.marked
         ? `\n  ${dupes.marked} row(s) scored as duplicates of ${dupes.groups.length} event(s) — kept, for the site to threshold`
         : ""),

@@ -164,6 +164,38 @@ function richness(event: SnapshotEvent): number {
   );
 }
 
+/**
+ * The canonical row takes on whatever the others knew that it did not, so a
+ * duplicate can be hidden or dropped without losing a description, an image or
+ * a price that only it carried. Shared by both passes below so that what
+ * "absorb" means cannot drift between them.
+ */
+function absorb(winner: SnapshotEvent, losers: SnapshotEvent[]): SnapshotEvent {
+  return {
+    ...winner,
+    // A venue's row can be `carried` while an aggregator's copy is `listed`
+    // — the aggregator simply visited more recently. The event is current
+    // either way, and the row that survives must say so or it is hidden.
+    state: winner.state === "carried" && losers.some((l) => l.state === "listed") ? "listed" : winner.state,
+    description: winner.description ?? losers.find((l) => l.description)?.description,
+    image: winner.image ?? losers.find((l) => l.image)?.image,
+    url: winner.url ?? losers.find((l) => l.url)?.url,
+    price: winner.price ?? losers.find((l) => l.price)?.price,
+    timesText: winner.timesText ?? losers.find((l) => l.timesText)?.timesText,
+    tags: [...new Set([...winner.tags, ...losers.flatMap((l) => l.tags)])].sort(),
+    alsoListedBy: [
+      ...new Set(
+        [...(winner.alsoListedBy ?? []), ...losers.map((l) => l.sourceId)].filter((id) => id !== winner.sourceId),
+      ),
+    ].sort(),
+    firstSeen: [winner, ...losers].map((e) => e.firstSeen).sort()[0]!,
+    lastSeen: [winner, ...losers]
+      .map((e) => e.lastSeen)
+      .sort()
+      .reverse()[0]!,
+  };
+}
+
 export interface DuplicateGroup {
   canonical: SnapshotEvent;
   /** Each duplicate with the score it earned against the canonical row. */
@@ -248,21 +280,7 @@ export function annotateDuplicates(
 
       // The canonical row absorbs what the others knew, so hiding a duplicate
       // never loses an image or a description that only it had.
-      annotated.set(winner.id, {
-        ...winner,
-        description: winner.description ?? losers.find((l) => l.description)?.description,
-        image: winner.image ?? losers.find((l) => l.image)?.image,
-        url: winner.url ?? losers.find((l) => l.url)?.url,
-        price: winner.price ?? losers.find((l) => l.price)?.price,
-        timesText: winner.timesText ?? losers.find((l) => l.timesText)?.timesText,
-        tags: [...new Set([...winner.tags, ...losers.flatMap((l) => l.tags)])].sort(),
-        alsoListedBy: [...new Set(losers.map((l) => l.sourceId))].sort(),
-        firstSeen: [winner, ...losers].map((e) => e.firstSeen).sort()[0]!,
-        lastSeen: [winner, ...losers]
-          .map((e) => e.lastSeen)
-          .sort()
-          .reverse()[0]!,
-      });
+      annotated.set(winner.id, absorb(winner, losers));
 
       const duplicates = losers.map((event, i) => {
         const score = scores[i + 1]!;
@@ -276,4 +294,134 @@ export function annotateDuplicates(
   }
 
   return { events: events.map((e) => annotated.get(e.id) ?? e), groups, marked };
+}
+
+/**
+ * A URL compared the way a reader would: host case and a trailing slash do
+ * not make a different page, and neither does the campaign tracking an
+ * aggregator appends when it links out.
+ */
+export function normaliseUrl(raw: string): string {
+  try {
+    const url = new URL(raw);
+    url.hostname = url.hostname.toLowerCase();
+    for (const key of [...url.searchParams.keys()]) {
+      if (key.toLowerCase().startsWith("utm_")) url.searchParams.delete(key);
+    }
+    if (url.pathname.length > 1) url.pathname = url.pathname.replace(/\/+$/, "");
+    return url.toString().replace(/\?$/, "");
+  } catch {
+    return raw;
+  }
+}
+
+function titlesMatch(a: SnapshotEvent, b: SnapshotEvent): boolean {
+  const x = normaliseTitle(a.title);
+  const y = normaliseTitle(b.title);
+  return x === y || x.includes(y) || y.includes(x);
+}
+
+export interface DropResult {
+  events: SnapshotEvent[];
+  /** Rows removed outright. */
+  dropped: number;
+  /** URL groups that lost at least one row. */
+  groups: number;
+}
+
+/**
+ * Drop the duplicates that are not a guess: two rows pointing at the same
+ * event page.
+ *
+ * Everything in `annotateDuplicates` is a similarity score, kept in the
+ * snapshot for the browser to threshold, because a wrong guess should cost a
+ * hidden row rather than a deleted one. An identical detail URL is different
+ * in kind — it is the same page, and there is nothing to be unsure about — so
+ * these rows are removed here rather than scored.
+ *
+ * Two guards, both forced by real rows rather than chosen:
+ *
+ * - **The same page can host several occurrences.** Vue's Spider-Man page
+ *   covers an autism-friendly screening on the 13th and an open-captioned one
+ *   on the 16th; one cricket fixtures page covers three matches. So a shared
+ *   URL is only a duplicate when the rows also share a date and their titles
+ *   agree — or when it is one source re-listing the same page under a
+ *   *tweaked* title, which the fold sees as a new event and leaves the old row
+ *   stranded as `carried`. Visit Bristol does this every run. An identical
+ *   title on a different date is not a tweak; it is another occurrence.
+ * - **A listings page is not a detail page.** An agent that could not find a
+ *   deep link and fell back to the venue's what's-on URL has not produced
+ *   forty duplicates. Anything matching a catalogued route is left alone.
+ */
+export function dropExactDuplicates(
+  events: SnapshotEvent[],
+  kindOf: (sourceId: string) => string | undefined,
+  isListingsUrl: (normalisedUrl: string) => boolean,
+): DropResult {
+  const byUrl = new Map<string, SnapshotEvent[]>();
+  for (const event of events) {
+    if (!event.url) continue;
+    const key = normaliseUrl(event.url);
+    if (isListingsUrl(key)) continue;
+    const bucket = byUrl.get(key);
+    if (bucket) bucket.push(event);
+    else byUrl.set(key, [event]);
+  }
+
+  const replaced = new Map<string, SnapshotEvent>();
+  const gone = new Set<string>();
+  let groups = 0;
+
+  const precedence = (a: SnapshotEvent, b: SnapshotEvent) =>
+    (KIND_RANK[kindOf(a.sourceId) ?? ""] ?? 9) - (KIND_RANK[kindOf(b.sourceId) ?? ""] ?? 9) ||
+    (a.state === "listed" ? 0 : 1) - (b.state === "listed" ? 0 : 1) ||
+    richness(b) - richness(a) ||
+    b.lastSeen.localeCompare(a.lastSeen) ||
+    a.id.localeCompare(b.id);
+
+  for (const group of byUrl.values()) {
+    if (group.length < 2) continue;
+    const before = gone.size;
+    let survivors = [...group].sort(precedence);
+
+    // A source that lists this page now, under a tweaked title, supersedes its
+    // own stranded row for it. The tweak is the signature: the same title on
+    // another date is another occurrence — three cricket fixtures on one page,
+    // a comedian's two dates — and stays.
+    for (const event of survivors) {
+      if (event.state !== "carried") continue;
+      const winner = survivors.find(
+        (e) =>
+          e.state === "listed" && e.sourceId === event.sourceId && e.title !== event.title && titlesMatch(e, event),
+      );
+      if (!winner) continue;
+      replaced.set(winner.id, absorb(replaced.get(winner.id) ?? winner, [event]));
+      gone.add(event.id);
+    }
+    survivors = survivors.filter((e) => !gone.has(e.id));
+
+    // The same page on the same day, described the same way, is one event.
+    const byDate = new Map<string, SnapshotEvent[]>();
+    for (const event of survivors) {
+      const key = event.sortDate ?? "-";
+      const bucket = byDate.get(key);
+      if (bucket) bucket.push(event);
+      else byDate.set(key, [event]);
+    }
+    for (const sameDay of byDate.values()) {
+      const [winner, ...rest] = sameDay as [SnapshotEvent, ...SnapshotEvent[]];
+      const losers = rest.filter((e) => titlesMatch(winner, e));
+      if (losers.length === 0) continue;
+      replaced.set(winner.id, absorb(replaced.get(winner.id) ?? winner, losers));
+      for (const loser of losers) gone.add(loser.id);
+    }
+
+    if (gone.size > before) groups += 1;
+  }
+
+  return {
+    events: events.filter((e) => !gone.has(e.id)).map((e) => replaced.get(e.id) ?? e),
+    dropped: gone.size,
+    groups,
+  };
 }

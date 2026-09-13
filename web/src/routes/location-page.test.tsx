@@ -81,6 +81,12 @@ const SNAPSHOT = {
 
 beforeEach(() => {
   localStorage.clear();
+  // The page judges "what is on" against the reader's clock, not the
+  // snapshot's `asOf`, so the fixture's dates only mean anything if the clock
+  // is pinned to the same day. Only Date is faked; timers stay real so
+  // `waitFor` and user-event behave.
+  vi.useFakeTimers({ toFake: ["Date"] });
+  vi.setSystemTime(new Date(`${ASOF}T12:00:00`));
   vi.stubGlobal(
     "fetch",
     vi.fn(async (url: string) => ({
@@ -93,6 +99,7 @@ beforeEach(() => {
 afterEach(() => {
   cleanup();
   vi.unstubAllGlobals();
+  vi.useRealTimers();
 });
 
 async function setup() {

@@ -243,11 +243,23 @@ export function isOnNow(event: SnapshotEvent, asOf: string): boolean {
   }
 }
 
+/**
+ * Whether an event has finished by `asOf`, whatever the snapshot said.
+ *
+ * `state` was derived when the snapshot was compiled and is right for that
+ * day. `endDate` is a fact about the event, so it can be checked against
+ * today — which is how a Thursday build stops showing Thursday's gigs on
+ * Saturday.
+ */
+export function isFinished(event: SnapshotEvent, asOf: string): boolean {
+  return event.state === "finished" || (event.endDate !== undefined && event.endDate < asOf);
+}
+
 export function applyFilters(events: SnapshotEvent[], filters: Filters, asOf: string): SnapshotEvent[] {
   const needle = filters.q.trim().toLowerCase();
 
   const filtered = events.filter((event) => {
-    if (event.state === "finished" && !filters.includeFinished) return false;
+    if (isFinished(event, asOf) && !filters.includeFinished) return false;
     if (event.state === "carried" && !filters.includeCarried) return false;
 
     if (!facetPasses([event.category], filters.categories)) return false;
@@ -284,8 +296,6 @@ export function applyFilters(events: SnapshotEvent[], filters: Filters, asOf: st
         if (filters.to && start && start > filters.to) return false;
         if (filters.from && end && end < filters.from) return false;
       }
-    } else if (!filters.includeFinished && event.endDate && event.endDate < asOf) {
-      return false;
     }
 
     if (needle) {

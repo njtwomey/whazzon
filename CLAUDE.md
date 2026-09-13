@@ -110,6 +110,22 @@ is what lets anyone who clones the repo re-run the pipeline.
 
 `firstSeen` is also what makes "what's new in theatre this week" answerable.
 
+**`finished` is re-derived in the browser.** The snapshot's `state` is right for
+the day it was compiled and wrong the morning after: a site built on Thursday
+would still call Thursday's gigs current on Saturday. So the web app judges
+"what is on" against the reader's own clock (`todayIso`, `isFinished`) and
+uses `snapshot.asOf` only for the "last updated" label. Tests that render the
+page pin `Date` to the fixture's day for the same reason.
+
+**Rows that share an event page are dropped in `compile`; everything fuzzier
+is scored and left for the browser to threshold.** An identical detail URL is
+not a guess, so `dropExactDuplicates` removes the extra rows outright — but
+only when they also share a date and their titles agree, or when one source has
+re-listed the same page under a tweaked title and stranded its old row as
+`carried`. The guards are there because the data demanded them: one film page
+covers several screenings, one fixtures page covers a season, and an agent that
+found no deep link falls back to the listings page, which is never a duplicate.
+
 ## Schema versioning
 
 Every data file starts with `schema: <kind>/<version>`. Files are read only through `readArtefact`, which validates against the version the file _claims_, then walks the migration chain forward.

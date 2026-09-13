@@ -274,6 +274,82 @@ describe("dropping rows that share an event page", () => {
     expect(events.map((e) => e.id)).toEqual(["citywide/vb#2"]);
   });
 
+  it("drops a source's stranded run when only its recorded start has moved", () => {
+    // The Old Vic's theatre tours: "from 4 Sep" on one read, "from 11 Sep" on
+    // the next, both to 19 Dec. The start is the id's anchor, so the fold saw
+    // a new event; the end says it is the same span.
+    const aug = event({
+      id: "theatre/ov#1",
+      sourceId: "theatre/ov",
+      title: "Theatre Tours 2026",
+      url: PAGE,
+      state: "carried",
+      occurrence: { kind: "run", start: "2026-09-04", end: "2026-12-19" },
+      sortDate: "2026-09-04",
+      endDate: "2026-12-19",
+    });
+    const sep = event({
+      id: "theatre/ov#2",
+      sourceId: "theatre/ov",
+      title: "Theatre Tours 2026",
+      url: PAGE,
+      state: "listed",
+      occurrence: { kind: "run", start: "2026-09-11", end: "2026-12-19" },
+      sortDate: "2026-09-11",
+      endDate: "2026-12-19",
+    });
+    const { events } = dropExactDuplicates([aug, sep], kinds(), notListings);
+    expect(events.map((e) => e.id)).toEqual(["theatre/ov#2"]);
+  });
+
+  it("drops a source's older read when it re-encoded a course as a different occurrence kind", () => {
+    // Spike Print Studio's portfolio courses: `recurring` with no end on the
+    // first read, `run` to July on the next. Same page, same title, one thing.
+    const first = event({
+      id: "making/sp#1",
+      sourceId: "making/sp",
+      title: "1 Year In Print",
+      url: PAGE,
+      state: "carried",
+      occurrence: { kind: "recurring", pattern: "Mondays" },
+      sortDate: undefined,
+      endDate: undefined,
+    });
+    const next = event({
+      id: "making/sp#2",
+      sourceId: "making/sp",
+      title: "1 Year In Print",
+      url: PAGE,
+      state: "listed",
+      occurrence: { kind: "run", start: "2026-09-21", end: "2027-07-05" },
+      sortDate: "2026-09-21",
+      endDate: "2027-07-05",
+    });
+    expect(dropExactDuplicates([first, next], kinds(), notListings).events.map((e) => e.id)).toEqual(["making/sp#2"]);
+  });
+
+  it("keeps two runs on one page that end on different days", () => {
+    const a = event({
+      id: "theatre/ov#1",
+      sourceId: "theatre/ov",
+      title: "Hamlet",
+      url: PAGE,
+      occurrence: { kind: "run", start: "2026-10-01", end: "2026-10-20" },
+      sortDate: "2026-10-01",
+      endDate: "2026-10-20",
+    });
+    const b = event({
+      id: "theatre/ov#2",
+      sourceId: "theatre/ov",
+      title: "Hamlet",
+      url: PAGE,
+      occurrence: { kind: "run", start: "2027-02-01", end: "2027-02-20" },
+      sortDate: "2027-02-01",
+      endDate: "2027-02-20",
+    });
+    expect(dropExactDuplicates([a, b], kinds(), notListings).dropped).toBe(0);
+  });
+
   it("keeps a carried row with the identical title on another date — it is another occurrence", () => {
     // A comedian's two dates on one show page; three fixtures on one page.
     const feb = event({

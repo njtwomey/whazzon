@@ -7,7 +7,7 @@
     "country": "United Kingdom",
     "timezone": "Europe/London"
   },
-  "generatedAt": "2026-09-13T09:10:06Z",
+  "generatedAt": "2026-09-13T09:48:54Z",
   "asOf": "2026-09-13",
   "categories": [
     {
@@ -3171,14 +3171,16 @@
       "sourceUrl": "https://visitbristol.co.uk/whats-on",
       "image": "https://swtdmsmedia.newmindmedia.com/wsimgs/Visit_Bristol_-_880x506_2__2134764037.png",
       "tags": [
-        "screening",
         "accessible",
-        "relaxed-performance"
+        "community",
+        "relaxed-performance",
+        "screening"
       ],
       "raw": "**Audio Described screenings at Watershed** — 01/01/2022 to 12/31/2026. Category: Cinema & Film.\n\nWatershed offer Audio Description, Descriptive Subtitling, Relaxed Screenings and Visits and Masked & 25% Socially Distanced screenings and Visits on select films and Undershed events.\n",
       "summary": "Watershed's standing programme of audio-described screenings, marked on selected films through the year rather than run as a season.",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -4640,15 +4642,18 @@
       "sourceUrl": "https://visitbristol.co.uk/whats-on",
       "image": "https://swtdmsmedia.newmindmedia.com/wsimgs/332_620747804.jpg",
       "tags": [
-        "heritage",
+        "community",
         "family",
-        "workshop",
-        "community"
+        "heritage",
+        "seasonal",
+        "theatre",
+        "workshop"
       ],
       "raw": "**Bristol Old Vic 260** — 05/01/2026 to 09/04/2026. Categories: Music, Family, Workshop.\n\nThis year, Bristol Old Vic throws open its doors - and pulls back the curtain - to invite Bristol to celebrate an extraordinary milestone: 260 years of theatre, creativity and community.\n",
       "summary": "Bristol Old Vic's 260th-birthday season of open days, workshops and behind-the-curtain events, running to early September.",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -6651,15 +6656,18 @@
       "sourceUrl": "https://visitbristol.co.uk/whats-on",
       "image": "https://swtdmsmedia.newmindmedia.com/wsimgs/Event_listing_size_9__1341950895.jpg",
       "tags": [
+        "drop-in",
         "family",
         "kids",
         "outdoor",
-        "school-holidays"
+        "school-holidays",
+        "seasonal"
       ],
       "raw": "**Summer takes off at Aerospace Bristol** — 18 Jul 2026 - 06 Sep 2026. Categories: Family. Location: Patchway, Bristol, South Gloucestershire.\n\nThis summer, enjoy giant outdoor lawn games, an interactive marble run and the chance to see the Bristol Freighter as it rolls outside to soak up the sunshine.\n",
       "summary": "Lawn games, a marble run and the Bristol Freighter wheeled outside, at Aerospace Bristol.",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -6727,13 +6735,15 @@
       "image": "https://swtdmsmedia.newmindmedia.com/wsimgs/ProductImage_349_ec8262d74a89_1__86728147.jpg",
       "tags": [
         "family",
+        "hands-on",
         "kids",
-        "hands-on"
+        "outdoor"
       ],
       "raw": "**\"Family Fun on The Range\" at Thornbury Golf Centre** — 18 Jul 2026 - 11 Oct 2026. Categories: Sporting. Location: Thornbury, Bristol.\n\nFamily Fun Sessions at Trackman Range\n",
       "summary": "Family sessions on the Trackman driving range at Thornbury Golf Centre.",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -7179,15 +7189,16 @@
       "sourceUrl": "https://visitbristol.co.uk/whats-on",
       "image": "https://swtdmsmedia.newmindmedia.com/wsimgs/L4_VB_resize_1857786417.png",
       "tags": [
+        "booking-required",
         "courses",
         "improv",
-        "workshop",
-        "booking-required"
+        "workshop"
       ],
       "raw": "**Approaches to Scenework: Level 4 Improv School at The Bristol Improv Theatre - Theatre School** — 07/20/2026 to 08/31/2026. Categories: Theatre, Participatory Event.\n\nScenes are the building blocks of improvised theatre, but there are as many different ways to approach a scene as there are improvisers. Whether focusing on emotional connection, creating a narrative.\n",
       "summary": "The fourth level of Bristol Improv Theatre's improv school, a multi-week course on building scenes, finishing on the bank holiday Monday.",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -7294,55 +7305,6 @@
       "confidence": "high",
       "firstSeen": "2026-08-28",
       "lastSeen": "2026-08-28"
-    },
-    {
-      "id": "museums/ss-great-britain#0181a64f63",
-      "sourceId": "museums/ss-great-britain",
-      "sourceName": "Brunel's SS Great Britain",
-      "category": "museums",
-      "categoryLabel": "Museums & Heritage",
-      "title": "Voyager Voices Tour",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Tue, Thu, Sat and Sun between 21 Jul - 30 Aug; Tue 11 Aug will be held on Fri 14 Aug instead",
-        "start": "2026-07-21",
-        "end": "2026-08-30",
-        "startTime": "13:00"
-      },
-      "status": "scheduled",
-      "state": "finished",
-      "sortDate": "2026-07-21",
-      "endDate": "2026-08-30",
-      "timesText": "1pm-1.50pm",
-      "venueName": "Brunel's SS Great Britain",
-      "area": "Harbourside",
-      "address": {
-        "street": "Great Western Dockyard, Gas Ferry Road",
-        "city": "Bristol",
-        "postcode": "BS1 6TY"
-      },
-      "url": "https://www.bristoldockyards.org/whats-on/voyager-voices-tour",
-      "sourceUrl": "https://www.bristoldockyards.org/whats-on",
-      "image": "https://images.prismic.io/bristoldockyards/rOAAR2wTgC-BvR6y_Grouptour-Websiteimage.png?auto=format,compress&rect=0,220,6750,3544&w=2400&h=1260",
-      "price": {
-        "free": false,
-        "text": "£5pp (all ages)",
-        "min": 5,
-        "max": 5,
-        "currency": "GBP"
-      },
-      "tags": [
-        "guided-tour",
-        "performance",
-        "heritage",
-        "family"
-      ],
-      "raw": "21 July – 30 August 2026\n\n**Voyager Voices Tour** — Explore all three decks of the SS Great Britain with a costumed\npassenger or crew member as your guide.\n",
-      "summary": "A costumed passenger or crew member walks you through all three decks in fifty minutes, telling the real stories of people who sailed on her.",
-      "description": "A tour of travels and tales! Join one of our costume characters for a unique guided tour\naboard the SS Great Britain and discover the amazing true stories of people who sailed on\nthe ship that changed the world.\n\nFind out what life was really like on board the most famous Victorian steamship and marvel\nat the experiences of those who dared to venture across the world in search of fame,\nfortune and fresh beginnings.\n\nLed by a Victorian costume guide, the tour will last 50 minutes and cover all three decks\nof the SS Great Britain. Online booking is recommended, though tickets can be purchased in\nhouse, subject to capacity on the day. Tickets are available until 1pm on the day of the\ntour, however we advise people to please arrive at the stern of the ship 10 minutes before\ntheir tour.\n\n**Key info** — Tickets: £5pp (all ages). Annual Ticket Holders can buy tickets separately;\notherwise, you can add your Voyager Voices Tour to your General Admission booking. Dates:\nTue, Thu, Sat and Sun between 21 Jul - 30 Aug. NB: Tue 11 Aug will be held on Fri 14 Aug\ninstead. Time: 1pm-1.50pm.\n",
-      "confidence": "high",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-17"
     },
     {
       "id": "citywide/visit-bristol#2cce7c623c",
@@ -7522,14 +7484,16 @@
       "image": "https://swtdmsmedia.newmindmedia.com/wsimgs/Event_listing_size_5__1879246996.jpg",
       "tags": [
         "family",
-        "kids",
         "immersive",
-        "school-holidays"
+        "kids",
+        "school-holidays",
+        "seasonal"
       ],
       "raw": "**Summer Holidays at Wookey Hole Caves** — 23 Jul 2026 - 31 Aug 2026. Categories: Family. Location: Wells, Somerset.\n\nThis summer, discover a magical line-up of adventures - now with a brand new cave experience!\n",
       "summary": "Wookey Hole's summer programme, now with new projection-mapped cave shows. In Somerset.",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -7557,12 +7521,14 @@
         "family",
         "kids",
         "outdoor",
-        "school-holidays"
+        "school-holidays",
+        "seasonal"
       ],
       "raw": "**Summer Holidays at The Grand Pier** — 23 Jul 2026 - 03 Sep 2026. Categories: Family. Location: Weston-super-Mare, North Somerset.\n\nEnjoy a fun-filled family day out at The Grand Pier this summer!\n",
       "summary": "The Grand Pier's summer family programme. In Weston-super-Mare.",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -8042,46 +8008,6 @@
       "lastSeen": "2026-08-17"
     },
     {
-      "id": "citywide/bristol-247#a6a754685a",
-      "sourceId": "citywide/bristol-247",
-      "sourceName": "Bristol 24/7",
-      "category": "citywide",
-      "categoryLabel": "City-wide",
-      "title": "SENTIENTS",
-      "occurrence": {
-        "kind": "run",
-        "start": "2026-08-01",
-        "end": "2026-09-13"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "sortDate": "2026-08-01",
-      "endDate": "2026-09-13",
-      "venueName": "Watershed",
-      "area": "Harbourside",
-      "address": {
-        "street": "1 Canon's Road",
-        "locality": "Harbourside",
-        "city": "Bristol",
-        "postcode": "BS1 5TX",
-        "lat": 51.451775,
-        "lon": -2.598143
-      },
-      "url": "https://www.watershed.co.uk/whatson/14147/sentients",
-      "sourceUrl": "https://www.bristol247.com/guides/",
-      "image": "https://www.bristol247.com/wp-content/uploads/2026/06/Sentients-photo-by-Watershed-800x497.jpeg",
-      "tags": [
-        "exhibition",
-        "interactive",
-        "games"
-      ],
-      "raw": "**August 1-September 13: SENTIENTS, Watershed** — Open your animal eyes.\nA collection of groundbreaking video games and virtual reality in\nUndershed.\n",
-      "summary": "Watershed's Undershed exhibition of video games and VR about seeing the world as something other than human.",
-      "confidence": "high",
-      "firstSeen": "2026-08-17",
-      "lastSeen": "2026-08-17"
-    },
-    {
       "id": "citywide/visit-bristol#375a1681f3",
       "sourceId": "citywide/visit-bristol",
       "sourceName": "Visit Bristol",
@@ -8113,54 +8039,6 @@
       "confidence": "high",
       "firstSeen": "2026-08-28",
       "lastSeen": "2026-08-28"
-    },
-    {
-      "id": "museums/we-the-curious#06bbd9dd78",
-      "sourceId": "museums/we-the-curious",
-      "sourceName": "We The Curious",
-      "category": "museums",
-      "categoryLabel": "Museums & Heritage",
-      "subcategory": "Special event",
-      "title": "Relaxed Mornings",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Sunday 2 August 2026, Sunday 4 October 2026, Sunday 6 December 2026, Sunday 7 February 2027; 10.00am -12.00pm",
-        "start": "2026-08-02",
-        "end": "2027-02-07",
-        "startTime": "10:00"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "sortDate": "2026-08-02",
-      "endDate": "2027-02-07",
-      "timesText": "10.00am—12.00pm, with the building gradually getting busier from 12.30 onwards",
-      "venueName": "We The Curious",
-      "area": "Harbourside",
-      "address": {
-        "street": "One Millennium Square, Anchor Road",
-        "city": "Bristol",
-        "postcode": "BS1 5DB",
-        "lat": 51.450363,
-        "lon": -2.600511
-      },
-      "url": "https://www.wethecurious.org/whats-on/events/relaxed-mornings",
-      "sourceUrl": "https://www.wethecurious.org/whats-on/events",
-      "image": "https://www.wethecurious.org/sites/default/files/styles/og_image/public/2025-01/we-the-curious_relaxed-morning_lisa-whiting_2024.jpg?h=9eb0d413&itok=zq5i9NFW",
-      "price": {
-        "free": false,
-        "text": "Day ticket prices apply"
-      },
-      "tags": [
-        "accessible",
-        "family",
-        "wellbeing"
-      ],
-      "raw": "**Relaxed Mornings** — 4 Oct 2026, 10am - 12pm, across the venue. Recommended for families.\n\nFor a calmer, less busy experience of the venue. Our Relaxed Mornings are for visitors who\nwould benefit from a calmer, less busy environment – along with their families, carers and\nfriends.\n",
-      "summary": "Quarterly Sunday mornings with visitor numbers capped, the noisier exhibits turned down and the Planetarium free and drop-in rather than ticketed; your ticket still covers the whole day.",
-      "description": "We know that venues like ours can sometimes be overwhelming, so on Relaxed Mornings our\nexperience looks a little different.\n\nThese mornings have been specifically designed for visitors who may need a little extra\nsupport to enjoy our venue. This may be due to disability or neurodiversity, such as autism\nor other sensory processing conditions.\n\nThe session runs from 10.00am -12.00pm, with the building gradually getting busier from 12.30\nonwards. Your ticket is valid for the whole day and you can come and go as you wish, just\nkeep hold of your ticket to show our team when you re-enter.\n\n**Upcoming Relaxed Mornings:** Sunday 2 August 2026 (Summer Holidays); Sunday 4 October 2026;\nSunday 6 December 2026; Sunday 7 February 2027.\n\n**Access considerations** — Visitor numbers are restricted during these events, to ensure\nthere is plenty of space to play. The sounds of some of our noisier exhibits are lowered. Our\nLive Science team are on hand to offer a warm welcome and support you during your visit. The\nPlanetarium is free and drop-in, rather than ticketed – meaning you can stay for as long (or\nas little) as you want.\n",
-      "confidence": "high",
-      "firstSeen": "2026-08-17",
-      "lastSeen": "2026-08-17"
     },
     {
       "id": "citywide/visit-bristol#a3d191db69",
@@ -8218,6 +8096,7 @@
       "sourceUrl": "https://visitbristol.co.uk/whats-on",
       "image": "https://swtdmsmedia.newmindmedia.com/wsimgs/Event_Listing_size_18__1945610458.jpg",
       "tags": [
+        "drop-in",
         "family",
         "free-entry",
         "hands-on",
@@ -8229,7 +8108,7 @@
       "summary": "Giant outdoor ball runs installed across Millennium Square and Anchor Square for the summer.",
       "confidence": "high",
       "alsoListedBy": [],
-      "firstSeen": "2026-08-28",
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-09-11"
     },
     {
@@ -8443,17 +8322,19 @@
         "text": "FREE"
       },
       "tags": [
-        "workshop",
-        "family",
-        "kids",
         "drop-in",
-        "free-entry"
+        "family",
+        "free-entry",
+        "hands-on",
+        "kids",
+        "workshop"
       ],
       "raw": "**Scribble and Sketch** — Family Art Workshop | FREE (monthly). Once a\nmonth.\n\n\"Join our Scribble and Sketch artists at locations across the city for\nFREE family workshops.\"\n\n- 224 Youth Zone: first Saturday monthly, 10:00–12:00 (5 Sep, 3 Oct, 7 Nov, 5 Dec)\n- St Paul's Learning Centre: 15 Aug, 10:30–12:30\n- Windmill Hill City Farm: third Saturday monthly, 10:30–12:30 (15 Aug, 20 Sep, 17 Oct, 21 Nov, 19 Dec)\n- Greenway Centre Café: fourth Saturday monthly, 10:30–12:30 (22 Aug, 26 Sep, 31 Oct, 28 Nov)\n\nNo pre-booking required. Suitable for all ages, children must be\nsupervised.\n",
       "summary": "RWA artists run free monthly family art sessions at four community venues around Bristol rather than at the gallery, with materials provided and no booking. Adults are meant to make things too.",
       "description": "Family Art Workshop | FREE (monthly)\n\nJoin our Scribble and Sketch artists at locations across the city for\nFREE family workshops. Families get access to materials, with support\nto create art, and both children and adults are invited to take part.\n\n**Where and when**\n\n- 224 Youth Zone — first Saturday of the month, 10:00–12:00 (5 Sep, 3\n  Oct, 7 Nov, 5 Dec)\n- St Paul's Learning Centre — 15 Aug, 10:30–12:30\n- Windmill Hill City Farm — third Saturday of the month, 10:30–12:30\n  (15 Aug, 20 Sep, 17 Oct, 21 Nov, 19 Dec)\n- Greenway Centre Café — fourth Saturday of the month, 10:30–12:30 (22\n  Aug, 26 Sep, 31 Oct, 28 Nov)\n\nNo pre-booking required. Suitable for all ages; children must be\nsupervised.\n",
       "confidence": "high",
-      "firstSeen": "2026-08-17",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-17"
     },
     {
@@ -8494,92 +8375,6 @@
       "confidence": "high",
       "firstSeen": "2026-08-28",
       "lastSeen": "2026-08-28"
-    },
-    {
-      "id": "museums/blaise-museum#c3dc48ff94",
-      "sourceId": "museums/blaise-museum",
-      "sourceName": "Blaise Museum",
-      "category": "museums",
-      "categoryLabel": "Museums & Heritage",
-      "subcategory": "Outdoors (walks, trains, boats, cranes)",
-      "title": "Blaise 100: Explore the Estate",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Blaise Community Garden Sat 15 August and Sat 19 September 2pm—3pm; Archaeology and wildlife Thu 10 September; Humphrey Repton's landscape Thu 8 October; St Mary's Church and churchyard Thu 22 October; Hidden Blaise Sun 25 October — all 11am—12:30pm unless stated",
-        "start": "2026-08-15",
-        "end": "2026-10-22"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "sortDate": "2026-08-15",
-      "endDate": "2026-10-22",
-      "timesText": "11am—12:30pm, except the Community Garden tours at 2pm—3pm",
-      "venueName": "Blaise Museum",
-      "area": "Henbury",
-      "address": {
-        "lat": 51.507097,
-        "lon": -2.63567
-      },
-      "url": "https://www.bristolmuseums.org.uk/whats-on/blaise-museum/blaise-100-estate/",
-      "sourceUrl": "https://www.bristolmuseums.org.uk/blaise-museum/whats-on/",
-      "image": "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2022/02/Blaise-Castle-Museum.170-256x144.jpg",
-      "price": {
-        "free": true,
-        "text": "Free, donations welcome. Booking essential."
-      },
-      "tags": [
-        "guided-tour",
-        "outdoor",
-        "heritage",
-        "nature",
-        "booking-required"
-      ],
-      "raw": "15 August—22 October 2026\n\nWALKS: A special programme of walks designed to explore the Blaise Estate and\ncelebrate 100 years of public ownership.\n",
-      "summary": "Five ranger- and volunteer-led walks marking a century of public ownership, each on a different theme — archaeology, wildlife, Repton's landscape, the churchyard and areas normally closed off.",
-      "description": "A special programme of walks designed to explore the Blaise Estate and celebrate 100\nyears of public ownership.\n\nEach walk focuses on an aspect of the estate's rich wildlife, its historical\nconnections or its archaeological discoveries. Walk leaders will take you for a gentle\nstroll to different parts of the park sharing what makes the Blaise Estate so special.\n\n**Hidden Blaise** — Join the estate rangers for a guided tour around the estate and\nvisit areas usually closed to the public. Dates: Sunday 25 October. Time: 11am–12:30pm.\n\n**Blaise Community Garden** — A guided tour around the Community Garden to learn about\nthe history of the site and how its changed over the years. If you want to discover\nhow a thriving community garden works then this is the tour for you! Dates: Saturday 15\nAugust, Saturday 19 September. Times: 2pm to 3pm.\n\n**Archaeology and wildlife** — Join the team from Blaise Museum and the Bristol\nRegional Environmental Records Centre (BRERC) to find out more about Blaise's\narchaeological discoveries and rich wildlife. Dates: Thursday 10 September. Time:\n11am–12:30pm.\n\n**Humphrey Repton's landscape** — Join the team from Blaise Museum and explore the\npicturesque parkland created for the Harford Family by the famous landscape designer\nHumphrey Repton. Dates: Thursday 8 October. Time: 11am–12:30pm.\n\n**St Mary's Church and churchyard** — A guided walk exploring St Mary's church and\nchurchyard. Learn about the history of this amazing space, the historic memorials and\nits links to Bristol's merchant history. Dates: Thursday 22 October. Time:\n11am–12:30pm.\n\nAll walks last around 90 minutes and start from Blaise Museum unless otherwise stated.\nPlease arrive at least five minutes before the start of the walk. Suitable outdoor\nclothing and a bottle of water are recommended. This event may have to be cancelled at\nshort notice due external factors such as weather conditions. Tours will go ahead in\nwet weather unless the conditions are extreme. Well behaved dogs on leads are only\npermitted on walks that specify this in the information above.\n\nFree, donations welcome. Booking essential.\n",
-      "confidence": "medium",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-17"
-    },
-    {
-      "id": "museums/m-shed#8b670cbf7c",
-      "sourceId": "museums/m-shed",
-      "sourceName": "M Shed",
-      "category": "museums",
-      "categoryLabel": "Museums & Heritage",
-      "subcategory": "Outdoors (walks, trains, boats, cranes)",
-      "title": "Train rides",
-      "occurrence": {
-        "kind": "run",
-        "start": "2026-08-15",
-        "end": "2026-11-01"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "sortDate": "2026-08-15",
-      "endDate": "2026-11-01",
-      "venueName": "M Shed",
-      "area": "Harbourside",
-      "address": {
-        "street": "Princes Wharf, Wapping Road",
-        "city": "Bristol",
-        "postcode": "BS1 4RN",
-        "lat": 51.447423,
-        "lon": -2.598869
-      },
-      "url": "https://www.bristolmuseums.org.uk/whats-on/m-shed/train-rides/",
-      "sourceUrl": "https://www.bristolmuseums.org.uk/m-shed/whats-on/",
-      "tags": [
-        "family",
-        "outdoor",
-        "heritage",
-        "kids"
-      ],
-      "raw": "15 August—1 November 2026\n\nTRAIN: Take a train trip on Britain's only dockside steam railway behind\none of our Bristol-built locomotives.\n",
-      "summary": "Short rides along the harbourside on Britain's only dockside steam railway, hauled by locomotives built in Bristol. Operates on selected days.",
-      "confidence": "high",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
     },
     {
       "id": "churches/bristol-cathedral#b4b3ccacb4",
@@ -8664,147 +8459,6 @@
       "lastSeen": "2026-08-16"
     },
     {
-      "id": "family/windmill-hill-city-farm#175fd83474",
-      "sourceId": "family/windmill-hill-city-farm",
-      "sourceName": "Windmill Hill City Farm",
-      "category": "family",
-      "categoryLabel": "Family & Kids",
-      "subcategory": "Health & Well-Being",
-      "title": "Animal Care for Well-being",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Weekly on Tuesdays, 10:00-12:30 — a free 6-week course",
-        "start": "2026-08-18",
-        "end": "2026-09-01",
-        "startTime": "10:00"
-      },
-      "status": "scheduled",
-      "state": "finished",
-      "sortDate": "2026-08-18",
-      "endDate": "2026-09-01",
-      "venueName": "Windmill Hill City Farm",
-      "area": "Bedminster",
-      "address": {
-        "lat": 51.442218,
-        "lon": -2.592954
-      },
-      "url": "https://windmillhillcityfarm.org.uk/products/animal-care-for-well-being",
-      "sourceUrl": "https://windmillhillcityfarm.org.uk/apps/bookthatapp/calendar",
-      "image": "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/3_4a482cf9-a3b1-4260-882f-05e2b41da4d5.png?v=1773313121",
-      "price": {
-        "free": true,
-        "text": "Free 6-week course"
-      },
-      "ageRestriction": "Suitable for those aged 18 years or older",
-      "tags": [
-        "wellbeing",
-        "courses",
-        "animals",
-        "free-entry",
-        "hands-on"
-      ],
-      "raw": "**Animal Care for Well-being** — Tuesdays 18 August to 1 September 2026,\n10:00-12:30. Free.\n",
-      "summary": "A free six-week animal-care course for adults with mild to moderate mental health\nchallenges, running alongside the farm's other well-being strands.\n",
-      "description": "Animal care for well-being is a free 6-week course for anyone who identifies as\nhaving mild to moderate mental health challenges and wishes to improve their\nwell-being through gardening in a social setting. Suitable for those aged 18\nyears or older.\n",
-      "confidence": "medium",
-      "firstSeen": "2026-08-17",
-      "lastSeen": "2026-08-17"
-    },
-    {
-      "id": "family/windmill-hill-city-farm#1cae38c6fd",
-      "sourceId": "family/windmill-hill-city-farm",
-      "sourceName": "Windmill Hill City Farm",
-      "category": "family",
-      "categoryLabel": "Family & Kids",
-      "subcategory": "Health & Well-Being",
-      "title": "Gardening for Well-being",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Weekly on Tuesdays, 13:30-15:30 — a free 6-week course",
-        "start": "2026-08-18",
-        "end": "2026-09-01",
-        "startTime": "13:30"
-      },
-      "status": "scheduled",
-      "state": "finished",
-      "sortDate": "2026-08-18",
-      "endDate": "2026-09-01",
-      "venueName": "Windmill Hill City Farm",
-      "area": "Bedminster",
-      "address": {
-        "lat": 51.442218,
-        "lon": -2.592954
-      },
-      "url": "https://windmillhillcityfarm.org.uk/products/gardening-for-well-being",
-      "sourceUrl": "https://windmillhillcityfarm.org.uk/apps/bookthatapp/calendar",
-      "image": "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/1_0664454d-ebbc-4712-95d4-2bd67031188e.png?v=1773313867",
-      "price": {
-        "free": true,
-        "text": "Free 6-week course"
-      },
-      "ageRestriction": "Suitable for those aged 18 years or older",
-      "tags": [
-        "wellbeing",
-        "courses",
-        "nature",
-        "free-entry",
-        "hands-on"
-      ],
-      "raw": "**Gardening for Well-being** — Tuesdays 18 August to 1 September 2026,\n13:30-15:30. Free.\n",
-      "summary": "A free six-week gardening course for adults with mild to moderate mental health\nchallenges, working in the farm's growing spaces.\n",
-      "description": "Gardening for well-being is a free 6-week course for individuals who identify as\nhaving mild to moderate mental health challenges and wish to improve their\nwell-being through gardening in a social setting. Suitable for those aged 18\nyears or older.\n",
-      "confidence": "high",
-      "firstSeen": "2026-08-17",
-      "lastSeen": "2026-08-17"
-    },
-    {
-      "id": "family/windmill-hill-city-farm#5ce2a557d8",
-      "sourceId": "family/windmill-hill-city-farm",
-      "sourceName": "Windmill Hill City Farm",
-      "category": "family",
-      "categoryLabel": "Family & Kids",
-      "subcategory": "Health & Well-Being",
-      "title": "Animal Care & Maintenance for Well-being",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Weekly on Tuesdays, 10:00-12:30 — a free 6-week course",
-        "start": "2026-08-18",
-        "end": "2026-09-08",
-        "startTime": "10:00"
-      },
-      "status": "scheduled",
-      "state": "finished",
-      "sortDate": "2026-08-18",
-      "endDate": "2026-09-08",
-      "venueName": "Windmill Hill City Farm",
-      "area": "Bedminster",
-      "address": {
-        "lat": 51.442218,
-        "lon": -2.592954
-      },
-      "url": "https://windmillhillcityfarm.org.uk/products/animal-care-maintenance-for-well-being",
-      "sourceUrl": "https://windmillhillcityfarm.org.uk/apps/bookthatapp/calendar",
-      "image": "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/2_f36871b4-f909-418c-bfb3-21b0eeb07dc7.png?v=1773313348",
-      "price": {
-        "free": true,
-        "text": "Free 6-week course"
-      },
-      "ageRestriction": "Suitable for those aged 18 years or older",
-      "tags": [
-        "wellbeing",
-        "courses",
-        "animals",
-        "free-entry",
-        "hands-on"
-      ],
-      "raw": "**Animal Care & Maintenance for Well-being** — Tuesdays 18 August to 8 September\n2026, 10:00-12:30. Free.\n",
-      "summary": "A free six-week mental-health support course built around caring for the farm's\nanimals and keeping their spaces in order, for adults.\n",
-      "description": "Animal care and maintenance for well-being is a free 6-week course for anyone who\nidentifies as having mild to moderate mental health challenges and wishes to\nimprove their well-being through gardening in a social setting. Suitable for\nthose aged 18 years or older.\n",
-      "confidence": "high",
-      "firstSeen": "2026-08-17",
-      "lastSeen": "2026-08-17"
-    },
-    {
       "id": "music/the-old-duke#1961f64604",
       "sourceId": "music/the-old-duke",
       "sourceName": "The Old Duke",
@@ -8841,133 +8495,6 @@
       "confidence": "medium",
       "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-17"
-    },
-    {
-      "id": "family/windmill-hill-city-farm#65357a495e",
-      "sourceId": "family/windmill-hill-city-farm",
-      "sourceName": "Windmill Hill City Farm",
-      "category": "family",
-      "categoryLabel": "Family & Kids",
-      "subcategory": "Health & Well-Being",
-      "title": "Woodwork for Well-being",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Weekly on Thursdays, 10:00-13:00 — a free 6-week course",
-        "start": "2026-08-20",
-        "end": "2026-09-24",
-        "startTime": "10:00"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "sortDate": "2026-08-20",
-      "endDate": "2026-09-24",
-      "venueName": "Windmill Hill City Farm",
-      "area": "Bedminster",
-      "address": {
-        "lat": 51.442218,
-        "lon": -2.592954
-      },
-      "url": "https://windmillhillcityfarm.org.uk/products/woodwork-for-well-being",
-      "sourceUrl": "https://windmillhillcityfarm.org.uk/apps/bookthatapp/calendar",
-      "image": "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/Websitesquareimagescopy3_3c538e9f-d1d0-4d3b-a388-29d9a9ec114c.png?v=1773314210",
-      "price": {
-        "free": true,
-        "text": "Free 6-week course"
-      },
-      "ageRestriction": "Suitable for those aged 18 years or older",
-      "tags": [
-        "wellbeing",
-        "courses",
-        "woodwork",
-        "free-entry",
-        "hands-on"
-      ],
-      "raw": "**Woodwork for Well-being** — Thursdays 20 August to 24 September 2026,\n10:00-13:00. Free.\n",
-      "summary": "A free six-week woodworking course for adults with mild to moderate mental health\nchallenges, in the farm's workshop.\n",
-      "description": "Woodwork for well-being is a free 6-week course for anyone who identifies as\nhaving mild to moderate mental health challenges and wishes to improve their\nwell-being through woodworking in a social setting. Suitable for those aged 18\nyears or older.\n",
-      "confidence": "high",
-      "firstSeen": "2026-08-17",
-      "lastSeen": "2026-08-17"
-    },
-    {
-      "id": "museums/m-shed#390709bc90",
-      "sourceId": "museums/m-shed",
-      "sourceName": "M Shed",
-      "category": "museums",
-      "categoryLabel": "Museums & Heritage",
-      "subcategory": "Outdoors (walks, trains, boats, cranes)",
-      "title": "Historical Walk: Old City",
-      "occurrence": {
-        "kind": "run",
-        "start": "2026-08-20",
-        "end": "2026-12-17"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "sortDate": "2026-08-20",
-      "endDate": "2026-12-17",
-      "venueName": "M Shed",
-      "area": "Harbourside",
-      "address": {
-        "street": "Princes Wharf, Wapping Road",
-        "city": "Bristol",
-        "postcode": "BS1 4RN",
-        "lat": 51.447423,
-        "lon": -2.598869
-      },
-      "url": "https://www.bristolmuseums.org.uk/whats-on/m-shed/historical-walk-old-city/",
-      "sourceUrl": "https://www.bristolmuseums.org.uk/m-shed/whats-on/",
-      "tags": [
-        "guided-tour",
-        "outdoor",
-        "heritage",
-        "booking-required"
-      ],
-      "raw": "20 August—17 December 2026\n\nWALK: Discover a millennium of history on this 1.8 mile walk around the\nold city of Bristol.\n",
-      "summary": "A 1.8-mile guided walk through medieval and early modern Bristol, running on selected dates into December.",
-      "confidence": "high",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
-    },
-    {
-      "id": "museums/m-shed#d1aa738cfc",
-      "sourceId": "museums/m-shed",
-      "sourceName": "M Shed",
-      "category": "museums",
-      "categoryLabel": "Museums & Heritage",
-      "subcategory": "Outdoors (walks, trains, boats, cranes)",
-      "title": "Historical Walk: Bristol Abolition",
-      "occurrence": {
-        "kind": "run",
-        "start": "2026-08-20",
-        "end": "2026-11-19"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "sortDate": "2026-08-20",
-      "endDate": "2026-11-19",
-      "venueName": "M Shed",
-      "area": "Harbourside",
-      "address": {
-        "street": "Princes Wharf, Wapping Road",
-        "city": "Bristol",
-        "postcode": "BS1 4RN",
-        "lat": 51.447423,
-        "lon": -2.598869
-      },
-      "url": "https://www.bristolmuseums.org.uk/whats-on/m-shed/historical-walk-bristol-abolition/",
-      "sourceUrl": "https://www.bristolmuseums.org.uk/m-shed/whats-on/",
-      "tags": [
-        "guided-tour",
-        "outdoor",
-        "heritage",
-        "booking-required"
-      ],
-      "raw": "20 August—19 November 2026\n\nWALK: Discover the names and places associated with Bristol's\nthousand-year fight to end the city's involvement in slavery.\n",
-      "summary": "A guided walk tracing the abolitionist side of Bristol's history, on selected dates through the autumn.",
-      "confidence": "high",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
     },
     {
       "id": "music/thekla#3d05580f40",
@@ -9009,45 +8536,6 @@
       "lastSeen": "2026-08-17"
     },
     {
-      "id": "museums/m-shed#dad45ebdcc",
-      "sourceId": "museums/m-shed",
-      "sourceName": "M Shed",
-      "category": "museums",
-      "categoryLabel": "Museums & Heritage",
-      "subcategory": "Outdoors (walks, trains, boats, cranes)",
-      "title": "Boat trips",
-      "occurrence": {
-        "kind": "run",
-        "start": "2026-08-22",
-        "end": "2026-10-25"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "sortDate": "2026-08-22",
-      "endDate": "2026-10-25",
-      "venueName": "M Shed",
-      "area": "Harbourside",
-      "address": {
-        "street": "Princes Wharf, Wapping Road",
-        "city": "Bristol",
-        "postcode": "BS1 4RN",
-        "lat": 51.447423,
-        "lon": -2.598869
-      },
-      "url": "https://www.bristolmuseums.org.uk/whats-on/m-shed/boat-trips/",
-      "sourceUrl": "https://www.bristolmuseums.org.uk/m-shed/whats-on/",
-      "tags": [
-        "outdoor",
-        "family",
-        "heritage"
-      ],
-      "raw": "22 August—25 October 2026\n\nWORKING EXHIBITS: Take a boat ride with a difference! All three of our\nhistoric working boats offer scenic trips around Bristol Harbour.\n",
-      "summary": "Trips around the Floating Harbour aboard M Shed's three historic working boats, on selected days into late October.",
-      "confidence": "high",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
-    },
-    {
       "id": "music/thekla#86e8845aff",
       "sourceId": "music/thekla",
       "sourceName": "Thekla",
@@ -9075,15 +8563,17 @@
       "url": "https://www.theklabristol.co.uk/club-nights/pop-confessional-2/",
       "sourceUrl": "https://www.theklabristol.co.uk/",
       "tags": [
+        "18-plus",
         "club-night",
-        "party",
         "dj",
+        "party",
         "weekly"
       ],
       "raw": "**Pop Confessional** — \"Every Saturday Night\", Thekla. Listed as a separate\ndated entry each week (Sat.22.Aug.26, Sat.29.Aug.26 and on); recorded as\none recurring night. Found on https://www.theklabristol.co.uk/club/.\n",
       "summary": "The boat's long-running Saturday pop night, billed by the venue as every Saturday.",
       "confidence": "high",
-      "firstSeen": "2026-08-17",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-17"
     },
     {
@@ -9273,16 +8763,18 @@
         "currency": "GBP"
       },
       "tags": [
+        "booking-required",
+        "family",
         "guided-tour",
         "heritage",
-        "performance",
-        "booking-required"
+        "performance"
       ],
       "raw": "25 August – 30 August 2026\n\nExplore all three decks of the SS Great Britain with a costumed passenger or crew member\nas your guide.\n",
       "summary": "A costumed guide walks you through all three decks in the character of someone who actually sailed. Two of its four remaining dates are this weekend — the venue calls them the last of the summer.",
       "description": "A tour of travels and tales! Join one of our costume characters for a unique guided tour\naboard the SS Great Britain and discover the amazing true stories of people who sailed on\nthe ship that changed the world.\n\nFind out what life was really like aboard the most famous Victorian steamship, and marvel\nat the experiences of those who dared to venture across the world in search of fame,\nfortune and fresh beginnings.\n\nLed by one of our brilliant costumed guides, the tour will last 50 minutes and cover all\nthree decks of the SS Great Britain. Online booking is recommended, although tickets can\nbe purchased at the till on the day (subject to capacity). Tickets will be available to\nbuy until the tour start time - please note it is advised to arrive at the stern of the\nship 10 minutes before departure.\n\n**Last chance for summer!** Join our guides at 1pm or 3pm tour for the last few dates of\nthe summer: 25th, 27th, 29th and 30th August. Simply add to your booking.\n\nKey Info — Tickets: £5 per person. Annual Ticket Holders can buy tickets separately.\nOtherwise, you can add a Voyager Voices Tour to your General Admission booking.\nDates: Tuesday 25 August, Thursday 27 August, Saturday 29 August, Sunday 30 August.\nTime: 1pm-1.50pm; 3pm-3:50pm.\n",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -9438,43 +8930,6 @@
       ],
       "raw": "**Spider-Man: Brand New Day** (12A, 2h 25m).\nIt's a BRAND NEW DAY for Peter Parker. Fighting crime full-time as Spider-Man in a world that doesn't remember him sparks a change he may not have the power to control.\n",
       "summary": "The summer's biggest release, on two or three times a day across the bank holiday weekend.",
-      "confidence": "medium",
-      "firstSeen": "2026-08-28",
-      "lastSeen": "2026-08-28"
-    },
-    {
-      "id": "cinema/everyman-bristol#34f67e135b",
-      "sourceId": "cinema/everyman-bristol",
-      "sourceName": "Everyman Bristol",
-      "category": "cinema",
-      "categoryLabel": "Cinema",
-      "title": "I Want Your Sex",
-      "occurrence": {
-        "kind": "run",
-        "start": "2026-08-28",
-        "end": "2026-09-03"
-      },
-      "status": "scheduled",
-      "state": "finished",
-      "sortDate": "2026-08-28",
-      "endDate": "2026-09-03",
-      "timesText": "Fri 28 Aug 21:30; Sat 29 Aug 19:00; Sun 30 Aug 19:00; Mon 31 Aug 16:15; Tue 1 Sept 16:00; Wed 2 Sept 20:45; Thu 3 Sept 18:45",
-      "venueName": "Everyman Bristol",
-      "area": "Whiteladies Road",
-      "address": {
-        "lat": 51.462986,
-        "lon": -2.609596
-      },
-      "url": "https://www.everymancinema.com/film-listing/1000003998-i-want-your-sex/",
-      "sourceUrl": "https://www.everymancinema.com/bristol/",
-      "ageRestriction": "18",
-      "tags": [
-        "new-release",
-        "18-plus",
-        "drama"
-      ],
-      "raw": "**I Want Your Sex** (18, 1h 30m).\n",
-      "summary": "Gregg Araki's erotic satire, once a day and mostly in the evening.",
       "confidence": "medium",
       "firstSeen": "2026-08-28",
       "lastSeen": "2026-08-28"
@@ -11139,16 +10594,18 @@
         "currency": "GBP"
       },
       "tags": [
+        "bank-holiday",
         "family",
-        "outdoor",
         "heritage",
-        "bank-holiday"
+        "kids",
+        "outdoor"
       ],
       "raw": "29 August—1 November 2026\n\nTRAIN: Take a train trip on Britain’s only dockside steam railway behind one of our\nBristol-built locomotives.\n",
       "summary": "Steam trips along the quayside on Bristol Harbour Railway behind the locomotive Henbury. The season opens on the bank holiday weekend and, unusually for a weekends-only service, runs the Monday too.",
       "description": "Take a steam train ride on Bristol Harbour Railway from M Shed. The train will be pulled\nby the locomotive Henbury.\n\nBristol Harbour Railway was built by the Great Western Railway in the 1870s and extended\nin the 1900s. After a century as a goods railway, it was handed over to the museum and\nhas run as a heritage railway ever since. The railway runs on the quayside between\nM Shed and the SS Great Britain.\n\nOur two Bristol-built steam locomotives, Henbury and Portbury, served their working lives\non the docks railway system at Avonmouth. The wagons are types once commonly seen on the\ndocks at Avonmouth and here in the old City Docks.\n\n**Upcoming dates for 2026**\n\n- Saturday 29 to Monday 31 August\n- Saturday 12 and Sunday 13 September\n- Saturday 26 and Sunday 27 September\n- Saturday 10 and Sunday 11 October\n- Saturday 24 and Sunday 25 October\n- Saturday 31 and Sunday 1 November\n\nFrom 11am – subject to availability.\n\nPlease note, M Shed’s large working exhibits are operated by volunteers. Occasionally\ncrew shortages, mechanical difficulties or adverse weather conditions may force us to\nalter or cancel the advertised event. We advise you to check with us to avoid\ndisappointment by calling 0117 352 6600.\n\n**Booking information.** Please note train rides are running on weekends only. Buy\ntickets on the day from the ticket office by the M Shed platform. Single £3.50 /\nReturn £5. Children under six years old travel free. Dogs welcome. From 11am – subject\nto availability. Trips last approximately 15 minutes.\n",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -11385,43 +10842,6 @@
       ],
       "raw": "**Coyote vs. ACME** — Open Captioned screening.\n",
       "summary": "The open-captioned screening of Coyote vs. ACME, midday on the Sunday of the bank holiday weekend.",
-      "confidence": "high",
-      "firstSeen": "2026-08-28",
-      "lastSeen": "2026-08-28"
-    },
-    {
-      "id": "cinema/odeon-bristol#a0bf32f4ee",
-      "sourceId": "cinema/odeon-bristol",
-      "sourceName": "ODEON Bristol",
-      "category": "cinema",
-      "categoryLabel": "Cinema",
-      "title": "Insidious: Out of the Further",
-      "occurrence": {
-        "kind": "single",
-        "date": "2026-08-30",
-        "startTime": "20:40"
-      },
-      "status": "scheduled",
-      "state": "finished",
-      "sortDate": "2026-08-30",
-      "endDate": "2026-08-30",
-      "timesText": "20:40, Open Captioned",
-      "venueName": "ODEON Bristol",
-      "area": "City Centre",
-      "address": {
-        "lat": 51.456687,
-        "lon": -2.591528
-      },
-      "url": "https://www.odeon.co.uk/films/insidious-out-of-the-further/HO00008899/",
-      "sourceUrl": "https://www.odeon.co.uk/cinemas/bristol/",
-      "tags": [
-        "horror",
-        "subtitled",
-        "accessible",
-        "new-release"
-      ],
-      "raw": "**Insidious: Out of the Further** — Open Captioned screening.\nAmelia Eve stars as Gemma, a young mother raising her daughter in the house she grew up in, who discovers she can travel into The Further.\n",
-      "summary": "The open-captioned screening of the new Insidious, late on the Sunday.",
       "confidence": "high",
       "firstSeen": "2026-08-28",
       "lastSeen": "2026-08-28"
@@ -13700,14 +13120,17 @@
         "currency": "GBP"
       },
       "tags": [
-        "dance",
+        "beginners",
         "community",
-        "beginners"
+        "dance",
+        "drop-in",
+        "weekly"
       ],
       "raw": "**ICPAS Community Dance Classes** — Dance / Class — £12\nSunday 30th Aug - 3:00 pm\n",
       "summary": "Indian classical and community dance with ICPAS on the Sunday afternoon of the bank holiday weekend.",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -15599,14 +15022,16 @@
         "currency": "GBP"
       },
       "tags": [
-        "dance",
         "beginners",
+        "dance",
+        "drop-in",
         "weekly"
       ],
       "raw": "**Beginner's Ballet** — Dance / Class — £10\nMonday 31st Aug - 11:00 am\n",
       "summary": "Monday morning ballet for newcomers, listed as running on the bank holiday Monday itself.",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -15639,15 +15064,18 @@
         "currency": "GBP"
       },
       "tags": [
+        "beginners",
+        "community",
         "dance",
         "drop-in",
         "lgbtq",
-        "community"
+        "weekly"
       ],
       "raw": "**Open Ballroom/Vogue Sessions** — Dance / Class — £6\nMonday 31st Aug - 7:00 pm\n",
       "summary": "A cheap, open ballroom and vogue session on the bank holiday Monday evening — the most drop-in-friendly thing on the page that weekend.",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -15724,12 +15152,14 @@
       },
       "tags": [
         "dance",
+        "drop-in",
         "weekly"
       ],
       "raw": "**Advanced Ballet** — Dance / Class — £10\nMonday 31st Aug - 12:30 pm\n",
       "summary": "The advanced Monday ballet class, running on the bank holiday Monday straight after the beginners' session.",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -16765,15 +16195,18 @@
       },
       "ageRestriction": "18+",
       "tags": [
-        "courses",
-        "wellbeing",
         "animals",
-        "free-entry"
+        "courses",
+        "free-entry",
+        "hands-on",
+        "wellbeing"
       ],
       "raw": "**Animal Care & Maintenance for Well-being** — Tuesdays, 10:00-12:30.\n\n\"Animal care and maintenance for well-being is a free 6-week course for anyone who\nidentifies as having mild to moderate mental health challenges and wishes to improve\ntheir well-being through gardening in a social setting. Suitable for those aged 18\nyears or older.\"\n",
       "summary": "Free six-week Tuesday course working with the farm's animals, for adults managing mild to moderate mental health difficulties.",
+      "description": "Animal care and maintenance for well-being is a free 6-week course for anyone who\nidentifies as having mild to moderate mental health challenges and wishes to\nimprove their well-being through gardening in a social setting. Suitable for\nthose aged 18 years or older.\n",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-17",
       "lastSeen": "2026-08-28"
     },
     {
@@ -16811,15 +16244,18 @@
       },
       "ageRestriction": "18+",
       "tags": [
-        "courses",
-        "wellbeing",
         "animals",
-        "free-entry"
+        "courses",
+        "free-entry",
+        "hands-on",
+        "wellbeing"
       ],
       "raw": "**Animal Care for Well-being** — Fridays, 12:00-14:30 (the run has moved off Tuesdays\nsince the 17 August harvest, bar one remaining Tuesday slot on 1 September).\n\n\"Animal care for well-being is a free 6-week course for anyone who identifies as\nhaving mild to moderate mental health challenges and wishes to improve their\nwell-being through gardening in a social setting. Suitable for those aged 18 years or\nolder.\"\n",
       "summary": "Free six-week course caring for the farm's animals, now running on Friday afternoons, for adults managing mild to moderate mental health difficulties.",
+      "description": "Animal care for well-being is a free 6-week course for anyone who identifies as\nhaving mild to moderate mental health challenges and wishes to improve their\nwell-being through gardening in a social setting. Suitable for those aged 18\nyears or older.\n",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-17",
       "lastSeen": "2026-08-28"
     },
     {
@@ -17149,14 +16585,16 @@
         "currency": "GBP"
       },
       "tags": [
-        "dance",
         "beginners",
+        "dance",
+        "drop-in",
         "weekly"
       ],
       "raw": "**Commercial Latin For Beginners** — Dance / Class — £9\nTuesday 1st Sep - 6:00 pm\n",
       "summary": "Beginners' commercial Latin choreography on Tuesday evenings at The Island.",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -18139,14 +17577,17 @@
       "ageRestriction": "18+",
       "tags": [
         "courses",
-        "wellbeing",
+        "free-entry",
+        "hands-on",
         "nature",
-        "free-entry"
+        "wellbeing"
       ],
       "raw": "**Gardening for Well-being** — Wednesdays, 09:30-11:30.\n\n\"Gardening for well-being is a free 6-week course for individuals who identify as\nhaving mild to moderate mental health challenges and wish to improve their well-being\nthrough gardening in a social setting. Suitable for those aged 18 years or older.\"\n",
       "summary": "Free six-week Wednesday-morning gardening course for adults managing mild to moderate mental health difficulties.",
+      "description": "Gardening for well-being is a free 6-week course for individuals who identify as\nhaving mild to moderate mental health challenges and wish to improve their\nwell-being through gardening in a social setting. Suitable for those aged 18\nyears or older.\n",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-17",
       "lastSeen": "2026-08-28"
     },
     {
@@ -18321,16 +17762,18 @@
         "text": "free lunch, hot drinks"
       },
       "tags": [
-        "drop-in",
-        "crafts",
         "community",
-        "free-entry"
+        "crafts",
+        "drop-in",
+        "free-entry",
+        "hands-on"
       ],
       "raw": "**Creative Cuppa** — free lunch, hot drinks, friendly chats and\ncreative making. Drop in anytime between 10am til 12pm.\nDays: Wednesdays: 2nd & 16th September / 7th & 21st October /\n4th November & 18th November / 2nd & 16th December.\nNo booking required.\n",
       "summary": "A free fortnightly Wednesday drop-in for making, chatting and a hot lunch. Any materials, any ability, no booking, no experience needed.",
       "description": "Come and join us for free lunch, hot drinks, friendly chats and\ncreative making every Wednesday!\n\nDrop in anytime between 10am til 12pm.\n\nFreestyle with any materials you like, follow along with an easy\nactivity, or just join us for a cuppa. All ages and abilities are\nwelcome. No making experience needed, just have a play. Free light\nlunch from 11:30 (usually sandwiches with vegetarian and dairy-free\noptions).\n\n**Days:** Wednesdays: 2nd & 16th September / 7th & 21st October / 4th\nNovember & 18th November / 2nd & 16th December.\n**Time:** 10am-12pm drop-in.\n**Location:** Knowle West Media Centre on Leinster Ave\n\nAny access requirements, dietary requests, or questions? Please feel\nvery welcome to email us at enquiries@kwmc.org.uk or call KWMC on 0117\n903 0444.\n\nNo booking required. We can't wait to see you there!\n",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -18364,12 +17807,15 @@
       },
       "tags": [
         "circus",
+        "drop-in",
+        "hands-on",
         "weekly"
       ],
       "raw": "**Improvers Aerial Hoop** — Circus / Class — £15\nWednesday 2nd Sep - 8:00 pm\n",
       "summary": "The Wednesday-night improvers hoop class, for people who have got past the introduction.",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -18436,13 +17882,14 @@
       },
       "tags": [
         "dance",
+        "drop-in",
         "weekly"
       ],
       "raw": "**Intermediate Ballet – 3rd Stage Dance Company** — Dance / Class — £10\nWednesday 2nd Sep - 7:30 pm\n",
       "summary": "Mid-level ballet on Wednesday evenings, taught by 3rd Stage Dance Company.",
       "confidence": "high",
       "alsoListedBy": [],
-      "firstSeen": "2026-08-17",
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -19763,14 +19210,17 @@
       "ageRestriction": "18+",
       "tags": [
         "courses",
+        "free-entry",
+        "hands-on",
         "wellbeing",
-        "woodwork",
-        "free-entry"
+        "woodwork"
       ],
       "raw": "**Woodwork for Well-being** — Thursdays, 10:00-13:00.\n\n\"Woodwork for well-being is a free 6-week course for anyone who identifies as having\nmild to moderate mental health challenges and wishes to improve their well-being\nthrough woodworking in a social setting. Suitable for those aged 18 years or older.\"\n",
       "summary": "Free six-week Thursday woodworking course in the farm workshop for adults managing mild to moderate mental health difficulties.",
+      "description": "Woodwork for well-being is a free 6-week course for anyone who identifies as\nhaving mild to moderate mental health challenges and wishes to improve their\nwell-being through woodworking in a social setting. Suitable for those aged 18\nyears or older.\n",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-17",
       "lastSeen": "2026-08-28"
     },
     {
@@ -19848,17 +19298,19 @@
         "text": "free"
       },
       "tags": [
+        "booking-required",
         "community",
-        "workshop",
-        "talk",
+        "drop-in",
         "free-entry",
-        "booking-required"
+        "talk",
+        "workshop"
       ],
       "raw": "**Community x Arts x Tech Meetups** — a free monthly meet-up for\ncreatives, artists and technologists interested in making things\nhappen in/with communities.\n2026 dates: Every first Thursday of the month, excluding January and\nAugust. Upcoming: 2nd July, 3rd Sep, 1st October, 5th November, 3rd\nDecember. Free light dinner and hot drinks included.\n",
       "summary": "A free first-Thursday meet-up for artists and technologists working with communities, back on 3 September after the August break. Hands-on making, project-sharing and dinner included.",
       "description": "A free monthly meet-up for creatives, artists and technologists\ninterested in making things happen in/with communities.\n\nWhether you already work with communities or are curious to begin,\nyou're welcome here - all that's needed is a genuine interest in\ncommunity-centred, collaborative ways of making. These meet-ups are\nalways evolving in response to the group. Currently, they range from\nhands-on making, reflection, project-sharing, artist-led workshops and\ninspiration.\n\nFree light dinner and hot drinks included. Please let us know if you\nhave any access needs which you'd like support with, and we'll do our\nbest to meet them. Got questions or want to chat about taking part?\nEmail enquiries@kwmc.org.uk - we'd love to hear from you.\n\n**2026 dates:** Every first Thursday of the month, excluding January\nand August. Upcoming: 2nd July, 3rd Sep, 1st October, 5th November, 3rd\nDecember.\n",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -19892,12 +19344,15 @@
       },
       "tags": [
         "circus",
+        "drop-in",
+        "hands-on",
         "weekly"
       ],
       "raw": "**Aerial Silks Class with Miss Radida (Thursdays)** — Circus / Class — £15\nThursday 3rd Sep - 6:00 pm\n",
       "summary": "Thursday evening aerial silks with Miss Radida at The Island.",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -19932,13 +19387,14 @@
       "tags": [
         "contemporary",
         "dance",
+        "drop-in",
         "weekly"
       ],
       "raw": "**Contemporary Technique – 3rd Stage Dance Company** — Dance / Class — £10\nThursday 3rd Sep - 7:00 pm\n",
       "summary": "Open contemporary technique class on Thursday evenings from 3rd Stage Dance Company.",
       "confidence": "high",
       "alsoListedBy": [],
-      "firstSeen": "2026-08-17",
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -20878,47 +20334,6 @@
       "lastSeen": "2026-08-28"
     },
     {
-      "id": "cinema/watershed#3ecc315a7f",
-      "sourceId": "cinema/watershed",
-      "sourceName": "Watershed",
-      "category": "cinema",
-      "categoryLabel": "Cinema",
-      "title": "Leviticus",
-      "occurrence": {
-        "kind": "run",
-        "start": "2026-09-04",
-        "end": "2026-09-10"
-      },
-      "status": "scheduled",
-      "state": "finished",
-      "sortDate": "2026-09-04",
-      "endDate": "2026-09-10",
-      "venueName": "Watershed",
-      "area": "Harbourside",
-      "address": {
-        "street": "1 Canon's Road",
-        "locality": "Harbourside",
-        "city": "Bristol",
-        "postcode": "BS1 5TX",
-        "lat": 51.451775,
-        "lon": -2.598143
-      },
-      "url": "https://www.watershed.co.uk/whatson/14248/leviticus",
-      "sourceUrl": "https://www.watershed.co.uk/whatson/",
-      "image": "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/08/leviticus_1_sheet.jpg",
-      "ageRestriction": "15",
-      "tags": [
-        "horror",
-        "lgbtq",
-        "new-release"
-      ],
-      "raw": "**Leviticus** (15) — Fri 4 to Thu 10 Sept.\n\"A chilling sensation in queer horror\" following \"two lovestruck teenage boys\" facing supernatural evil.\n",
-      "summary": "Adrian Chiarella's queer horror debut about two teenage boys and something supernatural.",
-      "confidence": "high",
-      "firstSeen": "2026-08-28",
-      "lastSeen": "2026-08-28"
-    },
-    {
       "id": "cinema/watershed#c5c718114d",
       "sourceId": "cinema/watershed",
       "sourceName": "Watershed",
@@ -20955,94 +20370,6 @@
       ],
       "raw": "**First Friday** — Fri 4 Sept, 17:00-19:00.\n\"A monthly social and showcasing event open to anyone\" in the Pervasive Media Studio.\n",
       "summary": "The Pervasive Media Studio's monthly open social, where residents show what they have been working on.",
-      "confidence": "high",
-      "firstSeen": "2026-08-28",
-      "lastSeen": "2026-08-28"
-    },
-    {
-      "id": "cinema/watershed#cf030dfe22",
-      "sourceId": "cinema/watershed",
-      "sourceName": "Watershed",
-      "category": "cinema",
-      "categoryLabel": "Cinema",
-      "title": "The Incomer",
-      "occurrence": {
-        "kind": "run",
-        "start": "2026-09-04",
-        "end": "2026-09-10"
-      },
-      "status": "scheduled",
-      "state": "finished",
-      "sortDate": "2026-09-04",
-      "endDate": "2026-09-10",
-      "venueName": "Watershed",
-      "area": "Harbourside",
-      "address": {
-        "street": "1 Canon's Road",
-        "locality": "Harbourside",
-        "city": "Bristol",
-        "postcode": "BS1 5TX",
-        "lat": 51.451775,
-        "lon": -2.598143
-      },
-      "url": "https://www.watershed.co.uk/whatson/14252/the-incomer",
-      "sourceUrl": "https://www.watershed.co.uk/whatson/",
-      "image": "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/08/theincomer_pos_digi_ncw_1sheet_art1.jpg",
-      "ageRestriction": "12A",
-      "tags": [
-        "arthouse",
-        "drama",
-        "new-release",
-        "screening"
-      ],
-      "raw": "**The Incomer** (12A) — Fri 4 to Thu 10 Sept.\n\"A nervy council official attempt[s] to evict two siblings who have never had any human contact\".\n",
-      "summary": "A council official is sent to evict two siblings who have never met another person, opening the week after the bank holiday.",
-      "confidence": "high",
-      "alsoListedBy": [
-        "citywide/bristol-247"
-      ],
-      "firstSeen": "2026-08-28",
-      "lastSeen": "2026-08-28"
-    },
-    {
-      "id": "cinema/watershed#e4cf990f05",
-      "sourceId": "cinema/watershed",
-      "sourceName": "Watershed",
-      "category": "cinema",
-      "categoryLabel": "Cinema",
-      "title": "Super Nature",
-      "occurrence": {
-        "kind": "run",
-        "start": "2026-09-04",
-        "end": "2026-09-10"
-      },
-      "status": "scheduled",
-      "state": "finished",
-      "sortDate": "2026-09-04",
-      "endDate": "2026-09-10",
-      "timesText": "Partially subtitled",
-      "venueName": "Watershed",
-      "area": "Harbourside",
-      "address": {
-        "street": "1 Canon's Road",
-        "locality": "Harbourside",
-        "city": "Bristol",
-        "postcode": "BS1 5TX",
-        "lat": 51.451775,
-        "lon": -2.598143
-      },
-      "url": "https://www.watershed.co.uk/whatson/14251/super-nature",
-      "sourceUrl": "https://www.watershed.co.uk/whatson/",
-      "image": "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/08/supernature_master_1944x2880px-1.jpg",
-      "ageRestriction": "PG",
-      "tags": [
-        "documentary",
-        "nature",
-        "new-release",
-        "subtitled"
-      ],
-      "raw": "**Super Nature** (PG) — Fri 4 to Thu 10 Sept. Partially subtitled screening.\n\"A love letter to nature filmed exclusively on Super 8\" journeying \"across 25 different countries\".\n",
-      "summary": "A nature documentary shot entirely on Super 8 across twenty-five countries.",
       "confidence": "high",
       "firstSeen": "2026-08-28",
       "lastSeen": "2026-08-28"
@@ -21150,8 +20477,6 @@
       "raw": "**Friday: [The Incomer, Watershed](https://wshd.to/incomer)**\n\nWriter-director Louis Paxton's debut feature sees a nervy council official attempt to evict two siblings who have never had any human contact from their outside world.\n",
       "summary": "Louis Paxton's debut feature about a council official sent to evict two siblings who have never met another person.",
       "confidence": "high",
-      "duplicateOf": "cinema/watershed#cf030dfe22",
-      "duplicateScore": 1,
       "firstSeen": "2026-08-28",
       "lastSeen": "2026-08-28"
     },
@@ -22753,45 +22078,6 @@
       "lastSeen": "2026-08-28"
     },
     {
-      "id": "theatre/bristol-old-vic#ff83d484a6",
-      "sourceId": "theatre/bristol-old-vic",
-      "sourceName": "Bristol Old Vic",
-      "category": "theatre",
-      "categoryLabel": "Theatre",
-      "title": "Theatre Tours 2026",
-      "occurrence": {
-        "kind": "run",
-        "start": "2026-09-04",
-        "end": "2026-12-19"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "sortDate": "2026-09-04",
-      "endDate": "2026-12-19",
-      "venueName": "Bristol Old Vic",
-      "area": "Old City",
-      "address": {
-        "street": "King Street",
-        "city": "Bristol",
-        "postcode": "BS1 4ED",
-        "lat": 51.452311,
-        "lon": -2.594228
-      },
-      "url": "https://bristololdvic.org.uk/whats-on/theatre-tours-2026",
-      "sourceUrl": "https://bristololdvic.org.uk/whats-on",
-      "image": "https://d1gcn4slqqviv9.cloudfront.net/_imager/fd58104bd93c4d8d49314d3c2f853bfa/Bristol-Old-Vic-Auditorium-Philip-Vile-press_3014ca4561ef1af98d89b050df87704b.jpg",
-      "tags": [
-        "guided-tour",
-        "heritage",
-        "booking-required"
-      ],
-      "raw": "**Theatre Tours 2026** — 4 Sep – 19 Dec\n",
-      "summary": "Guided tours of the oldest continuously working theatre in the English-speaking world, bookable across the autumn.",
-      "confidence": "medium",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-28"
-    },
-    {
       "id": "theatre/redgrave-theatre#ba9bd88ce4",
       "sourceId": "theatre/redgrave-theatre",
       "sourceName": "Redgrave Theatre",
@@ -24243,14 +23529,15 @@
       "sourceUrl": "https://www.bristolmuseums.org.uk/m-shed/whats-on/",
       "image": "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2024/05/Untitled-design-11-256x144.png",
       "tags": [
-        "outdoor",
+        "family",
         "heritage",
-        "family"
+        "outdoor"
       ],
       "raw": "5 September—25 October 2026\n\nWORKING EXHIBITS: Take a boat ride with a difference! All three of our historic working\nboats offer scenic trips around Bristol Harbour.\n",
       "summary": "Trips round the Floating Harbour aboard the museum's three historic working boats.",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -25326,45 +24613,6 @@
       "raw": "05/09/2026 - 15:00 · Memorial Stadium · **Bristol Rovers FC** v **Rotherham United FC** · At Home",
       "summary": "Bristol Rovers host Rotherham United at Memorial Stadium, a Saturday 15:00 start.",
       "confidence": "high",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-28"
-    },
-    {
-      "id": "theatre/bristol-old-vic#4c1c44d924",
-      "sourceId": "theatre/bristol-old-vic",
-      "sourceName": "Bristol Old Vic",
-      "category": "theatre",
-      "categoryLabel": "Theatre",
-      "title": "The Thunder Run Experience 2026",
-      "occurrence": {
-        "kind": "run",
-        "start": "2026-09-05",
-        "end": "2026-11-13"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "sortDate": "2026-09-05",
-      "endDate": "2026-11-13",
-      "venueName": "Bristol Old Vic",
-      "area": "Old City",
-      "address": {
-        "street": "King Street",
-        "city": "Bristol",
-        "postcode": "BS1 4ED",
-        "lat": 51.452311,
-        "lon": -2.594228
-      },
-      "url": "https://bristololdvic.org.uk/whats-on/the-thunder-run-experience-2026",
-      "sourceUrl": "https://bristololdvic.org.uk/whats-on",
-      "image": "https://d1gcn4slqqviv9.cloudfront.net/_imager/ba5b8a85dc5fec28881c661efdaf20d8/Thunder-Run_Bristol-Old-Vic-Referbishment_credit-Philip-Vile-9_dcbdf8bdc107fc6c6824ece50edb8ac8.jpg",
-      "tags": [
-        "immersive",
-        "heritage",
-        "booking-required"
-      ],
-      "raw": "**The Thunder Run Experience 2026** — 5 Sep – 13 Nov\n",
-      "summary": "A backstage experience running for ten weeks; the cover image is of the theatre's own restored fabric.",
-      "confidence": "medium",
       "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
@@ -27931,9 +27179,9 @@
       "raw": "**Mean Girls @ Bristol Hippodrome** — 8 Sep 2026 - 12 Sep 2026. Location: Bristol Hippodrome. Events & Entertainment. \"inner of Best New Musical (WhatsOnStage Awards) and direct from the West End, MEAN...\"\n",
       "summary": "Tina Fey's Mean Girls musical, direct from the West End, closing Saturday at the Hippodrome.",
       "confidence": "high",
-      "alsoListedBy": [],
-      "duplicateOf": "theatre/bristol-hippodrome#1c85bc789f",
-      "duplicateScore": 1,
+      "alsoListedBy": [
+        "citywide/visit-bristol"
+      ],
       "firstSeen": "2026-08-16",
       "lastSeen": "2026-09-11"
     },
@@ -27974,7 +27222,7 @@
       "raw": "**Mean Girls at Bristol Hippodrome Theatre** — 08 Sep 2026 - 12 Sep 2026. Bristol. Listed under Family.\nExpect iconic characters, razor-sharp wit, and killer songs. Grab your friends, this is going to be fetch – and YES Bristol, we’re making it happen!\n",
       "summary": "Tina Fey's Mean Girls musical, direct from the West End, in its last two days at the Hippodrome.",
       "confidence": "high",
-      "duplicateOf": "theatre/bristol-hippodrome#1c85bc789f",
+      "duplicateOf": "citywide/365-bristol#a93842186d",
       "duplicateScore": 1,
       "firstSeen": "2026-09-11",
       "lastSeen": "2026-09-11"
@@ -28774,51 +28022,6 @@
       "lastSeen": "2026-08-17"
     },
     {
-      "id": "theatre/bristol-hippodrome#1c85bc789f",
-      "sourceId": "theatre/bristol-hippodrome",
-      "sourceName": "Bristol Hippodrome",
-      "category": "theatre",
-      "categoryLabel": "Theatre",
-      "subcategory": "Musicals",
-      "title": "Mean Girls",
-      "occurrence": {
-        "kind": "run",
-        "start": "2026-09-08",
-        "end": "2026-09-12"
-      },
-      "status": "scheduled",
-      "state": "finished",
-      "sortDate": "2026-09-08",
-      "endDate": "2026-09-12",
-      "venueName": "Bristol Hippodrome",
-      "area": "City Centre",
-      "address": {
-        "street": "St Augustine's Parade",
-        "city": "Bristol",
-        "postcode": "BS1 4UZ",
-        "lat": 51.453236,
-        "lon": -2.598943
-      },
-      "url": "https://www.atgtickets.com/shows/mean-girls/bristol-hippodrome/",
-      "sourceUrl": "https://www.atgtickets.com/venues/bristol-hippodrome/",
-      "image": "https://res.cloudinary.com/dwzhqvxaz/image/upload/w_360,q_auto,f_auto/v1767617306/Titles/Mean%20Girls/mean_girls_title_image_1920x1080.jpg",
-      "tags": [
-        "musical",
-        "short-run",
-        "theatre",
-        "tour"
-      ],
-      "raw": "**Mean Girls** — Tue 8 Sep - Sat 12 Sep 2026\n",
-      "summary": "The touring musical of the film, a week in mid-September.",
-      "confidence": "high",
-      "alsoListedBy": [
-        "citywide/365-bristol",
-        "citywide/visit-bristol"
-      ],
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-09-11"
-    },
-    {
       "id": "theatre/bristol-improv-theatre#58eab662d3",
       "sourceId": "theatre/bristol-improv-theatre",
       "sourceName": "Bristol Improv Theatre",
@@ -29049,50 +28252,6 @@
       "confidence": "high",
       "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-17"
-    },
-    {
-      "id": "cinema/vue-cribbs-causeway#a6ef173265",
-      "sourceId": "cinema/vue-cribbs-causeway",
-      "sourceName": "Vue Bristol — Cribbs Causeway",
-      "category": "cinema",
-      "categoryLabel": "Cinema",
-      "subcategory": "Big Screen Music",
-      "title": "Don't Look Back In Anger",
-      "occurrence": {
-        "kind": "run",
-        "start": "2026-09-09",
-        "end": "2026-09-20"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "sortDate": "2026-09-09",
-      "endDate": "2026-09-20",
-      "timesText": "Wed 9 and Thu 10 Sept 08:00, 11:00, 12:30, 14:00, 15:30, 17:00, 18:30, 19:15, 20:00, 22:10, 23:00; Fri 11 to Sun 13 Sept 13:00, 16:00, 17:00, 19:00, 20:00; Mon 14 to Wed 16 Sept 13:00, 16:00, 19:00, 20:00; Thu 17 Sept 19:00, 20:00; Fri 18 to Sun 20 Sept 20:00",
-      "venueName": "Vue Bristol — Cribbs Causeway",
-      "area": "Cribbs Causeway",
-      "address": {
-        "lat": 51.523285,
-        "lon": -2.604659
-      },
-      "url": "https://www.myvue.com/film/oasis-dont-look-back-in-anger",
-      "sourceUrl": "https://www.myvue.com/cinema/bristol-cribbs-causeway/whats-on",
-      "price": {
-        "free": false,
-        "text": "£13.99 opening days, £9.99 thereafter",
-        "min": 9.99,
-        "max": 13.99,
-        "currency": "GBP"
-      },
-      "tags": [
-        "live-music",
-        "documentary",
-        "rock"
-      ],
-      "raw": "**Don't Look Back In Anger** — Big Screen Music.\n",
-      "summary": "The Oasis film, opening with an eleven-showing day and thinning to one evening screening a fortnight later.",
-      "confidence": "high",
-      "firstSeen": "2026-08-28",
-      "lastSeen": "2026-08-28"
     },
     {
       "id": "citywide/eventbrite#4b8d119261",
@@ -30469,52 +29628,6 @@
       "lastSeen": "2026-08-28"
     },
     {
-      "id": "family/windmill-hill-city-farm#b2948f95a1",
-      "sourceId": "family/windmill-hill-city-farm",
-      "sourceName": "Windmill Hill City Farm",
-      "category": "family",
-      "categoryLabel": "Family & Kids",
-      "subcategory": "Health & Well-Being",
-      "title": "FREE Monthly Bike Mechanic Drop-In",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Monthly on a Thursday, 11:00-15:00 — the calendar lists 10 Sep, 8 Oct and 12 Nov 2026",
-        "start": "2026-09-10",
-        "end": "2026-11-12",
-        "startTime": "11:00"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "sortDate": "2026-09-10",
-      "endDate": "2026-11-12",
-      "venueName": "Windmill Hill City Farm",
-      "area": "Bedminster",
-      "address": {
-        "lat": 51.442218,
-        "lon": -2.592954
-      },
-      "url": "https://windmillhillcityfarm.org.uk/products/free-monthly-bike-mechanic-drop-in",
-      "sourceUrl": "https://windmillhillcityfarm.org.uk/apps/bookthatapp/calendar",
-      "image": "https://cdn.shopify.com/s/files/1/0929/1064/9718/files/Websitesquareimagescopy5.png?v=1770896452",
-      "price": {
-        "free": true,
-        "text": "FREE"
-      },
-      "tags": [
-        "repair",
-        "cycling",
-        "free-entry",
-        "drop-in",
-        "community"
-      ],
-      "raw": "**FREE Monthly Bike Mechanic Drop-In** — Thursdays 10 September, 8 October and 12\nNovember 2026, 11:00-15:00. Free.\n",
-      "summary": "A free monthly bike maintenance drop-in run with Bike Bristol, open to anyone\nfrom daily commuters to people who have not ridden in years.\n",
-      "description": "Want to feel more confident looking after your bike? Join us for our monthly Bike\nMechanic Drop-In, run in partnership with Bike Bristol.\n\nThese relaxed, welcoming sessions are open to everyone, whether you're a daily\ncommuter, weekend rider, or haven't been on your bike in years.\n",
-      "confidence": "high",
-      "firstSeen": "2026-08-17",
-      "lastSeen": "2026-08-17"
-    },
-    {
       "id": "gardens/the-community-farm#f88935aa88",
       "sourceId": "gardens/the-community-farm",
       "sourceName": "The Community Farm",
@@ -30629,17 +29742,19 @@
         "text": "Free, donations welcome. Booking essential."
       },
       "tags": [
-        "guided-tour",
-        "outdoor",
-        "nature",
         "booking-required",
-        "free-entry"
+        "free-entry",
+        "guided-tour",
+        "heritage",
+        "nature",
+        "outdoor"
       ],
       "raw": "10 September—22 October 2026\n\nWALKS: A special programme of walks designed to explore the Blaise Estate and celebrate\n100 years of public ownership.\n",
       "summary": "Five guided walks marking a century of public ownership, each on a different theme — hidden parts of the estate, the community garden, archaeology and wildlife, Repton's landscape, and St Mary's churchyard.",
       "description": "A special programme of walks designed to explore the Blaise Estate and celebrate 100 years\nof public ownership.\n\nEach walk focuses on an aspect of the estate’s rich wildlife, its historical connections or\nits archaeological discoveries. Walk leaders will take you for a gentle stroll to different\nparts of the park sharing what makes the Blaise Estate so special.\n\n**Walk programme**\n\n- **Hidden Blaise** — Join the estate rangers for a guided tour around the estate and visit\n  areas usually closed to the public. Sunday 25 October, 11am–12:30pm.\n- **Blaise Community Garden** — A guided tour around the Community Garden to learn about\n  the history of the site and how its changed over the years. Saturday 19 September,\n  2pm–3pm.\n- **Archaeology and wildlife** — Join the team from Blaise Museum and the Bristol Regional\n  Environmental Records Centre (BRERC) to find out more about Blaise’s archaeological\n  discoveries and rich wildlife. Thursday 10 September, 11am–12:30pm.\n- **Humphrey Repton’s landscape** — Explore the picturesque parkland created for the\n  Harford Family by the famous landscape designer Humphrey Repton. Thursday 8 October,\n  11am–12:30pm.\n- **St Mary’s Church and churchyard** — A guided walk exploring St Mary’s church and\n  churchyard, the historic memorials and its links to Bristol’s merchant history. Thursday\n  22 October, 11am–12:30pm.\n\n**Book tickets.** Free, donations welcome. Booking essential. Please select the walk or\nwalks you are interested in and book your place.\n\nAll walks last around 90 minutes and start from Blaise Museum unless otherwise stated.\nPlease arrive at least five minutes before the start of the walk. Suitable outdoor clothing\nand a bottle of water are recommended. This event may have to be cancelled at short notice\ndue to external factors such as weather conditions. Well behaved dogs on leads are only\npermitted on walks that specify this.\n",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -31697,14 +30812,15 @@
       },
       "ageRestriction": "15",
       "tags": [
+        "documentary",
         "live-music",
-        "rock",
-        "documentary"
+        "rock"
       ],
       "raw": "**Don't Look Back In Anger** (15) — Big Screen Music — Fri 11 Sep 19:00, 20:00 (EPIC); Sat 12 Sep 13:00, 16:00, 17:00 (EPIC), 19:00, 20:00 (EPIC); Sun 13 Sep 12:40, 17:15 (EPIC), 19:00; Mon 14 Sep 19:00; Tue 15 Sep 19:00; Wed 16 Sep 16:00, 20:00 (EPIC); Thu 17 Sep 20:00 (EPIC); Fri 18 Sep 20:00; Sat 19 Sep 20:00; Sun 20 Sep 20:00. from £9.99 (EPIC screen £13.99).\n\n\"“Don’t Look Back In Anger” charts Liam and Noel Gallagher’s triumphant reunion tour, Oasis Live ‘25, one of the most anticipated rock ‘n’ roll comebacks of our time.\"\n",
       "summary": "The Oasis reunion-tour film in Vue's Big Screen Music strand, daily through 20 September with EPIC-screen showings at a higher price.",
       "confidence": "high",
-      "firstSeen": "2026-09-11",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-28",
       "lastSeen": "2026-09-11"
     },
     {
@@ -35270,14 +34386,15 @@
       "sourceUrl": "https://bristololdvic.org.uk/whats-on",
       "image": "https://d1gcn4slqqviv9.cloudfront.net/_imager/fd58104bd93c4d8d49314d3c2f853bfa/Bristol-Old-Vic-Auditorium-Philip-Vile-press_3014ca4561ef1af98d89b050df87704b.jpg",
       "tags": [
+        "booking-required",
         "guided-tour",
-        "heritage",
-        "booking-required"
+        "heritage"
       ],
       "raw": "**Theatre Tours 2026** — 11 Sep – 19 Dec, 11:00",
       "summary": "Guided tours of the oldest working theatre in the English-speaking world, running on dates through to December.",
       "confidence": "high",
-      "firstSeen": "2026-09-11",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-09-11"
     },
     {
@@ -40314,6 +39431,7 @@
       "state": "listed",
       "sortDate": "2026-09-13",
       "endDate": "2026-09-13",
+      "timesText": "20:40, Open Captioned",
       "venueName": "ODEON Bristol",
       "area": "City Centre",
       "address": {
@@ -40325,13 +39443,15 @@
       "ageRestriction": "15",
       "tags": [
         "accessible",
-        "subtitled",
-        "horror"
+        "horror",
+        "new-release",
+        "subtitled"
       ],
       "raw": "**Insidious: Out of the Further (open captioned)** (15) — Sun 13 Sep 15:05. Attribute: Open Captioned.\n\n\"In Insidious: Out of the Further, Amelia Eve stars as Gemma, a young mother raising her daughter in the house she grew up in who discovers she can travel into The Further\"\n",
       "summary": "Open-captioned Sunday-afternoon showing of the new Insidious film.",
       "confidence": "high",
-      "firstSeen": "2026-09-11",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-28",
       "lastSeen": "2026-09-11"
     },
     {
@@ -40618,15 +39738,16 @@
       "image": "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/08/leviticus_1_sheet.jpg",
       "ageRestriction": "15",
       "tags": [
+        "accessible",
         "horror",
         "lgbtq",
-        "new-release",
-        "accessible"
+        "new-release"
       ],
       "raw": "**Leviticus** (15) — Until Thu 17 Sept.\n\n\"Move over Heartstopper... this haunting debut has some teeth to it! A chilling sensation in queer horror from director Adrian Chiarella, Leviticus follows two lovestruck teenage boys who face off against supernatural evil in the wake of harrowing 'deliverance healing'.\"\n\nNewsletter: Dir: Adrian Chiarella, Australia, English, 2026, 1hr 28mins. Until at least Thu 17 Sept.\n",
       "summary": "Adrian Chiarella's Australian queer horror debut, two teenage boys against a supernatural evil after a 'deliverance healing'; evening showings through Thursday.",
       "confidence": "high",
-      "firstSeen": "2026-09-11",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-28",
       "lastSeen": "2026-09-11"
     },
     {
@@ -40705,12 +39826,14 @@
       "tags": [
         "documentary",
         "nature",
-        "new-release"
+        "new-release",
+        "subtitled"
       ],
       "raw": "**Super Nature** (PG, partially subtitled screening) — Until Thu 17 Sept.\n\n\"A love letter to nature filmed exclusively on Super 8, Super Nature proposes a new way of seeing. A celebration of all we have and reflecting on all we have to lose, this global co-creation project journeys across 25 different countries, creating a visceral, poetic and personal meditation on the natural world.\"\n\nNewsletter: Dir: Ed Sayers, UK, English, Dutch, 2025, 1hr 22mins. Watershed Recommends — \"The director describes watching Super 8 footage as almost like having your memories water-coloured for you\" (Gavin Sunderland, Environment Group Coordinator).\n",
       "summary": "Ed Sayers' Super 8 nature documentary, co-created across 25 countries as a poetic meditation on the natural world; five more showings this week.",
       "confidence": "high",
-      "firstSeen": "2026-09-11",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-28",
       "lastSeen": "2026-09-11"
     },
     {
@@ -40787,15 +39910,17 @@
       "image": "https://apps.watershed.co.uk/shared/imagecache/wvs/240x356/shared/uploads/wvs/posterFile/26/08/theincomer_pos_digi_ncw_1sheet_art1.jpg",
       "ageRestriction": "12A",
       "tags": [
-        "new-release",
-        "drama",
         "accessible",
+        "arthouse",
+        "drama",
+        "new-release",
         "relaxed-performance"
       ],
       "raw": "**The Incomer** (12A) — Until Thu 17 Sept.\n\n\"Writer-director Louis Paxton's debut feature sees a nervy council official attempt to evict two siblings who have never had any human contact from their outside world.\"\n\nNewsletter: Dir: Louis Paxton, Ireland, English, 2026, 1hr 42mins. All screenings until Thu 17 Sept feature Audio Description. The Wed 16 Sept 14:40 screening is a Relaxed Screening and features Descriptive Subtitles. The Thu 17 Sept 12:00 screening is a Masked and Socially Distanced Screening and features Descriptive Subtitles.\n",
       "summary": "Louis Paxton's Orkney-set debut about a council official sent to evict two isolated siblings; a full week of showings including a relaxed screening and a masked, socially distanced one.",
       "confidence": "high",
-      "firstSeen": "2026-09-11",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-28",
       "lastSeen": "2026-09-11"
     },
     {
@@ -42077,140 +41202,6 @@
       "lastSeen": "2026-08-16"
     },
     {
-      "id": "citywide/visit-bristol#29258b4772",
-      "sourceId": "citywide/visit-bristol",
-      "sourceName": "Visit Bristol",
-      "category": "citywide",
-      "categoryLabel": "City-wide",
-      "title": "Summer Holidays at The Grand Pier",
-      "occurrence": {
-        "kind": "run",
-        "end": "2026-09-03"
-      },
-      "status": "scheduled",
-      "state": "finished",
-      "sortDate": "2026-09-13",
-      "endDate": "2026-09-03",
-      "venueName": "The Grand Pier",
-      "area": "Weston-super-Mare",
-      "url": "https://visitbristol.co.uk/event/summer-holidays-at-the-grand-pier/399040301/",
-      "sourceUrl": "https://visitbristol.co.uk/whats-on",
-      "image": "https://swtdmsmedia.newmindmedia.com/wsimgs/The_Grand_Pier_ride__821055328.png",
-      "tags": [
-        "family",
-        "seasonal",
-        "outdoor"
-      ],
-      "raw": "**Summer Holidays at The Grand Pier** — until Sep 3, 2026.\n",
-      "summary": "School-holiday programming on the Weston-super-Mare pier. Well outside Bristol, but carried on the tourist board's regional feed.",
-      "confidence": "medium",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
-    },
-    {
-      "id": "citywide/visit-bristol#5fc9b9256a",
-      "sourceId": "citywide/visit-bristol",
-      "sourceName": "Visit Bristol",
-      "category": "citywide",
-      "categoryLabel": "City-wide",
-      "title": "Approaches to Scenework: Level 4 Improv School",
-      "occurrence": {
-        "kind": "run",
-        "end": "2026-08-31"
-      },
-      "status": "scheduled",
-      "state": "finished",
-      "sortDate": "2026-09-13",
-      "endDate": "2026-08-31",
-      "venueName": "Bristol Improv Theatre",
-      "area": "Clifton",
-      "address": {
-        "lat": 51.458755,
-        "lon": -2.611884
-      },
-      "url": "https://visitbristol.co.uk/event/approaches-to-scenework%3a-level-4-improv-school-at-the-bristol-improv-theatre-theatre-school/399106301/",
-      "sourceUrl": "https://visitbristol.co.uk/whats-on",
-      "image": "https://swtdmsmedia.newmindmedia.com/wsimgs/L4_VB_resize_1857786417.png",
-      "tags": [
-        "workshop",
-        "booking-required"
-      ],
-      "raw": "**Approaches to Scenework: Level 4 Improv School at The Bristol Improv Theatre — Theatre School** — until Aug 31, 2026.\n\n\"Scenes are the building blocks of improvised theatre, but there are as many…\"\n",
-      "summary": "A Level 4 course in the Improv Theatre's ladder of classes, focused on building scenes. Enrolment closes at the end of August.",
-      "confidence": "medium",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
-    },
-    {
-      "id": "citywide/visit-bristol#734f55c23b",
-      "sourceId": "citywide/visit-bristol",
-      "sourceName": "Visit Bristol",
-      "category": "citywide",
-      "categoryLabel": "City-wide",
-      "title": "The Great Bristol Ball Run in Millenium Square",
-      "occurrence": {
-        "kind": "run",
-        "end": "2026-09-14"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "sortDate": "2026-09-13",
-      "endDate": "2026-09-14",
-      "venueName": "Millennium Square",
-      "area": "Harbourside",
-      "url": "https://visitbristol.co.uk/event/the-great-bristol-ball-run-in-millenium-square/401706301/",
-      "sourceUrl": "https://visitbristol.co.uk/whats-on",
-      "image": "https://swtdmsmedia.newmindmedia.com/wsimgs/Event_Listing_size_18__1945610458.jpg",
-      "tags": [
-        "family",
-        "outdoor",
-        "free-entry",
-        "drop-in"
-      ],
-      "raw": "**The Great Bristol Ball Run in Millenium Square** — until Sep 14, 2026.\n\nInteractive installation featuring balls in a public square setting.\n",
-      "summary": "A large outdoor marble-run installation in Millennium Square, free to play with, up until mid-September.",
-      "confidence": "medium",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
-    },
-    {
-      "id": "citywide/visit-bristol#9b0a03bc29",
-      "sourceId": "citywide/visit-bristol",
-      "sourceName": "Visit Bristol",
-      "category": "citywide",
-      "categoryLabel": "City-wide",
-      "title": "Bristol Old Vic 260",
-      "occurrence": {
-        "kind": "run",
-        "end": "2026-09-04"
-      },
-      "status": "scheduled",
-      "state": "finished",
-      "sortDate": "2026-09-13",
-      "endDate": "2026-09-04",
-      "venueName": "Bristol Old Vic",
-      "area": "Old City",
-      "address": {
-        "street": "King Street",
-        "city": "Bristol",
-        "postcode": "BS1 4ED",
-        "lat": 51.452311,
-        "lon": -2.594228
-      },
-      "url": "https://visitbristol.co.uk/event/bristol-old-vic-260/396206301/",
-      "sourceUrl": "https://visitbristol.co.uk/whats-on",
-      "image": "https://swtdmsmedia.newmindmedia.com/wsimgs/332_620747804.jpg",
-      "tags": [
-        "theatre",
-        "seasonal"
-      ],
-      "raw": "**Bristol Old Vic 260** — until Sep 4, 2026.\n",
-      "summary": "The theatre's 260th-anniversary strand, running to early September. The tourist board gives it one umbrella entry rather than listing the individual shows.",
-      "confidence": "medium",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
-    },
-    {
       "id": "citywide/visit-bristol#9c79c63804",
       "sourceId": "citywide/visit-bristol",
       "sourceName": "Visit Bristol",
@@ -42236,138 +41227,6 @@
       ],
       "raw": "**Hard Hat Tour at Clifton Suspension Bridge Museum** — until Oct 31, 2026.\n",
       "summary": "Guided access into the bridge's Leigh Woods abutment vaults, hard hats supplied, running through to the end of October.",
-      "confidence": "medium",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
-    },
-    {
-      "id": "citywide/visit-bristol#cf68c75a34",
-      "sourceId": "citywide/visit-bristol",
-      "sourceName": "Visit Bristol",
-      "category": "citywide",
-      "categoryLabel": "City-wide",
-      "title": "Audio Described Screenings at Watershed",
-      "occurrence": {
-        "kind": "run",
-        "end": "2026-12-31"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "sortDate": "2026-09-13",
-      "endDate": "2026-12-31",
-      "venueName": "Watershed",
-      "area": "Harbourside",
-      "address": {
-        "street": "1 Canon's Road",
-        "locality": "Harbourside",
-        "city": "Bristol",
-        "postcode": "BS1 5TX",
-        "lat": 51.451775,
-        "lon": -2.598143
-      },
-      "url": "https://visitbristol.co.uk/event/audio-described-screenings-at-watershed/319061301/",
-      "sourceUrl": "https://visitbristol.co.uk/whats-on",
-      "tags": [
-        "screening",
-        "community"
-      ],
-      "raw": "**Audio Described Screenings at Watershed** — until Dec 31, 2026.\n\n\"Watershed offer Audio Description, Descriptive Subtitling, Relaxed…\"\n",
-      "summary": "Watershed's standing accessibility provision — audio description, descriptive subtitling and relaxed screenings — listed as a rolling entry to the end of the year rather than as individual films.",
-      "confidence": "medium",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
-    },
-    {
-      "id": "citywide/visit-bristol#df5e742b12",
-      "sourceId": "citywide/visit-bristol",
-      "sourceName": "Visit Bristol",
-      "category": "citywide",
-      "categoryLabel": "City-wide",
-      "title": "Family Fun on The Range at Thornbury Golf Centre",
-      "occurrence": {
-        "kind": "run",
-        "end": "2026-10-11"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "sortDate": "2026-09-13",
-      "endDate": "2026-10-11",
-      "venueName": "Thornbury Golf Centre",
-      "area": "Thornbury",
-      "url": "https://visitbristol.co.uk/event/family-fun-on-the-range-at-thornbury-golf-centre/399918301/",
-      "sourceUrl": "https://visitbristol.co.uk/whats-on",
-      "image": "https://swtdmsmedia.newmindmedia.com/wsimgs/ProductImage_349_ec8262d74a89_1__86728147.jpg",
-      "tags": [
-        "family",
-        "outdoor"
-      ],
-      "raw": "**Family Fun on The Range at Thornbury Golf Centre** — until Oct 11, 2026.\n\n\"Golf is fun for all the family! Thornbury Golf Centre is bringing together great fun,…\"\n",
-      "summary": "Family driving-range sessions running through the summer and into autumn at Thornbury, north of the city.",
-      "confidence": "medium",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
-    },
-    {
-      "id": "citywide/visit-bristol#e689926e13",
-      "sourceId": "citywide/visit-bristol",
-      "sourceName": "Visit Bristol",
-      "category": "citywide",
-      "categoryLabel": "City-wide",
-      "title": "Summer takes off at Aerospace Bristol",
-      "occurrence": {
-        "kind": "run",
-        "end": "2026-09-06"
-      },
-      "status": "scheduled",
-      "state": "finished",
-      "sortDate": "2026-09-13",
-      "endDate": "2026-09-06",
-      "venueName": "Aerospace Bristol",
-      "area": "Filton",
-      "address": {
-        "lat": 51.522944,
-        "lon": -2.578848
-      },
-      "url": "https://visitbristol.co.uk/event/summer-takes-off-at-aerospace-bristol/399268301/",
-      "sourceUrl": "https://visitbristol.co.uk/whats-on",
-      "image": "https://swtdmsmedia.newmindmedia.com/wsimgs/Event_listing_size_9__1341950895.jpg",
-      "tags": [
-        "family",
-        "seasonal",
-        "drop-in"
-      ],
-      "raw": "**Summer takes off at Aerospace Bristol** — until Sep 6, 2026.\n\n\"Summer programming\" featuring aviation-themed activities and experiences.\n",
-      "summary": "Aerospace Bristol's umbrella summer-holiday programme of aviation activities, running to the first weekend of September.",
-      "confidence": "medium",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
-    },
-    {
-      "id": "citywide/visit-bristol#e6ac108402",
-      "sourceId": "citywide/visit-bristol",
-      "sourceName": "Visit Bristol",
-      "category": "citywide",
-      "categoryLabel": "City-wide",
-      "title": "Summer Holidays at Wookey Hole Caves",
-      "occurrence": {
-        "kind": "run",
-        "end": "2026-08-31"
-      },
-      "status": "scheduled",
-      "state": "finished",
-      "sortDate": "2026-09-13",
-      "endDate": "2026-08-31",
-      "venueName": "Wookey Hole Caves",
-      "area": "Wells, Somerset",
-      "url": "https://visitbristol.co.uk/event/summer-holidays-at-wookey-hole-caves/398996301/",
-      "sourceUrl": "https://visitbristol.co.uk/whats-on",
-      "image": "https://swtdmsmedia.newmindmedia.com/wsimgs/Event_listing_size_5__1879246996.jpg",
-      "tags": [
-        "family",
-        "seasonal"
-      ],
-      "raw": "**Summer Holidays at Wookey Hole Caves** — until Aug 31, 2026.\n",
-      "summary": "Holiday activities at the Somerset show caves, running to the end of August. Another out-of-city listing.",
       "confidence": "medium",
       "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-16"
@@ -43239,13 +42098,15 @@
       "sourceUrl": "https://www.atgtickets.com/venues/bristol-hippodrome/",
       "image": "https://res.cloudinary.com/dwzhqvxaz/image/upload/w_360,q_auto,f_auto/v1767617306/Titles/Mean%20Girls/mean_girls_title_image_1920x1080.jpg",
       "tags": [
+        "comedy",
         "musical",
-        "comedy"
+        "tour"
       ],
       "raw": "**Mean Girls** — Musicals. Until Sat 12 Sep 2026.",
       "summary": "The Mean Girls musical in the last days of its Bristol run, closing Saturday.",
       "confidence": "high",
-      "firstSeen": "2026-09-11",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-09-11"
     },
     {
@@ -43864,14 +42725,16 @@
       "image": "https://all.web.img.acsta.net/r_2500_x/img/6e/cc/6ecc882d40fcd29357b6a3c8b593123f.jpg",
       "ageRestriction": "18",
       "tags": [
-        "arthouse",
         "18-plus",
+        "arthouse",
+        "drama",
         "new-release"
       ],
       "raw": "**I Want Your Sex** (18) — 1h 30m — Beyond showtimes: Monday 14 September 12:30; Tuesday 15 September 21:15.\n\n\"When fresh-faced Elliot (Hoffman) lands an exciting job for renowned artist, icon and provocateur Erika Tracy (Wilde), his fantasies come true as Erika taps him to become her sexual muse. But Elliot soon finds himself out of his depth as Erika takes him on a journey more profound than he ever could have imagined, into a world of sex, obsession, power, betrayal and murder.\"\n",
       "summary": "Gregg Araki's erotic satire in Everyman's Beyond strand for independent and arthouse titles, two showings.",
       "confidence": "high",
-      "firstSeen": "2026-09-11",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-28",
       "lastSeen": "2026-09-11"
     },
     {
@@ -51056,15 +49919,16 @@
       "sourceUrl": "https://www.bristolmuseums.org.uk/m-shed/whats-on/",
       "image": "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2014/05/Welsh-Back-Hugh-ONeill-182-256x144.jpg",
       "tags": [
+        "booking-required",
         "guided-tour",
-        "outdoor",
         "heritage",
-        "booking-required"
+        "outdoor"
       ],
       "raw": "17 September—17 December 2026\n\nWALK: Discover a millennium of history on this 1.8 mile walk around the old city of\nBristol.\n",
       "summary": "A 1.8-mile loop of the medieval city, covering a thousand years in a couple of hours.",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -51097,15 +49961,17 @@
       "sourceUrl": "https://www.bristolmuseums.org.uk/m-shed/whats-on/",
       "image": "https://www.bristolmuseums.org.uk/wp/wp-content/uploads/2023/05/RW06-Frederick-Douglass-256x144.png",
       "tags": [
+        "booking-required",
+        "community",
         "guided-tour",
-        "outdoor",
         "heritage",
-        "community"
+        "outdoor"
       ],
       "raw": "17 September—19 November 2026\n\nWALK: Discover the names and places associated with Bristol’s thousand-year fight to end\nthe city’s involvement in slavery.\n",
       "summary": "A walk following the people and places of Bristol's abolition movement, running into Black History Month.",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -52026,16 +50892,17 @@
         "currency": "GBP"
       },
       "tags": [
-        "stand-up",
         "comedy",
         "family",
-        "matinee"
+        "matinee",
+        "stand-up"
       ],
       "raw": "**Aftermirth: Daytime Comedy Club for New Parents** — Thu 17th Sept 2026 & Monthly Thursdays. 10.45am £15 (babies go free). Bristol’s adult comedy club that you can bring your baby to, lovingly curated and compered by Angie Belcher [Comedy, Family, Stand-Up]",
       "summary": "Aftermirth, Angie Belcher's daytime stand-up club for new parents, babies welcome, on a Thursday morning each month from 17 September.",
       "description": "\"Bristol's adult comedy club that you can bring your baby to, lovingly curated and compered by Angie Belcher\"\n\nMature stand-up comedy delivered during daytime hours, specifically designed for new parents. Each show includes three professional comedians. The venue uses \"reduced amplification and a dimmed room so no one will notice those red eyes from sleepless nights.\" Parents are encouraged to feed and soothe babies during performances, with no complaints if infants cry. Refreshments are available at the accompanying cafe/bar.\n\nThe show welcomes \"parents, Aunts, Uncles, Grans, carers, in fact anyone who needs some daytime comedy\" and explicitly excludes older toddlers, as they \"tend to heckle.\"\n\n**Dates:** Monthly Thursdays — 17 September, 8 October, 5 November, 10 December, 14 January, 18 February and 18 March, 10.45am. Tickets £15, babies go free. Running time 2 hours (with interval). Ages 0-12 months only (plus parents); booking notes state \"Under 18 Months\".\n",
       "confidence": "high",
-      "firstSeen": "2026-08-17",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-09-11"
     },
     {
@@ -59695,17 +58562,21 @@
       },
       "ageRestriction": "Ages 10-13",
       "tags": [
-        "young-people",
-        "weekly",
-        "hands-on",
+        "booking-required",
+        "community",
+        "drop-in",
+        "family",
         "free-entry",
-        "booking-required"
+        "hands-on",
+        "weekly",
+        "young-people"
       ],
       "raw": "**After-School: Creative Hub (Ages 10-13)**\nDays: Mondays. Time: 4:30-6pm. Ages: 10-13.\nSign up as soon as possible, sessions begin back on week of 21st September.\n",
       "summary": "Monday after-school sessions for 10-13 year olds in animation, music production, VR, gaming, photography and digital drawing. Restarting the week of 21 September.",
       "description": "**Creative Hub**\n\nGet creative with art, music and technology! Try out animation, music\nproduction, digital instruments, VR, gaming, photography, digital\ndrawing and more. Meet new people, learn new skills and bring your\nideas to life.\n\nDays: Mondays. Time: 4:30-6pm. Ages: 10-13. Location: Knowle West\nMedia Centre.\n\nSign up as soon as possible, sessions begin back on week of 21st\nSeptember.\n\nOur programmes are for young people living or studying in BS4, BS3 5,\nBS13 & BS14. Places are limited and will be allocated based on\neligibility and funding priorities.\n",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -59739,15 +58610,17 @@
         "currency": "GBP"
       },
       "tags": [
-        "printmaking",
-        "textiles",
+        "booking-required",
         "courses",
-        "booking-required"
+        "hands-on",
+        "printmaking",
+        "textiles"
       ],
       "raw": "**1 Year In Textiles Printmaking (Portfolio Course)** — £ 1,525\nTutor: Emma Studd. Mondays 9.30am -12.30pm.\nSeptember 21, 2026 - July 5, 2027. **Sold Out**\n",
       "summary": "A year of printmaking onto cloth with Emma Studd, Monday mornings. Fully booked.",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -59865,15 +58738,17 @@
         "currency": "GBP"
       },
       "tags": [
-        "printmaking",
-        "courses",
         "booking-required",
-        "multi-day"
+        "courses",
+        "hands-on",
+        "multi-day",
+        "printmaking"
       ],
       "raw": "**1 Year Intaglio | Etching (Portfolio Course)** — £ 1,525\nTutor: Jemma Gunning. Mondays 6pm - 9pm.\nSeptember 21, 2026 - July 5, 2027. **Sold Out**\n",
       "summary": "A full academic year of etching on Monday evenings, building a portfolio with Jemma Gunning. Already full for 2026/27.",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -59907,15 +58782,17 @@
         "currency": "GBP"
       },
       "tags": [
-        "printmaking",
-        "courses",
         "booking-required",
-        "multi-day"
+        "courses",
+        "hands-on",
+        "multi-day",
+        "printmaking"
       ],
       "raw": "**1 Year In Print (Portfolio Course)** — £ 1,525\nTutor: Jo Hounsome. Mondays 9.30am -12.30pm.\nSeptember 21, 2026 - July 5, 2027. **Sold Out**\n",
       "summary": "A year-long general printmaking portfolio course on Monday mornings. Fully booked.",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -61211,15 +60088,17 @@
         "currency": "GBP"
       },
       "tags": [
-        "printmaking",
-        "courses",
         "booking-required",
-        "contemporary"
+        "contemporary",
+        "courses",
+        "hands-on",
+        "printmaking"
       ],
       "raw": "**1 Year In Contemporary Relief (Portfolio Course)** — £ 1,525\nTutor: Victoria Wilmott. Tuesdays 9.30am - 12.30pm.\nSeptember 22, 2026 - July 6, 2027. **Sold Out**\n",
       "summary": "A year of relief printing — lino, woodcut and beyond — with Victoria Wilmott. Fully booked.",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -61253,14 +60132,16 @@
         "currency": "GBP"
       },
       "tags": [
-        "printmaking",
+        "booking-required",
         "courses",
-        "booking-required"
+        "hands-on",
+        "printmaking"
       ],
       "raw": "**10 Week Etching** — £ 382.50\nTutor: Emma Gregory. Tuesdays 6pm - 9pm.\nSeptember 22, 2026 - December 1, 2026. **Sold Out**\n",
       "summary": "Ten Tuesday evenings at the etching presses with Emma Gregory. Fully booked.",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -61338,16 +60219,18 @@
         "currency": "GBP"
       },
       "tags": [
-        "printmaking",
-        "illustration",
-        "drawing",
+        "booking-required",
         "courses",
-        "booking-required"
+        "drawing",
+        "hands-on",
+        "illustration",
+        "printmaking"
       ],
       "raw": "**1 Year Extended Illustration - Drawing, Print & Play (Portfolio Course)** — £ 1,525\nTutor: George Hounsome. Tuesdays 1.30 - 4.30pm.\nSeptember 22, 2026 - July 6, 2027. **Sold Out**\n",
       "summary": "A year of illustration through drawing and print with George Hounsome, Tuesday afternoons. Fully booked.",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -64143,15 +63026,18 @@
         "currency": "GBP"
       },
       "tags": [
-        "drop-in",
+        "community",
         "cycling",
-        "repair",
-        "free-entry"
+        "drop-in",
+        "free-entry",
+        "repair"
       ],
       "raw": "**FREE Monthly Bike Mechanic Drop-In** — monthly on a Thursday, 11:00-15:00.\n\n\"Want to feel more confident looking after your bike? Join us for our monthly Bike\nMechanic Drop-In, run in partnership with Bike Bristol. These relaxed, welcoming\nsessions are open to everyone, whether you're a daily commuter, weekend rider, or\nhaven't been on your bike in years.\"\n",
       "summary": "Free monthly bike-maintenance drop-in run with Bike Bristol, for anyone who wants help keeping a bike on the road.",
+      "description": "Want to feel more confident looking after your bike? Join us for our monthly Bike\nMechanic Drop-In, run in partnership with Bike Bristol.\n\nThese relaxed, welcoming sessions are open to everyone, whether you're a daily\ncommuter, weekend rider, or haven't been on your bike in years.\n",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-17",
       "lastSeen": "2026-08-28"
     },
     {
@@ -66709,16 +65595,18 @@
         "currency": "GBP"
       },
       "tags": [
-        "kids",
+        "booking-required",
+        "drop-in",
         "family",
         "hands-on",
-        "booking-required"
+        "kids"
       ],
       "raw": "When: 25 Sep 2026, 10am - 12pm\nBest for ages: 0-5\n\nFor families with children under 5, these special sessions once a month are all about\nsensory play, having fun and exploratory learning.\n",
       "summary": "The monthly under-fives sensory play morning. Only the September date is currently listed.",
       "description": "Relax, play and have fun together in our Play Friday sessions for under 5s and their\ngrown-ups.\n\nEach month, our Theatre of Curiosity space comes alive with a different mini-adventure\ndeveloped specially for our youngest visitors.\n\nOur Play Friday sessions are developed using the theory of schematic play to encourage\nopen-ended exploration and help children learn about the world through play.\n\n**Upcoming events:** 25 Sept, 6 Nov, 4 Dec.\n\nSeptember's theme is 'On A Roll'. It's time to twist, turn, spin and roll. Experiment with\nspinning tops and rolling toys or turn yourself around. This session is based on the Rotation\nSchema: where a child is fascinated by objects or their own body spinning, twisting, rolling,\nor moving in circles. It helps toddlers and young children develop balance, coordination,\nspatial awareness, and an understanding of cause and effect.\n\n**Access considerations** — Play Friday takes place in a large open space in the centre of\nthe ground floor. On busy days, the space can be noisy. Most activities will be at floor\nheight and the space can get a bit messy. You can come and go as you please between Play\nFriday and the rest of the exhibition.\n",
       "confidence": "high",
-      "firstSeen": "2026-08-17",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -67736,14 +66624,16 @@
       "sourceUrl": "https://bristololdvic.org.uk/whats-on",
       "image": "https://d1gcn4slqqviv9.cloudfront.net/_imager/ba5b8a85dc5fec28881c661efdaf20d8/Thunder-Run_Bristol-Old-Vic-Referbishment_credit-Philip-Vile-9_dcbdf8bdc107fc6c6824ece50edb8ac8.jpg",
       "tags": [
-        "heritage",
+        "booking-required",
         "guided-tour",
-        "booking-required"
+        "heritage",
+        "immersive"
       ],
       "raw": "**The Thunder Run Experience 2026** — 25 Sep – 13 Nov, 11:00",
       "summary": "An experience built around the theatre's historic thunder run, on dates from late September to mid-November.",
       "confidence": "high",
-      "firstSeen": "2026-09-11",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-09-11"
     },
     {
@@ -79692,6 +78582,7 @@
       "state": "listed",
       "sortDate": "2026-10-04",
       "endDate": "2026-10-04",
+      "timesText": "10.00am—12.00pm, with the building gradually getting busier from 12.30 onwards",
       "venueName": "We The Curious",
       "area": "Harbourside",
       "address": {
@@ -79704,15 +78595,22 @@
       "url": "https://www.wethecurious.org/whats-on/events/relaxed-mornings",
       "sourceUrl": "https://www.wethecurious.org/whats-on/events",
       "image": "https://www.wethecurious.org/sites/default/files/styles/og_image/public/2025-01/we-the-curious_relaxed-morning_lisa-whiting_2024.jpg?h=9eb0d413&itok=zq5i9NFW",
+      "price": {
+        "free": false,
+        "text": "Day ticket prices apply"
+      },
       "tags": [
         "accessible",
         "family",
-        "relaxed-performance"
+        "relaxed-performance",
+        "wellbeing"
       ],
       "raw": "When: 4 Oct 2026, 10am - 12pm\nWhere: Across the venue\nRecommended for: Families\n\nFor a calmer, less busy experience of the venue.\n",
       "summary": "A quieter opening across the whole building — reduced sound and light, fewer people. Only the October date is listed.",
+      "description": "We know that venues like ours can sometimes be overwhelming, so on Relaxed Mornings our\nexperience looks a little different.\n\nThese mornings have been specifically designed for visitors who may need a little extra\nsupport to enjoy our venue. This may be due to disability or neurodiversity, such as autism\nor other sensory processing conditions.\n\nThe session runs from 10.00am -12.00pm, with the building gradually getting busier from 12.30\nonwards. Your ticket is valid for the whole day and you can come and go as you wish, just\nkeep hold of your ticket to show our team when you re-enter.\n\n**Upcoming Relaxed Mornings:** Sunday 2 August 2026 (Summer Holidays); Sunday 4 October 2026;\nSunday 6 December 2026; Sunday 7 February 2027.\n\n**Access considerations** — Visitor numbers are restricted during these events, to ensure\nthere is plenty of space to play. The sounds of some of our noisier exhibits are lowered. Our\nLive Science team are on hand to offer a warm welcome and support you during your visit. The\nPlanetarium is free and drop-in, rather than ticketed – meaning you can stay for as long (or\nas little) as you want.\n",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-17",
       "lastSeen": "2026-08-28"
     },
     {
@@ -82834,47 +81732,6 @@
       "lastSeen": "2026-09-11"
     },
     {
-      "id": "citywide/365-bristol#6b395d131c",
-      "sourceId": "citywide/365-bristol",
-      "sourceName": "365 Bristol",
-      "category": "citywide",
-      "categoryLabel": "City-wide",
-      "title": "Back To The Future at The Bristol Hippodrome",
-      "occurrence": {
-        "kind": "run",
-        "start": "2026-10-08",
-        "end": "2026-11-21"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "sortDate": "2026-10-08",
-      "endDate": "2026-11-21",
-      "venueName": "Bristol Hippodrome",
-      "area": "City Centre",
-      "address": {
-        "street": "St Augustine's Parade",
-        "city": "Bristol",
-        "postcode": "BS1 4UZ",
-        "lat": 51.453236,
-        "lon": -2.598943
-      },
-      "url": "https://365bristol.com/event/bttf-bristol-hipp-2026",
-      "sourceUrl": "https://365bristol.com/events",
-      "image": "https://365bristol.com/userfiles/events/t_30908-1.jpg",
-      "tags": [
-        "family",
-        "multi-day",
-        "musical",
-        "theatre"
-      ],
-      "raw": "**Back To The Future at The Bristol Hippodrome | Oct & Nov 2026** — 8 Oct 2026 – 21 Nov 2026.\n\nMusical adaptation opens at Bristol Hippodrome this autumn.\n",
-      "summary": "A six-week sit-down run of the Back to the Future musical, by far the longest booking in the Hippodrome's autumn.",
-      "confidence": "high",
-      "alsoListedBy": [],
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-28"
-    },
-    {
       "id": "citywide/365-bristol#d03a584a79",
       "sourceId": "citywide/365-bristol",
       "sourceName": "365 Bristol",
@@ -82987,17 +81844,16 @@
       "sourceUrl": "https://365bristol.com/events",
       "image": "https://365bristol.com/userfiles/events/t_30908-1.jpg",
       "tags": [
-        "musical",
-        "theatre",
         "family",
-        "multi-day"
+        "multi-day",
+        "musical",
+        "theatre"
       ],
       "raw": "**Back To The Future at The Bristol Hippodrome | Oct & Nov 2026** — 8 Oct 2026 - 21 Nov 2026. Location: Bristol Hippodrome.\n\n\"BACK TO THE FUTURE The Musical, opening at the Bristol Hippodrome from Thursday...\"\n",
       "summary": "The Back To The Future musical settles in at the Hippodrome for a six-week run.",
       "confidence": "high",
-      "duplicateOf": "citywide/365-bristol#6b395d131c",
-      "duplicateScore": 0.65,
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -108705,15 +107561,17 @@
         "currency": "GBP"
       },
       "tags": [
-        "printmaking",
-        "textiles",
+        "booking-required",
         "courses",
-        "booking-required"
+        "hands-on",
+        "printmaking",
+        "textiles"
       ],
       "raw": "**5 Week Screenprinting on FABRIC (Repeat Pattern)** — £ 236.50\nTutor: Hannah Kelly. Tuesday 1.30pm - 4.30pm.\nNovember 3, 2026 - December 1, 2026. **Sold Out**\n",
       "summary": "Five afternoons printing repeat patterns onto cloth with Hannah Kelly. Fully booked.",
       "confidence": "high",
-      "firstSeen": "2026-08-28",
+      "alsoListedBy": [],
+      "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
     },
     {
@@ -145317,44 +144175,6 @@
       "lastSeen": "2026-08-28"
     },
     {
-      "id": "art/rwa#7bf9f5edbc",
-      "sourceId": "art/rwa",
-      "sourceName": "Royal West of England Academy (RWA)",
-      "category": "art",
-      "categoryLabel": "Art & Galleries",
-      "subcategory": "Children and Families",
-      "title": "Scribble and Sketch",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Once a month"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "venueName": "Royal West of England Academy (RWA)",
-      "area": "Clifton",
-      "address": {
-        "street": "Queens Road",
-        "locality": "Clifton",
-        "city": "Bristol",
-        "postcode": "BS8 1PX",
-        "lat": 51.456638,
-        "lon": -2.613706
-      },
-      "url": "https://www.rwa.org.uk/products/scribble-and-sketch",
-      "sourceUrl": "https://www.rwa.org.uk/collections/events",
-      "image": "https://www.rwa.org.uk/cdn/shop/files/RWAFamilySpace2022LisaWhitingPhotography-39_5fc82b09-c3ed-4181-bc5f-9468a2411e74_600x.jpg?v=1764243921",
-      "tags": [
-        "family",
-        "hands-on",
-        "drop-in"
-      ],
-      "raw": "**Scribble and Sketch** — Once a month. Recurring family activity.\n",
-      "summary": "A monthly drawing session for families in the RWA's family space; the listing gives the frequency but not the individual dates.",
-      "confidence": "medium",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
-    },
-    {
       "id": "churches/bristol-cathedral#51760f2a78",
       "sourceId": "churches/bristol-cathedral",
       "sourceName": "Bristol Cathedral",
@@ -148147,73 +146967,6 @@
       "lastSeen": "2026-08-28"
     },
     {
-      "id": "making/knowle-west-media-centre#3bede922ca",
-      "sourceId": "making/knowle-west-media-centre",
-      "sourceName": "Knowle West Media Centre",
-      "category": "making",
-      "categoryLabel": "Making & Craft",
-      "title": "After-School: Creative Hub (Ages 10-13)",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "After-school session; the What's On listing gives no day or time"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "venueName": "Knowle West Media Centre",
-      "area": "Knowle West",
-      "address": {
-        "lat": 51.425458,
-        "lon": -2.593267
-      },
-      "url": "https://kwmc.org.uk/whats-on/sessions/creative-hub/",
-      "sourceUrl": "https://kwmc.org.uk/whats-on/",
-      "image": "https://kwmc.org.uk/wp-content/uploads/2025/07/SoundWave_2025_IbiFeher_1744-1-Large-568x379.jpeg",
-      "tags": [
-        "family",
-        "community",
-        "hands-on",
-        "drop-in"
-      ],
-      "raw": "**After-School: Creative Hub (Ages 10-13)** — regular after-school\nsession. No day, time or price on the listing.\n",
-      "summary": "A weekly after-school creative session for 10 to 13 year olds at KWMC.",
-      "confidence": "low",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
-    },
-    {
-      "id": "making/knowle-west-media-centre#6639e55b08",
-      "sourceId": "making/knowle-west-media-centre",
-      "sourceName": "Knowle West Media Centre",
-      "category": "making",
-      "categoryLabel": "Making & Craft",
-      "title": "Creative Cuppa",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Regular session; the What's On listing gives no day or time"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "venueName": "Knowle West Media Centre",
-      "area": "Knowle West",
-      "address": {
-        "lat": 51.425458,
-        "lon": -2.593267
-      },
-      "url": "https://kwmc.org.uk/whats-on/sessions/creative-cuppa/",
-      "sourceUrl": "https://kwmc.org.uk/whats-on/",
-      "image": "https://kwmc.org.uk/wp-content/uploads/2024/12/Creative-Cuppa-x-PRRRRRT-electronic-pompoms_June-2024_Ibi-Feher-0061-Large-568x379.jpeg",
-      "tags": [
-        "community",
-        "drop-in",
-        "hands-on"
-      ],
-      "raw": "**Creative Cuppa** — regular session. No day, time or price on the\nlisting.\n",
-      "summary": "A relaxed drop-in where people make something together over a hot drink at Knowle West Media Centre.",
-      "confidence": "low",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
-    },
-    {
       "id": "making/knowle-west-media-centre#6ae96ec569",
       "sourceId": "making/knowle-west-media-centre",
       "sourceName": "Knowle West Media Centre",
@@ -148297,39 +147050,6 @@
       "alsoListedBy": [],
       "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
-    },
-    {
-      "id": "making/knowle-west-media-centre#a79705b4a6",
-      "sourceId": "making/knowle-west-media-centre",
-      "sourceName": "Knowle West Media Centre",
-      "category": "making",
-      "categoryLabel": "Making & Craft",
-      "title": "Community x Arts x Tech Meetups",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Regular meetup; the What's On listing gives no day or time"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "venueName": "Knowle West Media Centre",
-      "area": "Knowle West",
-      "address": {
-        "lat": 51.425458,
-        "lon": -2.593267
-      },
-      "url": "https://kwmc.org.uk/whats-on/sessions/cat/",
-      "sourceUrl": "https://kwmc.org.uk/whats-on/",
-      "image": "https://kwmc.org.uk/wp-content/uploads/2025/07/Community-x-Arts-x-Tech-photo-by-Ibi-Feher-copy-568x379.jpg",
-      "tags": [
-        "community",
-        "talk",
-        "drop-in"
-      ],
-      "raw": "**Community x Arts x Tech Meetups** — regular meetup. No day, time or\nprice on the listing.\n",
-      "summary": "A recurring meetup for people working where community organising, art and technology overlap.",
-      "confidence": "low",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
     },
     {
       "id": "making/knowle-west-media-centre#d302adf318",
@@ -148673,41 +147393,6 @@
       "lastSeen": "2026-08-28"
     },
     {
-      "id": "making/spike-print-studio#060843b699",
-      "sourceId": "making/spike-print-studio",
-      "sourceName": "Spike Print Studio",
-      "category": "making",
-      "categoryLabel": "Making & Craft",
-      "title": "10 Week Etching",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Tuesdays 18:00-21:00, 22 September - 1 December 2026"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "venueName": "Spike Print Studio",
-      "area": "Spike Island",
-      "url": "https://www.spikeprintstudio.org/product/10-week-etching",
-      "sourceUrl": "https://www.spikeprintstudio.org/courses/",
-      "image": "https://cdn.prod.website-files.com/65df3cd40bcc1fe8a1f2356e/6846b82ffa317dd8d9fb397a_IMG_1474.JPG",
-      "price": {
-        "free": false,
-        "text": "£382.50",
-        "min": 382.5,
-        "currency": "GBP"
-      },
-      "tags": [
-        "courses",
-        "printmaking",
-        "hands-on"
-      ],
-      "raw": "**10 Week Etching** — 22 September to 1 December 2026, Tuesdays\n6pm-9pm. £382.50.\n",
-      "summary": "Ten Tuesday evenings on the etching presses, covering plate preparation through to printing an edition.",
-      "confidence": "high",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
-    },
-    {
       "id": "making/spike-print-studio#382e59ad44",
       "sourceId": "making/spike-print-studio",
       "sourceName": "Spike Print Studio",
@@ -148738,41 +147423,6 @@
       ],
       "raw": "**5 Week CPD Etching** — 2 November to 30 November 2026, Mondays\n1:30-4:30pm. £236.50.\n",
       "summary": "The second autumn run of Spike's five-week CPD etching course, starting after the October half term.",
-      "confidence": "high",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
-    },
-    {
-      "id": "making/spike-print-studio#38c48c6927",
-      "sourceId": "making/spike-print-studio",
-      "sourceName": "Spike Print Studio",
-      "category": "making",
-      "categoryLabel": "Making & Craft",
-      "title": "1 Year In Contemporary Relief (Portfolio Course)",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Tuesdays 09:30-12:30, 22 September 2026 - 6 July 2027"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "venueName": "Spike Print Studio",
-      "area": "Spike Island",
-      "url": "https://www.spikeprintstudio.org/product/1-year-in-contemporary-relief-portfolio-course",
-      "sourceUrl": "https://www.spikeprintstudio.org/courses/",
-      "image": "https://cdn.prod.website-files.com/65df3cd40bcc1fe8a1f2356e/67fcd6b0abbc255ad984976b_for%20web%20SPS%20Process%20%26%20Equipment%2002%20Jo%20Hounsome%20Photography.jpg",
-      "price": {
-        "free": false,
-        "text": "£1,525",
-        "min": 1525,
-        "currency": "GBP"
-      },
-      "tags": [
-        "courses",
-        "printmaking",
-        "hands-on"
-      ],
-      "raw": "**1 Year In Contemporary Relief (Portfolio Course)** — 22 September\n2026 to 6 July 2027, Tuesdays 9:30am-12:30pm. £1,525.\n",
-      "summary": "Lino, woodcut and other relief processes over a full year of Tuesday mornings, aimed at building a coherent portfolio.",
       "confidence": "high",
       "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-16"
@@ -148813,77 +147463,6 @@
       "lastSeen": "2026-08-16"
     },
     {
-      "id": "making/spike-print-studio#5ccf0971f6",
-      "sourceId": "making/spike-print-studio",
-      "sourceName": "Spike Print Studio",
-      "category": "making",
-      "categoryLabel": "Making & Craft",
-      "title": "5 Week Screenprinting on FABRIC (Repeat Pattern)",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Tuesdays 13:30-16:30, 3 November - 1 December 2026"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "venueName": "Spike Print Studio",
-      "area": "Spike Island",
-      "url": "https://www.spikeprintstudio.org/product/2-day-workshop-screenprinting-on-fabric-repeat-pattern",
-      "sourceUrl": "https://www.spikeprintstudio.org/courses/",
-      "image": "https://cdn.prod.website-files.com/65df3cd40bcc1fe8a1f2356e/693feb4c57b42de3b6c10dc5_textiles2dayimageES.jpg",
-      "price": {
-        "free": false,
-        "text": "£236.50",
-        "min": 236.5,
-        "currency": "GBP"
-      },
-      "tags": [
-        "courses",
-        "printmaking",
-        "textiles",
-        "hands-on"
-      ],
-      "raw": "**5 Week Screenprinting on FABRIC (Repeat Pattern)** — 3 November to 1\nDecember 2026, Tuesdays 1:30pm-4:30pm. £236.50.\n",
-      "summary": "Five Tuesday afternoons printing repeat patterns onto cloth — the registration problem that makes fabric printing its own discipline.",
-      "confidence": "high",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
-    },
-    {
-      "id": "making/spike-print-studio#6362722a63",
-      "sourceId": "making/spike-print-studio",
-      "sourceName": "Spike Print Studio",
-      "category": "making",
-      "categoryLabel": "Making & Craft",
-      "title": "1 Year Extended Illustration - Drawing, Print & Play (Portfolio Course)",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Tuesdays 13:30-16:30, 22 September 2026 - 6 July 2027"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "venueName": "Spike Print Studio",
-      "area": "Spike Island",
-      "url": "https://www.spikeprintstudio.org/product/1-year-extended-illustration---drawing-print-play-portfolio-course",
-      "sourceUrl": "https://www.spikeprintstudio.org/courses/",
-      "image": "https://cdn.prod.website-files.com/65df3cd40bcc1fe8a1f2356e/67fcd6ee40064a3edfe5a6fd_for%20web%20illus%2024%2025%2000.jpg",
-      "price": {
-        "free": false,
-        "text": "£1,525",
-        "min": 1525,
-        "currency": "GBP"
-      },
-      "tags": [
-        "courses",
-        "printmaking",
-        "hands-on"
-      ],
-      "raw": "**1 Year Extended Illustration - Drawing, Print & Play (Portfolio\nCourse)** — 22 September 2026 to 6 July 2027, Tuesdays 1:30-4:30pm.\n£1,525.\n",
-      "summary": "A year of Tuesday afternoons pushing illustration through drawing and print, with room to experiment rather than produce to brief.",
-      "confidence": "high",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
-    },
-    {
       "id": "making/spike-print-studio#6e2d1c0036",
       "sourceId": "making/spike-print-studio",
       "sourceName": "Spike Print Studio",
@@ -148915,112 +147494,6 @@
       ],
       "raw": "**10 Week Beginners Screenprinting** — 21 September to 30 November\n2026, Mondays 1:30-4:30pm. £382.50.\n",
       "summary": "The daytime sitting of Spike's ten-week beginners screenprinting course, on Monday afternoons through the autumn term.",
-      "confidence": "high",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
-    },
-    {
-      "id": "making/spike-print-studio#8ddcf80336",
-      "sourceId": "making/spike-print-studio",
-      "sourceName": "Spike Print Studio",
-      "category": "making",
-      "categoryLabel": "Making & Craft",
-      "title": "1 Year Intaglio | Etching (Portfolio Course)",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Mondays 18:00-21:00, 21 September 2026 - 5 July 2027"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "venueName": "Spike Print Studio",
-      "area": "Spike Island",
-      "url": "https://www.spikeprintstudio.org/product/1-year-intaglio-portfolio-course",
-      "sourceUrl": "https://www.spikeprintstudio.org/courses/",
-      "image": "https://cdn.prod.website-files.com/65df3cd40bcc1fe8a1f2356e/6a0af5d3b1a17b8f2b5b45c8_Etching%20room.jpg",
-      "price": {
-        "free": false,
-        "text": "£1,525",
-        "min": 1525,
-        "currency": "GBP"
-      },
-      "tags": [
-        "courses",
-        "printmaking",
-        "hands-on"
-      ],
-      "raw": "**1 Year Intaglio | Etching (Portfolio Course)** — 21 September 2026 to\n5 July 2027, Mondays 6pm-9pm. £1,525.\n",
-      "summary": "A full academic year of Monday evenings building an etching portfolio in Spike's intaglio room, for people who want to go deep rather than dabble.",
-      "confidence": "high",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
-    },
-    {
-      "id": "making/spike-print-studio#b2f5e9d2bc",
-      "sourceId": "making/spike-print-studio",
-      "sourceName": "Spike Print Studio",
-      "category": "making",
-      "categoryLabel": "Making & Craft",
-      "title": "1 Year In Textiles Printmaking (Portfolio Course)",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Mondays 09:30-12:30, 21 September 2026 - 5 July 2027"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "venueName": "Spike Print Studio",
-      "area": "Spike Island",
-      "url": "https://www.spikeprintstudio.org/product/1-year-in-textiles-printmaking-portfolio-course",
-      "sourceUrl": "https://www.spikeprintstudio.org/courses/",
-      "image": "https://cdn.prod.website-files.com/65df3cd40bcc1fe8a1f2356e/67fcd677934ea4e660cf3b24_for%20web%20textiles%2024%2025%2001%20.jpg",
-      "price": {
-        "free": false,
-        "text": "£1,525",
-        "min": 1525,
-        "currency": "GBP"
-      },
-      "tags": [
-        "courses",
-        "printmaking",
-        "textiles",
-        "hands-on"
-      ],
-      "raw": "**1 Year In Textiles Printmaking (Portfolio Course)** — 21 September\n2026 to 5 July 2027, Mondays 9:30am-12:30pm. £1,525.\n",
-      "summary": "A year-long Monday morning course applying print processes to cloth, for people working toward a textiles portfolio.",
-      "confidence": "high",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
-    },
-    {
-      "id": "making/spike-print-studio#ecc00c04d3",
-      "sourceId": "making/spike-print-studio",
-      "sourceName": "Spike Print Studio",
-      "category": "making",
-      "categoryLabel": "Making & Craft",
-      "title": "1 Year In Print (Portfolio Course)",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Mondays 09:30-12:30, 21 September 2026 - 5 July 2027"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "venueName": "Spike Print Studio",
-      "area": "Spike Island",
-      "url": "https://www.spikeprintstudio.org/product/1-year-in-print-portfolio-course",
-      "sourceUrl": "https://www.spikeprintstudio.org/courses/",
-      "image": "https://cdn.prod.website-files.com/65df3cd40bcc1fe8a1f2356e/67fcd61685ab802de63517b4_for%20web%20SPS%20Process%20%26%20Equipment%2001%20Jo%20Hounsome%20Photography.jpg",
-      "price": {
-        "free": false,
-        "text": "£1,525",
-        "min": 1525,
-        "currency": "GBP"
-      },
-      "tags": [
-        "courses",
-        "printmaking",
-        "hands-on"
-      ],
-      "raw": "**1 Year In Print (Portfolio Course)** — 21 September 2026 to 5 July\n2027, Mondays 9:30am-12:30pm. £1,525.\n",
-      "summary": "A year of Monday mornings across Spike's print processes, ending with a portfolio rather than a single print.",
       "confidence": "high",
       "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-16"
@@ -149102,163 +147575,6 @@
       "lastSeen": "2026-08-28"
     },
     {
-      "id": "making/the-island#44d772e65d",
-      "sourceId": "making/the-island",
-      "sourceName": "The Island (Artspace Lifespace)",
-      "category": "making",
-      "categoryLabel": "Making & Craft",
-      "subcategory": "Circus Class",
-      "title": "Improvers Aerial Hoop",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Wednesdays 20:00 — listed as 'Wednesday 19th Aug – 8:00 pm'",
-        "startTime": "20:00"
-      },
-      "status": "scheduled",
-      "state": "listed",
-      "venueName": "The Island (Artspace Lifespace)",
-      "area": "Old City",
-      "url": "https://artspace.uk/event/improvers-aerial-hoop/",
-      "sourceUrl": "https://artspace.uk/events-home/",
-      "image": "https://artspace.uk/wp-content/uploads/2024/04/Improvers-Hoop.png",
-      "price": {
-        "free": false,
-        "text": "£15",
-        "min": 15,
-        "max": 15,
-        "currency": "GBP"
-      },
-      "tags": [
-        "circus",
-        "courses",
-        "drop-in",
-        "hands-on",
-        "weekly"
-      ],
-      "raw": "**Improvers Aerial Hoop** — Circus Class, £15. Listed as \"Wednesday\n19th Aug – 8:00 pm\". Distinct from the Friday \"IMPROVERS AERIAL HOOP\nCOURSE\" card at /improvers-aerial-hoop-course/.\n",
-      "summary": "The late Wednesday improvers' aerial hoop class, for people past beginner level.",
-      "confidence": "medium",
-      "alsoListedBy": [],
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-28"
-    },
-    {
-      "id": "making/the-island#4ab5dd5bfb",
-      "sourceId": "making/the-island",
-      "sourceName": "The Island (Artspace Lifespace)",
-      "category": "making",
-      "categoryLabel": "Making & Craft",
-      "title": "Contemporary Technique - 3rd Stage Dance Company",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Listed as \"Thursday 20th Aug - 7:00 pm\"; weekly class"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "venueName": "The Island (Artspace Lifespace)",
-      "area": "Old City",
-      "url": "https://artspace.uk/event/open-contemporary-3rd-stage-dance-company/",
-      "sourceUrl": "https://artspace.uk/events-home/",
-      "image": "https://artspace.uk/wp-content/uploads/2021/05/3SDC-Contemporary-e1697632948827-285x300.jpeg",
-      "price": {
-        "free": false,
-        "text": "£10",
-        "min": 10,
-        "currency": "GBP"
-      },
-      "tags": [
-        "dance",
-        "drop-in"
-      ],
-      "raw": "**Contemporary Technique – 3rd Stage Dance Company** — Thursday 20th\nAug – 7:00 pm. £10. Modern contemporary technique from a professional\ndance company.\n",
-      "summary": "An open contemporary technique class on Thursday evenings, taught by 3rd Stage Dance Company.",
-      "confidence": "medium",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
-    },
-    {
-      "id": "making/the-island#4d259a0447",
-      "sourceId": "making/the-island",
-      "sourceName": "The Island (Artspace Lifespace)",
-      "category": "making",
-      "categoryLabel": "Making & Craft",
-      "subcategory": "Dance Class",
-      "title": "Commercial Latin For Beginners",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Tuesdays 18:00 — listed as 'Tuesday 18th Aug – 6:00 pm'",
-        "startTime": "18:00"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "venueName": "The Island (Artspace Lifespace)",
-      "area": "Old City",
-      "url": "https://artspace.uk/event/commercial-latin-for-beginners/",
-      "sourceUrl": "https://artspace.uk/events-home/",
-      "image": "https://artspace.uk/wp-content/uploads/2024/01/1612877255188-Iris-Hernandez-Cabrera-e1704792356392.jpg",
-      "price": {
-        "free": false,
-        "text": "£9",
-        "min": 9,
-        "max": 9,
-        "currency": "GBP"
-      },
-      "tags": [
-        "beginners",
-        "dance",
-        "drop-in",
-        "weekly"
-      ],
-      "raw": "**Commercial Latin For Beginners** — Dance Class, £9. Listed as\n\"Tuesday 18th Aug – 6:00 pm\".\n",
-      "summary": "Beginners' commercial Latin on Tuesday evenings.",
-      "confidence": "medium",
-      "alsoListedBy": [],
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-17"
-    },
-    {
-      "id": "making/the-island#51f3954e07",
-      "sourceId": "making/the-island",
-      "sourceName": "The Island (Artspace Lifespace)",
-      "category": "making",
-      "categoryLabel": "Making & Craft",
-      "subcategory": "Dance Class",
-      "title": "Open Ballroom/Vogue Sessions",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Mondays 19:00 — listed as 'Today – 7:00 pm' on Monday 17 August 2026",
-        "startTime": "19:00"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "venueName": "The Island (Artspace Lifespace)",
-      "area": "Old City",
-      "url": "https://artspace.uk/event/open-ballroom-vogue-sessions/",
-      "sourceUrl": "https://artspace.uk/events-home/",
-      "image": "https://artspace.uk/wp-content/uploads/2021/05/image0-2-e1733138141849.jpeg",
-      "price": {
-        "free": false,
-        "text": "£6",
-        "min": 6,
-        "max": 6,
-        "currency": "GBP"
-      },
-      "tags": [
-        "beginners",
-        "community",
-        "dance",
-        "drop-in",
-        "lgbtq",
-        "weekly"
-      ],
-      "raw": "**Open Ballroom/Vogue Sessions** — Dance Class, £6. Listed as \"Today –\n7:00 pm\" on Monday 17 August 2026.\n",
-      "summary": "The cheapest thing on the timetable — open ballroom and vogue sessions on Monday evenings.",
-      "confidence": "medium",
-      "alsoListedBy": [],
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-17"
-    },
-    {
       "id": "making/the-island#57ea5de116",
       "sourceId": "making/the-island",
       "sourceName": "The Island (Artspace Lifespace)",
@@ -149295,49 +147611,8 @@
       "summary": "Friday evening aerial hoop for people past the introduction stage, at The Island.",
       "confidence": "medium",
       "alsoListedBy": [],
-      "duplicateOf": "making/the-island#44d772e65d",
-      "duplicateScore": 0.65,
       "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
-    },
-    {
-      "id": "making/the-island#65b25fb8bc",
-      "sourceId": "making/the-island",
-      "sourceName": "The Island (Artspace Lifespace)",
-      "category": "making",
-      "categoryLabel": "Making & Craft",
-      "subcategory": "Dance Class",
-      "title": "Advanced Ballet",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Mondays 12:30 — listed as 'Today – 12:30 pm' on Monday 17 August 2026",
-        "startTime": "12:30"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "venueName": "The Island (Artspace Lifespace)",
-      "area": "Old City",
-      "url": "https://artspace.uk/event/advanced-ballet/",
-      "sourceUrl": "https://artspace.uk/events-home/",
-      "image": "https://artspace.uk/wp-content/uploads/2021/08/50221060_2427995490607521_8789483737554354176_n-e1697633392335.png",
-      "price": {
-        "free": false,
-        "text": "£10",
-        "min": 10,
-        "max": 10,
-        "currency": "GBP"
-      },
-      "tags": [
-        "dance",
-        "drop-in",
-        "weekly"
-      ],
-      "raw": "**Advanced Ballet** — Dance Class, £10. Listed as \"Today – 12:30 pm\"\non Monday 17 August 2026.\n",
-      "summary": "Advanced ballet on Monday lunchtimes, straight after the beginners' class.",
-      "confidence": "medium",
-      "alsoListedBy": [],
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-17"
     },
     {
       "id": "making/the-island#67eaf41389",
@@ -149421,126 +147696,6 @@
       "alsoListedBy": [],
       "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
-    },
-    {
-      "id": "making/the-island#7943206819",
-      "sourceId": "making/the-island",
-      "sourceName": "The Island (Artspace Lifespace)",
-      "category": "making",
-      "categoryLabel": "Making & Craft",
-      "subcategory": "Circus Class",
-      "title": "Aerial Silks Class with Miss Radida (Thursdays)",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Thursdays 18:00 — the title states Thursdays; listed as 'Thursday 20th Aug – 6:00 pm'",
-        "startTime": "18:00"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "venueName": "The Island (Artspace Lifespace)",
-      "area": "Old City",
-      "url": "https://artspace.uk/event/aerial-silks-class-with-miss-radida-thursdays/",
-      "sourceUrl": "https://artspace.uk/events-home/",
-      "image": "https://artspace.uk/wp-content/uploads/2021/05/Rada-silks-pic-1-e1697632365478.jpg",
-      "price": {
-        "free": false,
-        "text": "£15",
-        "min": 15,
-        "max": 15,
-        "currency": "GBP"
-      },
-      "tags": [
-        "circus",
-        "drop-in",
-        "hands-on",
-        "weekly"
-      ],
-      "raw": "**Aerial Silks Class with Miss Radida (Thursdays)** — Circus Class,\n£15. Listed as \"Thursday 20th Aug – 6:00 pm\"; the class title itself\nstates the weekly Thursday slot.\n",
-      "summary": "Aerial silks with Miss Radida, the class whose own title pins it to Thursday evenings.",
-      "confidence": "high",
-      "alsoListedBy": [],
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-17"
-    },
-    {
-      "id": "making/the-island#811cfbbe16",
-      "sourceId": "making/the-island",
-      "sourceName": "The Island (Artspace Lifespace)",
-      "category": "making",
-      "categoryLabel": "Making & Craft",
-      "subcategory": "Dance Class",
-      "title": "ICPAS Community Dance Classes",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Sundays 15:00 — listed as 'Sunday 23rd Aug – 3:00 pm'",
-        "startTime": "15:00"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "venueName": "The Island (Artspace Lifespace)",
-      "area": "Old City",
-      "url": "https://artspace.uk/event/icpas-community-dance-classes/",
-      "sourceUrl": "https://artspace.uk/events-home/",
-      "image": "https://artspace.uk/wp-content/uploads/2026/08/IPCASBaishaliGuha-crop-300x300.jpeg",
-      "price": {
-        "free": false,
-        "text": "£12",
-        "min": 12,
-        "max": 12,
-        "currency": "GBP"
-      },
-      "tags": [
-        "community",
-        "dance",
-        "drop-in",
-        "weekly"
-      ],
-      "raw": "**ICPAS Community Dance Classes** — Dance Class, £12. Listed as\n\"Sunday 23rd Aug – 3:00 pm\".\n",
-      "summary": "ICPAS community dance on Sunday afternoons, the one weekend class on the timetable.",
-      "confidence": "medium",
-      "alsoListedBy": [],
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-17"
-    },
-    {
-      "id": "making/the-island#8a338aa3ee",
-      "sourceId": "making/the-island",
-      "sourceName": "The Island (Artspace Lifespace)",
-      "category": "making",
-      "categoryLabel": "Making & Craft",
-      "subcategory": "Dance Class",
-      "title": "Beginner's Ballet",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Mondays 11:00 — listed as 'Today – 11:00 am' on Monday 17 August 2026",
-        "startTime": "11:00"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "venueName": "The Island (Artspace Lifespace)",
-      "area": "Old City",
-      "url": "https://artspace.uk/event/beginners-ballet/",
-      "sourceUrl": "https://artspace.uk/events-home/",
-      "image": "https://artspace.uk/wp-content/uploads/2021/08/etienne-boulanger-_k2ShezHMlw-unsplash-1-scaled-e1697633335152.jpg",
-      "price": {
-        "free": false,
-        "text": "£10",
-        "min": 10,
-        "max": 10,
-        "currency": "GBP"
-      },
-      "tags": [
-        "beginners",
-        "dance",
-        "drop-in",
-        "weekly"
-      ],
-      "raw": "**Beginner's Ballet** — Dance Class, £10. Listed as \"Today – 11:00 am\"\non Monday 17 August 2026.\n",
-      "summary": "A Monday late-morning ballet class for beginners at The Island.",
-      "confidence": "medium",
-      "alsoListedBy": [],
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-17"
     },
     {
       "id": "making/the-island#995772bbb9",
@@ -149778,40 +147933,6 @@
       "alsoListedBy": [],
       "firstSeen": "2026-08-16",
       "lastSeen": "2026-08-28"
-    },
-    {
-      "id": "making/the-island#f46fa72cde",
-      "sourceId": "making/the-island",
-      "sourceName": "The Island (Artspace Lifespace)",
-      "category": "making",
-      "categoryLabel": "Making & Craft",
-      "title": "Intermediate Ballet - 3rd Stage Dance Company",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Listed as \"Wednesday 19th Aug - 7:30 pm\"; weekly class"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "venueName": "The Island (Artspace Lifespace)",
-      "area": "Old City",
-      "url": "https://artspace.uk/event/intermediate-ballet/",
-      "sourceUrl": "https://artspace.uk/events-home/",
-      "image": "https://artspace.uk/wp-content/uploads/2021/05/3SDC-Ballet-e1697632843440-281x300.jpeg",
-      "price": {
-        "free": false,
-        "text": "£10",
-        "min": 10,
-        "currency": "GBP"
-      },
-      "tags": [
-        "dance",
-        "drop-in"
-      ],
-      "raw": "**Intermediate Ballet – 3rd Stage Dance Company** — Wednesday 19th Aug\n– 7:30 pm. £10. Mid-level ballet instruction from an established dance\ncompany.\n",
-      "summary": "A Wednesday evening intermediate ballet class taught by 3rd Stage Dance Company.",
-      "confidence": "medium",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
     },
     {
       "id": "making/the-island#faf820320f",
@@ -150748,43 +148869,6 @@
       "lastSeen": "2026-08-28"
     },
     {
-      "id": "museums/we-the-curious#a98949368d",
-      "sourceId": "museums/we-the-curious",
-      "sourceName": "We The Curious",
-      "category": "museums",
-      "categoryLabel": "Museums & Heritage",
-      "title": "Play Fridays",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Special monthly sessions"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "venueName": "We The Curious",
-      "area": "Harbourside",
-      "address": {
-        "street": "One Millennium Square, Anchor Road",
-        "city": "Bristol",
-        "postcode": "BS1 5DB",
-        "lat": 51.450363,
-        "lon": -2.600511
-      },
-      "url": "https://www.wethecurious.org/whats-on/events/play-fridays",
-      "sourceUrl": "https://www.wethecurious.org/whats-on/events",
-      "image": "https://www.wethecurious.org/sites/default/files/styles/listing_s/public/2024-09/impossibleplants.jpg.webp",
-      "tags": [
-        "family",
-        "kids",
-        "hands-on",
-        "drop-in"
-      ],
-      "raw": "**Play Fridays**\n\nSpecial monthly sessions for families with children under 5 focusing on\nsensory play.\n",
-      "summary": "A monthly sensory-play morning aimed squarely at under-fives and the people bringing them.",
-      "confidence": "medium",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
-    },
-    {
       "id": "music/bristol-beacon#175db93d72",
       "sourceId": "music/bristol-beacon",
       "sourceName": "Bristol Beacon",
@@ -151421,41 +149505,6 @@
       "confidence": "high",
       "firstSeen": "2026-08-17",
       "lastSeen": "2026-08-17"
-    },
-    {
-      "id": "music/thekla#a79650eb40",
-      "sourceId": "music/thekla",
-      "sourceName": "Thekla",
-      "category": "music",
-      "categoryLabel": "Music",
-      "subcategory": "Club",
-      "title": "Pop Confessional",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Every Saturday Night"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "venueName": "Thekla",
-      "area": "Harbourside",
-      "address": {
-        "street": "The Grove, East Mud Dock",
-        "city": "Bristol",
-        "postcode": "BS1 4RB",
-        "lat": 51.448977,
-        "lon": -2.594184
-      },
-      "url": "https://www.theklabristol.co.uk/club-nights/pop-confessional-2/",
-      "sourceUrl": "https://www.theklabristol.co.uk/",
-      "tags": [
-        "club-night",
-        "18-plus"
-      ],
-      "raw": "**Pop Confessional** — Every Saturday Night.\n",
-      "summary": "Thekla's long-running Saturday pop club night, listed as a weekly fixture.",
-      "confidence": "high",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
     },
     {
       "id": "outdoors/ashton-court#60576c389a",
@@ -152533,47 +150582,6 @@
       "alsoListedBy": [],
       "firstSeen": "2026-08-16",
       "lastSeen": "2026-09-11"
-    },
-    {
-      "id": "theatre/wardrobe-theatre#3aa631aae4",
-      "sourceId": "theatre/wardrobe-theatre",
-      "sourceName": "The Wardrobe Theatre",
-      "category": "theatre",
-      "categoryLabel": "Theatre",
-      "title": "Aftermirth: Daytime Comedy Club for New Parents",
-      "occurrence": {
-        "kind": "recurring",
-        "pattern": "Thu 13th Aug 2026 & monthly Thursdays",
-        "startTime": "10:45"
-      },
-      "status": "scheduled",
-      "state": "carried",
-      "venueName": "The Wardrobe Theatre",
-      "area": "Old Market",
-      "address": {
-        "lat": 51.45708,
-        "lon": -2.579296
-      },
-      "url": "https://thewardrobetheatre.com/shows/aftermirth-daytime-comedy-club-for-new-parents/",
-      "sourceUrl": "https://thewardrobetheatre.com/",
-      "image": "https://thewardrobetheatre.com/wp-content/uploads/2024/03/Aftermirth-2.jpg",
-      "price": {
-        "free": false,
-        "text": "£15 (babies go free)",
-        "min": 15,
-        "max": 15,
-        "currency": "GBP"
-      },
-      "tags": [
-        "comedy",
-        "stand-up",
-        "family"
-      ],
-      "raw": "**Aftermirth: Daytime Comedy Club for New Parents** — Thu 13th Aug 2026 &\nMonthly Thursdays, 10.45am. £15 (babies go free).\n",
-      "summary": "A monthly late-morning stand-up club where new parents can bring their babies in with them; babies get in free.",
-      "confidence": "high",
-      "firstSeen": "2026-08-16",
-      "lastSeen": "2026-08-16"
     }
   ]
 }

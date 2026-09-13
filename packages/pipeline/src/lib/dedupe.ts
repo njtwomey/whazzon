@@ -321,6 +321,39 @@ function titlesMatch(a: SnapshotEvent, b: SnapshotEvent): boolean {
   return x === y || x.includes(y) || y.includes(x);
 }
 
+const SPAN_KINDS = new Set(["run", "recurring", "ongoing"]);
+
+/**
+ * The stranded-row signature: one row is current, the other is an older read
+ * of the same page that the fold could not connect to it. The id changed
+ * because the title was tweaked, or because the agent encoded the occurrence
+ * differently — a course as `recurring` one month and `run` the next, a
+ * monthly workshop with and without an end date. Same page, same title, one
+ * read superseding another.
+ *
+ * Two `single`s with an identical title are the one shape this must not
+ * touch: the same title on two dates is two occurrences — a comedian's two
+ * nights, three fixtures on one page. Where those share a date, the same-day
+ * rule already has them. A *tweaked* title on a single is different: that is
+ * an aggregator re-describing one event, and its dates are not to be trusted.
+ */
+function isSuperseded(a: SnapshotEvent, b: SnapshotEvent): boolean {
+  const asymmetric = (a.state === "listed") !== (b.state === "listed");
+  const bothSingle = a.occurrence.kind === "single" && b.occurrence.kind === "single";
+  if (bothSingle && a.title === b.title) return false;
+  return asymmetric && titlesMatch(a, b);
+}
+
+/** Two spans with the same title ending the same day are one span. */
+function isSameSpan(a: SnapshotEvent, b: SnapshotEvent): boolean {
+  return (
+    SPAN_KINDS.has(a.occurrence.kind) &&
+    SPAN_KINDS.has(b.occurrence.kind) &&
+    a.endDate === b.endDate &&
+    titlesMatch(a, b)
+  );
+}
+
 export interface DropResult {
   events: SnapshotEvent[];
   /** Rows removed outright. */
@@ -384,15 +417,28 @@ export function dropExactDuplicates(
     const before = gone.size;
     let survivors = [...group].sort(precedence);
 
-    // A source that lists this page now, under a tweaked title, supersedes its
-    // own stranded row for it. The tweak is the signature: the same title on
-    // another date is another occurrence — three cricket fixtures on one page,
-    // a comedian's two dates — and stays.
+    // One source, one page, two rows: the same event whenever
+    //
+    //   - one row is current and the other is an older read the fold could
+    //     not connect to it (`isSuperseded`) — a tweaked title, or the same
+    //     course encoded as `recurring` one month and `run` the next — or
+    //   - both rows are a span with the same title and the same end
+    //     (`isSameSpan`). A span's recorded start moves as the page's "from"
+    //     date rolls forward, which changes the id; the end does not, and two
+    //     spans on one page ending the same day are one span. The Old Vic's
+    //     theatre tours, 4 Sep and 11 Sep to 19 Dec.
+    //
+    // An identical title on two *single* dates is neither: it is another
+    // occurrence, and stays.
     for (const event of survivors) {
-      if (event.state !== "carried") continue;
+      if (gone.has(event.id)) continue;
       const winner = survivors.find(
         (e) =>
-          e.state === "listed" && e.sourceId === event.sourceId && e.title !== event.title && titlesMatch(e, event),
+          e !== event &&
+          !gone.has(e.id) &&
+          e.sourceId === event.sourceId &&
+          precedence(e, event) < 0 &&
+          (isSuperseded(e, event) || isSameSpan(e, event)),
       );
       if (!winner) continue;
       replaced.set(winner.id, absorb(replaced.get(winner.id) ?? winner, [event]));
